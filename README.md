@@ -1,0 +1,1 @@
+# git-integration-for-jira-self-managed-docs
