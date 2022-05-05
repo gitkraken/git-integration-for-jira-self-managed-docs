@@ -1,0 +1,34 @@
+---
+
+title: REST API
+description:
+taxonomy:
+    category: git-integration-for-jira-self-managed
+
+---
+
+# REST API
+
+<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/380764385/REST+API>
+
+* * *
+
+Welcome to the Git Integration for Jira app REST API reference page index.
+
+On this page, you will find the list of available REST APIs supported by the Git Integration for Jira app.  Click on a topic title to view its content or search through the related topics.
+
+ Search
+
+   
+
+* * *
+
+|     |     |
+| --- | --- |
+| ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/380764385/bbb-bulkchg-icon.png?version=1&modificationDate=1584763483594&cacheVersion=1&api=v2&width=102&height=76) | ### [**Bulk Change**](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/265846785)<br><br>The bulk change API extends the possibility of importing and exporting repository configuration by automating the process via scripts.<br><br>*   [Bulk Export Configuration](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/265125927)  –  The API returns a file with the plugin configuration.<br>    <br>*   [Bulk Import Configuration](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/265224236)  –  Starts the process of importing configuration and returns the ID of the importing thread.<br>    <br>*   [Getting Bulk Import Information](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/265388078)  –  Obtains information about the importing thread. |
+| ![](https://bigbrassband.atlassian.net/wiki/download/attachments/380764385/bbb-repoapi-icon.png?version=1&modificationDate=1584763483071&cacheVersion=1&api=v2) | ### [**Repository**](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/265846822)<br><br>The repository REST API allows query of the project repository list; as well as adding, updating and deleting repositories from the Git Integration app repository configuration.<br><br>*   [Retrieve Repository List](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/265846833)  –  Retrieves list of repositories mapped to a given project.<br>    <br>*   [Add New Repository](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/265519215)  –  Creates new repository from the given settings.<br>    <br>*   [Update Existing Repository](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/265486452)  –  Updates the existing repository from the given settings.<br>    <br>*   [Delete Existing Repository](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/268140582)  –  Deletes the existing repository from the Git Integration app repository configuration. |
+| ![](https://bigbrassband.atlassian.net/wiki/download/attachments/380764385/bbb-reindexapi-icon.png?version=1&modificationDate=1584763482792&cacheVersion=1&api=v2) | ### [**Reindex**](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/265027737)<br><br>Call the Reindex REST API to have more control on indexing.<br><br>*   [Reindex POST](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/265191520)  –  Starts the reindex process in a separate thread and returns the result immediately.<br>    <br>*   [Reindex GET](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/265191531)  –  Use this method to track messages for a particular thread. |
+| ![](https://bigbrassband.atlassian.net/wiki/download/attachments/380764385/bbb-commitsapi-icon.png?version=1&modificationDate=1584763482530&cacheVersion=1&api=v2) | ### [**Commits**](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/268140605)<br><br>*   [Get Commits](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/268042333)  –  Call the Get Commits API to obtain commit information associated with an issue.<br>    <br>*   [showFiles Commits](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/268140638)  –  Extend the Commits API to review which files changed related to a specific Jira issue.<br>    <br>*   [Get Commit Issue Changes](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/268140680) - Returns the list of issues associated with the commit from the specified repository.<br>    <br>*   [Update Commit Issue Changes](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/268042380) - Updates the list of issues associated with the commit to the specified repository. |
+| ![](https://bigbrassband.atlassian.net/wiki/download/attachments/380764385/bbb-branchesapi-icon.png?version=1&modificationDate=1584763482265&cacheVersion=1&api=v2) | ### [**Branches**](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/265224530)<br><br>Gets list of branches associated to a Jira issue. |
+| ![](https://bigbrassband.atlassian.net/wiki/download/attachments/380764385/bbb-tagsapi-icon.png?version=1&modificationDate=1584763481997&cacheVersion=1&api=v2) | ### [**Tags**](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/268140797)<br><br>Returns several latest tags for the issue.  Tags are sorted in chronological order from newest to oldest. |
+| ![](https://bigbrassband.atlassian.net/wiki/download/attachments/380764385/bbb-repoapi-icon.png?version=1&modificationDate=1584763483071&cacheVersion=1&api=v2) | ### [**Integration**](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/360808449)<br><br>The Integration API allows administrators to add or manage one or more repositories/integrations.<br><br>*   [Add New Integration](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/362741770/Add+New+Integration)  –  Adds a new integration to the git configuration list via the API call. <br>    <br>*   [Add New Integration Type](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/362774634)  –  Adds a new integration to the git configuration list via the API call using the supported integration types.<br>    <br>*   [Update Existing Integration](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/363266150/Update+Existing+Integration)  –  Updates the existing parameters of the specified integration.<br>    <br>*   [Remove Integration](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/363495609/Remove+Integration)  –  Deletes the existing integration from the Git Integration for Jira app repository configuration.<br>    <br>*   [Retrieve an Integration](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/362774763/Retrieve+an+Integration) – Retrieves the parameter details of an integration from the git repository configuration.<br>    <br>*   [Retrieve Integration List](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/365920272/Retrieve+Integration+List) – Retrieves the list of integrations and their respective parameter details from the git repository configuration. |
