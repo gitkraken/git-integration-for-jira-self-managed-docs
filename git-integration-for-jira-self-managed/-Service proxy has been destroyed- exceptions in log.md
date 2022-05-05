@@ -1,6 +1,6 @@
 ---
 
-title: "Service proxy has been destroyed" exceptions in log
+title: Service proxy has been destroyed exceptions in log
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed

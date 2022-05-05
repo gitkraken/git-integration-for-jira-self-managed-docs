@@ -1,6 +1,6 @@
 ---
 
-title: "Dangerous use of multiple connections" error on local database
+title: Dangerous use of multiple connections error on local database
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed
