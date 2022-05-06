@@ -1,6 +1,6 @@
 ---
 
-title: In the temp location, I see several jar files with different versions updated at the same time - What would be the procedure for cleaning them up?
+title: In the temp location, I see several jar files with different versions updated at the same time. What would be the procedure for cleaning them up?
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed

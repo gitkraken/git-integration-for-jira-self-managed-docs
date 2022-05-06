@@ -1,6 +1,6 @@
 ---
 
-title: The git commits are not showing on the Jira Activity Stream - Why?
+title: The git commits are not showing on the Jira Activity Stream. Why?
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed
