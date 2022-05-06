@@ -1,6 +1,6 @@
 ---
 
-title: I get the following error: "Host or port specified in are inaccessible". Do I also need a git instance on the Jira server?
+title: I get the following error - "Host or port specified in are inaccessible". Do I also need a git instance on the Jira server?
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed
