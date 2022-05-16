@@ -1,0 +1,169 @@
+/* BigBrassBand 2022 */
+/* shan */
+/* intended for WP dark mode */
+/* updated 05.17.2020 */
+
+div#imbox-v4, div#imboxv4 {
+  display: block;
+  position: relative;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: normal;
+  margin-bottom: 0px;
+  letter-spacing: -0.005em;
+  margin: 20px auto 24px auto;
+  width: 100%;
+  min-width: 200px;
+  padding: 10px;
+  min-height: 30px;
+  border: 2px solid rgba(222, 222, 222, 0.3);
+  text-indent: 0;
+  word-break: break-word;
+  overflow-wrap: break-word;
+  border-radius: 5px; }
+  div.imbox-grp #imbox-v4,
+  div.imbox-grp #imboxv4 {
+    margin: 0;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    max-width: 100%; }
+
+  div#imbox-v4 .irow,
+  div#imboxv4 .irow {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+    min-height: 30px;
+    height: 100%; }
+  div#imbox-v4 .ilogobox,
+  div#imboxv4 .ilogobox {
+    display: table-cell;
+    text-align: center;
+    padding: 5px 0 0 1px;
+    vertical-align: top;
+    width: 28px; }
+  div#imbox-v4 .imsgbox,
+  div#imboxv4 .imsgbox {
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    padding-left: 10px;
+    text-align: left;
+    word-break: break-word;
+    vertical-align: middle;
+    color: #1C1C1C !important; }
+  div#imbox-v4 .imsgbox .title,
+  div#imboxv4 .imsgbox .title {
+    font-weight: bold;
+    border-bottom: 1px solid #dcdcdc;
+    padding-bottom: 2px;
+    margin-bottom: 5px; }
+    div#imbox-v4.bxinfo .imsgbox .title,
+    div#imbox-v4.bxnote2 .imsgbox .title,
+    div#imboxv4.bxinfo .imsgbox .title,
+    div#imboxv4.note2 .imsgbox .title {
+      border-color: #ccc; }
+  div#imbox-v4 .irow .imsgbox code.mboxsh,
+  div#imboxv4 .irow .imsgbox code.mboxsh {
+    text-shadow: 1px 1px 1px rgba(255,255,255,0.95); }
+  div#imbox-v4 .irow .imsgbox code.mbox,
+  div#imboxv4 .irow .imsgbox code.mbox,
+  div#imbox-v4 .irow .imsgbox code,
+  div#imboxv4 .irow .imsgbox code {
+    font-size: 16px;
+    word-break: break-all;
+    text-align: left; }
+  div#imbox-v4.endbox,
+  div#imboxv4.endbox {
+    margin-bottom: 0; }
+div.bxinfo { /* infos */
+  background-color: rgb(200, 215, 254); }
+div.bxnote { /* notes */
+  background-color: rgb(161, 234, 242); }
+  div.bxnote2 { /* conf note */
+    background-color: rgb(234, 229, 254); }
+div.bxtip { /* tips */
+  background-color: rgb(227, 252, 239); }
+div.bxalert { /* alertx */
+  background-color: rgb(255, 251, 231); }
+div.bxerror {
+  background-color: rgb(255, 235, 230); }
+
+div#imbox-v4 .logoimg,
+div#imboxv4 .logoimg {
+  position: relative;
+  display: inline-block;
+  height: 20px;
+  width: 20px;
+  background-size: 20px 20px; }
+
+div.bxinfo .logoimg { background-image: url(../img/common/bbb-info-20.png); }
+div.bxnote .logoimg { background-image: url(../img/common/bbb-note2-20.png); }
+div.bxnote2 .logoimg { background-image: url(../img/common/bbb-note-20.png); }
+div.bxtip .logoimg { background-image: url(../img/common/bbb-tips2-20.png); }
+div.bxalert .logoimg { background-image: url(../img/common/bbb-alert-20.png); }
+div.bxerror .logoimg { background-image: url(../img/common/bbb-error-20.png); }
+
+div#imbox-v4 .logoimg2,
+div#imboxv4 .logoimg2 {
+  position: relative;
+  display: inline-block;
+  height: 16px;
+  width: 16px;
+  background-size: 16px 16px;
+  background-repeat: no-repeat;
+  text-align: right; }
+
+  div#imboxv4.bxnote .logoimg2,
+  div#imbox-v4.bxnote .logoimg2,
+  div#imboxv4.bxnote2 .logoimg2,
+  div#imbox-v4.bxnote2 .logoimg2 {
+    height: 16px;
+    width: 12px;
+    background-size: 12px 16px; }
+  div#imboxv4.bxalert .logoimg2,
+  div#imbox-v4.bxalert .logoimg2 {
+    height: 17px;
+    width: 18px;
+    background-size: 18px 17px; }
+
+div.bxinfo .logoimg2 { background-image: url(../img/common/conf-info-icon-16.png); }
+div.bxnote .logoimg2 { background-image: url(../img/common/conf-note-icon-16.png); }
+div.bxnote2 .logoimg2 { background-image: url(../img/common/conf-note2-icon-16.png); }
+div.bxtip .logoimg2 { background-image: url(../img/common/conf-tip-icon-16.png); }
+div.bxalert .logoimg2 { background-image: url(../img/common/conf-warning-icon-16.png); }
+div.bxerror .logoimg2 { background-image: url(../img/common/conf-error-icon-16.png); }
+
+div#imbox-v4.insidetable,
+div#imboxv4.insidetable {
+  margin-bottom: 5px; }
+
+div.imbox-list,
+div.imboxlist {
+  margin: 0; }
+  div.imbox-list.level2,
+  div.imboxlist.level2 {
+    padding-left: 80px; }
+  div.imbox-list.level3,
+  div.imboxlist.level3 {
+    padding-left: 120px; }
+
+  div#imboxv4 .nextpara,
+  div#imbox-v4 .nextpara {
+    margin-top: 5px; }
+  div#imboxv4 .nextpara:last-child,
+  div#imbox-v4 .nextpara:last-child {
+    margin-bottom: 0px; }
+  div#imboxv4 ol.mlist,
+  div#imbox-v4 ol.mlist {
+    margin: 8px 0 !important; }
+  div#imboxv4 ol.mlist li,
+  div#imbox-v4 ol.mlist li {
+    margin: 5px 0 !important; }
+.nextpara {
+  padding-top: 8px;
+}

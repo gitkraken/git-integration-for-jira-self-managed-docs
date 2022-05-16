@@ -7,22 +7,45 @@ category: git-integration-for-jira-self-managed
 
 ---
 
-# Integrate GitHub<!-- -->.com with Jira Data Center
+<link rel="stylesheet" type="text/css" href="css/imboxv4.css">
 
-![](./img/serverdc-integration-github/github-mobile-logo.png)
+# Integrate GitHub<!-- -->.com with Jira Server/Data Center
 
-Quickly learn how to connect GitHub<!-- -->.com git repositories via Git Integration for Jira Data Center app.  
+![](./img/serverdc-integration-github/github-mobile-logo-dark.png)
+\
+\
+Quickly learn how to connect GitHub<!-- -->.com git repositories via Git Integration for Jira Data Center app.
+<br>
 
-* * *
-![](./img/common/conf-tip-icon-16.png)&nbsp;&nbsp;These instructions apply to instances on Free, Team, Cloud Enterprise (including [**EMU**](https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users)) plans hosted on GitHub<!-- -->.com. For instructions on self-hosted GitHub Enterprise Server, please see [this page](Github%20Enterprise%20Server.md).
+<div id="imboxv4" class="bxtip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg">
+        </span>
+    </div>
+    <div class="imsgbox">
+        Ask your Git administrator if you need access to the Git repository just like a regular developer would have. To send an e-mail using the default email program to the Git administrator.
+    </div>
+    </div>
+</div>
 
-![](./img/common/conf-info-icon-16.png)&nbsp;&nbsp;Using **Jira Cloud**?  [See the corresponding article.](../git)
+<hr color=green>
+
+![](./img/common/bbb-tips2-20.png)&nbsp;These instructions apply to instances on Free, Team, Cloud Enterprise (including [**EMU**](https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users)) plans hosted on GitHub<!-- -->.com.
+
+<hr color=royalblue>
+
+![](./img/common/bbb-info-20.png)&nbsp;&nbsp;For instructions on self-hosted GitHub Enterprise Server, please see [this page](Github%20Enterprise%20Server.md).
+
+<hr color=royalblue>
+
+![](./img/common/bbb-info-20.png)&nbsp;&nbsp;Using **Jira Cloud**?  [See the corresponding article.](../../git-integration-for-jira-cloud-docs/git-integration-for-jira-cloud/github-com.md)
 
 * * *
 \
 [![Right click here and open the video in a new tab](./img/serverdc-integration-github/vid-thumb-github.png)](https://bigbrassband.wistia.com/medias/s26h3avwuo)
 
-_Watch the video guide by right clicking_ &nbsp;[![Right click here](./img/common/vid-play-icon.png)](https://bigbrassband.wistia.com/medias/s26h3avwuo) &nbsp;_and open this video in a new browser tab for more viewing options._
+_Watch the video guide by right clicking_ &nbsp;[![Right click here](./img/common/vid-play-icon-20.png)](https://bigbrassband.wistia.com/medias/s26h3avwuo) &nbsp;_and open this video in a new browser tab for more viewing options._
 
 ## Creating a personal access token
 
@@ -30,16 +53,17 @@ If two-factor authentication is enabled for your GitHub account, you will need t
 
 While instructions from GitHub works just fine, [follow this article](/wiki/spaces/GIJDC/pages/107380737/Creating+Personal+Access+Tokens) for some specific instructions to get you started.
 
-## Using Full feature integration
+## Using the Full feature integration
 
 This process requires an existing GitHub git repository.
 
 We recommend using the Add new integration panel (_formerly Auto-connect integration_) to connect multiple repositories from your GitHub<!-- -->.com account.
 
 This setup uses full feature integration offering functions and features not found on single repository connections.
+&nbsp;
+<hr color=tomato>
 
-* * *
-![](./img/common/conf-error-icon-16.png)&nbsp;&nbsp;On November 13, 2020, GitHub<!-- -->.com is going to stop allowing API authentication via username/password. For more information, see [**GitHub.com - Deprecating Password Authentication**](https://developer.github.com/changes/2020-02-14-deprecating-password-auth/).
+![](./img/common/bbb-error-20.png)&nbsp;&nbsp;On November 13, 2020, GitHub<!-- -->.com is going to stop allowing API authentication via username/password. For more information, see [**GitHub.com - Deprecating Password Authentication**](https://developer.github.com/changes/2020-02-14-deprecating-password-auth/).
 * * *
 \
 We strongly recommend to use personal access tokens for GitHub<!-- -->.com account integration.
@@ -48,7 +72,7 @@ We strongly recommend to use personal access tokens for GitHub<!-- -->.com accou
     
 2.  Click **GitHub<!-- -->.com** on the Add new integration panel. The Add new integration wizard dialog is displayed.
     
-    ![](./img/serverdc-integration-github/gitserver-42-connect-auto-ext-service-github-com(c).png?&width=659&height=467)
+    ![](./img/serverdc-integration-github/gitserver-connect-auto-ext-service-github-com(c).png?&width=659&height=467)
 3.  **GitHub<!-- -->.com and GitHub Enterprise Cloud** is selected by default. Paste the personal access token in the provided box.
     
     *  Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed.
@@ -97,8 +121,7 @@ We strongly recommend to use personal access tokens for GitHub<!-- -->.com accou
         
     *   Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Associating project permissions](#).
         
-8.  Click **Finish** to complete this setup.
-    
+7.  Click **Finish** to complete this setup.    
 
 The GitHub<!-- -->.com repositories are now connected to Jira Data Center.
 
@@ -106,15 +129,16 @@ There will be a slight delay in adding 2FA-enabled repositories compared to othe
 
 ## Single repository (Manual integration)
 
-* * *
-![](./img/common/conf-warn-icon-16.png)&nbsp; This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.
+<hr color=darkorange>
+
+![](./img/common/bbb-alert-20.png)&nbsp; This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.
 * * *
 \
 This process requires an existing GitHub git repository. Look for the GitHub repository URL on the repository project page.
 
 Choose between SSH or HTTPS. Use this information to connect the GitHub git repository to your Jira Data Center via Git Integration for Jira app:
 
-![](./img/serverdc-integration-github/github-repository-home-aug2020.png)
+![](./img/serverdc-integration-github/github-repository-home-dark.png)
 
 1.  On your Jira dashboard menu, go to Git ➜ **Manage repositories**.
     
@@ -146,7 +170,7 @@ Assign GitHub permissions for team members or collaborators to allow which resou
     
 5.  On your sidebar, click **Member Privileges**. The following screen is displayed.
     
-    ![](./img/serverdc-integration-github/github-org-repo-base-permissions(c).png)
+    ![](./img/serverdc-integration-github/github-org-repo-base-permissions-dark(c).png)
 6.  Under the **Base permissions**, click on the dropdown button.
     
     Choose the base permission level for organization members. The base repository permission only applies to organization members and not to outside collaborators. If the base permission is set to _**None**_, organization members will need to be given access to repositories using the _**Teams or Collaborators**_ methods (see below).
@@ -165,7 +189,7 @@ To give a member additional access, they must be added to a team or make them co
     
 2.  Click the **Repositories** tab.
     
-    ![](./img/serverdc-integration-github/github-org-repo-team-repo-permissions(c).png)
+    ![](./img/serverdc-integration-github/github-org-repo-team-repo-permissions-dark(c).png)
 
 3.  Set **Read**, **Write** or **Admin** repository access as desired.
 &nbsp;    
@@ -183,26 +207,34 @@ To give a member additional access, they must be added to a team or make them co
     
 3.  Click the service user to manage permissions for this member to:
     
-    *   Set desired Role for this member.
+    *   set the desired **Role** for this member.
         
-    *   Convert this member to outside collaborator.
+    *   convert this member to outside collaborator.
         
-    *   Give this member access to organization repositories.
+    *   give this member access to organization repositories.
         
-    *   Remove this member from the team.
+    *   remove this member from the team.
         
 4.  Click **Manage access** to manage repository access for this member.
     
     ![](./img/serverdc-integration-github/github-manage-team-repo-permission(c).png)
 
-![](./img/common/conf-note2-icon-16.png)&nbsp; **Organization permissions**  
+<hr color=darkturquoise>
+
+![](./img/common/bbb-note2-20.png)&nbsp; **Organization permissions**  
 While users have configured PAT for repository access, users in a GitHub Organization must at least have **Read** permissions. This allows them to view commits and smart commits, and browse repositories (if enabled) of connected GitHub Organization repositories inside Jira.
 
-![](./img/common/conf-info-icon-16.png)&nbsp; **GitHub Organization**  
+<hr color=royalblue>
+
+![](./img/common/bbb-info-20.png)&nbsp; **GitHub Organization**  
 For collaborators and commit authors, set these users to have **Write** permissions. This will allow them to view commits and smart commits, browse repositories and also enables them to create branches and pull requests to specified GitHub git repositories via developer panel of a Jira issue.
 
-![](./img/common/bbb-alert-24.png)&nbsp; The user PAT for "Require User PAT" setting should have **Write** permission. Otherwise, the user will not be able to use it for branch or pull request creation/deletion.
+<hr color=darkorange>
 
+![](./img/common/bbb-alert-20.png)&nbsp; The user PAT for "Require User PAT" setting should have **Write** permission. Otherwise, the user will not be able to use it for branch or pull request creation/deletion.
+
+* * *
+\
 For more information on organization teams, see [**GitHub: Organizing Members into Teams »**](https://help.github.com/articles/organizing-members-into-teams/).
 
 For more information on inviting collaborators, see [**Inviting Collaborators to a Personal/Organization Repository »**](https://help.github.com/articles/inviting-collaborators-to-a-personal-repository/).
@@ -332,3 +364,10 @@ The pull request is also ready for approval by the reviewers in your GitHub web 
 *   [Windows Network | Server Share](/wiki/spaces/GIJDC/pages/91881564/Windows+Network+%7C+Server+Share) (Git Integration for Jira Data Center)
     
 *   [Tracked Folders](/wiki/spaces/GIJDC/pages/91947120/Tracked+Folders) (Git Integration for Jira Data Center)
+
+[//]: # (image refs)
+[tipsicon]: ./img/common/bbb-tips2-20.png
+[info-icon]: ./img/common/bbb-info-20.png
+[alert-icon]: ./img/common/bbb-alert-20.png
+[note1-icon]: ./img/common/bbb-note1-20.png
+[error-icon]: ./img/common/bbb-error-20.png
