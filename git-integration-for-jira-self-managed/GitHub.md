@@ -2,7 +2,7 @@
 
 title: GitHub.com
 description:
-taxonomy:
+taxonomy: integrate connect github 
 category: git-integration-for-jira-self-managed
 
 ---
@@ -272,7 +272,11 @@ Click this text label to open the Setup PAT dialog and paste your personal acces
 
 ![Setup PAT dialog](./img/serverdc-integration-github/gitserver-setup-pat-dlg.png)
 
-Updating this dialog with a blank entry will remove the configured PAT for the current integration.
+<hr color=darkorange>
+
+![](./img/common/bbb-alert-20.png)&nbsp; Updating this dialog with a blank entry will remove the configured PAT for the current integration.
+
+* * *
 
 The Setup PAT dialog is also accessible via Repository Browser (dashboard menu Git ➜ **Repository browser**) ➜ Click the &nbsp; ![(edit icon)](./img/common/edit-icon-dark.png)&nbsp; icon under _**Pers. Access**_ column.
 
@@ -286,7 +290,11 @@ For GitHub Organization, the user must have the **Write** permissions and the�
 
 Most git integrations allow changing of the default branch of the repository/project other than "master".  This change is reflected in the Repository Settings of the Git Integration for Jira app on the next reindex. Full integration supports this function where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
-Main branch for repositories within an integration can only be changed on the git server.
+<hr color=darkorange>
+
+![](./img/common/bbb-alert-20.png)&nbsp; Main branch for repositories within an integration can only be changed on the git server.
+
+* * *
 
 ### Creating branches
 
@@ -306,7 +314,11 @@ On your Jira Data Center, open a Jira issue. On the Jira developer panel under 
     
 4.  Enter a **Branch name** or leave it as is (recommended).
     
-The Git Integration for Jira Data Center app gets the default branch from almost all integrations. However, the exception is with Gerrit which always has “master” as its default branch.
+<hr color=royalblue>
+
+![](./img/common/bbb-info-20.png)&nbsp; The Git Integration for Jira Data Center app gets the default branch from almost all integrations. However, the exception is with Gerrit which always has “master” as its default branch.
+
+* * *
 
 The newly-created branch is now listed in the developer panel under **Branches**. Perform a commit to the newly-created branch to be ready for merge.
 
@@ -330,8 +342,11 @@ The pull request feature works the same as merge request. On your Jira Data Cent
     
 5.  Enter a descriptive **Title** or leave it as is _(recommended)_.
     
+<hr color=green>
 
-**Preview** allows you to see the comparison view of the current changes in the selected **Source branch** vs **Target branch** (_usually_ _master_).
+![](./img/common/bbb-alert-20.png)&nbsp; **Preview** allows you to see the comparison view of the current changes in the selected **Source branch** vs **Target branch** (_usually_ _master_).
+
+* * *
 
 The pull request is listed on the developer panel of the Jira issue page.
 
@@ -364,10 +379,3 @@ The pull request is also ready for approval by the reviewers in your GitHub web 
 *   [Windows Network | Server Share](/wiki/spaces/GIJDC/pages/91881564/Windows+Network+%7C+Server+Share) (Git Integration for Jira Data Center)
     
 *   [Tracked Folders](/wiki/spaces/GIJDC/pages/91947120/Tracked+Folders) (Git Integration for Jira Data Center)
-
-[//]: # (image refs)
-[tipsicon]: ./img/common/bbb-tips2-20.png
-[info-icon]: ./img/common/bbb-info-20.png
-[alert-icon]: ./img/common/bbb-alert-20.png
-[note1-icon]: ./img/common/bbb-note1-20.png
-[error-icon]: ./img/common/bbb-error-20.png
