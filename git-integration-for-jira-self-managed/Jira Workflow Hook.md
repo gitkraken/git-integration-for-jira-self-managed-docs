@@ -18,7 +18,7 @@ For more information, see **[https://github.com/BigBrassBand/jira-git-workflow-
 
 *   Page:
 
-    [Webhooks](/wiki/spaces/GIJDC/pages/94142715/Webhooks)
+    [Webhooks](/git-integration-for-jira-self-managed/Webhooks)
 
 *   Page:
 

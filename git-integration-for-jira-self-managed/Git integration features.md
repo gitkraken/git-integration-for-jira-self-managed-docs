@@ -25,7 +25,7 @@ Enable/disable GitKraken deep linking feature on Jira issue development panel an
 
 ## Jira issue updates
 
-Enable/disable the setting to allow new commits to change the _Last Updated_ field.  Default is _**enabled**_.  For more information about this setting, see section [Reindexing – Reindex and updatedDate Filter](/wiki/spaces/GIJDC/pages/1930399289/Reindexing).
+Enable/disable the setting to allow new commits to change the _Last Updated_ field.  Default is _**enabled**_.  For more information about this setting, see section [Reindexing – Reindex and updatedDate Filter](/git-integration-for-jira-self-managed/Reindexing).
 
 Disabling this setting will improve Jira performance.
 

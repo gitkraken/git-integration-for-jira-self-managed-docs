@@ -16,7 +16,7 @@ On this page are relevant articles targeted for administrators.
 
 *   Page:
 
-    [Administration](/wiki/spaces/GIJDC/pages/753696938/Administration) (Git Integration for Jira Data Center)
+    [Administration](/git-integration-for-jira-self-managed/Administration) (Git Integration for Jira Data Center)
 
 *   Page:
 

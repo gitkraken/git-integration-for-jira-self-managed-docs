@@ -380,7 +380,7 @@ Click the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79b
 
 *   Page:
 
-    [Gerrit](/wiki/spaces/GIJDC/pages/91979855/Gerrit) (Git Integration for Jira Data Center)
+    [Gerrit](/git-integration-for-jira-self-managed/Gerrit) (Git Integration for Jira Data Center)
 
 *   Page:
 
@@ -388,7 +388,7 @@ Click the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79b
 
 *   Page:
 
-    [Bonobo](/wiki/spaces/GIJDC/pages/91947111/Bonobo) (Git Integration for Jira Data Center)
+    [Bonobo](/git-integration-for-jira-self-managed/Bonobo) (Git Integration for Jira Data Center)
 
 *   Page:
 

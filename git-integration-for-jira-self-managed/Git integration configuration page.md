@@ -40,7 +40,7 @@ On this page, you will be able to setup your git repositories and connect them t
 | --- |
 | ### Reindex all |
 | ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396951/gitserver-reindex-all.png?version=1&modificationDate=1630642816165&cacheVersion=1&api=v2) |
-| This function will perform a reindex queue of all integration in the repository list. Disabled integrations are ignored.<br><br>For more information on this topic, see [Reindexing](/wiki/spaces/GIJDC/pages/1930399289/Reindexing). |
+| This function will perform a reindex queue of all integration in the repository list. Disabled integrations are ignored.<br><br>For more information on this topic, see [Reindexing](/git-integration-for-jira-self-managed/Reindexing). |
 
 |     |
 | --- |

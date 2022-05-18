@@ -39,7 +39,7 @@ To perform the _showFiles Commits_ API call, the Jira user must have the permi
 
 *   Page:
 
-    [showFiles](/wiki/spaces/GIJDC/pages/380699289/showFiles) (Git Integration for Jira Data Center)
+    [showFiles](/git-integration-for-jira-self-managed/showFiles) (Git Integration for Jira Data Center)
 
 *   Page:
 

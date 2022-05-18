@@ -123,7 +123,7 @@ if err_msg:
 
 *   Page:
 
-    [Webhooks](/wiki/spaces/GIJDC/pages/94142715/Webhooks)
+    [Webhooks](/git-integration-for-jira-self-managed/Webhooks)
 
 *   Page:
 

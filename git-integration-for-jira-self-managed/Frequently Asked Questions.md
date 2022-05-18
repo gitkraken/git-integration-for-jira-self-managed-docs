@@ -23,13 +23,13 @@ Find answers to questions asked by Git Integration for Jira app users, workaroun
 
 
 
-[General](/wiki/spaces/GIJDC/pages/92110972/General)
+[General](/git-integration-for-jira-self-managed/General)
 
 Frequently asked questions by users in general
 
 
 
-[Developer](/wiki/spaces/GIJDC/pages/91914475/Developer)
+[Developer](/git-integration-for-jira-self-managed/Developer)
 
 Solutions targeted for developers
 
@@ -47,25 +47,25 @@ Solutions targeted for administrators
 
 
 
-[Repository](/wiki/spaces/GIJDC/pages/92176546/Repositories)
+[Repository](/git-integration-for-jira-self-managed/Repositories)
 
 Connect and configure git repositories
 
 
 
-[Workspace](/wiki/spaces/GIJDC/pages/91881595/Workspace)
+[Workspace](/git-integration-for-jira-self-managed/Workspace)
 
 Git Integration for Jira app user experience in Jira
 
 
 
-[SSH](/wiki/spaces/GIJDC/pages/92242079/SSH)
+[SSH](/git-integration-for-jira-self-managed/SSH)
 
 Git Integration for Jira app SSH connection in Jira
 
 
 
-[Logging](/wiki/spaces/GIJDC/pages/92242085/Logging)
+[Logging](/git-integration-for-jira-self-managed/Logging)
 
 Troubleshooting using Jira logs
 
@@ -83,7 +83,7 @@ Git Integration for Jira app topics for uninstall and reinstall
 
 
 
-[Support](/wiki/spaces/GIJDC/pages/190119953/Support)
+[Support](/git-integration-for-jira-self-managed/Support)
 
 Helpful topics related to Git Integration for Jira app support
 

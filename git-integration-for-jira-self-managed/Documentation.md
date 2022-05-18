@@ -22,8 +22,8 @@ Click on the next topic below to know more about the Git Integration app's admin
 
 |     |
 | --- |
-| ### [Introduction](/wiki/spaces/GIJDC/pages/1930395849/Introduction)<br><br>Learn the basic requirements to install the app.<br><br>See also [App platform and system permission requirements](/wiki/spaces/GIJDC/pages/408453129/Permissions). |
-| ### [Installation](/wiki/spaces/GIJDC/pages/1930395878/Installation)<br><br>Learn how to install the Git Integration for Jira app. The app supports UPM for automatic installation, manual installation or install via upload. |
+| ### [Introduction](/git-integration-for-jira-self-managed/Introduction)<br><br>Learn the basic requirements to install the app.<br><br>See also [App platform and system permission requirements](/git-integration-for-jira-self-managed/Permissions). |
+| ### [Installation](/git-integration-for-jira-self-managed/Installation)<br><br>Learn how to install the Git Integration for Jira app. The app supports UPM for automatic installation, manual installation or install via upload. |
 | ### [Managing license key](/wiki/spaces/GIJDC/pages/1930396028/Managing+license+key)<br><br>Learn how to install your trial or purchased license keys for Git Integration for Jira app. |
 | ### [Getting started for Git administrators](/wiki/spaces/GIJDC/pages/1930396073/Getting+started+for+Git+administrators)<br><br>Learn configuration and troubleshooting information for Jira and Git administrators. |
 | ### [Working with SSH keys](/wiki/spaces/GIJDC/pages/1930396577/Working+with+SSH+keys)<br><br>Learn how to integrate git repositories using SSH keys via Git Integration for Jira app. |
@@ -44,7 +44,7 @@ Click on the next topic below to know more about the Git Integration app's admin
 | ### [Jira project page](/wiki/spaces/GIJDC/pages/1930399252/Jira+project+page)<br><br>The Git Commits tab is added to the Jira project page. See more information about this feature. |
 | ### [Jira Git integration development panel](/wiki/spaces/GIJDC/pages/1930399012/Jira+Git+integration+development+panel)<br><br>The git links are added to the developer panel; create branches and pull/merge requests via the Jira issue page, etc. |
 | ### [Git tags](/git-integration-for-jira-self-managed/Git-tags)<br><br>See git tags support information and how to work with them. |
-| ### [Reindexing](/wiki/spaces/GIJDC/pages/1930399289/Reindexing)<br><br>Learn more about reindex, REST API, configuration and performance tuning. |
+| ### [Reindexing](/git-integration-for-jira-self-managed/Reindexing)<br><br>Learn more about reindex, REST API, configuration and performance tuning. |
 | ### [JQL searching](/git-integration-for-jira-self-managed/JQL-searching)<br><br>Learn how to use JQL and git context via the Jira search. |
 | ### [Integration webhooks](/git-integration-for-jira-self-managed/Integration-webhooks)<br><br>This page contains information on how to configure webhooks with Git Integration for Jira app and specific git hosts. |
 | ### [Jira Data Center (High availability and clustering)](/wiki/spaces/GIJDC/pages/1930399417)<br><br>See information about Jira Data Center support. |

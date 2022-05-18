@@ -72,7 +72,7 @@ The repository reindexing operations are initiated in the following cases:
 
 *   A scheduled reindexing (please see the "[Repository reindexing](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1207795958/Scheduled+jobs#Repository-reindexing)" option in the plugin "General settings" and [this article about Scheduled Jobs](/git-integration-for-jira-self-managed/Scheduling-Jobs) for more details).
 
-*   A webhook-based reindexing (please see [Webhooks](/wiki/spaces/GIJDC/pages/94142715/Webhooks) for more details).
+*   A webhook-based reindexing (please see [Webhooks](/git-integration-for-jira-self-managed/Webhooks) for more details).
 
 *   A manually called reindexing through the "[Reindex repository"/"Reindex integration"/"Reset index](/wiki/spaces/GIJDC/pages/1930397476/Managing+integration+via+Actions)" context menu items, or the "[Reindex all](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930396951/Git+integration+configuration+page#Reindex-all)" button.
 
@@ -250,7 +250,7 @@ When troubleshooting indexing issues it may be useful to [enable the logging](/w
 
 *   Page:
 
-    [Reindexing](/wiki/spaces/GIJDC/pages/1930399289/Reindexing)
+    [Reindexing](/git-integration-for-jira-self-managed/Reindexing)
 
 *   Page:
 
@@ -258,7 +258,7 @@ When troubleshooting indexing issues it may be useful to [enable the logging](/w
 
 *   Page:
 
-    [Webhooks](/wiki/spaces/GIJDC/pages/94142715/Webhooks)
+    [Webhooks](/git-integration-for-jira-self-managed/Webhooks)
 
 *   Page:
 

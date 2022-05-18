@@ -61,7 +61,7 @@ There are two types of users who can perform the Get Commit Issue Changes API ca
 
 *   Page:
 
-    [showFiles](/wiki/spaces/GIJDC/pages/380699289/showFiles) (Git Integration for Jira Data Center)
+    [showFiles](/git-integration-for-jira-self-managed/showFiles) (Git Integration for Jira Data Center)
 
 *   Page:
 

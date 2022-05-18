@@ -367,11 +367,11 @@ The pull request is also ready for approval by the reviewers in your GitHub web 
 
 *   [AWS CodeCommit](/git-integration-for-jira-self-managed/AWS-CodeCommit) (Git Integration for Jira Data Center)
 
-*   [Gerrit](/wiki/spaces/GIJDC/pages/91979855/Gerrit) (Git Integration for Jira Data Center)
+*   [Gerrit](/git-integration-for-jira-self-managed/Gerrit) (Git Integration for Jira Data Center)
 
 *   [Bitbucket Server](/git-integration-for-jira-self-managed/Bitbucket-Server) (Git Integration for Jira Data Center)
 
-*   [Bonobo](/wiki/spaces/GIJDC/pages/91947111/Bonobo) (Git Integration for Jira Data Center)
+*   [Bonobo](/git-integration-for-jira-self-managed/Bonobo) (Git Integration for Jira Data Center)
 
 *   [Windows Network | Server Share](/wiki/spaces/GIJDC/pages/91881564/Windows+Network+%7C+Server+Share) (Git Integration for Jira Data Center)
 

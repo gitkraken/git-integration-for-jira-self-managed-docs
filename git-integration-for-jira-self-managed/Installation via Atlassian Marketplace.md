@@ -14,7 +14,7 @@ taxonomy:
 3.  Login to your Jira account, if required, to proceed installation of the app. The license key is automatically configured into the app configuration for free trial licenses. For purchased license keys, see [Managing license key](/wiki/spaces/GIJDC/pages/1930396028/Managing+license+key).
 
 
-[« Installation (index)](/wiki/spaces/GIJDC/pages/1930395878/Installation)
+[« Installation (index)](/git-integration-for-jira-self-managed/Installation)
 
 [Installation via Jira Plugin Manager »](/wiki/spaces/GIJDC/pages/1930395928/Installation+via+Jira+Plugin+Manager)
 

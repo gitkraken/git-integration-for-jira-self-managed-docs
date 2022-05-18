@@ -18,7 +18,7 @@ If you have the previous version of the Git Integration app and will upgrade to�
 
 _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/lr0jp6ntfd) _to open this video in a new browser tab for more viewing options._
 
-[« Introduction](/wiki/spaces/GIJDC/pages/1930395849/Introduction)
+[« Introduction](/git-integration-for-jira-self-managed/Introduction)
 
 [Installation via Atlassian Marketplace »](/wiki/spaces/GIJDC/pages/1930395898/Installation+via+Atlassian+Marketplace)
 

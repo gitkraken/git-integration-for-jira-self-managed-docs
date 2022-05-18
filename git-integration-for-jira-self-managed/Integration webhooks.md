@@ -25,7 +25,7 @@ Setup webhooks for your configured integration/repositories from remote systems 
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399378/gitserver-gitmgr-webhooks-cfg-page.png?version=1&modificationDate=1630642934511&cacheVersion=1&api=v2&width=680&height=270)
 
-Use the **Webhook URL** to setup webhook for your remote git host. For detailed information on webhook configuration, see [Webhooks](/wiki/spaces/GIJDC/pages/94142715/Webhooks).
+Use the **Webhook URL** to setup webhook for your remote git host. For detailed information on webhook configuration, see [Webhooks](/git-integration-for-jira-self-managed/Webhooks).
 
 The **Secret Key** is a secure random-generated alphanumeric string at the time of the Git Integration for Jira app installation. The user can change this to a different value by generating another secret token according to your Git host.
 

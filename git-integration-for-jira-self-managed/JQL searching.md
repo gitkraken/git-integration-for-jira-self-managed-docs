@@ -43,6 +43,6 @@ You can save the JQL search results to CSV, HTML, XML or Word via **Export**.
 
 JQL searching will not work if more than **65,000 Jira issues** have at least one git commit associated. For more detailed information, see [Known issues – JQL searching limitation](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/591888396/Known+Issues#JQL-Searching-Limitation).
 
-[« Reindexing](/wiki/spaces/GIJDC/pages/1930399289/Reindexing)
+[« Reindexing](/git-integration-for-jira-self-managed/Reindexing)
 
 [Integration webhooks »](/git-integration-for-jira-self-managed/Integration-webhooks)

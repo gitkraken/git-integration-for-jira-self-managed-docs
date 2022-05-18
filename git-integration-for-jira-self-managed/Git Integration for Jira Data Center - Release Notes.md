@@ -202,7 +202,7 @@ Gerrit integration has been added to the Auto-connect integration panel. Access 
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1078231449/jira-serverdc-new-autoconnect-ui.png?version=1&modificationDate=1611822418749&cacheVersion=1&api=v2&width=612&height=174)
 
-Follow this feature in the [**Gerrit integration guide**](/wiki/spaces/GIJDC/pages/91979855/Gerrit).
+Follow this feature in the [**Gerrit integration guide**](/git-integration-for-jira-self-managed/Gerrit).
 
 * * *
 

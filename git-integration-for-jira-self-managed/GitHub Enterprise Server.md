@@ -330,7 +330,7 @@ The pull request is also ready for approval by the reviewers in your GitHub web 
 
 *   Page:
 
-    [Gerrit](/wiki/spaces/GIJDC/pages/91979855/Gerrit) (Git Integration for Jira Data Center)
+    [Gerrit](/git-integration-for-jira-self-managed/Gerrit) (Git Integration for Jira Data Center)
 
 *   Page:
 
@@ -338,7 +338,7 @@ The pull request is also ready for approval by the reviewers in your GitHub web 
 
 *   Page:
 
-    [Bonobo](/wiki/spaces/GIJDC/pages/91947111/Bonobo) (Git Integration for Jira Data Center)
+    [Bonobo](/git-integration-for-jira-self-managed/Bonobo) (Git Integration for Jira Data Center)
 
 *   Page:
 

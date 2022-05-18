@@ -46,9 +46,9 @@ Select from the supported git host integration (_or click the integration links 
 
 [Azure DevOps Server / TFS](/wiki/spaces/GIJDC/pages/91979843)
 
-[![](https://bigbrassband.atlassian.net/wiki/download/attachments/2044035170/gitcloud-gerrit-icon.png?version=1&modificationDate=1640772746746&cacheVersion=1&api=v2)](/wiki/spaces/GIJDC/pages/91979855/Gerrit)
+[![](https://bigbrassband.atlassian.net/wiki/download/attachments/2044035170/gitcloud-gerrit-icon.png?version=1&modificationDate=1640772746746&cacheVersion=1&api=v2)](/git-integration-for-jira-self-managed/Gerrit)
 
-[Gerrit](/wiki/spaces/GIJDC/pages/91979855/Gerrit)
+[Gerrit](/git-integration-for-jira-self-managed/Gerrit)
 
 [![](https://bigbrassband.atlassian.net/wiki/download/attachments/2044035170/gitcloud-git-icon.png?version=1&modificationDate=1640772747020&cacheVersion=1&api=v2)](/wiki/pages/resumedraft.action?draftId=92078126)
 

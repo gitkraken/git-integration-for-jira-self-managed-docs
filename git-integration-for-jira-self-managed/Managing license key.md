@@ -32,6 +32,6 @@ Click on the box to enter/change the **License key**.
 
 If the _**License key**_ field is blank, you need to obtain a license for the Git Integration app. Click **Buy now** or **Free trial**. Login to your Atlassian account, when prompted, to acquire the license based on your selected license mode.
 
-[« Installation](/wiki/spaces/GIJDC/pages/1930395878/Installation)
+[« Installation](/git-integration-for-jira-self-managed/Installation)
 
 [Getting started for Git administrators »](/wiki/spaces/GIJDC/pages/1930396073/Getting+started+for+Git+administrators)

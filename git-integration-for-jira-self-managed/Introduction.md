@@ -23,13 +23,13 @@ The Git Integration for Jira app is available for Jira Server, Jira Data Center 
 
 Click on a topic on the sidebar or continue immediately to the next article by clicking the next topic link at the bottom of the page.
 
-For permissions requirement, see [App platform and system permissions requirement](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/408453129/Permissions).
+For permissions requirement, see [App platform and system permissions requirement](https://bigbrassband.atlassian.net/git-integration-for-jira-self-managed/Permissions).
 
 |     |
 | --- |
 | **Get new product notifications and feature updates from BigBrassBand LLC.** |
 | [**Click here to subscribe to our mailing list**](http://eepurl.com/hhfbwz) |
 
-[« Back to Table of contents](/wiki/spaces/GIJDC/pages/1930395770/Documentation)
+[« Back to Table of contents](/git-integration-for-jira-self-managed/Documentation)
 
-[Installation »](/wiki/spaces/GIJDC/pages/1930395878/Installation)
+[Installation »](/git-integration-for-jira-self-managed/Installation)

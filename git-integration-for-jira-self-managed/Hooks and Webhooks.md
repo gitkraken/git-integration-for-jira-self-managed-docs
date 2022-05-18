@@ -42,6 +42,6 @@ Use JavaScript as another workflow to operate Jira aside from Smart Commits.
 
 
 
-[Webhooks](/wiki/spaces/GIJDC/pages/94142715/Webhooks)
+[Webhooks](/git-integration-for-jira-self-managed/Webhooks)
 
 Trigger immediate reindex of your repositories from remote systems via webhooks.

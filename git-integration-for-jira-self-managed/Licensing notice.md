@@ -26,4 +26,4 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 [« Glossary and terms](/wiki/spaces/GIJDC/pages/1930399449/Glossary+and+terms)
 
-[Back to Documentation -- table of contents »](/wiki/spaces/GIJDC/pages/1930395770/Documentation)
+[Back to Documentation -- table of contents »](/git-integration-for-jira-self-managed/Documentation)

@@ -92,7 +92,7 @@ _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/xvzj32nxou) _t
 
 *   Page:
 
-    [Permissions](/wiki/spaces/GIJDC/pages/408453129/Permissions)
+    [Permissions](/git-integration-for-jira-self-managed/Permissions)
 
 *   Page:
 

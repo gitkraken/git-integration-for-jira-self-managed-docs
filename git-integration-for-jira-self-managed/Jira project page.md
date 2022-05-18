@@ -39,4 +39,4 @@ Commits can also be limited using a particular revision. Revision and commits ar
 
 [« Git tags](/git-integration-for-jira-self-managed/Git-tags)
 
-[Reindexing »](/wiki/spaces/GIJDC/pages/1930399289/Reindexing)
+[Reindexing »](/git-integration-for-jira-self-managed/Reindexing)

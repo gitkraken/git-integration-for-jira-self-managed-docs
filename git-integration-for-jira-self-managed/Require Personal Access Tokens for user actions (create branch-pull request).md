@@ -96,7 +96,7 @@ Jira users can now provide their own PATS on the **Create branches** and **Creat
 
 *   Page:
 
-    [Permissions](/wiki/spaces/GIJDC/pages/408453129/Permissions)
+    [Permissions](/git-integration-for-jira-self-managed/Permissions)
 
 *   Page:
 

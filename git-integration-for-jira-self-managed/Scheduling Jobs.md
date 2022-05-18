@@ -74,7 +74,7 @@ Job scheduling for the Git Integration app for Jira Data Center is generally the
 
 *   Page:
 
-    [Permissions](/wiki/spaces/GIJDC/pages/408453129/Permissions) (Git Integration for Jira Data Center)
+    [Permissions](/git-integration-for-jira-self-managed/Permissions) (Git Integration for Jira Data Center)
 
 *   Page:
 
