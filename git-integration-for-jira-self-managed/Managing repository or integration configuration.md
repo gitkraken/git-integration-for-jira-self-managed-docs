@@ -64,7 +64,7 @@ For the repository/integration list, utilize the following references for the co
 
 *   Page:
 
-    [SSL verify](/wiki/spaces/GIJDC/pages/1930397639/SSL+verify) (Git Integration for Jira Data Center)
+    [SSL verify](/git-integration-for-jira-self-managed/SSL-verify) (Git Integration for Jira Data Center)
 
 *   Page:
 

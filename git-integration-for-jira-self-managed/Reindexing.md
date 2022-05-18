@@ -31,12 +31,12 @@ There are two ways to do this:
 Git log entries may not immediately appear when you open _**Git Commits**_ tab right after the app installation. You need to wait until the revision indexer job completes the initial synchronization.
 
 **Reindex API**
-For advanced administrators who want to have more control on reindex, see the [Git Integration for Jira Reindex API](/wiki/spaces/GIJDC/pages/380699270/Reindex+API).
+For advanced administrators who want to have more control on reindex, see the [Git Integration for Jira Reindex API](/git-integration-for-jira-self-managed/Reindex-API).
 
 **Scheduler**
 As of Jira 6.3.10+, Atlassian added the **Scheduler Administration** (_Administration_ ➜ _System_ ➜ _Scheduler Details_) page. This page displays the properties of the Jira internal scheduler, the scheduled jobs and their triggers.
 
-The Repository Reindex (_**GitRevisionIndexerJob**_) can be configured in the [General settings](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930398111/General+settings) page of the Git Integration for Jira app.
+The Repository Reindex (_**GitRevisionIndexerJob**_) can be configured in the [General settings](https://bigbrassband.atlassian.net/git-integration-for-jira-self-managed/General-settings) page of the Git Integration for Jira app.
 
 ## Last indexed revision
 
@@ -50,7 +50,7 @@ On the Manage git repositories page, click ![(blue star)](/wiki/s/-1639011364/64
 
 The Git Integration for Jira app automatically changes the **updatedDate** of an issue when a Git commit is added to an issue upon reindex. When the reindex encounters a commit previously modified by the user relating to an issue, that issue will be updated.
 
-You can enable or disable this setting in the [Git Integration for Jira app - General Settings](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930398111/General+settings) page ➜ **Jira Issue Updates**.
+You can enable or disable this setting in the [Git Integration for Jira app - General Settings](https://bigbrassband.atlassian.net/git-integration-for-jira-self-managed/General-settings) page ➜ **Jira Issue Updates**.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399289/gitserver-gencfg-last-updated-field.png?version=1&modificationDate=1630642931102&cacheVersion=1&api=v2&width=557&height=386)
 
@@ -68,4 +68,4 @@ Cancelling indexing from the Git Integration admin interface is not currently po
 
 [« Jira project page](/wiki/spaces/GIJDC/pages/1930399252/Jira+project+page)
 
-[JQL searching »](/wiki/spaces/GIJDC/pages/1930399338/JQL+searching)
+[JQL searching »](/git-integration-for-jira-self-managed/JQL-searching)

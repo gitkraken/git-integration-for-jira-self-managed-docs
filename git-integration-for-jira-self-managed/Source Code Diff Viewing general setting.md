@@ -57,11 +57,11 @@ If this setting is disabled (_unchecked_) in General settings, the above locatio
 
 *   Page:
 
-    [Email settings](/wiki/spaces/GIJDC/pages/1207795941/Email+settings) (Git Integration for Jira Data Center)
+    [Email settings](/git-integration-for-jira-self-managed/Email-settings) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Scheduled jobs](/wiki/spaces/GIJDC/pages/1207795958/Scheduled+jobs) (Git Integration for Jira Data Center)
+    [Scheduled jobs](/git-integration-for-jira-self-managed/Scheduled-jobs) (Git Integration for Jira Data Center)
 
 *   Page:
 
@@ -69,7 +69,7 @@ If this setting is disabled (_unchecked_) in General settings, the above locatio
 
 *   Page:
 
-    [General settings](/wiki/spaces/GIJDC/pages/1930398111/General+settings) (Git Integration for Jira Data Center)
+    [General settings](/git-integration-for-jira-self-managed/General-settings) (Git Integration for Jira Data Center)
 
 *   Page:
 

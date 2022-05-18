@@ -69,7 +69,7 @@ We recommend that you create a new user identity specifically for this Jira serv
 
 ## Does the Git Integration for Jira app have API commands that allow addition/removal of a Git project?
 
-Yes. As of **v2.8.3+** of the Git Integration for Jira app, the **REST API** for add, update, and delete repository is implemented. The documentation for this feature is available at [Git Integration for Jira: Hook and API Reference - Repository REST API](/wiki/spaces/GIJDC/pages/380699237/Repository+API).
+Yes. As of **v2.8.3+** of the Git Integration for Jira app, the **REST API** for add, update, and delete repository is implemented. The documentation for this feature is available at [Git Integration for Jira: Hook and API Reference - Repository REST API](/git-integration-for-jira-self-managed/Repository-API).
 
 ## Troubleshooting issues
 

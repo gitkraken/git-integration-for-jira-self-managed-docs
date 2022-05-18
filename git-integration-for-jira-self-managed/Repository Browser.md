@@ -72,7 +72,7 @@ Administrators can turn off the Repository Browser via ![(blue star)](/wiki/s/-1
 **Sort header**
 The displayed repositories can be sorted by clicking the corresponding list header. The Git Integration for Jira app will remember the sorting choice per user.
 
-[« Smart commits](/wiki/spaces/GIJDC/pages/1930398395/Smart+commits)
+[« Smart commits](/git-integration-for-jira-self-managed/Smart-commits)
 
 [Viewing list of commits via Repository Browser »](/wiki/spaces/GIJDC/pages/1930398681/Viewing+list+of+commits+in+Repository+Browser)
 
@@ -80,7 +80,7 @@ The displayed repositories can be sorted by clicking the corresponding list head
 
 *   Page:
 
-    [Repository Browser](/wiki/spaces/GIJDC/pages/1930398598/Repository+Browser) (Git Integration for Jira Data Center)
+    [Repository Browser](/git-integration-for-jira-self-managed/Repository-Browser) (Git Integration for Jira Data Center)
 
 *   Page:
 

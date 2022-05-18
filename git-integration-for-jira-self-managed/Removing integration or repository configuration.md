@@ -50,7 +50,7 @@ Delete a repository or integration if it isn't needed or is broken in the Git In
 
 *   Page:
 
-    [SSL verify](/wiki/spaces/GIJDC/pages/1930397639/SSL+verify) (Git Integration for Jira Data Center)
+    [SSL verify](/git-integration-for-jira-self-managed/SSL-verify) (Git Integration for Jira Data Center)
 
 *   Page:
 

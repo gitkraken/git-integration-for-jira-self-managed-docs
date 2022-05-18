@@ -54,15 +54,15 @@ The Git Integration for Jira app will automatically use the WARN logger severity
 
 *   Page:
 
-    [App Support](/wiki/spaces/GIJDC/pages/365592592/App+Support) (Git Integration for Jira Data Center)
+    [App Support](/git-integration-for-jira-self-managed/App-Support) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Known Issues](/wiki/spaces/GIJDC/pages/591888396/Known+Issues) (Git Integration for Jira Data Center)
+    [Known Issues](/git-integration-for-jira-self-managed/Known-Issues) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Scheduling Jobs](/wiki/spaces/GIJDC/pages/756056197/Scheduling+Jobs) (Git Integration for Jira Data Center)
+    [Scheduling Jobs](/git-integration-for-jira-self-managed/Scheduling-Jobs) (Git Integration for Jira Data Center)
 
 *   Page:
 
@@ -70,7 +70,7 @@ The Git Integration for Jira app will automatically use the WARN logger severity
 
 *   Page:
 
-    [General Settings](/wiki/spaces/GIJDC/pages/966852655/General+Settings) (Git Integration for Jira Data Center)
+    [General Settings](/git-integration-for-jira-self-managed/General-Settings) (Git Integration for Jira Data Center)
 
 *   Page:
 

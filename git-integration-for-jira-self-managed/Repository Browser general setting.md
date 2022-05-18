@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-For detailed information on this feature, see [Documentation: Repository Browser](/wiki/spaces/GIJDC/pages/1930398598/Repository+Browser).
+For detailed information on this feature, see [Documentation: Repository Browser](/git-integration-for-jira-self-managed/Repository-Browser).
 
 VERSION 3.8.1 Git Integration for Jira adds three new settings in the General settings configuration page:
 
@@ -20,7 +20,7 @@ VERSION 3.8.1 Git Integration for Jira adds three new settings in the General se
 
 ![Repository browser setting in General settings (enabled checked)](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1947140158/gitserver-gencfg-repo-browser.png?version=1&modificationDate=1631802543905&cacheVersion=1&api=v2&width=442&height=89)
 
-The [Repository Browser](/wiki/spaces/GIJDC/pages/1930398598/Repository+Browser) allows users to view git repositories of configured projects.
+The [Repository Browser](/git-integration-for-jira-self-managed/Repository-Browser) allows users to view git repositories of configured projects.
 
 The default setting is `Enabled` for new and existing Git Integration for Jira app installations. This setting is retained on restore/upgrade of the app.
 
@@ -48,11 +48,11 @@ If this setting is disabled (_unchecked_) in General settings, the **Git** dashb
 
 *   Page:
 
-    [Email settings](/wiki/spaces/GIJDC/pages/1207795941/Email+settings) (Git Integration for Jira Data Center)
+    [Email settings](/git-integration-for-jira-self-managed/Email-settings) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Scheduled jobs](/wiki/spaces/GIJDC/pages/1207795958/Scheduled+jobs) (Git Integration for Jira Data Center)
+    [Scheduled jobs](/git-integration-for-jira-self-managed/Scheduled-jobs) (Git Integration for Jira Data Center)
 
 *   Page:
 
@@ -60,7 +60,7 @@ If this setting is disabled (_unchecked_) in General settings, the **Git** dashb
 
 *   Page:
 
-    [General settings](/wiki/spaces/GIJDC/pages/1930398111/General+settings) (Git Integration for Jira Data Center)
+    [General settings](/git-integration-for-jira-self-managed/General-settings) (Git Integration for Jira Data Center)
 
 *   Page:
 

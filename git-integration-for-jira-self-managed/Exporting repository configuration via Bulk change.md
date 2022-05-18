@@ -21,7 +21,7 @@ The bulk export function allows Jira administrators to create a backup copy of t
 
 For detailed instructions on importing multiple repositories into the Git Integration for Jira app configuration list, click on the _Detailed instructions_ label or go to the next topic.
 
-[« Bulk change (index)](/wiki/spaces/GIJDC/pages/1930397801/Bulk+change)
+[« Bulk change (index)](/git-integration-for-jira-self-managed/Bulk-change)
 
 [Requirements for secured import »](/wiki/spaces/GIJDC/pages/1930397869/Requirement+for+secured+import)
 
@@ -29,7 +29,7 @@ For detailed instructions on importing multiple repositories into the Git Integr
 
 *   Page:
 
-    [Bulk change](/wiki/spaces/GIJDC/pages/1930397801/Bulk+change) (Git Integration for Jira Data Center)
+    [Bulk change](/git-integration-for-jira-self-managed/Bulk-change) (Git Integration for Jira Data Center)
 
 *   Page:
 

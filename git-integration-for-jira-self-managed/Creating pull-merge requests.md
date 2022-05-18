@@ -29,7 +29,7 @@ The **Create pull/merge request** feature offers Jira users the ability to cre
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1932460359/gitserver-create-pull-merge-req-dlg.png?version=1&modificationDate=1630670055055&cacheVersion=1&api=v2)
 
-For information about creating a branch from a Jira issue, see [Creating branches](/wiki/spaces/GIJDC/pages/1932460323/Creating+branches).
+For information about creating a branch from a Jira issue, see [Creating branches](/git-integration-for-jira-self-managed/Creating-branches).
 
 ## Advantages
 
@@ -59,7 +59,7 @@ When creating a pull request from within Jira: 
 
 ## Steps to creating a git pull request in Jira
 
-1.  **Prerequisite:** Jira administrator configures a full feature (auto-connect) integration in the Git Integration for Jira Data Center app.  See [Integration guides](/wiki/spaces/GIJDC/pages/92176395/Integration+Guides) for more information.
+1.  **Prerequisite:** Jira administrator configures a full feature (auto-connect) integration in the Git Integration for Jira Data Center app.  See [Integration guides](/git-integration-for-jira-self-managed/Integration-Guides) for more information.
 
 2.  To access the Create pull request action, do one of the following:
 

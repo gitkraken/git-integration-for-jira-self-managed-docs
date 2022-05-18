@@ -53,31 +53,31 @@ The following examples show correct usage of the smart commit message (multi-lin
 | **TEST-3** Background color of settings should be lighter  <br>**TEST-3** **#in-progress** **#time** 1h  <br>**TEST-4** resolve **TEST-2** **#resolve** |
 | _This example, containing several issue keys, is also a valid multi-line smart commit message._ |
 
-[« Basic commands](/wiki/spaces/GIJDC/pages/1930398422/Basic+commands)
+[« Basic commands](/git-integration-for-jira-self-managed/Basic-commands)
 
-[Workflow transitions »](/wiki/spaces/GIJDC/pages/1930398464/Workflow+transitions)
+[Workflow transitions »](/git-integration-for-jira-self-managed/Workflow-transitions)
 
 ### More related topics about smart commits
 
 *   Page:
 
-    [Smart commits](/wiki/spaces/GIJDC/pages/1930398395/Smart+commits) (Git Integration for Jira Data Center)
+    [Smart commits](/git-integration-for-jira-self-managed/Smart-commits) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Basic commands](/wiki/spaces/GIJDC/pages/1930398422/Basic+commands) (Git Integration for Jira Data Center)
+    [Basic commands](/git-integration-for-jira-self-managed/Basic-commands) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Workflow transitions](/wiki/spaces/GIJDC/pages/1930398464/Workflow+transitions) (Git Integration for Jira Data Center)
+    [Workflow transitions](/git-integration-for-jira-self-managed/Workflow-transitions) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Advanced examples](/wiki/spaces/GIJDC/pages/1930398446/Advanced+examples) (Git Integration for Jira Data Center)
+    [Advanced examples](/git-integration-for-jira-self-managed/Advanced-examples) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Viewing workflows](/wiki/spaces/GIJDC/pages/1930398494/Viewing+workflows) (Git Integration for Jira Data Center)
+    [Viewing workflows](/git-integration-for-jira-self-managed/Viewing-workflows) (Git Integration for Jira Data Center)
 
 *   Page:
 

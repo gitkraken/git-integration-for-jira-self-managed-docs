@@ -58,4 +58,4 @@ Only the commits that are linked to Jira issues will show on the Jira Activity S
 
 *   Page:
 
-    [Git notes](/wiki/spaces/GIJDC/pages/1930398342/Git+notes) (Git Integration for Jira Data Center)
+    [Git notes](/git-integration-for-jira-self-managed/Git-notes) (Git Integration for Jira Data Center)

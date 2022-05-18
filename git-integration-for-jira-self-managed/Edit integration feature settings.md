@@ -17,19 +17,19 @@ Utilize the following options to configure the selected integration:
 | --- |
 | ### Repository Browser |
 | ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397576/gitserver-edit-repocfg-repovw.png?version=1&modificationDate=1630642846839&cacheVersion=1&api=v2&width=680&height=65) |
-| When `Enabled`, it allows users to view Git repositories of configured projects. For more information, see [Repository Browser](/wiki/spaces/GIJDC/pages/1930398598/Repository+Browser). |
+| When `Enabled`, it allows users to view Git repositories of configured projects. For more information, see [Repository Browser](/git-integration-for-jira-self-managed/Repository-Browser). |
 
 |     |
 | --- |
 | ### Tags |
 | ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397576/gitserver-edit-features-tags.png?version=1&modificationDate=1630642847074&cacheVersion=1&api=v2&width=680&height=150) |
-| Set whether to show all tags or show on tags with matching regex pattern. For more information on git tags, see [Git Tags](/wiki/spaces/GIJDC/pages/1930399204/Git+tags). |
+| Set whether to show all tags or show on tags with matching regex pattern. For more information on git tags, see [Git Tags](/git-integration-for-jira-self-managed/Git-tags). |
 
 |     |
 | --- |
 | ### Personal Access Token: Require User PAT |
 | ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397576/gitserver-edit-features-pat-reqpat.png?version=1&modificationDate=1630642847309&cacheVersion=1&api=v2&width=680&height=61) |
-| Enable this option to require users to provide PAT which will be used for branch and merge/pull request creation/deletion (via the developer panel on the Jira issue page). This is a security feature of Git Integration for Jira app for git hosts that support two-factor authentication.<br><br>This option requires the [Repository Browser](/wiki/spaces/GIJDC/pages/1930398598/Repository+Browser) feature enabled.<br><br>This setting is only available for auto-connected git hosts in Jira Server and Data Center. |
+| Enable this option to require users to provide PAT which will be used for branch and merge/pull request creation/deletion (via the developer panel on the Jira issue page). This is a security feature of Git Integration for Jira app for git hosts that support two-factor authentication.<br><br>This option requires the [Repository Browser](/git-integration-for-jira-self-managed/Repository-Browser) feature enabled.<br><br>This setting is only available for auto-connected git hosts in Jira Server and Data Center. |
 
 |     |
 | --- |
@@ -57,7 +57,7 @@ Utilize the following options to configure the selected integration:
 
 [« Edit integration connection settings](/wiki/spaces/GIJDC/pages/1930397536/Edit+integration+connection+settings)
 
-[SSL verify »](/wiki/spaces/GIJDC/pages/1930397639/SSL+verify)
+[SSL verify »](/git-integration-for-jira-self-managed/SSL-verify)
 
 ### More related topics about managing repository/integration configuration
 
@@ -83,7 +83,7 @@ Utilize the following options to configure the selected integration:
 
 *   Page:
 
-    [SSL verify](/wiki/spaces/GIJDC/pages/1930397639/SSL+verify) (Git Integration for Jira Data Center)
+    [SSL verify](/git-integration-for-jira-self-managed/SSL-verify) (Git Integration for Jira Data Center)
 
 *   Page:
 

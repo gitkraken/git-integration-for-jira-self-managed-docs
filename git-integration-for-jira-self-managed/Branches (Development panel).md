@@ -97,7 +97,7 @@ The **Branches** section is only visible if commits from this branch are not m
 
 If the user does not have the **View Development Tools** _project permission_ for the project, the developer panel will be unavailable for that user.
 
-For detailed information about creating branches, see article [Creating branches](/wiki/spaces/GIJDC/pages/1932460323/Creating+branches).
+For detailed information about creating branches, see article [Creating branches](/git-integration-for-jira-self-managed/Creating-branches).
 
 [« Jira git integration development panel](/wiki/spaces/GIJDC/pages/1930399012/Jira+Git+integration+development+panel)
 
@@ -123,4 +123,4 @@ For detailed information about creating branches, see article [Creating branches
 
 *   Page:
 
-    [Git tags](/wiki/spaces/GIJDC/pages/1930399204/Git+tags) (Git Integration for Jira Data Center)
+    [Git tags](/git-integration-for-jira-self-managed/Git-tags) (Git Integration for Jira Data Center)

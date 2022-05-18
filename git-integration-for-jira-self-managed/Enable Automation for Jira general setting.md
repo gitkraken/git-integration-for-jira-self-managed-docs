@@ -47,11 +47,11 @@ For more information on this feature, see [Git Integration + Automation for Jira
 
 *   Page:
 
-    [Email settings](/wiki/spaces/GIJDC/pages/1207795941/Email+settings) (Git Integration for Jira Data Center)
+    [Email settings](/git-integration-for-jira-self-managed/Email-settings) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Scheduled jobs](/wiki/spaces/GIJDC/pages/1207795958/Scheduled+jobs) (Git Integration for Jira Data Center)
+    [Scheduled jobs](/git-integration-for-jira-self-managed/Scheduled-jobs) (Git Integration for Jira Data Center)
 
 *   Page:
 
@@ -59,7 +59,7 @@ For more information on this feature, see [Git Integration + Automation for Jira
 
 *   Page:
 
-    [General settings](/wiki/spaces/GIJDC/pages/1930398111/General+settings) (Git Integration for Jira Data Center)
+    [General settings](/git-integration-for-jira-self-managed/General-settings) (Git Integration for Jira Data Center)
 
 *   Page:
 

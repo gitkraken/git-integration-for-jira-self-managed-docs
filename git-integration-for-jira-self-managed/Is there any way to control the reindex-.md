@@ -8,11 +8,11 @@ taxonomy:
 ---
 In terms of kicking off the indexing based on an event, you have two options:
 
-*   [Reindex API](/wiki/spaces/GIJDC/pages/380699270/Reindex+API)
+*   [Reindex API](/git-integration-for-jira-self-managed/Reindex-API)
 
 *   [Webhooks overview](/wiki/spaces/GIJDC/pages/94142715/Webhooks)
 
-*   [Integration webhooks documentation](/wiki/spaces/GIJDC/pages/1930399378/Integration+webhooks)
+*   [Integration webhooks documentation](/git-integration-for-jira-self-managed/Integration-webhooks)
 
 
 What other users have done is set a high interval and then configure one of those options.

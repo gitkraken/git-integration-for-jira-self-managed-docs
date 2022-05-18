@@ -30,7 +30,7 @@ taxonomy:
 
 *   Page:
 
-    [Manual installation](/wiki/spaces/GIJDC/pages/1930395954/Manual+installation) (Git Integration for Jira Data Center)
+    [Manual installation](/git-integration-for-jira-self-managed/Manual-installation) (Git Integration for Jira Data Center)
 
 *   Page:
 

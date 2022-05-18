@@ -39,7 +39,7 @@ _<optional command\_params>_
 
 
 
-For more information on the Smart Commits feature, see [Documentation: Smart commits](/wiki/spaces/GIJDC/pages/1930398395/Smart+commits).
+For more information on the Smart Commits feature, see [Documentation: Smart commits](/git-integration-for-jira-self-managed/Smart-commits).
 
 
 
@@ -101,7 +101,7 @@ Smart Commit Status
 
 The commit status shown on the Issue page depends on the Smart Commits setting that was set at the time the commits were processed.
 
-Need to know more?  Read further at  [Documentation: Smart commits](/wiki/spaces/GIJDC/pages/1930398395/Smart+commits).
+Need to know more?  Read further at  [Documentation: Smart commits](/git-integration-for-jira-self-managed/Smart-commits).
 
 ## More articles on features
 
@@ -115,11 +115,11 @@ Need to know more?  Read further at  [Documentation: Smart commits](/wiki/spa
 
 *   Page:
 
-    [General Settings](/wiki/spaces/GIJDC/pages/966852655/General+Settings)
+    [General Settings](/git-integration-for-jira-self-managed/General-Settings)
 
 *   Page:
 
-    [Creating branches](/wiki/spaces/GIJDC/pages/1932460323/Creating+branches)
+    [Creating branches](/git-integration-for-jira-self-managed/Creating-branches)
 
 *   Page:
 

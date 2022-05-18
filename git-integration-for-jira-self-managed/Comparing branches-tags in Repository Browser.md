@@ -49,7 +49,7 @@ For example, the JQL will look like `issuekey in (GIT-1851, GIT-1159, GITCL-284
 
 *   Page:
 
-    [Repository Browser](/wiki/spaces/GIJDC/pages/1930398598/Repository+Browser) (Git Integration for Jira Data Center)
+    [Repository Browser](/git-integration-for-jira-self-managed/Repository-Browser) (Git Integration for Jira Data Center)
 
 *   Page:
 

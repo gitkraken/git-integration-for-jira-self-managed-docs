@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-These settings are part of the [**General Settings**](/wiki/spaces/GIJDC/pages/966852655/General+Settings) configuration page.
+These settings are part of the [**General Settings**](/git-integration-for-jira-self-managed/General-Settings) configuration page.
 
 VERSION 4.0.1+ This setting group is now moved to the **Advanced settings** in General settings.
 
@@ -33,7 +33,7 @@ Set the maximum number of packed files that will be checked before the garbage c
 
 *   Page:
 
-    [Repository settings](/wiki/spaces/GIJDC/pages/1207795977/Repository+settings) (Git Integration for Jira Data Center)
+    [Repository settings](/git-integration-for-jira-self-managed/Repository-settings) (Git Integration for Jira Data Center)
 
 *   Page:
 
@@ -41,7 +41,7 @@ Set the maximum number of packed files that will be checked before the garbage c
 
 *   Page:
 
-    [Diff settings](/wiki/spaces/GIJDC/pages/1207795993/Diff+settings) (Git Integration for Jira Data Center)
+    [Diff settings](/git-integration-for-jira-self-managed/Diff-settings) (Git Integration for Jira Data Center)
 
 *   Page:
 

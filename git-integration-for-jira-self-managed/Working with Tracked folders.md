@@ -18,7 +18,7 @@ The Tracked Folder feature helps save disk space in case of a mounted folder. T
 
 If you have a local folder that contains multiple repositories, the Git Integration for Jira app will auto-detect and connect this folder to Jira as a tracked folder.
 
-For more information about this feature, see [Integration guide - Adding tracked folders](/wiki/spaces/GIJDC/pages/91947120/Tracked+Folders).
+For more information about this feature, see [Integration guide - Adding tracked folders](/git-integration-for-jira-self-managed/Tracked-Folders).
 
 [« Increasing timeout threshold for large repositories while doing a Git pull](/wiki/spaces/GIJDC/pages/1930396447/Increasing+timeout+threshold+for+large+repositories+while+doing+a+Git+pull)
 

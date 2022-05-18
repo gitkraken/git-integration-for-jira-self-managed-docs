@@ -100,4 +100,4 @@ If some commits relate only to tags, these commits will not be displayed. For mo
 
 *   Page:
 
-    [Git tags](/wiki/spaces/GIJDC/pages/1930399204/Git+tags) (Git Integration for Jira Data Center)
+    [Git tags](/git-integration-for-jira-self-managed/Git-tags) (Git Integration for Jira Data Center)

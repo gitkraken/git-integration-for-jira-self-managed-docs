@@ -81,12 +81,12 @@ page icon as list [Integrate Azure DevOps/VSTS with Jira Data Center](/wiki/spac
 
 page icon as list [Integrate Azure DevOps Server/TFS with Jira Server](/wiki/spaces/GITSERVER/pages/80904193)
 
-page icon as list [Integrate AWS CodeCommit with Jira Data Center](/wiki/spaces/GIJDC/pages/92176493/AWS+CodeCommit)
+page icon as list [Integrate AWS CodeCommit with Jira Data Center](/git-integration-for-jira-self-managed/AWS-CodeCommit)
 
 page icon as list [Integrate Gerrit with Jira Data Center](/wiki/spaces/GIJDC/pages/91979855/Gerrit)
 
 page icon as list [Integrate Bonobo with Jira Data Center](/wiki/spaces/GIJDC/pages/91947111/Bonobo)
 
-page icon as list [Integrate Tracked Folders with Jira Data Center](/wiki/spaces/GIJDC/pages/91947120/Tracked+Folders)
+page icon as list [Integrate Tracked Folders with Jira Data Center](/git-integration-for-jira-self-managed/Tracked-Folders)
 
 page icon as list [Integrate Windows Network/Server Share with Jira Data Center](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/81035265)

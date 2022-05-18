@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-This setting is part of the [**General Settings**](/wiki/spaces/GIJDC/pages/966852655/General+Settings) configuration page.
+This setting is part of the [**General Settings**](/git-integration-for-jira-self-managed/General-Settings) configuration page.
 
 
 This setting affects how the information is displayed in the **Git commits issue** and **Project** tabs on the Jira issue.
@@ -58,11 +58,11 @@ Increasing this value impacts Jira display performance.
 
 *   Page:
 
-    [Email settings](/wiki/spaces/GIJDC/pages/1207795941/Email+settings) (Git Integration for Jira Data Center)
+    [Email settings](/git-integration-for-jira-self-managed/Email-settings) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Scheduled jobs](/wiki/spaces/GIJDC/pages/1207795958/Scheduled+jobs) (Git Integration for Jira Data Center)
+    [Scheduled jobs](/git-integration-for-jira-self-managed/Scheduled-jobs) (Git Integration for Jira Data Center)
 
 *   Page:
 
@@ -70,7 +70,7 @@ Increasing this value impacts Jira display performance.
 
 *   Page:
 
-    [General settings](/wiki/spaces/GIJDC/pages/1930398111/General+settings) (Git Integration for Jira Data Center)
+    [General settings](/git-integration-for-jira-self-managed/General-settings) (Git Integration for Jira Data Center)
 
 *   Page:
 

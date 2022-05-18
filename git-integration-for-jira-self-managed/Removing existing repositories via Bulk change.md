@@ -23,7 +23,7 @@ To delete multiple repositories from the Git Integration for Jira app git reposi
 
 *   Page:
 
-    [Bulk change](/wiki/spaces/GIJDC/pages/1930397801/Bulk+change) (Git Integration for Jira Data Center)
+    [Bulk change](/git-integration-for-jira-self-managed/Bulk-change) (Git Integration for Jira Data Center)
 
 *   Page:
 

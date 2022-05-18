@@ -98,7 +98,7 @@ When adding new repositories, we recommend to leave the `trustFolderStat` settin
 
 *   Page:
 
-    [Remove Integration](/wiki/spaces/GIJDC/pages/380797346/Remove+Integration) (Git Integration for Jira Data Center)
+    [Remove Integration](/git-integration-for-jira-self-managed/Remove-Integration) (Git Integration for Jira Data Center)
 
 *   Page:
 

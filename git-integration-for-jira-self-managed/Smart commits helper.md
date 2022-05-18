@@ -80,7 +80,7 @@ Refer to the commit message case examples below:
 
 The commit status shown on the Issue page depends on the **Smart commits** setting that was set at the time the commits were processed.
 
-[« Viewing workflows](/wiki/spaces/GIJDC/pages/1930398494/Viewing+workflows)
+[« Viewing workflows](/git-integration-for-jira-self-managed/Viewing-workflows)
 
 [Smart commits General setting »](/wiki/spaces/GIJDC/pages/1930398554/Smart+commits+General+setting)
 
@@ -88,23 +88,23 @@ The commit status shown on the Issue page depends on the **Smart commits** set
 
 *   Page:
 
-    [Smart commits](/wiki/spaces/GIJDC/pages/1930398395/Smart+commits) (Git Integration for Jira Data Center)
+    [Smart commits](/git-integration-for-jira-self-managed/Smart-commits) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Basic commands](/wiki/spaces/GIJDC/pages/1930398422/Basic+commands) (Git Integration for Jira Data Center)
+    [Basic commands](/git-integration-for-jira-self-managed/Basic-commands) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Workflow transitions](/wiki/spaces/GIJDC/pages/1930398464/Workflow+transitions) (Git Integration for Jira Data Center)
+    [Workflow transitions](/git-integration-for-jira-self-managed/Workflow-transitions) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Advanced examples](/wiki/spaces/GIJDC/pages/1930398446/Advanced+examples) (Git Integration for Jira Data Center)
+    [Advanced examples](/git-integration-for-jira-self-managed/Advanced-examples) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Viewing workflows](/wiki/spaces/GIJDC/pages/1930398494/Viewing+workflows) (Git Integration for Jira Data Center)
+    [Viewing workflows](/git-integration-for-jira-self-managed/Viewing-workflows) (Git Integration for Jira Data Center)
 
 *   Page:
 

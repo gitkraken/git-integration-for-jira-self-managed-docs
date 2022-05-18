@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-This setting is part of the [**General Settings**](/wiki/spaces/GIJDC/pages/966852655/General+Settings) configuration page.
+This setting is part of the [**General Settings**](/git-integration-for-jira-self-managed/General-Settings) configuration page.
 
 
 This setting allows administrators to configure duration of jobs and the GC checkers.
@@ -47,7 +47,7 @@ Configuration of the scheduler jobs are no longer accessible in the Jira adminis
 
 **Job interval**  –  Set the number of minutes that will elapse before a repository is checked to see if it should be garbage collected.  The default value is _**1440 minutes**_.
 
-For detailed information, see introductory article on [Scheduling Jobs](/wiki/spaces/GIJDC/pages/756056197/Scheduling+Jobs).
+For detailed information, see introductory article on [Scheduling Jobs](/git-integration-for-jira-self-managed/Scheduling-Jobs).
 
 * * *
 
@@ -71,11 +71,11 @@ For detailed information, see introductory article on [Scheduling Jobs](/wiki/sp
 
 *   Page:
 
-    [Email settings](/wiki/spaces/GIJDC/pages/1207795941/Email+settings) (Git Integration for Jira Data Center)
+    [Email settings](/git-integration-for-jira-self-managed/Email-settings) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Scheduled jobs](/wiki/spaces/GIJDC/pages/1207795958/Scheduled+jobs) (Git Integration for Jira Data Center)
+    [Scheduled jobs](/git-integration-for-jira-self-managed/Scheduled-jobs) (Git Integration for Jira Data Center)
 
 *   Page:
 
@@ -83,7 +83,7 @@ For detailed information, see introductory article on [Scheduling Jobs](/wiki/sp
 
 *   Page:
 
-    [General settings](/wiki/spaces/GIJDC/pages/1930398111/General+settings) (Git Integration for Jira Data Center)
+    [General settings](/git-integration-for-jira-self-managed/General-settings) (Git Integration for Jira Data Center)
 
 *   Page:
 

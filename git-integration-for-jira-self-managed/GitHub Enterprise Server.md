@@ -298,7 +298,7 @@ The pull request is also ready for approval by the reviewers in your GitHub web 
 
 *   Page:
 
-    [Integration Basics](/wiki/spaces/GIJDC/pages/92078126/Integration+Basics) (Git Integration for Jira Data Center)
+    [Integration Basics](/git-integration-for-jira-self-managed/Integration-Basics) (Git Integration for Jira Data Center)
 
 *   Page:
 
@@ -326,7 +326,7 @@ The pull request is also ready for approval by the reviewers in your GitHub web 
 
 *   Page:
 
-    [AWS CodeCommit](/wiki/spaces/GIJDC/pages/92176493/AWS+CodeCommit) (Git Integration for Jira Data Center)
+    [AWS CodeCommit](/git-integration-for-jira-self-managed/AWS-CodeCommit) (Git Integration for Jira Data Center)
 
 *   Page:
 
@@ -334,7 +334,7 @@ The pull request is also ready for approval by the reviewers in your GitHub web 
 
 *   Page:
 
-    [Bitbucket Server](/wiki/spaces/GIJDC/pages/92012653/Bitbucket+Server) (Git Integration for Jira Data Center)
+    [Bitbucket Server](/git-integration-for-jira-self-managed/Bitbucket-Server) (Git Integration for Jira Data Center)
 
 *   Page:
 
@@ -346,4 +346,4 @@ The pull request is also ready for approval by the reviewers in your GitHub web 
 
 *   Page:
 
-    [Tracked Folders](/wiki/spaces/GIJDC/pages/91947120/Tracked+Folders) (Git Integration for Jira Data Center)
+    [Tracked Folders](/git-integration-for-jira-self-managed/Tracked-Folders) (Git Integration for Jira Data Center)

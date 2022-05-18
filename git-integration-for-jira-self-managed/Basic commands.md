@@ -126,31 +126,31 @@ The `#label` command will add a new label to a Jira issue. If more than one J
 | **GITCL-443** **#label** `bucketbreakfix` `bucketenhancement` |
 | **GITCL-443 GITCL-247 GITCL-214** **#label** [_admin@example.com_](mailto:admin@example.com) [_user1@example.com_](mailto:user1@example.com) requested-feature new-feature **#comment** `Return email when implemented` |
 
-[« Smart commits (index)](/wiki/spaces/GIJDC/pages/1930398395/Smart+commits)
+[« Smart commits (index)](/git-integration-for-jira-self-managed/Smart-commits)
 
-[Advanced examples »](/wiki/spaces/GIJDC/pages/1930398446/Advanced+examples)
+[Advanced examples »](/git-integration-for-jira-self-managed/Advanced-examples)
 
 ### More related topics about smart commits
 
 *   Page:
 
-    [Smart commits](/wiki/spaces/GIJDC/pages/1930398395/Smart+commits) (Git Integration for Jira Data Center)
+    [Smart commits](/git-integration-for-jira-self-managed/Smart-commits) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Basic commands](/wiki/spaces/GIJDC/pages/1930398422/Basic+commands) (Git Integration for Jira Data Center)
+    [Basic commands](/git-integration-for-jira-self-managed/Basic-commands) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Workflow transitions](/wiki/spaces/GIJDC/pages/1930398464/Workflow+transitions) (Git Integration for Jira Data Center)
+    [Workflow transitions](/git-integration-for-jira-self-managed/Workflow-transitions) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Advanced examples](/wiki/spaces/GIJDC/pages/1930398446/Advanced+examples) (Git Integration for Jira Data Center)
+    [Advanced examples](/git-integration-for-jira-self-managed/Advanced-examples) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Viewing workflows](/wiki/spaces/GIJDC/pages/1930398494/Viewing+workflows) (Git Integration for Jira Data Center)
+    [Viewing workflows](/git-integration-for-jira-self-managed/Viewing-workflows) (Git Integration for Jira Data Center)
 
 *   Page:
 

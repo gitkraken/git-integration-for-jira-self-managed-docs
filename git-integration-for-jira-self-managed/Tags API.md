@@ -42,20 +42,20 @@ The additional flag _**hasMore**_ indicates if an issue contains more tags. I
 
 *   Page:
 
-    [Repository API](/wiki/spaces/GIJDC/pages/380699237/Repository+API) (Git Integration for Jira Data Center)
+    [Repository API](/git-integration-for-jira-self-managed/Repository-API) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Reindex API](/wiki/spaces/GIJDC/pages/380699270/Reindex+API) (Git Integration for Jira Data Center)
+    [Reindex API](/git-integration-for-jira-self-managed/Reindex-API) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Commits API](/wiki/spaces/GIJDC/pages/380764552/Commits+API) (Git Integration for Jira Data Center)
+    [Commits API](/git-integration-for-jira-self-managed/Commits-API) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Branches API](/wiki/spaces/GIJDC/pages/380666446/Branches+API) (Git Integration for Jira Data Center)
+    [Branches API](/git-integration-for-jira-self-managed/Branches-API) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Integration API](/wiki/spaces/GIJDC/pages/380699325/Integration+API) (Git Integration for Jira Data Center)
+    [Integration API](/git-integration-for-jira-self-managed/Integration-API) (Git Integration for Jira Data Center)

@@ -2,7 +2,7 @@
 
 title: GitHub.com
 description:
-taxonomy: 
+taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
@@ -25,7 +25,7 @@ Quickly learn how to connect GitHub<!-- -->.com git repositories via Git Integra
 <div class='callout callout-basic'>
   <p>For instructions on self-hosted GitHub Enterprise Server, please see [this page](Github%20Enterprise%20Server.md).
   </p>
-</div>  
+</div>
 
 <div class='callout callout-basic'>
   <p>Using **Jira Cloud**?  [See the corresponding article.](../../git-integration-for-jira-cloud-docs/git-integration-for-jira-cloud/github-com.md)
@@ -55,66 +55,66 @@ This setup uses full feature integration offering functions and features not fou
 
 <div class='callout callout-danger'>
   <p>On November 13, 2020, GitHub<!-- -->.com is going to stop allowing API authentication via username/password. For more information, see [**GitHub.com - Deprecating Password Authentication**](https://developer.github.com/changes/2020-02-14-deprecating-password-auth/).</p>
-</div>  
+</div>
 
 * * *
 \
 We strongly recommend to use personal access tokens for GitHub<!-- -->.com account integration.
 
 1.  On your Jira dashboard menu, go to Git ➜ **Manage repositories**.
-    
+
 2.  Click **GitHub<!-- -->.com** on the Add new integration panel. The Add new integration wizard dialog is displayed.
-    
+
     ![](/wp-content/uploads/gitserver-connect-auto-ext-service-github-com(c).png?&width=659&height=467)
 3.  **GitHub<!-- -->.com and GitHub Enterprise Cloud** is selected by default. Paste the personal access token in the provided box.
-    
+
     *  Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed.
-        
+
         ![](/wp-content/uploads/gitserver-general-advanced-autoconnect-opt(c).png)
-        +  **Custom API Path**  –  this is a relative path that starts with "/". The maximum allowed length is 2000 characters or less. The integration will use the supported relative REST API path to retrieve the list of tracked repositories.  
+        +  **Custom API Path**  –  this is a relative path that starts with "/". The maximum allowed length is 2000 characters or less. The integration will use the supported relative REST API path to retrieve the list of tracked repositories.
             For more examples, see article [Working with Custom API Path - GitHub.com](#).
-            
-        +  **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated.   The maximum allowed length is 2000 characters or less.  
-            For help with writing expressions, please contact [support](mailto:support@bigbrassband.com). Read about JMESPath expressions on their **website**.  
+
+        +  **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated.   The maximum allowed length is 2000 characters or less.
+            For help with writing expressions, please contact [support](mailto:support@bigbrassband.com). Read about JMESPath expressions on their **website**.
             For some other examples, see [Working with JMESPath Filter in GitHub.com](#).
-            
-        +  **Fetch refspec**  –  Git refspecs contains patterns mapped as references from the remote to the local repository.  
+
+        +  **Fetch refspec**  –  Git refspecs contains patterns mapped as references from the remote to the local repository.
             For more information, see [**Git Internals -- The Refspec**](https://git-scm.com/book/en/v2/Git-Internals-The-Refspec).
-            
-            -  The first two refspec options are required.               
+
+            -  The first two refspec options are required.
             -  The rest of the options are OPTIONAL:
-                
+
                 *  **Clone and index ref notes (refs/notes)** – This is a reference to `refs/notes/*` used for fetching.  This option is enabled by default.  This affects git notes which are not shown:
-                    
+
                     a.  ...when `refs/notes` are disabled on connecting a repository.
-                        
+
                     b.  ...when a new note comes when `refs/notes` is disabled.
-                        
+
                 *  **Clone and index changes (refs/changes)** – This is a reference to `refs/changes/*` used for fetching.  This option is turned off by default.
-                    
+
                 * **Clone and index other refs** – This is a user-defined list of references used for fetching.  It is a comma-separated list with the format:
-                    
+
                     a.  `+refs/refname1/*:refs/refname1/*, refs/refname2/*:refs/refname2/*, ...`
-                        
+
     While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
-            
+
 4.  Click **Connect**.
-    
+
 5.  On the following screen, the Git Integration for Jira app will read all available repositories from your GitHub account. Click **Import repositories**.
-    
+
     Repositories of the logged-in GitHub user can be automatically connected to Jira Data Center. Repositories that are added or removed from GitHub will be likewise connected or disconnected from Jira Data Center.
-        
+
 6.  After the import process, the **Settings** screen is displayed.
-    
+
     ![](/wp-content/uploads/gitserver-github-autoconnect-settings-dlg(c).png)
-    *   On the Integration Settings, setting the _**Require User PAT**_ option to `ON`, will require users to provide PAT specific for branch and merge requests _(via the_ [developer panel](#) _on the Jira issue page)_.   
+    *   On the Integration Settings, setting the _**Require User PAT**_ option to `ON`, will require users to provide PAT specific for branch and merge requests _(via the_ [developer panel](#) _on the Jira issue page)_. 
         For more information on this feature, see [Integration Settings: Require User PAT](#).
-        
+
     *   Set [Smart Commits](#) and [Repository Browser](#) to enable/disable these features.
-        
+
     *   Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Associating project permissions](#).
-        
-7.  Click **Finish** to complete this setup.    
+
+7.  Click **Finish** to complete this setup.
 
 The GitHub<!-- -->.com repositories are now connected to Jira Data Center.
 
@@ -136,15 +136,15 @@ Choose between SSH or HTTPS. Use this information to connect the GitHub git rep
 ![](/wp-content/uploads/github-repository-home-dark.png)
 
 1.  On your Jira dashboard menu, go to Git ➜ **Manage repositories**.
-    
+
 2.  Click **Connect to Git Repository** (_or click the Git icon on the Add new integration panel_) to open the Connect Wizard.
-    
+
 3.  Paste the URL from GitHub in the provided box.
-    
+
 4.  Continue to the next step by following the screen instructions.
-    
+
 5.  Click **Finish** to complete this process. 
-    
+
 The repository is now connected to Jira Data Center.
 
 ## Setting up GitHub permissions
@@ -156,21 +156,21 @@ Assign GitHub permissions for team members or collaborators to allow which resou
 ### Default repository permission
 
 1.  Login to your GitHub<!-- -->.com account.
-    
+
 2.  Go to ![](/wp-content/uploads/profile-icon.png)&nbsp; **Profile** ➜ **Settings**.
-    
+
 3.  On your sidebar, click **Organizations**.
-    
+
 4.  Click **Settings** for the selected organization.
-    
+
 5.  On your sidebar, click **Member Privileges**. The following screen is displayed.
-    
+
     ![](/wp-content/uploads/github-org-repo-base-permissions-dark(c).png)
 6.  Under the **Base permissions**, click on the dropdown button.
-    
+
     Choose the base permission level for organization members. The base repository permission only applies to organization members and not to outside collaborators. If the base permission is set to _**None**_, organization members will need to be given access to repositories using the _**Teams or Collaborators**_ methods (see below).
-        
-7.  **Save** the changes.    
+
+7.  **Save** the changes.
 
 For more information, see [**Access Permissions on GitHub »**](https://help.github.com/articles/access-permissions-on-github/).
 
@@ -181,37 +181,37 @@ To give a member additional access, they must be added to a team or make them co
 **Set default repository permission for the current team:**
 
 1.  Open an organization team. (_Your org ➜ Teams ➜ scroll down to the bottom then click the desired team._)
-    
+
 2.  Click the **Repositories** tab.
-    
+
     ![](/wp-content/uploads/github-org-repo-team-repo-permissions-dark(c).png)
 
 3.  Set **Read**, **Write** or **Admin** repository access as desired.
-&nbsp;    
+&nbsp;
 &nbsp;
 
 **Assign members to a team on your GitHub repository:**
 
 1.  Create a team in your GitHub Organization.
-    
+
 2.  Invite a member to add it into the team.  An email invitation is sent to that GitHub service user.
-    
+
     ![](/wp-content/uploads/github-add-members-to-team(c).png)
-    
+
     The service user is then added to the team if the invitation has been accepted.
-    
+
 3.  Click the service user to manage permissions for this member to:
-    
+
     *   set the desired **Role** for this member.
-        
+
     *   convert this member to outside collaborator.
-        
+
     *   give this member access to organization repositories.
-        
+
     *   remove this member from the team.
-        
+
 4.  Click **Manage access** to manage repository access for this member.
-    
+
     ![](/wp-content/uploads/github-manage-team-repo-permission(c).png)
 
 
@@ -222,13 +222,13 @@ While users have configured PAT for repository access, users in a GitHub Organiz
 
 
 <div class='callout callout-basic'>
-  <p>**GitHub Organization**<br>  
+  <p>**GitHub Organization**<br>
 For collaborators and commit authors, set these users to have **Write** permissions. This will allow them to view commits and smart commits, browse repositories and also enables them to create branches and pull requests to specified GitHub git repositories via developer panel of a Jira issue.</p>
 </div>
 
 <div class='callout callout-warning'>
   <p>The user PAT for "Require User PAT" setting should have **Write** permission. Otherwise, the user will not be able to use it for branch or pull request creation/deletion.</p>
-</div>  
+</div>
 
 * * *
 \
@@ -247,13 +247,13 @@ For more information on this feature, see [Documentation: Web linking](#).
 ## Viewing git commits in Jira Data Center
 
 1.  Perform a git commit by adding the Jira issue key in the commit message. This will associate the commit to the mentioned Jira issue.
-    
+
 2.  Open the Jira issue.
-    
+
 3.  Scroll down to the _**Activity**_ panel then click the **Git Commits** tab.
-    
+
 4.  Click **View Full Commit** to view the code diff.
-    
+
 
 For more information about this feature, see [Documentation: Viewing commit code diffs](#).
 
@@ -271,7 +271,7 @@ Click this text label to open the Setup PAT dialog and paste your personal acces
 
 <div class='callout callout-warning'>
   <p>Updating this dialog with a blank entry will remove the configured PAT for the current integration.</p>
-</div>  
+</div>
 
 * * *
 
@@ -289,7 +289,7 @@ Most git integrations allow changing of the default branch of the repository/pro
 
 <div class='callout callout-basic'>
   <p>Main branch for repositories within an integration can only be changed on the git server.</p>
-</div>  
+</div>
 
 * * *
 
@@ -302,18 +302,18 @@ On your Jira Data Center, open a Jira issue. On the Jira developer panel under 
 **Pointers:**
 
 1.  Select a **Repository** from the list.
-    
+
     If there are several repositories with the same name, the listed GitHub repositories will have their names attached with a GitHub organization name. For example, `BigBrassBand/second-webhook-test-repo`.
-        
+
 2.  Use the search box to look for the specific repository that will be used.
-        
+
 3.  Choose a **Base branch**.
-    
+
 4.  Enter a **Branch name** or leave it as is (recommended).
-    
+
 <div class='callout callout-basic'>
   <p>The Git Integration for Jira Data Center app gets the default branch from almost all integrations. However, the exception is with Gerrit which always has “master” as its default branch.</p>
-</div>  
+</div>
 
 * * *
 
@@ -328,20 +328,20 @@ The pull request feature works the same as merge request. On your Jira Data Cent
 **Pointers:**
 
 1.  Select a **Repository** from the list.
-    
+
     If there are several repositories with the same name, the listed GitHub repositories will have their names attached with a GitHub organization name. For example, `BigBrassBand/second-webhook-test-repo`.
-        
+
 2.  Use the search box to look for the specific repository that will be used.
-        
+
 3.  Choose the newly-created branch as the **Source branch**.
-    
+
 4.  Set _**master**_ as the **Target branch**.
-    
+
 5.  Enter a descriptive **Title** or leave it as is _(recommended)_.
-    
+
 <div class='callout callout-success'>
   <p>**Preview** allows you to see the comparison view of the current changes in the selected **Source branch** vs **Target branch** (_usually_ _master_).</p>
-</div>  
+</div>
 
 * * *
 
@@ -351,28 +351,28 @@ The pull request is also ready for approval by the reviewers in your GitHub web 
 
 ## More integration guides
 
-*   [Integration Basics](/wiki/spaces/GIJDC/pages/92078126/Integration+Basics) (Git Integration for Jira Data Center)
-    
+*   [Integration Basics](/git-integration-for-jira-self-managed/Integration-Basics) (Git Integration for Jira Data Center)
+
 *   [GitHub.com](/wiki/spaces/GIJDC/pages/91979804/GitHub.com) (Git Integration for Jira Data Center)
-    
+
 *   [GitHub Enterprise Server](/wiki/spaces/GIJDC/pages/91914350/GitHub+Enterprise+Server) (Git Integration for Jira Data Center)
-    
+
 *   [GitLab CE/EE](/wiki/spaces/GIJDC/pages/91947056) (Git Integration for Jira Data Center)
-    
+
 *   [GitLab.com](/wiki/spaces/GIJDC/pages/91881531/GitLab.com) (Git Integration for Jira Data Center)
-    
+
 *   [Azure DevOps | Visual Studio Team Services (VSTS)](/wiki/spaces/GIJDC/pages/92176406) (Git Integration for Jira Data Center)
-    
+
 *   [Azure DevOps Server | Team Foundation Services (TFS)](/wiki/spaces/GIJDC/pages/91979843) (Git Integration for Jira Data Center)
-    
-*   [AWS CodeCommit](/wiki/spaces/GIJDC/pages/92176493/AWS+CodeCommit) (Git Integration for Jira Data Center)
-    
+
+*   [AWS CodeCommit](/git-integration-for-jira-self-managed/AWS-CodeCommit) (Git Integration for Jira Data Center)
+
 *   [Gerrit](/wiki/spaces/GIJDC/pages/91979855/Gerrit) (Git Integration for Jira Data Center)
-    
-*   [Bitbucket Server](/wiki/spaces/GIJDC/pages/92012653/Bitbucket+Server) (Git Integration for Jira Data Center)
-    
+
+*   [Bitbucket Server](/git-integration-for-jira-self-managed/Bitbucket-Server) (Git Integration for Jira Data Center)
+
 *   [Bonobo](/wiki/spaces/GIJDC/pages/91947111/Bonobo) (Git Integration for Jira Data Center)
-    
+
 *   [Windows Network | Server Share](/wiki/spaces/GIJDC/pages/91881564/Windows+Network+%7C+Server+Share) (Git Integration for Jira Data Center)
-    
-*   [Tracked Folders](/wiki/spaces/GIJDC/pages/91947120/Tracked+Folders) (Git Integration for Jira Data Center)
+
+*   [Tracked Folders](/git-integration-for-jira-self-managed/Tracked-Folders) (Git Integration for Jira Data Center)

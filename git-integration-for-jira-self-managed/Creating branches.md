@@ -12,7 +12,7 @@ taxonomy:
 
 *   The **View developer tools** _permission_ is required to view the Source Code panel (see more in [Jira issue Git integration development panel](/wiki/spaces/GIJDC/pages/1930399012/Jira+Git+integration+development+panel)). Jira users must also have the **Browse Project** _permissions_ to a project associated with a repository to view.
 
-*   The Create branch feature can be disabled for all Jira users (regardless of permissions) in [General settings](/wiki/spaces/GIJDC/pages/966852655/General+Settings).
+*   The Create branch feature can be disabled for all Jira users (regardless of permissions) in [General settings](/git-integration-for-jira-self-managed/General-Settings).
 
 
 **Feature note**
@@ -33,7 +33,7 @@ When creating a branch from within Jira: 
 *   Automatically populates branch name with issue key (necessary for branch **⇿** Jira issue association) and issue summary.
 
 *   Further – default branch naming conventions can be customized to match your development workflow.
-    For example: `${issuetype:New Issue,new,Bug Fix,bug}/${issuekey}-${summary}` generates "`bug/PRJ-123-add-more-logging`" (See [General settings](/wiki/spaces/GIJDC/pages/966852655/General+Settings) for more information).
+    For example: `${issuetype:New Issue,new,Bug Fix,bug}/${issuekey}-${summary}` generates "`bug/PRJ-123-add-more-logging`" (See [General settings](/git-integration-for-jira-self-managed/General-Settings) for more information).
 
 *   Require each Jira user to provide their Personal Access Token for creating branches. This option adds some friction to creating branches/pull requests but enabling this setting will enforce the git server user permissions as well as give better attribution for the actions. For more information, see [Require Personal Access Tokens for user actions (create branch/pull request)](/wiki/spaces/GIJDC/pages/317390849) for more information.
 
@@ -57,7 +57,7 @@ When creating a branch from within Jira: 
 
 ## Steps to creating a git branch in Jira
 
-1.  **Prerequisite:** Jira administrator configures a a full feature integration (auto-connect) via Add new integration panel in the Git Integration for Jira Data Center app. See [Integration Guides](/wiki/spaces/GIJDC/pages/92176395/Integration+Guides) for more information.
+1.  **Prerequisite:** Jira administrator configures a a full feature integration (auto-connect) via Add new integration panel in the Git Integration for Jira Data Center app. See [Integration Guides](/git-integration-for-jira-self-managed/Integration-Guides) for more information.
 
 2.  To access the Create branch action, do one of the following:
 

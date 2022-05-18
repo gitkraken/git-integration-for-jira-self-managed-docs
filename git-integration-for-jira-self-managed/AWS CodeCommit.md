@@ -162,7 +162,7 @@ We recommend using the Auto-connect integration panel (_Add new integration_) to
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-auto-connect-wizard-end-dlg(c).png?version=1&modificationDate=1631448492206&cacheVersion=1&api=v2&width=646&height=428)
     *   On the **Integration Settings**, setting the _**Require User PAT**_ option to `ON`, will require users to provide AWS Access Key ID and Secret Access Key specific for branch and pull requests creation/deletion _(via the_ [_Jira Git integration development panel_](/wiki/spaces/GIJDC/pages/1930399012/Jira+Git+integration+development+panel) _on the Jira issue page)_. For more information on this feature, see [Integration feature settings: Require user PAT](/wiki/spaces/GIJDC/pages/317390849).
 
-    *   Set [Smart commits](/wiki/spaces/GIJDC/pages/1930398395/Smart+commits) and [Repository Browser](/wiki/spaces/GIJDC/pages/1930398598/Repository+Browser) to enable/disable these features.
+    *   Set [Smart commits](/git-integration-for-jira-self-managed/Smart-commits) and [Repository Browser](/git-integration-for-jira-self-managed/Repository-Browser) to enable/disable these features.
 
     *   Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Setting project permissions](/wiki/spaces/GIJDC/pages/509444154/Setting+Project+Permissions).
 
@@ -348,7 +348,7 @@ Click the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79b
 
 *   Page:
 
-    [Integration Basics](/wiki/spaces/GIJDC/pages/92078126/Integration+Basics) (Git Integration for Jira Data Center)
+    [Integration Basics](/git-integration-for-jira-self-managed/Integration-Basics) (Git Integration for Jira Data Center)
 
 *   Page:
 
@@ -376,7 +376,7 @@ Click the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79b
 
 *   Page:
 
-    [AWS CodeCommit](/wiki/spaces/GIJDC/pages/92176493/AWS+CodeCommit) (Git Integration for Jira Data Center)
+    [AWS CodeCommit](/git-integration-for-jira-self-managed/AWS-CodeCommit) (Git Integration for Jira Data Center)
 
 *   Page:
 
@@ -384,7 +384,7 @@ Click the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79b
 
 *   Page:
 
-    [Bitbucket Server](/wiki/spaces/GIJDC/pages/92012653/Bitbucket+Server) (Git Integration for Jira Data Center)
+    [Bitbucket Server](/git-integration-for-jira-self-managed/Bitbucket-Server) (Git Integration for Jira Data Center)
 
 *   Page:
 
@@ -396,4 +396,4 @@ Click the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79b
 
 *   Page:
 
-    [Tracked Folders](/wiki/spaces/GIJDC/pages/91947120/Tracked+Folders) (Git Integration for Jira Data Center)
+    [Tracked Folders](/git-integration-for-jira-self-managed/Tracked-Folders) (Git Integration for Jira Data Center)

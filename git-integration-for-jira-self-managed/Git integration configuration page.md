@@ -16,13 +16,13 @@ On this page, you will be able to setup your git repositories and connect them t
 | --- |
 | ### Add new integration panel |
 | ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396951/gitserver-auto-connect-panel.png?version=1&modificationDate=1630642814741&cacheVersion=1&api=v2) |
-| Formerly known as Auto-Connect integration panel.<br><br>In here, you will find special integration options for specific git hosts. This feature supports multiple connected repositories and automates git integration.<br><br>We highly recommend this feature for multiple repository configuration.<br><br>For more details on supported git hosts, see the Auto-connect section in our [Integration guides](/wiki/spaces/GIJDC/pages/92176395/Integration+Guides).<br><br>The **Add tracked folder** connection feature is added to the **Add new integration** panel for easy access.<br><br>**GitLab**  <br>We are dropping support for Gitlab API v3. Please use **GitLab API v4** when adding new integrations for increased security. |
+| Formerly known as Auto-Connect integration panel.<br><br>In here, you will find special integration options for specific git hosts. This feature supports multiple connected repositories and automates git integration.<br><br>We highly recommend this feature for multiple repository configuration.<br><br>For more details on supported git hosts, see the Auto-connect section in our [Integration guides](/git-integration-for-jira-self-managed/Integration-Guides).<br><br>The **Add tracked folder** connection feature is added to the **Add new integration** panel for easy access.<br><br>**GitLab**  <br>We are dropping support for Gitlab API v3. Please use **GitLab API v4** when adding new integrations for increased security. |
 
 |     |
 | --- |
 | ### Connect to Git repository |
 | ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396951/gitserver-connect-git-repo.png?version=1&modificationDate=1630642815446&cacheVersion=1&api=v2) |
-| This feature opens the Connect wizard.<br><br>You can connect single git repositories using this setup such as git protocol, SSH, HTTP/HTTPS, etc. Clicking the adjacent **…** will open the dropdown list of integration options such as [Add tracked folder](/wiki/spaces/GIJDC/pages/91947120/Tracked+Folders) and equivalent integration connection options. |
+| This feature opens the Connect wizard.<br><br>You can connect single git repositories using this setup such as git protocol, SSH, HTTP/HTTPS, etc. Clicking the adjacent **…** will open the dropdown list of integration options such as [Add tracked folder](/git-integration-for-jira-self-managed/Tracked-Folders) and equivalent integration connection options. |
 
 |     |
 | --- |
@@ -34,7 +34,7 @@ On this page, you will be able to setup your git repositories and connect them t
 | --- |
 | ### Bulk change |
 | ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396951/gitserver-bulk-change.png?version=1&modificationDate=1630642815933&cacheVersion=1&api=v2) |
-| Bulk change provides an easier way to import or export repository configuration. This feature is useful when you are migrating from an old server to a new server and is also recommended when upgrading to a new version of Git Integration for Jira app.<br><br>**Export Configuration**  – this function will export your repository integration configuration to a tab-delimited file (.TSV).<br><br>**Import Configuration**  – this function will import your repository integration configuration from a tab-delimited file (.TSV).<br><br>For more information, see [Bulk change](/wiki/spaces/GIJDC/pages/1930397801/Bulk+change). |
+| Bulk change provides an easier way to import or export repository configuration. This feature is useful when you are migrating from an old server to a new server and is also recommended when upgrading to a new version of Git Integration for Jira app.<br><br>**Export Configuration**  – this function will export your repository integration configuration to a tab-delimited file (.TSV).<br><br>**Import Configuration**  – this function will import your repository integration configuration from a tab-delimited file (.TSV).<br><br>For more information, see [Bulk change](/git-integration-for-jira-self-managed/Bulk-change). |
 
 |     |
 | --- |
@@ -46,7 +46,7 @@ On this page, you will be able to setup your git repositories and connect them t
 | --- |
 | ### Webhooks |
 | ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396951/gitserver-webhooks-sidebar.png?version=1&modificationDate=1630642817385&cacheVersion=1&api=v2) |
-| Opens the Webhooks configuration page. Enable/disable webhooks to trigger immediate reindex of the connected git repositories and integration.<br><br>For more information about this topic, click [here](/wiki/spaces/GIJDC/pages/1930399378/Integration+webhooks) to go to the **Webhooks documentation page**. |
+| Opens the Webhooks configuration page. Enable/disable webhooks to trigger immediate reindex of the connected git repositories and integration.<br><br>For more information about this topic, click [here](/git-integration-for-jira-self-managed/Integration-webhooks) to go to the **Webhooks documentation page**. |
 
 ### Related helpful tips
 

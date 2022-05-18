@@ -60,6 +60,6 @@ The _default_ setting for Jira Data Center is **false**.
 
 If your repository is stored on a network share, it is highly recommended to set this setting to _**false**_.
 
-[« Integration webhooks](/wiki/spaces/GIJDC/pages/1930399378/Integration+webhooks)
+[« Integration webhooks](/git-integration-for-jira-self-managed/Integration-webhooks)
 
-[Localization support »](/wiki/spaces/GIJDC/pages/1930399433/Localization+support)
+[Localization support »](/git-integration-for-jira-self-managed/Localization-support)

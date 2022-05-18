@@ -57,6 +57,6 @@ For every configured repository, this process do the following:
 
 Due to the async structure of the Git Integration for Jira app, commits that have been registered with index become visible after the revision indexer job has been executed. To show commits immediately, you have to start the reindex manually.
 
-[« Localization support](/wiki/spaces/GIJDC/pages/1930399433/Localization+support)
+[« Localization support](/git-integration-for-jira-self-managed/Localization-support)
 
-[Licensing notice »](/wiki/spaces/GIJDC/pages/1930399465/Licensing+notice)
+[Licensing notice »](/git-integration-for-jira-self-managed/Licensing-notice)

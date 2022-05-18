@@ -29,11 +29,11 @@ HTTP Status code response:
 
 *   Page:
 
-    [Bulk Export](/wiki/spaces/GIJDC/pages/380797241/Bulk+Export) (Git Integration for Jira Data Center)
+    [Bulk Export](/git-integration-for-jira-self-managed/Bulk-Export) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Bulk Import](/wiki/spaces/GIJDC/pages/380764507/Bulk+Import) (Git Integration for Jira Data Center)
+    [Bulk Import](/git-integration-for-jira-self-managed/Bulk-Import) (Git Integration for Jira Data Center)
 
 *   Page:
 

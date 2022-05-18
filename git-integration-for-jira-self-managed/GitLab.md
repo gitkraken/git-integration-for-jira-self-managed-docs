@@ -281,11 +281,11 @@ page icon as list [Integrate Azure DevOps/VSTS with Jira Data Center](/wiki/spac
 
 page icon as list [Integrate Azure DevOps Server/TFS with Jira Data Center](/wiki/spaces/GIJDC/pages/91979843)
 
-page icon as list [Integrate AWS CodeCommit with Jira Data Center](/wiki/spaces/GIJDC/pages/92176493/AWS+CodeCommit)
+page icon as list [Integrate AWS CodeCommit with Jira Data Center](/git-integration-for-jira-self-managed/AWS-CodeCommit)
 
 page icon as list [Integrate Gerrit with Jira Data Center](/wiki/spaces/GIJDC/pages/91979855/Gerrit)
 
-page icon as list [Integrate Bitbucket with Jira Data Center](/wiki/spaces/GIJDC/pages/92012653/Bitbucket+Server)
+page icon as list [Integrate Bitbucket with Jira Data Center](/git-integration-for-jira-self-managed/Bitbucket-Server)
 
 page icon as list [Integrate Bonobo with Jira Data Center](/wiki/spaces/GIJDC/pages/91947111/Bonobo)
 

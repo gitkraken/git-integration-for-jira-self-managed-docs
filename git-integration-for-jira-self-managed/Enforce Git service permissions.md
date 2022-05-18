@@ -87,7 +87,7 @@ The [Require User PAT general setting](/wiki/spaces/GIJDC/pages/1947107395/Requi
 
 *   Page:
 
-    [General settings](/wiki/spaces/GIJDC/pages/1930398111/General+settings) (Git Integration for Jira Data Center)
+    [General settings](/git-integration-for-jira-self-managed/General-settings) (Git Integration for Jira Data Center)
 
 *   Page:
 

@@ -52,7 +52,7 @@ Refer to the parameters below when editing the TSV file:
 | **mainBranch** | _String_. Optional.<br><br>Set specific branch as the main branch for this repository. The default value is "master".<br><br>See [_Main Branch_](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930397180/Connecting+a+repository+via+Advanced+setup#Main-Branch) in section, [Connecting a repository via Advanced setup](/wiki/spaces/GIJDC/pages/1930397180/Connecting+a+repository+via+Advanced+setup). |
 | _**username, password**_ | _String_. Optional.<br><br>Leave blank if 2FA is enabled for the git host. |
 | _**pat**_ | _String_. Optional.<br><br>Required, if 2FA is enabled for the git host. This field accepts personal access token from supported git hosts. |
-| #### _gitViewerEnabled_ | _Boolean._ Optional.<br><br>Enables or disables the **Repository Browser** feature for this repository.  The default setting for this option is _**enabled**_.<br><br>Users must have the **View Development Tools** _project permission_ in order to use this feature.  Consult your Jira System Administrator on permissions.<br><br>For more information, see section, [Repository Browser](/wiki/spaces/GIJDC/pages/1930398598/Repository+Browser). |
+| #### _gitViewerEnabled_ | _Boolean._ Optional.<br><br>Enables or disables the **Repository Browser** feature for this repository.  The default setting for this option is _**enabled**_.<br><br>Users must have the **View Development Tools** _project permission_ in order to use this feature.  Consult your Jira System Administrator on permissions.<br><br>For more information, see section, [Repository Browser](/git-integration-for-jira-self-managed/Repository-Browser). |
 | #### _projectMapping_ | _Long \[ \]_. Array. Optional.<br><br>These are numeric projects IDs associated with the repository.<br><br>*   This field accepts list of comma separated project IDs for project mapping. Trailing spaces are ignored _(equivalent to unchecking the_ **Associate to All Projects** _checkbox in the Advanced Setup dialog)_. _Example:_ `10000,10100`<br>    <br>*   If you change an existing repository, leaving this field blank will use the existing values of the repository configuration.<br>    <br>*   Setting this field to **ALL** will retain `projectMapping` settings and sets "All Projects" flag to true _(equivalent to checking the_ **Associate to All Projects** _checkbox in the Advanced Setup dialog)_.<br>    <br><br>If projects are not associated to the repository, you must leave this field blank and set the [_gitViewerEnable_](#gitViewerEnable) field to **false**. |
 | _**smartCommitsEnabled**_ | _Boolean._ Optional.<br><br>This setting is enabled by default. Enables/disables smart commits processing for this repository or tracked folder. The default value for this field is _**true**_. |
 | _**sendCommitEmails**_ | _Boolean_. Optional.<br><br>Send commit notification emails for this repository. If left blank, the default value for this field is **true**. |
@@ -64,7 +64,7 @@ Refer to the parameters below when editing the TSV file:
 | _**branchLinkFormat**_ | _String._ Optional.<br><br>This is the URL to display a branch on the git server. Use the following variables:<br><br>*   `${branch}` – Name of the branch |
 | _**disabled**_ | _Boolean_. Optional.<br><br>Add this repository into the Git Integration app configuration and set its status to updated (_enabled_) or disabled. If left blank, the default value for this field is **false**. |
 | _**hosted**_ | **Internal field**. Read-only.<br><br>This field will show whether the repository is hosted on Jira or not. |
-| _**tagsFilter**_ | _String_. Optional. <br><br>Displays all tags for the specific issue, if left blank. Otherwise, set tags matching pattern to display tags on issue pages that match the specified regular expression pattern.<br><br>For more information, see example in [Show tags](/wiki/spaces/GIJDC/pages/1930399204/Git+tags).<br><br>Set `tagsFilter` with a valid Java regular expression or an empty string. The filtered tags are displayed on the Jira Developer Panel. |
+| _**tagsFilter**_ | _String_. Optional. <br><br>Displays all tags for the specific issue, if left blank. Otherwise, set tags matching pattern to display tags on issue pages that match the specified regular expression pattern.<br><br>For more information, see example in [Show tags](/git-integration-for-jira-self-managed/Git-tags).<br><br>Set `tagsFilter` with a valid Java regular expression or an empty string. The filtered tags are displayed on the Jira Developer Panel. |
 | _**integrationType**_ | _Flag_. **Internal field**.<br><br>This field will show whether the repository is a tracked folder, a connected git service or a simple repository. |
 | _**trackedFolderId**_ | _Integer_. **Internal field**.<br><br>This field will display the ID of the "parent" repository. It can be changed in order to convert the repository to a sub-repository.<br><br>**Use with caution**  <br>If the modified sub-repository is not located in the tracked folder, it will be removed by the sequential auto-reindex. |
 | _**delete**_ | _String_. Optional.<br><br>Enter **"**delete**"** on this column/field as a confirmation to the Git Integration app to automatically remove the selected repository from the plugin configuration. If left blank, no changes will occur. |
@@ -96,11 +96,11 @@ Take note that the .tsv file is verified by the Git Integration for Jira app wit
 
 *   Page:
 
-    [Bulk Export](/wiki/spaces/GIJDC/pages/380797241/Bulk+Export) (Git Integration for Jira Data Center)
+    [Bulk Export](/git-integration-for-jira-self-managed/Bulk-Export) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Bulk Import](/wiki/spaces/GIJDC/pages/380764507/Bulk+Import) (Git Integration for Jira Data Center)
+    [Bulk Import](/git-integration-for-jira-self-managed/Bulk-Import) (Git Integration for Jira Data Center)
 
 *   Page:
 

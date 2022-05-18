@@ -23,6 +23,6 @@ Access the commit code diff dialog via the following locations:
 
 Each click on the  ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **\# lines hidden** label expands up to 20 lines of code on that section.
 
-[« Repository Browser](/wiki/spaces/GIJDC/pages/1930398598/Repository+Browser)
+[« Repository Browser](/git-integration-for-jira-self-managed/Repository-Browser)
 
 [Git user identity »](/wiki/spaces/GIJDC/pages/1930398801/Git+user+identity)

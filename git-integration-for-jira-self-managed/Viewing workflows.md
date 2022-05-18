@@ -51,7 +51,7 @@ Thus, the part of the transition name up to the invalid character can be used fo
 
 If a smart commit fails, an email notification is sent to either the Jira user, or to the Git user if a Jira user can't be identified.
 
-[« Workflow transitions](/wiki/spaces/GIJDC/pages/1930398464/Workflow+transitions)
+[« Workflow transitions](/git-integration-for-jira-self-managed/Workflow-transitions)
 
 [Smart commits helper »](/wiki/spaces/GIJDC/pages/1930398529/Smart+commits+helper)
 
@@ -59,23 +59,23 @@ If a smart commit fails, an email notification is sent to either the Jira user, 
 
 *   Page:
 
-    [Smart commits](/wiki/spaces/GIJDC/pages/1930398395/Smart+commits) (Git Integration for Jira Data Center)
+    [Smart commits](/git-integration-for-jira-self-managed/Smart-commits) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Basic commands](/wiki/spaces/GIJDC/pages/1930398422/Basic+commands) (Git Integration for Jira Data Center)
+    [Basic commands](/git-integration-for-jira-self-managed/Basic-commands) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Workflow transitions](/wiki/spaces/GIJDC/pages/1930398464/Workflow+transitions) (Git Integration for Jira Data Center)
+    [Workflow transitions](/git-integration-for-jira-self-managed/Workflow-transitions) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Advanced examples](/wiki/spaces/GIJDC/pages/1930398446/Advanced+examples) (Git Integration for Jira Data Center)
+    [Advanced examples](/git-integration-for-jira-self-managed/Advanced-examples) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Viewing workflows](/wiki/spaces/GIJDC/pages/1930398494/Viewing+workflows) (Git Integration for Jira Data Center)
+    [Viewing workflows](/git-integration-for-jira-self-managed/Viewing-workflows) (Git Integration for Jira Data Center)
 
 *   Page:
 

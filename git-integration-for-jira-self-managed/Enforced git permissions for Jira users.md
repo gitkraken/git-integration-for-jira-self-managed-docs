@@ -47,11 +47,11 @@ From the Jira user profile page, the Jira user can enter their Git service Perso
 
 *   Page:
 
-    [General Settings](/wiki/spaces/GIJDC/pages/966852655/General+Settings)
+    [General Settings](/git-integration-for-jira-self-managed/General-Settings)
 
 *   Page:
 
-    [Creating branches](/wiki/spaces/GIJDC/pages/1932460323/Creating+branches)
+    [Creating branches](/git-integration-for-jira-self-managed/Creating-branches)
 
 *   Page:
 

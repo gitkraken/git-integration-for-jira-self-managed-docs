@@ -31,7 +31,7 @@ The updating process is demonstrated in two chapters:
 
 _Right-click_ [_**here**_](https://bigbrassband.wistia.com/medias/aoyowvw485) _and view this video in a new browser tab._
 
-[« Manual installation](/wiki/spaces/GIJDC/pages/1930395954/Manual+installation)
+[« Manual installation](/git-integration-for-jira-self-managed/Manual-installation)
 
 [Managing license key »](/wiki/spaces/GIJDC/pages/1930396028/Managing+license+key)
 
@@ -47,7 +47,7 @@ _Right-click_ [_**here**_](https://bigbrassband.wistia.com/medias/aoyowvw485) 
 
 *   Page:
 
-    [Manual installation](/wiki/spaces/GIJDC/pages/1930395954/Manual+installation) (Git Integration for Jira Data Center)
+    [Manual installation](/git-integration-for-jira-self-managed/Manual-installation) (Git Integration for Jira Data Center)
 
 *   Page:
 

@@ -14,7 +14,7 @@ Scroll down to the **Scheduled jobs** section and set the **Repository indexing*
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2053570566/gitserver-gencfg-sched-jobs-repo-idx-sel.png?version=1&modificationDate=1642419212374&cacheVersion=1&api=v2&width=680&height=300)
 
-For near-instantaneous display of commits in your Jira issues, we recommend to [configure webhooks](/wiki/spaces/GIJDC/pages/1930399378/Integration+webhooks).
+For near-instantaneous display of commits in your Jira issues, we recommend to [configure webhooks](/git-integration-for-jira-self-managed/Integration-webhooks).
 
 *   Page:
 

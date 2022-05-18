@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-This setting is part of the [**General Settings**](/wiki/spaces/GIJDC/pages/966852655/General+Settings) configuration page.
+This setting is part of the [**General Settings**](/git-integration-for-jira-self-managed/General-Settings) configuration page.
 
 VERSION 4.0.1+ This setting is now moved to the **Advanced settings** in General settings.
 
@@ -21,7 +21,7 @@ VERSION 4.0.1+ This setting is now moved to the **Advanced settings** in General
 
 *   Page:
 
-    [Repository settings](/wiki/spaces/GIJDC/pages/1207795977/Repository+settings) (Git Integration for Jira Data Center)
+    [Repository settings](/git-integration-for-jira-self-managed/Repository-settings) (Git Integration for Jira Data Center)
 
 *   Page:
 
@@ -29,7 +29,7 @@ VERSION 4.0.1+ This setting is now moved to the **Advanced settings** in General
 
 *   Page:
 
-    [Diff settings](/wiki/spaces/GIJDC/pages/1207795993/Diff+settings) (Git Integration for Jira Data Center)
+    [Diff settings](/git-integration-for-jira-self-managed/Diff-settings) (Git Integration for Jira Data Center)
 
 *   Page:
 

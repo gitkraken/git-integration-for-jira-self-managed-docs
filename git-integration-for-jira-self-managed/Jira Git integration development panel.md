@@ -65,4 +65,4 @@ The **Roll Up** refers to an existing Git Roll Up view, which the issue tab 
 
 *   Page:
 
-    [Git tags](/wiki/spaces/GIJDC/pages/1930399204/Git+tags) (Git Integration for Jira Data Center)
+    [Git tags](/git-integration-for-jira-self-managed/Git-tags) (Git Integration for Jira Data Center)

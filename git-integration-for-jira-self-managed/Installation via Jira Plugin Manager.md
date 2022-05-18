@@ -18,7 +18,7 @@ taxonomy:
 
 [« Installation via Atlassian Marketplace](/wiki/spaces/GIJDC/pages/1930395898/Installation+via+Atlassian+Marketplace)
 
-[Manual installation »](/wiki/spaces/GIJDC/pages/1930395954/Manual+installation)
+[Manual installation »](/git-integration-for-jira-self-managed/Manual-installation)
 
 ### More related topics about Git Integration for Jira app installation
 
@@ -32,7 +32,7 @@ taxonomy:
 
 *   Page:
 
-    [Manual installation](/wiki/spaces/GIJDC/pages/1930395954/Manual+installation) (Git Integration for Jira Data Center)
+    [Manual installation](/git-integration-for-jira-self-managed/Manual-installation) (Git Integration for Jira Data Center)
 
 *   Page:
 

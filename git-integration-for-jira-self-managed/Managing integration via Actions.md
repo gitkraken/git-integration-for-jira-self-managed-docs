@@ -78,7 +78,7 @@ The tracked folder and auto-connect integrations can be configured using the fol
 
 *   Page:
 
-    [SSL verify](/wiki/spaces/GIJDC/pages/1930397639/SSL+verify) (Git Integration for Jira Data Center)
+    [SSL verify](/git-integration-for-jira-self-managed/SSL-verify) (Git Integration for Jira Data Center)
 
 *   Page:
 

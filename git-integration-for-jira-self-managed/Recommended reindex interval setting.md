@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-The configuration of the scheduler jobs are no longer accessible in the Jira administration page. For this case, the Git Integration for Jira app offers Jira administrators this capability via the [General settings](/wiki/spaces/GIJDC/pages/1930398111/General+settings) page.
+The configuration of the scheduler jobs are no longer accessible in the Jira administration page. For this case, the Git Integration for Jira app offers Jira administrators this capability via the [General settings](/git-integration-for-jira-self-managed/General-settings) page.
 
 VERSION 3.7+ The ​_**Repository reindexing**_ and _**Garbage collection and revision validation checkers**_ settings are now moved into the **Scheduled Jobs** settings group.
 

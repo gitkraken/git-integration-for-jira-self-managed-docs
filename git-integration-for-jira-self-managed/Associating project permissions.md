@@ -93,7 +93,7 @@ You can configure the project permissions for repositories within integration:
 
 [« Managing integration or repository configuration](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930397435/%28GDC%29+Managing+repository+or+integration+configuration)
 
-[Bulk change »](/wiki/spaces/GIJDC/pages/1930397801/Bulk+change)
+[Bulk change »](/git-integration-for-jira-self-managed/Bulk-change)
 
 ### More related topics about setting up repositories
 

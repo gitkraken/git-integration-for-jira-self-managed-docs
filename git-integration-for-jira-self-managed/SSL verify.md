@@ -51,7 +51,7 @@ The **SSL Verify** setting is available in Jira Server, Data Center and Jira C
 
 *   Page:
 
-    [SSL verify](/wiki/spaces/GIJDC/pages/1930397639/SSL+verify) (Git Integration for Jira Data Center)
+    [SSL verify](/git-integration-for-jira-self-managed/SSL-verify) (Git Integration for Jira Data Center)
 
 *   Page:
 

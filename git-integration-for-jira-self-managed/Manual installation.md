@@ -53,7 +53,7 @@ Use manual install if you have a specific version of **Git Integration for Jira
 
 *   Page:
 
-    [Manual installation](/wiki/spaces/GIJDC/pages/1930395954/Manual+installation) (Git Integration for Jira Data Center)
+    [Manual installation](/git-integration-for-jira-self-managed/Manual-installation) (Git Integration for Jira Data Center)
 
 *   Page:
 

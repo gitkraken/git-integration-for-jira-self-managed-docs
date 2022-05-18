@@ -14,7 +14,7 @@ If the Git server and Jira server are installed on the same server, only the pat
 
 You must have the **Jira System Administrators** _global permission_ to install apps.
 
-If you have the previous version of the Git Integration app and will upgrade to **v4.0+**, all existing repositories in the app configuration will have the **Repository Browser** feature **turned off** by default. For more information about this feature and how to enable it, see [Repository Browser](/wiki/spaces/GIJDC/pages/1930398598/Repository+Browser).
+If you have the previous version of the Git Integration app and will upgrade to **v4.0+**, all existing repositories in the app configuration will have the **Repository Browser** feature **turned off** by default. For more information about this feature and how to enable it, see [Repository Browser](/git-integration-for-jira-self-managed/Repository-Browser).
 
 _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/lr0jp6ntfd) _to open this video in a new browser tab for more viewing options._
 
@@ -34,7 +34,7 @@ _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/lr0jp6ntfd) _t
 
 *   Page:
 
-    [Manual installation](/wiki/spaces/GIJDC/pages/1930395954/Manual+installation) (Git Integration for Jira Data Center)
+    [Manual installation](/git-integration-for-jira-self-managed/Manual-installation) (Git Integration for Jira Data Center)
 
 *   Page:
 

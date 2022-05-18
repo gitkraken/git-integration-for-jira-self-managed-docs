@@ -22,9 +22,9 @@ Select from the supported git host integration (_or click the integration links 
 
 [GitHub Enterprise Server](/wiki/spaces/GIJDC/pages/91914350/GitHub+Enterprise+Server)
 
-[![](https://bigbrassband.atlassian.net/wiki/download/attachments/2044035170/gitcloud-bitbucket-icon.png?version=1&modificationDate=1640772745139&cacheVersion=1&api=v2)](/wiki/spaces/GIJDC/pages/92012653/Bitbucket+Server)
+[![](https://bigbrassband.atlassian.net/wiki/download/attachments/2044035170/gitcloud-bitbucket-icon.png?version=1&modificationDate=1640772745139&cacheVersion=1&api=v2)](/git-integration-for-jira-self-managed/Bitbucket-Server)
 
-[Bitbucket](/wiki/spaces/GIJDC/pages/92012653/Bitbucket+Server)
+[Bitbucket](/git-integration-for-jira-self-managed/Bitbucket-Server)
 
 [![](https://bigbrassband.atlassian.net/wiki/download/attachments/2044035170/gitcloud-gitlab-icon.png?version=1&modificationDate=1640772745416&cacheVersion=1&api=v2)](/wiki/spaces/GIJDC/pages/91881531/GitLab.com)
 
@@ -34,9 +34,9 @@ Select from the supported git host integration (_or click the integration links 
 
 [GitLab CE/EE](/wiki/spaces/GIJDC/pages/91947056)
 
-[![](https://bigbrassband.atlassian.net/wiki/download/attachments/2044035170/gitcloud-awscc-icon.png?version=1&modificationDate=1640772745948&cacheVersion=1&api=v2)](/wiki/spaces/GIJDC/pages/92176493/AWS+CodeCommit)
+[![](https://bigbrassband.atlassian.net/wiki/download/attachments/2044035170/gitcloud-awscc-icon.png?version=1&modificationDate=1640772745948&cacheVersion=1&api=v2)](/git-integration-for-jira-self-managed/AWS-CodeCommit)
 
-[AWS CodeCommit](/wiki/spaces/GIJDC/pages/92176493/AWS+CodeCommit)
+[AWS CodeCommit](/git-integration-for-jira-self-managed/AWS-CodeCommit)
 
 [![](https://bigbrassband.atlassian.net/wiki/download/attachments/2044035170/gitcloud-microsoft-icon.png?version=1&modificationDate=1640772746210&cacheVersion=1&api=v2)](/wiki/spaces/GIJDC/pages/92176406)
 

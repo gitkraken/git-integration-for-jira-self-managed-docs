@@ -10,13 +10,13 @@ Git Integration for Jira (GIJ) Data Center (DC) and Server 4.0 introduces a new 
 
 ### GIJ architecture
 
-Every connected repository (except local ones and those using the "[Tracked folder](/wiki/spaces/GIJDC/pages/91947120/Tracked+Folders)" feature) is cloned to a sub-folder in the `data/git-plugin` folder inside the shared Jira home.
+Every connected repository (except local ones and those using the "[Tracked folder](/git-integration-for-jira-self-managed/Tracked-Folders)" feature) is cloned to a sub-folder in the `data/git-plugin` folder inside the shared Jira home.
 
 This cloned repository copy is used for 2 purposes:
 
 1.  The Jira DC nodes scan it and create local Lucene indexes to retrieve commit information quickly.
 
-2.  The "[View file](/wiki/spaces/GIJDC/pages/1930398598/Repository+Browser)", "[View diff](/wiki/spaces/GIJDC/pages/1930398768/Viewing+commit+code+diffs)", and "[Compare](/wiki/spaces/GIJDC/pages/1930398705)" features read files data directly from that cloned copy of the repository.
+2.  The "[View file](/git-integration-for-jira-self-managed/Repository-Browser)", "[View diff](/wiki/spaces/GIJDC/pages/1930398768/Viewing+commit+code+diffs)", and "[Compare](/wiki/spaces/GIJDC/pages/1930398705)" features read files data directly from that cloned copy of the repository.
 
 
 ### Indexing process
@@ -64,13 +64,13 @@ The reindexing queue is used to perform the following operations on repositories
 *   Repository removal.
 
 
-Git GC is called only on a scheduled basis (please see the "[Garbage collection and Revision validation checkers](/wiki/spaces/GIJDC/pages/1207828777/Repositories+garbage+collection+checker)" option in the plugin "[General settings](/wiki/spaces/GIJDC/pages/966852655/General+Settings)").
+Git GC is called only on a scheduled basis (please see the "[Garbage collection and Revision validation checkers](/wiki/spaces/GIJDC/pages/1207828777/Repositories+garbage+collection+checker)" option in the plugin "[General settings](/git-integration-for-jira-self-managed/General-Settings)").
 
 The repository removal operation may be called either manually by a Jira administrator through the "[Remove repository"/"Remove integration](/wiki/spaces/GIJDC/pages/1930397738/Removing+integration+or+repository+configuration)" context menu, through [the REST API](/wiki/spaces/GIJDC/pages/380797296/Delete+Existing+Repository), or by the "[Bulk import](/wiki/spaces/GIJDC/pages/1930397888/Import+existing+repositories+via+Bulk+change)" feature. Also, when some repositories are no longer available on the Git server, they are automatically scheduled for removal during integrations scanning.
 
 The repository reindexing operations are initiated in the following cases:
 
-*   A scheduled reindexing (please see the "[Repository reindexing](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1207795958/Scheduled+jobs#Repository-reindexing)" option in the plugin "General settings" and [this article about Scheduled Jobs](/wiki/spaces/GIJDC/pages/756056197/Scheduling+Jobs) for more details).
+*   A scheduled reindexing (please see the "[Repository reindexing](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1207795958/Scheduled+jobs#Repository-reindexing)" option in the plugin "General settings" and [this article about Scheduled Jobs](/git-integration-for-jira-self-managed/Scheduling-Jobs) for more details).
 
 *   A webhook-based reindexing (please see [Webhooks](/wiki/spaces/GIJDC/pages/94142715/Webhooks) for more details).
 
@@ -80,7 +80,7 @@ The repository reindexing operations are initiated in the following cases:
 
 *   An automatic repository reindexing after the ["Bulk import"](/wiki/spaces/GIJDC/pages/1930397888/Import+existing+repositories+via+Bulk+change).
 
-*   A reindex triggered by REST API calls (please see [Reindex API](/wiki/spaces/GIJDC/pages/380699270/Reindex+API) for more details).
+*   A reindex triggered by REST API calls (please see [Reindex API](/git-integration-for-jira-self-managed/Reindex-API) for more details).
 
 
 ### Reindexing queue: Priorities

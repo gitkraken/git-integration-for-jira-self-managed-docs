@@ -34,7 +34,7 @@ To perform the Get Commits API call, the Jira user must have the permission to 
 
 *   Page:
 
-    [Get Commits](/wiki/spaces/GIJDC/pages/380764568/Get+Commits) (Git Integration for Jira Data Center)
+    [Get Commits](/git-integration-for-jira-self-managed/Get-Commits) (Git Integration for Jira Data Center)
 
 *   Page:
 

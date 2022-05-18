@@ -45,4 +45,4 @@ JQL searching will not work if more than **65,000 Jira issues** have at least on
 
 [« Reindexing](/wiki/spaces/GIJDC/pages/1930399289/Reindexing)
 
-[Integration webhooks »](/wiki/spaces/GIJDC/pages/1930399378/Integration+webhooks)
+[Integration webhooks »](/git-integration-for-jira-self-managed/Integration-webhooks)

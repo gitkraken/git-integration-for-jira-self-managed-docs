@@ -18,11 +18,11 @@ On this page you will find topics related to the supported features of the app.
 
 *   Page:
 
-    [General Settings](/wiki/spaces/GIJDC/pages/966852655/General+Settings) (Git Integration for Jira Data Center)
+    [General Settings](/git-integration-for-jira-self-managed/General-Settings) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Creating branches](/wiki/spaces/GIJDC/pages/1932460323/Creating+branches) (Git Integration for Jira Data Center)
+    [Creating branches](/git-integration-for-jira-self-managed/Creating-branches) (Git Integration for Jira Data Center)
 
 *   Page:
 

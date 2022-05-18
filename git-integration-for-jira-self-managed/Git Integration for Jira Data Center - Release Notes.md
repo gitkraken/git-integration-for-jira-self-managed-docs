@@ -179,7 +179,7 @@ By scheduling jobs in [**Git Integration for Jira**](https://marketplace.atlassi
 
 ![Scheduled jobs showing repository indexing and gc](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1078231449/general-settings-scheduled-jobs.png?version=1&modificationDate=1611748710415&cacheVersion=1&api=v2&width=544&height=217)
 
-For detailed information, see [**this article**](/wiki/spaces/GIJDC/pages/756056197/Scheduling+Jobs),
+For detailed information, see [**this article**](/git-integration-for-jira-self-managed/Scheduling-Jobs),
 
 * * *
 
@@ -214,7 +214,7 @@ The Commits REST API has been extended to show branch name in the results.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1078231449/jira-serverdc-branches-commits-api-example.png?version=1&modificationDate=1611825301037&cacheVersion=1&api=v2&width=442&height=468)
 
-For more information, see [**Commits REST API**](/wiki/spaces/GIJDC/pages/380764552/Commits+API)**,**.
+For more information, see [**Commits REST API**](/git-integration-for-jira-self-managed/Commits-API)**,**.
 
 * * *
 

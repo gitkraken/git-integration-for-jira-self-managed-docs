@@ -36,7 +36,7 @@ The secret key also has the same restrictions on the valid set of characters as 
 
 ## More information on webhooks configuration
 
-For detailed information on setting up webhooks for supported git hosts, see [Git Integration for Jira: Integration webhooks](/wiki/spaces/GIJDC/pages/1930399378/Integration+webhooks).
+For detailed information on setting up webhooks for supported git hosts, see [Git Integration for Jira: Integration webhooks](/git-integration-for-jira-self-managed/Integration-webhooks).
 
 The Git Integration for Jira app supports GitHub and GitLab push events to define individual repository to index. For more information, see [Creating reindex triggers manually](/wiki/spaces/GIJDC/pages/171475191).
 

@@ -34,6 +34,6 @@ To hide the **Commits** tab from the **Issues** page, disable the **Jira DV
 3.  Click **Disable**.
 
 
-[« Web linking](/wiki/spaces/GIJDC/pages/1930398212/Web+linking)
+[« Web linking](/git-integration-for-jira-self-managed/Web-linking)
 
 [Linking git commits to Jira issues »](/wiki/spaces/GIJDC/pages/1930398265/Linking+git+commits+to+Jira+issues)

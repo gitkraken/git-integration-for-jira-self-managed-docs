@@ -27,7 +27,7 @@ For detailed information about this feature, see [Git administration: General se
 
 [« Commit email notifications](/wiki/spaces/GIJDC/pages/1930397995/Commit+email+notifications)
 
-[Web linking »](/wiki/spaces/GIJDC/pages/1930398212/Web+linking)
+[Web linking »](/git-integration-for-jira-self-managed/Web-linking)
 
 ### More related topics about general settings
 
@@ -49,11 +49,11 @@ For detailed information about this feature, see [Git administration: General se
 
 *   Page:
 
-    [Email settings](/wiki/spaces/GIJDC/pages/1207795941/Email+settings) (Git Integration for Jira Data Center)
+    [Email settings](/git-integration-for-jira-self-managed/Email-settings) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Scheduled jobs](/wiki/spaces/GIJDC/pages/1207795958/Scheduled+jobs) (Git Integration for Jira Data Center)
+    [Scheduled jobs](/git-integration-for-jira-self-managed/Scheduled-jobs) (Git Integration for Jira Data Center)
 
 *   Page:
 
@@ -61,7 +61,7 @@ For detailed information about this feature, see [Git administration: General se
 
 *   Page:
 
-    [General settings](/wiki/spaces/GIJDC/pages/1930398111/General+settings) (Git Integration for Jira Data Center)
+    [General settings](/git-integration-for-jira-self-managed/General-settings) (Git Integration for Jira Data Center)
 
 *   Page:
 

@@ -55,7 +55,7 @@ Saving the changes triggers a repository reindexing to show new associations.
 
 [« Linking git commits to Jira issues (index)](/wiki/spaces/GIJDC/pages/1930398265/Linking+git+commits+to+Jira+issues)
 
-[Git notes »](/wiki/spaces/GIJDC/pages/1930398342/Git+notes)
+[Git notes »](/git-integration-for-jira-self-managed/Git-notes)
 
 ### More related topics about associating commits to Jira issues
 
@@ -69,4 +69,4 @@ Saving the changes triggers a repository reindexing to show new associations.
 
 *   Page:
 
-    [Git notes](/wiki/spaces/GIJDC/pages/1930398342/Git+notes) (Git Integration for Jira Data Center)
+    [Git notes](/git-integration-for-jira-self-managed/Git-notes) (Git Integration for Jira Data Center)

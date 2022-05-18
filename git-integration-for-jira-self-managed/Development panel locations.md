@@ -42,4 +42,4 @@ In Jira Agile screen, click on an issue on the board grid.  Scroll down on the 
 
 *   Page:
 
-    [Git tags](/wiki/spaces/GIJDC/pages/1930399204/Git+tags) (Git Integration for Jira Data Center)
+    [Git tags](/git-integration-for-jira-self-managed/Git-tags) (Git Integration for Jira Data Center)

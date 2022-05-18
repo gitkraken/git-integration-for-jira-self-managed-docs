@@ -20,7 +20,7 @@ On this page are relevant articles targeted for administrators.
 
 *   Page:
 
-    [Scheduling Jobs](/wiki/spaces/GIJDC/pages/756056197/Scheduling+Jobs) (Git Integration for Jira Data Center)
+    [Scheduling Jobs](/git-integration-for-jira-self-managed/Scheduling-Jobs) (Git Integration for Jira Data Center)
 
 *   Page:
 
@@ -28,7 +28,7 @@ On this page are relevant articles targeted for administrators.
 
 *   Page:
 
-    [General Settings](/wiki/spaces/GIJDC/pages/966852655/General+Settings) (Git Integration for Jira Data Center)
+    [General Settings](/git-integration-for-jira-self-managed/General-Settings) (Git Integration for Jira Data Center)
 
 *   Page:
 

@@ -64,7 +64,7 @@ For those who are using TortoiseGit client on Windows, you can perform the follo
 
 [« Manually link git commits to Jira issues](/wiki/spaces/GIJDC/pages/1930398296/Manually+link+git+commits+to+Jira+issues)
 
-[Smart commits »](/wiki/spaces/GIJDC/pages/1930398395/Smart+commits)
+[Smart commits »](/git-integration-for-jira-self-managed/Smart-commits)
 
 ### More related topics about associating commits to Jira issues
 
@@ -78,4 +78,4 @@ For those who are using TortoiseGit client on Windows, you can perform the follo
 
 *   Page:
 
-    [Git notes](/wiki/spaces/GIJDC/pages/1930398342/Git+notes) (Git Integration for Jira Data Center)
+    [Git notes](/git-integration-for-jira-self-managed/Git-notes) (Git Integration for Jira Data Center)

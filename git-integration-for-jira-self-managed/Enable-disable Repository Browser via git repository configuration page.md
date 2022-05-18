@@ -42,7 +42,7 @@ Click **Update** to save configuration changes for this repository.
 
 *   Page:
 
-    [Repository Browser](/wiki/spaces/GIJDC/pages/1930398598/Repository+Browser) (Git Integration for Jira Data Center)
+    [Repository Browser](/git-integration-for-jira-self-managed/Repository-Browser) (Git Integration for Jira Data Center)
 
 *   Page:
 

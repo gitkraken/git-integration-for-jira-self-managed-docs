@@ -88,7 +88,7 @@ _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/1jwzeex5qa) _t
 
 [« Branches (Developer panel)](/wiki/spaces/GIJDC/pages/1930399090)
 
-[Git tags »](/wiki/spaces/GIJDC/pages/1930399204/Git+tags)
+[Git tags »](/git-integration-for-jira-self-managed/Git-tags)
 
 ### More related topics about Jira git integration development panel
 
@@ -110,4 +110,4 @@ _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/1jwzeex5qa) _t
 
 *   Page:
 
-    [Git tags](/wiki/spaces/GIJDC/pages/1930399204/Git+tags) (Git Integration for Jira Data Center)
+    [Git tags](/git-integration-for-jira-self-managed/Git-tags) (Git Integration for Jira Data Center)

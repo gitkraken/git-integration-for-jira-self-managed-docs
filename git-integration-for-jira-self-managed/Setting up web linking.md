@@ -17,7 +17,7 @@ Web linking is automatically configured for repositories added via Auto-connect 
 _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/zfxfemq7z8) _to open this video in a new browser tab for more viewing options._
 
 
-For more information, see [Documentation: Web Linking](/wiki/spaces/GIJDC/pages/1930398212/Web+linking).
+For more information, see [Documentation: Web Linking](/git-integration-for-jira-self-managed/Web-linking).
 
 [« Recommended reindex interval setting](/wiki/spaces/GIJDC/pages/1930396353/Recommended+reindex+interval+setting)
 

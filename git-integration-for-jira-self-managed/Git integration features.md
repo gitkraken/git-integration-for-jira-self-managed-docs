@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-This setting is part of the [General Settings](/wiki/spaces/GIJDC/pages/966852655/General+Settings) configuration page.
+This setting is part of the [General Settings](/git-integration-for-jira-self-managed/General-Settings) configuration page.
 
 
 These group of settings affect how new commits are updated, how tags are displayed on Jira issues, and give administrators control if commit information is shown on JQL searches and Git activity stream or not.
@@ -42,7 +42,7 @@ Disabling this setting will improve Jira performance.
 
 **Calculate and show Git tags in the Git integration panel**  –  Enable/disable the setting to have Git Integration for Jira app calculate and show the Git tags in the Git Integration panel.
 
-For more information, see [Git Tags](/wiki/spaces/GIJDC/pages/1930399204/Git+tags).
+For more information, see [Git Tags](/git-integration-for-jira-self-managed/Git-tags).
 
 Disabling this setting will improve Jira performance.
 
@@ -54,7 +54,7 @@ Enables/disables the ability to use the JQL functions within the Git Integration
 
 The default state for new Git for Jira app installation is **Enabled**. This setting will be automatically enabled when doing an upgrade from previous versions of the Git Integration for Jira app.
 
-For more information, see [JQL searching](/wiki/spaces/GIJDC/pages/1930399338/JQL+searching).
+For more information, see [JQL searching](/git-integration-for-jira-self-managed/JQL-searching).
 
 Disabling this setting will improve Jira performance.
 
@@ -90,11 +90,11 @@ Disabling this setting will improve Jira performance.
 
 *   Page:
 
-    [Email settings](/wiki/spaces/GIJDC/pages/1207795941/Email+settings) (Git Integration for Jira Data Center)
+    [Email settings](/git-integration-for-jira-self-managed/Email-settings) (Git Integration for Jira Data Center)
 
 *   Page:
 
-    [Scheduled jobs](/wiki/spaces/GIJDC/pages/1207795958/Scheduled+jobs) (Git Integration for Jira Data Center)
+    [Scheduled jobs](/git-integration-for-jira-self-managed/Scheduled-jobs) (Git Integration for Jira Data Center)
 
 *   Page:
 
@@ -102,7 +102,7 @@ Disabling this setting will improve Jira performance.
 
 *   Page:
 
-    [General settings](/wiki/spaces/GIJDC/pages/1930398111/General+settings) (Git Integration for Jira Data Center)
+    [General settings](/git-integration-for-jira-self-managed/General-settings) (Git Integration for Jira Data Center)
 
 *   Page:
 

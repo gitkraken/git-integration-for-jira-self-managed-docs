@@ -23,7 +23,7 @@ Enable/disable this feature via:
 *   Apps/Applications ➜ Manage repositories ➜ ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit Repository**
 
 
-To learn more about Smart Commits, see [Git Integration for Jira: Smart Commits](/wiki/spaces/GIJDC/pages/1930398395/Smart+commits).
+To learn more about Smart Commits, see [Git Integration for Jira: Smart Commits](/git-integration-for-jira-self-managed/Smart-commits).
 
 * * *
 
