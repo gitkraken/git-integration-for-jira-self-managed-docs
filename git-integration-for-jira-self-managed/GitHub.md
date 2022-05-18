@@ -7,39 +7,27 @@ taxonomy:
 
 ---
 
-<link rel="stylesheet" type="text/css" href="css/imboxv4.css">
+# GitHub.com
 
-# Integrate GitHub<!-- -->.com with Jira Server/Data Center
+![](img/serverdc-integration-github/github-mobile-logo-dark.png)
+<br>
+<br>
+## Integrate GitHub.com with Jira Data Center/Server
 
-![](./img/serverdc-integration-github/github-mobile-logo-dark.png)
-\
-\
 Quickly learn how to connect GitHub<!-- -->.com git repositories via Git Integration for Jira Data Center app.
 <br>
-
-<div id="imboxv4" class="bxtip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg">
-        </span>
-    </div>
-    <div class="imsgbox">
-        Ask your Git administrator if you need access to the Git repository just like a regular developer would have. To send an e-mail using the default email program to the Git administrator.
-    </div>
-    </div>
-</div>
-
+<br>
 <hr color=green>
 
-![](./img/common/bbb-tips2-20.png)&nbsp;These instructions apply to instances on Free, Team, Cloud Enterprise (including [**EMU**](https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users)) plans hosted on GitHub<!-- -->.com.
+![](img/common/bbb-tips2-20.png)&nbsp;These instructions apply to instances on Free, Team, Cloud Enterprise (including [**EMU**](https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users)) plans hosted on GitHub<!-- -->.com.
 
 <hr color=royalblue>
 
-![](./img/common/bbb-info-20.png)&nbsp;&nbsp;For instructions on self-hosted GitHub Enterprise Server, please see [this page](Github%20Enterprise%20Server.md).
+![](img/common/bbb-info-20.png)&nbsp;&nbsp;For instructions on self-hosted GitHub Enterprise Server, please see [this page](Github%20Enterprise%20Server.md).
 
 <hr color=royalblue>
 
-![](./img/common/bbb-info-20.png)&nbsp;&nbsp;Using **Jira Cloud**?  [See the corresponding article.](../../git-integration-for-jira-cloud-docs/git-integration-for-jira-cloud/github-com.md)
+![](img/common/bbb-info-20.png)&nbsp;&nbsp;Using **Jira Cloud**?  [See the corresponding article.](../../git-integration-for-jira-cloud-docs/git-integration-for-jira-cloud/github-com.md)
 
 * * *
 \
@@ -63,7 +51,7 @@ This setup uses full feature integration offering functions and features not fou
 &nbsp;
 <hr color=tomato>
 
-![](./img/common/bbb-error-20.png)&nbsp;&nbsp;On November 13, 2020, GitHub<!-- -->.com is going to stop allowing API authentication via username/password. For more information, see [**GitHub.com - Deprecating Password Authentication**](https://developer.github.com/changes/2020-02-14-deprecating-password-auth/).
+![](img/common/bbb-error-20.png)&nbsp;&nbsp;On November 13, 2020, GitHub<!-- -->.com is going to stop allowing API authentication via username/password. For more information, see [**GitHub.com - Deprecating Password Authentication**](https://developer.github.com/changes/2020-02-14-deprecating-password-auth/).
 * * *
 \
 We strongly recommend to use personal access tokens for GitHub<!-- -->.com account integration.
@@ -72,12 +60,12 @@ We strongly recommend to use personal access tokens for GitHub<!-- -->.com accou
     
 2.  Click **GitHub<!-- -->.com** on the Add new integration panel. The Add new integration wizard dialog is displayed.
     
-    ![](./img/serverdc-integration-github/gitserver-connect-auto-ext-service-github-com(c).png?&width=659&height=467)
+    ![](img/serverdc-integration-github/gitserver-connect-auto-ext-service-github-com(c).png?&width=659&height=467)
 3.  **GitHub<!-- -->.com and GitHub Enterprise Cloud** is selected by default. Paste the personal access token in the provided box.
     
     *  Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed.
         
-        ![](./img/serverdc-integration-github/gitserver-general-advanced-autoconnect-opt(c).png)
+        ![](img/serverdc-integration-github/gitserver-general-advanced-autoconnect-opt(c).png)
         +  **Custom API Path**  –  this is a relative path that starts with "/". The maximum allowed length is 2000 characters or less. The integration will use the supported relative REST API path to retrieve the list of tracked repositories.  
             For more examples, see article [Working with Custom API Path - GitHub.com](#).
             
@@ -113,7 +101,7 @@ We strongly recommend to use personal access tokens for GitHub<!-- -->.com accou
         
 6.  After the import process, the **Settings** screen is displayed.
     
-    ![](./img/serverdc-integration-github/gitserver-github-autoconnect-settings-dlg(c).png)
+    ![](img/serverdc-integration-github/gitserver-github-autoconnect-settings-dlg(c).png)
     *   On the Integration Settings, setting the _**Require User PAT**_ option to `ON`, will require users to provide PAT specific for branch and merge requests _(via the_ [developer panel](#) _on the Jira issue page)_.   
         For more information on this feature, see [Integration Settings: Require User PAT](#).
         
@@ -131,14 +119,14 @@ There will be a slight delay in adding 2FA-enabled repositories compared to othe
 
 <hr color=darkorange>
 
-![](./img/common/bbb-alert-20.png)&nbsp; This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.
+![](img/common/bbb-alert-20.png)&nbsp; This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.
 * * *
 \
 This process requires an existing GitHub git repository. Look for the GitHub repository URL on the repository project page.
 
 Choose between SSH or HTTPS. Use this information to connect the GitHub git repository to your Jira Data Center via Git Integration for Jira app:
 
-![](./img/serverdc-integration-github/github-repository-home-dark.png)
+![](img/serverdc-integration-github/github-repository-home-dark.png)
 
 1.  On your Jira dashboard menu, go to Git ➜ **Manage repositories**.
     
@@ -162,7 +150,7 @@ Assign GitHub permissions for team members or collaborators to allow which resou
 
 1.  Login to your GitHub<!-- -->.com account.
     
-2.  Go to ![(profile icon)](./img/common/profile-icon.png) **Profile** ➜ **Settings**.
+2.  Go to ![(profile icon)](img/common/profile-icon.png) **Profile** ➜ **Settings**.
     
 3.  On your sidebar, click **Organizations**.
     
@@ -170,7 +158,7 @@ Assign GitHub permissions for team members or collaborators to allow which resou
     
 5.  On your sidebar, click **Member Privileges**. The following screen is displayed.
     
-    ![](./img/serverdc-integration-github/github-org-repo-base-permissions-dark(c).png)
+    ![](img/serverdc-integration-github/github-org-repo-base-permissions-dark(c).png)
 6.  Under the **Base permissions**, click on the dropdown button.
     
     Choose the base permission level for organization members. The base repository permission only applies to organization members and not to outside collaborators. If the base permission is set to _**None**_, organization members will need to be given access to repositories using the _**Teams or Collaborators**_ methods (see below).
@@ -189,7 +177,7 @@ To give a member additional access, they must be added to a team or make them co
     
 2.  Click the **Repositories** tab.
     
-    ![](./img/serverdc-integration-github/github-org-repo-team-repo-permissions-dark(c).png)
+    ![](img/serverdc-integration-github/github-org-repo-team-repo-permissions-dark(c).png)
 
 3.  Set **Read**, **Write** or **Admin** repository access as desired.
 &nbsp;    
@@ -201,7 +189,7 @@ To give a member additional access, they must be added to a team or make them co
     
 2.  Invite a member to add it into the team.  An email invitation is sent to that GitHub service user.
     
-    ![](./img/serverdc-integration-github/github-add-members-to-team(c).png)
+    ![](img/serverdc-integration-github/github-add-members-to-team(c).png)
     
     The service user is then added to the team if the invitation has been accepted.
     
@@ -217,21 +205,21 @@ To give a member additional access, they must be added to a team or make them co
         
 4.  Click **Manage access** to manage repository access for this member.
     
-    ![](./img/serverdc-integration-github/github-manage-team-repo-permission(c).png)
+    ![](img/serverdc-integration-github/github-manage-team-repo-permission(c).png)
 
 <hr color=darkturquoise>
 
-![](./img/common/bbb-note2-20.png)&nbsp; **Organization permissions**  
+![](img/common/bbb-note2-20.png)&nbsp; **Organization permissions**  
 While users have configured PAT for repository access, users in a GitHub Organization must at least have **Read** permissions. This allows them to view commits and smart commits, and browse repositories (if enabled) of connected GitHub Organization repositories inside Jira.
 
 <hr color=royalblue>
 
-![](./img/common/bbb-info-20.png)&nbsp; **GitHub Organization**  
+![](img/common/bbb-info-20.png)&nbsp; **GitHub Organization**  
 For collaborators and commit authors, set these users to have **Write** permissions. This will allow them to view commits and smart commits, browse repositories and also enables them to create branches and pull requests to specified GitHub git repositories via developer panel of a Jira issue.
 
 <hr color=darkorange>
 
-![](./img/common/bbb-alert-20.png)&nbsp; The user PAT for "Require User PAT" setting should have **Write** permission. Otherwise, the user will not be able to use it for branch or pull request creation/deletion.
+![](img/common/bbb-alert-20.png)&nbsp; The user PAT for "Require User PAT" setting should have **Write** permission. Otherwise, the user will not be able to use it for branch or pull request creation/deletion.
 
 * * *
 \
@@ -270,15 +258,15 @@ If the **Require User PAT option** is enabled in the **Integration Feature Se
 
 Click this text label to open the Setup PAT dialog and paste your personal access token in the provided box. Click **Update**.
 
-![Setup PAT dialog](./img/serverdc-integration-github/gitserver-setup-pat-dlg.png)
+![Setup PAT dialog](img/serverdc-integration-github/gitserver-setup-pat-dlg.png)
 
 <hr color=darkorange>
 
-![](./img/common/bbb-alert-20.png)&nbsp; Updating this dialog with a blank entry will remove the configured PAT for the current integration.
+![](img/common/bbb-alert-20.png)&nbsp; Updating this dialog with a blank entry will remove the configured PAT for the current integration.
 
 * * *
 
-The Setup PAT dialog is also accessible via Repository Browser (dashboard menu Git ➜ **Repository browser**) ➜ Click the &nbsp; ![(edit icon)](./img/common/edit-icon-dark.png)&nbsp; icon under _**Pers. Access**_ column.
+The Setup PAT dialog is also accessible via Repository Browser (dashboard menu Git ➜ **Repository browser**) ➜ Click the &nbsp; ![(edit icon)](img/common/edit-icon-dark.png)&nbsp; icon under _**Pers. Access**_ column.
 
 ## Working with branches and pull requests
 
@@ -292,7 +280,7 @@ Most git integrations allow changing of the default branch of the repository/pro
 
 <hr color=darkorange>
 
-![](./img/common/bbb-alert-20.png)&nbsp; Main branch for repositories within an integration can only be changed on the git server.
+![](img/common/bbb-alert-20.png)&nbsp; Main branch for repositories within an integration can only be changed on the git server.
 
 * * *
 
@@ -300,7 +288,7 @@ Most git integrations allow changing of the default branch of the repository/pro
 
 On your Jira Data Center, open a Jira issue. On the Jira developer panel under **Git Integration**, click **Create branch**. The following dialog is displayed.
 
-![](./img/serverdc-integration-github/gitserver-create-branch-dlg.png)
+![](img/serverdc-integration-github/gitserver-create-branch-dlg.png)
 
 **Pointers:**
 
@@ -316,7 +304,7 @@ On your Jira Data Center, open a Jira issue. On the Jira developer panel under 
     
 <hr color=royalblue>
 
-![](./img/common/bbb-info-20.png)&nbsp; The Git Integration for Jira Data Center app gets the default branch from almost all integrations. However, the exception is with Gerrit which always has “master” as its default branch.
+![](img/common/bbb-info-20.png)&nbsp; The Git Integration for Jira Data Center app gets the default branch from almost all integrations. However, the exception is with Gerrit which always has “master” as its default branch.
 
 * * *
 
@@ -326,7 +314,7 @@ The newly-created branch is now listed in the developer panel under **Branches*
 
 The pull request feature works the same as merge request. On your Jira Data Center, open the Jira issue where your previously created a branch. On the developer panel under **Git Integration**, click **Create pull request**. The following dialog is displayed.
 
-![](./img/serverdc-integration-github/gitserver-create-pull-req-dlg.png)
+![](img/serverdc-integration-github/gitserver-create-pull-req-dlg.png)
 
 **Pointers:**
 
@@ -344,7 +332,7 @@ The pull request feature works the same as merge request. On your Jira Data Cent
     
 <hr color=green>
 
-![](./img/common/bbb-alert-20.png)&nbsp; **Preview** allows you to see the comparison view of the current changes in the selected **Source branch** vs **Target branch** (_usually_ _master_).
+![](img/common/bbb-alert-20.png)&nbsp; **Preview** allows you to see the comparison view of the current changes in the selected **Source branch** vs **Target branch** (_usually_ _master_).
 
 * * *
 
