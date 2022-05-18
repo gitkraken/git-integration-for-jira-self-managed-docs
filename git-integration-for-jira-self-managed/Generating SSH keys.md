@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Generating SSH keys
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930396609/Generating+SSH+keys>
-
-* * *
-
 Configure and generate SSH keys for the following git hosting systems by following the reference links on each sub-section:
 
 |     |
@@ -47,33 +40,33 @@ Users can use HTTPS or SSH to securely connect to git repositories.  HTTPS conn
 ### More related topics about SSH integration
 
 *   Page:
-    
+
     [Working with SSH keys](/wiki/spaces/GIJDC/pages/1930396577/Working+with+SSH+keys) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Generating SSH keys](/wiki/spaces/GIJDC/pages/1930396609/Generating+SSH+keys) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Adding a private SSH key](/wiki/spaces/GIJDC/pages/1930396698/Adding+a+private+SSH+key) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Adding a public SSH Key](/wiki/spaces/GIJDC/pages/1930396728/Adding+a+public+SSH+Key) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [SSH keys configuration](/wiki/spaces/GIJDC/pages/1930396746/SSH+keys+configuration) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Adding and associating SSH keys](/wiki/spaces/GIJDC/pages/1930396771/Adding+and+associating+SSH+keys) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Removing SSH keys](/wiki/spaces/GIJDC/pages/1930396835/Removing+SSH+keys) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Reconfigure Git repositories and SSH keys](/wiki/spaces/GIJDC/pages/1930396868/Reconfigure+Git+repositories+and+SSH+keys) (Git Integration for Jira Data Center)

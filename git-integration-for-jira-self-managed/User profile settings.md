@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# User profile settings
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930398073/User+profile+settings>
-
-* * *
-
 By default, Jira email notification format is text-only.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398073/commit-email-view-text.png?version=1&modificationDate=1630642871399&cacheVersion=1&api=v2&width=589&height=256)
@@ -34,9 +27,9 @@ Click **Update** to save the changes. The email notifications that you receive
 ### More related topics about commit email notification
 
 *   Page:
-    
+
     [Commit email notifications](/wiki/spaces/GIJDC/pages/1930397995/Commit+email+notifications) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Watching email notifications](/wiki/spaces/GIJDC/pages/1930398044/Watching+email+notifications) (Git Integration for Jira Data Center)

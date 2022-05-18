@@ -6,20 +6,13 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# REST API
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/380764385/REST+API>
-
-* * *
-
 Welcome to the Git Integration for Jira app REST API reference page index.
 
 On this page, you will find the list of available REST APIs supported by the Git Integration for Jira app.  Click on a topic title to view its content or search through the related topics.
 
  Search
 
-   
+
 
 * * *
 

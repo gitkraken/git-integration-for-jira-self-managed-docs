@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Ways to Index Git Data to Jira Issues
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1207828916/Ways+to+Index+Git+Data+to+Jira+Issues>
-
-* * *
-
 There are several ways to associate git data to Jira issues:
 
 |     |     |     |     |     |
@@ -38,41 +31,41 @@ For more information on this topic, see documentation [Associate git commit to J
 ## More how-to articles
 
 *   Page:
-    
+
     [Creating Personal Access Tokens](/wiki/spaces/GIJDC/pages/107380737/Creating+Personal+Access+Tokens)
-    
+
 *   Page:
-    
+
     [Working with JMESPath Filters](/wiki/spaces/GIJDC/pages/135430238/Working+with+JMESPath+Filters)
-    
+
 *   Page:
-    
+
     [Working with Custom API Path](/wiki/spaces/GIJDC/pages/135331922/Working+with+Custom+API+Path)
-    
+
 *   Page:
-    
+
     [Creating and configuring SSH keys (Windows/MacOS/Linux)](/wiki/spaces/GIJDC/pages/183271450)
-    
+
 *   Page:
-    
+
     [Require Personal Access Tokens for user actions (create branch/pull request)](/wiki/spaces/GIJDC/pages/317390849)
-    
+
 *   Page:
-    
+
     [Setting Project Permissions](/wiki/spaces/GIJDC/pages/509444154/Setting+Project+Permissions)
-    
+
 *   Page:
-    
+
     [How to get a quote?](/wiki/spaces/GIJDC/pages/1165721603)
-    
+
 *   Page:
-    
+
     [Ways to Index Git Data to Jira Issues](/wiki/spaces/GIJDC/pages/1207828916/Ways+to+Index+Git+Data+to+Jira+Issues)
-    
+
 *   Page:
-    
+
     [Proxy settings on adding integrations (except AWS CodeCommit)](/wiki/spaces/GIJDC/pages/1808007195)
-    
+
 *   Page:
-    
+
     [Configure Source Code Diff Viewing](/wiki/spaces/GIJDC/pages/2054881287/Configure+Source+Code+Diff+Viewing)

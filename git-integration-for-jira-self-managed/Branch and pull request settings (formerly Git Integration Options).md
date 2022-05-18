@@ -7,16 +7,9 @@ taxonomy:
 
 ---
 
-
-# Branch and pull request settings (formerly Git Integration Options)
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1207828745>
-
-* * *
-
 This setting is part of the [**General Settings**](/wiki/spaces/GIJDC/pages/966852655/General+Settings) configuration page.
 
-  
+
 This setting affects git branches creation default names and toggles for git pull/merge request options for the Jira issue.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207828745/gitserver-gencfg-branch-and-pr-settings.png?version=1&modificationDate=1647772253436&cacheVersion=1&api=v2&width=566&height=479)
@@ -30,13 +23,13 @@ For more details on this setting, see [Require User PAT general setting](/wiki/s
 These settings will take effect at integration level for projects with connected GitLab/GitHub git hosts. The default state for each setting is _enabled_.
 
 *   **Enable create/delete branch in Jira issues**  –  shows or hides the function for creating of branches. The ability to delete selected branches from the Jira developer panel is dependent on this setting.
-    
+
 *   **Branch name template**  –  see [below](#Branch-name-template).
-    
+
 *   **Branch name templates inner separator**  –  set which inner word separator to use for the branch name template. The default setting is `"-" (dash)`.
-    
+
 *   **Max branch name length**  –  specify the maximum character length for branch names. The default value is 250 chars.
-    
+
 
 ## Branch name template
 
@@ -84,7 +77,7 @@ Use the following template variables:
 
 When switched to ON, the _**Enable indexing pull/merge requests via API**_ setting completely activates the feature of indexing of PRs/MRs. This also allows users to use the toggle control for the _**Enable indexing pull/merge requests by commits**_ setting, which provides an additional way of indexing when switched to ON.
 
-  
+
 For detailed information on this feature, see article [Associate pull/merge requests in Jira Issue](/wiki/spaces/GITSERVER/pages/923566286).
 
 * * *
@@ -92,57 +85,57 @@ For detailed information on this feature, see article [Associate pull/merge req
 ### More on general settings
 
 *   Page:
-    
+
     [Git roll up issue tab](/wiki/spaces/GIJDC/pages/1207828678/Git+roll+up+issue+tab) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Git commits issue and project tabs](/wiki/spaces/GIJDC/pages/1207828697/Git+commits+issue+and+project+tabs) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Git integration features](/wiki/spaces/GIJDC/pages/1207795905/Git+integration+features) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Branch and pull request settings (formerly Git Integration Options)](/wiki/spaces/GIJDC/pages/1207828745) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Email settings](/wiki/spaces/GIJDC/pages/1207795941/Email+settings) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Scheduled jobs](/wiki/spaces/GIJDC/pages/1207795958/Scheduled+jobs) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Audit log settings](/wiki/spaces/GIJDC/pages/1207828866/Audit+log+settings) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [General settings](/wiki/spaces/GIJDC/pages/1930398111/General+settings) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Repository Browser general setting](/wiki/spaces/GIJDC/pages/1947140158/Repository+Browser+general+setting) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Source Code Diff Viewing general setting](/wiki/spaces/GIJDC/pages/1947140173/Source+Code+Diff+Viewing+general+setting) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Require User PAT general setting](/wiki/spaces/GIJDC/pages/1947107395/Require+User+PAT+general+setting) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Enable Automation for Jira general setting](/wiki/spaces/GIJDC/pages/2045149338/Enable+Automation+for+Jira+general+setting) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Enforce Git service permissions](/wiki/spaces/GIJDC/pages/2091810842/Enforce+Git+service+permissions) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Per Node Repository Indexing](/wiki/spaces/GIJDC/pages/2095775749/Per+Node+Repository+Indexing) (Git Integration for Jira Data Center)

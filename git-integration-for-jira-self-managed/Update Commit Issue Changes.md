@@ -6,27 +6,20 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Update Commit Issue Changes
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/380699298/Update+Commit+Issue+Changes>
-
-* * *
-
 Updates the list of issues associated with the commit to the specified repository.
 
 There are two types of users who can perform the Get Commit Issue Changes API call:
 
 1.  Jira **administrators**
-    
+
 2.  Jira user who has **all** of the following:
-    
+
     1.  **View/browse permissions** to the project;
-        
+
     2.  **View Development Tools permissions** to the same project; and
-        
+
     3.  The repository is **associated** to the project.
-        
+
 
 |     |     |
 | --- | --- |
@@ -63,17 +56,17 @@ There are two types of users who can perform the Get Commit Issue Changes API ca
 ### Related articles
 
 *   Page:
-    
+
     [Get Commits](/wiki/spaces/GIJDC/pages/380764568/Get+Commits) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [showFiles](/wiki/spaces/GIJDC/pages/380699289/showFiles) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Get Commit Issue Changes](/wiki/spaces/GIJDC/pages/380797314/Get+Commit+Issue+Changes) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Update Commit Issue Changes](/wiki/spaces/GIJDC/pages/380699298/Update+Commit+Issue+Changes) (Git Integration for Jira Data Center)

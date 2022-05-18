@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Bulk Export
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/380797241/Bulk+Export>
-
-* * *
-
 The API returns a file with the plugin configuration.
 
 Only Jira admins can perform the Bulk Export API call.
@@ -84,24 +77,24 @@ Edit the TSV file by referring to the parameters below:
 Take note that the .tsv file is verified by the Git Integration for Jira app with the following rules:
 
 *   The header row is required.
-    
+
 *   The order of fields specified in the header row – is the order of the fields in the following rows.
-    
+
 *   If a field is omitted from the header row, the Git Integration app will use the default value for a new repository. The Git Integration app will keep the current value of a repository if it already exists in the configured repositories.
-    
+
 *   If a repository is not listed in the .tsv file, no changes will be made if the same repository exists in the Git Integration app configuration.
-    
+
 
 ### Related articles
 
 *   Page:
-    
+
     [Bulk Export](/wiki/spaces/GIJDC/pages/380797241/Bulk+Export) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Bulk Import](/wiki/spaces/GIJDC/pages/380764507/Bulk+Import) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Get Bulk Import Information](/wiki/spaces/GIJDC/pages/421298278/Get+Bulk+Import+Information) (Git Integration for Jira Data Center)

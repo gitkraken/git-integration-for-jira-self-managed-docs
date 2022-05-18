@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Why don't I see the Create Branch or Pull Request features?
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/123633735>
-
-* * *
-
 ## Problem
 
 Users cannot see the **Create branch** or **Create Pull/Merge Request** actions in the Jira issue sidebar.
@@ -29,9 +22,9 @@ The **Create branch** and **Create Pull/Merge Requests** features are enabled by
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/123633735/Screen%20Shot%202019-04-18%20at%2016.07.29.png?version=1&modificationDate=1555618769104&cacheVersion=1&api=v2&width=750&height=318)
 
-  
 
-  
+
+
 
 See [integration guides](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/86179850/Integration+Guides) for each Auto-Connect option.
 
@@ -46,21 +39,21 @@ If you still have a question - reach out to our [Support Desk](https://bigbrassb
 ## Related articles
 
 *   Page:
-    
+
     [Avoid OutOfMemory exceptions by configuring or memory allocation with Jira to accommodate large repositories](/wiki/spaces/GIJDC/pages/873332786/Avoid+OutOfMemory+exceptions+by+configuring+or+memory+allocation+with+Jira+to+accommodate+large+repositories)
-    
+
 *   Page:
-    
+
     [SQLException 'Incorrect string value' in merge requests](/wiki/spaces/GIJDC/pages/843448333/SQLException+%27Incorrect+string+value%27+in+merge+requests)
-    
+
 *   Page:
-    
+
     ["Dangerous use of multiple connections" error on local database](/wiki/spaces/GIJDC/pages/821919745)
-    
+
 *   Page:
-    
+
     ["Service proxy has been destroyed" exceptions in log](/wiki/spaces/GIJDC/pages/458883074)
-    
+
 *   Page:
-    
+
     [Indexing error - Too many open files](/wiki/spaces/GIJDC/pages/318013497/Indexing+error+-+Too+many+open+files)

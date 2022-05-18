@@ -6,14 +6,7 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Reindexing
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930399289/Reindexing>
-
-* * *
-
-**Permissions**  
+**Permissions**
 You must be a member of the **jira-developers** _group_ to start reindex.
 
 Synchronization between the repository and app will start automatically. However, reindexing may be required to manually start the synchronization process.
@@ -25,22 +18,22 @@ Synchronization between the repository and app will start automatically. However
 There are two ways to do this:
 
 1.  To start update of all repositories, go to the **Git Integration for Jira** app git configuration page then click **Reindex All** button. Once synchronization is started, the progress will be displayed on this tab.
-    
+
 2.  If a specific repository or integration needs to be synchronized, click the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions** icon then **Reindex**.
-    
+
 
 |     |
 | --- |
 | JIRA SERVER DATA CENTER |
 | Click the view ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) icon to see the reindex progress of the selected repository. |
 
-**Initial Synchronization**  
+**Initial Synchronization**
 Git log entries may not immediately appear when you open _**Git Commits**_ tab right after the app installation. You need to wait until the revision indexer job completes the initial synchronization.
 
-**Reindex API**  
+**Reindex API**
 For advanced administrators who want to have more control on reindex, see the [Git Integration for Jira Reindex API](/wiki/spaces/GIJDC/pages/380699270/Reindex+API).
 
-**Scheduler**  
+**Scheduler**
 As of Jira 6.3.10+, Atlassian added the **Scheduler Administration** (_Administration_ ➜ _System_ ➜ _Scheduler Details_) page. This page displays the properties of the Jira internal scheduler, the scheduled jobs and their triggers.
 
 The Repository Reindex (_**GitRevisionIndexerJob**_) can be configured in the [General settings](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930398111/General+settings) page of the Git Integration for Jira app.

@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Installation fails when installing manually
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/167247873/Installation+fails+when+installing+manually>
-
-* * *
-
 ## Problem
 
 Git Integration for Jira application installation fails when using the file upload install method.
@@ -36,7 +29,7 @@ See the following articles from Atlassian on a resolution:
 *   [Updating add-ons by file upload hangs using UPM](https://confluence.atlassian.com/stashkb/updating-add-ons-by-file-upload-hangs-using-upm-660735049.html)
 *   [Attaching a File Results in Request Entity Too Large](https://confluence.atlassian.com/jirakb/attaching-a-file-results-in-request-entity-too-large-320602682.html)
 
-  
+
 
 Contact Us
 
@@ -45,21 +38,21 @@ If you still have a question - reach out to our [Support Desk](https://bigbrassb
 ## Related articles
 
 *   Page:
-    
+
     [Avoid OutOfMemory exceptions by configuring or memory allocation with Jira to accommodate large repositories](/wiki/spaces/GIJDC/pages/873332786/Avoid+OutOfMemory+exceptions+by+configuring+or+memory+allocation+with+Jira+to+accommodate+large+repositories)
-    
+
 *   Page:
-    
+
     [SQLException 'Incorrect string value' in merge requests](/wiki/spaces/GIJDC/pages/843448333/SQLException+%27Incorrect+string+value%27+in+merge+requests)
-    
+
 *   Page:
-    
+
     ["Dangerous use of multiple connections" error on local database](/wiki/spaces/GIJDC/pages/821919745)
-    
+
 *   Page:
-    
+
     ["Service proxy has been destroyed" exceptions in log](/wiki/spaces/GIJDC/pages/458883074)
-    
+
 *   Page:
-    
+
     [Indexing error - Too many open files](/wiki/spaces/GIJDC/pages/318013497/Indexing+error+-+Too+many+open+files)

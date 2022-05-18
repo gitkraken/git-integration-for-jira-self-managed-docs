@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Working with SSH keys
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930396577/Working+with+SSH+keys>
-
-* * *
-
 SSH keys are required in order to provide secure connection with the remote git host. The Git Integration for Jira app uses one set of keys for accessing all configured repositories.
 
 VERSION 4.0+ OpenSSH is now fully supported.
@@ -24,9 +17,9 @@ Follow this guide if you are one of the users who are limited to or wanted to us
 There are two options available for specifying SSH keys:
 
 *   **SSH keys stored on server filesystem**. The keys are located in the home folder of the user which account is used to run Jira. This option provides better compatibility with installation of the previous versions of the Git Integration app. _This option does not support passphrases._
-    
+
 *   **SSH keys are stored in the app configuration.** The keys are added using the Git Integration app configuration. _This option supports passphrases._
-    
+
 
 Features such as branch and pull/merge request creation is only available to repositories/git hosts that were connected via the Auto-connect integration.
 
@@ -41,26 +34,26 @@ For establishing safety connection with SSH, upload a **public key** to the SS
 In this case, the SSH server is the Git server and the SSH client is the Jira server. Therefore:
 
 *   Git server — public key
-    
+
 *   Jira server — private key (_Git Integration for Jira sidebar ➜ SSH Keys_)
-    
+
 
 The developer's local system should not have the same private key.
 
 Note that Git Integration for Jira app SSH key:
 
 *   ~~must not be created using the OpenSSH format.~~
-    
-*   VERSION 4.0+ now fully supports OpenSSH format.
-    
-*   must be the private key.
-    
-*   must use the supported certificate format: RSA.
-    
-*   must use the supported storage format: OpenSSL PEM.
-    
 
-\------------------------------------------------------------------------------------------------------------  
+*   VERSION 4.0+ now fully supports OpenSSH format.
+
+*   must be the private key.
+
+*   must use the supported certificate format: RSA.
+
+*   must use the supported storage format: OpenSSL PEM.
+
+
+\------------------------------------------------------------------------------------------------------------
 For more information, see troubleshooting article [SSH key format is invalid](/wiki/spaces/GIJDC/pages/187957296/SSH+key+file+format+is+invalid).
 
 |     |
@@ -80,33 +73,33 @@ For more information, see troubleshooting article [SSH key format is invalid](/
 ### More related topics about SSH integration
 
 *   Page:
-    
+
     [Working with SSH keys](/wiki/spaces/GIJDC/pages/1930396577/Working+with+SSH+keys) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Generating SSH keys](/wiki/spaces/GIJDC/pages/1930396609/Generating+SSH+keys) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Adding a private SSH key](/wiki/spaces/GIJDC/pages/1930396698/Adding+a+private+SSH+key) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Adding a public SSH Key](/wiki/spaces/GIJDC/pages/1930396728/Adding+a+public+SSH+Key) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [SSH keys configuration](/wiki/spaces/GIJDC/pages/1930396746/SSH+keys+configuration) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Adding and associating SSH keys](/wiki/spaces/GIJDC/pages/1930396771/Adding+and+associating+SSH+keys) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Removing SSH keys](/wiki/spaces/GIJDC/pages/1930396835/Removing+SSH+keys) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Reconfigure Git repositories and SSH keys](/wiki/spaces/GIJDC/pages/1930396868/Reconfigure+Git+repositories+and+SSH+keys) (Git Integration for Jira Data Center)

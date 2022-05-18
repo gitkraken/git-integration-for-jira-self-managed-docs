@@ -7,13 +7,6 @@ taxonomy:
 
 ---
 
-# Adding Webhooks for GitLab
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/171213219/Adding+Webhooks+for+GitLab>
-
-* * *
-
-  
 
 Merge request webhooks are now supported. [See details](/wiki/pages/resumedraft.action?draftId=171213219#AddingWebhooksforGitLab-pullreq) on this page.
 
@@ -22,17 +15,17 @@ Supported webhook events:
 *   Push events
 *   Merge request events
 
-  
+
 
 Git Integration for Jira Data Center app now supports **GitLab System Hooks** (menu Admin Area > System Hooks > _Merge Request events)_. However, it is only available for self-hosted GitLab instances. We highly recommend that Jira administrators should use this feature as it greatly reduces the amount of configuration time to setup webhooks.
 
-  
+
 
 Right-click [here](https://bigbrassband.wistia.com/medias/try008fv53) and view this video in a new browser tab.
 
-  
 
-  
+
+
 
 Before you can add a webhook to your favorite git repository, you need to enable it in the git repositories configuration page of your Jira Data Center instance.
 
@@ -58,7 +51,7 @@ Configure webhook by logging in to your GitLab account:
 
 7\. Click **Add webhook** to save the new webhook settings.
 
-  
+
 
 ### **Merge Request Event Webhook**
 

@@ -6,16 +6,9 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Adding webhooks for Gerrit
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1509032414/Adding+webhooks+for+Gerrit>
-
-* * *
-
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1509032414/gerrit-webhook-banner.png?version=1&modificationDate=1618656373661&cacheVersion=1&api=v2&width=510&height=117)
 
-  
+
 **What’s on this page:**
 
 * * *
@@ -52,14 +45,14 @@ Create a webhook that can be triggered for any **individual** repository. It can
 _**Required headers:**_
 
 *   'x-bbb-webhook-type': `PUSH`
-    
+
 *   'Content-Type': `application/json`
-    
+
 
 _**Optional headers:**_
 
 *   'x-bbb-webhook-id' -- Can be any string representing the id of the request to be used.
-    
+
 
 |     |
 | --- |
@@ -75,33 +68,33 @@ _**Optional headers:**_
 ## More Webhook Articles
 
 *   Page:
-    
+
     [Creating reindex triggers for a single repository](/wiki/spaces/GIJDC/pages/171475191/Creating+reindex+triggers+for+a+single+repository) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Adding Webhooks for GitHub](/wiki/spaces/GIJDC/pages/171377121/Adding+Webhooks+for+GitHub) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Adding Webhooks for GitLab](/wiki/spaces/GIJDC/pages/171213219/Adding+Webhooks+for+GitLab) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Webhooks GitHub Organization Support](/wiki/spaces/GIJDC/pages/171278716/Webhooks+GitHub+Organization+Support) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Adding Webhooks for Azure DevOps Repos | VSTS](/wiki/spaces/GIJDC/pages/171999302/Adding+Webhooks+for+Azure+DevOps+Repos+%7C+VSTS) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Adding Webhooks for Azure DevOps Server | TFS](/wiki/spaces/GIJDC/pages/235274262/Adding+Webhooks+for+Azure+DevOps+Server+%7C+TFS) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Adding Webhooks for Bitbucket](/wiki/spaces/GIJDC/pages/498663799/Adding+Webhooks+for+Bitbucket) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Adding webhooks for Gerrit](/wiki/spaces/GIJDC/pages/1509032414/Adding+webhooks+for+Gerrit) (Git Integration for Jira Data Center)

@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Watching email notifications
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930398044/Watching+email+notifications>
-
-* * *
-
 The user will get notifications when watching an issue or repository. The user will receive repository commit notifications if that repository is being watched by the user. If the user watches an issue, any commit related to the issue will be sent to that user as notifications.
 
 The user will get notifications from own commits if the My Changes setting in the User Profile ➜ **Preferences** is set to _**Notify me**_.
@@ -28,9 +21,9 @@ The user can watch repositories in the Repository Browser. Select a repository 
 ### More related topics about commit email notification
 
 *   Page:
-    
+
     [Commit email notifications](/wiki/spaces/GIJDC/pages/1930397995/Commit+email+notifications) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Watching email notifications](/wiki/spaces/GIJDC/pages/1930398044/Watching+email+notifications) (Git Integration for Jira Data Center)

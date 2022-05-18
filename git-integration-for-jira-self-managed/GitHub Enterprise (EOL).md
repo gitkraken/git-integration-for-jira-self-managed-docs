@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# GitHub Enterprise (EOL)
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/716636476>
-
-* * *
-
 The End-of-life (EOL) for a major release of GitHub Enterprise server is generally one year following its release date.
 
 For example, GitHub Enterprise Server 2.16.0 was released on January 22, 2019 and had an EOL date of January 22, 2020. Similarly, 2.17.0 was released on May 23, 2019 and had an EOL date of May 23, 2020.

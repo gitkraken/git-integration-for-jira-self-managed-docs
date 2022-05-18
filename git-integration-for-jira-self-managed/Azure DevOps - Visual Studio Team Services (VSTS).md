@@ -7,25 +7,18 @@ taxonomy:
 
 ---
 
-# Azure DevOps | Visual Studio Team Services (VSTS)
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/92176406>
-
-* * *
-
-  
 
 Using **Jira Cloud**? [See the corresponding article](/wiki/spaces/GITCLOUD/pages/86278279).
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/92176406/vsts-azure-devops-logo.png?version=1&modificationDate=1577430609568&cacheVersion=1&api=v2)
 
-  
+
 
 ![](https://bigbrassband.com/confluence/images/vsts-new-logo.png)
 
 **Integrate Azure DevOps/Visual Studio Team Services (VSTS) with Jira Data Center**
 
-  
+
 
 Quickly learn how to connect Azure DevOps/VSTS git repositories via Git Integration for Jira Data Center.
 
@@ -33,19 +26,19 @@ The Git Integration for Jira app supports Azure Repos.
 
 **What's on this page:**
 
-  
+
 
 * * *
 
-  
 
-  
+
+
 
 ## Creating Personal Access Tokens
 
 If you have not yet generated a personal access token (PAT), create your token by following [the steps outlined in this article.](/wiki/spaces/GIJDC/pages/107380737/Creating+Personal+Access+Tokens#CreatingPersonalAccessTokens-azure-vsts)
 
-  
+
 
 ## Using Auto-Connect
 
@@ -71,9 +64,9 @@ Configuring the **Advanced** settings is optional.  However, admins/power use
 
 *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less.
     *   If the field is empty, the Git Integration for Jira app will get all available accounts and then scans all available git repositories.
-        
+
     *   If the field is not blank, the app will assume it as a single account path and will try to use it. To connect to all available accounts, manually create integrations for each one of them.
-        
+
 *   Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [support](mailto:support@bigbrassband.com?subject=Help%20with%20writing%20JMESPath%20filter%20expressions).
 *   To learn more VSTS/Azure DevOps examples, see article **[Jira Data Center: Working with JMESPath Filters](/wiki/spaces/GIJDC/pages/135430238/Working+with+JMESPath+Filters)**.
 
@@ -97,7 +90,7 @@ Currently, all available accounts are scanned and corresponding URLs are created
 
 Azure DevOps/VSTS git repositories are now connected to Jira Data Center.
 
-  
+
 
 ## Single Repository
 
@@ -113,7 +106,7 @@ Obtain the repository URL from the Azure DevOps/VSTS repository project page.  
 
 The repository is now connected to Jira Data Center.
 
-  
+
 
 **Webhooks fail with DefaultCollection in URL Path**
 
@@ -123,13 +116,13 @@ To fix webhooks for old VSTS/Azure repository connections with _DefaultCollecti
 
 Set Azure DevOps/VSTS repository permissions according to your organization's rules. Viewing commits from Jira requires the user to have at least **Read** or **View** permissions. For branch/pull request creation, set specific service users with **Write** permissions.
 
-  
+
 
 ## Webhooks and Web Linking
 
 The Git Integration for Jira app automatically configures web linking for Azure DevOps/VSTS git repositories.
 
-  
+
 
 **Webhooks are supported on Azure DevOps/VSTS.**
 
@@ -137,7 +130,7 @@ First - configure webhooks in the Git Integration app in Jira via the **Git** 
 
 For detailed step-by-step guide showcasing the webhooks setup, [see this article](/wiki/spaces/GIJDC/pages/171999302/Adding+Webhooks+for+Azure+DevOps+Repos+%7C+VSTS).
 
-  
+
 
 ## Linking Azure DevOps/VSTS Git Commits to Jira Data Center
 
@@ -166,7 +159,7 @@ This process requires a Azure DevOps/VSTS git repository.
 
 ![](https://bigbrassband.com/images/bbb/jira-server-vsts-repo-view-commit.png)
 
-  
+
 
 ## Viewing Git Commits in Jira Data Center
 
@@ -175,7 +168,7 @@ This process requires a Azure DevOps/VSTS git repository.
 3.  Scroll down to the **_Activity_** panel then click the **Git Commits** tab.
 4.  Click **View Full Commit** to view the code diff.
 
-  
+
 
 ## Working with Branches and Pull Requests with Azure DevOps/VSTS
 
@@ -185,7 +178,7 @@ This process requires a Azure DevOps/VSTS git repository and a PAT with at least
 
 Most git integrations allow changing of the default branch of the repository/project other than "master".  This change is reflected in the  Repository Settings of the Git Integration for Jira app on the next reindex.  Auto-connected integrations support this feature where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
-  
+
 
 Main branch for repositories within an integration can only be changed on the git server.
 
@@ -209,13 +202,13 @@ If the **[Require User PAT option](/wiki/spaces/GIJDC/pages/92078126/Integration
 
 ![](https://bigbrassband.com/images/bbb/jira-server-sel-repo-enter-user-pat.png)
 
-*   Click   
+*   Click 
      to setup a PAT for the selected repository. Paste a valid PAT of the current user to proceed. Invalid PATs will fail the branch creation process.
-    
-*   Click the   
-    icon to use this PAT and save it to the current user profile. Otherwise, click the   
+
+*   Click the 
+    icon to use this PAT and save it to the current user profile. Otherwise, click the 
     icon on the right to cancel setting up PAT for this repository.
-    
+
 *   After the above steps have been taken, the users will be able to proceed with branch creation.
 
 3\. Click Create Branch.  The newly-created branch is now listed in the developer panel under **Branches**.
@@ -304,9 +297,9 @@ Once approved, the team leader or reviewer can then complete the merge.  The co
 
 ![](https://bigbrassband.com/images/bbb/jira-server-issue-page-git-commits-tab-view.png)
 
-  
 
-  
+
+
 
 * * *
 

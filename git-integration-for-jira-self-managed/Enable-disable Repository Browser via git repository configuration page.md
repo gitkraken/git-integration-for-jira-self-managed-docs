@@ -7,13 +7,6 @@ taxonomy:
 
 ---
 
-
-# Enable/disable Repository Browser via git repository configuration page
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930398739>
-
-* * *
-
 Access the Repository Browser via Jira dashboard menu Git ➜ **Repository browser** or alternatively, go to ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Jira Administration ➜ _**Apps**_ ➜ _Git Integration for Jira_ _(sidebar)_ **➜ Repository browser**.
 
 ## Repository Browser settings
@@ -30,7 +23,7 @@ Select `Enabled` to activate this feature for this repository. Otherwise, set 
 
 ### **Tags**
 
-**Show all tags**  –  This will display all the tags for the specific issue.  
+**Show all tags**  –  This will display all the tags for the specific issue.
 **Show tags matching the pattern**  –  This will display tags on issue pages that match the specified regular expression pattern.
 
 |     |
@@ -48,17 +41,17 @@ Click **Update** to save configuration changes for this repository.
 ### More related topics about repository browser
 
 *   Page:
-    
+
     [Repository Browser](/wiki/spaces/GIJDC/pages/1930398598/Repository+Browser) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Viewing list of commits in Repository Browser](/wiki/spaces/GIJDC/pages/1930398681/Viewing+list+of+commits+in+Repository+Browser) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Comparing branches/tags in Repository Browser](/wiki/spaces/GIJDC/pages/1930398705) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Enable/disable Repository Browser via git repository configuration page](/wiki/spaces/GIJDC/pages/1930398739) (Git Integration for Jira Data Center)

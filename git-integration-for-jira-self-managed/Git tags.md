@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Git tags
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930399204/Git+tags>
-
-* * *
-
 VERSION 2.8.0+ The Git Integration for Jira app supports both lightweight and annotated tags. The tags are loaded separately from the rest of the Git Source Code.
 
 ## Introduction
@@ -23,18 +16,18 @@ The git tags refers to merged, released work.
 
 Having more than one tag with the same name across different branches can become difficult to maintain.
 
-  
+
 Tags cannot be moved since it is linked to a specific commit and are not pushed by default. 
 
 Create a branch to start working from it if a tag is checked out.
 
-  
+
 The Git for Jira app supports two types of git tags:
 
 *   **lightweight**  –  shows only the commit object
-    
+
 *   **annotated**  –  shows the message, author and the tag object followed by the commit
-    
+
 
 A lightweight tag can be use for marking a version or some specific commits that you will need to use later on  —  like a temporary object label. It does not contain extra information.
 
@@ -54,10 +47,10 @@ The Git Integration for Jira app will show the last 3 and first tags if no filte
 
 If there are several git tags listed, click the **more...** label link to expand the list in increments of five tags.
 
-**Notification**  
+**Notification**
 If loading of tags on a Jira issue takes longer than 60 seconds, the Git Integration app will notify the user about it and aborts the operation. This could happen if the Jira issue contains several hundreds of git tags or more.
 
-**Cached Tags**  
+**Cached Tags**
 Git tags and branches are cached for the most recently viewed 1000 Jira issues (across all Jira projects). The cache is reset each time a new change in any repository is detected. The cache is built the first time an issue with a tag and/or branch is loaded by a user. Thus, subsequent loading of Jira issues with tag or branch information will utilize cached values.
 
 The tag calculation timeout is **86400** seconds.
@@ -69,13 +62,13 @@ The tag calculation timeout is **86400** seconds.
 Move the mouse pointer over the tag to display the following tooltip information:
 
 *   Repository Name
-    
+
 *   Date / Time
-    
+
 *   Commit author name and email address (if available)
-    
+
 *   Message (if any)
-    
+
 
 ## Tag associations
 
@@ -90,21 +83,21 @@ If some commits relate only to tags, these commits will not be displayed. For mo
 ### More related topics about Jira Git integration development panel
 
 *   Page:
-    
+
     [Jira Git integration development panel](/wiki/spaces/GIJDC/pages/1930399012/Jira+Git+integration+development+panel) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Development panel locations](/wiki/spaces/GIJDC/pages/1930399041/Development+panel+locations) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Branches (Development panel)](/wiki/spaces/GIJDC/pages/1930399090) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Pull or merge requests (Development panel)](/wiki/spaces/GIJDC/pages/1930399144) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Git tags](/wiki/spaces/GIJDC/pages/1930399204/Git+tags) (Git Integration for Jira Data Center)

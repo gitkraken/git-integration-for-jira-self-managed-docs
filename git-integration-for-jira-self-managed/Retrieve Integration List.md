@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Retrieve Integration List
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/380666487/Retrieve+Integration+List>
-
-* * *
-
 Retrieves the list of integrations and their respective parameter details from the git repository configuration.
 
 Only Jira admins can perform the Retrieve Integration List API call.
@@ -33,25 +26,25 @@ Only Jira admins can perform the Retrieve Integration List API call.
 ## Related articles
 
 *   Page:
-    
+
     [Add New Integration](/wiki/spaces/GIJDC/pages/380666461/Add+New+Integration) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Add New Integration Type API (examples)](/wiki/spaces/GIJDC/pages/380666468) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Update Existing Integration](/wiki/spaces/GIJDC/pages/380699347/Update+Existing+Integration) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Remove Integration](/wiki/spaces/GIJDC/pages/380797346/Remove+Integration) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Retrieve an Integration](/wiki/spaces/GIJDC/pages/380699382/Retrieve+an+Integration) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Retrieve Integration List](/wiki/spaces/GIJDC/pages/380666487/Retrieve+Integration+List) (Git Integration for Jira Data Center)

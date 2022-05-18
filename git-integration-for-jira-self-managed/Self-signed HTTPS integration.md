@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Self-signed HTTPS integration
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930397349/Self-signed+HTTPS+integration>
-
-* * *
-
 INTRODUCED IN VERSION 2.11.2
 
 Self-signed certificates are common in HTTPS Git repositories that are hosted privately. Even for an administrator, it's not easy to set the HTTP `sslVerify` to connect to this repository.
@@ -28,13 +21,13 @@ This feature is available in [Connect to Git Repository](/wiki/spaces/GIJDC/page
 ### More related topics about self-signed HTTPS integration
 
 *   Page:
-    
+
     [Self-signed HTTPS integration](/wiki/spaces/GIJDC/pages/1930397349/Self-signed+HTTPS+integration) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/wiki/spaces/GIJDC/pages/1930397370/Automatically+connect+to+HTTPS+git+repositories+with+self-signed+SSL+certificates+or+other+SSL+issues) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Manually connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/wiki/spaces/GIJDC/pages/1930397413/Manually+connect+to+HTTPS+git+repositories+with+self-signed+SSL+certificates+or+other+SSL+issues) (Git Integration for Jira Data Center)

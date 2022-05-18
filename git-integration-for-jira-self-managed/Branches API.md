@@ -6,27 +6,20 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Branches API
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/380666446/Branches+API>
-
-* * *
-
 The Branches REST API will obtain list of branches associated to a Jira issue.
 
 There are two types of users who can perform the Branches API call:
 
 1.  Jira **administrators**
-    
+
 2.  Jira user who has **all** of the following:
-    
+
     1.  **View/browse permissions** to the project;
-        
+
     2.  **View Development Tools permissions** to the same project; and
-        
+
     3.  The repository is **associated** to the project.
-        
+
 
 |     |     |
 | --- | --- |
@@ -49,25 +42,25 @@ There are two types of users who can perform the Branches API call:
 ### REST APIs
 
 *   Page:
-    
+
     [Bulk Change API](/wiki/spaces/GIJDC/pages/380764495/Bulk+Change+API) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Repository API](/wiki/spaces/GIJDC/pages/380699237/Repository+API) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Reindex API](/wiki/spaces/GIJDC/pages/380699270/Reindex+API) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Commits API](/wiki/spaces/GIJDC/pages/380764552/Commits+API) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Branches API](/wiki/spaces/GIJDC/pages/380666446/Branches+API) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Integration API](/wiki/spaces/GIJDC/pages/380699325/Integration+API) (Git Integration for Jira Data Center)

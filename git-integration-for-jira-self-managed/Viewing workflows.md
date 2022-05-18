@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Viewing workflows
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930398494/Viewing+workflows>
-
-* * *
-
 Accessing the View workflow feature on the Issue page requires a user or user group to have the **View Read-Only Workflow** project permissions.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930398494/gitserver-issue-page-view-workflow-sel.png?version=1&modificationDate=1630642891465&cacheVersion=1&api=v2)
@@ -20,17 +13,17 @@ Accessing the View workflow feature on the Issue page requires a user or user 
 You can see the available custom workflow transition commands for use with smart commits by doing the following:
 
 1.  Open an issue and click **View Workflow** from the context of the issue (near the issue’s **Status**).
-    
+
 2.  Hover a status.
-    
+
     When you hover a status – it will highlight available transitions. This is the transition name that is used in smart commits and not the status name.
-    
+
     ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930398494/jira-workflow-hover(c).png?version=1&modificationDate=1630642891722&cacheVersion=1&api=v2)
 
 Below is an example using the above workflow where the issue is in OPEN status and want to send it to BUSINESS SPEC status:
 
-**<ISSUE\_KEY>** **#to-business-spec** or,  
-**<ISSUE\_KEY>** **#to-business** _and even_,  
+**<ISSUE\_KEY>** **#to-business-spec** or,
+**<ISSUE\_KEY>** **#to-business** _and even_,
 **<ISSUE\_KEY>** **#to** _(yes, this works, as long as it does not conflict with another transition name)_
 
 Do note that invalid characters can be used in the transition name. Jira accepts most of them and they can be used. However, smart commits will only process letters and dash characters.
@@ -65,33 +58,33 @@ If a smart commit fails, an email notification is sent to either the Jira user, 
 ### More related topics about smart commits
 
 *   Page:
-    
+
     [Smart commits](/wiki/spaces/GIJDC/pages/1930398395/Smart+commits) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Basic commands](/wiki/spaces/GIJDC/pages/1930398422/Basic+commands) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Workflow transitions](/wiki/spaces/GIJDC/pages/1930398464/Workflow+transitions) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Advanced examples](/wiki/spaces/GIJDC/pages/1930398446/Advanced+examples) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Viewing workflows](/wiki/spaces/GIJDC/pages/1930398494/Viewing+workflows) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Smart commits helper](/wiki/spaces/GIJDC/pages/1930398529/Smart+commits+helper) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Smart commits General setting](/wiki/spaces/GIJDC/pages/1930398554/Smart+commits+General+setting) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Scripting (Jira git workflow hooks)](/wiki/spaces/GIJDC/pages/1930398579) (Git Integration for Jira Data Center)

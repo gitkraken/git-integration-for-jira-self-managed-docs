@@ -6,27 +6,20 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Reindex POST API
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/380666409/Reindex+POST+API>
-
-* * *
-
 Starts the reindex process in a separate thread and returns the result immediately.
 
 There are two types of users who can perform the Reindex POST API call:
 
 1.  Jira **administrators**
-    
+
 2.  Jira user who has **all** of the following:
-    
+
     1.  **View/browse permissions** to the project;
-        
+
     2.  **View Development Tools permissions** to the same project; and
-        
+
     3.  The repository is **associated** to the project.
-        
+
 
 |     |     |
 | --- | --- |
@@ -49,5 +42,5 @@ There are two types of users who can perform the Reindex POST API call:
 ### Related articles
 
 *   Page:
-    
+
     [Reindex GET API](/wiki/spaces/GIJDC/pages/380699279/Reindex+GET+API) (Git Integration for Jira Data Center)

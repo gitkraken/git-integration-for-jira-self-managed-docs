@@ -8,13 +8,6 @@ taxonomy:
 ---
 
 
-# Bitbucket Server
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/92012653/Bitbucket+Server>
-
-* * *
-
-  
 
 Using **Jira Cloud**? [See the corresponding article](/wiki/spaces/GITCLOUD/pages/86343820/Bitbucket+Cloud).
 
@@ -22,13 +15,13 @@ Using **Jira Cloud**? [See the corresponding article](/wiki/spaces/GITCLOUD/page
 
 **Integrate Bitbucket with Jira Data Center**
 
-  
+
 
 Quickly learn how to connect Bitbucket Server git repositories via Git Integration for Jira app.
 
 **What's on this page:**
 
-  
+
 
 * * *
 
@@ -44,7 +37,7 @@ Obtain the repository URL from the Bitbucket Server repository project page.  
 
 The repository is now connected to Jira Data Center.
 
-  
+
 
 ## **Setting Up Weblinks**
 
@@ -59,7 +52,7 @@ Set git paths and customize options for the git host.
 
 Save the changes.
 
-  
+
 
 ## **Viewing Git Commits in Jira Data Center**
 
@@ -68,9 +61,9 @@ Save the changes.
 3.  Scroll down to the **_Activity_** panel then click the **Git Commits** tab.
 4.  Click **View Full Commit** to view the code diff.
 
-  
 
-  
+
+
 
 * * *
 

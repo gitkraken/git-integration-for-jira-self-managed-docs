@@ -7,13 +7,6 @@ taxonomy:
 
 ---
 
-
-# Server-side Hook
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/91980350/Server-side+Hook>
-
-* * *
-
 In addition to the commit-msg hook, you can use server-side hooks to apply policies for your project.  The server runs these scripts before and after the push.  The server-side hook, like commit-msg hook, requires Python to be installed.
 
 In Linux and OSX, hook scripts must have executable permissions in the file system.
@@ -27,26 +20,26 @@ The **pre-receive** server-side hook requires git administrators to:
 1.  Copy the **pre-receive** script file from the `hooks/` folder in the git repository to the Git server repository `hooks/` folder.
 2.  Configure **JIRA\_XMLRPC**, **JIRA\_USER**, **JIRA\_PASSWORD** and **PROJECT\_KEYS** in the pre-receive file.
 
-  
+
 
 The PROJECT\_KEYS setting defines an array of project keys which is compared to a ticket key from the commit message.  When Jira is not available, the hook simply checks the commit message if it contains the string pattern satisfying its declared conditions.
 
-**Pattern example:**  
+**Pattern example:**
 **`(PROJECT_KEY1|PROJECT_KEY2|...)-\d+`**
 
-  
+
 
 The PROJECT\_KEYS variable is only used when Jira is not available, otherwise, this setting in the **pre-receive** file is ignored. The hook will not perform any checks if the PROJECT\_KEY array is empty and Jira is not available.
 
-  
+
 
 See the server-side hook script on the right panel or download the sample **[pre-receive file ↓](https://bigbrassband.com/files/pre-receive.zip)** – make the necessary changes, and place it in the required folder.
 
-  
+
 
 The server-side hook script enforces users to include correct Jira tags.
 
-  
+
 
 **Sample contents of the pre-receive file:**
 
@@ -174,26 +167,26 @@ for c, msg in commits.iteritems():
         sys.exit(1)
 ```
 
-  
+
 
 ## Related articles
 
 *   Page:
-    
+
     [Webhooks](/wiki/spaces/GIJDC/pages/94142715/Webhooks)
-    
+
 *   Page:
-    
+
     [Hooks and Webhooks](/wiki/spaces/GIJDC/pages/94208056/Hooks+and+Webhooks)
-    
+
 *   Page:
-    
+
     [Jira Workflow Hook](/wiki/spaces/GIJDC/pages/94142710/Jira+Workflow+Hook)
-    
+
 *   Page:
-    
+
     [Server-side Hook](/wiki/spaces/GIJDC/pages/91980350/Server-side+Hook)
-    
+
 *   Page:
-    
+
     [Commit-msg Hook](/wiki/spaces/GIJDC/pages/92209994/Commit-msg+Hook)

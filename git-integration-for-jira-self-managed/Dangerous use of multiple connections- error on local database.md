@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# "Dangerous use of multiple connections" error on local database
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/821919745>
-
-* * *
-
 ## Problem
 
 As Git Integration for Jira Server app uses the Jira database increasingly, it is to be expected that this error will be seen or encountered more often:
@@ -33,5 +26,5 @@ The default value of **20** for database connections is sufficient for small Jir
 More details may be found in the following articles:
 
 *   [**Tuning Database Connections**](https://confluence.atlassian.com/adminjiraserver/tuning-database-connections-938846864.html)
-    
+
 *   [**Monitoring Database Connection Usage**](https://confluence.atlassian.com/adminjiraserver/monitoring-database-connection-usage-938847726.html)

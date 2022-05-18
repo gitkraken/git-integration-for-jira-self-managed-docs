@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Git integration configuration page
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930396951/Git+integration+configuration+page>
-
-* * *
-
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396951/gitserver-manage-git-repo-screen.png?version=1&modificationDate=1630642814252&cacheVersion=1&api=v2)
 
 On this page, you will be able to setup your git repositories and connect them to Jira via Manage git repositories page. Utilize the following features for git integration and configuration:
@@ -57,28 +50,28 @@ On this page, you will be able to setup your git repositories and connect them t
 
 ### Related helpful tips
 
-**SSH**  
+**SSH**
 When setting up repositories with the Git Integration app, you need to have the necessary access permissions on the private key on the Git server to proceed.
 
-**Windows Server**  
+**Windows Server**
 For cases when git repositories are hosted at Windows servers (Windows Server network drive) — while it is using the Windows server networking, the network credentials accessing the git repository must be the same as the user running Jira.
 
-**Windows Network Share**  
+**Windows Network Share**
 When using Windows network sharing for the repository origin, it is recommended to allocate repositories’ paths shorter than 256 characters.
 
 Example: `\\WS129\custom-repo\project-z\`
 
 Otherwise, the provided URL will not be recognized as valid.
 
-**For Jira hosted on Windows**  
+**For Jira hosted on Windows**
 When using Active Directory accounts for repository access, changing the password of the AD account running Jira can cause repository authentication issues.
 
 The solution for this is to restart Jira to regain access to repositories.
 
-**Repository REST API**  
+**Repository REST API**
 As of **v2.8.3+** of the Git Integration for Jira app, the REST API for managing repositories are implemented. The documentation for this feature is available at [Repository REST API](/wiki/spaces/GITSERVER/pages/265846822/Repository+API).
 
-**Integration REST API**  
+**Integration REST API**
 As of **v3.5.0.2+** of the Git Integration for Jira app, the REST API for managing integrations are implemented. The documentation for this feature is available at [Integration REST API](/wiki/spaces/GITSERVER/pages/360808449/Integration+API).
 
 [« Setting up repositories (index)](/wiki/spaces/GIJDC/pages/1930396906/Setting+up+repositories)
@@ -88,41 +81,41 @@ As of **v3.5.0.2+** of the Git Integration for Jira app, the REST API for ma
 ### More related topics about setting up repositories
 
 *   Page:
-    
+
     [Git integration configuration page](/wiki/spaces/GIJDC/pages/1930396951/Git+integration+configuration+page) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Using the Add new integration wizard](/wiki/spaces/GIJDC/pages/1930397044/Using+the+Add+new+integration+wizard) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Using the Connect Repository wizard](/wiki/spaces/GIJDC/pages/1930397090/Using+the+Connect+Repository+wizard) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Connecting a repository via Advanced setup](/wiki/spaces/GIJDC/pages/1930397180/Connecting+a+repository+via+Advanced+setup) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Adding a repository hosted on Windows Server or Windows Network share](/wiki/spaces/GIJDC/pages/1930397287/Adding+a+repository+hosted+on+Windows+Server+or+Windows+Network+share) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Setup repository root not located in Jira Home directory](/wiki/spaces/GIJDC/pages/1930397313/Setup+repository+root+not+located+in+Jira+Home+directory) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Tracked folders overview](/wiki/spaces/GIJDC/pages/1930397330/Tracked+folders+overview) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Self-signed HTTPS integration](/wiki/spaces/GIJDC/pages/1930397349/Self-signed+HTTPS+integration) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Managing repository or integration configuration](/wiki/spaces/GIJDC/pages/1930397435/Managing+repository+or+integration+configuration) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Associating project permissions](/wiki/spaces/GIJDC/pages/1930397766/Associating+project+permissions) (Git Integration for Jira Data Center)

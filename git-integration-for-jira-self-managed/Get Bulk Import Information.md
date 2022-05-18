@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Get Bulk Import Information
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/421298278/Get+Bulk+Import+Information>
-
-* * *
-
 Obtains information about the importing thread.  Use the following path format to access bulk import information.
 
 Any Jira user can perform the Getting Bulk Import Information API call.
@@ -39,13 +32,13 @@ Any Jira user can perform the Getting Bulk Import Information API call.
 ### Related articles
 
 *   Page:
-    
+
     [Bulk Export](/wiki/spaces/GIJDC/pages/380797241/Bulk+Export) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Bulk Import](/wiki/spaces/GIJDC/pages/380764507/Bulk+Import) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Get Bulk Import Information](/wiki/spaces/GIJDC/pages/421298278/Get+Bulk+Import+Information) (Git Integration for Jira Data Center)

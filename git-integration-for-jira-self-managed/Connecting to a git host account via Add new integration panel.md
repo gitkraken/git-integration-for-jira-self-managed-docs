@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Connecting to a git host account via Add new integration panel
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/2044035170/Connecting+to+a+git+host+account+via+Add+new+integration+panel>
-
-* * *
-
 This process requires a git host account (e.g. GitHub/GitLab/VSTS etc.) Use the Add new integration panel in Jira Cloud/Server to connect git repositories from git hosts to Jira. This is the recommended way of integrating your multiple git repositories to Jira.
 
 1. On your Jira dashboard menu, click Git ➜ **Manage repositories**.
@@ -68,15 +61,15 @@ Select from the supported git host integration (_or click the integration links 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/2044035170/git-server-dc-new-settings-auto-connect-wiz.png?version=1&modificationDate=1640772747294&cacheVersion=1&api=v2)
 
 *   On the Integration Settings, setting the [**Require User PAT** option](/wiki/spaces/GIJDC/pages/317390849) to `ON` will require users to provide PAT which will be used for branch and merge/pull request creation/deletion (via the developer panel on the Jira issue page). This is a security feature of Git Integration for Jira app for git hosts that support two-factor authentication. This option requires the **[Repository Browser](/wiki/spaces/GIJDC/pages/1930398739)** feature to be enabled.
-    
 
-  
+
+
 
 Do not enable this feature for connected git hosts that don't support it. For example, TFS2013/2015 does not support PATs. Users won't be able to create branches or create pull/merge request if the above setting is **`ON`**.
 
 *   Jira administrators can configure the **Require User PAT** setting when connecting a 2FA git host via the Add new integration panel or via **Edit integration settings** in the **Manage repositories page**. If set to **`ON`**, Jira Users are required to set their PAT for specific repositories via Repository Browser. The setup PAT link is accessible via the developer panel on Create Branch or Create Pull/Merge Request dialogs in the Jira issue page.
 
-  
+
 
 This setting is only available for **auto-connected** git hosts configured via Add new integration wizard with Git Integration for Jira app.
 
@@ -84,36 +77,36 @@ This setting is only available for **auto-connected** git hosts configured via
 
 5. Click **Finish** to accept the settings and complete the setup.
 
-  
+
 
 * * *
 
 ### **More articles related to integration basics**
 
 *   Page:
-    
+
     [Connecting to a git host account via Add new integration panel](/wiki/spaces/GIJDC/pages/2044035170/Connecting+to+a+git+host+account+via+Add+new+integration+panel) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Connecting to a single git repository (HTTPS | SSH)](/wiki/spaces/GIJDC/pages/2044035207) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Setting up web links](/wiki/spaces/GIJDC/pages/2045181986/Setting+up+web+links) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Link git commits to Jira issues (Basics)](/wiki/spaces/GIJDC/pages/2045149189) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Using smart commits](/wiki/spaces/GIJDC/pages/2045149209/Using+smart+commits) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Using the Repository Browser](/wiki/spaces/GIJDC/pages/2045214758/Using+the+Repository+Browser) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Creating branches and pull | merge requests (Basics)](/wiki/spaces/GIJDC/pages/2045149234) (Git Integration for Jira Data Center)

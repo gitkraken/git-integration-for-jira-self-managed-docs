@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Per Node Repository Indexing
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/2095775749/Per+Node+Repository+Indexing>
-
-* * *
-
 NEW FEATURE DATA CENTER ONLY
 
 Available in Git Integration for Jira Data Center v4.2+
@@ -47,57 +40,57 @@ The repository reindexing tasks will be performed only on the specified nodes. T
 ### More on general settings
 
 *   Page:
-    
+
     [General settings](/wiki/spaces/GIJDC/pages/1930398111/General+settings) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Branch and pull request settings (formerly Git Integration Options)](/wiki/spaces/GIJDC/pages/1207828745) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Enable Automation for Jira general setting](/wiki/spaces/GIJDC/pages/2045149338/Enable+Automation+for+Jira+general+setting) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Audit log settings](/wiki/spaces/GIJDC/pages/1207828866/Audit+log+settings) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Require User PAT general setting](/wiki/spaces/GIJDC/pages/1947107395/Require+User+PAT+general+setting) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Repository Browser general setting](/wiki/spaces/GIJDC/pages/1947140158/Repository+Browser+general+setting) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Source Code Diff Viewing general setting](/wiki/spaces/GIJDC/pages/1947140173/Source+Code+Diff+Viewing+general+setting) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Git roll up issue tab](/wiki/spaces/GIJDC/pages/1207828678/Git+roll+up+issue+tab) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Git commits issue and project tabs](/wiki/spaces/GIJDC/pages/1207828697/Git+commits+issue+and+project+tabs) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Git integration features](/wiki/spaces/GIJDC/pages/1207795905/Git+integration+features) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Email settings](/wiki/spaces/GIJDC/pages/1207795941/Email+settings) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Scheduled jobs](/wiki/spaces/GIJDC/pages/1207795958/Scheduled+jobs) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Enforce Git service permissions](/wiki/spaces/GIJDC/pages/2091810842/Enforce+Git+service+permissions) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Per Node Repository Indexing](/wiki/spaces/GIJDC/pages/2095775749/Per+Node+Repository+Indexing) (Git Integration for Jira Data Center)

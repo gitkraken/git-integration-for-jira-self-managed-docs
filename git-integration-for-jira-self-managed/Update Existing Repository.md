@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Update Existing Repository
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/380699263/Update+Existing+Repository>
-
-* * *
-
 Updates the existing repository from the given settings.
 
 Only Jira admins can perform the Update Repository API call.
@@ -77,17 +70,17 @@ Only Jira admins can perform the Update Repository API call.
 ### Related articles
 
 *   Page:
-    
+
     [Retrieve Repository List](/wiki/spaces/GIJDC/pages/380666386/Retrieve+Repository+List) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Add New Repository](/wiki/spaces/GIJDC/pages/380666393/Add+New+Repository) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Update Existing Repository](/wiki/spaces/GIJDC/pages/380699263/Update+Existing+Repository) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Delete Existing Repository](/wiki/spaces/GIJDC/pages/380797296/Delete+Existing+Repository) (Git Integration for Jira Data Center)

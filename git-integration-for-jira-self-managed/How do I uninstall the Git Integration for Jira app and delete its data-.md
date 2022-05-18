@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# How do I uninstall the Git Integration for Jira app and delete its data?
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/2053832772>
-
-* * *
-
 The following steps will remove the Git Integration for Jira app and delete its data from Jira:
 
 |     |
@@ -28,17 +21,17 @@ The following steps will remove the Git Integration for Jira app and delete its 
 | **5\. Remove the table by performing the following SQL command:** `DROP TABLE table_name`**.** |
 
 *   Page:
-    
+
     [How do I reinstall the plugin?](/wiki/spaces/GIJDC/pages/2054029344)
-    
+
 *   Page:
-    
+
     [How do I uninstall the Git Integration for Jira app and delete its data?](/wiki/spaces/GIJDC/pages/2053832772)
-    
+
 *   Page:
-    
+
     [In the temp location, I see several jar files with different versions updated at the same time. What would be the procedure for cleaning them up?](/wiki/spaces/GIJDC/pages/2053865535)
-    
+
 *   Page:
-    
+
     [When removing the Git Integration for Jira app indexing service, there are 2 services listed: "GitRevisionIndexerJob" AND "Git Revision Indexing Service". Which should I delete?](/wiki/spaces/GIJDC/pages/2053865556)

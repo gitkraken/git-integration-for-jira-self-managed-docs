@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Tags API
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/380699319/Tags+API>
-
-* * *
-
 The Tag REST API returns several latest tags for the issue.  Tags are sorted in chronological order from newest to oldest.
 
 To perform the Tag API call, the Jira user must have the permission to **read** the requested issue.
@@ -31,7 +24,7 @@ To perform the Tag API call, the Jira user must have the permission to **read**
 | _**response**_ |     |
 | Returns the number of tags according to the parameter value for each repository associated with the issue. |     |
 
-  
+
 The result contains tag elements with basic information such as name of a tag, associated commit data, associated repository settings, etc.
 
 The additional flag _**hasMore**_ indicates if an issue contains more tags. Increasing the quantity number for `tagsPerRepository` will return a large collection result depending on the size of the parameter value  –  in case _**hasMore**_ has **true** as response.
@@ -44,25 +37,25 @@ The additional flag _**hasMore**_ indicates if an issue contains more tags. I
 ### REST APIs
 
 *   Page:
-    
+
     [Bulk Change API](/wiki/spaces/GIJDC/pages/380764495/Bulk+Change+API) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Repository API](/wiki/spaces/GIJDC/pages/380699237/Repository+API) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Reindex API](/wiki/spaces/GIJDC/pages/380699270/Reindex+API) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Commits API](/wiki/spaces/GIJDC/pages/380764552/Commits+API) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Branches API](/wiki/spaces/GIJDC/pages/380666446/Branches+API) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Integration API](/wiki/spaces/GIJDC/pages/380699325/Integration+API) (Git Integration for Jira Data Center)

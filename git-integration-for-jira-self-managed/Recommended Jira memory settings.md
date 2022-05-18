@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Recommended Jira memory settings
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/873332818/Recommended+Jira+memory+settings>
-
-* * *
-
 This page is about how to configure/allocate memory to Jira to accommodate large repositories and avoid OutOfMemory exceptions.
 
 The approximate plugin memory usage should be 2 times the size of the repository indexes.
@@ -23,7 +16,7 @@ The Git Integration for Jira app uses the JGit library ([https://www.eclipse.org
 
 The JGit library implementation loads all indexes into the memory to simplify and speed up navigation in the git database.
 
-**For example:**  
+**For example:**
 If these repository indexes are 110 Mb then our plugin will require about 0.25 Gb memory during usual reindex and about 0.5 Gb memory (110 x 4) in peaks (i.e. when the Git GC procedure is running). It's only for this single repository.
 
 When you connect several repositories, the required memory will be the sum of the required memory for each repository. Fortunately, that 4x memory in the peaks is required only for the biggest repository because Git GC is performed on a per-repository basis and only in one repository at a time.

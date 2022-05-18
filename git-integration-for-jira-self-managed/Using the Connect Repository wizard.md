@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Using the Connect Repository wizard
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930397090/Using+the+Connect+Repository+wizard>
-
-* * *
-
 **What’s on this page:**
 
 * * *
@@ -26,12 +19,12 @@ Navigate to the Manage repositories page.
 To start integrating a git repository, follow the steps below:
 
 1.  Click **Connect to Git Repository**. The connect repository wizard is displayed:
-    
+
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397090/connect-git-wizard-start-screen(new).png?version=1&modificationDate=1630642823179&cacheVersion=1&api=v2&width=646&height=501)
 2.  Enter required repository location. The **Repository location** can be any type of supported gitl URL protocols as stated in the _**Location type**_ examples.
-    
+
 3.  Click **Next**. The Connect wizard will automatically detect the provided repository location type.
-    
+
 
 **Detection of Remote Origin Setting**
 
@@ -50,13 +43,13 @@ In the **Settings** screen, you can configure features such as [Smart Commits
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397090/connect-git-wizard-cfg-screen.png?version=1&modificationDate=1630642823475&cacheVersion=1&api=v2&width=680&height=376)
 
 *   **Smart Commits**  – Enable or disable this setting to allow processing of smart commits for this repository connection.
-    
-*   **Repository Browser** – Enable or disable this setting to allows users to view git repositories of configured projects via the **Git** menu on the Jira dashboard. This feature is only available on Jira Server/DC instances.
-    
-*   For _**Project Permissions**_, set one or more projects in the **Restrict to projects** field to map this repository and make the **Git Commits** tab available in the **Issue** pages of the associated projects. Otherwise, leave the _**Associate with all projects**_ state to ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) to associate this repository to all projects.
-    
 
-  
+*   **Repository Browser** – Enable or disable this setting to allows users to view git repositories of configured projects via the **Git** menu on the Jira dashboard. This feature is only available on Jira Server/DC instances.
+
+*   For _**Project Permissions**_, set one or more projects in the **Restrict to projects** field to map this repository and make the **Git Commits** tab available in the **Issue** pages of the associated projects. Otherwise, leave the _**Associate with all projects**_ state to ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) to associate this repository to all projects.
+
+
+
 The level of permissions can be one of the following:
 
 |     |     |
@@ -111,9 +104,9 @@ The Git Integration for Jira app will initially try to use the keys provided by 
 After the above requirements are fulfilled, the wizard will:
 
 *   create a local copy of the git repository; and
-    
+
 *   index the git repository to build change history.
-    
+
 
 Click **Finish** to close the wizard.
 
@@ -126,41 +119,41 @@ This completes the setup and the newly added repository appears on the integrati
 ## More related topics about setting up repositories
 
 *   Page:
-    
+
     [Git integration configuration page](/wiki/spaces/GIJDC/pages/1930396951/Git+integration+configuration+page) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Using the Add new integration wizard](/wiki/spaces/GIJDC/pages/1930397044/Using+the+Add+new+integration+wizard) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Using the Connect Repository wizard](/wiki/spaces/GIJDC/pages/1930397090/Using+the+Connect+Repository+wizard) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Connecting a repository via Advanced setup](/wiki/spaces/GIJDC/pages/1930397180/Connecting+a+repository+via+Advanced+setup) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Adding a repository hosted on Windows Server or Windows Network share](/wiki/spaces/GIJDC/pages/1930397287/Adding+a+repository+hosted+on+Windows+Server+or+Windows+Network+share) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Setup repository root not located in Jira Home directory](/wiki/spaces/GIJDC/pages/1930397313/Setup+repository+root+not+located+in+Jira+Home+directory) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Tracked folders overview](/wiki/spaces/GIJDC/pages/1930397330/Tracked+folders+overview) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Self-signed HTTPS integration](/wiki/spaces/GIJDC/pages/1930397349/Self-signed+HTTPS+integration) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Managing repository or integration configuration](/wiki/spaces/GIJDC/pages/1930397435/Managing+repository+or+integration+configuration) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Associating project permissions](/wiki/spaces/GIJDC/pages/1930397766/Associating+project+permissions) (Git Integration for Jira Data Center)

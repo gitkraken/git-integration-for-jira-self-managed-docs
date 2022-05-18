@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Creating and configuring SSH keys (Windows/MacOS/Linux)
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/183271450>
-
-* * *
-
 **What’s on this page:**
 
 * * *
@@ -24,13 +17,13 @@ The Git Integration for Jira app supports SSH git repository connections via **
 As a summary, you need to perform the following tasks in order to successfully integrate your SSH git repositories with Jira:
 
 *   Obtain SSH git repository URL from your git host repository configuration page
-    
+
 *   Generate SSH key pair (public and private key)
-    
+
 *   Add the public key to your git host SSH configuration
-    
+
 *   Add the private key by connecting your SSH git repositories via Git Integration for Jira app.
-    
+
 
 |     |
 | --- |
@@ -66,41 +59,41 @@ _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/migvqa03gw) _t
 ## More how-to articles
 
 *   Page:
-    
+
     [Creating Personal Access Tokens](/wiki/spaces/GIJDC/pages/107380737/Creating+Personal+Access+Tokens)
-    
+
 *   Page:
-    
+
     [Working with JMESPath Filters](/wiki/spaces/GIJDC/pages/135430238/Working+with+JMESPath+Filters)
-    
+
 *   Page:
-    
+
     [Working with Custom API Path](/wiki/spaces/GIJDC/pages/135331922/Working+with+Custom+API+Path)
-    
+
 *   Page:
-    
+
     [Creating and configuring SSH keys (Windows/MacOS/Linux)](/wiki/spaces/GIJDC/pages/183271450)
-    
+
 *   Page:
-    
+
     [Require Personal Access Tokens for user actions (create branch/pull request)](/wiki/spaces/GIJDC/pages/317390849)
-    
+
 *   Page:
-    
+
     [Setting Project Permissions](/wiki/spaces/GIJDC/pages/509444154/Setting+Project+Permissions)
-    
+
 *   Page:
-    
+
     [How to get a quote?](/wiki/spaces/GIJDC/pages/1165721603)
-    
+
 *   Page:
-    
+
     [Ways to Index Git Data to Jira Issues](/wiki/spaces/GIJDC/pages/1207828916/Ways+to+Index+Git+Data+to+Jira+Issues)
-    
+
 *   Page:
-    
+
     [Proxy settings on adding integrations (except AWS CodeCommit)](/wiki/spaces/GIJDC/pages/1808007195)
-    
+
 *   Page:
-    
+
     [Configure Source Code Diff Viewing](/wiki/spaces/GIJDC/pages/2054881287/Configure+Source+Code+Diff+Viewing)

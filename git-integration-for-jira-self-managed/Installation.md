@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Installation
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930395878/Installation>
-
-* * *
-
 Install our product via the Atlassian Marketplace, Jira Plugin Manager or with manual installation (using the Upload method).
 
 ## Getting started
@@ -32,17 +25,17 @@ _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/lr0jp6ntfd) _t
 ### More related topics about Git Integration for Jira app installation
 
 *   Page:
-    
+
     [Installation via Atlassian Marketplace](/wiki/spaces/GIJDC/pages/1930395898/Installation+via+Atlassian+Marketplace) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Installation via Jira Plugin Manager](/wiki/spaces/GIJDC/pages/1930395928/Installation+via+Jira+Plugin+Manager) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Manual installation](/wiki/spaces/GIJDC/pages/1930395954/Manual+installation) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Installation and updating](/wiki/spaces/GIJDC/pages/1930395997/Installation+and+updating) (Git Integration for Jira Data Center)

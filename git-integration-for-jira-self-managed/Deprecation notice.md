@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Deprecation notice
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/2046197780/Deprecation+notice>
-
-* * *
-
 |     |     |     |
 | --- | --- | --- |
 | **Feature** | **Date** | **Details of ending support, removal or obsolescence** |

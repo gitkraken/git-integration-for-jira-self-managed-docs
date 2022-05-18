@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Comparing branches/tags in Repository Browser
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930398705>
-
-* * *
-
 ALSO IN JIRA CLOUD
 
 On the Repository Browser, click the **Compare** page tab.
@@ -26,11 +19,11 @@ A diff between the _**base**_ branch and the _**compare**_ branch is display
 To view desired results, use the following selection scenarios:
 
 *   select **master** as compare; select the most recent branch as compare.
-    
+
 *   select **master** as compare; select a tag with a version release.
-    
+
 *   select different branches as base and compare. (Example: `TYT-212` against `TYT-316`)
-    
+
 
 Click **…** to swap the base and the compare selection.
 
@@ -55,17 +48,17 @@ For example, the JQL will look like `issuekey in (GIT-1851, GIT-1159, GITCL-284
 ### More related topics about Repository Browser
 
 *   Page:
-    
+
     [Repository Browser](/wiki/spaces/GIJDC/pages/1930398598/Repository+Browser) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Viewing list of commits in Repository Browser](/wiki/spaces/GIJDC/pages/1930398681/Viewing+list+of+commits+in+Repository+Browser) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Comparing branches/tags in Repository Browser](/wiki/spaces/GIJDC/pages/1930398705) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Enable/disable Repository Browser via git repository configuration page](/wiki/spaces/GIJDC/pages/1930398739) (Git Integration for Jira Data Center)

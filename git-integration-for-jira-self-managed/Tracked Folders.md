@@ -6,18 +6,11 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Tracked Folders
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/91947120/Tracked+Folders>
-
-* * *
-
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91947120/tracked-folders-banner-logo2.png?version=1&modificationDate=1611969637784&cacheVersion=1&api=v2&width=340&height=79)
 
 # Integrate Tracked Folders with Jira Data Center
 
-  
+
 Quickly learn how to connect Tracked Folders via Git Integration for Jira Data Center app.
 
 **What's on this page:**
@@ -46,29 +39,29 @@ _Right click_ [_here_](https://bigbrassband.wistia.com/medias/npya1xi1pm) _and v
 To add repositories via Tracked Folders:
 
 1.  Go to **Manage Git Repositories** (_Jira Dashboard_ ➜ **Git** menu) in Jira Data Center.
-    
+
 2.  Click the dropdown arrow on **Connect to Git Repository** then **Add tracked folder**. The following dialog is displayed.
-    
+
     ![](https://bigbrassband.atlassian.net/wiki/download/attachments/91947120/jira-serverdc-tracked-folder-wizard-dlg(c).png?version=1&modificationDate=1611969638590&cacheVersion=1&api=v2)
     *   Enter the **Tracked folder location** in the required field. For this feature, a local path to the git repository residing on the same server as Jira is required. For example: `/home/ec2-user/repositories/*`.
-        
+
     *   Set the **Folder Depth** according to your organization’s requirements. For more information on this feature, see the [**Folder Depth section**](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/81002508/Tracked+Folders#Folder-depth-setting) below.
-        
+
     *   _Optional._ Expand the **Advanced** twisty to set the **JMESPath** options (see [more details below](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/81002508/Tracked+Folders#JMESPath-filter-setting)) to filter connected repositories to Jira.
-        
+
 3.  In the following dialog, the wizard will find git repositories stored in the provided path and displays the list of repositories found.
-    
+
     ![](https://bigbrassband.atlassian.net/wiki/download/attachments/91947120/jira-serverdc-tracked-folder-wizard-repo-found(c).png?version=1&modificationDate=1611969639612&cacheVersion=1&api=v2)
-    
+
     In the above example repository root, `/home/ec2-user/repositories/*`, all repositories under this mask (`/home/ec2-user/repositores/TestGitPluginRepo`, `/home/ec2-user/repositores/emptyRepo`, … , `/home/ec2-user/repositores/jira-git-plugin`) will be handled as one entry in the **Git Repositories** configuration page. For other features, these are treated as separate repositories.
-    
-4.  The Add tracked folder wizard scans the local path one folder level deep or depending on the **Folder Depth** setting. Click **Import repositories**.  
+
+4.  The Add tracked folder wizard scans the local path one folder level deep or depending on the **Folder Depth** setting. Click **Import repositories**.
     The wizard automatically adds the detected repositories to Jira. If a repository is added to the path, Jira will add it to the index. If a repository is removed from the path, Jira will drop the index for that repository.
-    
+
 5.  On the **Settings** dialog, set **Repository Browser, Smart Commits** and **Project Association** permissions, if required. Click **Next**.
-    
+
 6.  Click **Finish** to complete adding the tracked folder.
-    
+
 
 The tracked folder is added to the repository configuration list.
 
@@ -151,24 +144,24 @@ If a repository folder is manually deleted from the local path, the Git Integrat
 ## Viewing git commits in Jira Data Center
 
 1.  Perform a git commit by adding the Jira issue key in the commit message. This will associate the commit to the mentioned Jira issue.
-    
+
 2.  Open the Jira issue.
-    
+
 3.  Scroll down to the _**Activity**_ panel then click the **Git Commits** tab.
-    
+
 4.  Click **View Full Commit** to view the code diff.
-    
+
 
 ## Jira administrators ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png)
 
 It is possible to track all repositories hosted on a GitLab server from inside a Jira server:
 
 1.  Setup NFS server on the GitLab computer
-    
+
 2.  Mount GitLab repositories folder as a remote NFS folder on Jira server
-    
+
 3.  Configure NFS permissions to allow Jira to access GitLab folders by using either of the two possible solutions:
-    
+
 
 |     |
 | --- |

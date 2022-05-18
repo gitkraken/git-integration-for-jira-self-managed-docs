@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# JQL searching
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930399338/JQL+searching>
-
-* * *
-
 JIRA SERVER JIRA DATA CENTER
 
 INTRODUCED VERSION 2.6.9+

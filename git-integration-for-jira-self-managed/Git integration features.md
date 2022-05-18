@@ -6,16 +6,9 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Git integration features
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1207795905/Git+integration+features>
-
-* * *
-
 This setting is part of the [General Settings](/wiki/spaces/GIJDC/pages/966852655/General+Settings) configuration page.
 
-  
+
 These group of settings affect how new commits are updated, how tags are displayed on Jira issues, and give administrators control if commit information is shown on JQL searches and Git activity stream or not.
 
 VERSION 3.9+ GitKraken deep linking integration is implemented.
@@ -46,7 +39,7 @@ For more information, see [Jira git integration development panel](/wiki/spaces/
 
 Disabling this setting will improve Jira performance.
 
-  
+
 **Calculate and show Git tags in the Git integration panel**  –  Enable/disable the setting to have Git Integration for Jira app calculate and show the Git tags in the Git Integration panel.
 
 For more information, see [Git Tags](/wiki/spaces/GIJDC/pages/1930399204/Git+tags).
@@ -80,57 +73,57 @@ Disabling this setting will improve Jira performance.
 ### More on general settings
 
 *   Page:
-    
+
     [Git roll up issue tab](/wiki/spaces/GIJDC/pages/1207828678/Git+roll+up+issue+tab) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Git commits issue and project tabs](/wiki/spaces/GIJDC/pages/1207828697/Git+commits+issue+and+project+tabs) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Git integration features](/wiki/spaces/GIJDC/pages/1207795905/Git+integration+features) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Branch and pull request settings (formerly Git Integration Options)](/wiki/spaces/GIJDC/pages/1207828745) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Email settings](/wiki/spaces/GIJDC/pages/1207795941/Email+settings) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Scheduled jobs](/wiki/spaces/GIJDC/pages/1207795958/Scheduled+jobs) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Audit log settings](/wiki/spaces/GIJDC/pages/1207828866/Audit+log+settings) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [General settings](/wiki/spaces/GIJDC/pages/1930398111/General+settings) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Repository Browser general setting](/wiki/spaces/GIJDC/pages/1947140158/Repository+Browser+general+setting) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Source Code Diff Viewing general setting](/wiki/spaces/GIJDC/pages/1947140173/Source+Code+Diff+Viewing+general+setting) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Require User PAT general setting](/wiki/spaces/GIJDC/pages/1947107395/Require+User+PAT+general+setting) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Enable Automation for Jira general setting](/wiki/spaces/GIJDC/pages/2045149338/Enable+Automation+for+Jira+general+setting) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Enforce Git service permissions](/wiki/spaces/GIJDC/pages/2091810842/Enforce+Git+service+permissions) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Per Node Repository Indexing](/wiki/spaces/GIJDC/pages/2095775749/Per+Node+Repository+Indexing) (Git Integration for Jira Data Center)

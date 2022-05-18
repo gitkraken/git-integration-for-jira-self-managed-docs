@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Working with Custom API Path
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/135331922/Working+with+Custom+API+Path>
-
-* * *
-
 The Custom API Path is a relative path that starts with "/".  The maximum allowed length is 2000 characters. The integration will use the relative REST API path to retrieve the list of tracked repositories.
 
 The Custom API Path is called in the integration setup, settings changes, on a regular scheduled reindex and for a manual reindex.
@@ -103,60 +96,60 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 | ```java<br>/api/v4/groups/5245789/projects?include_subgroups=true<br>/api/v4/groups/BigBrassBand/projects?include_subgroups=true<br>``` |
 | In the above examples, the `?include_subgroups=true` API extension will return a recursive list of repositories within a nested GitLab Group (or GitLab Subgroup) where the #, `5245789`, is the **Group id**; and `BigBrassBand` is the **Group name**. |
 
-  
+
 For more information on GitLab custom API paths, see **GitLab API**.
 
-**GitLab version API support:**  
-Gitlab v9.5 and above -- only API v4  
+**GitLab version API support:**
+Gitlab v9.5 and above -- only API v4
 Gitlab v9.0 to v9.4.x -- API v3 and API v4 (_support for API v3 is deprecated_)
 
-**Remember**  
+**Remember**
 The GitLab.com API can see all the public projects. For GitLab.com, we recommend using JMESPath over the Custom API path when possible. For more information, see [Working with JMESPath filters](/wiki/spaces/GIJDC/pages/135430238/Working+with+JMESPath+Filters).
 
-  
+
 While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
 
 ## More how-to articles
 
 *   Page:
-    
+
     [Creating Personal Access Tokens](/wiki/spaces/GIJDC/pages/107380737/Creating+Personal+Access+Tokens)
-    
+
 *   Page:
-    
+
     [Working with JMESPath Filters](/wiki/spaces/GIJDC/pages/135430238/Working+with+JMESPath+Filters)
-    
+
 *   Page:
-    
+
     [Working with Custom API Path](/wiki/spaces/GIJDC/pages/135331922/Working+with+Custom+API+Path)
-    
+
 *   Page:
-    
+
     [Creating and configuring SSH keys (Windows/MacOS/Linux)](/wiki/spaces/GIJDC/pages/183271450)
-    
+
 *   Page:
-    
+
     [Require Personal Access Tokens for user actions (create branch/pull request)](/wiki/spaces/GIJDC/pages/317390849)
-    
+
 *   Page:
-    
+
     [Setting Project Permissions](/wiki/spaces/GIJDC/pages/509444154/Setting+Project+Permissions)
-    
+
 *   Page:
-    
+
     [How to get a quote?](/wiki/spaces/GIJDC/pages/1165721603)
-    
+
 *   Page:
-    
+
     [Ways to Index Git Data to Jira Issues](/wiki/spaces/GIJDC/pages/1207828916/Ways+to+Index+Git+Data+to+Jira+Issues)
-    
+
 *   Page:
-    
+
     [Proxy settings on adding integrations (except AWS CodeCommit)](/wiki/spaces/GIJDC/pages/1808007195)
-    
+
 *   Page:
-    
+
     [Configure Source Code Diff Viewing](/wiki/spaces/GIJDC/pages/2054881287/Configure+Source+Code+Diff+Viewing)
-    
+
 
 _1 Logo owned by_ [_GitLab Inc_](https://gitlab.com/) _used under_ [_license_](https://creativecommons.org/licenses/by-nc-sa/4.0/)

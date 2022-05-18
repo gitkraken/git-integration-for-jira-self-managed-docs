@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Jira project page
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930399252/Jira+project+page>
-
-* * *
-
 The Project page allows you to manage project related options.
 
 ### All Versions
@@ -40,9 +33,9 @@ If Repository Browser setting is disabled for that project, the user will not be
 Commits can also be limited using a particular revision. Revision and commits are connected using the logic below:
 
 *   All issues linked with particular revision are selected (using both ‘fix version’ and ‘affects version’ fields).
-    
+
 *   Commits linked with these tickets are fetched.
-    
+
 
 [« Git tags](/wiki/spaces/GIJDC/pages/1930399204/Git+tags)
 

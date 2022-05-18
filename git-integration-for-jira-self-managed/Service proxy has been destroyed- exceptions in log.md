@@ -7,13 +7,6 @@ taxonomy:
 
 ---
 
-
-# "Service proxy has been destroyed" exceptions in log
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/458883074>
-
-* * *
-
 ## Problem
 
 Errors/failures in the Git Integration for Jira application are seen sporadically.
@@ -46,47 +39,47 @@ No configuration or source code data is lost when uninstalling, disabling or cle
 | **Step 3: Clean up plugin folders.** |
 | 1.  Stop Jira.<br>    <br>2.  Clean up [**plugin temp folders**](https://answers.atlassian.com/questions/7110972/can-we-clean-up-osgi-plugins-in-jira) fully or remove these files:<br>    <br>    1.  `JIRA_INSTALL_FOLDER/temp/*_git_plugin-*.jar`<br>        <br>    2.  `JIRA_HOME_FOLDER/plugins/.osgi-plugins/transformed-plugins/*_git_plugin-*.jar`<br>        <br>3.  Remove all versions of the **Git Integration for Jira** app from the `installed-plugins` folder except the [**latest version**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=server&tab=versions) `(JIRA_HOME_FOLDER/plugins/installed-plugins/*jira_git_plugin-x.x.x.jar)`.<br>    <br>    1.  `JIRA_HOME_FOLDER/plugins/installed-plugins/*_git_plugin-*.jar`<br>        <br>4.  Start Jira.<br>    <br>5.  Reindex repositories.<br>    <br>6.  If symptoms persist, contact BigBrassBand Support. |
 
-**Contact Us**  
+**Contact Us**
 If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com).
 
 ## Related articles
 
 *   Page:
-    
+
     [Avoid OutOfMemory exceptions by configuring or memory allocation with Jira to accommodate large repositories](/wiki/spaces/GIJDC/pages/873332786/Avoid+OutOfMemory+exceptions+by+configuring+or+memory+allocation+with+Jira+to+accommodate+large+repositories) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [SQLException 'Incorrect string value' in merge requests](/wiki/spaces/GIJDC/pages/843448333/SQLException+%27Incorrect+string+value%27+in+merge+requests) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     ["Dangerous use of multiple connections" error on local database](/wiki/spaces/GIJDC/pages/821919745) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     ["Service proxy has been destroyed" exceptions in log](/wiki/spaces/GIJDC/pages/458883074) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Indexing error - Too many open files](/wiki/spaces/GIJDC/pages/318013497/Indexing+error+-+Too+many+open+files) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [SSH key file format is invalid](/wiki/spaces/GIJDC/pages/187957296/SSH+key+file+format+is+invalid) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Installation fails when installing manually](/wiki/spaces/GIJDC/pages/167247873/Installation+fails+when+installing+manually) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Error while reindexing - Java heap space / Object too large, rejecting the pack](/wiki/spaces/GIJDC/pages/137035882) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [TFS - Not authorized exception when Jira works thru proxy](/wiki/spaces/GIJDC/pages/128188471/TFS+-+Not+authorized+exception+when+Jira+works+thru+proxy) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Why don't I see the Create Branch or Pull Request features?](/wiki/spaces/GIJDC/pages/123633735) (Git Integration for Jira Data Center)

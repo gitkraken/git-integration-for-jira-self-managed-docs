@@ -6,16 +6,9 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Why don't I see commits? (Data Center)
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/2041937935>
-
-* * *
-
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/2041937935/Asset%202@5x_1.png?version=1&modificationDate=1640251774847&cacheVersion=1&api=v2)
 
-  
+
 
 JIRA ADMIN
 
@@ -61,11 +54,11 @@ Reindexing integrations (or repositories) manually. Note: all repositories are u
 
 Approximately every 8-15 minutes.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2041937935/reindex-manually.png?version=1&modificationDate=1640251775591&cacheVersion=1&api=v2&width=800&height=388)  
+![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2041937935/reindex-manually.png?version=1&modificationDate=1640251775591&cacheVersion=1&api=v2&width=800&height=388)
 
 Admins can setup webhooks to index commits immediately
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2041937935/gitserver-webhooks-page-example.png?version=1&modificationDate=1640255569660&cacheVersion=1&api=v2&width=800&height=490)  
+![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2041937935/gitserver-webhooks-page-example.png?version=1&modificationDate=1640255569660&cacheVersion=1&api=v2&width=800&height=490)
 
 The repository has indexed since the commit was pushed
 
@@ -121,11 +114,11 @@ GitLab showing an actual commit and the commit message:
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2041937935/gitlab.png?version=1&modificationDate=1640251778362&cacheVersion=1&api=v2&width=800&height=388)
 
-  
+
 
 Check the video for more instructions:
 
-  
+
 
 Right-click [here](https://bigbrassband.wistia.com/medias/7kj43knu4m) and view this video in a new browser tab.
 
@@ -139,9 +132,9 @@ Using the **Permission Helper** within Jira Server - verify that the user in que
 
 The Permission Helper is available to Jira admins: Jira Administration ➜ System ➜ **Permission Helper**.
 
-  
 
-  
+
+
 
 Right-click [here](https://bigbrassband.wistia.com/medias/ynjggc2wzg) and view this video in a new browser tab.
 

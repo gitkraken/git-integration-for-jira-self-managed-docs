@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Advanced examples
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930398446/Advanced+examples>
-
-* * *
-
 |     |
 | --- |
 | **Usage and Description** |
@@ -38,7 +31,7 @@ taxonomy:
 | **TEST-100 TEST-101 TEST-102** **#resolve** **#time** 2d 4h **#comment** Fixed code |
 | Resolves specified issues; logs specified `#time` of **2 days and 4 hours** and adds `#comment` "Fixed code" against the issues. |
 
-VERSION 2.6.33+  
+VERSION 2.6.33+
 Implemented support for multi-line commit messages with smart commits.
 
 #### multi-line
@@ -67,33 +60,33 @@ The following examples show correct usage of the smart commit message (multi-lin
 ### More related topics about smart commits
 
 *   Page:
-    
+
     [Smart commits](/wiki/spaces/GIJDC/pages/1930398395/Smart+commits) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Basic commands](/wiki/spaces/GIJDC/pages/1930398422/Basic+commands) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Workflow transitions](/wiki/spaces/GIJDC/pages/1930398464/Workflow+transitions) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Advanced examples](/wiki/spaces/GIJDC/pages/1930398446/Advanced+examples) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Viewing workflows](/wiki/spaces/GIJDC/pages/1930398494/Viewing+workflows) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Smart commits helper](/wiki/spaces/GIJDC/pages/1930398529/Smart+commits+helper) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Smart commits General setting](/wiki/spaces/GIJDC/pages/1930398554/Smart+commits+General+setting) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Scripting (Jira git workflow hooks)](/wiki/spaces/GIJDC/pages/1930398579) (Git Integration for Jira Data Center)

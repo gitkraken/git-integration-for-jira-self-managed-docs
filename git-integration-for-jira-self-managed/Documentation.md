@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Documentation
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930395770/Documentation>
-
-* * *
-
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930395770/git-for-jira-landing-pages-title-banner.png?version=1&modificationDate=1630642766899&cacheVersion=1&api=v2&width=660&height=159)
 
 This documentation guide covers **v4.0.1** features**.** For more information on released features, see [Release notes](/wiki/spaces/GIJDC/pages/1078231449/Git+Integration+for+Jira+Data+Center+-+Release+Notes).
@@ -25,7 +18,7 @@ Click on the next topic below to know more about the Git Integration app's admin
 
  Search
 
-   
+
 
 |     |
 | --- |

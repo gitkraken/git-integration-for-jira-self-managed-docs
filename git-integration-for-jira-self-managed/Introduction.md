@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Introduction
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930395849/Introduction>
-
-* * *
-
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930395849/bbb-overview.png?version=1&modificationDate=1630642768051&cacheVersion=1&api=v2)
 
 The [**Git Integration for Jira**](https://marketplace.atlassian.com/plugins/com.xiplink.jira.git.jira_git_plugin) app is intended for displaying list of commits linked with a particular Jira issue. It is often useful to figure out real issue progress as well as contributors involved in the real work of an issue.
@@ -25,7 +18,7 @@ Ask your Git administrator if you need access to the Git repository just like a 
 
 If you are the Git administrator, define a new Git user for this Jira Server/Data Center.
 
-  
+
 The Git Integration for Jira app is available for Jira Server, Jira Data Center and Cloud. It supports seamless integration with most git hosts and can be configured with ease.
 
 Click on a topic on the sidebar or continue immediately to the next article by clicking the next topic link at the bottom of the page.

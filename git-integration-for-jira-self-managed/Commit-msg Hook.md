@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Commit-msg Hook
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/92209994/Commit-msg+Hook>
-
-* * *
-
 Every developer must have this hook on his local machine in order to:
 
 *   Commit codes locally several times then pushes it to the server.
@@ -35,11 +28,11 @@ In Linux and OSX, this file must have executable permissions in the file system;
 
 See the commit-msg hook code on the right panel or download the sample **[commit-msg file ↓](https://bigbrassband.com/files/commit-msg.zip)**, make the necessary changes, and place it in the required folder.
 
-  
+
 
 The **commit-msg** hook is a python script file that must be located in the developer's local repository.
 
-  
+
 
 **Sample contents of the commit-msg file:**
 
@@ -124,26 +117,26 @@ if err_msg:
     sys.exit(1)
 ```
 
-  
+
 
 ## Related articles
 
 *   Page:
-    
+
     [Webhooks](/wiki/spaces/GIJDC/pages/94142715/Webhooks)
-    
+
 *   Page:
-    
+
     [Hooks and Webhooks](/wiki/spaces/GIJDC/pages/94208056/Hooks+and+Webhooks)
-    
+
 *   Page:
-    
+
     [Jira Workflow Hook](/wiki/spaces/GIJDC/pages/94142710/Jira+Workflow+Hook)
-    
+
 *   Page:
-    
+
     [Server-side Hook](/wiki/spaces/GIJDC/pages/91980350/Server-side+Hook)
-    
+
 *   Page:
-    
+
     [Commit-msg Hook](/wiki/spaces/GIJDC/pages/92209994/Commit-msg+Hook)

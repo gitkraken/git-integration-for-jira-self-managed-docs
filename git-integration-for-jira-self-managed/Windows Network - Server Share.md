@@ -6,28 +6,21 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Windows Network | Server Share
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/91881564/Windows+Network+%7C+Server+Share>
-
-* * *
-
 ![](https://bigbrassband.com/confluence/images/win-network-server-share-banner-logo.png)
 
 **Integrate Windows Network/Server Share with Jira Data Center**
 
-  
+
 
 Quickly learn how to connect Windows Network or Server Share via Git Integration for Jira app.
 
 **In this page:**
 
-  
+
 
 * * *
 
-  
+
 
 ## **Adding a Repository Hosted on Window Servers or Network Share**
 
@@ -59,7 +52,7 @@ Make sure that the network folder share name are correct and that the user has a
 
 The network/server share folder should now be connected with Jira.
 
-  
+
 
 ## **Editing Integration/Repository Settings**
 
@@ -67,7 +60,7 @@ In the Git Repositories configuration page, edit the repository via **Actions**
 
 Under Repository Settings, set **_Enable Fetches_** option to  `Git repository hosted on the same server as Jira`.
 
-  
+
 
 ## **Verifying Integration Settings**
 
@@ -83,7 +76,7 @@ For example:
 
 ![](https://bigbrassband.com/docimgs/win-share-access-rights-check-144.png)
 
-  
+
 
 ## **Viewing Git Commits in Jira Data Center**
 
@@ -92,7 +85,7 @@ For example:
 3.  Scroll down to the **_Activity_** panel then click the **Git Commits** tab.
 4.  Click **View Full Commit** to view the code diff.
 
-  
+
 
 * * *
 

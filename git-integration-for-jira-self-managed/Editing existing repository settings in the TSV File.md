@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Editing existing repository settings in the TSV File
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930397941/Editing+existing+repository+settings+in+the+TSV+File>
-
-* * *
-
 Navigate to the .tsv file and edit it with your favorite spreadsheet program.
 
 [**Google Drive**](http://drive.google.com/) is also a recommended place to edit the .tsv file.
@@ -69,22 +62,22 @@ Populate/edit the fields by utilizing the following options:
 Take note that the .tsv file is verified by the Git for Jira app with the following rules:
 
 *   The header row is required.
-    
+
 *   The order of fields specified in the header row – is the order of the fields in the following rows.
-    
+
 *   If a field is omitted from the header row, the Git Integration app will use the default value for a new repository. The Git Integration app will keep the current value of a repository if it already exists in the configured repositories.
-    
+
 *   If a repository is not listed in the .tsv file, no changes will be made if the same repository exists in the add-on configuration.
-    
+
 
 Save the file to a tab-delimited format:
 
 *   **OSX users** – select all data in Numbers and then paste into a text editor and save. Name the file with the **.tsv** extension (_repo-example-00.tsv_).
-    
+
 *   **Excel users** – save the file as **Text (Tab delimited) (\*.txt)**. Rename file's **.txt** extension to **.tsv**.
-    
+
 *   **Google Drive** - upload the file to this service. Right click the **.tsv** file then open it with _Google Sheets_.  Make the necessary changes then go to File ➜ Download as ➜ **Tab separated values (.tsv)** to your local machine.
-    
+
 
 [« Add new repositories via Bulk change](/wiki/spaces/GIJDC/pages/1930397912/Import+new+repositories+via+Bulk+change)
 
@@ -93,29 +86,29 @@ Save the file to a tab-delimited format:
 ### More related topics about bulk change
 
 *   Page:
-    
+
     [Bulk change](/wiki/spaces/GIJDC/pages/1930397801/Bulk+change) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Exporting repository configuration via Bulk change](/wiki/spaces/GIJDC/pages/1930397830/Exporting+repository+configuration+via+Bulk+change) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Requirement for secured import](/wiki/spaces/GIJDC/pages/1930397869/Requirement+for+secured+import) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Import existing repositories via Bulk change](/wiki/spaces/GIJDC/pages/1930397888/Import+existing+repositories+via+Bulk+change) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Import new repositories via Bulk change](/wiki/spaces/GIJDC/pages/1930397912/Import+new+repositories+via+Bulk+change) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Editing existing repository settings in the TSV File](/wiki/spaces/GIJDC/pages/1930397941/Editing+existing+repository+settings+in+the+TSV+File) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Removing existing repositories via Bulk change](/wiki/spaces/GIJDC/pages/1930397978/Removing+existing+repositories+via+Bulk+change) (Git Integration for Jira Data Center)

@@ -6,21 +6,14 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Indexing error - Too many open files
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/318013497/Indexing+error+-+Too+many+open+files>
-
-* * *
-
 ## Problem
 
 Repository is not indexing and errors in Jira logs point to "Too many open files".
 
 ## Diagnosis
 
-Jira admins will see a message similar to the one below in the Jira `/application-logs/atlassian-jira.log`:  
-  
+Jira admins will see a message similar to the one below in the Jira `/application-logs/atlassian-jira.log`:
+
 
 **Error**
 
@@ -56,7 +49,7 @@ Caused by: java.io.IOException: Too many open files
 
 See Atlassian help article about [increasing the number of file handles available to Jira](https://confluence.atlassian.com/jirakb/loss-of-functionality-due-to-too-many-open-files-errors-156862102.html)
 
-  
+
 
 Contact Us
 
@@ -65,21 +58,21 @@ If you still have a question - reach out to our [Support Desk](https://bigbrassb
 ## Related articles
 
 *   Page:
-    
+
     [Whitelist BigBrassBand Cloud](/wiki/spaces/BBBSUPPORT/pages/125141005/Whitelist+BigBrassBand+Cloud)
-    
+
 *   Page:
-    
+
     [Avoid OutOfMemory exceptions by configuring or memory allocation with Jira to accommodate large repositories](/wiki/spaces/BBBSUPPORT/pages/878968833/Avoid+OutOfMemory+exceptions+by+configuring+or+memory+allocation+with+Jira+to+accommodate+large+repositories)
-    
+
 *   Page:
-    
+
     [(Git Integration: Jira Server/Data Center) "Dangerous use of multiple connections" error on local database](/wiki/spaces/BBBSUPPORT/pages/822050817)
-    
+
 *   Page:
-    
+
     ["Service proxy has been destroyed" exceptions in log (Git Integration: Server/Data Center)](/wiki/spaces/BBBSUPPORT/pages/458817592)
-    
+
 *   Page:
-    
+
     [Git Integration (Server): Jira index error: IndexNotFoundException: no segments\* file found](/wiki/spaces/BBBSUPPORT/pages/132022367/Git+Integration+%28Server%29%3A+Jira+index+error%3A+IndexNotFoundException%3A+no+segments*+file+found)

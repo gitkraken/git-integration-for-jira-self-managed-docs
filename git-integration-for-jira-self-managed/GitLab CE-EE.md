@@ -7,13 +7,6 @@ taxonomy:
 
 ---
 
-# GitLab CE/EE
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/91947056>
-
-* * *
-
-  
 
 Using **Jira Cloud**? [See the corresponding article](/wiki/spaces/GITCLOUD/pages/85524528).
 
@@ -27,11 +20,11 @@ GitLab v10+ stopped accepting username/password credentials for API access and w
 
 For GitLab Server service users, they won't see the issue until they upgrade their GitLab Servers to version 10 and higher.  Git Integration for Jira app offers pre-v10 GitLab Server service users as a Legacy connection option.
 
-  
+
 
 We are dropping support for Gitlab API v3. Please use **GitLab API v4** when adding new integrations for increased security.
 
-  
+
 
 BigBrassBand recommends a dedicated user for this integration which has access permissions to the GitLab git repositories.
 
@@ -39,15 +32,15 @@ Quickly learn how to connect GitLab CE/EE git repositories via Git Integration f
 
 **What's on this page:**
 
-  
+
 
 * * *
 
-  
 
-  
 
-  
+
+
+
 
 ## **Permissions**
 
@@ -71,7 +64,7 @@ We recommend creating a specific GitLab user for the integration.  This way, th
 
 This level of access allows the user to view commits for the specific repository.
 
-  
+
 
 **For users who will be tasked with creating branches and merge requests:**
 
@@ -82,7 +75,7 @@ This level of access allows the user to create/delete branches and create merge 
 
 For more information, see **[GitLab Permissions »](https://docs.gitlab.com/ee/user/permissions.html "GitLab User Documentation - Permissions")**.
 
-  
+
 
 ## **Using Auto-Connect**
 
@@ -112,10 +105,10 @@ Configuring the **Advanced** settings is optional. However, admins/power users
 
 *   **C**ustom API Path****  –  this is a relative path that starts with "/". The integration will use the relative REST API path to retrieve the list of tracked repositories. The maximum allowed length is 2000 characters or less. For more information on GitLab custom API paths, see **[GitLab API](https://docs.gitlab.com/ee/api/projects.html)**. To learn more examples, see article [**Jira Data Center: Working with Custom API Path**](/wiki/spaces/GIJDC/pages/135331922/Working+with+Custom+API+Path).
 
-  
 
-**GitLab version API support:**  
-Gitlab v9.5 and above -- only API v4  
+
+**GitLab version API support:**
+Gitlab v9.5 and above -- only API v4
 Gitlab v9.0 to v9.4.x -- API v4 (API v3 unsupported)
 
 *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less. Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [support](mailto:support@bigbrassband.com?subject=Help%20with%20writing%20JMESPath%20filter%20expressions). To learn more examples, see article [**Jira Data Center: Working with JMESPath Filters**](/wiki/spaces/GIJDC/pages/135430238/Working+with+JMESPath+Filters).
@@ -124,7 +117,7 @@ While Custom API Path and JMESPath filter are mutually exclusive, you can use on
 
 6\. Click Connect. The Git Integration for Jira app will import detected GitLab Enterprise repositories.
 
-  
+
 
 Currently, the Git Integration for Jira app scans only the repositories visible to the user which is used for scanning.  The repositories which are publicly visible _(shared for all members or visible to the member with the admin rights)_ will not be scanned.  This will be supported in a future release.
 
@@ -146,22 +139,22 @@ Manage repositories of a connected GitLab server via the Git Repositories page u
 
 Repositories added or removed from GitLab server will be likewise added or removed from Jira Data Center.
 
-  
+
 
 The Git Integration for Jira app supports v3 and v4 of the GitLab API (in both Jira Cloud and Jira Server/Data Center).
 
-  
+
 
 For newer GitLab authentication - in order to access a Git repository over HTTP, use the username as the username and the PAT for the password.
 
-  
+
 
 **Admin/Power Users:**
 
-To pass the private access token (for example: XpigzF1JxMnAZ7mn9qgN) to an API call with GitLab:  
+To pass the private access token (for example: XpigzF1JxMnAZ7mn9qgN) to an API call with GitLab:
 **`curl --header "Private-Token: XpigzF1JxMnAZ7mn9qgN" https://gitlab.com/api/v4/projects?membership=true`**
 
-  
+
 
 ## **Single Repository**
 
@@ -179,7 +172,7 @@ Use this information to connect the GitLab git repository to your Jira Data Cent
 
 The repository is now connected to Jira Data Center.
 
-  
+
 
 ## **Post-Install Tips**
 
@@ -189,13 +182,13 @@ Go to the general settings in Git Integration app configuration page (**Git** > 
 
 ![](https://bigbrassband.com/confluence/images/int-guide-gitlab-jira-server-gen-cfg.png)
 
-  
+
 
 ## **Setting Up GitLab Web Links**
 
 The Git Integration for Jira app automatically configures web linking for GitLab CE/EE git repositories.
 
-  
+
 
 ## **Working with Branches and Merge Requests with GitLab CE/EE**
 
@@ -205,7 +198,7 @@ For GitLab CE/EE (Legacy or newer), the user must have the **Write** permissio
 
 Most git integrations allow changing of the default branch of the repository/project other than "master".  This change is reflected in the  Repository Settings of the Git Integration for Jira app on the next reindex.  Auto-connected integrations support this feature where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
-  
+
 
 Main branch for repositories within an integration can only be changed on the git server.
 
@@ -232,13 +225,13 @@ If the **[Require User PAT option »](/wiki/spaces/GIJDC/pages/92078126/Integrat
 
 ![](https://bigbrassband.com/images/bbb/jira-server-sel-repo-enter-user-pat.png)
 
-*   Click   
+*   Click 
      to setup a PAT for the selected repository. Paste a valid PAT of the current user to proceed. Invalid PATs will fail the branch creation process.
-    
-*   Click the   
-    icon to use this PAT and save it to the current user profile. Otherwise, click the   
+
+*   Click the 
+    icon to use this PAT and save it to the current user profile. Otherwise, click the 
     icon on the right to cancel setting up PAT for this repository.
-    
+
 *   After the above steps have been taken, the users will be able to proceed with branch creation.
 
 3\. Click Create Branch.  The newly-created branch is now listed in the developer panel under **Branches**.
@@ -279,7 +272,7 @@ The merge request is listed on the developer panel of the Jira issue page.
 
 The merge request is also ready for approval by the reviewers in your GitLab web portal.
 
-  
+
 
 ## **Viewing Git Commits in Jira Data Center**
 
@@ -288,7 +281,7 @@ The merge request is also ready for approval by the reviewers in your GitLab web
 3.  Scroll down to the **_Activity_** panel then click the **Git Commits** tab.
 4.  Click **View Full Commit** to view the code diff.
 
-  
+
 
 * * *
 
@@ -316,6 +309,6 @@ page icon as list [Integrate Tracked Folders with Jira Data Center](/wiki/spaces
 
 page icon as list [Integrate Windows Network/Server Share with Jira Data Center](/wiki/spaces/GIJDC/pages/91881564/Windows+Network+%7C+Server+Share)
 
-  
+
 
 1 Logo owned by [GitLab Inc](https://gitlab.com/) used under [license](https://creativecommons.org/licenses/by-nc-sa/4.0/)

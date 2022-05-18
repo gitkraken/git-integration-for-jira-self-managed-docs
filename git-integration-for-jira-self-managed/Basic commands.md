@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Basic commands
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930398422/Basic+commands>
-
-* * *
-
 There are smart commits commands that you can use in your commit messages. Read on to learn more details on each smart commit command and how they work.
 
 # #comment
@@ -120,7 +113,7 @@ The `#affectsversion` command will add an Affect Version/s details tag to the 
 
 This command works both in Jira Server/Cloud.
 
-VERSION 2.12.6+ Available in Jira Cloud  
+VERSION 2.12.6+ Available in Jira Cloud
 VERSION 3.5+ Available in Jira Server
 
 The `#label` command will add a new label to a Jira issue. If more than one Jira issue is referenced, the labels are added to all mentioned Jira issues. Multiple labels can be created by putting spaces between words.
@@ -140,33 +133,33 @@ The `#label` command will add a new label to a Jira issue. If more than one J
 ### More related topics about smart commits
 
 *   Page:
-    
+
     [Smart commits](/wiki/spaces/GIJDC/pages/1930398395/Smart+commits) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Basic commands](/wiki/spaces/GIJDC/pages/1930398422/Basic+commands) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Workflow transitions](/wiki/spaces/GIJDC/pages/1930398464/Workflow+transitions) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Advanced examples](/wiki/spaces/GIJDC/pages/1930398446/Advanced+examples) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Viewing workflows](/wiki/spaces/GIJDC/pages/1930398494/Viewing+workflows) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Smart commits helper](/wiki/spaces/GIJDC/pages/1930398529/Smart+commits+helper) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Smart commits General setting](/wiki/spaces/GIJDC/pages/1930398554/Smart+commits+General+setting) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Scripting (Jira git workflow hooks)](/wiki/spaces/GIJDC/pages/1930398579) (Git Integration for Jira Data Center)

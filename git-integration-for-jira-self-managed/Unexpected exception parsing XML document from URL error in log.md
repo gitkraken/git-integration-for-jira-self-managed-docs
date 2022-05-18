@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Unexpected exception parsing XML document from URL error in log
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/732659727/Unexpected+exception+parsing+XML+document+from+URL+error+in+log>
-
-* * *
-
 ## Problem
 
 After Jira installation or configuration changes - the following errors appear. The Git Integration for Jira app may not enable.
@@ -33,59 +26,59 @@ The Jira plugins cache might be corrupted. You may need to clear the plugins cac
 ## Solution
 
 1.  Stop Jira.
-    
+
 2.  Delete the following directories:
-    
+
     1.  `JIRA_HOME/plugins/.bundled-plugins`
-        
+
     2.  `JIRA_HOME/plugins/.osgi-plugins`
-        
+
 3.  Start Jira.
-    
+
 
 For more information - see this Atlassian Community article: [**UPM: Unexpected exception parsing XML document from URL**](https://community.atlassian.com/t5/Jira-Software-questions/UPM-Unexpected-exception-parsing-XML-document-from-URL/qaq-p/855850)
 
-**Contact Us**  
+**Contact Us**
 If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com).
 
 ## Related articles
 
 *   Page:
-    
+
     [Why don't I see the Create Branch or Pull Request features?](/wiki/spaces/GIJDC/pages/123633735) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [TFS - Not authorized exception when Jira works thru proxy](/wiki/spaces/GIJDC/pages/128188471/TFS+-+Not+authorized+exception+when+Jira+works+thru+proxy) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Error while reindexing - Java heap space / Object too large, rejecting the pack](/wiki/spaces/GIJDC/pages/137035882) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Installation fails when installing manually](/wiki/spaces/GIJDC/pages/167247873/Installation+fails+when+installing+manually) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [SSH key file format is invalid](/wiki/spaces/GIJDC/pages/187957296/SSH+key+file+format+is+invalid) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Indexing error - Too many open files](/wiki/spaces/GIJDC/pages/318013497/Indexing+error+-+Too+many+open+files) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     ["Service proxy has been destroyed" exceptions in log](/wiki/spaces/GIJDC/pages/458883074) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     ["Dangerous use of multiple connections" error on local database](/wiki/spaces/GIJDC/pages/821919745) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [SQLException 'Incorrect string value' in merge requests](/wiki/spaces/GIJDC/pages/843448333/SQLException+%27Incorrect+string+value%27+in+merge+requests) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Avoid OutOfMemory exceptions by configuring or memory allocation with Jira to accommodate large repositories](/wiki/spaces/GIJDC/pages/873332786/Avoid+OutOfMemory+exceptions+by+configuring+or+memory+allocation+with+Jira+to+accommodate+large+repositories) (Git Integration for Jira Data Center)

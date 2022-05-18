@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Cache sizes settings
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1207828850/Cache+sizes+settings>
-
-* * *
-
 These settings are part of the [**General Settings**](/wiki/spaces/GIJDC/pages/966852655/General+Settings) configuration page.
 
 VERSION 4.0.1+ This setting group is now moved to the **Advanced settings** in General settings.
@@ -35,7 +28,7 @@ _Required._  This is the number of branches that will be kept as cache in memor
 
 ## Tags cache size
 
-_Required._  This is the number of tags that will be kept in cache memory for quick retrieval – per piece is 1000Kb.  The default value for this setting is **500**. (approx. ~488Mb+)  
+_Required._  This is the number of tags that will be kept in cache memory for quick retrieval – per piece is 1000Kb.  The default value for this setting is **500**. (approx. ~488Mb+)
 
 * * *
 
@@ -54,29 +47,29 @@ When the Git Integration for Jira app can’t find a commit in the internal cach
 ### More on advanced general settings
 
 *   Page:
-    
+
     [Repository settings](/wiki/spaces/GIJDC/pages/1207795977/Repository+settings) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Repositories garbage collection checker](/wiki/spaces/GIJDC/pages/1207828777/Repositories+garbage+collection+checker) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Diff settings](/wiki/spaces/GIJDC/pages/1207795993/Diff+settings) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Discard cloned files in Jira home directory](/wiki/spaces/GIJDC/pages/1207828796/Discard+cloned+files+in+Jira+home+directory) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Git operations timeout](/wiki/spaces/GIJDC/pages/1207828815/Git+operations+timeout) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Smart commits setting](/wiki/spaces/GIJDC/pages/1207828834/Smart+commits+setting) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Cache sizes settings](/wiki/spaces/GIJDC/pages/1207828850/Cache+sizes+settings) (Git Integration for Jira Data Center)

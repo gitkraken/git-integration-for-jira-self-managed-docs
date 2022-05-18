@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# TFS - Not authorized exception when Jira works thru proxy
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/128188471/TFS+-+Not+authorized+exception+when+Jira+works+thru+proxy>
-
-* * *
-
 ## Problem
 
 Technical error reported from the git client:
@@ -24,13 +17,13 @@ http://127.0.0.1:8080/tfs/DefaultCollection/_git/console-app/: not authorized
 
 Attempt to connect to the Git server failed. This may be because of invalid username and password or may be because of a network error.
 
-  
+
 
 ## Diagnosis
 
 The above error is similar to _**"service=git-upload pack not found"**_ type errors and happens when the credentials being used by the Git Integration app don't have access to clone the specified Git repositories. There's the possibility to see the repositories from the TFS API (they are actually listed) but unable to access them via the Git protocol.
 
-  
+
 
 ## Solution
 

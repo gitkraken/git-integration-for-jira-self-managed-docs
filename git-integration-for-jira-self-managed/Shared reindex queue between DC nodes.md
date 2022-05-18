@@ -7,13 +7,6 @@ taxonomy:
 
 ---
 
-
-# Shared reindex queue between DC nodes
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/2018803716/Shared+reindex+queue+between+DC+nodes>
-
-* * *
-
 GIT INTEGRATION: DATA CENTER
 
 With Git Integration for Jira app v4.0, the shared reindex queue improvement offers vast performance improvements between DC nodes.
@@ -37,18 +30,18 @@ Duplicate reindex requests are filtered out from the queue for the same reposito
 New Webhook settings are added under _**Advanced**_:
 
 *   **Ignore non-matching webhooks** – Enable/disable this setting to filter out incoming duplicate webhooks or ignore it.
-    
+
 *   **Minimum repository reindex interval** – Webhooks will not reindex a repository more often than this value (in minutes). To disable the feature, set this value to **0** (zero).
-    
+
 
 Performing manual reindexing will process the repository and is always unaffected by this setting. Thus, the following operations are not affected:
 
 *   manual reindexing from the plugin UI
-    
+
 *   reindexing via REST API
-    
+
 *   automatic reindexing (scheduled interval)
-    
+
 
 ## Before implementation
 
@@ -67,13 +60,13 @@ The scanning operations for integrations (during the integration connection) go 
 The new implementation eliminates all the above drawbacks. Git Integration for Jira v4.0 introduces a new persistent reindex queue that is shared between nodes.
 
 *   File locks are held only for a short time during the queue handling and will not be used to sync the repository access.
-    
+
 *   Smart commits and e-mail sending are performed only on the 'main' node (the node that took an item from the queue and started to handle it). This node also performs the repository fetching and merge/pull requests retrieved from the Git server.
-    
+
 *   The indexing status is shared between nodes and should be visible in all of them (please note that the **Manage repositories** screen still isn't automatically updated).
-    
+
 *   All nodes may take any requests from the queue regardless of the node that placed the request. For consistency reasons, each repository may be processed only on one node at a time.
-    
+
 
 ## Known issues
 
@@ -82,33 +75,33 @@ The new implementation provides better utility and performance gains. However, i
 ## More articles on features
 
 *   Page:
-    
+
     [Smart commits overview](/wiki/spaces/GIJDC/pages/109215851/Smart+commits+overview)
-    
+
 *   Page:
-    
+
     [Associate Pull/Merge Requests to Issues Based on Commits](/wiki/spaces/GIJDC/pages/966852625)
-    
+
 *   Page:
-    
+
     [General Settings](/wiki/spaces/GIJDC/pages/966852655/General+Settings)
-    
+
 *   Page:
-    
+
     [Creating branches](/wiki/spaces/GIJDC/pages/1932460323/Creating+branches)
-    
+
 *   Page:
-    
+
     [Creating pull/merge requests](/wiki/spaces/GIJDC/pages/1932460359)
-    
+
 *   Page:
-    
+
     [Issue Git integration panel](/wiki/spaces/GIJDC/pages/1932329305/Issue+Git+integration+panel)
-    
+
 *   Page:
-    
+
     [Deep Linking to the GitKraken Git client](/wiki/spaces/GIJDC/pages/1955430423/Deep+Linking+to+the+GitKraken+Git+client)
-    
+
 *   Page:
-    
+
     [Enforced git permissions for Jira users](/wiki/spaces/GIJDC/pages/2091810817/Enforced+git+permissions+for+Jira+users)

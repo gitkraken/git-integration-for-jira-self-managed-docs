@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Glossary and terms
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930399449/Glossary+and+terms>
-
-* * *
-
 ### Git
 
 Git is a term used for version control system to easily track changes in one or more of files. Git is a source code repository where developers keep track of their source code using Git.
@@ -58,9 +51,9 @@ Revision indexer is the background job that is running within your Jira instance
 For every configured repository, this process do the following:
 
 *   Updates the local clone of repository
-    
+
 *   Updates the lucene indexes with commits added recently
-    
+
 
 Due to the async structure of the Git Integration for Jira app, commits that have been registered with index become visible after the revision indexer job has been executed. To show commits immediately, you have to start the reindex manually.
 

@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# SQLException 'Incorrect string value' in merge requests
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/843448333/SQLException+%27Incorrect+string+value%27+in+merge+requests>
-
-* * *
-
 ## Problem
 
 Pull / merge requests no longer show in the app after updating beyond Git Integration version 3.7.0.
@@ -87,13 +80,13 @@ The reason for these errors – some pull / merge requests may use 4-byte UTF-8 
 Some useful references for this issue:
 
 *   [https://confluence.atlassian.com/kb/how-to-fix-the-collation-and-character-set-of-a-mysql-database-744326173.html](https://confluence.atlassian.com/kb/how-to-fix-the-collation-and-character-set-of-a-mysql-database-744326173.html)
-    
+
 *   [https://community.atlassian.com/t5/Jira-Software-questions/The-database-setup-is-not-supporting-utf8mb4/qaq-p/1012877](https://community.atlassian.com/t5/Jira-Software-questions/The-database-setup-is-not-supporting-utf8mb4/qaq-p/1012877)
-    
+
 *   [https://community.atlassian.com/t5/Jira-Software-questions/The-database-setup-is-not-supporting-utf8mb4-but-it-is/qaq-p/1037415](https://community.atlassian.com/t5/Jira-Software-questions/The-database-setup-is-not-supporting-utf8mb4-but-it-is/qaq-p/1037415)
-    
+
 *   [https://confluence.atlassian.com/fishkb/migrate-mysql-database-to-utf8mb4-character-encoding-962356253.html](https://confluence.atlassian.com/fishkb/migrate-mysql-database-to-utf8mb4-character-encoding-962356253.html)
-    
+
 
 ## Solution
 

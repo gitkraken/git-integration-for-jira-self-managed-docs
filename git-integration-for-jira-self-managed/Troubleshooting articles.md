@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Troubleshooting articles
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/128188475/Troubleshooting+articles>
-
-* * *
-
 Add troubleshooting article
 
 * * *

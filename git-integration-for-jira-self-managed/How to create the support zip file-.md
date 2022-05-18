@@ -6,17 +6,10 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# How to create the support zip file?
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/2039447557>
-
-* * *
-
-**Note**  
+**Note**
 Jira Cloud does not have the Support Zip feature.
 
-  
+
 _(The old video is removed. Updated Video guide coming soon)_
 
 Jira can produce a Support Zip file for diagnosing issues. This will give our support team a better view of the issue.
@@ -26,29 +19,29 @@ Jira can produce a Support Zip file for diagnosing issues. This will give our s
 You can create this file by accessing the Atlassian Support Tools in your Jira:
 
 1.  On your Jira Server dashboard, go to ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Jira Administration**.
-    
+
 2.  Click **System**.
-    
+
 3.  On the left sidebar, click **Troubleshooting and support tools**.
-    
+
 4.  Click the **Create support zip** tab.
-    
-5.  For **Customize zip**, leave all check marked options (recommended) or check/uncheck required information to generate.  
+
+5.  For **Customize zip**, leave all check marked options (recommended) or check/uncheck required information to generate.
     RECOMMENDED For Jira Data Center instances, you may include **Thread dumps** for performance analysis.
-    
+
 6.  Click **Create zip** to start generating support data.
-    
+
 
 Locate the generated Support Zip file and send it to [support@bigbrassband.com](mailto:support@bigbrassband.com).
 
 *   Page:
-    
+
     [How to create the support zip file?](/wiki/spaces/GIJDC/pages/2039447557)
-    
+
 *   Page:
-    
+
     [How do I enable debug logging level for Git Integration for Jira app?](/wiki/spaces/GIJDC/pages/2038792196)
-    
+
 *   Page:
-    
+
     [Where can I find the Jira logs?](/wiki/spaces/GIJDC/pages/2039283717)

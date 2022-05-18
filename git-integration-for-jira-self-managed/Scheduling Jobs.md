@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Scheduling Jobs
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/756056197/Scheduling+Jobs>
-
-* * *
-
 **What’s on this page:**
 
 * * *
@@ -23,13 +16,13 @@ Scheduling jobs in the [**Git Integration for Jira**](https://marketplace.atlass
 
 ![Scheduled jobs showing repository indexing and gc](https://bigbrassband.atlassian.net/wiki/download/attachments/756056197/general-settings-scheduled-jobs.png?version=1&modificationDate=1600179577661&cacheVersion=1&api=v2)
 
-**Scheduling rule types**  
+**Scheduling rule types**
 The Git Integration for Jira app for Jira Server and Jira Data Center uses the Atlassian Jira Scheduling API for scheduling jobs. These jobs can be scheduled in two ways:
 
 *   **Scanning interval:** Schedule jobs on a regular interval in minutes. If the job is still running, the job will be skipped (and not added to a job queue).
-    
+
 *   **Cron expression:** Schedule jobs via cron expression to schedule the jobs to run at specific times on specific days**.** (_Available starting in Git Integration version 3.7+)_
-    
+
 
 We recommend that scheduled jobs be given sufficient time to run completely on a regular basis. Please see section, [How to find out how long jobs are running](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/750288897/Scheduling+jobs#How-to-find-out-how-long-the-job-takes-to-run).
 
@@ -56,11 +49,11 @@ We recommend that scheduled jobs be given sufficient time to run completely on a
 To understand how long the above jobs take to run:
 
 1.  Navigate to the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Jira Administration ➜ **Scheduler Details** page.
-    
+
 2.  Look up the `Job name` posted above.
-    
+
 3.  Expand the job name (show more) and observe the schedule, duration, last run, duration, and next run. The duration indicates how long the **last scheduled job** required to run completely (![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Note:** manually or API reindexed jobs will not show here).
-    
+
 
 When the Reindex job duration is measured in a few tens of milliseconds, this means that the reindex job was still running from the last scheduled reindex job. We recommend that the scheduled job be given more time so that jobs do not overlap.
 
@@ -69,20 +62,20 @@ When the Reindex job duration is measured in a few tens of milliseconds, this me
 Job scheduling for the Git Integration app for Jira Data Center is generally the same compared to Jira Server, except for the following differences:
 
 *   The reindexing job runs on a single Jira Data Center node (including API requests, git fetch requests, etc) and stores this data in the Jira Shared Storage (`sharedhome`). Then, each Jira Data Center node is notified to index the changes.
-    
+
 *   The Git Integration app schedules the jobs with the Atlassian Jira Scheduler. The Jira Scheduler controls which node carries out the reindexing job.
-    
+
 
 # Related articles
 
 *   Page:
-    
+
     [Require Personal Access Tokens for user actions (create branch/pull request)](/wiki/spaces/GIJDC/pages/317390849) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Permissions](/wiki/spaces/GIJDC/pages/408453129/Permissions) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Setting Project Permissions](/wiki/spaces/GIJDC/pages/509444154/Setting+Project+Permissions) (Git Integration for Jira Data Center)

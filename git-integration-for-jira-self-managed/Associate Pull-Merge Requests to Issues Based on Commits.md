@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Associate Pull/Merge Requests to Issues Based on Commits
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/966852625>
-
-* * *
-
 GIT INTEGRATION: JIRA DATA CENTER
 
 ## Introduction

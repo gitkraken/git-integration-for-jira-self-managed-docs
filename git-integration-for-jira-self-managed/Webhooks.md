@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Webhooks
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/94142715/Webhooks>
-
-* * *
-
 **What’s on this page:**
 
 * * *
@@ -24,11 +17,11 @@ Webhooks can be an extremely powerful tool that can be configured to trigger an 
 Webhooks can be triggered whenever certain actions are performed. For example, you can configure a webhook to execute when:
 
 *   a new commit is pushed
-    
+
 *   a pull request is opened
-    
+
 *   a branch is merged
-    
+
 
 You can create webhooks for individual repositories or most git providers will allow you to create webhooks at an account-level or org-level.
 
@@ -40,22 +33,22 @@ Without webhooks, you will rely on the default polling of the app which is uncha
 
 ## Getting started
 
-**Important**  
+**Important**
 To use the webhooks feature, it must be enabled in the Manage (Git) repositories page.
 
 Configure webhooks to trigger immediate reindex of your repositories from remote systems.
 
 1.  From your Jira dashboard, go to menu Git ➜ **Manage repositories**_._ On the sidebar, under _Git Integration for Jira_, click **Webhooks**.
-    
+
 2.  ![](https://bigbrassband.atlassian.net/wiki/download/attachments/94142715/gitserver-gitmgr-webhooks-sidebar-sel(c).png?version=1&modificationDate=1640699245952&cacheVersion=1&api=v2)
-    
+
     Enable/disable the webhook feature by clicking on the **Enabled/Disabled** option.
-    
+
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/94142715/gitserver-webhooks-settings-page(c).png?version=1&modificationDate=1640699258009&cacheVersion=1&api=v2&width=598&height=404)
 
 Copy the webhook URL to the system clipboard by clicking the copy icon adjacent to the right. Use this URL when required by the repository web hooks setting of your git host.
 
-  
+
 The **Secret Key** is a secure random-generated alphanumeric string at the time of the Git Integration for Jira app installation. The user can change this to a different value by generating another secret token according to your Git host.
 
 Use this key in the form of:
@@ -102,29 +95,29 @@ The webhook parses the following payload formats:
 ## Related topics
 
 *   Page:
-    
+
     [Creating reindex triggers for a single repository](/wiki/spaces/GITSERVER/pages/132251748/Creating+reindex+triggers+for+a+single+repository)
-    
+
 *   Page:
-    
+
     [Adding webhooks for GitHub](/wiki/spaces/GITSERVER/pages/171245573/Adding+webhooks+for+GitHub)
-    
+
 *   Page:
-    
+
     [Adding webhooks for GitLab](/wiki/spaces/GITSERVER/pages/171278348/Adding+webhooks+for+GitLab)
-    
+
 *   Page:
-    
+
     [Webhooks GitHub Organization support](/wiki/spaces/GITSERVER/pages/171376657/Webhooks+GitHub+Organization+support)
-    
+
 *   Page:
-    
+
     [Adding webhooks for Azure DevOps Repos | VSTS](/wiki/spaces/GITSERVER/pages/171278800/Adding+webhooks+for+Azure+DevOps+Repos+%7C+VSTS)
-    
+
 *   Page:
-    
+
     [Adding webhooks for Azure DevOps Server | TFS](/wiki/spaces/GITSERVER/pages/235110401/Adding+webhooks+for+Azure+DevOps+Server+%7C+TFS)
-    
+
 *   Page:
-    
+
     [Adding webhooks for Bitbucket](/wiki/spaces/GITSERVER/pages/498663690/Adding+webhooks+for+Bitbucket)

@@ -6,62 +6,55 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Web linking
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930398212/Web+linking>
-
-* * *
-
 The web linking feature adds links to your git hosting provider directly into the _**Git Commits**_ tab. Configure web linking options while adding/editing repository settings so that commits can include links to the git host pages.
 
 Web links are automatically configured for integrations connected via the Auto-connect wizard.
 
 _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/qmumdo048n) _to open this video in a new browser tab for more viewing options._
 
-  
+
 The following providers are supported:
 
 *   **cgit**
-    
+
 *   **Fisheye**
-    
+
 *   **GitHub**
-    
+
 *   **Gitorious**
-    
+
 *   **gitweb**
-    
+
 *   **Beanstalk**
-    
+
 *   **CloudForge**
-    
+
 *   **Atlassian Stash**
-    
+
 *   **GitLab**
-    
+
 *   **TFS (starting v2013)**
-    
+
 *   **Azure Server**
-    
+
 *   **VSTS**
-    
+
 *   **Azure DevOps**
-    
+
 *   **Gerrit**
-    
+
 *   **Bonobo**
-    
+
 *   **AWS CodeCommit**
-    
+
 *   **Bitbucket**
-    
+
 *   **Bitbucket Server**
-    
+
 *   **Gitblit**
-    
+
 *   **Gitolite**
-    
+
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398212/gitlab-guide-web-linking.png?version=1&modificationDate=1630642879210&cacheVersion=1&api=v2&width=680&height=318)
 
@@ -82,10 +75,10 @@ Some git hosts require web linking to be configured via the Git Integration app 
 
 The Bonobo git server requires a branch name to construct URL.  Use `$convert(${branch},"/","~2")` for web linking since bonobo requires substitution of "/" with "~2" in the branch name.
 
-**For example:**  
+**For example:**
 `http://<host>/Bonobo.Git.Server/Repository/<project>/$convert(${branch},"/","~2")/Commit/${rev}`
 
-  
+
 Any Git host that is accessible via SSH, HTTP, HTTPS, git protocol, local and network share is supported.
 
 Once properly configured, the **Git Commits** tab on the **Issues** page will display as follows:

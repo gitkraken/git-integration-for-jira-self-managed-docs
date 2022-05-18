@@ -7,23 +7,16 @@ taxonomy:
 
 ---
 
-
-# Enforced git permissions for Jira users
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/2091810817/Enforced+git+permissions+for+Jira+users>
-
-* * *
-
 Available in Git Integration for Jira Server/Data Center v4.1.4
 
 This page is intended for Jira users with limited access. If you are a Jira administrator, please [go to this page](/wiki/spaces/GIJDC/pages/2091810842/Enforce+Git+service+permissions) instead.
 
-  
+
 Source code is sensitive data and development teams take a great deal of effort to get the permissions right. When the **Enforce Git service permissions** setting is enabled by your administrator, the Git service permissions will be honored when presenting any Git data to Jira users.
 
 This state is called secure mode – where a Jira user is limited from viewing git data, unless they have been authenticated to the Git server to view this specific data.
 
-**Requirement**  
+**Requirement**
 When “Enforce Git service permissions” is enabled, Jira users with the _**View development tools**_ Jira permission will be prompted to provide a Personal Access Token from the Jira user profile page.
 
 ### What a Jira user will see while in this mode and has not yet provided a Personal Access Token
@@ -45,33 +38,33 @@ From the Jira user profile page, the Jira user can enter their Git service Perso
 ### More related topics on features
 
 *   Page:
-    
+
     [Smart commits overview](/wiki/spaces/GIJDC/pages/109215851/Smart+commits+overview)
-    
+
 *   Page:
-    
+
     [Associate Pull/Merge Requests to Issues Based on Commits](/wiki/spaces/GIJDC/pages/966852625)
-    
+
 *   Page:
-    
+
     [General Settings](/wiki/spaces/GIJDC/pages/966852655/General+Settings)
-    
+
 *   Page:
-    
+
     [Creating branches](/wiki/spaces/GIJDC/pages/1932460323/Creating+branches)
-    
+
 *   Page:
-    
+
     [Creating pull/merge requests](/wiki/spaces/GIJDC/pages/1932460359)
-    
+
 *   Page:
-    
+
     [Issue Git integration panel](/wiki/spaces/GIJDC/pages/1932329305/Issue+Git+integration+panel)
-    
+
 *   Page:
-    
+
     [Deep Linking to the GitKraken Git client](/wiki/spaces/GIJDC/pages/1955430423/Deep+Linking+to+the+GitKraken+Git+client)
-    
+
 *   Page:
-    
+
     [Enforced git permissions for Jira users](/wiki/spaces/GIJDC/pages/2091810817/Enforced+git+permissions+for+Jira+users)

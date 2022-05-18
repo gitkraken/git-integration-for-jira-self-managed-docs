@@ -7,25 +7,18 @@ taxonomy:
 
 ---
 
-
-# Error while reindexing - Java heap space / Object too large, rejecting the pack
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/137035882>
-
-* * *
-
 ## Problem
 
 The Git Integration for Jira application uses the [JGit](https://www.eclipse.org/jgit/) library which does not support objects over 2GB in size stored in git repositories.
 
 ## Diagnosis
 
-Jira admins will see an error in the Git Integration for Jira app interface - for example:  
-  
+Jira admins will see an error in the Git Integration for Jira app interface - for example:
+
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/137035882/wizard-java-heap-space.png?version=1&modificationDate=1559306844537&cacheVersion=1&api=v2&width=335&height=249)
 
-  
+
 
 or Jira admins will see a message similar to the one below in the Jira `/application-logs/atlassian-jira.log:`
 
@@ -57,7 +50,7 @@ Caused by: org.eclipse.jgit.api.errors.TransportException: Object too large (2,2
 
 ## Solutions
 
-  
+
 
 Making any change to a git repository's history can result in loss of data. Proceed with care.
 
@@ -69,9 +62,9 @@ Making any change to a git repository's history can result in loss of data. Proc
 *   Move large files to [GitLFS](https://git-lfs.github.com) which is supported by the Git Integration for Jira app.
 *   Filter out the repository from the special integrations (GitHub, GitLab, AWS CodeCommit, Microsoft TFS/Azure DevOps/VSTS, etc) using [Custom API Path](/wiki/spaces/BBBSUPPORT/pages/133267463) or [JMESPath Filters](/wiki/spaces/BBBSUPPORT/pages/133234739/Working+with+JMESPath+Filters).
 
-  
 
-  
+
+
 
 Contact Us
 
@@ -80,41 +73,41 @@ If you still have a question - reach out to our [Support Desk](https://bigbrassb
 ## Related articles
 
 *   Page:
-    
+
     [Avoid OutOfMemory exceptions by configuring or memory allocation with Jira to accommodate large repositories](/wiki/spaces/GIJDC/pages/873332786/Avoid+OutOfMemory+exceptions+by+configuring+or+memory+allocation+with+Jira+to+accommodate+large+repositories)
-    
+
 *   Page:
-    
+
     [SQLException 'Incorrect string value' in merge requests](/wiki/spaces/GIJDC/pages/843448333/SQLException+%27Incorrect+string+value%27+in+merge+requests)
-    
+
 *   Page:
-    
+
     ["Dangerous use of multiple connections" error on local database](/wiki/spaces/GIJDC/pages/821919745)
-    
+
 *   Page:
-    
+
     ["Service proxy has been destroyed" exceptions in log](/wiki/spaces/GIJDC/pages/458883074)
-    
+
 *   Page:
-    
+
     [Indexing error - Too many open files](/wiki/spaces/GIJDC/pages/318013497/Indexing+error+-+Too+many+open+files)
-    
+
 *   Page:
-    
+
     [SSH key file format is invalid](/wiki/spaces/GIJDC/pages/187957296/SSH+key+file+format+is+invalid)
-    
+
 *   Page:
-    
+
     [Why don't I see the Create Branch or Pull Request features?](/wiki/spaces/GIJDC/pages/123633735)
-    
+
 *   Page:
-    
+
     [Error while reindexing - Java heap space / Object too large, rejecting the pack](/wiki/spaces/GIJDC/pages/137035882)
-    
+
 *   Page:
-    
+
     [Installation fails when installing manually](/wiki/spaces/GIJDC/pages/167247873/Installation+fails+when+installing+manually)
-    
+
 *   Page:
-    
+
     [TFS - Not authorized exception when Jira works thru proxy](/wiki/spaces/GIJDC/pages/128188471/TFS+-+Not+authorized+exception+when+Jira+works+thru+proxy)

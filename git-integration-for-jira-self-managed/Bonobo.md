@@ -6,24 +6,17 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Bonobo
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/91947111/Bonobo>
-
-* * *
-
 ![](https://bigbrassband.com/confluence/images/bonobo-banner-logo.png)
 
 **Integrate Bonobo with Jira Data Center**
 
-  
+
 
 Quickly learn how to connect Bonobo git repositories via Git Integration for Jira app.
 
 **What's on this page:**
 
-  
+
 
 * * *
 
@@ -39,7 +32,7 @@ Obtain the repository URL from the Bonobo repository project page.
 
 The repository is now connected to Jira Data Center.
 
-  
+
 
 ## **Setting Up Weblinks**
 
@@ -56,7 +49,7 @@ Set the variables to the actual URL settings of the git host. In this case, repl
 
 Save the changes.
 
-  
+
 
 ## **Viewing Git Commits in Jira Data Center**
 
@@ -65,9 +58,9 @@ Save the changes.
 3.  Scroll down to the **_Activity_** panel then click the **Git Commits** tab.
 4.  Click **View Full Commit** to view the code diff.
 
-  
 
-  
+
+
 
 * * *
 

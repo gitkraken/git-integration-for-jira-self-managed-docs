@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Integration webhooks
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930399378/Integration+webhooks>
-
-* * *
-
 Trigger immediate reindex of your repositories from remote systems via webhooks. For more information about this topic, see [**About GitLab Webhooks**](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/web_hooks/web_hooks.md).
 
 ## Getting started
@@ -22,13 +15,13 @@ Setup webhooks for your configured integration/repositories from remote systems 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930399378/gitserver-gitmgr-manage-webhooks.png?version=2&modificationDate=1639304410476&cacheVersion=1&api=v2)
 
 1.  From your Jira dashboard, go to the **Git** menu.
-    
+
 2.  Click **Manage repositories**.
-    
+
 3.  Click **Webhooks** on the sidebar to open the Webhooks configuration page.
-    
+
 4.  Turn on the webhook feature by setting **Reindex via webhooks** to `Enabled`.
-    
+
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399378/gitserver-gitmgr-webhooks-cfg-page.png?version=1&modificationDate=1630642934511&cacheVersion=1&api=v2&width=680&height=270)
 
@@ -51,7 +44,7 @@ All the repositories will be reindexed if the URL specified above is activated t
 
 There is no support for other HTTP methods such as  `DELETE`  or  `HEAD` .
 
-  
+
 For more information about triggers and event types, see [Creating reindex triggers for a single repository](/wiki/spaces/GIJDC/pages/171475191/Creating+reindex+triggers+for+a+single+repository).
 
 ## Advanced settings

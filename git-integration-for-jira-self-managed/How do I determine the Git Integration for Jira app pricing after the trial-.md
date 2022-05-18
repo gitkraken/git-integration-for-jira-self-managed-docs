@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# How do I determine the Git Integration for Jira app pricing after the trial?
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/2053472453>
-
-* * *
-
 There are four ways to determine the pricing:
 
 |     |
@@ -28,13 +21,13 @@ There are four ways to determine the pricing:
 All four should provide the same answer.
 
 *   Page:
-    
+
     [How do I buy this app?](/wiki/spaces/GIJDC/pages/2053865599)
-    
+
 *   Page:
-    
+
     [What payment methods are accepted?](/wiki/spaces/GIJDC/pages/2053832862)
-    
+
 *   Page:
-    
+
     [How do I determine the Git Integration for Jira app pricing after the trial?](/wiki/spaces/GIJDC/pages/2053472453)

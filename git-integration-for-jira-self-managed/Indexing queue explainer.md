@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Indexing queue explainer
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/2047902017/Indexing+queue+explainer>
-
-* * *
-
 Git Integration for Jira (GIJ) Data Center (DC) and Server 4.0 introduces a new reindexing queue based on using the Jira database. This article provides in-depth details about this queue implementation that may be helpful for Jira administrators.
 
 ### GIJ architecture
@@ -22,33 +15,33 @@ Every connected repository (except local ones and those using the "[Tracked fold
 This cloned repository copy is used for 2 purposes:
 
 1.  The Jira DC nodes scan it and create local Lucene indexes to retrieve commit information quickly.
-    
+
 2.  The "[View file](/wiki/spaces/GIJDC/pages/1930398598/Repository+Browser)", "[View diff](/wiki/spaces/GIJDC/pages/1930398768/Viewing+commit+code+diffs)", and "[Compare](/wiki/spaces/GIJDC/pages/1930398705)" features read files data directly from that cloned copy of the repository.
-    
+
 
 ### Indexing process
 
 Integrations are connections to a git service like GitHub, GitLab, etc. Integration indexing consists of the following steps:
 
 1.  The Git server is scanned to retrieve the current list of sub-repositories (repositories inside the integration) based on the Git server credentials provided.
-    
+
 2.  The retrieved list of sub-repositories is compared with the persisted sub-repository list stored in the GIJ plugin.
-    
+
 3.  The persisted sub-repositories that do not exist in the current list retrieved from the Git server are scheduled to be removed.
-    
+
 4.  The new sub-repositories are created and cloned to sub-folders in the `data/git-plugin` folder inside the shared Jira home.
-    
+
 5.  Existing and new sub-repositories are scheduled to be reindexed; integration is indexing -- it may add sub-repositories to the indexing queue in any order, which will be processed at a much later time.
-    
+
 
 Individual repository indexing consists of the following steps:
 
 1.  The repository-related merge/pull requests are retrieved from the Git server and stored in the database.
-    
+
 2.  The cloned copy of the repository is updated from the Git server with the latest data.
-    
+
 3.  The local Lucene indexes are updated on all Jira nodes.
-    
+
 
 The local Lucene index update scans all branches and traverses all commits in them. There are a couple of optimizations to avoid all branches scanning every time:
 
@@ -65,11 +58,11 @@ The "Reset index" functionality (![(blue star)](/wiki/s/-1639011364/6452/8b4898d
 The reindexing queue is used to perform the following operations on repositories:
 
 *   Repository reindexing.
-    
+
 *   Git Garbage Collection (GC).
-    
+
 *   Repository removal.
-    
+
 
 Git GC is called only on a scheduled basis (please see the "[Garbage collection and Revision validation checkers](/wiki/spaces/GIJDC/pages/1207828777/Repositories+garbage+collection+checker)" option in the plugin "[General settings](/wiki/spaces/GIJDC/pages/966852655/General+Settings)").
 
@@ -78,58 +71,58 @@ The repository removal operation may be called either manually by a Jira adminis
 The repository reindexing operations are initiated in the following cases:
 
 *   A scheduled reindexing (please see the "[Repository reindexing](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1207795958/Scheduled+jobs#Repository-reindexing)" option in the plugin "General settings" and [this article about Scheduled Jobs](/wiki/spaces/GIJDC/pages/756056197/Scheduling+Jobs) for more details).
-    
+
 *   A webhook-based reindexing (please see [Webhooks](/wiki/spaces/GIJDC/pages/94142715/Webhooks) for more details).
-    
+
 *   A manually called reindexing through the "[Reindex repository"/"Reindex integration"/"Reset index](/wiki/spaces/GIJDC/pages/1930397476/Managing+integration+via+Actions)" context menu items, or the "[Reindex all](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930396951/Git+integration+configuration+page#Reindex-all)" button.
-    
+
 *   An automatic repository reindexing after the branch or merge/pull request creation/deletion.
-    
+
 *   An automatic repository reindexing after the ["Bulk import"](/wiki/spaces/GIJDC/pages/1930397888/Import+existing+repositories+via+Bulk+change).
-    
+
 *   A reindex triggered by REST API calls (please see [Reindex API](/wiki/spaces/GIJDC/pages/380699270/Reindex+API) for more details).
-    
+
 
 ### Reindexing queue: Priorities
 
 Tasks from the indexing queue are taken based on the following criteria:
 
 1.  TimeToStart is less than the current time.
-    
+
 2.  The repository is not being processed by any other node/thread yet.
-    
+
 3.  Priority (high priority first).
-    
+
 4.  Insertion time (oldest records first).
-    
+
 5.  Repository ID.
-    
+
 
 ### Reindexing queue: Technical details
 
 1.  The reindexing queue is located in the Jira database. This allows queue reading/writing from any node in the cluster. As a result, any node may display the indexing status for any repository regardless of the node on which it is currently processed.
-    
+
 2.  In addition, this shared queue is processed by all nodes in the cluster in parallel, which improves indexing performance.
-    
+
 3.  Since GIJ 4.0 the initial integration scanning is performed in a separate thread and does not depend on other reindexing operations.
-    
+
 4.  All operations with the queue (putting & getting) are performed under a Cluster Lock provided by the Atlassian Jira library.
-    
+
 5.  There is one thread per Data Center node that processes the queued tasks.
-    
+
 6.  There is a separate thread per Data Center node that performs Lucene indexing on a node.
-    
+
 
 ### Reindexing queue: Database tables
 
 **ReindexQueue** -- This table refers to the indexing queue items. It contains queued tasks, currently indexing ones, and the completed ones. Thus, this table may be used to get the current repository indexing status. For example:
 
 *   is it queued?
-    
+
 *   is it actively indexing?
-    
+
 *   is it successfully/unsuccessfully indexed?
-    
+
 
 When a new indexing cycle is started for a repository -- all existing entries older than 1 hour are removed for that repository.
 
@@ -140,38 +133,38 @@ When a new indexing cycle is started for a repository -- all existing entries ol
 ### Reindexing queue: Task parameters
 
 *   **OperationType**. The code of the operation to be performed on the specified repository.
-    
 
-1 -- Reindexing.  
-2 -- Git GC.  
+
+1 -- Reindexing.
+2 -- Git GC.
 3 -- Remove repository.
 
 *   **ReindexSource**. The source of the operation. The same sources are used in the [Audit log](/wiki/spaces/GIJDC/pages/1207828866/Audit+log+settings) records.
-    
 
-INITIAL\_REINDEX  
-MANUAL  
-BRANCH\_OPERATION  
-ON\_RESET\_REPOSITORY  
-PERIODIC\_JOB  
-PULL\_REQUEST\_OPERATION  
-COMMIT\_OPERATION  
-REPOSITORY\_UPDATE  
+
+INITIAL\_REINDEX
+MANUAL
+BRANCH\_OPERATION
+ON\_RESET\_REPOSITORY
+PERIODIC\_JOB
+PULL\_REQUEST\_OPERATION
+COMMIT\_OPERATION
+REPOSITORY\_UPDATE
 WEB\_HOOK
 
 *   **Priority**. The priority of the operation. Tasks in the queue are executed in descending order of priority. GIJ plugin internally uses the following priorities for operations:
-    
 
-24 -- Manual reindex.  
-22 -- Webhook reindex.  
-20 -- Scheduled reindex.  
-10 -- Remove repository.  
+
+24 -- Manual reindex.
+22 -- Webhook reindex.
+20 -- Scheduled reindex.
+10 -- Remove repository.
 2 -- Git GC.
 
 When a sub-repository (a repository inside an integration) is pushed into the queue - it gets the priority of the base (i.e. – integration) request +1.
 
 *   **TimeToStart**. The “Unix time” for the operation start. The operation will be executed no earlier than the specified time. This is used by the "[Webhook sleeping](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930399378/Integration+webhooks#Advanced-settings)" feature.
-    
+
 
 ### "Task skipping" feature
 
@@ -182,9 +175,9 @@ When a task is queued, GIJ looks for that type of task and repository ID in the 
 But in the case when there is a similar task (i.e. that has the same repository ID and code of the operation) in the queue, the plugin behavior is more complex -- it combines and stores the data from the incoming and the existing tasks:
 
 *   The highest "Priority" is used.
-    
+
 *   The nearest "TimeToStart" is used.
-    
+
 
 Such behavior allows raising the task priority or removing the task delay. This is applicable for queued scheduled or webhook tasks when a user calls the same repository reindexing manually.
 
@@ -207,70 +200,70 @@ This feature gives Jira administrators more control, especially on Jira instance
 When troubleshooting indexing issues it may be useful to [enable the logging](/wiki/spaces/GIJDC/pages/2038792196) for the following packages:
 
 *   Queue operations - DEBUG for `com.bigbrassband.jira.git.ao.dao.ReindexQueueDaoImpl`.
-    
+
 *   Indexing task - INFO/DEBUG for `com.bigbrassband.jira.git.services.async.ReindexQueueReindexTask`.
-    
+
 *   Main/local node indexing - INFO/DEBUG for `com.bigbrassband.jira.git.services.indexer.revisions.GitPluginIndexManagerImpl`.
-    
+
 *   Git GC task - INFO/DEBUG for `com.bigbrassband.jira.git.services.async.ReindexQueueGCTask`.
-    
+
 *   Repository removing - INFO/DEBUG for `com.bigbrassband.jira.git.services.gitmanager.visitors.RemoveVisitor`.
-    
+
 
 ## ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Related articles
 
 *   Page:
-    
+
     [The git notes are still not visible in Jira. What should I do?](/wiki/spaces/GIJDC/pages/2054225956)
-    
+
 *   Page:
-    
+
     [Is there a URL I can call to trigger fetch and re-index? Would be nice to add as service hook to GitHub/Gitlab.](/wiki/spaces/GIJDC/pages/2053832750)
-    
+
 *   Page:
-    
+
     [Is it possible to track the specified branches when reindexing?](/wiki/spaces/GIJDC/pages/2053406744)
-    
+
 *   Page:
-    
+
     [How do I clear the Git Integration for Jira app cache manually?](/wiki/spaces/GIJDC/pages/2053406737)
-    
+
 *   Page:
-    
+
     [How do I completely rebuild plugin indexes?](/wiki/spaces/GIJDC/pages/2053734434)
-    
+
 *   Page:
-    
+
     [Commits are not showing right away. Can they show up faster?](/wiki/spaces/GIJDC/pages/2053570566)
-    
+
 *   Page:
-    
+
     [Is there any way to control the reindex?](/wiki/spaces/GIJDC/pages/2053275662)
-    
+
 *   Page:
-    
+
     [What does re-index do?](/wiki/spaces/GIJDC/pages/2054291457)
-    
+
 *   Page:
-    
+
     [Indexing queue explainer](/wiki/spaces/GIJDC/pages/2047902017/Indexing+queue+explainer)
-    
+
 *   Page:
-    
+
     [Reindexing](/wiki/spaces/GIJDC/pages/1930399289/Reindexing)
-    
+
 *   Page:
-    
+
     [Reindex POST API](/wiki/spaces/GIJDC/pages/380666409/Reindex+POST+API)
-    
+
 *   Page:
-    
+
     [Webhooks](/wiki/spaces/GIJDC/pages/94142715/Webhooks)
-    
+
 *   Page:
-    
+
     [Hooks and Webhooks](/wiki/spaces/GIJDC/pages/94208056/Hooks+and+Webhooks)
-    
+
 *   Page:
-    
+
     [Reindex and cache](/wiki/spaces/GIJDC/pages/92209341/Reindex+and+cache)

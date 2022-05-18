@@ -7,13 +7,6 @@ taxonomy:
 
 ---
 
-# Adding Webhooks for Azure DevOps Server | TFS
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/235274262/Adding+Webhooks+for+Azure+DevOps+Server+%7C+TFS>
-
-* * *
-
-  
 
 Pull request webhooks are now supported. [See details](/wiki/pages/resumedraft.action?draftId=235274262#AddingWebhooksforAzureDevOpsServer|TFS-pullreq) on this page.
 
@@ -24,11 +17,11 @@ Supported webhook events:
 *   Pull request updated
 *   Pull request merge attempted
 
-  
+
 
 Right-click [here](https://bigbrassband.wistia.com/medias/61wl72vp91) and view this video in a new browser tab. (While the above video showcases VSTS/Azure DevOps, the entire process is entirely the same for Azure Repos webhooks setup.)
 
-  
+
 
 Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance.  For more details, see [**Webhooks - Getting Started**](/wiki/spaces/GITCLOUD/pages/171475219/Indexing+Triggers).
 
@@ -36,7 +29,7 @@ Before you can proceed with the steps outlined on this guide, webhooks must be e
 
 **2.** Open a project by clicking on it.
 
-**3.** Click **Project Settings**   
+**3.** Click **Project Settings** 
  (sidebar) then select **Service Hooks**. The following screen is displayed.
 
 ![](https://bigbrassband.com/confluence/images/webhooks-azure-devops-add-shooks.png)
@@ -71,7 +64,7 @@ Before you can proceed with the steps outlined on this guide, webhooks must be e
 
 **11.** Click **Finish** to complete this setup.
 
-  
+
 
 ### **Pull Request Webhooks**
 

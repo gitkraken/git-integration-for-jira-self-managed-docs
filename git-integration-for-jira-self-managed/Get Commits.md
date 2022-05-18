@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Get Commits
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/380764568/Get+Commits>
-
-* * *
-
 Call the Get Commits REST API to obtain commit information associated with an issue.
 
 VERSION 2.11.0+ The repository _**id**_ and repository _**name**_ field in the response result was implemented.
@@ -40,17 +33,17 @@ To perform the Get Commits API call, the Jira user must have the permission to 
 ### Related articles
 
 *   Page:
-    
+
     [Get Commits](/wiki/spaces/GIJDC/pages/380764568/Get+Commits) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [showFiles](/wiki/spaces/GIJDC/pages/380699289/showFiles) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Get Commit Issue Changes](/wiki/spaces/GIJDC/pages/380797314/Get+Commit+Issue+Changes) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Update Commit Issue Changes](/wiki/spaces/GIJDC/pages/380699298/Update+Commit+Issue+Changes) (Git Integration for Jira Data Center)

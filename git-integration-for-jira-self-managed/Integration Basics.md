@@ -7,62 +7,55 @@ taxonomy:
 
 ---
 
-
-# Integration Basics
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/92078126/Integration+Basics>
-
-* * *
-
 Learn basic integration for most git hosts by connecting git repositories to Jira Server via Git Integration for Jira app.
 
 *   Connect single or multiple git repositories to Jira;
-    
-*   Find out how to associate git commits to a Jira issue(s);
-    
-*   Know more about smart commits; and
-    
-*   Learn how to create branch/pull/merge request inside Jira via the developer panel.
-    
 
-  
+*   Find out how to associate git commits to a Jira issue(s);
+
+*   Know more about smart commits; and
+
+*   Learn how to create branch/pull/merge request inside Jira via the developer panel.
+
+
+
 
 * * *
 
 ## More related articles on integration basics
 
 *   Page:
-    
+
     [Connecting to a git host account via Add new integration panel](/wiki/spaces/GIJDC/pages/2044035170/Connecting+to+a+git+host+account+via+Add+new+integration+panel) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Connecting to a single git repository (HTTPS | SSH)](/wiki/spaces/GIJDC/pages/2044035207) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Setting up web links](/wiki/spaces/GIJDC/pages/2045181986/Setting+up+web+links) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Link git commits to Jira issues (Basics)](/wiki/spaces/GIJDC/pages/2045149189) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Using smart commits](/wiki/spaces/GIJDC/pages/2045149209/Using+smart+commits) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Using the Repository Browser](/wiki/spaces/GIJDC/pages/2045214758/Using+the+Repository+Browser) (Git Integration for Jira Data Center)
-    
+
 *   Page:
-    
+
     [Creating branches and pull | merge requests (Basics)](/wiki/spaces/GIJDC/pages/2045149234) (Git Integration for Jira Data Center)
-    
 
-  
 
-  
+
+
+
 
 ## More Integration Guides
 

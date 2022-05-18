@@ -6,13 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Gerrit End of Life (EOL)
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/716636493>
-
-* * *
-
 The Gerrit open-source community actively supports the last 2 releases on a best effort basis. Older releases are not actively maintained but may still receive important fixes (e.g. security fixes), but there is no guarantee for this. Which fixes are backported to these old releases is decided on a case by case basis.
 
 For more information, see [Gerrit support page](https://www.gerritcodereview.com/support.html).

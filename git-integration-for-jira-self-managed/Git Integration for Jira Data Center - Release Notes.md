@@ -6,23 +6,16 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# Git Integration for Jira Data Center - Release Notes
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1078231449/Git+Integration+for+Jira+Data+Center+-+Release+Notes>
-
-* * *
-
 We publish new features, bug fixes, security updates/patches, and Jira compatibility regularly. Below are highlights of the changes.
 
 **Important links**
 
 *   [Roadmap for Git Integration for Jira Data Center](https://trello.com/b/WRrWMs87/git-integration-server-data-center-roadmap)
-    
+
 *   [Atlassian Marketplace listing](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=datacenter&tab=overview)
-    
+
 *   [BigBrassBand Data Center Security](https://bigbrassband.com/security-and-trust.html)
-    
+
 
 If you have any questions, please contact us through our [Support Portal](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or by emailing [support@bigbrassband.com](mailto:support@bigbrassband.com)
 
@@ -47,34 +40,34 @@ Support for the [SSH Config File](https://linuxize.com/post/using-the-ssh-config
 01 Mar 2022 NEW FEATURE ADMINS
 
 *   Jira administrators can require Jira users to provide a GitHub personal access token to verify repository permission to view all development information provided by the Git Integration for Jira app.
-    
+
 *   When enabled, GitHub permissions are required to see: Repositories, Commits, Branches, Pull Requests and Tags.
-    
+
 *   Limited to GitHub.com and GitHub Enterprise Server git services. Support for GitLab and Azure DevOps available at a later date.
-    
+
 
 ## Data Center indexing job improvements
 
 09 Dec 2021 NEW FEATURE INDEXING
 
 *   Queue shared between all Data Center nodes.
-    
+
 *   Each node has a separate indexing job thread for faster indexing times.
-    
+
 
 ## Repository indexing skipping
 
 09 Dec 2021 NEW FEATURE ADMINS
 
 *   **Skipping** -- Duplicate indexing tasks on the same repositories are not added to the queue.
-    
+
 
 ## Webhook indexing sleep setting
 
 09 Dec 2021 NEW FEATURE ADMINS WEBHOOK SETTING
 
 *   **Sleep** -- Prevents repositories' indexing tasks from being added too often. (5)
-    
+
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1078231449/image-20211209-031238.png?version=1&modificationDate=1639021594011&cacheVersion=1&api=v2)
 
@@ -196,7 +189,7 @@ For detailed information, see [**this article**](/wiki/spaces/GIJDC/pages/756056
 
 This is an optimization feature where the new reindex request is skipped whenever there's a similar occurrence in the queue. This process does not involve repositories that are currently being indexed.
 
-DATA CENTER  
+DATA CENTER
 This implementation requires cluster lock usage to enforce synchronization between threads (webhook, manual, and scheduled reindex) and between nodes.
 
 * * *
@@ -270,11 +263,11 @@ For more information, read [**Adding Webhooks for Azure DevOps/VSTS**](https://b
 REST APIs for the following articles were updated with refspec support:
 
 *   Integration ([Add New Integration](/wiki/spaces/GITSERVER/pages/362741770/Add+New+Integration), [Update Existing Integration](/wiki/spaces/GITSERVER/pages/363266150/Update+Existing+Integration))
-    
+
 *   Repository ([Add New Repository](/wiki/spaces/GITSERVER/pages/265519215/Add+New+Repository), [Update Existing Repository](/wiki/spaces/GITSERVER/pages/265486452/Update+Existing+Repository))
-    
+
 *   Bulk Change ([Bulk Export](/wiki/spaces/GITSERVER/pages/265125927/Bulk+Export), [Bulk Import](/wiki/spaces/GITSERVER/pages/265224236/Bulk+Import))
-    
+
 
 See also **Fetch Refspec** with Auto-Connect Integration wizard in _**Advanced**_ options:
 
@@ -340,10 +333,10 @@ If there are several git tags listed, click the more... label link to expand t
 Adds **Max. commit age** setting to General Settings which:
 
 *   Sets a limit (in days) for Smart Commit processing.
-    
+
 *   Commits older than the Max commit age can be associated with the Jira issue but any Smart Commit commands will not be processed.
-    
+
 *   Protects against cases where old commits are merged into a new repository.
-    
+
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1078231449/image-20210201-091335.png?version=1&modificationDate=1612170818610&cacheVersion=1&api=v2&width=340&height=74)
