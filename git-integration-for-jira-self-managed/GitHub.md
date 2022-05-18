@@ -2,8 +2,8 @@
 
 title: GitHub.com
 description:
-taxonomy: integrate connect github 
-category: git-integration-for-jira-self-managed
+taxonomy: 
+    category: git-integration-for-jira-self-managed
 
 ---
 
