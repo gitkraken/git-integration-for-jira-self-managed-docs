@@ -18,25 +18,40 @@ Quickly learn how to connect GitHub<!-- -->.com git repositories via Git Integra
 <br>
 <br>
 
-<div class='callout callout-success'>
+**callout with img preview test**
+<div class='callout callout--success'>
+  <img src="/wp-content/uploads/bbb-tips-20.png" style="padding-right: 10px;" alt=""><p>These instructions apply to instances on Free, Team, Cloud Enterprise (including [**EMU**](https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users)) plans hosted on GitHub<!-- -->.com.</p>
+</div>
+
+<div class='callout callout--success'>
   <p>These instructions apply to instances on Free, Team, Cloud Enterprise (including [**EMU**](https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users)) plans hosted on GitHub<!-- -->.com.</p>
 </div>
 
-<div class='callout callout-basic'>
+<div class='callout callout--basic'>
   <p>For instructions on self-hosted GitHub Enterprise Server, please see [this page](Github%20Enterprise%20Server.md).
   </p>
 </div>
 
-<div class='callout callout-basic'>
+<div class='callout callout--basic'>
   <p>Using **Jira Cloud**?  [See the corresponding article.](../../git-integration-for-jira-cloud-docs/git-integration-for-jira-cloud/github-com.md)
   </p>
 </div>
 
 * * *
 
+**video with thumbnail preview test**  
 [![Right click here and open the video in a new tab](/wp-content/uploads/vid-thumb-github.png)](https://bigbrassband.wistia.com/medias/s26h3avwuo)
 
 _Watch the video guide by right clicking_ &nbsp;[![Right click here](/wp-content/uploads/vid-play-icon-20.png)](https://bigbrassband.wistia.com/medias/s26h3avwuo) &nbsp;_and open this video in a new browser tab for more viewing options._
+
+**Wistia HTML embed preview test**  
+<script src="https://fast.wistia.com/embed/medias/s26h3avwuo.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:62.5% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_s26h3avwuo videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/s26h3avwuo/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+<br />
+
+**Wistia oEmbed preview test**    
+https://bigbrassband.wistia.com/medias/s26h3avwuo?embedType=async&videoFoam=true&videoWidth=754
+
+* * *
 
 ## Creating a personal access token
 
@@ -53,7 +68,7 @@ We recommend using the Add new integration panel (_formerly Auto-connect integra
 This setup uses full feature integration offering functions and features not found on single repository connections.
 &nbsp;
 
-<div class='callout callout-danger'>
+<div class='callout callout--danger'>
   <p>On November 13, 2020, GitHub<!-- -->.com is going to stop allowing API authentication via username/password. For more information, see [**GitHub.com - Deprecating Password Authentication**](https://developer.github.com/changes/2020-02-14-deprecating-password-auth/).</p>
 </div>
 
@@ -123,7 +138,7 @@ There will be a slight delay in adding 2FA-enabled repositories compared to othe
 ## Single repository (Manual integration)
 
 
-<div class='callout callout-warning'>
+<div class='callout callout--warning'>
   <p>This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.</p>
 </div>
 
@@ -215,18 +230,18 @@ To give a member additional access, they must be added to a team or make them co
     ![](/wp-content/uploads/github-manage-team-repo-permission(c).png)
 
 
-<div class='callout callout-basic'>
+<div class='callout callout--basic'>
   <p>**Organization permissions**<br>
 While users have configured PAT for repository access, users in a GitHub Organization must at least have **Read** permissions. This allows them to view commits and smart commits, and browse repositories (if enabled) of connected GitHub Organization repositories inside Jira.</p>
 </div>
 
 
-<div class='callout callout-basic'>
+<div class='callout callout--basic'>
   <p>**GitHub Organization**<br>
 For collaborators and commit authors, set these users to have **Write** permissions. This will allow them to view commits and smart commits, browse repositories and also enables them to create branches and pull requests to specified GitHub git repositories via developer panel of a Jira issue.</p>
 </div>
 
-<div class='callout callout-warning'>
+<div class='callout callout--warning'>
   <p>The user PAT for "Require User PAT" setting should have **Write** permission. Otherwise, the user will not be able to use it for branch or pull request creation/deletion.</p>
 </div>
 
@@ -269,7 +284,7 @@ Click this text label to open the Setup PAT dialog and paste your personal acces
 
 ![Setup PAT dialog](/wp-content/uploads/gitserver-setup-pat-dlg.png)
 
-<div class='callout callout-warning'>
+<div class='callout callout--warning'>
   <p>Updating this dialog with a blank entry will remove the configured PAT for the current integration.</p>
 </div>
 
@@ -287,7 +302,7 @@ For GitHub Organization, the user must have the **Write** permissions and the�
 
 Most git integrations allow changing of the default branch of the repository/project other than "master".  This change is reflected in the Repository Settings of the Git Integration for Jira app on the next reindex. Full integration supports this function where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
-<div class='callout callout-basic'>
+<div class='callout callout--basic'>
   <p>Main branch for repositories within an integration can only be changed on the git server.</p>
 </div>
 
@@ -311,7 +326,7 @@ On your Jira Data Center, open a Jira issue. On the Jira developer panel under 
 
 4.  Enter a **Branch name** or leave it as is (recommended).
 
-<div class='callout callout-basic'>
+<div class='callout callout--basic'>
   <p>The Git Integration for Jira Data Center app gets the default branch from almost all integrations. However, the exception is with Gerrit which always has “master” as its default branch.</p>
 </div>
 
@@ -339,7 +354,7 @@ The pull request feature works the same as merge request. On your Jira Data Cent
 
 5.  Enter a descriptive **Title** or leave it as is _(recommended)_.
 
-<div class='callout callout-success'>
+<div class='callout callout--success'>
   <p>**Preview** allows you to see the comparison view of the current changes in the selected **Source branch** vs **Target branch** (_usually_ _master_).</p>
 </div>
 
