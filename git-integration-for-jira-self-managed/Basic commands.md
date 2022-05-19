@@ -8,7 +8,7 @@ taxonomy:
 ---
 There are smart commits commands that you can use in your commit messages. Read on to learn more details on each smart commit command and how they work.
 
-# #comment
+# \#comment
 
 <div class="callout callout--basic">
     <p>This command works both in Jira Server/Cloud.</p>
@@ -28,7 +28,7 @@ The above examples will add the specified comment text against the Jira issues.
     <p>The committers’ email address in the git configuration must match with the email address of the corresponding Jira user (or vice versa) to comment on issues.</p>
 </div>
 
-# #time
+# \#time
 
 <div class="callout callout--basic">
     <p>This command works both in Jira Server/Cloud.</p>
@@ -48,7 +48,7 @@ The above examples will add the respective time and worklog comment text against
     <p>The Jira time tracking feature allows users to log the length of time spent working on issues. Jira administrators must have enabled this feature for this smart commit to work.</p>
 </div>
 
-# #\<transition-name\>
+# \#\<transition-name\>
 
 <div class="callout callout--basic">
     <p>This command works both in Jira Server/Cloud.</p>
@@ -60,7 +60,7 @@ The above examples will add the respective time and worklog comment text against
 
 The `#<transition-name>` command will move the Jira issue to a particular workflow state.
 
-**Syntax:** **ISSUE\_KEY** **#<transition-name>** `[Your commit comment text]`
+**Syntax:** **ISSUE\_KEY** **\#\<transition-name\>** `[Your commit comment text]`
 
 | **Examples:**    |
 | --- |
@@ -70,12 +70,12 @@ The `#<transition-name>` command will move the Jira issue to a particular work
 * The second example will transition the Jira issue to the specified workflow state, adds the comment “_**Closing ticket**”**.**_ to the Comment tab and adds the specified comment, “_**Task completed.**_” to the mentioned Jira issue.
   
 <div class="callout callout--basic">
-    <p>**With Example #2**<br>For Jira Server/DC, only the mentioned `#comment` text is added to the **Commits** tab.</p>
+    <p><b>With Example #2</b><br>For Jira Server/DC, only the mentioned `#comment` text is added to the <b>Commits</b> tab.</p>
 </div>
 
 For more information on transitions and workflow names and how they work, see [**Workflow Transitions**](#).
 
-# #assign
+# \#assign
 
 INTRODUCED v2.9.7+
 
@@ -91,7 +91,7 @@ The `#assign` command will assign the particular issue to the specified Jira u
 | --- |
 | **GIT-1925** **#assign** `johnsmith`<br>**GIT-1961** **#assign** `johnsmith@example.com` |
 
-## #fixversion
+## \#fixversion
 
 INTRODUCED v2.9.7+
 
@@ -108,10 +108,10 @@ The `#fixversion` command will add a Fix Version/s details tag to the specifie
 | **GIT-1628** **#fixversion** `2.9.6`<br>**GIT-1628** **#fixversion** `2.9.5` **#fixversion** `2.9.6` |
 
 * The first example adds fix version tag **2.9.6** to the issue, `GIT-1628`.
-* The second example adds fix version tags **2.9.5** and **2.9.6** to the issue, `GIT-1628`.<br>If there was an initial Fix Version tag on the specified issue, a `#fixversion` command will append the new Fix Version tag to it.<br><br>**For instance:**<br>The Fix Version tag, `2.9.4`, already exists in issue **GIT-1254**.<br>Performing the smart commit, **GIT-1254** **#fixversion** `2.9.5`, will give a result of:<br>
+* The second example adds fix version tags **2.9.5** and **2.9.6** to the issue, `GIT-1628`.<br>If there was an initial Fix Version tag on the specified issue, a `#fixversion` command will append the new Fix Version tag to it.  <br><br>**For instance:**<br>The Fix Version tag, `2.9.4`, already exists in issue **GIT-1254**.<br>Performing the smart commit, **GIT-1254** **#fixversion** `2.9.5`, will give a result of:<br>
   * ```Fix Version/s: 2.9.4, 2.9.5```
 
-# #affectsversion
+# \#affectsversion
 
 INTRODUCED v2.9.7+
 
@@ -129,7 +129,7 @@ The `#affectsversion` command will add an Affect Version/s details tag to the 
 
 The `#affectsversion` command works the same way as `#fixversion`. However, it appends Affect Version/s tag instead to the specified issue.
 
-# #label
+# \#label
 
 <div class="callout callout--basic">
     <p>This command works both in Jira Server/Cloud.</p>
@@ -146,9 +146,8 @@ The `#label` command will add a new label to a Jira issue. If more than one J
 | --- |
 | **GITCL-443** **#label** `bucketbreakfix` `bucketenhancement`<br>**GITCL-443 GITCL-247 GITCL-214** **#label** `admin@example.com` `user1@example.com` requested-feature new-feature **#comment** `Return email when implemented` |
 
-
 [**Prev:** Smart commits (index)](/git-integration-for-jira-self-managed/Smart-commits)  
-[**Next:** Advanced examples](/git-integration-for-jira-self-managed/Advanced-examples)
+[**Next:** Advanced examples](/git-integration-for-jira-self-managed/Advanced-examples)  
 <br>
 <br>
 ### More related topics about smart commits
