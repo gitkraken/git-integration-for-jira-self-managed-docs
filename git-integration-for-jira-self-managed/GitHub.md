@@ -18,11 +18,6 @@ Quickly learn how to connect GitHub<!-- -->.com git repositories via Git Integra
 <br>
 <br>
 
-**callout with img preview test**
-<div class='callout callout--success'>
-  <img src="/wp-content/uploads/bbb-tips-20.png" style="padding-right: 10px;" alt=""><p>These instructions apply to instances on Free, Team, Cloud Enterprise (including [**EMU**](https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users)) plans hosted on GitHub<!-- -->.com.</p>
-</div>
-
 <div class='callout callout--success'>
   <p>These instructions apply to instances on Free, Team, Cloud Enterprise (including [**EMU**](https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users)) plans hosted on GitHub<!-- -->.com.</p>
 </div>
@@ -39,17 +34,10 @@ Quickly learn how to connect GitHub<!-- -->.com git repositories via Git Integra
 
 * * *
 
-**video with thumbnail preview test**  
-[![Right click here and open the video in a new tab](/wp-content/uploads/vid-thumb-github.png)](https://bigbrassband.wistia.com/medias/s26h3avwuo)
-
-_Watch the video guide by right clicking_ &nbsp;[![Right click here](/wp-content/uploads/vid-play-icon-20.png)](https://bigbrassband.wistia.com/medias/s26h3avwuo) &nbsp;_and open this video in a new browser tab for more viewing options._
-
-**Wistia HTML embed preview test**  
 <script src="https://fast.wistia.com/embed/medias/s26h3avwuo.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:62.5% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_s26h3avwuo videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/s26h3avwuo/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
 <br />
 
-**Wistia oEmbed preview test**    
-https://bigbrassband.wistia.com/medias/s26h3avwuo?embedType=async&videoFoam=true&videoWidth=754
+_Watch the video guide by right clicking_ [here](https://bigbrassband.wistia.com/medias/s26h3avwuo) _and open this video in a new browser tab for more viewing options._
 
 * * *
 
