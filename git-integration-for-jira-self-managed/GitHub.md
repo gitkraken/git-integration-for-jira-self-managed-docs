@@ -66,6 +66,17 @@ This setup uses full feature integration offering functions and features not fou
   <p>On November 13, 2020, GitHub.com is going to stop allowing API authentication via username/password. For more information, see <a href="https://developer.github.com/changes/2020-02-14-deprecating-password-auth/" title="Opens this link in a new tab" target="_blank">GitHub.com - Deprecating Password Authentication</a>.</p>
 </div>
 
+<div class="bbb-callout bbb--error">
+  <div class="irow">
+    <div class="ilogobox">
+      <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+      On November 13, 2020, GitHub.com is going to stop allowing API authentication via username/password. For more information, see <a href="https://developer.github.com/changes/2020-02-14-deprecating-password-auth/" title="Opens this link in a new tab" target="_blank">GitHub.com - Deprecating Password Authentication</a>.
+    </div>
+  </div>
+</div>
+
 * * *
 \
 We strongly recommend to use personal access tokens for GitHub<!-- -->.com account integration.
