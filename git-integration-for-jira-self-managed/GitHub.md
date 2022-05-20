@@ -9,7 +9,7 @@ taxonomy:
 
 # GitHub.com
 
-![](/wp-content/uploads/github-mobile-logo-dark.png)
+![](/wp-content/uploads/gij-github-mobile-logo-dark.png)
 <br>
 <br>
 ## Integrate GitHub.com with Jira Data Center/Server
@@ -18,24 +18,23 @@ Quickly learn how to connect GitHub<!-- -->.com git repositories via Git Integra
 <br>
 <br>
 
-<div class='callout callout--success'>
+<div class='callout callout--success' markdown="1">
   <p>These instructions apply to instances on Free, Team, Cloud Enterprise (including [**EMU**](https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users)) plans hosted on GitHub<!-- -->.com.</p>
 </div>
 
-<div class='callout callout--basic'>
+<div class='callout callout--basic' markdown="1">
   <p>For instructions on self-hosted GitHub Enterprise Server, please see [this page](Github%20Enterprise%20Server.md).
   </p>
 </div>
 
-<div class='callout callout--basic'>
+<div class='callout callout--basic' markdown="1">
   <p>Using **Jira Cloud**?  [See the corresponding article.](../../git-integration-for-jira-cloud-docs/git-integration-for-jira-cloud/github-com.md)
   </p>
 </div>
 
-* * *
+![](../_images/gij-vid-thumb-github.png)
 
-<script src="https://fast.wistia.com/embed/medias/s26h3avwuo.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:62.5% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_s26h3avwuo videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/s26h3avwuo/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
-<br />
+![](/wp-content/uploads/gij-vid-thumb-github.png)
 
 _Watch the video guide by right clicking_ [here](https://bigbrassband.wistia.com/medias/s26h3avwuo) _and open this video in a new browser tab for more viewing options._
 
@@ -56,7 +55,7 @@ We recommend using the Add new integration panel (_formerly Auto-connect integra
 This setup uses full feature integration offering functions and features not found on single repository connections.
 &nbsp;
 
-<div class='callout callout--danger'>
+<div class='callout callout--danger' markdown="1">
   <p>On November 13, 2020, GitHub<!-- -->.com is going to stop allowing API authentication via username/password. For more information, see [**GitHub.com - Deprecating Password Authentication**](https://developer.github.com/changes/2020-02-14-deprecating-password-auth/).</p>
 </div>
 
@@ -68,12 +67,12 @@ We strongly recommend to use personal access tokens for GitHub<!-- -->.com accou
 
 2.  Click **GitHub<!-- -->.com** on the Add new integration panel. The Add new integration wizard dialog is displayed.
 
-    ![](/wp-content/uploads/gitserver-connect-auto-ext-service-github-com(c).png?&width=659&height=467)
+    ![](/wp-content/uploads/gij-gitserver-connect-auto-ext-service-github-com(c).png?&width=659&height=467)
 3.  **GitHub<!-- -->.com and GitHub Enterprise Cloud** is selected by default. Paste the personal access token in the provided box.
 
     *  Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed.
 
-        ![](/wp-content/uploads/gitserver-general-advanced-autoconnect-opt(c).png)
+        ![](/wp-content/uploads/gij-gitserver-general-advanced-autoconnect-opt(c).png)
         +  **Custom API Path**  –  this is a relative path that starts with "/". The maximum allowed length is 2000 characters or less. The integration will use the supported relative REST API path to retrieve the list of tracked repositories.
             For more examples, see article [Working with Custom API Path - GitHub.com](#).
 
@@ -109,7 +108,7 @@ We strongly recommend to use personal access tokens for GitHub<!-- -->.com accou
 
 6.  After the import process, the **Settings** screen is displayed.
 
-    ![](/wp-content/uploads/gitserver-github-autoconnect-settings-dlg(c).png)
+    ![](/wp-content/uploads/gij-gitserver-github-autoconnect-settings-dlg(c).png)
     *   On the Integration Settings, setting the _**Require User PAT**_ option to `ON`, will require users to provide PAT specific for branch and merge requests _(via the_ [developer panel](#) _on the Jira issue page)_. 
         For more information on this feature, see [Integration Settings: Require User PAT](#).
 
@@ -136,7 +135,7 @@ This process requires an existing GitHub git repository. Look for the GitHub re
 
 Choose between SSH or HTTPS. Use this information to connect the GitHub git repository to your Jira Data Center via Git Integration for Jira app:
 
-![](/wp-content/uploads/github-repository-home-dark.png)
+![](/wp-content/uploads/gij-github-repository-home-dark.png)
 
 1.  On your Jira dashboard menu, go to Git ➜ **Manage repositories**.
 
@@ -160,7 +159,7 @@ Assign GitHub permissions for team members or collaborators to allow which resou
 
 1.  Login to your GitHub<!-- -->.com account.
 
-2.  Go to ![](/wp-content/uploads/profile-icon.png)&nbsp; **Profile** ➜ **Settings**.
+2.  Go to ![](/wp-content/uploads/gij-profile-icon.png)&nbsp; **Profile** ➜ **Settings**.
 
 3.  On your sidebar, click **Organizations**.
 
@@ -168,7 +167,7 @@ Assign GitHub permissions for team members or collaborators to allow which resou
 
 5.  On your sidebar, click **Member Privileges**. The following screen is displayed.
 
-    ![](/wp-content/uploads/github-org-repo-base-permissions-dark(c).png)
+    ![](/wp-content/uploads/gij-github-org-repo-base-permissions-dark(c).png)
 6.  Under the **Base permissions**, click on the dropdown button.
 
     Choose the base permission level for organization members. The base repository permission only applies to organization members and not to outside collaborators. If the base permission is set to _**None**_, organization members will need to be given access to repositories using the _**Teams or Collaborators**_ methods (see below).
@@ -187,7 +186,7 @@ To give a member additional access, they must be added to a team or make them co
 
 2.  Click the **Repositories** tab.
 
-    ![](/wp-content/uploads/github-org-repo-team-repo-permissions-dark(c).png)
+    ![](/wp-content/uploads/gij-github-org-repo-team-repo-permissions-dark(c).png)
 
 3.  Set **Read**, **Write** or **Admin** repository access as desired.
 &nbsp;
@@ -199,7 +198,7 @@ To give a member additional access, they must be added to a team or make them co
 
 2.  Invite a member to add it into the team.  An email invitation is sent to that GitHub service user.
 
-    ![](/wp-content/uploads/github-add-members-to-team(c).png)
+    ![](/wp-content/uploads/gij-github-add-members-to-team(c).png)
 
     The service user is then added to the team if the invitation has been accepted.
 
@@ -215,7 +214,7 @@ To give a member additional access, they must be added to a team or make them co
 
 4.  Click **Manage access** to manage repository access for this member.
 
-    ![](/wp-content/uploads/github-manage-team-repo-permission(c).png)
+    ![](/wp-content/uploads/gij-github-manage-team-repo-permission(c).png)
 
 
 <div class='callout callout--basic'>
@@ -270,7 +269,7 @@ If the **Require User PAT option** is enabled in the **Integration Feature Se
 
 Click this text label to open the Setup PAT dialog and paste your personal access token in the provided box. Click **Update**.
 
-![Setup PAT dialog](/wp-content/uploads/gitserver-setup-pat-dlg.png)
+![Setup PAT dialog](/wp-content/uploads/gij-gitserver-setup-pat-dlg.png)
 
 <div class='callout callout--warning'>
   <p>Updating this dialog with a blank entry will remove the configured PAT for the current integration.</p>
@@ -278,7 +277,7 @@ Click this text label to open the Setup PAT dialog and paste your personal acces
 
 * * *
 
-The Setup PAT dialog is also accessible via Repository Browser (dashboard menu Git ➜ **Repository browser**) ➜ Click the &nbsp; ![(edit icon)](/wp-content/uploads/edit-icon-dark.png)&nbsp; icon under _**Pers. Access**_ column.
+The Setup PAT dialog is also accessible via Repository Browser (dashboard menu Git ➜ **Repository browser**) ➜ Click the &nbsp; ![(edit icon)](/wp-content/uploads/gij-edit-icon-dark.png)&nbsp; icon under _**Pers. Access**_ column.
 
 ## Working with branches and pull requests
 
@@ -300,7 +299,7 @@ Most git integrations allow changing of the default branch of the repository/pro
 
 On your Jira Data Center, open a Jira issue. On the Jira developer panel under **Git Integration**, click **Create branch**. The following dialog is displayed.
 
-![](/wp-content/uploads/gitserver-create-branch-dlg.png)
+![](/wp-content/uploads/gij-gitserver-create-branch-dlg.png)
 
 **Pointers:**
 
@@ -326,7 +325,7 @@ The newly-created branch is now listed in the developer panel under **Branches*
 
 The pull request feature works the same as merge request. On your Jira Data Center, open the Jira issue where your previously created a branch. On the developer panel under **Git Integration**, click **Create pull request**. The following dialog is displayed.
 
-![](/wp-content/uploads/gitserver-create-pull-req-dlg.png)
+![](/wp-content/uploads/gij-gitserver-create-pull-req-dlg.png)
 
 **Pointers:**
 
@@ -342,7 +341,7 @@ The pull request feature works the same as merge request. On your Jira Data Cent
 
 5.  Enter a descriptive **Title** or leave it as is _(recommended)_.
 
-<div class='callout callout--success'>
+<div class='callout callout--success' markdown="1">
   <p>**Preview** allows you to see the comparison view of the current changes in the selected **Source branch** vs **Target branch** (_usually_ _master_).</p>
 </div>
 
