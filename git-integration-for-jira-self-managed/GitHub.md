@@ -215,7 +215,6 @@ To give a member additional access, they must be added to a team or make them co
 While users have configured PAT for repository access, users in a GitHub Organization must at least have <b>Read</b> permissions. This allows them to view commits and smart commits, and browse repositories (if enabled) of connected GitHub Organization repositories inside Jira.</p>
 </div>
 
-
 <div class='callout callout--basic'>
   <p><b>GitHub Organization</b><br>
 For collaborators and commit authors, set these users to have <b>Write</b> permissions. This will allow them to view commits and smart commits, browse repositories and also enables them to create branches and pull requests to specified GitHub git repositories via developer panel of a Jira issue.</p>
