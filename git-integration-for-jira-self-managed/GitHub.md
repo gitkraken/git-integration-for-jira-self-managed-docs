@@ -18,23 +18,19 @@ Quickly learn how to connect GitHub<!-- -->.com git repositories via Git Integra
 <br>
 <br>
 
-<div class='callout callout--success' markdown="1">
-  <p>These instructions apply to instances on Free, Team, Cloud Enterprise (including [**EMU**](https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users)) plans hosted on GitHub<!-- -->.com.</p>
+<div class='callout callout--success'>
+  <p>These instructions apply to instances on Free, Team, Cloud Enterprise (including <a href="https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users" target="_blank"><b>EMU</b></a>) plans hosted on GitHub<!-- -->.com.</p>
 </div>
 
-<div class='callout callout--basic' markdown="1">
-  <p>For instructions on self-hosted GitHub Enterprise Server, please see [this page](Github%20Enterprise%20Server.md).
-  </p>
+<div class='callout callout--basic'>
+  <p>For instructions on self-hosted GitHub Enterprise Server, please see <a href="Github%20Enterprise%20Server">this page</a>.</p>
 </div>
 
-<div class='callout callout--basic' markdown="1">
-  <p>Using **Jira Cloud**?  [See the corresponding article.](../../git-integration-for-jira-cloud-docs/git-integration-for-jira-cloud/github-com.md)
-  </p>
+<div class='callout callout--basic'>
+  <p>Using <b>Jira Cloud</b>?  <a href="/git-integration-for-jira-cloud/github.com">See the corresponding article</a>.
 </div>
 
-![](../_images/gij-vid-thumb-github.png)
-
-![](/wp-content/uploads/gij-vid-thumb-github.png)
+[![Follow video to Wistia](/wp-content/uploads/gij-vid-thumb-github.png "Right click here and open this video in a new tab")](https://bigbrassband.wistia.com/medias/s26h3avwuo)
 
 _Watch the video guide by right clicking_ [here](https://bigbrassband.wistia.com/medias/s26h3avwuo) _and open this video in a new browser tab for more viewing options._
 
@@ -55,8 +51,8 @@ We recommend using the Add new integration panel (_formerly Auto-connect integra
 This setup uses full feature integration offering functions and features not found on single repository connections.
 &nbsp;
 
-<div class='callout callout--danger' markdown="1">
-  <p>On November 13, 2020, GitHub<!-- -->.com is going to stop allowing API authentication via username/password. For more information, see [**GitHub.com - Deprecating Password Authentication**](https://developer.github.com/changes/2020-02-14-deprecating-password-auth/).</p>
+<div class='callout callout--danger'>
+  <p>On November 13, 2020, GitHub.com is going to stop allowing API authentication via username/password. For more information, see <a href="https://developer.github.com/changes/2020-02-14-deprecating-password-auth/" title="Opens this link in a new tab" target="_blank">GitHub.com - Deprecating Password Authentication</a>.</p>
 </div>
 
 * * *
@@ -218,18 +214,18 @@ To give a member additional access, they must be added to a team or make them co
 
 
 <div class='callout callout--basic'>
-  <p>**Organization permissions**<br>
-While users have configured PAT for repository access, users in a GitHub Organization must at least have **Read** permissions. This allows them to view commits and smart commits, and browse repositories (if enabled) of connected GitHub Organization repositories inside Jira.</p>
+  <p><b>Organization permissions</b><br>
+While users have configured PAT for repository access, users in a GitHub Organization must at least have <b>Read</b> permissions. This allows them to view commits and smart commits, and browse repositories (if enabled) of connected GitHub Organization repositories inside Jira.</p>
 </div>
 
 
 <div class='callout callout--basic'>
-  <p>**GitHub Organization**<br>
-For collaborators and commit authors, set these users to have **Write** permissions. This will allow them to view commits and smart commits, browse repositories and also enables them to create branches and pull requests to specified GitHub git repositories via developer panel of a Jira issue.</p>
+  <p><b>GitHub Organization</b><br>
+For collaborators and commit authors, set these users to have <b>Write</b> permissions. This will allow them to view commits and smart commits, browse repositories and also enables them to create branches and pull requests to specified GitHub git repositories via developer panel of a Jira issue.</p>
 </div>
 
 <div class='callout callout--warning'>
-  <p>The user PAT for "Require User PAT" setting should have **Write** permission. Otherwise, the user will not be able to use it for branch or pull request creation/deletion.</p>
+  <p>The user PAT for "Require User PAT" setting should have <b>Write</b> permission. Otherwise, the user will not be able to use it for branch or pull request creation/deletion.</p>
 </div>
 
 * * *
@@ -314,7 +310,7 @@ On your Jira Data Center, open a Jira issue. On the Jira developer panel under 
 4.  Enter a **Branch name** or leave it as is (recommended).
 
 <div class='callout callout--basic'>
-  <p>The Git Integration for Jira Data Center app gets the default branch from almost all integrations. However, the exception is with Gerrit which always has “master” as its default branch.</p>
+  <p>The Git Integration for Jira Data Center app gets the default branch from almost all integrations. However, the exception is with Gerrit which always has 'master' as its default branch.</p>
 </div>
 
 * * *
@@ -341,8 +337,8 @@ The pull request feature works the same as merge request. On your Jira Data Cent
 
 5.  Enter a descriptive **Title** or leave it as is _(recommended)_.
 
-<div class='callout callout--success' markdown="1">
-  <p>**Preview** allows you to see the comparison view of the current changes in the selected **Source branch** vs **Target branch** (_usually_ _master_).</p>
+<div class='callout callout--success'>
+  <p><b>Preview</b> allows you to see the comparison view of the current changes in the selected <b>Source branch</b> vs <b>Target branch</b> (<i>usually master</i>).</p>
 </div>
 
 * * *

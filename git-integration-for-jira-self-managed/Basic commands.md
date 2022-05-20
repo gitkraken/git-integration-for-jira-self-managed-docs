@@ -70,7 +70,7 @@ The `#<transition-name>` command will move the Jira issue to a particular work
 * The second example will transition the Jira issue to the specified workflow state, adds the comment “_**Closing ticket**”**.**_ to the Comment tab and adds the specified comment, “_**Task completed.**_” to the mentioned Jira issue.
   
 <div class="callout callout--basic">
-    <p>**With Example #2**<br>For Jira Server/DC, only the mentioned `#comment` text is added to the **Commits** tab.</p>
+    <p><b>With Example #2</b><br>For Jira Server/DC, only the mentioned <code>#comment</code> text is added to the <b>Commits</b> tab.</p>
 </div>
 
 For more information on transitions and workflow names and how they work, see [**Workflow Transitions**](#).
