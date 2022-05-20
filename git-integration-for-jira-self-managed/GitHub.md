@@ -63,12 +63,12 @@ We strongly recommend to use personal access tokens for GitHub<!-- -->.com accou
 
 2.  Click **GitHub<!-- -->.com** on the Add new integration panel. The Add new integration wizard dialog is displayed.
 
-    ![](/wp-content/uploads/gij-gitserver-connect-auto-ext-service-github-com(c).png?&width=659&height=467)
+    ![](/wp-content/uploads/gij-gitserver-connect-auto-ext-service-github-com-c.png)
 3.  **GitHub<!-- -->.com and GitHub Enterprise Cloud** is selected by default. Paste the personal access token in the provided box.
 
     *  Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed.
 
-        ![](/wp-content/uploads/gij-gitserver-general-advanced-autoconnect-opt(c).png)
+        ![](/wp-content/uploads/gij-gitserver-general-advanced-autoconnect-opt-c.png)
         +  **Custom API Path**  –  this is a relative path that starts with "/". The maximum allowed length is 2000 characters or less. The integration will use the supported relative REST API path to retrieve the list of tracked repositories.
             For more examples, see article [Working with Custom API Path - GitHub.com](#).
 
@@ -104,7 +104,7 @@ We strongly recommend to use personal access tokens for GitHub<!-- -->.com accou
 
 6.  After the import process, the **Settings** screen is displayed.
 
-    ![](/wp-content/uploads/gij-gitserver-github-autoconnect-settings-dlg(c).png)
+    ![](/wp-content/uploads/gij-gitserver-github-autoconnect-settings-dlg-c.png)
     *   On the Integration Settings, setting the _**Require User PAT**_ option to `ON`, will require users to provide PAT specific for branch and merge requests _(via the_ [developer panel](#) _on the Jira issue page)_. 
         For more information on this feature, see [Integration Settings: Require User PAT](#).
 
@@ -163,7 +163,7 @@ Assign GitHub permissions for team members or collaborators to allow which resou
 
 5.  On your sidebar, click **Member Privileges**. The following screen is displayed.
 
-    ![](/wp-content/uploads/gij-github-org-repo-base-permissions-dark(c).png)
+    ![](/wp-content/uploads/gij-github-org-repo-base-permissions-dark-c.png)
 6.  Under the **Base permissions**, click on the dropdown button.
 
     Choose the base permission level for organization members. The base repository permission only applies to organization members and not to outside collaborators. If the base permission is set to _**None**_, organization members will need to be given access to repositories using the _**Teams or Collaborators**_ methods (see below).
@@ -182,7 +182,7 @@ To give a member additional access, they must be added to a team or make them co
 
 2.  Click the **Repositories** tab.
 
-    ![](/wp-content/uploads/gij-github-org-repo-team-repo-permissions-dark(c).png)
+    ![](/wp-content/uploads/gij-github-org-repo-team-repo-permissions-dark-c.png)
 
 3.  Set **Read**, **Write** or **Admin** repository access as desired.
 &nbsp;
@@ -194,7 +194,7 @@ To give a member additional access, they must be added to a team or make them co
 
 2.  Invite a member to add it into the team.  An email invitation is sent to that GitHub service user.
 
-    ![](/wp-content/uploads/gij-github-add-members-to-team(c).png)
+    ![](/wp-content/uploads/gij-github-add-members-to-team-c.png)
 
     The service user is then added to the team if the invitation has been accepted.
 
@@ -210,7 +210,7 @@ To give a member additional access, they must be added to a team or make them co
 
 4.  Click **Manage access** to manage repository access for this member.
 
-    ![](/wp-content/uploads/gij-github-manage-team-repo-permission(c).png)
+    ![](/wp-content/uploads/gij-github-manage-team-repo-permission-c.png)
 
 
 <div class='callout callout--basic'>
