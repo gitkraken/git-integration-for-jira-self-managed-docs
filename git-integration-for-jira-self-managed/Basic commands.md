@@ -60,7 +60,7 @@ The above examples will add the respective time and worklog comment text against
 
 The `#<transition-name>` command will move the Jira issue to a particular workflow state.
 
-**Syntax:** **ISSUE\_KEY** **\#\<transition-name\>** `[Your commit comment text]`
+**Syntax:** **ISSUE\_KEY** **#\<transition-name\>** `[Your commit comment text]`
 
 | **Examples:**    |
 | --- |
@@ -70,7 +70,7 @@ The `#<transition-name>` command will move the Jira issue to a particular work
 * The second example will transition the Jira issue to the specified workflow state, adds the comment “_**Closing ticket**”**.**_ to the Comment tab and adds the specified comment, “_**Task completed.**_” to the mentioned Jira issue.
   
 <div class="callout callout--basic">
-    <p><b>With Example #2</b><br>For Jira Server/DC, only the mentioned `#comment` text is added to the <b>Commits</b> tab.</p>
+    <p><b>With Example #2</b><br>For Jira Server/DC, only the mentioned <code>#comment</code> text is added to the <b>Commits</b> tab.</p>
 </div>
 
 For more information on transitions and workflow names and how they work, see [**Workflow Transitions**](#).
@@ -140,7 +140,7 @@ The `#affectsversion` command works the same way as `#fixversion`. However, 
 
 The `#label` command will add a new label to a Jira issue. If more than one Jira issue is referenced, the labels are added to all mentioned Jira issues. Multiple labels can be created by putting spaces between words.
 
-**Syntax: ISSUE\_KEY(S) #label** `[label1] .. [labeln]`
+**Syntax: ISSUE\_KEY(S) \#label** `[label1] .. [labeln]`
 
 | **Examples:** |
 | --- |
