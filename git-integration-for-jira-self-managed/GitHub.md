@@ -18,6 +18,17 @@ Quickly learn how to connect GitHub<!-- -->.com git repositories via Git Integra
 <br>
 <br>
 
+<div class="bbb-callout bbb--tip">
+  <div class="irow">
+    <div class="ilogobox">
+      <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+      These instructions apply to instances on Free, Team, Cloud Enterprise (including <a href="https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users" target="_blank"><b>EMU</b></a>) plans hosted on GitHub<!-- -->.com.
+    </div>
+  </div>
+</div>
+
 <div class='callout callout--success'>
   <p>These instructions apply to instances on Free, Team, Cloud Enterprise (including <a href="https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users" target="_blank"><b>EMU</b></a>) plans hosted on GitHub<!-- -->.com.</p>
 </div>
@@ -120,13 +131,10 @@ There will be a slight delay in adding 2FA-enabled repositories compared to othe
 
 ## Single repository (Manual integration)
 
-
 <div class='callout callout--warning'>
   <p>This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.</p>
 </div>
 
-* * *
-\
 This process requires an existing GitHub git repository. Look for the GitHub repository URL on the repository project page.
 
 Choose between SSH or HTTPS. Use this information to connect the GitHub git repository to your Jira Data Center via Git Integration for Jira app:
