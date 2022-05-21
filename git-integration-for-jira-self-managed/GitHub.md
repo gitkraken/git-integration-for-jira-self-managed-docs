@@ -1,6 +1,6 @@
 ---
 
-title: Integration Guide - GitHub.com
+title: GitHub.com
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed
@@ -21,7 +21,7 @@ Quickly learn how to connect GitHub<!-- -->.com git repositories via Git Integra
     <div class="ilogobox">
       <span class="logoimg"></span>
     </div>
-    <div class="imsgbox" markdown="1">
+    <div class="imsgbox">
       These instructions apply to instances on Free, Team, Cloud Enterprise (including [EMU](https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users)) plans hosted on GitHub.com.
     </div>
   </div>
@@ -36,7 +36,7 @@ Quickly learn how to connect GitHub<!-- -->.com git repositories via Git Integra
     <div class="ilogobox">
       <span class="logoimg"></span>
     </div>
-    <div class="imsgbox" markdown="1">
+    <div class="imsgbox">
       For instructions on self-hosted GitHub Enterprise Server, please see [this page](Github%20Enterprise%20Server).
     </div>
   </div>
@@ -51,7 +51,7 @@ Quickly learn how to connect GitHub<!-- -->.com git repositories via Git Integra
     <div class="ilogobox">
       <span class="logoimg"></span>
     </div>
-    <div class="imsgbox" markdown="1">
+    <div class="imsgbox">
       Using **Jira Cloud**?  [See the corresponding article](/git-integration-for-jira-cloud/github.com).
     </div>
   </div>
