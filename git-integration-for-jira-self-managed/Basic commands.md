@@ -1,6 +1,6 @@
 ---
 
-title: Basic commands
+title: Smart Commit -- Basic commands
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed
@@ -10,8 +10,15 @@ There are smart commits commands that you can use in your commit messages. Read
 
 # \#comment
 
-<div class="callout callout--basic">
-    <p>This command works both in Jira Server/Cloud.</p>
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        This command works both in Jira Server/Cloud.
+    </div>
+    </div>
 </div>
 
 The `#comment` command will add a comment to a Jira issue.
@@ -24,15 +31,29 @@ The `#comment` command will add a comment to a Jira issue.
 
 The above examples will add the specified comment text against the Jira issues.
 
-<div class="callout callout--warning">
-    <p>The committers’ email address in the git configuration must match with the email address of the corresponding Jira user (or vice versa) to comment on issues.</p>
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The committers’ email address in the git configuration must match with the email address of the corresponding Jira user (or vice versa) to comment on issues.
+    </div>
+    </div>
 </div>
 
 # \#time
 
-<div class="callout callout--basic">
-    <p>This command works both in Jira Server/Cloud.</p>
-</div>    
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        This command works both in Jira Server/Cloud.
+    </div>
+    </div>
+</div>
 
 The `#time` command will record time tracking information against a Jira issue.
 
@@ -44,18 +65,39 @@ The `#time` command will record time tracking information against a Jira issue
 
 The above examples will add the respective time and worklog comment text against the Jira issues.
 
-<div class="callout callout--success">
-    <p>The Jira time tracking feature allows users to log the length of time spent working on issues. Jira administrators must have enabled this feature for this smart commit to work.</p>
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The Jira time tracking feature allows users to log the length of time spent working on issues. Jira administrators must have enabled this feature for this smart commit to work.
+    </div>
+    </div>
 </div>
 
 # \#\<transition-name\>
 
-<div class="callout callout--basic">
-    <p>This command works both in Jira Server/Cloud.</p>
-</div>    
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        This command works both in Jira Server/Cloud.
+    </div>
+    </div>
+</div>
 
-<div class="callout callout--warning">
-    <p>The Jira user must have the appropriate project permissions to be able to transition issues.</p>
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The Jira user must have the appropriate project permissions to be able to transition issues.
+    </div>
+    </div>
 </div>    
 
 The `#<transition-name>` command will move the Jira issue to a particular workflow state.
@@ -68,9 +110,16 @@ The `#<transition-name>` command will move the Jira issue to a particular work
 
 * The first example will transition the Jira issue to the specified workflow state and adds the comment message to the commit.
 * The second example will transition the Jira issue to the specified workflow state, adds the comment “_**Closing ticket**”**.**_ to the Comment tab and adds the specified comment, “_**Task completed.**_” to the mentioned Jira issue.
-  
-<div class="callout callout--basic">
-    <p><b>With Example #2</b><br>For Jira Server/DC, only the mentioned <code>#comment</code> text is added to the <b>Commits</b> tab.</p>
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>With Example #2</b><br>For Jira Server/DC, only the mentioned <code>#comment</code> text is added to the <b>Commits</b> tab.
+    </div>
+    </div>
 </div>
 
 For more information on transitions and workflow names and how they work, see [**Workflow Transitions**](#).
@@ -79,9 +128,16 @@ For more information on transitions and workflow names and how they work, see [
 
 INTRODUCED v2.9.7+
 
-<div class="callout callout--basic">
-    <p>This command works both in Jira Server/Cloud.</p>
-</div>    
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        This command works both in Jira Server/Cloud.
+    </div>
+    </div>
+</div>
 
 The `#assign` command will assign the particular issue to the specified Jira user.
 
@@ -95,13 +151,20 @@ The `#assign` command will assign the particular issue to the specified Jira u
 
 INTRODUCED v2.9.7+
 
-<div class="callout callout--basic">
-    <p>This command only works in Jira Server. It does not work in Jira Cloud.</p>
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        This command only works in Jira Server. It does not work in Jira Cloud.
+    </div>
+    </div>
 </div>
 
 The `#fixversion` command will add a Fix Version/s details tag to the specified issue.
 
-**Syntax: ISSUE\_KEY #fixversion** `[project version]`
+**Syntax: ISSUE\_KEY \#fixversion** `[project version]`
 
 | **Example:** |
 | --- |
@@ -115,13 +178,20 @@ The `#fixversion` command will add a Fix Version/s details tag to the specifie
 
 INTRODUCED v2.9.7+
 
-<div class="callout callout--basic">
-    <p>This command only works in Jira Server. It does not work in Jira Cloud.</p>
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        This command only works in Jira Server. It does not work in Jira Cloud
+    </div>
+    </div>
 </div>
 
 The `#affectsversion` command will add an Affect Version/s details tag to the specified issue.
 
-**Syntax: ISSUE\_KEY #affectsversion** `[project version]`
+**Syntax: ISSUE\_KEY \#affectsversion** `[project version]`
 
 | **Example:** |
 | --- |
@@ -131,8 +201,15 @@ The `#affectsversion` command works the same way as `#fixversion`. However, 
 
 # \#label
 
-<div class="callout callout--basic">
-    <p>This command works both in Jira Server/Cloud.</p>
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        This command works both in Jira Server/Cloud.
+    </div>
+    </div>
 </div>
 
 **v2.12.6+** Available in Jira Cloud

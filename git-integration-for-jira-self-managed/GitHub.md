@@ -7,38 +7,65 @@ taxonomy:
 
 ---
 
-# GitHub.com
-
 ![](/wp-content/uploads/gij-github-mobile-logo-dark.png)
 <br>
 <br>
 ## Integrate GitHub.com with Jira Data Center/Server
 
-Quickly learn how to connect GitHub<!-- -->.com git repositories via Git Integration for Jira Data Center app.
+Quickly learn how to connect GitHub.com git repositories via Git Integration for Jira Data Center app.
 <br>
 <br>
 
-<div class='callout callout--success'>
-  <p>These instructions apply to instances on Free, Team, Cloud Enterprise (including <a href="https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users" target="_blank"><b>EMU</b></a>) plans hosted on GitHub<!-- -->.com.</p>
+<div class="bbb-callout bbb--tip">
+  <div class="irow">
+    <div class="ilogobox">
+      <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+      These instructions apply to instances on Free, Team, Cloud Enterprise (including <a href="https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users" target="_blank"><b>EMU</b></a>) plans hosted on GitHub.com.
+    </div>
+  </div>
 </div>
 
-<div class='callout callout--basic'>
-  <p>For instructions on self-hosted GitHub Enterprise Server, please see <a href="Github%20Enterprise%20Server">this page</a>.</p>
+<div class="bbb-callout bbb--info">
+  <div class="irow">
+    <div class="ilogobox">
+      <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+      For instructions on self-hosted GitHub Enterprise Server, please see <a href="Github%20Enterprise%20Server">this page</a>.
+    </div>
+  </div>
 </div>
 
-<div class='callout callout--basic'>
-  <p>Using <b>Jira Cloud</b>?  <a href="/git-integration-for-jira-cloud/github.com">See the corresponding article</a>.
+<div class="bbb-callout bbb--info">
+  <div class="irow">
+    <div class="ilogobox">
+      <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+      Using <b>Jira Cloud</b>?  <a href="/git-integration-for-jira-cloud/github.com">See the corresponding article</a>.
+    </div>
+  </div>
 </div>
 
-[![Follow video to Wistia](/wp-content/uploads/gij-vid-thumb-github.png "Right click here and open this video in a new tab")](https://bigbrassband.wistia.com/medias/s26h3avwuo)
+<div style="padding:62.5% 0 0 0;position:relative;">
+  <div style="height:100%;left:0;position:absolute;top:0;width:100%;">
+    <iframe src="https://fast.wistia.net/embed/iframe/s26h3avwuo?videoFoam=true" title="Git Integration for Jira Server: Connect to GitHub.com Video" allow="fullscreen" allowtransparency="true" frameborder="0" scrolling="no" msallowfullscreen width="100%" height="100%">
+    </iframe>
+  </div>
+</div>
 
-_Watch the video guide by right clicking_ [here](https://bigbrassband.wistia.com/medias/s26h3avwuo) _and open this video in a new browser tab for more viewing options._
+<div align="center">
+  <i>Watch the video guide by clicking <a href="https://bigbrassband.wistia.com/medias/s26h3avwuo" target="_blank"><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
+<br>
 
 * * *
 
 ## Creating a personal access token
 
-If two-factor authentication is enabled for your GitHub account, you will need to create a PAT to access your git repositories. Enable two-factor authentication in your GitHub<!-- -->.com account for increased security.
+If two-factor authentication is enabled for your GitHub account, you will need to create a PAT to access your git repositories. Enable two-factor authentication in your GitHub.com account for increased security.
 
 While instructions from GitHub works just fine, [follow this article](/wiki/spaces/GIJDC/pages/107380737/Creating+Personal+Access+Tokens) for some specific instructions to get you started.
 
@@ -46,25 +73,32 @@ While instructions from GitHub works just fine, [follow this article](/wiki/spa
 
 This process requires an existing GitHub git repository.
 
-We recommend using the Add new integration panel (_formerly Auto-connect integration_) to connect multiple repositories from your GitHub<!-- -->.com account.
+We recommend using the Add new integration panel (_formerly Auto-connect integration_) to connect multiple repositories from your GitHub.com account.
 
 This setup uses full feature integration offering functions and features not found on single repository connections.
 &nbsp;
 
-<div class='callout callout--danger'>
-  <p>On November 13, 2020, GitHub.com is going to stop allowing API authentication via username/password. For more information, see <a href="https://developer.github.com/changes/2020-02-14-deprecating-password-auth/" title="Opens this link in a new tab" target="_blank">GitHub.com - Deprecating Password Authentication</a>.</p>
+<div class="bbb-callout bbb--error">
+  <div class="irow">
+    <div class="ilogobox">
+      <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+      On November 13, 2020, GitHub.com is going to stop allowing API authentication via username/password. For more information, see <a href="https://developer.github.com/changes/2020-02-14-deprecating-password-auth/" title="Opens this link in a new tab" target="_blank">GitHub.com - Deprecating Password Authentication</a>.
+    </div>
+  </div>
 </div>
 
 * * *
 \
-We strongly recommend to use personal access tokens for GitHub<!-- -->.com account integration.
+We strongly recommend to use personal access tokens for GitHub.com account integration.
 
 1.  On your Jira dashboard menu, go to Git ➜ **Manage repositories**.
 
-2.  Click **GitHub<!-- -->.com** on the Add new integration panel. The Add new integration wizard dialog is displayed.
+2.  Click **GitHub.com** on the Add new integration panel. The Add new integration wizard dialog is displayed.
 
     ![](/wp-content/uploads/gij-gitserver-connect-auto-ext-service-github-com-c.png)
-3.  **GitHub<!-- -->.com and GitHub Enterprise Cloud** is selected by default. Paste the personal access token in the provided box.
+3.  **GitHub.com and GitHub Enterprise Cloud** is selected by default. Paste the personal access token in the provided box.
 
     *  Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed.
 
@@ -114,15 +148,22 @@ We strongly recommend to use personal access tokens for GitHub<!-- -->.com accou
 
 7.  Click **Finish** to complete this setup.
 
-The GitHub<!-- -->.com repositories are now connected to Jira Data Center.
+The GitHub.com repositories are now connected to Jira Data Center.
 
 There will be a slight delay in adding 2FA-enabled repositories compared to others. These will show in the git configuration list eventually.
 
 ## Single repository (Manual integration)
 
-<div class='callout callout--warning'>
-  <p>This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.</p>
-</div>
+<div class="bbb-callout bbb--alert">
+      <div class="irow">
+        <div class="ilogobox">
+          <span class="logoimg"></span>
+        </div>
+        <div class="imsgbox">
+          This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.
+        </div>
+      </div>
+    </div>
 
 This process requires an existing GitHub git repository. Look for the GitHub repository URL on the repository project page.
 
@@ -150,7 +191,7 @@ Assign GitHub permissions for team members or collaborators to allow which resou
 
 ### Default repository permission
 
-1.  Login to your GitHub<!-- -->.com account.
+1.  Login to your GitHub.com account.
 
 2.  Go to ![](/wp-content/uploads/gij-profile-icon.png)&nbsp; **Profile** ➜ **Settings**.
 
@@ -209,19 +250,39 @@ To give a member additional access, they must be added to a team or make them co
 
     ![](/wp-content/uploads/gij-github-manage-team-repo-permission-c.png)
 
-
-<div class='callout callout--basic'>
-  <p><b>Organization permissions</b><br>
-While users have configured PAT for repository access, users in a GitHub Organization must at least have <b>Read</b> permissions. This allows them to view commits and smart commits, and browse repositories (if enabled) of connected GitHub Organization repositories inside Jira.</p>
+<div class="bbb-callout bbb--info">
+  <div class="irow">
+    <div class="ilogobox">
+      <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+      <b>Organization permissions</b><br>
+      While users have configured PAT for repository access, users in a GitHub Organization must at least have <b>Read</b> permissions. This allows them to view commits and smart commits, and browse repositories (if enabled) of connected GitHub Organization repositories inside Jira.
+    </div>
+  </div>
 </div>
 
-<div class='callout callout--basic'>
-  <p><b>GitHub Organization</b><br>
-For collaborators and commit authors, set these users to have <b>Write</b> permissions. This will allow them to view commits and smart commits, browse repositories and also enables them to create branches and pull requests to specified GitHub git repositories via developer panel of a Jira issue.</p>
+<div class="bbb-callout bbb--info">
+  <div class="irow">
+    <div class="ilogobox">
+      <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+      <b>GitHub Organization</b><br>
+      For collaborators and commit authors, set these users to have <b>Write</b> permissions. This will allow them to view commits and smart commits, browse repositories and also enables them to create branches and pull requests to specified GitHub git repositories via developer panel of a Jira issue.
+    </div>
+  </div>
 </div>
 
-<div class='callout callout--warning'>
-  <p>The user PAT for "Require User PAT" setting should have <b>Write</b> permission. Otherwise, the user will not be able to use it for branch or pull request creation/deletion.</p>
+<div class="bbb-callout bbb--alert">
+  <div class="irow">
+    <div class="ilogobox">
+      <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+      The user PAT for "Require User PAT" setting should have <b>Write</b> permission. Otherwise, the user will not be able to use it for branch or pull request creation/deletion.
+    </div>
+  </div>
 </div>
 
 * * *
@@ -263,11 +324,16 @@ Click this text label to open the Setup PAT dialog and paste your personal acces
 
 ![Setup PAT dialog](/wp-content/uploads/gij-gitserver-setup-pat-dlg.png)
 
-<div class='callout callout--warning'>
-  <p>Updating this dialog with a blank entry will remove the configured PAT for the current integration.</p>
+<div class="bbb-callout bbb--alert">
+  <div class="irow">
+    <div class="ilogobox">
+      <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+      Updating this dialog with a blank entry will remove the configured PAT for the current integration.
+    </div>
+  </div>
 </div>
-
-* * *
 
 The Setup PAT dialog is also accessible via Repository Browser (dashboard menu Git ➜ **Repository browser**) ➜ Click the &nbsp; ![(edit icon)](/wp-content/uploads/gij-edit-icon-dark.png)&nbsp; icon under _**Pers. Access**_ column.
 
@@ -281,11 +347,16 @@ For GitHub Organization, the user must have the **Write** permissions and the�
 
 Most git integrations allow changing of the default branch of the repository/project other than "master".  This change is reflected in the Repository Settings of the Git Integration for Jira app on the next reindex. Full integration supports this function where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
-<div class='callout callout--basic'>
-  <p>Main branch for repositories within an integration can only be changed on the git server.</p>
+<div class="bbb-callout bbb--info">
+  <div class="irow">
+    <div class="ilogobox">
+      <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+      Main branch for repositories within an integration can only be changed on the git server.
+    </div>
+  </div>
 </div>
-
-* * *
 
 ### Creating branches
 
@@ -305,11 +376,16 @@ On your Jira Data Center, open a Jira issue. On the Jira developer panel under 
 
 4.  Enter a **Branch name** or leave it as is (recommended).
 
-<div class='callout callout--basic'>
-  <p>The Git Integration for Jira Data Center app gets the default branch from almost all integrations. However, the exception is with Gerrit which always has 'master' as its default branch.</p>
+<div class="bbb-callout bbb--info">
+  <div class="irow">
+    <div class="ilogobox">
+      <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+      The Git Integration for Jira Data Center app gets the default branch from almost all integrations. However, the exception is with Gerrit which always has 'master' as its default branch.
+    </div>
+  </div>
 </div>
-
-* * *
 
 The newly-created branch is now listed in the developer panel under **Branches**. Perform a commit to the newly-created branch to be ready for merge.
 
@@ -333,11 +409,16 @@ The pull request feature works the same as merge request. On your Jira Data Cent
 
 5.  Enter a descriptive **Title** or leave it as is _(recommended)_.
 
-<div class='callout callout--success'>
-  <p><b>Preview</b> allows you to see the comparison view of the current changes in the selected <b>Source branch</b> vs <b>Target branch</b> (<i>usually master</i>).</p>
+<div class="bbb-callout bbb--tip">
+  <div class="irow">
+    <div class="ilogobox">
+      <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+      <b>Preview</b> allows you to see the comparison view of the current changes in the selected <b>Source branch</b> vs <b>Target branch</b> (<i>usually master</i>).
+    </div>
+  </div>
 </div>
-
-* * *
 
 The pull request is listed on the developer panel of the Jira issue page.
 
