@@ -49,9 +49,11 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
   </div>
 </div>
 
-<script src="https://fast.wistia.com/embed/medias/s26h3avwuo.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:62.5% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_s26h3avwuo videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/s26h3avwuo/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
-\
-\
+<div class="wistia_responsive_padding" style="padding:62.5% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><iframe src="https://fast.wistia.net/embed/iframe/s26h3avwuo?videoFoam=true" title="Git Integration for Jira Server: Connect to GitHub.com Video" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" msallowfullscreen width="100%" height="100%"></iframe></div></div>
+<script src="https://fast.wistia.net/assets/external/E-v1.js" async></script>
+<br>
+<br>
+
 [![Follow video to Wistia](/wp-content/uploads/gij-vid-thumb-github.png "Right click here and open this video in a new tab")](https://bigbrassband.wistia.com/medias/s26h3avwuo)
 
 _Watch the video guide by right clicking_ [here](https://bigbrassband.wistia.com/medias/s26h3avwuo) _and open this video in a new browser tab for more viewing options._
