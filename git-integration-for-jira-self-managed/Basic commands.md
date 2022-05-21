@@ -1,6 +1,6 @@
 ---
 
-title: Basic commands
+title: Smart Commit -- Basic commands
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed
@@ -108,7 +108,7 @@ The `#fixversion` command will add a Fix Version/s details tag to the specifie
 | **GIT-1628** **#fixversion** `2.9.6`<br>**GIT-1628** **#fixversion** `2.9.5` **#fixversion** `2.9.6` |
 
 * The first example adds fix version tag **2.9.6** to the issue, `GIT-1628`.
-* The second example adds fix version tags **2.9.5** and **2.9.6** to the issue, `GIT-1628`.<br>If there was an initial Fix Version tag on the specified issue, a `#fixversion` command will append the new Fix Version tag to it.<br><br>**For instance:**<br>The Fix Version tag, `2.9.4`, already exists in issue **GIT-1254**.<br>Performing the smart commit, **GIT-1254** **#fixversion** `2.9.5`, will give a result of:<br>
+* The second example adds fix version tags **2.9.5** and **2.9.6** to the issue, `GIT-1628`.<br>If there was an initial Fix Version tag on the specified issue, a `#fixversion` command will append the new Fix Version tag to it.  <br><br>**For instance:**<br>The Fix Version tag, `2.9.4`, already exists in issue **GIT-1254**.<br>Performing the smart commit, **GIT-1254** **#fixversion** `2.9.5`, will give a result of:<br>
   * ```Fix Version/s: 2.9.4, 2.9.5```
 
 # \#affectsversion
@@ -146,9 +146,8 @@ The `#label` command will add a new label to a Jira issue. If more than one J
 | --- |
 | **GITCL-443** **#label** `bucketbreakfix` `bucketenhancement`<br>**GITCL-443 GITCL-247 GITCL-214** **#label** `admin@example.com` `user1@example.com` requested-feature new-feature **#comment** `Return email when implemented` |
 
-
 [**Prev:** Smart commits (index)](/git-integration-for-jira-self-managed/Smart-commits)  
-[**Next:** Advanced examples](/git-integration-for-jira-self-managed/Advanced-examples)
+[**Next:** Advanced examples](/git-integration-for-jira-self-managed/Advanced-examples)  
 <br>
 <br>
 ### More related topics about smart commits

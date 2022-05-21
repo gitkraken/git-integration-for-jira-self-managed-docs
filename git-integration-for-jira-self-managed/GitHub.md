@@ -1,13 +1,11 @@
 ---
 
-title: GitHub.com
+title: Integration Guide - GitHub.com
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-
-# GitHub.com
 
 ![](/wp-content/uploads/gij-github-mobile-logo-dark.png)
 <br>
@@ -18,12 +16,45 @@ Quickly learn how to connect GitHub<!-- -->.com git repositories via Git Integra
 <br>
 <br>
 
+<div class="bbb-callout bbb--tip">
+  <div class="irow">
+    <div class="ilogobox">
+      <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox" markdown="1">
+      These instructions apply to instances on Free, Team, Cloud Enterprise (including [EMU](https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users)) plans hosted on GitHub.com.
+    </div>
+  </div>
+</div>
+
 <div class='callout callout--success'>
   <p>These instructions apply to instances on Free, Team, Cloud Enterprise (including <a href="https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users" target="_blank"><b>EMU</b></a>) plans hosted on GitHub<!-- -->.com.</p>
 </div>
 
+<div class="bbb-callout bbb--info">
+  <div class="irow">
+    <div class="ilogobox">
+      <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox" markdown="1">
+      For instructions on self-hosted GitHub Enterprise Server, please see [this page](Github%20Enterprise%20Server).
+    </div>
+  </div>
+</div>
+
 <div class='callout callout--basic'>
   <p>For instructions on self-hosted GitHub Enterprise Server, please see <a href="Github%20Enterprise%20Server">this page</a>.</p>
+</div>
+
+<div class="bbb-callout bbb--tip">
+  <div class="irow">
+    <div class="ilogobox">
+      <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox" markdown="1">
+      Using **Jira Cloud**?  [See the corresponding article](/git-integration-for-jira-cloud/github.com).
+    </div>
+  </div>
 </div>
 
 <div class='callout callout--basic'>
@@ -214,7 +245,6 @@ To give a member additional access, they must be added to a team or make them co
   <p><b>Organization permissions</b><br>
 While users have configured PAT for repository access, users in a GitHub Organization must at least have <b>Read</b> permissions. This allows them to view commits and smart commits, and browse repositories (if enabled) of connected GitHub Organization repositories inside Jira.</p>
 </div>
-
 
 <div class='callout callout--basic'>
   <p><b>GitHub Organization</b><br>
