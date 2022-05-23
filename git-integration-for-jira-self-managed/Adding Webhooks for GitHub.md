@@ -67,36 +67,3 @@ Webhooks will be deleted when GitHub integration is disconnected from Git Integr
 
 Git Integration for Jira will index only the updated repositories as indicated by the GitHub organization or GitLab group webhook.
 
-### More related topics about configuring webhooks
-
-*   Page:
-
-    [Creating reindex triggers for a single repository](/wiki/spaces/GIJDC/pages/171475191/Creating+reindex+triggers+for+a+single+repository) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Adding Webhooks for GitHub](/wiki/spaces/GIJDC/pages/171377121/Adding+Webhooks+for+GitHub) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Adding Webhooks for GitLab](/wiki/spaces/GIJDC/pages/171213219/Adding+Webhooks+for+GitLab) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Webhooks GitHub Organization Support](/wiki/spaces/GIJDC/pages/171278716/Webhooks+GitHub+Organization+Support) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Adding Webhooks for Azure DevOps Repos | VSTS](/wiki/spaces/GIJDC/pages/171999302/Adding+Webhooks+for+Azure+DevOps+Repos+%7C+VSTS) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Adding Webhooks for Azure DevOps Server | TFS](/wiki/spaces/GIJDC/pages/235274262/Adding+Webhooks+for+Azure+DevOps+Server+%7C+TFS) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Adding Webhooks for Bitbucket](/wiki/spaces/GIJDC/pages/498663799/Adding+Webhooks+for+Bitbucket) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Adding webhooks for Gerrit](/wiki/spaces/GIJDC/pages/1509032414/Adding+webhooks+for+Gerrit) (Git Integration for Jira Data Center)

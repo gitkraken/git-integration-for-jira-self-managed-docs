@@ -60,28 +60,3 @@ Only Jira admins can perform the Update Integration API call.
 | **Example 2: Restrict an integration to project(s)** |
 | `http://jira.yourorg.com/rest/gitplugin/1.0/`**integration**`/`**1**<br><br>Request body (JSON) example:<br><br>```java<br>{<br>  "id": 1,<br>  "pat": "thisisthepatofyourgithost",  <br>  "gitViewerEnabled": true,  <br>  "smartCommitsEnabled": true,<br>  "global": false,<br>  "projectMappingIds": [ 10000 ],  <br>}<br><br>// The endpoint does not accept the "projectMappingIds" list when "global" is <br>set to 'true'.<br>```<br><br>Response:<br><br>```java<br>{<br>    "success": "true",<br>    "integration": {<br>        "id": 1,<br>        "displayName": "MY GITLAB",<br>        "origin": "https://gitlab.com",<br>        "disabled": false,<br>        "sendCommitEmails": true,<br>        "maxMinsToCommitEmail": 1440,<br>        "global": false,<br>        "initDate": 1574747787950,<br>        "lastIndexedDate": 1584720012000,<br>        "revisionIndexing": true,<br>        "gitViewerEnabled": true,<br>        "disableSslVerification": false,<br>        "smartCommitsEnabled": true,<br>        "projectMappingIds": [ 10000 ],<br>        "integrationType": "GITLAB",<br>        "sourcesDiffViewEnabled": true,<br>        "refSpecNotes": true,<br>        "refSpecChanges": false,<br>        "trustFolderStat": false<br>    }<br>}<br>``` |
 
-### Related articles
-
-*   Page:
-
-    [Add New Integration](/wiki/spaces/GIJDC/pages/380666461/Add+New+Integration) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Add New Integration Type API (examples)](/wiki/spaces/GIJDC/pages/380666468) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Update Existing Integration](/wiki/spaces/GIJDC/pages/380699347/Update+Existing+Integration) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Remove Integration](/git-integration-for-jira-self-managed/Remove-Integration) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Retrieve an Integration](/wiki/spaces/GIJDC/pages/380699382/Retrieve+an+Integration) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Retrieve Integration List](/wiki/spaces/GIJDC/pages/380666487/Retrieve+Integration+List) (Git Integration for Jira Data Center)

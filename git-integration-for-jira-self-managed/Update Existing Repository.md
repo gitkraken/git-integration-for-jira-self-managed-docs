@@ -66,21 +66,3 @@ Only Jira admins can perform the Update Repository API call.
 | --- |
 | **Response:** |
 | ```java<br>{<br>  "id": 3,<br>  "displayName": "acmecorp",<br>  "origin": "https://gitlab.com/wileycoyote/acmecorp.git",<br>  "mainBranch": "master",<br>  "root": "/jira/home/data/git-plugin/3_acmecorp",<br>  "realRoot": "3_acmecorp",<br>  "absoluteRoot": false,<br>  "disabled": false,<br>  "enableFetches": true,<br>  "sendCommitEmails": true,<br>  "maxMinsToCommitEmail": 1441,<br>  "global": true,<br>  "hosted": false,<br>  "initDate": 1513662080381,<br>  "lastIndexedDate": 1586232584347,<br>  "revisionIndexing": true,<br>  "gitViewerEnabled": false,<br>  "disableSslVerification": false,<br>  "smartCommitsEnabled": true,<br>  "webLinkType": "gitlab",<br>  "viewFormat": "",<br>  "changesetFormat": "https://gitlab.com/wileycoyote/acmecorp/commit/${rev}",<br>  "fileAddedFormat": "https://gitlab.com/wileycoyote/acmecorp/commit/${rev}#diff-${num}",<br>  "fileModifiedFormat": "https://gitlab.com/wileycoyote/acmecorp/commit/${rev}#diff-${num}",<br>  "fileDeletedFormat": "https://gitlab.com/wileycoyote/acmecorp/commit/${rev}#diff-${num}",<br>  "mergeRequestFormat": "https://gitlab.com/wileycoyote/acmecorp/merge_requests/${mergereqId}",<br>  "branchLinkFormat": "https://gitlab.com/wileycoyote/acmecorp/tree/${branch}",  <br>  "commitsValidationRequired": true,<br>  "projectMappingIds":[],<br>  "trackedFolderId": 1,<br>  "showAllTags": true,<br>  "sourcesDiffViewEnabled": true,<br>  "refSpecNotes": true,<br>  "refSpecChanges": false,<br>  "trustFolderStat": false<br>}<br>``` |
-
-### Related articles
-
-*   Page:
-
-    [Retrieve Repository List](/wiki/spaces/GIJDC/pages/380666386/Retrieve+Repository+List) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Add New Repository](/wiki/spaces/GIJDC/pages/380666393/Add+New+Repository) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Update Existing Repository](/wiki/spaces/GIJDC/pages/380699263/Update+Existing+Repository) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Delete Existing Repository](/wiki/spaces/GIJDC/pages/380797296/Delete+Existing+Repository) (Git Integration for Jira Data Center)

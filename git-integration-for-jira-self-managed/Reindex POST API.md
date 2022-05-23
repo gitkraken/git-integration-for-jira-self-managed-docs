@@ -39,8 +39,3 @@ There are two types of users who can perform the Reindex POST API call:
 | **Example:** |
 | ```java<br>http://jira.yourorg.com/rest/gitplugin/1.0/index.json<br> <br>Body, JSON(application/json):<br>{<br>  "repoId": [133]<br>}<br> <br>-----------------------<br> <br>Response:<br>{<br>  "success":true,<br>  "finished":true,<br>  "threadId": xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx<br>}<br>``` |
 
-### Related articles
-
-*   Page:
-
-    [Reindex GET API](/wiki/spaces/GIJDC/pages/380699279/Reindex+GET+API) (Git Integration for Jira Data Center)

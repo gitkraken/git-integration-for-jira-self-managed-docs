@@ -42,37 +42,3 @@ The Issue Git integration panel displays:
 
 **Contact us**
 If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com)
-
-### More articles on features
-
-*   Page:
-
-    [Smart commits overview](/wiki/spaces/GIJDC/pages/109215851/Smart+commits+overview)
-
-*   Page:
-
-    [Associate Pull/Merge Requests to Issues Based on Commits](/wiki/spaces/GIJDC/pages/966852625)
-
-*   Page:
-
-    [General Settings](/git-integration-for-jira-self-managed/General-Settings)
-
-*   Page:
-
-    [Creating branches](/git-integration-for-jira-self-managed/Creating-branches)
-
-*   Page:
-
-    [Creating pull/merge requests](/wiki/spaces/GIJDC/pages/1932460359)
-
-*   Page:
-
-    [Issue Git integration panel](/wiki/spaces/GIJDC/pages/1932329305/Issue+Git+integration+panel)
-
-*   Page:
-
-    [Deep Linking to the GitKraken Git client](/wiki/spaces/GIJDC/pages/1955430423/Deep+Linking+to+the+GitKraken+Git+client)
-
-*   Page:
-
-    [Enforced git permissions for Jira users](/wiki/spaces/GIJDC/pages/2091810817/Enforced+git+permissions+for+Jira+users)

@@ -29,20 +29,3 @@ Only Jira admins can perform the Delete Repository API call.
 | **Examples:** |
 | **Example 1:**  <br>`http://jira.yourorg.com/rest/gitplugin/1.0/`**repository**`?`**id=3**`&`**deleteFiles=true**<br><br>```java<br>Response:<br>{<br>  "success": true<br>}<br>```<br><br>**Example 2:**  <br>`http://jira.yourorg.com/rest/gitplugin/1.0/`**repository**`?`**id=5**<br><br>```java<br>Response:<br>{<br>  "success": false,<br>  "error": "Repository with id=5 does not exist",<br>  "advice": "Please try again with an existing repository id."<br>}<br>``` |
 
-### Related articles
-
-*   Page:
-
-    [Retrieve Repository List](/wiki/spaces/GIJDC/pages/380666386/Retrieve+Repository+List) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Add New Repository](/wiki/spaces/GIJDC/pages/380666393/Add+New+Repository) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Update Existing Repository](/wiki/spaces/GIJDC/pages/380699263/Update+Existing+Repository) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Delete Existing Repository](/wiki/spaces/GIJDC/pages/380797296/Delete+Existing+Repository) (Git Integration for Jira Data Center)

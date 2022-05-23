@@ -66,16 +66,3 @@ Job scheduling for the Git Integration app for Jira Data Center is generally the
 *   The Git Integration app schedules the jobs with the Atlassian Jira Scheduler. The Jira Scheduler controls which node carries out the reindexing job.
 
 
-# Related articles
-
-*   Page:
-
-    [Require Personal Access Tokens for user actions (create branch/pull request)](/wiki/spaces/GIJDC/pages/317390849) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Permissions](/git-integration-for-jira-self-managed/Permissions) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Setting Project Permissions](/wiki/spaces/GIJDC/pages/509444154/Setting+Project+Permissions) (Git Integration for Jira Data Center)

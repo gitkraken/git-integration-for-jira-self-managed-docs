@@ -35,20 +35,3 @@ _Right-click_ [_**here**_](https://bigbrassband.wistia.com/medias/aoyowvw485) 
 
 [Managing license key »](/wiki/spaces/GIJDC/pages/1930396028/Managing+license+key)
 
-### More related topics about Git Integration for Jira app installation
-
-*   Page:
-
-    [Installation via Atlassian Marketplace](/wiki/spaces/GIJDC/pages/1930395898/Installation+via+Atlassian+Marketplace) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Installation via Jira Plugin Manager](/wiki/spaces/GIJDC/pages/1930395928/Installation+via+Jira+Plugin+Manager) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Manual installation](/git-integration-for-jira-self-managed/Manual-installation) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Installation and updating](/wiki/spaces/GIJDC/pages/1930395997/Installation+and+updating) (Git Integration for Jira Data Center)

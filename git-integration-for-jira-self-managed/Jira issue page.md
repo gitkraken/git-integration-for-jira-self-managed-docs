@@ -33,20 +33,3 @@ Also, users should be able to see available features in the Jira issue page.
 
 [Git Roll Up tab »](/wiki/spaces/GIJDC/pages/1930398901/Git+Roll+Up+tab)
 
-### More related topics about Jira issue page
-
-*   Page:
-
-    [Jira issue page](/wiki/spaces/GIJDC/pages/1930398870/Jira+issue+page) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Git Roll Up tab](/wiki/spaces/GIJDC/pages/1930398901/Git+Roll+Up+tab) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Git Commits tab](/wiki/spaces/GIJDC/pages/1930398950/Git+Commits+tab) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Code syntax highlighter](/wiki/spaces/GIJDC/pages/1930398989/Code+syntax+highlighter) (Git Integration for Jira Data Center)

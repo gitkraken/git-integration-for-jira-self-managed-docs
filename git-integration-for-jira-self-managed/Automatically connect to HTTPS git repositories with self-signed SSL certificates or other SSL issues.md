@@ -38,16 +38,3 @@ Perform auto-connect integration with HTTPS git repositories that have self-sign
 
 [Manually connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues »](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930397413/%28GDC%29+Manually+connect+to+HTTPS+git+repositories+with+self-signed+SSL+certificates+or+other+SSL+issues)
 
-### More related topics about self-signed HTTPS integration
-
-*   Page:
-    
-    [Self-signed HTTPS integration](/wiki/spaces/GIJDC/pages/1930397349/Self-signed+HTTPS+integration) (Git Integration for Jira Data Center)
-    
-*   Page:
-    
-    [Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/wiki/spaces/GIJDC/pages/1930397370/Automatically+connect+to+HTTPS+git+repositories+with+self-signed+SSL+certificates+or+other+SSL+issues) (Git Integration for Jira Data Center)
-    
-*   Page:
-    
-    [Manually connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/wiki/spaces/GIJDC/pages/1930397413/Manually+connect+to+HTTPS+git+repositories+with+self-signed+SSL+certificates+or+other+SSL+issues) (Git Integration for Jira Data Center)

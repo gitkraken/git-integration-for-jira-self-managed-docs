@@ -18,12 +18,3 @@ The user can watch repositories in the Repository Browser. Select a repository 
 
 [User profile settings »](/wiki/spaces/GIJDC/pages/1930398073/User+profile+settings)
 
-### More related topics about commit email notification
-
-*   Page:
-
-    [Commit email notifications](/wiki/spaces/GIJDC/pages/1930397995/Commit+email+notifications) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Watching email notifications](/wiki/spaces/GIJDC/pages/1930398044/Watching+email+notifications) (Git Integration for Jira Data Center)

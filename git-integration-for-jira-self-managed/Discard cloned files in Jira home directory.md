@@ -32,34 +32,3 @@ Select any option with the _discard_ label to enable editing of the file mask 
 
 Whenever the setting is changed, BigBrassBand recommends to perform a manual reclone of the repositories to ensure an error-free operation.
 
-* * *
-
-### More on advanced general settings
-
-*   Page:
-
-    [Repository settings](/git-integration-for-jira-self-managed/Repository-settings) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Repositories garbage collection checker](/wiki/spaces/GIJDC/pages/1207828777/Repositories+garbage+collection+checker) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Diff settings](/git-integration-for-jira-self-managed/Diff-settings) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Discard cloned files in Jira home directory](/wiki/spaces/GIJDC/pages/1207828796/Discard+cloned+files+in+Jira+home+directory) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Git operations timeout](/wiki/spaces/GIJDC/pages/1207828815/Git+operations+timeout) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Smart commits setting](/wiki/spaces/GIJDC/pages/1207828834/Smart+commits+setting) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Cache sizes settings](/wiki/spaces/GIJDC/pages/1207828850/Cache+sizes+settings) (Git Integration for Jira Data Center)

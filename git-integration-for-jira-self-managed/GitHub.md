@@ -424,30 +424,3 @@ The pull request is listed on the developer panel of the Jira issue page.
 
 The pull request is also ready for approval by the reviewers in your GitHub web portal.
 
-## More integration guides
-
-*   [Integration Basics](/git-integration-for-jira-self-managed/Integration-Basics) (Git Integration for Jira Data Center)
-
-*   [GitHub.com](/wiki/spaces/GIJDC/pages/91979804/GitHub.com) (Git Integration for Jira Data Center)
-
-*   [GitHub Enterprise Server](/wiki/spaces/GIJDC/pages/91914350/GitHub+Enterprise+Server) (Git Integration for Jira Data Center)
-
-*   [GitLab CE/EE](/wiki/spaces/GIJDC/pages/91947056) (Git Integration for Jira Data Center)
-
-*   [GitLab.com](/wiki/spaces/GIJDC/pages/91881531/GitLab.com) (Git Integration for Jira Data Center)
-
-*   [Azure DevOps | Visual Studio Team Services (VSTS)](/wiki/spaces/GIJDC/pages/92176406) (Git Integration for Jira Data Center)
-
-*   [Azure DevOps Server | Team Foundation Services (TFS)](/wiki/spaces/GIJDC/pages/91979843) (Git Integration for Jira Data Center)
-
-*   [AWS CodeCommit](/git-integration-for-jira-self-managed/AWS-CodeCommit) (Git Integration for Jira Data Center)
-
-*   [Gerrit](/git-integration-for-jira-self-managed/Gerrit) (Git Integration for Jira Data Center)
-
-*   [Bitbucket Server](/git-integration-for-jira-self-managed/Bitbucket-Server) (Git Integration for Jira Data Center)
-
-*   [Bonobo](/git-integration-for-jira-self-managed/Bonobo) (Git Integration for Jira Data Center)
-
-*   [Windows Network | Server Share](/wiki/spaces/GIJDC/pages/91881564/Windows+Network+%7C+Server+Share) (Git Integration for Jira Data Center)
-
-*   [Tracked Folders](/git-integration-for-jira-self-managed/Tracked-Folders) (Git Integration for Jira Data Center)

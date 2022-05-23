@@ -33,38 +33,3 @@ From the Jira user profile page, the Jira user can enter their Git service Perso
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/2091810817/CleanShot2022-03-01%20at%2001.17.22@2x-20220301-061737.png?version=1&modificationDate=1647757484614&cacheVersion=1&api=v2)
 
-* * *
-
-### More related topics on features
-
-*   Page:
-
-    [Smart commits overview](/wiki/spaces/GIJDC/pages/109215851/Smart+commits+overview)
-
-*   Page:
-
-    [Associate Pull/Merge Requests to Issues Based on Commits](/wiki/spaces/GIJDC/pages/966852625)
-
-*   Page:
-
-    [General Settings](/git-integration-for-jira-self-managed/General-Settings)
-
-*   Page:
-
-    [Creating branches](/git-integration-for-jira-self-managed/Creating-branches)
-
-*   Page:
-
-    [Creating pull/merge requests](/wiki/spaces/GIJDC/pages/1932460359)
-
-*   Page:
-
-    [Issue Git integration panel](/wiki/spaces/GIJDC/pages/1932329305/Issue+Git+integration+panel)
-
-*   Page:
-
-    [Deep Linking to the GitKraken Git client](/wiki/spaces/GIJDC/pages/1955430423/Deep+Linking+to+the+GitKraken+Git+client)
-
-*   Page:
-
-    [Enforced git permissions for Jira users](/wiki/spaces/GIJDC/pages/2091810817/Enforced+git+permissions+for+Jira+users)

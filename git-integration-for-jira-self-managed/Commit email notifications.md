@@ -44,12 +44,3 @@ Access the settings for this feature via:
 
 [Watching email notifications »](/wiki/spaces/GIJDC/pages/1930398044/Watching+email+notifications)
 
-### More related topics about commit email notification
-
-*   Page:
-
-    [Commit email notifications](/wiki/spaces/GIJDC/pages/1930397995/Commit+email+notifications) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Watching email notifications](/wiki/spaces/GIJDC/pages/1930398044/Watching+email+notifications) (Git Integration for Jira Data Center)

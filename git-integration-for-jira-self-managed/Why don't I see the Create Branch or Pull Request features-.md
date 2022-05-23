@@ -36,24 +36,3 @@ Contact Us
 
 If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com)
 
-## Related articles
-
-*   Page:
-
-    [Avoid OutOfMemory exceptions by configuring or memory allocation with Jira to accommodate large repositories](/wiki/spaces/GIJDC/pages/873332786/Avoid+OutOfMemory+exceptions+by+configuring+or+memory+allocation+with+Jira+to+accommodate+large+repositories)
-
-*   Page:
-
-    [SQLException 'Incorrect string value' in merge requests](/wiki/spaces/GIJDC/pages/843448333/SQLException+%27Incorrect+string+value%27+in+merge+requests)
-
-*   Page:
-
-    ["Dangerous use of multiple connections" error on local database](/wiki/spaces/GIJDC/pages/821919745)
-
-*   Page:
-
-    ["Service proxy has been destroyed" exceptions in log](/wiki/spaces/GIJDC/pages/458883074)
-
-*   Page:
-
-    [Indexing error - Too many open files](/wiki/spaces/GIJDC/pages/318013497/Indexing+error+-+Too+many+open+files)

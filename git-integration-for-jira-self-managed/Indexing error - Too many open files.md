@@ -55,24 +55,3 @@ Contact Us
 
 If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com)
 
-## Related articles
-
-*   Page:
-
-    [Whitelist BigBrassBand Cloud](/wiki/spaces/BBBSUPPORT/pages/125141005/Whitelist+BigBrassBand+Cloud)
-
-*   Page:
-
-    [Avoid OutOfMemory exceptions by configuring or memory allocation with Jira to accommodate large repositories](/wiki/spaces/BBBSUPPORT/pages/878968833/Avoid+OutOfMemory+exceptions+by+configuring+or+memory+allocation+with+Jira+to+accommodate+large+repositories)
-
-*   Page:
-
-    [(Git Integration: Jira Server/Data Center) "Dangerous use of multiple connections" error on local database](/wiki/spaces/BBBSUPPORT/pages/822050817)
-
-*   Page:
-
-    ["Service proxy has been destroyed" exceptions in log (Git Integration: Server/Data Center)](/wiki/spaces/BBBSUPPORT/pages/458817592)
-
-*   Page:
-
-    [Git Integration (Server): Jira index error: IndexNotFoundException: no segments\* file found](/wiki/spaces/BBBSUPPORT/pages/132022367/Git+Integration+%28Server%29%3A+Jira+index+error%3A+IndexNotFoundException%3A+no+segments*+file+found)

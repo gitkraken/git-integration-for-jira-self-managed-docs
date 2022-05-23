@@ -53,20 +53,3 @@ There are two types of users who can perform the Get Commit Issue Changes API ca
 | **The** _**changeStrs**_ **modifier with the specified parameters will give the following result:** |
 | ```java<br>Removes association of TST-5; and<br>associates TST-6 and TST-7 to the same commit in repo1 and repo2.<br>``` |
 
-### Related articles
-
-*   Page:
-
-    [Get Commits](/git-integration-for-jira-self-managed/Get-Commits) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [showFiles](/git-integration-for-jira-self-managed/showFiles) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Get Commit Issue Changes](/wiki/spaces/GIJDC/pages/380797314/Get+Commit+Issue+Changes) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Update Commit Issue Changes](/wiki/spaces/GIJDC/pages/380699298/Update+Commit+Issue+Changes) (Git Integration for Jira Data Center)

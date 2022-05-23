@@ -22,34 +22,3 @@ While the Git for Jira app uses default Jira System Encoding (utf-8) to deliver 
 
 For now, the diff encoding option accepts only one encoding type (utf-8).  Several encodings aren't supported yet.
 
-* * *
-
-### More on advanced general settings
-
-*   Page:
-
-    [Repository settings](/git-integration-for-jira-self-managed/Repository-settings) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Repositories garbage collection checker](/wiki/spaces/GIJDC/pages/1207828777/Repositories+garbage+collection+checker) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Diff settings](/git-integration-for-jira-self-managed/Diff-settings) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Discard cloned files in Jira home directory](/wiki/spaces/GIJDC/pages/1207828796/Discard+cloned+files+in+Jira+home+directory) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Git operations timeout](/wiki/spaces/GIJDC/pages/1207828815/Git+operations+timeout) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Smart commits setting](/wiki/spaces/GIJDC/pages/1207828834/Smart+commits+setting) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Cache sizes settings](/wiki/spaces/GIJDC/pages/1207828850/Cache+sizes+settings) (Git Integration for Jira Data Center)

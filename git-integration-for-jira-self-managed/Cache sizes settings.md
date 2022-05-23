@@ -42,34 +42,3 @@ Calculating for the most desirable value depends on the following factors such a
 
 When the Git Integration for Jira app can’t find a commit in the internal cache, it will start reading for commits from the disk. Read operations finish much quicker when performed from the memory compared to when reading from the disk.
 
-* * *
-
-### More on advanced general settings
-
-*   Page:
-
-    [Repository settings](/git-integration-for-jira-self-managed/Repository-settings) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Repositories garbage collection checker](/wiki/spaces/GIJDC/pages/1207828777/Repositories+garbage+collection+checker) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Diff settings](/git-integration-for-jira-self-managed/Diff-settings) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Discard cloned files in Jira home directory](/wiki/spaces/GIJDC/pages/1207828796/Discard+cloned+files+in+Jira+home+directory) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Git operations timeout](/wiki/spaces/GIJDC/pages/1207828815/Git+operations+timeout) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Smart commits setting](/wiki/spaces/GIJDC/pages/1207828834/Smart+commits+setting) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Cache sizes settings](/wiki/spaces/GIJDC/pages/1207828850/Cache+sizes+settings) (Git Integration for Jira Data Center)

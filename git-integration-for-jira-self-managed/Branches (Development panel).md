@@ -103,24 +103,3 @@ For detailed information about creating branches, see article [Creating branches
 
 [Pull or merge requests (Development panel) »](/wiki/spaces/GIJDC/pages/1930399144)
 
-### More related topics about Jira issue git integration panel
-
-*   Page:
-
-    [Jira Git integration development panel](/wiki/spaces/GIJDC/pages/1930399012/Jira+Git+integration+development+panel) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Development panel locations](/wiki/spaces/GIJDC/pages/1930399041/Development+panel+locations) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Branches (Development panel)](/wiki/spaces/GIJDC/pages/1930399090) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Pull or merge requests (Development panel)](/wiki/spaces/GIJDC/pages/1930399144) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Git tags](/git-integration-for-jira-self-managed/Git-tags) (Git Integration for Jira Data Center)

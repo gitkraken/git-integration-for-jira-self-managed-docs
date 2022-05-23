@@ -24,12 +24,3 @@ Click **Update** to save the changes. The email notifications that you receive
 
 [General settings »](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930398111/%28GDC%29+General+settings)
 
-### More related topics about commit email notification
-
-*   Page:
-
-    [Commit email notifications](/wiki/spaces/GIJDC/pages/1930397995/Commit+email+notifications) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Watching email notifications](/wiki/spaces/GIJDC/pages/1930398044/Watching+email+notifications) (Git Integration for Jira Data Center)

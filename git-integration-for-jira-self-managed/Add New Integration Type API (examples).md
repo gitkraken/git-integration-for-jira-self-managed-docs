@@ -82,28 +82,3 @@ When adding new repositories, we recommend to leave the `trustFolderStat` settin
 | **GERRIT** |
 | **Note**  <br>The _**origin**_ field parameter is required.<br><br>```java<br>{<br>  "origin": "http://yourorg.hostsvr.com:8080",<br>  "type": "GERRIT",<br>  "refSpecNotes": true,<br>  "refSpecChanges": true,<br>  "username": "johnsmith",<br>  "password": "jfJHhKHfksjhfkdsjhfelkwhfKFHlKDSHF",<br>  "displayName": "Gerrit repos"<br>}<br>``` |
 
-### Related articles
-
-*   Page:
-
-    [Add New Integration](/wiki/spaces/GIJDC/pages/380666461/Add+New+Integration) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Add New Integration Type API (examples)](/wiki/spaces/GIJDC/pages/380666468) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Update Existing Integration](/wiki/spaces/GIJDC/pages/380699347/Update+Existing+Integration) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Remove Integration](/git-integration-for-jira-self-managed/Remove-Integration) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Retrieve an Integration](/wiki/spaces/GIJDC/pages/380699382/Retrieve+an+Integration) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Retrieve Integration List](/wiki/spaces/GIJDC/pages/380666487/Retrieve+Integration+List) (Git Integration for Jira Data Center)

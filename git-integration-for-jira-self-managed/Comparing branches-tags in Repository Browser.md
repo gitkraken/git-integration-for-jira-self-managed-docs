@@ -45,20 +45,3 @@ For example, the JQL will look like `issuekey in (GIT-1851, GIT-1159, GITCL-284
 
 [Enable/disable Repository Browser via git repository configuration page »](/wiki/spaces/GIJDC/pages/1930398739)
 
-### More related topics about Repository Browser
-
-*   Page:
-
-    [Repository Browser](/git-integration-for-jira-self-managed/Repository-Browser) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Viewing list of commits in Repository Browser](/wiki/spaces/GIJDC/pages/1930398681/Viewing+list+of+commits+in+Repository+Browser) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Comparing branches/tags in Repository Browser](/wiki/spaces/GIJDC/pages/1930398705) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Enable/disable Repository Browser via git repository configuration page](/wiki/spaces/GIJDC/pages/1930398739) (Git Integration for Jira Data Center)

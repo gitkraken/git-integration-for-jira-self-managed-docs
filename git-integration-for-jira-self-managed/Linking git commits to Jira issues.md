@@ -46,16 +46,3 @@ Only the commits that are linked to Jira issues will show on the Jira Activity S
 
 [Manually link git commits to Jira issues »](/wiki/spaces/GIJDC/pages/1930398296/Manually+link+git+commits+to+Jira+issues)
 
-### More related topics about associating commits to Jira issues
-
-*   Page:
-
-    [Linking git commits to Jira issues](/wiki/spaces/GIJDC/pages/1930398265/Linking+git+commits+to+Jira+issues) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Manually link git commits to Jira issues](/wiki/spaces/GIJDC/pages/1930398296/Manually+link+git+commits+to+Jira+issues) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Git notes](/git-integration-for-jira-self-managed/Git-notes) (Git Integration for Jira Data Center)

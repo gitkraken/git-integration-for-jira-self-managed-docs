@@ -45,24 +45,3 @@ The **Roll Up** refers to an existing Git Roll Up view, which the issue tab 
 
 [Development panel locations »](/wiki/spaces/GIJDC/pages/1930399041/Development+panel+locations)
 
-### More related topics about Jira git integration development panel
-
-*   Page:
-
-    [Jira Git integration development panel](/wiki/spaces/GIJDC/pages/1930399012/Jira+Git+integration+development+panel) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Development panel locations](/wiki/spaces/GIJDC/pages/1930399041/Development+panel+locations) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Branches (Development panel)](/wiki/spaces/GIJDC/pages/1930399090) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Pull or merge requests (Development panel)](/wiki/spaces/GIJDC/pages/1930399144) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Git tags](/git-integration-for-jira-self-managed/Git-tags) (Git Integration for Jira Data Center)

@@ -66,20 +66,3 @@ Only Jira admins can perform the Add New Repository API call.
 | **Response:** |
 | ```java<br>{<br>  "id": 68,<br>  "displayName": "MyGitLab-testrepo",<br>  "origin": "https://github.com/bbb-devs/test-repo.git",<br>  "mainBranch": "master",<br>  "root": "/JIRA/data/git-plugin/68_test-repo",<br>  "realRoot": "68_test-repo",<br>  "absoluteRoot": false,<br>  "disabled": false,<br>  "enableFetches": true,<br>  "sendCommitEmails": true,<br>  "maxMinsToCommitEmail": 1440,<br>  "global": true,<br>  "hosted": false,<br>  "initDate": 1586408964631,<br>  "revisionIndexing": true,<br>  "gitViewerEnabled": true,<br>  "disableSslVerification": false,<br>  "smartCommitsEnabled": true,<br>  "username": "",<br>  "password": "",<br>  "pat": "thisisthepatofyourgithost",<br>  "commitsValidationRequired": true,<br>  "projectMappingIds": [<br>  ],<br>  "showAllTags": true,<br>  "sourcesDiffViewEnabled": true,<br>  "refSpecNotes": true,<br>  "refSpecChanges": false,<br>  "trustFolderStat": false<br>}<br>``` |
 
-### Related articles
-
-*   Page:
-
-    [Retrieve Repository List](/wiki/spaces/GIJDC/pages/380666386/Retrieve+Repository+List) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Add New Repository](/wiki/spaces/GIJDC/pages/380666393/Add+New+Repository) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Update Existing Repository](/wiki/spaces/GIJDC/pages/380699263/Update+Existing+Repository) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Delete Existing Repository](/wiki/spaces/GIJDC/pages/380797296/Delete+Existing+Repository) (Git Integration for Jira Data Center)

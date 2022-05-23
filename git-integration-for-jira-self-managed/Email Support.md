@@ -48,30 +48,3 @@ In order to see the log messages, you need to be sure that the logger severity f
 
 The Git Integration for Jira app will automatically use the WARN logger severity if the memory size tolerance has been reached. If administrators doesn't want to see such logs in all GC runs, apply the WARN severity level.
 
-* * *
-
-### Related articles
-
-*   Page:
-
-    [App Support](/git-integration-for-jira-self-managed/App-Support) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Known Issues](/git-integration-for-jira-self-managed/Known-Issues) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Scheduling Jobs](/git-integration-for-jira-self-managed/Scheduling-Jobs) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Recommended Jira memory settings](/wiki/spaces/GIJDC/pages/873332818/Recommended+Jira+memory+settings) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [General Settings](/git-integration-for-jira-self-managed/General-Settings) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Plugin Data Storage](/wiki/spaces/GIJDC/pages/1598193683/Plugin+Data+Storage) (Git Integration for Jira Data Center)

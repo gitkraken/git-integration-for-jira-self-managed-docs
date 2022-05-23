@@ -92,32 +92,3 @@ The webhook parses the following payload formats:
 | **GITLAB** |
 | ```java<br>{<br>    "repository": {<br>    "git_ssh_url": "git@gitlab.com:testuser01/test-master.git",<br>    "git_http_url": "https://gitlab.com/testuser01/test-master.git"<br>  }<br>}<br>``` |
 
-## Related topics
-
-*   Page:
-
-    [Creating reindex triggers for a single repository](/wiki/spaces/GITSERVER/pages/132251748/Creating+reindex+triggers+for+a+single+repository)
-
-*   Page:
-
-    [Adding webhooks for GitHub](/wiki/spaces/GITSERVER/pages/171245573/Adding+webhooks+for+GitHub)
-
-*   Page:
-
-    [Adding webhooks for GitLab](/wiki/spaces/GITSERVER/pages/171278348/Adding+webhooks+for+GitLab)
-
-*   Page:
-
-    [Webhooks GitHub Organization support](/wiki/spaces/GITSERVER/pages/171376657/Webhooks+GitHub+Organization+support)
-
-*   Page:
-
-    [Adding webhooks for Azure DevOps Repos | VSTS](/wiki/spaces/GITSERVER/pages/171278800/Adding+webhooks+for+Azure+DevOps+Repos+%7C+VSTS)
-
-*   Page:
-
-    [Adding webhooks for Azure DevOps Server | TFS](/wiki/spaces/GITSERVER/pages/235110401/Adding+webhooks+for+Azure+DevOps+Server+%7C+TFS)
-
-*   Page:
-
-    [Adding webhooks for Bitbucket](/wiki/spaces/GITSERVER/pages/498663690/Adding+webhooks+for+Bitbucket)

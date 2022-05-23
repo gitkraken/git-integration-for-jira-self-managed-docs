@@ -29,16 +29,3 @@ Any Jira user can perform the Getting Bulk Import Information API call.
 | **Example:** |
 | `http://jira.example.org/rest/gitplugin/1.0/`**configuration**`/progress.json?`**thread\_id**`=`**123**<br><br>```java<br>Response example:<br>{<br>  "success":false,<br>  "finished":true,<br>  "progressEntries":[{<br>    "prcntDouble":0.0,<br>    "prcntInteger":0,<br>    "error":false,<br>    "message":"Creating repository git@github.com:user/test-repo.git"<br>   },{<br>    "error":true,<br>    "message": "java.lang.NullPointerException"<br>   },{<br>    "prcntDouble":100.0,<br>    "prcntInteger":1042,<br>    "error":false,<br>    "message":"Resolving deltas"<br>   }<br>  ]<br>}<br> <br> <br>Usage:<br>user@home:~$ python configuration_progress.py 1058<br>{"success":false,"finished":true,"progressEntries":[{<br>...<br>``` |
 
-### Related articles
-
-*   Page:
-
-    [Bulk Export](/git-integration-for-jira-self-managed/Bulk-Export) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Bulk Import](/git-integration-for-jira-self-managed/Bulk-Import) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Get Bulk Import Information](/wiki/spaces/GIJDC/pages/421298278/Get+Bulk+Import+Information) (Git Integration for Jira Data Center)
