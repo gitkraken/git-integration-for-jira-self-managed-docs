@@ -49,11 +49,10 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
   </div>
 </div>
 
-<div style="padding:62.5% 0 0 0;position:relative;">
-  <div style="height:100%;left:0;position:absolute;top:0;width:100%;">
-    <iframe src="https://fast.wistia.net/embed/iframe/s26h3avwuo?videoFoam=true" title="Git Integration for Jira Server: Connect to GitHub.com Video" allow="fullscreen" allowtransparency="true" frameborder="0" scrolling="no" msallowfullscreen width="100%" height="100%">
-    </iframe>
-  </div>
+* * *
+
+<div align="center">
+https://bigbrassband.wistia.com/medias/s26h3avwuo?embedType=async&seo=false&videoFoam=true&videoWidth=100%
 </div>
 
 <div align="center">
