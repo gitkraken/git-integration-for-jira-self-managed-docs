@@ -6,26 +6,65 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-VERSION 4.0+ We are dropping support for Jira 7.x.x.
 
-VERSION 2.13.0+ We are dropping support for Java 7, Jira 6.3 and 6.4.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>VERSION 4.0+</b> We are dropping support for Jira 7.x.x.
+    </div>
+    </div>
+</div>
 
-VERSION 3.5.1+ Dropped support for Internet Explorer 11 browser.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>VERSION 4.0+</b> We are dropping support for Jira 7.x.x.<br>
+        <b>VERSION 2.13.0+</b> We are dropping support for Java 7, Jira 6.3 and 6.4.<br>
+        <b>VERSION 3.5.1+</b> Dropped support for Internet Explorer 11 browser.
+    </div>
+    </div>
+</div>
 
-**Universal Plugin Manager 2.2** or later is required to properly install this app.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Universal Plugin Manager 2.2</b> or later is required to properly install this app.
+    </div>
+    </div>
+</div>
 
 ## Permissions Requirement to Display Commit Information
 
+https://bigbrassband.wistia.com/medias/ynjggc2wzg?embedType=async&seo=false&videoFoam=true&videoWidth=754
+
 _Right click_ [_here_](https://bigbrassband.wistia.com/medias/ynjggc2wzg) _to open this video in a new browser tab for more viewing options._
 
-Users must have ‘_**View Development Tools**_’ permission in order to view commit information on the issue page.
-
-Administrators must grant themselves the ‘_**View Development Tools**_’ permission in order to view commit information on the issue pages.
-
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Users must have ‘<b><i>View Development Tools</i></b>’ permission in order to view commit information on the issue page.
+        <div class="nextpara">
+            Administrators must grant themselves the ‘<b><i>View Development Tools</i></b>’ permission in order to view commit information on the issue pages.</div>
+        </div>
+    </div>
+    </div>
+</div>
 
 The user needs to be in the developers group to view code diffs when default permission scheme is used.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/408453129/view-dev-tools-project-acl(c).png?version=1&modificationDate=1585809947043&cacheVersion=1&api=v2&width=680&height=361)
+![](/wp-content/uploads/gij-docs-permissions-view-dev-tools-project-acl-c.png)
 
 Consider the following criteria when setting permissions:
 
