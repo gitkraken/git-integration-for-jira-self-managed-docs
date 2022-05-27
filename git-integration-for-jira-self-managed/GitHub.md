@@ -51,12 +51,7 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
 
 * * *
 
-oEmbed as told by Wistia Support \#1
-
-https://bigbrassband.wistia.com/medias/s26h3avwuo?embedType=async&seo=false&videoFoam=true&videoWidth=754
-
-Standard embed as told by Wistia Support \#2  
-<script src="https://fast.wistia.com/embed/medias/lr0jp6ntfd.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:56.25% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_lr0jp6ntfd seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/lr0jp6ntfd/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
+[embed]https://bigbrassband.wistia.com/medias/s26h3avwuo?embedType=async&seo=false&videoFoam=true&videoWidth=754[/embed]
 
 <div align="center">
   <i>Watch the video guide by clicking <a href="https://bigbrassband.wistia.com/medias/s26h3avwuo" target="_blank"><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
