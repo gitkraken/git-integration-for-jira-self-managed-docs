@@ -1,6 +1,6 @@
 ---
 
-title: GitLab CE/EE
+title: GitLab CE/EE - GIJ SM
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed
