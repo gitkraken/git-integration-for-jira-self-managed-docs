@@ -51,7 +51,7 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
 
 * * *
 
-[embed]https://bigbrassband.wistia.com/medias/s26h3avwuo?embedType=async&seo=false&videoFoam=true&videoWidth=754[/embed]
+\[embed\]https://bigbrassband.wistia.com/medias/s26h3avwuo?embedType=async&seo=false&videoFoam=true&videoWidth=754[/embed]
 
 <div align="center">
   <i>Watch the video guide by clicking <a href="https://bigbrassband.wistia.com/medias/s26h3avwuo" target="_blank"><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
