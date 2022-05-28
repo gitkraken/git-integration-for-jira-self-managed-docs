@@ -48,11 +48,10 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
     </div>
   </div>
 </div>
-
-* * *
-
+<br>
+<br>
 <div class='embed-container embed-container--16-9'>
-    <iframe src='https://fast.wistia.net/embed/iframe/s26h3avwuo?seo=false&videoFoam=true' title='Git Integration for Jira Server: Connect to GitHub.com Video' allow='fullscreen' frameborder='0' allowtransparency='true' scrolling='no' msallowfullscreen width='754' height='471'></iframe>    
+    <iframe src='https://fast.wistia.net/embed/iframe/s26h3avwuo?seo=false&videoFoam=true' title='Git Integration for Jira Server: Connect to GitHub.com Video' allow='fullscreen' frameborder='0' allowtransparency='true' scrolling='no' msallowfullscreen width='709' height='443'></iframe>    
 </div>
 
 <div align="center">
@@ -192,7 +191,7 @@ Assign GitHub permissions for team members or collaborators to allow which resou
 
 1.  Login to your GitHub.com account.
 
-2.  Go to ![](/wp-content/uploads/gij-profile-icon.png)&nbsp; **Profile** ➜ **Settings**.
+2.  Go to <img style='vertical-align: middle; margin: 0 3px;' src='/wp-content/uploads/gij-jira-sys-admin-icon.png' alt=''/> **Profile** ➜ **Settings**.
 
 3.  On your sidebar, click **Organizations**.
 
