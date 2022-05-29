@@ -16,9 +16,17 @@ There are two ways to do this:
 *   Manual upgrade installation via the UPM ➜ **Upload App**:
 
     ![](/wp-content/uploads/gij-docs-installation-git-addon-update-upm-manual-c.png)
-    *   To manually update the Git Integration for Jira app, the user must have the **Jira System Administrators** _global_ permission.
 
-
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        To manually update the Git Integration for Jira app, the user must have the <b>Jira System Administrators</b> global permission.
+    </div>
+    </div>
+</div>
 
 Watch the video below on how to update your version of Git Integration for Jira app via UPM (Universal Plugin Manager).
 
@@ -33,7 +41,7 @@ The updating process is demonstrated in two chapters:
 </div>
 
 <div align='center'>
-    <i>Right-click <a href='https://bigbrassband.wistia.com/medias/aoyowvw485' target='_blank'><b>here</b></a>and view this video in a new browser tab.</i>
+    <i>Right-click <a href='https://bigbrassband.wistia.com/medias/aoyowvw485' target='_blank'><b>here</b></a> and view this video in a new browser tab.</i>
 </div>
 <br>
 <br>
