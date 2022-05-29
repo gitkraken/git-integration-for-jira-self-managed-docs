@@ -37,7 +37,7 @@ The updating process is demonstrated in two chapters:
 2.  Manual updating via UPM **(0:48)**
 
 <div class='embed-container embed-container--16-9'>
-    <iframe width='709' height='443' src='https://fast.wistia.net/embed/iframe/s26h3avwuo?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/s26h3avwuo?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
 <div align='center'>
