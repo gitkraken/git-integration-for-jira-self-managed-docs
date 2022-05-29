@@ -6,13 +6,25 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396073/bbb-overview.png?version=1&modificationDate=1630642781821&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-docs-introduction-bbb-overview_708.png)
 
 # Welcome Git Admin!
 
 You are probably reading this page because a Jira administrator has requested access to the Git server. The Jira administrator has installed the Git Integration for Jira app.
 
 **What’s on this page:**
+  - [What is the Git Integration for Jira app?](#what-is-the-git-integration-for-jira-app)
+  - [How does Jira interact with the Git server?](#how-does-jira-interact-with-the-git-server)
+  - [What does the Jira administrator need?](#what-does-the-jira-administrator-need)
+    - [For Git repositories with HTTP\/HTTPS access](#for-git-repositories-with-httphttps-access)
+    - [For Git repositories with SSH access](#for-git-repositories-with-ssh-access)
+    - [For Git repositories with Git protocol access](#for-git-repositories-with-git-protocol-access)
+    - [For Git repositories on the same host as Jira](#for-git-repositories-on-the-same-host-as-jira)
+    - [For Git repositories across network file shares](#for-git-repositories-across-network-file-shares)
+    - [For Git repositories hosted on Windows servers](#for-git-repositories-hosted-on-windows-servers)
+    - [For Jira hosted on Windows](#for-jira-hosted-on-windows)
+  - [Does the Git Integration for Jira app have API commands that allow addition/removal of a Git project?](#does-the-git-integration-for-jira-app-have-api-commands-that-allow-additionremoval-of-a-git-project)
+  - [Troubleshooting issues](#troubleshooting-issues)
 
 * * *
 
@@ -31,60 +43,86 @@ The Git Integration for Jira app acts as a regular Git client. It performs a sc
 The Jira administrator needs the ability to clone the repository and pull from it just like a regular developer workstation would do.
 
 We recommend that you create a new user identity specifically for this Jira server.
+<br>
+<br>
+* * *
 
-|     |
-| --- |
-| ### For Git repositories with HTTP/HTTPS access |
-| Please do the following:<br><br>1.  Create a new user for the Jira server.<br>    <br>2.  Send the Jira administrator:<br>    <br><br>*   The URL to the Git server<br>    <br>*   _For example:_  `https://gitserver/repo/timetrackingproject.git`<br>    <br>*   The username and password for the user you created |
+### For Git repositories with HTTP\/HTTPS access
 
-|     |
-| --- |
-| ### For Git repositories with SSH access |
-| Please do the following:<br><br>1.  Define a new SSH public/private key pair for the Jira server<br>    <br>2.  Install the public key on the Git server<br>    <br>3.  Send the Jira administrator:<br>    <br><br>*   The URL to the Git server<br>    <br>*   _For example:_  `git@gitserver:repo/timetrackingproject.git`<br>    <br>*   The private key you created |
+Please do the following:
 
-|     |
-| --- |
-| ### For Git repositories with Git protocol access |
-| Send the Jira administrator the URL to the Git server.<br><br>For example:  `git://gitserver/repo/timetrackingproject.git` |
+1.  Create a new user for the Jira server.
+2.  Send the Jira administrator:
+    *   The URL to the Git server
+    *   _For example:_  `https://gitserver/repo/timetrackingproject.git`
+    *   The username and password for the user you created
 
-|     |
-| --- |
-| ### For Git repositories on the same host as Jira |
-| Send the Jira administrator the full path to the Git repository.<br><br>For example:  `/home/git/repo/timetrackingproject.git` |
+### For Git repositories with SSH access
 
-|     |
-| --- |
-| ### For Git repositories across network file shares |
-| If you have users access the Git repository over a network file share using Windows file sharing or NFS, the network share will need to be mounted on the Jira server. Assist the Jira administrator in mounting the network share. Then, provide the Jira administrator with the path to the Git repository over the network share.<br><br>Linux example: `/mnt/gitserver/home/git/repo/timetracking.git`<br><br>Windows example: `\\gitserver\git\repo\timetracking.git` |
+Please do the following:
+1.  Define a new SSH public/private key pair for the Jira server
+2.  Install the public key on the Git server
+3.  Send the Jira administrator:
+    *   The URL to the Git server
+    *   _For example:_  `git@gitserver:repo/timetrackingproject.git`
+    *   The private key you created
 
-|     |
-| --- |
-| ### For Git repositories hosted on Windows servers |
-| For cases when git repositories are hosted at Windows servers (Windows Server network drive) – while it is using the Windows server networking, the network credentials accessing the git repository must be the same as the user running Jira.<br><br>The repository setting for _**Enable Fetches**_ of the configured network path must be `Git Repository hosted on same server as Jira`. |
+### For Git repositories with Git protocol access
 
-|     |
-| --- |
-| ### For Jira hosted on Windows |
-| When using Active Directory accounts for repository access, changing the password of the AD account running Jira can cause repository authentication issues.<br><br>Restart Jira to regain access to repositories. |
+Send the Jira administrator the URL to the Git server.<br>
+For example:  `git://gitserver/repo/timetrackingproject.git`
+
+### For Git repositories on the same host as Jira
+
+Send the Jira administrator the full path to the Git repository.<br>
+For example:  `/home/git/repo/timetrackingproject.git`
+
+### For Git repositories across network file shares
+
+If you have users access the Git repository over a network file share using Windows file sharing or NFS, the network share will need to be mounted on the Jira server. Assist the Jira administrator in mounting the network share. Then, provide the Jira administrator with the path to the Git repository over the network share.<br>
+Linux example: `/mnt/gitserver/home/git/repo/timetracking.git`<br>
+Windows example: `\\gitserver\git\repo\timetracking.git`
+
+### For Git repositories hosted on Windows servers
+
+For cases when git repositories are hosted at Windows servers (Windows Server network drive) – while it is using the Windows server networking, the network credentials accessing the git repository must be the same as the user running Jira.<br>
+The repository setting for _**Enable Fetches**_ of the configured network path must be `Git Repository hosted on same server as Jira`.
+
+### For Jira hosted on Windows
+
+When using Active Directory accounts for repository access, changing the password of the AD account running Jira can cause repository authentication issues.<br>
+Restart Jira to regain access to repositories.
 
 ## Does the Git Integration for Jira app have API commands that allow addition/removal of a Git project?
 
-Yes. As of **v2.8.3+** of the Git Integration for Jira app, the **REST API** for add, update, and delete repository is implemented. The documentation for this feature is available at [Git Integration for Jira: Hook and API Reference - Repository REST API](/git-integration-for-jira-self-managed/Repository-API).
+Yes. As of **v2.8.3+** of the Git Integration for Jira app, the **REST API** for add, update, and delete repository is implemented. The documentation for this feature is available at [Git Integration for Jira: Hook and API Reference - Repository REST API](/git-integration-for-jira-self-managed/repository-api).
 
 ## Troubleshooting issues
 
-For information on troubleshooting known errors and issues, see [Git Integration for Jira - Knowledge Base/FAQ](/wiki/spaces/GIJDC/pages/92176390/Frequently+Asked+Questions) and [Troubleshooting guides](https://bigbrassband.atlassian.net/wiki/spaces/DEVINFO/pages/146538616/Troubleshooting+articles).
-
-[« Managing license key](/wiki/spaces/GIJDC/pages/1930396028/Managing+license+key)
-
-[Setup GitLab Server to respond to incoming network API calls »](/wiki/spaces/GIJDC/pages/1930396193/Setup+GitLab+Server+to+respond+to+incoming+network+API+calls)
-
-
+For information on troubleshooting known errors and issues, see [Git Integration for Jira - Knowledge Base/FAQ](/git-integration-for-jira-self-managed/frequently-asked-questions) and [Troubleshooting guides](/git-integration-for-jira-self-managed/troubleshooting-articles).
+<br>
+<br>
 * * *
 
-|     |
-| --- |
+[Previous: Managing license key](/git-integration-for-jira-self-managed/managing-license-key)
+
+[Next: Setup GitLab Server to respond to incoming network API calls »](/git-integration-for-jira-self-managed/setup-gitLab-Server-to-respond-to-incoming-network-API-calls)
+
+* * *
+<br>
+
 | **Get new product notifications and feature updates from BigBrassBand LLC.** |
+|:---:|
 | [Click here to subscribe to our mailing list](http://eepurl.com/hhfbwz) |
 
-Need to know more features?  Read next:  [Helpful Tips for Jira Administrators](https://bigbrassband.com/tips-for-jira-admins.html)
+<br>
+<div class="bbb-callout bbb--tip">
+  <div class="irow">
+    <div class="ilogobox">
+      <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+      Need to know more features?  Read next:  <a href='https://bigbrassband.com/tips-for-jira-admins.html' target='_blank' alt='Opens in a new tab'>Helpful Tips for Jira Administrators</a>.
+    </div>
+  </div>
+</div>

@@ -30,17 +30,17 @@ To reconfigure:
     ```
 
 
-
 Read this [**GitLab documentation**](https://docs.gitlab.com/omnibus/settings/configuration.html#configuring-the-external-url-for-gitlab) to know more about configuring the external URL for GitLab.
 
 You should be able to add the GitLab repositories via Git Integration for Jira app ➜ Manage git repositories:
 
-*   **Auto-connect integration panel** (recommended for multiple repository integration)
+*   [**Add new integration panel**](/git-integration-for-jira-self-managed/using-the-add-new-integration-wizard/) (recommended for multiple repository integration)
 
-*   **Connect to Git Repository** (single repository or ssh repository integration)
+*   [**Connect to Git Repository**](/git-integration-for-jira-self-managed/using-the-connect-repository-wizard/) (single repository or ssh repository integration)
+<br>
+<br>
+* * *
 
+[Previous: Getting started for Git administrators (index)](/git-integration-for-jira-self-managed/getting-started-for-git-administrators)
 
-[« Getting started for Git administrators (index)](/wiki/spaces/GIJDC/pages/1930396073/Getting+started+for+Git+administrators)
-
-[New GitLab v10+ authentication »](/wiki/spaces/GIJDC/pages/1930396211)
-
+[Next: New GitLab v10+ authentication](/git-integration-for-jira-self-managed/new-gitlab-v10-authentication)

@@ -20,8 +20,10 @@ curl --header "Private-Token: XpigzF1JxMnAZ7mn9qgN" https://gitlab.com/api/v4/pr
 
 
 For more information on GitLab personal access token, see [**GitLab: Personal Access Token**](https://docs.gitlab.com/ce/user/profile/personal_access_tokens.html).
+<br>
+<br>
+* * *
 
-[« Setup GitLab Server to respond to incoming network API calls](/wiki/spaces/GIJDC/pages/1930396193/Setup+GitLab+Server+to+respond+to+incoming+network+API+calls)
+[Previous: Setup GitLab Server to respond to incoming network API calls](/git-integration-for-jira-self-managed/setup-gitLab-server-to-respond-to-incoming-network-api-calls)
 
-[General settings: Improving Jira performance »](/wiki/spaces/GIJDC/pages/1930396229/General+settings%3A+Improving+Jira+performance)
-
+[Next: General settings - Improving Jira performance »](/git-integration-for-jira-self-managed/general-settings-improving-jira-performance/)
