@@ -12,10 +12,10 @@ There are two ways to do this:
 
 *   Automatic upgrade installation via the Git Integration app **Upgrade** button, or
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930395997/manage-license-key-update-key(new).png?version=1&modificationDate=1630642774688&cacheVersion=1&api=v2&width=646&height=395)
+    ![](/wp-content/uploads/gij-docs-installation-plugin-update-c.png)
 *   Manual upgrade installation via the UPM ➜ **Upload App**:
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930395997/git-addon-install-upm-manual(c).png?version=1&modificationDate=1630642774453&cacheVersion=1&api=v2&width=646&height=270)
+    ![](/wp-content/uploads/gij-docs-installation-git-addon-update-upm-manual-c.png)
     *   To manually update the Git Integration for Jira app, the user must have the **Jira System Administrators** _global_ permission.
 
 
@@ -28,10 +28,17 @@ The updating process is demonstrated in two chapters:
 
 2.  Manual updating via UPM **(0:48)**
 
+<div class='embed-container embed-container--16-9'>
+    <iframe width='709' height='443' src='https://fast.wistia.net/embed/iframe/s26h3avwuo?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
 
-_Right-click_ [_**here**_](https://bigbrassband.wistia.com/medias/aoyowvw485) _and view this video in a new browser tab._
+<div align='center'>
+    <i>Right-click <a href='https://bigbrassband.wistia.com/medias/aoyowvw485' target='_blank'><b>here</b></a>and view this video in a new browser tab.</i>
+</div>
+<br>
+<br>
+* * *
 
-[« Manual installation](/git-integration-for-jira-self-managed/Manual-installation)
+[Previous: Manual installation](/git-integration-for-jira-self-managed/Manual-installation)
 
-[Managing license key »](/wiki/spaces/GIJDC/pages/1930396028/Managing+license+key)
-
+[Next: Managing license key »](/git-integration-for-jira-self-managed/Managing-license-key)
