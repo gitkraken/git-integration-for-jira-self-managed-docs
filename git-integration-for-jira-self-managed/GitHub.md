@@ -60,6 +60,9 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
 
 https://bigbrassband.wistia.com/medias/s26h3avwuo?embedType=async&seo=false&videoFoam=true&videoWidth=754
 
+
+<iframe allowtransparency="true" title="Wistia video player" allowFullscreen frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" src="https://fast.wistia.net/embed/iframe/s26h3avwuo" width="400" height="250"></iframe>
+
 * * *
 
 ## Creating a personal access token
