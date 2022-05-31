@@ -58,17 +58,6 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
 </div>
 <br>
 
-<!-- Fixed size Wistia standard embed based on iframe, also using script
-<iframe src="https://fast.wistia.com/embed/iframe/s26h3avwuo?seo=false" title="Git Integration for Jira Server: Connect to GitHub.com Video" allow="autoplay; fullscreen" allowtransparency="true" frameborder="0" scrolling="no" class="wistia_embed" name="wistia_embed" msallowfullscreen width="709" height="443"></iframe>
-<script src="https://fast.wistia.com/assets/external/E-v1.js" async></script>
-<br>
-
-Responsive standard Wistia embed using script
-<script src="https://fast.wistia.com/embed/medias/s26h3avwuo.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_responsive_padding" style="padding:62.5% 0 0 0;position:relative;"><div class="wistia_responsive_wrapper" style="height:100%;left:0;position:absolute;top:0;width:100%;"><div class="wistia_embed wistia_async_s26h3avwuo seo=false videoFoam=true" style="height:100%;position:relative;width:100%"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/s26h3avwuo/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div></div></div>
-
-Fixed size Wistia standard embed, also using script
-<script src="https://fast.wistia.com/embed/medias/s26h3avwuo.jsonp" async></script><script src="https://fast.wistia.com/assets/external/E-v1.js" async></script><div class="wistia_embed wistia_async_s26h3avwuo seo=false" style="height:443px;position:relative;width:709px"><div class="wistia_swatch" style="height:100%;left:0;opacity:0;overflow:hidden;position:absolute;top:0;transition:opacity 200ms;width:100%;"><img src="https://fast.wistia.com/embed/medias/s26h3avwuo/swatch" style="filter:blur(5px);height:100%;object-fit:contain;width:100%;" alt="" aria-hidden="true" onload="this.parentNode.style.opacity=1;" /></div></div> -->
-
 
 * * *
 
