@@ -45,8 +45,3 @@ The updating process is demonstrated in two chapters:
 </div>
 <br>
 <br>
-* * *
-
-[Previous: Manual installation](/git-integration-for-jira-self-managed/Manual-installation)
-
-[Next: Managing license key »](/git-integration-for-jira-self-managed/Managing-license-key)

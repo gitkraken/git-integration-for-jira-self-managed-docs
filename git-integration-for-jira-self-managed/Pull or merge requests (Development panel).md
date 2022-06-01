@@ -86,7 +86,3 @@ For detailed information on this feature, see [Creating pull/merge requests](/wi
 
 _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/1jwzeex5qa) _to open this video in a new tab/window for more viewing options._
 
-[« Branches (Developer panel)](/wiki/spaces/GIJDC/pages/1930399090)
-
-[Git tags »](/git-integration-for-jira-self-managed/Git-tags)
-

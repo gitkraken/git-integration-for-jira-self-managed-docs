@@ -27,8 +27,3 @@ VERSION 2.13.1 In the filter field at the top right, enter a character or a name
 | Enable/disable the state of the connected repositories under the **Enabled** column of the repository list. |
 
 The Repository Browser will not display the repository if it is disabled in the Git Repositories configuration. The commits and code diffs in the **Issue** ➜ **Git Commits**, **Git Roll Up** and **Project** tabs will also be unavailable due to this.
-
-[« Managing integrations via Actions](/wiki/spaces/GIJDC/pages/1930397476/Managing+integration+via+Actions)
-
-[Edit integration connection settings »](/wiki/spaces/GIJDC/pages/1930397536/Edit+integration+connection+settings)
-

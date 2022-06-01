@@ -42,7 +42,3 @@ There are two scenarios related to the rename/move:
 **Jira Activity Stream**
 Only the commits that are linked to Jira issues will show on the Jira Activity Stream (not all commits in repositories).
 
-[« Disabling Source and Commits tabs](/wiki/spaces/GIJDC/pages/1930398249/Disabling+Source+and+Commits+tabs)
-
-[Manually link git commits to Jira issues »](/wiki/spaces/GIJDC/pages/1930398296/Manually+link+git+commits+to+Jira+issues)
-

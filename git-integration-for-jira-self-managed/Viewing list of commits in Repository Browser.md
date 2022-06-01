@@ -7,11 +7,6 @@ taxonomy:
 
 ---
 
-# Viewing list of commits in Repository Browser
-
-<https://bigbrassband.atlassian.net/spaces/GIJDC/pages/1930398681/Viewing+list+of+commits+in+Repository+Browser>
-
-* * *
 
 In the Repository Browser, select a repository then click the **Commits** tab.
 
@@ -33,8 +28,3 @@ The list of commits for the currently selected project is displayed in descendin
 
 
 Clicking on the **Repositories** button at the top right of the page returns the view to the Repository Browser.
-
-[« Repository Browser (index)](/git-integration-for-jira-self-managed/Repository-Browser)
-
-[Comparing branches/tags in Repository Browser »](/wiki/spaces/GIJDC/pages/1930398705)
-

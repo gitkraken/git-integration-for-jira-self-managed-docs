@@ -13,8 +13,3 @@ The user will get notifications from own commits if the My Changes setting in 
 The user can watch repositories in the Repository Browser. Select a repository under the **Git** menu then click the Start watching label to activate repository email commit notifications.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398044/git-viewer-watch-git-repos.png?version=1&modificationDate=1630642869922&cacheVersion=1&api=v2&width=680&height=382)
-
-[« Commit email notifications (index)](/wiki/spaces/GIJDC/pages/1930397995/Commit+email+notifications)
-
-[User profile settings »](/wiki/spaces/GIJDC/pages/1930398073/User+profile+settings)
-

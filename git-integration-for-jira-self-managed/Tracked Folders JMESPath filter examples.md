@@ -32,24 +32,3 @@ The example below ONLY works for tracked folder integration; where it supports t
 | ```java<br>[?!starts_with(fullPath, '/home/user/local/store/private-repos')]<br>``` |
 | Excludes repositories from the sub-folder. |
 
-## Other examples for supported git services
-
-*   Page:
-
-    [GitHub.com | GitHub Enterprise JMESPath filter examples](/wiki/spaces/GIJDC/pages/1353482464/GitHub.com+%7C+GitHub+Enterprise+JMESPath+filter+examples) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [GitLab.com | GitLab CE/EE JMESPath filter examples](/wiki/spaces/GIJDC/pages/1352663492) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Microsoft | VSTS | TFS | Azure Repos JMESPath filter examples](/wiki/spaces/GIJDC/pages/1352663519/Microsoft+%7C+VSTS+%7C+TFS+%7C+Azure+Repos+JMESPath+filter+examples) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Tracked Folders JMESPath filter examples](/wiki/spaces/GIJDC/pages/1349452162/Tracked+Folders+JMESPath+filter+examples) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Gerrit JMESPath filter examples](/wiki/spaces/GIJDC/pages/1897431057/Gerrit+JMESPath+filter+examples) (Git Integration for Jira Data Center)

@@ -13,17 +13,10 @@ Use the FAQ below to find answers to common questions. Feel free to contact our 
 
 ### See next FAQs about purchase and pricing
 
-*   Page:
+*   [How do I buy this app?](/wiki/spaces/GIJDC/pages/2053865599)
 
-    [How do I buy this app?](/wiki/spaces/GIJDC/pages/2053865599)
+*   [What payment methods are accepted?](/wiki/spaces/GIJDC/pages/2053832862)
 
-*   Page:
-
-    [What payment methods are accepted?](/wiki/spaces/GIJDC/pages/2053832862)
-
-*   Page:
-
-    [How do I determine the Git Integration for Jira app pricing after the trial?](/wiki/spaces/GIJDC/pages/2053472453)
+*   [How do I determine the Git Integration for Jira app pricing after the trial?](/wiki/spaces/GIJDC/pages/2053472453)
 
 
-[< Back to FAQ index](/wiki/spaces/GIJDC/pages/92176390/Frequently+Asked+Questions)

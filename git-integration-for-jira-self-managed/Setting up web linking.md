@@ -42,9 +42,3 @@ _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/zfxfemq7z8) _t
 
 For more information, see [Documentation: Web Linking](/git-integration-for-jira-self-managed/Web-linking).
 
-* * *
-
-[Previous: Recommended reindex interval setting](/git-integration-for-jira-self-managed/recommended-reindex-interval-setting/)
-
-[Next: Setting up webhooks](/git-integration-for-jira-self-managed/setting-up-webhooks/)
-

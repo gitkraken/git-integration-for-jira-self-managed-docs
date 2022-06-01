@@ -37,9 +37,3 @@ If you have a local folder that contains multiple repositories, the Git Integrat
 
 For more information about this feature, see [Integration guide - Adding tracked folders](/git-integration-for-jira-self-managed/tracked-folders/).
 
-* * *
-
-[Previous: Increasing timeout threshold for large repositories while doing a Git pull](/git-integration-for-jira-self-managed/increasing-timeout-threshold-for-large-repositories-while-doing-a-git-pull/)
-
-[Next: Recommended upgrade method for Git Integration for Jira](/git-integration-for-jira-self-managed/recommended-upgrade-method-for-git-integration-for-jira/)
-

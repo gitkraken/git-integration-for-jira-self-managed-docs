@@ -15,8 +15,3 @@ Before you can add new repository configuration via bulk change, you need to dow
 
 
 Bigbrassband recommends that you download the example with the full configuration.
-
-[« Adding existing repositories via Bulk change](/wiki/spaces/GIJDC/pages/1930397888/Import+existing+repositories+via+Bulk+change)
-
-[Editing existing repository settings in the TSV file »](/wiki/spaces/GIJDC/pages/1930397941/Editing+existing+repository+settings+in+the+TSV+File)
-

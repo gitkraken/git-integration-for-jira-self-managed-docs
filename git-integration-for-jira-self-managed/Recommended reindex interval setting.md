@@ -52,9 +52,4 @@ If the `Last run duration` value shows `3 minutes` _or greater_, we recommend 
     </div>
 </div>
 
-* * *
-
-[Previous: Reindex API to trigger indexing](/git-integration-for-jira-self-managed/reindex-api-to-trigger-indexing/)
-
-[Next: Setting up web linking »](/git-integration-for-jira-self-managed/setting-up-web-linking/)
 

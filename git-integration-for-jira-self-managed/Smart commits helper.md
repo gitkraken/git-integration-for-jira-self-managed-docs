@@ -80,7 +80,3 @@ Refer to the commit message case examples below:
 
 The commit status shown on the Issue page depends on the **Smart commits** setting that was set at the time the commits were processed.
 
-[« Viewing workflows](/git-integration-for-jira-self-managed/Viewing-workflows)
-
-[Smart commits General setting »](/wiki/spaces/GIJDC/pages/1930398554/Smart+commits+General+setting)
-

@@ -53,7 +53,3 @@ Click **Save** to save the changes.
 
 Saving the changes triggers a repository reindexing to show new associations.
 
-[« Linking git commits to Jira issues (index)](/wiki/spaces/GIJDC/pages/1930398265/Linking+git+commits+to+Jira+issues)
-
-[Git notes »](/git-integration-for-jira-self-managed/Git-notes)
-

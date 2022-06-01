@@ -14,8 +14,3 @@ There are three possible ways to setup a repository root that is not located in 
 
 *   You could symlink the `{$Jira_HOME}/data/git-plugin` directory to a different volume. The standard **Connect to Git Repository** wizard will still write there, but the data will reside on the different volume. But be aware, that Git Integration app treats anything in the `git-plugin` folder as a clone that it owns.
 
-
-[« Adding a repository hosted on Windows Server or Windows Network Share](/wiki/spaces/GIJDC/pages/1930397287/Adding+a+repository+hosted+on+Windows+Server+or+Windows+Network+share)
-
-[Tracked folders overview »](/wiki/spaces/GIJDC/pages/1930397330/Tracked+folders+overview)
-

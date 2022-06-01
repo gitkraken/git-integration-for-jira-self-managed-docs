@@ -10,16 +10,6 @@ Welcome to the Git Integration for Jira app reference page index for topics abou
 
 On this page, you will find the list of integration guides for specific git hosts. For general Jira git integration, see our **[Integration basics](/wiki/spaces/GITSERVER/pages/86933642/Integration+basics)** to get you more familiar with integration, viewing commits inside Jira, smart commits, and many more.
 
-Click on a topic title to view its content or search through the related topics.
-
-
-
- Search
-
-
-
-
-
 * * *
 
 

@@ -6,9 +6,7 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-**What’s on this page:**
 
-* * *
 
 ## Introduction
 

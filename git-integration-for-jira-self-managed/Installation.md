@@ -38,6 +38,3 @@ https://bigbrassband.wistia.com/medias/lr0jp6ntfd?embedType=async&seo=false&vide
 
 _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/lr0jp6ntfd) _to open this video in a new browser tab for more viewing options._
 
-[Previous: Introduction](/git-integration-for-jira-self-managed/Introduction)
-
-[Next: Installation via Atlassian Marketplace](/git-integration-for-jira-cloud/installation-via-atlassian-marketplace)

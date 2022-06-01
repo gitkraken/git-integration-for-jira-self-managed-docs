@@ -10,7 +10,3 @@ Introduced in **v2.9.0+** of the Git Integration for Jira app, this feature sc
 
 For a more detailed information about this integration, see [Integration Guide - Adding Tracked Folders](/git-integration-for-jira-self-managed/Tracked-Folders).
 
-[« Setup repository root not located in Jira Home directory](/wiki/spaces/GIJDC/pages/1930397313/Setup+repository+root+not+located+in+Jira+Home+directory)
-
-[Self-signed HTTPS integration »](/wiki/spaces/GIJDC/pages/1930397349/Self-signed+HTTPS+integration)
-

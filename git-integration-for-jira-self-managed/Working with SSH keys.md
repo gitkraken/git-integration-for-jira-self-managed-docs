@@ -66,7 +66,3 @@ For more information, see troubleshooting article [SSH key format is invalid](/
 | **Linux/MacOS** |
 | On Linux and MacOS, this generates an SSH key in RSA format:<br><br>```java<br>ssh-keygen -t rsa -b 4096 -m pem -C "your_email@example.com"<br>```<br><br>MacOS often incorrectly creates an OpenSSH format certificate. For more details, see information on this [**common problem**](https://serverfault.com/questions/939909/ssh-keygen-does-not-create-rsa-private-key). |
 
-[« Getting started for Git administrators](/wiki/spaces/GIJDC/pages/1930396073/Getting+started+for+Git+administrators)
-
-[Generating SSH keys »](/wiki/spaces/GIJDC/pages/1930396609/Generating+SSH+keys)
-

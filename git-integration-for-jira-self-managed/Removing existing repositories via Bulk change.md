@@ -15,7 +15,3 @@ To delete multiple repositories from the Git Integration for Jira app git reposi
 3.  Save this file and upload it via menu Git ➜ Manage repositories ➜ Bulk Change ➜ **Import Configuration**.
 
 
-[« Editing existing repository settings in the TSV File](/wiki/spaces/GIJDC/pages/1930397941/Editing+existing+repository+settings+in+the+TSV+File)
-
-[Commit email notifications »](/wiki/spaces/GIJDC/pages/1930397995/Commit+email+notifications)
-

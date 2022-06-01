@@ -62,9 +62,3 @@ Another option is to completely uninstall then reinstall the Git for Jira app. 
 
 6.  Manually reindex the repositories based on its usage priority or click **Reindex all** to reindex them all at once.
 
-* * *
-
-[Previous: Working with Tracked folders](/git-integration-for-jira-self-managed/working-with-tracked-folders/)
-
-[Next: Discard cloned files in Jira Home directory (General setting)](/git-integration-for-jira-self-managed/discard-cloned-files-in-jira-home-directory-general-setting/)
-

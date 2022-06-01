@@ -28,7 +28,3 @@ You cannot delete filesystem-based keys by using the Git Integration app configu
 
 The SSH keys are also automatically added to this list when adding new repositories that require SSH keys.
 
-[« Adding a public SSH key](/wiki/spaces/GIJDC/pages/1930396728/Adding+a+public+SSH+Key)
-
-[Adding and associating SSH keys »](/wiki/spaces/GIJDC/pages/1930396771/Adding+and+associating+SSH+keys)
-

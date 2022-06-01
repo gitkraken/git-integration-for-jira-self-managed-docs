@@ -25,7 +25,3 @@ After the installation, the Git Integration for Jira app repository configuratio
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396906/gitserver-manage-git-repo-screen(c).png?version=1&modificationDate=1630642812715&cacheVersion=1&api=v2)
 
-[« Git URL ports](/wiki/spaces/GIJDC/pages/1930396890/Git+URL+ports)
-
-[Git integration configuration page »](/wiki/spaces/GIJDC/pages/1930396951/Git+integration+configuration+page)
-

@@ -38,7 +38,3 @@ For permissions requirement, see [App platform and system permissions requiremen
     </div>
 </div>
 
-* * *
-
-[Previous: Table of contents](/git-integration-for-jira-self-managed/Documentation)  
-[Next: Installation](/git-integration-for-jira-self-managed/Installation)
