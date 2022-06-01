@@ -25,7 +25,3 @@ After making changes to the configuration settings, click **Save** to apply th
 
 For detailed information about this feature, see [Git administration: General settings](/wiki/spaces/GITSERVER/pages/966885431/General+Settings).
 
-[« Commit email notifications](/wiki/spaces/GIJDC/pages/1930397995/Commit+email+notifications)
-
-[Web linking »](/git-integration-for-jira-self-managed/Web-linking)
-

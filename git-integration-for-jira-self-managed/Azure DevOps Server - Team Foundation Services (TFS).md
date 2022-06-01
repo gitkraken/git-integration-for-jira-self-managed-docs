@@ -22,9 +22,6 @@ Quickly learn how to connect Azure DevOps Server/TFS git repositories via Git In
 
 The Git Integration for Jira app supports Azure Repos.
 
-**What's on this page:**
-
-
 
 * * *
 

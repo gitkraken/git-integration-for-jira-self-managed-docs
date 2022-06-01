@@ -35,6 +35,3 @@ Hosting services _(like GitHub and BitBucket, for example)_ try to match these
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398801/image-20210728-082525.png?version=1&modificationDate=1630642906952&cacheVersion=1&api=v2&width=421&height=69)
 
-[« Viewing commit code diffs](/wiki/spaces/GIJDC/pages/1930398768/Viewing+commit+code+diffs)
-
-[Jira user information card »](/wiki/spaces/GIJDC/pages/1930398841/Jira+user+information+card)

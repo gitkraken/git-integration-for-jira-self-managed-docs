@@ -29,6 +29,3 @@ Test git connection and repository URL by doing the following:
 
 The Git Integration for Jira app will run successfully if the above connection test ran without errors.
 
-[« Working with SSH keys](/wiki/spaces/GIJDC/pages/1930396577/Working+with+SSH+keys)
-
-[Setting up repositories »](/wiki/spaces/GIJDC/pages/1930396906/Setting+up+repositories)

@@ -6,10 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-**What’s on this page:**
-
-* * *
-
 The Git Integration for Jira app supports repositories that do not have a branch named "master".
 
 # Introduction

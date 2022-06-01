@@ -41,26 +41,14 @@ There are two types of users who can perform the Branches API call:
 
 ### REST APIs
 
-*   Page:
+*   [Bulk Change API](/wiki/spaces/GIJDC/pages/380764495/Bulk+Change+API) (Git Integration for Jira Data Center)
 
-    [Bulk Change API](/wiki/spaces/GIJDC/pages/380764495/Bulk+Change+API) (Git Integration for Jira Data Center)
+*   [Repository API](/git-integration-for-jira-self-managed/Repository-API) (Git Integration for Jira Data Center)
 
-*   Page:
+*   [Reindex API](/git-integration-for-jira-self-managed/Reindex-API) (Git Integration for Jira Data Center)
 
-    [Repository API](/git-integration-for-jira-self-managed/Repository-API) (Git Integration for Jira Data Center)
+*   [Commits API](/git-integration-for-jira-self-managed/Commits-API) (Git Integration for Jira Data Center)
 
-*   Page:
+*   [Branches API](/git-integration-for-jira-self-managed/Branches-API) (Git Integration for Jira Data Center)
 
-    [Reindex API](/git-integration-for-jira-self-managed/Reindex-API) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Commits API](/git-integration-for-jira-self-managed/Commits-API) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Branches API](/git-integration-for-jira-self-managed/Branches-API) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Integration API](/git-integration-for-jira-self-managed/Integration-API) (Git Integration for Jira Data Center)
+*   [Integration API](/git-integration-for-jira-self-managed/Integration-API) (Git Integration for Jira Data Center)

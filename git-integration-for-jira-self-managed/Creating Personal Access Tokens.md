@@ -8,28 +8,11 @@ taxonomy:
 ---
 This page contains steps for creating personal access tokens (PATs) for specific git hosts. Use the table of contents to navigate to the selected git host.
 
-**What's on this page:**
-
-*   [GitHub | GitHub Enterprise](#github)
-
-*   [GitLab | GitLab CE/EE](#gitlab)
-
-*   [Azure DevOps | Visual Studio Team Services (VSTS)](#azure-vsts)
-
-*   [Team Foundation Server (TFS)](#tfs)
-
-*   [Azure DevOps Server](#azure-server)
-
-*   [AWS CodeCommit](#aws)
-
-
-* * *
-
 ## GitHub | GitHub Enterprise
 
 If two-factor authentication is enabled for your GitHub account, you will need to create a Personal Access Token (PAT) to access your git repositories. Enable two-factor authentication in your GitHub account for increased security.
 
-While instructions from GitHub works just fine, here are some specific instructions to get you up and running:
+While instructions from GitHub works just fine, here are some specific instructions to get you up and running
 
 1.  Login to your GitHub account then go to your profile settings.
 

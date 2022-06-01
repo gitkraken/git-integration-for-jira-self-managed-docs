@@ -76,7 +76,3 @@ Tags are only associated with the Jira issue by Jira keys that are specified in 
 
 If some commits relate only to tags, these commits will not be displayed. For more information, see the [related known issue](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/591888396/Known+Issues#Commits-Relating-Only-to-Tags-are-Not-Displayed).
 
-[« Jira Git integration development panel](/wiki/spaces/GIJDC/pages/1930399012/Jira+Git+integration+development+panel)
-
-[Jira project page »](/wiki/spaces/GIJDC/pages/1930399252/Jira+project+page)
-

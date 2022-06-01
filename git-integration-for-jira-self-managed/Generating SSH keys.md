@@ -32,8 +32,3 @@ Configure and generate SSH keys for the following git hosting systems by followi
 | The SSH support starts with TFS 2013 and later versions.<br><br>*   For information about TFS/Azure DevOps Server, see [MS Team Foundation Server](https://azure.microsoft.com/en-us/services/devops/server/).<br>    <br>*   For general reference and terms, see [Git Experience Futures](https://devblogs.microsoft.com/devops/git-experience-futures/). |
 
 Users can use HTTPS or SSH to securely connect to git repositories.  HTTPS connections will require the user's login credentials, while SSH connections will require SSH keys.
-
-[« Working with SSH keys (index)](/wiki/spaces/GIJDC/pages/1930396577/Working+with+SSH+keys)
-
-[Adding a private SSH key »](/wiki/spaces/GIJDC/pages/1930396698/Adding+a+private+SSH+key)
-

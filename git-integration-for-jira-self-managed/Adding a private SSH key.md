@@ -26,8 +26,3 @@ VERSION 4.0+ OpenSSH is now fully supported.
 
 3.  Click **Add** to complete this setup.
 
-
-[« Generating SSH keys](/wiki/spaces/GIJDC/pages/1930396609/Generating+SSH+keys)
-
-[Adding a public SSH key »](/wiki/spaces/GIJDC/pages/1930396728/Adding+a+public+SSH+Key)
-

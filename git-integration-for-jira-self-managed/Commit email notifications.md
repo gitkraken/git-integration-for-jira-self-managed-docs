@@ -40,7 +40,3 @@ Access the settings for this feature via:
 | **3.** Jira User Profile ➜ Git Integration for Jira preferences ➜ **Git Commit Emails**. |
 | ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397995/user-profile-git-commit-emails.png?version=1&modificationDate=1630642868666&cacheVersion=1&api=v2&width=442&height=346) |
 
-[« Bulk change](/git-integration-for-jira-self-managed/Bulk-change)
-
-[Watching email notifications »](/wiki/spaces/GIJDC/pages/1930398044/Watching+email+notifications)
-

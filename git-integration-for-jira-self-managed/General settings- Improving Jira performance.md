@@ -6,15 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-**What’s on this page:**
-- [Improving Git tags performance](#improving-git-tags-performance)
-- [Improving diff load performance](#improving-diff-load-performance)
-- [Enable/disable JQL search feature](#enabledisable-jql-search-feature)
-- [Smart commits setting](#smart-commits-setting)
-- [Commit Notification Emails](#commit-notification-emails)
-- [Git Activity Stream](#git-activity-stream)
-
-<hr>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -132,8 +123,3 @@ Enable/disable the setting whether to show git commits in the Jira activity stre
     </div>
 </div>
 
-* * *
-
-[Previous: New GitLab v10+ authentication](/git-integration-for-jira-self-managed/new-gitlab-v10-authentication/)
-
-[Next: Adding a repository hosted on Windows Servers or Windows Network share (Admins)](/git-integration-for-jira-self-managed/adding-a-repository-hosted-on-windows-servers-or-windows-network-share-admins/)

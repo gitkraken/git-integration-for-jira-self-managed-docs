@@ -24,10 +24,6 @@ Quickly learn how to connect Azure DevOps/VSTS git repositories via Git Integrat
 
 The Git Integration for Jira app supports Azure Repos.
 
-**What's on this page:**
-
-
-
 * * *
 
 
@@ -298,31 +294,3 @@ Once approved, the team leader or reviewer can then complete the merge.  The co
 ![](https://bigbrassband.com/images/bbb/jira-server-issue-page-git-commits-tab-view.png)
 
 
-
-
-
-* * *
-
-## More Integration Guides
-
-page icon as list [Integrate GitHub.com with Jira Data Center](/wiki/spaces/GIJDC/pages/91979804/GitHub.com)
-
-page icon as list [Integrate GitHub Enterprise with Jira Data Center](/wiki/spaces/GIJDC/pages/91914350/GitHub+Enterprise+Server)
-
-page icon as list [Integrate GitLab.com with Jira Data Center](/wiki/spaces/GIJDC/pages/91881531/GitLab.com)
-
-page icon as list [Integrate GitLab CE/EE with Jira Data Center](/wiki/spaces/GIJDC/pages/91947056)
-
-page icon as list [Integrate Azure DevOps Server/TFS with Jira Data Center](/wiki/spaces/GIJDC/pages/91979843)
-
-page icon as list [Integrate AWS CodeCommit with Jira Data Center](/git-integration-for-jira-self-managed/AWS-CodeCommit)
-
-page icon as list [Integrate Gerrit with Jira Data Center](/git-integration-for-jira-self-managed/Gerrit)
-
-page icon as list [Integrate Bitbucket with Jira Data Center](/git-integration-for-jira-self-managed/Bitbucket-Server)
-
-page icon as list [Integrate Bonobo with Jira Data Center](/git-integration-for-jira-self-managed/Bonobo)
-
-page icon as list [Integrate Tracked Folders with Jira Data Center](/git-integration-for-jira-self-managed/Tracked-Folders)
-
-page icon as list [Integrate Windows Network/Server Share with Jira Data Center](/wiki/spaces/GIJDC/pages/91881564/Windows+Network+%7C+Server+Share)

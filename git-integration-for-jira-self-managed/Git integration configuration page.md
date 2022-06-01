@@ -74,7 +74,4 @@ As of **v2.8.3+** of the Git Integration for Jira app, the REST API for mana
 **Integration REST API**
 As of **v3.5.0.2+** of the Git Integration for Jira app, the REST API for managing integrations are implemented. The documentation for this feature is available at [Integration REST API](/wiki/spaces/GITSERVER/pages/360808449/Integration+API).
 
-[« Setting up repositories (index)](/wiki/spaces/GIJDC/pages/1930396906/Setting+up+repositories)
-
-[Using the Add new integration wizard »](/wiki/spaces/GIJDC/pages/1930397044/Using+the+Add+new+integration+wizard)
 

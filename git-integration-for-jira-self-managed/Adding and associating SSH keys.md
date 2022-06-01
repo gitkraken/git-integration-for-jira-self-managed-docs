@@ -52,7 +52,3 @@ For custom git hosting servers, ask your administrator to check that the target 
 
 For more information, see the following article [**Setting up Git on the Server**](https://git-scm.com/book/it/v2/Git-on-the-Server-Setting-Up-the-Server).
 
-[« SSH keys configuration](/wiki/spaces/GIJDC/pages/1930396746/SSH+keys+configuration)
-
-[Removing SSH keys »](/wiki/spaces/GIJDC/pages/1930396835/Removing+SSH+keys)
-

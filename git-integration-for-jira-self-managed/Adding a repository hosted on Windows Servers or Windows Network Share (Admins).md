@@ -45,9 +45,3 @@ and the repository exists.
 
 For more information, see [Setting up repositories – Adding a Repository Hosted on Windows Servers or Windows Network Share](/git-integration-for-jira-self-managed/adding-a-repository-hosted-on-windows-server-or-windows-network-share/).
 
-* * *
-
-[Previous: General settings - Improving Jira performance](/git-integration-for-jira-self-managed/general-settings-improving-jira-performance/)
-
-[Next: Setting up repository root not located in Jira Home directory (Admins)](/git-integration-for-jira-self-managed/setting-up-repository-root-not-located-in-jira-home-directory-admins/)
-

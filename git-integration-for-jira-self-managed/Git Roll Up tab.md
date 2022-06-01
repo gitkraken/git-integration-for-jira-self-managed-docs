@@ -33,7 +33,3 @@ Select roll up options by clicking the respective **Rollup** button.
 
 To view the code diff of the file, click the corresponding  filename on the **Files** summary table. A dialog will appear displaying the file diff between the first and last revisions of the commit.
 
-[« JIra issue page (index)](/wiki/spaces/GIJDC/pages/1930398870/Jira+issue+page)
-
-[Git Commits tab »](/wiki/spaces/GIJDC/pages/1930398950/Git+Commits+tab)
-
