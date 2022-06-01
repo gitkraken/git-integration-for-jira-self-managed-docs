@@ -17,7 +17,7 @@ The wizard will continue without errors if the following conditions are met:
 *   The user under which Jira is running should have **read** access to network path.
 
 
-In the Manage git repositories page, edit the repository via ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit repository settings**.
+In the Manage git repositories page, edit the repository via Actions ➜ **Edit repository settings**.
 
 Under **Repository Settings**, set _**Enable Fetches**_ option to `Git repository hosted on the same server as Jira`.
 
@@ -43,9 +43,11 @@ and the repository exists.
 ```
 
 
-For more information, see [Setting up repositories – Adding a Repository Hosted on Windows Servers or Windows Network Share](/wiki/spaces/GIJDC/pages/1930397287/Adding+a+repository+hosted+on+Windows+Server+or+Windows+Network+share).
+For more information, see [Setting up repositories – Adding a Repository Hosted on Windows Servers or Windows Network Share](/git-integration-for-jira-self-managed/adding-a-repository-hosted-on-windows-server-or-windows-network-share/).
 
-[« General settings: Improving Jira performance](/wiki/spaces/GIJDC/pages/1930396229/General+settings%3A+Improving+Jira+performance)
+* * *
 
-[Setting up repository root not located in Jira Home directory (Admins) »](/wiki/spaces/GIJDC/pages/1930396317)
+[Previous: General settings - Improving Jira performance](/git-integration-for-jira-self-managed/general-settings-improving-jira-performance/)
+
+[Next: Setting up repository root not located in Jira Home directory (Admins)](/git-integration-for-jira-self-managed/setting-up-repository-root-not-located-in-jira-home-directory-admins/)
 

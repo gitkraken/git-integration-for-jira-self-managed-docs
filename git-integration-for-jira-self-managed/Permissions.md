@@ -13,17 +13,6 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b>VERSION 4.0+</b> We are dropping support for Jira 7.x.x.
-    </div>
-    </div>
-</div>
-
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
         <b>VERSION 4.0+</b> We are dropping support for Jira 7.x.x.<br>
         <b>VERSION 2.13.0+</b> We are dropping support for Java 7, Jira 6.3 and 6.4.<br>
         <b>VERSION 3.5.1+</b> Dropped support for Internet Explorer 11 browser.
@@ -44,9 +33,11 @@ taxonomy:
 
 ## Permissions Requirement to Display Commit Information
 
-https://bigbrassband.wistia.com/medias/ynjggc2wzg?embedType=async&seo=false&videoFoam=true&videoWidth=754
+<div class='embed-container embed-container--16-9'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/ynjggc2wzg?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
 
-_Right click_ [_here_](https://bigbrassband.wistia.com/medias/ynjggc2wzg) _to open this video in a new browser tab for more viewing options._
+_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/ynjggc2wzg) _to open this video in a new browser tab for more viewing options._
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -73,3 +64,4 @@ Consider the following criteria when setting permissions:
 *   Project permissions are configured on the project administration page. Different projects may have different permissions.
 
 *   Default permission scheme grants access to add-on to all members of _**administrators**_ and _**developers**_ groups. No additional configuration is required in this case.
+
