@@ -7,11 +7,6 @@ taxonomy:
 
 ---
 
-# In the temp location, I see several jar files with different versions updated at the same time. What would be the procedure for cleaning them up?
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/2053865535>
-
-* * *
 
 Make sure that the UPM add-on installed in your Jira instance is the latest version.
 
@@ -38,19 +33,3 @@ The goal here is to end up with only one copy of the `jira_git_plugin jar` file 
     
 4.  Run Jira.
     
-
-*   Page:
-    
-    [How do I reinstall the plugin?](/wiki/spaces/GIJDC/pages/2054029344)
-    
-*   Page:
-    
-    [How do I uninstall the Git Integration for Jira app and delete its data?](/wiki/spaces/GIJDC/pages/2053832772)
-    
-*   Page:
-    
-    [In the temp location, I see several jar files with different versions updated at the same time. What would be the procedure for cleaning them up?](/wiki/spaces/GIJDC/pages/2053865535)
-    
-*   Page:
-    
-    [When removing the Git Integration for Jira app indexing service, there are 2 services listed: "GitRevisionIndexerJob" AND "Git Revision Indexing Service". Which should I delete?](/wiki/spaces/GIJDC/pages/2053865556)

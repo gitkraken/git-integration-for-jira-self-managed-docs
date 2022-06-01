@@ -14,14 +14,14 @@ You are getting this error because of wrong login credentials or a permission is
 
 The most common cause is a wrong login credentials input.
 
-REPOSITORY LEVEL Go to the **Manage** **Git repositories** configuration list. Select ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions** for a particular repository then **Edit repository settings**.
+REPOSITORY LEVEL Go to the **Manage** **Git repositories** configuration list. Select ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions** for a particular repository then **Edit repository settings**.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2051375177/gitserver-git-uploack-pack-err-01.png?version=1&modificationDate=1642158042088&cacheVersion=1&api=v2&width=680&height=501)
 
 Check the repository properties for the **Username** and **Password/PAT** fields and verify that they are filled with correct values. Retype login credentials just to make sure and save the settings.
 
 
-INTEGRATION LEVEL Go to the **Manage** **Git repositories** configuration list. Select ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions** for a particular repository then **Edit integration connection settings**.
+INTEGRATION LEVEL Go to the **Manage** **Git repositories** configuration list. Select ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions** for a particular repository then **Edit integration connection settings**.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2051375177/gitserver-git-upload-pack-err-02.png?version=1&modificationDate=1642158455218&cacheVersion=1&api=v2&width=680&height=264)
 
@@ -73,7 +73,7 @@ To get a better view of the cause of the error:
 
     Enable debug logging for jgit library in Jira:
 
-    1.  Go to ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Jira Administration** ➜ **System**.
+    1.  Go to ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Jira Administration** ➜ **System**.
 
     2.  On the sidebar, under _**System Support**_, click **Logging and profiling**.
 
@@ -88,7 +88,7 @@ To get a better view of the cause of the error:
 
     1.  Write down the current time right before doing a reindex – let's call it `time1`.
 
-    2.  Do a reindex for your integration/repository via dashboard menu Git ➜ Manage repositories ➜ ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Reindex integration/repository**.
+    2.  Do a reindex for your integration/repository via dashboard menu Git ➜ Manage repositories ➜ ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Reindex integration/repository**.
 
     3.  After the reindex is complete, write down the current time – let's call it `time2`.
 
@@ -150,30 +150,3 @@ From the above log:
 3.  Verify that `jira` is the expected username and `jirapassword` is the expected password.
 
 
-*   Page:
-
-    [I have an existing git repository on a Jira server. How can I figure out what values should be used for Repository origin and Repository root fields?](/wiki/spaces/GIJDC/pages/2051145752)
-
-*   Page:
-
-    [Can the app be configured to handle or scan multiple keys for one project? How is this supposed to work?](/wiki/spaces/GIJDC/pages/2052128838)
-
-*   Page:
-
-    [Where is the location of the local git repository?](/wiki/spaces/GIJDC/pages/2051080265)
-
-*   Page:
-
-    [How do you configure the Repository Root which is not located in a Jira home directory with Git Integration for Jira?](/wiki/spaces/GIJDC/pages/2052128856)
-
-*   Page:
-
-    [I get the following error: "Host or port specified in <git\_repository\_url> are inaccessible". Do I also need a git instance on the Jira server?](/wiki/spaces/GIJDC/pages/2051375166)
-
-*   Page:
-
-    [We use GitBlit without SSH keys and use only HTTPS instead. Does Git Integration for Jira app support this?](/wiki/spaces/GIJDC/pages/2051440710)
-
-*   Page:
-
-    [I am using Jira which is hosted on Windows. I changed the password of the Active Directory account running Jira. Now, I cannot access my repository. Why?](/wiki/spaces/GIJDC/pages/2051768359)

@@ -31,7 +31,3 @@ Use the FAQ below to find answers to common questions. Feel free to contact our
 *   Page:
 
     [How to associate a commit, branch or pull request AFTER it has been created?](/wiki/spaces/GIJDC/pages/2062974977)
-
-
-
-[< Back to FAQ index](/wiki/spaces/GIJDC/pages/92176390/Frequently+Asked+Questions)

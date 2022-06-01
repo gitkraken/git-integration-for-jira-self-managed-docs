@@ -7,11 +7,6 @@ taxonomy:
 
 ---
 
-# After upgrading Jira from 4.1.1 to 5.2.9, I get some errors "Folder ... FORNEOnlineSolver git doesn't exist". Where can I set the path correctly? Is there any properties file?
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/2042331241>
-
-* * *
 
 Please visit Git Integration for Jira app config and check Git Repositories tab (_Jira dashboard menu **Git** ➜ **Manage repositories** ➜_ ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _**Actions**_):
 
