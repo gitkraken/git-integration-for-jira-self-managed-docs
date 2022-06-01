@@ -73,7 +73,7 @@ As of **v2.8.5+** of the Git Integration for Jira app, Jira administrators can
 
 INTRODUCED VERSION 2.12.0+
 
-On your dashboard menu, go to Git ➜ Manage repositories ➜ **General settings** (sidebar). (Alternatively, go to  ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Jira Administration ➜ Applications ➜ **General settings**).
+On your dashboard menu, go to Git ➜ Manage repositories ➜ **General settings** (sidebar). (Alternatively, go to Jira Administration ➜ Applications ➜ **General settings**).
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396229/gitserver-gencfg-jql-search-loc2.png?version=1&modificationDate=1630642785286&cacheVersion=1&api=v2)
 
@@ -81,7 +81,16 @@ Enable/disable the JQL searching setting.
 
 This general setting allows administrators to enable/disable the JQL functions within the Git Integration for Jira app.
 
-Turn off this setting to improve Jira performance.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Turn off this setting to improve Jira performance.
+    </div>
+    </div>
+</div>
 
 ## Smart commits setting
 
@@ -95,7 +104,16 @@ To improve performance, turn off smart commits on initial indexing then turn it 
 
 Enable/disable the setting to allow sending of email notifications when a commit is made. This setting defaults to OFF for upgrades and ON for new installation of the Git Integration for Jira app.
 
-Turn off this setting to improve Jira performance.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Turn off this setting to improve Jira performance.
+    </div>
+    </div>
+</div>
 
 ## Git Activity Stream
 
@@ -103,9 +121,19 @@ Turn off this setting to improve Jira performance.
 
 Enable/disable the setting whether to show git commits in the Jira activity stream (Issue page or dashboard widget) or not. For in-place upgrade of the Git Integration for Jira app, this setting is turned off by default.  For new installation, the default setting is enabled.
 
-Disabling this setting will improve Jira performance.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Disabling this setting will improve Jira performance.
+    </div>
+    </div>
+</div>
 
-[« New GitLab v10+ authentication](/wiki/spaces/GIJDC/pages/1930396211)
+* * *
 
-[Adding a repository hosted on Windows Servers or Windows Network share (Admins) »](/wiki/spaces/GIJDC/pages/1930396287)
+[Previous: New GitLab v10+ authentication](/git-integration-for-jira-self-managed/new-gitlab-v10-authentication/)
 
+[Next: Adding a repository hosted on Windows Servers or Windows Network share (Admins)](/git-integration-for-jira-self-managed/adding-a-repository-hosted-on-windows-servers-or-windows-network-share-admins/)

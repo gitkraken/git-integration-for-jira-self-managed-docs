@@ -34,7 +34,7 @@ For this workaround to work, the user must have an access to a Jira hosting inst
     sudo chown user ~/Image-repo
     ```
 
-5.  Using the local path, connect the repository via the [Git Integration for Jira app Advanced setup wizard](/wiki/spaces/GIJDC/pages/1930397180/Connecting+a+repository+via+Advanced+setup). Use the correct local path for the Git for Jira app to successfully detect the repository.
+5.  Using the local path, connect the repository via the [Git Integration for Jira app Advanced setup wizard](/git-integration-for-jira-self-managed/connecting-a-repository-via-advanced-setup/). Use the correct local path for the Git for Jira app to successfully detect the repository.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930396447/connect-git-repo-advanced-local-path(c).png?version=1&modificationDate=1630642794200&cacheVersion=1&api=v2&width=646&height=549)
 6.  Click **Detect** to specify the origin value.
@@ -44,15 +44,26 @@ For this workaround to work, the user must have an access to a Jira hosting inst
 
 The repository is added and indexing should work.
 
-In VERSION 2.12.0 of the Git Integration for Jira app, the General setting for **Git operations timeout** was implemented.
+In **VERSION 2.12.0** of the Git Integration for Jira app, the General setting for **Git operations timeout** was implemented.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396447/image-20210304-084400.png?version=1&modificationDate=1630642794438&cacheVersion=1&api=v2)
 
 This setting affects how long will Git Integration for Jira app waits for connections performed during git clone and git fetch. BigBrassBand recommends to increase the time value if you have large repositories, and in some cases, connecting to them mostly results in timeout.
 
-If you have several large repositories and have a problem with exceeded timeout, we recommend that you use our [Tracked folders](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930396479/Working+with+Tracked+folders) feature to scan local folders at once and import repositories automatically.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        If you have several large repositories and have a problem with exceeded timeout, we recommend that you use our <a href='/git-integration-for-jira-self-managed/working-with-tracked-folders/'>Tracked folders</a> feature to scan local folders at once and import repositories automatically.
+    </div>
+    </div>
+</div>
 
-[« Setting up webhooks](/wiki/spaces/GIJDC/pages/1930396415/Setting+up+webhooks)
+* * *
 
-[Working with Tracked folders »](/wiki/spaces/GIJDC/pages/1930396479/Working+with+Tracked+folders)
+[Previous: Setting up webhooks](/git-integration-for-jira-self-managed/setting-up-webhooks/)
+
+[Next: Working with Tracked folders](/git-integration-for-jira-self-managed/working-with-tracked-folders/)
 
