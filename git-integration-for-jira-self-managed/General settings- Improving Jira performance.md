@@ -14,7 +14,7 @@ taxonomy:
 - [Commit Notification Emails](#commit-notification-emails)
 - [Git Activity Stream](#git-activity-stream)
 
-* * *
+<hr>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
