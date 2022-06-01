@@ -40,8 +40,3 @@ The **Roll Up** refers to an existing Git Roll Up view, which the issue tab 
 | --- |
 | Click **Compare code** to open the following dialog: |
 | ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399012/dev-panel-compare-code-dlg.png?version=1&modificationDate=1630642917074&cacheVersion=1&api=v2&width=544&height=285)<br><br>  <br>Compare code diff of different branches by performing the following options:<br><br>1.  Select a **Repository**.<br>    <br>2.  Set **Compare** branch and **Base** branch.<br>    <br>3.  Click **Compare** to proceed.<br>    <br><br>The view redirects to the Repository Browser ➜ **Compare** tab showing changes between the compared branches.<br><br>The most commonly used name for the main branch is _**master**_. For this documentation, the _**master**_ branch is also the main branch. |
-
-[« Jira issue page](/wiki/spaces/GIJDC/pages/1930398870/Jira+issue+page)
-
-[Development panel locations »](/wiki/spaces/GIJDC/pages/1930399041/Development+panel+locations)
-
