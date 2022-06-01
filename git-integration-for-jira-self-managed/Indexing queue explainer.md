@@ -51,7 +51,7 @@ B. The existing branches are scanned from the last branch commit (if it still ex
 
 The initial indexing of large repositories can take several hours. Subsequent indexing of repositories is generally very fast (seconds). The amount of time required for indexing depends on the number of branches and commits in the repository.
 
-The "Reset index" functionality (![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Reset index**) is used to re-create or repair the repository Lucene index and causes the GIJ plugin to re-read all commits from all repository branches (like the initial indexing does).
+The "Reset index" functionality (![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Reset index**) is used to re-create or repair the repository Lucene index and causes the GIJ plugin to re-read all commits from all repository branches (like the initial indexing does).
 
 ### Reindexing queue: Operations
 
@@ -209,61 +209,3 @@ When troubleshooting indexing issues it may be useful to [enable the logging](/w
 
 *   Repository removing - INFO/DEBUG for `com.bigbrassband.jira.git.services.gitmanager.visitors.RemoveVisitor`.
 
-
-## ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Related articles
-
-*   Page:
-
-    [The git notes are still not visible in Jira. What should I do?](/wiki/spaces/GIJDC/pages/2054225956)
-
-*   Page:
-
-    [Is there a URL I can call to trigger fetch and re-index? Would be nice to add as service hook to GitHub/Gitlab.](/wiki/spaces/GIJDC/pages/2053832750)
-
-*   Page:
-
-    [Is it possible to track the specified branches when reindexing?](/wiki/spaces/GIJDC/pages/2053406744)
-
-*   Page:
-
-    [How do I clear the Git Integration for Jira app cache manually?](/wiki/spaces/GIJDC/pages/2053406737)
-
-*   Page:
-
-    [How do I completely rebuild plugin indexes?](/wiki/spaces/GIJDC/pages/2053734434)
-
-*   Page:
-
-    [Commits are not showing right away. Can they show up faster?](/wiki/spaces/GIJDC/pages/2053570566)
-
-*   Page:
-
-    [Is there any way to control the reindex?](/wiki/spaces/GIJDC/pages/2053275662)
-
-*   Page:
-
-    [What does re-index do?](/wiki/spaces/GIJDC/pages/2054291457)
-
-*   Page:
-
-    [Indexing queue explainer](/wiki/spaces/GIJDC/pages/2047902017/Indexing+queue+explainer)
-
-*   Page:
-
-    [Reindexing](/git-integration-for-jira-self-managed/Reindexing)
-
-*   Page:
-
-    [Reindex POST API](/wiki/spaces/GIJDC/pages/380666409/Reindex+POST+API)
-
-*   Page:
-
-    [Webhooks](/git-integration-for-jira-self-managed/Webhooks)
-
-*   Page:
-
-    [Hooks and Webhooks](/wiki/spaces/GIJDC/pages/94208056/Hooks+and+Webhooks)
-
-*   Page:
-
-    [Reindex and cache](/wiki/spaces/GIJDC/pages/92209341/Reindex+and+cache)

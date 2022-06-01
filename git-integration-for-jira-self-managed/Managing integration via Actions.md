@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-After integrating your repository or git host, a set of actions can be performed by clicking the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) icon under the **Actions** column on the repository/integration configuration list.
+After integrating your repository or git host, a set of actions can be performed by clicking the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) icon under the **Actions** column on the repository/integration configuration list.
 
 The set of functions depends on what type of integration or repository connection is selected:
 
@@ -45,12 +45,7 @@ The set of functions depends on what type of integration or repository connectio
 
 The tracked folder and auto-connect integrations can be configured using the following methods:
 
-*   **Integration** _level_  –  Click ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit integration connection settings**. This will open the settings for the selected integration.
+*   **Integration** _level_  –  Click ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit integration connection settings**. This will open the settings for the selected integration.
 
-*   **Repository** _level_  –  Click ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Show integration repositories**. Click a repository from the list to open the settings for the selected repository.
-
-
-[« Managing repository or integration configuration](/wiki/spaces/GIJDC/pages/1930397435/Managing+repository+or+integration+configuration)
-
-[Show tracked or integration repositories »](/wiki/spaces/GIJDC/pages/1930397507/Show+tracked+or+integration+repositories)
+*   **Repository** _level_  –  Click ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Show integration repositories**. Click a repository from the list to open the settings for the selected repository.
 

@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-Manage connected repositories or integration via the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions** commands on the git configuration page.
+Manage connected repositories or integration via the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions** commands on the git configuration page.
 
 ## Introduction
 
@@ -34,9 +34,4 @@ For the repository/integration list, utilize the following references for the co
 | **Last indexed** | Shows how long the time the integration was last indexed. | JIRA SERVER DATA CENTER |
 | **Last indexer check** | Shows the date and time the indexing service has checked if the repository should be examined for changes.<br><br>For more information on Jira Cloud indexer, see [**Jira Cloud: Indexing Explainer**](https://bigbrassband.atlassian.net/wiki/spaces/BBBSUPPORT/pages/187596801/Jira+Cloud+Indexing+Explainer). | JIRA CLOUD |
 | **Status** | Shows the index status of the integration.<br><br>*   It shows UPDATED if _Repository Root_ is configured correctly and the Jira instance can access it.<br>    <br>*   (JIRA SERVER DATA CENTER) It shows DISABLED if the Enabled status of connected repository is unchecked.<br>    <br>*   It shows REINDEXING, RUNNING, or QUEUED during reindexing of the connected repository or tracked folder/repositories.<br>    <br>*   It shows ERROR if the connected repository has connection issues with the configured git host. | JIRA SERVER DATA CENTER JIRA CLOUD |
-| **Actions** | To the right of the **Status** column are actions that can be performed for the selected connected repository/integration.<br><br>Clicking the Actions ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) icon will open a context menu with a set of functions for managing integrations. The Actions sub-menu functions will depend on the type of integration you were working on.<br><br>For more information, see **Managing Integration via Actions** for your specific platform: [Jira Cloud](https://bigbrassband.com/git-integration-for-jira/documentation/setting-up-repos-manage-integration.html#manage_integration_actions_cloud), [Jira Server/Data Center](https://bigbrassband.com/git-integration-for-jira/documentation/setting-up-repos-manage-integration.html#manage_integration_actions_serverdc). | JIRA SERVER DATA CENTER JIRA CLOUD |
-
-[« Self-signed HTTPS integration](/wiki/spaces/GIJDC/pages/1930397349/Self-signed+HTTPS+integration)
-
-[Managing integration via Actions »](/wiki/spaces/GIJDC/pages/1930397476/Managing+integration+via+Actions)
-
+| **Actions** | To the right of the **Status** column are actions that can be performed for the selected connected repository/integration.<br><br>Clicking the Actions ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) icon will open a context menu with a set of functions for managing integrations. The Actions sub-menu functions will depend on the type of integration you were working on.<br><br>For more information, see **Managing Integration via Actions** for your specific platform: [Jira Cloud](https://bigbrassband.com/git-integration-for-jira/documentation/setting-up-repos-manage-integration.html#manage_integration_actions_cloud), [Jira Server/Data Center](https://bigbrassband.com/git-integration-for-jira/documentation/setting-up-repos-manage-integration.html#manage_integration_actions_serverdc). | JIRA SERVER DATA CENTER JIRA CLOUD |

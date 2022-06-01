@@ -7,11 +7,11 @@ taxonomy:
 
 ---
 
-Access the Repository Browser via Jira dashboard menu Git ➜ **Repository browser** or alternatively, go to ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Jira Administration ➜ _**Apps**_ ➜ _Git Integration for Jira_ _(sidebar)_ **➜ Repository browser**.
+Access the Repository Browser via Jira dashboard menu Git ➜ **Repository browser** or alternatively, go to ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Jira Administration ➜ _**Apps**_ ➜ _Git Integration for Jira_ _(sidebar)_ **➜ Repository browser**.
 
 ## Repository Browser settings
 
-On the git repository configuration page, click ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit** **integration/repository settings** to modify required repository settings. The _Advanced setup_ screen for configuring repositories is displayed.
+On the git repository configuration page, click ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit** **integration/repository settings** to modify required repository settings. The _Advanced setup_ screen for configuring repositories is displayed.
 
 Scroll down to the _**Repository Browser**_ section.
 
@@ -33,8 +33,3 @@ Select `Enabled` to activate this feature for this repository. Otherwise, set 
 | _This example is a filtering regexp for a range of releases from 2.7.x to 2.8.x. The sidebar will display git tags for release versions 2.7.0 to 2.8.x in descending order._ |
 
 Click **Update** to save configuration changes for this repository.
-
-[« Comparing branches/tags in Repository Browser](/wiki/spaces/GIJDC/pages/1930398705)
-
-[Viewing commit code diffs »](/wiki/spaces/GIJDC/pages/1930398768/Viewing+commit+code+diffs)
-

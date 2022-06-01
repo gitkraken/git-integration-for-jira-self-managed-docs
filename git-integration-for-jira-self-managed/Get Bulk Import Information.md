@@ -22,7 +22,7 @@ Any Jira user can perform the Getting Bulk Import Information API call.
 | _**response**_ |     |
 | JSON<br><br>Returns the status information of the import process. |     |
 | **Download sample file** |     |
-| ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) [**configuration\_progress.py**](https://bigbrassband.com/files/configuration_progress.zip) |     |
+| ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) [**configuration\_progress.py**](https://bigbrassband.com/files/configuration_progress.zip) |     |
 
 |     |
 | --- |

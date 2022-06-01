@@ -72,7 +72,7 @@ To enable/disable the _**Require User PAT**_ setting for all repositories with
 3.  With the Personal Access Token saved, the user will now see the following:
 
     ![](https://bigbrassband.atlassian.net/wiki/download/attachments/317390849/gitserver-create-branch-dlg-use-pat-sel(c).png?version=1&modificationDate=1641640873038&cacheVersion=1&api=v2)
-4.  Users can also go to the **Repository browser** screen and then configure the Personal Access Token for the repository via the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) edit icon.
+4.  Users can also go to the **Repository browser** screen and then configure the Personal Access Token for the repository via the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) edit icon.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/attachments/317390849/gitserver-repo-browser-PAT-col-sel(c).png?version=1&modificationDate=1641640873041&cacheVersion=1&api=v2)
     *   The checkmark adjacent to the edit icon indicates that the PAT has been configured.

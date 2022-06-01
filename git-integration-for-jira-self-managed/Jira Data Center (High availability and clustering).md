@@ -45,11 +45,11 @@ The trustFolderStat setting can be accessed in the following locations:
 
 *   Jira dashboard menu **Git** ➜ Manage repositories ➜ **General Settings**.
 
-*   Manage repositories ➜ ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit integration connection settings**.
+*   Manage repositories ➜ ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit integration connection settings**.
 
-*   ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Show integration repositories** ➜ click a repository (_Integration_ ➜ repository level settings).
+*   ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Show integration repositories** ➜ click a repository (_Integration_ ➜ repository level settings).
 
-*   ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit repository settings**.
+*   ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit repository settings**.
 
 *   Manage repositories page ➜ Connect to Git repository ➜ **Advanced setup**.
 
@@ -59,7 +59,3 @@ When the _**trustFolderStat**_ setting is set to **false**, the `.git/object
 The _default_ setting for Jira Data Center is **false**.
 
 If your repository is stored on a network share, it is highly recommended to set this setting to _**false**_.
-
-[« Integration webhooks](/git-integration-for-jira-self-managed/Integration-webhooks)
-
-[Localization support »](/git-integration-for-jira-self-managed/Localization-support)
