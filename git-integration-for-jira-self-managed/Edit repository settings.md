@@ -9,7 +9,7 @@ taxonomy:
 
 HOSTED EXTERNAL FOLDER
 
-Click ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Action ➜ **Edit repository settings** to open the **Git Repository - Advanced** page where you can change the settings of the selected connected repository: `HOSTED`, `EXTERNAL` or `FOLDER`.
+Click ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Action ➜ **Edit repository settings** to open the **Git Repository - Advanced** page where you can change the settings of the selected connected repository: `HOSTED`, `EXTERNAL` or `FOLDER`.
 
 Utilize the options below for configuring repository settings:
 
@@ -37,8 +37,4 @@ Utilize the options below for configuring repository settings:
 | _**Web Linking**_ | _Optional._<br><br>The web linking feature adds links to your git hosting provider directly into the Git Commits tab. For special integrations (Auto-Connect), this feature is configured automatically. For more information on about this topic, see [Web linking](/git-integration-for-jira-self-managed/Web-linking). | EXTERNAL |
 
 **AU**
-
-[« Edit integration feature settings](/wiki/spaces/GIJDC/pages/1930397576/Edit+integration+feature+settings)
-
-[SSL verify »](/git-integration-for-jira-self-managed/SSL-verify)
 

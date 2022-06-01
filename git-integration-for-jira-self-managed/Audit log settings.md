@@ -45,7 +45,7 @@ Click **Advanced** to expand the audit log events. Enable/disable event items to
 
 ## View Jira audit log
 
-Click this label link to take you to the Jira administrator system Audit log page. Alternatively, go to ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Jira administration** ➜ **System** ➜ **Audit log**.
+Click this label link to take you to the Jira administrator system Audit log page. Alternatively, go to ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Jira administration** ➜ **System** ➜ **Audit log**.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1207828866/jira-server-audit-log-navigation.png?version=1&modificationDate=1613126221574&cacheVersion=1&api=v2)
 

@@ -57,7 +57,7 @@ The Setup PAT dialog can also be accessed on the Repository Browser under _**Per
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399090/gitserver-repo-browser-setup-pat-highlight.png?version=1&modificationDate=1630669274634&cacheVersion=1&api=v2&width=680&height=381)
 
-*   Click ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) to setup a PAT for the selected repository. The PAT setup dialog appears.
+*   Click ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) to setup a PAT for the selected repository. The PAT setup dialog appears.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399090/gitserver-setup-your-user-pat-dlg-new(c).png?version=1&modificationDate=1630668474897&cacheVersion=1&api=v2&width=544&height=300)
 *   Paste a valid PAT of the current user to proceed. Invalid PATs will fail the branch creation process.
@@ -98,8 +98,3 @@ The **Branches** section is only visible if commits from this branch are not m
 If the user does not have the **View Development Tools** _project permission_ for the project, the developer panel will be unavailable for that user.
 
 For detailed information about creating branches, see article [Creating branches](/git-integration-for-jira-self-managed/Creating-branches).
-
-[« Jira git integration development panel](/wiki/spaces/GIJDC/pages/1930399012/Jira+Git+integration+development+panel)
-
-[Pull or merge requests (Development panel) »](/wiki/spaces/GIJDC/pages/1930399144)
-

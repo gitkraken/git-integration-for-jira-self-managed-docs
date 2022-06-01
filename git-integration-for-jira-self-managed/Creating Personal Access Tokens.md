@@ -63,7 +63,7 @@ If two-factor authentication is enabled for your GitLab account, you will need t
 
 While instructions from GitLab works just fine, here are some specific instructions to get you up and running:
 
-1.  Login to your GitLab account then go to your profile settings (menu ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Profile ➜ **Preferences**).
+1.  Login to your GitLab account then go to your profile settings (menu ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Profile ➜ **Preferences**).
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/107380737/gitlab-user-profile-settings(c).png?version=1&modificationDate=1650870599414&cacheVersion=1&api=v2&width=251&height=313)
 2.  On the sidebar, click **Access Tokens**.

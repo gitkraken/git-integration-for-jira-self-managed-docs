@@ -9,7 +9,7 @@ taxonomy:
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397576/gitcfg-actions-edit-feature-conn-cfg.png?version=1&modificationDate=1630642846599&cacheVersion=1&api=v2&width=680&height=213)
 
-Clicking ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit integration feature settings** opens the configuration page for integration features settings.
+Clicking ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit integration feature settings** opens the configuration page for integration features settings.
 
 Utilize the following options to configure the selected integration:
 
@@ -54,8 +54,3 @@ Utilize the following options to configure the selected integration:
 | ### Commit Notification Emails |
 | ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397576/gitserver-edit-features-commit-notif-emails.png?version=1&modificationDate=1630642848253&cacheVersion=1&api=v2&width=680&height=116) |
 | Enable/disable this setting to allow/deny sending of commit notification emails.<br><br>Set the **Max commit age (in minutes)** as to when commit notifications will be sent. Commit notifications will be e-mailed if the age of the commit is less than or equal to this value. |
-
-[« Edit integration connection settings](/wiki/spaces/GIJDC/pages/1930397536/Edit+integration+connection+settings)
-
-[SSL verify »](/git-integration-for-jira-self-managed/SSL-verify)
-

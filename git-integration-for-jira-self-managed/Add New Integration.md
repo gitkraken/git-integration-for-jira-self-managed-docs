@@ -29,7 +29,7 @@ Only Jira admins can perform the Add New Integration API call.
 | _**username**_ | _String._ Optional.<br><br>Set as username for the git host. Leave blank if 2FA is enabled. |
 | _**password**_ | _String._ Optional.<br><br>Set as password for the git host. Leave blank if 2FA is enabled. |
 | _**pat**_ | _String_. Optional.<br><br>This field accepts personal access token from supported git hosts. Fill this in if 2FA is enabled for the git host. |
-| _**disableSslVerification**_ | _Boolean._ Optional.<br><br>The default value for this setting is _**false**_.<br><br>The **SSL Verify** setting is set to **Enabled** by default. If set to disabled, the Git Integration for Jira app will ignore verification of SSL certificates when connecting to a git server.<br><br>This setting can also be accessed via **Manage Git repositories** ➜   <br>![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Actions_ ➜ **Edit repository settings**. |
+| _**disableSslVerification**_ | _Boolean._ Optional.<br><br>The default value for this setting is _**false**_.<br><br>The **SSL Verify** setting is set to **Enabled** by default. If set to disabled, the Git Integration for Jira app will ignore verification of SSL certificates when connecting to a git server.<br><br>This setting can also be accessed via **Manage Git repositories** ➜   <br>![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Actions_ ➜ **Edit repository settings**. |
 | _**apiPath**_ | _String_. Optional.<br><br>The integration will use the relative REST API path starting with "/" to retrieve the list of tracked repositories. For more information, see article [Working with Custom API path](/wiki/spaces/GIJDC/pages/135331922/Working+with+Custom+API+Path). |
 | _**apiFilter**_ | _String_. Optional.<br><br>It is a [**JMESPath**](http://jmespath.org/) filter expression. The expression will be used to filter API results such as repository names, etc. For more information, see article [Working with JMESPath filters](/wiki/spaces/GIJDC/pages/135430238/Working+with+JMESPath+Filters). |
 | _**tfsCollection**_ | _String_. Optional.<br><br>Specify the specific collection to connect. It is used for Microsoft integrations only. |
@@ -42,7 +42,7 @@ Only Jira admins can perform the Add New Integration API call.
 | _**revisionIndexing**_ | _Boolean_. Optional.<br><br>This setting turns on the memory cache which is used when list of commits are displayed. Set to _**true**_ if revision indexing will index and link to any mentioned issue keys in the revision history or not (_**false**_). |
 | _**tagsFilter**_ | _String._ Optional.<br><br>Displays all tags for the specific issue, if left blank. Otherwise, set tags matching pattern to display tags on issue pages that match the specified regular expression pattern.<br><br>For more information, see example in [Show tags](/git-integration-for-jira-self-managed/Git-tags). |
 | #### _projectMappingIds_ | _Long \[ \]_. Array. Optional.<br><br>These are numeric projects IDs associated with the repository.<br><br>This field accepts list of comma separated project IDs for project mapping. Trailing spaces are ignored _(equivalent to unchecking the_ **Associate to All Projects** _checkbox in the Advanced Setup dialog)_.<br><br>_Example:_ `“projectMappingIds”: [10000,10100]` |
-| _**trustFolderStat**_ | _Boolean._ Optional.<br><br>When the `trustFolderStat` setting is set to **false**, the `.git/objects/pack` folder will be always scanned to check for new pack files. If set to **true**, the `last-modified` attribute of the folder will be used to check the folder for modifications.<br><br>The default value for Jira Data Center is **false**.<br><br>If your repository is stored on a network share, it is highly recommended to set this setting to _**false**_.<br><br>We recommend to leave this setting to **false** _(default)_ when adding new integration. You can change this setting later on via ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Actions_ ➜ _**Edit repository settings**_ in the Manage repositories page.<br><br>The `trustFolderStat` setting can be configured for each repository in the integration. |
+| _**trustFolderStat**_ | _Boolean._ Optional.<br><br>When the `trustFolderStat` setting is set to **false**, the `.git/objects/pack` folder will be always scanned to check for new pack files. If set to **true**, the `last-modified` attribute of the folder will be used to check the folder for modifications.<br><br>The default value for Jira Data Center is **false**.<br><br>If your repository is stored on a network share, it is highly recommended to set this setting to _**false**_.<br><br>We recommend to leave this setting to **false** _(default)_ when adding new integration. You can change this setting later on via ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Actions_ ➜ _**Edit repository settings**_ in the Manage repositories page.<br><br>The `trustFolderStat` setting can be configured for each repository in the integration. |
 | _**refSpecNotes**_ | _Boolean_. Optional.  <br>This is a reference to `refs/notes/*` used for fetching. The default value for this field is _**true**_.<br><br>Git notes are not shown…<br><br>*   when `refs/notes` are disabled on connecting a repository;<br>    <br>*   when a new note comes when `refs/notes` is disabled. |
 | _**refSpecChanges**_ | _Boolean_. Optional.  <br>This is a reference to `refs/changes/*` used for fetching. The default value for this field is _**false**_. |
 | _**refSpecCustom**_ | _String_. Optional.  <br>This is a user-defined list of references used for fetching. It is a comma-separated list with the format: `+refs/refname1/*:refs/refname1/*`, `refs/refname2/*:refs/refname2/*`, ... |
@@ -59,28 +59,3 @@ Only Jira admins can perform the Add New Integration API call.
 | **Response:** |
 | ```java<br>{<br>    "success": "true",<br>    "integration": {<br>        "id": 1,<br>        "displayName": "MyGitHub",<br>        "origin": "https://api.github.com",<br>        "disabled": false,<br>        "sendCommitEmails": true,<br>        "maxMinsToCommitEmail": 1440,<br>        "global": true,<br>        "initDate": 1630493935378,<br>        "lastIndexedDate": 1639056070472,<br>        "revisionIndexing": true,<br>        "gitViewerEnabled": true,<br>        "disableSslVerification": false,<br>        "smartCommitsEnabled": true,<br>        "requireUserPat": false,<br>        "projectMappingIds": [],<br>        "integrationType": "GITHUB",<br>        "sourcesDiffViewEnabled": true,<br>        "refSpecNotes": true,<br>        "refSpecChanges": false,<br>        "trustFolderStat": false<br>    }<br>}<br>``` |
 
-### REST APIs
-
-*   Page:
-
-    [Add New Integration](/wiki/spaces/GIJDC/pages/380666461/Add+New+Integration) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Add New Integration Type API (examples)](/wiki/spaces/GIJDC/pages/380666468) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Update Existing Integration](/wiki/spaces/GIJDC/pages/380699347/Update+Existing+Integration) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Remove Integration](/git-integration-for-jira-self-managed/Remove-Integration) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Retrieve an Integration](/wiki/spaces/GIJDC/pages/380699382/Retrieve+an+Integration) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Retrieve Integration List](/wiki/spaces/GIJDC/pages/380666487/Retrieve+Integration+List) (Git Integration for Jira Data Center)
