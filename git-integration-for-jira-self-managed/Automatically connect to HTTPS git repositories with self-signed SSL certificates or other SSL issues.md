@@ -7,11 +7,6 @@ taxonomy:
 
 ---
 
-# Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930397370/Automatically+connect+to+HTTPS+git+repositories+with+self-signed+SSL+certificates+or+other+SSL+issues>
-
-* * *
 
 Perform auto-connect integration with HTTPS git repositories that have self-signed SSL certificates or other SSL issues. For this guide, we will use GitLab as an example:
 
@@ -33,8 +28,4 @@ Perform auto-connect integration with HTTPS git repositories that have self-sign
     
 8.  Import the detected repositories and then click **Finish** to complete the setup.
     
-
-[« Self-signed HTTPS connections (index)](/wiki/spaces/GIJDC/pages/1930397349/Self-signed+HTTPS+integration)
-
-[Manually connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues »](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930397413/%28GDC%29+Manually+connect+to+HTTPS+git+repositories+with+self-signed+SSL+certificates+or+other+SSL+issues)
 

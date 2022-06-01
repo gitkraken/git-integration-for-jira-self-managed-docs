@@ -50,7 +50,6 @@ _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/ynjggc2wzg) _t
             Administrators must grant themselves the ‘<b><i>View Development Tools</i></b>’ permission in order to view commit information on the issue pages.</div>
         </div>
     </div>
-    </div>
 </div>
 
 The user needs to be in the developers group to view code diffs when default permission scheme is used.
