@@ -223,7 +223,5 @@ The `#label` command will add a new label to a Jira issue. If more than one J
 | --- |
 | **GITCL-443** **#label** `bucketbreakfix` `bucketenhancement`<br>**GITCL-443 GITCL-247 GITCL-214** **#label** `admin@example.com` `user1@example.com` requested-feature new-feature **#comment** `Return email when implemented` |
 
-[**Prev:** Smart commits (index)](/git-integration-for-jira-self-managed/Smart-commits)  
-[**Next:** Advanced examples](/git-integration-for-jira-self-managed/Advanced-examples)  
 <br>
 <br>

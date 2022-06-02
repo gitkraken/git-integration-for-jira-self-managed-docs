@@ -7,12 +7,6 @@ taxonomy:
 
 ---
 
-# Avoid OutOfMemory exceptions by configuring or memory allocation with Jira to accommodate large repositories
-
-<https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/873332786/Avoid+OutOfMemory+exceptions+by+configuring+or+memory+allocation+with+Jira+to+accommodate+large+repositories>
-
-* * *
-
 ## Story
 
 The JGit library loads all index files into the memory and consumes about twice more memory than the size (in bytes) of these files.

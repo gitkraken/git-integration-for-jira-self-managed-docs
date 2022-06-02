@@ -51,7 +51,3 @@ Thus, the part of the transition name up to the invalid character can be used fo
 
 If a smart commit fails, an email notification is sent to either the Jira user, or to the Git user if a Jira user can't be identified.
 
-[« Workflow transitions](/git-integration-for-jira-self-managed/Workflow-transitions)
-
-[Smart commits helper »](/wiki/spaces/GIJDC/pages/1930398529/Smart+commits+helper)
-

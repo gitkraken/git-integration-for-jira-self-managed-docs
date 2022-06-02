@@ -49,7 +49,3 @@ There are alternative solutions to make Java trust this certificate. Refer to t
 
 For related topics on connecting repositories from other git hosts, see [Integration Guides](/wiki/spaces/GIJDC/pages/92176395).
 
-[« Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930397370/%28GDC%29+Automatically+connect+to+HTTPS+git+repositories+with+self-signed+SSL+certificates+or+other+SSL+issues)
-
-[Managing repository or integration configuration »](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930397435/%28GDC%29+Managing+repository+or+integration+configuration)
-

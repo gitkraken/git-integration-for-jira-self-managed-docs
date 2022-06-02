@@ -17,7 +17,3 @@ _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/v2c5qrgps8) _t
 
 To automate the bulk change process via script, see [Bulk change API](/wiki/spaces/GIJDC/pages/380764495).
 
-[« Setting up repositories](/wiki/spaces/GIJDC/pages/1930396906/Setting+up+repositories)
-
-[Exporting repository configuration via Bulk change »](/wiki/spaces/GIJDC/pages/1930397830/Exporting+repository+configuration+via+Bulk+change)
-

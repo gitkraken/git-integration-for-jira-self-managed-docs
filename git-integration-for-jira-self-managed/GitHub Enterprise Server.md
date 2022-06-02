@@ -129,7 +129,7 @@ Assign GitHub Enterprise Server permissions for team members or collaborators to
 
 1.  Login to your GitHub Enterprise Server account.
 
-2.  Go to ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Profile ➜ **Settings**.
+2.  Go to ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Profile ➜ **Settings**.
 
 3.  Under _Organization settings_, click **Member Privileges**.
 
@@ -228,7 +228,7 @@ Click this text label to open the Setup PAT dialog and paste your personal acces
 
 Updating this dialog with a blank entry will remove the configured PAT for the current integration.
 
-The Setup PAT dialog is also accessible via Repository Browser (dashboard menu Git ➜ **Repository browser**) ➜ Click the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) icon under _**Pers. Access**_ column.
+The Setup PAT dialog is also accessible via Repository Browser (dashboard menu Git ➜ **Repository browser**) ➜ Click the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) icon under _**Pers. Access**_ column.
 
 ## Working with branches and pull requests
 

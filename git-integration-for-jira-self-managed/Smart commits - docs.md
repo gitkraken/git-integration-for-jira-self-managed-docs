@@ -48,7 +48,3 @@ The basic syntax for a Smart commit message is:
 
 To know more about syntax, commands and examples on Smart Commits, see [**Processing Jira Software Issues with Smart Commit Messages**](https://confluence.atlassian.com/bitbucket/processing-jira-software-issues-with-smart-commit-messages-298979931.html) at the Atlassian website or proceed to the next page.
 
-[« Linking git commits to Jira issues](/wiki/spaces/GIJDC/pages/1930398265/Linking+git+commits+to+Jira+issues)
-
-[Smart commit: Basic commands »](/git-integration-for-jira-self-managed/Basic-commands)
-

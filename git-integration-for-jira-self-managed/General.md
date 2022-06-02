@@ -13,34 +13,19 @@ Use the FAQ below to find answers to common questions. Feel free to contact our
 
 ### See next FAQs about common questions in general
 
-*   Page:
+*   [What is Git?](/wiki/spaces/GIJDC/pages/2047901870)
 
-    [What is Git?](/wiki/spaces/GIJDC/pages/2047901870)
+*   [What is Git Integration for Jira app?](/wiki/spaces/GIJDC/pages/2047901879)
 
-*   Page:
+*   [Why would I want to see Git in my Jira?](/wiki/spaces/GIJDC/pages/2047901897)
 
-    [What is Git Integration for Jira app?](/wiki/spaces/GIJDC/pages/2047901879)
+*   [How do Git and Jira work together?](/wiki/spaces/GIJDC/pages/2047770846)
 
-*   Page:
+*   [Is this safe? Will it cause trouble?](/wiki/spaces/GIJDC/pages/2047803649)
 
-    [Why would I want to see Git in my Jira?](/wiki/spaces/GIJDC/pages/2047901897)
+*   [Which version of Jira is compatible with Git Integration for Jira app?](/wiki/spaces/GIJDC/pages/2047803656)
 
-*   Page:
-
-    [How do Git and Jira work together?](/wiki/spaces/GIJDC/pages/2047770846)
-
-*   Page:
-
-    [Is this safe? Will it cause trouble?](/wiki/spaces/GIJDC/pages/2047803649)
-
-*   Page:
-
-    [Which version of Jira is compatible with Git Integration for Jira app?](/wiki/spaces/GIJDC/pages/2047803656)
-
-*   Page:
-
-    [How to obtain the correct Jira user name?](/wiki/spaces/GIJDC/pages/2047901940)
+*   [How to obtain the correct Jira user name?](/wiki/spaces/GIJDC/pages/2047901940)
 
 
 
-[< Back to FAQ index](/wiki/spaces/GIJDC/pages/92176390/Frequently+Asked+Questions)

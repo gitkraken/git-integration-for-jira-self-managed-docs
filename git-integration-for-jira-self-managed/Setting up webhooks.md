@@ -49,9 +49,3 @@ For detailed information on setting up webhooks for supported git hosts, see [Gi
     </div>
 </div>
 
-* * *
-
-[Previous: Setting up web linking](/git-integration-for-jira-self-managed/setting-up-web-linking/)
-
-[Next: Increasing timeout threshold for large repositories while doing a Git pull](/git-integration-for-jira-self-managed/increasing-timeout-threshold-for-large-repositories-while-doing-a-git-pull/)
-

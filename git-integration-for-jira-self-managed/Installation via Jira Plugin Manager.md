@@ -16,8 +16,3 @@ taxonomy:
 4.  Login to your Jira account, if required, to proceed installation of the app. The license key is automatically configured into the app configuration for free trial licenses. For purchased license keys, see [Managing license key](/git-integration-for-jira-self-managed/managing-license-key).
 <br>
 <br>
-* * *
-
-[Previous: Installation via Atlassian Marketplace](/git-integration-for-jira-self-managed/installation-via-atlassian-marketplace)
-
-[Next: Manual installation](/git-integration-for-jira-self-managed/manual-installation)

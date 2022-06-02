@@ -25,7 +25,3 @@ The Git Integration for Jira app will read the list from the file, detect the ex
 
 Make the required changes to correct the errors on the affected rows and redo the upload.
 
-[« Requirement for secured import](/wiki/spaces/GIJDC/pages/1930397869/Requirement+for+secured+import)
-
-[Import new repositories via Bulk change »](/wiki/spaces/GIJDC/pages/1930397912/Import+new+repositories+via+Bulk+change)
-

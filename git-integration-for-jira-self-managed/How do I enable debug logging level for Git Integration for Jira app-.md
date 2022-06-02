@@ -8,7 +8,7 @@ taxonomy:
 ---
 The debug logging level can be set by performing the following steps:
 
-1.  On your Jira dashboard, go to ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Jira Administration** ➜ **System**.
+1.  On your Jira dashboard, go to ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Jira Administration** ➜ **System**.
 
 2.  On the sidebar, under **System support**, select **Logging and profiling**.
 
@@ -30,15 +30,3 @@ To report errors:
 
 
 The Git Integration for Jira app — like most Atlassian Marketplace apps — writes to the standard Jira log. The setting you've enabled here causes it to write more log data.
-
-*   Page:
-
-    [How to create the support zip file?](/wiki/spaces/GIJDC/pages/2039447557)
-
-*   Page:
-
-    [How do I enable debug logging level for Git Integration for Jira app?](/wiki/spaces/GIJDC/pages/2038792196)
-
-*   Page:
-
-    [Where can I find the Jira logs?](/wiki/spaces/GIJDC/pages/2039283717)

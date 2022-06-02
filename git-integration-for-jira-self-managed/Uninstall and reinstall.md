@@ -12,21 +12,10 @@ Use the FAQ below to find answers to common questions.  Feel free to contact ou
 
 ### See next FAQs about app uninstall and reinstall
 
-*   Page:
+*  [How do I reinstall the plugin?](/wiki/spaces/GIJDC/pages/2054029344)
 
-    [How do I reinstall the plugin?](/wiki/spaces/GIJDC/pages/2054029344)
+*  [How do I uninstall the Git Integration for Jira app and delete its data?](/wiki/spaces/GIJDC/pages/2053832772)
 
-*   Page:
+*  [In the temp location, I see several jar files with different versions updated at the same time. What would be the procedure for cleaning them up?](/wiki/spaces/GIJDC/pages/2053865535)
 
-    [How do I uninstall the Git Integration for Jira app and delete its data?](/wiki/spaces/GIJDC/pages/2053832772)
-
-*   Page:
-
-    [In the temp location, I see several jar files with different versions updated at the same time. What would be the procedure for cleaning them up?](/wiki/spaces/GIJDC/pages/2053865535)
-
-*   Page:
-
-    [When removing the Git Integration for Jira app indexing service, there are 2 services listed: "GitRevisionIndexerJob" AND "Git Revision Indexing Service". Which should I delete?](/wiki/spaces/GIJDC/pages/2053865556)
-
-
-[< Back to FAQ index](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/91947236/Uninstall+and+reinstall)
+*   [When removing the Git Integration for Jira app indexing service, there are 2 services listed: "GitRevisionIndexerJob" AND "Git Revision Indexing Service". Which should I delete?](/wiki/spaces/GIJDC/pages/2053865556)

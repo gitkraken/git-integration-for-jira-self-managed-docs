@@ -36,7 +36,3 @@ Commits can also be limited using a particular revision. Revision and commits ar
 
 *   Commits linked with these tickets are fetched.
 
-
-[« Git tags](/git-integration-for-jira-self-managed/Git-tags)
-
-[Reindexing »](/git-integration-for-jira-self-managed/Reindexing)

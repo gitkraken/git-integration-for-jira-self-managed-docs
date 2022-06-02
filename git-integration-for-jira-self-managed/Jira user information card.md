@@ -34,6 +34,3 @@ Click **More▾** to open more options such as:
 
 The [Git user identity](/wiki/spaces/GIJDC/pages/1930398801/Git+user+identity) should be configured for the specific user. Otherwise, the user card information will not be displayed for that user.
 
-[« Git user identity](/wiki/spaces/GIJDC/pages/1930398801/Git+user+identity)
-
-[Jira issue page »](/wiki/spaces/GIJDC/pages/1930398870/Jira+issue+page)

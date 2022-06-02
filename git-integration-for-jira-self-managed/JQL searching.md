@@ -14,7 +14,7 @@ The Git Integration for Jira app has added JQL operators and fields to query Jir
 
 ## Enable/disable JQL search feature INTRODUCED  _v2.12.0+_
 
-Go to ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Jira Administration ➜ Applications ➜ **General settings**.
+Go to ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Jira Administration ➜ Applications ➜ **General settings**.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399338/gitserver-gencfg-jql-search-loc2.png?version=1&modificationDate=1630642933115&cacheVersion=1&api=v2&width=680&height=613)
 
@@ -42,7 +42,3 @@ You can save the JQL search results to CSV, HTML, XML or Word via **Export**.
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930399338/jql-search-export-context.png?version=1&modificationDate=1630642932417&cacheVersion=1&api=v2)
 
 JQL searching will not work if more than **65,000 Jira issues** have at least one git commit associated. For more detailed information, see [Known issues – JQL searching limitation](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/591888396/Known+Issues#JQL-Searching-Limitation).
-
-[« Reindexing](/git-integration-for-jira-self-managed/Reindexing)
-
-[Integration webhooks »](/git-integration-for-jira-self-managed/Integration-webhooks)

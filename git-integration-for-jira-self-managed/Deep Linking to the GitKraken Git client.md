@@ -35,7 +35,7 @@ Individual Jira Data Center users can enable or disable the GitKraken integratio
 
 3.  ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1955430423/gitserver-gk-deeplinking-02a(c).png?version=1&modificationDate=1632390986461&cacheVersion=1&api=v2&width=476&height=206)
 
-    Click the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) edit icon. The following dialog is displayed.
+    Click the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) edit icon. The following dialog is displayed.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1955430423/gitserver-gk-deeplinking-02b(c).png?version=1&modificationDate=1632390986201&cacheVersion=1&api=v2&width=476&height=262)
 4.  Enable/disable the GitKraken integration using the dropdown. Default setting is `Enabled`.

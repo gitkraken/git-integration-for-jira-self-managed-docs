@@ -27,7 +27,4 @@ The displayed repositories can be sorted by clicking the corresponding list head
 
 The Repository Browser will not display the repository if it is disabled in the Git Repositories configuration. The commits and code diffs in the **Issue** ➜ **Git Commits**, **Git Roll Up** and **Project** tabs will also be unavailable due to this.
 
-[« SSL verify](/git-integration-for-jira-self-managed/SSL-verify)
-
-[Viewing indexing logs »](/wiki/spaces/GIJDC/pages/1930397702/Viewing+indexing+logs)
 

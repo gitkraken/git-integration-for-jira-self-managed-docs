@@ -19,13 +19,13 @@ There are two ways to do this:
 
 1.  To start update of all repositories, go to the **Git Integration for Jira** app git configuration page then click **Reindex All** button. Once synchronization is started, the progress will be displayed on this tab.
 
-2.  If a specific repository or integration needs to be synchronized, click the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions** icon then **Reindex**.
+2.  If a specific repository or integration needs to be synchronized, click the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions** icon then **Reindex**.
 
 
 |     |
 | --- |
 | JIRA SERVER DATA CENTER |
-| Click the view ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) icon to see the reindex progress of the selected repository. |
+| Click the view ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) icon to see the reindex progress of the selected repository. |
 
 **Initial Synchronization**
 Git log entries may not immediately appear when you open _**Git Commits**_ tab right after the app installation. You need to wait until the revision indexer job completes the initial synchronization.
@@ -44,7 +44,7 @@ The Git Integration for Jira app stores the ID of the last indexed commit for ea
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930399289/gitserver-gitmgr-actions-reset-index.png?version=1&modificationDate=1630642930870&cacheVersion=1&api=v2)
 
-On the Manage git repositories page, click ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions** then **Reset index** to reset the _**Last**_ _**Indexed**_ date. Perform this process whenever the Git Integration for Jira app is updated or re-installed.
+On the Manage git repositories page, click ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions** then **Reset index** to reset the _**Last**_ _**Indexed**_ date. Perform this process whenever the Git Integration for Jira app is updated or re-installed.
 
 ## Reindex and updatedDate filter
 
@@ -65,7 +65,3 @@ Starting v3.6+ of the Git Integration for Jira app, indexer will show an error m
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399289/git-server-indexing-error-sample.png?version=1&modificationDate=1630642930175&cacheVersion=1&api=v2&width=442&height=131)
 
 Cancelling indexing from the Git Integration admin interface is not currently possible. See [workaround in the Known issues page](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/591986701/Known+Issues#Fully-Cancelling-an-Ongoing-Indexing-is-Not-Possible).
-
-[« Jira project page](/wiki/spaces/GIJDC/pages/1930399252/Jira+project+page)
-
-[JQL searching »](/git-integration-for-jira-self-managed/JQL-searching)

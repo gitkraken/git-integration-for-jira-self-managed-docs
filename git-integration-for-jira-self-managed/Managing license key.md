@@ -48,8 +48,3 @@ Click on the box to enter/change the **License key**.
 </div>
 <br>
 <br>
-* * *
-
-[Previous: Installation](/git-integration-for-jira-self-managed/Installation)
-
-[Next: Getting started for Git administrators](/git-integration-for-jira-self-managed/getting-started-for-git-administrators/)

@@ -52,8 +52,3 @@ The following examples show correct usage of the smart commit message (multi-lin
 | --- |
 | **TEST-3** Background color of settings should be lighter  <br>**TEST-3** **#in-progress** **#time** 1h  <br>**TEST-4** resolve **TEST-2** **#resolve** |
 | _This example, containing several issue keys, is also a valid multi-line smart commit message._ |
-
-[« Basic commands](/git-integration-for-jira-self-managed/Basic-commands)
-
-[Workflow transitions »](/git-integration-for-jira-self-managed/Workflow-transitions)
-

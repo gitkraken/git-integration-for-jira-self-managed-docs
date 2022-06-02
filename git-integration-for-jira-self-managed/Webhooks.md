@@ -6,9 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-**What’s on this page:**
-
-* * *
 
 ## What are webhooks and why use them?
 

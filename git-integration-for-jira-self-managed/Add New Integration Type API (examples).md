@@ -20,7 +20,7 @@ Below are integration API examples for each integration types:
 | _**parameters**_ |
 | Request body is a _JSON_ structure.<br><br>For complete reference of the parameters, see [Add New Integration API](/wiki/spaces/GIJDC/pages/380666461/Add+New+Integration). |
 
-When adding new repositories, we recommend to leave the `trustFolderStat` setting to **false** _(default)_. You can change this setting later on via ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Actions_ ➜ _**Edit repository settings**_ in the Manage repositories page.
+When adding new repositories, we recommend to leave the `trustFolderStat` setting to **false** _(default)_. You can change this setting later on via ![(blue star)](https://bigbrassband.atlassian.nethttps://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Actions_ ➜ _**Edit repository settings**_ in the Manage repositories page.
 
 |     |
 | --- |

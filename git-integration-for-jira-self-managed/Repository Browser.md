@@ -32,7 +32,7 @@ Available git repositories of configured projects are displayed.
 
 *   On the list table, you will see git repositories, recent issues updated by the user, and the last commits made.
 
-*   The personal access token configuration column (_Pers. Access_) displays the PAT setup option if require user pat setting is enabled). Click the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) edit icon to setup PAT to allow branch and PR/MR creation functions via [Jira Git integration development panel](/wiki/spaces/GIJDC/pages/1930399012/Jira+Git+integration+development+panel). The adjacent checkmark indicates a PAT has already been configured.
+*   The personal access token configuration column (_Pers. Access_) displays the PAT setup option if require user pat setting is enabled). Click the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) edit icon to setup PAT to allow branch and PR/MR creation functions via [Jira Git integration development panel](/wiki/spaces/GIJDC/pages/1930399012/Jira+Git+integration+development+panel). The adjacent checkmark indicates a PAT has already been configured.
 
 *   On the bottom left of the list, the view options control how many rows the list will display. The default view is 10 rows. Larger row view affects page loading time.
 
@@ -67,12 +67,8 @@ The revisions of the commits are displayed on the Repository Browser in addition
 If the selected path is a _**root**_ of the repository and no files are present, a message will be displayed instead of an empty file list.
 
 **Administration**
-Administrators can turn off the Repository Browser via ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit repository settings** in the Git Integration for Jira app configuration.
+Administrators can turn off the Repository Browser via ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit repository settings** in the Git Integration for Jira app configuration.
 
 **Sort header**
 The displayed repositories can be sorted by clicking the corresponding list header. The Git Integration for Jira app will remember the sorting choice per user.
-
-[« Smart commits](/git-integration-for-jira-self-managed/Smart-commits)
-
-[Viewing list of commits via Repository Browser »](/wiki/spaces/GIJDC/pages/1930398681/Viewing+list+of+commits+in+Repository+Browser)
 

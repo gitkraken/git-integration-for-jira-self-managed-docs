@@ -12,20 +12,6 @@ taxonomy:
 
 You are probably reading this page because a Jira administrator has requested access to the Git server. The Jira administrator has installed the Git Integration for Jira app.
 
-**What’s on this page:**
-  - [What is the Git Integration for Jira app?](#what-is-the-git-integration-for-jira-app)
-  - [How does Jira interact with the Git server?](#how-does-jira-interact-with-the-git-server)
-  - [What does the Jira administrator need?](#what-does-the-jira-administrator-need)
-    - [For Git repositories with HTTP\/HTTPS access](#for-git-repositories-with-httphttps-access)
-    - [For Git repositories with SSH access](#for-git-repositories-with-ssh-access)
-    - [For Git repositories with Git protocol access](#for-git-repositories-with-git-protocol-access)
-    - [For Git repositories on the same host as Jira](#for-git-repositories-on-the-same-host-as-jira)
-    - [For Git repositories across network file shares](#for-git-repositories-across-network-file-shares)
-    - [For Git repositories hosted on Windows servers](#for-git-repositories-hosted-on-windows-servers)
-    - [For Jira hosted on Windows](#for-jira-hosted-on-windows)
-  - [Does the Git Integration for Jira app have API commands that allow addition/removal of a Git project?](#does-the-git-integration-for-jira-app-have-api-commands-that-allow-additionremoval-of-a-git-project)
-  - [Troubleshooting issues](#troubleshooting-issues)
-
 * * *
 
 ## What is the Git Integration for Jira app?

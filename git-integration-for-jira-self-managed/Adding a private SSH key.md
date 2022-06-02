@@ -35,6 +35,7 @@ taxonomy:
 
 3.  Click **Add** to complete this setup.
 
+* * *
 
 [Previous: Generating SSH keys](/git-integration-for-jira-self-managed/generating-ssh-keys)
 

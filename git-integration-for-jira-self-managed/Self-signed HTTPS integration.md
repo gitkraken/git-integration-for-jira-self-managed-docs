@@ -14,6 +14,3 @@ As of **v2.11.2+** of the Git Integration app, the Jira administrator now has 
 
 This feature is available in [Connect to Git Repository](/wiki/spaces/GIJDC/pages/1930397090/Using+the+Connect+Repository+wizard) wizard and [Add new integration wizard](/wiki/spaces/GIJDC/pages/1930397044/Using+the+Add+new+integration+wizard) for GitHub and GitLab.
 
-[« Tracked folders overview](/wiki/spaces/GIJDC/pages/1930397330/Tracked+folders+overview)
-
-[Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues »](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930397370/%28GDC%29+Automatically+connect+to+HTTPS+git+repositories+with+self-signed+SSL+certificates+or+other+SSL+issues)

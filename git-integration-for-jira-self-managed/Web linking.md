@@ -86,7 +86,3 @@ Once properly configured, the **Git Commits** tab on the **Issues** page wil
 ![Jira issue Git commits tab showing web links](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398212/git-commits-clickable-web-links.png?version=1&modificationDate=1630642879449&cacheVersion=1&api=v2&width=557&height=261)
 
 The Git Integration app supports custom web linking. The commit information is displayed in the **Git Commits** issue tab if the git host server URL is provided on the **Web Linking** section in the [Advanced Setup](/wiki/spaces/GIJDC/pages/1930397180/Connecting+a+repository+via+Advanced+setup) or repository settings of the connected repositories.
-
-[« General settings](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930398111/%28GDC%29+General+settings)
-
-[Disabling Source and Commits tabs »](/wiki/spaces/GIJDC/pages/1930398249/Disabling+Source+and+Commits+tabs)

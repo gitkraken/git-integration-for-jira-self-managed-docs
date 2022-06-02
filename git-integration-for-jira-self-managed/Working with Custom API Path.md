@@ -10,7 +10,6 @@ The Custom API Path is a relative path that starts with "/".  The maximum allo
 
 The Custom API Path is called in the integration setup, settings changes, on a regular scheduled reindex and for a manual reindex.
 
-**What’s on this page:**
 
 * * *
 
@@ -108,48 +107,6 @@ The GitLab.com API can see all the public projects. For GitLab.com, we recommend
 
 
 While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
-
-## More how-to articles
-
-*   Page:
-
-    [Creating Personal Access Tokens](/wiki/spaces/GIJDC/pages/107380737/Creating+Personal+Access+Tokens)
-
-*   Page:
-
-    [Working with JMESPath Filters](/wiki/spaces/GIJDC/pages/135430238/Working+with+JMESPath+Filters)
-
-*   Page:
-
-    [Working with Custom API Path](/wiki/spaces/GIJDC/pages/135331922/Working+with+Custom+API+Path)
-
-*   Page:
-
-    [Creating and configuring SSH keys (Windows/MacOS/Linux)](/wiki/spaces/GIJDC/pages/183271450)
-
-*   Page:
-
-    [Require Personal Access Tokens for user actions (create branch/pull request)](/wiki/spaces/GIJDC/pages/317390849)
-
-*   Page:
-
-    [Setting Project Permissions](/wiki/spaces/GIJDC/pages/509444154/Setting+Project+Permissions)
-
-*   Page:
-
-    [How to get a quote?](/wiki/spaces/GIJDC/pages/1165721603)
-
-*   Page:
-
-    [Ways to Index Git Data to Jira Issues](/wiki/spaces/GIJDC/pages/1207828916/Ways+to+Index+Git+Data+to+Jira+Issues)
-
-*   Page:
-
-    [Proxy settings on adding integrations (except AWS CodeCommit)](/wiki/spaces/GIJDC/pages/1808007195)
-
-*   Page:
-
-    [Configure Source Code Diff Viewing](/wiki/spaces/GIJDC/pages/2054881287/Configure+Source+Code+Diff+Viewing)
 
 
 _1 Logo owned by_ [_GitLab Inc_](https://gitlab.com/) _used under_ [_license_](https://creativecommons.org/licenses/by-nc-sa/4.0/)

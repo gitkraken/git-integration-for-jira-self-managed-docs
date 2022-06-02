@@ -282,7 +282,7 @@ Main branch for repositories within an integration can only be changed on the gi
 
 ### Creating branches with Require user PAT enabled
 
-If the [Require user PAT setting](/wiki/spaces/GIJDC/pages/317390849) is enabled in the **Integration feature settings** (![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Actions_ ➜ _Edit integration feature settings_) and a user PAT isn't configured yet for the selected repository via Repository Browser, the following create branch dialog is displayed instead.
+If the [Require user PAT setting](/wiki/spaces/GIJDC/pages/317390849) is enabled in the **Integration feature settings** (![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Actions_ ➜ _Edit integration feature settings_) and a user PAT isn't configured yet for the selected repository via Repository Browser, the following create branch dialog is displayed instead.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-create-branch-req-user-pat-enabled-aws.png?version=1&modificationDate=1631448492238&cacheVersion=1&api=v2&width=550&height=275)
 
@@ -324,7 +324,7 @@ The pull request is also ready for approval by the reviewers in your AWS CodeCom
 
 ### Creating pull request with Require user PAT setting enabled
 
-If the [Require user PAT setting](/wiki/spaces/GIJDC/pages/317390849) is enabled in the **Integration feature settings** (![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Actions_ ➜ _Edit integration feature settings_) and a user PAT isn't configured yet for the selected repository via Repository Browser, the following pull request dialog is displayed instead.
+If the [Require user PAT setting](/wiki/spaces/GIJDC/pages/317390849) is enabled in the **Integration feature settings** (![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Actions_ ➜ _Edit integration feature settings_) and a user PAT isn't configured yet for the selected repository via Repository Browser, the following pull request dialog is displayed instead.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-create-pullreq-dlg-reqPAT.png?version=1&modificationDate=1631448492252&cacheVersion=1&api=v2&width=550&height=275)
 
@@ -342,58 +342,4 @@ If the secret access key has changed for your AWS account, update the credential
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-repo-browser-setup-pat-sel.png?version=1&modificationDate=1631448492486&cacheVersion=1&api=v2&width=680&height=308)
 
-Click the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) edit icon under the Personal access column for the selected repository. The same dialog for Setup your AWS Credentials appears. Enter the updated _**Secret access key**_ then click **Update** to save the settings.
-
-## More integration guides
-
-*   Page:
-
-    [Integration Basics](/git-integration-for-jira-self-managed/Integration-Basics) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [GitHub.com](/wiki/spaces/GIJDC/pages/91979804/GitHub.com) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [GitHub Enterprise Server](/wiki/spaces/GIJDC/pages/91914350/GitHub+Enterprise+Server) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [GitLab CE/EE](/wiki/spaces/GIJDC/pages/91947056) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [GitLab.com](/wiki/spaces/GIJDC/pages/91881531/GitLab.com) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Azure DevOps | Visual Studio Team Services (VSTS)](/wiki/spaces/GIJDC/pages/92176406) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Azure DevOps Server | Team Foundation Services (TFS)](/wiki/spaces/GIJDC/pages/91979843) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [AWS CodeCommit](/git-integration-for-jira-self-managed/AWS-CodeCommit) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Gerrit](/git-integration-for-jira-self-managed/Gerrit) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Bitbucket Server](/git-integration-for-jira-self-managed/Bitbucket-Server) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Bonobo](/git-integration-for-jira-self-managed/Bonobo) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Windows Network | Server Share](/wiki/spaces/GIJDC/pages/91881564/Windows+Network+%7C+Server+Share) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Tracked Folders](/git-integration-for-jira-self-managed/Tracked-Folders) (Git Integration for Jira Data Center)
+Click the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) edit icon under the Personal access column for the selected repository. The same dialog for Setup your AWS Credentials appears. Enter the updated _**Secret access key**_ then click **Update** to save the settings.

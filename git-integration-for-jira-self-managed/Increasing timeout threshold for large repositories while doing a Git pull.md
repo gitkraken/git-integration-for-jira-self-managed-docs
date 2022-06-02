@@ -60,10 +60,3 @@ This setting affects how long will Git Integration for Jira app waits for connec
     </div>
     </div>
 </div>
-
-* * *
-
-[Previous: Setting up webhooks](/git-integration-for-jira-self-managed/setting-up-webhooks/)
-
-[Next: Working with Tracked folders](/git-integration-for-jira-self-managed/working-with-tracked-folders/)
-

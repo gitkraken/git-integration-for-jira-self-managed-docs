@@ -56,7 +56,3 @@ The advanced options provide a couple of settings for webhook indexing performan
 **Ignore unmatching webhooks** – Continuous reindexing of all repositories may cause significant performance issues if unmatching webhooks are not ignored. When set to `Enabled` (default), this setting filters out incoming webhooks without a matching repository. This setting is `Enabled` by default for new and upgrading users.
 
 **Min. repository reindex interval** – The frequency of reindexing is set to a maximum of this value (in minutes). Default value is 5 minutes. Set this value to 0 (zero) to disable this setting.
-
-[« JQL searching](/git-integration-for-jira-self-managed/JQL-searching)
-
-[Jira Data Center (High availability and clustering) »](/wiki/spaces/GIJDC/pages/1930399417)

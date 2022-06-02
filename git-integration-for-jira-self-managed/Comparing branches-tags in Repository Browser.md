@@ -41,7 +41,3 @@ On the **Issues** page, clicking the **View in Issue Navigator** text label 
 
 For example, the JQL will look like `issuekey in (GIT-1851, GIT-1159, GITCL-284, GITCL-254)`.
 
-[« Viewing list of commits in Repository Browser](/wiki/spaces/GIJDC/pages/1930398681/Viewing+list+of+commits+in+Repository+Browser)
-
-[Enable/disable Repository Browser via git repository configuration page »](/wiki/spaces/GIJDC/pages/1930398739)
-

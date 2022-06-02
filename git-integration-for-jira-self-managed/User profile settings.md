@@ -20,7 +20,3 @@ Click **Update** to save the changes. The email notifications that you receive
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930398073/commit-email-view-html.png?version=1&modificationDate=1630642871866&cacheVersion=1&api=v2)
 
-[« Watching email notifications](/wiki/spaces/GIJDC/pages/1930398044/Watching+email+notifications)
-
-[General settings »](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930398111/%28GDC%29+General+settings)
-

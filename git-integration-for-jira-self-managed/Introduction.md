@@ -36,10 +36,5 @@ For permissions requirement, see [App platform and system permissions requiremen
             <a href="http://eepurl.com/hhfbwz" target="_blank"><b>Click here</b></a> to subscribe to our mailing list
         </div>
     </div>
-    </div>
 </div>
 
-* * *
-
-[Previous: Table of contents](/git-integration-for-jira-self-managed/Documentation)  
-[Next: Installation](/git-integration-for-jira-self-managed/Installation)

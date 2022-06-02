@@ -10,7 +10,7 @@ Manage and associate SSH keys to connected git repositories via the **SSH Keys*
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930396746/add-ssh-and-associate-keys.png?version=1&modificationDate=1630642804864&cacheVersion=1&api=v2&width=680&height=222)
 
-The list of added private SSH keys is accessible on this page. Both types of SSH keys are displayed in this list.  Legacy filesystem-based keys contain directory path in the _**Private key**_ column.
+The list of added private SSH keys is accessible on this page. Both types of SSH keys are displayed in this list. Legacy filesystem-based keys contain directory path in the _**Private key**_ column.
 
 Refer to the following table for list column information:
 

@@ -18,7 +18,7 @@ Jira can produce a Support Zip file for diagnosing issues. This will give our s
 
 You can create this file by accessing the Atlassian Support Tools in your Jira:
 
-1.  On your Jira Server dashboard, go to ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Jira Administration**.
+1.  On your Jira Server dashboard, go to ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Jira Administration**.
 
 2.  Click **System**.
 
@@ -34,14 +34,3 @@ You can create this file by accessing the Atlassian Support Tools in your Jira:
 
 Locate the generated Support Zip file and send it to [support@bigbrassband.com](mailto:support@bigbrassband.com).
 
-*   Page:
-
-    [How to create the support zip file?](/wiki/spaces/GIJDC/pages/2039447557)
-
-*   Page:
-
-    [How do I enable debug logging level for Git Integration for Jira app?](/wiki/spaces/GIJDC/pages/2038792196)
-
-*   Page:
-
-    [Where can I find the Jira logs?](/wiki/spaces/GIJDC/pages/2039283717)

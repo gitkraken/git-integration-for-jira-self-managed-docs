@@ -62,7 +62,3 @@ For those who are using TortoiseGit client on Windows, you can perform the follo
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398342/gitserver-dc-git-notes-sample.png?version=1&modificationDate=1630642886594&cacheVersion=1&api=v2&width=550&height=286)
 
-[« Manually link git commits to Jira issues](/wiki/spaces/GIJDC/pages/1930398296/Manually+link+git+commits+to+Jira+issues)
-
-[Smart commits »](/git-integration-for-jira-self-managed/Smart-commits)
-

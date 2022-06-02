@@ -6,9 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-**What’s on this page:**
-
-* * *
 
 ## Getting started
 
@@ -112,6 +109,3 @@ Click **Finish** to close the wizard.
 
 This completes the setup and the newly added repository appears on the integration list on the Git Integration app repository configuration page.
 
-[« Using the Add new integration wizard](/wiki/spaces/GIJDC/pages/1930397044/Using+the+Add+new+integration+wizard)
-
-[Connecting a repository via Advanced setup »](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930397180/%28GDC%29+Connecting+a+repository+via+Advanced+setup)

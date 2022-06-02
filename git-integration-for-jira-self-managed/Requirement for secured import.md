@@ -16,8 +16,3 @@ If you use HTTP/HTTPS URLs in the origin field, the Git Integration for Jira app
 
 
 Proceed to import repositories by following on the next topic.
-
-[« Exporting repository configuration via Bulk change](/wiki/spaces/GIJDC/pages/1930397830/Exporting+repository+configuration+via+Bulk+change)
-
-[Import existing repositories via Bulk change »](/wiki/spaces/GIJDC/pages/1930397888/Import+existing+repositories+via+Bulk+change)
-

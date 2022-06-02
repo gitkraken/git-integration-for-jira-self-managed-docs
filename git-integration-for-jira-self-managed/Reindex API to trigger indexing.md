@@ -24,7 +24,3 @@ http://jira.yourorg.com/rest/gitplugin/1.0/index.json?threadId=eafe58fc-d8de-42f
 
 
 
-[Previous: Setting up repository root not located in Jira Home directory (Admins)](/git-integration-for-jira-self-managed/setting-up-repository-root-not-located-in-jira-home-directory-admins/)
-
-[Next: Recommended reindex interval setting](/git-integration-for-jira-self-managed/recommended-reindex-interval-setting/)
-

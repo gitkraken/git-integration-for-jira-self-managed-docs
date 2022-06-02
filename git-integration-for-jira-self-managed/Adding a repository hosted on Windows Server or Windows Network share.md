@@ -12,6 +12,3 @@ Add a new network share or Windows server hosted repository via the Connect to G
 
 For detailed information and step-by-step guide on this integration, see [Integration Guide - Windows Network/Server Share](/wiki/spaces/GIJDC/pages/91881564).
 
-[« Connecting a repository via Advanced Setup](/wiki/spaces/GIJDC/pages/1930397180/Connecting+a+repository+via+Advanced+setup)
-
-[Setup repository root not located in Jira Home directory »](/wiki/spaces/GIJDC/pages/1930397313/Setup+repository+root+not+located+in+Jira+Home+directory)

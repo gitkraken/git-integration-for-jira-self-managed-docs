@@ -34,28 +34,3 @@ The additional flag _**hasMore**_ indicates if an issue contains more tags. I
 | **Example:** |
 | `http://jira.yourorg.com/rest/gitplugin/1.0/`**issuegitdetails**`/issue/`**TST-435**`/`**tag**`?`**tagsPerRepository**\=**2**<br><br>**Result:**<br><br>```java<br>{<br>  "tags": [<br>    {<br>      "name": "test tag 1",<br>      "commitId": "4caf6aa4fd50ef42012863ce561bddba32557152",<br>      "repoId": 2,<br>      "repoName": "test-repo-01",<br>      "isGitViewerEnabled": true,<br>      "creationDateFormatted": "April 9, 2020 20:27:28 PM OMST",<br>      "committerName": "John Smith",<br>      "committerEmail": "johnsmith@example.com",<br>      "creationDate": 1617978448000<br>    },<br>    {<br>      "name": "test tag 2",<br>      "commitId": "90e902222248ae205ed6ed42cd037df8fbefc871",<br>      "repoId": 3,<br>      "repoName": "test-repo-02",<br>      "isGitViewerEnabled": true,<br>      "creationDateFormatted": "November 12, 2020 10:38:56 AM OMST",<br>      "message": "TEST-1 message",<br>      "committerName": "John Smith",<br>      "committerEmail": "johnsmith@example.com",<br>      "creationDate": 1605155936000<br>    }<br>  ],<br>  "isTagsFeatureEnabled": true,<br>  "hasMore": true,<br>  "calculationError": "",<br>  "firstTag": {<br>    "name": "testrepo-test-tag-01",<br>    "commitId": "a7141bf14e3a27c413b568c8d1f5a5f3a6a45135",<br>    "repoId": 1,<br>    "repoName": "test-repo-main",<br>    "isGitViewerEnabled": true,<br>    "creationDateFormatted": "April 5, 2018 11:52:11 AM OMST",<br>    "message": "TEST-1 tags per repo example",<br>    "committerName": "John Smith",<br>    "committerEmail": "johnsmith@example.com",<br>    "creationDate": 1459835531000<br>  }<br>}<br>``` |
 
-### REST APIs
-
-*   Page:
-
-    [Bulk Change API](/wiki/spaces/GIJDC/pages/380764495/Bulk+Change+API) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Repository API](/git-integration-for-jira-self-managed/Repository-API) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Reindex API](/git-integration-for-jira-self-managed/Reindex-API) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Commits API](/git-integration-for-jira-self-managed/Commits-API) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Branches API](/git-integration-for-jira-self-managed/Branches-API) (Git Integration for Jira Data Center)
-
-*   Page:
-
-    [Integration API](/git-integration-for-jira-self-managed/Integration-API) (Git Integration for Jira Data Center)
