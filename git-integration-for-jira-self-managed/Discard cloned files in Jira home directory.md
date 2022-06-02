@@ -6,16 +6,42 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-DEPRECATED
+<div style-'color: red;'><b>DEPRECATED</b></div>
 
-This feature is deprecated and will be removed from the product after August 15, 2022.
+<div class="bbb-callout bbb--error">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        This feature is deprecated and will be removed from the product after August 15, 2022.
+    </div>
+    </div>
+</div>
 
-This setting is part of the [**General Settings**](/git-integration-for-jira-self-managed/General-Settings) configuration page.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        This setting is part of the <a href='/git-integration-for-jira-self-managed/General-Settings'><b>General Settings</b></a> configuration page.
+    </div>
+    </div>
+</div>
 
-VERSION 4.0.1+ This setting is now moved to the **Advanced settings** in General settings.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>VERSION 4.0.1+</b> This setting is now moved to the <b>Advanced settings</b> in General settings.
+    </div>
+    </div>
+</div>
 
-
-This feature will reduce Jira server storage by deleting files from cloned git repositories after indexing.  Discarding files can save disk space but may limit some features such as displaying diffs of files.
+This feature will reduce Jira server storage by deleting files from cloned git repositories after indexing. Discarding files can save disk space but may limit some features such as displaying diffs of files.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1207828796/gencfg-discard-cloned-files.png?version=1&modificationDate=1613125343032&cacheVersion=1&api=v2)
 
@@ -30,5 +56,20 @@ There are three options to choose from:
 
 Select any option with the _discard_ label to enable editing of the file mask field.
 
-Whenever the setting is changed, BigBrassBand recommends to perform a manual reclone of the repositories to ensure an error-free operation.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Whenever the setting is changed, BigBrassBand recommends to perform a manual reclone of the repositories to ensure an error-free operation.
+    </div>
+    </div>
+</div>
+
+* * *
+
+[Previous: Recommended upgrade method for Git Integration for Jira](/git-integration-for-jira-self-managed/recommended-upgrade-method-for-git-integration-for-jira/)
+
+[Next: Working with SSH keys](/git-integration-for-jira-self-managed/working-with-ssh-keys/)
 
