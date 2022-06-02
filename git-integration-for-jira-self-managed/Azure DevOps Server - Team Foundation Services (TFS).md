@@ -27,8 +27,6 @@ The Git Integration for Jira app supports Azure Repos.
 
 
 
-
-
 ## Creating Personal Access Tokens
 
 If you have not yet generated a personal access token (PAT), create your token by following [the steps outlined in this article.](/wiki/spaces/GIJDC/pages/107380737/Creating+Personal+Access+Tokens#CreatingPersonalAccessTokens-tfs-server)
