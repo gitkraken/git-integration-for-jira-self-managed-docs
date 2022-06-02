@@ -18,6 +18,7 @@ Do the following steps to setup SSH for your remote git host:
 3.  Paste the public key to the provided box or upload the public key file and complete the setup.
 
 
-[« Adding a private SSH key](https://bigbrassband.atlassian.net/wiki/pages/resumedraft.action?draftId=1923027446)
+[Previous: Adding a private SSH key](/git-integration-for-jira-self-managed/adding-a-private-ssh-key/)
 
-[SSH keys configuration »](/wiki/spaces/GIJDC/pages/1930396746/SSH+keys+configuration)
+[Next: SSH keys configuration »](/git-integration-for-jira-self-managed/ssh-keys-configuration)
+

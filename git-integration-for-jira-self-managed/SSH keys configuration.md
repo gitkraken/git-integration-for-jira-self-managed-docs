@@ -14,9 +14,8 @@ The list of added private SSH keys is accessible on this page. Both types of SSH
 
 Refer to the following table for list column information:
 
-|     |     |
-| --- | --- |
 | **Column** | **Description** |
+| :--- | :--- |
 | _**Name**_ | The name of the private SSH key will appear here. |
 | _**Private key**_ | This is the private SSH key in hex mode. |
 | _**Passphrase**_ | A lock icon is displayed if the SSH key pair has a passphrase. |
@@ -24,11 +23,31 @@ Refer to the following table for list column information:
 | _**Last Used By**_ | Lists the repositories that are using this SSH key. |
 | _**Operations**_ | Click the icon to perform **Delete** or **Associations** functions. |
 
-You cannot delete filesystem-based keys by using the Git Integration app configuration.
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        You cannot delete filesystem-based keys by using the Git Integration app configuration.
+    </div>
+    </div>
+</div>
 
-The SSH keys are also automatically added to this list when adding new repositories that require SSH keys.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The SSH keys are also automatically added to this list when adding new repositories that require SSH keys.
+    </div>
+    </div>
+</div>
 
-[« Adding a public SSH key](/wiki/spaces/GIJDC/pages/1930396728/Adding+a+public+SSH+Key)
+* * *
 
-[Adding and associating SSH keys »](/wiki/spaces/GIJDC/pages/1930396771/Adding+and+associating+SSH+keys)
+[Previous: Adding a public SSH key](/git-integration-for-jira-self-managed/adding-a-public-ssh-key)
+
+[Next: Adding and associating SSH keys](/git-integration-for-jira-self-managed/adding-and-associating-ssh-keys)
 
