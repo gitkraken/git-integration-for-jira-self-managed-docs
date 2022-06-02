@@ -12,7 +12,7 @@ This page contains steps for creating personal access tokens (PATs) for specific
 
 If two-factor authentication is enabled for your GitHub account, you will need to create a Personal Access Token (PAT) to access your git repositories. Enable two-factor authentication in your GitHub account for increased security.
 
-While instructions from GitHub works just fine, here are some specific instructions to get you up and running
+While instructions from GitHub works just fine, here are some specific instructions to get you up and running:
 
 1.  Login to your GitHub account then go to your profile settings.
 
@@ -151,7 +151,7 @@ Follow the steps below, if you have not yet generated a personal access token (P
 1.  On the Azure DevOps Server portal dashboard, open the account settings by clicking the _user profile icon_ on the top right corner of the page then click **Security**.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/107380737/azure-devops-2019-acct-settings.png?version=2&modificationDate=1650870599435&cacheVersion=1&api=v2&width=251&height=389)
-2.  On the Personal Access Token page, click ![(plus)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/add.png) **Add** to see the following screen.
+2.  On the Personal Access Token page, click ![(plus)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/add.png) **Add** to see the following screen.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/107380737/azure-devops-2019-pat-settings(c).png?version=1&modificationDate=1650870599492&cacheVersion=1&api=v2&width=646&height=322)
 3.  Enter a meaningful name in the **Description** field.
