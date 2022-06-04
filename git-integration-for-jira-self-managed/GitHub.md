@@ -60,8 +60,6 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
 </div>
 <br>
 
-* * *
-
 ## Creating a personal access token
 
 If two-factor authentication is enabled for your GitHub account, you will need to create a PAT to access your git repositories. Enable two-factor authentication in your GitHub.com account for increased security.
