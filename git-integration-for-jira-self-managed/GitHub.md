@@ -51,14 +51,14 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
 <br>
 <br>
 
-
+<div class='embed-container embed-container--16-9'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/s26h3avwuo?seo=false' frameborder='0' allowfullscreen></iframe>
+</div>
 
 <div align="center">
   <i>Watch the video guide by clicking <a href="https://bigbrassband.wistia.com/medias/s26h3avwuo" target="_blank"><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 <br>
-
-https://bigbrassband.wistia.com/medias/s26h3avwuo?embedType=async&seo=false&videoFoam=true&videoWidth=754
 
 * * *
 
