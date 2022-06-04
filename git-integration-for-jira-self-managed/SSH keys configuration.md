@@ -45,9 +45,3 @@ Refer to the following table for list column information:
     </div>
 </div>
 
-* * *
-
-[Previous: Adding a public SSH key](/git-integration-for-jira-self-managed/adding-a-public-ssh-key)
-
-[Next: Adding and associating SSH keys](/git-integration-for-jira-self-managed/adding-and-associating-ssh-keys)
-

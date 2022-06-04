@@ -11,8 +11,10 @@ taxonomy:
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/0a1exzdgpc?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/0a1exzdgpc) _to open this video in a new browser tab for more viewing options._
-
+<div align='center'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/0a1exzdgpc'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
+<br>
 
 Limit the usage of the SSH key by associating them to selected repositories. Strictly map SSH keys to repositories via SSH Actions menu.
 
@@ -20,7 +22,7 @@ Limit the usage of the SSH key by associating them to selected repositories. St
 
 2.  The following screen is displayed:
 
-3.  ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396771/gitserver-assoc-ssh-keys(c).png?version=1&modificationDate=1630642805980&cacheVersion=1&api=v2)
+    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396771/gitserver-assoc-ssh-keys(c).png?version=1&modificationDate=1630642805980&cacheVersion=1&api=v2)
 
     Mark the required repository or repositories to associate the SSH key.
 
@@ -64,10 +66,4 @@ For third-party products or services (such as GitHub, GitLab, Bitbucket, etc.), 
 For custom git hosting servers, ask your administrator to check that the target keypair's PUBLIC KEY is added into the `authorized_keys` file of the git server.
 
 For more information, see the following article [**Setting up Git on the Server**](https://git-scm.com/book/it/v2/Git-on-the-Server-Setting-Up-the-Server).
-
-* * *
-
-[Previous: SSH keys configuration](/git-integration-for-jira-self-managed/ssh-keys-configuration/)
-
-[Next: Removing SSH keys](/git-integration-for-jira-self-managed/removing-ssh-keys/)
 

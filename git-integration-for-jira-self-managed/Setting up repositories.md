@@ -12,9 +12,10 @@ Setup repositories and manage them in the Git Integration app configuration in J
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/m1k2sol0a5?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div>
+<div align='center'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/m1k2sol0a5'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
+<br>
 
 ## Introduction
 
@@ -28,13 +29,7 @@ After the installation, the Git Integration for Jira app repository configuratio
 
 *   Jira dashboard menu Git ➜ **Manage repositories; or**
 
-*   Jira dashboard menu Jira Administration ➜ **Applications**; left sidebar _Git Integration for Jira_ ➜ **Git repositories** |
+*   Jira dashboard menu Jira Administration ➜ **Applications**; left sidebar _Git Integration for Jira_ ➜ **Git repositories**
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396906/gitserver-manage-git-repo-screen(c).png?version=1&modificationDate=1630642812715&cacheVersion=1&api=v2)
-
-* * *
-
-[Previous: Git URL ports](/git-integration-for-jira-self-managed/Git-URL-ports/)
-
-[Next: Git integration configuration page](/git-integration-for-jira-self-managed/Git-integration-configuration-page/)
 

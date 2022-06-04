@@ -247,9 +247,3 @@ Click **Add** to save the settings. The newly added repository appears on the
 
 Repositories created via the _**Advanced setup**_ will perform an initial reindex.
 
-* * *
-
-[Previous: Using the Connect Repository wizard](/git-integration-for-jira-self-managed/using-the-connect-repository-wizard/)
-
-[Next: Adding a repository hosted on Windows Server or Windows Network share](/git-integration-for-jira-self-managed/adding-a-repository-hosted-on-windows-server-or-windows-network-share/)
-

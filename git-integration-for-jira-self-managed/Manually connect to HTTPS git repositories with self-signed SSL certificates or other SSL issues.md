@@ -57,10 +57,3 @@ There are alternative solutions to make Java trust this certificate. Refer to t
     </div>
 </div>
 
-
-* * *
-
-[Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/git-integration-for-jira-self-managed/automatically-connect-to-https-git-repositories-with-self-signed-ssl-certificates-or-other-ssl-issues/)
-
-[Managing repository or integration configuration](/git-integration-for-jira-self-managed/managing-repository-or-integration-configuration/)
-

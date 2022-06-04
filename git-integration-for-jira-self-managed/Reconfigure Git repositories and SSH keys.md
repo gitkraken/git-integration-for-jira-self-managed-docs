@@ -19,9 +19,3 @@ Perform the following steps to reconfigure repositories and SSH key:
 
 For multiple repository configuration, see [Bulk change](/git-integration-for-jira-self-managed/Bulk-change).
 
-* * *
-
-[Previous: Removing SSH keys](/git-integration-for-jira-self-managed/Removing-SSH-keys)
-
-[Next: Git URL ports](/git-integration-for-jira-self-managed/Git-URL-ports)
-
