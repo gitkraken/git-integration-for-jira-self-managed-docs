@@ -1,6 +1,6 @@
 ---
 
-title: GitHub.com
+title: Integration Guide - GitHub.com
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed
@@ -51,7 +51,7 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
 <br>
 <br>
 
-<div class='embed-container embed-container--16-9'>
+<div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/s26h3avwuo?seo=false' frameborder='0' allowfullscreen></iframe>
 </div>
 
