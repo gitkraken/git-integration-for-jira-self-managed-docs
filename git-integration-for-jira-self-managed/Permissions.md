@@ -33,12 +33,15 @@ taxonomy:
 
 ## Permissions Requirement to Display Commit Information
 
-<div class='embed-container embed-container--16-9'>
+<div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/ynjggc2wzg?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/ynjggc2wzg) _to open this video in a new browser tab for more viewing options._
-
+<div align='center'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/ynjggc2wzg'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
+<br>
+<br>
 <div class="bbb-callout bbb--alert">
     <div class="irow">
     <div class="ilogobox">

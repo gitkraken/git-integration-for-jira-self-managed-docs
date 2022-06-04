@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-<div class='embed-container embed-container--16-9'>
+<div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/0a1exzdgpc?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 

@@ -24,7 +24,16 @@ Configure and generate SSH keys for the following git hosting systems by followi
 
 ## Gerrit
 
-The Git Integration for Jira app supports Gerrit web linking.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The Git Integration for Jira app supports Gerrit web linking.
+    </div>
+    </div>
+</div>
 
 *   For information about Gerrit software, see [Gerrit Software Wiki](http://en.wikipedia.org/wiki/Gerrit_(software)) and [Gerrit at Code Review](https://code.google.com/p/gerrit/).
 
@@ -46,7 +55,16 @@ The Git Integration for Jira app supports Gerrit web linking.
 
 ## GitHub
 
-[Check for existing SSH keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys) before you proceed to generate new keys.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <a href='https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys' target='_blank'>Check for existing SSH keys</a> before you proceed to generate new keys.
+    </div>
+    </div>
+</div>
 
 See GitHub supported platforms for generating SSH keys by following [this article](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 

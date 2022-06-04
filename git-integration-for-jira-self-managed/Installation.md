@@ -34,7 +34,11 @@ If the Git server and Jira server are installed on the same server, only the pat
     </div>
 </div>
 
-https://bigbrassband.wistia.com/medias/lr0jp6ntfd?embedType=async&seo=false&videoFoam=true&videoWidth=754
+<div class='embed-container embed-container--16-9'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/lr0jp6ntfd?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
 
-_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/lr0jp6ntfd) _to open this video in a new browser tab for more viewing options._
+<div>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/lr0jp6ntfd'><b>here</b></a> to open this video in a new browser tab for more viewing options.
+</div>
 

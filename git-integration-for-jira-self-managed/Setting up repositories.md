@@ -8,11 +8,13 @@ taxonomy:
 ---
 Setup repositories and manage them in the Git Integration app configuration in Jira.
 
-<div class='embed-container embed-container--16-9'>
+<div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/m1k2sol0a5?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/m1k2sol0a5) _to open this video in a new browser tab for more viewing options._
+<div>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/m1k2sol0a5'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
 
 ## Introduction
 
