@@ -25,16 +25,8 @@ Click on a topic on the sidebar or continue immediately to the next article by c
 For permissions requirement, see [App platform and system permissions requirement](/git-integration-for-jira-self-managed/Permissions).
 <br>
 <br>
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Get new product notifications and feature updates from BigBrassBand LLC.</b>
-        <div class="nextpara>
-            <a href="http://eepurl.com/hhfbwz" target="_blank"><b>Click here</b></a> to subscribe to our mailing list
-        </div>
-    </div>
-</div>
+
+| **Get new product notifications and feature updates from BigBrassBand LLC.** |
+|:---:|
+| [Click here to subscribe to our mailing list](http://eepurl.com/hhfbwz) |
 

@@ -14,5 +14,4 @@ taxonomy:
 3.  Buy the app or start the free trial for 30 days.
 
 4.  Login to your Jira account, if required, to proceed installation of the app. The license key is automatically configured into the app configuration for free trial licenses. For purchased license keys, see [Managing license key](/git-integration-for-jira-self-managed/managing-license-key).
-<br>
-<br>
+

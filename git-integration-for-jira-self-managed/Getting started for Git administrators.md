@@ -65,18 +65,21 @@ For example:  `/home/git/repo/timetrackingproject.git`
 
 ### For Git repositories across network file shares
 
-If you have users access the Git repository over a network file share using Windows file sharing or NFS, the network share will need to be mounted on the Jira server. Assist the Jira administrator in mounting the network share. Then, provide the Jira administrator with the path to the Git repository over the network share.<br>
+If you have users access the Git repository over a network file share using Windows file sharing or NFS, the network share will need to be mounted on the Jira server. Assist the Jira administrator in mounting the network share. Then, provide the Jira administrator with the path to the Git repository over the network share.
+
 Linux example: `/mnt/gitserver/home/git/repo/timetracking.git`<br>
 Windows example: `\\gitserver\git\repo\timetracking.git`
 
 ### For Git repositories hosted on Windows servers
 
-For cases when git repositories are hosted at Windows servers (Windows Server network drive) – while it is using the Windows server networking, the network credentials accessing the git repository must be the same as the user running Jira.<br>
+For cases when git repositories are hosted at Windows servers (Windows Server network drive) – while it is using the Windows server networking, the network credentials accessing the git repository must be the same as the user running Jira.
+
 The repository setting for _**Enable Fetches**_ of the configured network path must be `Git Repository hosted on same server as Jira`.
 
 ### For Jira hosted on Windows
 
-When using Active Directory accounts for repository access, changing the password of the AD account running Jira can cause repository authentication issues.<br>
+When using Active Directory accounts for repository access, changing the password of the AD account running Jira can cause repository authentication issues.
+
 Restart Jira to regain access to repositories.
 
 ## Does the Git Integration for Jira app have API commands that allow addition/removal of a Git project?
@@ -88,12 +91,6 @@ Yes. As of **v2.8.3+** of the Git Integration for Jira app, the **REST API**
 For information on troubleshooting known errors and issues, see [Git Integration for Jira - Knowledge Base/FAQ](/git-integration-for-jira-self-managed/frequently-asked-questions) and [Troubleshooting guides](/git-integration-for-jira-self-managed/troubleshooting-articles).
 <br>
 <br>
-* * *
-
-[Previous: Managing license key](/git-integration-for-jira-self-managed/managing-license-key)
-
-[Next: Setup GitLab Server to respond to incoming network API calls »](/git-integration-for-jira-self-managed/setup-gitLab-Server-to-respond-to-incoming-network-API-calls)
-
 * * *
 <br>
 
@@ -108,7 +105,8 @@ For information on troubleshooting known errors and issues, see [Git Integratio
       <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-      Need to know more features?  Read next:  <a href='https://bigbrassband.com/tips-for-jira-admins.html' target='_blank' alt='Opens in a new tab'>Helpful Tips for Jira Administrators</a>.
+      Need to know more features?  Read next: <a href='https://bigbrassband.com/tips-for-jira-admins.html' target='_blank' alt='Opens in a new tab'>Helpful Tips for Jira Administrators</a>.
     </div>
   </div>
 </div>
+

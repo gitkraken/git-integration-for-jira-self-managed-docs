@@ -47,7 +47,17 @@ As of **v2.8.5+** of the Git Integration for Jira app, Jira administrators can
 
     ![](/wp-content/uploads/gij-docs-admin-general-cfg-diff-code-setting.png)
 
-**NOTE:** Setting this value higher than the default value will impact the performance when loading the code diff of the selected file in the Git Commits tab. The code diff dialog will truncate the view for each 1500 lines code. To see the rest of the code, manually expand the view.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>NOTE!</b><br>
+        Setting this value higher than the default value will impact the performance when loading the code diff of the selected file in the Git Commits tab. The code diff dialog will truncate the view for each 1500 lines code. To see the rest of the code, manually expand the view.
+    </div>
+    </div>
+</div>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -62,7 +72,7 @@ As of **v2.8.5+** of the Git Integration for Jira app, Jira administrators can
 
 ## Enable/disable JQL search feature
 
-INTRODUCED VERSION 2.12.0+
+**INTRODUCED VERSION 2.12.0+**
 
 On your dashboard menu, go to Git ➜ Manage repositories ➜ **General settings** (sidebar). (Alternatively, go to Jira Administration ➜ Applications ➜ **General settings**).
 

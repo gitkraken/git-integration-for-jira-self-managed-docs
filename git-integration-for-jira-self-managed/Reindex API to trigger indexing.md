@@ -22,5 +22,3 @@ Example:
 http://jira.yourorg.com/rest/gitplugin/1.0/index.json?threadId=eafe58fc-d8de-42ff-8815-6fe5860b38d2
 ```
 
-
-

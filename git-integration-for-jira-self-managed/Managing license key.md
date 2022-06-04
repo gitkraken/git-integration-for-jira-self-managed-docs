@@ -46,5 +46,4 @@ Click on the box to enter/change the **License key**.
     </div>
     </div>
 </div>
-<br>
-<br>
+

@@ -52,4 +52,3 @@ If the `Last run duration` value shows `3 minutes` _or greater_, we recommend 
     </div>
 </div>
 
-

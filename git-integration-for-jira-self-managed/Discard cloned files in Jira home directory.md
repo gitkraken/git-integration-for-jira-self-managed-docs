@@ -56,6 +56,17 @@ There are three options to choose from:
 
 Select any option with the _discard_ label to enable editing of the file mask field.
 
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        For full list of features, version history and supported Jira version of the Git for Jira app, see <a href='https://marketplace.atlassian.com/plugins/com.xiplink.jira.git.jira_git_plugin/versions' target='_blank'>Git Integration for Jira app Version History</a>.
+    </div>
+    </div>
+</div>
+
 <div class="bbb-callout bbb--alert">
     <div class="irow">
     <div class="ilogobox">
@@ -66,10 +77,4 @@ Select any option with the _discard_ label to enable editing of the file mask 
     </div>
     </div>
 </div>
-
-* * *
-
-[Previous: Recommended upgrade method for Git Integration for Jira](/git-integration-for-jira-self-managed/recommended-upgrade-method-for-git-integration-for-jira/)
-
-[Next: Working with SSH keys](/git-integration-for-jira-self-managed/working-with-ssh-keys/)
 

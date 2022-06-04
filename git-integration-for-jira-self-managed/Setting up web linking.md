@@ -37,8 +37,11 @@ The web linking feature adds links to your git hosting provider directly into th
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/zfxfemq7z8?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/zfxfemq7z8) _to open this video in a new browser tab for more viewing options._
+<div align='center'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/zfxfemq7z8'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
 
+<br>
 
 For more information, see [Documentation: Web Linking](/git-integration-for-jira-self-managed/Web-linking).
 
