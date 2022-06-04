@@ -174,9 +174,3 @@ For more information about this topic, click [here](/git-integration-for-jira-s
     </div>
 </div>
 
-* * *
-
-[Previous: Setting up repositories (index)](/git-integration-for-jira-self-managed/Setting-up-repositories)
-
-[Next: Using the Add new integration wizard](/git-integration-for-jira-self-managed/Using+the+Add+new+integration+wizard)
-

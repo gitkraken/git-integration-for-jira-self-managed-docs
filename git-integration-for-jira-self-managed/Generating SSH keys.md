@@ -130,9 +130,3 @@ Other SSH key formats may be supported by Git Integration for Jira app, but pref
     </div>
 </div>
 
-* * *
-
-[Previous: Working with SSH keys (index)](/git-integration-for-jira-self-managed/working-with-ssh-keys)
-
-[Next: Adding a private SSH key »](/git-integration-for-jira-self-managed/adding-a-private-ssh-key)
-

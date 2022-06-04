@@ -23,7 +23,7 @@ There are two ways to do this:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        To manually update the Git Integration for Jira app, the user must have the <b>Jira System Administrators</b> global permission.
+        To manually update the Git Integration for Jira app, the user must have the <b>Jira System Administrators</b>global permission.
     </div>
     </div>
 </div>
@@ -43,5 +43,4 @@ The updating process is demonstrated in two chapters:
 <div align='center'>
     <i>Right-click <a href='https://bigbrassband.wistia.com/medias/aoyowvw485' target='_blank'><b>here</b></a> and view this video in a new browser tab.</i>
 </div>
-<br>
-<br>
+

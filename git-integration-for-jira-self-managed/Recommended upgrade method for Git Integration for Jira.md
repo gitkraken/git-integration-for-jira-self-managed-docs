@@ -22,31 +22,50 @@ If you have installed the Git Integration for Jira app with versions prior to v2
 
 1.  Do the upgrade at night – when the number of Jira users is minimal.
 
-2.  Make backups.
-
-    a.  **Make a Jira backup (recommended).** The Git for Jira app upgrade only updates its components.  Thus, it has no adverse effect to Jira. It is still better to make a backup of your Jira before any app upgrade as a safety measure.
-
-    b  **Make a Git Integration for Jira app configuration backup (recommended).** Make sure to do a backup of the Git repositories connection configuration.
-
-        i.  Perform a bulk export of your existing repositories or integration via the Git Integration for Jira app repositories configuration page.
-
-            1.  On your Jira dashboard menu Git ➜ **Manage repositories**.
-
-            2.  Click the **Bulk Change** button drop down then select **1\. Export configuration**. For detailed steps, see [Bulk Change - Export Configuration](/git-integration-for-jira-self-managed/exporting-repository-configuration-via-bulk-change/).
-
-                ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396509/bulk-export-loc-test(c).png?version=1&modificationDate=1630642797003&cacheVersion=1&api=v2)
-        ii.  Make sure that you have all the required SSH keys uploaded to the Git Integration for Jira app
-
-            1.  On your Jira dashboard, go to menu Git ➜ **Manage repositories**.
-
-            2.  Click **SSH keys** on the sidebar. This will make seamless connection of the SSH git repositories to Jira via [Bulk Change - Import Configuration](/git-integration-for-jira-self-managed/import-existing-repositories-via-bulk-change/).
-
-                ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396509/add-ssh-key-loc-test(c).png?version=1&modificationDate=1630642797244&cacheVersion=1&api=v2)
+2.  Make backups (see [below](#making-backups)).
 
 3.  Upgrade the Git for Jira app to the latest version.
 
+## Making backups
 
-If you have several large repositories and have a problem with exceeded timeout, we recommend that you use our [Tracked folders integration](/git-integration-for-jira-self-managed/tracked-folders/) feature to scan local folders at once and import repositories automatically.
+We strongly advise to make backups to avoid operations disaster.
+
+### Make a Jira backup (recommended)
+
+The Git for Jira app upgrade only updates its components.  Thus, it has no adverse effect to Jira. It is still better to make a backup of your Jira before any app upgrade as a safety measure.
+
+### Make a Git Integration for Jira app configuration backup (recommended)
+
+Make sure to do a backup of the Git repositories connection configuration.
+
+1.  Perform a bulk export of your existing repositories or integration via the Git Integration for Jira app repositories configuration page.
+
+    *   On your Jira dashboard menu Git ➜ **Manage repositories**.
+
+    *   Click the **Bulk Change** button drop down then select **1\. Export configuration**. For detailed steps, see [Bulk Change - Export Configuration](/git-integration-for-jira-self-managed/exporting-repository-configuration-via-bulk-change/).
+
+        ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396509/bulk-export-loc-test(c).png?version=1&modificationDate=1630642797003&cacheVersion=1&api=v2)
+2.  Make sure that you have all the required SSH keys uploaded to the Git Integration for Jira app
+
+    *   On your Jira dashboard, go to menu Git ➜ **Manage repositories**.
+
+    *   Click **SSH keys** on the sidebar. This will make seamless connection of the SSH git repositories to Jira via [Bulk Change - Import Configuration](/git-integration-for-jira-self-managed/import-existing-repositories-via-bulk-change/).
+
+        ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396509/add-ssh-key-loc-test(c).png?version=1&modificationDate=1630642797244&cacheVersion=1&api=v2)
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        If you have several large repositories and have a problem with exceeded timeout, we recommend that you use our <a href='/git-integration-for-jira-self-managed/tracked-folders/'>Tracked folders integration</a> feature to scan local folders at once and import repositories automatically.
+    </div>
+    </div>
+</div>
+<br>
+
+## Unisntall | Reinstall (Not recommended)
 
 Another option is to completely uninstall then reinstall the Git for Jira app. However, this will result in Jira running on a clean state:
 

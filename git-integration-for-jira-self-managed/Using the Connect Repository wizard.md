@@ -13,6 +13,7 @@ taxonomy:
 - [SSH authentication](#ssh-authentication)
 - [Passphrase Input](#passphrase-input)
 
+
 * * *
 
 ## Getting started
@@ -133,16 +134,6 @@ The level of permissions can be one of the following:
     </tbody>
 </table>
 
-* * *
-Below is the MD table...
-* * *
-
-| **Level** | **Process** |
-| :--- | :--- |
-| _**Repository**_ | Select a repository from the repository list. For repositories inside integrations, view the integration then select a repository within _(Actions ➜ Show integration repositories)_. After the selection, you will be taken to the repository properties.<br><br>Set the **Project Permissions** as follows:<br><br>1.  Uncheck the **Associate with all projects** option.<br>    <br>2.  Click the _**Restrict to project**_ field and select one or more project(s).<br>    <br>3.  Save/Update the repository settings. |
-| _**Integration**_ | Select an integration from the repository list then open the integration feature properties _(_![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Actions ➜ Edit integration feature settings)_.<br><br>Set the **Project Permissions** as follows:<br><br>1.  Uncheck the **Associate with all projects** option.<br>    <br>2.  Click the _**Restrict to project**_ field and select a project.<br>    <br>3.  Save/Update the repository settings. |
-| _**All**_ | This is the default setting where the **Associate to all projects** option is in ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) state. |
-
 <div class="bbb-callout bbb--alert">
     <div class="irow">
     <div class="ilogobox">
@@ -163,7 +154,8 @@ If the entered git clone URL requires HTTP credentials, the following screen app
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397090/connect-git-wizard-auth-scr-http(n).png?version=1&modificationDate=1630642824202&cacheVersion=1&api=v2&width=680&height=355)
 
 <div align='center'>
-    <b>Figure 3:</b> HTTP authentication screen in the Connect wizard.</div>
+    <i><b>Figure 3:</b> HTTP authentication screen in the Connect wizard.</i>
+</div>
 <br>
 
 Provide _**Username**_ and _**Password**_ in the respective fields then click **Next** to continue.
@@ -188,7 +180,8 @@ For SSH git repository connections, the following screen is displayed for authen
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930397090/gitserver-ssh-connect-auth-screen.png?version=1&modificationDate=1630642825404&cacheVersion=1&api=v2)
 
 <div align='center'>
-    <b>Figure 4:</b> SSH authentication screen in the Connect wizard.</div>
+    <i><b>Figure 4:</b> SSH authentication screen in the Connect wizard.</i>
+</div>
 <br>
 
 Upload the private key file by clicking **Choose File** and navigate to the private key file. Otherwise, paste the private key text into the provided box.
@@ -264,10 +257,4 @@ After the above requirements are fulfilled, the wizard will:
 Click **Finish** to close the wizard.
 
 This completes the setup and the newly added repository appears on the integration list on the Git Integration app repository configuration page.
-
-* * *
-
-[Previous: Using the Add new integration wizard](/git-integration-for-jira-self-managed/using-the-add-new-integration-wizard/)
-
-[Next: Connecting a repository via Advanced setup »](/git-integration-for-jira-self-managed/connecting-a-repository-via-advanced-setup/)
 

@@ -148,9 +148,3 @@ ssh-keygen -t rsa -b 4096 -m pem -C "your_email@example.com"
 
 MacOS often incorrectly creates an OpenSSH format certificate. For more details, see information on this [**common problem**](https://serverfault.com/questions/939909/ssh-keygen-does-not-create-rsa-private-key).
 
-* * *
-
-[Previous: Getting started for Git administrators](/git-integration-for-jira-self-managed/getting-started-for-git-administrators)
-
-[Next: Generating SSH keys](/git-integration-for-jira-self-managed/generating-ssh-keys)
-

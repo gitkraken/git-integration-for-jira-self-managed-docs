@@ -14,23 +14,23 @@ For this workaround to work, the user must have an access to a Jira hosting inst
 
 3.  Go to a directory and perform a clone of a repository:
 
-    ```java
+    ```powershell
     git clone --mirror git@gitserver.com:repo/url.git  **1
     ```
 
     Or use the generic clone:
 
-    ```java
+    ```powershell
     git clone git@gitserver.com:repo/url.git  **2
     ```
 
-    1 Modify the git repository URL to the correct one.
-    2 Using the generic clone may take a bit longer and requires more disk space to store.
+    ^1^ Modify the git repository URL to the correct one.<br>
+    ^2^ Using the generic clone may take a bit longer and requires more disk space to store.
 
 4.  For `~/Image-repo/` directory, give read and write permissions to the same user running Jira.
     For example, to make the user named _user_ be an owner of a folder, perform the following command:
 
-    ```java
+    ```powershell
     sudo chown user ~/Image-repo
     ```
 
@@ -60,3 +60,4 @@ This setting affects how long will Git Integration for Jira app waits for connec
     </div>
     </div>
 </div>
+

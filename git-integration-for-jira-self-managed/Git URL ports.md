@@ -36,9 +36,3 @@ Test git connection and repository URL by doing the following:
     </div>
 </div>
 
-* * *
-
-[Previous: Working with SSH keys](/git-integration-for-jira-self-managed/Working-with-SSH-keys)
-
-[Next: Setting up repositories](/git-integration-for-jira-self-managed/Setting-up-repositories)
-
