@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-On the **Manage Git Repositories** page, click the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) icon under the **Actions** column then select:
+On the **Manage Git Repositories** page, click the <img src='https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/2699.png' width=20 height=20 /> icon under the **Actions** column then select:
 
 *   For tracked folders  –  **Show tracked repositories**.
 
@@ -19,11 +19,38 @@ This action will open the **Tracked Folder** dialog showing the tracked/integr
 
 Browse the tracked repositories/folder by clicking the page controls (if more than 10 repositories are connected).
 
-VERSION 2.13.1 In the filter field at the top right, enter a character or a name to display repositories that contains the search text.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        In the filter field at the top right, enter a character or a name to display repositories that contains the search text.
+    </div>
+    </div>
+</div>
 
-|     |
-| --- |
-| JIRA SERVER DATA CENTER |
-| Enable/disable the state of the connected repositories under the **Enabled** column of the repository list. |
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Enable/disable the state of the connected repositories under the <b>Enabled</b> column of the repository list.
+    </div>
+    </div>
+</div>
+<br>
 
-The Repository Browser will not display the repository if it is disabled in the Git Repositories configuration. The commits and code diffs in the **Issue** ➜ **Git Commits**, **Git Roll Up** and **Project** tabs will also be unavailable due to this.
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The Repository Browser will not display the repository if it is disabled in the Git Repositories configuration. The commits and code diffs in the Issue ➜ <b>Git Commits</b>, <b>Git Roll Up</b> and <b>Project</b> tabs will also be unavailable due to this.
+    </div>
+    </div>
+</div>
+<br>
+
