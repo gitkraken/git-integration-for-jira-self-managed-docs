@@ -10,18 +10,30 @@ Smart commits allows your team to perform actions on Jira issues from a single c
 
 ## Getting started
 
-VERSION 2.6.3+ The smart commit processing is **active by default** and can be enabled/disabled via the git configuration page (![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions ➜ Edit integration/repository settings**):
+The smart commit processing is **active by default** and can be enabled/disabled via the git configuration page &nbsp;<img src='https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/2699.png' width=20 height=20 /> **Actions ➜ Edit integration/repository settings**):
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398395/smart-commit-setting.png?version=1&modificationDate=1630642887746&cacheVersion=1&api=v2&width=374&height=80)
+<img src='https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398395/smart-commit-setting.png?version=1&modificationDate=1630642887746&cacheVersion=1&api=v2&width=374&height=80' class='center img-responsive img-bordered' />
 
-_In Jira Server, Smart Commits is a setting toggle in the **Connect wizard** or the git_
-_configuration page under **Actions** ➜ **Edit integration/repository settings**._
-_In Jira Cloud, this setting is always enabled._
+<div align='center'>
+    <i>In Jira Server, Smart Commits is a setting toggle in the **Connect wizard** or the git<br>
+    configuration page under <b>Actions</b> ➜ <b>Edit integration/repository settings</b>.<br>
+    In Jira Cloud, this setting is always enabled.</i>
+</div>
+<br>
 
-VERSION 2.13.0+ Smart commits support for project keys that has an underscore "\_" character.
-VERSION 3.2.0+ Smart commits support for all alphabet characters.
-VERSION 3.5.0.2+ Smart commits support for case insensitive smart commits.
-
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Smart commits support for project keys that has an underscore "_" character.<br>
+        <b>VERSION 3.2.0+</b> Smart commits support for all alphabet characters.<br>
+        <b>VERSION 3.5.0.2+</b> Smart commits support for case insensitive smart commits.
+    </div>
+    </div>
+</div>
+<br>
 
 Smart commits configuration checklist:
 
