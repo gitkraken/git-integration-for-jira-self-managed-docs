@@ -10,15 +10,36 @@ The **Repository Browser** allows users to view git repositories of configured
 
 ## Getting started
 
-**Permissions**
-Users must have the **View Development Tools** _project permission_ in order to gain access to the Repository Browser. For more information on assigning Jira permissions, see [**Managing Permissions in Jira**](https://confluence.atlassian.com/display/Jira/Managing+Global+Permissions).
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Permissions</b><br>
+        Users must have the <b>View Development Tools</b> <i>project permission</i> in order to gain access to the Repository Browser. For more information on assigning Jira permissions, see <a href='https://confluence.atlassian.com/display/Jira/Managing+Global+Permissions' target='_blank'><b>Managing Permissions in Jira</b></a>.
+    </div>
+    </div>
+</div>
 
-**Git menu**
-After installing the Git Integration for Jira app, the **Git** dropdown menu is added to the dashboard.
-
-The **Git** header is hidden for all users if there are no repositories with Repository Browser enabled for that user. The Git Integration for Jira app will always show the **Git** header to Jira administrators.
-
-The **Git** header is visible to other users who have repositories with Repository Browser enabled and have no history of using the Repository Browser _(for example - no previously viewed or repositories set as favorite)._
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Git menu</b><br>
+        After installing the Git Integration for Jira app, the <b>Git</b> dropdown menu is added to the dashboard.
+        <div class='nextpara'>
+            The <b>Git</b> header is hidden for all users if there are no repositories with Repository Browser enabled for that user. The Git Integration for Jira app will always show the <b>Git</b> header to Jira administrators.
+        </div>
+        <div class='nextpara'>
+            The <b>Git</b> header is visible to other users who have repositories with Repository Browser enabled and have no history of using the Repository Browser (<i>for example -- no previously viewed or repositories set as favorite</i>).
+        </div>
+    </div>
+    </div>
+</div>
+<br>
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398598/gitserver-gitmenu-repo-browser.png?version=1&modificationDate=1639221831233&cacheVersion=1&api=v2&width=163&height=111)
 
@@ -32,15 +53,14 @@ Available git repositories of configured projects are displayed.
 
 *   On the list table, you will see git repositories, recent issues updated by the user, and the last commits made.
 
-*   The personal access token configuration column (_Pers. Access_) displays the PAT setup option if require user pat setting is enabled). Click the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) edit icon to setup PAT to allow branch and PR/MR creation functions via [Jira Git integration development panel](/wiki/spaces/GIJDC/pages/1930399012/Jira+Git+integration+development+panel). The adjacent checkmark indicates a PAT has already been configured.
+*   The personal access token configuration column (_Pers. Access_) displays the PAT setup option if require user pat setting is enabled). Click the <img src='/wp-content/uploads/gij-edit-icon-dark.png' width=20 height=20 /> edit icon to setup PAT to allow branch and PR/MR creation functions via [Jira Git integration development panel](/git-integration-for-jira-self-managed/jira-git-integration-development-panel/). The adjacent checkmark indicates a PAT has already been configured.
 
 *   On the bottom left of the list, the view options control how many rows the list will display. The default view is 10 rows. Larger row view affects page loading time.
 
 *   On the right of the view options are the pagination options. Use the controls to navigate through the page list.
 
 
-##
-Repository view
+## Repository view
 
 Click a git repository under Git repository column to browse its contents and switch to repository view. For example:
 
@@ -60,15 +80,50 @@ Click a git repository under Git repository column to browse its contents and sw
 
 *   Clicking on the **Repositories** button at the top right of the page returns the view to the Repository Browser.
 
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Commit revisions</b><br>
+        The revisions of the commits are displayed on the Repository Browser in addition to branches and tags. See <a href='/git-integration-for-jira-self-managed/viewing-list-of-commits-in-repository-browser/'>Repository Browser - Git Commits tab</a> for detailed information.
+    </div>
+    </div>
+</div>
 
-**Commit revisions**
-The revisions of the commits are displayed on the Repository Browser in addition to branches and tags. See [Repository Browser - Git Commits tab](/wiki/spaces/GIJDC/pages/1930398681/Viewing+list+of+commits+in+Repository+Browser) for detailed information.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        If the selected path is a <b><i>root</i></b> of the repository and no files are present, a message will be displayed instead of an empty file list.
+    </div>
+    </div>
+</div>
 
-If the selected path is a _**root**_ of the repository and no files are present, a message will be displayed instead of an empty file list.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Administration</b><br>
+        Administrators can turn off the Repository Browser via &nbsp;<img src='https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/2699.png' width=20 height=20 /> Actions ➜ **Edit repository settings** in the Git Integration for Jira app configuration.
+    </div>
+    </div>
+</div>
 
-**Administration**
-Administrators can turn off the Repository Browser via ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit repository settings** in the Git Integration for Jira app configuration.
-
-**Sort header**
-The displayed repositories can be sorted by clicking the corresponding list header. The Git Integration for Jira app will remember the sorting choice per user.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Sort header</b><br>
+        The displayed repositories can be sorted by clicking the corresponding list header. The Git Integration for Jira app will remember the sorting choice per user.
+    </div>
+    </div>
+</div>
 

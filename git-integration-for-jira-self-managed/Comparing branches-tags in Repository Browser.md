@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-ALSO IN JIRA CLOUD
+**ALSO IN JIRA CLOUD**
 
 On the Repository Browser, click the **Compare** page tab.
 
@@ -33,7 +33,7 @@ Click **Commits** on the sidebar to view the list of commits resulting from th
 
 Click **Diff** on the sidebar to view code diffs of the selected range of commits with the path and name of the affected files.
 
-INTRODUCED VERSION 2.10.0+
+* * *
 
 Click **Issues** on the sidebar to view list of unique Jira issues related to commits.
 
