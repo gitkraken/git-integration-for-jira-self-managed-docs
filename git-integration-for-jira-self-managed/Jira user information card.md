@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-As of **v2.6.5+** of the Git Integration for Jira app, the Jira user card is available on the following screens:
+The Jira user card is available on the following screens:
 
 *   Git Commits tab _(Commit author name)_
 
@@ -23,7 +23,7 @@ Hover the mouse pointer on the name of the user.  A small information box conta
 
 Click **Activity** to view the latest activities performed by that user.
 
-Click **More▾** to open more options such as:
+Click **More ▾** to open more options such as:
 
 *   view this user’s profile,
 
@@ -31,6 +31,14 @@ Click **More▾** to open more options such as:
 
 *   go to the administration section for this user.
 
-
-The [Git user identity](/wiki/spaces/GIJDC/pages/1930398801/Git+user+identity) should be configured for the specific user. Otherwise, the user card information will not be displayed for that user.
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The <a href='/git-integration-for-jira-self-managed/git-user-identity/'>Git user identity</a> should be configured for the specific user. Otherwise, the user card information will not be displayed for that user.
+    </div>
+    </div>
+</div>
 

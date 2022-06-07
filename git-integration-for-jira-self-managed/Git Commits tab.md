@@ -1,6 +1,6 @@
 ---
 
-title: Git Commits tab
+title: Jira issue page - Git Commits tab
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed
@@ -10,12 +10,12 @@ The Git Commits tab shows commit information such as commit authors, date of com
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398950/gitserver-git-commits-tab-enum(feb2022).png?version=2&modificationDate=1645415299981&cacheVersion=1&api=v2&width=680&height=238)
 
+<br>
 
 Open an issue then go to the _**Git Commits**_ tab to view commit information:
 
-|     |     |     |
-| --- | --- | --- |
 | **Pointer** | **Information** | **Description** |
+| :--- | :--- | :--- |
 | **1** | **Repository/Indexed** | Name of the repository _(as in app config)_ and date of last synchronization with remote repository. |
 | **2** | **Author/Committer** | User who performed the commit. Hover the mouse pointer on the name to view user card. |
 | **3** | **Issue key/Commit message** | This is the Jira issue with the corresponding commit message. |
@@ -27,6 +27,16 @@ Open an issue then go to the _**Git Commits**_ tab to view commit information:
 | **9** | **Web links** | These are clickable web links that will open the selected file code diff directly to git host portal in a new browser window/tab. |
 | **10** | **Files changed** | List of files affected by the commit. Click the file or git host link to view code diff of this commit.<br><br>![Git commit traffic light example](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398950/traffic-light-example.png?version=2&modificationDate=1639995867373&cacheVersion=1&api=v2&width=117&height=16)<br><br>The traffic light indicator shows the added/modified/deleted lines from the file code diffs. |
 
-View the whole commit code diff information by clicking the **View full commit** button to the right of the commit message.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        View the whole commit code diff information by clicking the <b>View full commit</b> button to the right of the commit message.
 
-View code diff information of the particular file by clicking the filename for each file adjacent to the rollup counter markers.
+        View code diff information of the particular file by clicking the filename for each file adjacent to the rollup counter markers.
+    </div>
+    </div>
+</div>
+

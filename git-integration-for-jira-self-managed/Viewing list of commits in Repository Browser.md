@@ -22,9 +22,10 @@ The list of commits for the currently selected project is displayed in descendin
 
 *   Click on the GitKraken icon to view commit information and code diffs related to that commit in GitKraken git client app.
 
-*   VERSION 4.0+ On the bottom left and top left of the list, the view options control how many rows the list will display. The default view is 15 rows. Larger row view affects page loading time.
+*   **VERSION 4.0+** On the bottom left and top left of the list, the view options control how many rows the list will display. The default view is 15 rows. Larger row view affects page loading time.
 
-*   VERSION 4.0+ On the right of the view options are the pagination options. Use the controls to navigate through the page list.
+*   **VERSION 4.0+** On the right of the view options are the pagination options. Use the controls to navigate through the page list.
 
 
 Clicking on the **Repositories** button at the top right of the page returns the view to the Repository Browser.
+
