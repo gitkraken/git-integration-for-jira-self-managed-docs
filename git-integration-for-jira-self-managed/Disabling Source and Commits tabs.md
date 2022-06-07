@@ -10,13 +10,22 @@ The **Source** tab is part of the FishEye Plugin and is used for integration w
 
 Atlassian enables these tabs by default.
 
-If either **FishEye** or **Jira DVCS Connector** plugin is not installed, the **Source** or **Commits** tab will not be visible on the **Issues** page.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        If either <b>FishEye</b> or <b>Jira DVCS Connector</b> plugin is not installed, the <b>Source</b> or <b>Commits</b> tab will not be visible on the <b>Issues</b> page.
+    </div>
+    </div>
+</div>
 
 ## Hiding the Source tab
 
 To hide the **Source** tab from the **Issues** page, disable the **FishEye Plugin**:
 
-1.  On your Jira dashboard, go to ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Jira Administration ➜ **Manage Apps**.
+1.  On your Jira dashboard, go to Jira Administration ➜ **Manage Apps**.
 
 2.  Find and click **FishEye Plugin** under the installed add-ons to expand its options.
 
@@ -27,7 +36,7 @@ To hide the **Source** tab from the **Issues** page, disable the **FishEye 
 
 To hide the **Commits** tab from the **Issues** page, disable the **Jira DVCS Connector Plugin**:
 
-1.  On your Jira dashboard, go to ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Jira Administration ➜ **Manage Apps**.
+1.  On your Jira dashboard, go to Jira Administration ➜ **Manage Apps**.
 
 2.  Find and click **Jira DVCS Connector Plugin** under the installed add-ons to expand its options.
 

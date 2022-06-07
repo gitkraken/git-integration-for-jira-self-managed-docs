@@ -14,9 +14,10 @@ The bulk export function allows Jira administrators to create a backup copy of t
 
 2.  Click **Bulk change** then select **Export Configuration**. The following dialog is displayed.
 
-3.  ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930397830/gitserver-bulk-change-export-cfg(c).png?version=1&modificationDate=1630642860944&cacheVersion=1&api=v2)
+    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930397830/gitserver-bulk-change-export-cfg(c).png?version=1&modificationDate=1630642860944&cacheVersion=1&api=v2)
 
-    Click **Download** to save the current configuration of your repositories to a specified location.
+3.  Click **Download** to save the current configuration of your repositories to a specified location.
 
 
 For detailed instructions on importing multiple repositories into the Git Integration for Jira app configuration list, click on the _Detailed instructions_ label or go to the next topic.
+

@@ -11,9 +11,15 @@ taxonomy:
 
 The **Bulk change** feature provides an easier way to import or export repository configuration.
 
-_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/v2c5qrgps8) _to open this video in a new browser tab for more viewing options._
+<div class='embed-container embed-container--16-10'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/v2c5qrgps8?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
+
+<div align='center'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/v2c5qrgps8'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
 
 ### Bulk change automation
 
-To automate the bulk change process via script, see [Bulk change API](/wiki/spaces/GIJDC/pages/380764495).
+To automate the bulk change process via script, see [Bulk change API](/git-integration-for-jira-self-managed/bulk-change/).
 

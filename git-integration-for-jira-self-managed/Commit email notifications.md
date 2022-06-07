@@ -25,18 +25,15 @@ The user must have the following permissions to get notifications:
 
 Access the settings for this feature via:
 
-|     |
-| --- |
-| **1.** Git for Jira app **General Settings.** |
-| ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397995/general-cfg-commit-notification.png?version=1&modificationDate=1630642868210&cacheVersion=1&api=v2&width=550&height=142) |
+1. Git for Jira app **General Settings.**
 
-|     |
-| --- |
-| **2\.** Connect to Git Repository ➜ **Advanced Setup** and Git Repositories (sidebar) ➜ **Edit Repository** screens. |
-| ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397995/commit-email-notification-cfg.png?version=1&modificationDate=1630642868430&cacheVersion=1&api=v2&width=442&height=116) |
+    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397995/general-cfg-commit-notification.png?version=1&modificationDate=1630642868210&cacheVersion=1&api=v2&width=550&height=142)
 
-|     |
-| --- |
-| **3.** Jira User Profile ➜ Git Integration for Jira preferences ➜ **Git Commit Emails**. |
-| ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397995/user-profile-git-commit-emails.png?version=1&modificationDate=1630642868666&cacheVersion=1&api=v2&width=442&height=346) |
+2. Connect to Git Repository ➜ **Advanced Setup** and Git Repositories (sidebar) ➜ **Edit Repository** screens.
+
+    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397995/commit-email-notification-cfg.png?version=1&modificationDate=1630642868430&cacheVersion=1&api=v2&width=442&height=116)
+
+3. Jira User Profile ➜ Git Integration for Jira preferences ➜ **Git Commit Emails**.
+
+    | ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397995/user-profile-git-commit-emails.png?version=1&modificationDate=1630642868666&cacheVersion=1&api=v2&width=442&height=346)
 

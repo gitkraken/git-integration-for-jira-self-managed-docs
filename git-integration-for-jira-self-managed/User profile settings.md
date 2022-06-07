@@ -9,10 +9,13 @@ taxonomy:
 By default, Jira email notification format is text-only.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398073/commit-email-view-text.png?version=1&modificationDate=1630642871399&cacheVersion=1&api=v2&width=589&height=256)
+<br><br>
 
-You can change this setting to HTML by going to **User Profile** > **Preferences**. Click the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Edit**  icon. The following dialog is displayed.
+You can change this setting to HTML by going to **User Profile** ➜ **Preferences**. Click the <img src='/wp-content/uploads/gij-edit-icon-dark.png' width=20 height=20) **Edit** icon. The following dialog is displayed.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930398073/gitserver-user-prefs-email-type-sel.png?version=1&modificationDate=1630642872097&cacheVersion=1&api=v2)
+
+<br>
 
 Change the _**Email Type**_ to **HTML**.
 
