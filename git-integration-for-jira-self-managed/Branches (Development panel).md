@@ -32,12 +32,12 @@ Click **Create branch** to create a branch for the selected repository. The f
 
 2.  Set **Base branch** and **Branch name**.
 
-3.  The Git Integration for Jira app will populate the **Branch name** field according to the _Branch Name Template_ declared in the [Git integration settings](/wiki/spaces/GIJDC/pages/1207795905/Git+integration+features) [](https://bigbrassband.com/git-integration-for-jira/documentation/general-settings.html#git_int_options)via **General Settings**. Enter a descriptive name or leave it as is (recommended).
+3.  The Git Integration for Jira app will populate the **Branch name** field according to the _Branch Name Template_ declared in the [Git integration settings](/git-integration-for-jira-self-managed/general-settings/) via **General Settings**. Enter a descriptive name or leave it as is (recommended).
 
 
 ## Create branch (Require user PAT enabled)
 
-If the [Require User PAT option](/wiki/spaces/GIJDC/pages/317390849) is enabled in the **Integration Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead:
+If the [Require User PAT option](git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request/) is enabled in the **Integration Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead:
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399090/gitserver-create-branch-req-user-pat-enabled.png?version=3&modificationDate=1630669620374&cacheVersion=1&api=v2&width=550&height=276)
 
@@ -57,7 +57,7 @@ The Setup PAT dialog can also be accessed on the Repository Browser under _**Per
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399090/gitserver-repo-browser-setup-pat-highlight.png?version=1&modificationDate=1630669274634&cacheVersion=1&api=v2&width=680&height=381)
 
-*   Click ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) to setup a PAT for the selected repository. The PAT setup dialog appears.
+*   Click the Edit Pencil to setup a PAT for the selected repository. The PAT setup dialog appears.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399090/gitserver-setup-your-user-pat-dlg-new(c).png?version=1&modificationDate=1630668474897&cacheVersion=1&api=v2&width=544&height=300)
 *   Paste a valid PAT of the current user to proceed. Invalid PATs will fail the branch creation process.
