@@ -45,7 +45,7 @@ All the repositories will be reindexed if the URL specified above is activated t
 There is no support for other HTTP methods such as  `DELETE`  or  `HEAD` .
 
 
-For more information about triggers and event types, see [Creating reindex triggers for a single repository](/wiki/spaces/GIJDC/pages/171475191/Creating+reindex+triggers+for+a+single+repository).
+For more information about triggers and event types, see [Creating reindex triggers for a single repository](/git-integration-for-jira-self-managed/creating-reindex-triggers-for-a-single-repository/).
 
 ## Advanced settings
 

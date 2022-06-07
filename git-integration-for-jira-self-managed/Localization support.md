@@ -29,7 +29,7 @@ To switch to another language:
 
 1.  Go to your **User Profile**.
 
-2.  Under **Preferences**, click the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) icon.
+2.  Under **Preferences**, click the Pencil icon.
 
 3.  On the **Update User Preferences** screen, select one of the supported language from the list.
 

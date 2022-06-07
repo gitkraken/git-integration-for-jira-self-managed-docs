@@ -45,11 +45,11 @@ The trustFolderStat setting can be accessed in the following locations:
 
 *   Jira dashboard menu **Git** ➜ Manage repositories ➜ **General Settings**.
 
-*   Manage repositories ➜ ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit integration connection settings**.
+*   Manage repositories ➜Actions ➜ **Edit integration connection settings**.
 
-*   ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Show integration repositories** ➜ click a repository (_Integration_ ➜ repository level settings).
+*   Actions ➜ **Show integration repositories** ➜ click a repository (_Integration_ ➜ repository level settings).
 
-*   ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit repository settings**.
+*   Actions ➜ **Edit repository settings**.
 
 *   Manage repositories page ➜ Connect to Git repository ➜ **Advanced setup**.
 
