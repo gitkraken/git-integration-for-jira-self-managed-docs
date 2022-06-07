@@ -35,7 +35,7 @@ Annotated tags can contain a message, author and date different than the commit 
 
 ## Getting started
 
-The git tag is displayed on the right sidebar if it is enabled in the [General Settings](/wiki/spaces/GIJDC/pages/1207795905) of the Git Integration app ➜ `Calculate and show Git tags in Git Source Code panel`.
+The git tag is displayed on the right sidebar if it is enabled in the [General Settings](/git-integration-for-jira-self-managed/general-settings/) of the Git Integration app ➜ `Calculate and show Git tags in Git Source Code panel`.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399204/dev-panel-git-tags-gen-cfg-setting.png?version=1&modificationDate=1630642925378&cacheVersion=1&api=v2&width=550&height=68)
 
@@ -74,5 +74,5 @@ Move the mouse pointer over the tag to display the following tooltip information
 
 Tags are only associated with the Jira issue by Jira keys that are specified in commits that belong to the tag. Specifying a Jira key in the name of a tag does not associate this tag with the mentioned ticket.
 
-If some commits relate only to tags, these commits will not be displayed. For more information, see the [related known issue](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/591888396/Known+Issues#Commits-Relating-Only-to-Tags-are-Not-Displayed).
+If some commits relate only to tags, these commits will not be displayed. For more information, see the [related known issue](/git-integration-for-jira-self-managed/known-issues#Commits+Relating+Only+to+Tags+are+Not+Displayed).
 
