@@ -21,5 +21,5 @@ Only the commits that are **linked to Jira issues** will show on the Jira Activi
 
 #### Git administrator »
 
-If you want to enforce the commit with a hook, please install this Git commit hook script - [**Commit-msg Hook »**](http://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/92177150/Commit-msg+Hook).
+If you want to enforce the commit with a hook, please install this Git commit hook script - [**Commit-msg Hook »**](/git-integration-for-jira-self-managed/commit-msg-hook/).
 

@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 
-Using **Jira Cloud**? [See the corresponding article](/wiki/spaces/GITCLOUD/pages/86278279).
+Using **Jira Cloud**? [See the corresponding article](/git-integration-for-jira-cloud/azure-devops-visual-studio-team-services-vsts/).
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/92176406/vsts-azure-devops-logo.png?version=1&modificationDate=1577430609568&cacheVersion=1&api=v2)
 
@@ -32,7 +32,7 @@ The Git Integration for Jira app supports Azure Repos.
 
 ## Creating Personal Access Tokens
 
-If you have not yet generated a personal access token (PAT), create your token by following [the steps outlined in this article.](/wiki/spaces/GIJDC/pages/107380737/Creating+Personal+Access+Tokens#CreatingPersonalAccessTokens-azure-vsts)
+If you have not yet generated a personal access token (PAT), create your token by following [the steps outlined in this article.](/git-integration-for-jira-self-managed/creating-personal-access-tokens/)
 
 
 
@@ -64,7 +64,7 @@ Configuring the **Advanced** settings is optional.  However, admins/power use
     *   If the field is not blank, the app will assume it as a single account path and will try to use it. To connect to all available accounts, manually create integrations for each one of them.
 
 *   Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [support](mailto:support@bigbrassband.com?subject=Help%20with%20writing%20JMESPath%20filter%20expressions).
-*   To learn more VSTS/Azure DevOps examples, see article **[Jira Data Center: Working with JMESPath Filters](/wiki/spaces/GIJDC/pages/135430238/Working+with+JMESPath+Filters)**.
+*   To learn more VSTS/Azure DevOps examples, see article **[Jira Data Center: Working with JMESPath Filters](/git-integration-for-jira-self-managed/working-with-jmespath-filters/)**.
 
 *   Click Connect to continue.
 
@@ -78,8 +78,8 @@ Currently, all available accounts are scanned and corresponding URLs are created
 
 ![](https://bigbrassband.com/images/bbb/jira-server-connect-vsts-settings-dialog.png)
 
-*   On the Integration Settings, setting the **_Require User PAT_** option to **`ON`**, will require users to provide PAT specific for branch and merge requests _(via the **[developer panel »](https://bigbrassband.com/git-integration-for-jira/documentation/jira-developer-panel.html "Git add-on documentation - Jira developer panel")** on the Jira issue page)_.  For more information on this feature, see **[Integration Settings: Require User PAT »](/wiki/spaces/GIJDC/pages/92078126/Integration+Basics#IntegrationBasics-RequireUserPat)**.
-*   Set **[Smart Commits »](https://bigbrassband.com/git-integration-for-jira/documentation/smart-commits.html "(opens in new tab/window)")** and **[Repository Browser »](https://bigbrassband.com/git-integration-for-jira/documentation/repository-browser.html "(opens in new tab/window)")** to enable/disable these features.
+*   On the Integration Settings, setting the **_Require User PAT_** option to **`ON`**, will require users to provide PAT specific for branch and merge requests _(via the **[developer panel »](https://bigbrassband.com/git-integration-for-jira/documentation/jira-developer-panel.html "Git add-on documentation - Jira developer panel")** on the Jira issue page)_.  For more information on this feature, see **[Integration Settings: Require User PAT »](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request/)**.
+*   Set **[Smart Commits »](/git-integration-for-jira-self-managed/smart-commits/ "(opens in new tab/window)")** and **[Repository Browser »](/git-integration-for-jira-self-managed/repository-browser/ "(opens in new tab/window)")** to enable/disable these features.
 *   Set **Project Permissions** according to your organization's project association rules.
 
 8\. Click Finish. For now, only **git** projects are supported from Azure DevOps/VSTS.
@@ -124,7 +124,7 @@ The Git Integration for Jira app automatically configures web linking for Azure 
 
 First - configure webhooks in the Git Integration app in Jira via the **Git** menu > **Manage Git Repositories** then click **Webhooks**.  Enable the feature and save the settings.  Then [follow these instructions](https://docs.microsoft.com/en-us/azure/devops/service-hooks/services/webhooks?view=vsts "Opens in new tab/window") to setup the webhook trigger. Azure DevOps/VSTS webhooks will trigger an immediate index of all repositories within the integration.
 
-For detailed step-by-step guide showcasing the webhooks setup, [see this article](/wiki/spaces/GIJDC/pages/171999302/Adding+Webhooks+for+Azure+DevOps+Repos+%7C+VSTS).
+For detailed step-by-step guide showcasing the webhooks setup, [see this article](/git-integration-for-jira-self-managed/adding-webhooks-for-azure-devops-repos-vsts/).
 
 
 
@@ -190,7 +190,7 @@ Main branch for repositories within an integration can only be changed on the gi
 *   Choose a **Base branch**.
 *   Enter a **Branch name** or leave it as is (recommended).
 
-If the **[Require User PAT option](/wiki/spaces/GIJDC/pages/92078126/Integration+Basics#IntegrationBasics-RequireUserPat)** is enabled in the **Integration Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead:
+If the **[Require User PAT option](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request/)** is enabled in the **Integration Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead:
 
 ![](https://bigbrassband.com/images/bbb/jira-server-vsts-branch-pat-conf-dlg.png)
 
@@ -248,7 +248,7 @@ To create a pull request and merge it to the main source (master):
 *   Set **_master_** as the **Target branch**.
 *   Enter a descriptive title or leave it as is _(recommended)_.
 
-If the **[Require User PAT option](/wiki/spaces/GIJDC/pages/92078126/Integration+Basics#IntegrationBasics-RequireUserPat)** is enabled in the Integration Settings and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead:
+If the **[Require User PAT option](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request/)** is enabled in the Integration Settings and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead:
 
 ![](https://bigbrassband.com/images/bbb/jira-server-issue-create-pull-req-dlg-cfg-pat.png)
 

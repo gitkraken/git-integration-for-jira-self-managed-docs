@@ -8,9 +8,9 @@ taxonomy:
 ---
 These instructions apply to self-hosted GitHub Enterprise Server.
 
-For instructions to instances hosted on GitHub.com (Free, Team, Enterprise (including [**EMU**](https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users)) plans), please go to [this page](#).
+For instructions to instances hosted on GitHub.com (Free, Team, Enterprise (including [**EMU**](https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users)) plans), please go to [this page](/git-integration-for-jira-self-managed/github/).
 
-Using **Jira Cloud**? [See the corresponding article](https://bigbrassband.atlassian.net/wiki/x/VoAaBQ).
+Using **Jira Cloud**? [See the corresponding article](/git-integration-for-jira-cloud/github-com/).
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91914350/github-ent-server-banner-logo.png?version=1&modificationDate=1646819881183&cacheVersion=1&api=v2&width=510&height=59)
 
@@ -26,7 +26,7 @@ Quickly learn how to connect GitHub Enterprise Server git repositories via Git I
 
 If two-factor authentication is enabled for your GitHub Enterprise Server account, you will need to create a PAT to access your git repositories. Enable two-factor authentication in your GitHub Enterprise Server account for increased security.
 
-While instructions from GitHub works just fine, [follow this article](#) for some specific instructions to get you started.
+While instructions from GitHub works just fine, [follow this article](/git-integration-for-jira-self-managed/creating-personal-access-tokens/) for some specific instructions to get you started.
 
 ## Using Full feature integration
 
@@ -49,9 +49,9 @@ This setup uses full feature integration offering functions and features not fou
     3.  Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed.
 
         ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91914350/gitserver-general-advanced-autoconnect-opt(c).png?version=1&modificationDate=1644573046808&cacheVersion=1&api=v2&width=612&height=416)
-        *   **Custom API Path**  –  his is a relative path that starts with "/".  The maximum allowed length is 2000 characters or less. The integration will use the relative REST API path to retrieve the list of tracked repositories. The Custom API Path is called everytime the list of repositories is loaded, on a regular scheduled reindex and a manual reindex. For more examples, see article [Jira Server: Working with Custom API Path - GitHub Enterprise](/wiki/spaces/GITSERVER/pages/129433601/Working+with+Custom+API+Path).
+        *   **Custom API Path**  –  his is a relative path that starts with "/".  The maximum allowed length is 2000 characters or less. The integration will use the relative REST API path to retrieve the list of tracked repositories. The Custom API Path is called everytime the list of repositories is loaded, on a regular scheduled reindex and a manual reindex. For more examples, see article [Jira Server: Working with Custom API Path - GitHub Enterprise](/git-integration-for-jira-self-managed/working-with-custom-api-path/).
 
-        *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less. For help with writing expressions, please contact [support](mailto:support@bigbrassband.com). Read about JMESPath expressions on their [website](http://jmespath.org/). For some other examples, see [Jira Server: Working with JMESPath Filter in GitHub Enterprise](/wiki/spaces/GITSERVER/pages/129171463/Working+with+JMESPath+Filters).
+        *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less. For help with writing expressions, please contact [support](mailto:support@bigbrassband.com). Read about JMESPath expressions on their [website](http://jmespath.org/). For some other examples, see [Jira Server: Working with JMESPath Filter in GitHub Enterprise](/git-integration-for-jira-self-managed/working-with-jmespath-filters/).
 
         *   **Fetch refspec**  –  Git refspecs contains patterns mapped as references from the remote to the local repository.
             For more information, see **Git Internals -- The Refspec**.
@@ -85,11 +85,11 @@ This setup uses full feature integration offering functions and features not fou
 5.  After the import process, the **Settings** dialog is displayed:
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91914350/gitserver-github-autoconnect-settings-dlg(c).png?version=1&modificationDate=1644573046812&cacheVersion=1&api=v2&width=646&height=449)
-    *   On the Integration Settings, setting the _**Require User PAT**_ option to `ON`, will require users to provide PAT specific for branch and merge requests _(via the developer panel on the Jira issue page)_. For more information on this feature, see [Integration Settings: Require User PAT](/wiki/spaces/GITSERVER/pages/131170306).
+    *   On the Integration Settings, setting the _**Require User PAT**_ option to `ON`, will require users to provide PAT specific for branch and merge requests _(via the developer panel on the Jira issue page)_. For more information on this feature, see [Integration Settings: Require User PAT](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request/).
 
     *   Set **Smart commits** and **Repository Browser** to enable/disable these features.
 
-    *   Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Associating project permissions](/wiki/spaces/GITSERVER/pages/1923028500/Associating+project+permissions).
+    *   Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Associating project permissions](/git-integration-for-jira-self-managed/associating-project-permissions/).
 
 6.  Click **Finish** to complete this setup.
 
@@ -129,7 +129,7 @@ Assign GitHub Enterprise Server permissions for team members or collaborators to
 
 1.  Login to your GitHub Enterprise Server account.
 
-2.  Go to ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Profile ➜ **Settings**.
+2.  Go to Profile ➜ **Settings**.
 
 3.  Under _Organization settings_, click **Member Privileges**.
 
@@ -199,7 +199,7 @@ The Git Integration for Jira app automatically configures web linking for GitHub
 
 For single repository connections, web link setup is optional. However, git links will become available in Git Commits tab when configured.
 
-For more information on this feature, see [Documentation: Web linking](#).
+For more information on this feature, see [Documentation: Web linking](https://devhelpcenter.wpengine.com/git-integration-for-jira-self-managed/web-linking/).
 
 ## Viewing git commits in Jira Server
 
@@ -212,13 +212,13 @@ For more information on this feature, see [Documentation: Web linking](#).
 4.  Click **View full commit** to view the code diff.
 
 
-For more information about this feature, see [Documentation: Viewing commit code diffs](#).
+For more information about this feature, see [Documentation: Viewing commit code diffs](/git-integration-for-jira-self-managed/viewing-commit-code-diffs/).
 
 ## Require User PAT settings for user access
 
 For teams looking to maintain user attribution, Jira administrators can place a requirement where individual Jira users must provide personal access tokens to perform certain actions. This includes actions such as creating a branch or pull request in Jira using their git service account - rather than the integration account.
 
-For more information, see [Require personal access tokens for user access](#).
+For more information, see [Require personal access tokens for user access](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request/).
 
 If the **Require User PAT option** is enabled in the **Integration Feature Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, a text label about setting up your PAT is displayed on the create branch and create pull/merge request dialogs.
 
@@ -228,7 +228,7 @@ Click this text label to open the Setup PAT dialog and paste your personal acces
 
 Updating this dialog with a blank entry will remove the configured PAT for the current integration.
 
-The Setup PAT dialog is also accessible via Repository Browser (dashboard menu Git ➜ **Repository browser**) ➜ Click the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) icon under _**Pers. Access**_ column.
+The Setup PAT dialog is also accessible via Repository Browser (dashboard menu Git ➜ **Repository browser**) ➜ Click the Pencil icon under _**Pers. Access**_ column.
 
 ## Working with branches and pull requests
 
