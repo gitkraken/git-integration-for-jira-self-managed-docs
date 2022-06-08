@@ -8,7 +8,7 @@ taxonomy:
 ---
 The Project page allows you to manage project related options.
 
-### All Versions
+## All Versions
 
 History of commits can also be viewed within the whole project scope. To do this, select a project then click the Git Commits tab. The format of commits is similar to that on the issue page.
 
@@ -22,9 +22,28 @@ Click on the issue name of the commit to open it with the Repository Browser. Re
 
 Click on a commit ID to open it with the Repository Browser. Related issues and commits for that GUID are displayed.
 
-The Git Commits tab displays a notification when no commits are present.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The Git Commits tab displays a notification when no commits are present.
+    </div>
+    </div>
+</div>
 
-If Repository Browser setting is disabled for that project, the user will not be able to view files for commit from any repositories associated with that project.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        If Repository Browser setting is disabled for that project, the user will not be able to view files for commit from any repositories associated with that project.
+    </div>
+    </div>
+</div>
+<br>
 
 ## Commits for Select Version
 

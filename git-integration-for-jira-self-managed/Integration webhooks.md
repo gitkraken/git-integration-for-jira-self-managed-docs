@@ -35,15 +35,24 @@ Use this key in the form of:
 <JIRA_BASE_URL>/git/webhook/reindex/<SECRET_KEY>
 ```
 
-|     |
-| --- |
-| **Assign your Jira base URL and Secret Key to the sample URL structure.** |
-| Example:<br><br>```java<br>https://your.jira.com/rest/gitplugin/webhook/1.0/reindex/sdf34tGdfgGDG345g3y0045TYG23te37<br>``` |
+**Assign your Jira base URL and Secret Key to the sample URL structure:**
 
-All the repositories will be reindexed if the URL specified above is activated through `GET`, `POST`, or `PUT` and the webhooks are enabled.
+```java
+https://your.jira.com/rest/gitplugin/webhook/1.0/reindex/sdf34tGdfgGDG345g3y0045TYG23te37
+```
 
-There is no support for other HTTP methods such as  `DELETE`  or  `HEAD` .
-
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        All the repositories will be reindexed if the URL specified above is activated through <code>GET</code>, <code>POST</code>, or <code>PUT</code> and the webhooks are enabled.
+        <div class='nextpara'>
+            There is no support for other HTTP methods such as <code>DELETE</code> or <code>HEAD</code>.
+    </div>
+    </div>
+</div>
 
 For more information about triggers and event types, see [Creating reindex triggers for a single repository](/wiki/spaces/GIJDC/pages/171475191/Creating+reindex+triggers+for+a+single+repository).
 
@@ -56,3 +65,4 @@ The advanced options provide a couple of settings for webhook indexing performan
 **Ignore unmatching webhooks** – Continuous reindexing of all repositories may cause significant performance issues if unmatching webhooks are not ignored. When set to `Enabled` (default), this setting filters out incoming webhooks without a matching repository. This setting is `Enabled` by default for new and upgrading users.
 
 **Min. repository reindex interval** – The frequency of reindexing is set to a maximum of this value (in minutes). Default value is 5 minutes. Set this value to 0 (zero) to disable this setting.
+

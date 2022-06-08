@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-VERSION 2.8.0+ The Git Integration for Jira app supports both lightweight and annotated tags. The tags are loaded separately from the rest of the Git Source Code.
+The Git Integration for Jira app supports both lightweight and annotated tags. The tags are loaded separately from the rest of the Git Source Code.
 
 ## Introduction
 
@@ -14,13 +14,30 @@ Git tags identify specific release versions of your code in a particular branch 
 
 The git tags refers to merged, released work.
 
-Having more than one tag with the same name across different branches can become difficult to maintain.
-
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Having more than one tag with the same name across different branches can become difficult to maintain.
+    </div>
+    </div>
+</div>
 
 Tags cannot be moved since it is linked to a specific commit and are not pushed by default. 
 
-Create a branch to start working from it if a tag is checked out.
-
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Create a branch to start working from it if a tag is checked out.
+    </div>
+    </div>
+</div>
+<br>
 
 The Git for Jira app supports two types of git tags:
 
@@ -35,29 +52,57 @@ Annotated tags can contain a message, author and date different than the commit 
 
 ## Getting started
 
-The git tag is displayed on the right sidebar if it is enabled in the [General Settings](/wiki/spaces/GIJDC/pages/1207795905) of the Git Integration app ➜ `Calculate and show Git tags in Git Source Code panel`.
+The git tag is displayed on the right sidebar if it is enabled in the [General Settings](/git-integration-for-jira-self-managed/general-settings/) of the Git Integration app ➜ `Calculate and show Git tags in Git Source Code panel`.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399204/dev-panel-git-tags-gen-cfg-setting.png?version=1&modificationDate=1630642925378&cacheVersion=1&api=v2&width=550&height=68)
 
 This feature is disabled by default for existing integrations and is automatically enabled for new integrations.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930399204/git-tags-example.png?version=1&modificationDate=1630642926089&cacheVersion=1&api=v2)
+<img src='https://bigbrassband.atlassian.net/wiki/download/attachments/1930399204/git-tags-example.png?version=1&modificationDate=1630642926089&cacheVersion=1&api=v2' class='center img-responsive img-bordered' />
 
 The Git Integration for Jira app will show the last 3 and first tags if no filter is set. If the filter is set, the Git Integration for Jira app will use it and will display the tags sorted in ascending order by date.
 
 If there are several git tags listed, click the **more...** label link to expand the list in increments of five tags.
 
-**Notification**
-If loading of tags on a Jira issue takes longer than 60 seconds, the Git Integration app will notify the user about it and aborts the operation. This could happen if the Jira issue contains several hundreds of git tags or more.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Notification</b><br>
+        If loading of tags on a Jira issue takes longer than 60 seconds, the Git Integration app will notify the user about it and aborts the operation. This could happen if the Jira issue contains several hundreds of git tags or more.
+    </div>
+    </div>
+</div>
 
-**Cached Tags**
-Git tags and branches are cached for the most recently viewed 1000 Jira issues (across all Jira projects). The cache is reset each time a new change in any repository is detected. The cache is built the first time an issue with a tag and/or branch is loaded by a user. Thus, subsequent loading of Jira issues with tag or branch information will utilize cached values.
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Cached Tags</b><br>
+        Git tags and branches are cached for the most recently viewed 1000 Jira issues (across all Jira projects). The cache is reset each time a new change in any repository is detected. The cache is built the first time an issue with a tag and/or branch is loaded by a user. Thus, subsequent loading of Jira issues with tag or branch information will utilize cached values.
+    </div>
+    </div>
+</div>
 
-The tag calculation timeout is **86400** seconds.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The tag calculation timeout is <b>86400</b> seconds.
+    </div>
+    </div>
+</div>
+<br>
 
 ## Tag information
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930399204/gitserver-git-tags-hover.png?version=1&modificationDate=1630642926320&cacheVersion=1&api=v2)
+<img src='https://bigbrassband.atlassian.net/wiki/download/attachments/1930399204/gitserver-git-tags-hover.png?version=1&modificationDate=1630642926320&cacheVersion=1&api=v2' class='center img-responsive img-bordered' />
 
 Move the mouse pointer over the tag to display the following tooltip information:
 
@@ -74,5 +119,14 @@ Move the mouse pointer over the tag to display the following tooltip information
 
 Tags are only associated with the Jira issue by Jira keys that are specified in commits that belong to the tag. Specifying a Jira key in the name of a tag does not associate this tag with the mentioned ticket.
 
-If some commits relate only to tags, these commits will not be displayed. For more information, see the [related known issue](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/591888396/Known+Issues#Commits-Relating-Only-to-Tags-are-Not-Displayed).
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        If some commits relate only to tags, these commits will not be displayed. For more information, see the <a href='/git-integration-for-jira-self-managed/Known-issues#commits-relating-only-to-tags-are-not-displayed'>related known issue</a>.
+    </div>
+    </div>
+</div>
 
