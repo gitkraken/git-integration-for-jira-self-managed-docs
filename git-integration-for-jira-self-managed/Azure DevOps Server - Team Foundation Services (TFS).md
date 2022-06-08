@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 
-Using **Jira Cloud**? [See the corresponding article](/wiki/spaces/GITCLOUD/pages/86409345).
+Using **Jira Cloud**? [See the corresponding article](/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs/).
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91979843/azure-devops-server-logo.png?version=1&modificationDate=1577429734090&cacheVersion=1&api=v2&width=441&height=70)
 
@@ -29,7 +29,7 @@ The Git Integration for Jira app supports Azure Repos.
 
 ## Creating Personal Access Tokens
 
-If you have not yet generated a personal access token (PAT), create your token by following [the steps outlined in this article.](/wiki/spaces/GIJDC/pages/107380737/Creating+Personal+Access+Tokens#CreatingPersonalAccessTokens-tfs-server)
+If you have not yet generated a personal access token (PAT), create your token by following [the steps outlined in this article.](/git-integration-for-jira-self-managed/creating-personal-access-tokens/#CreatingPersonalAccessTokens-tfs-server)
 
 ## Using Auto-Connect
 
@@ -75,7 +75,7 @@ Configuring the **Advanced** settings is optional. However, admins/power users
     *   If the field is not blank, the app will assume it as a single account path and will try to use it. To connect to all available accounts, manually create integrations for each one of them.
 
 *   Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [support](mailto:support@bigbrassband.com?subject=Help%20with%20writing%20JMESPath%20filter%20expressions).
-*   To learn more Azure DevOps Server/TFS examples, see article **[Jira Data Center: Working with JMESPath Filters](/wiki/spaces/GIJDC/pages/135430238/Working+with+JMESPath+Filters)**.
+*   To learn more Azure DevOps Server/TFS examples, see article **[Jira Data Center: Working with JMESPath Filters](/git-integration-for-jira-self-managed/working-with-jmespath-filters/)**.
 
 *   **Suffix**  –  This is a relative path that defaults to "/tfs".
 
@@ -108,7 +108,7 @@ PATs were introduced with TFS 2017 and newer. TFS 2013 and TFS 2015 do not suppo
 
 When the above setting is enabled, a branch or pull request cannot be created until a valid personal access token (PAT) is set.
 
-*   Set **[Smart Commits »](https://bigbrassband.com/git-integration-for-jira/documentation/smart-commits.html "(opens in new tab/window)")** and **[Repository Browser »](https://bigbrassband.com/git-integration-for-jira/documentation/repository-browser.html "(opens in new tab/window)")** to enable/disable these features.
+*   Set **[Smart Commits »](/git-integration-for-jira-self-managed/smart-commits/ "(opens in new tab/window)")** and **[Repository Browser »](/git-integration-for-jira-self-managed/repository-browser/ "(opens in new tab/window)")** to enable/disable these features.
 *   Set **Project Permissions** according to your organization's project association rules.
 
 8\. Click Finish. For now, only **git** projects are supported from Azure DevOps Server/TFS.
@@ -149,7 +149,7 @@ The Git Integration for Jira app automatically configures web linking for Azure 
 
 First - enable webhooks in the Git Integration app in Jira via the **Git** menu > **Manage Git Repositories** then click Webhooks.  Enable the feature and save the settings.  Then [follow these instructions](https://docs.microsoft.com/en-us/azure/devops/service-hooks/services/webhooks?view=vsts "Opens in new tab/window") to setup the webhook trigger.  Azure DevOps Server/TFS webhooks will trigger an immediate index of all repositories within the integration.
 
-For detailed step-by-step guide showcasing webhooks setup, [see this article](/wiki/spaces/GIJDC/pages/235274262/Adding+Webhooks+for+Azure+DevOps+Server+%7C+TFS).
+For detailed step-by-step guide showcasing webhooks setup, [see this article](/adding-webhooks-for-azure-devops-server-tfs/).
 
 
 
@@ -243,7 +243,7 @@ Main branch for repositories within an integration can only be changed on the gi
 *   Choose a **Base branch** (usually _**master**_).
 *   Enter a **Branch name** or leave it as is (recommended).
 
-If the **[Require User PAT option](/wiki/spaces/GIJDC/pages/92078126/Integration+Basics#IntegrationBasics-RequireUserPat)** is enabled in the **Integration Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead:
+If the **[Require User PAT option](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request/)** is enabled in the **Integration Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead:
 
 ![](https://bigbrassband.com/images/bbb/jira-server-tfs-branch-pat-conf-dlg.png)
 
@@ -305,7 +305,7 @@ To create a pull request and merge it to the main source (master):
 *   Set the **Target branch** to **_master_**.
 *   Give the pull request **Title** a descriptive name or leave it as is.
 
-If the **[Require User PAT option](/wiki/spaces/GIJDC/pages/92078126/Integration+Basics#IntegrationBasics-RequireUserPat)** is enabled in the Integration Settings and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead:
+If the **[Require User PAT option](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request/)** is enabled in the Integration Settings and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead:
 
 ![](https://bigbrassband.com/images/bbb/jira-server-issue-tfs-pull-req-dlg-cfg-pat.png)
 
@@ -354,24 +354,24 @@ Once approved, the team leader or reviewer can then complete the merge.  The co
 
 ## More Integration Guides
 
-page icon as list [Integrate GitHub.com with Jira Data Center](/wiki/spaces/GIJDC/pages/91979804/GitHub.com)
+ [Integrate GitHub.com with Jira Data Center](/git-integration-for-jira-self-managed/github/)
 
-page icon as list [Integrate GitHub Enterprise with Jira Data Center](/wiki/spaces/GIJDC/pages/91914350/GitHub+Enterprise+Server)
+ [Integrate GitHub Enterprise with Jira Data Center](/git-integration-for-jira-self-managed/github-enterprise-server/)
 
-page icon as list [Integrate GitLab.com with Jira Data Center](/wiki/spaces/GIJDC/pages/91881531/GitLab.com)
+ [Integrate GitLab CE/EE with Jira Data Center](/git-integration-for-jira-self-managed/gitlab-ce-ee/)
 
-page icon as list [Integrate GitLab CE/EE with Jira Data Center](/wiki/spaces/GIJDC/pages/91947056)
+ [Integrate Azure DevOps/VSTS with Jira Data Center](/git-integration-for-jira-self-managed/azure-devops-visual-studio-team-services-vsts/)
 
-page icon as list [Integrate Azure DevOps/VSTS with Jira Data Center](/wiki/spaces/GIJDC/pages/92176406)
+ [Integrate Azure DevOps Server/TFS with Jira Data Center](/git-integration-for-jira-self-managed/azure-devops-server-team-foundation-services-tfs/)
 
-page icon as list [Integrate AWS CodeCommit with Jira Data Center](/git-integration-for-jira-self-managed/AWS-CodeCommit)
+ [Integrate AWS CodeCommit with Jira Data Center](/git-integration-for-jira-self-managed/aws-codecommit/)
 
-page icon as list [Integrate Gerrit with Jira Data Center](/git-integration-for-jira-self-managed/Gerrit)
+ [Integrate Gerrit with Jira Data Center](/git-integration-for-jira-self-managed/Gerrit)
 
-page icon as list [Integrate Bitbucket with Jira Data Center](/git-integration-for-jira-self-managed/Bitbucket-Server)
+ [Integrate Bitbucket with Jira Data Center](/git-integration-for-jira-self-managed/Bitbucket-Server)
 
-page icon as list [Integrate Bonobo with Jira Data Center](/git-integration-for-jira-self-managed/Bonobo)
+ [Integrate Bonobo with Jira Data Center](/git-integration-for-jira-self-managed/Bonobo)
 
-page icon as list [Integrate Tracked Folders with Jira Data Center](/git-integration-for-jira-self-managed/Tracked-Folders)
+ [Integrate Tracked Folders with Jira Data Center](/git-integration-for-jira-self-managed/Tracked-Folders)
 
-page icon as list [Integrate Windows Network/Server Share with Jira Data Center](/wiki/spaces/GIJDC/pages/91881564/Windows+Network+%7C+Server+Share)
+ [Integrate Windows Network/Server Share with Jira Data Center](/git-integration-for-jira-self-managed/windows-network-server-share/)

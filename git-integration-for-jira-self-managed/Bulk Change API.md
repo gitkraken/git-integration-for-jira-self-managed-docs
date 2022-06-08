@@ -31,4 +31,4 @@ HTTP Status code response:
 
 *   [Bulk Import](/git-integration-for-jira-self-managed/Bulk-Import) (Git Integration for Jira Data Center)
 
-*   [Get Bulk Import Information](/wiki/spaces/GIJDC/pages/421298278/Get+Bulk+Import+Information) (Git Integration for Jira Data Center)
+*   [Get Bulk Import Information](/git-integration-for-jira-self-managed/get-bulk-import-information/)

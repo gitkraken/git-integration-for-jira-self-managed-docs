@@ -17,7 +17,7 @@ Supported webhook events:
 
 _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/4fbw471kgh) _to open this video in a new browser tab for more viewing options._
 
-Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see [Webhooks - Getting Started](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/92013207/Webhooks#Getting-started).
+Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see [Webhooks - Getting Started](/git-integration-for-jira-self-managed/webhooks#Getting-started).
 
 
 Configure webhook by logging in to your GitHub account:
@@ -26,7 +26,7 @@ Configure webhook by logging in to your GitHub account:
 
 2.  ![](https://bigbrassband.atlassian.net/wiki/download/attachments/171377121/gitserver-webhook-github-add-webhook-steps-2-4(c).png?version=1&modificationDate=1649573919702&cacheVersion=1&api=v2)
 
-    Go to the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Settings** page.
+    Go to the **Settings** page.
 
 3.  On the sidebar under _Code and information_, click **Webhooks**.
 

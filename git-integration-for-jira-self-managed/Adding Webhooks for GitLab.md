@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 
-Merge request webhooks are now supported. [See details](/wiki/pages/resumedraft.action?draftId=171213219#AddingWebhooksforGitLab-pullreq) on this page.
+Merge request webhooks are now supported. See details on this page.
 
 Supported webhook events:
 

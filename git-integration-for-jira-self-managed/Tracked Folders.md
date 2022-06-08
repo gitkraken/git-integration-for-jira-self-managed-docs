@@ -81,49 +81,45 @@ This optional setting is a filter on how repositories are listed and displayed.
 
 The following examples of JMESPath filters work for any tracked folder integration including GitLab hashed storage folders (Connect to Git Repository ➜ _**Add tracked folder**_):
 
-|     |
+| Lists repositories with names containing "git" |
 | --- |
-| ### Lists repositories with names containing "git" |
 | ```java<br>[?contains(name, 'git')]<br>``` |
 
-|     |
+| Lists all the repositories that contain the specified names |
 | --- |
-| ### Lists all the repositories that contain the specified names |
 | ```java<br>[?contains(name, 'git') \| contains(name, 'Slap') \| contains(name, 'est')]<br>``` |
 
-|     |
+| Excludes repositories with names that contain words 'firstword' and 'secondword' |
 | --- |
-| ### Excludes repositories with names that contain words 'firstword' and 'secondword' |
 | ```java<br>[?!contains(name, 'firstword') \| contains(name, 'secondword')]<br>``` |
 
 The example below ONLY works for tracked folder integration; where it supports the ‘`fullPath`’ field:
 
-|     |
+| Excludes repositories from the sub-folder |
 | --- |
-| ### Excludes repositories from the sub-folder |
 | ```java<br>[?!starts_with(fullPath, '/home/user/local/store/private-repos')]<br>``` |
 
 ## Editing a tracked folder
 
-On the **Git Repositories** settings page, click ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions**  ➜ **Edit tracked folder** to modify tracked folder git repository settings.
+On the **Git Repositories** settings page, click **Actions**  ➜ **Edit tracked folder** to modify tracked folder git repository settings.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/91947120/jira-serverdc-tracked-folder-git-edit.png?version=1&modificationDate=1611969640211&cacheVersion=1&api=v2)
 
 ## Removing a tracked folder
 
-On the **Git Repositories** settings page, click ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions** ➜ **Delete tracked folder** to remove the tracked folder configuration from Jira.
+On the **Git Repositories** settings page, click **Actions** ➜ **Delete tracked folder** to remove the tracked folder configuration from Jira.
 
 A confirmation prompt will be displayed. Clicking **Remove** will only remove the tracked folder setting from the repository configuration list. The local path for this tracked folder will not be deleted and will still remain in the local system for later use.
 
 ## Resetting index
 
-On the **Git Repositories** settings page, click ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions** ➜ **Reset index**.
+On the **Git Repositories** settings page, click **Actions** ➜ **Reset index**.
 
 This action will reset the indexes of the repositories for the selected tracked folder.
 
 ## Viewing tracked repositories
 
-On the **Git Repositories** settings page, click ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions** ➜ **Show tracked repositories**.
+On the **Git Repositories** settings page, click **Actions** ➜ **Show tracked repositories**.
 
 This action will open the **Tracked Folder** dialog showing the tracked repositories.
 
@@ -131,7 +127,7 @@ The Repository Browser will not display the repository if it is disabled in the 
 
 ## Reindexing a tracked folder
 
-On the **Git Repositories** settings page, click ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions** ➜ **Reindex tracked folder**.
+On the **Git Repositories** settings page, click **Actions** ➜ **Reindex tracked folder**.
 
 This action will perform a reindex of the selected tracked folder.
 
@@ -150,7 +146,7 @@ If a repository folder is manually deleted from the local path, the Git Integrat
 4.  Click **View Full Commit** to view the code diff.
 
 
-## Jira administrators ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png)
+## Jira administrators 
 
 It is possible to track all repositories hosted on a GitLab server from inside a Jira server:
 
@@ -161,15 +157,13 @@ It is possible to track all repositories hosted on a GitLab server from inside a
 3.  Configure NFS permissions to allow Jira to access GitLab folders by using either of the two possible solutions:
 
 
-|     |
+| **Solution 1** |
 | --- |
-| ### **Solution 1** |
 | The `'all_squash'` option must not be used in the NFS server **'etc/exports'** file for GitLab folders. The NFS client should have the **'git'** group with the same GID as the **'git'** group on the NFS server. The Jira user on the NFS client should be added to the group **'git'**. |
 | **Example of '/etc/exports' line:**<br><br>```java<br>/var/opt/gitlab/git-data/repositories/testrepo xx.xx.xx.xx/24(ro,root_squash,async)<br>``` |
 
-|     |
+| **Solution 2** |
 | --- |
-| ### **Solution 2** |
 | Use the `'all_squash,async,anonuid=$uid,anongid=$gid'` option on the NFS server, where _$uid_ and _$gid_ are the user ID and group ID for **'git'** user and **'git'** group respectively _(or another user/group which you are using to access GitLab repositories on GitLab server)_. |
 | ```java<br>/var/opt/gitlab/git-data/repositories/testrepo xx.xx.xx.xx/24(ro,all_squash,async,anonuid=497,anongid=497)<br>``` |
 | In both cases either `'ro'` or `'rw'` options may be used on the NFS server. |

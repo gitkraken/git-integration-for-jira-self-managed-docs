@@ -24,19 +24,19 @@ On this page, you will find the list of available hooks and webhooks supported b
 
 
 
-[Client-side Hook](/wiki/spaces/GIJDC/pages/92209994/Commit-msg+Hook)
+[Client-side Hook](/git-integration-for-jira-self-managed/commit-msg-hook/)
 
 The **_commit-msg_** hook is a python script file that must be located in the developer's local repository.
 
 
 
-[Server-side Hook](/wiki/spaces/GIJDC/pages/91980350/Server-side+Hook)
+[Server-side Hook](/git-integration-for-jira-self-managed/server-side-hook/)
 
 Use server-side hooks to apply policies for your project.  The server runs these scripts before and after the push.  The server-side hook, like commit-msg hook, requires Python to be installed.
 
 
 
-[Jira Workflow Hook](/wiki/spaces/GIJDC/pages/94142710/Jira+Workflow+Hook)
+[Jira Workflow Hook](/git-integration-for-jira-self-managed/jira-workflow-hook/)
 
 Use JavaScript as another workflow to operate Jira aside from Smart Commits.
 
