@@ -11,6 +11,7 @@ taxonomy:
 # Integrate Gerrit with Jira Data Center
 
 Quickly learn how to connect Gerrit git repositories via Git Integration for Jira Data Center.
+For the Jira Cloud version of this document click [Here](/git-integration-for-jira-cloud/gerrit/)
 
 **What's on this page:**
 

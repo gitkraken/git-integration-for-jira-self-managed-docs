@@ -9,7 +9,7 @@ taxonomy:
 
 
 
-Pull request webhooks are now supported. [See details](/wiki/pages/resumedraft.action?draftId=171999302#AddingWebhooksforAzureDevOpsRepos|VSTS-pullreq) on this page.
+Pull request webhooks are now supported. See details on this page.
 
 Supported webhook events:
 
@@ -24,7 +24,7 @@ Right-click [here](https://bigbrassband.wistia.com/medias/61wl72vp91) and view t
 
 
 
-Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance.  For more details, see [**Webhooks - Getting Started**](/wiki/spaces/GITSERVER/pages/92013207/Webhooks).
+Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance.  For more details, see [**Webhooks - Getting Started**](/git-integration-for-jira-self-managed/webhooks/).
 
 ****1.**** Configure webhook by logging in to your Azure DevOps/VSTS account:
 

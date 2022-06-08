@@ -9,7 +9,7 @@ taxonomy:
 
 
 
-Using **Jira Cloud**? [See the corresponding article](/wiki/spaces/GITCLOUD/pages/86343820/Bitbucket+Cloud).
+Using **Jira Cloud**? [See the corresponding article](/git-integration-for-jira-cloud/bitbucket-cloud/).
 
 ![](https://bigbrassband.com/confluence/images/bitbucket-banner-logo.png)
 

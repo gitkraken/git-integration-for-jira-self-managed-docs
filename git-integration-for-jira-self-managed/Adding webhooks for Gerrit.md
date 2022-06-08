@@ -23,19 +23,16 @@ To use webhooks with Gerrit, it needs to be configured.
 
 For starters, install Gerrit with the webhook plugin by reading at [https://gerrit.googlesource.com/plugins/webhooks/](https://gerrit.googlesource.com/plugins/webhooks/) and the steps below.
 
-|     |
-| --- |
 | **Project (repository) list** |
+| --- |
 | ```perl<br>curl http(s)://your.org.com:8080/projects/?d<br>``` |
 
-|     |
-| --- |
 | **Enable webhooks for the repository, for example, MyTestRepo** |
+| --- |
 | ```perl<br>curl http(s)://your.org.com:8080/config/server/webhooks~projects/MyTestRepo/remotes<br>``` |
 
-|     |
-| --- |
 | **Add webhook for the repository** |
+| --- |
 | ```perl<br>curl --user username:password -H 'Content-Type: application/json' -X PUT -d @webhook.json http(s)://your.org.com:8080/a/config/server/webhooks~projects/MyTestRepo/remotes/bbb-webhook<br>```<br><br>Where `webhook.json`:  <br>{  <br>"url" : "[https://example.com/webhook/url",](https://example.com/webhook/url%22)  <br>"maxTries" : 3,  <br>"sslVerify": true  <br>} |
 
 ## Manually trigger webhooks
@@ -54,13 +51,11 @@ _**Optional headers:**_
 *   'x-bbb-webhook-id' -- Can be any string representing the id of the request to be used.
 
 
-|     |
-| --- |
 | **Usage examples:** |
+| --- |
 | ```perl<br>curl -H 'x-bbb-webhook-type: push' -H 'content-type: application/json' -X POST -d @payload.json https://webhook/url<br>``` |
 | ```perl<br>curl -H 'x-bbb-webhook-type: push' -H 'x-bbb-webhook-id: id-string' -H 'content-type: application/json' -X POST -d @payload.json https://webhook/url<br>``` |
 
-|     |
-| --- |
 | **Payload.json** |
+| --- |
 | ```java<br>{<br>  "origin": "repository-origin"<br>}<br>``` |
