@@ -22,6 +22,7 @@ Below are the Git Integration app known issues and workarounds:
 - [**Gerrit Integration Connected with Errors**](#gerrit-integration-connected-with-errors)
 - [**Starred repositories Custom API Path might fail if using SSO**](#starred-repositories-custom-api-path-might-fail-if-using-sso)
 
+* * *
 
 ### **2GB Object Git Repositories Storage Limit**
 
@@ -167,4 +168,3 @@ The Custom API Path, `/users/<username>/starred`, could fail in returning the re
     </div>
 </div>
 
- |

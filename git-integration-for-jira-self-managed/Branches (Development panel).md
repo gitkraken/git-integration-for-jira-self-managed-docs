@@ -45,7 +45,6 @@ Click **Create branch** to create a branch for the selected repository. The f
 
 3.  The Git Integration for Jira app will populate the **Branch name** field according to the _Branch Name Template_ declared in the [Git integration settings](/git-integration-for-jira-self-managed/git-integration-features/) via **General Settings**. Enter a descriptive name or leave it as is (recommended).
 
-
 ## Create branch (Require user PAT enabled)
 
 If the [Require User PAT option](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request/) is enabled in the **Integration Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead:

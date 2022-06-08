@@ -14,6 +14,7 @@ On this page, you will find the list of integration guides for specific git host
 
 * * *
 
+
 [**GitLab.com**](/git-integration-for-jira-self-managed/gitlab/)^1^
 
 Connect your GitLab.com remote repositories via Connect to Git Repository wizard or Connect to GitLab wizard.
@@ -26,11 +27,13 @@ Connect and manage multiple GitLab server repositories at once via **Connect to
 
 * * *
 
+
 [**GitHub.com**](/git-integration-for-jira-self-managed/github/)
 
 Connect your GitHub remote repositories via Connect to Git Repository Wizard.
 
 * * *
+
 
 [**GitHub Enterprise Server**](/git-integration-for-jira-self-managed/github-enterprise-server/)
 

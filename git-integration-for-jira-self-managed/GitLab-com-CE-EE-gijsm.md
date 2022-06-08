@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 
-Using **Jira Cloud**? [See the corresponding article](/wiki/spaces/GITCLOUD/pages/85524528).
+Using **Jira Cloud**? [See the corresponding article](/git-integration-for-jira-cloud/gitlab-ce-ee/).
 
 ![](https://bigbrassband.com/confluence/images/gitlab-ee-logo-shade-sample.png)
 

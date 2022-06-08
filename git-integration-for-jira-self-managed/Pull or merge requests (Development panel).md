@@ -59,6 +59,7 @@ If a git host is connected to Jira, create a pull/merge request by clicking **C
 
 *   Click **Create** to finish this process.
 
+<br>
 
 If the [Require User PAT option](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request/) is enabled in **Integration Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, the dialog below is displayed instead:
 

@@ -54,7 +54,7 @@ https://your.jira.com/rest/gitplugin/webhook/1.0/reindex/sdf34tGdfgGDG345g3y0045
     </div>
 </div>
 
-For more information about triggers and event types, see [Creating reindex triggers for a single repository](/wiki/spaces/GIJDC/pages/171475191/Creating+reindex+triggers+for+a+single+repository).
+For more information about triggers and event types, see [Creating reindex triggers for a single repository](/git-integration-for-jira-self-managed/creating-reindex-triggers-for-a-single-repository/).
 
 ## Advanced settings
 

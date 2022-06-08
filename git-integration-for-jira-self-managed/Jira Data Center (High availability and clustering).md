@@ -103,4 +103,3 @@ The _default_ setting for Jira Data Center is **false**.
     </div>
 </div>
 
-
