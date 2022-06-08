@@ -21,27 +21,24 @@ There are two types of users who can perform the Branches API call:
     3.  The repository is **associated** to the project.
 
 
-|     |     |
-| --- | --- |
 | **Branches** |     |
-| _**url**_ |     |
-| `/rest/gitplugin/1.0/issues/branches?`**key**`=`**{issuekey}** |     |
-| _**method**_ |     |
-| GET |     |
-| _**parameters**_ |     |
+| --- | --- |
+| _**url**_ | `/rest/gitplugin/1.0/issues/branches?`**key**`=`**{issuekey}** |
+| _**method**_ | GET |
+
+| _**Parameters**_ |     |
+| --- | --- |
 | Parameter | Description |
 | _**issueKey**_ | _String_. Optional.<br><br>This is the Jira Issue Key – a concatenation of Project key and Issue number. It must contain a dash ('-'). The _**issueKey**_ must be valid and existent.<br><br>For example: `TST-435`. |
-| response |     |
-| If the _optional query_ is not defined, it will return all indexed git branches. |     |
+| response | If the _optional query_ is not defined, it will return all indexed git branches. |
 
-|     |
-| --- |
 | **Example:** |
+| --- |
 | `http://jira.yourorg.com/rest/gitplugin/1.0/issues/branches?`**key="TST-435"**<br><br>```java<br>Result:<br>{<br>    "success":true,<br>    "branches":["master","release","TST-435"]<br>}<br>``` |
 
 ### REST APIs
 
-*   [Bulk Change API](/wiki/spaces/GIJDC/pages/380764495/Bulk+Change+API) (Git Integration for Jira Data Center)
+*   [Bulk Change API](/git-integration-for-jira-self-managed/bulk-change-api/) (Git Integration for Jira Data Center)
 
 *   [Repository API](/git-integration-for-jira-self-managed/Repository-API) (Git Integration for Jira Data Center)
 

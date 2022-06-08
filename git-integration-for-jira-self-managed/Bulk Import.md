@@ -22,7 +22,7 @@ _**method**_ -- POST
 | --- | ---|
 | _**file**_ | Input the path to the tab-separated values (.TSV) file. See [**table below**](#Table1) for details on each TSV file parameter. |
 | _**confirmed-delete**_**\[ \]** | Optional.<br><br>Accepts multiple repository IDs confirmed for deletion. Input one or more repositories to delete, separated by commas.<br><br>_Repositories won't be deleted if it's not in this list._ |
-| _**HTTP headers**_ | The request should contain the additional HTTP header:<br><br>`X-Atlassian-Token: no-check` |     |
+| _**HTTP headers**_ | The request should contain the additional HTTP header:<br><br>`X-Atlassian-Token: no-check` |
 | _**request example**_ | ```powershell<br>curl -vv -X POST -H "X-Atlassian-Token: no-check" -b "atlassian.xsrf.token=<token>;JSESSIONID=<session>;ROUTEID=.1" -F file=@repository-config-full.tsv http://<jira_url>/rest/gitplugin/1.0/configuration.json<br>``` |
 | _**response**_ | JSON<br><br>Returns the ID of the importing thread.<br><br>The Git Integration for Jira app will ignore fields with blank entries. |
 | **Download sample file** |     |
