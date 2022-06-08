@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-Using **Jira Cloud**? [See the corresponding article](/wiki/spaces/GITCLOUD/pages/86180077/AWS+CodeCommit).
+Using **Jira Cloud**? [See the corresponding article](/git-integration-for-jira-cloud/aws-codecommit/).
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/aws-cc-logo.png?version=1&modificationDate=1631448492185&cacheVersion=1&api=v2&width=387&height=81)
 
@@ -18,9 +18,6 @@ You can use the AWS CLI or the AWS CodeCommit console to track and manage your r
 
 
 Quickly learn how to connect AWS CodeCommit git repositories via Git Integration for Jira Server.
-
-
-**What’s on this page:**
 
 * * *
 
@@ -36,9 +33,8 @@ We recommend that the following AWS IAM policies are configured beforehand based
 
 Configure [**AWSCodeCommitReadOnly »**](http://docs.aws.amazon.com/codecommit/latest/userguide/access-permissions.html) IAM policy for basic features:
 
-|     |     |
-| --- | --- |
 | **Feature** | **Required permission** |
+| --- | --- |
 | show commits, process smart commits, show branches | `codecommit:ListRepositories`  <br>`codecommit:GitPull`  <br>`codecommit:BatchGetRepositories` |
 | show pull requests | `codecommit:ListPullRequests`  <br>`codecommit:GetPullRequest` |
 
@@ -46,15 +42,14 @@ Configure [**AWSCodeCommitReadOnly »**](http://docs.aws.amazon.com/codecommit/
 
 Configure [**AWSCodeCommitPowerUser »**](https://docs.aws.amazon.com/codecommit/latest/userguide/auth-and-access-control-permissions-reference.html) IAM policy for all features:
 
-|     |     |
-| --- | --- |
 | **Feature** | **Required permission** |
+| --- | --- |
 | create pull request | `codecommit:CreatePullRequest` |
 | create branch | `codecommit:CreateBranch` |
 | delete branch | `codecommit:DeleteBranch` |
 | configure webhooks automatically | `codecommit:GetRepositoryTriggers`  <br>`codecommit:PutRepositoryTriggers`  <br>`sns:CreateTopic`  <br>`sns:DeleteTopic`  <br>`sns:Subscribe` |
 
-See [this article](/wiki/spaces/GIJDC/pages/107380737/Creating+Personal+Access+Tokens#CreatingPersonalAccessTokens-AWSCodeCommit) for related information.
+See [this article](/git-integration-for-jira-self-managed/creating-personal-access-tokens/) for related information.
 
 ## Webhooks and triggers
 
@@ -62,7 +57,7 @@ RECOMMENDED
 
 CodeCommit doesn't have webhooks but it has SNS triggers requiring a [**subscription confirmation »**](https://docs.aws.amazon.com/sns/latest/dg/SendMessageToHttp.html).
 
-For webhooks to work automatically, the IAM user used to setup the connection must have the [_configure webhooks automatically_](#All-features) permissions (_see Required permissions above – under IAM policy for_ all features). If permissions has not been set, the repositories are connected but no webhooks are created.
+For webhooks to work automatically, the IAM user used to setup the connection must have the [_configure webhooks automatically_](/git-integration-for-jira-self-managed/aws-codecommit/) permissions (_see Required permissions above – under IAM policy for_ all features). If permissions has not been set, the repositories are connected but no webhooks are created.
 
 While the new UI is not fully functional in AWS CodeCommits, users are required to create triggers via the old UI or with the API.
 
@@ -160,11 +155,11 @@ We recommend using the Auto-connect integration panel (_Add new integration_) to
 5.  After the import process, the **Settings** dialog is displayed:
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-auto-connect-wizard-end-dlg(c).png?version=1&modificationDate=1631448492206&cacheVersion=1&api=v2&width=646&height=428)
-    *   On the **Integration Settings**, setting the _**Require User PAT**_ option to `ON`, will require users to provide AWS Access Key ID and Secret Access Key specific for branch and pull requests creation/deletion _(via the_ [_Jira Git integration development panel_](/wiki/spaces/GIJDC/pages/1930399012/Jira+Git+integration+development+panel) _on the Jira issue page)_. For more information on this feature, see [Integration feature settings: Require user PAT](/wiki/spaces/GIJDC/pages/317390849).
+    *   On the **Integration Settings**, setting the _**Require User PAT**_ option to `ON`, will require users to provide AWS Access Key ID and Secret Access Key specific for branch and pull requests creation/deletion _(via the_ [_Jira Git integration development panel_](/git-integration-for-jira-self-managed/jira-git-integration-development-panel/) _on the Jira issue page)_. For more information on this feature, see [Integration feature settings: Require user PAT](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request/).
 
     *   Set [Smart commits](/git-integration-for-jira-self-managed/Smart-commits) and [Repository Browser](/git-integration-for-jira-self-managed/Repository-Browser) to enable/disable these features.
 
-    *   Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Setting project permissions](/wiki/spaces/GIJDC/pages/509444154/Setting+Project+Permissions).
+    *   Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Setting project permissions](/git-integration-for-jira-self-managed/setting-project-permissions/).
 
 6.  Click **Finish** to complete setting up this integration.
 
@@ -185,7 +180,7 @@ If the connected git host has newly added repositories, the Git Integration for 
 
 ## Single repository (Manually connect via HTTP or HTTPS)
 
-The [Require user personal access token](/wiki/spaces/GIJDC/pages/317390849) feature is not available for single repository connections with AWS CodeCommit.
+The [Require user personal access token](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request/) feature is not available for single repository connections with AWS CodeCommit.
 
 Connect a single AWS CodeCommit repository manually to Jira via HTTP/HTTPS connection.
 
@@ -211,7 +206,7 @@ The repository is now connected to Jira Server.
 
 _Right click_ [_**here**_](https://bigbrassband.wistia.net/medias/xq1xzic0tm) _to open this video in a new tab/window for more viewing options._
 
-The [Require user personal access token](/wiki/spaces/GIJDC/pages/317390849) feature is not available with single repository connections for AWS CodeCommit.
+The [Require user personal access token](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request/) feature is not available with single repository connections for AWS CodeCommit.
 
 Connect a single AWS CodeCommit repository manually to Jira via SSH connection.
 
@@ -252,7 +247,7 @@ The Git Integration for Jira app automatically configures web linking for AWS Co
 
 ## Working with branches and pull requests
 
-This section requires the necessary permissions for [all features](#All-features).
+This section requires the necessary permissions for [all features](/git-integration-for-jira-self-managed/aws-codecommit/).
 
 The Git Integration for Jira app supports creation of branches and pull requests from Jira via the developer panel.
 
@@ -282,7 +277,7 @@ Main branch for repositories within an integration can only be changed on the gi
 
 ### Creating branches with Require user PAT enabled
 
-If the [Require user PAT setting](/wiki/spaces/GIJDC/pages/317390849) is enabled in the **Integration feature settings** (![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Actions_ ➜ _Edit integration feature settings_) and a user PAT isn't configured yet for the selected repository via Repository Browser, the following create branch dialog is displayed instead.
+If the [Require user PAT setting](/wiki/spaces/GIJDC/pages/317390849) is enabled in the **Integration feature settings** _Actions_ ➜ _Edit integration feature settings_) and a user PAT isn't configured yet for the selected repository via Repository Browser, the following create branch dialog is displayed instead.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-create-branch-req-user-pat-enabled-aws.png?version=1&modificationDate=1631448492238&cacheVersion=1&api=v2&width=550&height=275)
 
@@ -313,7 +308,7 @@ The pull request feature works the same as merge request.
 
     5.  Enter a descriptive title or leave it as is (recommended).
 
-    6.  OPTIONAL Click **Preview** to open this pull request in the Repository Browser ➜ Compare tab. See [this page](/wiki/spaces/GIJDC/pages/1930398705) for more information.
+    6.  OPTIONAL Click **Preview** to open this pull request in the Repository Browser ➜ Compare tab. See [this page](/git-integration-for-jira-self-managed/comparing-branches-tags-in-repository-browser/) for more information.
 
 3.  Click **Create** to complete creating this pull request.
 
@@ -324,7 +319,7 @@ The pull request is also ready for approval by the reviewers in your AWS CodeCom
 
 ### Creating pull request with Require user PAT setting enabled
 
-If the [Require user PAT setting](/wiki/spaces/GIJDC/pages/317390849) is enabled in the **Integration feature settings** (![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Actions_ ➜ _Edit integration feature settings_) and a user PAT isn't configured yet for the selected repository via Repository Browser, the following pull request dialog is displayed instead.
+If the [Require user PAT setting](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request/) is enabled in the **Integration feature settings** ( _Actions_ ➜ _Edit integration feature settings_) and a user PAT isn't configured yet for the selected repository via Repository Browser, the following pull request dialog is displayed instead.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-create-pullreq-dlg-reqPAT.png?version=1&modificationDate=1631448492252&cacheVersion=1&api=v2&width=550&height=275)
 
@@ -342,4 +337,4 @@ If the secret access key has changed for your AWS account, update the credential
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-repo-browser-setup-pat-sel.png?version=1&modificationDate=1631448492486&cacheVersion=1&api=v2&width=680&height=308)
 
-Click the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) edit icon under the Personal access column for the selected repository. The same dialog for Setup your AWS Credentials appears. Enter the updated _**Secret access key**_ then click **Update** to save the settings.
+Click the Pencil edit icon under the Personal access column for the selected repository. The same dialog for Setup your AWS Credentials appears. Enter the updated _**Secret access key**_ then click **Update** to save the settings.

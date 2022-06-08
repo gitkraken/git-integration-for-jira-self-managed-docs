@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-Pull request webhooks are now supported.  [See details](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/498663799/Adding+Webhooks+for+Bitbucket#Pull-Request-Webhooks) on this page.
+Pull request webhooks are now supported. See details on this page.
 
 Supported webhook events:
 
@@ -17,14 +17,14 @@ Supported webhook events:
 *   _Pull request_ - Updated
 
 
-Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance.  For more details, see [**Integration Webhooks**](https://bigbrassband.atlassian.net/wiki/spaces/~493751811/pages/452329484/Integration+Webhooks).
+Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance.  For more details, see [**Integration Webhooks**](/git-integration-for-jira-self-managed/integration-webhooks/).
 
 1.  Configure webhook by logging in to your Bitbucket:
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/498663799/webhooks-bitbucket-add-shooks(c).png?version=1&modificationDate=1589622081232&cacheVersion=1&api=v2&width=408&height=329)
 2.  Open a project by clicking on it.
 
-3.  Click ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Repository Settings** then under **WORKFLOW**, select **Webhooks**.
+3.  Click **Repository Settings** then under **WORKFLOW**, select **Webhooks**.
 
 4.  Click **Add webhook** to create a webhook for the repository. The _**Add new webhook**_ screen appears.
 
@@ -53,7 +53,7 @@ Before you can proceed with the steps outlined on this guide, webhooks must be e
 
 8.  Enter a meaningful **Title** name for this webhook.
 
-9.  For the **Triggers**, if your organization does not require pull request events, select ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Repository push**. Otherwise, select _**Choose from a full list of triggers**_ (recommended) and then tick Repository (**Push**) and Pull Request (**Created**, **Updated**).
+9.  For the **Triggers**, if your organization does not require pull request events, select **Repository push**. Otherwise, select _**Choose from a full list of triggers**_ (recommended) and then tick Repository (**Push**) and Pull Request (**Created**, **Updated**).
 
 10.  Click **Save** to complete this setup.
 

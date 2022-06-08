@@ -21,21 +21,18 @@ There are two types of users who can perform the Reindex POST API call:
     3.  The repository is **associated** to the project.
 
 
-|     |     |
-| --- | --- |
 | **Reindex POST API** |     |
-| _**url**_ |     |
-| `/rest/gitplugin/1.0/index.json` |     |
-| _**method**_ |     |
-| POST |     |
-| _**parameters**_ |     |
+| --- | --- |
+| _**url**_ | `/rest/gitplugin/1.0/index.json` |
+| _**method**_ | POST |
+
+| _**Parameters**_ |     |
+| --- | --- |
 | **Parameter** | **Condition** |
 | _**repoId**_ | _Array of Long_. Repository ID.  Form parameter.<br><br>**Example:**<br><br>Form param (`repoId: [133]`) |
-| _**response**_ |     |
-| JSON |     |
+| _**response**_ | JSON |
 
-|     |
-| --- |
 | **Example:** |
+| --- |
 | ```java<br>http://jira.yourorg.com/rest/gitplugin/1.0/index.json<br> <br>Body, JSON(application/json):<br>{<br>  "repoId": [133]<br>}<br> <br>-----------------------<br> <br>Response:<br>{<br>  "success":true,<br>  "finished":true,<br>  "threadId": xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx<br>}<br>``` |
 
