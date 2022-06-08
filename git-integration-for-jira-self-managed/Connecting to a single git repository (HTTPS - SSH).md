@@ -33,9 +33,9 @@ To connect a git repository to Jira via the Git Integration for Jira app:
 4.  Click **Next**. The Settings screen is displayed.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2044035207/gitserver-connect-wizard-03a.png?version=1&modificationDate=1640790600125&cacheVersion=1&api=v2&width=646&height=391)
-    *   Change settings for [Smart Commits](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/1923029046) and [Repository Browser](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/1923029214) as required or leave the default settings as it is.
+    *   Change settings for [Smart Commits](/git-integration-for-jira-self-managed/smart-commits-docs/) and [Repository Browser](/git-integration-for-jira-self-managed/repository-browser) as required or leave the default settings as it is.
 
-    *   For **Project Permissions** settings, [see this article](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/1923028500) for more information.
+    *   For **Project Permissions** settings, [see this article](/git-integration-for-jira-self-managed/associating-project-permissions/) for more information.
 
 5.  Click **Finish** to complete this setup.
 

@@ -8,74 +8,55 @@ taxonomy:
 ---
 This process requires a git host account (e.g. GitHub/GitLab/VSTS etc.) Use the Add new integration panel in Jira Cloud/Server to connect git repositories from git hosts to Jira. This is the recommended way of integrating your multiple git repositories to Jira.
 
-1. On your Jira dashboard menu, click Git ➜ **Manage repositories**.
+1.  On your Jira dashboard menu, click Git ➜ **Manage repositories**.
 
-2\. Click a git host on the Add new integration panel.
+2.  Click a git host on the Add new integration panel.
 
-Select from the supported git host integration (_or click the integration links below to follow to their own integration guide_):
+    Select from the supported git host integration (_or click the integration links below to follow to their own integration guide_):
 
-[![](https://bigbrassband.atlassian.net/wiki/download/attachments/2044035170/gitcloud-github-icon.png?version=1&modificationDate=1640772744579&cacheVersion=1&api=v2)](/wiki/spaces/GIJDC/pages/91979804/GitHub.com)
+    *   [GitHub.com](/git-integration-for-jira-self-managed/github/)
 
-[GitHub.com](/wiki/spaces/GIJDC/pages/91979804/GitHub.com)
+    *   [GitHub Enterprise Server](/git-integration-for-jira-self-managed/gitHub-enterprise-server)
 
-[![](https://bigbrassband.atlassian.net/wiki/download/attachments/2044035170/gitcloud-github-ent-icon.png?version=1&modificationDate=1640772744866&cacheVersion=1&api=v2)](/wiki/spaces/GIJDC/pages/91914350/GitHub+Enterprise+Server)
+    *   [Bitbucket](/git-integration-for-jira-self-managed/Bitbucket-Server)
 
-[GitHub Enterprise Server](/wiki/spaces/GIJDC/pages/91914350/GitHub+Enterprise+Server)
+    *   [GitLab.com](/git-integration-for-jira-self-managed/gitlab/)
 
-[![](https://bigbrassband.atlassian.net/wiki/download/attachments/2044035170/gitcloud-bitbucket-icon.png?version=1&modificationDate=1640772745139&cacheVersion=1&api=v2)](/git-integration-for-jira-self-managed/Bitbucket-Server)
+    *   [GitLab CE/EE](/git-integration-for-jira-self-managed/gitlab-com-ce-ee-gijsm/)
 
-[Bitbucket](/git-integration-for-jira-self-managed/Bitbucket-Server)
+    *   [AWS CodeCommit](/git-integration-for-jira-self-managed/aws-codeCommit)
 
-[![](https://bigbrassband.atlassian.net/wiki/download/attachments/2044035170/gitcloud-gitlab-icon.png?version=1&modificationDate=1640772745416&cacheVersion=1&api=v2)](/wiki/spaces/GIJDC/pages/91881531/GitLab.com)
+    *   [Azure DevOps / VSTS](/git-integration-for-jira-self-managed/azure-devops-visual-studio-team-services-vsts/)
 
-[GitLab.com](/wiki/spaces/GIJDC/pages/91881531/GitLab.com)
+    *   [Azure DevOps Server / TFS](/git-integration-for-jira-self-managed/azure-devops-server-team-foundation-services-tfs/)
 
-[![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2044035170/gitcloud-gitlab-ceee-icon.png?version=1&modificationDate=1640772745685&cacheVersion=1&api=v2&width=48&height=48)](/wiki/spaces/GIJDC/pages/91947056)
+    *   [Gerrit](/git-integration-for-jira-self-managed/gerrit)
 
-[GitLab CE/EE](/wiki/spaces/GIJDC/pages/91947056)
+    *   [Git](/git-integration-for-jira-self-managed/connecting-to-a-single-git-repository-http-https/)
 
-[![](https://bigbrassband.atlassian.net/wiki/download/attachments/2044035170/gitcloud-awscc-icon.png?version=1&modificationDate=1640772745948&cacheVersion=1&api=v2)](/git-integration-for-jira-self-managed/AWS-CodeCommit)
+3. The Connect Wizard is displayed. Enter login credentials. If two-factor authentication is enabled for your git host, enter the token as the password instead. Follow screen instructions to import git repositories.
 
-[AWS CodeCommit](/git-integration-for-jira-self-managed/AWS-CodeCommit)
+4. On the following screen, change settings as required or leave the default settings as is.
 
-[![](https://bigbrassband.atlassian.net/wiki/download/attachments/2044035170/gitcloud-microsoft-icon.png?version=1&modificationDate=1640772746210&cacheVersion=1&api=v2)](/wiki/spaces/GIJDC/pages/92176406)
+    ![](https://api.media.atlassian.com/file/0c16285e-0511-4c4c-9b41-50195811a1eb/binary?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI0YTVjYjQ0OC0zMzNlLTQ5ZTctOGJkZC1lZGY3NThjZGI3MjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpmaWxlOjBjMTYyODVlLTA1MTEtNGM0Yy05YjQxLTUwMTk1ODExYTFlYiI6WyJyZWFkIl19LCJleHAiOjE2NTQ3Njc5MDcsIm5iZiI6MTY1NDY4NDkyN30.yZExGqf5UuuoIR1xnI8M4UGvfTWDIkMAWJh7RaKuf2c&client=4a5cb448-333e-49e7-8bdd-edf758cdb726&name=git-server-dc-new-settings-auto-connect-wiz.png&max-age=2940)
 
-[Azure DevOps / VSTS](/wiki/spaces/GIJDC/pages/92176406)
+   *   On the Integration Settings, setting the [**Require User PAT** option](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request/) to `ON` will require users to provide PAT which will be used for branch and merge/pull request creation/deletion (via the developer panel on the Jira issue page). This is a security feature of Git Integration for Jira app for git hosts that support two-factor authentication. This option requires the **[Repository Browser](/git-integration-for-jira-self-managed/repository-browser/)** feature to be enabled.
 
-[![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2044035170/gitcloud-autoconnect-azure-tfs-icon.png?version=1&modificationDate=1640772746486&cacheVersion=1&api=v2&width=48&height=48)](/wiki/spaces/GIJDC/pages/91979843)
+        **IMPORTANT!** Do not enable this feature for connected git hosts that don't support it. For example, TFS2013/2015 does not support PATs. Users won't be able to create branches or create pull/merge request if the above setting is **`ON`**.
 
-[Azure DevOps Server / TFS](/wiki/spaces/GIJDC/pages/91979843)
+   *   Jira administrators can configure the **Require User PAT** setting when connecting a 2FA git host via the Add new integration panel or via **Edit integration settings** in the **Manage repositories page**. If set to **`ON`**, Jira Users are required to set their PAT for specific repositories via Repository Browser. The setup PAT link is accessible via the developer panel on Create Branch or Create Pull/Merge Request dialogs in the Jira issue page.
 
-[![](https://bigbrassband.atlassian.net/wiki/download/attachments/2044035170/gitcloud-gerrit-icon.png?version=1&modificationDate=1640772746746&cacheVersion=1&api=v2)](/git-integration-for-jira-self-managed/Gerrit)
+        This setting is only available for **auto-connected** git hosts configured via Add new integration wizard with Git Integration for Jira app.
 
-[Gerrit](/git-integration-for-jira-self-managed/Gerrit)
-
-[![](https://bigbrassband.atlassian.net/wiki/download/attachments/2044035170/gitcloud-git-icon.png?version=1&modificationDate=1640772747020&cacheVersion=1&api=v2)](/wiki/pages/resumedraft.action?draftId=92078126)
-
-[Git](/wiki/spaces/GIJDC/pages/2044035207)
-
-3\. The Connect Wizard is displayed.  Enter login credentials. If two-factor authentication is enabled for your git host, enter the token as the password instead. Follow screen instructions to import git repositories.
-
-4\. On the following screen, change settings as required or leave the default settings as is.
-
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/2044035170/git-server-dc-new-settings-auto-connect-wiz.png?version=1&modificationDate=1640772747294&cacheVersion=1&api=v2)
-
-*   On the Integration Settings, setting the [**Require User PAT** option](/wiki/spaces/GIJDC/pages/317390849) to `ON` will require users to provide PAT which will be used for branch and merge/pull request creation/deletion (via the developer panel on the Jira issue page). This is a security feature of Git Integration for Jira app for git hosts that support two-factor authentication. This option requires the **[Repository Browser](/wiki/spaces/GIJDC/pages/1930398739)** feature to be enabled.
-
-
-
-
-Do not enable this feature for connected git hosts that don't support it. For example, TFS2013/2015 does not support PATs. Users won't be able to create branches or create pull/merge request if the above setting is **`ON`**.
-
-*   Jira administrators can configure the **Require User PAT** setting when connecting a 2FA git host via the Add new integration panel or via **Edit integration settings** in the **Manage repositories page**. If set to **`ON`**, Jira Users are required to set their PAT for specific repositories via Repository Browser. The setup PAT link is accessible via the developer panel on Create Branch or Create Pull/Merge Request dialogs in the Jira issue page.
-
-
-
-This setting is only available for **auto-connected** git hosts configured via Add new integration wizard with Git Integration for Jira app.
-
-*   For more information on Project permissions and repository associations, see **[Setting Project Permissions](/wiki/spaces/GIJDC/pages/1930397766/Associating+project+permissions)**.
+   *   For more information on Project permissions and repository associations, see [Setting Project Permissions](/git-integration-for-jira-self-managed/associating-project-permissions).
 
 5. Click **Finish** to accept the settings and complete the setup.
 
+<br>
 
+* * *
+
+[<< Integration basics](/git-integration-for-jira-self-managed/integration-basics/)<br>
+
+[>> Connecting to a single git repository (HTTP/HTTPS)](/git-integration-for-jira-self-managed/connecting-to-a-single-git-repository-http-https/)
 

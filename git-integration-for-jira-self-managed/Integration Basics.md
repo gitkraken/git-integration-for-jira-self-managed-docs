@@ -17,31 +17,29 @@ Learn basic integration for most git hosts by connecting git repositories to Jir
 
 *   Learn how to create branch/pull/merge request inside Jira via the developer panel.
 
-
-
+<br>
 
 * * *
 
 ## More related articles on integration basics
 
-*    [Connecting to a git host account via Add new integration panel](/git-integration-for-jira-self-managed/using-the-add-new-integration-wizard/) (Git Integration for Jira Data Center)
+*    [Connecting to a git host account via Add new integration panel](/git-integration-for-jira-self-managed/using-the-add-new-integration-wizard/)
 
-*    [Connecting to a single git repository (HTTPS | SSH)](/git-integration-for-jira-cloud/connecting-to-a-single-git-repository-http-https/) (Git Integration for Jira Data Center)
+*    [Connecting to a single git repository (HTTPS | SSH)](/git-integration-for-jira-self-managed/connecting-to-a-single-git-repository-http-https/)
 
-*    [Setting up web links](/wiki/spaces/GIJDC/pages/2045181986/Setting+up+web+links) (Git Integration for Jira Data Center)
+*    [Setting up web links](/git-integration-for-jira-self-managed/setting-up-web-links)
 
-*    [Link git commits to Jira issues (Basics)](/git-integration-for-jira-self-managed/setting-up-web-linking/) (Git Integration for Jira Data Center)
+*    [Link git commits to Jira issues (Basics)](/git-integration-for-jira-self-managed/setting-up-web-linking/)
 
-*    [Using smart commits](https://devhelpcenter.wpengine.com/git-integration-for-jira-self-managed/using-smart-commits/) (Git Integration for Jira Data Center)
+*    [Using smart commits](/git-integration-for-jira-self-managed/using-smart-commits/)
 
-*    [Using the Repository Browser](/git-integration-for-jira-self-managed/using-smart-commits/) (Git Integration for Jira Data Center)
+*    [Using the Repository Browser](/git-integration-for-jira-self-managed/using-smart-commits/)
 
-*    [Creating branches and pull | merge requests (Basics)](/git-integration-for-jira-self-managed/creating-branches-and-pull-merge-requests-basics/) (Git Integration for Jira Data Center)
+*    [Creating branches and pull | merge requests (Basics)](/git-integration-for-jira-self-managed/creating-branches-and-pull-merge-requests-basics/)
 
+<br>
 
-
-
-
+* * *
 
 ## More Integration Guides
 
@@ -66,3 +64,4 @@ Learn basic integration for most git hosts by connecting git repositories to Jir
  [Integrate Tracked Folders with Jira Data Center](/git-integration-for-jira-self-managed/Tracked-Folders)
 
  [Integrate Windows Network/Server Share with Jira Data Center](/git-integration-for-jira-self-managed/windows-network-server-share/)
+

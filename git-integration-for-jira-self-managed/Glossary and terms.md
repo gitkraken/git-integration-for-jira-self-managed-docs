@@ -54,5 +54,14 @@ For every configured repository, this process do the following:
 
 *   Updates the lucene indexes with commits added recently
 
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Due to the async structure of the Git Integration for Jira app, commits that have been registered with index become visible after the revision indexer job has been executed. To show commits immediately, you have to start the reindex manually.
+    </div>
+    </div>
+</div>
 
-Due to the async structure of the Git Integration for Jira app, commits that have been registered with index become visible after the revision indexer job has been executed. To show commits immediately, you have to start the reindex manually.

@@ -1,6 +1,6 @@
 ---
 
-title: Creating branches
+title: Features - Creating branches
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed

@@ -1,6 +1,6 @@
 ---
 
-title: Creating pull/merge requests
+title: Features - Creating pull/merge requests
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed
