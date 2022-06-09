@@ -67,7 +67,7 @@ The Setup PAT dialog can also be accessed on the Repository Browser under _**Per
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399090/gitserver-repo-browser-setup-pat-highlight.png?version=1&modificationDate=1630669274634&cacheVersion=1&api=v2&width=680&height=381)
 
-*   Click <img  src='/wp-content/uploads/gij-edit-icon-dark.png'  style='vertical-align: middle' width=20 height=20> to setup a PAT for the selected repository. The PAT setup dialog appears.
+*   Click <img  src='/wp-content/uploads/gij-edit-icon-dark.png'  style='vertical-align: middle; margin: 0 3px' width=20 height=20> to setup a PAT for the selected repository. The PAT setup dialog appears.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399090/gitserver-setup-your-user-pat-dlg-new(c).png?version=1&modificationDate=1630668474897&cacheVersion=1&api=v2&width=544&height=300)
 *   Paste a valid PAT of the current user to proceed. Invalid PATs will fail the branch creation process.

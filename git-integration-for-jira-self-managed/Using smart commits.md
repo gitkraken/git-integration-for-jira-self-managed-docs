@@ -1,6 +1,6 @@
 ---
 
-title: Using smart commits
+title: Integration basics - Using smart commits
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed
@@ -12,7 +12,9 @@ Smart commits enable users to perform actions on Jira issues from a single commi
 
 For example, if a user wants to log specified time with worklog comment, adds a comment, and resolve the issue TEST-100, enter the commit message as follows:
 
-**TEST-100** **#time** 2h 30m Fixed code **#comment** Merge to master **#resolve**
+**TEST-100** **#time** 2h 30m _Fixed code_ **#comment** _Merge to master_ **#resolve**
+
+<br>
 
 Enable/disable this feature via:
 
@@ -20,7 +22,7 @@ Enable/disable this feature via:
 
 *   Connect to Git Repository ➜ **Advanced setup**
 
-*   Apps/Applications ➜ Manage repositories ➜ Actions ➜ **Edit Repository**
+*   Apps/Applications ➜ Manage repositories ➜ <img src='https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/2699.png' width=20 height=20 /> Actions ➜ **Edit Repository**
 
 
 To learn more about Smart Commits, see [Git Integration for Jira: Smart Commits](/git-integration-for-jira-self-managed/Smart-commits).

@@ -1,6 +1,6 @@
 ---
 
-title: Connecting to a git host account via Add new integration panel
+title: Integration basics - Connecting to a git host account via Add new integration panel
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed
@@ -51,12 +51,4 @@ This process requires a git host account (e.g. GitHub/GitLab/VSTS etc.) Use the 
    *   For more information on Project permissions and repository associations, see [Setting Project Permissions](/git-integration-for-jira-self-managed/associating-project-permissions).
 
 5. Click **Finish** to accept the settings and complete the setup.
-
-<br>
-
-* * *
-
-[<< Integration basics](/git-integration-for-jira-self-managed/integration-basics/)<br>
-
-[>> Connecting to a single git repository (HTTP/HTTPS)](/git-integration-for-jira-self-managed/connecting-to-a-single-git-repository-http-https/)
 
