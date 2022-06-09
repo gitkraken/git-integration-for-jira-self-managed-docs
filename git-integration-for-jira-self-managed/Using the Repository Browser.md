@@ -1,6 +1,6 @@
 ---
 
-title: Using the Repository Browser
+title: Integration basics - Using the Repository Browser
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed
@@ -14,12 +14,13 @@ The Repository Browser page is displayed. Click a repository to view its content
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/2045214758/gitserver-repo-browser-menu-sel.png%3Fversion=1&modificationDate=1640708768426&cacheVersion=1&api=v2?version=1&modificationDate=1640869893728&cacheVersion=1&api=v2)
 
+<br>
+
 Enable/disable this feature via:
 
 *   Connect to Git Repository wizard
 
-*   Connect to Git Repository ➜  **Advanced setup**
+*   Connect to Git Repository ➜ **Advanced setup**
 
 *   Apps/Applications ➜ Git repositories ➜ Actions ➜ **Edit repository**
-
 

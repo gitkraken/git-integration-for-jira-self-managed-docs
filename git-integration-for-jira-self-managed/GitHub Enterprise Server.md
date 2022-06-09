@@ -1,24 +1,67 @@
 ---
 
-title: GitHub Enterprise Server
+title: Integration guide - GitHub Enterprise Server
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-These instructions apply to self-hosted GitHub Enterprise Server.
 
-For instructions to instances hosted on GitHub.com (Free, Team, Enterprise (including [**EMU**](https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users)) plans), please go to [this page](/git-integration-for-jira-self-managed/github/).
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        These instructions apply to self-hosted GitHub Enterprise Server.
+    </div>
+    </div>
+</div>
 
-Using **Jira Cloud**? [See the corresponding article](/git-integration-for-jira-cloud/github-com/).
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        For instructions to instances hosted on GitHub.com (Free, Team, Enterprise (including <a href='https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users'></b>EMU</b></a> plans), please go to <a href='/git-integration-for-jira-self-managed/github/'>this page</a>.
+    </div>
+    </div>
+</div>
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91914350/github-ent-server-banner-logo.png?version=1&modificationDate=1646819881183&cacheVersion=1&api=v2&width=510&height=59)
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/github.com/'>See the corresponding article</a>.
+    </div>
+    </div>
+</div>
+<br>
 
 # Integrate GitHub Enterprise Server with Jira Server
+
+![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91914350/github-ent-server-banner-logo.png?version=1&modificationDate=1646819881183&cacheVersion=1&api=v2&width=510&height=59)
 
 Quickly learn how to connect GitHub Enterprise Server git repositories via Git Integration for Jira Server.
 
 **What's on this page:**
+  - [Creating a personal access token](#creating-a-personal-access-token)
+  - [Using Full feature integration](#using-full-feature-integration)
+  - [Single repository (Manual integration)](#single-repository-manual-integration)
+  - [Setting up GitHub Enterprise Server permissions](#setting-up-github-enterprise-server-permissions)
+    - [Default repository permission](#default-repository-permission)
+    - [Teams and collaborators](#teams-and-collaborators)
+  - [Setting up GitHub web links](#setting-up-github-web-links)
+  - [Viewing git commits in Jira Server](#viewing-git-commits-in-jira-server)
+  - [Require User PAT settings for user access](#require-user-pat-settings-for-user-access)
+  - [Working with branches and pull requests](#working-with-branches-and-pull-requests)
+    - [Default branch](#default-branch)
+    - [Creating branches](#creating-branches)
+    - [Creating pull requests](#creating-pull-requests)
+
 
 * * *
 
@@ -49,9 +92,9 @@ This setup uses full feature integration offering functions and features not fou
     3.  Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed.
 
         ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91914350/gitserver-general-advanced-autoconnect-opt(c).png?version=1&modificationDate=1644573046808&cacheVersion=1&api=v2&width=612&height=416)
-        *   **Custom API Path**  –  his is a relative path that starts with "/".  The maximum allowed length is 2000 characters or less. The integration will use the relative REST API path to retrieve the list of tracked repositories. The Custom API Path is called everytime the list of repositories is loaded, on a regular scheduled reindex and a manual reindex. For more examples, see article [Jira Server: Working with Custom API Path - GitHub Enterprise](/git-integration-for-jira-self-managed/working-with-custom-api-path/).
+        *   **Custom API Path**  –  his is a relative path that starts with "/".  The maximum allowed length is 2000 characters or less. The integration will use the relative REST API path to retrieve the list of tracked repositories. The Custom API Path is called everytime the list of repositories is loaded, on a regular scheduled reindex and a manual reindex. For more examples, see article [Jira Server: Working with Custom API Path - GitHub Enterprise](/git-integration-for-jira-self-managed/working-with-custom-api-path).
 
-        *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less. For help with writing expressions, please contact [support](mailto:support@bigbrassband.com). Read about JMESPath expressions on their [website](http://jmespath.org/). For some other examples, see [Jira Server: Working with JMESPath Filter in GitHub Enterprise](/git-integration-for-jira-self-managed/working-with-jmespath-filters/).
+        *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less. For help with writing expressions, please contact [support](mailto:support@bigbrassband.com). Read about JMESPath expressions on their [website](http://jmespath.org/). For some other examples, see [Jira Server: Working with JMESPath Filter in GitHub Enterprise](/git-integration-for-jira-self-managed/working-with-jmespath-filters).
 
         *   **Fetch refspec**  –  Git refspecs contains patterns mapped as references from the remote to the local repository.
             For more information, see **Git Internals -- The Refspec**.
@@ -62,9 +105,9 @@ This setup uses full feature integration offering functions and features not fou
 
                 1.  **Clone and index ref notes (refs/notes)** – This is a reference to `refs/notes/*` used for fetching. This option is enabled by default. This affects git notes which are not shown:
 
-                    1.  ...when `refs/notes` are disabled on connecting a repository.
+                    *  ...when `refs/notes` are disabled on connecting a repository.
 
-                    2.  ...when a new note comes when `refs/notes` is disabled.
+                    *   ...when a new note comes when `refs/notes` is disabled.
 
                 2.  **Clone and index changes (refs/changes)** – This is a reference to `refs/changes/*` used for fetching.  This option is turned off by default.
 
@@ -98,7 +141,16 @@ GitHub Enterprise Server repositories are now connected to Jira Server.
 
 ## Single repository (Manual integration)
 
-This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.
+    </div>
+    </div>
+</div>
 
 This process requires an existing GitHub Enterprise Server git repository. Look for the git clone URL on the repository project page.
 
@@ -125,11 +177,11 @@ We recommend using a "service user" in GitHub Enterprise _(example:_ `GitIntegr
 
 Assign GitHub Enterprise Server permissions for team members or collaborators to allow which resources are accessible for service users. This feature is only available in a GitHub Organization.
 
-### **Default repository permission**
+### Default repository permission**
 
 1.  Login to your GitHub Enterprise Server account.
 
-2.  Go to Profile ➜ **Settings**.
+2.  Go to Profile ➜ **Settings**.
 
 3.  Under _Organization settings_, click **Member Privileges**.
 
@@ -143,7 +195,7 @@ Assign GitHub Enterprise Server permissions for team members or collaborators to
 
 For more information, see **Access Permissions on GitHub »**.
 
-### **Teams and collaborators**
+### Teams and collaborators
 
 To give a member additional access, they must be added to a team or make them collaborators on individual repositories.
 
@@ -183,11 +235,38 @@ To give a member additional access, they must be added to a team or make them co
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91914350/manage-team-repo-permission.png?version=1&modificationDate=1644573046830&cacheVersion=1&api=v2&width=680&height=155)
 
-While users have configured PAT for repository access, users in a GitHub Enterprise Server must at least have **Read** permissions. This allows them to view commits and smart commits, and browse repositories (if enabled) of connected GitHub Enterprise Server repositories inside Jira.
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        While users have configured PAT for repository access, users in a GitHub Enterprise Server must at least have <b>Read</b> permissions. This allows them to view commits and smart commits, and browse repositories (if enabled) of connected GitHub Enterprise Server repositories inside Jira.
+    </div>
+    </div>
+</div>
 
-For repository managers, collaborators and commit authors, set these users to have **Write** permissions. This will allow them to view commits and smart commits, browse repositories and also enables them to create branches and pull requests to specified GitHub git repositories via developer panel of a Jira issue.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        For repository managers, collaborators and commit authors, set these users to have <b>Write</b> permissions. This will allow them to view commits and smart commits, browse repositories and also enables them to create branches and pull requests to specified GitHub git repositories via developer panel of a Jira issue.
+    </div>
+    </div>
+</div>
 
-The user PAT for "Require User PAT" setting should have **Write** permission. Otherwise, the user will not be able to use it for branch or pull request creation/deletion.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The user PAT for "Require User PAT" setting should have <b>Write</b> permission. Otherwise, the user will not be able to use it for branch or pull request creation/deletion.
+    </div>
+    </div>
+</div>
 
 For more information on organization teams, see [**GitHub: Organizing Members into Teams »**](https://docs.github.com/en/organizations/organizing-members-into-teams).
 
@@ -199,7 +278,7 @@ The Git Integration for Jira app automatically configures web linking for GitHub
 
 For single repository connections, web link setup is optional. However, git links will become available in Git Commits tab when configured.
 
-For more information on this feature, see [Documentation: Web linking](https://devhelpcenter.wpengine.com/git-integration-for-jira-self-managed/web-linking/).
+For more information on this feature, see [Documentation: Web linking](/git-integration-for-jira-self-managed/web-linking).
 
 ## Viewing git commits in Jira Server
 
@@ -226,9 +305,18 @@ Click this text label to open the Setup PAT dialog and paste your personal acces
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91914350/gitserver-setup-pat-dlg.png?version=1&modificationDate=1644573046835&cacheVersion=1&api=v2&width=544&height=272)
 
-Updating this dialog with a blank entry will remove the configured PAT for the current integration.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Updating this dialog with a blank entry will remove the configured PAT for the current integration.
+    </div>
+    </div>
+</div>
 
-The Setup PAT dialog is also accessible via Repository Browser (dashboard menu Git ➜ **Repository browser**) ➜ Click the Pencil icon under _**Pers. Access**_ column.
+The Setup PAT dialog is also accessible via Repository Browser (dashboard menu Git ➜ **Repository browser**) ➜ Click the <img src='/wp-content/uploads/gij-edit-icon-dark.png' style='vertical-align: middle; margin: 0 3px;' /> icon under _**Pers. Access**_ column.
 
 ## Working with branches and pull requests
 
@@ -240,7 +328,16 @@ For GitHub Organization, the user must have the **Write** permissions and the�
 
 Most git integrations allow changing of the default branch of the repository/project other than "master".  This change is reflected in the  Repository Settings of the Git Integration for Jira app on the next reindex.  Auto-connected integrations support this feature where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
-Main branch for repositories within an integration can only be changed on the git server.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Main branch for repositories within an integration can only be changed on the git server.
+    </div>
+    </div>
+</div>
 
 ### Creating branches
 
@@ -252,16 +349,24 @@ On your Jira Server, open a Jira issue. On the Jira developer panel under **Git
 
 1.  Select a **Repository** from the list.
 
-    1.  If there are several repositories with the same name, the listed GitHub repositories will have their names attached with a GitHub organization name. For example, `BigBrassBand/second-webhook-test-repo`.
+    *  If there are several repositories with the same name, the listed GitHub repositories will have their names attached with a GitHub organization name. For example, `BigBrassBand/second-webhook-test-repo`.
 
-    2.  Use the search box to look for the specific repository that will be used.
+    *  Use the search box to look for the specific repository that will be used.
 
 2.  Choose a **Base branch**.
 
 3.  Enter a **Branch name** or leave it as is (recommended).
 
-
-The Git Integration for Jira Server app gets the default branch from almost all integrations. However, the exception is with Gerrit which always has “master” as its default branch.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The Git Integration for Jira Server app gets the default branch from almost all integrations. However, the exception is with Gerrit which always has 'master' as its default branch.
+    </div>
+    </div>
+</div>
 
 The newly-created branch is now listed in the developer panel under **Branches**. Perform a commit to the newly-created branch to be ready for merge.
 
@@ -275,9 +380,9 @@ The pull request feature works the same as merge request. On your Jira Server, o
 
 1.  Select a **Repository** from the list.
 
-    1.  If there are several repositories with the same name, the listed GitHub repositories will have their names attached with a GitHub organization name. For example, `BigBrassBand/second-webhook-test-repo`.
+    *  If there are several repositories with the same name, the listed GitHub repositories will have their names attached with a GitHub organization name. For example, `BigBrassBand/second-webhook-test-repo`.
 
-    2.  Use the search box to look for the specific repository that will be used.
+    *  Use the search box to look for the specific repository that will be used.
 
 2.  Choose the newly-created branch as the **Source branch**.
 
@@ -285,9 +390,19 @@ The pull request feature works the same as merge request. On your Jira Server, o
 
 4.  Enter a descriptive **Title** or leave it as is _(recommended)_.
 
-
-**Preview** allows you to see the comparison view of the current changes in the selected **Source branch** vs **Target branch** (_usually_ _master_).
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Preview</b> allows you to see the comparison view of the current changes in the selected <b>Source branch</b> vs <b>Target branch</b> (<i>usually master</i>).
+    </div>
+    </div>
+</div>
+<br>
 
 The pull request is listed on the developer panel of the Jira issue page.
 
 The pull request is also ready for approval by the reviewers in your GitHub web portal.
+

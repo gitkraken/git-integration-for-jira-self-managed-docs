@@ -6,7 +6,18 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
+
 This page contains steps for creating personal access tokens (PATs) for specific git hosts. Use the table of contents to navigate to the selected git host.
+
+**What's on this page:**
+- [GitHub | GitHub Enterprise](#github--github-enterprise)
+- [GitLab | GitLab CE/EE](#gitlab--gitlab-ceee)
+- [Azure DevOps | Visual Studio Team Services (VSTS)](#azure-devops-visual-studio-team-services-vsts)
+- [Team Foundation Server (TFS) 2017 | (TFS) 2018](#team-foundation-server-tfs-2017--tfs-2018)
+- [Azure DevOps Server](#azure-devops-server)
+- [AWS CodeCommit](#aws-codecommit)
+
+* * *
 
 ## GitHub | GitHub Enterprise
 
@@ -46,7 +57,7 @@ If two-factor authentication is enabled for your GitLab account, you will need t
 
 While instructions from GitLab works just fine, here are some specific instructions to get you up and running:
 
-1.  Login to your GitLab account then go to your profile settings (menu ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Profile ➜ **Preferences**).
+1.  Login to your GitLab account then go to your profile settings (menu Profile ➜ **Preferences**).
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/107380737/gitlab-user-profile-settings(c).png?version=1&modificationDate=1650870599414&cacheVersion=1&api=v2&width=251&height=313)
 2.  On the sidebar, click **Access Tokens**.
@@ -65,8 +76,17 @@ While instructions from GitLab works just fine, here are some specific instructi
 
 5.  Copy the token – (Write it down or be sure to save it. This is the ONLY time you'll see the token)
 
-
-In your GitLab repository account setting, the _**api**_ scopes of the PAT have the ability to create branches and merge requests to specified GitLab repositories via developer panel of a Jira issue.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        In your GitLab repository account setting, the <b><i>api</i></b> scopes of the PAT have the ability to create branches and merge requests to specified GitLab repositories via developer panel of a Jira issue.
+    </div>
+    </div>
+</div>
+<br>
 
 ## Azure DevOps | Visual Studio Team Services (VSTS)
 
@@ -79,12 +99,12 @@ If you have not yet generated a personal access token (PAT):
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/107380737/vsts-azure-devops-user-profile-settings(c).png?version=1&modificationDate=1650870599422&cacheVersion=1&api=v2&width=374&height=423)
 2.  Click **Personal access tokens**. You will be taken to the Personal Access Tokens configuration page.
 
-3.  Click ![(plus)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/add.png) **New Token**. The following dialog is displayed.
+3.  Click &nbsp;![(plus)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/add.png) **New Token**. The following dialog is displayed.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/107380737/vsts-azure-create-pats-jira-server-cloud(c).png?version=1&modificationDate=1650870599424&cacheVersion=1&api=v2&width=544&height=643)
     1.  Enter a descriptive name for your PAT. Since this is a connection to Jira, you can name it, for example, `git-integration-for-jira`.
 
-    2.  For the _**Organization**_, make sure to set it to **All accessible organizations**. IMPORTANT!
+    2.  **IMPORTANT!** -- For the _**Organization**_, make sure to set it to **All accessible organizations**.
 
     3.  Set the desired lifespan of your token. Set it to _**Custom defined**_ if you want to choose a longer expiration date.
 
@@ -97,19 +117,36 @@ If you have not yet generated a personal access token (PAT):
 
 When you're done, make sure to copy and save the token. This token can be used as your password.
 
-For personal access tokens where _**Organization**_ is not set to **All accessible organizations**:
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        For personal access tokens where <b><i>Organization</i></b> is not set to <b>All accessible organizations</b>:
+        <ul>
+            <li>Set the <b><i>Scopes</i></b> section to <b>Full Access</b>; or</li>
+            <li>Set the <b><i>Scopes</i></b> section to <b>Custom defined</b> and then set the <b><i>Code</i></b> section to <b>Read</b>, <b>Status</b>.</li>
+        </ul>
+    </div>
+    </div>
+</div>
 
-*   Set the _**Scopes**_ section to **Full Access**; or
-
-*   Set the _**Scopes**_ section to **Custom defined** and then set the _**Code**_ section to **Read**, **Status**.
-
-
-As for _**Scopes**_:
-
-*   `Code (read)`  –  This scope allows only to view commits and smart commits, and browse repositories (if enabled) of connected VSTS/Azure repositories inside Jira.
-
-*   `Code (read and write)`  –  This scope has the `Code (read)` functions plus the ability to create branches and pull requests to specified VSTS/Azure repositories via developer panel of a Jira issue.
-
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        As for <b><i>Scopes</i></b>:
+        <ul>
+            <li><code>Code (read)</code> – This scope allows only to view commits and smart commits, and browse repositories (if enabled) of connected VSTS/Azure repositories inside Jira.</li>
+            <li><code>Code (read and write)</code> – This scope has the `Code (read)` functions plus the ability to create branches and pull requests to specified VSTS/Azure repositories via developer panel of a Jira issue.</li>
+        </ul>
+    </div>
+    </div>
+</div>
+<br>
 
 ## Team Foundation Server (TFS) 2017 | (TFS) 2018
 
@@ -131,9 +168,9 @@ Follow the steps below, if you have not yet generated a personal access token (P
 
 5.  On the **Authorized Scopes** section, set it to **Selected scopes** then enable one of the settings that will be assigned to this service user:
 
-    1.  For viewing commits, smart commits and browse repositories inside Jira, the recommended scope is **code (read)**.
+    *   For viewing commits, smart commits and browse repositories inside Jira, the recommended scope is **code (read)**.
 
-    2.  For having the above access privilege plus branch and pull request creation via developer panel of a Jira issue, the recommended scope is **code (read and write)**.
+    *   For having the above access privilege plus branch and pull request creation via developer panel of a Jira issue, the recommended scope is **code (read and write)**.
 
 6.  Click **Create token** to create this PAT with the specified scope.
 
@@ -144,14 +181,23 @@ When you're done, make sure to copy and save the token. This token can be used 
 
 TFS 2017 and newer can use personal access token for on-premises Azure DevOps Server installations. This will allow control on how a service user accesses specific resources from your git repositories. PATs can give you access to Azure Repos without using your username or password directly.
 
-Azure DevOps Server was formerly named Visual Studio Team Foundation Server (TFS).
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Azure DevOps Server was formerly named Visual Studio Team Foundation Server (TFS).
+    </div>
+    </div>
+</div>
 
 Follow the steps below, if you have not yet generated a personal access token (PAT) for your user account:
 
 1.  On the Azure DevOps Server portal dashboard, open the account settings by clicking the _user profile icon_ on the top right corner of the page then click **Security**.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/107380737/azure-devops-2019-acct-settings.png?version=2&modificationDate=1650870599435&cacheVersion=1&api=v2&width=251&height=389)
-2.  On the Personal Access Token page, click ![(plus)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/add.png) **Add** to see the following screen.
+2.  On the Personal Access Token page, click &nbsp;![(plus)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/add.png) **Add** to see the following screen.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/107380737/azure-devops-2019-pat-settings(c).png?version=1&modificationDate=1650870599492&cacheVersion=1&api=v2&width=646&height=322)
 3.  Enter a meaningful name in the **Description** field.
@@ -160,9 +206,9 @@ Follow the steps below, if you have not yet generated a personal access token (P
 
 5.  On the **Authorized Scopes** section, set it to **Selected scopes** then enable one of the settings that will be assigned to this service user:
 
-    1.  For viewing commits, smart commits and browse repositories inside Jira, the recommended scope is **code (read)**.
+    *   For viewing commits, smart commits and browse repositories inside Jira, the recommended scope is **code (read)**.
 
-    2.  For having the above access privilege plus branch and pull request creation via developer panel of a Jira issue, the recommended scope is **code (read and write)**.
+    *   For having the above access privilege plus branch and pull request creation via developer panel of a Jira issue, the recommended scope is **code (read and write)**.
 
 6.  Click **Create token** to create this PAT with the specified scope.
 
@@ -171,7 +217,7 @@ When you're done, make sure to copy and save the token. This token can be used 
 
 ## AWS CodeCommit
 
-While AWS CodeCommit does offer not personal access tokens for authentication, an IAM Access Key ID and Secret Access Key can be used in place of a personal access token. 
+While AWS CodeCommit does offer not personal access tokens for authentication, an IAM Access Key ID and Secret Access Key can be used in place of a personal access token.
 
 The following [AWS CodeCommit IAM Policy actions](https://docs.aws.amazon.com/IAM/latest/UserGuide/list_awscodecommit.html) must be granted to an IAM user to create branches and/or pull requests in the Git Integration for Jira app:
 
@@ -184,7 +230,25 @@ To create a new Access Key ID and Secret Access Key, go to IAM ➜ Users ➜ Sec
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/107380737/IAM-user-create-access-key-diagram.png?version=1&modificationDate=1650870599495&cacheVersion=1&api=v2&width=680&height=429)
 
-AWS IAM only allows two Access Keys per IAM user.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        AWS IAM only allows two Access Keys per IAM user.
+    </div>
+    </div>
+</div>
 
-We recommend that AWS administrators should not use the same IAM user's Access Key for the Git Integration for Jira app tasks.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        We recommend that AWS administrators should not use the same IAM user's Access Key for the Git Integration for Jira app tasks.
+    </div>
+    </div>
+</div>
 

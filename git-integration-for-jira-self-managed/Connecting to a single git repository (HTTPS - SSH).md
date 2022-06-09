@@ -1,6 +1,6 @@
 ---
 
-title: Connecting to a single git repository (HTTPS | SSH)
+title: Integration basics - Connecting to a single git repository (HTTPS | SSH)
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed
