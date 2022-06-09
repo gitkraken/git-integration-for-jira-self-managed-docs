@@ -17,4 +17,3 @@ Go to the section titled, **"Can customers use developer licenses for my add-on
 **In summary:**
 
 A developer license can be generated (free of charge) once the plugin has been purchased and can only be installed on a development licensed version of JIRA.
-

@@ -41,3 +41,4 @@ As time goes on, a lot interesting features are added to improve your git experi
 
 For more information on each feature, see [**Git Integration for Jira: Product Features**](https://bigbrassband.com/git-for-jira-features.html).
 
+

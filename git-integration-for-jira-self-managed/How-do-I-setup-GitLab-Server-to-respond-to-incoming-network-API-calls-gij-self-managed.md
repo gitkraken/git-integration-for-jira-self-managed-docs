@@ -34,4 +34,3 @@ To reconfigure:
 Read this [**GitLab documentation**](https://docs.gitlab.com/omnibus/settings/configuration.html#configuring-the-external-url-for-gitlab) to know more about configuring the external URL for GitLab.
 
 You should be able to add the GitLab repositories via Git Integration for Jira app ➜ **Connect to Git Repository** / **Add New integration**.
-

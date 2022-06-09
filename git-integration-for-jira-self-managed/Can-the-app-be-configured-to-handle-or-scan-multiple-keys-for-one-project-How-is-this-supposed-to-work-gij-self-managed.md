@@ -10,5 +10,4 @@ taxonomy:
 
 Yes – the Git Integration for Jira app supports multiple Jira issue keys in a multiple-line commit message.
 
-For more information, see [Smart Commits: Advanced examples](/wiki/spaces/GIJDC/pages/1930398446/Advanced+examples).
-
+For more information, see [Smart Commits: Advanced examples](/git-integration-for-jira-self-managed/advanced-examples-gij-self-managed).

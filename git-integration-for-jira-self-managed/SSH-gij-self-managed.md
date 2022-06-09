@@ -12,15 +12,15 @@ Use the FAQ below to find answers to common questions. Feel free to contact our
 
 ### See next FAQs about SSH
 
-*   [Creating and configuring SSH keys (Windows/MacOS/Linux)](/wiki/spaces/GIJDC/pages/183271450)
+*   [Creating and configuring SSH keys (Windows/MacOS/Linux)](/git-integration-for-jira-self-managed/creating-and-configuring-ssh-keys-windows-macos-linux-gij-self-managed)
 
-*   [Are passphrases supported on SSH keys?](/wiki/spaces/GIJDC/pages/2040692788)
+*   [Are passphrases supported on SSH keys?](/git-integration-for-jira-self-managed/are-passphrases-supported-on-ssh-keys-gij-self-managed)
 
-*   [Does this app support authenticating to git repositories via SSH?](/wiki/spaces/GIJDC/pages/2041184292)
+*   [Does this app support authenticating to git repositories via SSH?](/git-integration-for-jira-self-managed/does-this-app-support-authenticating-to-git-repositories-via-ssh-gij-self-managed)
 
-*   [How do you configure the SSH key used when adding a new project?](/wiki/spaces/GIJDC/pages/2041020434)
+*   [How do you configure the SSH key used when adding a new project?](/git-integration-for-jira-self-managed/How-do-you-configure-the-SSH-key-used-when-adding-a-new-project-gij-self-managed)
 
-*   [Why do I need to provide a PRIVATE KEY to the Git Integration for Jira app instead of a PUBLIC KEY?](/wiki/spaces/GIJDC/pages/2041577508)
+*   [Why do I need to provide a PRIVATE KEY to the Git Integration for Jira app instead of a PUBLIC KEY?](/git-integration-for-jira-self-managed/why-do-i-need-to-provide-a-private-key-to-the-git-integration-for-jira-app-instead-of-a-public-key-gij-self-managed)
 
-*   [How do I configure/connect an SSH remote git repository to Jira?](/wiki/spaces/GIJDC/pages/2041708556)
+*   [How do I configure/connect an SSH remote git repository to Jira?](/git-integration-for-jira-self-managed/how-do-i-configure-connect-an-ssh-remote-git-repository-to-jira-gij-self-managed)
 

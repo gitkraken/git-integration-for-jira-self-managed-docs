@@ -71,4 +71,3 @@ The new implementation eliminates all the above drawbacks. Git Integration for J
 ## Known issues
 
 The new implementation provides better utility and performance gains. However, it requires cluster lock usage to enforce synchronization between nodes.
-

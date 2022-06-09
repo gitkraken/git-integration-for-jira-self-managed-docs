@@ -35,7 +35,7 @@ The above solution should work, otherwise, see below for the steps to workaround
 
 5.  From your browser, log into Jira and go to Jira dashboard menu Git ➜ **Manage repositories**. The manage git repositories configuration page is displayed.
 
-6.  Click **Connect to Git Repository** then [_Advanced setup_](/wiki/spaces/GIJDC/pages/1930397180/Connecting+a+repository+via+Advanced+setup).
+6.  Click **Connect to Git Repository** then [_Advanced setup_](/git-integration-for-jira-self-managed/connecting-a-repository-via-advanced-setup-gij-self-managed).
 
 7.  For the _Display Name_, enter a description of the Git repository.
 
@@ -55,5 +55,5 @@ There are alternative solutions to make Java trust this certificate.  Please re
 *   [**Connecting to SSL services**](https://confluence.atlassian.com/jira/connecting-to-ssl-services-117455.html)
 
 
-If the problem persist, please [send us a support zip](/wiki/spaces/GIJDC/pages/2039447557) to give us a better view of the issue.
+If the problem persist, please [send us a support zip](/git-integration-for-jira-self-managed/how-to-create-the-support-zip-file-gij-self-managed) to give us a better view of the issue.
 

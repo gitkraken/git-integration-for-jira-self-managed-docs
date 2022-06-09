@@ -7,8 +7,8 @@ taxonomy:
 
 ---
 
-
 When using Active Directory accounts for repository access, changing the password of the AD account running Jira can cause repository authentication issues.
 
 You need to restart Jira to regain access to repositories.
+
 

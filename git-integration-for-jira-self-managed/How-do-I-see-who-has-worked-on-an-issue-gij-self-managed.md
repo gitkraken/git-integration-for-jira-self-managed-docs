@@ -9,4 +9,3 @@ taxonomy:
 Open an issue in your browser and click on the **Git Commits** tab.
 
 Everyone listed in the "Author/Committer" column has worked on the issue.
-

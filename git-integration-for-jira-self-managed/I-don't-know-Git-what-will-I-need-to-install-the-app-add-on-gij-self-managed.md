@@ -8,4 +8,3 @@ taxonomy:
 ---
 
 For the most common setups, you will need the URL to your Git server and credentials to access it.  Tell your Git administrator that you need access to the Git repository just like a regular developer would have.  They will provide what you need.
-

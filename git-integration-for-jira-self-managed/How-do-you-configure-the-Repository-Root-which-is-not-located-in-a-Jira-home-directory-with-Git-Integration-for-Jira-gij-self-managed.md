@@ -16,4 +16,3 @@ There are three possible ways to do this:
     
 *   You could symlink the `{$Jira_HOME}/data/git-plugin` directory to a different volume.  The standard **Connect to Git Repository Wizard** will still write there, but the data will reside on the different volume. But be aware, that the Git Integration for Jira app treats anything in the Git-Plugin folder as a clone that it owns.
     
-

@@ -81,6 +81,7 @@ Quick and easy! Learn about the basics of integrating git repositories to Jira 
 
 **CUSTOMIZATION**
 
+
 **[Webhooks »](https://bigbrassband.wistia.com/medias/4o796wnrdx)**
 
 Learn how to configure webhooks for supported git hosts.
@@ -112,3 +113,4 @@ Setup GitLab server personal access tokens and scopes required for Git for Jira�
 **[Receive App Update Notifications »](https://bigbrassband.wistia.com/medias/u9rojnv0vv)**
 
 Configure Jira preferences to enable receiving of app update notifications.
+
