@@ -6,5 +6,6 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-Only the commits that are [linked to Jira issues](/wiki/spaces/GIJDC/pages/1930398265/Linking+git+commits+to+Jira+issues) will show on the Jira Activity Stream (not all commits in repositories).
+
+Only the commits that are [linked to Jira issues](/git-integration-for-jira-self-managed/linking-git-commits-to-jira-issues-gij-self-managed) will show on the Jira Activity Stream (not all commits in repositories).
 

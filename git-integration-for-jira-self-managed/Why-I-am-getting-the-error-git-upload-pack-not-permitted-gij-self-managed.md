@@ -14,14 +14,14 @@ You are getting this error because of wrong login credentials or a permission is
 
 The most common cause is a wrong login credentials input.
 
-REPOSITORY LEVEL Go to the **Manage** **Git repositories** configuration list. Select ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions** for a particular repository then **Edit repository settings**.
+REPOSITORY LEVEL Go to the **Manage** **Git repositories** configuration list. Select **Actions** for a particular repository then **Edit repository settings**.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2051375177/gitserver-git-uploack-pack-err-01.png?version=1&modificationDate=1642158042088&cacheVersion=1&api=v2&width=680&height=501)
 
 Check the repository properties for the **Username** and **Password/PAT** fields and verify that they are filled with correct values. Retype login credentials just to make sure and save the settings.
 
 
-INTEGRATION LEVEL Go to the **Manage** **Git repositories** configuration list. Select ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions** for a particular repository then **Edit integration connection settings**.
+INTEGRATION LEVEL Go to the **Manage** **Git repositories** configuration list. Select **Actions** for a particular repository then **Edit integration connection settings**.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2051375177/gitserver-git-upload-pack-err-02.png?version=1&modificationDate=1642158455218&cacheVersion=1&api=v2&width=680&height=264)
 
@@ -73,7 +73,7 @@ To get a better view of the cause of the error:
 
     Enable debug logging for jgit library in Jira:
 
-    1.  Go to ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Jira Administration** ➜ **System**.
+    1.  Go to **Jira Administration** ➜ **System**.
 
     2.  On the sidebar, under _**System Support**_, click **Logging and profiling**.
 
@@ -88,7 +88,7 @@ To get a better view of the cause of the error:
 
     1.  Write down the current time right before doing a reindex – let's call it `time1`.
 
-    2.  Do a reindex for your integration/repository via dashboard menu Git ➜ Manage repositories ➜ ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Reindex integration/repository**.
+    2.  Do a reindex for your integration/repository via dashboard menu Git ➜ Manage repositories ➜Actions ➜ **Reindex integration/repository**.
 
     3.  After the reindex is complete, write down the current time – let's call it `time2`.
 

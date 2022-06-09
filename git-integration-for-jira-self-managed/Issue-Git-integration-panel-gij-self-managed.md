@@ -31,7 +31,7 @@ The Issue Git integration panel displays:
 
 1.  Install the [Git Integration for Jira](https://marketplace.atlassian.com/4984) app.
 
-2.  Navigate to the [**General settings**](/git-integration-for-jira-self-managed/General-Settings) page of the application.
+2.  Navigate to the [**General settings**](/git-integration-for-jira-self-managed/general-settings-gij-self-managed) page of the application.
 
 3.  Enable or disable the setting: `Show Git integration panel on issue pages`.
 

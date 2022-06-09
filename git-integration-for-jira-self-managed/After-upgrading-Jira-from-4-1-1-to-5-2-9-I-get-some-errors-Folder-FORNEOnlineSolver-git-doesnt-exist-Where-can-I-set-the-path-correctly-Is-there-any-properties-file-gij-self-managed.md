@@ -8,14 +8,13 @@ taxonomy:
 ---
 
 
-Please visit Git Integration for Jira app config and check Git Repositories tab (_Jira dashboard menu **Git** ➜ **Manage repositories** ➜_ ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _**Actions**_):
+Please visit Git Integration for Jira app config and check Git Repositories tab (_Jira dashboard menu **Git** ➜ **Manage repositories** ➜_ _**Actions**_):
 
-*   For integrations, go to ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Show integration repositories** ➜ click a repository to view the repository settings.
+*   For integrations, go to Actions ➜ **Show integration repositories** ➜ click a repository to view the repository settings.
     
-*   For repository connections, go to ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Actions ➜ **Edit repository settings**.
+*   For repository connections, go to Actions ➜ **Edit repository settings**.
     
 
 Check and verify the path to your configured repositories.
 
 Also, an upgrade of Jira may lead to changing of user account used to run the service, which in turn, may result in lack of permissions.
-

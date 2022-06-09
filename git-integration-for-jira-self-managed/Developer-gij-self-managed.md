@@ -12,12 +12,12 @@ Use the FAQ below to find answers to common questions. Feel free to contact our
 
 ### See next FAQs related to developer questions
 
-*   [How do Git commits get associated with a Jira issue?](/wiki/spaces/GIJDC/pages/2051571713)
+*   [How do Git commits get associated with a Jira issue?](/git-integration-for-jira-self-managed/how-do-git-commits-get-associated-with-a-jira-issue-gij-self-managed)
 
-*   [How do I ensure people are following our organization's process for source code?](/wiki/spaces/GIJDC/pages/2051768321)
+*   [How do I ensure people are following our organization's process for source code?](/git-integration-for-jira-self-managed/how-do-i-ensure-people-are-following-our-organizations-process-for-source-code-gij-self-managed)
 
-*   [What will happen to Jira issue associations with commits if the Jira issue is moved to a new project?](/wiki/spaces/GIJDC/pages/2051014669)
+*   [What will happen to Jira issue associations with commits if the Jira issue is moved to a new project?](/git-integration-for-jira-self-managed/what-will-happen-to-jira-issue-associations-with-commits-if-the-jira-issue-is-moved-to-a-new-project-gij-self-managed)
 
-*   [What are developer licenses?](/wiki/spaces/GIJDC/pages/2051964929)
+*   [What are developer licenses?](/git-integration-for-jira-self-managed/what-are-developer-licenses-gij-self-managed)
 
-*   [How to associate a commit, branch or pull request AFTER it has been created?](/wiki/spaces/GIJDC/pages/2062974977)
+*   [How to associate a commit, branch or pull request AFTER it has been created?](/git-integration-for-jira-self-managed/how-to-associate-a-commit-branch-or-pull-request-after-it-has-been-created-gij-self-managed)

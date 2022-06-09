@@ -39,7 +39,7 @@ _<optional command\_params>_
 
 
 
-For more information on the Smart Commits feature, see [Documentation: Smart commits](/git-integration-for-jira-self-managed/Smart-commits).
+For more information on the Smart Commits feature, see [Documentation: Smart commits](/git-integration-for-jira-self-managed/smart-commits-gij-self-managed).
 
 
 
@@ -85,7 +85,7 @@ To avoid conflict when transitioning issues, give a unique name to a workflow tr
 
 Smart Commit Helper
 
-When the **Smart Commits** setting is disabled for that repository, the Git Integration for Jira app will not show the [COMMIT indicators](/wiki/spaces/GIJDC/pages/1930398529/Smart+commits+helper).
+When the **Smart Commits** setting is disabled for that repository, the Git Integration for Jira app will not show the [COMMIT indicators](/git-integration-for-jira-self-managed/smart-commits-helper-gij-self-managed).
 
 
 
@@ -93,7 +93,7 @@ Multi-line Commits
 
 v2.6.33+ The Git Integration for Jira app, support for multi-line commit messages for Smart Commits has been implemented.
 
-[Related topic »](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1930398446/Advanced+examples#multi-line)
+[Related topic »](/git-integration-for-jira-self-managed/Advanced-examples-gij-self-managed/#multi-line)
 
 
 
@@ -101,5 +101,5 @@ Smart Commit Status
 
 The commit status shown on the Issue page depends on the Smart Commits setting that was set at the time the commits were processed.
 
-Need to know more?  Read further at  [Documentation: Smart commits](/git-integration-for-jira-self-managed/Smart-commits).
+Need to know more?  Read further at  [Documentation: Smart commits](/git-integration-for-jira-self-managed/smart-commits-gij-self-managed).
 

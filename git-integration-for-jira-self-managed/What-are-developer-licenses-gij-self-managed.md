@@ -13,4 +13,3 @@ Only the technical contact can generate a developer key from your commercial/aca
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/2051964929/atlassian-view-dev-license.png?version=1&modificationDate=1642066435926&cacheVersion=1&api=v2)
 
 For more information, see [**What are developer licenses and how are they used?**](https://www.atlassian.com/licensing/purchase-licensing#licensing-10) and [**Getting a Developer License**](https://confluence.atlassian.com/jirakb/get-a-developer-license-for-jira-server-744526918.html).
-

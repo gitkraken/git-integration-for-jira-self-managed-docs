@@ -9,4 +9,3 @@ taxonomy:
 
 
 A new tab is added in each issue. A new tab is added in each project.
-

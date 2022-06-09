@@ -14,5 +14,5 @@ Example git commit message:
 
 "`PROJ-913 - Plugin version change from 2.6.7 to 2.6.8`"; where _**PROJ-913**_ is the issue key that links the commit message to the Jira issue.
 
-If you want to enforce the commit with a hook, please install this [**Git commit hook script »**](/wiki/spaces/GIJDC/pages/92209994/Commit-msg+Hook).
+If you want to enforce the commit with a hook, please install this [**Git commit hook script »**](/git-integration-for-jira-self-managed/commit-msg-hook-gij-self-managed).
 
