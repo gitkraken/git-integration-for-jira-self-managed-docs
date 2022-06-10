@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-For detailed information on this feature, see [Documentation: Repository Browser](/git-integration-for-jira-self-managed/Repository-Browser).
+For detailed information on this feature, see [Documentation: Repository Browser](/git-integration-for-jira-self-managed/repository-browser-gij-self-managed).
 
 VERSION 3.8.1 Git Integration for Jira adds three new settings in the General settings configuration page:
 
@@ -20,7 +20,7 @@ VERSION 3.8.1 Git Integration for Jira adds three new settings in the General se
 
 ![Repository browser setting in General settings (enabled checked)](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1947140158/gitserver-gencfg-repo-browser.png?version=1&modificationDate=1631802543905&cacheVersion=1&api=v2&width=442&height=89)
 
-The [Repository Browser](/git-integration-for-jira-self-managed/Repository-Browser) allows users to view git repositories of configured projects.
+The [Repository Browser](/git-integration-for-jira-self-managed/repository-browser-gij-self-managed) allows users to view git repositories of configured projects.
 
 The default setting is `Enabled` for new and existing Git Integration for Jira app installations. This setting is retained on restore/upgrade of the app.
 
@@ -30,30 +30,30 @@ If this setting is disabled (_unchecked_) in General settings, the **Git** dashb
 
 ### More on general settings
 
-*   [Git roll up issue tab](/wiki/spaces/GIJDC/pages/1207828678/Git+roll+up+issue+tab) (Git Integration for Jira Data Center)
+*   [Git roll up issue tab](/git-integration-for-jira-self-managed/git-roll-up-issue-tab-gij-self-managed) (Git Integration for Jira Data Center)
 
-*   [Git commits issue and project tabs](/wiki/spaces/GIJDC/pages/1207828697/Git+commits+issue+and+project+tabs) (Git Integration for Jira Data Center)
+*   [Git commits issue and project tabs](/git-integration-for-jira-self-managed/git-commits-issue-and-project-tabs-gij-self-managed) (Git Integration for Jira Data Center)
 
-*   [Git integration features](/wiki/spaces/GIJDC/pages/1207795905/Git+integration+features) (Git Integration for Jira Data Center)
+*   [Git integration features](/git-integration-for-jira-self-managed/git-integration-features-gij-self-managed) (Git Integration for Jira Data Center)
 
-*   [Branch and pull request settings (formerly Git Integration Options)](/wiki/spaces/GIJDC/pages/1207828745) (Git Integration for Jira Data Center)
+*   [Branch and pull request settings (formerly Git Integration Options)](/git-integration-for-jira-self-managed/branch-and-pull-request-settings-formerly-git-integration-options-gij-self-managed) (Git Integration for Jira Data Center)
 
-*   [Email settings](/git-integration-for-jira-self-managed/Email-settings) (Git Integration for Jira Data Center)
+*   [Email settings](/git-integration-for-jira-self-managed/email-settings-gij-self-managed) (Git Integration for Jira Data Center)
 
-*   [Scheduled jobs](/git-integration-for-jira-self-managed/Scheduled-jobs) (Git Integration for Jira Data Center)
+*   [Scheduled jobs](/git-integration-for-jira-self-managed/scheduled-jobs-gij-self-managed) (Git Integration for Jira Data Center)
 
-*   [Audit log settings](/wiki/spaces/GIJDC/pages/1207828866/Audit+log+settings) (Git Integration for Jira Data Center)
+*   [Audit log settings](/git-integration-for-jira-self-managed/audit-log-settings-gij-self-managed) (Git Integration for Jira Data Center)
 
-*   [General settings](/git-integration-for-jira-self-managed/General-settings) (Git Integration for Jira Data Center)
+*   [General settings](/git-integration-for-jira-self-managed/general-settings-gij-self-managed) (Git Integration for Jira Data Center)
 
-*   [Repository Browser general setting](/wiki/spaces/GIJDC/pages/1947140158/Repository+Browser+general+setting) (Git Integration for Jira Data Center)
+*   [Repository Browser general setting](/git-integration-for-jira-self-managed/repository-browser-general-setting-gij-self-managed) (Git Integration for Jira Data Center)
 
-*   [Source Code Diff Viewing general setting](/wiki/spaces/GIJDC/pages/1947140173/Source+Code+Diff+Viewing+general+setting) (Git Integration for Jira Data Center)
+*   [Source Code Diff Viewing general setting](/git-integration-for-jira-self-managed/source-code-diff-viewing-general-setting-gij-self-managed) (Git Integration for Jira Data Center)
 
-*   [Require User PAT general setting](/wiki/spaces/GIJDC/pages/1947107395/Require+User+PAT+general+setting) (Git Integration for Jira Data Center)
+*   [Require User PAT general setting](/git-integration-for-jira-self-managed/require-user-pat-general-setting-gij-self-managed) (Git Integration for Jira Data Center)
 
-*   [Enable Automation for Jira general setting](/wiki/spaces/GIJDC/pages/2045149338/Enable+Automation+for+Jira+general+setting) (Git Integration for Jira Data Center)
+*   [Enable Automation for Jira general setting](/git-integration-for-jira-self-managed/Enable-automation-for-jira-general-setting/) (Git Integration for Jira Data Center)
 
-*   [Enforce Git service permissions](/wiki/spaces/GIJDC/pages/2091810842/Enforce+Git+service+permissions) (Git Integration for Jira Data Center)
+*   [Enforce Git service permissions](/git-integration-for-jira-self-managed/enforce-git-service-permissions-gij-self-managed) (Git Integration for Jira Data Center)
 
-*   [Per Node Repository Indexing](/wiki/spaces/GIJDC/pages/2095775749/Per+Node+Repository+Indexing) (Git Integration for Jira Data Center)
+*   [Per Node Repository Indexing](/git-integration-for-jira-self-managed/per-node-repository-indexing-gij-self-managed) (Git Integration for Jira Data Center)

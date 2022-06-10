@@ -91,3 +91,4 @@ Some useful references for this issue:
 ## Solution
 
 Switch the character encoding in the MySQL Jira database to `utf8mb4` and collation to `utf8mb4_bin` as described in the first article listed above.
+

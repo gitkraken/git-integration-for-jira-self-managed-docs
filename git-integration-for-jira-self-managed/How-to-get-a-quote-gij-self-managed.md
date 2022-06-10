@@ -30,4 +30,3 @@ Primarily, click this [**Generate quote link**](https://www.atlassian.com/purcha
 
 
 For more information on licensing, see [**Licensing Information, Migration and Transition**](https://bigbrassband.atlassian.net/wiki/spaces/BBBSUPPORT/pages/901120001/Licensing+Information+Migration+and+Transition).
-

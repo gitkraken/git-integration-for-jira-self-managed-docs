@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-For detailed information on this feature, see [Documentation: Viewing commit code diffs](/wiki/spaces/GIJDC/pages/1930398768/Viewing+commit+code+diffs).
+For detailed information on this feature, see [Documentation: Viewing commit code diffs](/git-integration-for-jira-self-managed/viewing-commit-code-diffs-gij-self-managed).
 
 VERSION 3.8.1 Git Integration for Jira adds three new settings in the General settings configuration page:
 
@@ -19,7 +19,7 @@ VERSION 3.8.1 Git Integration for Jira adds three new settings in the General se
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1947140173/gitserver-gencfg-code-diff.png?version=1&modificationDate=1631802604022&cacheVersion=1&api=v2&width=442&height=90)
 
-[Source Code Diff Viewing](/wiki/spaces/GIJDC/pages/1930398768/Viewing+commit+code+diffs) allows users to view source code commit diffs inside Jira:
+[Source Code Diff Viewing](/git-integration-for-jira-self-managed/source-code-diff-viewing-general-setting-gij-self-managed) allows users to view source code commit diffs inside Jira:
 
 *   Jira issues ➜ Git Commits tab
 

@@ -8,7 +8,7 @@ taxonomy:
 ---
 If you think that the Git caches are corrupt and needed to be removed, please do the following:
 
-1.  Disable the Git Integration for Jira app (![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Jira administration_ ➜ _Manage apps_).
+1.  Disable the Git Integration for Jira app (_Jira administration_ ➜ _Manage apps_).
 
 2.  Go to `<jira_home>`.
 
@@ -24,7 +24,7 @@ If you think that the Git caches are corrupt and needed to be removed, please do
 
 6.  Reindex all integration repositories by performing the next two steps.
 
-7.  Go to ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Jira administration** ➜ **Applications**. On the sidebar under _Git Integration for Jira_, click **Git Repositories**.
+7.  Go to **Jira administration** ➜ **Applications**. On the sidebar under _Git Integration for Jira_, click **Git Repositories**.
 
 8.  Click **Reindex All**.
 

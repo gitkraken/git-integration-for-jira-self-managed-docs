@@ -25,31 +25,40 @@ We recommend that scheduled jobs be given sufficient time to run completely on a
 
 # Scheduled Jobs
 
-|     |
-| --- |
-| ### 1\. Repository reindexing |
-| **JOB DESCRIPTION**<br><br>When the repository reindexing job runs, the Git Integration for Jira app performs the following operations:<br><br>1.  **Auto-Connect integrations (GitHub, GitLab, etc).**<br>    <br>    1.  Perform API call to git server requesting a list of available repositories;<br>        <br>    2.  Clone/remove repositories based on a response from a git server;<br>        <br>    3.  Git fetch changes for existing repositories;<br>        <br>    4.  An API call requesting pull/merge requests; and lastly,<br>        <br>    5.  Index commits from all repositories in the integration.<br>        <br>2.  **Plain git repositories (single repository connections).**<br>    <br>    1.  Perform a git fetch changes for each enabled git repository; and then<br>        <br>    2.  Index commits. |
-| **DEFAULT VALUE:** **5 minutes** |
-| Job name in Jira Administration ➜ Scheduler Details:<br><br>```java<br>com.bigbrassband.jira.git.jiraservices.jobs.RevisionIndexJob<br>``` |
-| **Recommendations**  <br>We recommend that repository reindexing be scheduled no more often than necessary. Ideally, a repository reindexing is scheduled less often (1-2 times a day) and [Webhooks](/wiki/spaces/GITSERVER/pages/92013207/Webhooks) are configured to trigger indexing of individual repositories. Reindexing can also be triggered using the [Reindexing API](/wiki/spaces/GITSERVER/pages/265027737/Reindex+API).<br><br>For the most control over when reindexing jobs occur, disable webhooks and schedule the reindexing job using a cron expression for the desired time(s) of day. |
+### Repository reindexing
+**JOB DESCRIPTION**<br><br>When the repository reindexing job runs, the Git Integration for Jira app performs the following operations:
+1.  **Auto-Connect integrations (GitHub, GitLab, etc).**
+    1.  Perform API call to git server requesting a list of available repositories;
+    2.  Clone/remove repositories based on a response from a git server;
+    3.  Git fetch changes for existing repositories;
+    4.  An API call requesting pull/merge requests; and lastly,
+    5.  Index commits from all repositories in the integration.
+2.  **Plain git repositories (single repository connections).**
+    1.  Perform a git fetch changes for each enabled git repository; and then
+    2.  Index commits.
 
-|     |
-| --- |
-| ### 2\. Garbage collection and Revision validation checkers |
-| **JOB DESCRIPTION**<br><br>The garbage collection job performs the ‘git gc’ calls on the cloned repositories copies. It also performs some cleanup and validation routines. |
-| **DEFAULT VALUE:** 1440 minutes (once a day) |
-| Job name in Jira Administration ➜ Scheduler Details:<br><br>```java<br>com.bigbrassband.jira.git.jiraservices.jobs.GarbageCollectionJob<br>``` |
-| **Recommendations**  <br>We recommend the Garbage collection and Revision validation checker's job be run approximately once a day. Some of you may decide to run it less often and during a specific quiet period for your Jira server. Ideally, the job would be scheduled when other significant jobs are not scheduled. |
+**DEFAULT VALUE:** **5 minutes**
+Job name in Jira Administration ➜ Scheduler Details:<br><br>```java<br>com.bigbrassband.jira.git.jiraservices.jobs.RevisionIndexJob<br>```
+**Recommendations**
+We recommend that repository reindexing be scheduled no more often than necessary. Ideally, a repository reindexing is scheduled less often (1-2 times a day) and [Webhooks](/git-integration-for-jira-self-managed/webhooks-gij-self-managed) are configured to trigger indexing of individual repositories. Reindexing can also be triggered using the [Reindexing API](/git-integration-for-jira-self-managed/reindex-api-gij-self-managed).<br><br>For the most control over when reindexing jobs occur, disable webhooks and schedule the reindexing job using a cron expression for the desired time(s) of day.
+
+### Garbage collection and Revision validation checkers |
+**JOB DESCRIPTION**<br><br>The garbage collection job performs the ‘git gc’ calls on the cloned repositories copies. It also performs some cleanup and validation routines.
+
+**DEFAULT VALUE:** 1440 minutes (once a day)
+Job name in Jira Administration ➜ Scheduler Details:<br><br>```java<br>com.bigbrassband.jira.git.jiraservices.jobs.GarbageCollectionJob<br>```
+
+**Recommendations**  <br>We recommend the Garbage collection and Revision validation checker's job be run approximately once a day. Some of you may decide to run it less often and during a specific quiet period for your Jira server. Ideally, the job would be scheduled when other significant jobs are not scheduled.
 
 # How to find out how long the job takes to run
 
 To understand how long the above jobs take to run:
 
-1.  Navigate to the ![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Jira Administration ➜ **Scheduler Details** page.
+1.  Navigate to the Jira Administration ➜ **Scheduler Details** page.
 
 2.  Look up the `Job name` posted above.
 
-3.  Expand the job name (show more) and observe the schedule, duration, last run, duration, and next run. The duration indicates how long the **last scheduled job** required to run completely (![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Note:** manually or API reindexed jobs will not show here).
+3.  Expand the job name (show more) and observe the schedule, duration, last run, duration, and next run. The duration indicates how long the **last scheduled job** required to run completely **Note:** manually or API reindexed jobs will not show here).
 
 
 When the Reindex job duration is measured in a few tens of milliseconds, this means that the reindex job was still running from the last scheduled reindex job. We recommend that the scheduled job be given more time so that jobs do not overlap.

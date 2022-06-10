@@ -30,9 +30,8 @@ The repository reindexing tasks will be performed only on the specified nodes. T
 
 ## Sample Jira Data Center nodes configuration
 
-|     |
-| --- |
 | **Example 1:** Jira API activity and GIJ indexing combined |
+| --- |
 | *   Node 1: User activity<br>    <br>*   Node 2: User activity<br>    <br>*   Node 3: API activity + GIJ indexing<br>    <br>*   Node 4: API activity + GIJ indexing |
 | **Example 2:** Jira API activity and GIJ indexing on specific nodes |
 | *   Node 1: User activity<br>    <br>*   Node 2: User activity<br>    <br>*   Node 3: API activity<br>    <br>*   Node 4: API activity<br>    <br>*   Node 5: GIJ indexing<br>    <br>*   Node 6: GIJ indexing |

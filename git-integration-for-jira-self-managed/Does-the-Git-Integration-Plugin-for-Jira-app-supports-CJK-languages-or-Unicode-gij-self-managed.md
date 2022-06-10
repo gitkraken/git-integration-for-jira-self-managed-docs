@@ -7,4 +7,3 @@ taxonomy:
 
 ---
 Unicode characters are now supported and displayed properly.
-

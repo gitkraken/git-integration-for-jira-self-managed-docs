@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-For detailed information on this feature, see [Documentation: Require user personal access tokens for branch and PR/MR creation](/wiki/spaces/GIJDC/pages/317390849).
+For detailed information on this feature, see [Documentation: Require user personal access tokens for branch and PR/MR creation](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed).
 
 VERSION 3.8.1 Git Integration for Jira adds three new settings in the General settings configuration page:
 
@@ -21,9 +21,9 @@ VERSION 3.8.1 Git Integration for Jira adds three new settings in the General se
 
 When enabled, this setting requires Jira users to configure personal access tokens to allow them to create branches or pull requests from Jira.
 
-|     |     |
-| --- | --- |
-| ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1947107395/gitserver-create-pullreq-dlg-reqPAT.png?version=1&modificationDate=1631802924891&cacheVersion=1&api=v2) | ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1947107395/gitserver-create-branch-req-user-pat-enabled-aws.png?version=1&modificationDate=1631802924630&cacheVersion=1&api=v2) |
+![](https://bigbrassband.atlassian.net/wiki/download/attachments/1947107395/gitserver-create-pullreq-dlg-reqPAT.png?version=1&modificationDate=1631802924891&cacheVersion=1&api=v2)
+
+![](https://bigbrassband.atlassian.net/wiki/download/attachments/1947107395/gitserver-create-branch-req-user-pat-enabled-aws.png?version=1&modificationDate=1631802924630&cacheVersion=1&api=v2)
 
 
 The default setting is `Disabled` for new and existing Git Integration for Jira app installations. This setting is retained on restore/upgrade of the app.

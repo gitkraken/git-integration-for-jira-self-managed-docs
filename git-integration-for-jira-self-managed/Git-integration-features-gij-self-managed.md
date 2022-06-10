@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-This setting is part of the [General Settings](/git-integration-for-jira-self-managed/General-Settings) configuration page.
+This setting is part of the [General Settings](/git-integration-for-jira-self-managed/general-settings-gij-self-managed) configuration page.
 
 
 These group of settings affect how new commits are updated, how tags are displayed on Jira issues, and give administrators control if commit information is shown on JQL searches and Git activity stream or not.
@@ -21,11 +21,11 @@ VERSION 3.9+ GitKraken deep linking integration is implemented.
 
 ## GitKraken integration
 
-Enable/disable GitKraken deep linking feature on Jira issue development panel and Git Commit tab. Clicking the deep links opens the respective commit, branches and repositories with GitKraken git client. For more information on this feature, see [Deep linking to the GitKraken client](/wiki/spaces/GIJDC/pages/1955430423/Deep+Linking+to+the+GitKraken+Git+client).
+Enable/disable GitKraken deep linking feature on Jira issue development panel and Git Commit tab. Clicking the deep links opens the respective commit, branches and repositories with GitKraken git client. For more information on this feature, see [Deep linking to the GitKraken client](/git-integration-for-jira-self-managed/deep-linking-to-the-gitkraken-git-client-gij-self-managed).
 
 ## Jira issue updates
 
-Enable/disable the setting to allow new commits to change the _Last Updated_ field.  Default is _**enabled**_.  For more information about this setting, see section [Reindexing – Reindex and updatedDate Filter](/git-integration-for-jira-self-managed/Reindexing).
+Enable/disable the setting to allow new commits to change the _Last Updated_ field.  Default is _**enabled**_.  For more information about this setting, see section [Reindexing – Reindex and updatedDate Filter](/git-integration-for-jira-self-managed/reindexing-gij-self-managed).
 
 Disabling this setting will improve Jira performance.
 
@@ -35,14 +35,14 @@ Disabling this setting will improve Jira performance.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1207795905/jira-issue-dev-panel.png?version=2&modificationDate=1632661767019&cacheVersion=1&api=v2)
 
-For more information, see [Jira git integration development panel](/wiki/spaces/GIJDC/pages/1930399012/Jira+Git+integration+development+panel).
+For more information, see [Jira git integration development panel](/git-integration-for-jira-self-managed/jira-git-integration-development-panel-gij-self-managed).
 
 Disabling this setting will improve Jira performance.
 
 
 **Calculate and show Git tags in the Git integration panel**  –  Enable/disable the setting to have Git Integration for Jira app calculate and show the Git tags in the Git Integration panel.
 
-For more information, see [Git Tags](/git-integration-for-jira-self-managed/Git-tags).
+For more information, see [Git Tags](/git-integration-for-jira-self-managed/git-tags-gij-self-managed).
 
 Disabling this setting will improve Jira performance.
 
@@ -54,7 +54,7 @@ Enables/disables the ability to use the JQL functions within the Git Integration
 
 The default state for new Git for Jira app installation is **Enabled**. This setting will be automatically enabled when doing an upgrade from previous versions of the Git Integration for Jira app.
 
-For more information, see [JQL searching](/git-integration-for-jira-self-managed/JQL-searching).
+For more information, see [JQL searching](/git-integration-for-jira-self-managed/jql-searching-gij-self-managed).
 
 Disabling this setting will improve Jira performance.
 
@@ -64,7 +64,7 @@ Enable/disable the setting whether to show git commits in the Jira activity stre
 
 For in-place upgrade of the Git Integration for Jira app, this setting is turned _off_ by default.  For new installation, the default state is enabled.
 
-Only the commits that are [linked to Jira issues](/wiki/spaces/GIJDC/pages/1930398265/Linking+git+commits+to+Jira+issues) will show on the Jira Activity Stream (not all commits in repositories).
+Only the commits that are [linked to Jira issues](/git-integration-for-jira-self-managed/linking-git-commits-to-jira-issues-gij-self-managed) will show on the Jira Activity Stream (not all commits in repositories).
 
 Disabling this setting will improve Jira performance.
 

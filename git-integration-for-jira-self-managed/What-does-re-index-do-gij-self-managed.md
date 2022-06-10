@@ -11,5 +11,3 @@ Re-index does 2 operations:
 *   Updates local repo from remote
 
 *   Updates local indexes which contain info about every commit
-
-

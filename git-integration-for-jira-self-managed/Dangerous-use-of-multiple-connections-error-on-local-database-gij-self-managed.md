@@ -4,7 +4,6 @@ title: Dangerous use of multiple connections error on local database
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed
-
 ---
 ## Problem
 
@@ -28,3 +27,4 @@ More details may be found in the following articles:
 *   [**Tuning Database Connections**](https://confluence.atlassian.com/adminjiraserver/tuning-database-connections-938846864.html)
 
 *   [**Monitoring Database Connection Usage**](https://confluence.atlassian.com/adminjiraserver/monitoring-database-connection-usage-938847726.html)
+

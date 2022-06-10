@@ -14,4 +14,3 @@ http://<server url>/secure/StartReindexGitRepositories.jspa?reindex=true
 ```
 
 The reindex process won't start if reindex is already running.
-
