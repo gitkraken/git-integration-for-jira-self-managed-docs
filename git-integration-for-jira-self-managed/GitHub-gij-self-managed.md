@@ -1,6 +1,6 @@
 ---
 
-title: Integration Guide - GitHub.com
+title: GitHub.com
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed
@@ -8,12 +8,13 @@ taxonomy:
 ---
 
 ![](/wp-content/uploads/gij-github-mobile-logo-dark.png)
+
 <br>
-<br>
+
 ## Integrate GitHub.com with Jira Data Center/Server
 
 Quickly learn how to connect GitHub.com git repositories via Git Integration for Jira Data Center app.
-<br>
+
 <br>
 
 <div class="bbb-callout bbb--tip">
@@ -60,13 +61,40 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
 </div>
 <br>
 
+**What's on this page:**
+- [Integrate GitHub.com with Jira Data Center/Server](#integrate-githubcom-with-jira-data-centerserver)
+- [Creating a personal access token](#creating-a-personal-access-token)
+- [Using Full feature integration](#using-full-feature-integration)
+- [Single repository (Manual integration)](#single-repository-manual-integration)
+- [Setting up GitHub permissions](#setting-up-github-permissions)
+  - [Default repository permission](#default-repository-permission)
+  - [Teams and collaborators](#teams-and-collaborators)
+- [Setting up GitHub web links](#setting-up-github-web-links)
+- [Viewing git commits in Jira Data Center](#viewing-git-commits-in-jira-data-center)
+- [Require User PAT settings for user access](#require-user-pat-settings-for-user-access)
+- [Working with branches and pull requests](#working-with-branches-and-pull-requests)
+  - [Default branch](#default-branch)
+  - [Creating branches](#creating-branches)
+  - [Creating pull requests](#creating-pull-requests)
+
+* * *
+
 ## Creating a personal access token
 
-If two-factor authentication is enabled for your GitHub account, you will need to create a PAT to access your git repositories. Enable two-factor authentication in your GitHub.com account for increased security.
+<div class="bbb-callout bbb--alert">
+  <div class="irow">
+    <div class="ilogobox">
+      <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+      If two-factor authentication is enabled for your GitHub account, you will need to create a PAT to access your git repositories. Enable two-factor authentication in your GitHub.com account for increased security.
+    </div>
+  </div>
+</div>
 
-While instructions from GitHub works just fine, [follow this article](/wiki/spaces/GIJDC/pages/107380737/Creating+Personal+Access+Tokens) for some specific instructions to get you started.
+While instructions from GitHub works just fine, [follow this article](/git-integration-for-jira-self-managed/creating-personal-access-tokens-gij-self-managed#github--github-enterprise/) for some specific instructions to get you started.
 
-## Using the Full feature integration
+## Using Full feature integration
 
 This process requires an existing GitHub git repository.
 
@@ -85,9 +113,8 @@ This setup uses full feature integration offering functions and features not fou
     </div>
   </div>
 </div>
+<br>
 
-* * *
-\
 We strongly recommend to use personal access tokens for GitHub.com account integration.
 
 1.  On your Jira dashboard menu, go to Git ➜ **Manage repositories**.
@@ -97,33 +124,36 @@ We strongly recommend to use personal access tokens for GitHub.com account integ
     ![](/wp-content/uploads/gij-gitserver-connect-auto-ext-service-github-com-c.png)
 3.  **GitHub.com and GitHub Enterprise Cloud** is selected by default. Paste the personal access token in the provided box.
 
-    *  Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed.
+    -  Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed.
 
         ![](/wp-content/uploads/gij-gitserver-general-advanced-autoconnect-opt-c.png)
-        +  **Custom API Path**  –  this is a relative path that starts with "/". The maximum allowed length is 2000 characters or less. The integration will use the supported relative REST API path to retrieve the list of tracked repositories.
-            For more examples, see article [Working with Custom API Path - GitHub.com](#).
 
-        +  **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated.   The maximum allowed length is 2000 characters or less.
+        -  **Custom API Path**  –  this is a relative path that starts with "/". The maximum allowed length is 2000 characters or less. The integration will use the supported relative REST API path to retrieve the list of tracked repositories.
+            For more examples, see article [Working with Custom API Path - GitHub.com](/git-integration-for-jira-self-managed/working-with-custom-api-path#githubcom-and-github-enterprise-examples).
+
+        -  **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated.   The maximum allowed length is 2000 characters or less.
+
             For help with writing expressions, please contact [support](mailto:support@bigbrassband.com). Read about JMESPath expressions on their **website**.
-            For some other examples, see [Working with JMESPath Filter in GitHub.com](#).
+            For some other examples, see [Working with JMESPath Filter in GitHub.com](/git-integration-for-jira-self-managed/GitHub-GitHub-Enterprise-JMESPath-filter-examples-gij-self-managed/).
 
-        +  **Fetch refspec**  –  Git refspecs contains patterns mapped as references from the remote to the local repository.
+        -  **Fetch refspec**  –  Git refspecs contains patterns mapped as references from the remote to the local repository.
             For more information, see [**Git Internals -- The Refspec**](https://git-scm.com/book/en/v2/Git-Internals-The-Refspec).
 
             -  The first two refspec options are required.
+
             -  The rest of the options are OPTIONAL:
 
-                *  **Clone and index ref notes (refs/notes)** – This is a reference to `refs/notes/*` used for fetching.  This option is enabled by default.  This affects git notes which are not shown:
+                -  **Clone and index ref notes (refs/notes)** – This is a reference to `refs/notes/*` used for fetching.  This option is enabled by default.  This affects git notes which are not shown:
 
-                    a.  ...when `refs/notes` are disabled on connecting a repository.
+                    - ...when `refs/notes` are disabled on connecting a repository.
 
-                    b.  ...when a new note comes when `refs/notes` is disabled.
+                    - ...when a new note comes when `refs/notes` is disabled.
 
-                *  **Clone and index changes (refs/changes)** – This is a reference to `refs/changes/*` used for fetching.  This option is turned off by default.
+                -  **Clone and index changes (refs/changes)** – This is a reference to `refs/changes/*` used for fetching.  This option is turned off by default.
 
-                * **Clone and index other refs** – This is a user-defined list of references used for fetching.  It is a comma-separated list with the format:
+                -  **Clone and index other refs** – This is a user-defined list of references used for fetching.  It is a comma-separated list with the format:
 
-                    a.  `+refs/refname1/*:refs/refname1/*, refs/refname2/*:refs/refname2/*, ...`
+                    - `+refs/refname1/*:refs/refname1/*, refs/refname2/*:refs/refname2/*, ...`
 
     While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
 
@@ -136,12 +166,14 @@ We strongly recommend to use personal access tokens for GitHub.com account integ
 6.  After the import process, the **Settings** screen is displayed.
 
     ![](/wp-content/uploads/gij-gitserver-github-autoconnect-settings-dlg-c.png)
-    *   On the Integration Settings, setting the _**Require User PAT**_ option to `ON`, will require users to provide PAT specific for branch and merge requests _(via the_ [developer panel](#) _on the Jira issue page)_. 
-        For more information on this feature, see [Integration Settings: Require User PAT](#).
 
-    *   Set [Smart Commits](#) and [Repository Browser](#) to enable/disable these features.
+    *   On the Integration Settings, setting the _**Require User PAT**_ option to `ON`, will require users to provide PAT specific for branch and merge requests _(via the_ [developer panel](/git-integration-for-jira-self-managed/jira-git-integration-development-panel-gij-self-managed/) _on the Jira issue page)_.
 
-    *   Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Associating project permissions](#).
+        For more information on this feature, see [Integration Settings: Require User PAT](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/).
+
+    *   Set **Smart Commits** and **Repository Browser** to enable/disable these features.
+
+    *   Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Associating project permissions](/git-integration-for-jira-self-managed/associating-project-permissions/).
 
 7.  Click **Finish** to complete this setup.
 
@@ -152,15 +184,15 @@ There will be a slight delay in adding 2FA-enabled repositories compared to othe
 ## Single repository (Manual integration)
 
 <div class="bbb-callout bbb--alert">
-      <div class="irow">
-        <div class="ilogobox">
-          <span class="logoimg"></span>
-        </div>
-        <div class="imsgbox">
-          This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.
-        </div>
+    <div class="irow">
+      <div class="ilogobox">
+        <span class="logoimg"></span>
+      </div>
+      <div class="imsgbox">
+        This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.
       </div>
     </div>
+  </div>
 
 This process requires an existing GitHub git repository. Look for the GitHub repository URL on the repository project page.
 
@@ -211,6 +243,8 @@ For more information, see [**Access Permissions on GitHub »**](https://help.gi
 
 To give a member additional access, they must be added to a team or make them collaborators on individual repos.
 
+<br>
+
 **Set default repository permission for the current team:**
 
 1.  Open an organization team. (_Your org ➜ Teams ➜ scroll down to the bottom then click the desired team._)
@@ -220,8 +254,8 @@ To give a member additional access, they must be added to a team or make them co
     ![](/wp-content/uploads/gij-github-org-repo-team-repo-permissions-dark-c.png)
 
 3.  Set **Read**, **Write** or **Admin** repository access as desired.
-&nbsp;
-&nbsp;
+
+<br>
 
 **Assign members to a team on your GitHub repository:**
 
@@ -294,7 +328,7 @@ The Git Integration for Jira app automatically configures web linking for GitHub
 
 For single repository connections, web link setup is optional. However, git links will become available in Git Commits tab when configured.
 
-For more information on this feature, see [Documentation: Web linking](#).
+For more information on this feature, see [Documentation: Web linking](/git-integration-for-jira-self-managed/web-linking-gij-self-managed/).
 
 ## Viewing git commits in Jira Data Center
 
@@ -307,13 +341,13 @@ For more information on this feature, see [Documentation: Web linking](#).
 4.  Click **View Full Commit** to view the code diff.
 
 
-For more information about this feature, see [Documentation: Viewing commit code diffs](#).
+For more information about this feature, see [Documentation: Viewing commit code diffs](/git-integration-for-jira-self-managed/viewing-commit-code-diffs-gij-self-managed/).
 
 ## Require User PAT settings for user access
 
 For teams looking to maintain user attribution, Jira administrators can place a requirement where individual Jira users must provide personal access tokens to perform certain actions. This includes actions such as creating a branch or pull request in Jira using their git service account - rather than the integration account.
 
-For more information, see [Require personal access tokens for user access](#).
+For more information, see [Require personal access tokens for user access](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/).
 
 If the **Require User PAT option** is enabled in the **Integration Feature Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, a text label about setting up your PAT is displayed on the create branch and create pull/merge request dialogs.
 

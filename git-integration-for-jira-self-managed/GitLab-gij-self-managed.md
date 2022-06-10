@@ -17,12 +17,11 @@ taxonomy:
     </div>
     </div>
 </div>
+<br>
+
+![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/55312520/image-20211209-025736.png?version=1&modificationDate=1639046410788&cacheVersion=1&api=v2&width=217&height=82)
 
 # Integrate GitLab.com with Jira Server/Data Center
-
-<img src='https://bigbrassband.com/confluence/images/gitlab_wm_no_bg.png' width=240 height=91 />
-
-<br>
 
 GitLab introduced personal access tokens (PAT) since version 8.8 and now (v10+) prefers this type of authentication for accessing the git repositories. Service users are strongly advised to switch from using username/password to using Personal Access Tokens (PAT) for GitLab.com.
 
@@ -32,7 +31,7 @@ GitLab introduced personal access tokens (PAT) since version 8.8 and now (v10+) 
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        We are dropping support for Gitlab API v3. Please use <b>GitLab API v4</b> when adding new integrations for increased security.
+        Support for Gitlab API v3 is deprecated. We recommend to use <b>GitLab API v4</b> when adding new integrations for increased security.
     </div>
     </div>
 </div>
@@ -41,7 +40,16 @@ GitLab introduced personal access tokens (PAT) since version 8.8 and now (v10+) 
 Quickly learn how to connect GitLab.com git repositories via Git Integration for Jira app.
 
 **What's on this page:**
-
+  - [Permissions](#permissions)
+  - [Creating a personal access token](#creating-a-personal-access-token)
+  - [Full feature integration](#full-feature-integration)
+  - [Single repository (Manual integration)](#single-repository-manual-integration)
+  - [Setting up GitLab web links](#setting-up-gitlab-web-links)
+  - [Viewing git commits in Jira Server](#viewing-git-commits-in-jira-server)
+  - [Working with branches and merge requests](#working-with-branches-and-merge-requests)
+    - [Default branch](#default-branch)
+    - [Creating branches](#creating-branches)
+    - [Merge request](#merge-request)
   
 * * *
 
@@ -56,22 +64,25 @@ Quickly learn how to connect GitLab.com git repositories via Git Integration for
 
 ## Permissions
 
-GitLab can have users with different access level to a group or project. If the user's connected GitLab repositories to Jira are not accessible or commits are not showing for that user -- it's related to permission issues. This can be a per user, repository or a project level restriction.
+GitLab can have users with different access level to a group or project. If the user's connected GitLab repositories to Jira are not accessible or commits are not showing for that user -- it's related to permission issues. This can be a per user, repository or a project level restriction.
 
 If you encounter access permission issues, you will need to ask your Git administrator to grant you the required level of access to specific projects. If you are a Git administrator, you will need to setup a GitLab user with the minimum required permissions to view GitLab projects from Jira.
 
 Take the following cases for example:
 
-*   The personal access token (PAT) that the GitLab user provided doesn't have the correct permisions within GitLab to view source code for specific repositories.
+*   The personal access token (PAT) that the GitLab user provided doesn't have the correct permissions within GitLab to view source code for specific repositories.
+
 *   The GitLab user doesn't have access privileges to a GitLab repository or is not a member of a group that has access to specific repositories.
+
 
 We recommend creating a specific GitLab user for the integration. This way, the GitLab user can have specific permissions to do the given tasks.
 
-![](https://bigbrassband.com/images/bbb/gitlab-member-role-screen.png)
+![](https://bigbrassband.atlassian.net/wiki/download/attachments/55312520/gitlab-member-role-screen.png?version=1&modificationDate=1639046410795&cacheVersion=1&api=v2)
 
 **For minimum access (read-only) permissions:**
 
-1.  Set the user account profile's PAT scope to **read repository**.
+1.  Set the user account profile's PAT scope to **read\_repository**.
+
 2.  The GitLab user is set to only **read** a specific repository. Set to **Reporter** role.
 
 This level of access allows the user to view commits for the specific repository.
@@ -81,77 +92,112 @@ This level of access allows the user to view commits for the specific repository
 **For users who will be tasked with creating branches and merge requests:**
 
 1.  Set the user account profile's PAT scope to **api**.
-2.  The GitLab user should be set to **read/write** access for the specific repository. Set to **Developer** role.
+
+2.  The GitLab user should be set to **read/write** access for the specific repository. Set to **Developer** role.
+
 
 This level of access allows the user to create/delete branches and create merge requests.
 
-For more information, see [**GitLab Permissions »**](https://docs.gitlab.com/ee/user/permissions.html "GitLab User Documentation - Permissions").
+For more information, see [**GitLab Permissions »**](https://docs.gitlab.com/ee/user/permissions.html).
 
-## **Creating a Personal Access Token**
+## Creating a personal access token
 
-If two-factor authentication is enabled for your GitLab account, you will need to create a PAT to access your git repositories. Enable two-factor authentication in your GitLab.com account for increased security.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        If two-factor authentication is enabled for your GitLab account, you will need to create a PAT to access your git repositories. Enable two-factor authentication in your GitLab.com account for increased security.
+    </div>
+    </div>
+</div>
 
-While instructions from GitLab works just fine, [follow this article](/git-integration-for-jira-self-managed/creating-personal-access-tokens#gitlab--gitlab-ceee) for some specific instructions to get you started.
+While instructions from GitLab works just fine, [follow this article](/git-integration-for-jira-self-managed/creating-personal-access-tokens-gij-self-managed#gitlab--gitlab-ceee/) for some specific instructions to get you started.
 
-## Using Auto-Connect
+## Using Full feature integration
 
-This process requires an existing GitLab.com account. Multiple git repositories in a GitLab.com account will be connected via Git Integration for Jira app.
+This process requires an existing GitLab.com account.
 
-While instructions from GitLab works just fine, here are some specific instructions to get you up and running.
+We recommend using the Add new integration panel to connect multiple repositories from your GitLab.com account. This setup uses full feature integration offering functions and features not found on single repository connections.
 
-We recommend using the Auto-connect integration panel to connect multiple repositories from your GitLab.com account.
+1.  On the Jira Server dashboard menu, go to Git ➜ **Manage repositories**.
 
-1.  Go to **Manage Git Repositories** (_Dashboard_ ➜ **Git** menu) in Jira Server/Data Center.
+2.  The git configuration page for connecting repositories is displayed.
 
-2.  Click **GitLab** in the Auto-connect integration panel.
+3.  On the Add new integration panel, click **GitLab**^1^. The following screen is displayed.
 
-3.  GitLab.com is selected by default. Paste the personal access token in the provided field.
+    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/55312520/gitserver-gitlab-autoconnect-dlg(c).png?version=1&modificationDate=1639046410798&cacheVersion=1&api=v2&width=646&height=449)
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/55312520/gitserver-gitlab-autoconnect-dlg(c).png?api=v2)
+    -  **GitLab.com** is selected by default. Paste the personal access token in the provided box.
 
-    Configuring the **Advanced** settings is optional. However, admins/power users may set  how the project listing is displayed.
+        Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/55312520/gitserver-general-advanced-autoconnect-opt(c).png?api=v2)
-    
-    *   **Custom API Path**  –  this is a relative path that starts with "/". The maximum allowed length is 2000 characters or less. The integration will use the relative REST API path to retrieve the list of tracked repositories. For more information on GitLab custom API paths, see [**GitLab API**](https://docs.gitlab.com/ee/api/projects.html). To learn more examples, see article [Jira Server/Data Center: Working with Custom API Path](/git-integration-for-jira-self-managed/working-with-custom-api-path/).
+        ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/55312520/gitserver-general-advanced-autoconnect-opt(c).png?version=1&modificationDate=1639046410802&cacheVersion=1&api=v2&width=578&height=393)
 
-    ```bash
-    GitLab version API support:
-    ---------------------------
-    Gitlab v9.5 and above -- only API v4
-    Gitlab v9.0 to v9.4.x -- API v4 (support for API v3 is deprecated)
-    ```
-    ![](https://bigbrassband.atlassian.net/wiki/s/1809036785/6452/b2c29440e6bad88b92f3d3fb442795ae33975e0e/_/images/icons/emoticons/information.png) **Remember!** The GitLab.com API can see all the public projects. For GitLab.com, we recommend using JMESPath over the Custom API path when possible.
-        *   
-    *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less. Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [support](mailto:support@bigbrassband.com?subject=Help%20with%20writing%20JMESPath%20filter%20expressions). To learn more examples, see article [Jira Server/Data Center: Working with JMESPath Filters](/git-integration-for-jira-self-managed/working-with-jmespath-filters/).
+        *   **Custom API Path**  –  his is a relative path that starts with "/". The maximum allowed length is 2000 characters or less. The integration will use the relative REST API path to retrieve the list of tracked repositories.
 
-    While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
+            For more information on GitLab custom API paths, see **GitLab API**.
+            For more GitLab.com examples, see article [Working with Custom API Path](/git-integration-for-jira-self-managed/working-with-custom-api-path-gij-self-managed#gitlab--gitlab-ceee/).
 
-4. Click **Connect**.
+            ```bash
+            GitLab version API support:
+            ---------------------------
+            Gitlab v9.5 and above -- only API v4
+            Gitlab v9.0 to v9.4.x -- API v4 (support for API v3 is deprecated)
+            ```
 
-5. On the following screen, the Git Integration for Jira app will read all available repositories from your GitLab account. Click **Import repositories**.
+            ![(info)](https://bigbrassband.atlassian.net/wiki/s/2043447315/6452/6902e58dfdbd2c9056700261340226dd54e62f5f/_/images/icons/emoticons/information.png) **Remember:** The GitLab.com API can see all the public projects. For GitLab.com, we recommend using JMESPath over the Custom API path when possible.
 
-    Repositories of the logged-in GitLab user can be automatically connected to Jira Server/Data Center.  Repositories that are added or removed from GitLab will be likewise connected or disconnected from Jira Server/Data Center.
+        *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less. Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [support](mailto:support@bigbrassband.com).
+            To learn more examples, see article [Working with JMESPath Filters](/git-integration-for-jira-self-managed/gitLab-gitLab-ce-ee-jmespath-filter-examples-gij-self-managed/).
 
-    On the first connection of this integration, the first 30 repositories are displayed in the list for import. The entire repository list can be viewed via Manage repositories ➜ **Actions** ➜ **Show integration repositories**.
+        *   **Fetch refspec**  –  Git refspecs contains patterns mapped as references from the remote to the local repository.
+            For more information, see **Git Internals -- The Refspec**.
 
-6. After the import process, enable/disable **_integration settings_** and set **Project Permissions** according to your organization's rules:
+            -  The first two refspec options are required.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/55312520/gitserver-auto-connect-wiz-settings-screen(c).png?api=v2)
+            -  The rest of the options are OPTIONAL:
 
-   *   On the Integration Settings, setting the **_Require User PAT_** option to `ON`, will require users to provide PAT specific for branch and merge requests _(via the [developer panel](/git-integration-for-jira-self-managed/jira-git-integration-development-panel/ "Git add-on documentation - Jira developer panel") on the Jira issue page)_. For more information on this feature, see [Integration Settings: Require User PAT](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request/).
-   
-   *   Set **Smart Commits** and **Repository Browser** to enable/disable these features.
-  
-   *   Set **Project Permissions** according to your organization's project association rules.
+                -  **Clone and index ref notes (refs/notes)** – This is a reference to `refs/notes/*` used for fetching. This option is enabled by default. This affects git notes which are not shown:
 
-7. Click **Finish**.
+                    -  ...when `refs/notes` are disabled on connecting a repository.
 
-The GitLab.com git repositories are now connected to Jira Server/Data Center.
+                    -  ...when a new note comes when `refs/notes` is disabled.
+
+                -  **Clone and index changes (refs/changes)** – This is a reference to `refs/changes/*` used for fetching. This option is turned off by default.
+
+                -  **Clone and index other refs** – This is a user-defined list of references used for fetching. It is a comma-separated list with the format:
+
+                    -   `+refs/refname1/*:refs/refname1/*`, `refs/refname2/*:refs/refname2/*`, ...
+
+    <br>While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
+
+4.  Click **Connect**. On the following screen, the Git Integration for Jira app will read all available repositories from your GitLab account. 
+
+5.  Click **Import repositories**.
+    Repositories of the logged-in GitLab user can be automatically connected to Jira Server. Repositories that are added or removed from GitLab will be likewise connected or disconnected from Jira Server.
+
+    On the first connection of this integration, the first 30 repositories are displayed in the list for import. The entire repository list can be viewed via Manage repositories page ➜ ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Show integration repositories**.
+
+6.  After the import process, the following dialog is displayed.
+
+    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/55312520/gitserver-auto-connect-wiz-settings-screen(c).png?version=1&modificationDate=1639046410805&cacheVersion=1&api=v2&width=646&height=428)
+
+    *   On the Integration Settings, setting the _**Require User PAT**_ option to `ON`, will require users to provide PAT specific for branch and merge requests _(via the developer panel on the Jira issue page)_. For more information on this feature, see [Integration Settings: Require User PAT](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/).
+
+    *   Set **Smart Commits** and **Repository Browser** to enable/disable these features.
+
+    *   Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Associating project permissions](/git-integration-for-jira-self-managed/associating-project-permissions-gij-self-managed/).
+
+7.  Click **Finish** to complete this setup.
+
+
+The GitLab.com git repositories are now connected to Jira Server.
 
 There will be a slight delay in adding 2FA-enabled repositories compared to others. These will show in the git configuration list eventually.
 
-## **Single Repository (Manual integration)**
+## Single repository (Manual integration)
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -164,33 +210,57 @@ There will be a slight delay in adding 2FA-enabled repositories compared to othe
     </div>
 </div>
 
-This process requires an existing GitLab git repository. Look for the the GitLab repository URL on the repository project page. Choose between SSH or HTTPS.
+This process requires an existing GitLab git repository. Look for the GitLab repository URL on the repository project page.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/55312520/image-20211209-101005.png?api=v2)
+Choose between SSH or HTTPS. Use this information to connect the GitLab git repository to your Jira server via Git Integration for Jira app:
 
-Use this information to connect the GitLab git repository to your Jira Server/Data Center via Git Integration for Jira app:
+![](https://bigbrassband.atlassian.net/wiki/download/attachments/55312520/image-20211209-101005.png?version=1&modificationDate=1639046410809&cacheVersion=1&api=v2)
 
-1.  On your Jira dashboard menu, go to **Git** ➜ **Manage repositories**.
-2.  Click **Connect to Git Repository** to open the Connect Wizard.
+Use this information to connect the GitLab git repository to your Jira server via Git Integration for Jira app:
+
+1.  On your Jira dashboard menu, go to Git ➜ **Manage repositories**.
+
+2.  Click **Connect to Git Repository** (_or the Git icon on the Add new integration panel_) to open the Connect Wizard.
+
 3.  Paste the URL from GitLab in the provided box.
+
 4.  Continue to the next step by following the screen instructions.
-5.  Click **Finish** to complete this process. 
 
-The repository is now connected to Jira Server/Data Center. There will be a slight delay in adding 2FA-enabled repositories compared to others. These will show in the git configuration list eventually.
+5.  Click **Finish** to complete this process. 
 
-## **Setting Up GitLab Web Links**
 
-The Git Integration for Jira app automatically configures web linking for GitLab git repositories.
+The repository is now connected to Jira Server. There will be a slight delay in adding 2FA-enabled repositories compared to others. These will show in the git configuration list eventually.
 
-## **Working with Branches and Merge Requests with GitLab**
+## Setting up GitLab web links
 
-This process requires a GitLab git repository and a PAT with **`api`** scope.
+The Git Integration for Jira app automatically configures web linking for GitLab CE/EE git repositories.
 
-For GitLab Group, the user must have the **Write** permissions and the **`api`** PAT scope.
+For single repository connections, web link setup is optional. However, git links will become available in Git Commits tab when configured.
 
-### **Default Branch**
+For more information on this feature, see [Documentation: Web linking](/git-integration-for-jira-self-managed/web-linking-gij-self-managed).
 
-Most git integrations allow changing of the default branch of the repository/project other than "master".  This change is reflected in the  Repository Settings of the Git Integration for Jira app on the next reindex.  Auto-connected integrations support this feature where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
+## Viewing git commits in Jira Server
+
+1.  Perform a git commit by adding the Jira issue key in the commit message. This will associate the commit to the mentioned Jira issue.
+
+2.  Open the Jira issue.
+
+3.  Scroll down to the _**Activity**_ panel then click the **Git Commits** tab.
+
+4.  Click **View Full Commit** to view the code diff.
+
+
+For more information about this feature, see [Documentation: Viewing commit code diffs](/git-integration-for-jira-self-managed/viewing-commit-code-diffs-gij-self-managed).
+
+## Working with branches and merge requests
+
+This process requires a GitLab git repository and a PAT with `api` scope.
+
+For GitLab Group, the user must have the **Write** permissions and the `api` PAT scope.
+
+### Default branch
+
+Most git integrations allow changing of the default branch of the repository/project other than "master". This change is reflected in the Repository Settings of the Git Integration for Jira app on the next reindex. Full feature integrations support this function where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -202,85 +272,82 @@ Most git integrations allow changing of the default branch of the repository/pro
     </div>
     </div>
 </div>
+<br>
 
-### **Creating Branches**
+### Creating branches
 
-1. On your Jira Server/Data Center, open a Jira issue. On the Jira developer panel under **Git integration**, click **Create Branch**.
+On your Jira Server, open a Jira issue.
 
-2. The following dialog is displayed:
+1.  On the [Jira developer panel](/git-integration-for-jira-self-managed/jira-git-integration-development-panel-gij-self-managed/) under **Git integration**, click **Create branch**. The following dialog is displayed.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/55312520/gitserver-create-branches-dlg(c).png?api=v2)
+    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/55312520/gitserver-create-branches-dlg(c).png?version=1&modificationDate=1639046410813&cacheVersion=1&api=v2&width=578&height=318)
 
-*   Select a **Repository** from the list.
+    -  Select a **Repository** from the list.
+        If there are several repositories with the same name, the listed GitLab CE/EE repositories will have their names attached with a GitLab owner name. For example, `johnsmith/second-webhook-test-repo`.
 
-If there are several repositories with the same name, the listed GitLab repositories will have their names attached with a GitLab owner name. For example, **`johnsmith/second-webhook-test-repo`**.
+    -  Choose a **Base branch**.
 
-*   Choose a **Base branch**.
-*   Enter a **Branch name** or leave it as is (recommended).
+    -  Enter a **Branch name** or leave it as is (recommended).
 
-If the [**Require User PAT option**](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request/) is enabled in the Integration Settings and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead:
+    -  If the [Require User PAT option](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/) is enabled in the Integration Settings and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead:
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/55312520/gitserver-create-branches-dlg-req-userPAT(c).png?api=v2)
+        ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/55312520/gitserver-create-branches-dlg-req-userPAT(c).png?version=1&modificationDate=1639046410816&cacheVersion=1&api=v2&width=578&height=318)
 
-*   Click the link label to setup the PAT.  This will show the Repository Browser listing connected git repositories.
+    -  Click the link label to setup the PAT. The following dialog appears.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/55312520/gitserver-setup-pat-dlg(c).png?api=v2)
+        ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/55312520/gitserver-setup-pat-dlg(c).png?version=1&modificationDate=1639046410820&cacheVersion=1&api=v2&width=578&height=318)
 
-*   Click 
-     to setup a PAT for the selected repository. Paste a valid PAT of the current user to proceed. Invalid PATs will fail the branch creation process.
+        *   Enter your personal access token from your GitLab profile settings.
 
-*   Click the 
-    icon to use this PAT and save it to the current user profile. Otherwise, click the 
-    icon on the right to cancel setting up PAT for this repository.
+        *   When you click **Update** to save the settings:
 
-*   After the above steps have been taken, the users will be able to proceed with branch creation.
+            *   If this field is blank and no PAT is provided, nothing is changed and saved.
 
-3\. Click Create Branch.  The newly-created branch is now listed in the developer panel under **Branches**.
+            *   If PAT has been previously configured and this field is blank, the PAT will be discarded.
+
+            *   If a PAT has changed since last configuration and is provided, the new PAT is used.
+
+        *   PAT settings can be accessed via Repository browser ➜ **Pers. access** column.
+
+            ![](https://bigbrassband.atlassian.net/wiki/download/attachments/55312520/gitserver-repo-browser-pat-sel(c).png?version=1&modificationDate=1639046410824&cacheVersion=1&api=v2)
+        *   Click the **Edit** ![](/wp-content/uploads/gij-edit-icon-dark.png) icon to setup/reconfigure PAT. The checkmark adjacent to the edit icon indicates PAT has been configured.
+
+2.  Click **Create branch**. The newly-created branch is now listed in the developer panel under **Branches**.
+
 
 Perform a commit to the newly-created branch to be ready for merge.
 
-### **Creating Merge Request**
+### Merge request
 
 The merge request feature works the same as pull request.
 
 To create a merge request and merge it to the main source (master):
 
-1. On your Jira Server/Data Center, open the Jira issue where your previously created a branch.
+1.  On your Jira Server, open the Jira issue where your previously created a branch.
 
-2\. On the developer panel under **Git Source Code**, click **Create Merge Request**.
+2.  On the developer panel under **Git integration**, click **Create merge request**. The following dialog is displayed.
 
-3\. The following dialog is displayed:
+    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/55312520/gitserver-create-merge-request-dlg(c).png?version=1&modificationDate=1639046410827&cacheVersion=1&api=v2&width=544&height=332)
 
-![](https://bigbrassband.com/images/bbb/jira-server-issue-merge-request-dialog.png)
+    *   Select a **Repository** from the list.
+        If there are several repositories with the same name, the listed GitLab CE/EE repositories will have their names attached with a GitLab owner name. For example, `johnsmith/second-webhook-test-repo`.
 
-*   Select a **Repository** from the list.
+    *   Choose the newly-created branch as the **Source branch**.
 
-If there are several repositories with the same name, the listed GitLab repositories will have their names attached with a GitLab owner name. For example, **`johnsmith/second-webhook-test-repo`**.
+    *   Set _**master**_ as the **Target branch**.
 
-*   Choose the newly-created branch as the **Source branch**.
-*   Set **_master_** as the **Target branch**.
-*   Enter a descriptive title or leave it as is _(recommended)_.
+    *   Enter a descriptive title or leave it as is _(recommended)_.
 
-If the **[Require User PAT option »](/wiki/spaces/GIJDC/pages/92078126/Integration+Basics#IntegrationBasics-RequireUserPat)** is enabled in the Integration Settings and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead:
+    *   If the [Require User PAT option](/wiki/spaces/GITSERVER/pages/131170306) is enabled in the Integration Settings and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead.
 
-![](https://bigbrassband.com/images/bbb/jira-server-issue-merge-req-dlg-cfg-pat.png)
+        ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/55312520/gitserver-create-merge-request-dlg-reqPAT(c).png?version=1&modificationDate=1639046410831&cacheVersion=1&api=v2&width=510&height=281)
 
-If an invalid PAT was configured for the selected repository, the merge request creation process will fail.
+        *   If an invalid PAT was configured for the selected repository, the merge request creation process will fail.
 
-4. Click Create to create the merge request.
+3.  Click **Create** to create the merge request.
+
 
 The merge request is listed on the developer panel of the Jira issue page.
 
 The merge request is also ready for approval by the reviewers in your GitLab web portal.
 
-## **Viewing Git Commits in Jira Data Center**
-
-1.  Perform a git commit by adding the Jira issue key in the commit message. This will associate the commit to the mentioned Jira issue.
-2.  Open the Jira issue.
-3.  Scroll down to the **_Activity_** panel then click the **Git Commits** tab.
-4.  Click **View Full Commit** to view the code diff.
-
-
-* * *
-
-^1^ _Logo owned by [GitLab Inc](https://gitlab.com/) used under [license](https://creativecommons.org/licenses/by-nc-sa/4.0/)_.
