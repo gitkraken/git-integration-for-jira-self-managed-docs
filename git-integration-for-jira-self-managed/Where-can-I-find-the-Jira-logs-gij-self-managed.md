@@ -15,4 +15,3 @@ Please follow the directions from Atlassian: [Atlassian Logging and Profiling](
 `atlassian-jira.log` (if Windows)
 
 `catalina.out` (if Linux)
-

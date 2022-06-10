@@ -95,3 +95,4 @@ The JVM running JIRA applications has hit an OutOfMemory Error (OOME). This is t
 Verify if the memory for Jira has changed by going to **System ➜ System info ➜ JAVA VM memory statistics**:
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/824803329/verify-memory-alloc-jira-java-vm.png?version=1&modificationDate=1604907612234&cacheVersion=1&api=v2)
+

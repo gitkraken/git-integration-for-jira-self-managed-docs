@@ -21,4 +21,4 @@ If these repository indexes are 110 Mb then our plugin will require about 0.25 G
 
 When you connect several repositories, the required memory will be the sum of the required memory for each repository. Fortunately, that 4x memory in the peaks is required only for the biggest repository because Git GC is performed on a per-repository basis and only in one repository at a time.
 
-For troubleshooting out of memory errors related to this issue, see [Avoid OutOfMemory exceptions by configuring or memory allocation with Jira to accommodate large repositories](/wiki/spaces/GIJDC/pages/873332786/Avoid+OutOfMemory+exceptions+by+configuring+or+memory+allocation+with+Jira+to+accommodate+large+repositories).
+For troubleshooting out of memory errors related to this issue, see [Avoid OutOfMemory exceptions by configuring or memory allocation with Jira to accommodate large repositories](/git-integration-for-jira-self-managed/avoid-outofmemory-exceptions-by-configuring-or-memory-allocation-with-jira-to-accommodate-large-repositories-gij-self-managed).

@@ -35,9 +35,7 @@ The Jira plugins cache might be corrupted. You may need to clear the plugins cac
 
 3.  Start Jira.
 
-
 For more information - see this Atlassian Community article: [**UPM: Unexpected exception parsing XML document from URL**](https://community.atlassian.com/t5/Jira-Software-questions/UPM-Unexpected-exception-parsing-XML-document-from-URL/qaq-p/855850)
 
 **Contact Us**
 If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com).
-

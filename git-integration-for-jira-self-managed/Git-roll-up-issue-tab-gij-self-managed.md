@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-This setting is part of the [**General Settings**](/git-integration-for-jira-self-managed/General-Settings) configuration page.
+This setting is part of the [**General Settings**](/git-integration-for-jira-self-managed/general-settings-gij-self-managed) configuration page.
 
 
 This setting affects how the information is displayed in the **Git roll up** tab on the Jira issue.

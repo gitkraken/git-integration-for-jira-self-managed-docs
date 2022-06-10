@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-These settings are part of the [**General Settings**](/git-integration-for-jira-self-managed/General-Settings) configuration page.
+These settings are part of the [**General Settings**](/git-integration-for-jira-self-managed/general-settings-gij-self-managed) configuration page.
 
 VERSION 4.0.1+ This setting group is now moved to the **Advanced settings** in General settings.
 

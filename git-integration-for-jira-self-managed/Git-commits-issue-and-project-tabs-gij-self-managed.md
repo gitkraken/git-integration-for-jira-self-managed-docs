@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-This setting is part of the [**General Settings**](/git-integration-for-jira-self-managed/General-Settings) configuration page.
+This setting is part of the [**General Settings**](/git-integration-for-jira-self-managed/general-settings-gij-self-managed) configuration page.
 
 
 This setting affects how the information is displayed in the **Git commits issue** and **Project** tabs on the Jira issue.

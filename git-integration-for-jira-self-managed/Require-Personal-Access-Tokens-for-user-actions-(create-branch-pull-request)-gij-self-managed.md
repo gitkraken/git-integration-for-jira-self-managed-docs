@@ -86,4 +86,3 @@ Jira users must have the **View Development Tools** permission in the context of
 ## Optional PAT setup for Create branches and Create pull request dialogs
 
 Jira users can now provide their own PATS on the **Create branches** and **Create pull/merge request** dialogs even if it is not mandatory from the Jira admin.
-

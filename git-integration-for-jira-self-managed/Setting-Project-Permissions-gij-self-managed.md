@@ -81,4 +81,3 @@ To limit which Jira projects are associated for individual repositories:
 ### **Video Example:** Setting project permissions for a repository 
 
 _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/xvzj32nxou) _to open this video in a new browser tab for more viewing options._
-

@@ -8,7 +8,7 @@ taxonomy:
 ---
 In Jira, use the **Connect to Git Repository** wizard to configure SSH integration with any remote git repositories.
 
-1.  Go to Jira dashboard menu **Git** ➜ **Manage repositories**. _(Alternatively, go to Jira Dashboard menu_ ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Jira Administration ➜ Applications)._ The manage git repositories page is displayed.
+1.  Go to Jira dashboard menu **Git** ➜ **Manage repositories**. _(Alternatively, go to Jira Dashboard menu_ _Jira Administration ➜ Applications)._ The manage git repositories page is displayed.
 
 2.  Click **Connect to Git Repository**. The **Connect to Git Repository** wizard appears.
 

@@ -8,15 +8,15 @@ taxonomy:
 ---
 Git Integration for Jira app currently supports all the cloud hosted versions and the officially supported versions of the self-hosted git services:
 
-*   [GitHub Enterprise](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/716636476)
+*   [GitHub Enterprise](/git-integration-for-jira-self-managed/github-enterprise-eol-gij-self-managed)
 
-*   [GitLab CE/EE](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/716833157)
+*   [GitLab CE/EE](/git-integration-for-jira-self-managed/gitlab-ce-ee-eol-support-policy-gij-self-managed)
 
-*   [Bitbucket Server/Cloud](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/716734845)
+*   [Bitbucket Server/Cloud](/git-integration-for-jira-self-managed/bitbucket-server-cloud-eol-support-policy-gij-self-managed)
 
-*   [Azure DevOps Server / TFS](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/716734852/Azure+DevOps+Server+Lifecycle+Policies)
+*   [Azure DevOps Server / TFS](/git-integration-for-jira-self-managed/azure-devops-server-lifecycle-policies-gij-self-managed)
 
-*   [Gerrit](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/716636493)
+*   [Gerrit](/git-integration-for-jira-self-managed/gerrit-end-of-life-eol-gij-self-managed)
 
 
 Most offered services have their own End-of-Life (EOL) policies that ranges from one year or more. For most cases, it’s generally one year following its release date.

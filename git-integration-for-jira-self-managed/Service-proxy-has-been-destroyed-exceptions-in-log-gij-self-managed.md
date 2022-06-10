@@ -26,7 +26,7 @@ On occasion - the Atlassian Universal Plugin Manager (UPM) will not stop threads
 
 ## Solution
 
-No configuration or source code data is lost when uninstalling, disabling or cleaning up plugin folders. However - if you wish to export your settings prior to these change - use the [Bulk Change export](https://bigbrassband.com/git-integration-for-jira/documentation/bulk-change.html#gitctrlvwr_repoeditor).
+No configuration or source code data is lost when uninstalling, disabling or cleaning up plugin folders. However - if you wish to export your settings prior to these change - use the [Bulk Change export](/git-integration-for-jira-self-managed/bulk-export-gij-self-managed).
 
 **Update the** [**Atlassian Universal Plugin Manager**](https://marketplace.atlassian.com/apps/23915/atlassian-universal-plugin-manager) **("UPM") to the latest version prior to using the following solutions:**
 
@@ -41,4 +41,3 @@ No configuration or source code data is lost when uninstalling, disabling or cle
 
 **Contact Us**
 If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com).
-

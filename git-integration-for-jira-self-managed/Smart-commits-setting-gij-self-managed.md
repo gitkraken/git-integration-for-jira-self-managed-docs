@@ -8,7 +8,7 @@ taxonomy:
 ---
 JIRA SERVER ONLY JIRA DATA CENTER ONLY
 
-This setting is part of the [**General Settings**](/git-integration-for-jira-self-managed/General-Settings) configuration page.
+This setting is part of the [**General Settings**](/git-integration-for-jira-self-managed/general-settings-gij-self-managed) configuration page.
 
 VERSION 4.0.1+ This setting is now moved to the **Advanced settings** in General settings.
 

@@ -60,7 +60,7 @@ Making any change to a git repository's history can result in loss of data. Proc
     *   [GitLab: Reducing the repository size using Git](https://docs.gitlab.com/ee/user/project/repository/reducing_the_repo_size_using_git.html)
     *   [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/)
 *   Move large files to [GitLFS](https://git-lfs.github.com) which is supported by the Git Integration for Jira app.
-*   Filter out the repository from the special integrations (GitHub, GitLab, AWS CodeCommit, Microsoft TFS/Azure DevOps/VSTS, etc) using [Custom API Path](/wiki/spaces/BBBSUPPORT/pages/133267463) or [JMESPath Filters](/wiki/spaces/BBBSUPPORT/pages/133234739/Working+with+JMESPath+Filters).
+*   Filter out the repository from the special integrations (GitHub, GitLab, AWS CodeCommit, Microsoft TFS/Azure DevOps/VSTS, etc) using [Custom API Path](/git-integration-for-jira-self-managed/working-with-custom-api-path-gij-self-managed) or [JMESPath Filters](/git-integration-for-jira-self-managed/working-with-jmespath-filters-gij-self-managed).
 
 
 
