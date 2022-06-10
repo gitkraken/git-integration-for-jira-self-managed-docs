@@ -1,6 +1,6 @@
 ---
 
-title: Integration guide - GitHub Enterprise Server
+title: GitHub Enterprise Server
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed
@@ -41,18 +41,19 @@ taxonomy:
 </div>
 <br>
 
-# Integrate GitHub Enterprise Server with Jira Server
-
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91914350/github-ent-server-banner-logo.png?version=1&modificationDate=1646819881183&cacheVersion=1&api=v2&width=510&height=59)
+
+# Integrate GitHub Enterprise Server with Jira Server
 
 Quickly learn how to connect GitHub Enterprise Server git repositories via Git Integration for Jira Server.
 
 **What's on this page:**
+- [Integrate GitHub Enterprise Server with Jira Server](#integrate-github-enterprise-server-with-jira-server)
   - [Creating a personal access token](#creating-a-personal-access-token)
   - [Using Full feature integration](#using-full-feature-integration)
   - [Single repository (Manual integration)](#single-repository-manual-integration)
   - [Setting up GitHub Enterprise Server permissions](#setting-up-github-enterprise-server-permissions)
-    - [Default repository permission](#default-repository-permission)
+    - [Default repository permission**](#default-repository-permission)
     - [Teams and collaborators](#teams-and-collaborators)
   - [Setting up GitHub web links](#setting-up-github-web-links)
   - [Viewing git commits in Jira Server](#viewing-git-commits-in-jira-server)
@@ -64,6 +65,15 @@ Quickly learn how to connect GitHub Enterprise Server git repositories via Git I
 
 
 * * *
+
+<div class='embed-container embed-container--16-10'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/75nvefgz66?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
+
+<div align='center'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/75nvefgz66'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
+<br>
 
 ## Creating a personal access token
 
@@ -105,7 +115,7 @@ This setup uses full feature integration offering functions and features not fou
 
         -   **Custom API Path**  –  his is a relative path that starts with "/".  The maximum allowed length is 2000 characters or less. The integration will use the relative REST API path to retrieve the list of tracked repositories. The Custom API Path is called everytime the list of repositories is loaded, on a regular scheduled reindex and a manual reindex.
 
-            For more examples, see article [Jira Server: Working with Custom API Path - GitHub Enterprise](/git-integration-for-jira-self-managed/working-with-custom-api-path#githubcom-and-github-enterprise-examples/).
+            For more examples, see article [Jira Server: Working with Custom API Path - GitHub Enterprise](/git-integration-for-jira-self-managed/working-with-custom-api-path-gij-self-managed#githubcom-and-github-enterprise-examples/).
 
         -   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less.
 
