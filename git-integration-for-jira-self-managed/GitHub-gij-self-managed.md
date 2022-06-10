@@ -7,16 +7,6 @@ taxonomy:
 
 ---
 
-![](/wp-content/uploads/gij-github-mobile-logo-dark.png)
-
-<br>
-
-## Integrate GitHub.com with Jira Data Center/Server
-
-Quickly learn how to connect GitHub.com git repositories via Git Integration for Jira Data Center app.
-
-<br>
-
 <div class="bbb-callout bbb--tip">
   <div class="irow">
     <div class="ilogobox">
@@ -34,7 +24,7 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
       <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-      For instructions on self-hosted GitHub Enterprise Server, please see <a href="Github%20Enterprise%20Server">this page</a>.
+      For instructions on self-hosted GitHub Enterprise Server, please see <a href="/git-integration-for-jira-self-managed/github-enterprise-server-gij-self-managed">this page</a>.
     </div>
   </div>
 </div>
@@ -45,21 +35,19 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
       <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-      Using <b>Jira Cloud</b>?  <a href="/git-integration-for-jira-cloud/github.com">See the corresponding article</a>.
+      Using <b>Jira Cloud</b>?  <a href="/git-integration-for-jira-cloud/github-gij-cloud">See the corresponding article</a>.
     </div>
   </div>
 </div>
 <br>
+
+![](/wp-content/uploads/gij-github-mobile-logo-dark.png)
+
 <br>
 
-<div class='embed-container embed-container--16-10'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/s26h3avwuo?seo=false' frameborder='0' allowfullscreen></iframe>
-</div>
+## Integrate GitHub.com with Jira Data Center/Server
 
-<div align="center">
-  <i>Watch the video guide by clicking <a href="https://bigbrassband.wistia.com/medias/s26h3avwuo" target="_blank"><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
-</div>
-<br>
+Quickly learn how to connect GitHub.com git repositories via Git Integration for Jira Data Center app.
 
 **What's on this page:**
 - [Integrate GitHub.com with Jira Data Center/Server](#integrate-githubcom-with-jira-data-centerserver)
@@ -78,6 +66,15 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
   - [Creating pull requests](#creating-pull-requests)
 
 * * *
+
+<div class='embed-container embed-container--16-10'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/s26h3avwuo?seo=false' frameborder='0' allowfullscreen></iframe>
+</div>
+
+<div align="center">
+  <i>Watch the video guide by clicking <a href="https://bigbrassband.wistia.com/medias/s26h3avwuo" target="_blank"><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
+<br>
 
 ## Creating a personal access token
 

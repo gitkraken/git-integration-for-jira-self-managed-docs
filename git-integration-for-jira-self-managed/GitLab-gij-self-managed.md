@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-<div class="bbb-callout bbb--tip">
+<div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
         <span class="logoimg"></span>
@@ -20,6 +20,8 @@ taxonomy:
 <br>
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/55312520/image-20211209-025736.png?version=1&modificationDate=1639046410788&cacheVersion=1&api=v2&width=217&height=82)
+
+<br>
 
 # Integrate GitLab.com with Jira Server/Data Center
 
@@ -351,3 +353,10 @@ The merge request is listed on the developer panel of the Jira issue page.
 
 The merge request is also ready for approval by the reviewers in your GitLab web portal.
 
+<br>
+<br>
+<div style='border-top: 1px solid #456; width: 40%; padding-bottom: 12px'></div>
+<div style='font-size: 12px;'>
+    <sup>1</sup> <i>Logo owned by <a href='https://gitlab.com/'>GitLab Inc</a> used under <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/'>license</a>.
+    <p>&nbsp;&nbsp;All product names, logos, and brands are property of their respective owners.<p><i>
+</div>
