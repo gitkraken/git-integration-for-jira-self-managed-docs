@@ -17,7 +17,7 @@ Also include information about:
 *   If there were any changes to the environment that would be notable?
 
 
-You can produce the "Support Zip" by following the steps in [this article](/wiki/spaces/GIJDC/pages/2039447557) or by accessing `http://[JiraServerNameHere]/plugins/servlet/troubleshooting/view/`.
+You can produce the "Support Zip" by following the steps in [this article](/git-integration-for-jira-self-managed/how-to-create-the-support-zip-file-gij-self-managed) or by accessing `http://[JiraServerNameHere]/plugins/servlet/troubleshooting/view/`.
 
 **Note**
 Jira Cloud does not have the Support Zip feature.

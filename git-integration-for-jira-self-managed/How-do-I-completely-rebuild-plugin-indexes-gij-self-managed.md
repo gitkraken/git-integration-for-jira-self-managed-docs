@@ -8,7 +8,7 @@ taxonomy:
 ---
 If you think that the Git indexes are corrupt and needed to be completely rebuilt, please do the following:
 
-1.  Disable the Git Integration for Jira app (![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) _Jira administration_ ➜ _Manage apps_).
+1.  Disable the Git Integration for Jira app (_Jira administration_ ➜ _Manage apps_).
 
 2.  Remove the following folders:
 

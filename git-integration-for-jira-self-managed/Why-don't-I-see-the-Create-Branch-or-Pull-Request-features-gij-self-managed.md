@@ -26,7 +26,7 @@ The **Create branch** and **Create Pull/Merge Requests** features are enabled by
 
 
 
-See [integration guides](https://bigbrassband.atlassian.net/wiki/spaces/GITSERVER/pages/86179850/Integration+Guides) for each Auto-Connect option.
+See [integration guides](/git-integration-for-jira-self-managed/integration-guides-gij-self-managed) for each Auto-Connect option.
 
 The regular Git integration option does not offer the Create branch and Create pull/merge request features.
 

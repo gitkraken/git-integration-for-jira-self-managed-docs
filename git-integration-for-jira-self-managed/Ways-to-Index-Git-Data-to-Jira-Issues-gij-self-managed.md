@@ -26,5 +26,4 @@ There are several ways to associate git data to Jira issues:
 
 ## Manually associate git commits to Jira issues
 
-For more information on this topic, see documentation [Associate git commit to Jira issues manually](https://bigbrassband.com/git-integration-for-jira/documentation/linking-git-commits-to-jira-issues.html#bbb-nav-manually-link-git-commits-to-jira-issues).
-
+For more information on this topic, see documentation [Associate git commit to Jira issues manually](/git-integration-for-jira-self-managed/linking-git-commits-to-jira-issues-gij-self-managed).

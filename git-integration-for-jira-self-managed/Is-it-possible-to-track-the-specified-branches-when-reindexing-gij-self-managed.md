@@ -7,4 +7,3 @@ taxonomy:
 
 ---
 No. The Git Integration for Jira app is designed to do a full index.
-

@@ -13,10 +13,10 @@ Use the FAQ below to find answers to common questions. Feel free to contact our 
 
 ### See next FAQs about purchase and pricing
 
-*   [How do I buy this app?](/wiki/spaces/GIJDC/pages/2053865599)
+*   [How do I buy this app?](/git-integration-for-jira-self-managed/how-do-i-buy-this-app-gij-self-managed)
 
-*   [What payment methods are accepted?](/wiki/spaces/GIJDC/pages/2053832862)
+*   [What payment methods are accepted?](/git-integration-for-jira-self-managed/what-payment-methods-are-accepted-gij-self-managed)
 
-*   [How do I determine the Git Integration for Jira app pricing after the trial?](/wiki/spaces/GIJDC/pages/2053472453)
+*   [How do I determine the Git Integration for Jira app pricing after the trial?](/git-integration-for-jira-self-managed/how-do-i-determine-the-git-integration-for-jira-app-pricing-after-the-trial-gij-self-managed)
 
 

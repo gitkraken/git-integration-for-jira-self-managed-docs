@@ -66,4 +66,3 @@ To enable/disable the Repository Browser for individual repositories:
 ### Example: Disabling _Source Code Diff Viewing_ for a repository
 
 _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/mtwnmihirc) _to open this video in a new tab/window for more viewing options._
-

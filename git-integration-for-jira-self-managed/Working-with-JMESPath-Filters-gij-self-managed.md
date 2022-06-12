@@ -12,27 +12,33 @@ For help with writing expressions, please contact [**support**](mailto:support@
 
 Read about JMESPath expressions on their [**website**](http://jmespath.org/).
 
+* * *
+
 ## Accessible Locations
 
-|     |
-| --- |
-| 1\. Auto-connect integration Wizard ➜ **Connection** screen ➜ _**Advanced**_ ➜ **JMESPath filter**. For example: |
-| ![](https://bigbrassband.atlassian.net/wiki/download/attachments/135430238/jira-server-autoconnect-jmespath-cfg-loc.png?version=1&modificationDate=1609147226289&cacheVersion=1&api=v2) |
+1.  Auto-connect integration Wizard ➜ **Connection** screen ➜ _**Advanced**_ ➜ **JMESPath filter**.
 
-|     |
-| --- |
-| 2\. Manage repositories page ➜ _**Action**_ ➜ Edit integration settings ➜ _**Integration settings**_ ➜ **JMESPath Filter**. |
-| ![](https://bigbrassband.atlassian.net/wiki/download/attachments/135430238/jira-server-edit-repo-settings-jmespath.png?version=1&modificationDate=1609147307303&cacheVersion=1&api=v2) |
+    For example:
+    
+    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/135430238/jira-server-autoconnect-jmespath-cfg-loc.png?version=1&modificationDate=1609147226289&cacheVersion=1&api=v2)
+
+    <br>
+
+2.  Manage repositories page ➜ _**Action**_ ➜ Edit integration settings ➜ _**Integration settings**_ ➜ **JMESPath Filter**.
+
+    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/135430238/jira-server-edit-repo-settings-jmespath.png?version=1&modificationDate=1609147307303&cacheVersion=1&api=v2)
+
+<br>
 
 ## Read more on JMESPath filters for supported git services
 
-*   [GitHub.com | GitHub Enterprise JMESPath filter examples](/wiki/spaces/GIJDC/pages/1353482464/GitHub.com+%7C+GitHub+Enterprise+JMESPath+filter+examples)
+*   [GitHub.com | GitHub Enterprise JMESPath filter examples]()
 
-*   [GitLab.com | GitLab CE/EE JMESPath filter examples](/wiki/spaces/GIJDC/pages/1352663492)
+*   [GitLab.com | GitLab CE/EE JMESPath filter examples]()
 
-*   [Microsoft | VSTS | TFS | Azure Repos JMESPath filter examples](/wiki/spaces/GIJDC/pages/1352663519/Microsoft+%7C+VSTS+%7C+TFS+%7C+Azure+Repos+JMESPath+filter+examples)
+*   [Microsoft | VSTS | TFS | Azure Repos JMESPath filter examples]()
 
-*   [Tracked Folders JMESPath filter examples](/wiki/spaces/GIJDC/pages/1349452162/Tracked+Folders+JMESPath+filter+examples)
+*   [Tracked Folders JMESPath filter examples]()
 
-*   [Gerrit JMESPath filter examples](/wiki/spaces/GIJDC/pages/1897431057/Gerrit+JMESPath+filter+examples)
+*   [Gerrit JMESPath filter examples]()
 

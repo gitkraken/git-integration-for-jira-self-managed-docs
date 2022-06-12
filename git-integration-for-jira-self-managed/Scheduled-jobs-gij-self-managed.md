@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-This setting is part of the [**General Settings**](/git-integration-for-jira-self-managed/General-Settings) configuration page.
+This setting is part of the [**General Settings**](/git-integration-for-jira-self-managed/general-settings-gij-self-managed) configuration page.
 
 
 This setting allows administrators to configure duration of jobs and the GC checkers.
@@ -47,5 +47,5 @@ Configuration of the scheduler jobs are no longer accessible in the Jira adminis
 
 **Job interval**  –  Set the number of minutes that will elapse before a repository is checked to see if it should be garbage collected.  The default value is _**1440 minutes**_.
 
-For detailed information, see introductory article on [Scheduling Jobs](/git-integration-for-jira-self-managed/Scheduling-Jobs).
+For detailed information, see introductory article on [Scheduling Jobs](/git-integration-for-jira-self-managed/scheduling-jobs-gij-self-managed).
 

@@ -6,15 +6,14 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-The list of database tables for Git Integration for Jira app can be accessed at ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) Jira Administration ➜ ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) System ➜ (sidebar) Advanced ➜ **Plugin Data Storage**.
+The list of database tables for Git Integration for Jira app can be accessed at Jira Administration ➜ System ➜ (sidebar) Advanced ➜ **Plugin Data Storage**.
 
 The database tables are described in the table below:
 
-|     |     |
-| --- | --- |
 | **Table** | **Description** |
+| --- | --- |
 | AO\_8BA09E\_GIT\_REPOSITORY | This table contains the main repository configuration and repository parameters visible to users. |
-| AO\_8BA09E\_MERGE\_REQ\_COMMITS | This table contains information required to support the feature. For more information, see [General Setting: Enable indexing pull/merge requests by commits](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/1207828745/Branch+and+pull+request+settings+formerly+Git+Integration+Options#Git-Pull%2FMerge-Requests). |
+| AO\_8BA09E\_MERGE\_REQ\_COMMITS | This table contains information required to support the feature. For more information, see [General Setting: Enable indexing pull/merge requests by commits](/git-integration-for-jira-self-managed/branch-and-pull-request-settings-formerly-git-integration-options-gij-self-managed). |
 | AO\_8BA09E\_MERGE\_REQUEST | This table contains information about external merger requests and pull requests from the connected git servers. |
 | AO\_8BA09E\_OBJECT\_REGISTRATION | This table contains information about object states for the Scripting feature. The objects are:<br><br>*   commits<br>    <br>*   branches<br>    <br>*   merge/pull requests |
 | AO\_8BA09E\_PROJECT\_MAPPING | This table contains project permissions.<br><br>![](https://bigbrassband.atlassian.net/wiki/download/attachments/1598193683/ao-table-02.png?version=1&modificationDate=1620447300176&cacheVersion=1&api=v2) |

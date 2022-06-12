@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-This setting is part of the [**General Settings**](/git-integration-for-jira-self-managed/General-Settings) configuration page.
+This setting is part of the [**General Settings**](/git-integration-for-jira-self-managed/general-settings-gij-self-managed) configuration page.
 
 
 The settings in this group controls email notifications and recipient filters.
@@ -21,7 +21,7 @@ In the provided box, enter a regular expression to send e-mail only to addresses
 
 No notifications are sent when this setting is off, if the provided regex box is blank, or regular expression doesn't have a match.
 
-For more information, see [**Commit Email Notifications**](https://www.bigbrassband.com/git-integration-for-jira/documentation/commit-email-notifications.html).
+For more information, see [**Commit Email Notifications**](/git-integration-for-jira-self-managed/commit-email-notifications-gij-self-managed).
 
 To avoid the possibility to set invalid regular expressions in the provided regex box, the **To address** must match the regex pattern.
 

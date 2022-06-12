@@ -12,10 +12,10 @@ Use the FAQ below to find answers to common questions.  Feel free to contact ou
 
 ### See next FAQs about logging
 
-*   [How to create the support zip file?](/wiki/spaces/GIJDC/pages/2039447557)
+*   [How to create the support zip file?](/git-integration-for-jira-self-managed/how-to-create-the-support-zip-file-gij-self-managed)
 
-*   [How do I enable debug logging level for Git Integration for Jira app?](/wiki/spaces/GIJDC/pages/2038792196)
+*   [How do I enable debug logging level for Git Integration for Jira app?](/git-integration-for-jira-self-managed/how-do-i-enable-debug-logging-level-for-git-integration-for-jira-app-gij-self-managed)
 
-*   [Where can I find the Jira logs?](/wiki/spaces/GIJDC/pages/2039283717)
+*   [Where can I find the Jira logs?](/git-integration-for-jira-self-managed/where-can-i-find-the-jira-logs-gij-self-managed)
 
 

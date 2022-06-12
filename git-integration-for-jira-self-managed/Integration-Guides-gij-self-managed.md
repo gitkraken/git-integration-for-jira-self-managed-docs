@@ -15,13 +15,13 @@ On this page, you will find the list of integration guides for specific git host
 * * *
 
 
-[**GitLab.com**](/git-integration-for-jira-self-managed/gitlab/)^1^
+[**GitLab.com**](/git-integration-for-jira-self-managed/gitlab/)<sup>1</sup>
 
 Connect your GitLab.com remote repositories via Connect to Git Repository wizard or Connect to GitLab wizard.
 
 * * *
 
-[**GitLab CE/EE Server**](/git-integration-for-jira-self-managed/gitlab-com-ce-ee-gijsm/)^1^
+[**GitLab CE/EE Server**](/git-integration-for-jira-self-managed/gitlab-com-ce-ee-gijsm/)<sup>1</sup>
 
 Connect and manage multiple GitLab server repositories at once via **Connect to GitLab wizard** and the **Show connected repositories** dialog.
 
@@ -87,7 +87,7 @@ Scan a locally accessible path for cloned Git repositories and automatically imp
 
 Add a new network share or Windows server hosted repository via the Connect to Git Repository wizard.
 
-
+<br>
 <br>
 <div style='border-top: 1px solid #456; width: 40%; padding-bottom: 12px'></div>
 <div style='font-size: 12px;'>

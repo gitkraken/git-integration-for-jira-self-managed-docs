@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-This setting is part of the [**General Settings**](/git-integration-for-jira-self-managed/General-Settings) configuration page.
+This setting is part of the [**General Settings**](/git-integration-for-jira-self-managed/general-settings-gij-self-managed) configuration page.
 
 
 This setting affects git branches creation default names and toggles for git pull/merge request options for the Jira issue.
@@ -16,7 +16,7 @@ This setting affects git branches creation default names and toggles for git pul
 
 ## Personal access token
 
-For more details on this setting, see [Require User PAT general setting](/wiki/spaces/GIJDC/pages/1947107395/Require+User+PAT+general+setting).
+For more details on this setting, see [Require User PAT general setting](/git-integration-for-jira-self-managed/require-user-pat-general-setting-gij-self-managed).
 
 ## Git branches
 
@@ -37,30 +37,31 @@ Set the **Branch name template** using the supported variables. Use the templa
 
 Use the following template variables:
 
-|     |
-| --- |
-| `${issuetype}` – Issue Type. The Issue type is used to map a custom issue type as part of the template. The mapping pattern should look like this:<br><br>```java<br>${issuetype:type0,subsitute0[,type1,substitute1,...,typeN,substituteN][,defaultsubstitute]}<br>```<br><br>*   `typeN` – is the _**nth**_ issue type string to match.<br>    <br>*   `substituteN` – is the substitution string to use for _**typeN**_.<br>    <br>*   `defaultsubstitute` – is the substitution string to use if _**typeN**_'s match is not found. If _**defaultsubstitute**_ is blank, the lowercase version of the defined issue type is used. |
-| `${issuekey}` – Issue Key. The Issue key is used in upper case. |
-| `${summary}` – Issue Summary. The Summary is used and will be in lowercase; spaces are substituted by "-". |
-| **The Git Integration for Jira app default is:**  <br>`${issuekey}-${summary}`<br><br>This generates the string format like "**PRJ-123-add-more-logging**" as a default value for the Create Branch and Pull/Merge Request dialogs. Where `PRJ-123` is the issue key followed by a hyphen then the summary text of the active issue page (_in hyphenated lowercase form_). |
-| `${projectkey}` – Project Key. The Project key is used and will be in uppercase. |
-| `${basebranch}` – INTRODUCED VERSION 4.0+ The base branch name is used. |
+
+`${issuetype}` – Issue Type. The Issue type is used to map a custom issue type as part of the template. The mapping pattern should look like this:<br><br>```java<br>${issuetype:type0,subsitute0[,type1,substitute1,...,typeN,substituteN][,defaultsubstitute]}<br>```<br><br>*   `typeN` – is the _**nth**_ issue type string to match.<br>    <br>*   `substituteN` – is the substitution string to use for _**typeN**_.<br>    <br>*   `defaultsubstitute` – is the substitution string to use if _**typeN**_'s match is not found. If _**defaultsubstitute**_ is blank, the lowercase version of the defined issue type is used.
+
+`${issuekey}` – Issue Key. The Issue key is used in upper case.
+`${summary}` – Issue Summary. The Summary is used and will be in lowercase; spaces are substituted by "-".
+
+
+**The Git Integration for Jira app default is:**  <br>`${issuekey}-${summary}`<br><br>This generates the string format like "**PRJ-123-add-more-logging**" as a default value for the Create Branch and Pull/Merge Request dialogs. Where `PRJ-123` is the issue key followed by a hyphen then the summary text of the active issue page (_in hyphenated lowercase form_).
+
+`${projectkey}` – Project Key. The Project key is used and will be in uppercase.
+
+`${basebranch}` – INTRODUCED VERSION 4.0+ The base branch name is used.
 
 ### SOME EXAMPLES
 
-|     |
-| --- |
 | **Example 1** |
+| --- |
 | `${issuetype}/${issuekey}-${summary}`<br><br>This generates the string format like "**newfeature/PRJ-123-add-more-logging**" as a default value for the branch names. Where `newfeature` is the actual issue type of the active Jira issue; in lowercase and trimmed of whitespaces, `PRJ-123` is the issue key followed by a hyphen then the summary text of the active issue page (in hyphenated lowercase form). |
 
-|     |
-| --- |
 | **Example 2** |
+| --- |
 | `${issuetype:New Feature,feature,Bug Fix,bug}/${issuekey}-${summary}`<br><br>This generates the string format like "**feature/PRJ-123-add-more-logging**" as a default value for the branch names. This example uses a Jira issue which has the _**New Feature**_ issue type -- where `feature` is the substituted to _issuetype_ since _type0_ matches the active Jira issue type; `PRJ-123` is the issue key followed by a hyphen then the summary text of the active issue page (in hyphenated lowercase form). |
 
-|     |
-| --- |
 | **Example 3** |
+| --- |
 | `${issuetype:Old Issue,old,Bug Fix,bug,branch}/${issuekey}-${summary}`<br><br>This generates the string format like "**branch/PRJ-123-add-more-logging**" as a default value for the branch names. This example uses a Jira issue which has the _**New Feature**_ issue type -- where `branch` is substituted to _issuetype_ since _type0..typeN_ does not match the active Jira issue type; `PRJ-123` is the issue key followed by a hyphen then the summary text of the active issue page (in hyphenated lowercase form). |
 
 * * *
@@ -78,4 +79,4 @@ Use the following template variables:
 When switched to ON, the _**Enable indexing pull/merge requests via API**_ setting completely activates the feature of indexing of PRs/MRs. This also allows users to use the toggle control for the _**Enable indexing pull/merge requests by commits**_ setting, which provides an additional way of indexing when switched to ON.
 
 
-For detailed information on this feature, see article [Associate pull/merge requests in Jira Issue](/wiki/spaces/GITSERVER/pages/923566286).
+For detailed information on this feature, see article [Associate pull/merge requests in Jira Issue](/git-integration-for-jira-self-managed/associate-pull-merge-requests-to-issues-based-on-commits-gij-self-managed).

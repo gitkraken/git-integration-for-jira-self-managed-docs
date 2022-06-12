@@ -8,7 +8,7 @@ taxonomy:
 ---
 NEW FEATURE Available in Git Integration for Jira Server/Data Center v4.1.4
 
-This page is intended for Jira administrators. For Jira users with limited access, please [go to this page](/wiki/spaces/GIJDC/pages/2091810817/Enforced+git+permissions+for+Jira+users) instead.
+This page is intended for Jira administrators. For Jira users with limited access, please [go to this page](/git-integration-for-jira-self-managed/enforced-git-permissions-for-jira-users-gij-self-managed) instead.
 
 _Right click_ [**here**](https://bigbrassband.wistia.com/medias/npe76i5nxm) _to open this video in a new tab/window for more viewing options._
 
@@ -31,7 +31,7 @@ This feature allows users to enter their PATs without accessing the Repository B
 
 ### Jira user profile: Entering the Personal Access Token
 
-From the Jira user profile page, the Jira user will enter their Git service Personal Access Token (PAT). For instructions on steps to create the appropriate token, see article [Creating Personal Access Tokens](/wiki/spaces/GITCLOUD/pages/107216897/Creating+Personal+Access+Tokens).
+From the Jira user profile page, the Jira user will enter their Git service Personal Access Token (PAT). For instructions on steps to create the appropriate token, see article [Creating Personal Access Tokens](/git-integration-for-jira-self-managed/creating-personal-access-tokens-gij-self-managed).
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/2091810842/CleanShot2022-03-01%20at%2001.13.39@2x-20220301-061400.png?version=1&modificationDate=1647757587377&cacheVersion=1&api=v2)
 
@@ -43,9 +43,8 @@ From the Jira user profile page, the Jira user will enter their Git service Pers
 
 If the **Enforce Git service permissions** setting is enabled, a Jira user will see data only from the integrations for which their PAT has been provided. For example:
 
-|     |     |     |
-| --- | --- | --- |
 | **Access location** | **Section** | **Condition(s)** |
+| --- | --- | --- |
 | Jira issue | Git Commits tab | Git data is only shown if the user has a Git server account, GitHub for example, that has permissions to this repository. |
 | Jira issue | Git development panel | Users without permission can see the number of commits but won’t be able to view the commit code diffs, branch name or repository name. |
 | Project sidebar | Git Commits | Git data is only shown if the user has a Git server account, GitHub for example, that has permissions to this repository. |
@@ -53,9 +52,8 @@ If the **Enforce Git service permissions** setting is enabled, a Jira user will 
 
 ## Supported git platforms
 
-|     |     |     |
-| --- | --- | --- |
 | **Integration** | **Supported?** | **Result** |
+| --- | --- | --- |
 | GitHub git repositories | Yes | GITHUB CLOUD GITHUB SELF-HOSTED  <br>Users will only see the GitHub integration data when a PAT is provided for it. |
 | GitLab git repositories | No\* | COMING SOON  <br>\*Support for GitLab on the **Enforce Git service permissions** feature will be added sometime later in 2022. |
 
@@ -65,4 +63,4 @@ If the **Enforce Git service permissions** setting is enabled, a Jira user will 
 
 **Max permission cache age** – This setting grants administrators the ability to set how long Git server permissions are cached in Git Integration for Jira app. The default value for this setting is **24** hours.
 
-The [Require User PAT general setting](/wiki/spaces/GIJDC/pages/1947107395/Require+User+PAT+general+setting) must be enabled to use the **Enforce Git Service permissions** feature.
+The [Require User PAT general setting](/git-integration-for-jira-self-managed/require-user-pat-general-setting-gij-self-managed) must be enabled to use the **Enforce Git Service permissions** feature.

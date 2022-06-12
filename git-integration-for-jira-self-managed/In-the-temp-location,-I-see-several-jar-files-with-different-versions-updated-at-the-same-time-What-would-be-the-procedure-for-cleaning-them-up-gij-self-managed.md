@@ -32,4 +32,5 @@ The goal here is to end up with only one copy of the `jira_git_plugin jar` file 
     ```
     
 4.  Run Jira.
-    
+
+
