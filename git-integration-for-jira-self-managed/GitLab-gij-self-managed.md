@@ -23,7 +23,7 @@ taxonomy:
 
 <br>
 
-# Integrate GitLab.com with Jira Server/Data Center
+# Integrate GitLab.com with Jira Data Center/Server
 
 GitLab introduced personal access tokens (PAT) since version 8.8 and now (v10+) prefers this type of authentication for accessing the git repositories. Service users are strongly advised to switch from using username/password to using Personal Access Tokens (PAT) for GitLab.com.
 

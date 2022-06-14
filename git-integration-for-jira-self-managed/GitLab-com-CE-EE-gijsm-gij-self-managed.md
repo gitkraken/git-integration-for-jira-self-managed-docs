@@ -23,7 +23,7 @@ taxonomy:
 
 <br>
 
-# Integrate GitLab CE/EE with Jira Server
+# Integrate GitLab CE/EE with Jira Data Center/Server
 
 Introduced in **v2.9.4** of the Git Integration for Jira app, this feature tracks added or deleted repositories from a remote GitLab server (EE/CE) and automatically imports those Git repository references into Jira.
 
@@ -58,7 +58,7 @@ Quickly learn how to connect GitLab CE/EE git repositories via Git Integration f
 
 **What's on this page:**
 
-- [Integrate GitLab CE/EE with Jira Server](#integrate-gitlab-ceee-with-jira-server)
+- [Integrate GitLab CE/EE with Jira Data Center/Server](#integrate-gitlab-ceee-with-jira-data-centerserver)
   - [Permissions](#permissions)
   - [Creating a personal access token](#creating-a-personal-access-token)
   - [Using Full feature integration](#using-full-feature-integration)
