@@ -7,29 +7,36 @@ taxonomy:
 
 ---
 
-
-Using **Jira Cloud**? [See the corresponding article](/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs/).
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs-gij-cloud/'>See the corresponding article<?a>().
+    </div>
+    </div>
+</div>
+<br>
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91979843/azure-devops-server-logo.png?version=1&modificationDate=1577429734090&cacheVersion=1&api=v2&width=441&height=70)
 
-
-
 ![](https://bigbrassband.com/confluence/images/tfs-logo.png)
 
-**Integrate Azure DevOps Server/TFS with Jira Data Center**
+<br>
 
-Quickly learn how to connect Azure DevOps Server/TFS git repositories via Git Integration for Jira Data Center.
+# Integrate Azure DevOps Server/TFS with Jira Data Center
+
+Quickly learn how to connect Azure DevOps Server/TFS git repositories via Git Integration for Jira Data Center/Server.
 
 The Git Integration for Jira app supports Azure Repos.
 
 
 * * *
 
-
-
 ## Creating Personal Access Tokens
 
-If you have not yet generated a personal access token (PAT), create your token by following [the steps outlined in this article.](/git-integration-for-jira-self-managed/creating-personal-access-tokens/#CreatingPersonalAccessTokens-tfs-server)
+If you have not yet generated a personal access token (PAT), create your token by following [the steps outlined in this article.](/git-integration-for-jira-self-managed/creating-personal-access-tokens#team-foundation-server-tfs-2017--tfs-2018/)
 
 ## Using Auto-Connect
 
@@ -37,7 +44,7 @@ This process requires at least an existing _**Contributor**_ user access to A
 
 We recommend using the Auto-connect integration panel to connect multiple repositories from your Azure DevOps Server/TFS.
 
-1. On the Jira Data Center dashboard menu, go to **Git** ➜ **Manage Git Repositories**.
+1. On the Jira Data Center/Server dashboard menu, go to **Git** ➜ **Manage Git Repositories**.
 
 2\. The git configuration page for connecting repositories is displayed.
 
@@ -75,7 +82,7 @@ Configuring the **Advanced** settings is optional. However, admins/power users
     *   If the field is not blank, the app will assume it as a single account path and will try to use it. To connect to all available accounts, manually create integrations for each one of them.
 
 *   Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [support](mailto:support@bigbrassband.com?subject=Help%20with%20writing%20JMESPath%20filter%20expressions).
-*   To learn more Azure DevOps Server/TFS examples, see article **[Jira Data Center: Working with JMESPath Filters](/git-integration-for-jira-self-managed/working-with-jmespath-filters/)**.
+*   To learn more Azure DevOps Server/TFS examples, see article **[Working with JMESPath Filters](/git-integration-for-jira-self-managed/working-with-jmespath-filters-gij-self-managed/)**.
 
 *   **Suffix**  –  This is a relative path that defaults to "/tfs".
 
@@ -98,23 +105,18 @@ Currently, all available accounts are scanned and corresponding URLs are created
 
 ![](https://bigbrassband.com/images/bbb/jira-server-connect-vsts-settings-dialog.png)
 
-*   On the **Integration Settings**, setting the **_Require User PAT_** option to **`ON`** will require users to provide a PAT which will be used for branch and merge/pull requests creation/deletion _(via the developer panel on the Jira issue page)_. The recommended **Selected scopes** setting for this is **`Code (read and write)`**.  For more information on this feature, see **[Integration Settings: Require User PAT »](/wiki/spaces/GIJDC/pages/92078126/Integration+Basics#IntegrationBasics-RequireUserPat)**.
-
-
+*   On the **Integration Settings**, setting the **_Require User PAT_** option to **`ON`** will require users to provide a PAT which will be used for branch and merge/pull requests creation/deletion _(via the developer panel on the Jira issue page)_. The recommended **Selected scopes** setting for this is **`Code (read and write)`**.  For more information on this feature, see **[Integration Settings: Require User PAT »](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/)**.
 
 PATs were introduced with TFS 2017 and newer. TFS 2013 and TFS 2015 do not support PATs. If this property is set to **`ON`**, the users will not be able to create/delete branches and pull requests.
 
-
-
 When the above setting is enabled, a branch or pull request cannot be created until a valid personal access token (PAT) is set.
 
-*   Set **[Smart Commits »](/git-integration-for-jira-self-managed/smart-commits/ "(opens in new tab/window)")** and **[Repository Browser »](/git-integration-for-jira-self-managed/repository-browser/ "(opens in new tab/window)")** to enable/disable these features.
+*   Set **[Smart Commits »](/git-integration-for-jira-self-managed/smart-commits-gij-self-managed/ "(opens in new tab/window)")** and **[Repository Browser »](/git-integration-for-jira-self-managed/repository-browser-gij-self-managed/ "(opens in new tab/window)")** to enable/disable these features.
 *   Set **Project Permissions** according to your organization's project association rules.
 
 8\. Click Finish. For now, only **git** projects are supported from Azure DevOps Server/TFS.
 
 The Azure DevOps Server/TFS repositories are now connected to Jira Data Center.
-
 
 
 ## Single Repository
@@ -129,7 +131,7 @@ Obtain the repository URL from the Azure DevOps Server/TFS repository project pa
 4.  Continue to the next step by following the screen instructions.
 5.  Click **Finish** to complete this process. 
 
-The repository is now connected to Jira Data Center.
+The repository is now connected to Jira Data Center/Server.
 
 
 
@@ -153,7 +155,7 @@ For detailed step-by-step guide showcasing webhooks setup, [see this article](/a
 
 
 
-## Linking Commits of Azure DevOps Server/TFS Projects to Jira Data Center
+## Linking Commits of Azure DevOps Server/TFS Projects to Jira Data Center/Server
 
 For the following steps, a Azure DevOps Server/TFS and a Visual Studio environment that supports git is required.
 
@@ -208,7 +210,7 @@ The commit is published to Azure DevOps Server/TFS.  To view the commit in Jira
 
 
 
-## Viewing Git Commits in Jira Data Center
+## Viewing Git Commits in Jira Data Center/Server
 
 1.  Perform a git commit by adding the Jira issue key in the commit message. This will associate the commit to the mentioned Jira issue.
 2.  Open the Jira issue.
@@ -233,20 +235,19 @@ Main branch for repositories within an integration can only be changed on the gi
 
 ### Creating Branches
 
-1. On your Jira Data Center, open a Jira issue. On the Jira developer panel under **Git Source Code**, click **Create Branch**.
+1.  On your Jira Data Center/Server instance, open a Jira issue.
 
-2\. The following dialog is displayed:
+2.  On the Jira developer panel under **Git Source Code**, click **Create Branch**. The following dialog is displayed.
 
-![](https://bigbrassband.com/images/bbb/jira-cloud-create-branch-tfs.png)
+    ![](https://bigbrassband.com/images/bbb/jira-cloud-create-branch-tfs.png)
 
-*   Select a **Repository** from the list.
-*   Choose a **Base branch** (usually _**master**_).
-*   Enter a **Branch name** or leave it as is (recommended).
+    *   Select a **Repository** from the list.
+    *   Choose a **Base branch** (usually _**master**_).
+    *   Enter a **Branch name** or leave it as is (recommended).
 
-If the **[Require User PAT option](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request/)** is enabled in the **Integration Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead:
+    If the **[Require User PAT option](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request/)** is enabled in the **Integration Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead:
 
-![](https://bigbrassband.com/images/bbb/jira-server-tfs-branch-pat-conf-dlg.png)
-
+    ![](https://bigbrassband.com/images/bbb/jira-server-tfs-branch-pat-conf-dlg.png)
 
 
 PATs were introduced with TFS 2017 and newer.  TFS 2013 and TFS 2015 do not support PATs.  If the repository setting **Require User PAT** property is set to **`ON`**, the users will not be able to create/delete branches and pull requests.
@@ -292,7 +293,7 @@ The pull request feature works the same as merge request.
 
 To create a pull request and merge it to the main source (master):
 
-1. On your Jira Data Center, open the Jira issue where your previously created a branch.
+1. On your Jira Data Center/Server, open the Jira issue where your previously created a branch.
 
 2\. On the developer panel under **Git Source Code**, click **Create Pull Request**.
 

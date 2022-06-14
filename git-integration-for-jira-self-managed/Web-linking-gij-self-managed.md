@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
+
 The web linking feature adds links to your git hosting provider directly into the _**Git Commits**_ tab. Configure web linking options while adding/editing repository settings so that commits can include links to the git host pages.
 
 Web links are automatically configured for integrations connected via the Auto-connect wizard.

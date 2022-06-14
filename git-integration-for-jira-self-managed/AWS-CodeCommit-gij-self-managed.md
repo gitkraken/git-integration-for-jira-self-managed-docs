@@ -10,14 +10,14 @@ Using **Jira Cloud**? [See the corresponding article](/git-integration-for-jir
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/aws-cc-logo.png?version=1&modificationDate=1631448492185&cacheVersion=1&api=v2&width=387&height=81)
 
-# Integrate AWS CodeCommit with Jira Server
+# Integrate AWS CodeCommit with Jira Data Center/Server
 
 AWS CodeCommit is a git host service by Amazon Web Services to store and manage source code, related files and private Git repositories in the cloud.
 
 You can use the AWS CLI or the AWS CodeCommit console to track and manage your repositories.
 
 
-Quickly learn how to connect AWS CodeCommit git repositories via Git Integration for Jira Server.
+Quickly learn how to connect AWS CodeCommit git repositories via Git Integration for Jira Data Center/Server.
 
 * * *
 
@@ -75,7 +75,7 @@ This process requires an AWS account with existing CodeCommit repositories.
 
 We recommend using the Auto-connect integration panel (_Add new integration_) to connect multiple repositories from your AWS CodeCommit git host.
 
-1.  On the Jira Server dashboard menu, go to Git ➜ **Manage repositories**. The git configuration page for connecting repositories is displayed.
+1.  On the Jira Data Center/Server dashboard menu, go to Git ➜ **Manage repositories**. The git configuration page for connecting repositories is displayed.
 
 2.  ![](https://bigbrassband.atlassian.net/wiki/download/attachments/92176493/gitserver-gitmgr-connect2git-sel(c).png?version=1&modificationDate=1631448492192&cacheVersion=1&api=v2)
 
@@ -150,7 +150,7 @@ We recommend using the Auto-connect integration panel (_Add new integration_) to
 
 4.  On the following screen, Git Integration for Jira app will read all available repositories from your AWS CodeCommit account. Click **Import repositories**.
 
-    *   Repositories of the logged-in AWS CodeCommit user can be automatically connected to Jira Server.  Repositories that are added or removed from AWS CodeCommit will be likewise connected or disconnected from Jira Server.
+    *   Repositories of the logged-in AWS CodeCommit user can be automatically connected to Jira Data Center/Server.  Repositories that are added or removed from AWS CodeCommit will be likewise connected or disconnected from Jira Data Center/Server.
 
 5.  After the import process, the **Settings** dialog is displayed:
 
@@ -165,11 +165,11 @@ We recommend using the Auto-connect integration panel (_Add new integration_) to
 
 
 
-The AWS CodeCommit repositories are now connected to Jira Server.
+The AWS CodeCommit repositories are now connected to Jira Data Center/Server.
 
-The Git Integration for Jira Server app supports tracked folders for AWS CodeCommit git repositories. The connected git host is scanned for existing repository folders. The found repositories can then be added to the Git Repositories configuration.
+The Git Integration for Jira Data Center/Server app supports tracked folders for AWS CodeCommit git repositories. The connected git host is scanned for existing repository folders. The found repositories can then be added to the Git Repositories configuration.
 
-There are two ways to configure the git repository connection using tracked folders with Git for Jira Server:
+There are two ways to configure the git repository connection using tracked folders with Git for Jira Data Center/Server:
 
 *   connect via **Auto-connect** integration panel ➜ **CodeCommit**, or
 
@@ -200,7 +200,7 @@ Connect a single AWS CodeCommit repository manually to Jira via HTTP/HTTPS conne
 5.  Click **Finish** to complete setting up this connection.
 
 
-The repository is now connected to Jira Server.
+The repository is now connected to Jira Data Center/Server.
 
 ## Single repository (Manually connect via SSH)
 
@@ -232,9 +232,9 @@ The modified URL can now be used as a valid repository URL via _Git Integration
 
 ## Setting up AWS CodeCommit web links
 
-The Git Integration for Jira app automatically configures web linking for AWS CodeCommit repositories in Jira Server.
+The Git Integration for Jira app automatically configures web linking for AWS CodeCommit repositories in Jira Data Center/Server.
 
-## Viewing git commits in Jira Server
+## Viewing git commits in Jira Data Center/Server
 
 1.  Perform a git commit by adding the Jira issue key in the commit message. This will associate the commit to the mentioned Jira issue.
 
@@ -258,7 +258,7 @@ Main branch for repositories within an integration can only be changed on the gi
 
 ### Creating branches
 
-1.  On your Jira Server, open a Jira issue.
+1.  On your Jira Data Center/Server instance, open a Jira issue.
 
 2.  On the Jira development panel under **Git integration**, click **Create branch**. The following dialog is displayed,
 
@@ -293,7 +293,7 @@ If an invalid secret access key was configured for the selected repository, the
 
 The pull request feature works the same as merge request.
 
-1.  On your Jira Server, open the Jira issue where you previously created a branch.
+1.  On your Jira Data Center/Server instance, open the Jira issue where you previously created a branch.
 
 2.  On the development panel under **Git integration**, click **Create pull request**. The following dialog is displayed.
 
