@@ -3,7 +3,7 @@
 title: Enforce Git service permissions
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 NEW FEATURE Available in Git Integration for Jira Server/Data Center v4.1.4

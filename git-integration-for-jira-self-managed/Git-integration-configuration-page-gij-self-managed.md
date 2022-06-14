@@ -3,7 +3,7 @@
 title: Git integration configuration page
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396951/gitserver-manage-git-repo-screen.png?version=1&modificationDate=1630642814252&cacheVersion=1&api=v2)

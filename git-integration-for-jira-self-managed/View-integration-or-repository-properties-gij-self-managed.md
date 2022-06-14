@@ -3,7 +3,7 @@
 title: View integration or repository properties
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397673/gitserver-gitmgr-view-details-01.png?version=1&modificationDate=1630642852300&cacheVersion=1&api=v2&width=550&height=190)

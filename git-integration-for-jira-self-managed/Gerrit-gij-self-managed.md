@@ -3,7 +3,7 @@
 title: Gerrit
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91979855/gerrit-banner-logo.png?version=1&modificationDate=1591009190980&cacheVersion=1&api=v2&width=272&height=112)

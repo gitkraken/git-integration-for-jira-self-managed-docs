@@ -3,7 +3,7 @@
 title: Why I am getting the error, "git-upload-pack not permitted"?
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 You are getting this error because of wrong login credentials or a permission issue.

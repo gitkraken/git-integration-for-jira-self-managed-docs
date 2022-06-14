@@ -3,7 +3,7 @@
 title: Features
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 On this page you will find topics related to the supported features of the app.

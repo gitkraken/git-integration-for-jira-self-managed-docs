@@ -3,7 +3,7 @@
 title: Using the Connect Repository wizard
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 **What’s on this page:**

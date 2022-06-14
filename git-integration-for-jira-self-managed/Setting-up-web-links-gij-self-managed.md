@@ -3,7 +3,7 @@
 title: Integration basics - Setting up web links
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 The Git Integration for Jira app automatically configures web linking for GitHub git repositories.

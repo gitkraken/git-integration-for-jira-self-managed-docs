@@ -3,7 +3,7 @@
 title: Ways to Index Git Data to Jira Issues
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 There are several ways to associate git data to Jira issues:

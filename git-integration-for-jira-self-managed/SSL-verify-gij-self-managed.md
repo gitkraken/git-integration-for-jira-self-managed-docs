@@ -3,7 +3,7 @@
 title: SSL verify
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 This feature can be accessed at the following locations on the Manage Git repositories page:

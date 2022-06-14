@@ -3,7 +3,7 @@
 title: Bonobo
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 ![](https://bigbrassband.com/confluence/images/bonobo-banner-logo.png)

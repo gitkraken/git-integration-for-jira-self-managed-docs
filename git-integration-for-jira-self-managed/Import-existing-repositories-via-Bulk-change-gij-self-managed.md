@@ -3,7 +3,7 @@
 title: Import existing repositories via Bulk change
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 For administrators who have several repositories, the Git Integration for Jira app allows you to import multiple repository configuration using a **.tsv** file. This will make managing large Git repository lists more efficient.

@@ -3,7 +3,7 @@
 title: Integration basics - Link git commits to Jira issues
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 

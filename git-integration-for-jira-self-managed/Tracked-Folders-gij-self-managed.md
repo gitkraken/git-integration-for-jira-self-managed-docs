@@ -3,7 +3,7 @@
 title: Tracked Folders
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91947120/tracked-folders-banner-logo2.png?version=1&modificationDate=1611969637784&cacheVersion=1&api=v2&width=340&height=79)

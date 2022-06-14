@@ -3,7 +3,7 @@
 title: Data Center and Server Home
 description: Your source for Git Integration for Jira Data Center and Server documentation
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 

@@ -3,7 +3,7 @@
 title: Remove Integration
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Deletes the existing integration from the Git Integration for Jira app repository configuration.

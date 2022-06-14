@@ -3,7 +3,7 @@
 title: App Support
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 The Git Integration for Jira app currently supports **Jira** **7.13** to **8.22**!

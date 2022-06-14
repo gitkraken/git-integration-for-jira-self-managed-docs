@@ -3,7 +3,7 @@
 title: Get Bulk Import Information
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Obtains information about the importing thread.  Use the following path format to access bulk import information.

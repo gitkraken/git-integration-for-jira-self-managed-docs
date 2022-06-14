@@ -3,7 +3,7 @@
 title: Commit-msg Hook
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Every developer must have this hook on his local machine in order to:

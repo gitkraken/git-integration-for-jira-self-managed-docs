@@ -3,7 +3,7 @@
 title: Hooks and Webhooks
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Welcome to the Git Integration for Jira app hooks and webhooks reference page index for Jira Data Center.

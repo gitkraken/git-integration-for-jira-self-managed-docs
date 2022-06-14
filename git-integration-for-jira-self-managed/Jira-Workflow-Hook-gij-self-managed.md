@@ -3,7 +3,7 @@
 title: Jira Workflow Hook
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Use JavaScript as another workflow to operate Jira aside from Smart Commits.

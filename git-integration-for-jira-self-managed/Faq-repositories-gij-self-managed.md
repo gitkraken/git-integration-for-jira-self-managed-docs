@@ -3,7 +3,7 @@
 title: Repositories
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 This page contains solutions to common issues encountered while connecting and configuring git repositories.

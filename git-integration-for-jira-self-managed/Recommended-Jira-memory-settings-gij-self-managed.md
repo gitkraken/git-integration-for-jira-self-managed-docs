@@ -3,7 +3,7 @@
 title: Recommended Jira memory settings
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 This page is about how to configure/allocate memory to Jira to accommodate large repositories and avoid OutOfMemory exceptions.

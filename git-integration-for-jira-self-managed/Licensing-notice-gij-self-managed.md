@@ -3,7 +3,7 @@
 title: Licensing notice
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 The **Git Integration for Jira** app contains some code that covers this license:
