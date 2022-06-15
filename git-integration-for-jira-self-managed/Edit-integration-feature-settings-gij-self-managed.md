@@ -27,13 +27,13 @@ Utilize the following options to configure the selected integration:
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397576/gitserver-edit-repocfg-repovw.png?version=1&modificationDate=1630642846839&cacheVersion=1&api=v2&width=680&height=65)
 
-When `Enabled`, it allows users to view Git repositories of configured projects. For more information, see [Repository Browser](/git-integration-for-jira-self-managed/Repository-Browser).
+When `Enabled`, it allows users to view Git repositories of configured projects. For more information, see [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed/).
 
 ## Tags
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397576/gitserver-edit-features-tags.png?version=1&modificationDate=1630642847074&cacheVersion=1&api=v2&width=680&height=150)
 
-Set whether to show all tags or show on tags with matching regex pattern. For more information on git tags, see [Git Tags](/git-integration-for-jira-self-managed/Git-tags).
+Set whether to show all tags or show on tags with matching regex pattern. For more information on git tags, see [Git Tags](/git-integration-for-jira-data-center/git-tags-gij-self-managed/).
 
 ## Personal Access Token: Require User PAT
 
@@ -47,7 +47,7 @@ Enable this option to require users to provide PAT which will be used for branch
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        This option requires the <a href='/git-integration-for-jira-self-managed/Repository-Browser/'>Repository Browser</a> feature enabled.
+        This option requires the <a href='/git-integration-for-jira-data-center/Repository-Browser/'>Repository Browser</a> feature enabled.
     </div>
     </div>
 </div>
