@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-This setting is part of the [**General Settings**](/git-integration-for-jira-self-managed/general-settings-gij-self-managed) configuration page.
+This setting is part of the [**General Settings**](/git-integration-for-jira-data-center/general-settings-gij-self-managed) configuration page.
 
 
 This setting affects git branches creation default names and toggles for git pull/merge request options for the Jira issue.
@@ -16,7 +16,7 @@ This setting affects git branches creation default names and toggles for git pul
 
 ## Personal access token
 
-For more details on this setting, see [Require User PAT general setting](/git-integration-for-jira-self-managed/require-user-pat-general-setting-gij-self-managed).
+For more details on this setting, see [Require User PAT general setting](/git-integration-for-jira-data-center/require-user-pat-general-setting-gij-self-managed).
 
 ## Git branches
 
@@ -79,4 +79,4 @@ Use the following template variables:
 When switched to ON, the _**Enable indexing pull/merge requests via API**_ setting completely activates the feature of indexing of PRs/MRs. This also allows users to use the toggle control for the _**Enable indexing pull/merge requests by commits**_ setting, which provides an additional way of indexing when switched to ON.
 
 
-For detailed information on this feature, see article [Associate pull/merge requests in Jira Issue](/git-integration-for-jira-self-managed/associate-pull-merge-requests-to-issues-based-on-commits-gij-self-managed).
+For detailed information on this feature, see article [Associate pull/merge requests in Jira Issue](/git-integration-for-jira-data-center/associate-pull-merge-requests-to-issues-based-on-commits-gij-self-managed).

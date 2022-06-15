@@ -76,7 +76,7 @@ This is the URL to the hosted git service used on the project. For example, you 
 
 **SSH INTEGRATION**
 
-Before adding repositories (new or existing) via Bulk change, make sure that you have added SSH keys for the respective git hosts in the Git Integration for Jira app configuration page. BigBrassBand recommends to use the `git@<url>:[your-git-repo].git` format for the repository origin URL and [adding of SSH Keys](/git-integration-for-jira-self-managed/adding-a-private-ssh-key/) for each git host in the Git Integration for Jira app configuration page.
+Before adding repositories (new or existing) via Bulk change, make sure that you have added SSH keys for the respective git hosts in the Git Integration for Jira app configuration page. BigBrassBand recommends to use the `git@<url>:[your-git-repo].git` format for the repository origin URL and [adding of SSH Keys](/git-integration-for-jira-data-center/adding-a-private-ssh-key-gij-self-managed/) for each git host in the Git Integration for Jira app configuration page.
 
 **HTTPS/HTTP INTEGRATION**
 
@@ -162,7 +162,7 @@ Enables or disables the **Repository Browser** feature for this repository. T
     </div>
 </div>
 
-For more information, see [Documentation -- Repository Browser](/git-integration-for-jira-self-managed/Repository-Browser).
+For more information, see [Documentation -- Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed/).
 
 ## projectMapping
 
@@ -230,7 +230,7 @@ _String._ Optional.
 
 Displays all tags for the specific issue, if left blank. Otherwise, set tags matching pattern to display tags on issue pages that match the specified regular expression pattern.
 
-Set _**tagsFilter**_ with a valid Java regular expression or an empty string. The filtered tags are displayed on the Jira Developer Panel.<br><br>For more information, see example in [Documentation -- Git tags](/git-integration-for-jira-self-managed/Git-tags).
+Set _**tagsFilter**_ with a valid Java regular expression or an empty string. The filtered tags are displayed on the Jira Developer Panel.<br><br>For more information, see example in [Documentation -- Git tags](/git-integration-for-jira-data-center/git-tags-gij-self-managed/).
 
 ## requireUserPat
 
@@ -286,7 +286,7 @@ _String_. Optional.
 
 The integration will use this relative REST API path starting with "/" to retrieve the list of tracked repositories.
 
-For more information, see [Working with Custom API Path](/wiki/spaces/GIJDC/pages/135331922/Working+with+Custom+API+Path).
+For more information, see [Working with Custom API Path](/git-integration-for-jira-data-center/working-wit-custom-api-path-gij-self-managed/).
 
 ## apiFilter
 
@@ -294,7 +294,7 @@ _String_. Optional.
 
 JMESPath filter expression will be used to filter API results.
 
-See our [Integration Guides](/git-integration-for-jira-self-managed/Integration-Guides), [Working with JMESPath filters](/wiki/spaces/GIJDC/pages/135430238/Working+with+JMESPath+Filters) or [contact support](mailto:support@bigbrassband.com) for help writing expressions.
+See our [Integration Guides](/git-integration-for-jira-data-center/integration-guides-gij-self-managed/), [Working with JMESPath filters](/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed/) or [contact support](mailto:support@bigbrassband.com) for help writing expressions.
 
 ## tfsCollection
 
@@ -367,7 +367,7 @@ The default value for Jira Server is `true`.
 
 _String._ Optional.
 
-Set web link type equivalent to the connected git host. Set web linking formats by referring to [Documentation – Web linking](/git-integration-for-jira-self-managed/Web-linking).
+Set web link type equivalent to the connected git host. Set web linking formats by referring to [Documentation – Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed/).
 
 ## viewFormat
 

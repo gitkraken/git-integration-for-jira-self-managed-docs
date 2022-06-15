@@ -25,7 +25,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        This setting is part of the <a href='/git-integration-for-jira-self-managed/General-Settings'><b>General Settings</b></a> configuration page.
+        This setting is part of the <a href='/git-integration-for-jira-data-center/General-Settings'><b>General Settings</b></a> configuration page.
     </div>
     </div>
 </div>

@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-The Git Integration for Jira app adds two features on the Jira issue developer panel – **Create Branch**, and **Create Pull/Merge Request**. For more information about the developer panel, see the [Jira Git Integration Developer Panel](/git-integration-for-jira-self-managed/jira-git+-integration-development-panel) documentation.
+The Git Integration for Jira app adds two features on the Jira issue developer panel – **Create Branch**, and **Create Pull/Merge Request**. For more information about the developer panel, see the [Jira Git Integration Developer Panel](/git-integration-for-jira-data-center/jira-git+-integration-development-panel-gij-self-managed/) documentation.
 
 ## Default branch
 
@@ -28,11 +28,11 @@ Most git integrations allow changing of the default branch of the repository/pro
 
 Open a Jira issue then on the developer panel, click **Create Branch** label to create a branch for the selected repository.
 
-For detailed information on this feature, see [Creating branches from Jira](/git-integration-for-jira-self-managed/creating-branches).
+For detailed information on this feature, see [Creating branches from Jira](/git-integration-for-jira-data-center/creating-branches-gij-self-managed/)).
 
 ## Creating pull/merge requests
 
 Open a Jira issue then on the developer panel, click **Create pull/merge request** label to create a pull/merge request for the selected repository.
 
-For detailed information on this feature, see [Creating pull/merge requests from Jira](/git-integration-for-jira-self-managed/creating-pull-merge-requests/).
+For detailed information on this feature, see [Creating pull/merge requests from Jira](/git-integration-for-jira-data-center/creating-pull-merge-requests-gij-self-managed/).
 

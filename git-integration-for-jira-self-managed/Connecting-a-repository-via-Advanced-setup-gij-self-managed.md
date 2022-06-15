@@ -171,7 +171,7 @@ Git refspecs contains patterns mapped as references from the remote to the local
 
 Enables or disables the Git Viewer feature for this repository. The default setting for this option is `Enabled`. Users must have the `View Development Tools` project permission in order to use this feature. Please consult your Jira System Administrator on permissions.
 
-For more information, see topic [Repository browser](/git-integration-for-jira-self-managed/Repository-Browser).
+For more information, see topic [Repository browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed/).
 
 ## Tags
 
@@ -209,7 +209,7 @@ When enabled, this setting allows Jira users with the **View Development Tools*
 
 ### Smart Commits
 
-This setting is `Enabled` by default. See related topic, [Smart Commits](/git-integration-for-jira-self-managed/Smart-commits).
+This setting is `Enabled` by default. See related topic, [Smart Commits](/git-integration-for-jira-data-center/smart-commits-gij-self-managed/).
 
 ### Commit Notification Emails
 
@@ -239,7 +239,7 @@ The web linking feature adds links to your git hosting provider directly into th
     </div>
 </div>
 
-For more information about this option, see section, [Web linking](/git-integration-for-jira-self-managed/Web-linking).
+For more information about this option, see section, [Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed/).
 
 ## Completing setup
 
