@@ -9,13 +9,11 @@ taxonomy:
 
 Everything you need to know about Git Integration for Jira on Data Center and Server.
 
-
-
--- this is a place holder page -- 
-
-
 Check out the introduction video and links below to get started with GitKraken Client. Use the left navigation to explore further.
 
+Looking for information on the Cloud version? [Click here](/git-integration-for-jira-cloud/git-integration-for-jira-home-gij-cloud/)
+
+-- this is a place holder page, everything below this line is not updated  -- 
 
 ## Getting Started
 
