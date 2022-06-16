@@ -53,7 +53,6 @@ Add, edit or delete linked Jira issue keys in the _**Associated issues to commi
 *   The authors of the commit can add/remove the association, if they have the View Development Tools access.
 
 
-
 If the commit is associated with multiple Jira issues, you will see the following:
 
 ![This is the commit association dialog where you can manually map or associate a commit to a Jira issue. The setting shows multiple Jira issue key associations.](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398296/gitserver-view-full-commits-assoc-issue-dlg-multi.png?version=1&modificationDate=1630642882718&cacheVersion=1&api=v2&width=566&height=283)

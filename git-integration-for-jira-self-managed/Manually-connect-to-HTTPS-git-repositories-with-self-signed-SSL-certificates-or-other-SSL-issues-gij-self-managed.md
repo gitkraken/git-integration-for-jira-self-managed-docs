@@ -52,7 +52,7 @@ There are alternative solutions to make Java trust this certificate. Refer to t
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        For related topics on connecting repositories from other git hosts, see <a href='/git-integration-for-jira-self-managed/integration-guides/'>Integration Guides</a>.
+        For related topics on connecting repositories from other git hosts, see <a href='/git-integration-for-jira-data-center/integration-guides-gij-self-managed/'>Integration Guides</a>.
     </div>
     </div>
 </div>

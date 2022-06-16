@@ -34,9 +34,10 @@ For this workaround to work, the user must have an access to a Jira hosting inst
     sudo chown user ~/Image-repo
     ```
 
-5.  Using the local path, connect the repository via the [Git Integration for Jira app Advanced setup wizard](/git-integration-for-jira-self-managed/connecting-a-repository-via-advanced-setup/). Use the correct local path for the Git for Jira app to successfully detect the repository.
+5.  Using the local path, connect the repository via the [Git Integration for Jira app Advanced setup wizard](/git-integration-for-jira-data-center/connecting-a-repository-via-advanced-setup-gij-self-managed/). Use the correct local path for the Git for Jira app to successfully detect the repository.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930396447/connect-git-repo-advanced-local-path(c).png?version=1&modificationDate=1630642794200&cacheVersion=1&api=v2&width=646&height=549)
+
 6.  Click **Detect** to specify the origin value.
 
 7.  Configure other settings if required. Click **Add** to proceed.
@@ -56,7 +57,7 @@ This setting affects how long will Git Integration for Jira app waits for connec
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        If you have several large repositories and have a problem with exceeded timeout, we recommend that you use our <a href='/git-integration-for-jira-self-managed/working-with-tracked-folders/'>Tracked folders</a> feature to scan local folders at once and import repositories automatically.
+        If you have several large repositories and have a problem with exceeded timeout, we recommend that you use our <a href='/git-integration-for-jira-data-center/working-with-tracked-folders/'>Tracked folders</a> feature to scan local folders at once and import repositories automatically.
     </div>
     </div>
 </div>

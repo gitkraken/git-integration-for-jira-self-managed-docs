@@ -61,7 +61,7 @@ If a git host is connected to Jira, create a pull/merge request by clicking **C
 
 <br>
 
-If the [Require User PAT option](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request/) is enabled in **Integration Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, the dialog below is displayed instead:
+If the [Require User PAT option](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/) is enabled in **Integration Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, the dialog below is displayed instead:
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399144/jira-server-issue-create-pull-req-dlg-cfg-pat.png?version=1&modificationDate=1630642923158&cacheVersion=1&api=v2&width=544&height=272)
 
@@ -106,7 +106,7 @@ The Pull/merge request list provides status information about the pull/merge req
 <img src='https://bigbrassband.atlassian.net/wiki/download/attachments/1930399144/dev-panel-pull-req-example.png?version=1&modificationDate=1630642923880&cacheVersion=1&api=v2' class='center img-responsive img-bordered' />
 
 
-For detailed information on this feature, see [Creating pull/merge requests](/git-integration-for-jira-self-managed/Creating-branches-features-sm/).
+For detailed information on this feature, see [Creating pull/merge requests](/git-integration-for-jira-data-center/creating-branches-gij-self-managed/).
 
 * * *
 

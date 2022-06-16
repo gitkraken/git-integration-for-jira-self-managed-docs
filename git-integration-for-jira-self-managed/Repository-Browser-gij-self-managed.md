@@ -53,7 +53,7 @@ Available git repositories of configured projects are displayed.
 
 *   On the list table, you will see git repositories, recent issues updated by the user, and the last commits made.
 
-*   The personal access token configuration column (_Pers. Access_) displays the PAT setup option if require user pat setting is enabled). Click the <img src='/wp-content/uploads/gij-edit-icon-dark.png' width=20 height=20 /> edit icon to setup PAT to allow branch and PR/MR creation functions via [Jira Git integration development panel](/git-integration-for-jira-self-managed/jira-git-integration-development-panel/). The adjacent checkmark indicates a PAT has already been configured.
+*   The personal access token configuration column (_Pers. Access_) displays the PAT setup option if require user pat setting is enabled). Click the <img src='/wp-content/uploads/gij-edit-icon-dark.png' width=20 height=20 /> edit icon to setup PAT to allow branch and PR/MR creation functions via [Jira Git integration development panel](/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed/). The adjacent checkmark indicates a PAT has already been configured.
 
 *   On the bottom left of the list, the view options control how many rows the list will display. The default view is 10 rows. Larger row view affects page loading time.
 
@@ -87,7 +87,7 @@ Click a git repository under Git repository column to browse its contents and sw
     </div>
     <div class="imsgbox">
         <b>Commit revisions</b><br>
-        The revisions of the commits are displayed on the Repository Browser in addition to branches and tags. See <a href='/git-integration-for-jira-self-managed/viewing-list-of-commits-in-repository-browser/'>Repository Browser - Git Commits tab</a> for detailed information.
+        The revisions of the commits are displayed on the Repository Browser in addition to branches and tags. See <a href='/git-integration-for-jira-data-center/viewing-list-of-commits-in-repository-browser-gij-self-managed/'>Repository Browser - Git Commits tab</a> for detailed information.
     </div>
     </div>
 </div>

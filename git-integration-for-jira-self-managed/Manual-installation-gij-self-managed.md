@@ -34,5 +34,5 @@ Use manual install if you have a specific version of **Git Integration for Jira
 
 8.  Buy the app or start the free trial for 30 days. Skip this step if this app was already purchased.
 
-9.  Login to your Jira account, if required, to proceed installation of the app. The license key is automatically configured into the app configuration for free trial licenses. For purchased license keys, see [Managing license key](/git-integration-for-jira-self-managed/managing-license-key/).
+9.  Login to your Jira account, if required, to proceed installation of the app. The license key is automatically configured into the app configuration for free trial licenses. For purchased license keys, see [Managing license key](/git-integration-for-jira-data-center/managing-license-key-gij-self-managed/).
 

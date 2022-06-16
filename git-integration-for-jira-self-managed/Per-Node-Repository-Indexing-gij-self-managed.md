@@ -1,14 +1,26 @@
 ---
 
-title: Per Node Repository Indexing
+title: Per Node Repository Indexing - General setting
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-NEW FEATURE DATA CENTER ONLY
+<div style='color: yellow'><b>NEW FEATURE</b></div>
+<div style='color: magenta'><b>DATA CENTER ONLY</b></div>
+<br>
 
-Available in Git Integration for Jira Data Center v4.2+
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Available in version Git Integration for Jira Data Center <b>v4.2+</b>.
+    </div>
+    </div>
+</div>
+
 
 Large Jira Data Center deployments can be designed to have specific Jira Data Center nodes focusing exclusively on responding to user activity while other nodes focus on other activities (example: responding to API requests). As of version 4.2+, Git Integration for Jira Data Center allows the Jira administrator to designate some or all DC nodes to perform Git indexing.
 
@@ -20,7 +32,16 @@ Set specific dedicated Jira Data Center (DC) nodes to perform Git Integration fo
 
 ## Setting specific nodes for repository reindexing
 
-This setting is ideal for large Jira Data Center instances.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        This setting is ideal for large Jira Data Center instances.
+    </div>
+    </div>
+</div>
 
 Uncheck the **Allow all nodes…** setting to access the drop down list and assign one or more dedicated nodes for repository reindexing tasks.
 
@@ -30,9 +51,33 @@ The repository reindexing tasks will be performed only on the specified nodes. T
 
 ## Sample Jira Data Center nodes configuration
 
-| **Example 1:** Jira API activity and GIJ indexing combined |
-| --- |
-| *   Node 1: User activity<br>    <br>*   Node 2: User activity<br>    <br>*   Node 3: API activity + GIJ indexing<br>    <br>*   Node 4: API activity + GIJ indexing |
-| **Example 2:** Jira API activity and GIJ indexing on specific nodes |
-| *   Node 1: User activity<br>    <br>*   Node 2: User activity<br>    <br>*   Node 3: API activity<br>    <br>*   Node 4: API activity<br>    <br>*   Node 5: GIJ indexing<br>    <br>*   Node 6: GIJ indexing |
+**Example 1:**
+
+Jira API activity and GIJ indexing combined
+
+*   Node 1: User activity
+
+*   Node 2: User activity
+
+*   Node 3: API activity + GIJ indexing
+
+*   Node 4: API activity + GIJ indexing
+
+<br>
+
+**Example 2:**
+
+Jira API activity and GIJ indexing on specific nodes
+
+*   Node 1: User activity
+
+*   Node 2: User activity
+
+*   Node 3: API activity
+
+*   Node 4: API activity
+
+*   Node 5: GIJ indexing
+
+*   Node 6: GIJ indexing
 

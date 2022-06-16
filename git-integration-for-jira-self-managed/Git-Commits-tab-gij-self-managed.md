@@ -1,6 +1,6 @@
 ---
 
-title: Jira issue page - Git Commits tab
+title: Git Commits tab - Jira issue page
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed
@@ -34,8 +34,8 @@ Open an issue then go to the _**Git Commits**_ tab to view commit information:
     </div>
     <div class="imsgbox">
         View the whole commit code diff information by clicking the <b>View full commit</b> button to the right of the commit message.
-
-        View code diff information of the particular file by clicking the filename for each file adjacent to the rollup counter markers.
+        <div class='nextpara'>View code diff information of the particular file by clicking the filename for each file adjacent to the rollup counter markers.
+        </div>
     </div>
     </div>
 </div>

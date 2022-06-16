@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
+
 You can generate a quote for Git Integration for Jira Data Center by doing the following steps below.
 
 Primarily, click this [**Generate quote link**](https://www.atlassian.com/purchase/addon/com.xiplink.jira.git.jira_git_plugin.ondemand?purchaseMode=quote) to take you directly to the quote page for Data Center:
@@ -29,4 +30,5 @@ Primarily, click this [**Generate quote link**](https://www.atlassian.com/purcha
 5.  Follow instructions on the next screen to complete this process.
 
 
-For more information on licensing, see [**Licensing Information, Migration and Transition**](https://bigbrassband.atlassian.net/wiki/spaces/BBBSUPPORT/pages/901120001/Licensing+Information+Migration+and+Transition).
+For more information on licensing, see [**Licensing Information, Migration and Transition**](/git-integration-for-jira-data-center/licensing-information-migration-and-transition-gij-self-managed/).
+

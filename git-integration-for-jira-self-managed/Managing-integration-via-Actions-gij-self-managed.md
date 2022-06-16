@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
-After integrating your repository or git host, a set of actions can be performed by clicking the ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) icon under the **Actions** column on the repository/integration configuration list.
+After integrating your repository or git host, a set of actions can be performed by clicking the ![](/wp-content/uploads/actions-icon.png) icon under the **Actions** column on the repository/integration configuration list.
 
 The set of functions depends on what type of integration or repository connection is selected:
 
@@ -31,7 +31,7 @@ Immediately starts the synchronization with the selected repository.
 
 Opens the **Git Repository - Advanced** page where you can change the settings of the selected connected repository.
 
-For more details, see [Edit repository settings](/git-integration-for-jira-self-managed/edit-repository-settings/).
+For more details, see [Edit repository settings](/git-integration-for-jira-data-center/edit-repository-settings-gij-self-managed/).
 
 ### Reset index
 
@@ -53,13 +53,13 @@ Opens a dialog showing the indexing log of the connected repository. |
 
 Opens the **Tracked Repositories** dialog to view the connected tracked folder repositories. This option is only available if the added repository is a tracked folder.
 
-For more information about this function, see [View tracked repositories](/git-integration-for-jira-self-managed/show-tracked-or-integration-repositories/).
+For more information about this function, see [View tracked repositories](/git-integration-for-jira-data-center/show-tracked-or-integration-repositories-gij-self-managed).
 
 ### Edit repository settings
 
 Opens the **Git Repository - Advanced** page where you can change the settings of the selected tracked folder integration.
 
-For more details, see [Edit repository settings](/git-integration-for-jira-self-managed/edit-repository-settings/).
+For more details, see [Edit repository settings](/git-integration-for-jira-data-center/edit-repository-settings-gij-self-managed/).
 
 ### Reset index
 
@@ -95,15 +95,15 @@ Immediately starts the synchronization with the selected repository.
 
 Opens the **Tracked folder** dialog to manage multiple repositories for this integration. You can enable/disable connected repositories individually. Clicking a repository name will open the connection settings for the selected repository.
 
-For more information about this function, see [View tracked repositories](/git-integration-for-jira-self-managed/show-tracked-or-integration-repositories/).
+For more information about this function, see [View tracked repositories](/git-integration-for-jira-data-center/show-tracked-or-integration-repositories-gij-self-managed/).
 
 ### Edit integration connection settings
 
-Opens the [Integration connection settings](/git-integration-for-jira-self-managed/edit-integration-connection-settings/) page where you can change the connection settings of the selected integration.
+Opens the [Integration connection settings](/git-integration-for-jira-data-center/edit-integration-connection-settings-gij-self-managed/) page where you can change the connection settings of the selected integration.
 
 ### Edit integration feature settings
 
-Opens the [Integration feature settings](/git-integration-for-jira-self-managed/edit-integration-feature-settings/) page where you can change the feature settings of the selected integration.
+Opens the [Integration feature settings](/git-integration-for-jira-data-center/edit-integration-feature-settings-gij-self-managed/) page where you can change the feature settings of the selected integration.
 
 ### Reset index
 

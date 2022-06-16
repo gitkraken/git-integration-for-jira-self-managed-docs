@@ -1,6 +1,6 @@
 ---
 
-title: Jira issue page - Git Roll Up tab
+title: Git Roll Up tab - Jira issue page
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed

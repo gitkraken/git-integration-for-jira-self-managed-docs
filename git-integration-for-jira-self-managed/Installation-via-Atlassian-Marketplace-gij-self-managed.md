@@ -11,5 +11,5 @@ taxonomy:
     ![](/wp-content/uploads/gij-docs-installation-via-marketplace-buy-trial-git-plugin-c.png)
 2.  Buy or evaluate the app with a free 30 day trial.
 
-3.  Login to your Jira account, if required, to proceed installation of the app. The license key is automatically configured into the app configuration for free trial licenses. For purchased license keys, see [Managing license key](/git-integration-for-jira-self-managed/managing-license-key).
+3.  Login to your Jira account, if required, to proceed installation of the app. The license key is automatically configured into the app configuration for free trial licenses. For purchased license keys, see [Managing license key](/git-integration-for-jira-data-center/managing-license-key/).
 

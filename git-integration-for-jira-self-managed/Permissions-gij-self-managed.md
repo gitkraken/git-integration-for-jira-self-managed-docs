@@ -14,8 +14,8 @@ taxonomy:
     </div>
     <div class="imsgbox">
         <b>VERSION 4.0+</b> We are dropping support for Jira 7.x.x.<br>
-        <b>VERSION 2.13.0+</b> We are dropping support for Java 7, Jira 6.3 and 6.4.<br>
-        <b>VERSION 3.5.1+</b> Dropped support for Internet Explorer 11 browser.
+        <b>VERSION 3.5.1+</b> Dropped support for Internet Explorer 11 browser.<br>
+        <b>VERSION 2.13.0+</b> We are dropping support for Java 7, Jira 6.3 and 6.4.
     </div>
     </div>
 </div>

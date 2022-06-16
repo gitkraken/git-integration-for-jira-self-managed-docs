@@ -15,7 +15,7 @@ Perform the following steps to reconfigure repositories and SSH key:
 
 3.  Get the private key file from your Jira server to your Windows workstation: `/home/jira/.ssh/id_rsa`
 
-4.  [Open the Connect wizard](/git-integration-for-jira-self-managed/using-the-connect-repository-wizard), use the repository location (git clone URL) and then upload the private key stated above.
+4.  [Open the Connect wizard](/git-integration-for-jira-data-center/using-the-connect-repository-wizard-gij-self-managed), use the repository location (git clone URL) and then upload the private key stated above.
 
-For multiple repository configuration, see [Bulk change](/git-integration-for-jira-self-managed/Bulk-change).
+For multiple repository configuration, see [Bulk change](/git-integration-for-jira-data-center/bulk-change-gij-self-managed/).
 

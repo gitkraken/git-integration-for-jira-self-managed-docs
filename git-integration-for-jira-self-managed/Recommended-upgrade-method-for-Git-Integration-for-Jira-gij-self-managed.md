@@ -42,14 +42,14 @@ Make sure to do a backup of the Git repositories connection configuration.
 
     *   On your Jira dashboard menu Git ➜ **Manage repositories**.
 
-    *   Click the **Bulk Change** button drop down then select **1\. Export configuration**. For detailed steps, see [Bulk Change - Export Configuration](/git-integration-for-jira-self-managed/exporting-repository-configuration-via-bulk-change/).
+    *   Click the **Bulk Change** button drop down then select **1\. Export configuration**. For detailed steps, see [Bulk Change - Export Configuration](/git-integration-for-jira-data-center/exporting-repository-configuration-via-bulk-change-gij-self-managed/).
 
         ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396509/bulk-export-loc-test(c).png?version=1&modificationDate=1630642797003&cacheVersion=1&api=v2)
 2.  Make sure that you have all the required SSH keys uploaded to the Git Integration for Jira app
 
     *   On your Jira dashboard, go to menu Git ➜ **Manage repositories**.
 
-    *   Click **SSH keys** on the sidebar. This will make seamless connection of the SSH git repositories to Jira via [Bulk Change - Import Configuration](/git-integration-for-jira-self-managed/import-existing-repositories-via-bulk-change/).
+    *   Click **SSH keys** on the sidebar. This will make seamless connection of the SSH git repositories to Jira via [Bulk Change - Import Configuration](/git-integration-for-jira-data-center/import-existing-repositories-via-bulk-change-gij-self-managed/).
 
         ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396509/add-ssh-key-loc-test(c).png?version=1&modificationDate=1630642797244&cacheVersion=1&api=v2)
 
@@ -59,7 +59,7 @@ Make sure to do a backup of the Git repositories connection configuration.
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        If you have several large repositories and have a problem with exceeded timeout, we recommend that you use our <a href='/git-integration-for-jira-self-managed/tracked-folders/'>Tracked folders integration</a> feature to scan local folders at once and import repositories automatically.
+        If you have several large repositories and have a problem with exceeded timeout, we recommend that you use our <a href='/git-integration-for-jira-data-center/tracked-folders-gij-self-managed/'>Tracked folders integration</a> feature to scan local folders at once and import repositories automatically.
     </div>
     </div>
 </div>
@@ -71,7 +71,7 @@ Another option is to completely uninstall then reinstall the Git for Jira app. 
 
 1.  Backup the Git repositories configuration via the Git for Jira app Bulk Export.
 
-2.  Fully uninstall the Git Integration for Jira app  – follow [these instructions](/git-integration-for-jira-self-managed/uninstall-and-reinstall/).
+2.  Fully uninstall the Git Integration for Jira app  – follow [these instructions](/git-integration-for-jira-data-center/uninstall-and-reinstall-gij-self-managed/).
 
 3.  Install the Git Integration for Jira app via UPM.
 

@@ -1,22 +1,41 @@
 ---
 
-title: Issue Git integration panel
+title: Issue Git integration panel - Features
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed
 
 ---
 
-**Note**
-By default, [Git Integration for Jira](https://marketplace.atlassian.com/4984) has the Git integration panel enabled. (How to disable)
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Note</b><br>
+        By default, <a href='https://marketplace.atlassian.com/4984'>Git Integration for Jira</a> has the Git integration panel enabled. (<a href='#how-can-a-jira-administrator-enable-or-disable-the-issue-git-integration-development-panel'>How to disable?</a>)
+    </div>
+    </div>
+</div>
 
-The **View developer tools** _permission_ is required to view the Issue Git integration panel. Jira users must also have the **Browse Project** _permissions_ to a project associated with a repository to view.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The <b>View developer tools</b> <i>permission</i> is required to view the Issue Git integration panel. Jira users must also have the <b>Browse Project</b> <i>permissions</i> to a project associated with a repository to view.
+    </div>
+    </div>
+</div>
+<br>
 
 ## Overview
 
 The Issue Git integration panel displays:
 
-*   **Git Commits:** number of commits and link to [Git Commits Issue Tab](#), link to [Git Roll Up Issue Tab](#).
+*   **Git Commits:** number of commits and link to [Git Commits Issue Tab](/git-integration-for-jira-data-center/git-commits-tab-gij-self-managed/), link to [Git Roll Up Issue Tab](/git-integration-for-jira-data-center/git-roll-up-tab-docs-gij-self-managed/).
 
 *   **Branches:** Create branch function, list of branches associated to Jira issue (Jira issue key must be in branch title)
 
@@ -31,7 +50,7 @@ The Issue Git integration panel displays:
 
 1.  Install the [Git Integration for Jira](https://marketplace.atlassian.com/4984) app.
 
-2.  Navigate to the [**General settings**](/git-integration-for-jira-self-managed/general-settings-gij-self-managed) page of the application.
+2.  Navigate to the [**General settings**](/git-integration-for-jira-self-managed/general-settings-docs-gij-self-managed) page of the application.
 
 3.  Enable or disable the setting: `Show Git integration panel on issue pages`.
 
@@ -42,3 +61,4 @@ The Issue Git integration panel displays:
 
 **Contact us**
 If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com)
+

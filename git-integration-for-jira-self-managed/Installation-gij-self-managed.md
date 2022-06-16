@@ -1,6 +1,6 @@
 ---
 
-title: Installation
+title: Installation - Documentation
 description:
 taxonomy:
     category: git-integration-for-jira-self-managed
@@ -29,7 +29,7 @@ If the Git server and Jira server are installed on the same server, only the pat
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        If you have the previous version of the Git Integration app and will upgrade to <b>v4.0+</b>, all existing repositories in the app configuration will have the <b>Repository Browser</b> feature <b>turned off</b> by default. For more information about this feature and how to enable it, see <a href="/git-integration-for-jira-self-managed/Repository-Browser">Repository Browser</a>.
+        If you have the previous version of the Git Integration app and will upgrade to <b>v4.0+</b>, all existing repositories in the app configuration will have the <b>Repository Browser</b> feature <b>turned off</b> by default. For more information about this feature and how to enable it, see <a href="/git-integration-for-jira-data-center/repository-browser/">Repository Browser</a>.
     </div>
     </div>
 </div>
