@@ -3,7 +3,7 @@
 title: Scripting (Jira git workflow hooks)
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 

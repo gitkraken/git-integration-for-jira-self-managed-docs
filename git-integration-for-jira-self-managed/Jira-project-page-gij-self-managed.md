@@ -3,7 +3,7 @@
 title: Jira project page
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 The Project page allows you to manage project related options.

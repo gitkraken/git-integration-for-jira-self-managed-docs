@@ -3,7 +3,7 @@
 title: Retrieve Integration List
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Retrieves the list of integrations and their respective parameter details from the git repository configuration.

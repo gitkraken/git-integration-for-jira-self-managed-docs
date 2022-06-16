@@ -3,7 +3,7 @@
 title: Git notes
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 The Git Integration for Jira app displays [**git notes**](https://git-scm.com/docs/git-notes) in the **Git Commits** tab:

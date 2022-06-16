@@ -3,7 +3,7 @@
 title: Installation
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Install our product via the Atlassian Marketplace, Jira Plugin Manager or with manual installation (using the Upload method).

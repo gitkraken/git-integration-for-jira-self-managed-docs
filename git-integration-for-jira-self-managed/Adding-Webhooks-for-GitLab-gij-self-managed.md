@@ -3,7 +3,7 @@
 title: Adding Webhooks for GitLab
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 

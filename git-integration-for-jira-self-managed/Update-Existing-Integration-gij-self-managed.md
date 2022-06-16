@@ -3,7 +3,7 @@
 title: Update Existing Integration
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Updates the existing parameters of the specified integration.

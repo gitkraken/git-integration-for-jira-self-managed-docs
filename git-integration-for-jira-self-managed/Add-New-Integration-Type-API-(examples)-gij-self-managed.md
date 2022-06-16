@@ -3,7 +3,7 @@
 title: Add New Integration Type API (examples)
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Only Jira admins can perform the Add New Integration Type API call.

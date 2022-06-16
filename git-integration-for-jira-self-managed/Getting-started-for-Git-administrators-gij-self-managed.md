@@ -3,7 +3,7 @@
 title: Getting started for Git administrators
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 ![](/wp-content/uploads/gij-docs-introduction-bbb-overview_708.png)

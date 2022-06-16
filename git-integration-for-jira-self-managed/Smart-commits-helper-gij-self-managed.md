@@ -3,7 +3,7 @@
 title: Smart commits helper
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 The smart commit helper is available at the following locations in Jira:

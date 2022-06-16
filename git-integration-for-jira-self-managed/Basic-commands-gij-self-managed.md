@@ -3,7 +3,7 @@
 title: Smart commits -- Basic commands
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 There are smart commits commands that you can use in your commit messages. Read on to learn more details on each smart commit command and how they work.

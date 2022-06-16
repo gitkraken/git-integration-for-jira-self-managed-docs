@@ -3,7 +3,7 @@
 title: Source Code Diff Viewing general setting
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 For detailed information on this feature, see [Documentation: Viewing commit code diffs](/git-integration-for-jira-self-managed/viewing-commit-code-diffs-gij-self-managed).

@@ -3,7 +3,7 @@
 title: Reindex POST API
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Starts the reindex process in a separate thread and returns the result immediately.

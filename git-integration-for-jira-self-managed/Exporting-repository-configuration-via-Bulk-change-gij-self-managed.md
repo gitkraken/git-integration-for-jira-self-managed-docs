@@ -3,7 +3,7 @@
 title: Exporting repository configuration via Bulk change
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930397830/gitserver-gitcfg-bulk-change-menu-export.png?version=1&modificationDate=1630642860715&cacheVersion=1&api=v2)

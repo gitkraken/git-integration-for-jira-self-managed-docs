@@ -3,7 +3,7 @@
 title: Add New Integration
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Adds a new integration to the git configuration list via the API call.

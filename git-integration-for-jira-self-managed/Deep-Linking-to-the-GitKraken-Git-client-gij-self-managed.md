@@ -3,7 +3,7 @@
 title: Deep Linking to the GitKraken Git client
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 NEW FEATURE

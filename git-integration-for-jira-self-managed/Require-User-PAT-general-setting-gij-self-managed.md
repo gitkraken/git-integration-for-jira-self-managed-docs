@@ -3,7 +3,7 @@
 title: Require User PAT general setting
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 For detailed information on this feature, see [Documentation: Require user personal access tokens for branch and PR/MR creation](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed).

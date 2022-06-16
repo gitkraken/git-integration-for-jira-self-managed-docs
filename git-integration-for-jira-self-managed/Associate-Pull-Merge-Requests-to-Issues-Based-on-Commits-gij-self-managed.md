@@ -3,7 +3,7 @@
 title: Associate Pull/Merge Requests to Issues Based on Commits
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 GIT INTEGRATION: JIRA DATA CENTER

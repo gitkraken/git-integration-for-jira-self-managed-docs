@@ -3,7 +3,7 @@
 title: Removing integration or repository configuration
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Delete a repository or integration if it isn't needed or is broken in the Git Integration for Jira app configuration list.

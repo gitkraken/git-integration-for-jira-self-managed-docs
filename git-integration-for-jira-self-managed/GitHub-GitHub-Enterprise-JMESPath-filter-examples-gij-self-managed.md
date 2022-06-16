@@ -3,7 +3,7 @@
 title: GitHub.com | GitHub Enterprise JMESPath filter examples
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1353482464/github-mobile-customv4.png?version=1&modificationDate=1615470904035&cacheVersion=1&api=v2&width=226&height=53)

@@ -3,7 +3,7 @@
 title: Azure DevOps | Visual Studio Team Services (VSTS)
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 
@@ -64,7 +64,7 @@ Set Azure DevOps/VSTS repository permissions according to your organization's r
 
 ## Creating personal access tokens for Azure DevOps/VSTS account
 
-Connecting to Azure DevOps / VSTS account requires personal access token to work. If you have not yet generated a personal access token (PAT), create your token by following the steps outlined [in this article.](/git-integration-for-jira-self-managed/creating-personal-access-tokens-gij-self-managed#azure-devops-visual-studio-team-services-vsts/)
+Connecting to Azure DevOps / VSTS account requires personal access token to work. If you have not yet generated a personal access token (PAT), create your token by following the steps outlined [in this article.](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed#azure-devops-visual-studio-team-services-vsts/)
 
 ## Using Full feature integration
 
@@ -124,11 +124,11 @@ We recommend using the Add new integration panel to connect multiple repositorie
 6.  After the import process, the **Settings** dialog is displayed.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/80805899/gitserver-github-autoconnect-settings-dlg(c).png?version=1&modificationDate=1638876141633&cacheVersion=1&api=v2&width=646&height=449)
-    1.  On the Integration Settings, setting the _**Require User PAT**_ option to `ON`, will require users to provide PAT specific for branch and merge requests _(via the developer panel on the Jira issue page)_.  For more information on this feature, see [Integration Settings: Require User PAT](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/).
+    1.  On the Integration Settings, setting the _**Require User PAT**_ option to `ON`, will require users to provide PAT specific for branch and merge requests _(via the developer panel on the Jira issue page)_.  For more information on this feature, see [Integration Settings: Require User PAT](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/).
 
     2.  Set **Smart commits** and **Repository Browser** to enable/disable these features.
 
-    3.  Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Associating project permissions](/git-integration-for-jira-self-managed/associating-project-permissions-gij-self-managed/).
+    3.  Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Associating project permissions](/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed/).
 
 7.  Click **Finish** to complete this setup.
 
@@ -206,9 +206,9 @@ The Git Integration for Jira app automatically configures web linking for Azure 
     </div>
 </div>
 
-For detailed step-by-step guide showcasing the webhooks setup, [see this article](/git-integration-for-jira-self-managed/Adding-Webhooks-for-Azure-DevOps-Repos-VSTS-gij-self-managed/).
+For detailed step-by-step guide showcasing the webhooks setup, [see this article](/git-integration-for-jira-data-center/Adding-Webhooks-for-Azure-DevOps-Repos-VSTS-gij-self-managed/).
 
-For single repository connections, web link setup is optional. However, git links will become available in Git Commits tab when configured. For more information on this feature, see [Documentation: Web linking](/git-integration-for-jira-self-managed/web-linking-gij-self-managed).
+For single repository connections, web link setup is optional. However, git links will become available in Git Commits tab when configured. For more information on this feature, see [Documentation: Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed).
 
 ## Linking Azure DevOps/VSTS git commits to Jira Data Center/Server
 
@@ -248,7 +248,7 @@ This process requires a Azure DevOps/VSTS git repository.
 4.  Click **View full commit** to view the code diff.
 
 
-For more information on this feature, see [Documentation: Viewing commit code diffs](/git-integration-for-jira-self-managed/viewing-commit-code-diffs-gij-self-managed/).
+For more information on this feature, see [Documentation: Viewing commit code diffs](/git-integration-for-jira-data-center/viewing-commit-code-diffs-gij-self-managed/).
 
 ## Working with branches and pull requests
 
@@ -274,7 +274,7 @@ Most git integrations allow changing of the default branch of the repository/pro
 
 1.  On your Jira Server, open a Jira issue. 
 
-2.  On the [Jira Git integration development panel](/git-integration-for-jira-self-managed/jira-git-integration-development-panel-gij-self-managed/), go to **Git integration** section then click **Create branch**. The following dialog is displayed.
+2.  On the [Jira Git integration development panel](/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed/), go to **Git integration** section then click **Create branch**. The following dialog is displayed.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/80805899/gitserver-create-branch-dlg-azure-off(c).png?version=1&modificationDate=1638876141651&cacheVersion=1&api=v2&width=578&height=318)
 
@@ -284,7 +284,7 @@ Most git integrations allow changing of the default branch of the repository/pro
 
     -  Enter a **Branch name** or leave it as is (recommended).
 
-    -  If the [Require User PAT option](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/) is enabled in the **Integration Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead.
+    -  If the [Require User PAT option](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/) is enabled in the **Integration Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead.
 
         ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/80805899/gitserver-create-branch-dlg-azure-github-reqPAT(c).png?version=1&modificationDate=1638876141654&cacheVersion=1&api=v2&width=510&height=281)
 

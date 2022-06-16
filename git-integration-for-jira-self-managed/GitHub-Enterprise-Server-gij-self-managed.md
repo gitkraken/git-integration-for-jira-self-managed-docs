@@ -3,7 +3,7 @@
 title: GitHub Enterprise Server
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 
@@ -43,12 +43,12 @@ taxonomy:
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91914350/github-ent-server-banner-logo.png?version=1&modificationDate=1646819881183&cacheVersion=1&api=v2&width=510&height=59)
 
-# Integrate GitHub Enterprise Server with Jira Server
+# Integrate GitHub Enterprise Server with Jira Data Center/Server
 
 Quickly learn how to connect GitHub Enterprise Server git repositories via Git Integration for Jira Server.
 
 **What's on this page:**
-- [Integrate GitHub Enterprise Server with Jira Server](#integrate-github-enterprise-server-with-jira-server)
+- [Integrate GitHub Enterprise Server with Jira Data Center/Server](#integrate-github-enterprise-server-with-jira-data-centerserver)
   - [Creating a personal access token](#creating-a-personal-access-token)
   - [Using Full feature integration](#using-full-feature-integration)
   - [Single repository (Manual integration)](#single-repository-manual-integration)

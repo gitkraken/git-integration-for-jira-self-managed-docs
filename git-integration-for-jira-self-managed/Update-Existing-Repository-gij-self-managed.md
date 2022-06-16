@@ -3,7 +3,7 @@
 title: Update Existing Repository
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Updates the existing repository from the given settings.

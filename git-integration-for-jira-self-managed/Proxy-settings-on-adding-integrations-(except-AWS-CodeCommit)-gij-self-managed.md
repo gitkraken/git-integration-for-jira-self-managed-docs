@@ -3,7 +3,7 @@
 title: Proxy settings on adding integrations (except AWS CodeCommit)
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 ## Proxy settings for Jira

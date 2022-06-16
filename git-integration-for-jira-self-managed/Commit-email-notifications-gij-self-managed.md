@@ -3,7 +3,7 @@
 title: Commit email notifications
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 This feature is available starting **v2.6.29+** of the Git Integration for Jira app.

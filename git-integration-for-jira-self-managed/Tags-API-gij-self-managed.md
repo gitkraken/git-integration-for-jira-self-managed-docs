@@ -3,7 +3,7 @@
 title: Tags API
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 The Tag REST API returns several latest tags for the issue.  Tags are sorted in chronological order from newest to oldest.

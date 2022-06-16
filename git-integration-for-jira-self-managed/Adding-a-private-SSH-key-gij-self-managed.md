@@ -3,7 +3,7 @@
 title: Adding a private SSH key
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 ![Manage git integration for jira highlighting sidebar SSH keys menu item](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396698/gitserver-add-ssh-keys.png?version=1&modificationDate=1630642802720&cacheVersion=1&api=v2)

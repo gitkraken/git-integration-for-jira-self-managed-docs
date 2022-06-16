@@ -3,7 +3,7 @@
 title: Self-signed HTTPS integration
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 **INTRODUCED IN VERSION 2.11.2**

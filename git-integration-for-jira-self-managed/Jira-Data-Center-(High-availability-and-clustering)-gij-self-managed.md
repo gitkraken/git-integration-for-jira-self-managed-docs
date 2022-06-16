@@ -3,7 +3,7 @@
 title: Jira Data Center (High availability and clustering)
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 As of **v2.6.12+** of the Git Integration for Jira app, the Data Center version of Jira is supported. Jira 6.3 or higher is required for Data Center editions of Jira.

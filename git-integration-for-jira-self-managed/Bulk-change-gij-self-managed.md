@@ -3,7 +3,7 @@
 title: Bulk change
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397801/gitserver-gitcfg-bulk-change.png?version=1&modificationDate=1630642858869&cacheVersion=1&api=v2&width=680&height=336)
