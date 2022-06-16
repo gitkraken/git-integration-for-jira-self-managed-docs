@@ -3,7 +3,7 @@
 title: Editing existing repository settings in the TSV File
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Navigate to the .tsv file and edit it with your favorite spreadsheet program.

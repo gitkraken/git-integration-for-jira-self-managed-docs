@@ -3,7 +3,7 @@
 title: Get Commit Issue Changes
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Returns the list of issues associated with the commit from the specified repository.

@@ -3,7 +3,7 @@
 title: Jira issue page - Git Roll Up tab
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 The Git Roll Up tab now allows users to view the code diff between the base and the compare versions.

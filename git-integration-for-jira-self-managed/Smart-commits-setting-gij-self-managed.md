@@ -3,7 +3,7 @@
 title: Smart commits setting
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 JIRA SERVER ONLY JIRA DATA CENTER ONLY

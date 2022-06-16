@@ -3,7 +3,7 @@
 title: Adding a repository hosted on Windows Server or Windows Network share
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Add a new network share or Windows server hosted repository via the Connect to Git Repository wizard ➜ **Advanced setup**.

@@ -3,7 +3,7 @@
 title: Git Services Support Page and End-of-Life Policies
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Git Integration for Jira app currently supports all the cloud hosted versions and the officially supported versions of the self-hosted git services:

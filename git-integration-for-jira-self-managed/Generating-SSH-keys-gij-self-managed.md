@@ -3,7 +3,7 @@
 title: Generating SSH keys
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Configure and generate SSH keys for the following git hosting systems by following the reference links on each sub-section:

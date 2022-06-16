@@ -3,7 +3,7 @@
 title: Retrieve an Integration
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Retrieves the parameter details of an integration from the git repository configuration.

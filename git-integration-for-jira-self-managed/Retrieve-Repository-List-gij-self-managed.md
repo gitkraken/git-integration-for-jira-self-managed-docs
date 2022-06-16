@@ -3,7 +3,7 @@
 title: Retrieve Repository List
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Retrieves list of repositories mapped to a given project.

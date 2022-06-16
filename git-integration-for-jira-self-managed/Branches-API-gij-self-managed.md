@@ -3,7 +3,7 @@
 title: Branches API
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 The Branches REST API will obtain list of branches associated to a Jira issue.

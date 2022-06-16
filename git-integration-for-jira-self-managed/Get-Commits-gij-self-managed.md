@@ -3,7 +3,7 @@
 title: Get Commits
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Call the Get Commits REST API to obtain commit information associated with an issue.

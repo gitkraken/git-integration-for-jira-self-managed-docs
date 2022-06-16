@@ -3,7 +3,7 @@
 title: Jira issue page
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 If the Git Integration for Jira app is configured and licensed successfully, new tabs are added to each Jira issue.

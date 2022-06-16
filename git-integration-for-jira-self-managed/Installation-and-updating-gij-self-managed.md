@@ -3,7 +3,7 @@
 title: Installation and updating
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 For upgrade installations, it can be easily done via Universal Plugin Manager (**Manage apps**).

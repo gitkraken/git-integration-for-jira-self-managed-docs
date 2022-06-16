@@ -3,7 +3,7 @@
 title: Setting up repositories
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Setup repositories and manage them in the Git Integration app configuration in Jira.

@@ -3,7 +3,7 @@
 title: How do I configure/connect an SSH remote git repository to Jira?
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 In Jira, use the **Connect to Git Repository** wizard to configure SSH integration with any remote git repositories.

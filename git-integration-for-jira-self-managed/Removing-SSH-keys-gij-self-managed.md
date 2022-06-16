@@ -3,7 +3,7 @@
 title: Removing SSH keys
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 SSH keys cannot be modified or updated. To change the keys, remove and add them again.

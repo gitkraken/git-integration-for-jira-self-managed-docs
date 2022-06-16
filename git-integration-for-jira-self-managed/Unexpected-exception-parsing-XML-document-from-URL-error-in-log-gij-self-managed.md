@@ -3,7 +3,7 @@
 title: Unexpected exception parsing XML document from URL error in log
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 ## Problem

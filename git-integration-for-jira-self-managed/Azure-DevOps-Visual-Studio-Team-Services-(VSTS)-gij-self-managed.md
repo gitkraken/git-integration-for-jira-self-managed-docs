@@ -3,7 +3,7 @@
 title: Azure DevOps | Visual Studio Team Services (VSTS)
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 

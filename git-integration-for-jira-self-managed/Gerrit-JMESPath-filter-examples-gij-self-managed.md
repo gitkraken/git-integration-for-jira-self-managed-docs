@@ -3,7 +3,7 @@
 title: Gerrit JMESPath filter examples
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1897431057/gerrit-banner-logo.png?version=1&modificationDate=1628757509971&cacheVersion=1&api=v2&width=226&height=93)

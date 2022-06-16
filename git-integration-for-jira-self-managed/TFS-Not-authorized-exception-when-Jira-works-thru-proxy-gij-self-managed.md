@@ -3,7 +3,7 @@
 title: TFS - Not authorized exception when Jira works thru proxy
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 ## Problem
