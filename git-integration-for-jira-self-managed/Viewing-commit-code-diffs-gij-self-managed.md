@@ -3,7 +3,7 @@
 title: Viewing commit code diffs
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Access the commit code diff dialog via the following locations:

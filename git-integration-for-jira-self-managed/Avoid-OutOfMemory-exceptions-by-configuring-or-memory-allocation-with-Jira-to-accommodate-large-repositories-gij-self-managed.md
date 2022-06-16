@@ -3,7 +3,7 @@
 title: Avoid OutOfMemory exceptions by configuring or memory allocation with Jira to accommodate large repositories
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 

@@ -3,7 +3,7 @@
 title: Jira user information card
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 The Jira user card is available on the following screens:

@@ -3,7 +3,7 @@
 title: Bitbucket Server/Cloud EOL Support Policy
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 What’s on this page:

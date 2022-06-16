@@ -3,7 +3,7 @@
 title: Installation and setup
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 This page contains solutions related to Git Integration for JIRA app installation.

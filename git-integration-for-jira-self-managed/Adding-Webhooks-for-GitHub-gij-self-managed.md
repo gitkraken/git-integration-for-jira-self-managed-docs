@@ -3,7 +3,7 @@
 title: Adding Webhooks for GitHub
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Pull request webhooks are now supported. See details on this page.

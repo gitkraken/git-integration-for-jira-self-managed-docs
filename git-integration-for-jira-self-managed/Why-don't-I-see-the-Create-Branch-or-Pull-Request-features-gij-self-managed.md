@@ -3,7 +3,7 @@
 title: Why don't I see the Create Branch or Pull Request features?
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 ## Problem

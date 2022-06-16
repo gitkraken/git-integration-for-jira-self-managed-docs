@@ -3,7 +3,7 @@
 title: Managing integration via Actions
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 After integrating your repository or git host, a set of actions can be performed by clicking the ![](/wp-content/uploads/actions-icon.png) icon under the **Actions** column on the repository/integration configuration list.

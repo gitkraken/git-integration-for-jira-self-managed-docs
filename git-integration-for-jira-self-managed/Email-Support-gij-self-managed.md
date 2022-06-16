@@ -3,7 +3,7 @@
 title: Email Support
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 If you need help with the Git Integration for Jira app, please e-mail us: [support@bigbrassband.com](mailto:support@bigbrassband.com).

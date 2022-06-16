@@ -3,7 +3,7 @@
 title: Tracked Folders JMESPath filter examples
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1349452162/tracked-folder-mobile-custom3.png?version=1&modificationDate=1615471430424&cacheVersion=1&api=v2&width=340&height=76)

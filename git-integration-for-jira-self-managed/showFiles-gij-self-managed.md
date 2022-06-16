@@ -3,7 +3,7 @@
 title: showFiles
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Extend the Commits REST API to review which files changed related to a specific Jira issue by adding `?showfiles=[true|false]` as an optional parameter.

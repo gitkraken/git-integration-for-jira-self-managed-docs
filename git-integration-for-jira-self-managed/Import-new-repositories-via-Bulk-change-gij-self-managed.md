@@ -3,7 +3,7 @@
 title: Import new repositories via Bulk change
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Before you can add new repository configuration via bulk change, you need to download the template file:

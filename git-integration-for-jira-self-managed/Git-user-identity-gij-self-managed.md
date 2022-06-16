@@ -3,7 +3,7 @@
 title: Git user identity
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 A git user can identify himself on his local computer using the following commands:

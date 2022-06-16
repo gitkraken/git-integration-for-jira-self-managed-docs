@@ -3,7 +3,7 @@
 title: Microsoft | VSTS | TFS | Azure Repos JMESPath filter examples
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1352663519/azure2.png?version=1&modificationDate=1615471241670&cacheVersion=1&api=v2&width=340&height=57)

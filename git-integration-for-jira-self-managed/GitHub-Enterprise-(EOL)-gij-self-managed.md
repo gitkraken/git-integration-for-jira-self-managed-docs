@@ -3,7 +3,7 @@
 title: GitHub Enterprise (EOL)
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 The End-of-life (EOL) for a major release of GitHub Enterprise server is generally one year following its release date.

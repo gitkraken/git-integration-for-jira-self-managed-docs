@@ -3,7 +3,7 @@
 title: Azure DevOps Server Lifecycle Policies
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 For information on product lifecycle and policies, see the topic links below:

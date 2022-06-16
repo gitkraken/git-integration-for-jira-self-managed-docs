@@ -3,7 +3,7 @@
 title: Integration API
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Add or manage one or more repositories/integrations using the Integration REST API.

@@ -3,7 +3,7 @@
 title: Discard cloned files in Jira Home directory (General setting)
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396547/gitserver-discard-cloned-files-gencfg.png?version=1&modificationDate=1630642798827&cacheVersion=1&api=v2)

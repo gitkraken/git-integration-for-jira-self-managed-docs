@@ -3,7 +3,7 @@
 title: General settings - Documentation
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 The General settings page is only accessible to Jira Administrators.

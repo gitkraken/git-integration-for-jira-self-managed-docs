@@ -3,7 +3,7 @@
 title: Windows Network | Server Share
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 ![](https://bigbrassband.com/confluence/images/win-network-server-share-banner-logo.png)

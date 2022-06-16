@@ -3,7 +3,7 @@
 title: SSH key file format is invalid
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 ## Problem

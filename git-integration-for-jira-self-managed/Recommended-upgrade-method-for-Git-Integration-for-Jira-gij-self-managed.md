@@ -3,7 +3,7 @@
 title: Recommended upgrade method for Git Integration for Jira
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 

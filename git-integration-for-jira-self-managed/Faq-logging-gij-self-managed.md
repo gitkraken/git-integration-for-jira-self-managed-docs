@@ -3,7 +3,7 @@
 title: Logging - FAQ
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 This page contains related questions about troubleshooting using Jira logs.

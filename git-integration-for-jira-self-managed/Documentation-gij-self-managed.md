@@ -3,7 +3,7 @@
 title: Documentation
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930395770/git-for-jira-landing-pages-title-banner.png?version=1&modificationDate=1630642766899&cacheVersion=1&api=v2&width=660&height=159)

@@ -3,7 +3,7 @@
 title: Installation via Jira Plugin Manager
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 1.  On your Jira dashboard, go to  Jira Administration ➜ **Manage apps**.

@@ -3,7 +3,7 @@
 title: Per Node Repository Indexing - General setting
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 <div style='color: yellow'><b>NEW FEATURE</b></div>

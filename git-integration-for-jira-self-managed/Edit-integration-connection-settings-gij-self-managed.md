@@ -3,7 +3,7 @@
 title: Edit integration connection settings
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397536/gitcfg-actions-edit-repo-conn-cfg.png?version=1&modificationDate=1630642845462&cacheVersion=1&api=v2&width=680&height=213)

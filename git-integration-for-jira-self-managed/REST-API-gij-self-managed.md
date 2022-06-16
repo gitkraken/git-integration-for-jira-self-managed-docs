@@ -3,7 +3,7 @@
 title: REST API
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Welcome to the Git Integration for Jira app REST API reference page index.

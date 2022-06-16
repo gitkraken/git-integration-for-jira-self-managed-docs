@@ -3,7 +3,7 @@
 title: User profile settings
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 By default, Jira email notification format is text-only.

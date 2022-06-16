@@ -3,7 +3,7 @@
 title: Bulk Import
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Starts the process of importing configuration and returns the result at once.

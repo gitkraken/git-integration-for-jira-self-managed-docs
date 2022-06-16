@@ -3,7 +3,7 @@
 title: Integration basics - Connecting to a single git repository (HTTPS | SSH)
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/2044035207/gitlab-repository-home.png?version=1&modificationDate=1640790600104&cacheVersion=1&api=v2)

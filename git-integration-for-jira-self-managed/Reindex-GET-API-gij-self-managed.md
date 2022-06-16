@@ -3,7 +3,7 @@
 title: Reindex GET API
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Use this method to track messages for a particular thread.

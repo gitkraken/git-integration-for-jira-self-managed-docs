@@ -3,7 +3,7 @@
 title: Reconfigure Git repositories and SSH keys
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 

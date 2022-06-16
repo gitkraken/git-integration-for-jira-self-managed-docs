@@ -3,7 +3,7 @@
 title: Managing repository or integration configuration
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Manage connected repositories or integration via the ![](/wp-content/uploads/actions-icon.png) **Actions** commands on the git configuration page.

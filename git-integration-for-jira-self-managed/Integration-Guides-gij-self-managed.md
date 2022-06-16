@@ -3,7 +3,7 @@
 title: Integration Guides
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Welcome to the Git Integration for Jira app reference page index for topics about integration of git repositories to Jira Data Center.

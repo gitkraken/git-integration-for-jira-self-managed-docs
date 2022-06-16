@@ -3,7 +3,7 @@
 title: Development panel locations
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 ## Issue and Search pages

@@ -3,7 +3,7 @@
 title: Require Personal Access Tokens for user actions (create branch/pull request)
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 

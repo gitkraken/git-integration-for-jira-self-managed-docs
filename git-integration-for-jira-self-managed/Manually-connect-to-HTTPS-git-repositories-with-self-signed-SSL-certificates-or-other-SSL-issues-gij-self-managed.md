@@ -3,7 +3,7 @@
 title: Manually connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 When connecting to a private HTTPS git repository, a problem may be caused by a custom (self-signed) certificate. Make sure to install the latest JRE and then change the `JAVA_HOME` of Jira server.

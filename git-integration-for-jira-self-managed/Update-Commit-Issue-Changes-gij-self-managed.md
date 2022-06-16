@@ -3,7 +3,7 @@
 title: Update Commit Issue Changes
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Updates the list of issues associated with the commit to the specified repository.

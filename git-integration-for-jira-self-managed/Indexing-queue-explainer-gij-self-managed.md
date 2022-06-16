@@ -3,7 +3,7 @@
 title: Indexing queue explainer - Administration
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Git Integration for Jira (GIJ) Data Center (DC) and Server 4.0 introduces a new reindexing queue based on using the Jira database. This article provides in-depth details about this queue implementation that may be helpful for Jira administrators.

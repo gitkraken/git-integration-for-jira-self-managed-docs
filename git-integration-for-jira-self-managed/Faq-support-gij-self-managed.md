@@ -3,7 +3,7 @@
 title: Support
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 This page contains helpful topics related to Git Integration for Jira app support.

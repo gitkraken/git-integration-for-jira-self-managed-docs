@@ -3,7 +3,7 @@
 title: Reindex API
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 Call the Reindex REST API to have more control on indexing:

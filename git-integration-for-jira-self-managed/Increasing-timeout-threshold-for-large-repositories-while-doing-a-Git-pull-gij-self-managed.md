@@ -3,7 +3,7 @@
 title: Increasing timeout threshold for large repositories while doing a Git pull
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 For this workaround to work, the user must have an access to a Jira hosting instance:

@@ -3,7 +3,7 @@
 title: Why don't I see commits? (Data Center)
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/2041937935/Asset%202@5x_1.png?version=1&modificationDate=1640251774847&cacheVersion=1&api=v2)

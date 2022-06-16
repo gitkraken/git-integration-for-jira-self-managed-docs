@@ -3,7 +3,7 @@
 title: Deprecation notice
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 | **Feature** | **Date** | **Details of ending support, removal or obsolescence** |

@@ -3,7 +3,7 @@
 title: Error while reindexing - Java heap space / Object too large, rejecting the pack
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 

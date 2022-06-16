@@ -3,7 +3,7 @@
 title: Linking git commits to Jira issues
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 To create a link between your Git commit and a Jira issue, developers must include the issue key into the commit comment.

@@ -3,7 +3,7 @@
 title: Setup repository root not located in Jira Home directory
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 There are three possible ways to setup a repository root that is not located in the Jira home directory:

@@ -3,7 +3,7 @@
 title: How to get a quote?
 description:
 taxonomy:
-    category: git-integration-for-jira-self-managed
+    category: git-integration-for-jira-data-center
 
 ---
 
