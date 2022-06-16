@@ -1,6 +1,6 @@
 ---
 
-title: Integration basics - Link git commits to Jira issues
+title:  - Link git commits to Jira issues - Integration basics
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -38,5 +38,5 @@ The git commit will get associated with the Jira issue if the commit message inc
 
 **Git administrator »**
 
-If you want to enforce the commit with a hook, please install this Git commit hook script - [Commit-msg Hook](/git-integration-for-jira-self-managed/commit-msg-Hook).
+If you want to enforce the commit with a hook, please install this Git commit hook script - [Commit-msg Hook](/git-integration-for-jira-data-center/commit-msg-Hook-gij-self-managed/).
 

@@ -14,7 +14,6 @@ Repository is not indexing and errors in Jira logs point to "Too many open files
 
 Jira admins will see a message similar to the one below in the Jira `/application-logs/atlassian-jira.log`:
 
-
 **Error**
 
 ```java

@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 ## Proxy settings for Jira
 
 *   The client should specify **both** `http.proxyXXXX` and `https.proxyXXXX` parameters for Jira.
@@ -30,3 +31,4 @@ etc
 ```
 
 If your connection uses a proxy, you will be able to connect to the chosen integration because all connections will be executed on the remote proxy server. Otherwise, all connections will be executed on your local machine where integration hosts will have incorrect host resolving issue.
+

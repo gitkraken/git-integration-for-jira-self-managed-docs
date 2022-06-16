@@ -85,7 +85,7 @@ _Reference:_ GIT-3889
 
 It is highly required that administrators must select the “**All accessible organizations**” option when creating personal access tokens (PAT). Otherwise, the integration will not work.
 
-Please follow the instructions for creating MS/Azure PATs outlined in our Confluence how-tos [**here**](/git-integration-for-jira-self-managed/creating-personal-access-tokens/).
+Please follow the instructions for creating MS/Azure PATs outlined in our Confluence how-tos [**here**](/git-integration-for-jira-data-center/creating-personal-access-tokens/).
 
 For more information, see the [**official reference for Azure DevOps PAT integration**](https://developercommunity.visualstudio.com/content/problem/902833/azure-devops-personal-access-token-does-).
 

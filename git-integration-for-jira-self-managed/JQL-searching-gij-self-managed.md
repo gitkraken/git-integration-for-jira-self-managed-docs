@@ -46,7 +46,7 @@ You can save the JQL search results to CSV, HTML, XML or Word via **Export**.
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        JQL searching will not work if more than <b>65,000 Jira issues</b> have at least one git commit associated. For more detailed information, see <a href='/git-integration-for-jira-self-managed/known-issues#surpassing-jql-65k-jira-issues-searching-limitation'>Known issues – JQL searching limitation</a>.
+        JQL searching will not work if more than <b>65,000 Jira issues</b> have at least one git commit associated. For more detailed information, see <a href='/git-integration-for-jira-data-center/known-issues-gij-self-managed#surpassing-jql-65k-jira-issues-searching-limitation'>Known issues – JQL searching limitation</a>.
     </div>
     </div>
 </div>

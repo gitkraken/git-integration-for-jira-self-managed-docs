@@ -14,7 +14,7 @@ If the Git Integration for Jira app is configured and licensed successfully, new
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Some features can be switched on and off via <a href='/git-integration-for-jira-self-managed/general-settings-docs/'>General settings</a>:
+        Some features can be switched on and off via <a href='/git-integration-for-jira-data-center/general-settings-docs-gij-self-managed/'>General settings</a>:
         <ul>
             <li>Jira dashboard menu Git ➜ Manage repositories ➜ <i>Git Integration for Jira (sidebar)</i> ➜ <b>General settings</b>.</li>
         </ul>

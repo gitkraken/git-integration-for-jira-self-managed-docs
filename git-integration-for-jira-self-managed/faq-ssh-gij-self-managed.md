@@ -58,7 +58,7 @@ Do note that when generating the key pair for use with Git Integration for Jira 
 
 *   The generated SSH key must use the OpenSSL PEM storage format.
 
-    For more information on SSH connection issues, see article [SSH key format is invalid](/git-integration-for-jira-self-managed/ssh-key-file-format-is-invalid-gij-self-managed/).
+    For more information on SSH connection issues, see article [SSH key format is invalid](/git-integration-for-jira-data-center/ssh-key-file-format-is-invalid-gij-self-managed/).
 
 #### Linux/MacOs
 

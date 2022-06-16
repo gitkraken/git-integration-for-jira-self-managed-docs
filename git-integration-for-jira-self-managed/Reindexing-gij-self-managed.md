@@ -62,7 +62,7 @@ There are two ways to do this:
     </div>
     <div class="imsgbox">
         <b>Reindex API</b><br>
-        For advanced administrators who want to have more control on reindex, see the <a href='/git-integration-for-jira-self-managed/Reindex-API'>Git Integration for Jira Reindex API</a>.
+        For advanced administrators who want to have more control on reindex, see the <a href='/git-integration-for-jira-data-center/Reindex-API-gij-self-managed/'>Git Integration for Jira Reindex API</a>.
     </div>
     </div>
 </div>
@@ -85,7 +85,7 @@ There are two ways to do this:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The Repository Reindex (<b><i>GitRevisionIndexerJob</i></b>) can be configured in the <a href='/git-integration-for-jira-self-managed/General-settings'>General settings</a> page of the Git Integration for Jira app.
+        The Repository Reindex (<b><i>GitRevisionIndexerJob</i></b>) can be configured in the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed/'>General settings</a> page of the Git Integration for Jira app.
     </div>
     </div>
 </div>
@@ -103,7 +103,7 @@ On the Manage git repositories page, click <img src='https://pf-emoji-service--c
 
 The Git Integration for Jira app automatically changes the **updatedDate** of an issue when a Git commit is added to an issue upon reindex. When the reindex encounters a commit previously modified by the user relating to an issue, that issue will be updated.
 
-You can enable or disable this setting in the [Git Integration for Jira app - General Settings](/git-integration-for-jira-self-managed/General-settings) page ➜ **Jira Issue Updates**.
+You can enable or disable this setting in the [Git Integration for Jira app - General Settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed/) page ➜ **Jira Issue Updates**.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399289/gitserver-gencfg-last-updated-field.png?version=1&modificationDate=1630642931102&cacheVersion=1&api=v2&width=557&height=386)
 
@@ -132,7 +132,7 @@ Starting v3.6+ of the Git Integration for Jira app, indexer will show an error m
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Cancelling indexing from the Git Integration admin interface is not currently possible. See <a href='/git-integration-for-jira-self-managed/Known-issues#fully-cancelling-an-ongoing-indexing-is-not-possible'>workaround in the Known issues page</a>.
+        Cancelling indexing from the Git Integration admin interface is not currently possible. See <a href='/git-integration-for-jira-data-center/Known-issues-gij-self-managed#fully-cancelling-an-ongoing-indexing-is-not-possible'>workaround in the Known issues page</a>.
     </div>
     </div>
 </div>

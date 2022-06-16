@@ -1,6 +1,6 @@
 ---
 
-title: Introduction
+title: Introduction - Documentation
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -22,7 +22,7 @@ The Git Integration for Jira app is available for Jira Server, Jira Data Center 
 
 Click on a topic on the sidebar or continue immediately to the next article by clicking the next topic link at the bottom of the page.
 
-For permissions requirement, see [App platform and system permissions requirement](/git-integration-for-jira-self-managed/Permissions).
+For permissions requirement, see [App platform and system permissions requirement](/git-integration-for-jira-data-center/permissions-gij-self-managed/).
 <br>
 <br>
 

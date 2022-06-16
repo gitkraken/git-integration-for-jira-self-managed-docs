@@ -115,7 +115,7 @@ For more information, see [**GitLab Permissions »**](https://docs.gitlab.com/e
     </div>
 </div>
 
-While instructions from GitLab works just fine, [follow this article](/git-integration-for-jira-self-managed/creating-personal-access-tokens-gij-self-managed#gitlab--gitlab-ceee/) for some specific instructions to get you started.
+While instructions from GitLab works just fine, [follow this article](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed#gitlab--gitlab-ceee/) for some specific instructions to get you started.
 
 ## Using Full feature integration
 
@@ -140,7 +140,7 @@ We recommend using the Add new integration panel to connect multiple repositori
         *   **Custom API Path**  –  his is a relative path that starts with "/". The maximum allowed length is 2000 characters or less. The integration will use the relative REST API path to retrieve the list of tracked repositories.
 
             For more information on GitLab custom API paths, see **GitLab API**.
-            For more GitLab.com examples, see article [Working with Custom API Path](/git-integration-for-jira-self-managed/working-with-custom-api-path-gij-self-managed#gitlab--gitlab-ceee/).
+            For more GitLab.com examples, see article [Working with Custom API Path](/git-integration-for-jira-data-center/working-with-custom-api-path-gij-self-managed#gitlab--gitlab-ceee/).
 
             ```bash
             GitLab version API support:
@@ -152,7 +152,7 @@ We recommend using the Add new integration panel to connect multiple repositori
             ![(info)](https://bigbrassband.atlassian.net/wiki/s/2043447315/6452/6902e58dfdbd2c9056700261340226dd54e62f5f/_/images/icons/emoticons/information.png) **Remember:** The GitLab.com API can see all the public projects. For GitLab.com, we recommend using JMESPath over the Custom API path when possible.
 
         *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less. Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [support](mailto:support@bigbrassband.com).
-            To learn more examples, see article [Working with JMESPath Filters](/git-integration-for-jira-self-managed/gitLab-gitLab-ce-ee-jmespath-filter-examples-gij-self-managed/).
+            To learn more examples, see article [Working with JMESPath Filters](/git-integration-for-jira-data-center/gitLab-gitLab-ce-ee-jmespath-filter-examples-gij-self-managed/).
 
         *   **Fetch refspec**  –  Git refspecs contains patterns mapped as references from the remote to the local repository.
             For more information, see **Git Internals -- The Refspec**.
@@ -186,11 +186,11 @@ We recommend using the Add new integration panel to connect multiple repositori
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/55312520/gitserver-auto-connect-wiz-settings-screen(c).png?version=1&modificationDate=1639046410805&cacheVersion=1&api=v2&width=646&height=428)
 
-    *   On the Integration Settings, setting the _**Require User PAT**_ option to `ON`, will require users to provide PAT specific for branch and merge requests _(via the developer panel on the Jira issue page)_. For more information on this feature, see [Integration Settings: Require User PAT](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/).
+    *   On the Integration Settings, setting the _**Require User PAT**_ option to `ON`, will require users to provide PAT specific for branch and merge requests _(via the developer panel on the Jira issue page)_. For more information on this feature, see [Integration Settings: Require User PAT](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/).
 
     *   Set **Smart Commits** and **Repository Browser** to enable/disable these features.
 
-    *   Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Associating project permissions](/git-integration-for-jira-self-managed/associating-project-permissions-gij-self-managed/).
+    *   Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Associating project permissions](/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed/).
 
 7.  Click **Finish** to complete this setup.
 
@@ -239,7 +239,7 @@ The Git Integration for Jira app automatically configures web linking for GitLab
 
 For single repository connections, web link setup is optional. However, git links will become available in Git Commits tab when configured.
 
-For more information on this feature, see [Documentation: Web linking](/git-integration-for-jira-self-managed/web-linking-gij-self-managed).
+For more information on this feature, see [Documentation: Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed).
 
 ## Viewing git commits in Jira Server
 
@@ -252,7 +252,7 @@ For more information on this feature, see [Documentation: Web linking](/git-inte
 4.  Click **View Full Commit** to view the code diff.
 
 
-For more information about this feature, see [Documentation: Viewing commit code diffs](/git-integration-for-jira-self-managed/viewing-commit-code-diffs-gij-self-managed).
+For more information about this feature, see [Documentation: Viewing commit code diffs](/git-integration-for-jira-data-center/viewing-commit-code-diffs-gij-self-managed).
 
 ## Working with branches and merge requests
 
@@ -280,7 +280,7 @@ Most git integrations allow changing of the default branch of the repository/pro
 
 On your Jira Server, open a Jira issue.
 
-1.  On the [Jira developer panel](/git-integration-for-jira-self-managed/jira-git-integration-development-panel-gij-self-managed/) under **Git integration**, click **Create branch**. The following dialog is displayed.
+1.  On the [Jira developer panel](/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed/) under **Git integration**, click **Create branch**. The following dialog is displayed.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/55312520/gitserver-create-branches-dlg(c).png?version=1&modificationDate=1639046410813&cacheVersion=1&api=v2&width=578&height=318)
 
@@ -291,7 +291,7 @@ On your Jira Server, open a Jira issue.
 
     -  Enter a **Branch name** or leave it as is (recommended).
 
-    -  If the [Require User PAT option](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/) is enabled in the Integration Settings and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead:
+    -  If the [Require User PAT option](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/) is enabled in the Integration Settings and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead:
 
         ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/55312520/gitserver-create-branches-dlg-req-userPAT(c).png?version=1&modificationDate=1639046410816&cacheVersion=1&api=v2&width=578&height=318)
 
