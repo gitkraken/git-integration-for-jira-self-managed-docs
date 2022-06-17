@@ -6,37 +6,62 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-Pull request webhooks are now supported. See details on this page.
 
-Supported webhook events:
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Pull request webhooks are now supported. See details on this page.<div class='nextpara'>Supported webhook events:</div>
+        <ul>
+            <li>Pushes event</li>
+            <li>Pull request events</li>
+        </li>
+    </div>
+    </div>
+</div>
+<br>
 
-*   Pushes event
+<div class='embed-container embed-container--16-10'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/4fbw471kgh?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
 
-*   Pull request events
+<div align='center'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/4fbw471kgh'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
+<br>
 
-
-_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/4fbw471kgh) _to open this video in a new browser tab for more viewing options._
-
-Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see [Webhooks - Getting Started](/git-integration-for-jira-self-managed/webhooks#Getting-started).
-
+<div class="bbb-callout bbb--error">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see [Webhooks - Getting Started](/git-integration-for-jira-data-center/webhooks-gij-self-managed#Getting-started).
+    </div>
+    </div>
+</div>
+<br>
 
 Configure webhook by logging in to your GitHub account:
 
 1.  Select a repository.
 
-2.  ![](https://bigbrassband.atlassian.net/wiki/download/attachments/171377121/gitserver-webhook-github-add-webhook-steps-2-4(c).png?version=1&modificationDate=1649573919702&cacheVersion=1&api=v2)
+    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/171377121/gitserver-webhook-github-add-webhook-steps-2-4(c).png?version=1&modificationDate=1649573919702&cacheVersion=1&api=v2)
 
-    Go to the **Settings** page.
+2.  Go to the **Settings** page.
 
 3.  On the sidebar under _Code and information_, click **Webhooks**.
 
 4.  Click **Add webhook**. The following page is displayed:
 
-5.  ![](https://bigbrassband.atlassian.net/wiki/download/attachments/171377121/gitserver-webhook-add-webhook-github-steps.png?version=1&modificationDate=1649573257610&cacheVersion=1&api=v2)
+    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/171377121/gitserver-webhook-add-webhook-github-steps.png?version=1&modificationDate=1649573257610&cacheVersion=1&api=v2)
 
-    Paste the obtained _**Secret URL**_ from the _Git Integration for Jira_ app ➜ **Webhooks** page into the _**Payload URL**_ field.
+    *   Paste the obtained _**Secret URL**_ from the _Git Integration for Jira_ app ➜ **Webhooks** page into the _**Payload URL**_ field.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/attachments/171377121/jira-server-git-webhooks-loc-pointer-list.png?version=1&modificationDate=1649573257614&cacheVersion=1&api=v2)
+
 6.  For the _**Content type**_, choose **application/json**. IMPORTANT
 
 7.  Select the _**Just the push event**_ option as triggering event. This is the default option when creating a new webhook.
@@ -60,10 +85,26 @@ For the figure above:
 
 *   **Let me select individual events (**`Pushes`/`Pull requests`) - This would work better than the second option and we recommend this configuration.
 
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Webhooks will be automatically registered for each GitHub repository connected to Jira Server to instantly index your commits. For this to work, the connecting GitHub user must be the Organization Owner or have repository <b>ADMIN</b> rights.
+        <div class='nextpara'>Webhooks will be deleted when GitHub integration is disconnected from Git Integration for Jira Server.</div>
+    </div>
+    </div>
+</div>
 
-Webhooks will be automatically registered for each GitHub repository connected to Jira Server to instantly index your commits. For this to work, the connecting GitHub user must be the Organization Owner or have repository **ADMIN** rights.
-
-Webhooks will be deleted when GitHub integration is disconnected from Git Integration for Jira Server.
-
-Git Integration for Jira will index only the updated repositories as indicated by the GitHub organization or GitLab group webhook.
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Git Integration for Jira will index only the updated repositories as indicated by the GitHub organization or GitLab group webhook.
+    </div>
+    </div>
+</div>
 

@@ -8,40 +8,38 @@ taxonomy:
 ---
 ![](https://bigbrassband.com/confluence/images/bonobo-banner-logo.png)
 
-**Integrate Bonobo with Jira Data Center**
-
-
+# Integrate Bonobo with Jira Data Center/Server
 
 Quickly learn how to connect Bonobo git repositories via Git Integration for Jira app.
 
 **What's on this page:**
-
-
+- [Integrate Bonobo with Jira Data Center/Server](#integrate-bonobo-with-jiradata-centerserver)
+  - [Single repository integration](#single-repository-integration)
+  - [Setting up weblinks](#setting-up-weblinks)
+  - [Viewing Git Commits in Jira Data Center](#viewing-git-commits-in-jiradata-center)
 
 * * *
 
-## **Single Repository**
+## Single repository integration
 
 Obtain the repository URL from the Bonobo repository project page.
 
-1.  On your Jira dashboard menu, go to **Git** > **Manage repositories**.
+1.  On your Jira dashboard menu, go to Git ➜ **Manage repositories**.
 2.  Click **Connect to Git Repository** to open the Connect Wizard.
 3.  Paste the URL from Bonobo web portal in the provided box.
 4.  Continue to the next step by following the screen instructions.
-5.  Click **Finish** to complete this process. 
+5.  Click **Finish** to complete this process.
 
 The repository is now connected to Jira Data Center.
 
-
-
-## **Setting Up Weblinks**
+## Setting up weblinks
 
 This feature is optional.
 
 Configure web links from either of the following locations:
 
 *   **Advanced setup** in Connect Wizard
-*   **Git** > **Manage repositories** > **Edit repository/integration** settings.
+*   Git ➜ Manage repositories ➜ **Edit repository/integration** settings.
 
 Select the Bonobo git host from the **Web Link** dropdown list.
 
@@ -49,9 +47,7 @@ Set the variables to the actual URL settings of the git host. In this case, repl
 
 Save the changes.
 
-
-
-## **Viewing Git Commits in Jira Data Center**
+## Viewing Git Commits in Jira Data Center
 
 1.  Perform a git commit by adding the Jira issue key in the commit message. This will associate the commit to the mentioned Jira issue.
 2.  Open the Jira issue.

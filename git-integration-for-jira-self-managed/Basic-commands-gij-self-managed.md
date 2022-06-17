@@ -122,7 +122,7 @@ The `#<transition-name>` command will move the Jira issue to a particular work
     </div>
 </div>
 
-For more information on transitions and workflow names and how they work, see [Workflow Transitions](#).
+For more information on transitions and workflow names and how they work, see [Workflow Transitions](/git-integration-for-jira-data-center/workflow-transitions-gij-self-managed/).
 
 ## \#assign
 
@@ -149,7 +149,7 @@ The `#assign` command will assign the particular issue to the specified Jira u
 
 ## \#fixversion
 
-INTRODUCED v2.9.7+
+**INTRODUCED v2.9.7+**
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -176,7 +176,7 @@ The `#fixversion` command will add a Fix Version/s details tag to the specifie
 
 ## \#affectsversion
 
-INTRODUCED v2.9.7+
+**INTRODUCED v2.9.7+**
 
 <div class="bbb-callout bbb--info">
     <div class="irow">

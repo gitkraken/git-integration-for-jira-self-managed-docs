@@ -47,13 +47,14 @@ Limit the usage of the SSH key by associating them to selected repositories. St
 
 If you have multiple repositories that uses the same SSH key, configure them via Git Integration app by doing the following steps:
 
-1.  Configure a repository that requires an SSH key via [Using the Connect Repository wizard](/git-integration-for-jira-self-managed/using-the-connect-repository-wizard/).
+1.  Configure a repository that requires an SSH key via [Using the Connect Repository wizard](/git-integration-for-jira-data-center/using-the-connect-repository-wizard-gij-self-managed/).
 
 2.  Associate that SSH key with the currently configured repository via Manage git repositories ➜ **SSH keys** (sidebar).
 
 3.  Add another repository that requires the same SSH key. You will be presented with the following screen:
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930396771/connect-ssh-gitlab-repo(c).png?version=1&modificationDate=1630642806469&cacheVersion=1&api=v2&width=646&height=450)
+
 4.  Select the SSH key that you have associated to the previously added repository from the **Existing key** list.
 
 5.  Click **Next** to continue. Complete the wizard and add another repository as desired.

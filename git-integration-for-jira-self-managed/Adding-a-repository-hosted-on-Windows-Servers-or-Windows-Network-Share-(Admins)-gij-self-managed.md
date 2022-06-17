@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 Add a new network share or Windows server hosted repository via the Connect to Git Repository wizard.
 
 The wizard will continue without errors if the following conditions are met:
@@ -43,5 +44,5 @@ and the repository exists.
 ```
 
 
-For more information, see [Setting up repositories – Adding a Repository Hosted on Windows Servers or Windows Network Share](/git-integration-for-jira-self-managed/adding-a-repository-hosted-on-windows-server-or-windows-network-share/).
+For more information, see [Integration guide -- Windows Network Share](/git-integration-for-jira-data-center/windows-network-server-share-gij-self-managed/).
 

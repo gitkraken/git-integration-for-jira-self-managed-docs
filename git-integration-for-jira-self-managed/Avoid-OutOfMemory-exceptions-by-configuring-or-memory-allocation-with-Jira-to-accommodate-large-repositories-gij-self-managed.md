@@ -80,7 +80,7 @@ Caused by: org.eclipse.jgit.errors.LargeObjectException$OutOfMemory: Out of memo
 Caused by: java.lang.OutOfMemoryError: Java heap space
 ```
 
-Additionally, go to **System** ➜ **System info** ➜ **JAVA VM memory statistics** to see if the allocated memory is running out:
+Additionally, go to System ➜ System info ➜ **JAVA VM memory statistics** to see if the allocated memory is running out:
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/824803329/java-vm-memory-statistics(c).png?version=1&modificationDate=1604907189839&cacheVersion=1&api=v2)
 
@@ -92,7 +92,7 @@ The JVM running JIRA applications has hit an OutOfMemory Error (OOME). This is t
 
 [**Follow these instructions**](https://confluence.atlassian.com/adminjiraserver/increasing-jira-application-memory-938847654.html) to increase the memory available to the JIRA application.
 
-Verify if the memory for Jira has changed by going to **System ➜ System info ➜ JAVA VM memory statistics**:
+Verify if the memory for Jira has changed by going to System ➜ System info ➜ **JAVA VM memory statistics**:
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/824803329/verify-memory-alloc-jira-java-vm.png?version=1&modificationDate=1604907612234&cacheVersion=1&api=v2)
 
