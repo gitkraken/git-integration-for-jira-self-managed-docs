@@ -6,9 +6,6 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-What’s on this page:
-
-* * *
 
 ## Bitbucket Server
 

@@ -8,12 +8,27 @@ taxonomy:
 ---
 The Git Integration for Jira app currently supports **Jira** **7.13** to **8.22**!
 
-UPDATE Starting v4.0 of the Git Integration for Jira app, support for Jira 7 is entirely dropped.
-
+<div class="bbb-callout bbb--error">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>UPDATE</b><br>
+        Starting v4.0 of the Git Integration for Jira app, support for Jira 7 is entirely dropped.
+    </div>
+    </div>
+</div>
+<br>
 
 We are committed to provide you with an efficient and reliable support. Scroll down to see helpful tips to get started.
 
 **What’s on this page:**
+- [Quick Installation Video](#quick-installation-video)
+- [Viewing Reindex Logs](#viewing-reindex-logs)
+- [Atlassian Support End of Life](#atlassian-support-end-of-life)
+- [**Retiring IE11 Support**](#retiring-ie11-support)
+
 
 * * *
 
@@ -23,7 +38,14 @@ No changes necessary to your Git server. This Jira app acts as a regular Git cl
 
 Using Atlassian's marketplace system, a Jira administrator can install the Git Integration for Jira app without ever leaving the web browser.
 
-_Right-click_ [_**here**_](https://bigbrassband.wistia.com/medias/lr0jp6ntfd) _and view this video in a new browser tab for more viewing options._
+<div class='embed-container embed-container--16-9'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/lr0jp6ntfd?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
+
+<div align='center'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/lr0jp6ntfd'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
+<br>
 
 Watch the complete installation of the Git Integration Plugin for Jira app from scratch (2 minutes).
 
@@ -31,7 +53,7 @@ Watch the complete installation of the Git Integration Plugin for Jira app from 
 
 ## Viewing Reindex Logs
 
-Go to the Manage Git Repositories page, click the **Actions** icon then **View Log** to view the indexing logs.
+Go to the Manage Git Repositories page, click the **Actions** <img src='/wp-content/uploads/actions-icon.png' /> icon then **View Log** to view the indexing logs.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/365592592/manage-git-repo-view-reindex-logs(c).png?version=1&modificationDate=1585632728597&cacheVersion=1&api=v2)
 
@@ -43,9 +65,18 @@ If there is an error encountered when connecting to a repository, a similar inde
 
 ## Atlassian Support End of Life
 
-**Important changes to Atlassian server and Data Center products**
-
-Atlassian is making changes to the server and Data Center products, including the end of sale for new server licenses on February 2, 2021 and the end of support for server on February 2, 2024. [Learn what this means for you](https://www.atlassian.com/migration/journey-to-cloud)
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Important changes to Atlassian server and Data Center products</b><br>
+        Atlassian is making changes to the server and Data Center products, including the end of sale for new server licenses on February 2, 2021 and the end of support for server on February 2, 2024. <a href='https://www.atlassian.com/migration/journey-to-cloud'>Learn what this means for you</a>.
+    </div>
+    </div>
+</div>
+<br>
 
 Starting **v2.13.0+**, we are dropping support for Java 7, Jira 6.3 and 6.4.
 
@@ -81,7 +112,7 @@ The table below shows the Jira Version, when [Atlassian will stop supporting th
 | 8.21 | December 9, 2023 | Edge | Yes\* |
 | 8.22 | February 16, 2024 | Edge | Yes\* |
 
-\* See information below about retiring IE11 support.
+\* _See information below about retiring IE11 support._
 
 * * *
 
@@ -94,3 +125,4 @@ In view of this, BigBrassBand LLC will also follow this decision effectively:
 *   For all Atlassian Cloud products, support will end on **31 March 2020**.
 
 *   For Atlassian server and data center products, the last version to support IE11 will be released between **September 2019** and **March 2020**.
+
