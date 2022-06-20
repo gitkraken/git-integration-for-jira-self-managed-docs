@@ -15,6 +15,16 @@ Looking for information on the Cloud version? [Click here](/git-integration-for-
 
 ***
 
+## Getting started
+
+<div class='embed-container embed-container--16-10'>
+        <iframe width='709' height='443' src='https://fast.wistia.net/embed/iframe/lr0jp6ntfd?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div> 
+
+Direct link to the above [Installation](https://bigbrassband.wistia.com/medias/lr0jp6ntfd) video. 
+
+***
+
 ## Knowledgebase  
 
 - [Features](git-integration-for-jira-self-managed/features-gij-self-managed/) - Learn more about all of the offered features.
