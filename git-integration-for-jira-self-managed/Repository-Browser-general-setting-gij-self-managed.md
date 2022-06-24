@@ -63,7 +63,7 @@ If this setting is disabled (_unchecked_) in General settings, the **Git** dashb
 *   [Audit log settings](/git-integration-for-jira-data-center/audit-log-settings-gij-self-managed/)
 
 *   [General settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed/)
-*   
+
 *   [Repository Browser general setting](/git-integration-for-jira-data-center/repository-browser-general-setting-gij-self-managed/)
 
 *   [Source Code Diff Viewing general setting](/git-integration-for-jira-data-center/source-code-diff-viewing-general-setting-gij-self-managed/)

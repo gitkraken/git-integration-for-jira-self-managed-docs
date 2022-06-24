@@ -14,25 +14,33 @@ On this page, you will find the list of available hooks and webhooks supported b
 
 * * *
 
+<img src='https://bigbrassband.com/confluence/images/bbb-cs-script-icon.png' height=48 width=61 />
 
-[Client-side Hook](/git-integration-for-jira-data-center/commit-msg-hook/)
+[**Client-side Hook**](/git-integration-for-jira-data-center/commit-msg-hook-gij-self-managed/)
 
 The **_commit-msg_** hook is a python script file that must be located in the developer's local repository.
 
+<br>
 
+<img src='https://bigbrassband.com/confluence/images/bbb-ss-script-icon.png' height=48 width=58 />
 
-[Server-side Hook](/git-integration-for-jira-data-center/server-side-hook/)
+[**Server-side Hook**](/git-integration-for-jira-data-center/server-side-hook-gij-self-managed/)
 
-Use server-side hooks to apply policies for your project.  The server runs these scripts before and after the push.  The server-side hook, like commit-msg hook, requires Python to be installed.
+Use server-side hooks to apply policies for your project. The server runs these scripts before and after the push. The server-side hook, like commit-msg hook, requires Python to be installed.
 
+<br>
 
+<img src='https://bigbrassband.com/confluence/images/bbb-workflow-icon.png' height=48 width=60 />
 
-[Jira Workflow Hook](/git-integration-for-jira-data-center/jira-workflow-hook/)
+[**Jira Workflow Hook**](/git-integration-for-jira-data-center/jira-workflow-hook-gij-self-managed/)
 
 Use JavaScript as another workflow to operate Jira aside from Smart Commits.
 
+<br>
 
+<img src='https://bigbrassband.com/confluence/images/webhooks-bbb-icon.png' height=48 width=52 />
 
-[Webhooks](/git-integration-for-jira-data-center/Webhooks)
+[**Webhooks**](/git-integration-for-jira-data-center/Webhooks)
 
 Trigger immediate reindex of your repositories from remote systems via webhooks.
+

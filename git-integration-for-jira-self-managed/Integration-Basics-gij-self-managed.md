@@ -23,17 +23,17 @@ Learn basic integration for most git hosts by connecting git repositories to Jir
 
 ## More related articles on integration basics
 
-*    [Connecting to a git host account via Add new integration panel](/git-integration-for-jira-data-center/using-the-add-new-integration-wizard/)
+*    [Connecting to a git host account via Add new integration panel](/git-integration-for-jira-data-center/using-the-add-new-integration-wizard-gij-self-managed/)
 
-*    [Connecting to a single git repository (HTTPS | SSH)](/git-integration-for-jira-data-center/connecting-to-a-single-git-repository-http-https-gij-sm/)
+*    [Connecting to a single git repository (HTTPS | SSH)](/git-integration-for-jira-data-center/connecting-to-a-single-git-repository-http-https-gij-sm-gij-self-managed/)
 
-*    [Setting up web links](/git-integration-for-jira-data-center/setting-up-web-links)
+*    [Setting up web links](/git-integration-for-jira-data-center-gij-self-managed/setting-up-web-links-gij-self-managed)
 
-*    [Link git commits to Jira issues (Basics)](/git-integration-for-jira-data-center/setting-up-web-linking/)
+*    [Link git commits to Jira issues (Basics)](/git-integration-for-jira-data-center/setting-up-web-linking-gij-self-managed/)
 
-*    [Using smart commits](/git-integration-for-jira-data-center/using-smart-commits/)
+*    [Using smart commits](/git-integration-for-jira-data-center/using-smart-commits-gij-self-managed/)
 
-*    [Using the Repository Browser](/git-integration-for-jira-data-center/using-smart-commits/)
+*    [Using the Repository Browser](/git-integration-for-jira-data-center/using-smart-repository-browser-gij-self-managed/)
 
-*    [Creating branches and pull | merge requests (Basics)](/git-integration-for-jira-data-center/creating-branches-and-pull-merge-requests-basics/)
+*    [Creating branches and pull | merge requests (Basics)](/git-integration-for-jira-data-center/creating-branches-and-pull-merge-requests-basics-gij-self-managed/)
 

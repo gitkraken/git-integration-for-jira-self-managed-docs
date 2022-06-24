@@ -9,7 +9,7 @@ taxonomy:
 
 Read through our collection of how-to guides which will show you the recommended process of working with the Git Integration for Jira app repository connection features.
 
-### See our in-depth how-to articles
+## See our in-depth how-to articles
 
 *   [Creating Personal Access Tokens](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed)
 

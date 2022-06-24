@@ -27,8 +27,9 @@ HTTP Status code response:
 
 ### Bulk Change REST APIs
 
-*   [Bulk Export](/git-integration-for-jira-self-managed/Bulk-Export) (Git Integration for Jira Data Center)
+*   [Bulk Export](/git-integration-for-jira-self-managed/bulk-export-gij-self-managed/) (Git Integration for Jira Data Center)
 
-*   [Bulk Import](/git-integration-for-jira-self-managed/Bulk-Import) (Git Integration for Jira Data Center)
+*   [Bulk Import](/git-integration-for-jira-self-managed/bulk-import-gij-self-managed/) (Git Integration for Jira Data Center)
 
-*   [Get Bulk Import Information](/git-integration-for-jira-self-managed/get-bulk-import-information/)
+*   [Get Bulk Import Information](/git-integration-for-jira-self-managed/get-bulk-import-information-gij-self-managed/)
+

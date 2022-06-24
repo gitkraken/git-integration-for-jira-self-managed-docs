@@ -46,7 +46,7 @@ _**method**_ -- GET
 
 If the _optional query_ is not defined, it will return all indexed git branches.
 
-### Example:
+### Example
 
 `http://jira.yourorg.com/rest/gitplugin/1.0/issues/branches?`**key="TST-435"**
 
