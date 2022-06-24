@@ -84,9 +84,8 @@ Starting **v3.5.1+**, support for Internet Explorer 11 browser is dropped.
 
 The table below shows the Jira Version, when [Atlassian will stop supporting that Jira version](https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html) and the corresponding version of Internet Explorer.
 
-|     |     |     |     |
-| --- | --- | --- | --- |
 | **Jira Version** | **Jira End of Life Date** | **Oldest IE Supported** | **Git Integration for Jira supported?** |
+| :--- | :--- | :--- | :--- |
 | 7.13 | November 28, 2020 | Edge | Yes\* |
 | 8.0 | February 11, 2021 | Edge | Yes\* |
 | 8.1 | April 4, 2021 | Edge | Yes\* |

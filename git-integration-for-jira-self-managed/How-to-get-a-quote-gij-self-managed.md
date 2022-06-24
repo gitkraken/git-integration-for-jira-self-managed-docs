@@ -19,11 +19,11 @@ Primarily, click this [**Generate quote link**](https://www.atlassian.com/purcha
 
 3.  Select how the installation will go:
 
-    1.  **Choose** – This allows you to choose the existing license to attach this quote.
+    *   **Choose** – This allows you to choose the existing license to attach this quote.
 
-    2.  **Search** – This allows you to search for an existing license by SEN and attach this quote to the selected SEN.
+    *   **Search** – This allows you to search for an existing license by SEN and attach this quote to the selected SEN.
 
-    3.  Manual – This lets you manually set **User Tiers** and **Maintenance period** for this license that suit your organization needs.
+    *   Manual – This lets you manually set **User Tiers** and **Maintenance period** for this license that suit your organization needs.
 
 4.  Click **Add to quote** to submit this form.
 

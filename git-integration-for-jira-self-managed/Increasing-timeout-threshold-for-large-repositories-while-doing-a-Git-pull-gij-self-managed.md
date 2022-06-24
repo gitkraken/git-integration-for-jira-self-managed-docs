@@ -45,11 +45,11 @@ For this workaround to work, the user must have an access to a Jira hosting inst
 
 The repository is added and indexing should work.
 
-In **VERSION 2.12.0** of the Git Integration for Jira app, the General setting for **Git operations timeout** was implemented.
+## Git operations timeout
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396447/image-20210304-084400.png?version=1&modificationDate=1630642794438&cacheVersion=1&api=v2)
 
-This setting affects how long will Git Integration for Jira app waits for connections performed during git clone and git fetch. BigBrassBand recommends to increase the time value if you have large repositories, and in some cases, connecting to them mostly results in timeout.
+This setting affects how long will Git Integration for Jira app waits for connections performed during git clone and git fetch. We recommend to increase the time value if you have large repositories, and in some cases, when connecting to them mostly results in timeout.
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">

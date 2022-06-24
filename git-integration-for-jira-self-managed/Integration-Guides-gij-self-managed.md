@@ -8,7 +8,7 @@ taxonomy:
 ---
 Welcome to the Git Integration for Jira app reference page index for topics about integration of git repositories to Jira Data Center.
 
-On this page, you will find the list of integration guides for specific git hosts. For general Jira git integration, see our **[Integration basics](/git-integration-for-jira-data-center/integration-basics/)** to get you more familiar with integration, viewing commits inside Jira, smart commits, and many more.
+On this page, you will find the list of integration guides for specific git hosts. For general Jira git integration, see our **[Integration basics](/git-integration-for-jira-data-center/integration-basics-gij-self-managed/)** to get you more familiar with integration, viewing commits inside Jira, smart commits, and many more.
 
 <br>
 
