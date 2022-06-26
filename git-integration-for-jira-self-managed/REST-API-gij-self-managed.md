@@ -12,7 +12,7 @@ On this page, you will find the list of available REST APIs supported by the Git
 
 * * *
 
-<img src='https://bigbrassband.atlassian.net/wiki/download/thumbnails/380764385/bbb-bulkchg-icon.png' width=64 height=48 />
+<img src='https://bigbrassband.atlassian.net/wiki/download/thumbnails/380764385/bbb-bulkchg-icon.png' width=52 height=39 />
 
 [**Bulk Change**](/git-integration-for-jira-data-center/bulk-change-gij-self-managed/)
 

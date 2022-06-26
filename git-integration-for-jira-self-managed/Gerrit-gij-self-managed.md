@@ -11,21 +11,27 @@ taxonomy:
 # Integrate Gerrit with Jira Data Center
 
 Quickly learn how to connect Gerrit git repositories via Git Integration for Jira Data Center.
-For the Jira Cloud version of this document click [Here](/git-integration-for-jira-cloud/gerrit/)
-
-**What's on this page:**
+For the Jira Cloud version of this document click [Here](/git-integration-for-jira-cloud/gerrit-gij-self-managed/)
 
 * * *
 
-_Right click_ [_here_](https://bigbrassband.wistia.com/medias/rknbc3ty4e) _to open this video in a new browser tab for more viewing options._
+<div class='embed-container embed-container--16-10'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/rknbc3ty4e?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
 
-## Auto-connect Integration
+<div align='center'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/rknbc3ty4e'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
+<br>
+
+## Using Full feature Integration
 
 1.  On your Jira dashboard, go to menu **Git** > **Manage repositories**.
 
 2.  Click **Gerrit** on the Auto-connect integration panel. The Auto-connect wizard appears.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91979855/jira-server-gerrit-auto-connect-wiz-login(c).png?version=1&modificationDate=1591009191460&cacheVersion=1&api=v2&width=646&height=449)
+
     *   Enter your git server’s **Host URL**.
 
     *   Enter login credentials for username and password.
@@ -33,6 +39,7 @@ _Right click_ [_here_](https://bigbrassband.wistia.com/medias/rknbc3ty4e) _to op
     *   OPTIONAL Click **Advanced** to setup how git fetches refs.
 
         ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91979855/jira-server-gerrit-auto-connect-advanced(c).png?version=1&modificationDate=1591009191907&cacheVersion=1&api=v2&width=510&height=225)
+
         *   Setup fetch refspec by selecting options needed for this integration. A refspec maps a branch in the local repository to a branch in a remote repository. For more information, see [**Git Refspec**](https://git-scm.com/book/en/v2/Git-Internals-The-Refspec).
 
         *   For **Clone and index other refs**, enable it to define a custom refspec tailored for this integration. A refspec is specified as `[+]<source>:<destination>` --- where, `<source>` is the source branch in the local repository and `<destination>` is the destination branch in the remote repository. The optional `+` sign instructs git to force the remote repository to perform a non-fast-forward update.
@@ -46,6 +53,7 @@ _Right click_ [_here_](https://bigbrassband.wistia.com/medias/rknbc3ty4e) _to op
 4.  Click **Import repositories**. The Settings screen is displayed.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/attachments/91979855/gerrit-git-server-autoconnect-settings-dlg(c).png?version=2&modificationDate=1591009193074&cacheVersion=1&api=v2)
+
     *   Set **Smart Commits**, **Repository Browser** options or leave it as is.
 
     *   Set **Project Permissions** by restricting it to specific projects or leave it as is (_associate with all projects_).
@@ -66,6 +74,7 @@ Login to your Gerrit account. Obtain the repository URL from the Gerrit reposito
 4.  Click **Next**. The Settings page is displayed.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/attachments/91979855/gerrit-git-server-autoconnect-settings-dlg(c).png?version=2&modificationDate=1591009193074&cacheVersion=1&api=v2)
+
     *   Set **Smart Commits**, **Repository Browser** options or leave it as is.
 
     *   Set **Project Permissions** by restricting it to specific projects or leave it as is (_associate with all projects_).
@@ -116,3 +125,4 @@ Most git integrations allow changing of the default branch of the repository/pro
 For the case with Gerrit, the default main branch is always “master”.
 
 Main branch for repositories within an integration can only be changed on the git server.
+

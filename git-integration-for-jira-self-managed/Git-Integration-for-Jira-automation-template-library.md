@@ -9,15 +9,27 @@ taxonomy:
 
 Let automation do the work while your developers focus on what’s important.  Automation Templates for Git Integration for Jira can be implemented so you never need to start from scratch. We’ve provided some templates we think are useful so you don't need to create your own automation rules from scratch.
 
-\*All of the templates from [Atlassian’s template library](https://www.atlassian.com/software/jira/automation-template-library/bitbucket-github-gitlab) will work with Git Integration for Jira
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        All of the templates from <a href='https://www.atlassian.com/software/jira/automation-template-library/bitbucket-github-gitlab'>Atlassian’s template library</a will work with Git Integration for Jira.
+    </div>
+    </div>
+</div>
+<br>
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/2127495330/index.png?api=v2)
+<img src='https://bigbrassband.atlassian.net/wiki/download/attachments/2127495330/index.png?api=v2' height=300 width=353 style='display: block; margin: 25px auto;'>
 
-**With Git Integration for Jira you can integrate any Git repository with Jira.  And better yet, you can make use of any of our handy automation templates, or use Atlassian’s!**
+**With Git Integration for Jira you can integrate any Git repository with Jira. And better yet, you can make use of any of our handy automation templates, or use Atlassian’s!**
 
 You can write your own templates using [Atlassian's no-code Jira automation engine](https://www.atlassian.com/software/jira/features/automation).
 
-### Available templates from Atlassian for Git Integration for Jira users:
+<br>
+
+## Available templates from Atlassian for Git Integration for Jira users:
 
 Here are some templates from Atlassian you can use as a guide for some of the most common uses:
 
@@ -28,7 +40,7 @@ Here are some templates from Atlassian you can use as a guide for some of the mo
 *   [When a commit is created then send Slack message based on assignee](https://www.atlassian.com/software/jira/automation-template-library/rules#/rule/1357149).
     
 
-### And here’s some handy use cases for automation for Git Integration for Jira users:
+## And here’s some handy use cases for automation for Git Integration for Jira users:
 
 *   Transition issue state when a commit arrives.
     
@@ -63,3 +75,4 @@ We currently support the 5 highlighted triggers depicted below, and we will supp
 ### Setup:
 
 [Git Integration + Jira Automation](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/2126905349)
+

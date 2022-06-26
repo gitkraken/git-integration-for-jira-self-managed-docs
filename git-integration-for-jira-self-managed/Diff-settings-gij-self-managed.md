@@ -6,9 +6,30 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-This setting is part of the [**General Settings**](/git-integration-for-jira-self-managed/general-settings-gij-self-managed) configuration page.
 
-VERSION 4.0.1+ This setting is now moved to the **Advanced settings** in General settings.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed/'><b>General Settings</b></a> configuration page.
+    </div>
+    </div>
+</div>
+
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>VERSION 4.0.1+</b><br>
+        This setting is now moved to the **Advanced settings** in General settings.
+    </div>
+    </div>
+</div>
+<br>
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207795993/gitserver-gencfg-adv-diff-count-encoding.png?version=1&modificationDate=1647775224812&cacheVersion=1&api=v2&width=680&height=159)
 

@@ -13,7 +13,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Using <B>Jira Cloud</b>? <a href=''>See the corresponding article</a>(/git-integration-for-jira-cloud/bitbucket-cloud-gij-cloud/).
+        Using <B>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/bitbucket-cloud-gij-cloud/'>See the corresponding article</a>.
     </div>
     </div>
 </div>

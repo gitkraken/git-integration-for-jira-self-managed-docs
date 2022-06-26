@@ -18,7 +18,7 @@ taxonomy:
     </div>
     </div>
 </div>
-
+<br>
 
 Synchronization between the repository and app will start automatically. However, reindexing may be required to manually start the synchronization process.
 

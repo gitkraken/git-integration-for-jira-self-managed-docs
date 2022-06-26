@@ -59,5 +59,5 @@ All changes in all issues will be present. If you use the "Version" tagging fea
 
 ## The git commits are not showing on the Jira Activity Stream. Why?
 
-Only the commits that are [linked to Jira issues](/git-integration-for-jira-self-managed/linking-git-commits-to-jira-issues-gij-self-managed) will show on the Jira Activity Stream (not all commits in repositories).
+Only the commits that are [linked to Jira issues](/git-integration-for-jira-data-center/linking-git-commits-to-jira-issues-gij-self-managed) will show on the Jira Activity Stream (not all commits in repositories).
 

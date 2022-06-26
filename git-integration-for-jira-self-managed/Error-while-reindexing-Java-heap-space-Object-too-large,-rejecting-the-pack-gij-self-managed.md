@@ -18,8 +18,6 @@ Jira admins will see an error in the Git Integration for Jira app interface - fo
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/137035882/wizard-java-heap-space.png?version=1&modificationDate=1559306844537&cacheVersion=1&api=v2&width=335&height=249)
 
-
-
 or Jira admins will see a message similar to the one below in the Jira `/application-logs/atlassian-jira.log:`
 
 **Error**
@@ -50,23 +48,23 @@ Caused by: org.eclipse.jgit.api.errors.TransportException: Object too large (2,2
 
 ## Solutions
 
-
-
 Making any change to a git repository's history can result in loss of data. Proceed with care.
 
 *   Remove objects larger than 2GB from the git repository history. See following articles for suggestions:
+
     *   [Removing large files from Git without losing history](https://support.acquia.com/hc/en-us/articles/360004334093-Removing-large-files-from-Git-without-losing-history)
+
     *   [GitHub: Removing files from a repository's history](https://help.github.com/en/articles/removing-files-from-a-repositorys-history)
+
     *   [GitLab: Reducing the repository size using Git](https://docs.gitlab.com/ee/user/project/repository/reducing_the_repo_size_using_git.html)
+
     *   [BFG Repo-Cleaner](https://rtyley.github.io/bfg-repo-cleaner/)
+
 *   Move large files to [GitLFS](https://git-lfs.github.com) which is supported by the Git Integration for Jira app.
-*   Filter out the repository from the special integrations (GitHub, GitLab, AWS CodeCommit, Microsoft TFS/Azure DevOps/VSTS, etc) using [Custom API Path](/git-integration-for-jira-self-managed/working-with-custom-api-path-gij-self-managed) or [JMESPath Filters](/git-integration-for-jira-self-managed/working-with-jmespath-filters-gij-self-managed).
+
+*   Filter out the repository from the special integrations (GitHub, GitLab, AWS CodeCommit, Microsoft TFS/Azure DevOps/VSTS, etc) using [Custom API Path](/git-integration-for-jira-data-center/working-with-custom-api-path-gij-self-managed) or [JMESPath Filters](/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed).
 
 
-
-
-
-Contact Us
-
+**Contact Us**<br>
 If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com)
 

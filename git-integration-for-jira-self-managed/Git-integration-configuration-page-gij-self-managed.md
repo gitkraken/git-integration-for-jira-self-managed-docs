@@ -39,7 +39,7 @@ In here, you will find special integration options for specific git hosts. This 
     </div>
 </div>
 
-For more details on supported git hosts, see the Auto-connect section in our [Integration guides](/git-integration-for-jira-self-managed/Integration-Guides).
+For more details on supported git hosts, see the Auto-connect section in our [Integration guides](/git-integration-for-jira-data-center/Integration-Guides).
 
 The **Add tracked folder** connection feature is added to the **Add new integration** panel for easy access.
 
@@ -87,7 +87,7 @@ For more information, see [Bulk change](/git-integration-for-jira-self-managed/
 
 This function will perform a reindex queue of all integration in the repository list. Disabled integrations are ignored.
 
-For more information on this topic, see [Reindexing](/git-integration-for-jira-self-managed/Reindexing).
+For more information on this topic, see [Reindexing](/git-integration-for-jira-data-center/reindexing-gij-self-managed/).
 
 ## Webhooks
 
@@ -95,7 +95,7 @@ For more information on this topic, see [Reindexing](/git-integration-for-jira-
 
 Opens the Webhooks configuration page. Enable/disable webhooks to trigger immediate reindex of the connected git repositories and integration.
 
-For more information about this topic, click [here](/git-integration-for-jira-self-managed/Integration-webhooks) to go to the **Webhooks documentation page**.
+For more information about this topic, click [here](/git-integration-for-jira-data-center/integration-webhooks-gij-self-managed/) to go to the **Webhooks documentation page**.
 
 ## Related helpful tips
 

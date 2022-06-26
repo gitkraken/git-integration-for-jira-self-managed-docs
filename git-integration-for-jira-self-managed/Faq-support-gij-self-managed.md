@@ -8,7 +8,7 @@ taxonomy:
 ---
 This page contains helpful topics related to Git Integration for Jira app support.
 
-Use the [FAQ](/git-integration-for-jira-self-managed/frequently-asked-questions-gij-self-managed)to find answers to common questions. Feel free to contact our support team ([support@bigbrassband.com](mailto:support@bigbrassband.com)) if you don't see what you're looking for.
+Use the [FAQ](/git-integration-for-jira-data-center/frequently-asked-questions-gij-self-managed)to find answers to common questions. Feel free to contact our support team ([support@bigbrassband.com](mailto:support@bigbrassband.com)) if you don't see what you're looking for.
 
 - [Does the Git Integration Plugin for Jira app supports CJK languages or Unicode?](#does-the-git-integration-plugin-for-jira-app-supports-cjk-languages-or-unicode)
 - [Which versions of Jira does the Git Integration for Jira app support?](#which-versions-of-jira-does-the-git-integration-for-jira-app-support)

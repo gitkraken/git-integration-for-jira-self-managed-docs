@@ -6,13 +6,18 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-NEW FEATURE
+<div style='color: magenta'><b>NEW FEATURE</b></div>
+<br>
 
 ## Feature
 
 We've added the ability to deep link from repositories, commits, branches, and tags throughout the Git Integration for Jira app into the [GitKraken client](https://www.gitkraken.com). Deep linking allows you to quickly move between Jira and your Git source code. GitKraken supports deep linking into Git Integration for Jira as well. To learn more about this feature - see [GitKraken Integrations: Git Integration for Jira](https://support.gitkraken.com/integrations/git-integration-for-jira/).
 
 ## Video
+
+<div class='embed-container' style='padding-bottom: 67.08%'>
+    <iframe width='709' height='476' src='https://fast.wistia.com/embed/iframe/s26h3avwuo?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
 
 _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/n3ctymt8tq) _to open this video in a new tab/window for more viewing options._
 
@@ -33,14 +38,15 @@ Individual Jira Data Center users can enable or disable the GitKraken integratio
 
 2.  Scroll down to **Git Integration for Jira preferences** section.
 
-3.  ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1955430423/gitserver-gk-deeplinking-02a(c).png?version=1&modificationDate=1632390986461&cacheVersion=1&api=v2&width=476&height=206)
+    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1955430423/gitserver-gk-deeplinking-02a(c).png?version=1&modificationDate=1632390986461&cacheVersion=1&api=v2&width=476&height=206)
 
     Click the edit icon. The following dialog is displayed.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1955430423/gitserver-gk-deeplinking-02b(c).png?version=1&modificationDate=1632390986201&cacheVersion=1&api=v2&width=476&height=262)
-4.  Enable/disable the GitKraken integration using the dropdown. Default setting is `Enabled`.
 
-5.  Click **Update** to save the settings.
+3.  Enable/disable the GitKraken integration using the dropdown. Default setting is `Enabled`.
+
+4.  Click **Update** to save the settings.
 
 
 ## Administrator settings
@@ -52,3 +58,4 @@ Go to the Git Integration for Jira – **General settings** tab (sidebar).
 Enable/disable this setting under **GitKraken integration** section**.**
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1955430423/gitserver-gk-deeplinking-03.png?version=1&modificationDate=1632390985956&cacheVersion=1&api=v2)
+
