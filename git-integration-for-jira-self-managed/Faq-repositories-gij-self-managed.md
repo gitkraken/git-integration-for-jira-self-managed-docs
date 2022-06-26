@@ -38,7 +38,7 @@ Use the FAQ below to find answers to common questions. Feel free to contact our
 
 Yes – the Git Integration for Jira app supports multiple Jira issue keys in a multiple-line commit message.
 
-For more information, see [Smart Commits: Advanced examples](/git-integration-for-jira-self-managed/advanced-examples-gij-self-managed).
+For more information, see [Smart Commits: Advanced examples](/git-integration-for-jira-data-center/advanced-examples-gij-self-managed).
 
 ## Where is the location of the local git repository?
 

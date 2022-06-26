@@ -52,7 +52,7 @@ The Git Integration for Jira app supports Azure Repos.
 
 For TFS 2017, TFS 2018 and Azure DevOps Server, you can generate a personal access token (PAT) for extra security. Use this token as password or as login key for auto-connect or manual integration with Git Integration for Jira app.
 
-To create PATs, follow the simple steps outlined in [in this article](/git-integration-for-jira-data-center/creating-personal-access-tokens#team-foundation-server-tfs-2017--tfs-2018/).
+To create PATs, follow the simple steps outlined in [in this article](/git-integration-for-jira-data-center/creating-personal-access-tokens#team-foundation-server-tfs-2017--tfs-2018).
 
 ## Permissions
 

@@ -15,18 +15,24 @@ To create a webhook that triggers the reindex of a single repository, the follow
 
 *   Use the webhook secret key from the git configuration page ➜ **Webhooks**.
 
-
+<br>
 
 The webhook is a POST request with the following JSON body:
 
-```diff
+```json
 {
-  "repository":
-    { "git_http_url": "https://gitlab.com/bbb-dev/bbb-testrepo.git" }
+  "repository": { "git_http_url": "https://gitlab.com/bbb-dev/bbb-testrepo.git" 
+  }
 }
 ```
 
-| **For example:** |
-| --- |
-| ![](https://bigbrassband.atlassian.net/wiki/download/attachments/171475191/webhook-reindex-post-api-json.png?version=1&modificationDate=1640704081955&cacheVersion=1&api=v2) |
-| **Result:**  <br>The repository is placed in the indexing queue via the git repositories configuration page (_Jira dashboard menu Git ➜ **Manage repositories**_). |
+**For example:**
+
+![](https://bigbrassband.atlassian.net/wiki/download/attachments/171475191/webhook-reindex-post-api-json.png?version=1&modificationDate=1640704081955&cacheVersion=1&api=v2)
+
+<br>
+
+**Result:**
+
+The repository is placed in the indexing queue via the git repositories configuration page (_Jira dashboard menu Git ➜ **Manage repositories**_).
+

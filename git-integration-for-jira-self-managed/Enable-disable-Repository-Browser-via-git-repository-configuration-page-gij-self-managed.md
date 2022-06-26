@@ -17,17 +17,19 @@ Scroll down to the _**Repository Browser**_ section.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398739/git-viewer-configuration.png?version=1&modificationDate=1630642903809&cacheVersion=1&api=v2&width=680&height=226)
 
-### **Repository Browser**
+### Repository Browser
 
 Select `Enabled` to activate this feature for this repository. Otherwise, set to `Disabled` to deactivate this feature for this repository.
 
-### **Tags**
+### Tags
 
 **Show all tags**  –  This will display all the tags for the specific issue.
 **Show tags matching the pattern**  –  This will display tags on issue pages that match the specified regular expression pattern.
 
 _**For example:**_<br>
-```java<br>release2[.](7\|8)[.][0-9]+<br>```
+```java
+release2[.](7\|8)[.][0-9]+
+```
 
 _This example is a filtering regexp for a range of releases from 2.7.x to 2.8.x. The sidebar will display git tags for release versions 2.7.0 to 2.8.x in descending order._
 

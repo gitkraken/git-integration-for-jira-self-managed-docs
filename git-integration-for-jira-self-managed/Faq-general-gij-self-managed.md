@@ -88,7 +88,7 @@ As of **v4.0+**, support for Jira 7+ is dropped.
 
 For a more comprehensive view, see [**Git Integration for Jira app: Version History »**](https://marketplace.atlassian.com/plugins/com.xiplink.jira.git.jira_git_plugin/versions).
 
-In the Version History page, you can try or buy the Git Integration for Jira app or download it for use with [**manual installation**](/git-integration-for-jira-self-managed/manual-installation-gij-self-managed/).
+In the Version History page, you can try or buy the Git Integration for Jira app or download it for use with [**manual installation**](/git-integration-for-jira-data-center/manual-installation-gij-self-managed/).
 
 ## How to obtain the correct Jira user name?
 

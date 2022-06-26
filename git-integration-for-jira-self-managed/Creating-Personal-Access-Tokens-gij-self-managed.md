@@ -28,9 +28,11 @@ While instructions from GitHub works just fine, here are some specific instructi
 1.  Login to your GitHub account then go to your profile settings.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/107380737/github-ghe-profile-settings(c).png?version=1&modificationDate=1650870599401&cacheVersion=1&api=v2&width=204&height=434)
+
 2.  On your sidebar, click **Developer settings**.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/107380737/github-user-settings-sidebar-dev-cfg(c).png?version=1&modificationDate=1650870599408&cacheVersion=1&api=v2&width=251&height=393)
+
 3.  On the following screen, click **Personal access tokens** on the sidebar.
 
 4.  Generate a new personal access token (PAT) by clicking **Generate new token**.
@@ -38,11 +40,12 @@ While instructions from GitHub works just fine, here are some specific instructi
 5.  The following screen is displayed.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/107380737/jira-cloud-github-mfa-gen-access-token(c).png?version=1&modificationDate=1650870599411&cacheVersion=1&api=v2&width=646&height=460)
-    1.  On the _**Note**_ field, enter a descriptive name for this PAT. For example, `git-integration-for-jira`.
 
-    2.  For _**Expiration**_ (required), set for how long the token will expire or set it according to your organization’s rules and policies.
+    *   On the _**Note**_ field, enter a descriptive name for this PAT. For example, `git-integration-for-jira`.
 
-    3.  For _**Select scopes**_, tick the **repo** scope (_this also automatically selects all the scopes under it_ – keep this setting).
+    *   For _**Expiration**_ (required), set for how long the token will expire or set it according to your organization’s rules and policies.
+
+    *   For _**Select scopes**_, tick the **repo** scope (_this also automatically selects all the scopes under it_ – keep this setting).
 
 6.  Click **Generate token** to complete this setup.
 
@@ -51,7 +54,7 @@ While instructions from GitHub works just fine, here are some specific instructi
 
 ## GitLab | GitLab CE/EE
 
-GitLab introduced personal access tokens (PAT) since version 8.8 and now (v10+) prefers this type of authentication for accessing the git repositories.  Service users are strongly advised to switch from using username/password to using Personal Access Tokens (PAT) for GitLab.
+GitLab introduced personal access tokens (PAT) since version 8.8 and now (v10+) prefers this type of authentication for accessing the git repositories. Service users are strongly advised to switch from using username/password to using Personal Access Tokens (PAT) for GitLab.
 
 If two-factor authentication is enabled for your GitLab account, you will need to create a PAT to access your git repositories. Enable two-factor authentication in your GitLab account for increased security.
 
@@ -60,17 +63,20 @@ While instructions from GitLab works just fine, here are some specific instructi
 1.  Login to your GitLab account then go to your profile settings (menu Profile ➜ **Preferences**).
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/107380737/gitlab-user-profile-settings(c).png?version=1&modificationDate=1650870599414&cacheVersion=1&api=v2&width=251&height=313)
+
 2.  On the sidebar, click **Access Tokens**.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/107380737/gitlab-user-settings-sidebar-access-token(c).png?version=1&modificationDate=1650870599417&cacheVersion=1&api=v2&width=204&height=326)
+
 3.  The following screen is displayed.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/107380737/jira-cloud-gitlab-mfa-gen-access-token(c).png?version=1&modificationDate=1650870599419&cacheVersion=1&api=v2&width=544&height=695)
-    1.  Give the token a descriptive **Name**. (For example, "Git Integration for Jira")
 
-    2.  Leave the **Expiration date** field blank or set the expiration date according to your organization’s rules and policies.
+    *   Give the token a descriptive **Name**. (For example, "Git Integration for Jira")
 
-    3.  Select the _**api**_ scope.
+    *   Leave the **Expiration date** field blank or set the expiration date according to your organization’s rules and policies.
+
+    *   Select the _**api**_ scope.
 
 4.  Click **Create personal access token** to complete this setup.
 
@@ -97,20 +103,22 @@ If you have not yet generated a personal access token (PAT):
 1.  On the VSTS/Azure portal dashboard, click the user settings icon on the top right corner of the page.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/107380737/vsts-azure-devops-user-profile-settings(c).png?version=1&modificationDate=1650870599422&cacheVersion=1&api=v2&width=374&height=423)
+
 2.  Click **Personal access tokens**. You will be taken to the Personal Access Tokens configuration page.
 
 3.  Click &nbsp;![(plus)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/add.png) **New Token**. The following dialog is displayed.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/107380737/vsts-azure-create-pats-jira-server-cloud(c).png?version=1&modificationDate=1650870599424&cacheVersion=1&api=v2&width=544&height=643)
-    1.  Enter a descriptive name for your PAT. Since this is a connection to Jira, you can name it, for example, `git-integration-for-jira`.
 
-    2.  **IMPORTANT!** -- For the _**Organization**_, make sure to set it to **All accessible organizations**.
+    *   Enter a descriptive name for your PAT. Since this is a connection to Jira, you can name it, for example, `git-integration-for-jira`.
 
-    3.  Set the desired lifespan of your token. Set it to _**Custom defined**_ if you want to choose a longer expiration date.
+    *   **IMPORTANT!** -- For the _**Organization**_, make sure to set it to **All accessible organizations**.
 
-    4.  On the _**Scopes**_ section, set it to **Custom defined**.
+    *   Set the desired lifespan of your token. Set it to _**Custom defined**_ if you want to choose a longer expiration date.
 
-    5.  Set the _**Code**_ section to **Read & write**.
+    *   On the _**Scopes**_ section, set it to **Custom defined**.
+
+    *   Set the _**Code**_ section to **Read & write**.
 
 4.  Click **Create** to finish creating your PAT.
 
@@ -197,9 +205,11 @@ Follow the steps below, if you have not yet generated a personal access token (P
 1.  On the Azure DevOps Server portal dashboard, open the account settings by clicking the _user profile icon_ on the top right corner of the page then click **Security**.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/107380737/azure-devops-2019-acct-settings.png?version=2&modificationDate=1650870599435&cacheVersion=1&api=v2&width=251&height=389)
+
 2.  On the Personal Access Token page, click &nbsp;![(plus)](https://bigbrassband.atlassian.net/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/add.png) **Add** to see the following screen.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/107380737/azure-devops-2019-pat-settings(c).png?version=1&modificationDate=1650870599492&cacheVersion=1&api=v2&width=646&height=322)
+
 3.  Enter a meaningful name in the **Description** field.
 
 4.  Set the lifespan of the PAT as desired.

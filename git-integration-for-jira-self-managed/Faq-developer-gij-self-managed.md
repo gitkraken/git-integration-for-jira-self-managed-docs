@@ -39,7 +39,7 @@ To create a link between your Git commit and a Jira issue, developers must inclu
     </div>
 </div>
 
-If you want to enforce the commit with a hook, please install this [**Git commit hook script »**](/git-integration-for-jira-self-managed/commit-msg-hook-gij-self-managed).
+If you want to enforce the commit with a hook, please install this [**Git commit hook script »**](/git-integration-for-jira-data-center/commit-msg-hook-gij-self-managed).
 
 ## How do I ensure people are following our organization's process for source code?
 
@@ -88,7 +88,7 @@ For more information, see [**What are developer licenses and how are they used?
 
 ## How to associate a commit, branch or pull request AFTER it has been created?
 
-**For commits:** – these can be associated either via [manual association feature](/git-integration-for-jira-self-managed/manually-link-git-commits-to-jira-issues-gij-self-managed) of the Git Integration for Jira app or via _**Git Notes**_.
+**For commits:** – these can be associated either via [manual association feature](/git-integration-for-jira-data-center/manually-link-git-commits-to-jira-issues-gij-self-managed) of the Git Integration for Jira app or via _**Git Notes**_.
 
 **For branches** – these cannot be re-associated after creation because git does not allow branches to be renamed.
 

@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-**February 14, 2020**
+**Updated: February 14, 2020**
 
 The Repository REST API allows query of the project repository list; as well as adding, updating and deleting repositories from the Git add-on repository configuration.
 

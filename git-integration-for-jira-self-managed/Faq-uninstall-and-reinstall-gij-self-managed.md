@@ -21,7 +21,7 @@ Use the FAQ below to find answers to common questions.  Feel free to contact ou
 
 1.  Do a full uninstall of the plugin as detailed in [**here**](#how-do-i-uninstall-the-git-integration-for-jira-app-and-delete-its-data).
 
-2.  Install the Git Integration for Jira app as outlined in [**here**](/git-integration-for-jira-self-managed/Installation-gij-self-managed/).
+2.  Install the Git Integration for Jira app as outlined in [**here**](/git-integration-for-jira-data-center/Installation-gij-self-managed/).
 
 ## How do I uninstall the Git Integration for Jira app and delete its data?
 

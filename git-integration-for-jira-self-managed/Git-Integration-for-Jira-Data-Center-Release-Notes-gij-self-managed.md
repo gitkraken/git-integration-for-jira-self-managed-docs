@@ -81,7 +81,7 @@ _View all repositories_ has been renamed to _Repository browser_ for consistency
 
 09 Dec 2021 NEW FEATURE ADMINS GENERAL SETTING
 
-We have added the ${basebranch} variable to the Branch name template in [General settings](/git-integration-for-jira-self-managed/general-settings-gij-self-managed).
+We have added the ${basebranch} variable to the Branch name template in [General settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed).
 
 ## Deep Linking to GitKraken
 
@@ -105,7 +105,7 @@ With the auditing feature, key activities are tracked on the Jira instance. This
 
 The audit log functionality is also extended to Jira Data Center instances as it will have more coverage areas, various event volume levels and an option to integrate the audit log file with external tools.
 
-For more information on this feature, see [**General settings – Audit log settings**](/git-integration-for-jira-self-managed/audit-log-settings-gij-self-managed).
+For more information on this feature, see [**General settings – Audit log settings**](/git-integration-for-jira-data-center/audit-log-settings-gij-self-managed).
 
 ## Automatically add link to Jira issue in PRs/MRs created in a Jira issue
 
@@ -133,7 +133,7 @@ Tracked folder integration now supports JMESpath. This feature is used to filter
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1078231449/jira-serverdc-add-tracked-folder-jmespath-advanced.png?version=1&modificationDate=1611738996438&cacheVersion=1&api=v2&width=442&height=163)
 
-Follow this feature in [**this article**](/git-integration-for-jira-self-managed/working-with-jmespath-filters-gij-self-managed).
+Follow this feature in [**this article**](/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed).
 
 * * *
 
@@ -149,7 +149,7 @@ The following settings are implemented in the **Manage git repositories** page �
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1078231449/jira-server-general-settings-branch-pull-req-cfgs%20(c).png?version=1&modificationDate=1611742804892&cacheVersion=1&api=v2&width=544&height=362)
 
-For more information, follow [**this article**](/git-integration-for-jira-self-managed/associate-pull-merge-requests-to-issues-based-on-commits-gij-self-managed).
+For more information, follow [**this article**](/git-integration-for-jira-data-center/associate-pull-merge-requests-to-issues-based-on-commits-gij-self-managed).
 
 * * *
 
@@ -179,7 +179,7 @@ By scheduling jobs in [**Git Integration for Jira**](https://marketplace.atlassi
 
 ![Scheduled jobs showing repository indexing and gc](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1078231449/general-settings-scheduled-jobs.png?version=1&modificationDate=1611748710415&cacheVersion=1&api=v2&width=544&height=217)
 
-For detailed information, see [**this article**](/git-integration-for-jira-self-managed/scheduling-jobs-gij-self-managed),
+For detailed information, see [**this article**](/git-integration-for-jira-data-center/scheduling-jobs-gij-self-managed),
 
 * * *
 
@@ -202,7 +202,7 @@ Gerrit integration has been added to the Auto-connect integration panel. Access 
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1078231449/jira-serverdc-new-autoconnect-ui.png?version=1&modificationDate=1611822418749&cacheVersion=1&api=v2&width=612&height=174)
 
-Follow this feature in the [**Gerrit integration guide**](/git-integration-for-jira-self-managed/gerrit-gij-self-managed).
+Follow this feature in the [**Gerrit integration guide**](/git-integration-for-jira-data-center/gerrit-gij-self-managed).
 
 * * *
 
@@ -214,7 +214,7 @@ The Commits REST API has been extended to show branch name in the results.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1078231449/jira-serverdc-branches-commits-api-example.png?version=1&modificationDate=1611825301037&cacheVersion=1&api=v2&width=442&height=468)
 
-For more information, see [**Commits REST API**](/git-integration-for-jira-self-managed/commits-api-gij-self-managed)**,**.
+For more information, see [**Commits REST API**](/git-integration-for-jira-data-center/commits-api-gij-self-managed)**,**.
 
 * * *
 
@@ -232,7 +232,7 @@ For more information, see [**Commits REST API**](/git-integration-for-jira-self-
 | *   Automatically selects the first branch that has the Jira issue key in the branch title from the **Source branch** list.<br>    <br>*   Improved message matching in how Jira displays it. |
 | ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1078231449/jira-serverdc-autosel-branch-from-list-first-one-if-many.png?version=1&modificationDate=1611842239570&cacheVersion=1&api=v2) |
 
-For related information, see [**Creating Pull/Merge Request**](/git-integration-for-jira-self-managed/creating-branches-and-pull-merge-requests-basics-gij-self-managed).
+For related information, see [**Creating Pull/Merge Request**](/git-integration-for-jira-data-center/creating-branches-and-pull-merge-requests-basics-gij-self-managed).
 
 * * *
 
@@ -250,7 +250,7 @@ Git Integration for Jira app VERSION 3.5+ now supports Azure Files as storage fo
 
 Git Integration for Jira app VERSION 3.5+ now supports webhooks for Azure DevOps/VSTS/TFS instances.
 
-For more information, read [**Adding Webhooks for Azure DevOps/VSTS**](/git-integration-for-jira-self-managed/adding-webhooks-for-azure-devops-repos-vsts-gij-self-managed) and [**Adding Webhooks for Azure DevOps Server/TFS**](/git-integration-for-jira-self-managed/adding-webhooks-for-azure-devops-server-tfs-gij-self-managed) in Confluence.
+For more information, read [**Adding Webhooks for Azure DevOps/VSTS**](/git-integration-for-jira-data-center/adding-webhooks-for-azure-devops-repos-vsts-gij-self-managed) and [**Adding Webhooks for Azure DevOps Server/TFS**](/git-integration-for-jira-data-center/adding-webhooks-for-azure-devops-server-tfs-gij-self-managed) in Confluence.
 
 * * *
 
@@ -260,11 +260,11 @@ For more information, read [**Adding Webhooks for Azure DevOps/VSTS**](/git-inte
 
 REST APIs for the following articles were updated with refspec support:
 
-*   Integration ([Add New Integration](/git-integration-for-jira-self-managed/add-new-integration-gij-self-managed), [Update Existing Integration](/git-integration-for-jira-self-managed/update-existing-integration-gij-self-managed)
+*   Integration ([Add New Integration](/git-integration-for-jira-data-center/add-new-integration-gij-self-managed), [Update Existing Integration](/git-integration-for-jira-data-center/update-existing-integration-gij-self-managed)
 
-*   Repository ([Add New Repository](/git-integration-for-jira-self-managed/add-new-repository-gij-self-managed), [Update Existing Repository](/git-integration-for-jira-self-managed/update-existing-repository-gij-self-managed)
+*   Repository ([Add New Repository](/git-integration-for-jira-data-center/add-new-repository-gij-self-managed), [Update Existing Repository](/git-integration-for-jira-data-center/update-existing-repository-gij-self-managed)
 
-*   Bulk Change ([Bulk Export](/git-integration-for-jira-self-managed/bulk-export-gij-self-managed), [Bulk Import](/git-integration-for-jira-self-managed/bulk-import-gij-self-managed)
+*   Bulk Change ([Bulk Export](/git-integration-for-jira-data-center/bulk-export-gij-self-managed), [Bulk Import](/git-integration-for-jira-data-center/bulk-import-gij-self-managed)
 
 
 See also **Fetch Refspec** with Auto-Connect Integration wizard in _**Advanced**_ options:
@@ -336,3 +336,4 @@ Adds **Max. commit age** setting to General Settings which:
 
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1078231449/image-20210201-091335.png?version=1&modificationDate=1612170818610&cacheVersion=1&api=v2&width=340&height=74)
+

@@ -33,11 +33,11 @@ Re-index does 2 operations:
 
 In terms of kicking off the indexing based on an event, you have two options:
 
-*   [Reindex API](/git-integration-for-jira-self-managed/reindex-api-gij-self-managed/)
+*   [Reindex API](/git-integration-for-jira-data-center/reindex-api-gij-self-managed/)
 
-*   [Webhooks overview](/git-integration-for-jira-self-managed/Webhooks-gij-self-managed/)
+*   [Webhooks overview](/git-integration-for-jira-data-center/Webhooks-gij-self-managed/)
 
-*   [Integration webhooks documentation](/git-integration-for-jira-self-managed/Integration-webhooks-gij-self-managed/)
+*   [Integration webhooks documentation](/git-integration-for-jira-data-center/Integration-webhooks-gij-self-managed/)
 
 What other users have done is set a high interval and then configure one of those options.
 
@@ -51,7 +51,7 @@ Scroll down to the **Scheduled jobs** section and set the **Repository indexing*
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2053570566/gitserver-gencfg-sched-jobs-repo-idx-sel.png?version=1&modificationDate=1642419212374&cacheVersion=1&api=v2&width=680&height=300)
 
-For near-instantaneous display of commits in your Jira issues, we recommend to [configure webhooks](/git-integration-for-jira-self-managed/Integration-webhooks-gij-self-managed/).
+For near-instantaneous display of commits in your Jira issues, we recommend to [configure webhooks](/git-integration-for-jira-data-center/Integration-webhooks-gij-self-managed/).
 
 ## How do I completely rebuild plugin indexes?
 

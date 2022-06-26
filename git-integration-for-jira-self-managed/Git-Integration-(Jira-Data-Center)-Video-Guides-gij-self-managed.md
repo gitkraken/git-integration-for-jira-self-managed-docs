@@ -12,10 +12,7 @@ On this page, you will find videos showcasing important features of the app such
 Get started with connecting your favorite git host to Jira Data Center now!
 
 
-
-**INSTALLATION**
-
-
+## Installation
 
 **[Installation with Jira 7 »](https://bigbrassband.wistia.com/medias/lr0jp6ntfd)**
 
@@ -33,9 +30,7 @@ Learn how automatic and manual updating of Git Integration for Jira Data Center 
 
 Familiarize quick steps on how to associate git commits to Jira issues in Jira Data Center.
 
-
-
-**ADMINISTRATION**
+## Administration
 
 **[Setting Permissions »](https://bigbrassband.wistia.com/medias/21vd3arsj6)**
 
@@ -45,13 +40,9 @@ Learn how to set project permissions with View Development Tools. The "View Deve
 
 Learn how to create branches, merge/pull requests by watching this video. These steps is also applicable to supported git hosts such as GitLab, GitHub, VSTS, TFS, etc.
 
-
-
-**INTEGRATION**
+## Integration
 
 Quick and easy! Learn about the basics of integrating git repositories to Jira Data Center and associating git commits to a Jira issue. Click on a link to see specific steps for the selected git host.
-
-
 
 **[GitHub.com »](https://bigbrassband.wistia.com/medias/8jtnqzp79y)**
 
@@ -77,10 +68,7 @@ Quick and easy! Learn about the basics of integrating git repositories to Jira 
 
 **[HTTPS/HTTP/SSH »](https://bigbrassband.wistia.com/medias/bu0wamg1fx)**
 
-
-
-**CUSTOMIZATION**
-
+## Customization
 
 **[Webhooks »](https://bigbrassband.wistia.com/medias/4o796wnrdx)**
 
@@ -98,9 +86,7 @@ Learn how to configure webhooks for GitLab git hosts.
 
 Learn how to configure webhooks for GitHub git hosts.
 
-
-
-**SUPPORT**
+## Support
 
 **[GitLab.com Personal Access Tokens »](https://bigbrassband.wistia.com/medias/pugrp72ylq)**
 

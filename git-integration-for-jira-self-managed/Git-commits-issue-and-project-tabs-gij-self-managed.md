@@ -6,8 +6,18 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-This setting is part of the [**General Settings**](/git-integration-for-jira-self-managed/general-settings-gij-self-managed) configuration page.
 
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'><b>General Settings</b></a> configuration page.
+    </div>
+    </div>
+</div>
+<br>
 
 This setting affects how the information is displayed in the **Git commits issue** and **Project** tabs on the Jira issue.
 
@@ -22,7 +32,7 @@ This setting affects how the information is displayed in the **Git commits issue
 
 * * *
 
-#### **Reverse commit tab sort order**
+## Reverse commit tab sort order
 
 Turn this setting to `ON` to sort commits in the Git Commits tab from newest (top) to oldest (bottom). Set this to off to sort commits from oldest (top) to newest (bottom). This setting is `ON` by default. On app upgrade, it defaults to `ON`.
 
@@ -30,7 +40,7 @@ This only sets the default sorting of commits when opening/loading the Git Commi
 
 * * *
 
-**Commits limit**
+## Commits limit
 
 _Required_. Set the maximum number of commits to display on the Jira issue Git Commits tab. The default setting is **20**.
 

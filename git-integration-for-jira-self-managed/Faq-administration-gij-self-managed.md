@@ -8,7 +8,7 @@ taxonomy:
 ---
 This page contains solutions targeted for administrators.
 
-Use the [FAQ](/git-integration-for-jira-self-managed/frequently-asked-questions-gij-self-managed) find answers to common questions.  Feel free to contact our support team ([support@bigbrassband.com](mailto:support@bigbrassband.com)) if you don't see what you're looking for.
+Use the [FAQ](/git-integration-for-jira-data-center/frequently-asked-questions-gij-self-managed) find answers to common questions.  Feel free to contact our support team ([support@bigbrassband.com](mailto:support@bigbrassband.com)) if you don't see what you're looking for.
 
 - [How do I let people browse Git securely but without defining Git IDs for everyone?](#how-do-i-let-people-browse-git-securely-but-without-defining-git-ids-for-everyone)
 - [Does the Git Integration for Jira app have API commands that allow addition/removal of a Git project?](#does-the-git-integration-for-jira-app-have-api-commands-that-allow-additionremoval-of-a-git-project)
@@ -46,7 +46,7 @@ Configure this setting via:
 
 ## Does the Git Integration for Jira app have API commands that allow addition/removal of a Git project?
 
-Yes. The Git Integration for Jira app supports REST APIs for adding, updating, and deleting repository. The documentation for this feature is available at [Git Integration app: Hook and API Reference - Repository REST API](/git-integration-for-jira-self-managed/repository-api-gij-self-managed).
+Yes. The Git Integration for Jira app supports REST APIs for adding, updating, and deleting repository. The documentation for this feature is available at [Git Integration app: Hook and API Reference - Repository REST API](/git-integration-for-jira-data-center/repository-api-gij-self-managed).
 
 ## After upgrading Jira from 4.1.1 to 5.2.9, I get some errors "Folder ... FORNEOnlineSolver git doesn't exist". Where can I set the path correctly? Is there any properties file?
 
@@ -64,7 +64,7 @@ Also, an upgrade of Jira may lead to changing of user account used to run the se
 
 Yes — it does support repositories supporting many projects. That said, the associations are made by the developers when they commit code to a specific issue key (which is part of a project). The permission that allows a user to see these commits in a Jira project is whether they have the "**View Development Tools**" permission for that project (that's a Jira setting).
 
-The only project permissions that the Git Integration for Jira app has are for the Repository Browser (Git dropdown menu). To associate a repository with all Jira projects or only specific projects, see [Project permissions setting](/git-integration-for-jira-self-managed/using-the-connect-repository-wizard-gij-self-managed#settings) in the Connect to Git Repository wizard or [associating project permissions](/git-integration-for-jira-self-managed/associating-project-permissions-gij-self-managed) via **Edit repository settings** in the Git Repositories configuration page.
+The only project permissions that the Git Integration for Jira app has are for the Repository Browser (Git dropdown menu). To associate a repository with all Jira projects or only specific projects, see [Project permissions setting](/git-integration-for-jira-data-center/using-the-connect-repository-wizard-gij-self-managed#settings) in the Connect to Git Repository wizard or [associating project permissions](/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed) via **Edit repository settings** in the Git Repositories configuration page.
 
 ## How do I connect to HTTPS repositories with self signed SSL certificates or other SSL issues?
 
@@ -97,7 +97,7 @@ The above solution should work, otherwise, see below for the steps to workaround
 
 5.  From your browser, log into Jira and go to Jira dashboard menu Git ➜ **Manage repositories**. The manage git repositories configuration page is displayed.
 
-6.  Click **Connect to Git Repository** then [_Advanced setup_](/git-integration-for-jira-self-managed/connecting-a-repository-via-advanced-setup-gij-self-managed).
+6.  Click **Connect to Git Repository** then [_Advanced setup_](/git-integration-for-jira-data-center/connecting-a-repository-via-advanced-setup-gij-self-managed).
 
 7.  For the _Display Name_, enter a description of the Git repository.
 
@@ -117,7 +117,7 @@ There are alternative solutions to make Java trust this certificate.  Please re
 *   [**Connecting to SSL services**](https://confluence.atlassian.com/jira/connecting-to-ssl-services-117455.html)
 
 
-If the problem persist, please [send us a support zip](/git-integration-for-jira-self-managed/faq-support#how-to-create-the-support-zip-file-gij-self-managed) to give us a better view of the issue.
+If the problem persist, please [send us a support zip](/git-integration-for-jira-data-center/faq-support#how-to-create-the-support-zip-file-gij-self-managed) to give us a better view of the issue.
 
 ## I want to track all repositories hosted in my GitLab server from my Jira Data Center/Server. How do I configure the required NFS access permissions?
 

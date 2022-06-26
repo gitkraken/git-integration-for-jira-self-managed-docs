@@ -17,20 +17,53 @@ Also include information about:
 *   If there were any changes to the environment that would be notable?
 
 
-You can produce the "Support Zip" by following the steps in [this article](/git-integration-for-jira-self-managed/how-to-create-the-support-zip-file-gij-self-managed) or by accessing `http://[JiraServerNameHere]/plugins/servlet/troubleshooting/view/`.
+You can produce the "Support Zip" by following the steps in [this article](/git-integration-for-jira-data-center/how-to-create-the-support-zip-file-gij-self-managed) or by accessing `http://[JiraServerNameHere]/plugins/servlet/troubleshooting/view/`.
 
-**Note**
-Jira Cloud does not have the Support Zip feature.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Note</b><br>
+        Jira Cloud does not have the Support Zip feature.
+    </div>
+    </div>
+</div>
+<br>
+
+<div class='embed-container embed-container--16-10'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/thbjckk3kv?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
 
 _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/thbjckk3kv) _to open this video in a new browser tab for more viewing options._
 
-Export Jira Support Zip settings to get the best support.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Export Jira Support Zip settings to get the best support.
+    </div>
+    </div>
+</div>
 
-If the support zip is larger than 15 MB _(too large for our support system to receive by email) -_ contact us: [support@bigbrassband.com](mailto:support@bigbrassband.com) and we will provide a secure location to upload the support zip.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        If the support zip is larger than 15 MB _(too large for our support system to receive by email) -_ contact us: <a href='mailto:support@bigbrassband.com'>support@bigbrassband.com</a> and we will provide a secure location to upload the support zip.
+    </div>
+    </div>
+</div>
+<br>.
 
 ## Memory warnings before GC
 
-NEW! VERSION 4.0
+<span style='color: #FFF1B6'><b>NEW!</b></span> <b style='color:#B1F7D2'>VERSION 4.0</b>
 
 This type of information can be obtained from the logs.
 
@@ -43,8 +76,26 @@ The memory warnings are added to the logs before GC tasks. This provides admins 
 
 Administrators can view these logs and do maintenance routines if needed. You may send the logs to our support email for further analysis.
 
-**Log settings**
-In order to see the log messages, you need to be sure that the logger severity for `'com.bigbrassband.jira.git.jiraservices.jobs'` (Jira settings ➜ System) is set up on the **INFO** or lower (please check it on `http://<server>/jira/secure/admin/ViewLogging.jspa` – _Jira settings ➜ Logging and profiling_).
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Log settings</b><br>
+        In order to see the log messages, you need to be sure that the logger severity for <code>'com.bigbrassband.jira.git.jiraservices.jobs'</code> (Jira settings ➜ System) is set up on the <b>INFO</b> or lower (please check it on <code>http://&lt;server&gt;/jira/secure/admin/ViewLogging.jspa</code> – <i>Jira settings ➜ Logging and profiling</i>).
+    </div>
+    </div>
+</div>
 
-The Git Integration for Jira app will automatically use the WARN logger severity if the memory size tolerance has been reached. If administrators doesn't want to see such logs in all GC runs, apply the WARN severity level.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The Git Integration for Jira app will automatically use the WARN logger severity if the memory size tolerance has been reached. If administrators doesn't want to see such logs in all GC runs, apply the WARN severity level.
+    </div>
+    </div>
+</div>
 
