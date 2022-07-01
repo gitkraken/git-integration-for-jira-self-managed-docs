@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-The Git Integration for Jira app currently supports **Jira** **7.13** to **8.22**!
+The Git Integration for Jira app currently supports **Jira** **8.0** to **9.0**!
 
 <div class="bbb-callout bbb--error">
     <div class="irow">
@@ -24,6 +24,7 @@ The Git Integration for Jira app currently supports **Jira** **7.13** to **8.2
 We are committed to provide you with an efficient and reliable support. Scroll down to see helpful tips to get started.
 
 **What’s on this page:**
+- [Migrating to Jira 9](#migrating-to-jira-9)
 - [Quick Installation Video](#quick-installation-video)
 - [Viewing Reindex Logs](#viewing-reindex-logs)
 - [Atlassian Support End of Life](#atlassian-support-end-of-life)
@@ -31,6 +32,12 @@ We are committed to provide you with an efficient and reliable support. Scroll d
 
 
 * * *
+
+## Migrating to Jira 9
+
+Administrators should deselect the "Reverse commit tab sort order" option in General settings when Jira 8 is migrated to Jira 9. If this is a new Jira 9 installation then nothing is required.
+
+After upgrading from Jira 8 to Jira 9, administrators must re-create all indexes using the "Reset index" Action command for all repositories or integrations.
 
 ## Quick Installation Video
 
@@ -110,6 +117,7 @@ The table below shows the Jira Version, when [Atlassian will stop supporting th
 | 8.20 | October 19, 2023 | Edge | Yes\* |
 | 8.21 | December 9, 2023 | Edge | Yes\* |
 | 8.22 | February 16, 2024 | Edge | Yes\* |
+| 9.0 | June 21, 2024 | Edge | Yes\* |
 
 \* _See information below about retiring IE11 support._
 
