@@ -24,7 +24,7 @@ groovy for custom scripts.
 Which API or functions can be used in such scripts? Adaptavist lists [the next ones](https://scriptrunner.adaptavist.com/latest/jira/behaviours-api-quickref.html).
 <br>
 
-Git Integration for Jira provides additional Java API ([GIJFacade class](/git-integration-for-jira-data-center/javadocs-gijfacade-gij-self-managed/))
+Git Integration for Jira provides additional Java API ([GIJFacade interface](/git-integration-for-jira-data-center/javadoc/com/bigbrassband/jira/git/services/GIJFacade.html.md))
 allowing you to operate with git information. 
 The API is close to [Git integration for Jira REST API](/git-integration-for-jira-data-center/rest-api-gij-self-managed/) 
 and provides similar functionality (and more):
@@ -34,29 +34,31 @@ and provides similar functionality (and more):
 
 *   Reindex - start a reindex of repository/integration, check whether the reindex is finished 
 
-*   Commits - ...
+*   Commits - get commits associated with an issue, change a commit issue association
 
-*   CommitIssueChanges - ...
+*   Branches - get branches associated with an issue, create/delete branch
 
-*   Branches - ...
+*   Tags - get tags associated with an issue
 
-*   Tags - ...
-
-[GIJFacade](/git-integration-for-jira-data-center/javadocs-gijfacade-gij-self-managed/) is the main class having methods for all cases.
+A singleton implementing [GIJFacade interface](/git-integration-for-jira-data-center/javadoc/com/bigbrassband/jira/git/services/GIJFacade.html.md) is the main object having methods for all the above cases.
 <br>
-[JavaDocs](/git-integration-for-jira-data-center/javadocs-gij-self-managed/) for all classes used in GIJFacade see [nearby](/git-integration-for-jira-data-center/javadocs-gij-self-managed/).
+[JavaDocs](/git-integration-for-jira-data-center/javadoc/) for all classes used in GIJFacade see [nearby](/git-integration-for-jira-data-center/javadoc/).
 
 
 
 ## Examples of usage
 
-**Example 1**: The API allows you to write a script re-associating git commits from one issue to another.
+Here might be numerous examples of scripts that couldn't be possible without existence of GIJFacade class. I will mention a few.
+
+**Example 1**: 
+
+The API allows you to write a script re-associating git commits from one issue to another.
 Without such script, you have to click each git commit and manually re-assign it to another issue to be shown 
 on Git Commits issue tab of another issue.
 
-**Example 2**: Create a pull request if an issue has been moved to CODE REVIEW status.
- 
- **Example ...**: Here might be numerous examples that couldn't be possible without existence of GIJFacade class. 
+**Example 2**: 
+
+Create a pull request if an issue has been moved to CODE REVIEW status. 
 
 ## Tutorial
 
@@ -67,11 +69,21 @@ Further I'll demonstrate two things:
 
 ## Getting started with Scriptrunner plugin
 
-* Install Scriptrunner plugin. As a result the next pages are available in administration.
-* None GIJ configuration is required
+For Jira Server/Data Center, you will need to download and install Scriptrunner plugin from the Atlassian Marketplace.
+None further GIJ configuration is required.
+
+### Downloading the app
+
+1.  Go to [Scriptrunner for Jira](https://marketplace.atlassian.com/apps/6820/scriptrunner-for-jira?tab=overview&hosting=cloud) and start the free trial or buy it now.
+
+2.  Login to your Atlassian account when prompted and generate a new license for the trial.
+
+3.  IMPORTANT Make sure to copy your license and save it.
+
+4.  Click **Download** to download the app to your local system.
 
 
-### How to run a simple script
+## Create a simple script
 
 Precondition:
 * GIJ plugin is installed.
