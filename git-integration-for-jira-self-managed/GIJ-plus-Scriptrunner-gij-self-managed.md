@@ -62,9 +62,9 @@ Create a pull request if an issue has been moved to CODE REVIEW status.
 
 ## Tutorial
 
-Further I'll demonstrate two things:
+Further I'll demonstrate several things:
 * getting started with Scriptrunner plugin
-* a creation of a simple script retrieving list of commits associated with issue "TST-1"
+* a creation of a simple script retrieving list of commits associated with issue "TST-4"
 * a setup of issue workflow in a such way that if an OPEN issue has at least one git commit then it's moved to IN PROGRESS status
 
 ## Getting started with Scriptrunner plugin
@@ -82,48 +82,11 @@ None further GIJ configuration is required.
 
 4.  Click **Download** to download the app to your local system.
 
-
-## Create a simple script
-
-Precondition:
-* GIJ plugin is installed.
-* Some repository is connect.
-* You have an issue (e.g. TST-1) having git commits associated with it on Git Commits issue tab.
-
-Steps
-* open Scriptrunner console
-* input the next code
-* press "Run" button
-* a result of the last operation is displayed at the bottom. In our case it's a list of commits associated with issue "TST-1".
-Please be aware, that objects are logged using the shortest information by default. If you'd like to   
-* pay your attention to "Logs" tab at the bottom
-* please be aware, that 
-
-## Permissions
-
-Permissions model is provided by Scriptrunner. So read its documentation.
-
-
-## Old stuff below. todo: delete
-
-On Jira Cloud, the Automation for Jira has been completely integrated into Jira Cloud and no longer exists as a standalone app in the Atlassian Marketplace. For Jira Server/Data Center, you will need to download and install Automation for Jira - Data Center and Server from the Atlassian Marketplace.
-
-### Downloading the app
-
-1.  Go to [Automation for Jira - Data Center and Server](https://marketplace.atlassian.com/apps/1215460/automation-for-jira-data-center-and-server?hosting=datacenter&tab=overview) and start the free trial or buy it now.
-
-2.  Login to your Atlassian account when prompted and generate a new license for the trial.
-
-3.  IMPORTANT Make sure to copy your license and save it.
-
-4.  Click **Download** to download the app to your local system.
-
-
 ### Installing the app
 
 <b style='color: #63B9CC'>REQUIRES ADMIN ACCESS</b>
 
-1.  On your Jira Server/Data Center instance, navigate to Manage apps (Jira settings ➜ Apps ➜ **Manage apps**).
+1.  On your Jira Server/Data Center instance, navigate to Manage apps (Jira settings ➜ Manage apps ➜ **Manage apps**).
 
     ![](https://bigbrassband.atlassian.net/wiki/download/attachments/2126905349/jira-admin-cfg-manage-apps-upload-app-sel(c).png?api=v2)
 
@@ -133,94 +96,217 @@ On Jira Cloud, the Automation for Jira has been completely integrated into Jira 
 
 4.  Paste the license key into the provided box then click **Update**.
 
+## Example 1: How to create a simple script?
 
-## General settings for A4J
+<b style='color: #63B9CC'>REQUIRES ADMIN ACCESS</b>
 
-<b style='color: #63B9CC'>ADMINS</b>
+Precondition:
+* GIJ plugin is installed.
+* Some repository is connected.
+* You have an issue (e.g. TST-4) having git commits associated with it on Git Commits issue tab.
+  Otherwise script will return empty list.
+  ![](../_images/gijfacade-issue-with-commits.png)
 
-Before you can use the full extent of this feature, make sure that it is enabled in the Git Integration for Jira app General settings.
+Steps
+* open Scriptrunner console (Jira settings ➜ Manage apps ➜ Scriptrunner **Console**).
+  Here you can experiment with scripts, debug scripts, execute scripts.
+  ![](../_images/gijfacade-empty-console.png)
+* input the next code
+```
+import com.onresolve.scriptrunner.runner.customisers.WithPlugin
+import com.onresolve.scriptrunner.runner.customisers.PluginModule
+@WithPlugin("com.xiplink.jira.git.jira_git_plugin")
+import com.bigbrassband.jira.git.services.GIJFacade;
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/2126905349/jira-server-gen-cfg-jira-automation-setting.png?api=v2)
+@PluginModule
+GIJFacade gijFacade;
 
-## How to set up automation templates
+gijFacade.getCommitsForIssue("TST-4");
+```
+* press "Run" button
+  ![](../_images/gijfacade-getCommitsForIssue-1.png)
+* a result of the last operation is displayed at the bottom in "Result" tab.
+  In our case the last operation is ```gijFacade.getCommitsForIssue("TST-4");``` so the tab displays a list of commits associated with issue "TST-4.
+  <br>
+  Please be aware that just brief objects information is logged by default, i.e. each commit object in the list contains much more information about a commit 
+  which can be gotten programmatically. See [Commit](/git-integration-for-jira-data-center/javadoc/com/bigbrassband/jira/git/rest/publicmodels/Commit.html.md) class javadocs to find a full list of information provided.
+  
+## Example 2: How to log?
+* pay your attention to "Logs" tab at the bottom. There can be many logs while a result is only one.
+  <br>
+  Use ```log.warn("Your message")``` to log something.
+  <br>
+* Let's log commits and number of changed files. Enter the next script in Scriptrunner console and run
+  ```
+  import com.onresolve.scriptrunner.runner.customisers.WithPlugin
+  import com.onresolve.scriptrunner.runner.customisers.PluginModule
+  @WithPlugin("com.xiplink.jira.git.jira_git_plugin")
+  import com.bigbrassband.jira.git.services.GIJFacade;
+  @WithPlugin("com.xiplink.jira.git.jira_git_plugin")
+  import com.bigbrassband.jira.git.rest.publicmodels.Commit;
+  import java.util.function.Consumer;
+  
+  @PluginModule
+  GIJFacade gijFacade;
+  
+  gijFacade.getCommitsForIssue("TST-4", true)
+      .stream()
+      .forEach(new Consumer<Commit>() {
+          @Override
+          public void accept(Commit commit) {
+  
+              log.warn("commit " + commit.getCommitId());
+              log.warn("\t number of files changed - " +commit.getFiles().size());
+          }
+      }
+  );
+   ```
+* Click "Run" button
+* Switch to "Logs" tab
+  ![](../_images/gijfacade-scriptrunner-logs-tab.png)
 
-Create a rule to configure triggers and actions for automating tasks. There are two levels:
+## Example 3: How to log more than a brief information?
+* As it mentioned above, a commit is logged using brief information by default.
+  For example files are not logged but are present in commit objects when you retrieve them with help of ```gijFacade.getCommitsForIssue("TST-4", true)```.
+  <br>
+  Let's look at  [Commit](/git-integration-for-jira-data-center/javadoc/com/bigbrassband/jira/git/rest/publicmodels/Commit.html.md) javadocs and log commits with files in a beautiful way. Enter the next script in Scriptrunner console and run
+  ```
+  import com.onresolve.scriptrunner.runner.customisers.WithPlugin
+  import com.onresolve.scriptrunner.runner.customisers.PluginModule
+  @WithPlugin("com.xiplink.jira.git.jira_git_plugin")
+  import com.bigbrassband.jira.git.services.GIJFacade;
+  @WithPlugin("com.xiplink.jira.git.jira_git_plugin")
+  import com.bigbrassband.jira.git.rest.publicmodels.Commit;
+  @WithPlugin("com.xiplink.jira.git.jira_git_plugin")
+  import com.bigbrassband.jira.git.rest.publicmodels.Commit.ShortFileInfo;
+  import java.util.function.Consumer;
+  
+  @PluginModule
+  GIJFacade gijFacade;
+  
+  gijFacade.getCommitsForIssue("TST-4", true)
+      .stream()
+      .forEach(new Consumer<Commit>() {
+          @Override
+          public void accept(Commit commit) {
+  
+              log.warn(commit.getCommitId());
+  
+              commit.getFiles()
+                  .stream()
+                  .forEach(new Consumer<ShortFileInfo>() {
+                      @Override
+                      public void accept(ShortFileInfo file) {
+  
+                          log.warn("\t\t" + file.getPath());
+  
+                      }
+                  });
+          }
+      }
+  );
+  ```
+* Switch to "Logs" tab. Here you can see commits with files.
+  ![](../_images/gijfacade-example-with-commits-and-files.png)
+* Great, we got it.
+* How it works? Look, how the original script was changed:
+  * we had to add more imports to avoid compilation error
+  * we called ```gijFacade.getCommitsForIssue("TST-4", true)``` instead of ```gijFacade.getCommitsForIssue("TST-4")``` otherwise list of files is null
+  * we looped throughout commits
+    ```
+      gijFacade.getCommitsForIssue("TST-4", true)
+          .stream()
+          .forEach(new Consumer<Commit>() {
+              @Override
+              public void accept(Commit commit) {
+      
+                  log.warn(commit.getCommitId());
+                  ...
+              }
+          }
+    );
+    ```
+  * and then looped throughout files belonging to each commit
+    ```
+             ...
+                commit.getFiles()
+                  .stream()
+                  .forEach(new Consumer<ShortFileInfo>() {
+                      @Override
+                      public void accept(ShortFileInfo file) {
 
-### Project level (projects)
+                          log.warn("\t\t" + file.getPath());
 
-Project rules only apply within specific projects.
+                      }
+                  });
+             ...
+    ```
+    
+## Example 4: Move an issue in IN PROGRESS status when at least one git commit exists
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/2126905349/gitserver-proj-settings-automation-sel-a1.png?api=v2)
+* Let's write and debug a code detecting whether an issue has at least one git commit
+* * open Scriptrunner console (Jira settings ➜ Manage apps ➜ Scriptrunner **Console**).
+* * input the next code
+```
+import com.onresolve.scriptrunner.runner.customisers.WithPlugin
+import com.onresolve.scriptrunner.runner.customisers.PluginModule
+@WithPlugin("com.xiplink.jira.git.jira_git_plugin")
+import com.bigbrassband.jira.git.services.GIJFacade;
 
-1.  Open a project to work on, then go to ![(blue star)](https://bigbrassband.atlassian.net/wiki/s/1390985508/6452/54e101d7235b2d7307c412fdfb4c3bd12f35dd91/_/images/icons/emoticons/72/2699.png) **Project settings**.
+@PluginModule
+GIJFacade gijFacade;
 
-2.  On the sidebar, click **Project automation**.
+String issueKey = "TST-4";
+!gijFacade.getCommitsForIssue(issueKey).isEmpty();
+```
+* * press "Run" button
+* * open "Result" tab. Result: "true".
+* * When I change issueKey variable value to another (e.g. ```String issueKey = "TST-3";```) then the code returns whether TST-3 has git commits or not. Good
+* How to integrate the code into workflow? How to customize it by dynamic IN issueKey parameter? 
+  <br>
+  Below I'll show an example which is not smart enough, but which demonstrates a principe of using gijFacade in Scriptrunner features.
+* Let's create a Scriptrunner Listener which will be triggered by an adding a comment to an issue. If the issue has git commits then the listener will move the issue to IN PROGRESS status.
+* * Open Scriptrunner Listeners (Jira settings ➜ Manage apps ➜ Scriptrunner **Listeners**).
+  ![](../_images/gijfacade-scriptrunner-listeners.png)
+* * Click "Create Listener" 
+* * Find and choose "Fast-track transition an issue"
+    ![](../_images/gijfacade-scriptrunner-transition-listener.png)
+* * Set up the new listener
+    ![](../_images/gijfacade-scriptrunner-listener-settings.png)
+* * Set Event = "Issue Commented"
+* * Input the next script into Condition. It's our script but customized a bit, e.g. it uses ```String issueKey = issue.key;```
+```
+import com.onresolve.scriptrunner.runner.customisers.WithPlugin
+import com.onresolve.scriptrunner.runner.customisers.PluginModule
+@WithPlugin("com.xiplink.jira.git.jira_git_plugin")
+import com.bigbrassband.jira.git.services.GIJFacade;
 
-3.  On the Automation screen, click **Project rules.**
+@PluginModule
+GIJFacade gijFacade;
 
-    *   OPTIONAL Click **Add template rules** to add built-in preset automation rules generated by Git Integration for Jira app to the current project.
+String issueKey = issue.key;
+!gijFacade.getCommitsForIssue(issueKey).isEmpty();
+```
+* * Choose Action = "Start Progress"
+* * Transition Options: tick on "Skip Permissions", "Skip Validators", "Skip Conditions" just in case
+* * Click "Add" button
+* Let's test it.
+* * Open TST-4 issue, which is in OPEN status and which has git commits associated.
+* * Add comment "Some comment." Result: the issue is in status IN PROGRESS, because it has git commits. Great. We got it.
 
-4.  Click **Create rule** (adjacent to **...**) to manually create a new automation rule for the current project. Skip the tour, if prompted, then proceed to start creating the new rule.
+## Permissions
 
-5.  Configure triggers, conditions and actions for this rule.
-
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/2126905349/gitserver-create-automation-rule-example(c1).png?api=v2)
-
-6.  For the above example:
-
-    *   **TRIGGER** – This rule will trigger when a pull request is created.
-
-    *   **CONDITION** – When the status of the Jira issue is IN PROGRESS, it will perform the actions below.
-
-    *   **ACTIONS** – If the condition(s) are met, the rule will fire up the action(s) -- assigns the issue to a specific group REVIEWERS and transitions the Jira issue to IN REVIEW.
-
-7.  Enter a descriptive name for this rule in the provided box.
-
-8.  Click **Turn it on** to publish and activate it. The new rule is added to the automation list.
-
-
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/2126905349/gitserver-create-automation-rule-list-sel.png?api=v2)
-
-### Global administration level (system)
-
-Global rules apply to all projects. If there are similar automation rule triggers from one or more projects, the global rule is executed first.
-
-The steps for creating automation rules for global level is exactly the same as the Project level instructions.
-
-1.  Access the global automation rules via Jira settings ➜ **System**.
-
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/2126905349/gitserver-system-menu-sidebar-automation(c).png?api=v2)
-
-2.  On the sidebar under Automation for Jira, click **Automation rules**.
-
-3.  Click **Create rules**.
-
-4.  Configure triggers, conditions and actions for this rule.
-
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/2126905349/gitserver-global-automation-rule-example-2(c1).png?api=v2)
-
-    *   **TRIGGER** – This rule will trigger when a commit is created.
-
-    *   **CONDITION** – When the ASSIGNEE is the commit author, it will perform the action(s) below.
-
-    *   **ACTIONS** – If the condition(s) are met, the rule will fire up the actions – assign the issue to a specific group TESTERS and transitions the Jira issue to IN TESTING.
-
-5.  Enter a descriptive name for this rule in the provided box.
-
-6.  Click **Turn it on** to publish and activate it. The new rule is added to the automation list.
-
-
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/2126905349/gitserver-global-automation-rule-list-add.png?api=v2)
+Permissions model is provided by Scriptrunner. So read its documentation.
 
 ## Known issue
 
-![(info)](https://bigbrassband.atlassian.net/wiki/s/1390985508/6452/54e101d7235b2d7307c412fdfb4c3bd12f35dd91/_/images/icons/emoticons/information.png) The limitation of Git Integration for Jira (GIJ) app not working with Automation for Jira (A4J) Lite is not a GIJ limitation but an Atlassian limitation.
+...
 
 ## Advanced Examples
 
 For advanced examples, see sub-page [Automation Advanced Examples](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1714257921).
 
-## More related topics about Jira automation
+## More related topics about Scriptrunner
 
 *   [A4J advanced examples](/git-integration-for-jira-data-center/Git-integration-plus-Jira-automation-advanced-examples-gij-self-managed/)
 
