@@ -1,3 +1,5 @@
+# Example of a script using gitlFacade.getRepositories(String issueKey)
+
 ```
 import com.onresolve.scriptrunner.runner.customisers.PluginModule
 @WithPlugin("com.xiplink.jira.git.jira_git_plugin")

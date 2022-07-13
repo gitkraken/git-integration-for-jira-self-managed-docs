@@ -24,7 +24,7 @@ groovy for custom scripts.
 Which API or functions can be used in such scripts? Adaptavist lists [the next ones](https://scriptrunner.adaptavist.com/latest/jira/behaviours-api-quickref.html).
 <br>
 
-Git Integration for Jira provides additional Java API ([GIJFacade interface](/git-integration-for-jira-self-managed/javadoc/com/bigbrassband/jira/git/services/GIJFacade.html.md))
+Git Integration for Jira provides additional Java API ([GIJFacade interface](/git-integration-for-jira-self-managed/javadoc/com/bigbrassband/jira/git/services/GIJFacade.html))
 allowing you to operate with git information. 
 The API is close to [Git integration for Jira REST API](/git-integration-for-jira-self-managed/rest-api-gij-self-managed/)
 and provides similar functionality (and more):
@@ -40,7 +40,7 @@ and provides similar functionality (and more):
 
 *   Tags - get tags associated with an issue
 
-A singleton implementing [GIJFacade interface](/git-integration-for-jira-self-managed/javadoc/com/bigbrassband/jira/git/services/GIJFacade.html.md) is the main object having methods for all the above cases.
+A singleton implementing [GIJFacade interface](/git-integration-for-jira-self-managed/javadoc/com/bigbrassband/jira/git/services/GIJFacade.html) is the main object having methods for all the above cases.
 <br>
 [JavaDocs](/git-integration-for-jira-self-managed/javadoc/) for all classes used in GIJFacade see [nearby](/git-integration-for-jira-self-managed/javadoc/).
 

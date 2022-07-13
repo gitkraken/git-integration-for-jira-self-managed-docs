@@ -71,7 +71,20 @@ This is the main facade to be used in ScriptRunner scripts.
 
 
 ## createRepository(Repository)
+Connects a new repository.
+ <br><br>
+ This is an async operation.
+ <br>
+ See [script example](/git-integration-for-jira-self-managed/javadoc/examples/scriptrunner-example-create-repository.groovy).
+ See another [script example](/git-integration-for-jira-self-managed/javadoc/examples/scriptrunner-example-create-delete-reindex-repository.groovy).
 
+### **Parameters**
+* `params`: parameters of the new repository including origin, displayName, etc..
+
+### **Throws**
+* *org.eclipse.jgit.api.errors.GitAPIException* 
+*  *[IOException](https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html)*  
+* [GIJException](../exceptions/GIJException.html) 
 
 
 
@@ -86,7 +99,21 @@ This is the main facade to be used in ScriptRunner scripts.
 
 
 ## deleteRepository(Integer, boolean)
+Deletes the existing repository from the Git Integration for Jira app repository configuration.
+ <br><br>
+ This is a sync operation.
+ <br>
+ See [script example](/git-integration-for-jira-self-managed/javadoc/examples/scriptrunner-example-create-delete-reindex-repository.groovy).
 
+### **Parameters**
+* `repoId`: this is the ID of the existing repository. For example, 3.
+* `deleteFiles`: indicates whether the repository folder is also deleted from the Jira server. If set to true, the repository folder is deleted from the Jira server.
+
+### **Returns**
+- true always
+
+### **Throws**
+* [GIJException](../exceptions/GIJException.html) 
 
 
 
@@ -105,7 +132,7 @@ Reindex a repository and waits for the end of the reindex.
 
 ### **Throws**
 * [GIJException](../exceptions/GIJException.html) 
-* *com.bigbrassband.jira.git.exceptions.operations.OperationException* - when 10 minutes was not enough to wait for reindexing to finish
+* *com.bigbrassband.jira.git.exceptions.operations.OperationException* - ???when 10 minutes was not enough to wait for reindexing to finish
 
 
 
@@ -156,8 +183,8 @@ Reindex a repository and waits for the end of the reindex.
 
 ## getRepositories()
 Returns all repositories connected including disabled repositories and repositories in error status.
- <br>
- See [script example](/git-integration-for-jira-self-managed/javadoc/examples/scriptrunner-example-getRepositories.groovy.md).
+ <br><br>
+ See [script example](/git-integration-for-jira-self-managed/javadoc/examples/scriptrunner-example-getRepositories.groovy).
 
 ### **Throws**
 * [GIJException](../exceptions/GIJException.html) 
@@ -168,8 +195,8 @@ Returns all repositories connected including disabled repositories and repositor
 Returns repositories visible to users of the project.
  <br>
  So repositories visible globally are returned also. Disabled repositories and repositories in ERROR status are excluded.
- <br>
- See [script example](/git-integration-for-jira-self-managed/javadoc/examples/scriptrunner-example-getRepositories-projectKey.groovy.md).
+ <br><br>
+ See [script example](/git-integration-for-jira-self-managed/javadoc/examples/scriptrunner-example-getRepositories-projectKey.groovy).
 
 ### **Parameters**
 * `projectKey`: project key, e.g. "TST"
@@ -195,7 +222,24 @@ Returns repositories visible to users of the project.
 
 
 ## updateRepository(Repository)
+Updates the existing repository from the given settings.
+ <br>
+ newParams.id is required. This is the ID of the existing repository. For example, `newParams.setId(3)`.
+ <br>
+ The updateRepository() API will look for the repository with `id = 3` and replaces repository properties with ones setup in newParams.
+ <br><br>
+ This is a sync operation.
+ <br>
+ See [script example](/git-integration-for-jira-self-managed/javadoc/examples/scriptrunner-example-create-delete-reindex-repository.groovy).
 
+### **Parameters**
+* `newParams`: new values for parameters to be changed
+
+### **Returns**
+- repository updated
+
+### **Throws**
+* [GIJException](../exceptions/GIJException.html) 
 
 
 
