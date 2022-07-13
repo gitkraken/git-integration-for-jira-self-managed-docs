@@ -43,22 +43,36 @@ The Issue Git integration panel displays:
 
 *   **Tags:** git tags associated to Jira issue (via associated commit). Tags are sometimes referred to as Releases in some products.
 
+<br>
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1932329305/gitserver-git-integration-panel-view.png?version=1&modificationDate=1642594991246&cacheVersion=1&api=v2)
+
+<br>
 
 ## How can a Jira administrator enable or disable the Issue Git integration development panel?
 
 1.  Install the [Git Integration for Jira](https://marketplace.atlassian.com/4984) app.
 
-2.  Navigate to the [**General settings**](/git-integration-for-jira-self-managed/general-settings-docs-gij-self-managed) page of the application.
+2.  Navigate to the [**General settings**](/git-integration-for-jira-data-center/general-settings-docs-gij-self-managed) page of the application.
 
 3.  Enable or disable the setting: `Show Git integration panel on issue pages`.
 
 4.  Click **Update** button.
 
+<br>
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1932329305/gitserver-gencfg-dev-panel-sel.png?version=1&modificationDate=1642598628491&cacheVersion=1&api=v2)
 
-**Contact us**
-If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com)
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Contact us</b><br>
+        If you still have a question - reach out to our <a href='https://bigbrassband.atlassian.net/servicedesk/customer/portals'>Support Desk</a> or email us at <a href='mailto:support@bigbrassband.com'>support@bigbrassband.com</a>.
+    </div>
+    </div>
+</div>
+<br>
 

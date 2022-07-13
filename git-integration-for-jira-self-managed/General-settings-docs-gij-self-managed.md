@@ -27,5 +27,5 @@ The General settings configuration page can be accessed thru the following loc
 
 After making changes to the configuration settings, click **Save** to apply the changes.
 
-For detailed information about this feature, see [Git administration: General settings](/git-integration-for-jira-self-managed/general-settings/).
+For detailed information about this feature, see [Git administration: General settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed/).
 

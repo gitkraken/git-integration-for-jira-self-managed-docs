@@ -8,6 +8,8 @@ taxonomy:
 ---
 ![](/wp-content/uploads/gij-docs-introduction-bbb-overview_708.png)
 
+<br>
+
 # Welcome Git Admin!
 
 You are probably reading this page because a Jira administrator has requested access to the Git server. The Jira administrator has installed the Git Integration for Jira app.
@@ -84,11 +86,11 @@ Restart Jira to regain access to repositories.
 
 ## Does the Git Integration for Jira app have API commands that allow addition/removal of a Git project?
 
-Yes. As of **v2.8.3+** of the Git Integration for Jira app, the **REST API** for add, update, and delete repository is implemented. The documentation for this feature is available at [Git Integration for Jira: Hook and API Reference - Repository REST API](/git-integration-for-jira-self-managed/repository-api).
+Yes. As of **v2.8.3+** of the Git Integration for Jira app, the **REST API** for add, update, and delete repository is implemented. The documentation for this feature is available at [Git Integration for Jira: Hook and API Reference - Repository REST API](/git-integration-for-jira-data-center/repository-api-gij-self-managed/).
 
 ## Troubleshooting issues
 
-For information on troubleshooting known errors and issues, see [Git Integration for Jira - Knowledge Base/FAQ](/git-integration-for-jira-self-managed/frequently-asked-questions) and [Troubleshooting guides](/git-integration-for-jira-self-managed/troubleshooting-articles).
+For information on troubleshooting known errors and issues, see [Git Integration for Jira - Knowledge Base/FAQ](/git-integration-for-jira-data-center/frequently-asked-questions-gij-self-managed) and [Troubleshooting guides](/git-integration-for-jira-data-center/troubleshooting-articles-gij-self-managed/).
 <br>
 <br>
 * * *

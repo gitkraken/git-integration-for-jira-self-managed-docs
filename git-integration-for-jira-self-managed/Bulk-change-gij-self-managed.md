@@ -8,6 +8,7 @@ taxonomy:
 ---
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397801/gitserver-gitcfg-bulk-change.png?version=1&modificationDate=1630642858869&cacheVersion=1&api=v2&width=680&height=336)
 
+<br>
 
 The **Bulk change** feature provides an easier way to import or export repository configuration.
 
@@ -21,5 +22,5 @@ The **Bulk change** feature provides an easier way to import or export reposit
 
 ### Bulk change automation
 
-To automate the bulk change process via script, see [Bulk change API](/git-integration-for-jira-self-managed/bulk-change/).
+To automate the bulk change process via script, see [Bulk change API](/git-integration-for-jira-data-center/bulk-change/).
 

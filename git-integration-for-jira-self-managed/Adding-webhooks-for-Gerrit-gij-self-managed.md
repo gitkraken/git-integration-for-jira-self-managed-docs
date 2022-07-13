@@ -20,25 +20,25 @@ To use webhooks with Gerrit, it needs to be configured.
 
 For starters, install Gerrit with the webhook plugin by reading at [https://gerrit.googlesource.com/plugins/webhooks/](https://gerrit.googlesource.com/plugins/webhooks/) and the steps below.
 
-### Project (repository) list
+**Project (repository) list**
 
-```perl
+```java
 curl http(s)://your.org.com:8080/projects/?d
 ```
 
-### Enable webhooks for the repository, for example, MyTestRepo
+**Enabled webhooks for the repository, for example, MyTestRepo**
 
-```perl<br>curl http(s)://your.org.com:8080/config/server/webhooks~projects/MyTestRepo/remotes
+```java
+curl http(s)://your.org.com:8080/config/server/webhooks~projects/MyTestRepo/remotes
 ```
 
-### Add webhook for the repository
+**Add webhook for the repository**
 
-```perl
+```java
 curl --user username:password -H 'Content-Type: application/json' -X PUT -d @webhook.json http(s)://your.org.com:8080/a/config/server/webhooks~projects/MyTestRepo/remotes/bbb-webhook
 ```
 
 Where `webhook.json`:
-
 ```json
 {
    "url" : "https://example.com/webhook/url",
@@ -47,9 +47,11 @@ Where `webhook.json`:
 }
 ```
 
-## Manually trigger webhooks
+<br>
 
-Create a webhook that can be triggered for any **individual** repository. It can be used with continuous integration service.
+## Manually Trigger Webhooks
+
+Create a webhook that can be triggered for any **individual** repository. It can be used with continuous integration service
 
 _**Required headers:**_
 
@@ -62,21 +64,22 @@ _**Optional headers:**_
 
 *   'x-bbb-webhook-id' -- Can be any string representing the id of the request to be used.
 
+<br>
 
-### Usage examples:
+**Usage examples:**
 
-```perl
+```java
 curl -H 'x-bbb-webhook-type: push' -H 'content-type: application/json' -X POST -d @payload.json https://webhook/url
 ```
 
-```perl
+```java
 curl -H 'x-bbb-webhook-type: push' -H 'x-bbb-webhook-id: id-string' -H 'content-type: application/json' -X POST -d @payload.json https://webhook/url
 ```
 
 **Payload.json**
 
-```java
-{
+```json
+{  
     "origin": "repository-origin"
 }
 ```

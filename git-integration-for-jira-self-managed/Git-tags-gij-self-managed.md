@@ -52,13 +52,19 @@ Annotated tags can contain a message, author and date different than the commit 
 
 ## Getting started
 
-The git tag is displayed on the right sidebar if it is enabled in the [General Settings](/git-integration-for-jira-self-managed/general-settings/) of the Git Integration app ➜ `Calculate and show Git tags in Git Source Code panel`.
+The git tag is displayed on the right sidebar if it is enabled in the [General Settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed/) of the Git Integration app ➜ `Calculate and show Git tags in Git Source Code panel`.
+
+<br>
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399204/dev-panel-git-tags-gen-cfg-setting.png?version=1&modificationDate=1630642925378&cacheVersion=1&api=v2&width=550&height=68)
 
 This feature is disabled by default for existing integrations and is automatically enabled for new integrations.
 
+<br>
+
 <img src='https://bigbrassband.atlassian.net/wiki/download/attachments/1930399204/git-tags-example.png?version=1&modificationDate=1630642926089&cacheVersion=1&api=v2' class='center img-responsive img-bordered' />
+
+<br>
 
 The Git Integration for Jira app will show the last 3 and first tags if no filter is set. If the filter is set, the Git Integration for Jira app will use it and will display the tags sorted in ascending order by date.
 
@@ -125,7 +131,7 @@ Tags are only associated with the Jira issue by Jira keys that are specified in 
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        If some commits relate only to tags, these commits will not be displayed. For more information, see the <a href='/git-integration-for-jira-self-managed/Known-issues#commits-relating-only-to-tags-are-not-displayed'>related known issue</a>.
+        If some commits relate only to tags, these commits will not be displayed. For more information, see the <a href='/git-integration-for-jira-data-center/Known-issues#commits-relating-only-to-tags-are-not-displayed-gij-self-managed/'>related known issue</a>.
     </div>
     </div>
 </div>

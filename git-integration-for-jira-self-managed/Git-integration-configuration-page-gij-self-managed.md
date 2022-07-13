@@ -39,7 +39,7 @@ In here, you will find special integration options for specific git hosts. This 
     </div>
 </div>
 
-For more details on supported git hosts, see the Auto-connect section in our [Integration guides](/git-integration-for-jira-data-center/Integration-Guides).
+For more details on supported git hosts, see the Auto-connect section in our [Integration guides](/git-integration-for-jira-data-center/integration-guides-gij-self-managed/).
 
 The **Add tracked folder** connection feature is added to the **Add new integration** panel for easy access.
 
@@ -61,7 +61,7 @@ The **Add tracked folder** connection feature is added to the **Add new integrat
 
 This feature opens the Connect wizard.
 
-You can connect single git repositories using this setup such as git protocol, SSH, HTTP/HTTPS, etc. Clicking the adjacent **…** will open the dropdown list of integration options such as [Add tracked folder](/git-integration-for-jira-self-managed/Tracked-Folders) and equivalent integration connection options. |
+You can connect single git repositories using this setup such as git protocol, SSH, HTTP/HTTPS, etc. Clicking the adjacent **…** will open the dropdown list of integration options such as [Add tracked folder](/git-integration-for-jira-self-managed/tracked-folders-gij-self-managed/) and equivalent integration connection options. |
 
 ## Enable all or Disable all
 
@@ -79,7 +79,7 @@ Bulk change provides an easier way to import or export repository configuration.
 
 **Import Configuration**  – this function will import your repository integration configuration from a tab-delimited file (.TSV).
 
-For more information, see [Bulk change](/git-integration-for-jira-self-managed/Bulk-change).
+For more information, see [Bulk change](/git-integration-for-jira-data-center/bulk-change-gij-self-managed/).
 
 ## Reindex all
 
@@ -131,8 +131,8 @@ For more information about this topic, click [here](/git-integration-for-jira-d
     <div class="imsgbox">
         <b>Windows Network Share</b><br>
         When using Windows network sharing for the repository origin, it is recommended to allocate repositories’ paths shorter than 256 characters.
-        <div class='next para'>Example: <code>\\WS129\custom-repo\project-z\</code></div>
-        <div>Otherwise, the provided URL will not be recognized as valid.</div>
+        <p>Example: <code>\\WS129\custom-repo\project-z\</code></p>
+        <p style='margin-bottom: 0'>Otherwise, the provided URL will not be recognized as valid.</p>
     </div>
     </div>
 </div>
@@ -145,7 +145,7 @@ For more information about this topic, click [here](/git-integration-for-jira-d
     <div class="imsgbox">
         <b>For Jira hosted on Windows</b><br>
         When using Active Directory accounts for repository access, changing the password of the AD account running Jira can cause repository authentication issues.
-        <div class='nextpara'>The solution for this is to restart Jira to regain access to repositories.</div>
+        <p style='margin-bottom: 0'>The solution for this is to restart Jira to regain access to repositories.</p>
     </div>
     </div>
 </div>
@@ -157,7 +157,7 @@ For more information about this topic, click [here](/git-integration-for-jira-d
     </div>
     <div class="imsgbox">
         <b>Repository REST API</b><br>
-        As of <b>v2.8.3+</b> of the Git Integration for Jira app, the REST API for managing repositories are implemented. The documentation for this feature is available at <a href='/git-integration-for-jira-self-managed/Repository-API'>Repository REST API</a>.
+        As of <b>v2.8.3+</b> of the Git Integration for Jira app, the REST API for managing repositories are implemented. The documentation for this feature is available at <a href='/git-integration-for-jira-data-center/repository-api-gij-self-managed/'>Repository REST API</a>.
     </div>
     </div>
 </div>
@@ -169,8 +169,9 @@ For more information about this topic, click [here](/git-integration-for-jira-d
     </div>
     <div class="imsgbox">
         <b>Integration REST API<b><br>
-        As of **v3.5.0.2+** of the Git Integration for Jira app, the REST API for managing integrations are implemented. The documentation for this feature is available at <a href='/git-integration-for-jira-self-managed/Integration-API'>Integration REST API</a>.
+        As of **v3.5.0.2+** of the Git Integration for Jira app, the REST API for managing integrations are implemented. The documentation for this feature is available at <a href='/git-integration-for-jira-data-center/integration-api-gij-self-managed/'>Integration REST API</a>.
     </div>
     </div>
 </div>
+<br>
 
