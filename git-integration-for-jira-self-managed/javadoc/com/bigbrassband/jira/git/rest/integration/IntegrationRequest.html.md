@@ -15,11 +15,6 @@ taxonomy:
 
 
 ## Summary
-#### Fields
-| Type and modifiers | Field name |
-| --- | --- |
-| `protected` | [pat](#pat) |
-
 #### Constructors
 | Visibility | Signature |
 | --- | --- |
@@ -95,14 +90,6 @@ taxonomy:
 
 
 ## IntegrationRequest(IntegrationType, String, String, String)
-
-
-
-
-
-# Fields
-## pat
-`protected`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* 
 
 
 

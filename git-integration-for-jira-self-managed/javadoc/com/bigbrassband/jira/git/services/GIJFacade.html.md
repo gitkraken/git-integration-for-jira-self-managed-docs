@@ -11,7 +11,7 @@ taxonomy:
 * Package [com.bigbrassband.jira.git.services](README.html)
 * [GIJFacade](GIJFacade.html)
 
-Created by Irina Svirkina on 27.04.2022.
+This is the main facade to be used in ScriptRunner scripts.
 
 
 ## Summary
@@ -60,7 +60,7 @@ Created by Irina Svirkina on 27.04.2022.
 
 
 ### **Parameters**
-* `issueKey`: - required, otherwise GIJException
+* `issueKey`: required, otherwise GIJException
 
 ### **Returns**
 
@@ -99,7 +99,7 @@ Created by Irina Svirkina on 27.04.2022.
 Reindex a repository and waits for the end of the reindex.
 
 ### **Parameters**
-* `repoId`: - repository id to be reindexed
+* `repoId`: repository id to be reindexed
 
 ### **Returns**
 
@@ -155,10 +155,9 @@ Reindex a repository and waits for the end of the reindex.
 
 
 ## getRepositories()
-Returns repositories connected.
-
-### **Returns**
-
+Returns all repositories connected including disabled repositories and repositories in error status.
+ <br>
+ See [script example](/git-integration-for-jira-data-center/javadocs/examples/scriptrunner-example-getRepositories.groovy.md).
 
 ### **Throws**
 * [GIJException](../exceptions/GIJException.html) 
@@ -166,13 +165,14 @@ Returns repositories connected.
 
 
 ## getRepositories(String)
-Returns repositories connected
+Returns repositories visible to users of the project.
+ <br>
+ So repositories visible globally are returned also. Disabled repositories and repositories in ERROR status are excluded.
+ <br>
+ See [script example](/git-integration-for-jira-data-center/javadocs/examples/scriptrunner-example-getRepositories-projectKey.groovy.md).
 
 ### **Parameters**
-* `projectKey`: 
-
-### **Returns**
-
+* `projectKey`: project key, e.g. "TST"
 
 ### **Throws**
 * [GIJException](../exceptions/GIJException.html) 

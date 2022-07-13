@@ -11,7 +11,6 @@ taxonomy:
 * Package [com.bigbrassband.jira.git.rest.publicmodels](README.html)
 *  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  > [IssuesAssociationRequest](IssuesAssociationRequest.html)
 
-Created by isvirkina on 29.06.18.
 
 
 ## Summary

@@ -11,7 +11,6 @@ taxonomy:
 * Package [com.bigbrassband.jira.git.rest.repository](README.html)
 *  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  > [CreatePullRequestRequest](CreatePullRequestRequest.html)
 
-Created by isvirkina on 10.05.17.
 
 
 ## Summary

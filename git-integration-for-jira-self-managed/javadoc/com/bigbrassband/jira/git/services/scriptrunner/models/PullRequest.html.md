@@ -11,7 +11,6 @@ taxonomy:
 * Package [com.bigbrassband.jira.git.services.scriptrunner.models](README.html)
 *  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  > [PullRequest](PullRequest.html)
 
-Created by Irina Svirkina on 18.05.2022.
 
 
 ## Summary

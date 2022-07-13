@@ -11,7 +11,6 @@ taxonomy:
 * Package [com.bigbrassband.jira.git.services.indexer.revisions](README.html)
 *  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  > [CommitIssueChange](CommitIssueChange.html)
 
-Created by isvirkina on 18.06.18.
 
 
 ## Summary
