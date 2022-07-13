@@ -37,7 +37,7 @@ Click **More ▾** to open more options such as:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The <a href='/git-integration-for-jira-self-managed/git-user-identity/'>Git user identity</a> should be configured for the specific user. Otherwise, the user card information will not be displayed for that user.
+        The <a href='/git-integration-for-jira-data-center/git-user-identity-gij-self-managed/'>Git user identity</a> should be configured for the specific user. Otherwise, the user card information will not be displayed for that user.
     </div>
     </div>
 </div>

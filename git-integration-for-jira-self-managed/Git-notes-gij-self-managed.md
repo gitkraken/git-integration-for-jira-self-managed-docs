@@ -40,7 +40,7 @@ Each commit can only have one git note per namespace. There can be multiple not
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        For old commits that are already indexed and have issue key(s) in commit message - see <a href='/git-integration-for-jira-self-managed/how-do-i-clear-the-git-integration-for-jira-app-cache-manually/'>How do I clear the Git Integration Plugin for Jira cache manually?</a> FAQ article.
+        For old commits that are already indexed and have issue key(s) in commit message - see <a href='/git-integration-for-jira-data-center/how-do-i-clear-the-git-integration-for-jira-app-cache-manually-gij-self-managed/'>How do I clear the Git Integration Plugin for Jira cache manually?</a> FAQ article.
     </div>
     </div>
 </div>
@@ -87,6 +87,7 @@ For those who are using TortoiseGit client on Windows, you can perform the follo
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398342/tortoisegit-bonus-git-notes-git-sync-push-notes(c).png?version=1&modificationDate=1630642886355&cacheVersion=1&api=v2&width=584&height=484)
 5.  The new/edited git note is pushed to the git server and the git note can be seen in the Git Commits tab of the specified Jira issue.
 
+<br>
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398342/gitserver-dc-git-notes-sample.png?version=1&modificationDate=1630642886594&cacheVersion=1&api=v2&width=550&height=286)
 
