@@ -24,9 +24,9 @@ groovy for custom scripts.
 Which API or functions can be used in such scripts? Adaptavist lists [the next ones](https://scriptrunner.adaptavist.com/latest/jira/behaviours-api-quickref.html).
 <br>
 
-Git Integration for Jira provides additional Java API ([GIJFacade interface](/git-integration-for-jira-data-center/javadoc/com/bigbrassband/jira/git/services/GIJFacade.html.md))
+Git Integration for Jira provides additional Java API ([GIJFacade interface](/git-integration-for-jira-self-managed/javadoc/com/bigbrassband/jira/git/services/GIJFacade.html.md))
 allowing you to operate with git information. 
-The API is close to [Git integration for Jira REST API](/git-integration-for-jira-data-center/rest-api-gij-self-managed/) 
+The API is close to [Git integration for Jira REST API](/git-integration-for-jira-self-managed/rest-api-gij-self-managed/)
 and provides similar functionality (and more):
 *   Repositories - get list of repositories connected, create/delete/update a repository
 
@@ -40,9 +40,9 @@ and provides similar functionality (and more):
 
 *   Tags - get tags associated with an issue
 
-A singleton implementing [GIJFacade interface](/git-integration-for-jira-data-center/javadoc/com/bigbrassband/jira/git/services/GIJFacade.html.md) is the main object having methods for all the above cases.
+A singleton implementing [GIJFacade interface](/git-integration-for-jira-self-managed/javadoc/com/bigbrassband/jira/git/services/GIJFacade.html.md) is the main object having methods for all the above cases.
 <br>
-[JavaDocs](/git-integration-for-jira-data-center/javadoc/) for all classes used in GIJFacade see [nearby](/git-integration-for-jira-data-center/javadoc/).
+[JavaDocs](/git-integration-for-jira-self-managed/javadoc/) for all classes used in GIJFacade see [nearby](/git-integration-for-jira-self-managed/javadoc/).
 
 
 
@@ -129,7 +129,7 @@ gijFacade.getCommitsForIssue("TST-4");
   In our case the last operation is ```gijFacade.getCommitsForIssue("TST-4");``` so the tab displays a list of commits associated with issue "TST-4.
   <br>
   Please be aware that just brief objects information is logged by default, i.e. each commit object in the list contains much more information about a commit 
-  which can be gotten programmatically. See [Commit](/git-integration-for-jira-data-center/javadoc/com/bigbrassband/jira/git/rest/publicmodels/Commit.html.md) class javadocs to find a full list of information provided.
+  which can be gotten programmatically. See [Commit](/git-integration-for-jira-self-managed/javadoc/com/bigbrassband/jira/git/rest/publicmodels/Commit.html.md) class javadocs to find a full list of information provided.
   
 ## Example 2: How to log?
 * pay your attention to "Logs" tab at the bottom. There can be many logs while a result is only one.
@@ -169,7 +169,7 @@ gijFacade.getCommitsForIssue("TST-4");
 * As it mentioned above, a commit is logged using brief information by default.
   For example files are not logged but are present in commit objects when you retrieve them with help of ```gijFacade.getCommitsForIssue("TST-4", true)```.
   <br>
-  Let's look at  [Commit](/git-integration-for-jira-data-center/javadoc/com/bigbrassband/jira/git/rest/publicmodels/Commit.html.md) javadocs and log commits with files in a beautiful way. Enter the next script in Scriptrunner console and run
+  Let's look at  [Commit](/git-integration-for-jira-self-managed/javadoc/com/bigbrassband/jira/git/rest/publicmodels/Commit.html.md) javadocs and log commits with files in a beautiful way. Enter the next script in Scriptrunner console and run
   ```
   import com.onresolve.scriptrunner.runner.customisers.WithPlugin
   import com.onresolve.scriptrunner.runner.customisers.PluginModule
@@ -308,7 +308,7 @@ For advanced examples, see sub-page [Automation Advanced Examples](https://bigbr
 
 ## More related topics about Scriptrunner
 
-*   [A4J advanced examples](/git-integration-for-jira-data-center/Git-integration-plus-Jira-automation-advanced-examples-gij-self-managed/)
+*   [A4J advanced examples](/git-integration-for-jira-self-managed/Git-integration-plus-Jira-automation-advanced-examples-gij-self-managed/)
 
-*   [A4J library templates](/git-integration-for-jira-data-center/Git-Integration-for-Jira-automation-template-library/)
+*   [A4J library templates](/git-integration-for-jira-self-managed/Git-Integration-for-Jira-automation-template-library/)
 

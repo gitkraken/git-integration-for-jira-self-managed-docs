@@ -157,7 +157,7 @@ Reindex a repository and waits for the end of the reindex.
 ## getRepositories()
 Returns all repositories connected including disabled repositories and repositories in error status.
  <br>
- See [script example](/git-integration-for-jira-data-center/javadocs/examples/scriptrunner-example-getRepositories.groovy.md).
+ See [script example](/git-integration-for-jira-self-managed/javadocs/examples/scriptrunner-example-getRepositories.groovy.md).
 
 ### **Throws**
 * [GIJException](../exceptions/GIJException.html) 
@@ -169,7 +169,7 @@ Returns repositories visible to users of the project.
  <br>
  So repositories visible globally are returned also. Disabled repositories and repositories in ERROR status are excluded.
  <br>
- See [script example](/git-integration-for-jira-data-center/javadocs/examples/scriptrunner-example-getRepositories-projectKey.groovy.md).
+ See [script example](/git-integration-for-jira-self-managed/javadocs/examples/scriptrunner-example-getRepositories-projectKey.groovy.md).
 
 ### **Parameters**
 * `projectKey`: project key, e.g. "TST"
