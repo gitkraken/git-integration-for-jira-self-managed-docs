@@ -11,6 +11,7 @@ taxonomy:
 * Package [com.bigbrassband.jira.git.services.scriptrunner.models](README.html)
 *  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  > [Branch](Branch.html)
 
+Branch information.
 
 
 ## Summary
@@ -46,32 +47,32 @@ taxonomy:
 
 # Methods
 ## getAhead()
-
+How far ahead is the branch from the main branch.
 
 
 
 ## getBehind()
-
+How far behind is the branch from the main branch.
 
 
 
 ## getExternalUrl()
-
+Link to the btanch on github/gitlab/etc..
 
 
 
 ## getName()
-
+Returns the branch name.
 
 
 
 ## getRepository()
-
+Returns a repository the branch beelongs to.
 
 
 
 ## isAheadBehindPresented()
-
+Returns whether branch ahead and behind are defined/calculated/meaningful.
 
 
 

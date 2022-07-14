@@ -47,7 +47,24 @@ This is the main facade to be used in ScriptRunner scripts.
 
 # Methods
 ## createBranch(Integer, String, String)
+Creates a branch in the repository.
+ <br>
+ Branch can be created in a repository which belongs to an integration, otherwise GIJException.
+ <br><br>
+ This is a sync operation.
+ <br>
+ See [script example](/git-integration-for-jira-self-managed/javadoc/examples/scriptrunner-example-create-branch.groovy).
 
+### **Parameters**
+* `repoId`: the repository id
+* `newBranchName`: a name of the new branch
+* `baseBranchOrTag`: a name of a branch or a tag the new branch will be forked from
+
+### **Returns**
+branch created
+
+### **Throws**
+* [GIJException](../exceptions/GIJException.html) 
 
 
 
@@ -89,7 +106,20 @@ Connects a new repository.
 
 
 ## deleteBranch(Integer, String)
+Deletes the branch.
+ <br>
+ Branch can be deleted from a repository which belongs to an integration, otherwise GIJException.
+ <br><br>
+ This is an async operation.
+ <br>
+ See [script example](/git-integration-for-jira-self-managed/javadoc/examples/scriptrunner-example-delete-branch.groovy).
 
+### **Parameters**
+* `repoId`: the repository id
+* `branchName`: a name of the branch to be deleted
+
+### **Throws**
+* [GIJException](../exceptions/GIJException.html) 
 
 
 
@@ -157,12 +187,38 @@ Reindex a repository and waits for the end of the reindex.
 
 
 ## getBranchesForIssue(String)
+Returns list of branches associated with the issue.
+ <br>
+ This is an alias for ```getBranchesForIssue(issueKey, false)```,
+ i.e. a branch ahead and behind won't be calculated by intent, i.e. they might be undefined.
+ <br><br>
+ See [script example](/git-integration-for-jira-self-managed/javadoc/examples/scriptrunner-example-get-branches-for-issue.groovy).
 
+### **Parameters**
+* `issueKey`: Jira issue key. The issueKey must be valid and existent. Ex.: "TST-234"
+
+### **Throws**
+*  *[IOException](https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html)*  
+* [GIJException](../exceptions/GIJException.html) 
+* *com.atlassian.jira.issue.index.IndexException* 
 
 
 
 ## getBranchesForIssue(String, boolean)
+Returns list of branches associated with the issue.
+ <br>
+ When forceAheadBehindCalculation = true, then a branch ahead and behind will be gotten from a cache or calculated.
+ <br><br>
+ See [script example](/git-integration-for-jira-self-managed/javadoc/examples/scriptrunner-example-get-branches-for-issue.groovy).
 
+### **Parameters**
+* `issueKey`: Jira issue key. The issueKey must be valid and existent. Ex.: "TST-234"
+* `forceAheadBehindCalculation`: whether ahead and behind be calculated by force
+
+### **Throws**
+*  *[IOException](https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html)*  
+* [GIJException](../exceptions/GIJException.html) 
+* *com.atlassian.jira.issue.index.IndexException* 
 
 
 
