@@ -1,4 +1,4 @@
-# Example of a script using gitlFacade.getRepositories(String issueKey)
+# Example of a script getting commits for an issue
 
 ```
 import com.onresolve.scriptrunner.runner.customisers.WithPlugin
@@ -9,5 +9,5 @@ import com.bigbrassband.jira.git.services.GIJFacade;
 @PluginModule
 GIJFacade gijFacade;
 
-gijFacade.getRepositories("TST");
+gijFacade.getCommitsForIssue("TST-2");
 ```

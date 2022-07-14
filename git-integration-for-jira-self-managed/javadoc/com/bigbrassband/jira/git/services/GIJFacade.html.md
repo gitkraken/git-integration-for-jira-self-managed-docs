@@ -118,21 +118,41 @@ Deletes the existing repository from the Git Integration for Jira app repository
 
 
 ## doReindex(Integer)
+Starts the reindex process in a separate thread and returns the result immediately.
+ <br>
+ Reindex operation can be executed just by admin or a user having access to all repositories.
+ <br><br>
+ This is an async operation.
+ <br>
+ See [script example](/git-integration-for-jira-self-managed/javadoc/examples/scriptrunner-example-start-reindex.groovy).
 
+### **Parameters**
+* `repoId`: repository id to be reindexed or null to reindex all
+
+### **Returns**
+- indexer thread ID (UUID), ex. "eafe58fc-d8de-42ff-8815-6fe5860b38d2"
+
+### **Throws**
+* [GIJException](../exceptions/GIJException.html) 
 
 
 
 ## doReindexSynchronized(Integer)
 Reindex a repository and waits for the end of the reindex.
+ <br>
+ When 10 minutes was not enough to wait for reindexing to finish, then GIJException is thrown.
+ <br><br>
+ This is a sync operation.
+ <br>
+ See [script example](/git-integration-for-jira-self-managed/javadoc/examples/scriptrunner-example-start-sync-reindex.groovy).
 
 ### **Parameters**
-* `repoId`: repository id to be reindexed
+* `repoId`: repository id to be reindexed or null to reindex all
 
 ### **Returns**
 
 ### **Throws**
 * [GIJException](../exceptions/GIJException.html) 
-* *com.bigbrassband.jira.git.exceptions.operations.OperationException* - ???when 10 minutes was not enough to wait for reindexing to finish
 
 
 
@@ -147,17 +167,44 @@ Reindex a repository and waits for the end of the reindex.
 
 
 ## getCommitIssues(Integer, String)
+Returns issues which the git commit associated with.
 
+### **Parameters**
+* `repoId`: a repository id of a commit
+* `commitHash`: git commit id
+
+### **Throws**
+*  *[IOException](https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html)*  
+* [GIJException](../exceptions/GIJException.html) 
+* *com.atlassian.jira.issue.index.IndexException* 
 
 
 
 ## getCommitsForIssue(String)
+Returns commits information associated with the issue.
+ <br>
+ Use getCommitsForIssue(String issueKey, Boolean showFiles) to get commits with files changed.
+ <br><br>
+ See [script example](/git-integration-for-jira-self-managed/javadoc/examples/scriptrunner-example-get-commits-for-issue.groovy).
 
+### **Parameters**
+* `issueKey`: Jira issue key. The issueKey must be valid and existent. Ex.: "TST-234"
+
+### **Throws**
+* [GIJException](../exceptions/GIJException.html) 
+*  *[IOException](https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html)*  
 
 
 
 ## getCommitsForIssue(String, Boolean)
+Returns commits information (including files) associated with the issue.
 
+### **Parameters**
+* `issueKey`: Jira issue key. The issueKey must be valid and existent. Ex.: "TST-234"
+
+### **Throws**
+* [GIJException](../exceptions/GIJException.html) 
+*  *[IOException](https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html)*  
 
 
 
@@ -177,7 +224,18 @@ Reindex a repository and waits for the end of the reindex.
 
 
 ## getReindexStatus(String)
+Use this method to track messages for a particular reindex thread.
+ <br><br>
+ See [script example](/git-integration-for-jira-self-managed/javadoc/examples/scriptrunner-example-ping-reindex-status.groovy).
 
+### **Parameters**
+* `threadId`: indexer thread ID (UUID), ex. "eafe58fc-d8de-42ff-8815-6fe5860b38d2"
+
+### **Returns**
+- reindex status, messages, errors
+
+### **Throws**
+* [GIJException](../exceptions/GIJException.html) 
 
 
 
@@ -212,7 +270,22 @@ Returns repositories visible to users of the project.
 
 
 ## updateCommitIssueChanges(Integer, String, IssuesAssociationRequest)
+Changes the commit issues associations.
+ <br>
+ A change of the commit issues associations in a disabled repository will be ignored.
+ <br><br>
+ This is a sync operation.
+ <br>
+ See [script example](/git-integration-for-jira-self-managed/javadoc/examples/scriptrunner-example-update-commit-issue-changes.groovy).
 
+### **Parameters**
+* `repoId`: a repository id which the git commit belongs to
+* `commitHash`: a git commit id
+* `request`: a list of associations changes to be applied
+
+### **Throws**
+*  *[IOException](https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html)*  
+* [GIJException](../exceptions/GIJException.html) 
 
 
 

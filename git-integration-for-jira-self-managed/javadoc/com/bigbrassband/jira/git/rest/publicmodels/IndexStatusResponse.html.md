@@ -24,13 +24,13 @@ taxonomy:
 | --- | --- |
 | `public`  *[Map](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html)* < *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* ,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* > | [getErrors](#geterrors)() |
 | `public`  *[Double](https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html)*  | [getLastOperationPercent](#getlastoperationpercent)() |
-| `public`  *[List](https://docs.oracle.com/javase/8/docs/api/java/util/List.html)* <*com.bigbrassband.jira.git.services.async.ReindexLogEntry*> | [getMessages](#getmessages)() |
+| `public`  *[List](https://docs.oracle.com/javase/8/docs/api/java/util/List.html)* <[ReindexLogEntry](../../services/async/ReindexLogEntry.html)> | [getMessages](#getmessages)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getThreadId](#getthreadid)() |
 | `public` `boolean` | [isFinished](#isfinished)() |
 | `public` `void` | [setErrors](#seterrorsmap)( *[Map](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html)* < *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* ,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* > errors) |
 | `public` `void` | [setFinished](#setfinishedboolean)(`boolean` finished) |
 | `public` `void` | [setLastOperationPercent](#setlastoperationpercentdouble)( *[Double](https://docs.oracle.com/javase/8/docs/api/java/lang/Double.html)*  lastOperationPercent) |
-| `public` `void` | [setMessages](#setmessageslist)( *[List](https://docs.oracle.com/javase/8/docs/api/java/util/List.html)* <*com.bigbrassband.jira.git.services.async.ReindexLogEntry*> messages) |
+| `public` `void` | [setMessages](#setmessageslist)( *[List](https://docs.oracle.com/javase/8/docs/api/java/util/List.html)* <[ReindexLogEntry](../../services/async/ReindexLogEntry.html)> messages) |
 | `public` `void` | [setThreadId](#setthreadidstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  threadId) |
 
 

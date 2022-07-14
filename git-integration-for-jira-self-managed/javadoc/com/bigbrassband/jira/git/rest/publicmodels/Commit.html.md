@@ -56,42 +56,42 @@ taxonomy:
 
 # Methods
 ## getAuthor()
-
+Returns commit author, e.g. "John Smith"
 
 
 
 ## getBranches()
-
+Returns list of branches the git commit belongs to.
 
 
 
 ## getCommitId()
-
+Returns git commit id, e.g. "34efa20372f0e2f0c9b705aacc57d7ad82e01426"
 
 
 
 ## getDate()
-
+Returns git commit date, e.g. "2022-07-15T00:20:58+0000"
 
 
 
 ## getFiles()
-
+Returns files changed in the git commit.
 
 
 
 ## getMessage()
-
+Returns git commit message.
 
 
 
 ## getNotes()
-
+Returns notes of the git commit, where a map key is a note namespace, a map value is a note message.
 
 
 
 ## getRepository()
-
+Returns a repository which the git commit belongs to.
 
 
 

@@ -47,32 +47,32 @@ taxonomy:
 
 # Methods
 ## getLinesAdded()
-
+Returns number of lines added to the file in the git commit.
 
 
 
 ## getLinesChanged()
-
+Returns number of lines changed in the file in the git commit.
 
 
 
 ## getLinesDeleted()
-
+Returns number of lines deleted from the file in the git commit.
 
 
 
 ## getPath()
-
+Returns the file path.
 
 
 
 ## isAdded()
-
+Returns whether the file was added in the git commit.
 
 
 
 ## isDeleted()
-
+Returns whether the file was deleted in the git commit.
 
 
 
