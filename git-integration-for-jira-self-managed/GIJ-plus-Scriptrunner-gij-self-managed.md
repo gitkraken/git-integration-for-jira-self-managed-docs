@@ -60,11 +60,14 @@ on Git Commits issue tab of another issue.
 
 Create a pull request if an issue has been moved to CODE REVIEW status. 
 
+
 ## Tutorial
 
 Further I'll demonstrate several things:
 * getting started with Scriptrunner plugin
 * a creation of a simple script retrieving list of commits associated with issue "TST-4"
+* a simple script logging number of files changed in each commit of issue "TST-4"
+* a script listing files changed in each commit of issue "TST-4" 
 * a setup of issue workflow in a such way that if an OPEN issue has at least one git commit then it's moved to IN PROGRESS status
 
 ## Getting started with Scriptrunner plugin
