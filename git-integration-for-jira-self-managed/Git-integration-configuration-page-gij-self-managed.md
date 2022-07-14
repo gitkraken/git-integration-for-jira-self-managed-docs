@@ -61,7 +61,7 @@ The **Add tracked folder** connection feature is added to the **Add new integrat
 
 This feature opens the Connect wizard.
 
-You can connect single git repositories using this setup such as git protocol, SSH, HTTP/HTTPS, etc. Clicking the adjacent **…** will open the dropdown list of integration options such as [Add tracked folder](/git-integration-for-jira-self-managed/tracked-folders-gij-self-managed/) and equivalent integration connection options. |
+You can connect single git repositories using this setup such as git protocol, SSH, HTTP/HTTPS, etc. Clicking the adjacent **…** will open the dropdown list of integration options such as [Add tracked folder](/git-integration-for-jira-data-cemter/tracked-folders-gij-self-managed/) and equivalent integration connection options. |
 
 ## Enable all or Disable all
 

@@ -8,9 +8,19 @@ taxonomy:
 ---
 JIRA SERVER ONLY JIRA DATA CENTER ONLY
 
-This setting is part of the [**General Settings**](/git-integration-for-jira-self-managed/general-settings-gij-self-managed) configuration page.
+This setting is part of the [**General Settings**](/git-integration-for-jira-data-center/general-settings-gij-self-managed) configuration page.
 
-VERSION 4.0.1+ This setting is now moved to the **Advanced settings** in General settings.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>VERSION 4.0.1+</b><br> This setting is now moved to the **Advanced settings** in General settings.
+    </div>
+    </div>
+</div>
+<br>
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207828834/gitserver-gencfg-smart-commits-age.png?version=1&modificationDate=1647775792877&cacheVersion=1&api=v2&width=668&height=99)
 
