@@ -12,20 +12,20 @@ To reconfigure:
 
 1.  Access the GitLab configuration file in `/etc/gitlab/gitlab.rb`.
 
-    ```java
+    ```powershell
     sudo vi /etc/gitlab/gitlab.rb
     ```
 
 2.  Change the `external_url` value to your GitLab server URL.
 
-    ```java
+    ```powershell
     external_url "http://gitlab.example.com" #this is the default URL
     external_url "http://X.X.X.X.local/" #change it to your GitLab Server URL
     ```
 
 3.  Run the reconfigure command to make the change take effect.
 
-    ```java
+    ```powershell
     sudo gitlab-ctl reconfigure
     ```
 
@@ -34,7 +34,7 @@ Read this [**GitLab documentation**](https://docs.gitlab.com/omnibus/settings/c
 
 You should be able to add the GitLab repositories via Git Integration for Jira app ➜ Manage git repositories:
 
-*   [**Add new integration panel**](/git-integration-for-jira-self-managed/using-the-add-new-integration-wizard/) (recommended for multiple repository integration)
+*   [**Add new integration panel**](/git-integration-for-jira-data-center/using-the-add-new-integration-wizard-gij-self-managed/) (recommended for multiple repository integration)
 
-*   [**Connect to Git Repository**](/git-integration-for-jira-self-managed/using-the-connect-repository-wizard/) (single repository or ssh repository integration)
+*   [**Connect to Git Repository**](/git-integration-for-jira-data-center/using-the-connect-repository-wizard-gij-self-managed/) (single repository or ssh repository integration)
 

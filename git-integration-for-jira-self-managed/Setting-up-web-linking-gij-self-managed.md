@@ -43,5 +43,5 @@ The web linking feature adds links to your git hosting provider directly into th
 
 <br>
 
-For more information, see [Documentation: Web Linking](/git-integration-for-jira-self-managed/Web-linking).
+For more information, see [Documentation: Web Linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed).
 
