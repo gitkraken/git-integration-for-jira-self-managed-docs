@@ -1,6 +1,6 @@
 ---
 
-title: Delete Existing Repository
+title: Delete Existing Repository API
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -23,11 +23,13 @@ Deletes the existing repository from the Git Integration for Jira app repository
 </div>
 <br>
 
-## Delete Existing Repository**
+## Delete Existing Repository properties**
 
-_**url**_ -- `/rest/gitplugin/1.0/`**repository**
+_**url**_<br>
+`/rest/gitplugin/1.0/`**repository**
 
-_**method**_ -- DELETE
+_**method**_<br>
+DELETE
 
 ### Parameters
 
