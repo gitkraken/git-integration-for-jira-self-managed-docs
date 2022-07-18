@@ -40,9 +40,8 @@ and provides similar functionality (and more):
 
 *   Tags - get tags associated with an issue
 
-A singleton implementing [GIJFacade interface](/git-integration-for-jira-self-managed/javadoc/com/bigbrassband/jira/git/services/GIJFacade.html) is the main object having methods for all the above cases.
-<br>
-[JavaDocs](/git-integration-for-jira-self-managed/javadoc/) for all classes used in GIJFacade see [nearby](/git-integration-for-jira-self-managed/javadoc/).
+A singleton implementing [GIJFacade interface](/git-integration-for-jira-self-managed/javadoc/com/bigbrassband/jira/git/services/GIJFacade.html.md) is the main object having methods for all the above cases.
+<br> JavaDocs for all classes used in GIJFacade see nearby.
 
 
 
@@ -65,10 +64,10 @@ Create a pull request if an issue has been moved to CODE REVIEW status.
 
 Further I'll demonstrate several things:
 * getting started with Scriptrunner plugin
-* a creation of a simple script retrieving list of commits associated with issue "TST-4"
-* a simple script logging number of files changed in each commit of issue "TST-4"
-* a script listing files changed in each commit of issue "TST-4" 
-* a setup of issue workflow in a such way that if an OPEN issue has at least one git commit then it's moved to IN PROGRESS status
+* [example 1](#example-1-how-to-create-a-simple-script): a creation of a simple script retrieving list of commits associated with issue "TST-4"
+* [example 2](#example-2-how-to-log): a simple script logging number of files changed in each commit of issue "TST-4"
+* [example 3](#example-3-how-to-log-more-than-a-brief-information): a script listing files changed in each commit of issue "TST-4" 
+* [example 4](#example-4-move-an-issue-in-in-progress-status-when-at-least-one-git-commit-exists): a setup of issue workflow in a such way that if an OPEN issue has at least one git commit then it's moved to IN PROGRESS status
 
 ## Getting started with Scriptrunner plugin
 
