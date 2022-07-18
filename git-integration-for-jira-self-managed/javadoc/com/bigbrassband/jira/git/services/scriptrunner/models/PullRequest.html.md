@@ -11,6 +11,7 @@ taxonomy:
 * Package [com.bigbrassband.jira.git.services.scriptrunner.models](README.html)
 *  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  > [PullRequest](PullRequest.html)
 
+Pull Request information.
 
 
 ## Summary
@@ -48,42 +49,42 @@ taxonomy:
 
 # Methods
 ## getBaseBranch()
-
+Returns the pull request base branch.
 
 
 
 ## getCompareBranch()
-
+Returns the pull request compare branch.
 
 
 
 ## getDescription()
-
+Returns the pull request description.
 
 
 
 ## getId()
-
+Returns the pull request id.
 
 
 
 ## getRepository()
-
+Returns a repositry the pull request belongs to.
 
 
 
 ## getState()
-
+Returns the pull request state, e.g. OPEN, MERGED, CLOSED.
 
 
 
 ## getTitle()
-
+Returns the pull request title.
 
 
 
 ## getUrl()
-
+Returns url to the pull request on a git server.
 
 
 

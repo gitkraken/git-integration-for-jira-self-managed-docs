@@ -69,18 +69,35 @@ branch created
 
 
 ## createIntegration(IntegrationRequest)
+Connect to an integration.
+ <br><br>
+ This is an async operation.
+ <br>
+ See [script example](/git-integration-for-jira-self-managed/javadoc/examples/scriptrunner-example-create-integration.groovy).
 
+### **Parameters**
+* `params`: params for the new integration
+
+### **Throws**
+* [GIJException](../exceptions/GIJException.html) 
 
 
 
 ## createPullRequest(Integer, String, String, String, String)
-
+Creates a new pull request.
+ <br><br>
+ This is a sync operation.
+ <br>
+ See [script example](/git-integration-for-jira-self-managed/javadoc/examples/scriptrunner-example-create-pull-request.groovy).
 
 ### **Parameters**
-* `issueKey`: required, otherwise GIJException
+* `repoId`: a repository id where the new pull request will be created
+* `sourceBranchName`: source branch
+* `targetBranchName`: target branch
+* `title`: the new pull request title
+* `issueKey`: issue key, e.g. "TST-234"
 
 ### **Returns**
-
 
 ### **Throws**
 * [GIJException](../exceptions/GIJException.html) 
@@ -124,7 +141,16 @@ Deletes the branch.
 
 
 ## deleteIntegration(Integer, boolean)
+Delete an integration
+ <br><br>
+ This is a sync operation.
 
+### **Parameters**
+* `repoId`: an integration id to be deleted
+* `deleteFiles`: indicates whether the repositories folders are also deleted from the Jira server. If set to true, the repositories folders is deleted from the Jira server.
+
+### **Throws**
+* [GIJException](../exceptions/GIJException.html) 
 
 
 
@@ -265,17 +291,34 @@ Returns commits information (including files) associated with the issue.
 
 
 ## getIntegration(Integer)
+Returns an integration by id.
 
+### **Parameters**
+* `integrationId`: the integration id.
+
+### **Throws**
+* [GIJException](../exceptions/GIJException.html) 
 
 
 
 ## getIntegrations()
+Returns integrations connected.
 
+### **Throws**
+* [GIJException](../exceptions/GIJException.html) 
 
 
 
 ## getPullRequestsForIssue(String)
+Returns pull requests associated with the issue.
 
+### **Parameters**
+* `issueKey`: issue key, e.g. "TST-234"
+
+### **Throws**
+*  *[IOException](https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html)*  
+* [GIJException](../exceptions/GIJException.html) 
+* *com.atlassian.jira.issue.index.IndexException* 
 
 
 
@@ -321,7 +364,15 @@ Returns repositories visible to users of the project.
 
 
 ## getTagsForIssue(String)
+Returns tags associated with the issue.
 
+### **Parameters**
+* `issueKey`: Jira issue key. The issueKey must be valid and existent. Ex.: "TST-234"
+
+### **Throws**
+*  *[IOException](https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html)*  
+* [GIJException](../exceptions/GIJException.html) 
+* *com.atlassian.jira.issue.index.IndexException* 
 
 
 
@@ -346,7 +397,17 @@ Changes the commit issues associations.
 
 
 ## updateIntegration(Integer, IntegrationRequest)
+Updated an integration.
 
+### **Parameters**
+* `id`: integration id to be updated
+* `repositoryWithNewParams`: new values for parameters to be changed
+
+### **Returns**
+
+
+### **Throws**
+* [GIJException](../exceptions/GIJException.html) 
 
 
 

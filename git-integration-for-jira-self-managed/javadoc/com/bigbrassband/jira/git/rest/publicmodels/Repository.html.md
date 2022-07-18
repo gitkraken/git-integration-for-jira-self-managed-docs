@@ -23,7 +23,7 @@ All implemented interfaces :
 | --- | --- |
 | `public` | [Repository](#repository)() |
 | `public` | [Repository](#repositoryinteger-string)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  id,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  displayName) |
-| `public` | [Repository](#repositorygitmanager-integrationtype-boolean)(*com.bigbrassband.jira.git.services.gitmanager.GitManager* repository, *com.bigbrassband.jira.git.services.integration.IntegrationType* integrationType, `boolean` isShort) |
+| `public` | [Repository](#repositorygitmanager-integrationtype-boolean)(*com.bigbrassband.jira.git.services.gitmanager.GitManager* repository, *[IntegrationType](../../services/integration/IntegrationType.html)* integrationType, `boolean` isShort) |
 
 #### Methods
 | Type and modifiers | Method signature |
@@ -46,7 +46,7 @@ All implemented interfaces :
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getGroup](#getgroup)() |
 | `public`  *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  | [getId](#getid)() |
 | `public`  *[Date](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)*  | [getInitDate](#getinitdate)() |
-| `public` *com.bigbrassband.jira.git.services.integration.IntegrationType* | [getIntegrationType](#getintegrationtype)() |
+| `public` *[IntegrationType](../../services/integration/IntegrationType.html)* | [getIntegrationType](#getintegrationtype)() |
 | `public`  *[Date](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)*  | [getLastIndexedDate](#getlastindexeddate)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getMainBranch](#getmainbranch)() |
 | `public`  *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  | [getMaxMinsToCommitEmail](#getmaxminstocommitemail)() |
@@ -115,7 +115,7 @@ All implemented interfaces :
 | `public` `void` | [setHosted](#sethostedboolean)( *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  hosted) |
 | `public` `void` | [setId](#setidinteger)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  id) |
 | `public` `void` | [setInitDate](#setinitdatedate)( *[Date](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)*  initDate) |
-| `public` `void` | [setIntegrationType](#setintegrationtypeintegrationtype)(*com.bigbrassband.jira.git.services.integration.IntegrationType* integrationType) |
+| `public` `void` | [setIntegrationType](#setintegrationtypeintegrationtype)(*[IntegrationType](../../services/integration/IntegrationType.html)* integrationType) |
 | `public` `void` | [setLastIndexedDate](#setlastindexeddatedate)( *[Date](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)*  lastIndexedDate) |
 | `public` `void` | [setMainBranch](#setmainbranchstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  mainBranch) |
 | `public` `void` | [setMaxMinsToCommitEmail](#setmaxminstocommitemailinteger)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  maxMinsToCommitEmail) |

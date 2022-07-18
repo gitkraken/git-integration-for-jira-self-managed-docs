@@ -11,7 +11,7 @@ taxonomy:
 * Package [com.bigbrassband.jira.git.rest.integration](README.html)
 *  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  > [IntegrationRequest](IntegrationRequest.html)
 
-
+This is a POJO object containing an integration properties/settings.
 
 
 ## Summary
@@ -19,7 +19,7 @@ taxonomy:
 | Visibility | Signature |
 | --- | --- |
 | `public` | [IntegrationRequest](#integrationrequest)() |
-| `public` | [IntegrationRequest](#integrationrequestintegrationtype-string-string-string)(*com.bigbrassband.jira.git.services.integration.IntegrationType* type,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  origin,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  pat,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  displayName) |
+| `public` | [IntegrationRequest](#integrationrequestintegrationtype-string-string-string)(*[IntegrationType](../../services/integration/IntegrationType.html)* type,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  origin,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  pat,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  displayName) |
 
 #### Methods
 | Type and modifiers | Method signature |
@@ -85,7 +85,7 @@ taxonomy:
 
 # Constructors
 ## IntegrationRequest()
-??? which constructor should be used???
+
 
 
 

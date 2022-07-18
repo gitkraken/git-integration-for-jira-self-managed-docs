@@ -11,6 +11,7 @@ taxonomy:
 * Package [com.bigbrassband.jira.git.rest.publicmodels](README.html)
 *  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  > [Tag](Tag.html)
 
+Tag information.
 
 
 ## Summary
@@ -64,47 +65,47 @@ taxonomy:
 
 # Methods
 ## getCommitId()
-
+Returns a commit Id the tag is created at.
 
 
 
 ## getCommitterEmail()
-
+Returns author email.
 
 
 
 ## getCommitterName()
-
+Returns author name.
 
 
 
 ## getCreationDate()
-
+Returns a creation date of the tag.
 
 
 
 ## getCreationDateFormatted()
-
+Returns a creation date formatted according to Jira settings and user's timezone.
 
 
 
 ## getMessage()
-
+Returns the tag message.
 
 
 
 ## getName()
-
+Returns the tag name.
 
 
 
 ## getRepoId()
-
+Returns a repository id the tag belongs to.
 
 
 
 ## getRepoName()
-
+Returns a display name of the tag repository.
 
 
 
