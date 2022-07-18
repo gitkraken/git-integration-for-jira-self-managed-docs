@@ -2,7 +2,7 @@
 * Package [com.bigbrassband.jira.git.services.async](README.html)
 *  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  > [ReindexLogEntry](ReindexLogEntry.html)
 
-
+Contains a reindex message.
 
 
 ## Summary
@@ -68,7 +68,7 @@ Unix time of the message.
 
 
 ## getMessage()
-Returns the reindex message.
+Returns the message.
 
 
 
