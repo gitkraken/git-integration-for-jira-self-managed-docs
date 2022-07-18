@@ -297,21 +297,3 @@ String issueKey = issue.key;
 * * Open TST-4 issue, which is in OPEN status and which has git commits associated.
 * * Add comment "Some comment." Result: the issue is in status IN PROGRESS, because it has git commits. Great. We got it.
 
-## Permissions
-
-Permissions model is provided by Scriptrunner. So read its documentation.
-
-## Known issue
-
-...
-
-## Advanced Examples
-
-For advanced examples, see sub-page [Automation Advanced Examples](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1714257921).
-
-## More related topics about Scriptrunner
-
-*   [A4J advanced examples](/git-integration-for-jira-self-managed/Git-integration-plus-Jira-automation-advanced-examples-gij-self-managed/)
-
-*   [A4J library templates](/git-integration-for-jira-self-managed/Git-Integration-for-Jira-automation-template-library/)
-
