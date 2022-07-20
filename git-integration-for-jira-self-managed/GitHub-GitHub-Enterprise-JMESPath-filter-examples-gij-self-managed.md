@@ -6,46 +6,52 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1353482464/github-mobile-customv4.png?version=1&modificationDate=1615470904035&cacheVersion=1&api=v2&width=226&height=53)
+![](/wp-content/uploads/gij-github-mobile-logo-dark.png)
+
+<br>
 
 An optional JMESPath filter can be configured when adding GitHub integration or repositories.
 
-1. **Contains (include)**
+<br>
 
-    ```java
-    [?contains(name, 'git')]
-    ```
+## 1\. Contains (include)
 
-    This is a filter based on the text in the repository name. It will list repositories with names that contain the word `'git'`. Do note that the declared string format is case-sensitive.
+```java
+[?contains(name, 'git')]
+```
 
-2. **Starts with or ends with**
+This is a filter based on the text in the repository name. It will list repositories with names that contain the word `'git'`. Do note that the declared string format is case-sensitive.
 
-    ```java
-    [?starts_with(name, 'git') \| ends_with(name, 'test')]
-    ```
+## 2\. Starts with or ends with
 
-    Lists repositories with names that starts with `'git'` or ends with `'test'`.
+```java
+[?starts_with(name, 'git') \| ends_with(name, 'test')]
+```
 
-3. **Contains (exclude)**
+Lists repositories with names that starts with `'git'` or ends with `'test'`.
 
-    ```java
-    [?(!contains(name, 'firstword'))]
+## 3\. Contains (exclude)
 
-    [?(!contains(name, 'firstword')) \| (!contains(name, 'secondword'))]
-    ```
+```java
+[?(!contains(name, 'firstword'))]
 
-    1 – Lists repositories with names that either do not contain the word `'firstword'`.
+[?(!contains(name, 'firstword')) \| (!contains(name, 'secondword'))]
+```
 
-    2 – Lists repositories with names that either do not contain the words `‘firstword’` OR `‘secondword’`.
+**1** – Lists repositories with names that either do not contain the word `'firstword'`.
 
-    <div class="bbb-callout bbb--note">
-      <div class="irow">
-        <div class="ilogobox">
-          <span class="logoimg"></span>
-        </div>
-        <div class="imsgbox">
-          The <code>!condition</code> must be wrapped in a parenthesis so it won’t invert the whole expression.
-        </div>
-      </div>
+**2** – Lists repositories with names that either do not contain the words `‘firstword’` OR `‘secondword’`.
+
+<br>
+
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
     </div>
+    <div class="imsgbox">
+        The <code>!condition</code> must be wrapped in a parenthesis so it won’t invert the whole expression.
+    </div>
+    </div>
+</div>
 

@@ -20,5 +20,5 @@ We highly recommend this feature for multiple repository configuration.
 
 Access the Add new integration panel on the Git Integration app configuration page (_from your Jira dashboard menu Git ➜ Manage repositories_).
 
-For more details on this topic, see the connection information for your favorite git host in our [Integration Guides](/git-integration-for-jira-self-managed/Integration-Guides).
+For more details on this topic, see the connection information for your favorite git host in our [Integration Guides](/git-integration-for-jira-data-center/integration-guides-gij-self-managed/).
 

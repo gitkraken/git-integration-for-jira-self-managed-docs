@@ -165,7 +165,7 @@ For more information on GitLab custom API paths, see **GitLab API**.
     </div>
     <div class="imsgbox">
         <b>Remember</b><br>
-        The GitLab.com API can see all the public projects. For GitLab.com, we recommend using JMESPath over the Custom API path when possible. For more information, see <a href='/git-integration-for-jira-self-managed/working-with-jmespath-filters-gij-self-managed/'>Working with JMESPath filters</a>.
+        The GitLab.com API can see all the public projects. For GitLab.com, we recommend using JMESPath over the Custom API path when possible. For more information, see <a href='/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed/'>Working with JMESPath filters</a>.
     </div>
     </div>
 </div>
@@ -175,17 +175,17 @@ While Custom API Path and JMESPath filter are mutually exclusive, you can use on
 
 ## More how-to articles
 
-*   [Creating Personal Access Tokens](/git-integration-for-jira-self-managed/creating-personal-access-tokens-gij-self-managed/)
-*   [Working with JMESPath Filters](/git-integration-for-jira-self-managed/working-with-jmespath-filters-gij-self-managed/)
-*   [Working with Custom API Path](/git-integration-for-jira-self-managed/working-with-custom-api-path-gij-self-managed/)
-*   [Setting Project Permissions](/git-integration-for-jira-self-managed/setting-project-permissions-gij-self-managed/)
-*   [Configure Source Code Diff Viewing](/git-integration-for-jira-self-managed/configure-source-code-diff-viewing-gij-self-managed/)
-*   [Configure Repository Browser](/git-integration-for-jira-self-managed/configure-repository-browser-gij-self-managed/)
-*   [Require Personal Access Tokens for user actions (create branch/pull request)](/git-integration-for-jira-self-managed/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/)
-*   [Creating and configuring SSH keys (Windows/MacOS/Linux)](/git-integration-for-jira-self-managed/creating-and-configuring-ssh-keys-windows-macos-linux-gij-self-managed/)
-*   [How to get a quote?](/git-integration-for-jira-self-managed/how-to-get-a-quote-gij-self-managed/)
-*   [Ways to Index Git Data to Jira Issues](/git-integration-for-jira-self-managed/ways-to-index-git-data-to-jira-gij-self-managed/)
-*   [Proxy settings on adding integrations (except AWS CodeCommit)](/git-integration-for-jira-self-managed/proxy-settings-on-adding-integrations-except-aws-codecommit-gij-self-managed/)
+*   [Creating Personal Access Tokens](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed/)
+*   [Working with JMESPath Filters](/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed/)
+*   [Working with Custom API Path](/git-integration-for-jira-data-center/working-with-custom-api-path-gij-self-managed/)
+*   [Setting Project Permissions](/git-integration-for-jira-data-center/setting-project-permissions-gij-self-managed/)
+*   [Configure Source Code Diff Viewing](/git-integration-for-jira-data-center/configure-source-code-diff-viewing-gij-self-managed/)
+*   [Configure Repository Browser](/git-integration-for-jira-data-center/configure-repository-browser-gij-self-managed/)
+*   [Require Personal Access Tokens for user actions (create branch/pull request)](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/)
+*   [Creating and configuring SSH keys (Windows/MacOS/Linux)](/git-integration-for-jira-data-center/creating-and-configuring-ssh-keys-windows-macos-linux-gij-self-managed/)
+*   [How to get a quote?](/git-integration-for-jira-data-center/how-to-get-a-quote-gij-self-managed/)
+*   [Ways to Index Git Data to Jira Issues](/git-integration-for-jira-data-center/ways-to-index-git-data-to-jira-gij-self-managed/)
+*   [Proxy settings on adding integrations (except AWS CodeCommit)](/git-integration-for-jira-data-center/proxy-settings-on-adding-integrations-except-aws-codecommit-gij-self-managed/)
 
 <br>
 <hr>

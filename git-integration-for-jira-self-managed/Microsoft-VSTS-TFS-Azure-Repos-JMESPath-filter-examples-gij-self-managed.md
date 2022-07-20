@@ -6,14 +6,18 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1352663519/azure2.png?version=1&modificationDate=1615471241670&cacheVersion=1&api=v2&width=340&height=57)
+![](/wp-content/uploads/azure2-logo.png)
+
+<br>
 
 An optional JMESPath filter can be configured when adding Azure Repos integration or repositories.
+
+<br>
 
 ## 1\. Contains (include)
 
 ```java
-value[?contains(name, 'example')]\| {value:@}
+value[?contains(name, 'example')] | {value:@}
 ```
 
 This is a filter based on the text in the repository name. It will list repositories with names containing `'example'`. Do note that the declared string format is case-sensitive.
@@ -21,7 +25,7 @@ This is a filter based on the text in the repository name. It will list reposito
 ## 2\. Contains (exclude)
 
 ```java
-value[?(!contains(name, 'Test'))]\| {value:@}
+value[?(!contains(name, 'Test'))] | {value:@}
 ```
 
 The '**!**' expression removes all repositories with `'test'` in the repository name.
@@ -29,7 +33,7 @@ The '**!**' expression removes all repositories with `'test'` in the repository 
 ## 3\. Starts with or ends with
 
 ```java
-value[?starts_with(name, 'git') \| ends_with(name, 'test')]\| {value:@}
+value[?starts_with(name, 'git') | ends_with(name, 'test')] | {value:@}
 ```
 
 Lists repositories with names that starts with `'git'` or ends with `'test'`.
