@@ -73,7 +73,7 @@ To start integrating a git repository, follow the steps below:
 
 ## Settings
 
-In the **Settings** screen, you can configure features such as [Smart Commits](/git-integration-for-jira-self-managed/smart-commits-docs/), [Repository Browser](/git-integration-for-jira-self-managed/repository-browser/) and [Project Permission](/git-integration-for-jira-self-managed/associating-project-permissions/) settings.
+In the **Settings** screen, you can configure features such as [Smart Commits](/git-integration-for-jira-data-center/smart-commits-docs-gij-self-managed/), [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed/) and [Project Permission](/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed/) settings.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397090/connect-git-wizard-cfg-screen.png?version=1&modificationDate=1630642823475&cacheVersion=1&api=v2&width=680&height=376)
 
@@ -103,7 +103,7 @@ The level of permissions can be one of the following:
             <td><b>Repository</b></td>
             <td>
                 <div>Select a repository from the repository list. For repositories inside integrations, view the integration then select a repository within <i>(<img valign='middle' src='https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/2699.png' width=20 height=20 /> Actions ➜ Show integration repositories)</i>. After the selection, you will be taken to the repository properties.</div>
-                <p>Set the <b>Project Permissions</b> as follows:</p>                
+                <p>Set the <b>Project Permissions</b> as follows:</p>
                 <ol>
                     <li>Uncheck the <b>Associate with all projects</b> option.</li>
                     <li>Click the <b><i>Restrict to project</i></b> field and select one or more project(s).</li>

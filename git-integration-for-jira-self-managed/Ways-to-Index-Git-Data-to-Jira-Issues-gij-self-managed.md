@@ -8,10 +8,9 @@ taxonomy:
 ---
 There are several ways to associate git data to Jira issues:
 
-|     |     |     |     |     |
-| --- | --- | --- | --- | --- |
 | **Objective** | **Method/Trigger** | **Description** | **Example** | **Video** |
-| Link commit to Jira issue | Commit message | Commit by a Jira key in the commit message. | "ABC-123 add fix for bug" | [vid link](https://fast.wistia.net/embed/iframe/7kj43knu4m) |
+| :--- | :--- | :--- | :--- | :--- |
+| Link commit to Jira issue | Commit message | Commit by a Jira key in the commit message. | "ABC-123 add fix for bug" | [vid link](https://bigbrassband.wistia.com/medias/7kj43knu4m) |
 | Link commit to Jira issue | Git note | Commit by a Jira key in git notes to the commit. | \-  | \-  |
 | Associate commit to Jira issue | Change commit issues\` in the \`Commits\` tab of a repository in the Repository Browser | Associate git commit(s) to Jira issue via Commits tab of a repository in the Repository Browser. | TEST-1, TEST-4 | \-  |
 | Associate commit to Jira issue | Change commit issues in the View full commit dialog of the selected commit in Commits tab | Associate git commits to Jira issue via View full commit dialog in Commits tab. | TEST-1, TEST-4 | \-  |
@@ -26,4 +25,5 @@ There are several ways to associate git data to Jira issues:
 
 ## Manually associate git commits to Jira issues
 
-For more information on this topic, see documentation [Associate git commit to Jira issues manually](/git-integration-for-jira-self-managed/linking-git-commits-to-jira-issues-gij-self-managed).
+For more information on this topic, see documentation [Associate git commit to Jira issues manually](/git-integration-for-jira-data-center/linking-git-commits-to-jira-issues-gij-self-managed).
+

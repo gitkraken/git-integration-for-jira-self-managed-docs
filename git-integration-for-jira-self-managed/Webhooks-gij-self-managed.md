@@ -9,7 +9,7 @@ taxonomy:
 
 ## What are webhooks and why use them?
 
-Webhooks can be an extremely powerful tool that can be configured to trigger an immediate re-index of your repositories from remote systems. Your git server can send this near real-time data to Jira when your git data changes. This results in much faster indexing time so that you don’t have to wait for the regular polling interval (see [General settings](/git-integration-for-jira-self-managed/general-settings/).
+Webhooks can be an extremely powerful tool that can be configured to trigger an immediate re-index of your repositories from remote systems. Your git server can send this near real-time data to Jira when your git data changes. This results in much faster indexing time so that you don’t have to wait for the regular polling interval (see [General settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed/).
 
 Webhooks can be triggered whenever certain actions are performed. For example, you can configure a webhook to execute when:
 
@@ -24,7 +24,7 @@ You can create webhooks for individual repositories or most git providers will a
 
 ## Do I need to set up webhooks?
 
-Short answer is no, the [regular reindexing](/git-integration-for-jira-self-managed/general-settings/) configured in General settings by the Jira administrator is the base requirement for indexing. However, by configuring webhooks to trigger reindexing, Jira will more often have up-to-date information. The normal frequency of the app limits this by polling at set intervals.
+Short answer is no, the [regular reindexing](/git-integration-for-jira-data-center/general-settings-gij-self-managed/) configured in General settings by the Jira administrator is the base requirement for indexing. However, by configuring webhooks to trigger reindexing, Jira will more often have up-to-date information. The normal frequency of the app limits this by polling at set intervals.
 
 Without webhooks, you will rely on the default polling of the app which is unchangeable by non-Jira administrators. Jira users will have to wait for the default interval for updates which means users will not see new commits or pull requests until the next indexing interval.
 
@@ -37,9 +37,9 @@ Configure webhooks to trigger immediate reindex of your repositories from remote
 
 1.  From your Jira dashboard, go to menu Git ➜ **Manage repositories**_._ On the sidebar, under _Git Integration for Jira_, click **Webhooks**.
 
-2.  ![](https://bigbrassband.atlassian.net/wiki/download/attachments/94142715/gitserver-gitmgr-webhooks-sidebar-sel(c).png?version=1&modificationDate=1640699245952&cacheVersion=1&api=v2)
+    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/94142715/gitserver-gitmgr-webhooks-sidebar-sel(c).png?version=1&modificationDate=1640699245952&cacheVersion=1&api=v2)
 
-    Enable/disable the webhook feature by clicking on the **Enabled/Disabled** option.
+2.  Enable/disable the webhook feature by clicking on the **Enabled/Disabled** option.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/94142715/gitserver-webhooks-settings-page(c).png?version=1&modificationDate=1640699258009&cacheVersion=1&api=v2&width=598&height=404)
 
@@ -54,9 +54,12 @@ Use this key in the form of:
 <JIRA_BASE_URL>/git/webhook/reindex/<SECRET_KEY>
 ```
 
-| **Assign your Jira base URL and Secret Key to the sample URL structure** |
-| --- |
-| Example:<br><br>```java<br>https://your.jira.com/rest/gitplugin/webhook/1.0/reindex/sdf34tGdfgGDG345g3y0045TYG23te37<br>``` |
+**Assign your Jira base URL and Secret Key to the sample URL structure**
+
+Example:<br>
+```powershell
+https://your.jira.com/rest/gitplugin/webhook/1.0/reindex/sdf34tGdfgGDG345g3y0045TYG23te37
+```
 
 All the repositories will be reindexed if the URL specified above is activated through `GET`, `POST`, or `PUT` and the webhooks are enabled.
 
@@ -78,11 +81,29 @@ The Git Integration for Jira app supports GitLab and GitHub push event to define
 
 The webhook parses the following payload formats:
 
-| **GITHUB (Introduced v2.7.10)** |
-| --- |
-| ```java<br>{<br>    "repository": {<br>    "git_url": "git://github.com/testuser01/test-repo.git",<br>    "ssh_url": "git@github.com:testuser01/test-repo.git",<br>    "clone_url": "https://github.com/testuser01/public-repo.git",<br>    "svn_url": "https://github.com/testuser01/public-repo"<br>  }<br>}<br>``` |
+**GITHUB (Introduced v2.7.10)**
 
-| **GITLAB** |
-| --- |
-| ```java<br>{<br>    "repository": {<br>    "git_ssh_url": "git@gitlab.com:testuser01/test-master.git",<br>    "git_http_url": "https://gitlab.com/testuser01/test-master.git"<br>  }<br>}<br>``` |
+```json
+{   
+    "repository": {   
+        "git_url": "git://github.com/testuser01/test-repo.git",
+        "ssh_url": "git@github.com:testuser01/test-repo.git",
+        "clone_url": "https://github.com/testuser01/public-repo.git",
+        "svn_url": "https://github.com/testuser01/public-repo"
+    }
+}
+```
+
+<br>
+
+**GITLAB**
+
+```json
+{   
+    "repository": {   
+        "git_ssh_url": "git@gitlab.com:testuser01/test-master.git",
+        "git_http_url": "https://gitlab.com/testuser01/test-master.git"
+    }
+}
+```
 

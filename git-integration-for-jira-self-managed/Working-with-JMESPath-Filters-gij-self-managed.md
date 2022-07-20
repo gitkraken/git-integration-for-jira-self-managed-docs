@@ -32,13 +32,13 @@ Read about JMESPath expressions on their [**website**](http://jmespath.org/).
 
 ## Read more on JMESPath filters for supported git services
 
-*   [GitHub.com | GitHub Enterprise JMESPath filter examples]()
+*   [GitHub.com | GitHub Enterprise JMESPath filter examples](/git-integration-for-jira-data-center/GitHub-GitHub-Enterprise-JMESPath-filter-examples-gij-self-managed/)
 
-*   [GitLab.com | GitLab CE/EE JMESPath filter examples]()
+*   [GitLab.com | GitLab CE/EE JMESPath filter examples](/git-integration-for-jira-data-center/GitLab-GitLab-CE-EE-JMESPath-filter-examples-gij-self-managed/)
 
-*   [Microsoft | VSTS | TFS | Azure Repos JMESPath filter examples]()
+*   [Microsoft | VSTS | TFS | Azure Repos JMESPath filter examples](/git-integration-for-jira-data-center/Microsoft-VSTS-TFS-Azure-Repos-JMESPath-filter-examples-gij-self-managed)
 
-*   [Tracked Folders JMESPath filter examples]()
+*   [Tracked Folders JMESPath filter examples](/git-integration-for-jira-data-center/Tracked-Folders-JMESPath-filter-examples-gij-self-managed)
 
-*   [Gerrit JMESPath filter examples]()
+*   [Gerrit JMESPath filter examples](/git-integration-for-jira-data-center/)
 

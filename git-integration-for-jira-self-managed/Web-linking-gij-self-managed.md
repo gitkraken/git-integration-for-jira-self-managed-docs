@@ -9,7 +9,7 @@ taxonomy:
 
 The web linking feature adds links to your git hosting provider directly into the _**Git Commits**_ tab. Configure web linking options while adding/editing repository settings so that commits can include links to the git host pages.
 
-Web links are automatically configured for integrations connected via the Auto-connect wizard.
+Web links are automatically configured for integrations connected via the Add new integration wizard (Auto-connect).
 
 <div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/qmumdo048n?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -70,10 +70,10 @@ Select a git host from the **Web Link** list. The web linking input box optio
 
 You can create several custom configuration to support other git hosting providers. The following five URLs should be configured for setup:
 
-| **Option** | **Description** |
+| Option | Description |
 | :--- | :--- |
-| _**Changeset Format**_ | This is the URL used to display revision.  <br>Use the following variable: `${rev}`  – git revision |
-| _**File Added Format,**_  <br>_**File Modified Format,**_  <br>_**File Deleted Format**_ | This is the URL to display content of added, modified or deleted files.  <p>Use the following variables:</p><ul><li>`${num}` –  number of change (0, 1, …)</li><li>`${rev}`  –  git revision</li><li>`${path}`  –  path of the file being changed</li><li>`${parent}`  –  parent git revision</li><li>`${blob}`  –  ID of blob object</li><li>`${parent_blob}`  –  ID of parent blob object</li><li>`$convert(${branch},"subStr","newSubStr")`  –  this inline function returns branch name with `subStr` replaced by a `newSubStr`.</li></ul>The `${branch}` code has been changed to cope up with the character requirements on some hosting services. |
+| _**Changeset Format**_ | This is the URL used to display revision.  <br>Use the following variable: `${rev}` – git revision |
+| _**File Added Format,**_  <br>_**File Modified Format,**_  <br>_**File Deleted Format**_ | This is the URL to display content of added, modified or deleted files.  <p>Use the following variables:</p><ul><li>`${num}` –  number of change (0, 1, …)</li><li>`${rev}`  –  git revision</li><li>`${path}` –  path of the file being changed</li><li>`${parent}` –  parent git revision</li><li>`${blob}`  –  ID of blob object</li><li>`${parent_blob}` – ID of parent blob object</li><li>`$convert(${branch},"subStr","newSubStr")` – this inline function returns branch name with `subStr` replaced by a `newSubStr`.</li></ul>The `${branch}` code has been changed to cope up with the character requirements on some hosting services. |
 | _**View Format**_ | _String._ Optional. <br><br>This URL is unused and not being configured for the newly added integration types. |
 
 <div class="bbb-callout bbb--tip">
@@ -119,5 +119,5 @@ Once properly configured, the **Git Commits** tab on the **Issues** page wil
 
 ![Jira issue Git commits tab showing web links](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398212/git-commits-clickable-web-links.png?version=1&modificationDate=1630642879449&cacheVersion=1&api=v2&width=557&height=261)
 
-The Git Integration app supports custom web linking. The commit information is displayed in the **Git Commits** issue tab if the git host server URL is provided on the **Web Linking** section in the [Advanced Setup](/git-integration-for-jira-self-managed/connecting-a-repository-via-advanced-setup/) or repository settings of the connected repositories.
+The Git Integration app supports custom web linking. The commit information is displayed in the **Git Commits** issue tab if the git host server URL is provided on the **Web Linking** section in the [Advanced Setup](/git-integration-for-jira-data-center/connecting-a-repository-via-advanced-setup/) or repository settings of the connected repositories.
 
