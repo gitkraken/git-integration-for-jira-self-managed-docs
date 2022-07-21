@@ -6,9 +6,13 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1897431057/gerrit-banner-logo.png?version=1&modificationDate=1628757509971&cacheVersion=1&api=v2&width=226&height=93)
+![](/wp-content/uploads/gerrit-banner-logo.png)
+
+<br>
 
 An optional JMESPath filter can be configured when adding GitHub integration or repositories.
+
+<br>
 
 ## 1. Contains (include)
 
@@ -21,7 +25,7 @@ This is a filter based on the text in the repository name. It will list reposito
 ## 2. Starts with or ends with
 
 ```java
-[?starts_with(name, 'git') \| ends_with(name, 'test')]
+[?starts_with(name, 'git') | ends_with(name, 'test')]
 ```
 
 Lists repositories with names that starts with `'git'` or ends with `'test'`.
@@ -31,7 +35,7 @@ Lists repositories with names that starts with `'git'` or ends with `'test'`.
 ```java
 [?(!contains(name, 'firstword'))]
 
-[?(!contains(name, 'firstword')) \| (!contains(name, 'secondword'))]
+[?(!contains(name, 'firstword')) | (!contains(name, 'secondword'))]
 ```
 
 **1** – Lists repositories with names that either do not contain the word `'firstword'`.

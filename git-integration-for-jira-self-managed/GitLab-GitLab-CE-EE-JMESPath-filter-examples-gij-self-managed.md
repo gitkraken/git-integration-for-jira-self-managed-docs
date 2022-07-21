@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1352663492/gitlab-mobile-custom1.png?version=1&modificationDate=1615471065906&cacheVersion=1&api=v2&width=170&height=53)
+![](/wp-content/uploads/gitlab-mobile-custom1.png)
 
 <br>
 
@@ -17,7 +17,7 @@ An optional JMESPath filter can be configured when adding GitLab integration or 
 ## 1\. Contains (include)
 
 ```java
-[?contains(name, 'git') \| contains(name, 'Slap') \| contains(name, 'est')]
+[?contains(name, 'git') | contains(name, 'Slap') | contains(name, 'est')]
 ```
 
 This is a filter based on the text in the repository name. It will list repositories that contains the specified names. Do note that the declared string format is case-sensitive.
@@ -29,7 +29,7 @@ This is a filter based on the text in the repository name. It will list reposito
 
 [?(!contains(name, 'firstword'))]
 
-[?(!contains(name, 'firstword')) \| (!contains(name, 'secondword'))]
+[?(!contains(name, 'firstword')) | (!contains(name, 'secondword'))]
 ```
 
 **1** – Blacklists project tag.
@@ -52,7 +52,7 @@ GitLab refers to _**project tags**_ as tags in the API and in some places in t
 ## 4\. Starts with or ends with
 
 ```java
-[?starts_with(name, 'git') \| ends_with(name, 'test')]
+[?starts_with(name, 'git') | ends_with(name, 'test')]
 ```
 
 Lists repositories with names that starts with `'git'` or ends with `'test'`.
