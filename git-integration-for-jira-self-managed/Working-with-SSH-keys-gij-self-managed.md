@@ -14,12 +14,12 @@ SSH keys are required in order to provide secure connection with the remote git 
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b>VERSION 4.0+</b> OpenSSH is now fully supported.
+        <b>VERSION 4.0+</b><br>
+        OpenSSH is now fully supported.
     </div>
     </div>
 </div>
-
-
+<br>
 
 Follow this guide if you are one of the users who are limited to or wanted to use SSH to securely connect to your git repositories.
 
@@ -53,6 +53,7 @@ There are two options available for specifying SSH keys:
     </div>
   </div>
 </div>
+<br>
 
 ## Getting started
 
@@ -92,7 +93,7 @@ In this case, the SSH server is the Git server and the SSH client is the Jira se
           <li>must use the supported certificate format: RSA.</li>
           <li>must use the supported storage format: OpenSSL PEM.</li>
         </li>
-        For more information, see troubleshooting article <a href='/git-intengration-for-jira-self-managed/SSH-key-file-format-is-invalid'>SSH key format is invalid</a>.
+        For more information, see troubleshooting article <a href='/git-intengration-for-jira-data-center/SSH-key-file-format-is-invalid-gij-self-managed/'>SSH key format is invalid</a>.
     </div>
   </div>
 </div>
@@ -136,13 +137,13 @@ For Windows, we recommend to use [**PuTTY**](https://www.putty.org/) and use P
 
 You can also use the git bash command line to generate SSH key pair. For detailed information, see [**Generate SSH via Git bash**](https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key).
 
-Read on the section [Generating SSH keys](/git-integration-for-jira-self-managed/generating-ssh-keys) and follow specific information for the git host and platform that you use.
+Read on the section [Generating SSH keys](/git-integration-for-jira-dta-center/generating-ssh-keys-gij-self-managed/) and follow specific information for the git host and platform that you use.
 
 ## Linux/MacOS
 
 On Linux and MacOS, this generates an SSH key in RSA format:
 
-```java
+```powershell
 ssh-keygen -t rsa -b 4096 -m pem -C "your_email@example.com"
 ```
 
