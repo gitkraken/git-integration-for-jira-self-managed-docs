@@ -24,6 +24,7 @@ HTTP Status code response:
 
 *   **403**  –  lack of privileges _(The user doesn't have Jira Admin global permission)_
 
+<br>
 
 ### Bulk Change REST APIs
 

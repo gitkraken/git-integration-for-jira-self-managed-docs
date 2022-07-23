@@ -64,7 +64,10 @@ To enable/disable the _Source Code Diff Viewing_ setting for all repositories
     <iframe width='709' height='533' src='https://fast.wistia.com/embed/iframe/qgatwyyv2m?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/qgatwyyv2m) _to open this video in a new tab/window for more viewing options._
+<div align='center' style='margin-top: 10px'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/qgatwyyv2m'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
+<br>
 
 ### Example: Disabling _Source Code Diff Viewing_ at the repository level for an existing GitLab integration
 
@@ -72,7 +75,10 @@ _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/qgatwyyv2m) _t
     <iframe width='709' height='533' src='https://fast.wistia.com/embed/iframe/4vpnakdzpf?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/4vpnakdzpf) _to open this video in a new tab/window for more viewing options._
+<div align='center' style='margin-top: 10px'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/4vpnakdzpf'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
+<br>
 
 ## Instructions for individual repositories
 
@@ -95,5 +101,8 @@ To enable/disable the Repository Browser for individual repositories:
     <iframe width='709' height='533' src='https://fast.wistia.com/embed/iframe/mtwnmihirc?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/mtwnmihirc) _to open this video in a new tab/window for more viewing options._
+<div align='center' style='margin-top: 10px'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/mtwnmihirc'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
+<br>
 

@@ -17,26 +17,26 @@ The following settings must be configured in the script file:
 
 *   **JIRA\_XMLRPC** \-- path to Jira.
 
-Example: **`https://jira.example.com/rpc/xmlrpc`**
+Example: `https://jira.example.com/rpc/xmlrpc`
+
+<br>
 
 *   **JIRA\_USER**, **JIRA\_PASSWORD** \-- developer's credentials.
 *   **JIRA\_TICKET\_PATTERN** \-- pattern that will search ticket references.
 
-Example: **`re.compile(r'\[(\w+7-\d+?)\]')`**
+Example: `re.compile(r'\[(\w+7-\d+?)\]')`
 
 In Linux and OSX, this file must have executable permissions in the file system; in Windows, setting this permission is not necessary.  To use the hook in Windows without python installed, see **[Python on Windows FAQ »](https://docs.python.org/2/faq/windows.html#how-do-i-make-an-executable-from-a-python-script)**.
 
 See the commit-msg hook code on the right panel or download the sample **[commit-msg file ↓](https://bigbrassband.com/files/commit-msg.zip)**, make the necessary changes, and place it in the required folder.
 
-
-
 The **commit-msg** hook is a python script file that must be located in the developer's local repository.
 
-
+<br>
 
 **Sample contents of the commit-msg file:**
 
-```py
+```python
 #!/usr/bin/python
 #
 # This script is intended to be run as a commit-msg script in a GIT

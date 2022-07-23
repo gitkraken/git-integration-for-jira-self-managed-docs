@@ -52,19 +52,19 @@ For information about creating pull/merge requests from a Jira issue - see arti
 
 ## Advantages
 
-When creating a branch from within Jira: 
+When creating a branch from within Jira:
 
 *   Automatically populates branch name with issue key (necessary for branch **⇿** Jira issue association) and issue summary.
 
 *   Further – default branch naming conventions can be customized to match your development workflow.
 
     For example:<br>
-    `${issuetype:New Issue,new,Bug Fix,bug}/${issuekey}-${summary}` generates "`bug/PRJ-123-add-more-logging`"
-    
+    `${issuetype:New Issue,new,Bug Fix,bug}/${issuekey}-${summary}` generates `bug/PRJ-123-add-more-logging`
+
     See [General settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed) for more information.
 
 *   Require each Jira user to provide their Personal Access Token for creating branches. This option adds some friction to creating branches/pull requests but enabling this setting will enforce the git server user permissions as well as give better attribution for the actions.
-    
+
     For more information, see [Require Personal Access Tokens for user actions (create branch/pull request)](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed) for more information.
 
 
@@ -117,11 +117,13 @@ When creating a branch from within Jira: 
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/8cy7v6ykug?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div style='margin: 10px auto 5px auto'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/8cy7v6ykug'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
 _The video shows Git Integration for Jira Cloud process but is also applicable to the Jira Server version._
+
+<br>
 
 If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com).
 

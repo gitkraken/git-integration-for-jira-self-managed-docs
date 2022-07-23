@@ -6,7 +6,6 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-This feature is available starting **v2.6.29+** of the Git Integration for Jira app.
 
 This setting allows an individual user to receive or to stop receiving any of the notification emails.
 

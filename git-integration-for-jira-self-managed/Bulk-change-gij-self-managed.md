@@ -22,5 +22,5 @@ The **Bulk change** feature provides an easier way to import or export reposit
 
 ### Bulk change automation
 
-To automate the bulk change process via script, see [Bulk change API](/git-integration-for-jira-data-center/bulk-change/).
+To automate the bulk change process via script, see [Bulk change API](/git-integration-for-jira-data-center/bulk-change-gij-self-managed/).
 

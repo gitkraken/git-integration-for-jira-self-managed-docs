@@ -65,20 +65,18 @@ Turning this setting `ON` does not call commits on acquiring for existing pull/m
     </div>
 </div>
 
-* * *
-
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        
+        When switched to <code>ON</code>, the <b><i>Enable indexing pull/merge requests via API</i></b> setting completely activates the feature of indexing of PRs/MRs. This also allows users to use the toggle control for the <b><i>Enable indexing pull/merge requests by commits</i></b> setting, which provides an additional way of indexing when switched to ON.
     </div>
     </div>
 </div>
+<br>
 
-When switched to <code>ON</code>, the <b><i>Enable indexing pull/merge requests via API</i></b> setting completely activates the feature of indexing of PRs/MRs. This also allows users to use the toggle control for the <b><i>Enable indexing pull/merge requests by commits</i></b> setting, which provides an additional way of indexing when switched to ON.
 
 ## Guidelines
 
@@ -107,3 +105,4 @@ Yes, Any indexing of repo (manually, via API, webhooks) will call reindexing a 
     </div>
 </div>
 <br>
+

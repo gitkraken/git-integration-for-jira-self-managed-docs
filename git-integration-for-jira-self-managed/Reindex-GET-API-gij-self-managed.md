@@ -8,39 +8,52 @@ taxonomy:
 ---
 Use this method to track messages for a particular thread.
 
-There are two types of users who can perform the Reindex GET API call:
-
-1.  Jira **administrators**
-
-2.  Jira user who has **all** of the following:
-
-    1.  **View/browse permissions** to the project;
-
-    2.  **View Development Tools permissions** to the same project; and
-
-    3.  The repository is **associated** to the project.
-
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <ol>
+            <li>Jira <b>administrators</b></li>
+            <li>Jira user who has <b>all</b> of the following:
+                <ol type='a'>
+                    <li><b>View/browse permissions</b> to the project;</li>
+                    <li><b>View Development Tools permissions</b> to the same project; and</li>
+                    <li>The repository is <b>associated</b> to the project.</li>
+                </ol>
+            </li>
+        </ol>
+    </div>
+    </div>
+</div>
+<br>
 
 ## Reindex GET API
 
-_**url**_  -- `/rest/gitplugin/1.0/index.json`
+_**url**_<br>
+`/rest/gitplugin/1.0/index.json`
 
-_**method**_ -- GET
+_**method**_<br>
+GET
 
-_**Parameters**_
+### Parameters
 
-| **Parameter** | **Condition** |
+| Parameter | Condition |
 | :--- | :--- |
 | _**threadID**_ | _Required_.<br><br>Indexer thread ID (UUID).  Query parameter.<br><br>**Example:**<br>`eafe58fc-d8de-42ff-8815-6fe5860b38d2` |
-| _**response**_ | JSON |
+
+### Response
+
+JSON
 
 <br>
 
-**Example:**
+### Example:
 
 `http://jira.yourorg.com/rest/gitplugin/1.0/index.json?`**threadId**`=`**eafe58fc-d8de-42ff-8815-6fe5860b38d2**
 
-```java
+```json
 Response:
 {
     "success":true,

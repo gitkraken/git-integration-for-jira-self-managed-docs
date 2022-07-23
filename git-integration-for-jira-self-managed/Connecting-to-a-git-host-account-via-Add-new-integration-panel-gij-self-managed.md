@@ -38,9 +38,9 @@ This process requires a git host account (e.g. GitHub/GitLab/VSTS etc.) Use the 
 
 4. On the following screen, change settings as required or leave the default settings as is.
 
-    ![](https://api.media.atlassian.com/file/0c16285e-0511-4c4c-9b41-50195811a1eb/binary?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI0YTVjYjQ0OC0zMzNlLTQ5ZTctOGJkZC1lZGY3NThjZGI3MjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpmaWxlOjBjMTYyODVlLTA1MTEtNGM0Yy05YjQxLTUwMTk1ODExYTFlYiI6WyJyZWFkIl19LCJleHAiOjE2NTQ3Njc5MDcsIm5iZiI6MTY1NDY4NDkyN30.yZExGqf5UuuoIR1xnI8M4UGvfTWDIkMAWJh7RaKuf2c&client=4a5cb448-333e-49e7-8bdd-edf758cdb726&name=git-server-dc-new-settings-auto-connect-wiz.png&max-age=2940)
+    <img src='/wp-content/uploads/git-server-dc-new-settings-auto-connect-wiz.png' height=434 width=668 />
 
-   *   On the Integration Settings, setting the [**Require User PAT** option](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed) to `ON` will require users to provide PAT which will be used for branch and merge/pull request creation/deletion (via the developer panel on the Jira issue page). This is a security feature of Git Integration for Jira app for git hosts that support two-factor authentication. This option requires the **[Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed)** feature to be enabled.
+   *   On the Integration Settings, setting the [**Require User PAT** option](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed) to `ON` will require users to provide PAT which will be used for branch and merge/pull request creation/deletion (via the developer panel on the Jira issue page). This is a security feature of Git Integration for Jira app for git hosts that support two-factor authentication. This option requires the [**Repository Browser**](/git-integration-for-jira-data-center/repository-browser-gij-self-managed) feature to be enabled.
 
         **IMPORTANT!** Do not enable this feature for connected git hosts that don't support it. For example, TFS2013/2015 does not support PATs. Users won't be able to create branches or create pull/merge request if the above setting is **`ON`**.
 

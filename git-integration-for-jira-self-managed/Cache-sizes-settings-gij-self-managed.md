@@ -57,7 +57,7 @@ _Required._  This is the number of tags that will be kept in cache memory for q
 
 Calculating for the most desirable value depends on the following factors such as how many issues are currently active; and how many commits are associated with the active issues on average. For example, if you have 100 active issues and multiply it by 10 commits per issue, you’ll get around 1000 commits. This is considered a minimal amount.
 
-```java
+```perl
 100 active issues x 10 (average commits per issue) ≈ 1000 commits
 ```
 

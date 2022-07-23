@@ -31,24 +31,26 @@ Starts the reindex process in a separate thread and returns the result immediate
 
 ## Reindex POST API
 
-_**url**_ -- `/rest/gitplugin/1.0/index.json`
+_**url**_<br>
+`/rest/gitplugin/1.0/index.json`
 
-_**method**_ -- POST
-
-<br>
+_**method**_<br>
+POST
 
 ### Parameters
 
-| **Parameter** | **Condition** |
+| Parameter | Condition |
 | :--- | :--- |
 | _**repoId**_ | _Array of Long_. Repository ID.  Form parameter.<br><br>**Example:**<br>Form param (`repoId: [133]`) |
-| _**response**_ | JSON |
+
+### Response
+JSON
 
 <br>
 
-**Example:**
+### Example:
 
-```java
+```json
 http://jira.yourorg.com/rest/gitplugin/1.0/index.json
 
 Body, JSON(application/json):
@@ -64,6 +66,5 @@ Response:
   "finished":true,
   "threadId": xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 }
-
 ```
 

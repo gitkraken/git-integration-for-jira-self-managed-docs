@@ -7,8 +7,7 @@ taxonomy:
 
 ---
 
-ScriptRunner for Jira (GIJ) Data Center/Server is an app available on the Atlassian Marketplace that allows you to extend Jira functionality 
-through the use of built-in and custom groovy scripts. It provides administrators with an in-line editor where you can write groovy scripts.
+ScriptRunner for Jira (GIJ) Data Center/Server is an app available on the Atlassian Marketplace that allows you to extend Jira functionality through the use of built-in and custom groovy scripts. It provides administrators with an in-line editor where you can write groovy scripts.
 
 These scripts can be scheduled as a job or to be run on an issue transition within Jira workflows or etc. Out-of-the-box, you can find several built-in scripts ready to go, or you may try some recipes to start using a bit of groovy for custom scripts.
 
@@ -18,9 +17,8 @@ These scripts can be scheduled as a job or to be run on an issue transition with
 
 Which API or functions can be used while creating these scripts? See [ScriptRunner API quick reference](https://scriptrunner.adaptavist.com/latest/jira/behaviours-api-quickref.html) at Adaptavist.
 
-The Git Integration for Jira app provides additional Java API ([GIJFacade interface](/git-integration-for-jira-data-center/javadoc/com/bigbrassband/jira/git/services/GIJFacade.html))
-allowing you to operate with git information. 
-The API is close to [Git integration for Jira REST API](/git-integration-for-jira-data-center/REST-API-gij-self-managed/)
+The Git Integration for Jira app provides additional Java API ([GIJFacade interface](/git-integration-for-jira-data-center/javadoc/com/bigbrassband/jira/git/services/GIJFacade-gij-self-managed/))
+allowing you to operate with git information. The API is close to [Git integration for Jira REST API](/git-integration-for-jira-data-center/REST-API-gij-self-managed/)
 and provides similar functionality (and more):
 
 *   **Repositories** - get list of repositories connected, create/delete/update a repository
@@ -37,7 +35,7 @@ and provides similar functionality (and more):
 
 <br>
 
-One main implementation in the [GIJFacade interface](/git-integration-for-jira-data-center/javadoc/com/bigbrassband/jira/git/services/GIJFacade.html.md) is the main object having methods for all the above cases.
+One main implementation in the [GIJFacade interface](/git-integration-for-jira-data-center/javadoc/com/bigbrassband/jira/git/services/GIJFacade-gij-self-managed/) is the main object having methods for all the above cases.
 
 See JavaDocs example scripts below for all classes used in **GIJFacade** class.
 
@@ -143,7 +141,7 @@ Steps:
       <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-      Please be aware that a brief information of the objects are logged by default. For instance, each commit object in the list contains much more information about a commit which can be acquired programmatically. See <a href='/git-integration-for-jira-data-center/javadoc/com/bigbrassband/jira/git/rest/publicmodels/Commit.html'>Commit</a>) class javadocs to find a full list of information provided.
+      Please be aware that a brief information of the objects are logged by default. For instance, each commit object in the list contains much more information about a commit which can be acquired programmatically. See <a href='/git-integration-for-jira-data-center/javadoc/com/bigbrassband/jira/git/rest/publicmodels/Commit-gij-self-managed/'>Commit</a>) class javadocs to find a full list of information provided.
     </div>
   </div>
 </div>
@@ -196,7 +194,7 @@ Steps:
   
     For example, files are not logged but are present in commit objects when you retrieve them with help of `gijFacade.getCommitsForIssue("TST-4", true)`.
   
-    Refer to [Commit JavaDocs](/git-integration-for-jira-data-center/javadoc/com/bigbrassband/jira/git/rest/publicmodels/Commit.html.md) and log commits with files in a nice-looking format. Enter the following script in the Scriptrunner console:
+    Refer to [Commit JavaDocs](/git-integration-for-jira-data-center/javadoc/com/bigbrassband/jira/git/rest/publicmodels/Commit-gij-self-managed/) and log commits with files in a nice-looking format. Enter the following script in the Scriptrunner console:
   
     ```java
     import com.onresolve.scriptrunner.runner.customisers.WithPlugin

@@ -36,7 +36,7 @@ The Git Integration for Jira app supports Azure Repos.
   - [Permissions](#permissions)
   - [Creating personal access tokens for Azure DevOps/VSTS account](#creating-personal-access-tokens-for-azure-devopsvsts-account)
   - [Using Full feature integration](#using-full-feature-integration)
-  - [Single repository (Manual integration)](#single-repository-manual-integration)
+  - [Single repository integration (Manual integration)](#single-repository-integration-manual-integration)
   - [Webhooks and web linking](#webhooks-and-web-linking)
   - [Linking Azure DevOps/VSTS git commits to Jira Data Center/Server](#linking-azure-devopsvsts-git-commits-to-jira-data-centerserver)
   - [Viewing git commits in Jira Server](#viewing-git-commits-in-jira-server)
@@ -48,6 +48,8 @@ The Git Integration for Jira app supports Azure Repos.
     - [Merging _branch_ to _master_](#merging-branch-to-master)
 
 * * *
+
+<br>
 
 <div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/dwk9zxeane?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -87,13 +89,14 @@ We recommend using the Add new integration panel to connect multiple repositorie
         *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less. Read about JMESPath expressions on their [website](http://jmespath.org/).
 
             For help with writing expressions, please contact [support](mailto:support@bigbrassband.com).
-            To learn more VSTS/Azure DevOps examples, see article [Jira Server: Working with JMESPath Filters](/wiki/spaces/GITSERVER/pages/129171463/Working+with+JMESPath+Filters).
+            To learn more VSTS/Azure DevOps examples, see article [Jira Server: Working with JMESPath Filters](/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed/).
 
             *   If the field is empty, the Git Integration for Jira app will get all available accounts and then scans all available git repositories.
 
             *   If the field is not blank, the app will assume it as a single account path and will try to use it. To connect to all available accounts, manually create integrations for each one of them.
 
         *   **Fetch refspec**  –  Git refspecs contains patterns mapped as references from the remote to the local repository.
+            
             For more information, see **Git Internals -- The Refspec**.
 
             *   The first two refspec options are required.
@@ -119,16 +122,18 @@ We recommend using the Add new integration panel to connect multiple repositorie
 5.  On the following dialog, Git Integration for Jira app will read all available repositories from Azure DevOps/VSTS. Click **Import repositories**.
 
     Repositories of the logged-in Microsoft user can be automatically connected to Jira Data Center/Server. Repositories that are added or removed from Azure DevOps/VSTS will be likewise connected or disconnected from Jira Server.
+    
     Currently, all available accounts are scanned and corresponding URLs are created internally.
 
 6.  After the import process, the **Settings** dialog is displayed.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/80805899/gitserver-github-autoconnect-settings-dlg(c).png?version=1&modificationDate=1638876141633&cacheVersion=1&api=v2&width=646&height=449)
-    1.  On the Integration Settings, setting the _**Require User PAT**_ option to `ON`, will require users to provide PAT specific for branch and merge requests _(via the developer panel on the Jira issue page)_.  For more information on this feature, see [Integration Settings: Require User PAT](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/).
 
-    2.  Set **Smart commits** and **Repository Browser** to enable/disable these features.
+    *   On the Integration Settings, setting the _**Require User PAT**_ option to `ON`, will require users to provide PAT specific for branch and merge requests _(via the developer panel on the Jira issue page)_.  For more information on this feature, see [Integration Settings: Require User PAT](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/).
 
-    3.  Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Associating project permissions](/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed/).
+    *   Set **Smart commits** and **Repository Browser** to enable/disable these features.
+
+    *   Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Associating project permissions](/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed/).
 
 7.  Click **Finish** to complete this setup.
 
@@ -138,14 +143,15 @@ We recommend using the Add new integration panel to connect multiple repositorie
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        For now, only **git** projects are supported from Azure DevOps/VSTS.
+        For now, only <b>git</b> projects are supported from Azure DevOps/VSTS.
     </div>
     </div>
 </div>
+<br>
 
 Azure DevOps/VSTS git repositories are now connected to Jira Server.
 
-## Single repository (Manual integration)
+## Single repository integration (Manual integration)
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -157,6 +163,7 @@ Azure DevOps/VSTS git repositories are now connected to Jira Server.
     </div>
     </div>
 </div>
+<br>
 
 This process requires an existing VSTS/Azure git repository. Look for the the VSTS/Azure repository URL on the repository project page.
 
@@ -223,19 +230,22 @@ This process requires a Azure DevOps/VSTS git repository.
     ... or update your local repository files by performing a **Pull** action via VS IDE ➜ **Team Explorer**.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/80805899/vside-teamexp-sync-changes-pull(c).png?version=1&modificationDate=1638876141642&cacheVersion=1&api=v2&width=306&height=201)
+
 3.  Create or modify a file from your local repository.
 
 4.  Perform a commit of the changes via **Team Explorer** ➜ **Changes**.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/80805899/vs-ide-team-explorer-changes-commit-push(c).png?version=1&modificationDate=1638876141645&cacheVersion=1&api=v2&width=306&height=299)
+
     *   Enter the commit message by mentioning the Jira issue key to associate this commit to. _(Underlined in red)_.
 
     *   Click the dropdown on the **Commit All** button then select **Commit All and Push**.
 
 5.  The commit is now displayed in the specified Jira issue.
 
-
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/80805899/gitserver-azure-vsts-commits-view.png?version=1&modificationDate=1638876141648&cacheVersion=1&api=v2&width=544&height=183)
+
+<br>
 
 ## Viewing git commits in Jira Server
 
@@ -306,7 +316,7 @@ Most git integrations allow changing of the default branch of the repository/pro
 
             ![](https://bigbrassband.atlassian.net/wiki/download/attachments/80805899/gitserver-repo-browser-pat-sel(c).png?version=1&modificationDate=1638876141660&cacheVersion=1&api=v2)
 
-        *   Click the Edit ![](/wp-content/uploads/gij-edit-icon-dark.png) icon to setup/reconfigure PAT. The checkmark adjacent to the edit icon indicates PAT has been configured.
+        *   Click the edit ![](/wp-content/uploads/gij-edit-icon-dark.png) icon to setup/reconfigure PAT. The checkmark adjacent to the edit icon indicates PAT has been configured.
 
 3.  Click **Create branch**. The newly-created branch is now listed in the developer panel under **Branches**.
 
@@ -350,6 +360,7 @@ To create a pull request and merge it to the main source (master):
 2.  On the developer panel under **Git integration**, click **Create pull request**. The following dialog is displayed.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/80805899/gitserver-create-pullreq-dlg-off(c).png?version=1&modificationDate=1638876141667&cacheVersion=1&api=v2&width=544&height=300)
+
     *   Select a **Repository** from the list.
 
     *   Choose the newly-created branch as the **Source branch**.
@@ -374,6 +385,8 @@ The pull request is listed on the developer panel of the Jira issue page.
 The pull request is also ready for approval by the reviewers in your Azure DevOps/VSTS web portal.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/80805899/vsts-webui-branch-ready-for-merge.png?version=1&modificationDate=1638876141674&cacheVersion=1&api=v2)
+
+<br>
 
 ### Merging _branch_ to _master_
 
@@ -400,6 +413,8 @@ Continuing from the above steps, the current branch is ready for merge.
 The reviewer's approval is required to completely merge the pull request. This usually takes place in the Azure DevOps/VSTS portal where your updated code is being reviewed.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/80805899/vsts-webui-pull-request-review-approve.png?version=1&modificationDate=1638876141685&cacheVersion=1&api=v2)
+
+<br>
 
 Once approved, the team leader or reviewer can then complete the merge. The commit can be viewed in the associated Jira issue page.
 

@@ -14,7 +14,7 @@ taxonomy:
     </div>
     <div class="imsgbox">
         Pull request webhooks are now supported. See details on this page.
-        <div class='nextpara'>Supported webhook events:</div>
+        <p>Supported webhook events:</p>
         <ul>
             <li><i>Repository</i> - Push</li>
             <li><i>Pull request</i> - Created</li>
@@ -58,10 +58,9 @@ taxonomy:
 
         1.  Repository - **Push** (required)
 
-        2.  Pull Request (optional) - select these options to also include the pull request triggers
+        2.  Pull Request (optional) - select these options to also include the pull request triggers:
 
             *   **Created**
-
             *   **Updated**
 
 5.  Switch to your Jira instance then navigate to **Git** > **Manage repositories** page and then open **Webhooks**.
@@ -79,7 +78,7 @@ taxonomy:
 10.  Click **Save** to complete this setup.
 
 
-### **Pull Request Webhooks**
+### Pull Request Webhooks
 
 The Git Integration for Jira app supports pull request webhooks now.
 

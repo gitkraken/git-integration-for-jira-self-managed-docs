@@ -51,6 +51,7 @@ Use the following template variables:
 ```java
 ${issuetype:type0,subsitute0[,type1,substitute1,...,typeN,substituteN][,defaultsubstitute]}
 ```
+
 *   `typeN` – is the _**nth**_ issue type string to match.
 
 *   `substituteN` – is the substitution string to use for _**typeN**_.
@@ -69,9 +70,9 @@ ${issuetype:type0,subsitute0[,type1,substitute1,...,typeN,substituteN][,defaults
     <div class="imsgbox">
         <b>The Git Integration for Jira app default is:</b><br>
         `${issuekey}-${summary}`
-        <div class='nextpara'>
+        <p style='margin-bottom: 0px'>
             This generates the string format like "<b>PRJ-123-add-more-logging</b>" as a default value for the Create Branch and Pull/Merge Request dialogs. Where <code>PRJ-123</code> is the issue key followed by a hyphen then the summary text of the active issue page (<i>in hyphenated lowercase form</i>).
-        </div>
+        </p>
     </div>
     </div>
 </div>
@@ -82,7 +83,7 @@ ${issuetype:type0,subsitute0[,type1,substitute1,...,typeN,substituteN][,defaults
 
 * * *
 
-### Some examples
+### Some examples for branch templates
 
 **Example 1:**<br>
 `${issuetype}/${issuekey}-${summary}`

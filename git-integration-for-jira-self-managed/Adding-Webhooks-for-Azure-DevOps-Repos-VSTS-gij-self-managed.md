@@ -66,11 +66,11 @@ taxonomy:
 
     ![](https://bigbrassband.com/confluence/images/webhooks-azure-devops-triggers-cfg.png)
 
-    a.   Set **"code pushed"** for the _**Trigger on this type of event**_ selector.
+    *   Set **"code pushed"** for the _**Trigger on this type of event**_ selector.
 
-    b.  Set all **FILTERS** to **"Any"**.
+    *   *Set all **FILTERS** to **"Any"**.
 
-    c.  Click **Next** to proceed to the following screen.
+    *   *Click **Next** to proceed to the following screen.
 
     ![](https://bigbrassband.com/confluence/images/webhooks-azure-devops-action-cfg.png)
 
@@ -88,8 +88,9 @@ taxonomy:
 
 11. Click **Finish** to complete this setup.
 
+<br>
 
-### **Pull Request Webhooks**
+### Pull Request Webhooks
 
 The Git Integration for Jira app supports pull request webhooks now.
 

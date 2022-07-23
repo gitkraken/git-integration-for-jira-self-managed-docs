@@ -14,7 +14,7 @@ taxonomy:
     </div>
     <div class="imsgbox">
         Merge request webhooks are now supported. See details on this page.
-        <div class='nextpara'>Supported webhook events:</div>
+        <p>Supported webhook events:<p>
         <ul>
             <li>Push events</lI>
             <li>Merge request events</lI>
@@ -29,7 +29,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Git Integration for Jira Data Center app now supports <b>GitLab System Hooks</b> (menu Admin Area ➜ System Hooks ➜ <i>Merge Request events</li>). However, it is only available for self-hosted GitLab instances. We highly recommend that Jira administrators should use this feature as it greatly reduces the amount of configuration time to setup webhooks.
+        Git Integration for Jira Data Center app now supports <b>GitLab System Hooks</b> (menu Admin Area ➜ System Hooks ➜ <i>Merge Request events</i>). However, it is only available for self-hosted GitLab instances. We highly recommend that Jira administrators should use this feature as it greatly reduces the amount of configuration time to setup webhooks.
     </div>
     </div>
 </div>
@@ -82,7 +82,9 @@ Configure webhook by logging in to your GitLab account:
 
 7.  Click **Add webhook** to save the new webhook settings.
 
-### **Merge Request Event Webhook**
+<br>
+
+### Merge Request Event Webhook
 
 The Git Integration for Jira app supports GitLab merge request webhooks now.
 

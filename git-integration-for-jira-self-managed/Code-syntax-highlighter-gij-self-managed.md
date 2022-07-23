@@ -8,7 +8,7 @@ taxonomy:
 ---
 The code diff dialog view has been improved. The Git Integration for Jira app uses the correct syntax highlighting when viewing the code diff of the file based on its file extension:
 
-| **File Extension** | **Language ID** |
+| File Extension | Language ID |
 | :--- | :--- |
 | **css** | CSS |
 | **js** | Javascript |
@@ -42,10 +42,9 @@ The code diff dialog view has been improved. The Git Integration for Jira app u
     </div>
     <div class="imsgbox">
         This feature will only display properly on browsers supported by Atlassian for specific versions of Jira:
-        <ul>
-            <li><a href="https://confluence.atlassian.com/jira063/supported-platforms-683541780.html" target="_blank">Jira 6.3 supported platforms</a></li>
-            <li><a href="https://confluence.atlassian.com/adminjiraserver0713/supported-platforms-964983071.html" target="_blank">Jira 7.x supported platforms</a></li>
-            <li><a href="https://confluence.atlassian.com/adminjiraserver/supported-platforms-938846830.html" target="_blank">Jira 8.x supported platforms</a></li>
+        <ul>            
+            <li><a href="https://confluence.atlassian.com/adminjiraserver0900/supported-platforms-1142254604.html" target="_blank">Jira 9.x supported platforms</a></li>
+            <li><a href="https://confluence.atlassian.com/adminjiraserver080/supported-platforms-967896891.html" target="_blank">Jira 8.x supported platforms</a></li>
         </ul>
     </div>
     </div>

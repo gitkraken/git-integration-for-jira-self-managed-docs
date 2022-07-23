@@ -13,7 +13,7 @@ This page contains steps for creating personal access tokens (PATs) for specific
 - [GitHub | GitHub Enterprise](#github--github-enterprise)
 - [GitLab | GitLab CE/EE](#gitlab--gitlab-ceee)
 - [Azure DevOps | Visual Studio Team Services (VSTS)](#azure-devops-visual-studio-team-services-vsts)
-- [Team Foundation Server (TFS) 2017 | (TFS) 2018](#team-foundation-server-tfs-2017--tfs-2018)
+- [Team Foundation Server (TFS) 2017 \| (TFS) 2018](#team-foundation-server-tfs-2017--tfs-2018)
 - [Azure DevOps Server](#azure-devops-server)
 - [AWS CodeCommit](#aws-codecommit)
 
@@ -156,7 +156,7 @@ When you're done, make sure to copy and save the token. This token can be used 
 </div>
 <br>
 
-## Team Foundation Server (TFS) 2017 | (TFS) 2018
+## Team Foundation Server (TFS) 2017 \| (TFS) 2018
 
 TFS 2017 and newer can use personal access token for on-premises TFS installations. This will allow control on how a service user accesses specific resources from your git repositories. PATs can give you access to Azure Repos without using your username or password directly.
 
@@ -164,23 +164,23 @@ Follow the steps below, if you have not yet generated a personal access token (P
 
 1.  On the TFS portal dashboard, clicking the user settings icon on the top right corner of the page then click **Security**.
 
-2.  ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/107380737/tfs-201718-acct-menu-panel(c).png?version=1&modificationDate=1650870599427&cacheVersion=1&api=v2&width=306&height=287)
+    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/107380737/tfs-201718-acct-menu-panel(c).png?version=1&modificationDate=1650870599427&cacheVersion=1&api=v2&width=306&height=287)
 
-    Click **Add** on the Personal Access Token page to see the following screen.
+2.  Click **Add** on the Personal Access Token page to see the following screen.
 
-3.  ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/107380737/tfs-201718-create-pat-screen-sample(c2).png?version=1&modificationDate=1650870599430&cacheVersion=1&api=v2&width=646&height=323)
+    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/107380737/tfs-201718-create-pat-screen-sample(c2).png?version=1&modificationDate=1650870599430&cacheVersion=1&api=v2&width=646&height=323)
 
     Enter a meaningful name as **Description**.
 
-4.  Set the lifespan of your token as desired.
+3.  Set the lifespan of your token as desired.
 
-5.  On the **Authorized Scopes** section, set it to **Selected scopes** then enable one of the settings that will be assigned to this service user:
+4.  On the **Authorized Scopes** section, set it to **Selected scopes** then enable one of the settings that will be assigned to this service user:
 
     *   For viewing commits, smart commits and browse repositories inside Jira, the recommended scope is **code (read)**.
 
     *   For having the above access privilege plus branch and pull request creation via developer panel of a Jira issue, the recommended scope is **code (read and write)**.
 
-6.  Click **Create token** to create this PAT with the specified scope.
+5.  Click **Create token** to create this PAT with the specified scope.
 
 
 When you're done, make sure to copy and save the token. This token can be used as your password.
