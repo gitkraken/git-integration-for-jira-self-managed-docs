@@ -36,7 +36,7 @@ Cloning into ‘network-repo’...
 
 If the path is invalid, does not exist or has permission issues, an error similar to the following will be displayed:
 
-```java
+```bash
 fatal: '//Ws148/Photo/repo' does not appear to be a git repository
 fatal: Could not read from remote repository.
 Please make sure you have the correct access rights

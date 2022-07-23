@@ -38,7 +38,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see [Webhooks - Getting Started](/git-integration-for-jira-data-center/webhooks-gij-self-managed#Getting-started).
+        Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see <a href='/git-integration-for-jira-data-center/webhooks-gij-self-managed#Getting-started/'>Webhooks - Getting Started</a>.
     </div>
     </div>
 </div>
@@ -77,6 +77,8 @@ You will need to enable two (2) event triggers in your GitHub webhooks configura
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171377121/github-pull-request-event-trigger-webhook.png?version=2&modificationDate=1649573257621&cacheVersion=1&api=v2&width=676&height=334)
 
+<br>
+
 For the figure above:
 
 *   **Just the** `push` event - This is the default configuration and this works only for commits.
@@ -92,7 +94,7 @@ For the figure above:
     </div>
     <div class="imsgbox">
         Webhooks will be automatically registered for each GitHub repository connected to Jira Server to instantly index your commits. For this to work, the connecting GitHub user must be the Organization Owner or have repository <b>ADMIN</b> rights.
-        <div class='nextpara'>Webhooks will be deleted when GitHub integration is disconnected from Git Integration for Jira Server.</div>
+        <p style='margin-bottom: 0px'>Webhooks will be deleted when GitHub integration is disconnected from Git Integration for Jira Server.</p>
     </div>
     </div>
 </div>

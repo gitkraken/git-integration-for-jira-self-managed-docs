@@ -28,6 +28,7 @@ The branch panel will show a summary of all the unmerged branches (regardless of
     </div>
     </div>
 </div>
+<br>
 
 ## Create branch
 
@@ -35,9 +36,9 @@ Click **Create branch** to create a branch for the selected repository. The f
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399090/dev-panel-create-branch-dlg(c).png?version=1&modificationDate=1630642920515&cacheVersion=1&api=v2&width=544&height=272)
 
-1.  Select a **Repository**.<br>
-    
-    **GITHUB** &nbsp; If there are several repositories with the same name, the listed GitHub repositories will have their names attached with a GitHub organization name. For example, `BigBrassBand/second-webhook-test-repo`.<br>
+1.  Select a **Repository**.
+
+    **GITHUB** &nbsp; If there are several repositories with the same name, the listed GitHub repositories will have their names attached with a GitHub organization name. For example, `BigBrassBand/second-webhook-test-repo`.
 
     **GITLAB** &nbsp; If there are several repositories with the same name, the listed GitLab repositories will have their names attached with a GitLab owner name. For example, `johnsmith/second-webhook-test-repo`.
 
@@ -67,7 +68,7 @@ The Setup PAT dialog can also be accessed on the Repository Browser under _**Per
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399090/gitserver-repo-browser-setup-pat-highlight.png?version=1&modificationDate=1630669274634&cacheVersion=1&api=v2&width=680&height=381)
 
-*   Click <img  src='/wp-content/uploads/gij-edit-icon-dark.png'  style='vertical-align: middle; margin: 0 3px' width=20 height=20> to setup a PAT for the selected repository. The PAT setup dialog appears.
+*   Click <img src='/wp-content/uploads/gij-edit-icon-dark.png'  style='margin: 0 3px' width=auto height=16> to setup a PAT for the selected repository. The PAT setup dialog appears.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399090/gitserver-setup-your-user-pat-dlg-new(c).png?version=1&modificationDate=1630668474897&cacheVersion=1&api=v2&width=544&height=300)
 
@@ -83,7 +84,7 @@ The Setup PAT dialog can also be accessed on the Repository Browser under _**Per
 
 Click **Create branch** on the Create Branch dialog. The newly-created branch is now listed in the developer panel under **Branches**.
 
-<img src='https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399090/dev-panel-delete-branch-on-hover.png?version=1&modificationDate=1630642921461&cacheVersion=1&api=v2&width=319&height=157' class='center img-bordered'/>
+<img src='https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399090/dev-panel-delete-branch-on-hover.png?version=1&modificationDate=1630642921461&cacheVersion=1&api=v2' width=319 height=157 style='margin: 0 auto' />
 
 <br>
 

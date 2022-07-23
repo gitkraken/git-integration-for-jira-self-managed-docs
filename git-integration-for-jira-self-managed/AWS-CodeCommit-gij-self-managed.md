@@ -21,6 +21,8 @@ taxonomy:
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/aws-cc-logo.png?version=1&modificationDate=1631448492185&cacheVersion=1&api=v2&width=387&height=81)
 
+<br>
+
 # Integrate AWS CodeCommit with Jira Data Center/Server
 
 AWS CodeCommit is a git host service by Amazon Web Services to store and manage source code, related files and private Git repositories in the cloud.
@@ -47,10 +49,11 @@ Quickly learn how to connect AWS CodeCommit git repositories via Git Integration
   - [Webhooks and triggers](#webhooks-and-triggers)
   - [Using Full feature integration](#using-full-feature-integration)
   - [Single repository (Manually connect via HTTP or HTTPS)](#single-repository-manually-connect-via-http-or-https)
-  - [Single repository (Manually connect via SSH)](#single-repository-manually-connect-via-ssh)
+  - [Single repository integration (Manually connect via SSH)](#single-repository-integration-manually-connect-via-ssh)
   - [Setting up AWS CodeCommit web links](#setting-up-aws-codecommit-web-links)
   - [Viewing git commits in Jira Data Center/Server](#viewing-git-commits-in-jira-data-centerserver)
   - [Working with branches and pull requests](#working-with-branches-and-pull-requests)
+    - [Default branch](#default-branch)
     - [Creating branches](#creating-branches)
     - [Creating branches with Require user PAT enabled](#creating-branches-with-require-user-pat-enabled)
     - [Creating pull requests](#creating-pull-requests)
@@ -82,7 +85,7 @@ We recommend that the following AWS IAM policies are configured beforehand based
 
 Configure [**AWSCodeCommitReadOnly »**](http://docs.aws.amazon.com/codecommit/latest/userguide/access-permissions.html) IAM policy for basic features:
 
-| **Feature** | **Required permission** |
+| Feature | Required permission |
 | :--- | :--- |
 | show commits, process smart commits, show branches | `codecommit:ListRepositories`  <br>`codecommit:GitPull`  <br>`codecommit:BatchGetRepositories` |
 | show pull requests | `codecommit:ListPullRequests`  <br>`codecommit:GetPullRequest` |
@@ -91,7 +94,7 @@ Configure [**AWSCodeCommitReadOnly »**](http://docs.aws.amazon.com/codecommit/
 
 Configure [**AWSCodeCommitPowerUser »**](https://docs.aws.amazon.com/codecommit/latest/userguide/auth-and-access-control-permissions-reference.html) IAM policy for all features:
 
-| **Feature** | **Required permission** |
+| Feature | Required permission |
 | :--- | :--- |
 | create pull request | `codecommit:CreatePullRequest` |
 | create branch | `codecommit:CreateBranch` |
@@ -143,6 +146,8 @@ CodeCommit doesn't have webhooks but it has SNS triggers requiring a [**subscri
 
 For more information on Amazon SNS, see [**Amazon SNS: Getting Started »**](https://docs.aws.amazon.com/sns/latest/dg/sns-getting-started.html).
 
+<br>
+
 <div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/657k3pibj6?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
@@ -162,81 +167,64 @@ We recommend using the Add new integration panel (_formerly Auto-connect integra
 
     ![](https://bigbrassband.atlassian.net/wiki/download/attachments/92176493/gitserver-gitmgr-connect2git-sel(c).png?version=1&modificationDate=1631448492192&cacheVersion=1&api=v2)
 
-    On the Add new integration panel, click **CodeCommit**. The Auto-Connect wizard for AWS CodeCommit is displayed.
+2. On the Add new integration panel, click **CodeCommit**. The Auto-Connect wizard for AWS CodeCommit is displayed.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-gitmgr-auto-connect-aws-wiz-dlg(c).png?version=1&modificationDate=1631448492197&cacheVersion=1&api=v2&width=646&height=472)
-    1.  Select the **Region** where the CodeCommit repositories reside then enter credentials for the **Access key ID** and **Secret access key**.
 
-    2.  See below on the supported regions:
+3.  Select the **Region** where the CodeCommit repositories reside then enter credentials for the **Access key ID** and **Secret access key**.
+
+    See below on the supported regions:
 
         *   US East (N. Virginia)
-
         *   US East (Ohio)
-
         *   US West (N. California)
-
         *   US West (Oregon)
-
         *   Canada (Central)
-
         *   EU (Ireland)
-
         *   EU (Frankfurt)
-
         *   EU (London)
-
         *   EU (Paris)
-
         *   EU (Stockholm)
-
         *   EU (Milan)
-
         *   Asia Pacific (Mumbai)
-
         *   Asia Pacific (Singapore)
-
         *   Asia Pacific (Sydney)
-
         *   Asia Pacific (Seoul)
-
         *   Asia Pacific (Tokyo)
-
         *   Asia Pacific (Hong Kong)
-
         *   Middle East (Bahrain)
-
         *   South America (Sao Paulo)
 
-    3.  Configuring the **Advanced** settings (_under the credential fields_) is optional. However, admins/power users may set how the project listing is displayed.
+    **OPTIONAL!** Configuring the **Advanced** settings (_under the credential fields_) is not required. However, admins/power users may set how the project listing is displayed.
 
-        ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-aws-auto-connect-wiz-advanced-opt(c).png?version=1&modificationDate=1631448492201&cacheVersion=1&api=v2&width=510&height=224)
+    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-aws-auto-connect-wiz-advanced-opt(c).png?version=1&modificationDate=1631448492201&cacheVersion=1&api=v2&width=510&height=224)
 
-        *   **Fetch refspec**  –  Git refspec contains patterns mapped as references from the remote to the local repository.
-            For more information, see [**Git Internals -- The Refspec**](https://git-scm.com/book/en/v2/Git-Internals-The-Refspec).
+    *   **Fetch refspec**  –  Git refspec contains patterns mapped as references from the remote to the local repository.
+        For more information, see [**Git Internals -- The Refspec**](https://git-scm.com/book/en/v2/Git-Internals-The-Refspec).
 
-            *   The first two refspec options are required.
+        *   The first two refspec options are required.
 
-            *   The rest of the options are OPTIONAL:
+        *   The rest of the options are OPTIONAL:
 
-                *   **Clone and index ref notes (refs/notes)** – This is a reference to `refs/notes/*` used for fetching. This option is enabled by default. This affects git notes which are not shown:
+            *   **Clone and index ref notes (refs/notes)** – This is a reference to `refs/notes/*` used for fetching. This option is enabled by default. This affects git notes which are not shown:
 
-                    *   ...when `refs/notes` are disabled on connecting a repository.
+                *   ...when `refs/notes` are disabled on connecting a repository.
 
-                    *   ...when a new note comes when `refs/notes` is disabled.
+                *   ...when a new note comes when `refs/notes` is disabled.
 
-                *   ***Clone and index changes (refs/changes)** – This is a reference to `refs/changes/*` used for fetching. This option is turned off by default.
+            *   ***Clone and index changes (refs/changes)** – This is a reference to `refs/changes/*` used for fetching. This option is turned off by default.
 
-                *   **Clone and index other refs** – This is a user-defined list of references used for fetching. It is a comma-separated list with the format:
+            *   **Clone and index other refs** – This is a user-defined list of references used for fetching. It is a comma-separated list with the format:
 
-                    *   `+refs/refname1/*:refs/refname1/*`, `refs/refname2/*:refs/refname2/*`, ...
+                *   `+refs/refname1/*:refs/refname1/*`, `refs/refname2/*:refs/refname2/*`, ...
 
-3.  Click **Connect**.
+4.  Click **Connect**.
 
-4.  On the following screen, Git Integration for Jira app will read all available repositories from your AWS CodeCommit account. Click **Import repositories**.
+5.  On the following screen, Git Integration for Jira app will read all available repositories from your AWS CodeCommit account. Click **Import repositories**.
 
-    *   Repositories of the logged-in AWS CodeCommit user can be automatically connected to Jira Data Center/Server.  Repositories that are added or removed from AWS CodeCommit will be likewise connected or disconnected from Jira Data Center/Server.
+    Repositories of the logged-in AWS CodeCommit user can be automatically connected to Jira Data Center/Server.  Repositories that are added or removed from AWS CodeCommit will be likewise connected or disconnected from Jira Data Center/Server.
 
-5.  After the import process, the **Settings** dialog is displayed:
+6.  After the import process, the **Settings** dialog is displayed:
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-auto-connect-wizard-end-dlg(c).png?version=1&modificationDate=1631448492206&cacheVersion=1&api=v2&width=646&height=428)
 
@@ -246,7 +234,9 @@ We recommend using the Add new integration panel (_formerly Auto-connect integra
 
     *   Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Setting project permissions](/git-integration-for-jira-data-center/setting-project-permissions-gij-self-managed/).
 
-6.  Click **Finish** to complete setting up this integration.
+7.  Click **Finish** to complete setting up this integration.
+
+<br>
 
 The AWS CodeCommit repositories are now connected to Jira Data Center/Server.
 
@@ -297,7 +287,7 @@ Connect a single AWS CodeCommit repository manually to Jira via HTTP/HTTPS conne
 
 The repository is now connected to Jira Data Center/Server.
 
-## Single repository (Manually connect via SSH)
+## Single repository integration (Manually connect via SSH)
 
 <div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/xq1xzic0tm?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -328,13 +318,13 @@ If authentication issues are encountered during connecting an AWS repository to 
 
 For example, the original URL is:
 
-```bash
+```
 ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/test-repo
 ```
 
 If the SSH Key ID **1a2b3c4d5e** is applied to the original SSH URL, the resulting URL would be:
 
-```bash
+```
 ssh://1a2b3c4d5e@git-codecommit.us-east-1.amazonaws.com/v1/repos/test-repo
 ```
 
@@ -372,7 +362,7 @@ The Git Integration for Jira app automatically configures web linking for AWS Co
 
 The Git Integration for Jira app supports creation of branches and pull requests from Jira via the developer panel.
 
-**Default branch**
+### Default branch
 Most git integrations allow changing of the default branch of the repository/project other than "master". This change is reflected in the  Repository Settings of the Git Integration for Jira app on the next reindex. Auto-connected integrations support this feature where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
 <div class="bbb-callout bbb--alert">
@@ -417,7 +407,9 @@ If the [Require user PAT setting](/git-integration-for-jira-data-center/require
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-create-branch-req-user-pat-enabled-aws.png?version=1&modificationDate=1631448492238&cacheVersion=1&api=v2&width=550&height=275)
 
-Click the link label to setup the PAT. The Setup your AWS Credentials dialog appears.
+Click the link label to setup the PAT.
+
+The Setup your AWS Credentials dialog appears.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-create-branches-setup-pat-dlg-aws.png?version=2&modificationDate=1631448492444&cacheVersion=1&api=v2&width=550&height=275)
 
@@ -449,7 +441,6 @@ The pull request feature works the same as merge request.
 
 3.  Click **Create** to complete creating this pull request.
 
-
 The pull request is listed on the developer panel of the Jira issue page.
 
 The pull request is also ready for approval by the reviewers in your AWS CodeCommit web portal.
@@ -460,7 +451,9 @@ If the [Require user PAT setting](/git-integration-for-jira-data-center/require
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-create-pullreq-dlg-reqPAT.png?version=1&modificationDate=1631448492252&cacheVersion=1&api=v2&width=550&height=275)
 
-Click the link label to setup the PAT. The Setup your AWS Credentials dialog appears.
+Click the link label to setup the PAT.
+
+The Setup your AWS Credentials dialog appears.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-create-branches-setup-pat-dlg-aws.png?version=2&modificationDate=1631448492444&cacheVersion=1&api=v2&width=550&height=275)
 
@@ -474,5 +467,5 @@ If the secret access key has changed for your AWS account, update the credential
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-repo-browser-setup-pat-sel.png?version=1&modificationDate=1631448492486&cacheVersion=1&api=v2&width=680&height=308)
 
-Click the Pencil edit icon under the Personal access column for the selected repository. The same dialog for Setup your AWS Credentials appears. Enter the updated _**Secret access key**_ then click **Update** to save the settings.
+Click the edit <img src='/wp-content/uploads/gij-edit-icon-dark.png' valign=baseline /> icon under the Personal access column for the selected repository. The same dialog for Setup your AWS Credentials appears. Enter the updated _**Secret access key**_ then click **Update** to save the settings.
 

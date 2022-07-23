@@ -23,15 +23,19 @@ Below are integration API examples for each integration types:
 
 ## Add new integration type
 
-_**url**_ -- `/rest/gitplugin/1.0/`**integration**
+_**url**_<br>
+`/rest/gitplugin/1.0/`**integration**
 
-_**method**_ -- POST
+_**method**_<br>
+POST
 
-_**parameters**_
+<br>
+
+### Prameters
 
 Request body is a _JSON_ structure.
 
-For complete reference of the parameters, see [Add New Integration API](/wiki/spaces/GIJDC/pages/380666461/Add+New+Integration). |
+For complete reference of the parameters, see [Add New Integration API](/git-integration-for-jira-data-center/add-new-integration-gij-self-managed/).
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -39,7 +43,7 @@ For complete reference of the parameters, see [Add New Integration API](/wiki/sp
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        When adding new repositories, we recommend to leave the `trustFolderStat` setting to <b>false</b> <i>(default)</i>. You can change this setting later on via Actions ➜ **Edit repository settings** in the Manage repositories page.
+        When adding new repositories, we recommend to leave the <code>trustFolderStat</code> setting to <b>false</b> <i>(default)</i>. You can change this setting later on via Actions ➜ <b>Edit repository settings</b> in the Manage repositories page.
     </div>
     </div>
 </div>
@@ -58,6 +62,8 @@ For complete reference of the parameters, see [Add New Integration API](/wiki/sp
   "displayName": "johnsmith's GitHub via API"
 }
 ```
+
+<br>
 
 ### GITHUB ENTERPRISE
 
@@ -85,6 +91,8 @@ For complete reference of the parameters, see [Add New Integration API](/wiki/sp
 }
 ```
 
+<br>
+
 ### GITLAB
 
 ```json
@@ -94,6 +102,8 @@ For complete reference of the parameters, see [Add New Integration API](/wiki/sp
   "displayName": "MY GITLAB"
 }
 ```
+
+<br>
 
 ### GITLAB CE/EE (Legacy)
 
@@ -107,6 +117,8 @@ For complete reference of the parameters, see [Add New Integration API](/wiki/sp
 }
 ```
 
+<br>
+
 ### GITLAB CE/EE
 
 ```json
@@ -117,6 +129,8 @@ For complete reference of the parameters, see [Add New Integration API](/wiki/sp
   "pat": "7yz0b4sa8f3g59kaz7wn"
 }
 ```
+
+<br>
 
 ### AWS CODECOMMIT
 
@@ -129,6 +143,8 @@ For complete reference of the parameters, see [Add New Integration API](/wiki/sp
 }
 ```
 
+<br>
+
 ### AZURE
 
 ```json
@@ -137,6 +153,8 @@ For complete reference of the parameters, see [Add New Integration API](/wiki/sp
   "pat": "vuxz5i9kn2pqrr2culs0j2kryxqu38myg8i5s0t3gp86h47wb6ft"
 }
 ```
+
+<br>
 
 ### VSTS
 
@@ -147,6 +165,8 @@ For complete reference of the parameters, see [Add New Integration API](/wiki/sp
   "displayName": "Visual Studio Ent."
 }
 ```
+
+<br>
 
 ### TFS
 
@@ -160,6 +180,8 @@ For complete reference of the parameters, see [Add New Integration API](/wiki/sp
 }
 ```
 
+<br>
+
 ### AZURE DEVOPS
 
 ```json
@@ -172,15 +194,19 @@ For complete reference of the parameters, see [Add New Integration API](/wiki/sp
 }
 ```
 
+<br>
+
 ### TRACKED FOLDER
 
 ```json
 {
   "type": "FILESPACE",
   "displayName": "Tracked folder via API",
-  "origin": "D:\\tmp\\*"
+  "origin": "D:\tmp\*"
 }
 ```
+
+<br>
 
 ### GERRIT
 

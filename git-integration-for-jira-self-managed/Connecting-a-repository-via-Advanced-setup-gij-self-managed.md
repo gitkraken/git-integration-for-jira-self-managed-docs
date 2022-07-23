@@ -17,6 +17,7 @@ taxonomy:
     </div>
     </div>
 </div>
+<br>
 
 # Introduction
 
@@ -150,7 +151,7 @@ The default setting for Jira Server is `True`. For Jira Data Center, it would b
     </div>
     <div class="imsgbox">
         <b>Jira Data Center</b><br>
-        When adding new repositories, we recommend to leave this setting to <code>False</code> (default for Data Center). You can change this setting later on via <img src='/wp-content/uploads/gij-jira-actions-icon.png' valign=middle /> Actions ➜ <b>Edit repository settings</b> in the Manage repositories page.
+        When adding new repositories, we recommend to leave this setting to <code>False</code> (default for Data Center). You can change this setting later on via <img src='/wp-content/uploads/actions-icon.png' valign=middle /> Actions ➜ <b>Edit repository settings</b> in the Manage repositories page.
     </div>
     </div>
 </div>

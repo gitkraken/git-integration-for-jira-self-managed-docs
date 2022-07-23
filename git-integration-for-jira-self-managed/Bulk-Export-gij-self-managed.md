@@ -12,29 +12,43 @@ Only Jira admins can perform the Bulk Export API call.
 
 ## Bulk Export Configuration
 
-_**url**_ - `/rest/gitplugin/1.0/`**configuration**
+_**url**_<br>
+`/rest/gitplugin/1.0/`**configuration**
 
-_**method**_ - GET
+_**method**_<br>
+GET
 
-_**parameters**_ - none
+### Parameters
+none
 
-_**response**_
+### Response
 
 Generates a tab-separated values (.tsv) file. See the parameters table below for more information on each parameter in a TSV file.
 
-_**Download sample file**_ - [**configuration\_get.py**](https://bigbrassband.com/files/configuration_get.zip)
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b><i>Download sample file</i></b><br>
+        <a href='https://bigbrassband.com/files/configuration_get.zip'><b>configuration_get.py</b></a>
+    </div>
+    </div>
+</div>
+<br>
 
-**Example:**
+### Example:
 
-```java
+```powershell
 Usage:
 user@home:~$ python configuration_get.py > conf.tsv
 ```
 
 Edit the TSV file by referring to the parameters below:
 
-| **Column/Field** | **Description** |
-| --- | --- |
+| Column/Field | Description |
+| :--- | :--- |
 | _**id**_ | _Integer_. Required.<br><br>Assign an ID number to a repository. This is required if you wish to update or edit existing repositories by setting this value to their equivalent IDs. If this field is left blank, the repository will be created as new.<br><br>When importing to a new server, the `id` field must be blank. |
 | _**realRoot**_ | _String_. **Optional on existing servers**.<br><br>This is the local path to the repository on the server where your Jira service is running. This will point the Git Integration for Jira app to a clone of the repository hosted locally with Jira.<br><br>This field corresponds to the **Repository root** input box in the Advanced setup/Repository settings.<br><br>The `realRoot` field may refer to an existing repository on a new server. If "root" doesn't exist, this field must be blank.<br><br>If this field is specified, `absoluteRoot` must also be defined. |
 | _**absoluteRoot**_ | _Boolean_. Optional.<br><br>This field corresponds to the **Cloned root location** input field in the Advanced setup/Repository settings.<br><br>If set to **true**, the repository is automatically managed by Git Integration for Jira app (stored in `$JiraHOME`).<br><br>If set to **false**, the repository is manually configured by the Jira administrator.<br><br>If this field is specified, _**realRoot**_ must also be defined. |
@@ -45,12 +59,12 @@ Edit the TSV file by referring to the parameters below:
 | **mainBranch** | _String_. Optional.<br><br>Set specific branch as the main branch for this repository. The default value is "master".<br><br>See section [_Main Branch_](/git-integration-for-jira-data-center/connecting-a-repository-via-advanced-setup-gij-self-managed#main-branch) in Connecting a repository via Advanced setup. |
 | _**username, password**_ | _String_. Optional.<br><br>Leave blank if 2FA is enabled for the git host. |
 | _**pat**_ | _String_. Optional.<br><br>Required, if 2FA is enabled for the git host. This field accepts personal access token from supported git hosts. |
-| _gitViewerEnabled_ | _Boolean._ Optional.<br><br>Enables or disables the **Repository Browser** feature for this repository. The default setting for this option is _**enabled**_.<br><br>Users must have the **View Development Tools** _project permission_ in order to use this feature. Consult your Jira System Administrator on permissions.<br><br>For more information, see section, [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed). |
-| _projectMapping_ | _Long \[ \]_. Array. Optional.<br><br>These are numeric projects IDs associated with the repository.<br><ul><li>This field accepts list of comma separated project IDs for project mapping. Trailing spaces are ignored (<i>equivalent to unchecking the **Associate to All Projects** checkbox in the Advanced Setup dialog</i>). <b>Example:</b> <code>10000,10100</code></li><li>If you change an existing repository, leaving this field blank will use the existing values of the repository configuration.</li><li>Setting this field to **ALL** will retain <code>projectMapping</code> settings and sets "All Projects" flag to true (<i>equivalent to checking the **Associate to All Projects** checkbox in the Advanced Setup dialog</i>).</li></ul>If projects are not associated to the repository, you must leave this field blank and set the _gitViewerEnable_ field to **false**. |
+| _**gitViewerEnabled**_ | _Boolean._ Optional.<br><br>Enables or disables the **Repository Browser** feature for this repository. The default setting for this option is _**enabled**_.<br><br>Users must have the **View Development Tools** _project permission_ in order to use this feature. Consult your Jira System Administrator on permissions.<br><br>For more information, see section, [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed). |
+| _**projectMapping**_ | _Long \[ \]_. Array. Optional.<br><br>These are numeric projects IDs associated with the repository.<br><ul><li>This field accepts list of comma separated project IDs for project mapping. Trailing spaces are ignored (<i>equivalent to unchecking the **Associate to All Projects** checkbox in the Advanced Setup dialog</i>). <b>Example:</b> <code>10000,10100</code></li><li>If you change an existing repository, leaving this field blank will use the existing values of the repository configuration.</li><li>Setting this field to **ALL** will retain <code>projectMapping</code> settings and sets "All Projects" flag to true (<i>equivalent to checking the **Associate to All Projects** checkbox in the Advanced Setup dialog</i>).</li></ul>If projects are not associated to the repository, you must leave this field blank and set the _gitViewerEnable_ field to **false**. |
 | _**smartCommitsEnabled**_ | _Boolean._ Optional.<br><br>This setting is enabled by default. Enables/disables smart commits processing for this repository or tracked folder. The default value for this field is _**true**_. |
 | _**sendCommitEmails**_ | _Boolean_. Optional.<br><br>Send commit notification emails for this repository. If left blank, the default value for this field is **true**. |
 | _**maxMinsToCommitEmail**_ | _Integer_. Optional.<br><br>Set the desired value in minutes, as to when commit notifications will be sent. Commit notifications will be e-mailed if the age of the commit is less than or equal to this value. Default value is **1440** minutes. |
-| _webLinkType_ | _String._ Optional.<br><br>Set web link type equivalent to the connected git host. Set web linking formats by referring to [Git Integration for Jira: Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed). |
+| _**webLinkType**_ | _String._ Optional.<br><br>Set web link type equivalent to the connected git host. Set web linking formats by referring to [Git Integration for Jira: Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed). |
 | _**viewFormat**_ | _String._ Optional.<br><br>This URL is unused and not being configured for the newly added integration types. |
 | _**changesetFormat**_ | _String_. Optional.<br><br>This is the URL used to display revision.  <br>Use the following variable: `${rev}`  – git revision |
 | _**fileAddedFormat, fileModifiedFormat, fileDeletedFormat**_ | _String_. Optional.<br><br>This is the URL to display content of added, modified or deleted files.  <br>Use the following variables:<br><ul><li><code>${num}</code> –  number of change (0, 1, …)</li><li><code>${rev}</code>  –  git revision</li><li><code>${path}</code>  –  path of the file being changed</li><li><code>${parent}</code>  –  parent git revision</li><li><code>${blob}</code>  –  ID of blob object</li><li><code>${parent_blob}</code>  –  ID of parent blob object</li><li><code>$convert(${branch},"subStr","newSubStr")</code>  –  this inline function returns branch name with subStr replaced by a newSubStr. The `${branch}` supports the character requirements on some hosting services.</li></ul> |
@@ -73,7 +87,9 @@ Edit the TSV file by referring to the parameters below:
 | _**trustFolderStat**_ | _Boolean._ Optional.<br><br>When the `trustFolderStat` setting is set to **false**, the `.git/objects/pack` folder will be always scanned to check for new pack files. If set to **true**, the `last-modified` attribute of the folder will be used to check the folder for modifications.<br><br>The default value for Jira Data Center is **false**.<br><br>If your repository is stored on a network share, it is highly recommended to set the `trustFolderStat` value to _**false**_.<br><br>When adding new repositories, we recommend to leave the setting of the `trustFolderStat`value to **false** _(default)_. You can change this setting later on via _Actions_ ➜ _**Edit repository settings**_ in the Manage repositories page. |
 | _**refSpecNotes**_ | _Boolean_. Optional.  <br>This is a reference to `refs/notes/*` used for fetching. The default value for this field is _**true**_.<br><br>Git notes are not shown…<br><ul><li>when <code>refs/notes</code> are disabled on connecting a repository;</li><li>when a new note comes when <code>refs/notes</code> is disabled.</li></ul> |
 | _**refSpecChanges**_ | _Boolean_. Optional.  <br>This is a reference to `refs/changes/*` used for fetching. The default value for this field is _**false**_. |
-| _**refSpecCustom**_ | _String_. Optional.  <br>This is a user-defined list of references used for fetching. It is a comma-separated list with the format: `+refs/refname1/*:refs/refname1/*`, `refs/refname2/*:refs/refname2/*`, ... |
+| _**refSpecCustom**_ | _String_. Optional.  <br>This is a user-defined list of references used for fetching. It is a comma-separated list with the format:<br>`+refs/refname1/*:refs/refname1/*`, `refs/refname2/*:refs/refname2/*`, ... |
+
+<br>
 
 Take note that the .tsv file is verified by the Git Integration for Jira app with the following rules:
 

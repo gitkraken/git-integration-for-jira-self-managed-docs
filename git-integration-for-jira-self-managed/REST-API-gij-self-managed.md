@@ -10,7 +10,11 @@ Welcome to the Git Integration for Jira app REST API reference page index.
 
 On this page, you will find the list of available REST APIs supported by the Git Integration for Jira app.  Click on a topic title to view its content or search through the related topics.
 
+<br>
+
 * * *
+
+<br>
 
 <img src='https://bigbrassband.atlassian.net/wiki/download/thumbnails/380764385/bbb-bulkchg-icon.png' width=52 height=39 />
 
@@ -25,6 +29,8 @@ The bulk change API extends the possibility of importing and exporting repositor
 [Getting Bulk Import Information](/git-integration-for-jira-data-center/get-bulk-import-information-gij-self-managed/)  –  Obtains information about the importing thread.
 
 * * *
+
+<br>
 
 <img src='https://bigbrassband.atlassian.net/wiki/download/attachments/380764385/bbb-repoapi-icon.png' width=48 height=48 />
 
@@ -42,6 +48,8 @@ The repository REST API allows query of the project repository list; as well as 
 
 * * *
 
+<br>
+
 <img src='https://bigbrassband.atlassian.net/wiki/download/attachments/380764385/bbb-reindexapi-icon.png' width=57 height=48 />
 
 [**Reindex**](/git-integration-for-jira-data-center/reindex-api-gij-self-managed/)
@@ -53,6 +61,8 @@ Call the Reindex REST API to have more control on indexing.
 *   [Reindex GET](/git-integration-for-jira-data-center/reindex-get-api-gij-self-managed/)  –  Use this method to track messages for a particular thread.
 
 * * *
+
+<br>
 
 <img src='https://bigbrassband.atlassian.net/wiki/download/attachments/380764385/bbb-commitsapi-icon.png' width=49 height=48 />
 
@@ -68,6 +78,8 @@ Call the Reindex REST API to have more control on indexing.
 
 * * *
 
+<br>
+
 <img src='https://bigbrassband.atlassian.net/wiki/download/attachments/380764385/bbb-branchesapi-icon.png' width=52 height=48 />
 
 [**Branches**](/git-integration-for-jira-data-center/branches-api-gij-self-managed/)
@@ -76,6 +88,8 @@ Gets list of branches associated to a Jira issue.
 
 * * *
 
+<br>
+
 <img src='https://bigbrassband.atlassian.net/wiki/download/attachments/380764385/bbb-tagsapi-icon.png' width=56 height=48 />
 
 [**Tags**](/git-integration-for-jira-data-center/tags-api-gij-self-managed/)
@@ -83,6 +97,8 @@ Gets list of branches associated to a Jira issue.
 Returns several latest tags for the issue.  Tags are sorted in chronological order from newest to oldest.
 
 * * *
+
+<br>
 
 <img src='https://bigbrassband.atlassian.net/wiki/download/attachments/380764385/bbb-repoapi-icon.png' width=48 height=48 />
 

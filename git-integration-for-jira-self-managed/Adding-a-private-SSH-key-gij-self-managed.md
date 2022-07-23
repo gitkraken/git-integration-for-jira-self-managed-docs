@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 ![Manage git integration for jira highlighting sidebar SSH keys menu item](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396698/gitserver-add-ssh-keys.png?version=1&modificationDate=1630642802720&cacheVersion=1&api=v2)
 
 <div class="bbb-callout bbb--info">
@@ -18,6 +19,7 @@ taxonomy:
     </div>
     </div>
 </div>
+<br>
 
 1.  From your Jira dashboard menu, go to Git ➜ **Manage repositories**. On the sidebar under _Git Integration for Jira_, select **SSH keys**.
 
@@ -27,11 +29,11 @@ taxonomy:
 
     Utilize the following options for adding the new SSH key.
 
-    1.  _**Key name**_ – Enter a meaningful name for this private SSH key as required.
+    *   **Key name**_ – Enter a meaningful name for this private SSH key as required.
 
-    2.  _**Private key**_ – This is the actual private SSH key. Upload the private key file via **Choose File** or paste the generated private key into the provided box.
+    *   **Private key**_ – This is the actual private SSH key. Upload the private key file via **Choose File** or paste the generated private key into the provided box.
 
-    3.  _**Passphrase**_ – _Optional._ Enter the passphrase that was assigned to this private key.
+    *   **Passphrase**_ – _Optional._ Enter the passphrase that was assigned to this private key.
 
 3.  Click **Add** to complete this setup.
 

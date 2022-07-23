@@ -16,11 +16,11 @@ The JGit library loads all index files into the memory and consumes about twice 
 The one or several of the following issues are encountered:
 
 *   The JIRA application crashes
-    
+
 *   Unable to clone/reindex a repository
-    
+
 *   Unable to perform the Git GC procedure
-    
+
 
 ## Diagnosis
 
@@ -31,7 +31,7 @@ The one or several of the following errors appear in the atlassian-jira.log:
 java.lang.OutOfMemoryError: GC overhead limit exceeded
 ```
 
-```java
+```
 Can't auto-deploy a new repository <your repository origin> java.lang.OutOfMemoryError: Java heap space
 ```
 
@@ -83,6 +83,8 @@ Caused by: java.lang.OutOfMemoryError: Java heap space
 Additionally, go to System ➜ System info ➜ **JAVA VM memory statistics** to see if the allocated memory is running out:
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/824803329/java-vm-memory-statistics(c).png?version=1&modificationDate=1604907189839&cacheVersion=1&api=v2)
+
+<br>
 
 ## Cause
 

@@ -24,16 +24,18 @@ Creates new repository from the given settings.
 
 ## Add New Repository
 
-_**url**_ -- `/rest/gitplugin/1.0/`**repository**
+_**url**_<br>
+`/rest/gitplugin/1.0/`**repository**
 
-_**method**_ -- POST
+_**method**_<br>
+POST
 
 ### Parameters
 
 Request body is a _JSON_ structure supporting the following parameters:
 
-| **Parameter** | **Condition** |
-| --- | --- |
+| Parameter | Condition |
+| :--- | :--- |
 | _**displayName**_ | _String_. Optional.<br><br>This is the name that will appear in the Git Integration for Jira app repositories list. |
 | _**origin**_ | _String_. Required.<br><br>This is the URL to the hosted git service used on the project.<br><br>For example, you might host your repository on GitHub, Beanstalk or your own server. |
 | _**mainBranch**_ | _String._ Optional.<br><br>The specified branch will intend to organize the Git Commit tab. A commit will not be shown in other branches if it is a part of the main branch. By default, "master" will be used if a main branch is not specified. |
@@ -67,6 +69,8 @@ Request body is a _JSON_ structure supporting the following parameters:
 | _**refSpecNotes**_ | _Boolean_. Optional.  <br>This is a reference to `refs/notes/*` used for fetching. The default value for this field is _**true**_.<br><br>![](/wp-content/uploads/bbb-info-20.png) Git notes are not shown…<br><ul><li>when <code>refs/notes</code> are disabled on connecting a repository;</li><li>when a new note comes when <code>refs/notes</code> is disabled.</li></ul> |
 | _**refSpecChanges**_ | _Boolean_. Optional.  <br>This is a reference to `refs/changes/*` used for fetching. The default value for this field is _**false**_. |
 | _**refSpecCustom**_ | _String_. Optional.  <br>This is a user-defined list of references used for fetching. It is a comma-separated list with the format: `+refs/refname1/*:refs/refname1/*`, `refs/refname2/*:refs/refname2/*`, ... |
+
+<br>
 
 ### Response
 
@@ -117,7 +121,7 @@ Request body (JSON) example:
 }
 ```
 
-### Response:
+**Response:**
 
 ```json
 Response:

@@ -22,19 +22,19 @@ For starters, install Gerrit with the webhook plugin by reading at [https://gerr
 
 **Project (repository) list**
 
-```java
+```powershell
 curl http(s)://your.org.com:8080/projects/?d
 ```
 
 **Enabled webhooks for the repository, for example, MyTestRepo**
 
-```java
+```powershell
 curl http(s)://your.org.com:8080/config/server/webhooks~projects/MyTestRepo/remotes
 ```
 
 **Add webhook for the repository**
 
-```java
+```powershell
 curl --user username:password -H 'Content-Type: application/json' -X PUT -d @webhook.json http(s)://your.org.com:8080/a/config/server/webhooks~projects/MyTestRepo/remotes/bbb-webhook
 ```
 
@@ -75,6 +75,8 @@ curl -H 'x-bbb-webhook-type: push' -H 'content-type: application/json' -X POST -
 ```java
 curl -H 'x-bbb-webhook-type: push' -H 'x-bbb-webhook-id: id-string' -H 'content-type: application/json' -X POST -d @payload.json https://webhook/url
 ```
+
+<br>
 
 **Payload.json**
 
