@@ -6,22 +6,53 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-**Jira administrator notes**
 
-*   Jira users can be required to provide their own Personal Access Token when creating a branch or pull request. See [Require Personal Access Tokens for user actions (create branch/pull request)](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed) for instructions on how to configure this feature.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Jira administrator notes</b><br>
+        <ul>
+            <li>
+                Jira users can be required to provide their own Personal Access Token when creating a branch or pull request. See <a href='/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed'>Require Personal Access Tokens for user actions (create branch/pull request)</a> for instructions on how to configure this feature.
+            </li>
+            <li>
+                The <b>View developer tools</b> <i>permission</i> is required to view the Git integration development panel (see more in <a href='/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed'>Jira Issue Git integration development panel</a>). Jira users must also have the <b>Browse Project</b> <i>permissions</i> to a project associated with a repository to view.
+            </li>
+            <li>
+                Creating pull/merge request feature can be disabled for all Jira users (regardless of permissions) in <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'>General settings</a>.
+            </li>
+        </ul>
+    </div>
+    </div>
+</div>
 
-*   The **View developer tools** _permission_ is required to view the Git integration development panel (see more in [Jira Issue Git integration development panel](/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed). Jira users must also have the **Browse Project** _permissions_ to a project associated with a repository to view.
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>GitLab note</b><br>
+        GitLab uses the term Merge Request rather than Pull Request (used by the other major git services). In the following article, Pull Request and Merge Request can be used interchangeably.
+    </div>
+    </div>
+</div>
 
-*   Creating pull/merge request feature can be disabled for all Jira users (regardless of permissions) in [General settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed).
-
-
-* * *
-
-**GitLab note**
-GitLab uses the term Merge Request rather than Pull Request (used by the other major git services). In the following article, Pull Request and Merge Request can be used interchangeably.
-
-**Feature note**
-This feature is not available to single repository connections.
+<div class="bbb-callout bbb--error">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Feature note</b><br>
+        This feature is not available to single repository connections.
+    </div>
+    </div>
+</div>
+<br>
 
 ## Introduction
 
@@ -59,7 +90,7 @@ When creating a pull request from within Jira: 
 
 ## Steps to creating a git pull request in Jira
 
-1.  **Prerequisite:** Jira administrator configures a full feature (auto-connect) integration in the Git Integration for Jira Data Center app.  See [Integration guides](/git-integration-for-jira-data-center/integration-guides-gij-self-managed) for more information.
+1.  **Prerequisite:** Jira administrator configures a full feature (auto-connect) integration in the Git Integration for Jira Data Center app. See [Integration guides](/git-integration-for-jira-data-center/integration-guides-gij-self-managed) for more information.
 
 2.  To access the Create pull request action, do one of the following:
 
@@ -85,8 +116,16 @@ When creating a pull request from within Jira: 
 
 ### Video: Creating pull/merge request from Git integration development panel ( UPDATED VIDEO COMING SOON )
 
-_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/rsccl5wxps) _to open this video in a new tab/window for more viewing options._
+<br>
+<div class='embed-container' style='padding-bottom: 77.71%'>
+    <iframe width='709' height='551' src='https://fast.wistia.com/embed/iframe/rsccl5wxps?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
 
-_The video shows Git Integration for Jira Cloud process but is also applicable to the Jira Server version._
+<div align='center'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/rsccl5wxps'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <p>The video shows Git Integration for Jira Cloud process but is also applicable to the Jira Server version.</p>
+</div>
+<br>
 
 If you still have a question – reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com).
+

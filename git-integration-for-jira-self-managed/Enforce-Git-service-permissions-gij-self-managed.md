@@ -15,8 +15,8 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <span style='color:#FFEFAD'><b>NEW FEATURE</b></span>
-Available in Git Integration for Jira Server/Data Center v4.1.4.
+        <span style='color:#FFEFAD'><b>NEW FEATURE</b></span><br>
+        Available in Git Integration for Jira Server/Data Center <b>v4.1.4+</b>.
     </div>
     </div>
 </div>
@@ -37,7 +37,7 @@ Available in Git Integration for Jira Server/Data Center v4.1.4.
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/npe76i5nxm?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div style='text-align: center; margin-top: 10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/npe76i5nxm'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 <br>
@@ -48,9 +48,9 @@ Source code is sensitive data and a great deal of effort is taken by development
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/2091810842/CleanShot2022-02-28%20at%2011.59.57@2x-20220228-170028.png?version=1&modificationDate=1647757588122&cacheVersion=1&api=v2)
 
-<div align=center><i>Jira administrators can require individual Jira users to provide a Personal Access Token 
-from the related Git service to view Git Data.</i></div>
-
+<div align=center>
+    <i>Jira administrators can require individual Jira users to provide a Personal Access Token from the related Git service to view Git Data.</i>
+</div>
 <br>
 
 This setting provides Jira administrators the option of switching to a secure mode. In this mode, a Jira user is prevented from viewing git data, unless they have been authenticated to the Git server to view this specific data.
@@ -82,8 +82,9 @@ This setting provides Jira administrators the option of switching to a secure mo
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/2091810842/CleanShot2022-03-01%20at%2001.11.27@2x-20220301-061142.png?version=1&modificationDate=1647757587623&cacheVersion=1&api=v2)
 
-<div align=center><i>When "Enforce Git service permissions" is enabled, Jira users with the "View development tools" Jira permission will be prompted to provide a Personal Access Token <br>from the Jira user profile page.</i></div>
-
+<div align=center>
+    <i>When "Enforce Git service permissions" is enabled, Jira users with the "View development <br>tools" Jira permission will be prompted to provide a Personal Access Token <br>from the Jira user profile page.</i>
+</div>
 <br>
 
 ### Jira user profile: Entering the Personal Access Token
@@ -108,7 +109,7 @@ From the Jira user profile page, the Jira user will enter their Git service Pers
 
 If the **Enforce Git service permissions** setting is enabled, a Jira user will see data only from the integrations for which their PAT has been provided. For example:
 
-| **Access location** | **Section** | **Condition(s)** |
+| Access location | Section | Condition(s) |
 | :--- | :--- | :--- |
 | Jira issue | Git Commits tab | Git data is only shown if the user has a Git server account, GitHub for example, that has permissions to this repository. |
 | Jira issue | Git development panel | Users without permission can see the number of commits but won’t be able to view the commit code diffs, branch name or repository name. |
@@ -117,10 +118,12 @@ If the **Enforce Git service permissions** setting is enabled, a Jira user will 
 
 ## Supported git platforms
 
-| **Integration** | **Supported?** | **Result** |
-| --- | --- | --- |
+| Integration | Supported? | Result |
+| :--- | :--- | :--- |
 | GitHub git repositories | Yes | **GITHUB CLOUD/SELF-HOSTED**<br>Users will only see the GitHub integration data when a PAT is provided for it. |
 | GitLab git repositories | No\* | COMING SOON  <br>\*Support for GitLab on the **Enforce Git service permissions** feature will be added sometime later in 2022. |
+
+<br>
 
 ## General setting: Enforce Git service permissions (advanced)
 

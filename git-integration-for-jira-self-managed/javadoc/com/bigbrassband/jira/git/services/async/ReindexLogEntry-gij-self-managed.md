@@ -1,6 +1,15 @@
+---
+
+title: Class ReindexLogEntry
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 
 * Package [com.bigbrassband.jira.git.services.async](README.html)
-*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  > [ReindexLogEntry](ReindexLogEntry.html)
+*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  > [ReindexLogEntry](ReindexLogEntry-gij-self-managed)
 
 Contains a reindex message.
 
@@ -63,7 +72,7 @@ If an exception was thrown then the details contain the exception stacktrace.
 
 
 ## getInsertionTime()
-Unix time of the message.
+Unix time of the message measured in milliseconds.
 
 
 

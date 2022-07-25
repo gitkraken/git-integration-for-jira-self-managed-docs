@@ -15,7 +15,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Available in Git Integration for Jira Data Center/Server v4.1.4.
+        Available in Git Integration for Jira Data Center/Server <b>v4.1.4+</b>.
     </div>
     </div>
 </div>
@@ -42,8 +42,8 @@ This state is called secure mode – where a Jira user is limited from viewing g
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b>Requirement</b><br>
-        When "Enforce Git service permissions" is enabled, Jira users with the <i><b>View development tools<b><i> Jira permission will be prompted to provide a Personal Access Token from the Jira user profile page.
+        <b>Requirements</b><br>
+        When "Enforce Git service permissions" is enabled, Jira users with the <i><b>View development tools</b></i> Jira permission will be prompted to provide a <b>Personal Access Token</b> in the Jira user profile page.
     </div>
     </div>
 </div>

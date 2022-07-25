@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-Access the Repository Browser via Jira dashboard menu Git ➜ **Repository browser** or alternatively, go to Jira Administration ➜ _**Apps**_ ➜ _Git Integration for Jira_ _(sidebar)_ **➜ Repository browser**.
+Access the Repository Browser via Jira dashboard menu Git ➜ **Repository browser** or alternatively, go to Jira Administration ➜ _**Apps**_ ➜ _Git Integration for Jira_ _(sidebar)_ ➜ **Repository browser**.
 
 ## Repository Browser settings
 
@@ -16,6 +16,8 @@ On the git repository configuration page, click &nbsp;<img src='https://pf-emoji
 Scroll down to the _**Repository Browser**_ section.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398739/git-viewer-configuration.png?version=1&modificationDate=1630642903809&cacheVersion=1&api=v2&width=680&height=226)
+
+<br>
 
 ### Repository Browser
 

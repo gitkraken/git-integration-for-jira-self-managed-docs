@@ -40,10 +40,13 @@ taxonomy:
     </div>
     </div>
 </div>
+<br>
 
 This feature will reduce Jira server storage by deleting files from cloned git repositories after indexing. Discarding files can save disk space but may limit some features such as displaying diffs of files.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1207828796/gencfg-discard-cloned-files.png?version=1&modificationDate=1613125343032&cacheVersion=1&api=v2)
+
+<br>
 
 There are three options to choose from:
 
@@ -53,6 +56,7 @@ There are three options to choose from:
 
 *   **Discard all files EXCEPT those that match the mask below. Some features limited.**  This option will delete all other files in the cloned repositories except those files with extensions declared.
 
+<br>
 
 Select any option with the _discard_ label to enable editing of the file mask field.
 
@@ -77,4 +81,5 @@ Select any option with the _discard_ label to enable editing of the file mask 
     </div>
     </div>
 </div>
+<br>
 

@@ -8,14 +8,17 @@ taxonomy:
 ---
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397536/gitcfg-actions-edit-repo-conn-cfg.png?version=1&modificationDate=1630642845462&cacheVersion=1&api=v2&width=680&height=213)
 
+<br>
+
 Clicking  <img src='https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/2699.png' width=20 height=20 /> Actions ➜ **Edit integration connection settings** opens the configuration page for integration connection settings.
-\
-\
+
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397536/gitserver-edit-integration-conn-cfg.png?version=1&modificationDate=1630642844991&cacheVersion=1&api=v2&width=680&height=514)
+
+<br>
 
 Utilize the following options to configure the selected integration:
 
-| **Option** | **Description** |
+| Option | Description |
 | :--- | :--- |
 | _**Display Name**_ | This is the name that will appear on the Repository/Integration column. |
 | _**Personal Access Token**_ | If the PAT has expired or changed, enter the new PAT on the provided box. |

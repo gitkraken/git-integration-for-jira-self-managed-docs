@@ -7,7 +7,17 @@ taxonomy:
 
 ---
 
-<span style='color:#B1F7D2'><b>NEW FEATURE</b></span>&nbsp; <b style='color:#FFF1B6'>AVAILABLE</b>
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+        <div class="ilogobox">
+            <span class="logoimg"></span>
+        </div>
+        <div class="imsgbox">
+            <span style='color:#B1F7D2'><b>NEW FEATURE</b></span>&nbsp; <b style='color:#FFF1B6'>AVAILABLE</b>
+        </div>
+    </div>
+</div>
+<br>
 
 Enable/disable Automation for Jira setting to show or hide this feature in your Jira instance.
 
@@ -19,8 +29,11 @@ To access this setting:
 
 3.  Under **Jira workflow integrations** section, enable/disable this setting according to your organization rules and policies.
 
+<br>
 
-![](https://api.media.atlassian.com/file/e58a3a5a-baed-4cc2-9b1c-721cbbbd3d38/binary?token=eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI0YTVjYjQ0OC0zMzNlLTQ5ZTctOGJkZC1lZGY3NThjZGI3MjYiLCJhY2Nlc3MiOnsidXJuOmZpbGVzdG9yZTpmaWxlOmU1OGEzYTVhLWJhZWQtNGNjMi05YjFjLTcyMWNiYmJkM2QzOCI6WyJyZWFkIl19LCJleHAiOjE2NTYzMTc5NjcsIm5iZiI6MTY1NjIzNTA0N30.8ln3wdOZ2CVuZ_1FnJnAmhIqnFBIwrupCpWeGQbkaUw&client=4a5cb448-333e-49e7-8bdd-edf758cdb726&name=jira-server-gen-cfg-jira-automation-setting.png)
+<img src='/wp-content/uploads/gij-jira-server-gen-cfg-jira-automation-setting.png' height=302 width=633 />
+
+<br>
 
 For more information on this feature, see [Git Integration + Automation for Jira](/git-integration-for-jira-data-center/git-integration-plus-jira-automation-gij-self-managed/).
 

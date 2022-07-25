@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-The **Source** tab is part of the FishEye Plugin and is used for integration with SVN.  The **Commits**tab is part of the Jira DVCS Connector Plugin and is used for integration with gits _(Git, Mercurial, BitBucket etc.)_.
+The **Source** tab is part of the FishEye Plugin and is used for integration with SVN.  The **Commits** tab is part of the Jira DVCS Connector Plugin and is used for integration with gits _(Git, Mercurial, BitBucket etc.)_.
 
 Atlassian enables these tabs by default.
 
@@ -20,6 +20,7 @@ Atlassian enables these tabs by default.
     </div>
     </div>
 </div>
+<br>
 
 ## Hiding the Source tab
 

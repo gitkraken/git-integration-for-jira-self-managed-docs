@@ -26,6 +26,8 @@ The webhook is a POST request with the following JSON body:
 }
 ```
 
+<br>
+
 **For example:**
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/171475191/webhook-reindex-post-api-json.png?version=1&modificationDate=1640704081955&cacheVersion=1&api=v2)

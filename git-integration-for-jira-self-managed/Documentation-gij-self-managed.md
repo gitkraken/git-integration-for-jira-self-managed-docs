@@ -56,6 +56,8 @@ For permissions requirement, see [App platform and system permissions requiremen
 |:---:|
 | [Click here to subscribe to our mailing list](http://eepurl.com/hhfbwz) |
 
+<br>
+
 ## Welcome to the Git Integration for Jira app documentation.
 
 Click on the topics below to know more about the Git Integration for Jira app's administrative requirements, installation and integration setup or you can search for a topic that you wish to view.
@@ -68,7 +70,7 @@ Learn the necessary requirements to install the app.
 
 Learn how to install the Git Integration for Jira app. The app supports UPM for automatic installation, manual installation or install via upload.
 
-### [Managing license key](/git-integration-for-jira-data-center/managing-license-key-gij-self-managed
+### [Managing license key](/git-integration-for-jira-data-center/managing-license-key-gij-self-managed)
 
 Learn how to install your trial or purchased license keys for Git Integration for Jira app.
 

@@ -25,9 +25,9 @@ The settings in this group controls email notifications and recipient filters.
 
 ## Send commit notification emails
 
-Enable/disable the setting to allow sending of email notifications when a commit is made.  This setting defaults to OFF for our app upgrades and ON for new installations of the Git Integration for Jira app.  This setting also enables/disables email notifications related to smart commits.
+Enable/disable the setting to allow sending of email notifications when a commit is made. This setting defaults to OFF for our app upgrades and ON for new installations of the Git Integration for Jira app. This setting also enables/disables email notifications related to smart commits.
 
-In the provided box, enter a regular expression to send e-mail only to addresses that matches this pattern.  Leave this field blank to disable this filter.
+In the provided box, enter a regular expression to send e-mail only to addresses that matches this pattern. Leave this field blank to disable this filter.
 
 No notifications are sent when this setting is off, if the provided regex box is blank, or regular expression doesn't have a match.
 

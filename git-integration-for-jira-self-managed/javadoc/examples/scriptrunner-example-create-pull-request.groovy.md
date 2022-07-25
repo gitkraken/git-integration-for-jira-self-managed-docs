@@ -1,4 +1,4 @@
-# Example of a script creating a new branch
+# Example of a script creating a new pull request
 
 ```
 import com.onresolve.scriptrunner.runner.customisers.WithPlugin

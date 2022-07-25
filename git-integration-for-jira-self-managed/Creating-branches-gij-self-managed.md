@@ -108,21 +108,20 @@ When creating a branch from within Jira:
 
 8.  Click **Create branch**.
 
+<br>
 
 ### Video: Creating branch via Git Development panel
 
 **(UPDATED VIDEO COMING SOON)**
 
-<div class='embed-container embed-container--16-10'>
-    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/8cy7v6ykug?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+<div class='embed-container' style='padding-bottom: 82.08%'>
+    <iframe width='709' height='582' src='https://fast.wistia.com/embed/iframe/8cy7v6ykug?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div style='margin: 10px auto 5px auto'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/8cy7v6ykug'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+<div style='text-align: center'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/8cy7v6ykug'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i><br>
+    <i>The video shows Git Integration for Jira Cloud process but is also <br>applicable to the Jira Server version.</i>
 </div>
-
-_The video shows Git Integration for Jira Cloud process but is also applicable to the Jira Server version._
-
 <br>
 
 If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com).
