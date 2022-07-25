@@ -9,7 +9,7 @@ taxonomy:
 
 
 * Package [com.bigbrassband.jira.git.services.indexer.revisions](README.html)
-*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  > [CommitIssueChange](CommitIssueChange.html)
+*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  > [CommitIssueChange](CommitIssueChange-gij-self-managed)
 
 
 
@@ -24,9 +24,9 @@ taxonomy:
 #### Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| `public` [CommitIssueChange](CommitIssueChange.html) | [add](#addcommitissuechange)([CommitIssueChange](CommitIssueChange.html) change2) |
+| `public` [CommitIssueChange](CommitIssueChange-gij-self-managed) | [add](#addcommitissuechange)([CommitIssueChange](CommitIssueChange-gij-self-managed) change2) |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getAuthor](#getauthor)() |
-| `public` [ChangeStr](ChangeStr.html) | [getChangeStr](#getchangestr)() |
+| `public` [ChangeStr](ChangeStr-gij-self-managed) | [getChangeStr](#getchangestr)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getCommitHash](#getcommithash)() |
 | `public` `int` | [getCommitTime](#getcommittime)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getIssueKey](#getissuekey)() |
@@ -35,7 +35,7 @@ taxonomy:
 | `public` `boolean` | [isAdded](#isadded)() |
 | `public` `boolean` | [isValid](#isvalid)() |
 | `public` `void` | [setAuthor](#setauthorstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  author) |
-| `public` `void` | [setChangeStr](#setchangestrchangestr)([ChangeStr](ChangeStr.html) changeStr) |
+| `public` `void` | [setChangeStr](#setchangestrchangestr)([ChangeStr](ChangeStr-gij-self-managed) changeStr) |
 | `public` `void` | [setCommitHash](#setcommithashstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  commitHash) |
 | `public` `void` | [setCommitTime](#setcommittimeint)(`int` commitTime) |
 | `public` `void` | [setIsAdded](#setisaddedboolean)(`boolean` addedOrDeleted) |

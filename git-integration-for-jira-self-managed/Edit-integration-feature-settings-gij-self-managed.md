@@ -9,6 +9,8 @@ taxonomy:
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397576/gitcfg-actions-edit-feature-conn-cfg.png?version=1&modificationDate=1630642846599&cacheVersion=1&api=v2&width=680&height=213)
 
+<br>
+
 Clicking <img src='https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/2699.png' width=20 height=20 /> Actions ➜ **Edit integration feature settings** opens the configuration page for integration features settings.
 
 Utilize the following options to configure the selected integration:
@@ -62,6 +64,7 @@ Enable this option to require users to provide PAT which will be used for branch
     </div>
     </div>
 </div>
+<br>
 
 ## Project Permissions
 

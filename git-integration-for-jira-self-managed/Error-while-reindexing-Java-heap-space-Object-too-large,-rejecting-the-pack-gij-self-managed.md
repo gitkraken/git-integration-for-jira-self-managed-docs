@@ -15,8 +15,11 @@ The Git Integration for Jira application uses the [JGit](https://www.eclipse.org
 
 Jira admins will see an error in the Git Integration for Jira app interface - for example:
 
+<br>
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/137035882/wizard-java-heap-space.png?version=1&modificationDate=1559306844537&cacheVersion=1&api=v2&width=335&height=249)
+<img src='/wp-content/uploads/gij-wizard-java-heap-space.png' height=299 width=402 style='text-align: center' />
+
+<br>
 
 or Jira admins will see a message similar to the one below in the Jira `/application-logs/atlassian-jira.log:`
 
@@ -64,7 +67,16 @@ Making any change to a git repository's history can result in loss of data. Proc
 
 *   Filter out the repository from the special integrations (GitHub, GitLab, AWS CodeCommit, Microsoft TFS/Azure DevOps/VSTS, etc) using [Custom API Path](/git-integration-for-jira-data-center/working-with-custom-api-path-gij-self-managed) or [JMESPath Filters](/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed).
 
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Contact us</b><br>
+        If you still have a question - reach out to our <a href='https://bigbrassband.atlassian.net/servicedesk/customer/portals'>Support Desk</a> or email us at <a href='mailto:support@bigbrassband.com'>support@bigbrassband.com</a>.
+    </div>
+    </div>
+</div>
 
-**Contact Us**<br>
-If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com)
 

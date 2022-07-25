@@ -16,7 +16,7 @@ In **Issue** and **Search** pages, the developer panel is visible on the rig
 
 ## Agile screen
 
-In Jira Agile screen, click on an issue on the board grid.  Scroll down on the right pane to view the developer panel.
+In Jira Agile screen, click on an issue on the board grid. Scroll down on the right pane to view the developer panel.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399041/jira-dev-panel-agile-screen2.png?version=1&modificationDate=1630642918687&cacheVersion=1&api=v2&width=680&height=449)
 

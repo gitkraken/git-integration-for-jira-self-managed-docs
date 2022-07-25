@@ -7,8 +7,8 @@ taxonomy:
 
 ---
 
-| **Feature** | **Date** | **Details of ending support, removal or obsolescence** |
-| --- | --- | --- |
+| Feature | Date | Details of ending support, removal or obsolescence |
+| :--- | :--- | :--- |
 | Integrations feature settings: Limit commits | After 1 January 2021 | The 'Limit commits...' setting is deprecated and will be removed. Thenceforth, all commits will be limited by project permissions.<br><br>![](https://bigbrassband.atlassian.net/wiki/download/attachments/2046197780/limit-commit-deprecation-notice.png?version=1&modificationDate=1641384212542&cacheVersion=1&api=v2) |
 | Personal access tokens | Dependent on which Git service | Some Git services such as GitLab and GitHub are enforcing authentication access for users to use personal access tokens in accessing git resources and services. |
 | `${username}` | Effective 29 April 2019 | The `${username}` is used when logging into Jira and in the branch name template to generate a default name for newly-created branches. This template variable is deprecated as Atlassian is no longer making usernames available. |

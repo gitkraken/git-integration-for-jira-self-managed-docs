@@ -36,7 +36,10 @@ You can produce the "Support Zip" by following the steps in [this article](/git
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/thbjckk3kv?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/thbjckk3kv) _to open this video in a new browser tab for more viewing options._
+<div styel='text-align: center; margin-top: 10px'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/thbjckk3kv'><b>here</b></a> to open this video in a new browser tab for more viewing options</i>.
+</div>
+<br>
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -59,7 +62,7 @@ _Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/thbjckk3kv) _t
     </div>
     </div>
 </div>
-<br>.
+<br>
 
 ## Memory warnings before GC
 

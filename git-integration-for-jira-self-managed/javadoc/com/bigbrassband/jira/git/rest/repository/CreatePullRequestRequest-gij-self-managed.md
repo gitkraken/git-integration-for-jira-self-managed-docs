@@ -9,7 +9,7 @@ taxonomy:
 
 
 * Package [com.bigbrassband.jira.git.rest.repository](README.html)
-*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  > [CreatePullRequestRequest](CreatePullRequestRequest.html)
+*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  > [CreatePullRequestRequest](CreatePullRequestRequest-gij-self-managed)
 
 
 

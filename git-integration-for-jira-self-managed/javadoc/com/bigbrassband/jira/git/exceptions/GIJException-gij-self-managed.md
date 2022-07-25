@@ -9,7 +9,7 @@ taxonomy:
 
 
 * Package [com.bigbrassband.jira.git.exceptions](README.html)
-*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  >  *[Throwable](https://docs.oracle.com/javase/8/docs/api/java/lang/Throwable.html)*  >  *[Exception](https://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html)*  > [GIJException](GIJException.html)
+*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  >  *[Throwable](https://docs.oracle.com/javase/8/docs/api/java/lang/Throwable.html)*  >  *[Exception](https://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html)*  > [GIJException](GIJException-gij-self-managed)
 
 All implemented interfaces :
 *  *[Serializable](https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html)* 
