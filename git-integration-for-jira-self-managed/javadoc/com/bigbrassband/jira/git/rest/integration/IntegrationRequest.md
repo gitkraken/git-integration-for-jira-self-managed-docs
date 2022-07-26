@@ -9,21 +9,24 @@ taxonomy:
 
 
 * Package [com.bigbrassband.jira.git.rest.integration](README.html)
-*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  > [IntegrationRequest](IntegrationRequest-gij-self-managed)
+*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  > [IntegrationRequest](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-integration-IntegrationRequest-gij-self-managed)
 
 This is a POJO object containing an integration properties/settings.
 
 
 ## Summary
+
 #### Constructors
+
 | Visibility | Signature |
-| --- | --- |
+| :--- | :--- |
 | `public` | [IntegrationRequest](#integrationrequest)() |
 | `public` | [IntegrationRequest](#integrationrequestintegrationtype-string-string-string)(*[IntegrationType](../../services/integration/IntegrationType-gij-self-managed)* type,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  origin,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  pat,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  displayName) |
 
 #### Methods
+
 | Type and modifiers | Method signature |
-| --- | --- |
+| :--- | :--- |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getApiFilter](#getapifilter)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getApiPath](#getapipath)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getAwsRegion](#getawsregion)() |
@@ -93,7 +96,7 @@ This is a POJO object containing an integration properties/settings.
 
 
 
-
+<br>
 
 # Methods
 ## getApiFilter()
