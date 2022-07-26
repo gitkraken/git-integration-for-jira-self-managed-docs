@@ -14,7 +14,7 @@ The Git Commits tab shows commit information such as commit authors, date of com
 
 Open an issue then go to the _**Git Commits**_ tab to view commit information:
 
-| **Pointer** | **Information** | **Description** |
+| Pointer | Information | Description |
 | :--- | :--- | :--- |
 | **1** | **Repository/Indexed** | Name of the repository _(as in app config)_ and date of last synchronization with remote repository. |
 | **2** | **Author/Committer** | User who performed the commit. Hover the mouse pointer on the name to view user card. |
@@ -34,9 +34,10 @@ Open an issue then go to the _**Git Commits**_ tab to view commit information:
     </div>
     <div class="imsgbox">
         View the whole commit code diff information by clicking the <b>View full commit</b> button to the right of the commit message.
-        <div class='nextpara'>View code diff information of the particular file by clicking the filename for each file adjacent to the rollup counter markers.
-        </div>
+        <p style='margin-bottom: 0px'>View code diff information of the particular file by clicking the filename for each file adjacent to the rollup counter markers.
+        </p>
     </div>
     </div>
 </div>
+<br>
 

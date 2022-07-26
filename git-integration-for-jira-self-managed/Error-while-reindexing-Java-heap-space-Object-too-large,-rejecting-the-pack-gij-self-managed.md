@@ -17,7 +17,7 @@ Jira admins will see an error in the Git Integration for Jira app interface - fo
 
 <br>
 
-<img src='/wp-content/uploads/gij-wizard-java-heap-space.png' height=299 width=402 style='text-align: center' />
+<img src='/wp-content/uploads/gij-wizard-java-heap-space.png' height=299 width=402 class='center img-bordered img-responsive' />
 
 <br>
 
@@ -78,5 +78,5 @@ Making any change to a git repository's history can result in loss of data. Proc
     </div>
     </div>
 </div>
-
+<br>
 

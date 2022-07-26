@@ -26,7 +26,7 @@ For the Jira Cloud version of this document click [Here](/git-integration-for-ji
 
 ## Using Full feature Integration
 
-1.  On your Jira dashboard, go to menu **Git** > **Manage repositories**.
+1.  On your Jira dashboard, go to menu **Git** ➜ **Manage repositories**.
 
 2.  Click **Gerrit** on the Auto-connect integration panel. The Auto-connect wizard appears.
 
@@ -65,7 +65,7 @@ For the Jira Cloud version of this document click [Here](/git-integration-for-ji
 
 Login to your Gerrit account. Obtain the repository URL from the Gerrit repository project page.  Use SSH or HTTP/HTTPS.
 
-1.  On your Jira dashboard menu, go to **Git** > **Manage repositories**.
+1.  On your Jira dashboard menu, go to **Git** ➜ **Manage repositories**.
 
 2.  Click **Connect to Git Repository** to open the Connect Wizard.
 
@@ -79,7 +79,7 @@ Login to your Gerrit account. Obtain the repository URL from the Gerrit reposito
 
     *   Set **Project Permissions** by restricting it to specific projects or leave it as is (_associate with all projects_).
 
-5.  Click **Finish** to complete this process. 
+5.  Click **Finish** to complete this process.
 
 
 The refspec options are not available for single repository connections of Gerrit integration.
@@ -96,10 +96,11 @@ Configure web links from either of the following locations:
 
 *   **Advanced setup** in Connect Wizard
 
-*   **Git** > **Manage repositories** > **Edit repository/integration** settings.
-
+*   Git ➜ Manage repositories ➜ **Edit repository/integration** settings.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91979855/gerrit-web-linking-sample.png?version=1&modificationDate=1591009193560&cacheVersion=1&api=v2&width=680&height=356)
+
+<br>
 
 Select the Gerrit git host from the **Web Link** dropdown list.
 
@@ -120,7 +121,7 @@ Save the changes.
 
 ## Default Branch
 
-Most git integrations allow changing of the default branch of the repository/project other than "master".  This change is reflected in the  Repository Settings of the Git Integration for Jira app on the next reindex.  Auto-connected integrations support this feature where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
+Most git integrations allow changing of the default branch of the repository/project other than "master". This change is reflected in the **Repository Settings** of the Git Integration for Jira app on the next reindex. Auto-connected integrations support this feature where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
 For the case with Gerrit, the default main branch is always “master”.
 

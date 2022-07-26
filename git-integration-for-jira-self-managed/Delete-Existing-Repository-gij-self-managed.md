@@ -33,7 +33,7 @@ DELETE
 
 ### Parameters
 
-| **Parameter** | **Condition** |
+| Parameter | Condition |
 | :--- | :--- |
 | _**id**_ | _Integer_. Required.<br><br>This is the ID of the existing repository. For example, `id : 3,`. |
 | _**deleteFiles**_ | _Boolean._ Optional.<br><br>Indicates whether the repository folder is also deleted from the Jira server. If set to _**true**_, the repository folder is deleted from the Jira server. |
