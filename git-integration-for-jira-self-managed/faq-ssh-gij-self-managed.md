@@ -64,7 +64,7 @@ Do note that when generating the key pair for use with Git Integration for Jira 
 
 On Linux and MacOS, perform this command in Terminal to generate an SSH key in RSA format:
 
-```java
+```powershell
 ssh-keygen -t rsa -b 4096 -m pem -C "your_email@example.com"
 ```
 
@@ -135,7 +135,18 @@ Passphrases are now supported since v2.x.x of the Git Integration for Jira app.
 
 Yes.
 
-VERSION 4.0+ OpenSSH is now fully supported.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        **VERSION 4.0+**
+        OpenSSH is now fully supported.
+    </div>
+    </div>
+</div>
+<br>
 
 ## How do you configure the SSH key used when adding a new project?
 

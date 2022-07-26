@@ -129,4 +129,5 @@ Other SSH key formats may be supported by Git Integration for Jira app, but pref
     </div>
     </div>
 </div>
+<br>
 

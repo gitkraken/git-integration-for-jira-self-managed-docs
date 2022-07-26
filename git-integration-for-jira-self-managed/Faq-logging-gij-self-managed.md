@@ -47,7 +47,8 @@ You can create this file by accessing the Atlassian Support Tools in your Jira:
 4.  Click the **Create support zip** tab.
 
 5.  For **Customize zip**, leave all check marked options (recommended) or check/uncheck required information to generate.
-    RECOMMENDED For Jira Data Center instances, you may include **Thread dumps** for performance analysis.
+    
+    **RECOMMENDED!**&nbsp; For Jira Data Center instances, you may include **Thread dumps** for performance analysis.
 
 6.  Click **Create zip** to start generating support data.
 

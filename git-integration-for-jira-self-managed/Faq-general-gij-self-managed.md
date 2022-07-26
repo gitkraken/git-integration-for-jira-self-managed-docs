@@ -34,31 +34,18 @@ This is an app for Jira that mashes together data from a Git server with your Ji
 As time goes on, a lot interesting features are added to improve your git experience:
 
 *   instant integration
-
 *   view commits in Jira
-
 *   view branches in Jira
-
 *   view pull/merge requests in Jira
-
 *   view tags in Jira
-
 *   create branches and pull/merge requests inside Jira
-
 *   compare code inside Jira
-
 *   smart commits
-
 *   project permissions
-
 *   webhook support
-
 *   git roll up commit and issues summary tab
-
 *   JQL searching
-
 *   Repository browser
-
 *   _and more…_
 
 
@@ -84,7 +71,17 @@ We test this on huge Git repositories in large Jira instances. Over 5000 organiz
 
 Some versions of the Git Integration for Jira app are compatible with specific versions of Jira. For example, VERSION 3.8.1 is compatible with Jira Server versions 7.13.0 to 8.19.1.
 
-As of **v4.0+**, support for Jira 7+ is dropped.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        As of <b>v4.0+</b>, support for Jira 7+ is dropped.
+    </div>
+    </div>
+</div>
+<br>
 
 For a more comprehensive view, see [**Git Integration for Jira app: Version History »**](https://marketplace.atlassian.com/plugins/com.xiplink.jira.git.jira_git_plugin/versions).
 

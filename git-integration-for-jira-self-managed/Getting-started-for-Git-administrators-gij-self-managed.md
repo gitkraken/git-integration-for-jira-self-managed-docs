@@ -58,12 +58,12 @@ Please do the following:
 ### For Git repositories with Git protocol access
 
 Send the Jira administrator the URL to the Git server.<br>
-For example:  `git://gitserver/repo/timetrackingproject.git`
+For example: `git://gitserver/repo/timetrackingproject.git`
 
 ### For Git repositories on the same host as Jira
 
 Send the Jira administrator the full path to the Git repository.<br>
-For example:  `/home/git/repo/timetrackingproject.git`
+For example: `/home/git/repo/timetrackingproject.git`
 
 ### For Git repositories across network file shares
 
@@ -111,4 +111,5 @@ For information on troubleshooting known errors and issues, see [Git Integratio
     </div>
   </div>
 </div>
+<br>
 

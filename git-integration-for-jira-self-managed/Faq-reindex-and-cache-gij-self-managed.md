@@ -127,7 +127,7 @@ No. The Git Integration for Jira app is designed to do a full index.
 
 Yes  –  the following url can be used:
 
-```java
+```powershell
 http://<server url>/secure/StartReindexGitRepositories.jspa?reindex=true
 ```
 

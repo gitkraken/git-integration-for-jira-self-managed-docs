@@ -19,14 +19,14 @@ Returns the list of issues associated with the commit from the specified reposit
     <div class="imsgbox">
         There are two types of users who can perform the Get Commit Issue Changes API call:
         <ol>
-        <li>Jira <b>administrators</b></li>
-        <li>Jira user who has <b>all</b> of the following:
-            <ul>
-            <li><b>View/browse permissions</b> to the project;</li>
-            <li><b>View Development Tools permissions</b> to the same project; and</li>
-            <li>The repository is <b>associated</b> to the project.</li>
-            </ul>
-        </li>
+            <li>Jira <b>administrators</b></li>
+            <li>Jira user who has <b>all</b> of the following:
+                <ul>
+                <li><b>View/browse permissions</b> to the project;</li>
+                <li><b>View Development Tools permissions</b> to the same project; and</li>
+                <li>The repository is <b>associated</b> to the project.</li>
+                </ul>
+            </li>
         </ol>
     </div>
     </div>
@@ -35,17 +35,15 @@ Returns the list of issues associated with the commit from the specified reposit
 
 ## Get Commit Issue Changes
 
-### URL
-
+_**url**_<br>
 `http://`**<jira-host>**`/rest/gitplugin/1.0/`**repository**`/`**{repoId}**`/commits/`**{commitHash}**`/issues`
 
-### Method
-
+_**method**_<br>
 GET
 
 ### Parameters
 
-| **Parameter** | **Condition** |
+| Parameter | Condition |
 | :--- | :--- |
 | _**jira-host**_ | _String_. Required.<br><br>This is the default url location where you host your Jira.<br><br>For example:<br>`http://local-host-jira.com:2990`<br>`https://jira.your-organization.com` |
 | _**repoId**_ | _Integer_. Required.<br><br>Substitute `{repoId}` with the actual repository ID.<br><br>Use the Repository REST API to obtain the connected repositories' IDs. |

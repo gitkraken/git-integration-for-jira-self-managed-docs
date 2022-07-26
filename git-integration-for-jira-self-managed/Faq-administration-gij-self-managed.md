@@ -103,7 +103,7 @@ The above solution should work, otherwise, see below for the steps to workaround
 
 8.  For the _Repository Root_, enter the full path to the Git repository that you have cloned. Considering the example in **step 1**, it will be similar to `/jira/home/data/git-plugin/project.git`.
 
-9.   Click the **Detect** button next to the _Repository Origin_.
+9.  Click the **Detect** button next to the _Repository Origin_.
 
 10.  Click **Add** to add this repository to the Git repository configuration list.
 
@@ -133,7 +133,7 @@ _**Example:**_<br>
 ```
 ### Solution 2
 
-Use the `'all_squash,async,anonuid=$uid,anongid=$gid'` option on NFS server, where _$uid_ and _$gid_are user ID and group ID for **'git'** user and **'git'** group respectively _(or another user/group which you are using to access GitLab repositories on GitLab server)_.
+Use the `'all_squash,async,anonuid=$uid,anongid=$gid'` option on NFS server, where `$uid` and `$gid` are user ID and group ID for **'git'** user and **'git'** group respectively _(or another user/group which you are using to access GitLab repositories on GitLab server)_.
 
 _**Example:**_
 
@@ -159,12 +159,13 @@ To reconfigure:
 
     ```java
     external_url "http://gitlab.example.com" #this is the default URL
+    
     external_url "http://X.X.X.X.local/" #change it to your GitLab Server URL
     ```
 
 3.  Run the **reconfigure** command to make the change take effect. 
 
-    ```java
+    ```powershell
     sudo gitlab-ctl reconfigure
     ```
 
