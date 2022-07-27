@@ -129,7 +129,7 @@ Steps:
 
 *   Press the "Run" button
 
-    ![](../_images/gijfacade-getCommitsForIssue-1.png)
+    ![](/wp-content/uploads/gijfacade-getCommitsForIssue-1.png)
 
 *   A result of the last operation is displayed at the bottom in "Result" tab.
   
