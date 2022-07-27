@@ -39,7 +39,7 @@ There are four ways to determine the pricing:
 
 *   **Install the** [**Git Integration for Jira**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=datacenter&tab=pricing) **app then go to:**
 
-    ```java
+    ```powershell
     https://[replaceWithYourJiraname].atlassian.net/admin/billing/estimate
     ```
 

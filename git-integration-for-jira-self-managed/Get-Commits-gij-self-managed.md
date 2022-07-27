@@ -24,17 +24,15 @@ Call the Get Commits REST API to obtain commit information associated with an is
 
 ## Get Commits
 
-### URL
-
+_**url**_<br>
 `/rest/gitplugin/1.0/`**issues**`/`**{issueKey}**`/commits`
 
-### Method
-
+_**method**_<br>
 GET
 
 ### Parameters
 
-| **Parameter** | **Condition** |
+| Parameter | Condition |
 | :--- | :--- |
 | _**issueKey**_ | _String_. Required.<br><br>This is the Jira Issue Key – a concatenation of Project key and Issue number. It must contain a dash ('-'). The _**issueKey**_ must be valid and existent.<br><br>For example: `TST-234`. |
 

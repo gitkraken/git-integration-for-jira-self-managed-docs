@@ -47,6 +47,8 @@ As of **v2.8.5+** of the Git Integration for Jira app, Jira administrators can
 
     ![](/wp-content/uploads/gij-docs-admin-general-cfg-diff-code-setting.png)
 
+<br>
+
 <div class="bbb-callout bbb--alert">
     <div class="irow">
     <div class="ilogobox">
@@ -69,6 +71,7 @@ As of **v2.8.5+** of the Git Integration for Jira app, Jira administrators can
     </div>
     </div>
 </div>
+<br>
 
 ## Enable/disable JQL search feature
 
@@ -120,7 +123,7 @@ Enable/disable the setting to allow sending of email notifications when a commit
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930396229/gitserver-gencfg-git-activity-stream.png?version=1&modificationDate=1630642786223&cacheVersion=1&api=v2&width=544&height=290)
 
-Enable/disable the setting whether to show git commits in the Jira activity stream (Issue page or dashboard widget) or not. For in-place upgrade of the Git Integration for Jira app, this setting is turned off by default.  For new installation, the default setting is enabled.
+Enable/disable the setting whether to show git commits in the Jira activity stream (Issue page or dashboard widget) or not. For in-place upgrade of the Git Integration for Jira app, this setting is turned off by default. For new installation, the default setting is enabled.
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">

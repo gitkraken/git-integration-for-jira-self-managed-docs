@@ -105,6 +105,7 @@ This setup uses full feature integration offering functions and features not fou
 2.  On the Add new integration panel, click **GitHub Enterprise**. The Add new integration Wizard is displayed.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91914350/gitserver-42-connect-auto-ext-service-github-ent-svr(c).png?version=1&modificationDate=1648030398265&cacheVersion=1&api=v2&width=659&height=467)
+
     -  For the **Host URL**, enter the address of the GitHub Enterprise server.
 
     -  Enter the **Personal Access Token** in the provided box as required.
@@ -129,13 +130,11 @@ This setup uses full feature integration offering functions and features not fou
             For more information, see **Git Internals -- The Refspec**.
 
             -  The first two refspec options are required.
-
             -  The rest of the options are OPTIONAL:
 
                 -  **Clone and index ref notes (refs/notes)** – This is a reference to `refs/notes/*` used for fetching. This option is enabled by default. This affects git notes which are not shown:
 
                     -  ...when `refs/notes` are disabled on connecting a repository.
-
                     -   ...when a new note comes when `refs/notes` is disabled.
 
                 -  **Clone and index changes (refs/changes)** – This is a reference to `refs/changes/*` used for fetching.  This option is turned off by default.
@@ -349,7 +348,7 @@ Click this text label to open the Setup PAT dialog and paste your personal acces
     </div>
 </div>
 
-The Setup PAT dialog is also accessible via Repository Browser (dashboard menu Git ➜ **Repository browser**) ➜ Click the <img src='/wp-content/uploads/gij-edit-icon-dark.png' style='vertical-align: middle; margin: 0 3px;' /> icon under _**Pers. Access**_ column.
+The Setup PAT dialog is also accessible via Repository Browser (dashboard menu Git ➜ **Repository browser**) ➜ Click the <img src='/wp-content/uploads/gij-edit-icon-dark.png' style='margin: 0 3px;' /> icon under _**Pers. Access**_ column.
 
 ## Working with branches and pull requests
 
@@ -359,7 +358,7 @@ For GitHub Organization, the user must have the **Write** permissions and the�
 
 ### Default branch
 
-Most git integrations allow changing of the default branch of the repository/project other than "master".  This change is reflected in the  Repository Settings of the Git Integration for Jira app on the next reindex.  Auto-connected integrations support this feature where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
+Most git integrations allow changing of the default branch of the repository/project other than "master". This change is reflected in the **Repository Settings** of the Git Integration for Jira app on the next reindex. Auto-connected integrations support this feature where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">

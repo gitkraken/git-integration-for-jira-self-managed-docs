@@ -23,15 +23,15 @@ Use the FAQ below to find answers to common questions. Feel free to contact our
 ## I have an existing git repository on a Jira server. How can I figure out what values should be used for Repository origin and Repository root fields?
 
 1.  Change current directory to the folder where repository is located.
-    
+
 2.  Run `pwd`.
-    
+
 3.  Response should go to **Repository root** field.
-    
+
 4.  Run `git remote show origin`.
-    
+
 5.  Find origin URL in the command response.
-    
+
 6.  Set this value for **Repository origin** field.
 
 ## Can the app be configured to handle or scan multiple keys for one project? How is this supposed to work?
@@ -53,10 +53,10 @@ In other words, the plugin must point to a clone of the repository and this clon
 There are three possible ways to do this:
 
 *   Clone the repository outside of Jira then connect to it via **Connect to Git Repository** ➜ **Advanced Setup**.
-    
-*   Clone the repository with the standard **Connect to Git Repository Wizard** into the Jira home directory.  Soon afterwards, move the cloned repository and update the settings on the repository.
-    
-*   You could symlink the `{$Jira_HOME}/data/git-plugin` directory to a different volume.  The standard **Connect to Git Repository Wizard** will still write there, but the data will reside on the different volume. But be aware, that the Git Integration for Jira app treats anything in the Git-Plugin folder as a clone that it owns.
+
+*   Clone the repository with the standard **Connect to Git Repository Wizard** into the Jira home directory. Soon afterwards, move the cloned repository and update the settings on the repository.
+
+*   You could symlink the `{$Jira_HOME}/data/git-plugin` directory to a different volume. The standard **Connect to Git Repository Wizard** will still write there, but the data will reside on the different volume. But be aware, that the Git Integration for Jira app treats anything in the Git-Plugin folder as a clone that it owns.
 
 ## I get the following error: "Host or port specified in \<git\_repository\_url\> are inaccessible". Do I also need a git instance on the Jira server?
 
@@ -64,22 +64,22 @@ If your Jira and Git servers are running through a firewall, configure the firew
 
 Below are the default ports for common git URL protocols:
 
-| **Protocol** | **Default port** |
+| Protocol | Default port |
 | :--- | :--- |
 | ssh:// | 22  |
 | git:// | 9418 |
 | http:// | 80  |
 | https:// | 443 |
 
-  
+
 Test git connection and repository URL by doing the following:
 
 1.  Install git client (or run `sudo apt-get install git`)
-    
+
 2.  Place your ssh key into `~/.ssh`
-    
+
 3.  Clone the repository (or run `git clone <your_repository_url>`)
-    
+
 
 The Git Integration for Jira app will run successfully if the above connection test ran without errors.
 

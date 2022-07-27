@@ -36,14 +36,14 @@ The following steps will remove the Git Integration for Jira app and delete its 
 2. **Delete all repositories**.
 
     **Example:**<br>
-    ```java
+    ```powershell
     rm -rf $Jira_HOME/data/git-plugin
     ```
 
 3. **Delete the index.**
 
     **Example:**<br>
-    ```java
+    ```powershell
     rm -rf $Jira_HOME/caches/indexes/plugins/jira-git-*
     ```
 
@@ -52,7 +52,7 @@ The following steps will remove the Git Integration for Jira app and delete its 
     `AO_8BA09E_`) from the Jira database.
 
     Credentials are usually located in `$Jira_HOME/dbconfig.xml`. There is no standard SQL command to remove all tables by prefix. The list of tables depends on the installed Git Integration for Jira app version.
-    
+
     All the tables are displayed in Jira Administration ➜ System ➜ (sidebar) **Plugin Data Storage** ➜ _Git Integration for Jira_.
 
     ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2053832772/gitserver-system-plugin-data-storage.png?version=1&modificationDate=1642429788461&cacheVersion=1&api=v2&width=680&height=230)
@@ -73,7 +73,7 @@ The goal here is to end up with only one copy of the `jira_git_plugin jar` file 
 
     **Example:**
 
-    ```java
+    ```powershell
     JIRA_INSTALL_FOLDER/temp/*_git_plugin-*.jar
     JIRA_HOME_FOLDER/plugins/.osgi-plugins/transformed-plugins/*_git_plugin-*.jar
     ```
@@ -82,7 +82,7 @@ The goal here is to end up with only one copy of the `jira_git_plugin jar` file 
 
     **Example:**
 
-    ```java
+    ```powershell
     JIRA_HOME_FOLDER/plugins/installed-plugins/*_git_plugin-*.jar
     ```
 

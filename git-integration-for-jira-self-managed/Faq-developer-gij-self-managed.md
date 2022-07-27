@@ -61,9 +61,9 @@ The steps below provides an outline that you can follow to verify that the issue
 
 3.  New issue key for **TEST-1** is **PM-18**
 
-4.  Check that original commit in **TEST-1** is still available in **PM-18**.  The commit should be there (Git Commits tab).
+4.  Check that original commit in **TEST-1** is still available in **PM-18**. The commit should be there (Git Commits tab).
 
-5.  In the **Git Repositories** configuration page, perform **Reset** and **Reindex** (under Actions) on the selected repository to make sure that the commits are in the correct location.
+5.  In the **Git Repositories** configuration page, perform **Reset** and **Reindex** (under Actions) on the selected repository to make sure that the commits are in the correct location.
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -75,6 +75,7 @@ The steps below provides an outline that you can follow to verify that the issue
     </div>
     </div>
 </div>
+<br>
 
 ## What are developer licenses?
 

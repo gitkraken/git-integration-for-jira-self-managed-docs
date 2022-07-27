@@ -36,6 +36,7 @@ The **General settings** configuration page can be accessed thru the following
 
     ![](https://bigbrassband.atlassian.net/wiki/download/attachments/966852655/jira-serverdc-gen-cfg-entry-point-two-(c).png?version=3&modificationDate=1613118421140&cacheVersion=1&api=v2)
 
+<br>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">

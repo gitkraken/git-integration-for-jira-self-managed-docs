@@ -13,21 +13,23 @@ Any Jira user can perform the Getting Bulk Import Information API call.
 
 ## Getting Bulk Import Information**
 
-### URL
-
+_**url**_<br>
 `/rest/gitplugin/1.0/configuration/progress.json`
 
-### Method
-
+_**method**_<br>
 GET
 
 ### Parameters
 
-`thread_id` -- _Integer._ Required. Input a thread ID to access information about the specific thread process.
+`thread_id`<br>
+_Integer._ Required.<br>
+Input a thread ID to access information about the specific thread process.
 
 ### Response
 
-JSON -- Returns the status information of the import process.
+JSON
+
+Returns the status information of the import process.
 
 ### Download sample file
 
@@ -39,7 +41,7 @@ JSON -- Returns the status information of the import process.
 
 `http://jira.example.org/rest/gitplugin/1.0/`**configuration**`/progress.json?`**thread\_id**`=`**123**
 
-```java
+```json
 Response example:
 {
   "success":false,
