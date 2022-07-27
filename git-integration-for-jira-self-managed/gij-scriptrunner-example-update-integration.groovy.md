@@ -1,6 +1,6 @@
 # Example of a script updating an integration
 
-```
+```groovy
 import com.onresolve.scriptrunner.runner.customisers.WithPlugin
 import com.onresolve.scriptrunner.runner.customisers.PluginModule
 @WithPlugin("com.xiplink.jira.git.jira_git_plugin")
