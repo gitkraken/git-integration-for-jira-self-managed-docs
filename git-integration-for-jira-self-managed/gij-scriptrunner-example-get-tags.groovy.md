@@ -1,6 +1,6 @@
 # Example of a script getting tags
 
-```
+```groovy
 import com.atlassian.jira.util.Function
 import com.onresolve.scriptrunner.runner.customisers.WithPlugin
 import com.onresolve.scriptrunner.runner.customisers.PluginModule

@@ -58,7 +58,7 @@ Follow the order of steps below:
 
 *   [Example 4](#example-4-move-an-issue-to-in-progress-status-when-at-least-one-git-commit-exists): a setup of issue workflow in a such way that if an `OPEN` issue has at least one git commit then it's moved to `IN PROGRESS` status
 
-For more examples, See [JavaDocs example scripts](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-GIJFacade-gij-self-managed) for all classes used in **GIJFacade** class.
+For more example scripts, see GIJFacade [JavaDocs](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-GIJFacade-gij-self-managed).
 
 ### Getting started with Scriptrunner plugin
 
@@ -115,7 +115,7 @@ Steps:
 
 *   Input the next code:
 
-    ```java
+    ```groovy
     import com.onresolve.scriptrunner.runner.customisers.WithPlugin
     import com.onresolve.scriptrunner.runner.customisers.PluginModule
     @WithPlugin("com.xiplink.jira.git.jira_git_plugin")
@@ -155,7 +155,7 @@ Steps:
   
 *   Do a log for commits and number of changed files. Enter the following script in the Scriptrunner console:
   
-    ```java
+    ```groovy
     import com.onresolve.scriptrunner.runner.customisers.WithPlugin
     import com.onresolve.scriptrunner.runner.customisers.PluginModule
     @WithPlugin("com.xiplink.jira.git.jira_git_plugin")
@@ -172,7 +172,6 @@ Steps:
         .forEach(new Consumer<Commit>() {
             @Override
             public void accept(Commit commit) {
-
                 log.warn("commit " + commit.getCommitId());
                 log.warn("\t number of files changed - " +commit.getFiles().size());
             }
@@ -196,7 +195,7 @@ Steps:
   
     Refer to [Commit JavaDocs](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Commit-gij-self-managed/) and log commits with files in a nice-looking format. Enter the following script in the Scriptrunner console:
   
-    ```java
+    ```groovy
     import com.onresolve.scriptrunner.runner.customisers.WithPlugin
     import com.onresolve.scriptrunner.runner.customisers.PluginModule
     @WithPlugin("com.xiplink.jira.git.jira_git_plugin")
@@ -215,17 +214,13 @@ Steps:
         .forEach(new Consumer<Commit>() {
             @Override
             public void accept(Commit commit) {
-
                 log.warn(commit.getCommitId());
-
                 commit.getFiles()
                     .stream()
                     .forEach(new Consumer<ShortFileInfo>() {
                         @Override
                         public void accept(ShortFileInfo file) {
-
                             log.warn("\t\t" + file.getPath());
-
                         }
                     });
             }
@@ -239,44 +234,43 @@ Steps:
 
 <br>
 
-*   **So how does it work?** Looking back at the original script, see how it was changed:
+### So how does it work?
 
-    *   We've added more imports to avoid compilation error
+Looking back at the original script, see how it was changed:
 
-    *   We've called `gijFacade.getCommitsForIssue("TST-4", true)` instead of `gijFacade.getCommitsForIssue("TST-4")`. Otherwise, the list of files will return empty.
+*   We've added more imports to avoid compilation error
 
-    *   We've looped throughout the commits:
+*   We've called `gijFacade.getCommitsForIssue("TST-4", true)` instead of `gijFacade.getCommitsForIssue("TST-4")`. Otherwise, the list of files will return empty.
 
-        ```java
-        gijFacade.getCommitsForIssue("TST-4", true)
-            .stream()
-            .forEach(new Consumer<Commit>() {
-                @Override
-                public void accept(Commit commit) {
-        
-                    log.warn(commit.getCommitId());
-                    ...
-                }
+*   We've looped throughout the commits:
+
+    ```groovy
+    gijFacade.getCommitsForIssue("TST-4", true)
+        .stream()
+        .forEach(new Consumer<Commit>() {
+            @Override
+            public void accept(Commit commit) {        
+                log.warn(commit.getCommitId());
+                ...
             }
-        );
-        ```
+        }
+    );
+    ```
 
-    *   and then, looped throughout the files belonging to each commit:
+*   and then, looped throughout the files belonging to each commit:
 
-        ```java
-        ...
-            commit.getFiles()
-            .stream()
-            .forEach(new Consumer<ShortFileInfo>() {
-                @Override
-                public void accept(ShortFileInfo file) {
-
-                    log.warn("\t\t" + file.getPath());
-
-                }
-            });
-        ...
-        ```
+    ```groovy
+    ...
+        commit.getFiles()
+        .stream()
+        .forEach(new Consumer<ShortFileInfo>() {
+            @Override
+            public void accept(ShortFileInfo file) {
+                log.warn("\t\t" + file.getPath());
+            }
+        });
+    ...
+    ```
 <br>
 
 ## Example 4: Move an issue in "IN PROGRESS" status when at least one git commit exists
@@ -287,7 +281,7 @@ Let's write, debug a code and detect whether an issue has at least one git commi
 
 *   Use the next code:
 
-    ```java
+    ```groovy
     import com.onresolve.scriptrunner.runner.customisers.WithPlugin
     import com.onresolve.scriptrunner.runner.customisers.PluginModule
     @WithPlugin("com.xiplink.jira.git.jira_git_plugin")
@@ -306,13 +300,13 @@ Let's write, debug a code and detect whether an issue has at least one git commi
   
     `Result: "true"`
   
-*  Change the `issueKey` variable to another value (e.g. `String issueKey = "TST-3";`) to have the code return -- whether `TST-3` has git commits or not. (_See the next section_)
+*   Assign a Jira issue key value to the `String issueKey` variable. For example: `String issueKey = "TST-4";` The above code will return `true` if the Jira issue has git commits and `false` if it doesn't.
 
 <br>
 
 ### How to integrate the code into workflow? How to customize it by dynamic IN issueKey parameter?
   
-Below is a dummy example which demonstrates the general rules of using gijFacade in Scriptrunner features:
+The steps below demonstrates the general rule of using gijFacade in Scriptrunner features:
 
 *   Create a `Scriptrunner Listener` which will be triggered by adding a comment to an issue. If the issue has git commits then the listener will move the issue to the `IN PROGRESS` status.
 
@@ -332,9 +326,9 @@ Below is a dummy example which demonstrates the general rules of using gijFacade
 
     *   Set **Event** to `Issue Commented`.
 
-    *   Use the following script into **Condition**; customized for Scriptrunner:  
+    *   Use the following code into the **Condition** field:  
 
-        ```java
+        ```groovy
         import com.onresolve.scriptrunner.runner.customisers.WithPlugin
         import com.onresolve.scriptrunner.runner.customisers.PluginModule
         @WithPlugin("com.xiplink.jira.git.jira_git_plugin")
