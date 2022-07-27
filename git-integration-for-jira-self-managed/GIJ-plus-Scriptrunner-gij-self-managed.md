@@ -37,8 +37,6 @@ and provides similar functionality (and more):
 
 One main implementation in the [GIJFacade interface](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-GIJFacade-gij-self-managed/) is the main object having methods for all the above cases.
 
-See JavaDocs example scripts below for all classes used in **GIJFacade** class.
-
 ## Feature benefits
 
 *   The API allows you to write a script re-associating git commits from one issue to another. With this script, you won't have to click each git commit and manually re-assign it to another issue.
@@ -59,6 +57,8 @@ Follow the order of steps below:
 *   [Example 3](#example-3-how-to-log-more-than-a-brief-information): a script listing files changed in each commit of issue `TST-4`
 
 *   [Example 4](#example-4-move-an-issue-to-in-progress-status-when-at-least-one-git-commit-exists): a setup of issue workflow in a such way that if an `OPEN` issue has at least one git commit then it's moved to `IN PROGRESS` status
+
+For more examples, See [JavaDocs example scripts](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-GIJFacade-gij-self-managed) for all classes used in **GIJFacade** class.
 
 ### Getting started with Scriptrunner plugin
 
