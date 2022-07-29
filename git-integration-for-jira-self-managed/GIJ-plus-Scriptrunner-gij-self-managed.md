@@ -115,13 +115,7 @@ Steps:
 
 *   Input the next code:
 
-    <pre style='font-family: Consolas, sans-serif; font-size: 16px; display: none;'><code><span style='color:#629DD0'>import</span> com.onresolve.scriptrunner.runner.customisers.WithPlugin
-    import com.onresolve.scriptrunner.runner.customisers.PluginModule
-    @WithPlugin("com.xiplink.jira.git.jira_git_plugin")
-    import com.bigbrassband.jira.git.services.GIJFacade;
-    </code></pre>
-
-    ```
+    ```groovy
     import com.onresolve.scriptrunner.runner.customisers.WithPlugin
     import com.onresolve.scriptrunner.runner.customisers.PluginModule
     @WithPlugin("com.xiplink.jira.git.jira_git_plugin")
