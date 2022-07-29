@@ -115,7 +115,13 @@ Steps:
 
 *   Input the next code:
 
-    ```groovy
+    <pre style='font-family: Consolas, sans-serif; font-size: 16px; display: none;'><code><span style='color:#629DD0'>import</span> com.onresolve.scriptrunner.runner.customisers.WithPlugin
+    import com.onresolve.scriptrunner.runner.customisers.PluginModule
+    @WithPlugin("com.xiplink.jira.git.jira_git_plugin")
+    import com.bigbrassband.jira.git.services.GIJFacade;
+    </code></pre>
+
+    ```
     import com.onresolve.scriptrunner.runner.customisers.WithPlugin
     import com.onresolve.scriptrunner.runner.customisers.PluginModule
     @WithPlugin("com.xiplink.jira.git.jira_git_plugin")
@@ -141,7 +147,7 @@ Steps:
       <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-      Please be aware that a brief information of the objects are logged by default. For instance, each commit object in the list contains much more information about a commit which can be acquired programmatically. See <a href='/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Commit-gij-self-managed/'>Commit</a>) class javadocs to find a full list of information provided.
+      Please be aware that a brief information of the objects are logged by default. For instance, each commit object in the list contains much more information about a commit which can be acquired programmatically. See <a href='/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Commit-gij-self-managed/'>Commit</a> class javadocs to find a full list of information provided.
     </div>
   </div>
 </div>

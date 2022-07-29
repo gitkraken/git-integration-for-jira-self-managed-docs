@@ -72,7 +72,7 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
 </div>
 
 <div align="center">
-  <i>Watch the video guide by clicking <a href="https://bigbrassband.wistia.com/medias/s26h3avwuo" target="_blank"><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+  <i>Watch the video guide by clicking <a href="https://bigbrassband.wistia.com/medias/s26h3avwuo" target="_blank"><b>here</b></a> to open this video in a <br>new browser tab for more viewing options.</i>
 </div>
 <br>
 
@@ -119,6 +119,7 @@ We strongly recommend to use personal access tokens for GitHub.com account integ
 2.  Click **GitHub.com** on the Add new integration panel. The Add new integration wizard dialog is displayed.
 
     ![](/wp-content/uploads/gij-gitserver-connect-auto-ext-service-github-com-c.png)
+
 3.  **GitHub.com and GitHub Enterprise Cloud** is selected by default. Paste the personal access token in the provided box.
 
     -  Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed.
@@ -205,7 +206,7 @@ Choose between SSH or HTTPS. Use this information to connect the GitHub git rep
 
 4.  Continue to the next step by following the screen instructions.
 
-5.  Click **Finish** to complete this process. 
+5.  Click **Finish** to complete this process.
 
 The repository is now connected to Jira Data Center.
 
@@ -219,7 +220,7 @@ Assign GitHub permissions for team members or collaborators to allow which resou
 
 1.  Login to your GitHub.com account.
 
-2.  Go to <img style='vertical-align: middle; margin: 0 3px;' src='/wp-content/uploads/gij-jira-sys-admin-icon.png' alt=''/> **Profile** ➜ **Settings**.
+2.  Go to <img style='margin: 0 3px;' src='/wp-content/uploads/gij-profile-icon.png' alt=''/> **Profile** ➜ **Settings**.
 
 3.  On your sidebar, click **Organizations**.
 
@@ -228,6 +229,7 @@ Assign GitHub permissions for team members or collaborators to allow which resou
 5.  On your sidebar, click **Member Privileges**. The following screen is displayed.
 
     ![](/wp-content/uploads/gij-github-org-repo-base-permissions-dark-c.png)
+
 6.  Under the **Base permissions**, click on the dropdown button.
 
     Choose the base permission level for organization members. The base repository permission only applies to organization members and not to outside collaborators. If the base permission is set to _**None**_, organization members will need to be given access to repositories using the _**Teams or Collaborators**_ methods (see below).
@@ -267,11 +269,8 @@ To give a member additional access, they must be added to a team or make them co
 3.  Click the service user to manage permissions for this member to:
 
     *   set the desired **Role** for this member.
-
     *   convert this member to outside collaborator.
-
     *   give this member access to organization repositories.
-
     *   remove this member from the team.
 
 4.  Click **Manage access** to manage repository access for this member.
@@ -312,9 +311,12 @@ To give a member additional access, they must be added to a team or make them co
     </div>
   </div>
 </div>
+<br>
 
 * * *
-\
+
+<br>
+
 For more information on organization teams, see [**GitHub: Organizing Members into Teams »**](https://help.github.com/articles/organizing-members-into-teams/).
 
 For more information on inviting collaborators, see [**Inviting Collaborators to a Personal/Organization Repository »**](https://help.github.com/articles/inviting-collaborators-to-a-personal-repository/).
@@ -373,7 +375,7 @@ For GitHub Organization, the user must have the **Write** permissions and the�
 
 ### Default branch
 
-Most git integrations allow changing of the default branch of the repository/project other than "master".  This change is reflected in the Repository Settings of the Git Integration for Jira app on the next reindex. Full integration supports this function where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
+Most git integrations allow changing of the default branch of the repository/project other than "master". This change is reflected in the Repository Settings of the Git Integration for Jira app on the next reindex. Full integration supports this function where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
 <div class="bbb-callout bbb--info">
   <div class="irow">
