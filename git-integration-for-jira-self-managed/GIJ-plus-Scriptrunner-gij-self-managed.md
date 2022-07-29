@@ -141,7 +141,7 @@ Steps:
       <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-      Please be aware that a brief information of the objects are logged by default. For instance, each commit object in the list contains much more information about a commit which can be acquired programmatically. See <a href='/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Commit-gij-self-managed/'>Commit</a>) class javadocs to find a full list of information provided.
+      Please be aware that a brief information of the objects are logged by default. For instance, each commit object in the list contains much more information about a commit which can be acquired programmatically. See <a href='/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Commit-gij-self-managed/'>Commit</a> class javadocs to find a full list of information provided.
     </div>
   </div>
 </div>
