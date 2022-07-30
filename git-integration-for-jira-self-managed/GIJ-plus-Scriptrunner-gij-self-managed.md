@@ -1,24 +1,24 @@
 ---
 
-title: Git Integration + Scriptrunner
+title: Git Integration + ScriptRunner
 description: 
 taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
 
-ScriptRunner for Jira (GIJ) Data Center/Server is an app available on the Atlassian Marketplace that allows you to extend Jira functionality through the use of built-in and custom groovy scripts. It provides administrators with an in-line editor where you can write groovy scripts.
+[ScriptRunner for Jira Data Center/Server](https://marketplace.atlassian.com/apps/6820/scriptrunner-for-jira?hosting=datacenter&tab=overview) is an app available on the Atlassian Marketplace that allows you to extend Jira functionality through the use of built-in and custom groovy scripts. It provides administrators with an in-line editor where you can write groovy scripts.
 
 These scripts can be scheduled as a job or to be run on an issue transition within Jira workflows or etc. Out-of-the-box, you can find several built-in scripts ready to go, or you may try some recipes to start using a bit of groovy for custom scripts.
 
 <br>
 
-## Available API
+## Available APIs
 
-Which API or functions can be used while creating these scripts? See [ScriptRunner API quick reference](https://scriptrunner.adaptavist.com/latest/jira/behaviours-api-quickref.html) at Adaptavist.
+Which APIs or functions can be used while creating these scripts? See [ScriptRunner API quick reference](https://scriptrunner.adaptavist.com/latest/jira/behaviours-api-quickref.html) at Adaptavist.
 
 The Git Integration for Jira app provides additional Java API ([GIJFacade interface](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-GIJFacade-gij-self-managed/))
-allowing you to operate with git information. The API is close to [Git integration for Jira REST API](/git-integration-for-jira-data-center/REST-API-gij-self-managed/)
+allowing you to operate with git information. The API is close to [Git Integration for Jira REST API](/git-integration-for-jira-data-center/REST-API-gij-self-managed/)
 and provides similar functionality (and more):
 
 *   **Repositories** - get list of repositories connected, create/delete/update a repository
@@ -37,18 +37,18 @@ and provides similar functionality (and more):
 
 One main implementation in the [GIJFacade interface](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-GIJFacade-gij-self-managed/) is the main object having methods for all the above cases.
 
-## Feature benefits
+## Feature use case examples
 
-*   The API allows you to write a script re-associating git commits from one issue to another. With this script, you won't have to click each git commit and manually re-assign it to another issue.
+*   The API allows you to write a script for re-associating git commits from one issue to another. With this script, you won't have to click each git commit and manually re-assign it to another issue.
 
-*   A script to create a pull request if an issue has been moved to `CODE REVIEW` status. 
+*   Use a script to create a pull request if an issue has been moved to `CODE REVIEW` status.
 
 
 ## Tutorial
 
 Follow the order of steps below:
 
-*   [Getting started with Scriptrunner plugin](#getting-started-with-scriptrunner-plugin)
+*   [Getting started with ScriptRunner plugin](#getting-started-with-scriptrunner-plugin)
 
 *   [Example 1](#example-1-how-to-create-a-simple-script): a simple script for retrieving list of commits associated with issue `TST-4`
 
@@ -58,16 +58,16 @@ Follow the order of steps below:
 
 *   [Example 4](#example-4-move-an-issue-to-in-progress-status-when-at-least-one-git-commit-exists): a setup of issue workflow in a such way that if an `OPEN` issue has at least one git commit then it's moved to `IN PROGRESS` status
 
-For more example scripts, see GIJFacade [JavaDocs](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-GIJFacade-gij-self-managed).
+For more example scripts, see GIJFacade [JavaDocs](/git-integration-for-jira-data-center/ScriptRunner-javadoc-git-services-GIJFacade-gij-self-managed).
 
-### Getting started with Scriptrunner plugin
+### Getting started with ScriptRunner plugin
 
-For Jira Server/Data Center, you will need to download and install Scriptrunner plugin from the Atlassian Marketplace.
+For Jira Server/Data Center, you will need to download and install ScriptRunner plugin from the Atlassian Marketplace.
 No further GIJ configuration is required.
 
 **Downloading the app**
 
-1.  Go to [Scriptrunner for Jira](https://marketplace.atlassian.com/apps/6820/scriptrunner-for-jira?tab=overview&hosting=server) at Atlassian Marketplace and start the free trial or buy it now.
+1.  Go to [ScriptRunner for Jira](https://marketplace.atlassian.com/apps/6820/scriptrunner-for-jira?tab=overview&hosting=server) at Atlassian Marketplace and start the free trial or buy it now.
 
 2.  Login to your Atlassian account when prompted and generate a new license for the trial.
 
@@ -107,7 +107,7 @@ If one of the above conditions is not met, the script will return an empty list.
 <br>
 
 Steps:
-*   Open Scriptrunner console (Jira settings ➜ Manage apps ➜ Scriptrunner **Console**). Here you can experiment with scripts, debug scripts, and execute scripts.
+*   Open ScriptRunner console (Jira settings ➜ Manage apps ➜ ScriptRunner **Console**). Here you can experiment with scripts, debug scripts, and execute scripts.
 
     ![](/wp-content/uploads/gijfacade-empty-console.png)
 
@@ -153,7 +153,7 @@ Steps:
   
     Use `log.warn("Your message")` to log something.
   
-*   Do a log for commits and number of changed files. Enter the following script in the Scriptrunner console:
+*   Do a log for commits and number of changed files. Enter the following script in the ScriptRunner console:
   
     ```groovy
     import com.onresolve.scriptrunner.runner.customisers.WithPlugin
@@ -193,7 +193,7 @@ Steps:
   
     For example, files are not logged but are present in commit objects when you retrieve them with help of `gijFacade.getCommitsForIssue("TST-4", true)`.
   
-    Refer to [Commit JavaDocs](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Commit-gij-self-managed/) and log commits with files in a nice-looking format. Enter the following script in the Scriptrunner console:
+    Refer to [Commit JavaDocs](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Commit-gij-self-managed/) and log commits with files in a nice-looking format. Enter the following script in the ScriptRunner console:
   
     ```groovy
     import com.onresolve.scriptrunner.runner.customisers.WithPlugin
@@ -277,7 +277,7 @@ Looking back at the original script, see how it was changed:
 
 Let's write, debug a code and detect whether an issue has at least one git commit:
 
-*   Open Scriptrunner console (Jira settings ➜ Manage apps ➜ Scriptrunner **Console**).
+*   Open ScriptRunner console (Jira settings ➜ Manage apps ➜ ScriptRunner **Console**).
 
 *   Use the next code:
 
@@ -306,11 +306,11 @@ Let's write, debug a code and detect whether an issue has at least one git commi
 
 ### How to integrate the code into workflow? How to customize it by dynamic IN issueKey parameter?
   
-The steps below demonstrates the general rule of using gijFacade in Scriptrunner features:
+The steps below demonstrate the general rule of using gijFacade in ScriptRunner features:
 
-*   Create a `Scriptrunner Listener` which will be triggered by adding a comment to an issue. If the issue has git commits then the listener will move the issue to the `IN PROGRESS` status.
+*   Create a `ScriptRunner Listener` which will be triggered by adding a comment to an issue. If the issue has git commits, the listener will transition the issue to the `IN PROGRESS` status.
 
-    *   Open Scriptrunner Listeners (Jira settings ➜ Manage apps ➜ Scriptrunner **Listeners**).
+    *   Open ScriptRunner Listeners (Jira settings ➜ Manage apps ➜ ScriptRunner **Listeners**).
 
     ![](/wp-content/uploads/gijfacade-scriptrunner-listeners.png)
 
