@@ -44,27 +44,26 @@ Here are some templates from Atlassian you can use as a guide for some of the mo
 
 *   Transition issue state when a commit arrives.
     
-*   Transition issue state when pull/merge request is merged. For example: from IN PROGRESS to DONE.
+*   Transition issue state when pull/merge request is merged. For example: from `IN PROGRESS` to `DONE`.
     
 
 ### For more powerful conditions:
 
 *   Use [Jira Automation Smart Values](https://support.atlassian.com/jira-software-cloud/docs/what-are-smart-values/) to extract data from your commits and branches to be used in an automation action such as;
-    
+
     *   Take actions based on the name of a branch. For example:
-        
+
         *   only transition branches that contain a specific keyword like “WIP” (Work In Progress).
-            
+
         *   add a comment to an issue when a branch contains a certain keyword.
-            
+
     *   Extract the pullRequest state (Open vs Merged vs Declined) from a Pull request, and use it in an [advanced compare condition](https://support.atlassian.com/jira-software-cloud/docs/automation-conditions/)
-        
+
     *   Ensure the commit message contains things you’re looking for, like issue keys, etc.
-        
+
     *   Verify that only certain repos trigger the automation
-        
+
     *   See the full list of [available smart values](https://support.atlassian.com/jira-software-cloud/docs/smart-values-development/)
-        
 
 ### Supported triggers:
 
@@ -74,5 +73,5 @@ We currently support the 5 highlighted triggers depicted below, and we will supp
 
 ### Setup:
 
-[Git Integration + Jira Automation](https://bigbrassband.atlassian.net/wiki/spaces/GIJDC/pages/2126905349)
+[Git Integration + Jira Automation](/git-integration-for-jira-data-center/git-integration-plus-Jira-automation-gij-self-managed)
 
