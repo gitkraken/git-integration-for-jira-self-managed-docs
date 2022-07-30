@@ -7,7 +7,9 @@ taxonomy:
 
 ---
 
-![](/wp-content/uploads/gij-docs-introduction-bbb-overview_708.png)
+<img src='/wp-content/uploads/gij-docs-introduction-bbb-overview_708.png' height=auto width=100% />
+
+<br>
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -15,7 +17,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        This documentation guide covers <b>v4.3</b> features. For more information on released features, see <a href='/git-integration-for-jira-data-center/git-integration-for-jira-data-center-release-notes-gij-self-managed/'>Release notes</a>.
+        This documentation guide covers <b>v4.5</b> features. For more information on released features, see <a href='/git-integration-for-jira-data-center/git-integration-for-jira-data-center-release-notes-gij-self-managed/'>Release notes</a>.
     </div>
     </div>
 </div>
@@ -26,7 +28,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Starting Git Integration for Jira **v4.0**, support for Jira 7.x.x is dropped.
+        Starting Git Integration for Jira <b>v4.0</b>, support for Jira 7.x.x is dropped.
     </div>
     </div>
 </div>
@@ -49,7 +51,7 @@ The Git Integration for Jira app is available for Jira Server, Jira Data Center 
 Click on a topic on the sidebar or continue immediately to the next article by clicking the next topic link at the bottom of the page.
 
 For permissions requirement, see [App platform and system permissions requirement](/git-integration-for-jira-data-center/permissions-gij-self-managed/).
-<br>
+
 <br>
 
 | **Get new product notifications and feature updates from BigBrassBand LLC.** |
