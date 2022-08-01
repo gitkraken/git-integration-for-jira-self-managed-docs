@@ -1,7 +1,7 @@
 # Class GIJException
 
 * Package [com.bigbrassband.jira.git.exceptions](#)
-*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \>  *[Throwable](https://docs.oracle.com/javase/8/docs/api/java/lang/Throwable.html)*  \>  *[Exception](https://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html)* \> [GIJException](#)
+*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \>  *[Throwable](https://docs.oracle.com/javase/8/docs/api/java/lang/Throwable.html)*  \>  *[Exception](https://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html)* \> [GIJException](#) (this page)
 
 All implemented interfaces :
 *  *[Serializable](https://docs.oracle.com/javase/8/docs/api/java/io/Serializable.html)* 

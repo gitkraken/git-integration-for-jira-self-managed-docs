@@ -1,7 +1,7 @@
 # Class Tag
 
 * Package [com.bigbrassband.jira.git.rest.publicmodels](#)
-*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [Tag](#)
+*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [Tag](#) (this page)
 
 Tag information.
 
@@ -62,22 +62,22 @@ Returns the tag Id.
 
 
 ## getCommitterEmail()
-Returns author email.
+Returns the author email.
 
 
 
 ## getCommitterName()
-Returns author name.
+Returns the author name.
 
 
 
 ## getCreationDate()
-Returns a creation date of the tag.
+Returns the creation date of the tag.
 
 
 
 ## getCreationDateFormatted()
-Returns a creation date formatted according to Jira settings and user's timezone.
+Returns the creation date formatted according to Jira settings and user's timezone.
 
 
 
@@ -92,12 +92,12 @@ Returns the tag name.
 
 
 ## getRepoId()
-Returns a repository id the tag belongs to.
+Returns the repository id the tag belongs to.
 
 
 
 ## getRepoName()
-Returns a display name of the tag repository.
+Returns the display name of the tag repository.
 
 
 

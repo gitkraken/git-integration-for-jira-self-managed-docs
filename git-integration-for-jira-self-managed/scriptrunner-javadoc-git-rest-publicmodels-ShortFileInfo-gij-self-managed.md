@@ -1,7 +1,7 @@
 # Class Commit.ShortFileInfo
 
 * Package [com.bigbrassband.jira.git.rest.publicmodels](#)
-*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [ShortFileInfo](#)
+*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [ShortFileInfo](#) (this page)
 
 File changes information.
 
@@ -39,17 +39,17 @@ File changes information.
 
 # Methods
 ## getLinesAdded()
-Returns number of lines added to the file in the git commit.
+Returns the number of lines added to the file in the git commit.
 
 
 
 ## getLinesChanged()
-Returns number of lines changed in the file in the git commit.
+Returns the number of lines changed in the file in the git commit.
 
 
 
 ## getLinesDeleted()
-Returns number of lines deleted from the file in the git commit.
+Returns the number of lines deleted from the file in the git commit.
 
 
 

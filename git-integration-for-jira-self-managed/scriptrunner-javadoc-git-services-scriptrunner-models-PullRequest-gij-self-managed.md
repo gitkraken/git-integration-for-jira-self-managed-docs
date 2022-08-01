@@ -1,7 +1,7 @@
 # Class PullRequest
 
 * Package [com.bigbrassband.jira.git.services.scriptrunner.models](#)
-*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [PullRequest](#)
+*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [PullRequest](#) (this page)
 
 Pull Request information.
 
@@ -66,7 +66,7 @@ Returns a repositry the pull request belongs to.
 
 
 ## getState()
-Returns the pull request state, e.g. OPEN, MERGED, CLOSED.
+Returns the pull request state, e.g. `OPEN`, `MERGED`, `CLOSED`.
 
 
 

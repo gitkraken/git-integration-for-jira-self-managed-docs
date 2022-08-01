@@ -1,7 +1,7 @@
 # Class IndexStatusResponse
 
 * Package [com.bigbrassband.jira.git.rest.publicmodels](#)
-*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  > *com.bigbrassband.jira.git.rest.DefaultRestResponse* > [IndexStatusResponse](#)
+*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> *com.bigbrassband.jira.git.rest.DefaultRestResponse* \> [IndexStatusResponse](#) (this page)
 
 Contains status of a reindex.
 
@@ -36,12 +36,12 @@ Contains status of a reindex.
 
 # Methods
 ## getCompletionPercentage()
-Returns completion percentage.
+Returns the completion percentage.
 
 
 
 ## getErrorsCount()
-Returns number of errors appeared during the reindex.
+Returns the number of errors appeared during the reindex.
 
 
 
@@ -50,12 +50,12 @@ Returns number of errors appeared during the reindex.
 
 
 ## getThreadId()
-Reindex thread id.
+Reindex the thread id.
 
 
 
 ## isFinished()
-Returns whether the reindex is finished.
+Returns whether the reindex is finished (true) or not (false).
 
 
 
@@ -69,7 +69,7 @@ Returns whether the reindex is finished.
 
 
 
-## setMessages(List<ReindexLogEntry>)
+## setMessages(List\<ReindexLogEntry\>)
 
 
 

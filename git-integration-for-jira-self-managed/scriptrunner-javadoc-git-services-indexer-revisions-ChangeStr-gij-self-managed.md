@@ -1,7 +1,7 @@
 # Class CommitIssueChange.ChangeStr
 
 * Package [com.bigbrassband.jira.git.services.indexer.revisions](#)
-*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [ChangeStr](#)
+*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [ChangeStr](#) (this page)
 
 
 
