@@ -28,8 +28,6 @@ All implemented interfaces :
 | `public`  *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  | [getCreateInitialCommit](#getcreateinitialcommit)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getDisplayName](#getdisplayname)() |
 | `public`  *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  | [getEnableFetches](#getenablefetches)() |
-| `public` *com.bigbrassband.jira.git.utils.EncryptedString* | [getEncryptedPassword](#getencryptedpassword)() |
-| `public` *com.bigbrassband.jira.git.utils.EncryptedString* | [getEncryptedPat](#getencryptedpat)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getFileAddedFormat](#getfileaddedformat)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getFileDeletedFormat](#getfiledeletedformat)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getFileModifiedFormat](#getfilemodifiedformat)() |
@@ -44,8 +42,6 @@ All implemented interfaces :
 | `public`  *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  | [getMaxMinsToCommitEmail](#getmaxminstocommitemail)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getMergeRequestFormat](#getmergerequestformat)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getOrigin](#getorigin)() |
-| `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getPassword](#getpassword)() |
-| `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getPat](#getpat)() |
 | `public`  *[Set](https://docs.oracle.com/javase/8/docs/api/java/util/Set.html)* < *[Long](https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html)* > | [getProjectMappingIds](#getprojectmappingids)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getRealRoot](#getrealroot)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getRefSpecCustom](#getrefspeccustom)() |
@@ -207,16 +203,6 @@ Returns the display name of the repository.
 
 
 
-## getEncryptedPassword()
-Returns the encrypted password.
-
-
-
-## getEncryptedPat()
-Returns the encrypted PAT.
-
-
-
 ## getFileAddedFormat()
 
 
@@ -283,16 +269,6 @@ Returns the encrypted PAT.
 
 
 ## getOrigin()
-
-
-
-
-## getPassword()
-
-
-
-
-## getPat()
 
 
 
