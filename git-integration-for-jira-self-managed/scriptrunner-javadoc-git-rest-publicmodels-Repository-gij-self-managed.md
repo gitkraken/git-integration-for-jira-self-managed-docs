@@ -34,7 +34,6 @@ All implemented interfaces :
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getFileDeletedFormat](#getfiledeletedformat)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getFileModifiedFormat](#getfilemodifiedformat)() |
 | `public`  *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  | [getFolderDepth](#getfolderdepth)() |
-| `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getGitLabScanQueryParams](#getgitlabscanqueryparams)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getGroup](#getgroup)() |
 | `public`  *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  | [getId](#getid)() |
 | `public`  *[Date](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)*  | [getInitDate](#getinitdate)() |
@@ -49,16 +48,13 @@ All implemented interfaces :
 | `public`  *[Set](https://docs.oracle.com/javase/8/docs/api/java/util/Set.html)* < *[Long](https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html)* > | [getProjectMappingIds](#getprojectmappingids)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getRealRoot](#getrealroot)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getRefSpecCustom](#getrefspeccustom)() |
-| `public` *com.bigbrassband.jira.git.rest.RepoStatus* | [getRepoStatus](#getrepostatus)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getRepositoryHostingUrl](#getrepositoryhostingurl)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getRepositoryKey](#getrepositorykey)() |
-| `public`  *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  | [getRevisionCacheSize](#getrevisioncachesize)() |
 | `public`  *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  | [getRevisionIndexing](#getrevisionindexing)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getRoot](#getroot)() |
 | `public`  *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  | [getSendCommitEmails](#getsendcommitemails)() |
 | `public`  *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  | [getShowAllTags](#getshowalltags)() |
 | `public`  *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  | [getSshKeyId](#getsshkeyid)() |
-| `public` *com.bigbrassband.jira.git.services.props.GProperties.State* | [getState](#getstate)() |
 | `public`  *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  | [getSupportsBranchCreationApi](#getsupportsbranchcreationapi)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getSupportsPullRequestApi](#getsupportspullrequestapi)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getTagsFilter](#gettagsfilter)() |
@@ -75,9 +71,7 @@ All implemented interfaces :
 | `public`  *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  | [isGlobal](#isglobal)() |
 | `public`  *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  | [isHosted](#ishosted)() |
 | `public`  *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  | [isRefSpecChanges](#isrefspecchanges)() |
-| `public`  *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  | [isRefSpecHeads](#isrefspecheads)() |
 | `public`  *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  | [isRefSpecNotes](#isrefspecnotes)() |
-| `public`  *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  | [isRefSpecTags](#isrefspectags)() |
 | `public`  *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  | [isRequireUserPat](#isrequireuserpat)() |
 | `public`  *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  | [isSmartCommitsEnabled](#issmartcommitsenabled)() |
 | `public`  *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  | [isSourcesDiffViewEnabled](#issourcesdiffviewenabled)() |
@@ -100,7 +94,6 @@ All implemented interfaces :
 | `public` `void` | [setFileDeletedFormat](#setfiledeletedformatstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  fileDeletedFormat) |
 | `public` `void` | [setFileModifiedFormat](#setfilemodifiedformatstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  fileModifiedFormat) |
 | `public` `void` | [setFolderDepth](#setfolderdepthinteger)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  folderDepth) |
-| `public` `void` | [setGitLabScanQueryParams](#setgitlabscanqueryparamsstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  queryParams) |
 | `public` `void` | [setGitViewerEnabled](#setgitviewerenabledboolean)( *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  gitViewerEnabled) |
 | `public` `void` | [setGlobal](#setglobalboolean)( *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  global) |
 | `public` `void` | [setGroup](#setgroupstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  group) |
@@ -119,14 +112,10 @@ All implemented interfaces :
 | `public` `void` | [setRealRoot](#setrealrootstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  realRoot) |
 | `public` `void` | [setRefSpecChanges](#setrefspecchangesboolean)( *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  refSpecChanges) |
 | `public` `void` | [setRefSpecCustom](#setrefspeccustomstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  refSpecCustom) |
-| `public` `void` | [setRefSpecHeads](#setrefspecheadsboolean)( *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  refSpecHeads) |
 | `public` `void` | [setRefSpecNotes](#setrefspecnotesboolean)( *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  refSpecNotes) |
-| `public` `void` | [setRefSpecTags](#setrefspectagsboolean)( *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  refSpecTags) |
-| `public` `void` | [setRepoStatus](#setrepostatusrepostatus)(*com.bigbrassband.jira.git.rest.RepoStatus* repoStatus) |
 | `public` `void` | [setRepositoryHostingUrl](#setrepositoryhostingurlstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  repositoryHostingUrl) |
 | `public` `void` | [setRepositoryKey](#setrepositorykeystring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  repositoryKey) |
 | `public` `void` | [setRequireUserPat](#setrequireuserpatboolean)( *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  requireUserPat) |
-| `public` `void` | [setRevisionCacheSize](#setrevisioncachesizeinteger)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  revisionCacheSize) |
 | `public` `void` | [setRevisionIndexing](#setrevisionindexingboolean)( *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  revisionIndexing) |
 | `public` `void` | [setRoot](#setrootstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  root) |
 | `public` `void` | [setSendCommitEmails](#setsendcommitemailsboolean)( *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  sendCommitEmails) |
@@ -134,7 +123,6 @@ All implemented interfaces :
 | `public` `void` | [setSmartCommitsEnabled](#setsmartcommitsenabledboolean)( *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  smartCommitsEnabled) |
 | `public` `void` | [setSourcesDiffViewEnabled](#setsourcesdiffviewenabledboolean)( *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  sourcesDiffViewEnabled) |
 | `public` `void` | [setSshKeyId](#setsshkeyidinteger)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  sshKeyId) |
-| `public` `void` | [setState](#setstatestate)(*com.bigbrassband.jira.git.services.props.GProperties.State* state) |
 | `public` `void` | [setSupportsBranchCreationApi](#setsupportsbranchcreationapiboolean)( *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  supportsBranchCreationApi) |
 | `public` `void` | [setSupportsPullRequestApi](#setsupportspullrequestapistring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  supportsPullRequestApi) |
 | `public` `void` | [setTagsFilter](#settagsfilterstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  tagsFilter) |
@@ -237,11 +225,6 @@ Returns the encrypted PAT.
 
 
 
-## getGitLabScanQueryParams()
-
-
-
-
 ## getGroup()
 
 
@@ -312,22 +295,12 @@ Returns the encrypted PAT.
 
 
 
-## getRepoStatus()
-
-
-
-
 ## getRepositoryHostingUrl()
 
 
 
 
 ## getRepositoryKey()
-
-
-
-
-## getRevisionCacheSize()
 
 
 
@@ -353,11 +326,6 @@ Returns the encrypted PAT.
 
 
 ## getSshKeyId()
-
-
-
-
-## getState()
 
 
 
@@ -442,17 +410,7 @@ Returns the encrypted PAT.
 
 
 
-## isRefSpecHeads()
-
-
-
-
 ## isRefSpecNotes()
-
-
-
-
-## isRefSpecTags()
 
 
 
@@ -582,11 +540,6 @@ Sets new password for the git repository. Leave blank and use PAT if 2FA is enab
 
 
 
-## setGitLabScanQueryParams(String)
-
-
-
-
 ## setGitViewerEnabled(Boolean)
 
 
@@ -677,22 +630,7 @@ Sets new password for the git repository. Leave blank and use PAT if 2FA is enab
 
 
 
-## setRefSpecHeads(Boolean)
-
-
-
-
 ## setRefSpecNotes(Boolean)
-
-
-
-
-## setRefSpecTags(Boolean)
-
-
-
-
-## setRepoStatus(RepoStatus)
 
 
 
@@ -708,11 +646,6 @@ Sets new password for the git repository. Leave blank and use PAT if 2FA is enab
 
 
 ## setRequireUserPat(Boolean)
-
-
-
-
-## setRevisionCacheSize(Integer)
 
 
 
@@ -748,11 +681,6 @@ Sets new password for the git repository. Leave blank and use PAT if 2FA is enab
 
 
 ## setSshKeyId(Integer)
-
-
-
-
-## setState(GProperties.State)
 
 
 
