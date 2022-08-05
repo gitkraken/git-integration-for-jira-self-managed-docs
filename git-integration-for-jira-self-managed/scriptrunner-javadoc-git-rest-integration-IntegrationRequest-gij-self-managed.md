@@ -52,8 +52,6 @@ This is a POJO object containing an integration properties/settings.
 | `public`  *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  | [getTrustFolderStat](#gettrustfolderstat)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getType](#gettype)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getUsername](#getusername)() |
-| `public` `void` | [initPassword](#initpasswordstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  password) |
-| `public` `void` | [initPat](#initpatstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  pat) |
 | `public` `void` | [setApiFilter](#setapifilterstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  apiFilter) |
 | `public` `void` | [setApiPath](#setapipathstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  apiPath) |
 | `public` `void` | [setAwsRegion](#setawsregionstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  awsRegion) |
@@ -154,12 +152,12 @@ Returns the Origin of the Integration.
 
 
 ## getPassword()
-Returns password encrypted.
+Returns password.
 
 
 
 ## getPat()
-Returns PAT encrypted.
+Returns PAT.
 
 
 
@@ -199,7 +197,7 @@ Returns the property "Send email notifications" value.
 
 
 ## getSmartCommitsEnabled()
-Returns whether smart commits processing for the integration repositories is enabled.
+Returns whether smart commits processing for the integration repositories is enabled (true) or not (false).
 
 
 
@@ -230,25 +228,6 @@ Returns type of the Integration.
 
 ## getUsername()
 Returns username for the git host.
-
-
-
-## initPassword(String)
-Sets password as is. Use the method when none encryption is required.
- <br>
- GIJFacade requires an IntegrationRequest with an encrypted password, so use `setPassword()` instead of `initPassword()`.
-
-### **Parameters**
-* `password`: password
-
-
-
-## initPat(String)
-Sets PAT as is. Use the method when none encryption is required.<br>
-GIJFacade requires an IntegrationRequest with an encrypted PAT, so use `setPat()` instead of `initPat()`.
-
-### **Parameters**
-* `pat`: 
 
 
 
@@ -412,26 +391,10 @@ Sets the Origin of the Integration.<br>
 
 
 ## setPassword(String)
-Sets new password for the git host. Leave blank and use PAT if 2FA is enabled on the git server.
-
- The IN password will be encrypted.
- Use `initPassword()` when none encryption is required.
- <br>
- GIJFacade requires an IntegrationRequest with an encrypted password, so use `setPassword()` instead of `initPassword()`.
-
-### **Parameters**
-* `password`: new password
 
 
 
 ## setPat(String)
-Sets the PAT (personal access token) to be used to connect the Integration. The IN PAT will be encrypted.<br>
- Use `initPat()` when none encryption is required.
- <br>
- GIJFacade requires an IntegrationRequest with an encrypted PAT, so use `setPat()` instead of `initPat()`.
-
-### **Parameters**
-* `pat`: pat
 
 
 
