@@ -58,7 +58,7 @@ How far behind is the branch from the main branch.
 
 
 ## getExternalUrl()
-Link to the btanch on Github/Gitlab/etc..
+Link to the branch on Github/Gitlab/etc..
 
 
 
@@ -68,7 +68,7 @@ Returns the branch name.
 
 
 ## getRepository()
-Returns a repository the branch beelongs to.
+Returns the repository the branch belongs to.
 
 
 
