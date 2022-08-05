@@ -1,3 +1,12 @@
+---
+
+title: ScriptRunner - Start reindex of a repository example
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Example of a script starting reindex of a repository
 
 ```groovy

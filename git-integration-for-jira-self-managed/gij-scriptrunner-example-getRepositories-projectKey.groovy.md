@@ -1,4 +1,13 @@
-# Example of a script using gitlFacade.getRepositories(String issueKey)
+---
+
+title: ScriptRunner - gijFacade getRepositories(String issueKey) example
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
+# Example of a script using gitFacade.getRepositories(String issueKey)
 
 ```groovy
 import com.onresolve.scriptrunner.runner.customisers.WithPlugin

@@ -1,3 +1,12 @@
+---
+
+title: ScriptRunner - Javadocs
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Class PullRequest
 
 * Package [com.bigbrassband.jira.git.services.scriptrunner.models](#)
@@ -66,7 +75,7 @@ Returns a repositry the pull request belongs to.
 
 
 ## getState()
-Returns the pull request state, e.g. OPEN, MERGED, CLOSED.
+Returns the pull request state, e.g. `OPEN`, `MERGED`, `CLOSED`.
 
 
 

@@ -1,3 +1,12 @@
+---
+
+title: ScriptRunner - Create a new branch example
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Example of a script creating a new branch
 
 ```groovy

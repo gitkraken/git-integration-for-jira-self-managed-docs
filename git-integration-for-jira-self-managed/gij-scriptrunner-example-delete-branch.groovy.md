@@ -1,3 +1,12 @@
+---
+
+title: ScriptRunner - Delete a branch example
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Example of a script deleting a branch
 
 ```groovy

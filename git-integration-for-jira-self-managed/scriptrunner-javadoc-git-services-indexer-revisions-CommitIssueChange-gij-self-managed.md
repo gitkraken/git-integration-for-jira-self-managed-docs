@@ -1,7 +1,16 @@
+---
+
+title: ScriptRunner - Javadocs
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Class CommitIssueChange
 
 * Package [com.bigbrassband.jira.git.services.indexer.revisions](#)
-*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [CommitIssueChange](@)
+*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [CommitIssueChange](#)
 
 
 

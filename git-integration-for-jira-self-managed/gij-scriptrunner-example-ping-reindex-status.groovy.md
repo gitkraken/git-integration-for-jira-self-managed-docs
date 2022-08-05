@@ -1,3 +1,12 @@
+---
+
+title: ScriptRunner - Ping reindex status example
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Example of a script pinging reindex status. gijFacade.doReindexSynchronized(repoId) does similar thing.
 
 ```groovy

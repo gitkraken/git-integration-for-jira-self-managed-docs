@@ -1,3 +1,12 @@
+---
+
+title: ScriptRunner - Create/delete/reindex repository
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Example of create/delete/reindex of repository
 
 ```groovy

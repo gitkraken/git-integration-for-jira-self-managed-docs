@@ -1,3 +1,12 @@
+---
+
+title: ScriptRunner - Get branches associated with an issue example
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Example of a script returning branches associated with an issue
 
 ```groovy

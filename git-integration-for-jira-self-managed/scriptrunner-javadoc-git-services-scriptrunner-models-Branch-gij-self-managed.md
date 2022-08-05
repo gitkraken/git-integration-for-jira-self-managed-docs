@@ -1,3 +1,12 @@
+---
+
+title: ScriptRunner - Javadocs
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Class Branch
 
 * Package [com.bigbrassband.jira.git.services.scriptrunner.models](#)
@@ -49,7 +58,7 @@ How far behind is the branch from the main branch.
 
 
 ## getExternalUrl()
-Link to the btanch on github/gitlab/etc..
+Link to the btanch on Github/Gitlab/etc..
 
 
 

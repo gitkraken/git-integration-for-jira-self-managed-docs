@@ -1,3 +1,12 @@
+---
+
+title: ScriptRunner - Connect to an integration example
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Example of a script connecting to an integration
 
 ```groovy
