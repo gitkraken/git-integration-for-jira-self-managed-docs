@@ -1,3 +1,12 @@
+---
+
+title: ScriptRunner - Javadocs
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Class ReindexLogEntry
 
 * Package [com.bigbrassband.jira.git.services.async](#)
@@ -74,7 +83,7 @@ Returns the message.
 
 
 ## isError()
-Returns whether the messages is an error message.
+Returns whether the message is an error message.
 
 
 

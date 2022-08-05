@@ -1,3 +1,12 @@
+---
+
+title: ScriptRunner - gijFacade getRepositories example
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Example of a script using gitlFacade.getRepositories()
 
 ```groovy

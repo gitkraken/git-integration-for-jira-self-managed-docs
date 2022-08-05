@@ -1,3 +1,12 @@
+---
+
+title: ScriptRunner - Connecting to a single repository example
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Example of a script connecting to a plain repository
 
 ```groovy

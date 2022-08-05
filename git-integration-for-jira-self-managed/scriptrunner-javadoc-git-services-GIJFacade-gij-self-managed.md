@@ -1,3 +1,12 @@
+---
+
+title: ScriptRunner - Javadoc - GIJFacade
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Interface GIJFacade
 
 * Package [com.bigbrassband.jira.git.services](#)
@@ -19,7 +28,7 @@ This is the main facade to be used in ScriptRunner scripts.
 | `public` `boolean` | [deleteRepository](#deleterepositoryinteger-boolean)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  repoId, `boolean` deleteFiles) |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [doReindex](#doreindexinteger)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  repoId) |
 | `public` `boolean` | [doReindexSynchronized](#doreindexsynchronizedinteger)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  repoId) |
-| `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[Branch](scriptrunner/models/Branch.html.md)\> | [getBranchesForIssue](#getbranchesforissuestring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  issueKey) |
+| `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[Branch](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-scriptrunner-models-Branch-gij-self-managed)\> | [getBranchesForIssue](#getbranchesforissuestring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  issueKey) |
 | `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[Branch](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-scriptrunner-models-Branch-gij-self-managed)\> | [getBranchesForIssue](#getbranchesforissuestring-boolean)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  issueKey, `boolean` forceAheadBehindCalculation) |
 | `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \< *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* \> | [getCommitIssues](#getcommitissuesinteger-string)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  repoId,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  commitHash) |
 | `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[Commit](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Commit-gij-self-managed)\> | [getCommitsForIssue](#getcommitsforissuestring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  issueKey) |
@@ -27,7 +36,7 @@ This is the main facade to be used in ScriptRunner scripts.
 | `public` [Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed) | [getIntegration](#getintegrationinteger)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  integrationId) |
 | `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed)\> | [getIntegrations](#getintegrations)() |
 | `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[PullRequest](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-scriptrunner-models-PullRequest-gij-self-managed)\> | [getPullRequestsForIssue](#getpullrequestsforissuestring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  issueKey) |
-| `public` [IndexStatusResponse](../rest/publicmodels/IndexStatusResponse.html.md) | [getReindexStatus](#getreindexstatusstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  threadId) |
+| `public` [IndexStatusResponse](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-IndexStatusResponse-gij-self-managed) | [getReindexStatus](#getreindexstatusstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  threadId) |
 | `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed)\> | [getRepositories](#getrepositories)() |
 | `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed)\> | [getRepositories](#getrepositoriesstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  projectKey) |
 | `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[Tag](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Tag-gij-self-managed)\> | [getTagsForIssue](#gettagsforissuestring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  issueKey) |
@@ -39,13 +48,13 @@ This is the main facade to be used in ScriptRunner scripts.
 
 # Methods
 ## createBranch(Integer, String, String)
-Creates a branch in the repository.
- <br>
- Branch can be created in a repository which belongs to an integration, otherwise GIJException is thrown.
- <br><br>
- This is a sync operation.
- <br>
- See [script example](/git-integration-for-jira-self-managed/javadoc/examples/scriptrunner-example-create-branch.groovy).
+
+Creates a branch in the repository.<br>
+
+The branch can be created in a repository which belongs to an integration, otherwise [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) is thrown.
+
+This is a sync operation.<br>
+See [script example](/git-integration-for-jira-self-managed/javadoc/examples/scriptrunner-example-create-branch.groovy).
 
 ### **Parameters**
 * `repoId`: the repository id

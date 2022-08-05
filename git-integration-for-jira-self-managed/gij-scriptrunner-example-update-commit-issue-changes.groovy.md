@@ -1,3 +1,12 @@
+---
+
+title: ScriptRunner - Update commit issue associations example
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Example of a script updating commit issues associations
 
 ```groovy

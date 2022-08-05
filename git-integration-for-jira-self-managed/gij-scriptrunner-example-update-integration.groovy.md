@@ -1,3 +1,12 @@
+---
+
+title: ScriptRunner - Update an integration example
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Example of a script updating an integration
 
 ```groovy

@@ -1,3 +1,12 @@
+---
+
+title: ScriptRunner - Get commits for an issue example
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Example of a script getting commits for an issue
 
 ```groovy
