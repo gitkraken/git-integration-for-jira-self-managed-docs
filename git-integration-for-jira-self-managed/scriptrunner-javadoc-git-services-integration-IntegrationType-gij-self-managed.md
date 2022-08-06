@@ -10,7 +10,7 @@ taxonomy:
 # Class IntegrationType
 
 * Package [com.bigbrassband.jira.git.services.integration](#)
-* [IntegrationType](#)
+* [IntegrationType](#) (this page)
 
 Integration types supported.
 

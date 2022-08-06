@@ -10,7 +10,7 @@ taxonomy:
 # Class IssuesAssociationRequest
 
 * Package [com.bigbrassband.jira.git.rest.publicmodels](#)
-*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [IssuesAssociationRequest](#)
+*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [IssuesAssociationRequest](#) (this page)
 
 
 
