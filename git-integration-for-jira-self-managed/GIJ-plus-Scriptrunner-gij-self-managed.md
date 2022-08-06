@@ -17,21 +17,24 @@ These scripts can be scheduled as a job or to be run on an issue transition with
 
 Which APIs or functions can be used while creating these scripts? See [ScriptRunner API quick reference](https://scriptrunner.adaptavist.com/latest/jira/behaviours-api-quickref.html) at Adaptavist.
 
-The Git Integration for Jira app provides additional Java API ([GIJFacade interface](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-GIJFacade-gij-self-managed/))
-allowing you to operate with git information. The API is close to [Git Integration for Jira REST API](/git-integration-for-jira-data-center/REST-API-gij-self-managed/)
-and provides similar functionality (and more):
-
-*   **Repositories** - get list of repositories connected, create/delete/update a repository
-
-*   **Integrations** - get list of integrations connected, create/delete/update an integration
-
-*   **Reindex** - start a reindex of repository/integration, check whether the reindex is finished 
-
-*   **Commits** - get commits associated with an issue, change a commit issue association
-
-*   **Branches** - get branches associated with an issue, create/delete branch
-
-*   **Tags** - get tags associated with an issue
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The Git Integration for Jira app provides additional Java API (<a href='/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-GIJFacade-gij-self-managed/'>GIJFacade interface</a>) allowing you to operate with git information. The API is close to <a href='/git-integration-for-jira-data-center/REST-API-gij-self-managed/'>Git Integration for Jira REST API</a> and provides similar functionality (and more):<br>
+        <ul>
+            <li><b>Repositories</b> - get list of repositories connected, create/delete/update a repository</li>
+            <li><b>Integrations</b> - get list of integrations connected, create/delete/update an integration</li>
+            <li><b>Reindex</b> - start a reindex of repository/integration, check whether the reindex is finished</li>
+            <li><b>Commits</b> - get commits associated with an issue, change a commit issue association</li>
+            <li><b>Branches</b> - get branches associated with an issue, create/delete branch</li>
+            <li><b>Tags</b> - get tags associated with an issue</li>
+        </ul>
+    </div>
+    </div>
+</div>
 
 <br>
 
@@ -173,7 +176,7 @@ Steps:
             @Override
             public void accept(Commit commit) {
                 log.warn("commit " + commit.getCommitId());
-                log.warn("\t number of files changed - " +commit.getFiles().size());
+                log.warn("\\t number of files changed - " +commit.getFiles().size());
             }
         }
     );
@@ -220,7 +223,7 @@ Steps:
                     .forEach(new Consumer<ShortFileInfo>() {
                         @Override
                         public void accept(ShortFileInfo file) {
-                            log.warn("\t\t" + file.getPath());
+                            log.warn("\\t\\t" + file.getPath());
                         }
                     });
             }
@@ -240,7 +243,7 @@ Looking back at the original script, see how it was changed:
 
 *   We've added more imports to avoid compilation error
 
-*   We've called `gijFacade.getCommitsForIssue("TST-4", true)` instead of `gijFacade.getCommitsForIssue("TST-4")`. Otherwise, the list of files will return empty.
+*   We've called `gijFacade.getCommitsForIssue("TST-4", true)` instead of `gijFacade.getCommitsForIssue("TST-4")`. Otherwise, the list of files will be empty.
 
 *   We've looped throughout the commits:
 
@@ -266,7 +269,7 @@ Looking back at the original script, see how it was changed:
         .forEach(new Consumer<ShortFileInfo>() {
             @Override
             public void accept(ShortFileInfo file) {
-                log.warn("\t\t" + file.getPath());
+                log.warn("\\t\\t" + file.getPath());
             }
         });
     ...

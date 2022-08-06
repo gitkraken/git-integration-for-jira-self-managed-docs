@@ -47,7 +47,7 @@ Learn how to create branches, merge/pull requests by watching this video. These 
 
 ## Integration
 
-Quick and easy! Learn about the basics of integrating git repositories to Jira Data Center and associating git commits to a Jira issue. Click on a link to see specific steps for the selected git host.
+Quick and easy! Learn about the basics of integrating git repositories to Jira Data Center/Server and associating git commits to a Jira issue. Click on a link below to see specific steps for the selected git host.
 
 **[![](/wp-content/uploads/gij-vid-play-icon-20.png) GitHub.com »](https://bigbrassband.wistia.com/medias/8jtnqzp79y)**
 
@@ -99,7 +99,7 @@ Learn how to configure webhooks for GitHub git hosts.
 
 **[![](/wp-content/uploads/gij-vid-play-icon-20.png) GitLab.com Personal Access Tokens »](https://bigbrassband.wistia.com/medias/pugrp72ylq)**
 
-Setup [GitLab.com](http://GitLab.com) personal access tokens and scopes required for Git for Jira Data Center integration. This video is applicable to GitLab git hosts.
+Setup GitLab.com personal access tokens and scopes required for Git for Jira Data Center integration. This video is applicable to GitLab git hosts.
 
 **[![](/wp-content/uploads/gij-vid-play-icon-20.png) GitLab CE/EE Personal Access Tokens »](https://bigbrassband.wistia.com/medias/pugrp72ylq)**
 

@@ -11,11 +11,16 @@ This setting is part of the [General Settings](/git-integration-for-jira-data-ce
 
 These group of settings affect how new commits are updated, how tags are displayed on Jira issues, and give administrators control if commit information is shown on JQL searches and Git activity stream or not.
 
-VERSION 3.9+ GitKraken deep linking integration is implemented.
+**VERSION 3.9+** GitKraken deep linking integration is implemented.
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207795905/gitserver-gencfg-git-integration-options.png?version=1&modificationDate=1647771632980&cacheVersion=1&api=v2&width=564&height=334)
 
 **Settings index:**
+- [GitKraken integration](#gitkraken-integration)
+- [Jira issue updates](#jira-issue-updates)
+- [Issue git integration panel](#issue-git-integration-panel)
+- [JQL searching](#jql-searching)
+- [Git activity stream](#git-activity-stream)
 
 * * *
 
@@ -38,7 +43,6 @@ Disabling this setting will improve Jira performance.
 For more information, see [Jira git integration development panel](/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed).
 
 Disabling this setting will improve Jira performance.
-
 
 **Calculate and show Git tags in the Git integration panel**  –  Enable/disable the setting to have Git Integration for Jira app calculate and show the Git tags in the Git Integration panel.
 

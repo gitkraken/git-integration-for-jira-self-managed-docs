@@ -1,3 +1,12 @@
+---
+
+title: ScriptRunner - Javadocs
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Class Repository
 
 * Package [com.bigbrassband.jira.git.rest.publicmodels](#)
@@ -11,6 +20,7 @@ All implemented interfaces :
 
 ## Summary
 #### Constructors
+
 | Visibility | Signature |
 | --- | --- |
 | `public` | [Repository](#repository)() |
@@ -18,6 +28,7 @@ All implemented interfaces :
 
 
 #### Methods
+
 | Type and modifiers | Method signature |
 | --- | --- |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getApiFilter](#getapifilter)() |

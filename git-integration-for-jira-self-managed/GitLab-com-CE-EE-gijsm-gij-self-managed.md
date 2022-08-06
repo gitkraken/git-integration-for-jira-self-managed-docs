@@ -19,7 +19,7 @@ taxonomy:
 </div>
 <br>
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/80805889/image-20211206-094843.png?version=1&modificationDate=1638795318150&cacheVersion=1&api=v2&width=340&height=77)
+<img src='/wp-content/uploads/gitlab-ceee-integration-banner-logo.png' height=120 width=528 />
 
 <br>
 

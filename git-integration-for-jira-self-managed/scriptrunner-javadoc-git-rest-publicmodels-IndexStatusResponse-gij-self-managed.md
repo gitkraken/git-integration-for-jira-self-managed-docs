@@ -1,7 +1,17 @@
+---
+
+title: ScriptRunner - Javadocs
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Class IndexStatusResponse
 
 * Package [com.bigbrassband.jira.git.rest.publicmodels](#)
-*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> *com.bigbrassband.jira.git.rest.DefaultRestResponse* \> [IndexStatusResponse](#) (this page)
+*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> *com.bigbrassband.jira.git.rest.DefaultRestResponse* \> [IndexStatusResponse](#)
+
 
 Contains status of a reindex.
 
