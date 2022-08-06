@@ -1,3 +1,12 @@
+---
+
+title: Javadocs example - Create a new pull/merge request
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Example of a script creating a new pull request
 
 ```groovy

@@ -10,7 +10,7 @@ taxonomy:
 # Class Branch
 
 * Package [com.bigbrassband.jira.git.services.scriptrunner.models](#)
-*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  > [Branch](#)
+*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [Branch](#)
 
 Branch information.
 
@@ -19,8 +19,8 @@ Branch information.
 #### Constructors
 | Visibility | Signature |
 | --- | --- |
-| `public` | [Branch](#branchstring-string-repository)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  name,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  externalUrl, [Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed) repository) |
-| `public` | [Branch](#branchstring-string-int-int-repository)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  name,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  externalUrl, `int` ahead, `int` behind, [Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed) repository) |
+| `public` | [Branch](#branchstring-string-repository)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  name,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  externalUrl, [Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed/) repository) |
+| `public` | [Branch](#branchstring-string-int-int-repository)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  name,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  externalUrl, `int` ahead, `int` behind, [Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed/) repository) |
 
 #### Methods
 | Type and modifiers | Method signature |
@@ -29,7 +29,7 @@ Branch information.
 | `public` `int` | [getBehind](#getbehind)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getExternalUrl](#getexternalurl)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getName](#getname)() |
-| `public` [Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed) | [getRepository](#getrepository)() |
+| `public` [Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed/) | [getRepository](#getrepository)() |
 | `public` `boolean` | [isAheadBehindPresented](#isaheadbehindpresented)() |
 
 
@@ -41,8 +41,6 @@ Branch information.
 
 
 ## Branch(String, String, int, int, Repository)
-
-
 
 
 

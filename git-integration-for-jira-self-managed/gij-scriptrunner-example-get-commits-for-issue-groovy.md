@@ -1,3 +1,12 @@
+---
+
+title: Javadocs example - Get commits for an issue
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Example of a script getting commits for an issue
 
 ```groovy

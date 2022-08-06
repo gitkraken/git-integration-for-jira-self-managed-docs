@@ -1,3 +1,12 @@
+---
+
+title: Javadocs example - Get repositories connected with the project
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Example of a script using gitlFacade.getRepositories(String issueKey)
 
 ```groovy

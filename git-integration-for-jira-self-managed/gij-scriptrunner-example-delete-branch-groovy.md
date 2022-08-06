@@ -1,3 +1,12 @@
+---
+
+title: Javadocs example - Deleting a branch
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Example of a script deleting a branch
 
 ```groovy

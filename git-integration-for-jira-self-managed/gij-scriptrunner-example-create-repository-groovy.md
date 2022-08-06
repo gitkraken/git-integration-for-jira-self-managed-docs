@@ -1,3 +1,12 @@
+---
+
+title: Javadocs example - Connect to a plain repository
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Example of a script connecting to a plain repository
 
 ```groovy

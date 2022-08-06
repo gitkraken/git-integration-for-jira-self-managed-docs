@@ -1,3 +1,12 @@
+---
+
+title: Javadocs example - Get branches associated with an issue
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Example of a script returning branches associated with an issue
 
 ```groovy

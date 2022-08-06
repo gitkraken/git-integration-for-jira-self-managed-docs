@@ -1,3 +1,12 @@
+---
+
+title: Javadocs example - Get tags
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Example of a script getting tags
 
 ```groovy

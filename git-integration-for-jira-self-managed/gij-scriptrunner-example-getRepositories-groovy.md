@@ -1,3 +1,12 @@
+---
+
+title: Javadocs example - Get repositories
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Example of a script using gitlFacade.getRepositories()
 
 ```groovy

@@ -1,3 +1,12 @@
+---
+
+title: Javadocs example - Get reindex status
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Example of a script pinging reindex status. gijFacade.doReindexSynchronized(repoId) does similar thing.
 
 ```groovy

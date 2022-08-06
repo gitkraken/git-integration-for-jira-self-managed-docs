@@ -1,3 +1,12 @@
+---
+
+title: Javadocs example - Create a new branch
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Example of a script creating a new branch
 
 ```groovy

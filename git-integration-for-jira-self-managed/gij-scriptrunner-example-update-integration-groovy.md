@@ -1,3 +1,12 @@
+---
+
+title: Javadocs example - Update an integration
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Example of a script updating an integration
 
 ```groovy

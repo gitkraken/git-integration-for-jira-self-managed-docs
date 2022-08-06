@@ -1,3 +1,12 @@
+---
+
+title: Javadocs example - Update commmit issues associations
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 # Example of a script updating commit issues associations
 
 ```groovy
