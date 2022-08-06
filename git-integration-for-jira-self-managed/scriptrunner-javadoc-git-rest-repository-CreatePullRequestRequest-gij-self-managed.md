@@ -10,7 +10,7 @@ taxonomy:
 # Class CreatePullRequestRequest
 
 * Package [com.bigbrassband.jira.git.rest.repository](#)
-*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [CreatePullRequestRequest](#)
+*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [CreatePullRequestRequest](#) (this page)
 
 
 

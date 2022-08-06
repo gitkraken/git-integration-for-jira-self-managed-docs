@@ -10,7 +10,7 @@ taxonomy:
 # Class IntegrationRequest
 
 * Package [com.bigbrassband.jira.git.rest.integration](#)
-*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [IntegrationRequest](#)
+*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [IntegrationRequest](#) (this page)
 
 This is a POJO object containing an integration properties/settings.
 
@@ -92,46 +92,44 @@ This is a POJO object containing an integration properties/settings.
 
 
 
-<br>
-
 # Methods
 ## getApiFilter()
-Returns JMESPath Filter property of the Integration.
+Returns the JMESPath Filter property of the integration.
 
 
 
 ## getApiPath()
-Returns Custom API Path property of the Integration.
+Returns the Custom API Path property of the integration.
 
 
 
 ## getAwsRegion()
-Returns AWS region property. It is used for AWS integrations only.
+Returns the AWS region property. Used for AWS integrations only.
 
 
 
 ## getDisableSslVerification()
-Returns SSL Verify setting.
+Returns the SSL Verify setting.
 
 
 
 ## getDisabled()
-Returns whether the Integration is disabled.
+Returns the whether the integration is disabled.
 
 
 
 ## getDisplayName()
-Returns the Display Name of the Integration.
+Returns the display name of the integration.
 
 
 
 ## getFolderDepth()
-Returns Folder Depth property. Is used for tracked folders only.
+Returns the Folder Depth property. Used for tracked folders only.
 
 
 
 ## getGitViewerEnabled()
-Returns whether Repository Browser feature is enabled.<br>
+Returns whether Repository Browser feature is enabled (true) or not (false).<br>
 For more information, see section, [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed).
 
 
@@ -147,7 +145,7 @@ Returns the property "Max commit age in minutes" value.
 
 
 ## getOrigin()
-Returns the Origin of the Integration.
+Returns the Origin of the integration.
 
 
 
@@ -162,7 +160,7 @@ Returns PAT.
 
 
 ## getProjectMappingIds()
-Returns numeric projects IDs associated with the repository.
+Returns the numeric projects IDs associated with the repository.
 
 
 
@@ -182,7 +180,7 @@ Returns numeric projects IDs associated with the repository.
 
 
 ## getRequireUserPat()
-Returns value of Require User PAT property.
+Returns the value of the Require User PAT property.
 
 
 
@@ -212,7 +210,7 @@ Returns whether smart commits processing for the integration repositories is ena
 
 
 ## getTfsCollection()
-Returns TFS Collection property. It is used for Microsoft integrations only.
+Returns the TFS Collection property. Used for Microsoft integrations only.
 
 
 
@@ -222,22 +220,21 @@ Returns TFS Collection property. It is used for Microsoft integrations only.
 
 
 ## getType()
-Returns type of the Integration.
+Returns the type of the integration.
 
 
 
 ## getUsername()
-Returns username for the git host.
+Returns the username for the git host.
 
 
 
 ## setApiFilter(String)
-Sets JMESPath Filter property.
+Sets the JMESPath Filter property.
 It is a [**JMESPath**](http://jmespath.org/) filter expression. The expression will be used to filter API results such as repository names, etc.<br>
 For more information, see article [Working with JMESPath filters](/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed/).
 
-`GIJFacade.createIntegration()`: Optional.
-<br>
+`GIJFacade.createIntegration()`: Optional.<br>
 `GIJFacade.updateIntegration()`: Optional.
 
 ### **Parameters**
@@ -249,8 +246,7 @@ For more information, see article [Working with JMESPath filters](/git-integrati
 Sets Custom API Path property. The integration will use the relative REST API path starting with "/" to retrieve the list of tracked repositories.<br>
 For more information, see [Working with Custom API path](/git-integration-for-jira-data-center/working-with-custom-api-path-gij-self-managed/)
 
-`GIJFacade.createIntegration()`: Optional.
-<br>
+`GIJFacade.createIntegration()`: Optional.<br>
 `GIJFacade.updateIntegration()`: Optional.
 
 ### **Parameters**
@@ -281,8 +277,7 @@ Sets AWS region; where CodeCommit repositories are located. The list of regions 
  * me-south-1
  * sa-east-1
 
-`GIJFacade.createIntegration()`: Optional. Required for AWS Integration creation.
-<br>
+`GIJFacade.createIntegration()`: Optional. Required for AWS integration creation.<br>
 `GIJFacade.updateIntegration()`: Optional.
 
 ### **Parameters**
@@ -293,10 +288,9 @@ Sets AWS region; where CodeCommit repositories are located. The list of regions 
 ## setDisableSslVerification(Boolean)
 Sets SSL Verify setting.
 
-The SSL Verify setting is set to Enabled by default. If set to disabled, the Git Integration for Jira app will ignore verification of SSL certificates when connecting to a git server.
+The SSL Verify setting is set to `Enabled` by default. If set to `Disabled`, the Git Integration for Jira app will ignore verification of SSL certificates when connecting to a git server.
 
-GIJFacade.createIntegration(): Optional. The default value for this setting is *false*.
-<br>
+`GIJFacade.createIntegration()`: Optional. The default value for this setting is _**false**_.<br>
 `GIJFacade.updateIntegration()`: Optional.
 
 ### **Parameters**
@@ -305,11 +299,11 @@ GIJFacade.createIntegration(): Optional. The default value for this setting is *
 
 
 ## setDisabled(Boolean)
-Sets the disabled flag for the Integration.
+Sets the disabled flag for the integration.
 
-Set the repository status to updated (enabled) or disabled. If left blank, the default setting for this field is *false*.
+Set the repository status to updated (enabled) or disabled. If left blank, the default setting for this field is _**false**_.
 
-`GIJFacade.createIntegration()`: Optional. The default value is *false*
+`GIJFacade.createIntegration()`: Optional. The default value is _**false**_
 <br>
 `GIJFacade.updateIntegration()`: Optional.
 
@@ -319,10 +313,10 @@ Set the repository status to updated (enabled) or disabled. If left blank, the d
 
 
 ## setDisplayName(String)
-Sets the Display Name of the Integration.
+Sets the display name of the integration.<br>
 This is the name that will appear in the Git Integration for Jira app repositories list.
 
-`GIJFacade.createIntegration()`: Optional. Is autogenerated by default.
+`GIJFacade.createIntegration()`: Optional. Autogenerated by default.
 <br>
 `GIJFacade.updateIntegration()`: Optional.
 
@@ -332,10 +326,9 @@ This is the name that will appear in the Git Integration for Jira app repositori
 
 
 ## setFolderDepth(Integer)
-Sets Folder Depth property. Is used for tracked folders only.
+Sets Folder Depth property. Used for tracked folders only.
 
-`GIJFacade.createIntegration()`: Optional. The default value is 1.
-<br>
+`GIJFacade.createIntegration()`: Optional. The default value is 1.<br>
 `GIJFacade.updateIntegration()`: Optional.
 
 ### **Parameters**
@@ -346,8 +339,7 @@ Sets Folder Depth property. Is used for tracked folders only.
 ## setGitViewerEnabled(Boolean)
 Enables or disables Repository Browser feature.
 
- `GIJFacade.createIntegration()`: Optional. Is true by default.
- <br>
+ `GIJFacade.createIntegration()`: Optional. Is true by default.<br>
  `GIJFacade.updateIntegration()`: Optional.
 
 ### **Parameters**
@@ -364,10 +356,9 @@ If set to true, the projectMappingIds parameter is ignored. Otherwise, the proje
 
 
 ## setMaxMinsToCommitEmail(Integer)
-Sets the property "Max commit age in minutes" for the Integration. Email notification for commits
+Sets the property "Max commit age in minutes" for the integration email notification for commits.
 
- `GIJFacade.createIntegration()`: Optional. The default value is 1440 minutes.
- <br>
+ `GIJFacade.createIntegration()`: Optional. The default value is **1440 minutes**.<br>
  `GIJFacade.updateIntegration()`: Optional.
 
 ### **Parameters**
@@ -376,14 +367,13 @@ Sets the property "Max commit age in minutes" for the Integration. Email notific
 
 
 ## setOrigin(String)
-Sets the Origin of the Integration.<br>
- This is the URL to the hosted git service used on the project.
+Sets the Origin of the integration.<br>
+This is the URL to the hosted git service used on the project.
 
- For example, you might host your repository on GitHub, Beanstalk or your own server.
+For example, you might host your repository on GitHub, Beanstalk or your own server.
 
- `GIJFacade.createIntegration()`: Required.
- <br>
- `GIJFacade.updateIntegration()`: Optional.
+`GIJFacade.createIntegration()`: Required.<br>
+`GIJFacade.updateIntegration()`: Optional.
 
 ### **Parameters**
 * `origin`: the new origin.
@@ -401,14 +391,12 @@ Sets the Origin of the Integration.<br>
 ## setProjectMappingIds(Set\<Long\>)
 Sets numeric projects IDs associated with the repository.
 
- This field accepts list of comma separated project IDs for project mapping. Trailing spaces are ignored
- _(equivalent to unchecking the_ *Associate to All Projects* _checkbox in the Advanced Setup dialog)_.
- <br>
- _Example:_ `“projectMappingIds”: [10000,10100]`
+This field accepts list of comma separated project IDs for project mapping. Trailing spaces are ignored _(equivalent to unchecking the_ *Associate to All Projects* _checkbox in the Advanced Setup dialog)_. 
 
- `GIJFacade.createIntegration()`: Optional.
- <br>
- `GIJFacade.updateIntegration()`: Optional.
+_Example:_ `“projectMappingIds”: [10000,10100]`
+
+`GIJFacade.createIntegration()`: Optional.<br>
+`GIJFacade.updateIntegration()`: Optional.
 
 ### **Parameters**
 * `projectMappingIds`: new list of projects associated with the repository
@@ -433,9 +421,8 @@ Sets numeric projects IDs associated with the repository.
 ## setRequireUserPat(Boolean)
 Setting this parameter to true will require users to specify their own PAT for branch and pull/merge request management.
 
- `GIJFacade.createIntegration()`: Optional. Is false by default.
- <br>
- `GIJFacade.updateIntegration()`: Optional.
+`GIJFacade.createIntegration()`: Optional. Is false by default.<br>
+`GIJFacade.updateIntegration()`: Optional.
 
 ### **Parameters**
 * `requireUserPat`: new value for "Require User PAT" parameter
@@ -448,10 +435,9 @@ Setting this parameter to true will require users to specify their own PAT for b
 
 
 ## setSendCommitEmails(Boolean)
-Sets the property "Send email notifications" for the Integration.
+Sets the property "Send email notifications" for the integration.
 
- `GIJFacade.createIntegration()`: Optional. The default value is *false*???
- <br>
+`GIJFacade.createIntegration()`: Optional. The default value is _**false**_.<br>
  `GIJFacade.updateIntegration()`: Optional.
 
 ### **Parameters**
@@ -461,10 +447,9 @@ Sets the property "Send email notifications" for the Integration.
 
 ## setSmartCommitsEnabled(Boolean)
 Enables or disables smart commits processing.
- <br><br>
- `GIJFacade.createIntegration()`: Optional. Is true by default.
- <br>
- `GIJFacade.updateIntegration()`: Optional.
+
+`GIJFacade.createIntegration()`: Optional. Is true by default.<br>
+`GIJFacade.updateIntegration()`: Optional.
 
 ### **Parameters**
 * `smartCommitsEnabled`: new value for "Smart Commits" parameter
@@ -482,11 +467,10 @@ Enables or disables smart commits processing.
 
 
 ## setTfsCollection(String)
-Sets TFS Collection property. It is used for Microsoft integrations only.
+Sets TFS Collection property. Used for Microsoft integrations only.
 
- `GIJFacade.createIntegration()`: Optional.
- <br>
- `GIJFacade.updateIntegration()`: Optional.
+`GIJFacade.createIntegration()`: Optional.<br>
+`GIJFacade.updateIntegration()`: Optional.
 
 ### **Parameters**
 * `tfsCollection`: new collection
@@ -499,7 +483,7 @@ Sets TFS Collection property. It is used for Microsoft integrations only.
 
 
 ## setType(String)
-Sets type of the Integration. Available values are the following:
+Sets type of the integration. Available values are the following:
 
  * GITHUB - integration with Github.com
  * GITHUB_SERVER - integration with GitHub Enterprise
@@ -514,9 +498,8 @@ Sets type of the Integration. Available values are the following:
  * AWS - integration with AWS CodeCommit
  * GERRIT - integration with Gerrit Code Review
 
- `GIJFacade.createIntegration()`: Required.
- <br>
- `GIJFacade.updateIntegration()`: is not allowed to be changed.
+`GIJFacade.createIntegration()`: Required.<br>
+`GIJFacade.updateIntegration()`: is not allowed to be changed.
 
 ### **Parameters**
 * `type`: type of a new integration
@@ -528,7 +511,6 @@ Sets as username for the git host. Leave blank and use PAT if 2FA is enabled on 
 
 ### **Parameters**
 * `username`: 
-
 
 
 
