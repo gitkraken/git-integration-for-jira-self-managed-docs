@@ -1,13 +1,11 @@
 ---
 
-title: ScriptRunner - Javadoc - GIJFacade
+title: ScriptRunner - Javadoc - Interface GIJFacade
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-
-# Interface GIJFacade
 
 * Package [com.bigbrassband.jira.git.services](#)
 * [GIJFacade](#) (this page)
@@ -19,30 +17,30 @@ This is the main facade to be used in ScriptRunner scripts.
 #### Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| `public` [Branch](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-scriptrunner-models-Branch-gij-self-managed) | [createBranch](#createbranchinteger-string-string)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  repoId,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  newBranchName,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  baseBranchOrTag) |
-| `public` [Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed) | [createIntegration](#createintegrationintegrationrequest)([IntegrationRequest](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-integration-IntegrationRequest-gij-self-managed) params) |
-| `public` [PullRequest](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-scriptrunner-models-PullRequest-gij-self-managed) | [createPullRequest](#createpullrequestinteger-string-string-string-string)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  repoId,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  sourceBranchName,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  targetBranchName,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  title,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  issueKey) |
-| `public` [Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed) | [createRepository](#createrepositoryrepository)([Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed) params) |
+| `public` [Branch](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-scriptrunner-models-Branch-gij-self-managed/) | [createBranch](#createbranchinteger-string-string)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  repoId,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  newBranchName,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  baseBranchOrTag) |
+| `public` [Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed/) | [createIntegration](#createintegrationintegrationrequest)([IntegrationRequest](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-integration-IntegrationRequest-gij-self-managed/) params) |
+| `public` [PullRequest](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-scriptrunner-models-PullRequest-gij-self-managed/) | [createPullRequest](#createpullrequestinteger-string-string-string-string)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  repoId,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  sourceBranchName,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  targetBranchName,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  title,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  issueKey) |
+| `public` [Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed/) | [createRepository](#createrepositoryrepository)([Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed/) params) |
 | `public` `void` | [deleteBranch](#deletebranchinteger-string)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  repoId,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  branchName) |
 | `public` `boolean` | [deleteIntegration](#deleteintegrationinteger-boolean)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  repoId, `boolean` deleteFiles) |
 | `public` `boolean` | [deleteRepository](#deleterepositoryinteger-boolean)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  repoId, `boolean` deleteFiles) |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [doReindex](#doreindexinteger)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  repoId) |
 | `public` `boolean` | [doReindexSynchronized](#doreindexsynchronizedinteger)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  repoId) |
-| `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[Branch](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-scriptrunner-models-Branch-gij-self-managed)\> | [getBranchesForIssue](#getbranchesforissuestring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  issueKey) |
-| `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[Branch](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-scriptrunner-models-Branch-gij-self-managed)\> | [getBranchesForIssue](#getbranchesforissuestring-boolean)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  issueKey, `boolean` forceAheadBehindCalculation) |
+| `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[Branch](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-scriptrunner-models-Branch-gij-self-managed/)\> | [getBranchesForIssue](#getbranchesforissuestring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  issueKey) |
+| `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[Branch](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-scriptrunner-models-Branch-gij-self-managed/)\> | [getBranchesForIssue](#getbranchesforissuestring-boolean)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  issueKey, `boolean` forceAheadBehindCalculation) |
 | `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \< *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* \> | [getCommitIssues](#getcommitissuesinteger-string)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  repoId,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  commitHash) |
-| `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[Commit](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Commit-gij-self-managed)\> | [getCommitsForIssue](#getcommitsforissuestring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  issueKey) |
-| `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[Commit](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Commit-gij-self-managed)\> | [getCommitsForIssue](#getcommitsforissuestring-boolean)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  issueKey,  *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  showFiles) |
-| `public` [Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed) | [getIntegration](#getintegrationinteger)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  integrationId) |
-| `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed)\> | [getIntegrations](#getintegrations)() |
-| `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[PullRequest](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-scriptrunner-models-PullRequest-gij-self-managed)\> | [getPullRequestsForIssue](#getpullrequestsforissuestring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  issueKey) |
-| `public` [IndexStatusResponse](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-IndexStatusResponse-gij-self-managed) | [getReindexStatus](#getreindexstatusstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  threadId) |
-| `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed)\> | [getRepositories](#getrepositories)() |
-| `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed)\> | [getRepositories](#getrepositoriesstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  projectKey) |
-| `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[Tag](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Tag-gij-self-managed)\> | [getTagsForIssue](#gettagsforissuestring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  issueKey) |
-| `public` `void` | [updateCommitIssueChanges](#updatecommitissuechangesinteger-string-issuesassociationrequest)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  repoId,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  commitHash, [IssuesAssociationRequest](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-IssuesAssociationRequest) request) |
-| `public` [Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed) | [updateIntegration](#updateintegrationinteger-integrationrequest)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  id, [IntegrationRequest](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-integration-IntegrationRequest-gij-self-managed) repositoryWithNewParams) |
-| `public` [Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed) | [updateRepository](#updaterepositoryrepository)([Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed) newParams) |
+| `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[Commit](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Commit-gij-self-managed/)\> | [getCommitsForIssue](#getcommitsforissuestring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  issueKey) |
+| `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[Commit](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Commit-gij-self-managed/)\> | [getCommitsForIssue](#getcommitsforissuestring-boolean)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  issueKey,  *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  showFiles) |
+| `public` [Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed/) | [getIntegration](#getintegrationinteger)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  integrationId) |
+| `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed/)\> | [getIntegrations](#getintegrations)() |
+| `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[PullRequest](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-scriptrunner-models-PullRequest-gij-self-managed/)\> | [getPullRequestsForIssue](#getpullrequestsforissuestring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  issueKey) |
+| `public` [IndexStatusResponse](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-IndexStatusResponse-gij-self-managed/) | [getReindexStatus](#getreindexstatusstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  threadId) |
+| `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed/)\> | [getRepositories](#getrepositories)() |
+| `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed/)\> | [getRepositories](#getrepositoriesstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  projectKey) |
+| `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \<[Tag](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Tag-gij-self-managed/)\> | [getTagsForIssue](#gettagsforissuestring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  issueKey) |
+| `public` `void` | [updateCommitIssueChanges](#updatecommitissuechangesinteger-string-issuesassociationrequest)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  repoId,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  commitHash, [IssuesAssociationRequest](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-IssuesAssociationRequest/) request) |
+| `public` [Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed/) | [updateIntegration](#updateintegrationinteger-integrationrequest)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  id, [IntegrationRequest](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-integration-IntegrationRequest-gij-self-managed/) repositoryWithNewParams) |
+| `public` [Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed/) | [updateRepository](#updaterepositoryrepository)([Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed/) newParams) |
 
 
 
@@ -51,10 +49,10 @@ This is the main facade to be used in ScriptRunner scripts.
 
 Creates a branch in the repository.<br>
 
-The branch can be created in a repository which belongs to an integration, otherwise [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) is thrown.
+The branch can be created in a repository which belongs to an integration, otherwise [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) is thrown.
 
 This is a sync operation.<br>
-See [script example](/git-integration-for-jira-self-managed/javadoc/examples/scriptrunner-example-create-branch.groovy).
+See [script example](/git-integration-for-jira-self-managed/javadoc/examples/scriptrunner-example-create-branch-groovy/).
 
 
 ### **Parameters**
@@ -66,7 +64,7 @@ See [script example](/git-integration-for-jira-self-managed/javadoc/examples/scr
 branch created
 
 ### **Throws**
-* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) 
+* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 
 
 
@@ -74,13 +72,13 @@ branch created
 Connect to an integration.
 
 This is an async operation.<br>
-See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-create-integration-groovy).
+See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-create-integration-groovy/).
 
 ### **Parameters**
 * `params`: params for the new integration
 
 ### **Throws**
-* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) 
+* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 
 
 
@@ -88,7 +86,7 @@ See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-exam
 Creates a new pull request.
 
 This is a sync operation.<br>
-See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-create-pull-request-groovy).
+See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-create-pull-request-groovy/).
 
 ### **Parameters**
 * `repoId`: a repository id where the new pull request will be created
@@ -100,7 +98,7 @@ See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-exam
 ### **Returns**
 
 ### **Throws**
-* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) 
+* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 
 
 
@@ -108,8 +106,8 @@ See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-exam
 Connects a new repository.
 
 This is an async operation.<br>
-See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-create-repository-groovy).<br>
-See another [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-create-delete-reindex-repository-groovy).
+See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-create-repository-groovy-).<br>
+See another [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-create-delete-reindex-repository-groovy/).
 
 ### **Parameters**
 * `params`: parameters of the new repository including origin, displayName, etc..
@@ -117,7 +115,7 @@ See another [script example](/git-integration-for-jira-data-center/gij-scriptrun
 ### **Throws**
 * *org.eclipse.jgit.api.errors.GitAPIException* 
 *  *[IOException](https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html)*  
-* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) 
+* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 
 
 
@@ -126,14 +124,14 @@ Deletes the branch.<br>
 Branch can be deleted from a repository which belongs to an integration, otherwise GIJException is thrown.
 
 This is an async operation.<br>
-See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-delete-branch-groovy).
+See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-delete-branch-groovy/).
 
 ### **Parameters**
 * `repoId`: the repository id
 * `branchName`: a name of the branch to be deleted
 
 ### **Throws**
-* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) 
+* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 
 
 
@@ -147,7 +145,7 @@ This is a sync operation.
 * `deleteFiles`: indicates whether the repositories folders are also deleted from the Jira server. If set to true, the repositories folders is deleted from the Jira server.
 
 ### **Throws**
-* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) 
+* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 
 
 
@@ -155,7 +153,7 @@ This is a sync operation.
 Deletes the existing repository from the Git Integration for Jira app repository configuration.
 
 This is a sync operation. <br>
-See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-create-delete-reindex-repository-groovy).
+See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-create-delete-reindex-repository-groovy/).
 
 ### **Parameters**
 * `repoId`: this is the ID of the existing repository. For example, `3`.
@@ -165,7 +163,7 @@ See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-exam
 - true always
 
 ### **Throws**
-* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) 
+* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 
 
 
@@ -174,7 +172,7 @@ Starts the reindex process in a separate thread and returns the result immediate
 Reindex operation can be executed only by admin or a user having access to all repositories.
 
 This is an async operation. <br>
-See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-start-reindex-groovy).
+See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-start-reindex-groovy/).
 
 ### **Parameters**
 * `repoId`: repository id to be reindexed or null to reindex all
@@ -183,7 +181,7 @@ See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-exam
 - indexer thread ID (UUID), ex. "eafe58fc-d8de-42ff-8815-6fe5860b38d2"
 
 ### **Throws**
-* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) 
+* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 
 
 
@@ -192,7 +190,7 @@ Reindex a repository and waits for the end of the reindex.<br>
 When 10 minutes was not enough to wait for reindexing to finish, then GIJException is thrown.
 
 This is a sync operation.<br>
-See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-start-sync-reindex-groovy).
+See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-start-sync-reindex-groovy/).
 
 ### **Parameters**
 * `repoId`: repository id to be reindexed or null to reindex all
@@ -200,7 +198,7 @@ See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-exam
 ### **Returns**
 
 ### **Throws**
-* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) 
+* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 
 
 
@@ -208,14 +206,14 @@ See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-exam
 Returns list of branches associated with the issue. <br>
 This is an alias for ```getBranchesForIssue(issueKey, false)```, i.e. a branch ahead and behind won't be calculated by intent, i.e. they might be undefined.
 
-See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-get-branches-for-issue-groovy).
+See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-get-branches-for-issue-groovy/).
 
 ### **Parameters**
 * `issueKey`: Jira issue key. The issueKey must be valid and existent. Ex.: "TST-234"
 
 ### **Throws**
 *  *[IOException](https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html)*  
-* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) 
+* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 * *com.atlassian.jira.issue.index.IndexException* 
 
 
@@ -224,7 +222,7 @@ See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-exam
 Returns list of branches associated with the issue.<br>
 When forceAheadBehindCalculation = true, then a branch ahead and behind will be gotten from a cache or calculated.
 
-See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-get-branches-for-issue-groovy).
+See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-get-branches-for-issue-groovy/).
 
 ### **Parameters**
 * `issueKey`: Jira issue key. The issueKey must be valid and existent. Ex.: "TST-234"
@@ -232,7 +230,7 @@ See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-exam
 
 ### **Throws**
 *  *[IOException](https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html)*  
-* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) 
+* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 * *com.atlassian.jira.issue.index.IndexException* 
 
 
@@ -246,7 +244,7 @@ Returns issues which the git commit associated with.
 
 ### **Throws**
 *  *[IOException](https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html)*  
-* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) 
+* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 * *com.atlassian.jira.issue.index.IndexException* 
 
 
@@ -255,13 +253,13 @@ Returns issues which the git commit associated with.
 Returns commits information associated with the issue. <br>
 Use getCommitsForIssue(String issueKey, Boolean showFiles) to get commits with files changed.
 
-See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-get-commits-for-issue-groovy).
+See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-get-commits-for-issue-groovy/).
 
 ### **Parameters**
 * `issueKey`: Jira issue key. The issueKey must be valid and existent. Ex.: "TST-234"
 
 ### **Throws**
-* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) 
+* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 *  *[IOException](https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html)*  
 
 
@@ -274,7 +272,7 @@ Returns commits information (including files) associated with the issue.
 * `showFiles`: whether an information about files changed in the commit is collected and returned
 
 ### **Throws**
-* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) 
+* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 *  *[IOException](https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html)*  
 
 
@@ -286,7 +284,7 @@ Returns an integration by id.
 * `integrationId`: the integration id.
 
 ### **Throws**
-* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) 
+* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 
 
 
@@ -294,7 +292,7 @@ Returns an integration by id.
 Returns integrations connected.
 
 ### **Throws**
-* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) 
+* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 
 
 
@@ -306,7 +304,7 @@ Returns pull requests associated with the issue.
 
 ### **Throws**
 *  *[IOException](https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html)*  
-* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) 
+* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 * *com.atlassian.jira.issue.index.IndexException* 
 
 
@@ -314,7 +312,7 @@ Returns pull requests associated with the issue.
 ## getReindexStatus(String)
 Use this method to track messages for a particular reindex thread.
 
-See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-ping-reindex-status-groovy).
+See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-ping-reindex-status-groovy/).
 
 ### **Parameters**
 * `threadId`: indexer thread ID (UUID), ex. "eafe58fc-d8de-42ff-8815-6fe5860b38d2"
@@ -323,17 +321,17 @@ See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-exam
 - reindex status, messages, errors
 
 ### **Throws**
-* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) 
+* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 
 
 
 ## getRepositories()
 Returns all repositories connected including disabled repositories and repositories in error status.
 
-See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-getRepositories-groovy).
+See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-getRepositories-groovy/).
 
 ### **Throws**
-* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) 
+* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed-) 
 
 
 
@@ -341,13 +339,13 @@ See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-exam
 Returns repositories visible to users of the project. <br>
 So repositories visible globally are returned also. Disabled repositories and repositories in ERROR status are excluded.
 
-See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-getRepositories-projectKey-groovy).
+See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-getRepositories-projectKey-groovy/).
 
 ### **Parameters**
 * `projectKey`: project key, e.g. "TST"
 
 ### **Throws**
-* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) 
+* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 
 
 
@@ -359,7 +357,7 @@ Returns tags associated with the issue.
 
 ### **Throws**
 *  *[IOException](https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html)*  
-* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) 
+* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 * *com.atlassian.jira.issue.index.IndexException* 
 
 
@@ -369,7 +367,7 @@ Changes the commit issues associations. <br>
 A change of the commit issues associations in a disabled repository will be ignored.
 
 This is a sync operation. <br>
-See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-update-commit-issue-changes-groovy).
+See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-update-commit-issue-changes-groovy/).
 
 ### **Parameters**
 * `repoId`: a repository id which the git commit belongs to
@@ -378,7 +376,7 @@ See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-exam
 
 ### **Throws**
 *  *[IOException](https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html)*  
-* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) 
+* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 
 
 
@@ -386,7 +384,7 @@ See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-exam
 Updated an integration.
 
 This is a sync operation. <br>
-See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-update-integration-groovy).
+See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-update-integration-groovy/).
 
 ### **Parameters**
 * `id`: integration id to be updated
@@ -396,7 +394,7 @@ See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-exam
 - the integration updated
 
 ### **Throws**
-* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) 
+* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 
 
 
@@ -406,7 +404,7 @@ Updates the existing repository from the given settings.<br>
 The updateRepository() API will look for the repository with `id = 3` and replaces repository properties with ones setup in newParams.
 
 This is a sync operation. <br>
-See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-create-delete-reindex-repository-groovy).
+See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-create-delete-reindex-repository-groovy/).
 
 ### **Parameters**
 * `newParams`: new values for parameters to be changed
@@ -415,7 +413,7 @@ See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-exam
 - repository updated
 
 ### **Throws**
-* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed) 
+* [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed-) 
 
 
 

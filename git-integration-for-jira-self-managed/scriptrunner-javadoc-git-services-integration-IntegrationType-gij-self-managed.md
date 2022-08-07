@@ -1,13 +1,11 @@
 ---
 
-title: ScriptRunner - Javadocs
+title: ScriptRunner - Javadocs - Class IntegrationType
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-
-# Class IntegrationType
 
 * Package [com.bigbrassband.jira.git.services.integration](#)
 * [IntegrationType](#) (this page)

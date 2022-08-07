@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-# Example of a script pinging reindex status. gijFacade.doReindexSynchronized(repoId) does similar thing.
+# Example of a script pinging reindex status
 
 ```groovy
 import com.onresolve.scriptrunner.runner.customisers.WithPlugin
@@ -31,3 +31,7 @@ while (!isFinished) {
     log.error(res.toString() + " " + res.getMessages().last().toString());
 }
 ```
+
+**Note:**<br>
+The `gijFacade.doReindexSynchronized(repoId)` function does the same thing.
+

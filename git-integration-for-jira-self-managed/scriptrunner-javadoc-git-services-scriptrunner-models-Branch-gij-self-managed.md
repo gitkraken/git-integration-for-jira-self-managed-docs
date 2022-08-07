@@ -1,13 +1,11 @@
 ---
 
-title: ScriptRunner - Javadocs
+title: ScriptRunner - Javadocs - Class Branch
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-
-# Class Branch
 
 * Package [com.bigbrassband.jira.git.services.scriptrunner.models](#)
 *  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [Branch](#)
