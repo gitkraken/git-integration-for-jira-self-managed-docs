@@ -1,13 +1,11 @@
 ---
 
-title: Javadocs example - Start repository reindex
+title: Javadocs example - Start reindex of a repository
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-
-# Example of a script starting reindex of a repository
 
 ```groovy
 import com.onresolve.scriptrunner.runner.customisers.WithPlugin

@@ -7,8 +7,6 @@ taxonomy:
 
 ---
 
-# Example of create/delete/reindex of repository
-
 ```groovy
 import com.onresolve.scriptrunner.runner.customisers.WithPlugin
 import com.onresolve.scriptrunner.runner.customisers.PluginModule

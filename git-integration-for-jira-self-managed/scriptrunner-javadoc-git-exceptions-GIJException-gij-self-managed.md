@@ -1,13 +1,11 @@
 ---
 
-title: ScriptRunner - Javadocs
+title: ScriptRunner - Javadocs - Class GIJException
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-
-# Class GIJException
 
 * Package [com.bigbrassband.jira.git.exceptions](#)
 *  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \>  *[Throwable](https://docs.oracle.com/javase/8/docs/api/java/lang/Throwable.html)*  \>  *[Exception](https://docs.oracle.com/javase/8/docs/api/java/lang/Exception.html)* \> [GIJException](#) (this page)

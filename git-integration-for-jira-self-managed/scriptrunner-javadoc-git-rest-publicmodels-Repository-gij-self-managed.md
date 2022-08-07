@@ -1,13 +1,11 @@
 ---
 
-title: ScriptRunner - Javadocs
+title: ScriptRunner - Javadocs - Class Repository
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-
-# Class Repository
 
 * Package [com.bigbrassband.jira.git.rest.publicmodels](#)
 *  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [Repository](#) (this page)
@@ -46,7 +44,7 @@ All implemented interfaces :
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getGroup](#getgroup)() |
 | `public`  *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  | [getId](#getid)() |
 | `public`  *[Date](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)*  | [getInitDate](#getinitdate)() |
-| `public` *[IntegrationType](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-integration-IntegrationType-gij-self-managed)* | [getIntegrationType](#getintegrationtype)() |
+| `public` *[IntegrationType](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-integration-IntegrationType-gij-self-managed/)* | [getIntegrationType](#getintegrationtype)() |
 | `public`  *[Date](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)*  | [getLastIndexedDate](#getlastindexeddate)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getMainBranch](#getmainbranch)() |
 | `public`  *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  | [getMaxMinsToCommitEmail](#getmaxminstocommitemail)() |
@@ -107,7 +105,7 @@ All implemented interfaces :
 | `public` `void` | [setHosted](#sethostedboolean)( *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  hosted) |
 | `public` `void` | [setId](#setidinteger)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  id) |
 | `public` `void` | [setInitDate](#setinitdatedate)( *[Date](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)*  initDate) |
-| `public` `void` | [setIntegrationType](#setintegrationtypeintegrationtype)(*[IntegrationType](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-integration-IntegrationType-gij-self-managed)* integrationType) |
+| `public` `void` | [setIntegrationType](#setintegrationtypeintegrationtype)(*[IntegrationType](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-integration-IntegrationType-gij-self-managed/)* integrationType) |
 | `public` `void` | [setLastIndexedDate](#setlastindexeddatedate)( *[Date](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)*  lastIndexedDate) |
 | `public` `void` | [setMainBranch](#setmainbranchstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  mainBranch) |
 | `public` `void` | [setMaxMinsToCommitEmail](#setmaxminstocommitemailinteger)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  maxMinsToCommitEmail) |
@@ -495,7 +493,7 @@ Sets new password for the git repository. Leave blank and use PAT if 2FA is enab
 
  The IN password will be encrypted.
  Use `initPassword()` when none encryption is required.<br>
- [GIJFacade](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-GIJFacade-gij-self-managed) requires an [IntegrationRequest](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-integration-IntegrationRequest-gij-self-managed) with an encrypted password, so use `setPassword()` instead of `initPassword()`.
+ [GIJFacade](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-GIJFacade-gij-self-managed/) requires an [IntegrationRequest](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-integration-IntegrationRequest-gij-self-managed/) with an encrypted password, so use `setPassword()` instead of `initPassword()`.
 
 ### **Parameters**
 * `password`: new password

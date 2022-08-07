@@ -1,13 +1,11 @@
 ---
 
-title: ScriptRunner - Javadocs
+title: ScriptRunner - Javadocs - Class Commit.ShortFileInfo
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-
-# Class Commit.ShortFileInfo
 
 * Package [com.bigbrassband.jira.git.rest.publicmodels](#)
 *  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [ShortFileInfo](#) (this page)

@@ -1,13 +1,11 @@
 ---
 
-title: Javadocs example - Update an integration
+title: Javadocs example - Updating an integration
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-
-# Example of a script updating an integration
 
 ```groovy
 import com.onresolve.scriptrunner.runner.customisers.WithPlugin

@@ -1,13 +1,11 @@
 ---
 
-title: ScriptRunner - Javadocs
+title: ScriptRunner - Javadocs - Class PullRequest
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-
-# Class PullRequest
 
 * Package [com.bigbrassband.jira.git.services.scriptrunner.models](#)
 *  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [PullRequest](#) (this page)
@@ -20,7 +18,7 @@ Pull Request information.
 | Visibility | Signature |
 | --- | --- |
 | `public` | [PullRequest](#pullrequest)() |
-| `public` | [PullRequest](#pullrequeststring-string-string-string-string-string-string-repository)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  id,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  title,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  description,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  baseBranch,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  compareBranch,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  state,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  url, [Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed) repository) |
+| `public` | [PullRequest](#pullrequeststring-string-string-string-string-string-string-repository)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  id,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  title,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  description,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  baseBranch,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  compareBranch,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  state,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  url, [Repository](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Repository-gij-self-managed/) repository) |
 
 #### Methods
 | Type and modifiers | Method signature |

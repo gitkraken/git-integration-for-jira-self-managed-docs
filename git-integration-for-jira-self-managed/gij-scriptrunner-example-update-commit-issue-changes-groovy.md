@@ -7,8 +7,6 @@ taxonomy:
 
 ---
 
-# Example of a script updating commit issues associations
-
 ```groovy
 import com.onresolve.scriptrunner.runner.customisers.WithPlugin
 import com.onresolve.scriptrunner.runner.customisers.PluginModule

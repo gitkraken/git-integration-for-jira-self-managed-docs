@@ -7,8 +7,6 @@ taxonomy:
 
 ---
 
-# Example of a script connecting to an integration
-
 ```groovy
 import com.onresolve.scriptrunner.runner.customisers.WithPlugin
 import com.onresolve.scriptrunner.runner.customisers.PluginModule

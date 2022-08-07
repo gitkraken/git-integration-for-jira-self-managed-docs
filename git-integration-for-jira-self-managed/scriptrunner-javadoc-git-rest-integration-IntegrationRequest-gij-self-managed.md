@@ -1,13 +1,11 @@
 ---
 
-title: ScriptRunner - Javadocs
+title: ScriptRunner - Javadocs - Class IntegrationRequest
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-
-# Class IntegrationRequest
 
 * Package [com.bigbrassband.jira.git.rest.integration](#)
 *  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [IntegrationRequest](#) (this page)
@@ -20,7 +18,7 @@ This is a POJO object containing an integration properties/settings.
 | Visibility | Signature |
 | --- | --- |
 | `public` | [IntegrationRequest](#integrationrequest)() |
-| `public` | [IntegrationRequest](#integrationrequestintegrationtype-string-string-string)(*[IntegrationType](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-integration-IntegrationType-gij-self-managed)* type,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  origin,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  pat,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  displayName) |
+| `public` | [IntegrationRequest](#integrationrequestintegrationtype-string-string-string)(*[IntegrationType](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-integration-IntegrationType-gij-self-managed/)* type,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  origin,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  pat,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  displayName) |
 
 #### Methods
 | Type and modifiers | Method signature |
@@ -130,7 +128,7 @@ Returns the Folder Depth property. Used for tracked folders only.
 
 ## getGitViewerEnabled()
 Returns whether Repository Browser feature is enabled (true) or not (false).<br>
-For more information, see section, [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed).
+For more information, see section, [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed/).
 
 
 
@@ -391,7 +389,7 @@ For example, you might host your repository on GitHub, Beanstalk or your own ser
 ## setProjectMappingIds(Set\<Long\>)
 Sets numeric projects IDs associated with the repository.
 
-This field accepts list of comma separated project IDs for project mapping. Trailing spaces are ignored _(equivalent to unchecking the_ *Associate to All Projects* _checkbox in the Advanced Setup dialog)_. 
+This field accepts list of comma separated project IDs for project mapping. Trailing spaces are ignored _(equivalent to unchecking the_ *Associate to All Projects* _checkbox in the Advanced Setup dialog)_.
 
 _Example:_ `“projectMappingIds”: [10000,10100]`
 
