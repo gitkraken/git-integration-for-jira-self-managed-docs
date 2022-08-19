@@ -60,6 +60,8 @@ Quickly learn how to connect AWS CodeCommit git repositories via Git Integration
     - [Creating pull request with Require user PAT setting enabled](#creating-pull-request-with-require-user-pat-setting-enabled)
   - [Updating Require User PAT data](#updating-require-user-pat-data)
 
+<br>
+
 * * *
 
 ## Required permissions

@@ -85,7 +85,7 @@ As an initial configuration requirement, admins need to install the GHA in an or
 
     ![](/wp-content/uploads/gij-github-app-integration-settings-userpat-c.png)
 
-7.  On the Settings screen, the _**Require user PAT**_ setting is enabled and cannot be changed because it is directly affected by the _**Enforce Git service permissions**_ setting in the **General settings** page. For the GHA feature, the user’s PAT is not mandatory since it can interact with the git server using the GHA access token.
+7.  On the Settings screen, the _**Require user PAT**_ setting is enabled and cannot be changed because it is directly affected by the _**Enforce Git service permissions**_ setting in the **General settings** page. For the GHA feature, the user’s PAT is not mandatory since it can interact with the Git server using the GHA access token.
 
 8.  Click Connect to start configuring this GitHub App integration.
 The Git Integration for Jira app will perform this task automatically. Provide password credentials if prompted.

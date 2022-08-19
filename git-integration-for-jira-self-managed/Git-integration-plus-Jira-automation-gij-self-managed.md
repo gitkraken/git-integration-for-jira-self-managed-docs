@@ -155,6 +155,8 @@ The steps for creating automation rules for global level is exactly the same as 
 
 ![](https://bigbrassband.atlassian.net/wiki/download/attachments/2126905349/gitserver-global-automation-rule-list-add.png?api=v2)
 
+<br>
+
 ## Known issue
 
 ![(info)](https://bigbrassband.atlassian.net/wiki/s/1390985508/6452/54e101d7235b2d7307c412fdfb4c3bd12f35dd91/_/images/icons/emoticons/information.png) The limitation of Git Integration for Jira (GIJ) app not working with Automation for Jira (A4J) Lite is not a GIJ limitation but an Atlassian limitation.
