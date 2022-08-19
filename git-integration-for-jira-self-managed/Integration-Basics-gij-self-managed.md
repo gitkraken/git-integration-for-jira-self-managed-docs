@@ -17,9 +17,23 @@ Learn basic integration for most git hosts by connecting git repositories to Jir
 
 *   Learn how to create branch/pull/merge request inside Jira via the developer panel.
 
-<br>
+## Group definition for each integration type
+
+| Git-hosting service | Group |
+| :--- | :--- |
+| GitHub | Login of a repository owner (aka username or org name) |
+| GitLab | The most nested group as is |
+| Azure DevOps Repos | Account / Collection / Project – (any may be omitted) |
+| VSTS | Account / Collection – (any may be omitted) |
+| TFS / Azure DevOps Server | Collection – (any may be omitted) |
+| AWS | No groups |
+| Gerrit | No groups |
+| Tracked folder | No groups |
+| Single repository | No groups |
 
 * * *
+
+<br>
 
 ## More related articles on integration basics
 

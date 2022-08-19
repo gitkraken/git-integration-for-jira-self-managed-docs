@@ -121,7 +121,9 @@ If the **Enforce Git service permissions** setting is enabled, a Jira user will 
 | Integration | Supported? | Result |
 | :--- | :--- | :--- |
 | GitHub git repositories | Yes | **GITHUB CLOUD/SELF-HOSTED**<br>Users will only see the GitHub integration data when a PAT is provided for it. |
-| GitLab git repositories | No\* | COMING SOON  <br>\*Support for GitLab on the **Enforce Git service permissions** feature will be added sometime later in 2022. |
+| GitLab git repositories | Yes | **GITLAB.COM/SELF-MANAGED GITLAB**<br>Users will only see the GitLab integration data when a PAT is provided for it. |
+| Azure git repositories | Yes | **MICROSOFT AZURE DevOps/TFS/VSTS**<br>Users will only see the Azure/TFS/VSTS integration data when a PAT is provided for it. |
+| AWS git repositories | No* | <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>COMING SOON</b><br>*Support for AWS CC on the Enforce Git service permissions feature will be added sometime later in 2022. |
 
 <br>
 
