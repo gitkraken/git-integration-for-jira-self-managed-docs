@@ -38,7 +38,7 @@ Which APIs or functions can be used while creating these scripts? See [ScriptRun
 
 <br>
 
-One main implementation in the [GIJFacade interface](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-GIJFacade-gij-self-managed/) is the main object having methods for all the above cases.
+A singleton implementing [GIJFacade interface](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-GIJFacade-gij-self-managed/) is the main object having methods for all the above cases.
 
 ## Feature use case examples
 
@@ -59,7 +59,7 @@ Follow the order of steps below:
 
 *   [Example 3](#example-3-how-to-log-more-than-a-brief-information): a script listing files changed in each commit of issue `TST-4`
 
-*   [Example 4](#example-4-move-an-issue-to-in-progress-status-when-at-least-one-git-commit-exists): a setup of issue workflow in a such way that if an `OPEN` issue has at least one git commit then it's moved to `IN PROGRESS` status
+*   [Example 4](#example-4-move-an-issue-in-in-progress-status-when-at-least-one-git-commit-exists): a setup of issue workflow in a such way that if an `OPEN` issue has at least one git commit then it's moved to `IN PROGRESS` status
 
 For more example scripts, see GIJFacade [JavaDocs](/git-integration-for-jira-data-center/ScriptRunner-javadoc-git-services-GIJFacade-gij-self-managed/).
 
@@ -315,17 +315,17 @@ The steps below demonstrate the general rule of using gijFacade in ScriptRunner 
 
     *   Open ScriptRunner Listeners (Jira settings ➜ Manage apps ➜ ScriptRunner **Listeners**).
 
-    ![](/wp-content/uploads/gijfacade-scriptrunner-listeners.png)
+        ![](/wp-content/uploads/gijfacade-scriptrunner-listeners.png)
 
     *   Click **Create Listener**.
 
     *   Find and choose **Fast-track transition an issue**.
 
-    ![](/wp-content/uploads/gijfacade-scriptrunner-transition-listener.png)
+        ![](/wp-content/uploads/gijfacade-scriptrunner-transition-listener.png)
 
     *   Set up the new listener.
 
-    ![](wp-content/uploads/gijfacade-scriptrunner-listener-settings.png)
+        ![](wp-content/uploads/gijfacade-scriptrunner-listener-settings.png)
 
     *   Set **Event** to `Issue Commented`.
 

@@ -7,8 +7,8 @@ taxonomy:
 
 ---
 
-* Package [com.bigbrassband.jira.git.rest.publicmodels](#)
-*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [IssuesAssociationRequest](#) (this page)
+* Package [com.bigbrassband.jira.git.rest.publicmodels](README.html)
+*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [IssuesAssociationRequest](IssuesAssociationRequest.html.md)
 
 
 
@@ -21,14 +21,15 @@ taxonomy:
 #### Methods
 | Type and modifiers | Method signature |
 | --- | --- |
-| `public` [IssuesAssociationRequest](#) | [addLink](#addlinkstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  issueKey) |
-| `public` [IssuesAssociationRequest](#) | [removeLink](#removelinkstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  issueKey) |
-
+| `public` [IssuesAssociationRequest](IssuesAssociationRequest.html.md) | [addLink](#addlinkstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  issueKey) |
+| `public` [IssuesAssociationRequest](IssuesAssociationRequest.html.md) | [removeLink](#removelinkstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  issueKey) |
 
 
 
 # Constructors
 ## IssuesAssociationRequest()
+
+
 
 
 
@@ -39,6 +40,7 @@ taxonomy:
 
 
 ## removeLink(String)
+
 
 
 

@@ -52,7 +52,7 @@ Creates a branch in the repository.<br>
 The branch can be created in a repository which belongs to an integration, otherwise [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) is thrown.
 
 This is a sync operation.<br>
-See [script example](/git-integration-for-jira-self-managed/javadoc/examples/scriptrunner-example-create-branch-groovy/).
+See [script example](/git-integration-for-jira-data-center/gij-scriptrunner-example-create-branch-groovy/).
 
 
 ### **Parameters**

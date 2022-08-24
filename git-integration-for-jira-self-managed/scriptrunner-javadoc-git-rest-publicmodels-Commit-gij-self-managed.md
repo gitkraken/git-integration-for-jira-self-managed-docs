@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 * Package [com.bigbrassband.jira.git.rest.publicmodels](#)
-*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [Commit](#) (this page)
+*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [Commit](#) (This page)
 
 Git commit information.
 
@@ -18,24 +18,24 @@ Git commit information.
 | Visibility | Signature |
 | --- | --- |
 | `public` | [Commit](#commit)() |
-| `public` | [Commit](#commitint-string-string-string-string-string-map-list-collection)(`int` repoId,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  repoDisplayName,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  author,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  commitId,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  date,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  message,  *[Map](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html)* \< *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* ,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* \> notes,  *[List](https://docs.oracle.com/javase/8/docs/api/java/util/List.html)* \< [ShortFileInfo](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-ShortFileInfo-gij-self-managed) \> files,  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \< *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* \> branches) |
+| `public` | [Commit](#commitint-string-string-string-string-string-map-list-collection)(`int` repoId,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  repoDisplayName,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  author,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  commitId,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  date,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  message,  *[Map](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html)* \< *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* ,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* > notes,  *[List](https://docs.oracle.com/javase/8/docs/api/java/util/List.html)* <[ShortFileInfo](ShortFileInfo.html.md)\> files,  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \< *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* \> branches) |
 
 #### Methods
 | Type and modifiers | Method signature |
-| --- | --- |
+| :--- | :--- |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getAuthor](#getauthor)() |
 | `public`  *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \< *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* \> | [getBranches](#getbranches)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getCommitId](#getcommitid)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getDate](#getdate)() |
-| `public`  *[List](https://docs.oracle.com/javase/8/docs/api/java/util/List.html)* <[ShortFileInfo](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-ShortFileInfo-gij-self-managed/)> | [getFiles](#getfiles)() |
+| `public`  *[List](https://docs.oracle.com/javase/8/docs/api/java/util/List.html)* \<[ShortFileInfo](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-ShortFileInfo-gij-self-managed/)\> | [getFiles](#getfiles)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getMessage](#getmessage)() |
 | `public`  *[Map](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html)* \< *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* ,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* \> | [getNotes](#getnotes)() |
-| `public` *com.bigbrassband.jira.git.rest.publicmodels.Commit.Repository* | [getRepository](#getrepository)() |
+| `public` [RepositoryShortInfo](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-RepositoryShortInfo-gij-self-managed/) | [getRepository](#getrepository)() |
 | `public` `void` | [setAuthor](#setauthorstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  author) |
-| `public` `void` | [setBranches](#setbranchescollection)( *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \< *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* \> branches) |
+| `public` `void` | [setBranches](#setbranchescollection)( *[Collection](https://docs.oracle.com/javase/8/docs/api/java/util/Collection.html)* \< *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* >\ branches) |
 | `public` `void` | [setCommitId](#setcommitidstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  commitId) |
 | `public` `void` | [setDate](#setdatestring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  date) |
-| `public` `void` | [setFiles](#setfileslist)( *[List](https://docs.oracle.com/javase/8/docs/api/java/util/List.html)* \<[ShortFileInfo](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-ShortFileInfo-gij-self-managed/)\> files) |
+| `public` `void` | [setFiles](#setfileslist)( *[List](https://docs.oracle.com/javase/8/docs/api/java/util/List.html)* <[ShortFileInfo](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-ShortFileInfo-gij-self-managed/)> files) |
 | `public` `void` | [setMessage](#setmessagestring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  message) |
 | `public` `void` | [setNotes](#setnotesmap)( *[Map](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html)* \< *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* ,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* \> notes) |
 
@@ -55,37 +55,37 @@ Git commit information.
 
 # Methods
 ## getAuthor()
-Returns the commit author, e.g. "John Smith"
+Returns commit author, e.g. "John Smith"
 
 
 
 ## getBranches()
-Returns the list of branches the git commit belongs to.
+Returns list of branches the git commit belongs to.
 
 
 
 ## getCommitId()
-Returns the git commit id, e.g. "34efa20372f0e2f0c9b705aacc57d7ad82e01426"
+Returns git commit id, e.g. "34efa20372f0e2f0c9b705aacc57d7ad82e01426"
 
 
 
 ## getDate()
-Returns the git commit date in ISO format using timezone of the current user, e.g. "2022-07-15T00:20:58+0000"
+Returns git commit date in ISO format using timezone of the current user, e.g. "2022-07-15T00:20:58+0000"
 
 
 
 ## getFiles()
-Returns the files changed in the git commit.
+Returns files changed in the git commit.
 
 
 
 ## getMessage()
-Returns the git commit message.
+Returns git commit message.
 
 
 
 ## getNotes()
-Returns the notes of the git commit; where a map key is a note namespace and a map value is a note message.
+Returns notes of the git commit, where a map key is a note namespace, a map value is a note message.
 
 
 
@@ -114,7 +114,7 @@ Returns a repository which the git commit belongs to.
 
 
 
-## setFiles(List\<Commit.ShortFileInfo\>)
+## setFiles(List<Commit.ShortFileInfo>)
 
 
 
@@ -125,7 +125,6 @@ Returns a repository which the git commit belongs to.
 
 
 ## setNotes(Map\<String, String\>)
-
 
 
 
