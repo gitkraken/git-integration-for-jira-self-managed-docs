@@ -54,7 +54,7 @@ How far behind is the branch from the main branch.
 
 
 ## getExternalUrl()
-Link to the branch on Github/Gitlab/etc..
+Link to the branch on Github/Gitlab/etc...
 
 
 

@@ -8,7 +8,7 @@ taxonomy:
 ---
 
 * Package [com.bigbrassband.jira.git.rest.integration](#)
-*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [IntegrationRequest](#) (this page)
+*  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [IntegrationRequest](#) (This page)
 
 This is a POJO object containing an integration properties/settings.
 
@@ -36,7 +36,7 @@ This is a POJO object containing an integration properties/settings.
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getOrigin](#getorigin)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getPassword](#getpassword)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getPat](#getpat)() |
-| `public`  *[Set](https://docs.oracle.com/javase/8/docs/api/java/util/Set.html)* < *[Long](https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html)* > | [getProjectMappingIds](#getprojectmappingids)() |
+| `public`  *[Set](https://docs.oracle.com/javase/8/docs/api/java/util/Set.html)* \< *[Long](https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html)* \> | [getProjectMappingIds](#getprojectmappingids)() |
 | `public`  *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  | [getRefSpecChanges](#getrefspecchanges)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getRefSpecCustom](#getrefspeccustom)() |
 | `public`  *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  | [getRefSpecNotes](#getrefspecnotes)() |
@@ -63,7 +63,7 @@ This is a POJO object containing an integration properties/settings.
 | `public` `void` | [setOrigin](#setoriginstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  origin) |
 | `public` `void` | [setPassword](#setpasswordstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  password) |
 | `public` `void` | [setPat](#setpatstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  pat) |
-| `public` `void` | [setProjectMappingIds](#setprojectmappingidsset)( *[Set](https://docs.oracle.com/javase/8/docs/api/java/util/Set.html)* < *[Long](https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html)* > projectMappingIds) |
+| `public` `void` | [setProjectMappingIds](#setprojectmappingidsset)( *[Set](https://docs.oracle.com/javase/8/docs/api/java/util/Set.html)* \< *[Long](https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html)* \> projectMappingIds) |
 | `public` `void` | [setRefSpecChanges](#setrefspecchangesboolean)( *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  refSpecChanges) |
 | `public` `void` | [setRefSpecCustom](#setrefspeccustomstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  refSpecCustom) |
 | `public` `void` | [setRefSpecNotes](#setrefspecnotesboolean)( *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  refSpecNotes) |

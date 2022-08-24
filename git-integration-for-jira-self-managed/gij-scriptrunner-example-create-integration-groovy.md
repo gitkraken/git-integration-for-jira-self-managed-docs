@@ -21,8 +21,7 @@ import com.bigbrassband.jira.git.rest.integration.IntegrationRequest;
 @PluginModule
 GIJFacade gijFacade;
 
-IntegrationRequest newIntegration = new IntegrationRequest(IntegrationType.GITLAB, null, null/*don't pass pat here*/, "My GitLab Integration");
-newIntegration.setPat("yourPat");
+IntegrationRequest newIntegration = new IntegrationRequest(IntegrationType.GITLAB, null, "yourPat", "My GitLab Integration");
 newIntegration.setApiFilter("[?contains(name, 'test')]");
 gijFacade.createIntegration(newIntegration);
 ```
