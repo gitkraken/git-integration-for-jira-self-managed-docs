@@ -325,7 +325,7 @@ The steps below demonstrate the general rule of using gijFacade in ScriptRunner 
 
     *   Set up the new listener.
 
-        ![](wp-content/uploads/gijfacade-scriptrunner-listener-settings.png)
+        ![](/wp-content/uploads/gijfacade-scriptrunner-listener-settings.png)
 
     *   Set **Event** to `Issue Commented`.
 
