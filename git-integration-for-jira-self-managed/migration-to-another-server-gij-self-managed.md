@@ -1,6 +1,6 @@
 ---
 
-title: Upgrades and migrations within same server
+title: Migration to another server
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
