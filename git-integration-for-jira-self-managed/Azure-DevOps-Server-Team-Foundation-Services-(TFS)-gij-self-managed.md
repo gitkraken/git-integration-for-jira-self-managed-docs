@@ -19,9 +19,9 @@ taxonomy:
 </div>
 <br>
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91979843/azure-devops-server-logo.png?version=1&modificationDate=1577429734090&cacheVersion=1&api=v2&width=441&height=70)
+<img src='/wp-content/uploads/gij-azure-devops-server-logo.png' width=481 height=77 style='max-width:100%' />
 
-<img src='https://bigbrassband.com/confluence/images/tfs-logo.png' height=auto width=350 />
+<img src='/wp-content/uploads/gij-tfs-logo.png' height=auto width=350 style='max-width:100%'/>
 
 <br>
 
@@ -45,8 +45,11 @@ The Git Integration for Jira app supports Azure Repos.
     - [Pushing commits to the branch](#pushing-commits-to-the-branch)
     - [Creating pull requests](#creating-pull-requests)
     - [Merging branch to master](#merging-branch-to-master)
+  - [More Integration Guides](#more-integration-guides)
 
-* * *
+<br>
+<hr>
+<br>
 
 ## Creating a personal access token
 
@@ -70,30 +73,30 @@ We recommend using the Add new integration panel to connect multiple repositorie
 
 3.  On the Add new integration panel, click **Microsoft**. The following screen is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/91979843/gitserver-autoconnect-azure-tfs-start(c).png?api=v2)
+    ![](/wp-content/uploads/gij-gitserver-autoconnect-azure-tfs-start-c.png)
 
     *   Select **Team Foundation Server (TFS)**. If you are using **Azure DevOps Server**, select that instead.
 
     *   Enter the **Host URL**, **Username** and **Password** for this connection.
 
-        ![](https://bigbrassband.atlassian.net/wiki/download/attachments/91979843/gitserver-azure-tfs-autoconnect-pat-option(c).png?api=v2)
+        ![](/wp-content/uploads/gij-gitserver-azure-tfs-autoconnect-pat-option-c.png)
 
         *   If PAT is configured in your Azure DevOps Server/TFS, tick the _**Use Personal Access Token**_ checkbox and enter your PAT in the provided field. Do note that PAT is only supported on TFS 2017 and newer.
 
-        *   **IMPORTANT!**<br> Do NOT include the `<DOMAIN>` in the **Username** field when Azure DevOps Server/TFS is connected to Active Directory. The correct example is "`BigBrassBand\johnsmith`**"** ➜ "**johnsmith**"
+        *   <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT!</b><br> Do NOT include the `\<DOMAIN\>` in the **Username** field when Azure DevOps Server/TFS is connected to Active Directory. The correct example is "`BigBrassBand\johnsmith`**"** ➜ "**johnsmith**"
 
-        *   **HELPFUL TIP!**<br>
+        *   <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>HELPFUL TIP!</b><br>
         The **› Advanced** twisty has the default **/tfs** path. Thus, there is no need to add the `/tfs` to the **Host URL** path. If you know your specific collection, type it in the provided box. The Git Integration for Jira app initially reads and imports all collection from the connected Azure DevOps Server/TFS integration.
 
-    *   **OPTIONAL!** Configuring the **Advanced** settings is not required. However, admins/power users may set how the project listing is displayed with the following options:
+    *   <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL!</b> Configuring the **Advanced** settings is not required. However, admins/power users may set how the project listing is displayed with the following options:
 
-        ![](https://bigbrassband.atlassian.net/wiki/download/attachments/91979843/gitserver-azure-tfs-advanced-opt-tfs(c).png?api=v2)
+        ![](/wp-content/uploads/gij-gitserver-azure-tfs-advanced-opt-tfs-c.png)
 
         *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less. Read about JMESPath expressions on their [website](http://jmespath.org/).
 
-            For help with writing expressions, please contact [support](mailto:support@bigbrassband.com).
+            For help with writing expressions, please contact [support](mailto:support@gitkraken.com).
 
-            To learn more Azure DevOps Server/TFS examples, see article [Working with JMESPath Filters](/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed/).
+            To learn more Azure DevOps Server/TFS examples, see article [Working with JMESPath Filters](/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed).
 
             *   If the field is empty, the Git Integration for Jira app will get all available accounts and then scans all available git repositories.
 
@@ -140,21 +143,21 @@ We recommend using the Add new integration panel to connect multiple repositorie
 
 6.  After the import process, the **Settings** dialog is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/91979843/gitserver-github-autoconnect-settings-dlg(c).png?api=v2)
+    ![](/wp-content/uploads/gij-gitserver-github-autoconnect-settings-dlg-c.png)
 
     *   On the **Integration Settings**, setting the _**Require User PAT**_ option to `ON` will require users to provide a PAT which will be used for branch and merge/pull requests creation/deletion _(via the developer panel on the Jira issue page)_. The recommended **Selected scopes** setting for this is `Code (read and write)`.
 
-        For more information on this feature, see [Integration settings: Require User PAT](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/).
+        For more information on this feature, see [Integration settings: Require User PAT](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed).
 
         <img src='/wp-content/uploads/bbb-alert-20.png' width=20 height=20 />&nbsp; PATs were introduced with TFS 2017 and newer. TFS 2013 and TFS 2015 do not support PATs. If this property is set to `ON`, the users will not be able to create/delete branches and pull requests.
 
         <img src='/wp-content/uploads/bbb-info-20.png' />&nbsp; When the above setting is enabled, a branch or pull request cannot be created until a valid personal access token (PAT) is set.
 
-    *   Set [Smart commits](/git-integration-for-jira-data-center/smart-commits-gij-self-managed/) and [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed/) to enable/disable these features.
+    *   Set [Smart commits](/git-integration-for-jira-data-center/smart-commits-gij-self-managed/) and [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed) to enable/disable these features.
 
-    *   Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Associating project permissions](/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed/).
+    *   Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Associating project permissions](/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed).
 
-8.  Click **Finish** to complete this setup. For now, only **git** projects are supported from Azure DevOps Server/TFS.
+7.  Click **Finish** to complete this setup. For now, only **git** projects are supported from Azure DevOps Server/TFS.
 
 The Azure DevOps Server/TFS repositories are now connected to Jira Data Center/Server.
 
@@ -175,7 +178,7 @@ This process requires an existing Azure DevOps Server/TFS git repository. Look 
 
 Choose between SSH or HTTPS. Use this information to connect the Azure DevOps Server/TFS git repository to your Jira server via Git Integration for Jira app:
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/91979843/vsts-azure-clone-repo-page.png?api=v2)
+![](/wp-content/uploads/gij-vsts-azure-clone-repo-page.png)
 
 1.  On your Jira dashboard menu, go to Git ➜ **Manage repositories**.
 
@@ -206,9 +209,9 @@ The Git Integration for Jira app automatically configures web linking for Azure 
     </div>
 </div>
 
-For detailed step-by-step guide showcasing the webhooks setup, [see this article](/git-integration-for-jira-data-center/webhooks-gij-self-managed/).
+For detailed step-by-step guide showcasing the webhooks setup, [see this article](/git-integration-for-jira-data-center/webhooks-gij-self-managed).
 
-For single repository connections, web link setup is optional. However, git links will become available in Git Commits tab when configured. For more information on this feature, see [Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed/).
+For single repository connections, web link setup is optional. However, git links will become available in Git Commits tab when configured. For more information on this feature, see [Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed).
 
 ## Linking commits of Azure DevOps Server/TFS projects to Jira Data Center/Server
 
@@ -218,7 +221,7 @@ For the following steps, a Azure DevOps Server/TFS and a Visual Studio environme
 
 2.  Connect to your Azure DevOps Server/Team Foundation Server:
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/91979843/vs2013-connect-tfs-server-dlg(c).png?api=v2)
+    ![](/wp-content/uploads/gij-vs2013-connect-tfs-server-dlg-c.png)
 
     *   Select a server in the dropdown list to connect to. If this is a new connection, add a new server by clicking the **Servers…** button.
 
@@ -248,13 +251,13 @@ For the following steps, a Azure DevOps Server/TFS and a Visual Studio environme
 
     Where `PRJ-123` is the Jira issue key and `Fix null code` is the commit comment.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/91979843/vs-ide-team-explorer-make-commit(c).png?api=v2)
+    ![](wp-content/uploads/gij-vs-ide-team-explorer-make-commit-c.png)
 
 9.  Click **Commit and Push**.
 
 The commit is published to Azure DevOps Server/TFS. To view the commit in Jira, go to the Jira issue mentioned in the commit message. Click the **Git Commits** tab in the _**Activity**_ row.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/91979843/gitserver-azure-tfs-commits-example.png?api=v2)
+![](wp-content/uploads/gij-gitserver-azure-tfs-commits-example.png)
 
 <br>
 
@@ -268,7 +271,7 @@ The commit is published to Azure DevOps Server/TFS. To view the commit in Jira,
 
 4.  Click **View full commit** to view the code diff.
 
-For more information on this feature, see [Viewing commit code diffs](/git-integration-for-jira-data-center/viewing-commit-code-diffs-gij-self-managed/).
+For more information on this feature, see [Viewing commit code diffs](/git-integration-for-jira-data-center/viewing-commit-code-diffs-gij-self-managed).
 
 ## Working with branches and pull requests
 
@@ -294,9 +297,9 @@ Most git integrations allow changing of the default branch of the repository/pro
 
 1.  On your Jira Data Center/Server instance, open a Jira issue.
 
-2.  On the [Jira developer panel](/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed/), go to **Git integration** section then click **Create branch**. The following dialog is displayed.
+2.  On the [Jira developer panel](/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed), go to **Git integration** section then click **Create branch**. The following dialog is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/91979843/gitserver-azure-tfs-create-branch-dlg(c).png?api=v2)
+    ![](/wp-content/uploads/gij-gitserver-azure-tfs-create-branch-dlg-c.png)
 
     1.  Select a **Repository** from the list.
 
@@ -304,13 +307,13 @@ Most git integrations allow changing of the default branch of the repository/pro
 
     3.  Enter a **Branch name** or leave it as is (recommended).
 
-    4.  If the [Require User PAT option](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/) is enabled in the **Integration Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead:
+    4.  If the [Require User PAT option](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed) is enabled in the **Integration Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead:
 
-        ![](https://bigbrassband.atlassian.net/wiki/download/attachments/91979843/gitserver-azure-tfs-create-branch-dlg-reqPAT(c).png?api=v2)
+        ![](/wp-content/uploads/gij-gitserver-azure-tfs-create-branch-dlg-reqPAT-c.png)
 
     5.  Click the link label below the repository selector to setup the PAT. The following dialog appears.
 
-        ![](https://bigbrassband.atlassian.net/wiki/download/attachments/91979843/gitserver-setup-pat-dlg(c).png?api=v2)
+        ![](/wp-content/uploads/gij-gitserver-setup-pat-dlg-c.png)
 
         *   Enter your personal access token from your Azure profile settings.
 
@@ -324,7 +327,7 @@ Most git integrations allow changing of the default branch of the repository/pro
 
         *   PAT settings can be accessed via Repository browser ➜ **Pers. access** column.
 
-            ![](https://bigbrassband.atlassian.net/wiki/download/attachments/91979843/gitserver-repo-browser-pat-sel(c).png?api=v2)
+            ![](/wp-content/uploads/gij-gitserver-repo-browser-pat-sel-c.png)
 
         *   Click the edit <img src='/wp-content/uploads/gij-edit-icon-dark.png' /> icon to setup/reconfigure PAT. The checkmark adjacent to the edit icon indicates PAT has been configured.
 
@@ -334,7 +337,7 @@ Perform a commit to the newly-created branch to be ready for merge.
 
 ### Pushing commits to the branch
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/91979843/jira-cloud-tfs-server-branches-list.png?api=v2)
+![](/wp-content/uploads/gij-jira-cloud-tfs-server-branches-list.png)
 
 To update the branch list to your Visual Studio's Team Explorer, perform a **Pull** action on the connected team project.  The branches list in your VS IDE should be updated now.
 
@@ -346,8 +349,7 @@ To update the branch list to your Visual Studio's Team Explorer, perform a **Pu
 
 4.  Make changes to a file or project then perform a commit to the selected branch:
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/91979843/vs-ide-team-explorer-branch-commit(c).png?api=v2)
-
+    ![](/wp-content/uploads/gij-vs-ide-team-explorer-branch-commit-c.png)
     1.  On the Team Explorer, click **Changes**.
 
     2.  <img src='/wp-content/uploads/bbb-alert-20.png' />&nbsp; Make sure that **Branch:** displays the name of the newly-created branch. If not, select it again from the list.
@@ -366,7 +368,7 @@ To create a pull request and merge it to the main source (master):
 
 2.  On the developer panel under **Git integration**, click **Create pull request**. The following dialog is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/91979843/gitserver-azure-tfs-create-pullreq-dlg(c).png?api=v2)
+    ![](/wp-content/uploads/gij-gitserver-azure-tfs-create-pullreq-dlg-c.png)
 
     *   Select a **Repository** from the list.
 
@@ -378,7 +380,7 @@ To create a pull request and merge it to the main source (master):
 
     *   If the Require User PAT option is enabled in the Integration Settings and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead.
 
-        ![](https://bigbrassband.atlassian.net/wiki/download/attachments/91979843/gitserver-azure-tfs-create-pullreq-dlg-reqPAT(c).png?api=v2)
+        ![](/wp-content/uploads/gij-gitserver-azure-tfs-create-pullreq-dlg-reqPAT-c.png)
 
         *   Click the link label below the repository selector to setup the PAT.
 
@@ -390,19 +392,19 @@ The pull request is listed on the developer panel of the Jira issue page.
 
 The pull request is also ready for approval by the reviewers in your Azure DevOps Server/TFS web portal.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/91979843/jira-cloud-tfs-pull-request-merge-details.png?api=v2)
+![](/wp-content/uploads/gij-jira-cloud-tfs-pull-request-merge-details.png)
 
 ### Merging branch to master
 
 Continuing from the above steps, the current branch is ready for merge.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/91979843/jira-cloud-tfs-pull-request-ready-to-merge.png?api=v2)
+![](/wp-content/uploads/gij-jira-cloud-tfs-pull-request-ready-to-merge.png)
 
 1.  On your Team Explorer, go to Branches.
 
 2.  Click **Merge**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/91979843/vs-ide-team-explorer-branch-merge-to-master(c).png?api=v2)
+    ![](/wp-content/uploads/gij-vs-ide-team-explorer-branch-merge-to-master-c.png)
 
     *   Set the source to the branch you pushed the commits to.
 
@@ -412,11 +414,41 @@ Continuing from the above steps, the current branch is ready for merge.
 
 The reviewer's approval is required to completely merge the pull request. This usually takes place in the Azure DevOps Server/TFS server web UI where your updated code is being reviewed.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/91979843/tfs-web-ui-pull-request-approved-merge.png?api=v2)
+![](/wp-content/uploads/gij-tfs-web-ui-pull-request-approved-merge.png)
 
 <br>
 
 Once approved, the team leader or reviewer can then complete the merge. The commit can be viewed in the associated Jira issue page.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/91979843/gitserver-tfs-commits-tab-example.png?api=v2)
+![](/wp-content/uploads/gij-gitserver-tfs-commits-tab-example.png)
+
+<br>
+
+## More Integration Guides
+
+[GitHub.com](/git-integration-for-jira-data-center/gitHub-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[GitHub Enterprise Server](/git-integration-for-jira-data-center/gitHub-Enterprise-Server-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[GitLab.com](/git-integration-for-jira-data-center/gitLab-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[GitLab CE/EE](/git-integration-for-jira-data-center/gitLab-com-CE-EE-gijsm-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Azure DevOps | Visual Studio Team Services (VSTS)](/git-integration-for-jira-data-center/azure-DevOps-Visual-Studio-Team-Services-(VSTS)-gij-self-managed) (Git Integration for Data Center/Jira Server)
+
+**Azure DevOps Server | Team Foundation Services (TFS)** (this page)
+
+[AWS CodeCommit](/git-integration-for-jira-data-center/aws-codecommit-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Gerrit](/git-integration-for-jira-data-center/gerrit-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Windows Network | Server Share](/git-integration-for-jira-data-center/windows-Network-Server-Share-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Tracked Folders](/git-integration-for-jira-data-center/tracked-Folders-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Bitbucket Server](/git-integration-for-jira-data-center/Bitbucket-Server-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Bonobo](/git-integration-for-jira-data-center/bonobo-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Integration basics](/git-integration-for-jira-data-center/Integration-Basics-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
