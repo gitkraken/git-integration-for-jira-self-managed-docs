@@ -8,7 +8,7 @@ taxonomy:
 ---
 This page contains related questions about git notes, reindex tracking and control.
 
-Use the FAQ below to find answers to common questions. Feel free to contact our support team ([support@bigbrassband.com](mailto:support@bigbrassband.com?subject=Reindex%20issues%20-)) if you don't see what you're looking for.
+Use the FAQ below to find answers to common questions. Feel free to contact our support team ([support@gitkraken.com](mailto:support@gitkraken.com?subject=Reindex%20issues%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) if you don't see what you're looking for.
 
 - [What does re-index do?](#what-does-re-index-do)
 - [Is there any way to control the reindex?](#is-there-any-way-to-control-the-reindex)
@@ -19,7 +19,9 @@ Use the FAQ below to find answers to common questions. Feel free to contact our 
 - [Is there a URL I can call to trigger fetch and re-index? Would be nice to add as service hook to GitHub/Gitlab.](#is-there-a-url-i-can-call-to-trigger-fetch-and-re-index-would-be-nice-to-add-as-service-hook-to-githubgitlab)
 - [The git notes are still not visible in Jira. What should I do?](#the-git-notes-are-still-not-visible-in-jira-what-should-i-do)
 
-* * *
+<br>
+<hr>
+<br>
 
 ## What does re-index do?
 
@@ -33,11 +35,11 @@ Re-index does 2 operations:
 
 In terms of kicking off the indexing based on an event, you have two options:
 
-*   [Reindex API](/git-integration-for-jira-data-center/reindex-api-gij-self-managed/)
+*   [Reindex API](/git-integration-for-jira-data-center/reindex-api-gij-self-managed)
 
-*   [Webhooks overview](/git-integration-for-jira-data-center/Webhooks-gij-self-managed/)
+*   [Webhooks overview](/git-integration-for-jira-data-center/Webhooks-gij-self-managed)
 
-*   [Integration webhooks documentation](/git-integration-for-jira-data-center/Integration-webhooks-gij-self-managed/)
+*   [Integration webhooks documentation](/git-integration-for-jira-data-center/Integration-webhooks-gij-self-managed)
 
 What other users have done is set a high interval and then configure one of those options.
 
@@ -49,9 +51,9 @@ Navigate to the **General settings** of the Git Integration for Jira app.
 
 Scroll down to the **Scheduled jobs** section and set the **Repository indexing** value or leave it as is (recommended).
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2053570566/gitserver-gencfg-sched-jobs-repo-idx-sel.png?version=1&modificationDate=1642419212374&cacheVersion=1&api=v2&width=680&height=300)
+![](/wp-cotnent/uploads/gij-gitserver-gencfg-sched-jobs-repo-idx-sel.png)
 
-For near-instantaneous display of commits in your Jira issues, we recommend to [configure webhooks](/git-integration-for-jira-data-center/Integration-webhooks-gij-self-managed/).
+For near-instantaneous display of commits in your Jira issues, we recommend to [configure webhooks](/git-integration-for-jira-data-center/Integration-webhooks-gij-self-managed).
 
 ## How do I completely rebuild plugin indexes?
 

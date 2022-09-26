@@ -12,17 +12,16 @@ Only Jira admins can perform the Bulk Export API call.
 
 ## Bulk Export Configuration
 
-_**url**_<br>
+### url
 `/rest/gitplugin/1.0/`**configuration**
 
-_**method**_<br>
+### method
 GET
 
 ### Parameters
 none
 
 ### Response
-
 Generates a tab-separated values (.tsv) file. See the parameters table below for more information on each parameter in a TSV file.
 
 <div class="bbb-callout bbb--tip">
@@ -54,7 +53,7 @@ Edit the TSV file by referring to the parameters below:
 | _**absoluteRoot**_ | _Boolean_. Optional.<br><br>This field corresponds to the **Cloned root location** input field in the Advanced setup/Repository settings.<br><br>If set to **true**, the repository is automatically managed by Git Integration for Jira app (stored in `$JiraHOME`).<br><br>If set to **false**, the repository is manually configured by the Jira administrator.<br><br>If this field is specified, _**realRoot**_ must also be defined. |
 | _**origin**_ | _String_. Required.<br><br>This is the URL to the hosted git service used on the project. For example, you might host your repository on GitHub, Beanstalk or your own server.<br><br>BigBrassBand recommends to use the `git@<url>:[your-git-repo].git` format for the repository origin URL and adding of SSH Keys for each git host in the Git Integration app configuration page.<br><br>For HTTPS git repositories, obtain the URL from your git host then set your login credentials in the `username` and `password` (or `pat`) field to connect to them.<br><br>The repository origin may not be hosted on the same server as Jira. |
 | _**displayName**_ | _String._ Optional. Some git hosts may require this to be filled in.<br><br>Define a meaningful name for this repository configuration. If this field is left blank, the default value is obtained from the origin. |
-| _**enableFetches**_ | _Boolean_. Optional.<br><br>Set to **true** to enable fetches on git repositories hosted on remote servers.<br><br>Set to **false** to enable fetches on git repositories hosted on the same server as Jira.<br><br>See section [_Enable Fetches_](/git-integration-for-jira-data-center/connecting-a-repository-via-advanced-setup-gij-self-managed#enable-fetches/) in Connecting a repository via Advanced setup. The default boolean value for this field is **true**. |
+| _**enableFetches**_ | _Boolean_. Optional.<br><br>Set to **true** to enable fetches on git repositories hosted on remote servers.<br><br>Set to **false** to enable fetches on git repositories hosted on the same server as Jira.<br><br>See section [_Enable Fetches_](/git-integration-for-jira-data-center/connecting-a-repository-via-advanced-setup-gij-self-managed#enable-fetches) in Connecting a repository via Advanced setup. The default boolean value for this field is **true**. |
 | _**revisionIndexing**_ | _Boolean_. Optional. <br><br>The default boolean value for this field is **true**.<br><br>This option turns on the memory cache which is used when list of commits are displayed. Set to _**true**_ if revision indexing will index and link to any mentioned issue keys in the revision history or not (_**false**_). |
 | **mainBranch** | _String_. Optional.<br><br>Set specific branch as the main branch for this repository. The default value is "master".<br><br>See section [_Main Branch_](/git-integration-for-jira-data-center/connecting-a-repository-via-advanced-setup-gij-self-managed#main-branch) in Connecting a repository via Advanced setup. |
 | _**username, password**_ | _String_. Optional.<br><br>Leave blank if 2FA is enabled for the git host. |
@@ -81,7 +80,7 @@ Edit the TSV file by referring to the parameters below:
 | _**sourcesDiffViewEnabled**_ | _Boolean._ Optional.<br><br>When enabled, this setting allows Jira users with the **View Development Tools** and correct Jira/Git Integration for Jira app permissions to view the commit and file diffs inside Jira. |
 | _**sslVerify**_ | Boolean. Optional.<br><br>Default is **true**. The SSL Verify option is set to `Enabled` by default. If set to **false**, the Git Integration for Jira app will ignore verification of SSL certificates when connecting to a git server.<br><br>This setting can also be accessed via Manage git repositories ➜  <br>_Actions_ ➜ **Edit integration/repository settings**. |
 | _**apiPath**_ | _String_. Optional.<br><br>The integration will use this relative REST API path starting with "/" to retrieve the list of tracked repositories. For more information, see article [Working with Custom API path](/git-integration-for-jira-data-center/working-with-custom-api-path-gij-self-managed). |
-| _**apiFilter**_ | _String_. Optional.<br><br>JMESPath filter expression will be used to filter API results. See article [Working with JMESPath filters](/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed) or [contact support](mailto:support@bigbrassband.com) for help writing expressions. |
+| _**apiFilter**_ | _String_. Optional.<br><br>JMESPath filter expression will be used to filter API results. See article [Working with JMESPath filters](/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed) or [contact support](mailto:support@gitkraken.com) for help writing expressions. |
 | **tfsCollection** | _String_. Optional. TFS or Azure DevOps Server integrations only.<br><br>A TFS collection is a group of TFS team projects. Specify an existing TFS Collection for use with Jira integration. |
 | _**awsRegion**_ | _String_. Optional. AWS integrations only.<br><br>Specify a region for AWS CodeCommit integration. For region values, see [**AWS Regions and Endpoints**](https://docs.aws.amazon.com/general/latest/gr/rande.html). |
 | _**trustFolderStat**_ | _Boolean._ Optional.<br><br>When the `trustFolderStat` setting is set to **false**, the `.git/objects/pack` folder will be always scanned to check for new pack files. If set to **true**, the `last-modified` attribute of the folder will be used to check the folder for modifications.<br><br>The default value for Jira Data Center is **false**.<br><br>If your repository is stored on a network share, it is highly recommended to set the `trustFolderStat` value to _**false**_.<br><br>When adding new repositories, we recommend to leave the setting of the `trustFolderStat`value to **false** _(default)_. You can change this setting later on via _Actions_ ➜ _**Edit repository settings**_ in the Manage repositories page. |

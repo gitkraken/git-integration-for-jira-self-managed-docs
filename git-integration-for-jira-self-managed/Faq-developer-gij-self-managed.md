@@ -9,7 +9,7 @@ taxonomy:
 
 This page contains solutions targeted for developers.
 
-Use the FAQ below to find answers to common questions. Feel free to contact our support team ([support@bigbrassband.com](mailto:support@bigbrassband.com?subject=Developer%20questions%20-)) if you don't see what you're looking for.
+Use the FAQ below to find answers to common questions. Feel free to contact our support team ([support@gitkraken.com](mailto:support@gitkraken.com?subject=Developer%20questions%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) if you don't see what you're looking for.
 
 - [How do Git commits get associated with a Jira issue?](#how-do-git-commits-get-associated-with-a-jira-issue)
 - [How do I ensure people are following our organization's process for source code?](#how-do-i-ensure-people-are-following-our-organizations-process-for-source-code)
@@ -17,7 +17,9 @@ Use the FAQ below to find answers to common questions. Feel free to contact our
 - [What are developer licenses?](#what-are-developer-licenses)
 - [How to associate a commit, branch or pull request AFTER it has been created?](#how-to-associate-a-commit-branch-or-pull-request-after-it-has-been-created)
 
-* * *
+<br>
+<hr>
+<br>
 
 ## How do Git commits get associated with a Jira issue?
 
@@ -31,7 +33,7 @@ To create a link between your Git commit and a Jira issue, developers must inclu
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Example git commit message:<br>        
+        Example git commit message:<br>
         <div class='nextpara'>
             "<code>PROJ-913 - Plugin version change from 2.6.7 to 2.6.8</code>"; where <b><i>PROJ-913</i></b> is the issue key that links the commit message to the Jira issue.
         </div>
@@ -83,7 +85,7 @@ Developer licenses are available to existing commercial and academic service lic
 
 Only the technical contact can generate a developer key from your commercial/academic license.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/2051964929/atlassian-view-dev-license.png?version=1&modificationDate=1642066435926&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-atlassian-view-dev-license.png)
 
 For more information, see [**What are developer licenses and how are they used?**](https://www.atlassian.com/licensing/purchase-licensing#licensing-10) and [**Getting a Developer License**](https://confluence.atlassian.com/jirakb/get-a-developer-license-for-jira-server-744526918.html).
 

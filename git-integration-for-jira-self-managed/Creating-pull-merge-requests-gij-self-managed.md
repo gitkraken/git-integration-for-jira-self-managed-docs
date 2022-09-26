@@ -28,7 +28,11 @@ taxonomy:
     </div>
     </div>
 </div>
+<br>
 
+<hr>
+
+<br>
 <div class="bbb-callout bbb--note">
     <div class="irow">
     <div class="ilogobox">
@@ -58,13 +62,13 @@ taxonomy:
 
 The **Create pull/merge request** feature offers Jira users the ability to create a git pull request directly from the Jira issue.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1932460359/gitserver-create-pull-merge-req-dlg.png?version=1&modificationDate=1630670055055&cacheVersion=1&api=v2)
+<img src='/wp-content/uploads/gij-gitserver-create-pull-merge-req-dlg.png' width=603 height=313 style='display:block;margin:25px auto;max-width:100%' />
 
 For information about creating a branch from a Jira issue, see [Creating branches](/git-integration-for-jira-data-center/creating-branches-gij-self-managed).
 
 ## Advantages
 
-When creating a pull request from within Jira: 
+When creating a pull request from within Jira:
 
 *   Automatically populates the pull request title with issue key (necessary for pull request **⇿** Jira issue association) and issue summary.
 
@@ -121,11 +125,11 @@ When creating a pull request from within Jira: 
     <iframe width='709' height='551' src='https://fast.wistia.com/embed/iframe/rsccl5wxps?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/rsccl5wxps'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
     <p>The video shows Git Integration for Jira Cloud process but is also applicable to the Jira Server version.</p>
 </div>
 <br>
 
-If you still have a question – reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com).
+If you still have a question – reach out to our [Support Desk](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) or email us at [support@gitkraken.com](mailto:support@gitkraken.com).
 

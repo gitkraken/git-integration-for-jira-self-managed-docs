@@ -76,7 +76,7 @@ This is the URL to the hosted git service used on the project. For example, you 
 
 **SSH INTEGRATION**
 
-Before adding repositories (new or existing) via Bulk change, make sure that you have added SSH keys for the respective git hosts in the Git Integration for Jira app configuration page. BigBrassBand recommends to use the `git@<url>:[your-git-repo].git` format for the repository origin URL and [adding of SSH Keys](/git-integration-for-jira-data-center/adding-a-private-ssh-key-gij-self-managed/) for each git host in the Git Integration for Jira app configuration page.
+Before adding repositories (new or existing) via Bulk change, make sure that you have added SSH keys for the respective git hosts in the Git Integration for Jira app configuration page. BigBrassBand recommends to use the `git@<url>:[your-git-repo].git` format for the repository origin URL and [adding of SSH Keys](/git-integration-for-jira-data-center/adding-a-private-ssh-key-gij-self-managed) for each git host in the Git Integration for Jira app configuration page.
 
 **HTTPS/HTTP INTEGRATION**
 
@@ -162,7 +162,7 @@ Enables or disables the **Repository Browser** feature for this repository. T
     </div>
 </div>
 
-For more information, see [Documentation -- Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed/).
+For more information, see [Documentation -- Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed).
 
 ## projectMapping
 
@@ -230,7 +230,9 @@ _String._ Optional.
 
 Displays all tags for the specific issue, if left blank. Otherwise, set tags matching pattern to display tags on issue pages that match the specified regular expression pattern.
 
-Set _**tagsFilter**_ with a valid Java regular expression or an empty string. The filtered tags are displayed on the Jira Developer Panel.<br><br>For more information, see example in [Documentation -- Git tags](/git-integration-for-jira-data-center/git-tags-gij-self-managed/).
+Set _**tagsFilter**_ with a valid Java regular expression or an empty string. The filtered tags are displayed on the Jira Developer Panel.
+
+For more information, see example in [Documentation -- Git tags](/git-integration-for-jira-data-center/git-tags-gij-self-managed).
 
 ## requireUserPat
 
@@ -286,7 +288,7 @@ _String_. Optional.
 
 The integration will use this relative REST API path starting with "/" to retrieve the list of tracked repositories.
 
-For more information, see [Working with Custom API Path](/git-integration-for-jira-data-center/working-wit-custom-api-path-gij-self-managed/).
+For more information, see [Working with Custom API Path](/git-integration-for-jira-data-center/working-wit-custom-api-path-gij-self-managed).
 
 ## apiFilter
 
@@ -294,7 +296,7 @@ _String_. Optional.
 
 JMESPath filter expression will be used to filter API results.
 
-See our [Integration Guides](/git-integration-for-jira-data-center/integration-guides-gij-self-managed/), [Working with JMESPath filters](/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed/) or [contact support](mailto:support@bigbrassband.com) for help writing expressions.
+See our [Integration Guides](/git-integration-for-jira-data-center/integration-guides-gij-self-managed), [Working with JMESPath filters](/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed) or [contact support](mailto:support@gitkraken.com) for help writing expressions.
 
 ## tfsCollection
 
@@ -306,7 +308,7 @@ A TFS collection is a group of TFS team projects. Specify an existing TFS Collec
 
 _String_. Optional. AWS integrations only.
 
-Specify AWS region; where CodeCommit repositories are located. The list of regions with their names can be found [**here**](https://docs.aws.amazon.com/codecommit/latest/userguide/regions.html).
+Specify AWS region; where CodeCommit repositories are located. The list of regions with their names can be found <a href='https://docs.aws.amazon.com/codecommit/latest/userguide/regions.html' target='_blank'><b>here</b></a>.
 
 Git Integration for Jira app supported regions:
 
@@ -330,7 +332,7 @@ Default is `TRUE`. The **SSL Verify** option is set to enabled by default. If se
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        This setting can also be accessed via menu Git ➜ Manage repositories ➜ <i>Actions</i> ➜ <b>Edit repository/integration settings</b>.
+        This setting can also be accessed via menu Git ➜ Manage repositories ➜ <img src='/wp-content/uploads/actions-icon.png' /> <i>Actions</i> ➜ <b>Edit repository/integration settings</b>.
     </div>
     </div>
 </div>
@@ -367,7 +369,7 @@ The default value for Jira Server is `true`.
 
 _String._ Optional.
 
-Set web link type equivalent to the connected git host. Set web linking formats by referring to [Documentation – Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed/).
+Set web link type equivalent to the connected git host. Set web linking formats by referring to [Documentation – Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed).
 
 ## viewFormat
 

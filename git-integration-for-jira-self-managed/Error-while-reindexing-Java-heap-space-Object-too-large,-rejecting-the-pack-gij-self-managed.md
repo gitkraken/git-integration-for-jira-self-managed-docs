@@ -17,7 +17,7 @@ Jira admins will see an error in the Git Integration for Jira app interface - fo
 
 <br>
 
-<img src='/wp-content/uploads/gij-wizard-java-heap-space.png' height=299 width=402 class='center img-bordered img-responsive' />
+<img src='/wp-content/uploads/gij-wizard-java-heap-space.png' height=299 width=402 style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 
@@ -51,7 +51,17 @@ Caused by: org.eclipse.jgit.api.errors.TransportException: Object too large (2,2
 
 ## Solutions
 
-Making any change to a git repository's history can result in loss of data. Proceed with care.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Making any change to a git repository's history can result in loss of data. Proceed with care.
+    </div>
+    </div>
+</div>
+<br>
 
 *   Remove objects larger than 2GB from the git repository history. See following articles for suggestions:
 
@@ -74,7 +84,7 @@ Making any change to a git repository's history can result in loss of data. Proc
     </div>
     <div class="imsgbox">
         <b>Contact us</b><br>
-        If you still have a question - reach out to our <a href='https://bigbrassband.atlassian.net/servicedesk/customer/portals'>Support Desk</a> or email us at <a href='mailto:support@bigbrassband.com'>support@bigbrassband.com</a>.
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'>Support Desk</a> or email us at <a href='mailto:support@gitkraken.com'>support@bigbrassband.com</a>.
     </div>
     </div>
 </div>

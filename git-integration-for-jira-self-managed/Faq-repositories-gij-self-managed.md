@@ -8,7 +8,7 @@ taxonomy:
 ---
 This page contains solutions to common issues encountered while connecting and configuring git repositories.
 
-Use the FAQ below to find answers to common questions. Feel free to contact our support team ([support@bigbrassband.com](mailto:support@bigbrassband.com?subject=Repository%20connection%20issues%20-)) if you don't see what you're looking for.
+Use the FAQ below to find answers to common questions. Feel free to contact our support team ([support@gitkraken.com](mailto:support@gitkraken.com?subject=Repository%20connection%20issues%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) if you don't see what you're looking for.
 
 - [I have an existing git repository on a Jira server. How can I figure out what values should be used for Repository origin and Repository root fields?](#i-have-an-existing-git-repository-on-a-jira-server-how-can-i-figure-out-what-values-should-be-used-for-repository-origin-and-repository-root-fields)
 - [Can the app be configured to handle or scan multiple keys for one project? How is this supposed to work?](#can-the-app-be-configured-to-handle-or-scan-multiple-keys-for-one-project-how-is-this-supposed-to-work)
@@ -18,7 +18,9 @@ Use the FAQ below to find answers to common questions. Feel free to contact our
 - [We use GitBlit without SSH keys and use only HTTPS instead. Does Git Integration for Jira app support this?](#we-use-gitblit-without-ssh-keys-and-use-only-https-instead-does-git-integration-for-jira-app-support-this)
 - [I am using Jira which is hosted on Windows. I changed the password of the Active Directory account running Jira. Now, I cannot access my repository. Why?](#i-am-using-jira-which-is-hosted-on-windows-i-changed-the-password-of-the-active-directory-account-running-jira-now-i-cannot-access-my-repository-why)
 
-* * *
+<br>
+<hr>
+<br>
 
 ## I have an existing git repository on a Jira server. How can I figure out what values should be used for Repository origin and Repository root fields?
 
@@ -46,7 +48,9 @@ The Repository Root (in settings) must be a local path for server which is used 
 
 In other words, the plugin must point to a clone of the repository and this clone must run locally with Jira.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2051080265/faq-git-repo-advanced-screen.png?version=1&modificationDate=1642078696400&cacheVersion=1&api=v2&width=680&height=344)
+![](/wp-content/uploads/gij-faq-git-repo-advanced-screen.png)
+
+<br>
 
 ## How do you configure the Repository Root which is not located in a Jira home directory with Git Integration for Jira?
 

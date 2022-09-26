@@ -9,7 +9,7 @@ taxonomy:
 
 This page contains frequently asked questions by users in general.
 
-Use the FAQ below to find answers to common questions. Feel free to contact our support team ([support@bigbrassband.com](mailto:support@bigbrassband.com?subject=General%20question%20-)) if you don't see what you're looking for.
+Use the FAQ below to find answers to common questions. Feel free to contact our support team ([support@gitkraken.com](mailto:support@gitkraken.com?subject=General%20question%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) if you don't see what you're looking for.
 
 - [What is git?](#what-is-git)
 - [What is Git Integration for Jira app?](#what-is-git-integration-for-jira-app)
@@ -19,7 +19,9 @@ Use the FAQ below to find answers to common questions. Feel free to contact our
 - [Which version of Jira is compatible with Git Integration for Jira app?](#which-version-of-jira-is-compatible-with-git-integration-for-jira-app)
 - [How to obtain the correct Jira user name?](#how-to-obtain-the-correct-jira-user-name)
 
-* * *
+<br>
+<hr>
+<br>
 
 ## What is git?
 
@@ -71,7 +73,7 @@ We test this on huge Git repositories in large Jira instances. Over 5000 organiz
 
 Some versions of the Git Integration for Jira app are compatible with specific versions of Jira. For example, VERSION 3.8.1 is compatible with Jira Server versions 7.13.0 to 8.19.1.
 
-<div class="bbb-callout bbb--tip">
+<div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
         <span class="logoimg"></span>
@@ -85,7 +87,7 @@ Some versions of the Git Integration for Jira app are compatible with specific v
 
 For a more comprehensive view, see [**Git Integration for Jira app: Version History »**](https://marketplace.atlassian.com/plugins/com.xiplink.jira.git.jira_git_plugin/versions).
 
-In the Version History page, you can try or buy the Git Integration for Jira app or download it for use with [**manual installation**](/git-integration-for-jira-data-center/manual-installation-gij-self-managed/).
+In the Version History page, you can try or buy the Git Integration for Jira app or download it for use with [**manual installation**](/git-integration-for-jira-data-center/manual-installation-gij-self-managed).
 
 ## How to obtain the correct Jira user name?
 
@@ -95,6 +97,5 @@ In the Version History page, you can try or buy the Git Integration for Jira app
 
 3.  Look for the **User Name** row in the table.
 
-
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2047901940/gitserver-jira-admin-system-username-info.png?version=1&modificationDate=1641742011156&cacheVersion=1&api=v2&width=680&height=401)
+![](/wp-content/uploads/gij-gitserver-jira-admin-system-username-info.png)
 

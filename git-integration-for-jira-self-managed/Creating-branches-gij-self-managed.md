@@ -16,13 +16,13 @@ taxonomy:
         <b>Jira administrator notes</b>
         <ul>
             <li>
-                Jira users can be required to provide their own Personal Access Token when creating a branch or pull request. See <a href='/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/'>Require Personal Access Tokens for user actions (create branch/pull request)</a> for instructions on how to configure this feature.
+                Jira users can be required to provide their own Personal Access Token when creating a branch or pull request. See <a href='/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed'>Require Personal Access Tokens for user actions (create branch/pull request)</a> for instructions on how to configure this feature.
             </li>
             <li>
-                The <b>View developer tools</b> <i>permission</i> is required to view the Source Code panel (see more in <a href='/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed/'>Jira issue Git integration development panel</a>. Jira users must also have the <b>Browse Project</b> <i>permissions</i> to a project associated with a repository to view.
+                The <b>View developer tools</b> <i>permission</i> is required to view the Source Code panel (see more in <a href='/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed'>Jira issue Git integration development panel</a>. Jira users must also have the <b>Browse Project</b> <i>permissions</i> to a project associated with a repository to view.
             </li>
             <li>
-                The Create branch feature can be disabled for all Jira users (regardless of permissions) in <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed/'>General settings</a>.
+                The Create branch feature can be disabled for all Jira users (regardless of permissions) in <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'>General settings</a>.
             </li>
         </ul>
     </div>
@@ -46,7 +46,7 @@ taxonomy:
 
 The Create branch feature offers Jira users the ability to create a git branch directly from the Jira issue.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1932460323/dev-panel-create-branch-dlg(c).png?version=1&modificationDate=1630669954218&cacheVersion=1&api=v2&width=544&height=272)
+<img src='/wp-content/uploads/gij-dev-panel-create-branch-dlg-c.png' width=603 height=302 style='display:block;margin:25px auto;max-width:100%' />
 
 For information about creating pull/merge requests from a Jira issue - see article [Creating pull/merge request](/git-integration-for-jira-data-center/create-pull-merge-requests-gij-self-managed).
 
@@ -118,11 +118,11 @@ When creating a branch from within Jira:
     <iframe width='709' height='582' src='https://fast.wistia.com/embed/iframe/8cy7v6ykug?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div style='text-align: center'>
+<div style='text-align: center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/8cy7v6ykug'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i><br>
     <i>The video shows Git Integration for Jira Cloud process but is also <br>applicable to the Jira Server version.</i>
 </div>
 <br>
 
-If you still have a question - reach out to our [Support Desk](https://bigbrassband.atlassian.net/servicedesk/customer/portals) or email us at [support@bigbrassband.com](mailto:support@bigbrassband.com).
+If you still have a question - reach out to our [Support Desk](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) or email us at [support@gitkraken.com](mailto:support@gitkraken.com).
 
