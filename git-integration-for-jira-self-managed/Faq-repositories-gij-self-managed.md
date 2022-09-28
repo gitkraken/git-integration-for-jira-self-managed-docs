@@ -8,7 +8,7 @@ taxonomy:
 ---
 This page contains solutions to common issues encountered while connecting and configuring git repositories.
 
-Use the FAQ below to find answers to common questions. Feel free to contact our support team ([support@gitkraken.com](mailto:support@gitkraken.com?subject=Repository%20connection%20issues%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) if you don't see what you're looking for.
+Use the FAQ below to find answers to common questions. Feel free to contact our support team ([support@gitkraken.com](mailto:support@gitkraken.com?subject=Repository%20connection%20issues%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you don't see what you're looking for.
 
 - [I have an existing git repository on a Jira server. How can I figure out what values should be used for Repository origin and Repository root fields?](#i-have-an-existing-git-repository-on-a-jira-server-how-can-i-figure-out-what-values-should-be-used-for-repository-origin-and-repository-root-fields)
 - [Can the app be configured to handle or scan multiple keys for one project? How is this supposed to work?](#can-the-app-be-configured-to-handle-or-scan-multiple-keys-for-one-project-how-is-this-supposed-to-work)

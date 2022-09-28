@@ -8,7 +8,7 @@ taxonomy:
 ---
 This page contains solutions related to Git Integration for JIRA app installation.
 
-Use the FAQ below to find answers to common questions. Feel free to contact our support team ([support@gitkraken.com](mailto:support@gitkraken.com?subject=Installation%20issue%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/) if you don't see what you're looking for.
+Use the FAQ below to find answers to common questions. Feel free to contact our support team ([support@gitkraken.com](mailto:support@gitkraken.com?subject=Installation%20issue%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you don't see what you're looking for.
 
 - [Does it take long to install?](#does-it-take-long-to-install)
 - [I don't know Git — what will I need to install the app/add-on?](#i-dont-know-git--what-will-i-need-to-install-the-appadd-on)

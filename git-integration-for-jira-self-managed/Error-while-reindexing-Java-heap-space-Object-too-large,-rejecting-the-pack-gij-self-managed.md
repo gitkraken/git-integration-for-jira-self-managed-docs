@@ -84,7 +84,7 @@ Caused by: org.eclipse.jgit.api.errors.TransportException: Object too large (2,2
     </div>
     <div class="imsgbox">
         <b>Contact us</b><br>
-        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'>Support Desk</a> or email us at <a href='mailto:support@gitkraken.com'>support@bigbrassband.com</a>.
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='mailto:support@gitkraken.com'>support@gitkraken.com</a>.
     </div>
     </div>
 </div>
