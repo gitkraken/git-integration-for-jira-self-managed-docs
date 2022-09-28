@@ -40,6 +40,7 @@ taxonomy:
     </div>
 </div>
 <br>
+<br>
 
 <img src='/wp-content/uploads/gij-github-ent-server-banner-logo' width=510 height=59 style='max-width:100%;margin:25px 0 15px 0' />
 
@@ -64,6 +65,7 @@ Quickly learn how to connect GitHub Enterprise Server git repositories via Git I
     - [Default branch](#default-branch)
     - [Creating branches](#creating-branches)
     - [Creating pull requests](#creating-pull-requests)
+  - [More Integration Guides](#more-integration-guides)
 
 <br>
 <hr>
@@ -439,3 +441,30 @@ The pull request is listed on the developer panel of the Jira issue page.
 
 The pull request is also ready for approval by the reviewers in your GitHub web portal.
 
+## More Integration Guides
+
+[GitHub.com](/git-integration-for-jira-data-center/gitHub-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+**GitHub Enterprise Server** (this page)
+
+[GitLab.com](/git-integration-for-jira-data-center/gitLab-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[GitLab CE/EE](/git-integration-for-jira-data-center/gitLab-com-CE-EE-gijsm-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Azure DevOps | Visual Studio Team Services (VSTS)](/git-integration-for-jira-data-center/azure-DevOps-Visual-Studio-Team-Services-(VSTS)-gij-self-managed) (Git Integration for Data Center/Jira Server)
+
+[Azure DevOps Server | Team Foundation Services (TFS)](/git-integration-for-jira-data-center/azure-DevOps-Server-Team-Foundation-Services-(TFS)-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[AWS CodeCommit](/git-integration-for-jira-data-center/aws-codecommit-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Gerrit](/git-integration-for-jira-data-center/gerrit-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Windows Network | Server Share](/git-integration-for-jira-data-center/windows-Network-Server-Share-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Tracked Folders](/git-integration-for-jira-data-center/tracked-Folders-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Bitbucket Server](/git-integration-for-jira-data-center/Bitbucket-Server-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Bonobo](/git-integration-for-jira-data-center/bonobo-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Integration basics](/git-integration-for-jira-data-center/Integration-Basics-gij-self-managed) (Git Integration for Jira Data Center/Server)

@@ -6,11 +6,13 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/2041937935/Asset%202@5x_1.png?version=1&modificationDate=1640251774847&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-troubleshoot-how-do-i-see-commits-top)
 
 <p style='text-align: center'>↓</p>
 
-**\> Check if Git Integration for Jira app is installed, licensed and active** (JIRA ADMIN)
+### \> Check if Git Integration for Jira app is installed, licensed and active
+
+
 
 Follow the [link](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=server&tab=overview) to install from the Atlassian Marketplace. You can verify that the Git Integration for Jira Data Center app is installed by visiting:
 
@@ -18,7 +20,7 @@ Jira Administration ➜ **Manage apps**.
 
 Verify that the license is valid and that the application is active (installed, subscription is active).
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2041937935/gitserver-jira-manage-apps-page.png?version=1&modificationDate=1640254878878&cacheVersion=1&api=v2&width=800&height=530) 
+<img src='/wp-content/uploads/gij-gitserver-jira-manage-apps-page.png' style='margin:25px auto;display:block;max-width:100%'
 
 <p style='text-align: center'>Git Integration for Jira Data Center is installed, licensed and active</p>
 
@@ -28,7 +30,7 @@ Verify that the license is valid and that the application is active (installed, 
 
 Repo or integration level:
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2041937935/is-repo-enabled-repo-level.png?version=1&modificationDate=1640251773616&cacheVersion=1&api=v2&width=800&height=388)
+![](/wp-content/uploads/gij-gitserver-idontsee-commits-is-repo-enabled-repo-level.png)
 
 <br>
 

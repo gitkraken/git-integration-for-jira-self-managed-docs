@@ -116,7 +116,7 @@ No configuration or source code data is lost when uninstalling, disabling or cle
     </div>
     <div class="imsgbox">
         <b>Contact Us</b><br>
-        If you still have a question - reach out to our <a href='https://bigbrassband.atlassian.net/servicedesk/customer/portals'>Support Desk</a> or email us at <a href='mailto:support@bigbrassband.com'>support@bigbrassband.com</a>.
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='mailto:support@gitkraken.com'>support@gitkraken.com</a>.
     </div>
     </div>
 </div>
