@@ -64,14 +64,17 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
   - [Default branch](#default-branch)
   - [Creating branches](#creating-branches)
   - [Creating pull requests](#creating-pull-requests)
+- [More Integration Guides](#more-integration-guides)
 
-* * *
+<br>
+<hr>
+<br>
 
 <div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/s26h3avwuo?seo=false' frameborder='0' allowfullscreen></iframe>
 </div>
 
-<div align="center">
+<div align="center" style='margin-top:10px'>
   <i>Watch the video guide by clicking <a href="https://bigbrassband.wistia.com/medias/s26h3avwuo" target="_blank"><b>here</b></a> to open this video in a <br>new browser tab for more viewing options.</i>
 </div>
 <br>
@@ -89,7 +92,7 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
   </div>
 </div>
 
-While instructions from GitHub works just fine, [follow this article](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed#github--github-enterprise/) for some specific instructions to get you started.
+While instructions from GitHub works just fine, [follow this article](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed#github--github-enterprise) for some specific instructions to get you started.
 
 ## Using Full feature integration
 
@@ -131,8 +134,8 @@ We strongly recommend to use personal access tokens for GitHub.com account integ
 
         -  **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated.   The maximum allowed length is 2000 characters or less.
 
-            For help with writing expressions, please contact [support](mailto:support@bigbrassband.com). Read about JMESPath expressions on their **website**.
-            For some other examples, see [Working with JMESPath Filter in GitHub.com](/git-integration-for-jira-data-center/gitHub-gitHub-enterprise-jmespath-filter-examples-gij-self-managed/).
+            For help with writing expressions, please contact [support](mailto:support@gitkraken.com). Read about JMESPath expressions on their **website**.
+            For some other examples, see [Working with JMESPath Filter in GitHub.com](/git-integration-for-jira-data-center/gitHub-gitHub-enterprise-jmespath-filter-examples-gij-self-managed).
 
         -  **Fetch refspec**  –  Git refspecs contains patterns mapped as references from the remote to the local repository.
             For more information, see [**Git Internals -- The Refspec**](https://git-scm.com/book/en/v2/Git-Internals-The-Refspec).
@@ -165,13 +168,13 @@ We strongly recommend to use personal access tokens for GitHub.com account integ
 
     ![](/wp-content/uploads/gij-gitserver-github-autoconnect-settings-dlg-c.png)
 
-    *   On the Integration Settings, setting the _**Require User PAT**_ option to `ON`, will require users to provide PAT specific for branch and merge requests _(via the_ [developer panel](/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed/) _on the Jira issue page)_.
+    *   On the Integration Settings, setting the _**Require User PAT**_ option to `ON`, will require users to provide PAT specific for branch and merge requests _(via the_ [developer panel](/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed) _on the Jira issue page)_.
 
-        For more information on this feature, see [Integration Settings: Require User PAT](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/).
+        For more information on this feature, see [Integration Settings: Require User PAT](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed).
 
     *   Set **Smart Commits** and **Repository Browser** to enable/disable these features.
 
-    *   Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Associating project permissions](/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed/).
+    *   Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Associating project permissions](/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed).
 
 7.  Click **Finish** to complete this setup.
 
@@ -220,7 +223,7 @@ Assign GitHub permissions for team members or collaborators to allow which resou
 
 1.  Login to your GitHub.com account.
 
-2.  Go to <img style='margin: 0 3px;' src='/wp-content/uploads/gij-profile-icon.png' alt=''/> **Profile** ➜ **Settings**.
+2.  Go to <img style='margin: 0 3px;' src='/wp-content/uploads/gij-profile-icon.png' alt='' /> **Profile** ➜ **Settings**.
 
 3.  On your sidebar, click **Organizations**.
 
@@ -327,7 +330,7 @@ The Git Integration for Jira app automatically configures web linking for GitHub
 
 For single repository connections, web link setup is optional. However, git links will become available in Git Commits tab when configured.
 
-For more information on this feature, see [Documentation: Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed/).
+For more information on this feature, see [Documentation: Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed).
 
 ## Viewing git commits in Jira Data Center
 
@@ -340,13 +343,13 @@ For more information on this feature, see [Documentation: Web linking](/git-inte
 4.  Click **View Full Commit** to view the code diff.
 
 
-For more information about this feature, see [Documentation: Viewing commit code diffs](/git-integration-for-jira-data-center/viewing-commit-code-diffs-gij-self-managed/).
+For more information about this feature, see [Documentation: Viewing commit code diffs](/git-integration-for-jira-data-center/viewing-commit-code-diffs-gij-self-managed).
 
 ## Require User PAT settings for user access
 
 For teams looking to maintain user attribution, Jira administrators can place a requirement where individual Jira users must provide personal access tokens to perform certain actions. This includes actions such as creating a branch or pull request in Jira using their git service account - rather than the integration account.
 
-For more information, see [Require personal access tokens for user access](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/).
+For more information, see [Require personal access tokens for user access](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed).
 
 If the **Require User PAT option** is enabled in the **Integration Feature Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, a text label about setting up your PAT is displayed on the create branch and create pull/merge request dialogs.
 
@@ -453,4 +456,32 @@ The pull request feature works the same as merge request. On your Jira Data Cent
 The pull request is listed on the developer panel of the Jira issue page.
 
 The pull request is also ready for approval by the reviewers in your GitHub web portal.
+
+## More Integration Guides
+
+**GitHub.com** (this page)
+
+[GitHub Enterprise Server](/git-integration-for-jira-data-center/gitHub-Enterprise-Server-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[GitLab.com](/git-integration-for-jira-data-center/gitLab-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[GitLab CE/EE](/git-integration-for-jira-data-center/gitLab-com-CE-EE-gijsm-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Azure DevOps | Visual Studio Team Services (VSTS)](/git-integration-for-jira-data-center/azure-DevOps-Visual-Studio-Team-Services-(VSTS)-gij-self-managed) (Git Integration for Data Center/Jira Server)
+
+[Azure DevOps Server | Team Foundation Services (TFS)](/git-integration-for-jira-data-center/azure-DevOps-Server-Team-Foundation-Services-(TFS)-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[AWS CodeCommit](/git-integration-for-jira-data-center/aws-codecommit-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Gerrit](/git-integration-for-jira-data-center/gerrit-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Windows Network | Server Share](/git-integration-for-jira-data-center/windows-Network-Server-Share-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Tracked Folders](/git-integration-for-jira-data-center/tracked-Folders-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Bitbucket Server](/git-integration-for-jira-data-center/Bitbucket-Server-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Bonobo](/git-integration-for-jira-data-center/bonobo-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Integration basics](/git-integration-for-jira-data-center/Integration-Basics-gij-self-managed) (Git Integration for Jira Data Center/Server)
 

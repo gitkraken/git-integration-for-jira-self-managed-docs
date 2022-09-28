@@ -35,7 +35,7 @@ taxonomy:
 
 The Issue Git integration panel displays:
 
-*   **Git Commits:** number of commits and link to [Git Commits Issue Tab](/git-integration-for-jira-data-center/git-commits-tab-gij-self-managed/), link to [Git Roll Up Issue Tab](/git-integration-for-jira-data-center/git-roll-up-tab-docs-gij-self-managed/).
+*   **Git Commits:** number of commits and link to [Git Commits Issue Tab](/git-integration-for-jira-data-center/git-commits-tab-gij-self-managed), link to [Git Roll Up Issue Tab](/git-integration-for-jira-data-center/git-roll-up-tab-docs-gij-self-managed).
 
 *   **Branches:** Create branch function, list of branches associated to Jira issue (Jira issue key must be in branch title)
 
@@ -45,7 +45,7 @@ The Issue Git integration panel displays:
 
 <br>
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1932329305/gitserver-git-integration-panel-view.png?version=1&modificationDate=1642594991246&cacheVersion=1&api=v2)
+![](/wp-content-uploads/gij-gitserver-git-integration-panel-view.png)
 
 <br>
 
@@ -61,7 +61,7 @@ The Issue Git integration panel displays:
 
 <br>
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1932329305/gitserver-gencfg-dev-panel-sel.png?version=1&modificationDate=1642598628491&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitserver-gencfg-dev-panel-sel.png)
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -70,7 +70,7 @@ The Issue Git integration panel displays:
     </div>
     <div class="imsgbox">
         <b>Contact us</b><br>
-        If you still have a question - reach out to our <a href='https://bigbrassband.atlassian.net/servicedesk/customer/portals'>Support Desk</a> or email us at <a href='mailto:support@bigbrassband.com'>support@bigbrassband.com</a>.
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='mailto:support@gitkraken.com'>support@gitkraken.com</a>.
     </div>
     </div>
 </div>
