@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-If you need help with the Git Integration for Jira app, please e-mail us: [support@bigbrassband.com](mailto:support@bigbrassband.com).
+If you need help with the Git Integration for Jira app, please e-mail us: [support@gitkraken.com](mailto:support@gitkraken.com).
 
 Please include the "Support Zip" that Jira produces for diagnosing issues.
 
@@ -58,7 +58,7 @@ You can produce the "Support Zip" by following the steps in [this article](/git
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        If the support zip is larger than 15 MB _(too large for our support system to receive by email) -_ contact us: <a href='mailto:support@bigbrassband.com'>support@bigbrassband.com</a> and we will provide a secure location to upload the support zip.
+        If the support zip is larger than 15 MB _(too large for our support system to receive by email) -_ contact us: <a href='mailto:support@gitkraken.com'>support@gitkraken.com</a> and we will provide a secure location to upload the support zip.
     </div>
     </div>
 </div>
@@ -66,7 +66,7 @@ You can produce the "Support Zip" by following the steps in [this article](/git
 
 ## Memory warnings before GC
 
-<span style='color: #FFF1B6'><b>NEW!</b></span> <b style='color:#B1F7D2'>VERSION 4.0</b>
+<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>NEW!</b> <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.0</b>
 
 This type of information can be obtained from the logs.
 

@@ -8,7 +8,7 @@ taxonomy:
 ---
 This page contains related questions on Git Integration for Jira app SSH connections in Jira.
 
-Use the FAQ below to find answers to common questions. Feel free to contact our support team ([support@bigbrassband.com](mailto:support@bigbrassband.com?subject=Help%20on%20SSH%20issues%20-)) if you don't see what you're looking for.
+Use the FAQ below to find answers to common questions. Feel free to contact our support team ([support@gitkraken.com](mailto:support@gitkraken.com?subject=Help%20on%20SSH%20issues%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you don't see what you're looking for.
 
 - [Creating and configuring SSH keys (Windows/MacOS/Linux)](#creating-and-configuring-ssh-keys-windowsmacoslinux)
   - [1\. Acquire SSH Git Repository URL](#1-acquire-ssh-git-repository-url)
@@ -24,7 +24,9 @@ Use the FAQ below to find answers to common questions. Feel free to contact our
 - [Why do I need to provide a PRIVATE KEY to the Git Integration for Jira app instead of a PUBLIC KEY?](#why-do-i-need-to-provide-a-private-key-to-the-git-integration-for-jira-app-instead-of-a-public-key)
 - [How do I configure/connect an SSH remote git repository to Jira?](#how-do-i-configureconnect-an-ssh-remote-git-repository-to-jira)
 
-* * *
+<br>
+<hr>
+<br>
 
 ## Creating and configuring SSH keys (Windows/MacOS/Linux)
 
@@ -44,7 +46,7 @@ As a summary, you need to perform the following tasks in order to successfully i
 
 ### 1\. Acquire SSH Git Repository URL
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/183271450/image-20220118-110313.png?version=1&modificationDate=1642504624168&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitserver-acquire-ssh-git-repo-url.png)
 
 Get the git clone SSH URL from the repository home of the git host that will be used for Jira integration. The above screen represents an example from GitLab.
 
@@ -58,7 +60,7 @@ Do note that when generating the key pair for use with Git Integration for Jira 
 
 *   The generated SSH key must use the OpenSSL PEM storage format.
 
-    For more information on SSH connection issues, see article [SSH key format is invalid](/git-integration-for-jira-data-center/ssh-key-file-format-is-invalid-gij-self-managed/).
+    For more information on SSH connection issues, see article [SSH key format is invalid](/git-integration-for-jira-data-center/ssh-key-file-format-is-invalid-gij-self-managed).
 
 #### Linux/MacOs
 
@@ -68,7 +70,9 @@ On Linux and MacOS, perform this command in Terminal to generate an SSH key in R
 ssh-keygen -t rsa -b 4096 -m pem -C "your_email@example.com"
 ```
 
-MacOS often incorrectly creates an OpenSSH format certificate. For more details, see information on this [**common problem**](https://serverfault.com/questions/939909/ssh-keygen-does-not-create-rsa-private-key).<br><br>![](https://bigbrassband.atlassian.net/wiki/download/attachments/183271450/image-20220118-110744.png?version=1&modificationDate=1642504624174&cacheVersion=1&api=v2)
+MacOS often incorrectly creates an OpenSSH format certificate. For more details, see information on this [**common problem**](https://serverfault.com/questions/939909/ssh-keygen-does-not-create-rsa-private-key).
+
+![](/wp-content/uploads/gij-gitserver-generate-ssh-key-pair-example.png)
 
 For lost SSH passphrase in Linux, you will need to generate a new SSH key pair. There's no way to recover it.
 
@@ -78,7 +82,7 @@ For MacOS, if you configured your SSH passphrase with the password manager (Keyc
 
 For Windows, we recommend to use [**PuTTY**](https://www.putty.org/) and use PuTTYgen to generate key pair for your SSH git repository connection.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/183271450/puttygen-key-dlg.png%3Fversion=1&modificationDate=1642164294617&cacheVersion=1&api=v2?version=1&modificationDate=1642504624176&cacheVersion=1&api=v2&width=448&height=440)
+<img src='/wp-content/uploads/gij-puttygen-key-dlg.png' width=479 height=471 style='display:block;margin:25px auto;max-width:100%' />
 
 1.  Launch **PuTTYgen** and refer to the above image for the rest of the steps on this section.
 
@@ -123,9 +127,10 @@ Watch the video below to learn more details of the steps outlined above. As a bo
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/migvqa03gw?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/migvqa03gw'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
+<br>
 
 ## Are passphrases supported on SSH keys?
 
@@ -141,7 +146,7 @@ Yes.
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        **VERSION 4.0+**
+        <b>VERSION 4.0+</b><br>
         OpenSSH is now fully supported.
     </div>
     </div>
@@ -158,9 +163,10 @@ SSH keys with and without passphrases are supported.
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/qmumdo048n?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/qmumdo048n'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
+<br>
 
 ## Why do I need to provide a PRIVATE KEY to the Git Integration for Jira app instead of a PUBLIC KEY?
 
@@ -193,7 +199,7 @@ Here's a video to guide you step-by-step as stated above:
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/qmumdo048n?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style='margin-top:10px'>
     <i>Watch how to add an SSH Git repository. Right click <a href='https://bigbrassband.wistia.com/medias/qmumdo048n'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-
+<br>

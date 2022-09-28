@@ -24,7 +24,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        For instructions to instances hosted on GitHub.com (Free, Team, Enterprise (including <a href='https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users'></b>EMU</b></a> plans), please go to <a href='/git-integration-for-jira-data-center/github-gij-self-managed/'>this page</a>.
+        For instructions to instances hosted on GitHub.com (Free, Team, Enterprise (including <a href='https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users'></b>EMU</b></a> plans), please go to <a href='/git-integration-for-jira-data-center/github-gij-self-managed'>this page</a>.
     </div>
     </div>
 </div>
@@ -35,13 +35,13 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/github-com-gij-cloud/'>See the corresponding article</a>.
+        Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/github-com-gij-cloud'>See the corresponding article</a>.
     </div>
     </div>
 </div>
 <br>
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91914350/github-ent-server-banner-logo.png?version=1&modificationDate=1646819881183&cacheVersion=1&api=v2&width=510&height=59)
+<img src='/wp-content/uploads/gij-github-ent-server-banner-logo' width=510 height=59 style='max-width:100%;margin:25px 0 15px 0' />
 
 <br>
 
@@ -65,14 +65,15 @@ Quickly learn how to connect GitHub Enterprise Server git repositories via Git I
     - [Creating branches](#creating-branches)
     - [Creating pull requests](#creating-pull-requests)
 
-
-* * *
+<br>
+<hr>
+<br>
 
 <div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/75nvefgz66?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/75nvefgz66'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 <br>
@@ -90,7 +91,7 @@ Quickly learn how to connect GitHub Enterprise Server git repositories via Git I
     </div>
 </div>
 
-While instructions from GitHub works just fine, [follow this article](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed/) for some specific instructions to get you started.
+While instructions from GitHub works just fine, [follow this article](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed) for some specific instructions to get you started.
 
 ## Using Full feature integration
 
@@ -104,7 +105,7 @@ This setup uses full feature integration offering functions and features not fou
 
 2.  On the Add new integration panel, click **GitHub Enterprise**. The Add new integration Wizard is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91914350/gitserver-42-connect-auto-ext-service-github-ent-svr(c).png?version=1&modificationDate=1648030398265&cacheVersion=1&api=v2&width=659&height=467)
+    ![](/wp-content/uploads/gij-gitserver-42-connect-auto-ext-service-github-ent-svr-c.png)
 
     -  For the **Host URL**, enter the address of the GitHub Enterprise server.
 
@@ -114,17 +115,17 @@ This setup uses full feature integration offering functions and features not fou
 
     -  Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed.
 
-        ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91914350/gitserver-general-advanced-autoconnect-opt(c).png?version=1&modificationDate=1644573046808&cacheVersion=1&api=v2&width=612&height=416)
+        ![](/wp-content/uploads/gij-gitserver-general-advanced-autoconnect-opt-c.png)
 
         -   **Custom API Path**  –  his is a relative path that starts with "/".  The maximum allowed length is 2000 characters or less. The integration will use the relative REST API path to retrieve the list of tracked repositories. The Custom API Path is called everytime the list of repositories is loaded, on a regular scheduled reindex and a manual reindex.
 
-            For more examples, see article [Jira Server: Working with Custom API Path - GitHub Enterprise](/git-integration-for-jira-data-center/working-with-custom-api-path-gij-self-managed#githubcom-and-github-enterprise-examples/).
+            For more examples, see article [Jira Server: Working with Custom API Path - GitHub Enterprise](/git-integration-for-jira-data-center/working-with-custom-api-path-gij-self-managed#githubcom-and-github-enterprise-examples).
 
         -   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less.
 
-            For help with writing expressions, please contact [support](mailto:support@bigbrassband.com). Read about JMESPath expressions on their [website](http://jmespath.org/).
+            For help with writing expressions, please contact [support](mailto:support@gitkraken.com). Read about JMESPath expressions on their [website](http://jmespath.org).
 
-            For some other examples, see [Working with JMESPath Filter in GitHub Enterprise](/git-integration-for-jira-data-center/gitHub-gitHub-enterprise-jmespath-filter-examples-gij-self-managed/).
+            For some other examples, see [Working with JMESPath Filter in GitHub Enterprise](/git-integration-for-jira-data-center/gitHub-gitHub-enterprise-jmespath-filter-examples-gij-self-managed).
 
         -   **Fetch refspec**  –  Git refspecs contains patterns mapped as references from the remote to the local repository.
             For more information, see **Git Internals -- The Refspec**.
@@ -155,13 +156,13 @@ This setup uses full feature integration offering functions and features not fou
 
 5.  After the import process, the **Settings** dialog is displayed:
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91914350/gitserver-github-autoconnect-settings-dlg(c).png?version=1&modificationDate=1644573046812&cacheVersion=1&api=v2&width=646&height=449)
+    ![](/wp-content/uploads/gij-gitserver-github-autoconnect-settings-dlg-c.png)
 
-    *   On the Integration Settings, setting the _**Require User PAT**_ option to `ON`, will require users to provide PAT specific for branch and merge requests _(via the developer panel on the Jira issue page)_. For more information on this feature, see [Integration Settings: Require User PAT](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/).
+    *   On the Integration Settings, setting the _**Require User PAT**_ option to `ON`, will require users to provide PAT specific for branch and merge requests _(via the developer panel on the Jira issue page)_. For more information on this feature, see [Integration Settings: Require User PAT](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed).
 
     *   Set **Smart commits** and **Repository Browser** to enable/disable these features.
 
-    *   Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Associating project permissions](/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed/).
+    *   Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Associating project permissions](/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed).
 
 6.  Click **Finish** to complete this setup.
 
@@ -185,7 +186,7 @@ This process requires an existing GitHub Enterprise Server git repository. Look
 
 Choose between SSH or HTTPS. Use this information to connect the GitLab git repository to your Jira server via Git Integration for Jira app.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/91914350/github-repository-home.png?version=1&modificationDate=1644573046815&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-github-repository-home.png)
 
 1.  On your Jira dashboard menu, go to Git ➜ **Manage repositories**.
 
@@ -210,11 +211,11 @@ Assign GitHub Enterprise Server permissions for team members or collaborators to
 
 1.  Login to your GitHub Enterprise Server account.
 
-2.  Go to Profile ➜ **Settings**.
+2.  Go to ![profile icon](/wp-content/uploads/gij-profile-icon.png) Profile ➜ **Settings**.
 
 3.  Under _Organization settings_, click **Member Privileges**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/91914350/github-default-repo-permission(c).png?version=1&modificationDate=1644573046819&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-github-default-repo-permission-c.png)
     *   Choose the default permission level for organization members.
 
     *   The default repository permission only applies to organization members and not to outside collaborators. If the default permission is set to _**None**_, organization members will need to be given access to repositories using the Teams or Collaborators methods (see below).
@@ -236,7 +237,7 @@ To give a member additional access, they must be added to a team or make them co
 
 2.  Click the **Repositories** tab.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/91914350/github-manage-repo-permission-tab(c).png?version=1&modificationDate=1644573046823&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-github-manage-repo-permission-tab-c.png)
 
 3.  Set **Read**, **Write** or **Admin** repository access as desired.
 
@@ -248,7 +249,7 @@ To give a member additional access, they must be added to a team or make them co
 
 2.  Invite a member to add it into the team.  An email invitation is sent to that GitHub service user.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91914350/add-members-to-team(c).png?version=1&modificationDate=1644573046826&cacheVersion=1&api=v2&width=408&height=287)
+    ![](/wp-content/uploads/gij-add-members-to-team-c.png)
 
     The service user is then added to the team if the invitation has been accepted.
 
@@ -265,7 +266,7 @@ To give a member additional access, they must be added to a team or make them co
 4.  Click **Manage access** to manage repository access for this member.
 
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91914350/manage-team-repo-permission.png?version=1&modificationDate=1644573046830&cacheVersion=1&api=v2&width=680&height=155)
+![](/wp-content/uploads/gij-manage-team-repo-permission.png)
 
 <div class="bbb-callout bbb--note">
     <div class="irow">
@@ -323,19 +324,19 @@ For more information on this feature, see [Documentation: Web linking](/git-inte
 4.  Click **View full commit** to view the code diff.
 
 
-For more information about this feature, see [Documentation: Viewing commit code diffs](/git-integration-for-jira-data-center/viewing-commit-code-diffs-gij-self-managed/).
+For more information about this feature, see [Documentation: Viewing commit code diffs](/git-integration-for-jira-data-center/viewing-commit-code-diffs-gij-self-managed).
 
 ## Require User PAT settings for user access
 
 For teams looking to maintain user attribution, Jira administrators can place a requirement where individual Jira users must provide personal access tokens to perform certain actions. This includes actions such as creating a branch or pull request in Jira using their git service account - rather than the integration account.
 
-For more information, see [Require personal access tokens for user access](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/).
+For more information, see [Require personal access tokens for user access](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed).
 
 If the **Require User PAT option** is enabled in the **Integration Feature Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, a text label about setting up your PAT is displayed on the create branch and create pull/merge request dialogs.
 
 Click this text label to open the Setup PAT dialog and paste your personal access token in the provided box. Click **Update**.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91914350/gitserver-setup-pat-dlg.png?version=1&modificationDate=1644573046835&cacheVersion=1&api=v2&width=544&height=272)
+<img src='/wp-content/uploads/gij-gitserver-setup-pat-dlg.png' style='margin:25px auto;display:block;max-width:100%'/>
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -375,7 +376,7 @@ Most git integrations allow changing of the default branch of the repository/pro
 
 On your Jira Server, open a Jira issue. On the Jira developer panel under **Git Integration**, click **Create branch**. The following dialog is displayed.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91914350/gitserver-create-branch-dlg.png?version=1&modificationDate=1644573046839&cacheVersion=1&api=v2&width=544&height=272)
+<img src='/wp-content/uploads/gij-gitserver-create-branch-dlg.png' style='margin:25px auto;display:block;max-width:100%' /> 
 
 **Pointers:**
 
@@ -406,7 +407,7 @@ The newly-created branch is now listed in the developer panel under **Branches*
 
 The pull request feature works the same as merge request. On your Jira Server, open the Jira issue where your previously created a branch. On the developer panel under **Git Integration**, click **Create pull request**. The following dialog is displayed.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91914350/gitserver-create-pull-req-dlg.png?version=1&modificationDate=1644573046844&cacheVersion=1&api=v2&width=544&height=282)
+<img src='/wp-content/uploads/gij-gitserver-create-pull-req-dlg.png' style='margin:25px auto;display:block;max-width:100%' />
 
 **Pointers:**
 

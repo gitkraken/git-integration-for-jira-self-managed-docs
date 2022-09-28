@@ -8,13 +8,15 @@ taxonomy:
 ---
 This page contains related questions about troubleshooting using Jira logs.
 
-Use the FAQ below to find answers to common questions.  Feel free to contact our support team ([support@bigbrassband.com](mailto:support@bigbrassband.com?subject=Help%20on%20logs%20-)) if you don't see what you're looking for.
+Use the FAQ below to find answers to common questions.  Feel free to contact our support team ([support@gitkraken.com](mailto:support@gitkraken.com?subject=Help%20on%20logs%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you don't see what you're looking for.
 
 - [How to create the support zip file?](#how-to-create-the-support-zip-file)
 - [How do I enable debug logging level for Git Integration for Jira app?](#how-do-i-enable-debug-logging-level-for-git-integration-for-jira-app)
 - [Where can I find the Jira logs?](#where-can-i-find-the-jira-logs)
 
-* * *
+<br>
+<hr>
+<br>
 
 ## How to create the support zip file?
 
@@ -29,12 +31,15 @@ Use the FAQ below to find answers to common questions.  Feel free to contact ou
     </div>
     </div>
 </div>
+<br>
 
 _(The old video is removed. Updated Video guide coming soon)_
 
+<br>
+
 Jira can produce a Support Zip file for diagnosing issues. This will give our support team a better view of the issue.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/273383583/gitserver-jira-admin-system-support-tools-zip.png?version=1&modificationDate=1640072648939&cacheVersion=1&api=v2)
+![](/wp-cotent/uploads/gij-gitserver-jira-admin-system-support-tools-zip.png)
 
 You can create this file by accessing the Atlassian Support Tools in your Jira:
 
@@ -52,7 +57,7 @@ You can create this file by accessing the Atlassian Support Tools in your Jira:
 
 6.  Click **Create zip** to start generating support data.
 
-Locate the generated Support Zip file and send it to [support@bigbrassband.com](mailto:support@bigbrassband.com).
+Locate the generated Support Zip file and send it to [support@gitkraken.com](mailto:support@gitkraken.com).
 
 ## How do I enable debug logging level for Git Integration for Jira app?
 
@@ -64,11 +69,11 @@ The debug logging level can be set by performing the following steps:
 
 3.  Scroll down to the _**Default Loggers**_ section, then click **Configure**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2038792196/gitserver-jira-admin-system-default-loggers-dlg(c).png?version=1&modificationDate=1640073725401&cacheVersion=1&api=v2&width=544&height=173)
+    ![](/wp-cotent/uploads/gij-gitserver-jira-admin-system-default-loggers-dlg-c.png)
 
 4.  On the following screen, enter `com.bigbrassband.jira.git` for _**Package name**_ then set _**Logging Level**_ to **DEBUG**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2038792196/gitserver-jira-admin-system-def-logs-cfg-dlg(c).png?version=1&modificationDate=1640073845525&cacheVersion=1&api=v2&width=544&height=275)
+    ![](/wp-content/uploads/gij-gitserver-jira-admin-system-def-logs-cfg-dlg-c.png)
 
 5.  Click **Add** to add this configuration to the _Debug Loggers_ list.
 
@@ -76,7 +81,7 @@ The debug logging level can be set by performing the following steps:
 
 To report errors:
 
-1.  Collect errors and send log file to [support@bigbrassband.com](mailto:support@bigbrassband.com).
+1.  Collect errors and send log file to [support@gitkraken.com](mailto:support@gitkraken.com).
 
 2.  Also, please add your Jira version, Git plugin version and OS used to run Jira.
 

@@ -8,7 +8,7 @@ taxonomy:
 ---
 This page contains related questions on Git Integration for Jira add-on user experience in Jira.
 
-Use the FAQ below to find answers to common questions. Feel free to contact our support team ([support@bigbrassband.com](mailto:support@bigbrassband.com?subject=Commits%20display%20issues%20-)) if you don't see what you're looking for.
+Use the FAQ below to find answers to common questions. Feel free to contact our support team ([support@gitkraken.com](mailto:support@gitkraken.com?subject=Commits%20display%20issues%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you don't see what you're looking for.
 
 - [How do I see if work has really started on an issue?](#how-do-i-see-if-work-has-really-started-on-an-issue)
 - [How do I see who has worked on an issue?](#how-do-i-see-who-has-worked-on-an-issue)
@@ -17,13 +17,17 @@ Use the FAQ below to find answers to common questions. Feel free to contact our
 - [How do I see what is getting attention in this release and previous releases?](#how-do-i-see-what-is-getting-attention-in-this-release-and-previous-releases)
 - [The git commits are not showing on the Jira Activity Stream. Why?](#the-git-commits-are-not-showing-on-the-jira-activity-stream-why)
 
-* * *
+<br>
+<hr>
+<br>
 
 ## How do I see if work has really started on an issue?
 
 Open an issue in your browser and click on the **Git Commits** tab.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2053079047/gitserver-jira-issue-activity-workspace-faq.png?version=1&modificationDate=1642160312236&cacheVersion=1&api=v2&width=680&height=643)
+<img src='/wp-cotent/uploads/gij-gitserver-jira-issue-activity-workspace-faq.png' style='max-width:100%;margin: 25px auto 0 auto' />
+
+<i style='display:inline-block;margin:10px auto 30px auto;text-align:center;'>See all Git commits associated with an issue in Jira</i>
 
 If the tab says that no Git log entries have been found, then work has not yet started on the ticket.
 
@@ -39,7 +43,7 @@ Open an issue in your browser and click on the **Git Commits** tab.
 
 All changes to the source code are listed from newest to oldest. The date/time in the first line is the last time the changes to the issue have been submitted into Git.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2052915274/gitserver-jira-issue-workspace-submitted-time.png?version=1&modificationDate=1642160976910&cacheVersion=1&api=v2&width=680&height=265)
+![](/wp-content/uploads/gij-gitserver-jira-issue-workspace-submitted-time.png)
 
 ## How do I see what is being changed in this ticket?
 
@@ -55,7 +59,9 @@ Open the project summary in your browser and click on the **Git Commits** tab.
 
 All changes in all issues will be present. If you use the "Version" tagging feature of Jira, you can filter the changes by version.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/2052784140/gitserver-proj-git-commits-all-versions.png?version=1&modificationDate=1642162374533&cacheVersion=1&api=v2)
+<img src='/wp-content/uploads/gij-gitserver-proj-git-commits-all-versions.png' style='max-width:100%;margin: 25px auto 0 auto' />
+
+<i style='display:inline-block;margin:10px auto 30px auto;text-align:center;'>See all Git commits associated with a version tag in Jira.</i>
 
 ## The git commits are not showing on the Jira Activity Stream. Why?
 

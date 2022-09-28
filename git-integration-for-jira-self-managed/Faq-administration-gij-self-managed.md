@@ -8,7 +8,7 @@ taxonomy:
 ---
 This page contains solutions targeted for administrators.
 
-Use the [FAQ](/git-integration-for-jira-data-center/frequently-asked-questions-gij-self-managed) find answers to common questions.  Feel free to contact our support team ([support@bigbrassband.com](mailto:support@bigbrassband.com)) if you don't see what you're looking for.
+Use the [FAQ](/git-integration-for-jira-data-center/frequently-asked-questions-gij-self-managed) find answers to common questions.  Feel free to contact our support team ([support@gitkraken.com](mailto:support@gitkraken.com)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you don't see what you're looking for.
 
 - [How do I let people browse Git securely but without defining Git IDs for everyone?](#how-do-i-let-people-browse-git-securely-but-without-defining-git-ids-for-everyone)
 - [Does the Git Integration for Jira app have API commands that allow addition/removal of a Git project?](#does-the-git-integration-for-jira-app-have-api-commands-that-allow-additionremoval-of-a-git-project)
@@ -20,7 +20,9 @@ Use the [FAQ](/git-integration-for-jira-data-center/frequently-asked-questions-g
   - [Solution 2](#solution-2)
 - [How do I setup GitLab Server to respond to incoming network API calls?](#how-do-i-setup-gitlab-server-to-respond-to-incoming-network-api-calls)
 
-* * *
+<br>
+<hr>
+<br>
 
 ## How do I let people browse Git securely but without defining Git IDs for everyone?
 
@@ -76,7 +78,7 @@ The above solution should work, otherwise, see below for the steps to workaround
 
     **Example:**
 
-    ```java
+    ```powershell
     cd /jira/home
     cd data/git-plugin
     git clone --mirror https://my-self-signed-repo/project.git
@@ -88,7 +90,7 @@ The above solution should work, otherwise, see below for the steps to workaround
 
     **Example:**
 
-    ```java
+    ```powershell
     cd project.git
     git config http.sslVerify false
     ```
@@ -131,6 +133,7 @@ _**Example:**_<br>
 ```java
 /var/opt/gitlab/git-data/repositories/testrepo xx.xx.xx.xx/24(ro,root_squash,async)
 ```
+
 ### Solution 2
 
 Use the `'all_squash,async,anonuid=$uid,anongid=$gid'` option on NFS server, where `$uid` and `$gid` are user ID and group ID for **'git'** user and **'git'** group respectively _(or another user/group which you are using to access GitLab repositories on GitLab server)_.
@@ -151,13 +154,13 @@ To reconfigure:
 
 1.  Access the GitLab configuration file in `/etc/gitlab/gitlab.rb`. 
 
-    ```java
+    ```powershell
     sudo vi /etc/gitlab/gitlab.rb
     ```
 
 2.  Change the `external_url` value to your GitLab server URL. 
 
-    ```java
+    ```powershell
     external_url "http://gitlab.example.com" #this is the default URL
     
     external_url "http://X.X.X.X.local/" #change it to your GitLab Server URL
