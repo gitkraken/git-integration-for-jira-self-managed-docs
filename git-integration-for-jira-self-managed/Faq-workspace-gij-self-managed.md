@@ -8,7 +8,7 @@ taxonomy:
 ---
 This page contains related questions on Git Integration for Jira add-on user experience in Jira.
 
-Use the FAQ below to find answers to common questions. Feel free to contact our support team ([support@gitkraken.com](mailto:support@gitkraken.com?subject=Commits%20display%20issues%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you don't see what you're looking for.
+Use the FAQ below to find answers to common questions. Feel free to contact our support team ([gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com?subject=Commits%20display%20issues%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you don't see what you're looking for.
 
 - [How do I see if work has really started on an issue?](#how-do-i-see-if-work-has-really-started-on-an-issue)
 - [How do I see who has worked on an issue?](#how-do-i-see-who-has-worked-on-an-issue)

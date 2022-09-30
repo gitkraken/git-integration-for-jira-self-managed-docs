@@ -110,7 +110,7 @@ The GitHub App integration is now displayed in the Git repositories configuratio
 
 ## Post-install notes
 
-The GHA is created automatically by Git Integration for Jira app. For any related questions, please contact [support@gitkraken.com](mailto:support@gitkraken.com.)
+The GHA is created automatically by Git Integration for Jira app. For any related questions, please contact [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com.)
 
 *   You can reconfigure connected repositories in the Edit integration connection settings page for this GHA integration (_Actions_).
 

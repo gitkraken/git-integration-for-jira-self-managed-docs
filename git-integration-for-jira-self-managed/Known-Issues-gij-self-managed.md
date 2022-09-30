@@ -47,7 +47,7 @@ To increase the 65,000 issue JQL search limit:
     ```
 For more information on this issue, see [**Atlassian KB - 65K issue limit in JQL functions - Time to SLA for Jira**](https://confluence.snapbytes.com/time-to-sla/knowledge-base/common-problems/65k-issue-limit-in-jql-functions).
 
-Please contact [support@gitkraken.com](mailto:support@gitkraken.com) if you encounter related issues.
+Please contact [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com) if you encounter related issues.
 
 _Reference:_ GIT-3710, GITSERVER-1008
 

@@ -137,7 +137,7 @@ For Windows, we recommend to use [**PuTTY**](https://www.putty.org/) and use P
 
 You can also use the git bash command line to generate SSH key pair. For detailed information, see [**Generate SSH via Git bash**](https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key).
 
-Read on the section [Generating SSH keys](/git-integration-for-jira-dta-center/generating-ssh-keys-gij-self-managed/) and follow specific information for the git host and platform that you use.
+Read on the section [Generating SSH keys](/git-integration-for-jira-dta-center/generating-ssh-keys-gij-self-managed) and follow specific information for the git host and platform that you use.
 
 ## Linux/MacOS
 

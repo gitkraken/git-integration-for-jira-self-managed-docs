@@ -33,15 +33,17 @@ The **Repository Browser** allows users to view git repositories of configured
         <div class='nextpara'>
             The <b>Git</b> header is hidden for all users if there are no repositories with Repository Browser enabled for that user. The Git Integration for Jira app will always show the <b>Git</b> header to Jira administrators.
         </div>
-        <div class='nextpara'>
+        <p style='margin-bottom:0 !important'>
             The <b>Git</b> header is visible to other users who have repositories with Repository Browser enabled and have no history of using the Repository Browser (<i>for example -- no previously viewed or repositories set as favorite</i>).
-        </div>
+        </p>
     </div>
     </div>
 </div>
 <br>
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398598/gitserver-gitmenu-repo-browser.png?version=1&modificationDate=1639221831233&cacheVersion=1&api=v2&width=163&height=111)
+<img src='/wp-content/uploads/gij-gitserver-gitmenu-repo-browser.png' width=163 height=111 />
+
+<br>
 
 ## Repository list
 

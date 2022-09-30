@@ -92,7 +92,7 @@ We recommend using the Add new integration panel to connect multiple repositorie
 
         *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less. Read about JMESPath expressions on their [website](http://jmespath.org/).
 
-            For help with writing expressions, please contact [support](mailto:support@gitkraken.com).
+            For help with writing expressions, please contact [support](mailto:gijsupport@gitkraken.com).
             To learn more VSTS/Azure DevOps examples, see article [Jira Server: Working with JMESPath Filters](/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed).
 
             *   If the field is empty, the Git Integration for Jira app will get all available accounts and then scans all available git repositories.

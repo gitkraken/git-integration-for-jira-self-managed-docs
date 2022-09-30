@@ -6,24 +6,33 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 You are getting this error because of wrong login credentials or a permission issue.
 
 **What’s on this page:**
+- [Having Invalid Credentials](#having-invalid-credentials)
+- [Not Having Enough Access Permissions](#not-having-enough-access-permissions)
+- [Using Proxies](#using-proxies)
+- [Examining Logs and Errors](#examining-logs-and-errors)
+- [How to find supported authentication schemes?](#how-to-find-supported-authentication-schemes)
+- [How to find login credentials used in Basic authentication?](#how-to-find-login-credentials-used-in-basic-authentication)
+
 
 ### Having Invalid Credentials
 
 The most common cause is a wrong login credentials input.
 
-REPOSITORY LEVEL Go to the **Manage** **Git repositories** configuration list. Select **Actions** for a particular repository then **Edit repository settings**.
+<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>REPOSITORY LEVEL</b> Go to the **Manage** **Git repositories** configuration list. Select ![](/wp-content/uploads/actions-icon.png) **Actions** for a particular repository then **Edit repository settings**.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2051375177/gitserver-git-uploack-pack-err-01.png?version=1&modificationDate=1642158042088&cacheVersion=1&api=v2&width=680&height=501)
+![](/wp-content/uploads/gij-gitserver-git-uploack-pack-err-01.png)
 
 Check the repository properties for the **Username** and **Password/PAT** fields and verify that they are filled with correct values. Retype login credentials just to make sure and save the settings.
 
+<br>
 
-INTEGRATION LEVEL Go to the **Manage** **Git repositories** configuration list. Select **Actions** for a particular repository then **Edit integration connection settings**.
+<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>INTEGRATION LEVEL</b> Go to the **Manage** **Git repositories** configuration list. Select **Actions** for a particular repository then **Edit integration connection settings**.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2051375177/gitserver-git-upload-pack-err-02.png?version=1&modificationDate=1642158455218&cacheVersion=1&api=v2&width=680&height=264)
+![](/wp-content/uploads/gij-gitserver-git-upload-pack-err-02.png)
 
 Check the integration properties for the **Username** and **Password/PAT** fields and verify that they are filled with correct values. Retype login credentials just to make sure and save the settings.
 
@@ -50,7 +59,7 @@ The command should be successful. If not, ask your administrator to setup your 
 
 If you are using proxy, configure your Jira with the following parameter format:
 
-```py
+```python
 Dhttp.proxyHost=<your-proxy-host>
 Dhttps.proxyHost=<your-proxy-host>
 Dhttp.proxyPort=<your-proxy-port>
@@ -83,7 +92,7 @@ To get a better view of the cause of the error:
 
     5.  Click **Add** to add this configuration to the _**Debug Loggers**_ list.
 
-
+    <br>
     Collect logs generated during reindex of your repository:
 
     1.  Write down the current time right before doing a reindex – let's call it `time1`.
@@ -92,18 +101,19 @@ To get a better view of the cause of the error:
 
     3.  After the reindex is complete, write down the current time – let's call it `time2`.
 
-    4.  Collect logs created between `time1` and `time2`.
+    4.  Collect logs created between `time1` and `time2`.<br><br>
 
 2.  See the verbose logs of successful clone of your repository cloned by the console git client.
 
-    1.  From the command line, run `set GIT_CURL_VERBOSE=1`
+    *   From the command line, run `set GIT_CURL_VERBOSE=1`
 
-    2.  Do a git clone of the affected repository `git clone http://<your-repo>`.
+    *   Do a git clone of the affected repository `git clone http://<your-repo>`.
 
+<br>
 
 The output is a verbose log of this process.
 
-Compare the debug and the verbose logs and see the difference between them or send us both logs to [support@bigbrassband.com](mailto:support@bigbrassband.com) for in-depth review.
+Compare the debug and the verbose logs and see the difference between them or send us both logs to [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com) for in-depth review.
 
 Examine used authentication schemes. If you are seeing Basic authentication, you can verify that the right login credentials are passed.
 
@@ -111,7 +121,7 @@ Examine used authentication schemes. If you are seeing Basic authentication, you
 
 Below is an example of the debug logs of the jgit library in JIRA generated during cloning/re-indexing of your repository:
 
-```py
+```java
 ...
 2016-10-24 19:46:21,504 xiplink-gitplugin-RevisionIndexerImpl:thread - 0 DEBUG      [http.impl.client.TargetAuthenticationStrategy] Authentication schemes in the order of preference: [Negotiate, Kerberos, NTLM, Digest, Basic]
 2016-10-24 19:46:21,504 xiplink-gitplugin-RevisionIndexerImpl:thread - 0 DEBUG      [http.impl.client.TargetAuthenticationStrategy] Challenge for Negotiate authentication scheme not available
@@ -148,5 +158,4 @@ From the above log:
 2.  In the example it contains `Basic amlyYTpqaXJhcGFzc3dvcmQ=`, where `amlyYTpqaXJhcGFzc3dvcmQ=` is the login credentials encoded in base64. Decode the base64 string using any online decoder. `Result: jira:jirapassword`.
 
 3.  Verify that `jira` is the expected username and `jirapassword` is the expected password.
-
 

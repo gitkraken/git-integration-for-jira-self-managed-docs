@@ -50,5 +50,5 @@ See Atlassian help article about [increasing the number of file handles availab
 
 Contact Us
 
-If you still have a question - reach out to our [Support Desk](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) or email us at [support@gitkraken.com](mailto:support@gitkraken.com)
+If you still have a question - reach out to our [Support Desk](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) or email us at [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com)
 

@@ -134,7 +134,7 @@ We strongly recommend to use personal access tokens for GitHub.com account integ
 
         -  **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated.   The maximum allowed length is 2000 characters or less.
 
-            For help with writing expressions, please contact [support](mailto:support@gitkraken.com). Read about JMESPath expressions on their **website**.
+            For help with writing expressions, please contact [support](mailto:gijsupport@gitkraken.com). Read about JMESPath expressions on their **website**.
             For some other examples, see [Working with JMESPath Filter in GitHub.com](/git-integration-for-jira-data-center/gitHub-gitHub-enterprise-jmespath-filter-examples-gij-self-managed).
 
         -  **Fetch refspec**  –  Git refspecs contains patterns mapped as references from the remote to the local repository.
@@ -355,7 +355,7 @@ If the **Require User PAT option** is enabled in the **Integration Feature Se
 
 Click this text label to open the Setup PAT dialog and paste your personal access token in the provided box. Click **Update**.
 
-![Setup PAT dialog](/wp-content/uploads/gij-gitserver-setup-pat-dlg.png)
+<img src='/wp-content/uploads/gij-gitserver-setup-pat-dlg.png' style='display:block;margin:25px auto;max-width:100%;' alt='Setup PAT dialog' width=602 height=302 />
 
 <div class="bbb-callout bbb--alert">
   <div class="irow">
@@ -368,7 +368,7 @@ Click this text label to open the Setup PAT dialog and paste your personal acces
   </div>
 </div>
 
-The Setup PAT dialog is also accessible via Repository Browser (dashboard menu Git ➜ **Repository browser**) ➜ Click the &nbsp; ![(edit icon)](/wp-content/uploads/gij-edit-icon-dark.png)&nbsp; icon under _**Pers. Access**_ column.
+The Setup PAT dialog is also accessible via Repository Browser (dashboard menu Git ➜ **Repository browser**) ➜ Click the &nbsp;![(edit icon)](/wp-content/uploads/gij-edit-icon-dark.png)&nbsp; icon under _**Pers. Access**_ column.
 
 ## Working with branches and pull requests
 
@@ -395,7 +395,7 @@ Most git integrations allow changing of the default branch of the repository/pro
 
 On your Jira Data Center, open a Jira issue. On the Jira developer panel under **Git Integration**, click **Create branch**. The following dialog is displayed.
 
-![](/wp-content/uploads/gij-gitserver-create-branch-dlg.png)
+<img src='/wp-content/uploads/gij-gitserver-create-branch-dlg.png' style='display:block;margin:25px auto;max-width:100%' width=602 height=302 />
 
 **Pointers:**
 
@@ -426,7 +426,7 @@ The newly-created branch is now listed in the developer panel under **Branches*
 
 The pull request feature works the same as merge request. On your Jira Data Center, open the Jira issue where your previously created a branch. On the developer panel under **Git Integration**, click **Create pull request**. The following dialog is displayed.
 
-![](/wp-content/uploads/gij-gitserver-create-pull-req-dlg.png)
+<img src='/wp-content/uploads/gij-gitserver-create-pull-req-dlg.png' width=602 height=313 style='display:block;margin:25px auto;max-width:100%' />
 
 **Pointers:**
 

@@ -1,6 +1,6 @@
 ---
 
-title: Integration basics - Using smart commits
+title: Using smart commits (Integration basics)
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -8,7 +8,7 @@ taxonomy:
 ---
 Smart commits enable users to perform actions on Jira issues from a single commit. In a commit message, enter the issue key and some desired action such as resolving an issue, closing an issue, time tracking or all of them.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/2045149209/gitserver-git-commits-tab-example-new.png%3Fversion=1&modificationDate=1640706006442&cacheVersion=1&api=v2?version=1&modificationDate=1640866071249&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitserver-git-commits-tab-example-new.png)
 
 For example, if a user wants to log specified time with worklog comment, adds a comment, and resolve the issue TEST-100, enter the commit message as follows:
 
@@ -22,8 +22,24 @@ Enable/disable this feature via:
 
 *   Connect to Git Repository ➜ **Advanced setup**
 
-*   Apps/Applications ➜ Manage repositories ➜ <img src='https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/2699.png' width=20 height=20 /> Actions ➜ **Edit Repository**
+*   Apps/Applications ➜ Manage repositories ➜ <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit Repository**
 
 
-To learn more about Smart Commits, see [Git Integration for Jira: Smart Commits](/git-integration-for-jira-data-center/smart-commits-gij-self-managed/).
+To learn more about Smart Commits, see [Git Integration for Jira: Smart Commits](/git-integration-for-jira-data-center/smart-commits-gij-self-managed).
+
+## More related articles on integration basics
+
+[Connecting to a git host account via Add new integration panel](/git-integration-for-jira-data-center/connecting-to-a-git-host-account-via-Add-new-integration-panel-gij-self-managed)
+
+[Connecting to a single git repository (HTTPS | SSH)](/git-integration-for-jira-data-center/connecting-to-a-single-git-repository-(HTTPS-SSH)-gij-self-managed)
+
+[Setting up web links](/git-integration-for-jira-data-center-gij-self-managed/setting-up-web-links-gij-self-managed)
+
+[Link git commits to Jira issues (Basics)](/git-integration-for-jira-data-center/Link-git-commits-to-Jira-issues-(Basics)-gij-self-managed)
+
+**Using smart commits** (this page)
+
+[Using the Repository Browser](/git-integration-for-jira-data-center/using-the-repository-browser-gij-self-managed)
+
+[Creating branches and pull | merge requests (Basics)](/git-integration-for-jira-data-center/Creating-branches-and-pull-merge-requests-(Basics)-gij-self-managed)
 
