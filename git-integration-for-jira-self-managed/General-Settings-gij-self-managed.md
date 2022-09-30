@@ -74,7 +74,7 @@ The **General settings** configuration page can be accessed thru the following
 
 *   [Require User PAT general setting](/git-integration-for-jira-data-center/require-user-pat-general-setting-gij-self-managed)
 
-*   [Enable Automation for Jira general setting](/git-integration-for-jira-data-center/Enable-automation-for-jira-general-setting/)
+*   [Enable Automation for Jira general setting](/git-integration-for-jira-data-center/Enable-automation-for-jira-general-setting)
 
 *   [Enforce Git service permissions](/git-integration-for-jira-data-center/enforce-git-service-permissions-gij-self-managed)
 

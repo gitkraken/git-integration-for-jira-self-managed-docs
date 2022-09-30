@@ -125,7 +125,7 @@ This setup uses full feature integration offering functions and features not fou
 
         -   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less.
 
-            For help with writing expressions, please contact [support](mailto:support@gitkraken.com). Read about JMESPath expressions on their [website](http://jmespath.org).
+            For help with writing expressions, please contact [support](mailto:gijsupport@gitkraken.com). Read about JMESPath expressions on their [website](http://jmespath.org).
 
             For some other examples, see [Working with JMESPath Filter in GitHub Enterprise](/git-integration-for-jira-data-center/gitHub-gitHub-enterprise-jmespath-filter-examples-gij-self-managed).
 

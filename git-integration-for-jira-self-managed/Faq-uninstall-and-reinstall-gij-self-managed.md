@@ -8,7 +8,7 @@ taxonomy:
 ---
 This page contains related questions about installation management of Git Integration for Jira add-on.
 
-Use the FAQ below to find answers to common questions.  Feel free to contact our support team ([support@gitkraken.com](mailto:support@gitkraken.com?subject=Uninstall/Reinstall%20issues%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you don't see what you're looking for.
+Use the FAQ below to find answers to common questions.  Feel free to contact our support team ([gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com?subject=Uninstall/Reinstall%20issues%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you don't see what you're looking for.
 
 - [How do I reinstall the plugin?](#how-do-i-reinstall-the-plugin)
 - [How do I uninstall the Git Integration for Jira app and delete its data?](#how-do-i-uninstall-the-git-integration-for-jira-app-and-delete-its-data)

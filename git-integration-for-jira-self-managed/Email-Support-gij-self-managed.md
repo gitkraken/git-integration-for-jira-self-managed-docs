@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-If you need help with the Git Integration for Jira app, please e-mail us: [support@gitkraken.com](mailto:support@gitkraken.com).
+If you need help with the Git Integration for Jira app, please e-mail us: [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com).
 
 Please include the "Support Zip" that Jira produces for diagnosing issues.
 

@@ -25,3 +25,4 @@ On this page you will find topics related to the supported features of the app.
 *   [Enforced git permissions for Jira users](/git-integration-for-jira-data-center/enforced-git-permissions-for-jira-users-gij-self-managed)
 
 *   [Git Integration + Scriptrunner](/git-integration-for-jira-data-center/GIJ-plus-Scriptrunner-gij-self-managed)
+

@@ -9,7 +9,7 @@ taxonomy:
 
 This page contains solutions targeted for developers.
 
-Use the FAQ below to find answers to common questions. Feel free to contact our support team ([support@gitkraken.com](mailto:support@gitkraken.com?subject=Developer%20questions%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you don't see what you're looking for.
+Use the FAQ below to find answers to common questions. Feel free to contact our support team ([gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com?subject=Developer%20questions%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you don't see what you're looking for.
 
 - [How do Git commits get associated with a Jira issue?](#how-do-git-commits-get-associated-with-a-jira-issue)
 - [How do I ensure people are following our organization's process for source code?](#how-do-i-ensure-people-are-following-our-organizations-process-for-source-code)

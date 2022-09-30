@@ -296,7 +296,7 @@ _String_. Optional.
 
 JMESPath filter expression will be used to filter API results.
 
-See our [Integration Guides](/git-integration-for-jira-data-center/integration-guides-gij-self-managed), [Working with JMESPath filters](/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed) or [contact support](mailto:support@gitkraken.com) for help writing expressions.
+See our [Integration Guides](/git-integration-for-jira-data-center/integration-guides-gij-self-managed), [Working with JMESPath filters](/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed) or [contact support](mailto:gijupport@gitkraken.com) for help writing expressions.
 
 ## tfsCollection
 

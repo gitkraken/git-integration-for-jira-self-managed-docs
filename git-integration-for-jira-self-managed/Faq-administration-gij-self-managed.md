@@ -8,7 +8,7 @@ taxonomy:
 ---
 This page contains solutions targeted for administrators.
 
-Use the [FAQ](/git-integration-for-jira-data-center/frequently-asked-questions-gij-self-managed) find answers to common questions.  Feel free to contact our support team ([support@gitkraken.com](mailto:support@gitkraken.com)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you don't see what you're looking for.
+Use the [FAQ](/git-integration-for-jira-data-center/frequently-asked-questions-gij-self-managed) find answers to common questions.  Feel free to contact our support team ([gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you don't see what you're looking for.
 
 - [How do I let people browse Git securely but without defining Git IDs for everyone?](#how-do-i-let-people-browse-git-securely-but-without-defining-git-ids-for-everyone)
 - [Does the Git Integration for Jira app have API commands that allow addition/removal of a Git project?](#does-the-git-integration-for-jira-app-have-api-commands-that-allow-additionremoval-of-a-git-project)

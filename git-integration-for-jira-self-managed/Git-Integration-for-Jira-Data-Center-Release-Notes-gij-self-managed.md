@@ -17,7 +17,7 @@ We publish new features, bug fixes, security updates/patches, and Jira compatibi
 *   [BigBrassBand Server/Data Center Security](https://bigbrassband.com/security-and-trust.html)
 
 
-If you have any questions, please contact us through our [Support Portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) or by emailing [support@gitkraken.com](mailto:support@gitkraken.com)
+If you have any questions, please contact us through our [Support Portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) or by emailing [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com)
 
 * * *
 

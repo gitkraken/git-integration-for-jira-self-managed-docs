@@ -15,5 +15,5 @@ The following dialog is displayed. For example:
 ![](/wp-content/uploads/gij-gitserver-view-logs-dialog.png)
 
 
-You can send this log to [support@gitkraken.com](mailto:support@gitkraken.com) for further analysis.
+You can send this log to [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com) for further analysis.
 

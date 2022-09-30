@@ -155,7 +155,8 @@ We recommend using the Add new integration panel to connect multiple repositori
 
             ![(info)](/wp-content/uploads/bbb-info-20.png) **Remember:** The GitLab.com API can see all the public projects. For GitLab.com, we recommend using JMESPath over the Custom API path when possible.
 
-        *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less. Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [support](mailto:support@gitkraken.com).
+        *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less. Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [support](mailto:gijsupport@gitkraken.com).
+
             To learn more examples, see article [Working with JMESPath Filters](/git-integration-for-jira-data-center/gitLab-gitLab-ce-ee-jmespath-filter-examples-gij-self-managed).
 
         *   **Fetch refspec**  –  Git refspecs contains patterns mapped as references from the remote to the local repository.
