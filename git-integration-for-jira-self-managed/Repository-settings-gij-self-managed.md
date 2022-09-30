@@ -1,6 +1,6 @@
 ---
 
-title: Repository settings
+title: Repository settings General setting
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -13,7 +13,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed/'><b>General Settings</b></a> configuration page.
+        This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'><b>General Settings</b></a> configuration page.
     </div>
     </div>
 </div>
@@ -24,14 +24,16 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b>VERSION 4.0.1+</b><br>
-        This setting is now moved to the **Advanced settings** in General settings.
+        <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.0.1+</b><br>
+        This setting is now moved to the <b>Advanced settings</b> in General settings.
     </div>
     </div>
 </div>
 <br>
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207795977/gitserver-gencfg-repo-max-open-pack-files.png?version=1&modificationDate=1647774893084&cacheVersion=1&api=v2&width=680&height=97)
+<img src='/wp-content/uploads/gij-gitserver-gencfg-repo-max-open-pack-files.png' style='display:block;max-width:100%;margin:25px auto' />
+
+<br>
 
 ## Max open pack files count
 
