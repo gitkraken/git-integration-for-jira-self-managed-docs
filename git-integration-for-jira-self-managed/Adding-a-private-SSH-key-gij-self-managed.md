@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-![Manage git integration for jira highlighting sidebar SSH keys menu item](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396698/gitserver-add-ssh-keys.png?version=1&modificationDate=1630642802720&cacheVersion=1&api=v2)
+![Manage git integration for jira highlighting sidebar SSH keys menu item](/wp-content/uploads/gij-gitserver-add-ssh-keys.png)
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -15,7 +15,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b>VERSION 4.0+</b> OpenSSH is now fully supported.
+        <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.0+</b> OpenSSH is now fully supported.
     </div>
     </div>
 </div>
@@ -25,7 +25,7 @@ taxonomy:
 
 2.  Click **Add SSH key**. The following screen is displayed:
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930396698/add-ssh-key-input-screen(c).png?version=1&modificationDate=1630642802480&cacheVersion=1&api=v2&width=374&height=400)
+    ![](/wp-content/uploads/gij-add-ssh-key-input-screen-c.png)
 
     Utilize the following options for adding the new SSH key.
 
@@ -36,3 +36,4 @@ taxonomy:
     *   **Passphrase**_ – _Optional._ Enter the passphrase that was assigned to this private key.
 
 3.  Click **Add** to complete this setup.
+

@@ -8,7 +8,7 @@ taxonomy:
 ---
 The GitHub Organization webhooks is now supported.  Rather than creating a webhook for each repository manually, configure the webhook at the GitHub Organization level to automatically register webhook for each repository.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171278716/gitserver-github-org-webhooks-cfg.png?version=1&modificationDate=1649573002925&cacheVersion=1&api=v2&width=680&height=434)
+![](/wp-content/uploads/gij-gitserver-github-org-webhooks-cfg.png)
 
 To configure GitHub organization webhook:
 
@@ -20,9 +20,9 @@ To configure GitHub organization webhook:
 
     *   On the Webhooks page, click **Add webhook**.
 
-4.  Paste the webhook URL into the _**Payload URL**_ field. (The webhook URL is acquired from the Git Integration for Jira app webhook configuration page.)
+4.  Paste the webhook URL into the _**Payload URL**_ field. (The webhook URL is acquired from the Git Integration for Jira app [webhook configuration page](/git-integrationn-for-jira-data-center/webhooks-gij-self-managed).)
 
-5.  IMPORTANT For the **Content type**, choose **applications/json**.
+5.  <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT!</b>  For the **Content type**, choose **applications/json**.
 
 6.  Enter the **Secret key** on the _**Secret**_ field.
 
@@ -30,4 +30,23 @@ To configure GitHub organization webhook:
 
 8.  Click **Add webhook** to complete this setup.
 
+<br>
+
+## More related articles about webhooks setup
+
+[Creating reindex triggers for a single repository](/git-integration-for-jira-data-center/Creating-reindex-triggers-for-a-single-repository-gij-self-managed)
+
+[Adding webhooks for GitHub](/git-integration-for-jira-data-center/Adding-Webhooks-for-GitHub-gij-self-managed)
+
+[Adding webhooks for GitLab](/git-integration-for-jira-data-center/Adding-Webhooks-for-GitLab-gij-self-managed)
+
+**Webhooks GitHub Organization support** (this page)
+
+[Adding webhooks for Azure DevOps Repos \| VSTS](/git-integration-for-jira-data-center/Adding-Webhooks-for-Azure-DevOps-Repos-VSTS-gij-self-managed)
+
+[Adding webhooks for Azure DevOps Server \| TFS](/git-integration-for-jira-data-center/Adding-Webhooks-for-Azure-DevOps-Server-TFS-gij-self-managed)
+
+[Adding webhooks for Bitbucket](/git-integration-for-jira-data-center/Adding-Webhooks-for-Bitbucket-gij-self-managed)
+
+[Adding webhooks for Gerrit](/git-integration-for-jira-data-center/adding-webhooks-for-gerrit-gij-self-managed)
 
