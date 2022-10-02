@@ -13,7 +13,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Pull request webhooks are now supported. See details on this page.
+        Pull request webhooks are now supported. See <a href='#pull-request-webhooks'>details</a> on this page.
         <div class='nextpara'>Supported webhook events:</div>
         <ul>
             <li>Code pushed</li>
@@ -30,7 +30,7 @@ taxonomy:
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/61wl72vp91?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/61wl72vp91'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 <br>
@@ -41,7 +41,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see <a href='/git-integration-for-jira-data-center/integration-webhooks-gij-self-managed/'><b>Webhooks - Getting Started</b></a>.
+        Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see <a href='/git-integration-for-jira-data-center/integration-webhooks-gij-self-managed'><b>Webhooks - Getting Started</b></a>.
     </div>
     </div>
 </div>
@@ -50,13 +50,13 @@ taxonomy:
 
 1.  Configure webhook by logging in to your Azure DevOps/VSTS account:
 
-    ![](https://bigbrassband.com/confluence/images/webhooks-azure-devops-sel-proj.png)
+    ![](/wp-content/uploads/gij-webhooks-azure-devops-sel-proj-c.png)
 
 2.  Open a project by clicking on it.
 
 3.  Click **Project Settings** then select **Service Hooks**. The following screen is displayed.
 
-    ![](https://bigbrassband.com/confluence/images/webhooks-azure-devops-add-shooks.png)
+    ![](/wp-content/uploads/gij-webhooks-azure-devops-add-shooks-c.png)
 
 4.  Click  **+**  to add a new service hook subscription.
 
@@ -64,7 +64,7 @@ taxonomy:
 
 6.  Click **Next**. The following screen is displayed.
 
-    ![](https://bigbrassband.com/confluence/images/webhooks-azure-devops-triggers-cfg.png)
+    ![](/wp-content/uploads/gij-webhooks-azure-devops-triggers-cfg-c.png)
 
     *   Set **"code pushed"** for the _**Trigger on this type of event**_ selector.
 
@@ -72,11 +72,11 @@ taxonomy:
 
     *   *Click **Next** to proceed to the following screen.
 
-    ![](https://bigbrassband.com/confluence/images/webhooks-azure-devops-action-cfg.png)
+    ![](/wp-content/uploads/gij-webhooks-azure-devops-action-cfg-c.png)
 
 7.  Switch to your Jira instance then navigate to **Git** ➜ **Manage repositories** page and then open **Webhooks**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/171999302/jira-server-git-webhooks-loc-pointer.png?version=1&modificationDate=1589618460089&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-jira-server-git-webhooks-loc-pointer-list.png)
 
 8.  Copy the complete Webhook URL by clicking the copy icon adjacent to the right of the URL field.
 
@@ -84,7 +84,7 @@ taxonomy:
 
 10. Click **Test** to verify if webhook integration is successful or not.
 
-    ![](https://bigbrassband.com/confluence/images/webhooks-azure-devops-test-cfg.png)
+    ![](/wp-content/uploads/gij-webhooks-azure-devops-test-cfg-c.png)
 
 11. Click **Finish** to complete this setup.
 
@@ -96,5 +96,25 @@ The Git Integration for Jira app supports pull request webhooks now.
 
 You will need to have three (3) separate service hooks configuration for it to work properly. Aside from setting up the "**Code pushed**" service hook outlined above in step **6.a**, perform the same process with **_Pull request created_** and _**Pull request updated**_ for the triggers.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/171999302/azure-devops-server-2019-req-service-hooks.png?version=1&modificationDate=1578500217458&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-azure-devops-server-2019-req-service-hooks.png)
+
+<br>
+
+## More related articles about webhooks setup
+
+[Creating reindex triggers for a single repository](/git-integration-for-jira-data-center/Creating-reindex-triggers-for-a-single-repository-gij-self-managed)
+
+[Adding webhooks for GitHub](/git-integration-for-jira-data-center/Adding-Webhooks-for-GitHub-gij-self-managed)
+
+[Adding webhooks for GitLab](/git-integration-for-jira-data-center/Adding-Webhooks-for-GitLab-gij-self-managed)
+
+[Webhooks GitHub Organization support](/git-integration-for-jira-data-center/Webhooks-GitHub-Organization-Support-gij-self-managed)
+
+**Adding webhooks for Azure DevOps Repos \| VSTS** (this page)
+
+[Adding webhooks for Azure DevOps Server \| TFS](/git-integration-for-jira-data-center/Adding-Webhooks-for-Azure-DevOps-Server-TFS-gij-self-managed)
+
+[Adding webhooks for Bitbucket](/git-integration-for-jira-data-center/Adding-Webhooks-for-Bitbucket-gij-self-managed)
+
+[Adding webhooks for Gerrit](/git-integration-for-jira-data-center/adding-webhooks-for-gerrit-gij-self-managed)
 

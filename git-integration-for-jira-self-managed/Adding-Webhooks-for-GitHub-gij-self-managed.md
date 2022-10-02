@@ -13,7 +13,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Pull request webhooks are now supported. See details on this page.<div class='nextpara'>Supported webhook events:</div>
+        Pull request webhooks are now supported. See <a href='#pull-request-webhooks'>details</a> on this page.<div class='nextpara'>Supported webhook events:</div>
         <ul>
             <li>Pushes event</li>
             <li>Pull request events</li>
@@ -27,7 +27,7 @@ taxonomy:
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/4fbw471kgh?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style=margin-top:10px>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/4fbw471kgh'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 <br>
@@ -38,7 +38,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see <a href='/git-integration-for-jira-data-center/webhooks-gij-self-managed#Getting-started/'>Webhooks - Getting Started</a>.
+        Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see <a href='/git-integration-for-jira-data-center/webhooks-gij-self-managed'>Webhooks - Getting Started</a>.
     </div>
     </div>
 </div>
@@ -48,7 +48,7 @@ Configure webhook by logging in to your GitHub account:
 
 1.  Select a repository.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/171377121/gitserver-webhook-github-add-webhook-steps-2-4(c).png?version=1&modificationDate=1649573919702&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitserver-webhook-github-add-webhook-steps-2-4-c.png)
 
 2.  Go to the **Settings** page.
 
@@ -56,11 +56,11 @@ Configure webhook by logging in to your GitHub account:
 
 4.  Click **Add webhook**. The following page is displayed:
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/171377121/gitserver-webhook-add-webhook-github-steps.png?version=1&modificationDate=1649573257610&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitserver-webhook-add-webhook-github-steps.png)
 
     *   Paste the obtained _**Secret URL**_ from the _Git Integration for Jira_ app ➜ **Webhooks** page into the _**Payload URL**_ field.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/171377121/jira-server-git-webhooks-loc-pointer-list.png?version=1&modificationDate=1649573257614&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-jira-server-git-webhooks-loc-pointer-list.png)
 
 6.  For the _**Content type**_, choose **application/json**. IMPORTANT
 
@@ -75,7 +75,7 @@ The Git Integration for Jira app supports GitHub pull request webhooks now.
 
 You will need to enable two (2) event triggers in your GitHub webhooks configuration _(Repo ➜ Settings ➜ Webhooks)_ for it to work properly. Under event triggers section, choose _**Let me select individual events**_ and then select both "**Pushes**" and "**Pull request**" triggers instead as outlined above in step **6**.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/171377121/github-pull-request-event-trigger-webhook.png?version=2&modificationDate=1649573257621&cacheVersion=1&api=v2&width=676&height=334)
+![](/wp-content/uploads/gij-github-pull-request-event-trigger-webhook.png)
 
 <br>
 
@@ -94,7 +94,7 @@ For the figure above:
     </div>
     <div class="imsgbox">
         Webhooks will be automatically registered for each GitHub repository connected to Jira Server to instantly index your commits. For this to work, the connecting GitHub user must be the Organization Owner or have repository <b>ADMIN</b> rights.
-        <p style='margin-bottom: 0px'>Webhooks will be deleted when GitHub integration is disconnected from Git Integration for Jira Server.</p>
+        <p style='margin-bottom: 0px !important'>Webhooks will be deleted when GitHub integration is disconnected from Git Integration for Jira Server.</p>
     </div>
     </div>
 </div>
@@ -109,4 +109,22 @@ For the figure above:
     </div>
     </div>
 </div>
+
+## More related articles about webhooks setup
+
+[Creating reindex triggers for a single repository](/git-integration-for-jira-data-center/Creating-reindex-triggers-for-a-single-repository-gij-self-managed)
+
+**Adding webhooks for GitHub** (this page)
+
+[Adding webhooks for GitLab](/git-integration-for-jira-data-center/Adding-Webhooks-for-GitLab-gij-self-managed)
+
+[Webhooks GitHub Organization support](/git-integration-for-jira-data-center/Webhooks-GitHub-Organization-Support-gij-self-managed)
+
+[Adding webhooks for Azure DevOps Repos \| VSTS](/git-integration-for-jira-data-center/Adding-Webhooks-for-Azure-DevOps-Repos-VSTS-gij-self-managed)
+
+[Adding webhooks for Azure DevOps Server \| TFS](/git-integration-for-jira-data-center/Adding-Webhooks-for-Azure-DevOps-Server-TFS-gij-self-managed)
+
+[Adding webhooks for Bitbucket](/git-integration-for-jira-data-center/Adding-Webhooks-for-Bitbucket-gij-self-managed)
+
+[Adding webhooks for Gerrit](/git-integration-for-jira-data-center/adding-webhooks-for-gerrit-gij-self-managed)
 

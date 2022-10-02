@@ -11,18 +11,18 @@ taxonomy:
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/0a1exzdgpc?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/0a1exzdgpc'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 <br>
 
 Limit the usage of the SSH key by associating them to selected repositories. Strictly map SSH keys to repositories via SSH Actions menu.
 
-1.  On the SSH Keys page, click Actions ➜ **Associations** for the selected SSH key.
+1.  On the SSH Keys page, click ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Associations** for the selected SSH key.
 
 2.  The following screen is displayed:
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396771/gitserver-assoc-ssh-keys(c).png?version=1&modificationDate=1630642805980&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitserver-assoc-ssh-keys-c.png)
 
     Mark the required repository or repositories to associate the SSH key.
 
@@ -48,13 +48,13 @@ Limit the usage of the SSH key by associating them to selected repositories. St
 
 If you have multiple repositories that uses the same SSH key, configure them via Git Integration app by doing the following steps:
 
-1.  Configure a repository that requires an SSH key via [Using the Connect Repository wizard](/git-integration-for-jira-data-center/using-the-connect-repository-wizard-gij-self-managed/).
+1.  Configure a repository that requires an SSH key via [Using the Connect Repository wizard](/git-integration-for-jira-data-center/using-the-connect-repository-wizard-gij-self-managed).
 
 2.  Associate that SSH key with the currently configured repository via Manage git repositories ➜ **SSH keys** (sidebar).
 
 3.  Add another repository that requires the same SSH key. You will be presented with the following screen:
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930396771/connect-ssh-gitlab-repo(c).png?version=1&modificationDate=1630642806469&cacheVersion=1&api=v2&width=646&height=450)
+    ![](/wp-content/uploads/gij-connect-ssh-gitlab-repo-c.png)
 
 4.  Select the SSH key that you have associated to the previously added repository from the **Existing key** list.
 

@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1509032414/gerrit-webhook-banner.png?version=1&modificationDate=1618656373661&cacheVersion=1&api=v2&width=510&height=117)
+<img src='/wp-content/uploads/gij-gerrit-webhook-banner.png' width=510 height=117 style='display:block;margin:25px auto;max-width:!00%' />
 
 <br>
 
@@ -20,19 +20,19 @@ To use webhooks with Gerrit, it needs to be configured.
 
 For starters, install Gerrit with the webhook plugin by reading at [https://gerrit.googlesource.com/plugins/webhooks/](https://gerrit.googlesource.com/plugins/webhooks/) and the steps below.
 
-**Project (repository) list**
+**Project (repository) list:**
 
 ```powershell
 curl http(s)://your.org.com:8080/projects/?d
 ```
 
-**Enabled webhooks for the repository, for example, MyTestRepo**
+**Enabled webhooks for the repository, for example, MyTestRepo:**
 
 ```powershell
 curl http(s)://your.org.com:8080/config/server/webhooks~projects/MyTestRepo/remotes
 ```
 
-**Add webhook for the repository**
+**Add webhook for the repository:**
 
 ```powershell
 curl --user username:password -H 'Content-Type: application/json' -X PUT -d @webhook.json http(s)://your.org.com:8080/a/config/server/webhooks~projects/MyTestRepo/remotes/bbb-webhook
@@ -68,11 +68,11 @@ _**Optional headers:**_
 
 **Usage examples:**
 
-```java
+```powershell
 curl -H 'x-bbb-webhook-type: push' -H 'content-type: application/json' -X POST -d @payload.json https://webhook/url
 ```
 
-```java
+```powershell
 curl -H 'x-bbb-webhook-type: push' -H 'x-bbb-webhook-id: id-string' -H 'content-type: application/json' -X POST -d @payload.json https://webhook/url
 ```
 
@@ -85,4 +85,24 @@ curl -H 'x-bbb-webhook-type: push' -H 'x-bbb-webhook-id: id-string' -H 'content-
     "origin": "repository-origin"
 }
 ```
+
+<br>
+
+## More related articles about webhooks setup
+
+[Creating reindex triggers for a single repository](/git-integration-for-jira-data-center/Creating-reindex-triggers-for-a-single-repository-gij-self-managed)
+
+[Adding webhooks for GitHub](/git-integration-for-jira-data-center/Adding-Webhooks-for-GitHub-gij-self-managed)
+
+[Adding webhooks for GitLab](/git-integration-for-jira-data-center/Adding-Webhooks-for-GitLab-gij-self-managed)
+
+[Webhooks GitHub Organization support](/git-integration-for-jira-data-center/Webhooks-GitHub-Organization-Support-gij-self-managed)
+
+[Adding webhooks for Azure DevOps Repos \| VSTS](/git-integration-for-jira-data-center/Adding-Webhooks-for-Azure-DevOps-Repos-VSTS-gij-self-managed)
+
+[Adding webhooks for Azure DevOps Server \| TFS](/git-integration-for-jira-data-center/Adding-Webhooks-for-Azure-DevOps-Server-TFS-gij-self-managed)
+
+[Adding webhooks for Bitbucket](/git-integration-for-jira-data-center/Adding-Webhooks-for-Bitbucket-gij-self-managed)
+
+**Adding webhooks for Gerrit** (this page)
 

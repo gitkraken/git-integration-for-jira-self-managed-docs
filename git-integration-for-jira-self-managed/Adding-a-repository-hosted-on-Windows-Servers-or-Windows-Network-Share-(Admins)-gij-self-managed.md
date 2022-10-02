@@ -18,11 +18,11 @@ The wizard will continue without errors if the following conditions are met:
 *   The user under which Jira is running should have **read** access to network path.
 
 
-In the Manage git repositories page, edit the repository via Actions ➜ **Edit repository settings**.
+In the Manage git repositories page, edit the repository via ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit repository settings**.
 
 Under **Repository Settings**, set _**Enable Fetches**_ option to `Git repository hosted on the same server as Jira`.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930396287/gitserver-edit-repocfg-fetches-sel2.png?version=1&modificationDate=1630642787827&cacheVersion=1&api=v2&width=442&height=81)
+<img src='/wp-content/uploads/gij-gitserver-edit-repocfg-fetches-sel2.png' style='display:block;margin:25px auto;max-width:100%' width=442 height=81 />
 
 Considering the above conditions, verify if the repository can be cloned successfully using the network path.  With the server which hosts Jira, start the command-line session under the same user which Jira is running on.
 
@@ -44,5 +44,5 @@ and the repository exists.
 ```
 
 
-For more information, see [Integration guide -- Windows Network Share](/git-integration-for-jira-data-center/windows-network-server-share-gij-self-managed/).
+For more information, see [Integration guide -- Windows Network Share](/git-integration-for-jira-data-center/windows-network-server-share-gij-self-managed).
 
