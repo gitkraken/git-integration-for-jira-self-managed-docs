@@ -23,10 +23,10 @@ Adds a new integration to the git configuration list via the API call.
 
 ## Add new integration
 
-_**url**_<br>
+### url
 `/rest/gitplugin/1.0/`**integration**
 
-_**method**_<br>
+### method
 POST
 
 ### Parameters

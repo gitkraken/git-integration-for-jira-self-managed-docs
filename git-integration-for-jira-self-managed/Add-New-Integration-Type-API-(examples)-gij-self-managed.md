@@ -23,10 +23,10 @@ Below are integration API examples for each integration types:
 
 ## Add new integration type
 
-_**url**_<br>
+### url
 `/rest/gitplugin/1.0/`**integration**
 
-_**method**_<br>
+### method
 POST
 
 <br>
@@ -43,7 +43,7 @@ For complete reference of the parameters, see [Add New Integration API](/git-int
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        When adding new repositories, we recommend to leave the <code>trustFolderStat</code> setting to <b>false</b> <i>(default)</i>. You can change this setting later on via Actions ➜ <b>Edit repository settings</b> in the Manage repositories page.
+        When adding new repositories, we recommend to leave the <code>trustFolderStat</code> setting to <b>false</b> <i>(default)</i>. You can change this setting later on via <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ <b>Edit repository settings</b> in the Manage repositories page.
     </div>
     </div>
 </div>
@@ -79,6 +79,7 @@ For complete reference of the parameters, see [Add New Integration API](/git-int
   "disableSslVerification": true
 }
 ```
+
 **Example 2: (Personal access token)**
 
 ```json
