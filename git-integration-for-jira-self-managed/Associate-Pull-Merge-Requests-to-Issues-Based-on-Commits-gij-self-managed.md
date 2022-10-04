@@ -19,7 +19,7 @@ Pull/merge requests appear automatically in the Git Integration panel based on t
 
 The following settings are implemented in the **Manage git repositories** page ➜ **General settings** under **Git pull/merge requests**:
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/966852625/jira-server-general-settings-branch-pull-req-cfgs%20(c).png?version=1&modificationDate=1608167565785&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-jira-server-general-settings-branch-pull-req-cfgs-c.png)
 
 ### Enable pull/merge request creation in Jira issues
 

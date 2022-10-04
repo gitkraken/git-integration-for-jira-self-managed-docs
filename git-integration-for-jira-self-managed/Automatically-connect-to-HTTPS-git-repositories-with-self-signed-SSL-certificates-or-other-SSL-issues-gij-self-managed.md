@@ -13,7 +13,7 @@ Perform auto-connect integration with HTTPS git repositories that have self-sign
 
 2.  On the Add new integration panel, click **GitLab**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930397370/gitserver-auto-connect-panel-gitlab-sel(c).png?version=1&modificationDate=1630642838459&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitserver-auto-connect-panel-gitlab-sel-c.png)
 
 3.  For External service, select **GitLab Server (CE/EE) v4**. Support for v3 is deprecated.
 
@@ -23,9 +23,19 @@ Perform auto-connect integration with HTTPS git repositories that have self-sign
 
 6.  Click **Connect** to continue. If there is an indication of an SSL error, the following screen is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397370/gitserver-gitlab-server-bad-ssl-example(c).png?version=1&modificationDate=1630642838950&cacheVersion=1&api=v2&width=646&height=428)
+    ![](/wp-content/uploads/gij-gitserver-gitlab-server-bad-ssl-example-c.png)
 
 7.  Click **Ignore certificate errors and continue connection**. This will ignore SSL verification if it's self-signed or expired.
 
 8.  Import the detected repositories and then click **Finish** to complete the setup.
+
+<br>
+
+## More related topics about self-signed HTTPS integration
+
+[Self-signed HTTPS integration](/git-integration-for-jira-data-center/self-signed-https-integration-gij-self-managed)
+
+**Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues** (this page)
+
+[Manually connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/git-integration-for-jira-data-center/manually-connect-to-HTTPS-git-repositories-with-self-signed-SSL-certificates-or-other-SSL-issues-gij-self-managed)
 

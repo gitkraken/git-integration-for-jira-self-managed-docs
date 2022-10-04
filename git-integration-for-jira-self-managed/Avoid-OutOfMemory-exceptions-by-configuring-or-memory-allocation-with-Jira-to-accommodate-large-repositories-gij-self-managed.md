@@ -82,7 +82,7 @@ Caused by: java.lang.OutOfMemoryError: Java heap space
 
 Additionally, go to System ➜ System info ➜ **JAVA VM memory statistics** to see if the allocated memory is running out:
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/824803329/java-vm-memory-statistics(c).png?version=1&modificationDate=1604907189839&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-java-vm-memory-statistics-c.png)
 
 <br>
 
@@ -96,5 +96,20 @@ The JVM running JIRA applications has hit an OutOfMemory Error (OOME). This is t
 
 Verify if the memory for Jira has changed by going to System ➜ System info ➜ **JAVA VM memory statistics**:
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/824803329/verify-memory-alloc-jira-java-vm.png?version=1&modificationDate=1604907612234&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-verify-memory-alloc-jira-java-vm.png)
+
+<br>
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Contact Us</b><br>
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='gijsupport@bigbrassband.com'>gijsupport@bigbrassband.com</a>.
+    </div>
+    </div>
+</div>
+<br>
 

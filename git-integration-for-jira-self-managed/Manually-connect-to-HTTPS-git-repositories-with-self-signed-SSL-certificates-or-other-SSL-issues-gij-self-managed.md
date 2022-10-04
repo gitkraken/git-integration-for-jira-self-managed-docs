@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 When connecting to a private HTTPS git repository, a problem may be caused by a custom (self-signed) certificate. Make sure to install the latest JRE and then change the `JAVA_HOME` of Jira server.
 
 If the above solution doesn't work, see below for the steps to workaround this issue:
@@ -14,7 +15,7 @@ If the above solution doesn't work, see below for the steps to workaround this i
 
     **Example:**
 
-    ```bash
+    ```powershell
     cd /jira/home
     cd data/git-plugin
     git clone --mirror https://my-self-signed-repo/project.git
@@ -28,7 +29,7 @@ If the above solution doesn't work, see below for the steps to workaround this i
 
     **Example:**
 
-    ```bash
+    ```powershell
     cd project.git
     git config http.sslVerify false
     ```
@@ -52,8 +53,18 @@ There are alternative solutions to make Java trust this certificate. Refer to t
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        For related topics on connecting repositories from other git hosts, see <a href='/git-integration-for-jira-data-center/integration-guides-gij-self-managed/'>Integration Guides</a>.
+        For related topics on connecting repositories from other git hosts, see <a href='/git-integration-for-jira-data-center/integration-guides-gij-self-managed'>Integration Guides</a>.
     </div>
     </div>
 </div>
+
+<br>
+
+## More related topics about self-signed HTTPS integration
+
+[Self-signed HTTPS integration](/git-integration-for-jira-data-center/self-signed-https-integration-gij-self-managed)
+
+[Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/git-integration-for-jira-data-center/automatically-connect-to-HTTPS-git-repositories-with-self-signed-SSL-certificates-or-other-SSL-issues-gij-self-managed)
+
+**Manually connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues** (this page)
 

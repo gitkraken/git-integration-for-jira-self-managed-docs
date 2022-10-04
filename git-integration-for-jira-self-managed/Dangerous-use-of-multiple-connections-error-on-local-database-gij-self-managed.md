@@ -5,6 +5,7 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 ---
+
 ## Problem
 
 As Git Integration for Jira Server app uses the Jira database increasingly, it is to be expected that this error will be seen or encountered more often:
@@ -27,4 +28,19 @@ More details may be found in the following articles:
 *   [**Tuning Database Connections**](https://confluence.atlassian.com/adminjiraserver/tuning-database-connections-938846864.html)
 
 *   [**Monitoring Database Connection Usage**](https://confluence.atlassian.com/adminjiraserver/monitoring-database-connection-usage-938847726.html)
+
+<br>
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Contact Us</b><br>
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='gijsupport@bigbrassband.com'>gijsupport@bigbrassband.com</a>.
+    </div>
+    </div>
+</div>
+<br>
 

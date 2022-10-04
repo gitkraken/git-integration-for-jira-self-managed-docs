@@ -24,10 +24,10 @@ Creates new repository from the given settings.
 
 ## Add New Repository
 
-_**url**_<br>
+### url
 `/rest/gitplugin/1.0/`**repository**
 
-_**method**_<br>
+### method
 POST
 
 ### Parameters
