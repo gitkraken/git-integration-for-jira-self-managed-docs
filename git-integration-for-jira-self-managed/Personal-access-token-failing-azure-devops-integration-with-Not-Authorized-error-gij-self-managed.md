@@ -1,6 +1,6 @@
 ---
 
-title: Connection Reset when Accessing the Database
+title: Personal access token failing Azure DevOps integration with Not Authorized error
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -9,25 +9,59 @@ taxonomy:
 
 ## Problem
 
-Errors/failures in the Git Integration for Jira application are seen sporadically. Automatic reindexing may stop.
+The Personal Access Token created in Azure DevOps is not valid for authentication.
 
 ## Diagnosis
 
-Jira admins will see a message similar to the one below in the Jira log: /application-logs/atlassian-jira.log:
+Jira admins will see a Not authorized error (with the following full error) when connecting to Azure DevOps with a Personal Access Token if the token was created for a specific Azure DevOps organization:
+
+![](/wp-content/uploads/gij-personal-access-token-failing-azure-devops.png)
+
+**Technical info: Error**
 
 ```java
-2019-08-04 07:11:11,173 Caesium-1-1 ERROR ServiceRunner     [c.a.s.caesium.impl.CaesiumSchedulerService] Unhandled exception during the attempt to execute job 'com.bigbrassband.jira.git.jiraservices.jobs.RevisionIndexJob'; will attempt recovery in 60 seconds
-com.atlassian.jira.exception.DataAccessException: org.ofbiz.core.entity.GenericDataSourceException: SQL Exception while executing the following:SELECT ID, JOB_ID, JOB_RUNNER_KEY, SCHED_TYPE, INTERVAL_MILLIS, FIRST_RUN, CRON_EXPRESSION, TIME_ZONE, NEXT_RUN, VERSION, PARAMETERS FROM dbo.clusteredjob WHERE JOB_ID=? (Connection reset by peer: socket write error)
+2019-07-08 12:21:09,997 http-nio-8080-exec-436 ERROR sfj 741x4276982x1 a7oa8 192.168.143.212 /rest/gitplugin/1.0/trackedfolders/scan/4994-Bpv7dj9zmeyFAAf6 [c.b.j.g.rest.exceptionmappers.WrappedIntegrationAPIExceptionMapper] Rest API has thrown exception.
+com.bigbrassband.jira.git.exceptions.external.WrappedMicrosoftAPIException: External service error
+at com.bigbrassband.jira.git.services.integration.microsoft.MicrosoftApi.getRepositoriesMS(MicrosoftApi.java:134)
+at com.bigbrassband.jira.git.services.integration.microsoft.MicrosoftApi.getRepositories(MicrosoftApi.java:93)
+at com.bigbrassband.jira.git.services.integration.microsoft.MicrosoftApiService.scan(MicrosoftApiService.java:132)
+at com.bigbrassband.jira.git.services.integration.microsoft.MicrosoftApiService.fastScan(MicrosoftApiService.java:137)
+at com.bigbrassband.jira.git.services.async.ScanTrackedRepoTask.run(ScanTrackedRepoTask.java:61)
+at com.bigbrassband.jira.git.services.async.AsyncProcessorImpl$AsyncTaskWrapper.run(AsyncProcessorImpl.java:114)
+at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+at java.util.concurrent.FutureTask.run(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+Caused by: com.bigbrassband.common.indexer.sources.clients.RequestException: Microsoft https://app.vssps.visualstudio.com/_apis/profile/profiles/me?api-version=1.0 Unauthorized (401)
+at com.bigbrassband.common.indexer.sources.clients.MicrosoftClient.runRequest(MicrosoftClient.java:288)
+at com.bigbrassband.common.indexer.sources.clients.MicrosoftClient.callSingleApi(MicrosoftClient.java:239)
+at com.bigbrassband.common.indexer.sources.clients.MicrosoftClient.getUserId(MicrosoftClient.java:173)
+at com.bigbrassband.jira.git.services.integration.microsoft.MicrosoftApi.getRepositoriesMS(MicrosoftApi.java:125)
+... 10 more
 ```
-
-## Cause
-
-When a database server reboots or a network failure has occurred, all connections in the database connection pool are broken, and JIRA would normally need restarting to recreate those connections. See Atlassian's [Surviving Connection Closures](https://confluence.atlassian.com/jira/surviving-connection-closures-120050.html) documentation.
 
 ## Solution
 
-See [Atlassian's Connection Reset when Accessing the Database](https://confluence.atlassian.com/jirakb/connection-reset-when-accessing-the-database-284366332.html) article.
+Azure DevOps Personal Access Tokens must be created using the All accessible organizations in the **Organization** dropdown. Additionally - the token must either have _**Full access**_ scope or _**Code: Read & Write**_ (as shown below). Minimum requirement is _**Code: Read**_.
 
+1.  Create new Personal Access Token:
+
+    ![](/wp-content/uploads/gij-azure-devops-personal-access-token-all-accessible-organizations)
+
+2.  Copy token:
+
+    ![](/wp-content/uploads/gij-example-pat-azure-devops)
+
+3.  Verify token uses All accessible organizations, has sufficient scopes, is not expired and is active:
+
+    ![](/wp-content/uploads/gij-verify-scopes-orgs-azure-devops)
+
+4.  Paste newly created token:
+
+    ![](/wp-content/uploads/gij-manage-git-repos-azure-devops-tokens)
+
+5.  Click **Connect**.
 
 <br>
 
@@ -52,7 +86,7 @@ See [Atlassian's Connection Reset when Accessing the Database](https://confluenc
 
 [Cannot auto-deploy some tracked repositories: Specified origin is incorrect or not supported](/git-integration-for-jira-data-center/Cannot-auto-deploy-some-tracked-repositories-gij-self-managed)
 
-**Connection Reset when Accessing the Database** (this page)
+[Connection Reset when Accessing the Database](/git-integration-for-jira-data-center/Connection-reset-when-accessing-the-database-gij-self-managed)
 
 ["Dangerous use of multiple connections" error on local database](/git-integration-for-jira-data-center/Dangerous-use-of-multiple-connections-error-on-local-database-gij-self-managed)
 
@@ -72,7 +106,7 @@ See [Atlassian's Connection Reset when Accessing the Database](https://confluenc
 
 [Malformed input or input contains unmappable characters](/git-integration-for-jira-data-center/Malformed-input-or-input-contains-unmappable-characters-gij-self-managed)
 
-[Personal access token failing Azure DevOps integration with Not Authorized error](/git-integration-for-jira-data-center/Personal-access-token-failing-azure-devops-integration-with-Not-Authorized-error-gij-self-managed)
+**Personal access token failing Azure DevOps integration with Not Authorized error** (this page)
 
 [Problems with shared home on Azure Storage](/git-integration-for-jira-data-center/Problems-with-shared-home-on-azure-storage-gij-self-managed)
 

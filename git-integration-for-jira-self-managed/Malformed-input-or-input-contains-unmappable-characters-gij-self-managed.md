@@ -1,33 +1,60 @@
 ---
 
-title: Connection Reset when Accessing the Database
+title: Malformed input or input contains unmappable characters
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-
 ## Problem
 
-Errors/failures in the Git Integration for Jira application are seen sporadically. Automatic reindexing may stop.
+Errors/failures in the Git Integration for Jira application indexing.
 
 ## Diagnosis
 
-Jira admins will see a message similar to the one below in the Jira log: /application-logs/atlassian-jira.log:
+Jira admins will see a message similar to the one below in the Jira log: `/application-logs/atlassian-jira.log`:
+
+**Error**
 
 ```java
-2019-08-04 07:11:11,173 Caesium-1-1 ERROR ServiceRunner     [c.a.s.caesium.impl.CaesiumSchedulerService] Unhandled exception during the attempt to execute job 'com.bigbrassband.jira.git.jiraservices.jobs.RevisionIndexJob'; will attempt recovery in 60 seconds
-com.atlassian.jira.exception.DataAccessException: org.ofbiz.core.entity.GenericDataSourceException: SQL Exception while executing the following:SELECT ID, JOB_ID, JOB_RUNNER_KEY, SCHED_TYPE, INTERVAL_MILLIS, FIRST_RUN, CRON_EXPRESSION, TIME_ZONE, NEXT_RUN, VERSION, PARAMETERS FROM dbo.clusteredjob WHERE JOB_ID=? (Connection reset by peer: socket write error)
+2019/10/01 12:34:56 Malformed input or input contains unmappable characters: /var/jira/data/git-plugin/150_repository_name/refs/heads/hølaf
+java.nio.file.InvalidPathException: Malformed input or input contains unmappable characters: /var/jira/data/git-plugin/150_repository_name/refs/heads/hølaf
+	at sun.nio.fs.UnixPath.encode(UnixPath.java:147)
+	at sun.nio.fs.UnixPath.<init>(UnixPath.java:71)
+	at sun.nio.fs.UnixFileSystem.getPath(UnixFileSystem.java:281)
+	at java.io.File.toPath(File.java:2234)
+	at org.eclipse.jgit.util.FileUtils.fileAttributes(FileUtils.java:672)
+	at org.eclipse.jgit.util.FS.fileAttributes(FS.java:457)
+	at org.eclipse.jgit.internal.storage.file.FileSnapshot.save(FileSnapshot.java:118)
+	at org.eclipse.jgit.internal.storage.file.RefDirectory.scanRef(RefDirectory.java:1153)
+	at org.eclipse.jgit.internal.storage.file.RefDirectory.readRef(RefDirectory.java:1125)
+	at org.eclipse.jgit.internal.storage.file.RefDirectory.pack(RefDirectory.java:764)
+	at org.eclipse.jgit.internal.storage.file.RefDirectory.pack(RefDirectory.java:736)
+	at org.eclipse.jgit.internal.storage.file.PackedBatchRefUpdate.execute(PackedBatchRefUpdate.java:180)
+	at org.eclipse.jgit.lib.BatchRefUpdate.execute(BatchRefUpdate.java:635)
+	at org.eclipse.jgit.transport.FetchProcess.executeImp(FetchProcess.java:224)
+	at org.eclipse.jgit.transport.FetchProcess.execute(FetchProcess.java:124)
+	at org.eclipse.jgit.transport.Transport.fetch(Transport.java:1271)
+	at com.bigbrassband.jira.git.services.gitmanager.SingleGitManagerImpl.fetch(SingleGitManagerImpl.java:1260)
+	at com.bigbrassband.jira.git.services.indexer.revisions.GitPluginIndexManagerImpl.fetchImpl(GitPluginIndexManagerImpl.java:515)
+	at com.bigbrassband.jira.git.services.indexer.revisions.GitPluginIndexManagerImpl.callFetch(GitPluginIndexManagerImpl.java:502)
+	at com.bigbrassband.jira.git.services.indexer.revisions.GitPluginIndexManagerImpl.updateIndex(GitPluginIndexManagerImpl.java:339)
+	at com.bigbrassband.jira.git.services.indexer.revisions.RevisionIndexerImpl$1.doRun(RevisionIndexerImpl.java:151)
+	at com.bigbrassband.jira.git.services.indexer.revisions.QueueEntry.run(QueueEntry.java:82)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
 ```
 
 ## Cause
 
-When a database server reboots or a network failure has occurred, all connections in the database connection pool are broken, and JIRA would normally need restarting to recreate those connections. See Atlassian's [Surviving Connection Closures](https://confluence.atlassian.com/jira/surviving-connection-closures-120050.html) documentation.
+Atlassian recommends UTF-8 or Unicode encoding, and case-insensitive collation. In most cases, problems are due to a misconfiguration in one of the components.
 
-## Solution
+## Solutions
 
-See [Atlassian's Connection Reset when Accessing the Database](https://confluence.atlassian.com/jirakb/connection-reset-when-accessing-the-database-284366332.html) article.
-
+See Atlassian help article: [Troubleshoot character display issues in Jira server](https://confluence.atlassian.com/jirakb/troubleshoot-character-display-issues-in-jira-server-203394762.html).
 
 <br>
 
@@ -52,7 +79,7 @@ See [Atlassian's Connection Reset when Accessing the Database](https://confluenc
 
 [Cannot auto-deploy some tracked repositories: Specified origin is incorrect or not supported](/git-integration-for-jira-data-center/Cannot-auto-deploy-some-tracked-repositories-gij-self-managed)
 
-**Connection Reset when Accessing the Database** (this page)
+[Connection Reset when Accessing the Database](/git-integration-for-jira-data-center/Connection-reset-when-accessing-the-database-gij-self-managed)
 
 ["Dangerous use of multiple connections" error on local database](/git-integration-for-jira-data-center/Dangerous-use-of-multiple-connections-error-on-local-database-gij-self-managed)
 
@@ -70,7 +97,7 @@ See [Atlassian's Connection Reset when Accessing the Database](https://confluenc
 
 [Jira index error: IndexNotFoundException: no segments\* file found](/git-integration-for-jira-data-center/Jira-index-error--IndexNotFoundException--no-segments-file-found)
 
-[Malformed input or input contains unmappable characters](/git-integration-for-jira-data-center/Malformed-input-or-input-contains-unmappable-characters-gij-self-managed)
+**Malformed input or input contains unmappable characters** (this page)
 
 [Personal access token failing Azure DevOps integration with Not Authorized error](/git-integration-for-jira-data-center/Personal-access-token-failing-azure-devops-integration-with-Not-Authorized-error-gij-self-managed)
 

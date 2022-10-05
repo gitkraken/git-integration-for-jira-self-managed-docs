@@ -1,6 +1,6 @@
 ---
 
-title: Connection Reset when Accessing the Database
+title: Jira index error IndexNotFoundException - no segments\* file found
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -9,25 +9,45 @@ taxonomy:
 
 ## Problem
 
-Errors/failures in the Git Integration for Jira application are seen sporadically. Automatic reindexing may stop.
+Some or all repositories are not indexing which may be caused by a system or disk failure.
 
 ## Diagnosis
 
-Jira admins will see a message similar to the one below in the Jira log: /application-logs/atlassian-jira.log:
+Jira admins will see a message similar to the one below in the Jira `/application-logs/atlassian-jira.log`:
+
+**Error**
 
 ```java
-2019-08-04 07:11:11,173 Caesium-1-1 ERROR ServiceRunner     [c.a.s.caesium.impl.CaesiumSchedulerService] Unhandled exception during the attempt to execute job 'com.bigbrassband.jira.git.jiraservices.jobs.RevisionIndexJob'; will attempt recovery in 60 seconds
-com.atlassian.jira.exception.DataAccessException: org.ofbiz.core.entity.GenericDataSourceException: SQL Exception while executing the following:SELECT ID, JOB_ID, JOB_RUNNER_KEY, SCHED_TYPE, INTERVAL_MILLIS, FIRST_RUN, CRON_EXPRESSION, TIME_ZONE, NEXT_RUN, VERSION, PARAMETERS FROM dbo.clusteredjob WHERE JOB_ID=? (Connection reset by peer: socket write error)
+2019/05/08 18:29:06 org.apache.lucene.index.IndexNotFoundException: no segments* file found in MMapDirectory@E:\Program Files\Atlassian\Application Data\JIRA\caches\indexes\plugins\jira-git-revisions lockFactory=org.apache.lucene.store.NativeFSLockFactory@4fd7bb9a: files: []
+java.lang.RuntimeException: org.apache.lucene.index.IndexNotFoundException: no segments* file found in MMapDirectory@E:\Program Files\Atlassian\Application Data\JIRA\caches\indexes\plugins\jira-git-revisions lockFactory=org.apache.lucene.store.NativeFSLockFactory@4fd7bb9a: files: []
+at com.bigbrassband.jira.git.jiraservices.compatibility.CompatibilityLuceneService.openIndexReader(CompatibilityLuceneService.java:299)
+at com.bigbrassband.jira.git.services.indexer.revisions.DefaultLuceneIndexAccessor.getIndexReader(DefaultLuceneIndexAccessor.java:75)
+at com.bigbrassband.jira.git.services.indexer.revisions.IndexManagerImpl.getIndexReader(IndexManagerImpl.java:132)
+at com.bigbrassband.jira.git.services.indexer.revisions.RevisionsIndexManagerImpl.updateBranchIndex(RevisionsIndexManagerImpl.java:933)
+at com.bigbrassband.jira.git.services.indexer.revisions.GitPluginIndexManagerImpl.updateIndex(GitPluginIndexManagerImpl.java:429)
+at com.bigbrassband.jira.git.services.indexer.revisions.RevisionIndexerImpl$1.doRun(RevisionIndexerImpl.java:151)
+at com.bigbrassband.jira.git.services.indexer.revisions.QueueEntry.run(QueueEntry.java:82)
+at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.lucene.index.IndexNotFoundException: no segments* file found in MMapDirectory@E:\Program Files\Atlassian\Application Data\JIRA\caches\indexes\plugins\jira-git-revisions lockFactory=org.apache.lucene.store.NativeFSLockFactory@4fd7bb9a: files: []
+at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:670)
+at org.apache.lucene.index.StandardDirectoryReader.open(StandardDirectoryReader.java:79)
+at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:63)
+at sun.reflect.GeneratedMethodAccessor1234.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at com.bigbrassband.jira.git.jiraservices.compatibility.CompatibilityLuceneService.openIndexReader(CompatibilityLuceneService.java:287)
+... 11 more
 ```
-
-## Cause
-
-When a database server reboots or a network failure has occurred, all connections in the database connection pool are broken, and JIRA would normally need restarting to recreate those connections. See Atlassian's [Surviving Connection Closures](https://confluence.atlassian.com/jira/surviving-connection-closures-120050.html) documentation.
 
 ## Solution
 
-See [Atlassian's Connection Reset when Accessing the Database](https://confluence.atlassian.com/jirakb/connection-reset-when-accessing-the-database-284366332.html) article.
+Perform a Jira System Full re-index option via Administration ➜ System ➜ Advanced ➜ **Indexing**.
 
+For more information - see Atlassian help article about [Search indexing](https://confluence.atlassian.com/adminjiraserver/search-indexing-938847710.html).
 
 <br>
 
@@ -52,7 +72,7 @@ See [Atlassian's Connection Reset when Accessing the Database](https://confluenc
 
 [Cannot auto-deploy some tracked repositories: Specified origin is incorrect or not supported](/git-integration-for-jira-data-center/Cannot-auto-deploy-some-tracked-repositories-gij-self-managed)
 
-**Connection Reset when Accessing the Database** (this page)
+[Connection Reset when Accessing the Database](/git-integration-for-jira-data-center/Connection-reset-when-accessing-the-database-gij-self-managed)
 
 ["Dangerous use of multiple connections" error on local database](/git-integration-for-jira-data-center/Dangerous-use-of-multiple-connections-error-on-local-database-gij-self-managed)
 
@@ -68,7 +88,7 @@ See [Atlassian's Connection Reset when Accessing the Database](https://confluenc
 
 [Installation fails when installing manually](/git-integration-for-jira-data-center/Installation-fails-when-installing-manually-gij-self-managed)
 
-[Jira index error: IndexNotFoundException: no segments\* file found](/git-integration-for-jira-data-center/Jira-index-error--IndexNotFoundException--no-segments-file-found)
+**Jira index error: IndexNotFoundException: no segments\* file found** (this page)
 
 [Malformed input or input contains unmappable characters](/git-integration-for-jira-data-center/Malformed-input-or-input-contains-unmappable-characters-gij-self-managed)
 
