@@ -1,6 +1,6 @@
 ---
 
-title: Connection Reset when Accessing the Database
+title: Health Check - Database Collation
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -9,25 +9,40 @@ taxonomy:
 
 ## Problem
 
-Errors/failures in the Git Integration for Jira application are seen sporadically. Automatic reindexing may stop.
+Incorrect database collation setting can cause errors/failures in the Git Integration for Jira application.
 
 ## Diagnosis
 
-Jira admins will see a message similar to the one below in the Jira log: /application-logs/atlassian-jira.log:
+Jira admins will see a message similar to the one below in the Jira log: `/healthchecks/healthcheckResults.txt`:
 
-```java
-2019-08-04 07:11:11,173 Caesium-1-1 ERROR ServiceRunner     [c.a.s.caesium.impl.CaesiumSchedulerService] Unhandled exception during the attempt to execute job 'com.bigbrassband.jira.git.jiraservices.jobs.RevisionIndexJob'; will attempt recovery in 60 seconds
-com.atlassian.jira.exception.DataAccessException: org.ofbiz.core.entity.GenericDataSourceException: SQL Exception while executing the following:SELECT ID, JOB_ID, JOB_RUNNER_KEY, SCHED_TYPE, INTERVAL_MILLIS, FIRST_RUN, CRON_EXPRESSION, TIME_ZONE, NEXT_RUN, VERSION, PARAMETERS FROM dbo.clusteredjob WHERE JOB_ID=? (Connection reset by peer: socket write error)
+**Health Check: Collation**
+
+```json
+Name: Collation
+Is healthy: false
+Failure reason: The database collation 'utf8_bin' and table collation 'utf8_bin' are not supported by Jira.
+Severity: CRITICAL
 ```
 
 ## Cause
 
-When a database server reboots or a network failure has occurred, all connections in the database connection pool are broken, and JIRA would normally need restarting to recreate those connections. See Atlassian's [Surviving Connection Closures](https://confluence.atlassian.com/jira/surviving-connection-closures-120050.html) documentation.
+From Atlassian:
+
+>   This check retrieves the collation of the database and determines if it is within the list of collations supported by Atlassian. The Check will not assess collation when using an embedded (H2/HSQL) database and will fail if it cannot successfully identify the database (MariaDB is being used, for example). It fails if the collation does not match what we expect, or it cannot be retrieved due to an exception checking it. This health check does not report any warnings for Postgres database users. If you experience an error on this health check, the steps in the resolution should be applied.
+
+[Atlassian - Health Check: Database Collation](https://confluence.atlassian.com/jirakb/health-check-database-collation-790955315.html)
 
 ## Solution
 
-See [Atlassian's Connection Reset when Accessing the Database](https://confluence.atlassian.com/jirakb/connection-reset-when-accessing-the-database-284366332.html) article.
+Follow instructions from Atlassian:
 
+1.  MySQL: [Health Check: Database Collation in MySQL](https://confluence.atlassian.com/jirakb/health-check-database-collation-in-mysql-943951422.html)
+
+2.  Microsoft SQL Server: [Health Check: Database Collation in Microsoft SQL Server](https://confluence.atlassian.com/display/JIRAKB/Health+Check%3A+Database+Collation+in+Microsoft+SQL+Server)
+
+3.  PostgreSQL: [Health Check: Database Collation in PostgreSQL](https://confluence.atlassian.com/display/JIRAKB/Health+Check%3A+Database+Collation+in+PostgreSQL)
+
+4.  Oracle: Health Check: [Database Collation in Oracle](https://confluence.atlassian.com/display/JIRAKB/Health+Check%3A+Database+Collation+in+Oracle)
 
 <br>
 
@@ -37,8 +52,8 @@ See [Atlassian's Connection Reset when Accessing the Database](https://confluenc
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b>Contact Us</b><br>
-        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='gijsupport@bigbrassband.com'>gijsupport@bigbrassband.com</a>.
+        <b>Contact us</b><br>
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
     </div>
     </div>
 </div>
@@ -52,7 +67,7 @@ See [Atlassian's Connection Reset when Accessing the Database](https://confluenc
 
 [Cannot auto-deploy some tracked repositories: Specified origin is incorrect or not supported](/git-integration-for-jira-data-center/Cannot-auto-deploy-some-tracked-repositories-gij-self-managed)
 
-**Connection Reset when Accessing the Database** (this page)
+[Connection Reset when Accessing the Database](/git-integration-for-jira-data-center/Connection-reset-when-accessing-the-database-gij-self-managed)
 
 ["Dangerous use of multiple connections" error on local database](/git-integration-for-jira-data-center/Dangerous-use-of-multiple-connections-error-on-local-database-gij-self-managed)
 
@@ -62,7 +77,7 @@ See [Atlassian's Connection Reset when Accessing the Database](https://confluenc
 
 [Gitolite integration: Why the Git integration app not see the master branch?](/git-integration-for-jira-data-center/Gitolite-integration--why-the-Git-integration-app-not-see-the-master-branch-gij-self-managed)
 
-[Health Check\: Database Collation](/git-integration-for-jira-data-center/Health-check--database-collation-gij-self-managed)
+**Health Check: Database Collation** (this page)
 
 [Indexing error - Too many open files](/git-integration-for-jira-data-center/Indexing-error-Too-many-open-files-gij-self-managed)
 

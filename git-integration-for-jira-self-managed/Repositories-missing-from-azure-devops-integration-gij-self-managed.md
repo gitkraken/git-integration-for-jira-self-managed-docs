@@ -1,33 +1,50 @@
 ---
 
-title: Connection Reset when Accessing the Database
+title: Repositories missing from Azure DevOps integration
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-
 ## Problem
 
-Errors/failures in the Git Integration for Jira application are seen sporadically. Automatic reindexing may stop.
+Some or all repositories in Azure DevOps integrations are not seen or showing by the integration user.
 
-## Diagnosis
+## Diagnoses
 
-Jira admins will see a message similar to the one below in the Jira log: /application-logs/atlassian-jira.log:
+**1\. Permissions**
 
-```java
-2019-08-04 07:11:11,173 Caesium-1-1 ERROR ServiceRunner     [c.a.s.caesium.impl.CaesiumSchedulerService] Unhandled exception during the attempt to execute job 'com.bigbrassband.jira.git.jiraservices.jobs.RevisionIndexJob'; will attempt recovery in 60 seconds
-com.atlassian.jira.exception.DataAccessException: org.ofbiz.core.entity.GenericDataSourceException: SQL Exception while executing the following:SELECT ID, JOB_ID, JOB_RUNNER_KEY, SCHED_TYPE, INTERVAL_MILLIS, FIRST_RUN, CRON_EXPRESSION, TIME_ZONE, NEXT_RUN, VERSION, PARAMETERS FROM dbo.clusteredjob WHERE JOB_ID=? (Connection reset by peer: socket write error)
-```
+The connecting Azure DevOps user must have access to the repository to be added to the Git Integration for Jira app.
 
-## Cause
+**2\. Access Level**
 
-When a database server reboots or a network failure has occurred, all connections in the database connection pool are broken, and JIRA would normally need restarting to recreate those connections. See Atlassian's [Surviving Connection Closures](https://confluence.atlassian.com/jira/surviving-connection-closures-120050.html) documentation.
+Jira admins will notice that some repositories expected in the Azure DevOps integration do not appear in the Git Integration for Jira app. Basic or Visual Studio Professional access is the minimum access level necessary for the Git Integration for Jira app as Code access level is required.
 
-## Solution
+![](/wp-content/uploads/gij-azure-devops-code-access-level)
 
-See [Atlassian's Connection Reset when Accessing the Database](https://confluence.atlassian.com/jirakb/connection-reset-when-accessing-the-database-284366332.html) article.
+For more information - see Microsoft's article on [Azure DevOps Access Levels](https://learn.microsoft.com/en-us/azure/devops/organizations/security/access-levels?view=azure-devops).
 
+**3\. Repository format**
+
+Only git format repositories are supported by the Git Integration for Jira app. Team Foundation Version Control (TFVC) formatted repositories are not supported.
+
+## Solutions
+
+**1\.  Permissions**
+
+Assign the connecting Azure DevOps user appropriate access to the repository or repositories.
+
+**2\.  Access Level**
+
+Grant at least Basic or Visual Studio Professional access is the minimum access level necessary for the Git Integration for Jira app. 
+
+**3\. Repository format**
+
+Convert the Team Foundation Version Control (TFVC) formatted repositories to git format repositories
+
+*   Microsoft article: [Migrate from TFVC to Git](https://docs.microsoft.com/en-us/devops/develop/git/migrate-from-tfvc-to-git)
+
+*   Microsoft article: [Import repositories from TFVC to Git](https://docs.microsoft.com/en-us/azure/devops/repos/git/import-from-tfvc?view=azure-devops)
 
 <br>
 
@@ -52,7 +69,7 @@ See [Atlassian's Connection Reset when Accessing the Database](https://confluenc
 
 [Cannot auto-deploy some tracked repositories: Specified origin is incorrect or not supported](/git-integration-for-jira-data-center/Cannot-auto-deploy-some-tracked-repositories-gij-self-managed)
 
-**Connection Reset when Accessing the Database** (this page)
+[Connection Reset when Accessing the Database](/git-integration-for-jira-data-center/Connection-reset-when-accessing-the-database-gij-self-managed)
 
 ["Dangerous use of multiple connections" error on local database](/git-integration-for-jira-data-center/Dangerous-use-of-multiple-connections-error-on-local-database-gij-self-managed)
 
@@ -78,7 +95,7 @@ See [Atlassian's Connection Reset when Accessing the Database](https://confluenc
 
 [Pull request index error: org.json.JSONException](/git-integration-for-jira-data-center/Pull-request-index-error--JSONException-gij-self-managed)
 
-[Repositories missing from Azure DevOps integration](/git-integration-for-jira-data-center/Repositories-missing-from-azure-devops-integration-gij-self-managed)
+**Repositories missing from Azure DevOps** integration (this page)
 
 [Service proxy has been destroyed  exceptions in log](/git-integration-for-jira-data-center/Service-proxy-has-been-destroyed-exceptions-in-log-gij-self-managed)
 

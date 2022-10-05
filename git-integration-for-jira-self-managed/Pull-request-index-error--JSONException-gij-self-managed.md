@@ -1,33 +1,74 @@
 ---
 
-title: Connection Reset when Accessing the Database
+title: Pull request index error -- org.json.JSONException
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-
 ## Problem
 
-Errors/failures in the Git Integration for Jira application are seen sporadically. Automatic reindexing may stop.
+Pull requests (or merge requests in GitLab) do not index and the pull request index (pullreqsIndexInfo.json inside `jira/home/caches/indexes/plugins/jira-git-pull-requests`) is broken.
+
+**Example locations:**
+
+`jira/home/caches/indexes/plugins/jira-git-pull-requests/2/pullreqs/pullreqsIndexInfo.json`
+
+`jira/home/caches/indexes/plugins/jira-git-pull-requests/3/pullreqs/pullreqsIndexInfo.json`
 
 ## Diagnosis
 
-Jira admins will see a message similar to the one below in the Jira log: /application-logs/atlassian-jira.log:
+Jira admins will see a message similar to the one below in the Jira `/application-logs/atlassian-jira.log`:
 
 ```java
-2019-08-04 07:11:11,173 Caesium-1-1 ERROR ServiceRunner     [c.a.s.caesium.impl.CaesiumSchedulerService] Unhandled exception during the attempt to execute job 'com.bigbrassband.jira.git.jiraservices.jobs.RevisionIndexJob'; will attempt recovery in 60 seconds
-com.atlassian.jira.exception.DataAccessException: org.ofbiz.core.entity.GenericDataSourceException: SQL Exception while executing the following:SELECT ID, JOB_ID, JOB_RUNNER_KEY, SCHED_TYPE, INTERVAL_MILLIS, FIRST_RUN, CRON_EXPRESSION, TIME_ZONE, NEXT_RUN, VERSION, PARAMETERS FROM dbo.clusteredjob WHERE JOB_ID=? (Connection reset by peer: socket write error)
+2018/01/16 22:30:20 Can't do reindex of merge requests java.io.IOException: Can't do reindex of merge requests
+    at com.xiplink.jira.git.revisions.PullRequestIndexManagerImpl.pullRequestException(PullRequestIndexManagerImpl.java:157)
+    at com.xiplink.jira.git.revisions.PullRequestIndexManagerImpl.updatePullReqIndex(PullRequestIndexManagerImpl.java:151)
+    at com.xiplink.jira.git.revisions.GitPluginIndexManagerImpl.updateIndexImpl(GitPluginIndexManagerImpl.java:409)
+    at com.xiplink.jira.git.revisions.GitPluginIndexManagerImpl.updateIndex(GitPluginIndexManagerImpl.java:431)
+    at com.xiplink.jira.git.revisions.RevisionIndexerImpl$1.doRun(RevisionIndexerImpl.java:300)
+    at com.xiplink.jira.git.revisions.RevisionIndexerImpl$QueueEntry.run(RevisionIndexerImpl.java:123)
+    at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+    at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+    at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+    at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+    at java.lang.Thread.run(Thread.java:745)
+Caused by: org.json.JSONException: A JSONObject text must begin with '{' at 1 [character 2 line 1]
+    at org.json.JSONTokener.syntaxError(JSONTokener.java:433)
+    at org.json.JSONObject.<init>(JSONObject.java:194)
+    at org.json.JSONObject.<init>(JSONObject.java:321)
+    at com.bigbrassband.common.indexer.PullreqIndexer.indexPullRequests(PullreqIndexer.java:60)
+    at com.xiplink.jira.git.revisions.PullRequestIndexManagerImpl.updatePullReqIndex(PullRequestIndexManagerImpl.java:149)
+    ... 9 more
 ```
 
-## Cause
+## Solutions
 
-When a database server reboots or a network failure has occurred, all connections in the database connection pool are broken, and JIRA would normally need restarting to recreate those connections. See Atlassian's [Surviving Connection Closures](https://confluence.atlassian.com/jira/surviving-connection-closures-120050.html) documentation.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        This issue should be resolved in <b>v3.5.0.2+</b>. If similar issue is found in later versions, please contact us at <a href='gijsupport@bigbrassband.com'>gijsupport@bigbrassband.com</a>.
+    </div>
+    </div>
+</div>
+<br>
 
-## Solution
+1.  Verify that the Git Integration for Jira app does not have a reindex process in progress.
 
-See [Atlassian's Connection Reset when Accessing the Database](https://confluence.atlassian.com/jirakb/connection-reset-when-accessing-the-database-284366332.html) article.
+2.  Disable the Git Integration for Jira app in Jira Administration ➜ **Manage apps**.
 
+3.  Remove the folder `/jira/home/caches/indexes/plugins/jira-git-pull-requests/` from the file system.
+
+4.  Enable the Git Integration for Jira app in Jira Administration ➜ **Manage apps**.
+
+5.  Start a reindex of the Git Integration for Jira app.
+
+## Resolution
+
+`jira/home/caches/indexes/plugins/jira-git-pull-requests/` will be recreated.
 
 <br>
 
@@ -52,7 +93,7 @@ See [Atlassian's Connection Reset when Accessing the Database](https://confluenc
 
 [Cannot auto-deploy some tracked repositories: Specified origin is incorrect or not supported](/git-integration-for-jira-data-center/Cannot-auto-deploy-some-tracked-repositories-gij-self-managed)
 
-**Connection Reset when Accessing the Database** (this page)
+[Connection Reset when Accessing the Database](/git-integration-for-jira-data-center/Connection-reset-when-accessing-the-database-gij-self-managed)
 
 ["Dangerous use of multiple connections" error on local database](/git-integration-for-jira-data-center/Dangerous-use-of-multiple-connections-error-on-local-database-gij-self-managed)
 
@@ -76,7 +117,7 @@ See [Atlassian's Connection Reset when Accessing the Database](https://confluenc
 
 [Problems with shared home on Azure Storage](/git-integration-for-jira-data-center/Problems-with-shared-home-on-azure-storage-gij-self-managed)
 
-[Pull request index error: org.json.JSONException](/git-integration-for-jira-data-center/Pull-request-index-error--JSONException-gij-self-managed)
+**Pull request index error: org.json.JSONException** (this page)
 
 [Repositories missing from Azure DevOps integration](/git-integration-for-jira-data-center/Repositories-missing-from-azure-devops-integration-gij-self-managed)
 

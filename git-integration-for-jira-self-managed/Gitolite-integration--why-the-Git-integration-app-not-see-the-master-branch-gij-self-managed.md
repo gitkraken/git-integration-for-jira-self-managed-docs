@@ -1,6 +1,6 @@
 ---
 
-title: Connection Reset when Accessing the Database
+title: Gitolite integration - Why the Git integration app not see the master branch?
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -9,26 +9,28 @@ taxonomy:
 
 ## Problem
 
-Errors/failures in the Git Integration for Jira application are seen sporadically. Automatic reindexing may stop.
+After creating a new bare repository and integrating it to Jira Server via Git Integration for Jira app, I'm not able to see the last changes I made which contains smart commit tags thru the Repository Browser.
 
 ## Diagnosis
 
-Jira admins will see a message similar to the one below in the Jira log: /application-logs/atlassian-jira.log:
+The following criteria are true:
+
+*   Repositories are located on the same Linux machine as Jira.
+*   Repositories are connected through the "Tracked folder" feature.
+*   A user has made commits locally and pushed them to their Jira + git server.
+*   The Git Integration app shows "No commits" message and "Branch does not exists" errors.
+Solutions
+
+It appears that the issue is really in the permissions of the files. Check them by manually updating the permissions of the files to proper values and reindex the repository via the Git Integration app.
+
+Set the **UMASK** setting as mentioned in [https://stackoverflow.com/questions/15082590/git-object-folder-permission](https://stackoverflow.com/questions/15082590/git-object-folder-permission).
+
+For gitolite and git repository on the same server as Jira, set the UMASK value in .gitolite.rc file to the following:
 
 ```java
-2019-08-04 07:11:11,173 Caesium-1-1 ERROR ServiceRunner     [c.a.s.caesium.impl.CaesiumSchedulerService] Unhandled exception during the attempt to execute job 'com.bigbrassband.jira.git.jiraservices.jobs.RevisionIndexJob'; will attempt recovery in 60 seconds
-com.atlassian.jira.exception.DataAccessException: org.ofbiz.core.entity.GenericDataSourceException: SQL Exception while executing the following:SELECT ID, JOB_ID, JOB_RUNNER_KEY, SCHED_TYPE, INTERVAL_MILLIS, FIRST_RUN, CRON_EXPRESSION, TIME_ZONE, NEXT_RUN, VERSION, PARAMETERS FROM dbo.clusteredjob WHERE JOB_ID=? (Connection reset by peer: socket write error)
+From UMASK => 0077
+To UMASK => 0027
 ```
-
-## Cause
-
-When a database server reboots or a network failure has occurred, all connections in the database connection pool are broken, and JIRA would normally need restarting to recreate those connections. See Atlassian's [Surviving Connection Closures](https://confluence.atlassian.com/jira/surviving-connection-closures-120050.html) documentation.
-
-## Solution
-
-See [Atlassian's Connection Reset when Accessing the Database](https://confluence.atlassian.com/jirakb/connection-reset-when-accessing-the-database-284366332.html) article.
-
-
 <br>
 
 <div class="bbb-callout bbb--info">
@@ -37,8 +39,8 @@ See [Atlassian's Connection Reset when Accessing the Database](https://confluenc
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b>Contact Us</b><br>
-        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='gijsupport@bigbrassband.com'>gijsupport@bigbrassband.com</a>.
+        <b>Contact us</b><br>
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
     </div>
     </div>
 </div>
@@ -52,7 +54,7 @@ See [Atlassian's Connection Reset when Accessing the Database](https://confluenc
 
 [Cannot auto-deploy some tracked repositories: Specified origin is incorrect or not supported](/git-integration-for-jira-data-center/Cannot-auto-deploy-some-tracked-repositories-gij-self-managed)
 
-**Connection Reset when Accessing the Database** (this page)
+[Connection Reset when Accessing the Database](/git-integration-for-jira-data-center/Connection-reset-when-accessing-the-database-gij-self-managed)
 
 ["Dangerous use of multiple connections" error on local database](/git-integration-for-jira-data-center/Dangerous-use-of-multiple-connections-error-on-local-database-gij-self-managed)
 
@@ -60,9 +62,9 @@ See [Atlassian's Connection Reset when Accessing the Database](https://confluenc
 
 [Error while reindexing - Java heap space / Object too large, rejecting the pack](/git-integration-for-jira-data-center/Error-while-reindexing-Java-heap-space-Object-too-large,-rejecting-the-pack-gij-self-managed)
 
-[Gitolite integration: Why the Git integration app not see the master branch?](/git-integration-for-jira-data-center/Gitolite-integration--why-the-Git-integration-app-not-see-the-master-branch-gij-self-managed)
+**Gitolite integration: Why the Git integration app not see the master branch?** (this page)
 
-[Health Check\: Database Collation](/git-integration-for-jira-data-center/Health-check--database-collation-gij-self-managed)
+[Health Check: Database Collation](/git-integration-for-jira-data-center/Health-check--database-collation-gij-self-managed)
 
 [Indexing error - Too many open files](/git-integration-for-jira-data-center/Indexing-error-Too-many-open-files-gij-self-managed)
 
