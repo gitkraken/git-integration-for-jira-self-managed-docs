@@ -15,7 +15,7 @@ The Git Integration for Jira app currently supports **Jira** **8.0** to **9.1*
     </div>
     <div class="imsgbox">
         <b>UPDATE</b><br>
-        Starting v4.0 of the Git Integration for Jira app, support for Jira 7 is entirely dropped.
+        Starting v4.0+ of the Git Integration for Jira app, support for Jira 7 is entirely dropped.
     </div>
     </div>
 </div>
@@ -39,7 +39,7 @@ Administrators should deselect the "Reverse commit tab sort order" option in Gen
 
 After upgrading from Jira 8 to Jira 9, administrators must re-create all indexes using the "Reset index" Action command for all repositories or integrations.
 
-For detailed information, see [Migrating from Jira 8 to Jira 9](/git-integration-for-jira-data-center/migrating-jira7-to-jira9-gij-self-managed/).
+For detailed information, see [Migrating from Jira 8 to Jira 9](/git-integration-for-jira-data-center/migrating-jira7-to-jira9-gij-self-managed).
 
 ## Quick Installation Video
 
@@ -51,12 +51,13 @@ Using Atlassian's marketplace system, a Jira administrator can install the Git I
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/lr0jp6ntfd?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/lr0jp6ntfd'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+<div align='center' style='margin-top:10px'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/lr0jp6ntfd'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i><br>
+    Watch the complete installation of the Git Integration Plugin for Jira app from scratch (2 minutes).
 </div>
 <br>
 
-Watch the complete installation of the Git Integration Plugin for Jira app from scratch (2 minutes).
+
 
 * * *
 
@@ -64,11 +65,11 @@ Watch the complete installation of the Git Integration Plugin for Jira app from 
 
 Go to the Manage Git Repositories page, click the **Actions** <img src='/wp-content/uploads/actions-icon.png' /> icon then **View Log** to view the indexing logs.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/365592592/manage-git-repo-view-reindex-logs(c).png?version=1&modificationDate=1585632728597&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-manage-git-repo-view-reindex-logs-c.png)
 
 If there is an error encountered when connecting to a repository, a similar indexing error log will be displayed:
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/365592592/manage-git-repo-indexing-logs-dlg.png?version=1&modificationDate=1585632735897&cacheVersion=1&api=v2&width=680&height=425)
+![](/wp-content/uploads/gij-manage-git-repo-indexing-logs-dlg.png)
 
 * * *
 
@@ -135,4 +136,19 @@ In view of this, BigBrassBand LLC will also follow this decision effectively:
 *   For all Atlassian Cloud products, support will end on **31 March 2020**.
 
 *   For Atlassian server and data center products, the last version to support IE11 will be released between **September 2019** and **March 2020**.
+
+<br>
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Contact Us</b><br>
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='gijsupport@bigbrassband.com'>gijsupport@bigbrassband.com</a>.
+    </div>
+    </div>
+</div>
+<br>
 

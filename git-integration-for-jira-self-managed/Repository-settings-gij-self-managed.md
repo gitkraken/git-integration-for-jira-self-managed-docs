@@ -1,6 +1,6 @@
 ---
 
-title: Repository settings General setting
+title: Repository settings (General setting)
 description:
 taxonomy:
     category: git-integration-for-jira-data-center

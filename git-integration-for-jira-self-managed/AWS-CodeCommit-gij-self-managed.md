@@ -13,13 +13,13 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/aws-codecommit-gij-cloud/'>See the corresponding article</a>.
+        Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/aws-codecommit-gij-cloud'>See the corresponding article</a>.
     </div>
     </div>
 </div>
 <br>
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/aws-cc-logo.png?version=1&modificationDate=1631448492185&cacheVersion=1&api=v2&width=387&height=81)
+<img src='/wp-content/uploads/gij-aws-cc-logo-for-dark.png' width=387 height=81 style='max-width:100%' />
 
 <br>
 
@@ -103,11 +103,11 @@ Configure [**AWSCodeCommitPowerUser »**](https://docs.aws.amazon.com/codecommi
 | delete branch | `codecommit:DeleteBranch` |
 | configure webhooks automatically | `codecommit:GetRepositoryTriggers`  <br>`codecommit:PutRepositoryTriggers`  <br>`sns:CreateTopic`  <br>`sns:DeleteTopic`  <br>`sns:Subscribe` |
 
-See [this article](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed/) for related information.
+See [this article](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed) for related information.
 
 ## Webhooks and triggers
 
-**RECOMMENDED**
+<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>RECOMMENDED</b>
 
 CodeCommit doesn't have webhooks but it has SNS triggers requiring a [**subscription confirmation »**](https://docs.aws.amazon.com/sns/latest/dg/SendMessageToHttp.html).
 
@@ -154,9 +154,10 @@ For more information on Amazon SNS, see [**Amazon SNS: Getting Started »**](ht
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/657k3pibj6?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/657k3pibj6'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
+<br>
 <br>
 
 ## Using Full feature integration
@@ -167,11 +168,11 @@ We recommend using the Add new integration panel (_formerly Auto-connect integra
 
 1.  On the Jira Data Center/Server dashboard menu, go to Git ➜ **Manage repositories**. The git configuration page for connecting repositories is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/92176493/gitserver-gitmgr-connect2git-sel(c).png?version=1&modificationDate=1631448492192&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitserver-gitmgr-connect2git-sel-c.png)
 
 2. On the Add new integration panel, click **CodeCommit**. The Auto-Connect wizard for AWS CodeCommit is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-gitmgr-auto-connect-aws-wiz-dlg(c).png?version=1&modificationDate=1631448492197&cacheVersion=1&api=v2&width=646&height=472)
+    ![](/wp-content/uploads/gij-gitserver-gitmgr-auto-connect-aws-wiz-dlg-c.png)
 
 3.  Select the **Region** where the CodeCommit repositories reside then enter credentials for the **Access key ID** and **Secret access key**.
 
@@ -197,9 +198,9 @@ We recommend using the Add new integration panel (_formerly Auto-connect integra
         *   Middle East (Bahrain)
         *   South America (Sao Paulo)
 
-    **OPTIONAL!** Configuring the **Advanced** settings (_under the credential fields_) is not required. However, admins/power users may set how the project listing is displayed.
+    <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL!</b> Configuring the **Advanced** settings (_under the credential fields_) is not required. However, admins/power users may set how the project listing is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-aws-auto-connect-wiz-advanced-opt(c).png?version=1&modificationDate=1631448492201&cacheVersion=1&api=v2&width=510&height=224)
+    ![](/wp-content/uploads/gij-gitserver-aws-auto-connect-wiz-advanced-opt-c.png)
 
     *   **Fetch refspec**  –  Git refspec contains patterns mapped as references from the remote to the local repository.
         For more information, see [**Git Internals -- The Refspec**](https://git-scm.com/book/en/v2/Git-Internals-The-Refspec).
@@ -228,13 +229,13 @@ We recommend using the Add new integration panel (_formerly Auto-connect integra
 
 6.  After the import process, the **Settings** dialog is displayed:
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-auto-connect-wizard-end-dlg(c).png?version=1&modificationDate=1631448492206&cacheVersion=1&api=v2&width=646&height=428)
+    ![](/wp-content/uploads/gij-gitserver-auto-connect-wizard-end-dlg-c.png)
 
-    *   On the **Integration Settings**, setting the _**Require User PAT**_ option to `ON`, will require users to provide AWS Access Key ID and Secret Access Key specific for branch and pull requests creation/deletion _(via the_ [_Jira Git integration development panel_](/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed/) _on the Jira issue page)_. For more information on this feature, see [Integration feature settings: Require user PAT](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/).
+    *   On the **Integration Settings**, setting the _**Require User PAT**_ option to `ON`, will require users to provide AWS Access Key ID and Secret Access Key specific for branch and pull requests creation/deletion _(via the_ [_Jira Git integration development panel_](/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed) _on the Jira issue page)_. For more information on this feature, see [Integration feature settings: Require user PAT](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed).
 
     *   Set [Smart commits](/git-integration-for-jira-data-center/Smart-commits) and [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed) to enable/disable these features.
 
-    *   Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Setting project permissions](/git-integration-for-jira-data-center/setting-project-permissions-gij-self-managed/).
+    *   Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Setting project permissions](/git-integration-for-jira-data-center/setting-project-permissions-gij-self-managed).
 
 7.  Click **Finish** to complete setting up this integration.
 
@@ -260,7 +261,7 @@ If the connected git host has newly added repositories, the Git Integration for 
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The <a href='/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/'>Require user personal access token</a> feature is not available for single repository connections with AWS CodeCommit.
+        The <a href='/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed'>Require user personal access token</a> feature is not available for single repository connections with AWS CodeCommit.
     </div>
     </div>
 </div>
@@ -268,19 +269,19 @@ If the connected git host has newly added repositories, the Git Integration for 
 
 Connect a single AWS CodeCommit repository manually to Jira via HTTP/HTTPS connection.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/aws-repo-clone-url-sel.png?version=1&modificationDate=1631448492210&cacheVersion=1&api=v2&width=680&height=236)
+![](/wp-content/uploads/gij-aws-repo-clone-url-sel.png)
 
 1.  Use the Git clone HTTP/HTTPS URL of your AWS CodeCommit repository and paste it on the **Repository location** field on the Connect to Git repository wizard start screen.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-connect2git-aws-start(c).png?version=1&modificationDate=1631448492214&cacheVersion=1&api=v2&width=646&height=510)
+    ![](/wp-content/uploads/gij-gitserver-connect2git-aws-start-c.png)
 
 2.  On the Authentication screen, enter the _**Access Key ID**_ as the username then the _**Secret Access Key**_ as the password.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-connect2git-aws-auth(c).png?version=1&modificationDate=1631448492219&cacheVersion=1&api=v2&width=646&height=427)
+    ![](/wp-content/uploads/gij-gitserver-connect2git-aws-auth-c.png)
 
 3.  Click **Next**. The wizard will verify the authentication details and proceeds to the next screen if there are no errors.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-connect2git-aws-settings-end(c).png?version=1&modificationDate=1631448492223&cacheVersion=1&api=v2&width=646&height=428)
+    ![](/wp-content/uploads/gij-gitserver-connect2git-aws-settings-end-c.png)
 
 4.  On the **Permissions** dialog, set **Repository Browser** and **Project Association** permissions or leave them as is.
 
@@ -306,7 +307,7 @@ The repository is now connected to Jira Data Center/Server.
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The <a href='/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/'>Require user personal access token</a> feature is not available with single repository connections for AWS CodeCommit.
+        The <a href='/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed'>Require user personal access token</a> feature is not available with single repository connections for AWS CodeCommit.
     </div>
     </div>
 </div>
@@ -320,13 +321,13 @@ If authentication issues are encountered during connecting an AWS repository to 
 
 For example, the original URL is:
 
-```
+```powershell
 ssh://git-codecommit.us-east-1.amazonaws.com/v1/repos/test-repo
 ```
 
 If the SSH Key ID **1a2b3c4d5e** is applied to the original SSH URL, the resulting URL would be:
 
-```
+```powershell
 ssh://1a2b3c4d5e@git-codecommit.us-east-1.amazonaws.com/v1/repos/test-repo
 ```
 
@@ -365,6 +366,7 @@ The Git Integration for Jira app automatically configures web linking for AWS Co
 The Git Integration for Jira app supports creation of branches and pull requests from Jira via the developer panel.
 
 ### Default branch
+
 Most git integrations allow changing of the default branch of the repository/project other than "master". This change is reflected in the  Repository Settings of the Git Integration for Jira app on the next reindex. Auto-connected integrations support this feature where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
 <div class="bbb-callout bbb--alert">
@@ -385,7 +387,7 @@ Most git integrations allow changing of the default branch of the repository/pro
 
 2.  On the Jira development panel under **Git integration**, click **Create branch**. The following dialog is displayed,
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-create-branch-dlg(c).png?version=1&modificationDate=1631448492228&cacheVersion=1&api=v2&width=544&height=300)
+    ![](/wp-content/uploads/gij-gitserver-create-branch-dlg-aws.png)
 
     *   Select a **Repository** from the list.
         
@@ -399,21 +401,21 @@ Most git integrations allow changing of the default branch of the repository/pro
   
 The newly-created branch appears on the development panel under _Branches_ section.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-create-branches-list-dev-panel.png?version=1&modificationDate=1631448492233&cacheVersion=1&api=v2&width=331&height=294)
+<img src='/wp-content/uploads/gij-gitserver-create-branches-list-dev-panel.png' width=331 height=294 style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 
 ### Creating branches with Require user PAT enabled
 
-If the [Require user PAT setting](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/) is enabled in the **Integration feature settings** _Actions_ ➜ _Edit integration feature settings_) and a user PAT isn't configured yet for the selected repository via Repository Browser, the following create branch dialog is displayed instead.
+If the [Require user PAT setting](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed) is enabled in the **Integration feature settings** _Actions_ ➜ _Edit integration feature settings_) and a user PAT isn't configured yet for the selected repository via Repository Browser, the following create branch dialog is displayed instead.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-create-branch-req-user-pat-enabled-aws.png?version=1&modificationDate=1631448492238&cacheVersion=1&api=v2&width=550&height=275)
+<img src='/wp-content/upoloads/gij-gitserver-create-branch-req-user-pat-enabled-aws.png' width=550 height=275 style='display:block;margin:25px auto;max-width:100%' />
 
 Click the link label to setup the PAT.
 
 The Setup your AWS Credentials dialog appears.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-create-branches-setup-pat-dlg-aws.png?version=2&modificationDate=1631448492444&cacheVersion=1&api=v2&width=550&height=275)
+<img src='/wp-content/uploads/gij-gitserver-create-branches-setup-pat-dlg-aws.png' width=550 height=275 style='display:block;margin:25px auto;max-width:100%' />
 
 Enter the required credentials then click **Update** to complete this setup. You can now proceed to create branches and pull requests for the selected repository.
 
@@ -427,7 +429,7 @@ The pull request feature works the same as merge request.
 
 2.  On the development panel under **Git integration**, click **Create pull request**. The following dialog is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-create-pullreq-aws(c).png?version=1&modificationDate=1631448492247&cacheVersion=1&api=v2&width=544&height=309)
+    ![](/wp-content/uploads/gitserver-create-pullreq-aws-c.png)
 
     *   Select **Repository** from the list.
 
@@ -439,7 +441,7 @@ The pull request feature works the same as merge request.
 
     *   Enter a descriptive title or leave it as is (recommended).
 
-    *   **OPTIONAL** -- Click **Preview** to open this pull request in the Repository Browser ➜ Compare tab. See [this page](/git-integration-for-jira-data-center/comparing-branches-tags-in-repository-browser-gij-self-managed/) for more information.
+    *   <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL</b> -- Click **Preview** to open this pull request in the Repository Browser ➜ Compare tab. See [this page](/git-integration-for-jira-data-center/comparing-branches-tags-in-repository-browser-gij-self-managed) for more information.
 
 3.  Click **Create** to complete creating this pull request.
 
@@ -449,15 +451,15 @@ The pull request is also ready for approval by the reviewers in your AWS CodeCom
 
 ### Creating pull request with Require user PAT setting enabled
 
-If the [Require user PAT setting](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/) is enabled in the **Integration feature settings** ( _Actions_ ➜ _Edit integration feature settings_) and a user PAT isn't configured yet for the selected repository via Repository Browser, the following pull request dialog is displayed instead.
+If the [Require user PAT setting](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed) is enabled in the **Integration feature settings** ( _Actions_ ➜ _Edit integration feature settings_) and a user PAT isn't configured yet for the selected repository via Repository Browser, the following pull request dialog is displayed instead.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-create-pullreq-dlg-reqPAT.png?version=1&modificationDate=1631448492252&cacheVersion=1&api=v2&width=550&height=275)
+<img src='/wp-content/uploads/gij-gitserver-create-pullreq-dlg-reqPAT.png' width=550 height=275 style='display:block;margin:25px auto;max-width:100%' />
 
 Click the link label to setup the PAT.
 
 The Setup your AWS Credentials dialog appears.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-create-branches-setup-pat-dlg-aws.png?version=2&modificationDate=1631448492444&cacheVersion=1&api=v2&width=550&height=275)
+<img src='/wp-content/uploads/gitserver-create-branches-setup-pat-dlg-aws.png' width=550 height=275 style='display:block;margin:25px auto;max-width:100%' />
 
 Enter the required credentials then click **Update** to complete this setup. You can now proceed to create branches and pull requests for the selected repository.
 
@@ -467,7 +469,7 @@ If an invalid secret access key was configured for the selected repository, the
 
 If the secret access key has changed for your AWS account, update the credentials via Repository Browser (_dashboard menu Git_ ➜ _View all repositories_).
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/92176493/gitserver-repo-browser-setup-pat-sel.png?version=1&modificationDate=1631448492486&cacheVersion=1&api=v2&width=680&height=308)
+![](/wp-content/uploads/gij-gitserver-repo-browser-setup-pat-sel.png)
 
-Click the edit <img src='/wp-content/uploads/gij-edit-icon-dark.png' valign=baseline /> icon under the Personal access column for the selected repository. The same dialog for Setup your AWS Credentials appears. Enter the updated _**Secret access key**_ then click **Update** to save the settings.
+Click the edit ![](/wp-content/uploads/gij-edit-icon-dark.png) icon under the Personal access column for the selected repository. The same dialog for Setup your AWS Credentials appears. Enter the updated _**Secret access key**_ then click **Update** to save the settings.
 
