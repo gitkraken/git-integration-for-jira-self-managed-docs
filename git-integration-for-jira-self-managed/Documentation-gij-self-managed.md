@@ -17,7 +17,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        This documentation guide covers <b>v4.6</b> features. For more information on released features, see <a href='/git-integration-for-jira-data-center/git-integration-for-jira-data-center-release-notes-gij-self-managed/'>Release notes</a>.
+        This documentation guide covers <b>v4.7</b> features. For more information on released features, see <a href='/git-integration-for-jira-data-center/git-integration-for-jira-data-center-release-notes-gij-self-managed'>Release notes</a>.
     </div>
     </div>
 </div>
@@ -50,7 +50,7 @@ The Git Integration for Jira app is available for Jira Server, Jira Data Center 
 
 Click on a topic on the sidebar or continue immediately to the next article by clicking the next topic link at the bottom of the page.
 
-For permissions requirement, see [App platform and system permissions requirement](/git-integration-for-jira-data-center/permissions-gij-self-managed/).
+For permissions requirement, see [App platform and system permissions requirement](/git-integration-for-jira-data-center/permissions-gij-self-managed).
 
 <br>
 

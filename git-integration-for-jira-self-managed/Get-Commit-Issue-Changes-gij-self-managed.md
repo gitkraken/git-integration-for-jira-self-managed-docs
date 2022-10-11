@@ -1,6 +1,6 @@
 ---
 
-title: Get Commit Issue Changes
+title: Get Commit Issue Changes API
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -35,10 +35,10 @@ Returns the list of issues associated with the commit from the specified reposit
 
 ## Get Commit Issue Changes
 
-_**url**_<br>
+### url
 `http://`**<jira-host>**`/rest/gitplugin/1.0/`**repository**`/`**{repoId}**`/commits/`**{commitHash}**`/issues`
 
-_**method**_<br>
+### method
 GET
 
 ### Parameters
@@ -49,11 +49,13 @@ GET
 | _**repoId**_ | _Integer_. Required.<br><br>Substitute `{repoId}` with the actual repository ID.<br><br>Use the Repository REST API to obtain the connected repositories' IDs. |
 | _**commitHash**_ | _String_. Required.<br><br>This is the hash of the commit that you want the results from.<br><br>**Example:**  `e012663bf9bd968388faa510cb5b310e4798c512` |
 
+<br>
+
 ### Response
 
 Returns the result for the example below.
 
-### Example
+### Examples
 
 `http://`**local-host-jira.com:2990**`/rest/gitplugin/1.0/`**repository**`/`**1**`/commit/`**e012663bf9bd968388faa510cb5b310e4798c512**`/issues`
 
@@ -81,4 +83,16 @@ GET /jira/rest/gitplugin/1.0/repository/1/commits/e012663bf9bd968388faa510cb5b31
 Host: local-host-jira.com:2990
 Content-Type: application/json
 ```
+
+<br>
+
+## Related articles on Commits API
+
+[Get Commits](/git-integration-for-jira-data-center/get-Commits-gij-self-managed)
+
+[showFiles](/git-integration-for-jira-data-center/)
+
+**Get Commit Issue Changes** (this page)
+
+[Update Commit Issue Changes](/git-integration-for-jira-data-center/update-commit-issue-changes-gij-self-managed)
 

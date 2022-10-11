@@ -23,7 +23,7 @@ Which APIs or functions can be used while creating these scripts? See [ScriptRun
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The Git Integration for Jira app provides additional Java API (<a href='/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-GIJFacade-gij-self-managed/'>GIJFacade interface</a>) allowing you to operate with git information. The API is close to <a href='/git-integration-for-jira-data-center/REST-API-gij-self-managed/'>Git Integration for Jira REST API</a> and provides similar functionality (and more):<br>
+        The Git Integration for Jira app provides additional Java API (<a href='/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-GIJFacade-gij-self-managed'>GIJFacade interface</a>) allowing you to operate with git information. The API is close to <a href='/git-integration-for-jira-data-center/REST-API-gij-self-managed'>Git Integration for Jira REST API</a> and provides similar functionality (and more):<br>
         <ul>
             <li><b>Repositories</b> - get list of repositories connected, create/delete/update a repository</li>
             <li><b>Integrations</b> - get list of integrations connected, create/delete/update an integration</li>
@@ -38,7 +38,7 @@ Which APIs or functions can be used while creating these scripts? See [ScriptRun
 
 <br>
 
-A singleton implementing [GIJFacade interface](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-GIJFacade-gij-self-managed/) is the main object having methods for all the above cases.
+A singleton implementing [GIJFacade interface](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-GIJFacade-gij-self-managed) is the main object having methods for all the above cases.
 
 ## Feature use case examples
 
@@ -61,7 +61,7 @@ Follow the order of steps below:
 
 *   [Example 4](#example-4-move-an-issue-in-in-progress-status-when-at-least-one-git-commit-exists): a setup of issue workflow in a such way that if an `OPEN` issue has at least one git commit then it's moved to `IN PROGRESS` status
 
-For more example scripts, see GIJFacade [JavaDocs](/git-integration-for-jira-data-center/ScriptRunner-javadoc-git-services-GIJFacade-gij-self-managed/).
+For more example scripts, see GIJFacade [JavaDocs](/git-integration-for-jira-data-center/ScriptRunner-javadoc-git-services-GIJFacade-gij-self-managed).
 
 ### Getting started with ScriptRunner plugin
 
@@ -86,7 +86,7 @@ No further GIJ configuration is required.
 
 1.  On your Jira Server/Data Center instance, navigate to Manage apps (Jira settings ➜ Manage apps ➜ **Manage apps**).
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/2126905349/jira-admin-cfg-manage-apps-upload-app-sel(c).png?api=v2)
+    ![](/wp-content/uploads/gij-jira-admin-cfg-manage-apps-upload-app-sel-c.png)
 
 2.  Click **Upload app** and locate the downloaded ScriptRunner JAR file.
 
@@ -196,7 +196,7 @@ Steps:
   
     For example, files are not logged but are present in commit objects when you retrieve them with help of `gijFacade.getCommitsForIssue("TST-4", true)`.
   
-    Refer to [Commit JavaDocs](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Commit-gij-self-managed/) and log commits with files in a nice-looking format. Enter the following script in the ScriptRunner console:
+    Refer to [Commit JavaDocs](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Commit-gij-self-managed) and log commits with files in a nice-looking format. Enter the following script in the ScriptRunner console:
   
     ```groovy
     import com.onresolve.scriptrunner.runner.customisers.WithPlugin

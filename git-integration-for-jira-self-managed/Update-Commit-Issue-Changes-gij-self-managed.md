@@ -8,7 +8,7 @@ taxonomy:
 ---
 Updates the list of issues associated with the commit to the specified repository.
 
-<div class="bbb-callout bbb--alert">
+<div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
         <span class="logoimg"></span>
@@ -33,10 +33,10 @@ Updates the list of issues associated with the commit to the specified repositor
 
 ## Update Commit Issue Changes
 
-_**url**_<br>
+### url
 `http://`**\<jira-host\>**`/rest/gitplugin/1.0/`**repository**`/`**\{repoId\}**`/commits/`**\{commitHash\}**`/issues`
 
-_**method**_<br>
+### method
 POST
 
 ### Parameters
@@ -49,7 +49,7 @@ POST
 
 <br>
 
-#### **changeStrs**
+### changeStrs
 
 The request body is a JSON structure supporting the following parameters:
 
@@ -65,7 +65,7 @@ The request body is a JSON structure supporting the following parameters:
 }
 ```
 
-**Response**<br>
+### Response
 Returns the result for the example below.
 
 **Example for POST queries:**<br>
@@ -85,4 +85,16 @@ Content-Type: application/json
 Removes association of TST-5; and
 associates TST-6 and TST-7 to the same commit in repo1 and repo2.
 ```
+
+<br>
+
+## Related articles on Commits API
+
+[Get Commits](/git-integration-for-jira-data-center/get-Commits-gij-self-managed)
+
+[showFiles](/git-integration-for-jira-data-center/)
+
+[Get Commit Issue Changes](/git-integration-for-jira-data-center/get-commit-issue-changes-gij-self-managed)
+
+**Update Commit Issue Changes** (this page)
 

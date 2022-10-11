@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 ![](/wp-content/uploads/gitlab-mobile-custom1.png)
 
 <br>
@@ -64,6 +65,22 @@ Lists repositories with names that starts with `'git'` or ends with `'test'`.
 ```
 
 Lists only repositories from projects that have existing repositories.
+
+<hr>
+
+## More articles on JMESPath filter examples
+
+[GitHub.com \| GitHub Enterprise JMESPath filter examples](/git-integration-for-jira-data-center/GitHub-GitHub-Enterprise-JMESPath-filter-examples-gij-self-managed)
+
+**GitLab.com \| GitLab CE/EE JMESPath filter examples** (this page)
+
+[Microsoft \| VSTS \| TFS \| Azure Repos JMESPath filter examples](/git-integration-for-jira-data-center/Microsoft-VSTS-TFS-Azure-Repos-JMESPath-filter-examples-gij-self-managed)
+
+[Tracked Folders JMESPath filter examples](/git-integration-for-jira-data-center/Tracked-Folders-JMESPath-filter-examples-gij-self-managed)
+
+[Gerrit JMESPath filter examples](/git-integration-for-jira-data-center/Gerrit-JMESPath-filter-examples-gij-self-managed)
+
+[GitHub App JMESPath filter examples](/git-integration-for-jira-data-center/GitHub-App-JMESPath-filter-examples-gij-self-managed)
 
 <br>
 <hr>

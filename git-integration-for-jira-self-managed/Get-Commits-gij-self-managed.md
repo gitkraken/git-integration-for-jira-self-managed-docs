@@ -1,14 +1,13 @@
 ---
 
-title: Get Commits
+title: Get Commits API
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-Call the Get Commits REST API to obtain commit information associated with an issue.
 
-**VERSION 2.11.0+** The repository _**id**_ and repository _**name**_ field in the response result was implemented.
+Call the Get Commits REST API to obtain commit information associated with an issue.
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -24,10 +23,10 @@ Call the Get Commits REST API to obtain commit information associated with an is
 
 ## Get Commits
 
-_**url**_<br>
+### url
 `/rest/gitplugin/1.0/`**issues**`/`**{issueKey}**`/commits`
 
-_**method**_<br>
+### method
 GET
 
 ### Parameters
@@ -72,4 +71,16 @@ Returns the following example result:
   ]
 }
 ```
+
+<br>
+
+## Related articles on Commits API
+
+**Get Commits** (this page)
+
+[showFiles](/git-integration-for-jira-data-center/)
+
+[Get Commit Issue Changes](/git-integration-for-jira-data-center/get-commit-issue-changes-gij-self-managed)
+
+[Update Commit Issue Changes](/git-integration-for-jira-data-center/update-commit-issue-changes-gij-self-managed)
 

@@ -114,7 +114,7 @@ The GHA is created automatically by Git Integration for Jira app. For any relate
 
 *   You can reconfigure connected repositories in the Edit integration connection settings page for this GHA integration (_Actions_).
 
-    ![](/wp-content/upload/gij-github-app-edit-integration-connection-cfg-c.png)
+    ![](/wp-content/uploads/gij-github-app-edit-integration-connection-cfg-c.png)
 
 *   Make sure that the following properties must not be changed for this GHA integration:
     *   GitHub App name

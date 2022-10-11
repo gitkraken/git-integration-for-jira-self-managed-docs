@@ -9,16 +9,26 @@ taxonomy:
 
 The Add new integration panel (_formerly Auto-Connect integration panel_) contains special integration for specific git hosts, supports multiple connected repositories and automates git integration.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930397044/gitserver-auto-connect-panel.png?version=1&modificationDate=1630642820167&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitserver-git-manager-add-new-integration-panel.png)
 
-<div align='center'>
-    Auto-Connect integration panel – Git integration for Jira Server/Data Center
+<div align='center' style='margin-top:10px;font-style:italic'>
+    Add new integration (Auto-connect) panel<br> Git integration for Jira Server/Data Center
 </div>
 <br>
 
-We highly recommend this feature for multiple repository configuration.
+We highly recommend this feature for multiple repository configuration. This setup offers features not found on single repository connections such as creating branches/pull/merge requests from Jira.
 
 Access the Add new integration panel on the Git Integration app configuration page (_from your Jira dashboard menu Git ➜ Manage repositories_).
 
-For more details on this topic, see the connection information for your favorite git host in our [Integration Guides](/git-integration-for-jira-data-center/integration-guides-gij-self-managed/).
+For more details on this topic, see the connection information for your favorite git host in our [Integration Guides](/git-integration-for-jira-data-center/integration-guides-gij-self-managed).
+
+<br>
+<br>
+
+[Prev: Git integration configuration page](/git-integration-for-jira-data-center/git-integration-configuration-page-gij-self-managed)
+
+[](/git-integration-for-jira-data-center/using-the-connect-repository-wizard-gij-self-managed)
+
+<br>
+<br>
 

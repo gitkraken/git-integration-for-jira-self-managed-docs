@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 ![](/wp-content/uploads/gerrit-banner-logo.png)
 
 <br>
@@ -43,4 +44,20 @@ Lists repositories with names that starts with `'git'` or ends with `'test'`.
 **2** – Lists repositories with names that either do not contain the words `‘firstword’` OR `‘secondword’`.
 
 The `!condition` must be wrapped in a parenthesis so it won’t invert the whole expression.
+
+<hr>
+
+## More articles on JMESPath filter examples
+
+[GitHub.com \| GitHub Enterprise JMESPath filter examples](/git-integration-for-jira-data-center/GitHub-GitHub-Enterprise-JMESPath-filter-examples-gij-self-managed)
+
+[GitLab.com \| GitLab CE/EE JMESPath filter examples](/git-integration-for-jira-data-center/GitLab-GitLab-CE-EE-JMESPath-filter-examples-gij-self-managed)
+
+[Microsoft \| VSTS \| TFS \| Azure Repos JMESPath filter examples](/git-integration-for-jira-data-center/Microsoft-VSTS-TFS-Azure-Repos-JMESPath-filter-examples-gij-self-managed)
+
+[Tracked Folders JMESPath filter examples](/git-integration-for-jira-data-center/Tracked-Folders-JMESPath-filter-examples-gij-self-managed)
+
+**Gerrit JMESPath filter examples** (this page)
+
+[GitHub App JMESPath filter examples](/git-integration-for-jira-data-center/GitHub-App-JMESPath-filter-examples-gij-self-managed)
 

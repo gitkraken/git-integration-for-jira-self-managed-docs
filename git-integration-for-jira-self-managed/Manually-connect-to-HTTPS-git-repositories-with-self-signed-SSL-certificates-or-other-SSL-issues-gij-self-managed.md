@@ -47,6 +47,8 @@ There are alternative solutions to make Java trust this certificate. Refer to t
 
 2.  [**Connecting to SSL services**](https://confluence.atlassian.com/jira/connecting-to-ssl-services-117455.html)
 
+<br>
+
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -67,4 +69,12 @@ There are alternative solutions to make Java trust this certificate. Refer to t
 [Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/git-integration-for-jira-data-center/automatically-connect-to-HTTPS-git-repositories-with-self-signed-SSL-certificates-or-other-SSL-issues-gij-self-managed)
 
 **Manually connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues** (this page)
+
+<br>
+
+* * *
+
+[**Prev:** Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/git-integration-for-jira-data-center/automatically-connect-to-HTTPS-git-repositories-with-self-signed-SSL-certificates-or-other-SSL-issues-gij-self-managed)
+
+[**Next:** Managing repository or integration configuration](/git-integration-for-jira-data-center/managing-repository-or-integration-configuration-gij-self-managed)
 
