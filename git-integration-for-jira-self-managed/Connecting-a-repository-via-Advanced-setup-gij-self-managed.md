@@ -27,7 +27,7 @@ Use the _**Advanced setup**_ if you have configured the Git repository ahead o
 
 Open the **Connect to Git Repository** **wizard** then click the _**Advanced setup**_ label.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397180/gitserver-connect-git-advanced-setup.png?version=1&modificationDate=1630642829139&cacheVersion=1&api=v2&width=680&height=537)
+![](/wp-content/uploads/gij-gitserver-connect-git-advanced-setup.png)
 
 On the following screen that appears, you will see the repository configuration page with several options for connection and advanced integration settings.
 
@@ -35,11 +35,11 @@ On the following screen that appears, you will see the repository configuration 
 
 Utilize the following options for adding new git repositories via Advanced setup:
 
-<img src='https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397180/gitserver-advcfg-01.png?version=1&modificationDate=1630642829380&cacheVersion=1&api=v2' width=680 height=341 class='center img-responsive img-bordered' />
+<img src='/wp-content/uploads/gij-gitserver-advcfg-01.png' style='display:block;margin:25px auto;max-width:100%' />
 
 ## Display Name
 
-**REQUIRED**<br>
+<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>REQUIRED</b><br>
 This is the name that will appear in the Git Integration app repositories list. Some integrations do not allow the display name to be changed.
 
 On Jira Cloud, the ability to change the display name is not available.
@@ -49,7 +49,7 @@ On Jira Cloud, the ability to change the display name is not available.
 This group contains settings for cloned repository root location and paths.
 
 **Absolute Repository Root**<br>
-`READ-ONLY`&nbsp; The absolute path of the cloned repository root is displayed here.
+<b style='background-color:#DEE0E5; padding:1px 5px; color:#44516C; border-radius:3px; margin: 0 5px; font-size: small;'>READ-ONLY</b> The absolute path of the cloned repository root is displayed here.
 
 **Cloned root Location**<br>
 Select automatic or manual configuration.
@@ -59,7 +59,9 @@ This is the local path to the repository on the server where your Jira service i
 
 ## Repository Settings
 
-<img src='https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397180/gitserver-advcfg-02.png?version=1&modificationDate=1630642829635&cacheVersion=1&api=v2' width=680 height=198 class='center img-responsive img-bordered' />
+![](/wp-content/uploads/gij-gitserver-advcfg-02.png)
+
+<br>
 
 ### Enable Fetches
 
@@ -71,7 +73,7 @@ Fetches are enabled when the repository is hosted locally. In this mode, no fetc
 
 ### Repository Origin
 
-REQUIRED This is the URL to the hosted git service used on the project. For example, you might host your repository on GitHub, Beanstalk or your own server.
+<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>REQUIRED</b> This is the URL to the hosted git service used on the project. For example, you might host your repository on GitHub, Beanstalk or your own server.
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -99,20 +101,21 @@ When editing or updating repository settings, this field will allow a user to se
     </div>
     <div class="imsgbox">
         <br>Default Main Branch</b><br>
-        Most git integrations allow changing of the default branch of the repository/project other than `master` at the server level. On each reindex, the Git Integration for Jira app will check/update the main branch value. This change is reflected in the Repository Settings. In the case of Gerrit, the default main branch is always `master`.
+        Most git integrations allow changing of the default branch of the repository/project other than <code>master</code> at the server level. On each reindex, the Git Integration for Jira app will check/update the main branch value. This change is reflected in the Repository Settings. In the case of Gerrit, the default main branch is always <code>master</code>.
     </div>
     </div>
 </div>
+<br>
 
 ## Use HTTP(S) authentication
 
-<img src='https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397180/gitserver-advcfg-03.png?version=1&modificationDate=1630642829871&cacheVersion=1&api=v2' width=340 height=157 class='center img-responsive img-bordered' />
+<img src='/wp-content/uploads/gij-gitserver-advcfg-03.png' width=354 height=164 style='display:block;margin:25px auto;max-width:100%' />
 
 Most git hosts provide HTTP access to git repositories. If this connection requires HTTP authentication, enable the option and enter the required credentials to configure remote git repositories.
 
 ## SSL Verify and TrustFolderStat
 
-<img src='https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397180/gitserver-advcfg-04.png?version=1&modificationDate=1630642830108&cacheVersion=1&api=v2' width=680 height=160 class='center img-responsive img-bordered' />
+![](/wp-content/uploads/gij-gitserver-advcfg-04.png)
 
 **SSL Verify**<br>
 This option is set to `Enabled` by default. If set to `Disabled`, the Git Integration for Jira app will ignore verification of SSL certificates when connecting to a git server.
@@ -151,14 +154,15 @@ The default setting for Jira Server is `True`. For Jira Data Center, it would b
     </div>
     <div class="imsgbox">
         <b>Jira Data Center</b><br>
-        When adding new repositories, we recommend to leave this setting to <code>False</code> (default for Data Center). You can change this setting later on via <img src='/wp-content/uploads/actions-icon.png' valign=middle /> Actions ➜ <b>Edit repository settings</b> in the Manage repositories page.
+        When adding new repositories, we recommend to leave this setting to <code>False</code> (default for Data Center). You can change this setting later on via <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ <b>Edit repository settings</b> in the Manage repositories page.
     </div>
     </div>
 </div>
+<br>
 
 ## Repository Settings: Advanced
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397180/gitserver-advcfg-05.png?version=1&modificationDate=1630642830334&cacheVersion=1&api=v2&width=544&height=280)
+<img src='/wp-content/uploads/gij-gitserver-advcfg-05.png' width=573 height=295 style='display:block;margin:25px auto;max-width:100%' />
 
 **Revision indexing**<br>
 This option turns on the memory cache which is used when list of commits are displayed. Select if revision indexing will index and link to any mentioned issue keys in the revision history or not.
@@ -168,11 +172,11 @@ Git refspecs contains patterns mapped as references from the remote to the local
 
 ## Repository Browser
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397180/gitserver-advcfg-06.png?version=1&modificationDate=1630642830567&cacheVersion=1&api=v2&width=680&height=243)
+![](/wp-content/uploads/gij-gitserver-advcfg-06.png)
 
 Enables or disables the Git Viewer feature for this repository. The default setting for this option is `Enabled`. Users must have the `View Development Tools` project permission in order to use this feature. Please consult your Jira System Administrator on permissions.
 
-For more information, see topic [Repository browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed/).
+For more information, see topic [Repository browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed).
 
 ## Tags
 
@@ -192,7 +196,7 @@ This example is a filtering regexp for a range of releases from 2.7.x to 2.8.x. 
 
 This section contains settings for project restrictions and repository to project associations.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397180/gitserver-edit-feature-cfg-proj-acls.png?version=1&modificationDate=1639568987440&cacheVersion=1&api=v2&width=680&height=155)
+![](/wp-content/uploads/gij-gitserver-edit-feature-cfg-proj-acls.png)
 
 **Restrict to projects**<br>
 One or more projects can be mapped to this repository to make **Git Commits** tabs available in the **Issue** pages of the associated projects.
@@ -202,7 +206,9 @@ Enable this option to associate this repository to all projects. Disable this op
 
 ## Commit view options
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397180/gitserver-advcfg-08.png?version=1&modificationDate=1630642831632&cacheVersion=1&api=v2&width=442&height=318)
+<img src='/wp-content/uploads/gij-gitserver-advcfg-08.png' width=475 height=342 style='display:block;margin:25px auto;max-width:100%' />
+
+<br>
 
 ### Source Code Diff Viewing
 
@@ -210,7 +216,7 @@ When enabled, this setting allows Jira users with the **View Development Tools*
 
 ### Smart Commits
 
-This setting is `Enabled` by default. See related topic, [Smart Commits](/git-integration-for-jira-data-center/smart-commits-gij-self-managed/).
+This setting is `Enabled` by default. See related topic, [Smart Commits](/git-integration-for-jira-data-center/smart-commits-gij-self-managed).
 
 ### Commit Notification Emails
 
@@ -224,9 +230,12 @@ Set the desired value in minutes, as to when commit notifications will be sent.�
 
 ## Web Linking
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397180/gitserver-advcfg-09.png?version=1&modificationDate=1630642832413&cacheVersion=1&api=v2&width=680&height=368)
+<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL</b>
 
-**OPTIONAL**<br>
+![](/wp-content/uploads/gij-gitserver-advcfg-09.png)
+
+<br>
+
 The web linking feature adds links to your git hosting provider directly into the Git Commits tab.
 
 <div class="bbb-callout bbb--info">
@@ -239,12 +248,20 @@ The web linking feature adds links to your git hosting provider directly into th
     </div>
     </div>
 </div>
+<br>
 
-For more information about this option, see section, [Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed/).
+For more information about this option, see section, [Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed).
 
 ## Completing setup
 
 Click **Add** to save the settings. The newly added repository appears on the git repositories list of the app.
 
 Repositories created via the _**Advanced setup**_ will perform an initial reindex.
+
+<br>
+<br>
+
+[Prev: Using the Connect Repository wizard](/git-integration-for-jira-data-center/using-the-connect-repository-wizard-gij-self-managed)
+
+[Next: Adding a repository hosted on Windows Server or Windows Network share](/git-integration-for-jira-data-center/adding-a-repository-hosted-on-windows-server-or-windows-network-share-gij-self-managed)
 

@@ -39,3 +39,12 @@ Perform auto-connect integration with HTTPS git repositories that have self-sign
 
 [Manually connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/git-integration-for-jira-data-center/manually-connect-to-HTTPS-git-repositories-with-self-signed-SSL-certificates-or-other-SSL-issues-gij-self-managed)
 
+* * *
+
+<br>
+<br>
+
+[**Prev:** Self-signed HTTPS integration](/git-integration-for-jira-data-center/self-signed-https-integration-gij-self-managed)
+
+[**Next:** Manually connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/git-integration-for-jira-data-center/manually-connect-to-HTTPS-git-repositories-with-self-signed-SSL-certificates-or-other-SSL-issues-gij-self-managed)
+

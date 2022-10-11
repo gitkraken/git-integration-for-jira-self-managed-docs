@@ -15,3 +15,10 @@ Add a new network share or Windows server hosted repository via the Connect to G
 
 For detailed information and step-by-step guide on this integration, see [Integration Guide - Windows Network/Server Share](/git-integration-for-jira-data-center/windows-network-server-share-gij-self-managed).
 
+<br>
+<br>
+
+[Prev: Connecting a repository via Advanced setup](/git-integration-for-jira-data-center/connecting-a-repository-via-advanced-setup-gij-self-managed)
+
+[Next: Setup repository root not located in Jira Home directory](/git-integration-for-jira-data-center/setup-repository-root-not-located-in-Jira-Home-directory-gij-self-managed)
+

@@ -15,11 +15,20 @@ This feature is available in [Connect to Git Repository](/git-integration-for-ji
 
 <br>
 
-## More related topics about self-signed HTTPS integration
+### More related topics about self-signed HTTPS integration
 
 **Self-signed HTTPS integration** (this page)
 
 [Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/git-integration-for-jira-data-center/automatically-connect-to-HTTPS-git-repositories-with-self-signed-SSL-certificates-or-other-SSL-issues-gij-self-managed)
 
 [Manually connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/git-integration-for-jira-data-center/manually-connect-to-HTTPS-git-repositories-with-self-signed-SSL-certificates-or-other-SSL-issues-gij-self-managed)
+
+* * *
+
+<br>
+<br>
+
+[**Prev:** Tracked folders overview](/git-integration-for-jira-data-center/tracked-folders-overview-gij-self-managed)
+
+[**Next:** Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/git-integration-for-jira-data-center/automatically-connect-to-HTTPS-git-repositories-with-self-signed-SSL-certificates-or-other-SSL-issues-gij-self-managed)
 

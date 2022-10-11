@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 ![](/wp-content/uploads/azure2-logo.png)
 
 <br>
@@ -57,4 +58,20 @@ value[?contains(project.visibility, 'public')] | {value:@}
 3.  Displays all private repositories.
 
 4.  Displays all public repositories.
+
+<hr>
+
+## More articles on JMESPath filter examples
+
+[GitHub.com \| GitHub Enterprise JMESPath filter examples](/git-integration-for-jira-data-center/GitHub-GitHub-Enterprise-JMESPath-filter-examples-gij-self-managed)
+
+[GitLab.com \| GitLab CE/EE JMESPath filter examples](/git-integration-for-jira-data-center/GitLab-GitLab-CE-EE-JMESPath-filter-examples-gij-self-managed)
+
+**Microsoft \| VSTS \| TFS \| Azure Repos JMESPath filter examples** (this page)
+
+[Tracked Folders JMESPath filter examples](/git-integration-for-jira-data-center/Tracked-Folders-JMESPath-filter-examples-gij-self-managed)
+
+[Gerrit JMESPath filter examples](/git-integration-for-jira-data-center/Gerrit-JMESPath-filter-examples-gij-self-managed)
+
+[GitHub App JMESPath filter examples](/git-integration-for-jira-data-center/GitHub-App-JMESPath-filter-examples-gij-self-managed)
 

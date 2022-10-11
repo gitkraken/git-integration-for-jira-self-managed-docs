@@ -6,6 +6,9 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
+This page is intended for users who are using SSH connections or those who wanted to only connect a single specific repository.
+
 **What’s on this page:**
 - [Getting started](#getting-started)
 - [Settings](#settings)
@@ -13,27 +16,32 @@ taxonomy:
 - [SSH authentication](#ssh-authentication)
 - [Passphrase Input](#passphrase-input)
 
-
-* * *
+<br>
+<hr>
+<br>
 
 ## Getting started
 
 Navigate to the Manage repositories page.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930397090/gitserver-gitmgr-connect2git-sel.png?version=1&modificationDate=1630642822421&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitserver-gitmgr-connect2git-sel.png)
 
-<div align='center'><b>Figure 1:</b> Connect wizard start screen.</div>
+<div align='center' style='margin-top:10px'>
+    <b>Figure 1:</b> Connect wizard start screen.
+</div>
 <br>
 
-To start integrating a git repository, follow the steps below:
+To start integrating a plain git repository, follow the steps below:
 
 1.  Click **Connect to Git Repository**. The connect repository wizard is displayed:
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397090/connect-git-wizard-start-screen(new).png?version=1&modificationDate=1630642823179&cacheVersion=1&api=v2&width=646&height=501)
+    ![](/wp-content/uploads/gij-gitserver-connect-git-wizard-start-screen.png)
+
 2.  Enter required repository location. The **Repository location** can be any type of supported gitl URL protocols as stated in the _**Location type**_ examples.
 
 3.  Click **Next**. The Connect wizard will automatically detect the provided repository location type.
 
+<br>
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -53,9 +61,9 @@ To start integrating a git repository, follow the steps below:
     </div>
     <div class="imsgbox">
         Do note that the Connect wizard <b>clones the remote repository by default</b>. It does not clone local repositories. For local repositories, the `root` is set to local path and fetches are disabled.
-        <div>
+        <p style='margin-bottom:0 !important'>
             Starting <b>v2.6.7+</b> of the Git Integration for Jira app, the default identities are not used and the repository is created without the additional key upload.
-        </div>
+        </p>
     </div>
     </div>
 </div>
@@ -70,22 +78,24 @@ To start integrating a git repository, follow the steps below:
     </div>
     </div>
 </div>
+<br>
 
 ## Settings
 
-In the **Settings** screen, you can configure features such as [Smart Commits](/git-integration-for-jira-data-center/smart-commits-docs-gij-self-managed/), [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed/) and [Project Permission](/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed/) settings.
+In the **Settings** screen, you can configure features such as [Smart Commits](/git-integration-for-jira-data-center/smart-commits-docs-gij-self-managed), [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed) and [Project Permission](/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed) settings.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397090/connect-git-wizard-cfg-screen.png?version=1&modificationDate=1630642823475&cacheVersion=1&api=v2&width=680&height=376)
+![](/wp-content/uploads/gij-connect-git-wizard-cfg-screen.png)
 
-<div align='center'>
-    <b>Figure 2:</b> Settings screen at the end of the Connect wizard.</div>
+<div align='center' style='margin-top:10px'>
+    <b>Figure 2:</b> Settings screen at the end of the Connect wizard.
+</div>
 <br>
 
 *   **Smart Commits**  – Enable or disable this setting to allow processing of smart commits for this repository connection.
 
 *   **Repository Browser** – Enable or disable this setting to allows users to view git repositories of configured projects via the **Git** menu on the Jira dashboard. This feature is only available on Jira Server/DC instances.
 
-*   For _**Project Permissions**_, set one or more projects in the **Restrict to projects** field to map this repository and make the **Git Commits** tab available in the **Issue** pages of the associated projects. Otherwise, leave the _**Associate with all projects**_ state to <img src='https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/2705.png' width=16 height=16 /> associate this repository to all projects.
+*   For _**Project Permissions**_, set one or more projects in the **Restrict to projects** field to map this repository and make the **Git Commits** tab available in the **Issue** pages of the associated projects. Otherwise, leave the _**Associate with all projects**_ state to <img src='/wp-content/uploads/gij-matrix-open-check-green.png' width=20 height=20 style='margin:0 3px' /> associate this repository to all projects.
 <br>
 <br>
 
@@ -102,9 +112,9 @@ The level of permissions can be one of the following:
         <tr valign='baseline'>
             <td><b>Repository</b></td>
             <td>
-                <div>Select a repository from the repository list. For repositories inside integrations, view the integration then select a repository within <i>(<img valign='middle' src='https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/2699.png' width=20 height=20 /> Actions ➜ Show integration repositories)</i>. After the selection, you will be taken to the repository properties.</div>
+                <div>Select a repository from the repository list. For repositories inside integrations, view the integration then select a repository within <i>(<img  src='/wp-content/uploads/actions-icon.png' width=20 height=20 /> Actions ➜ Show integration repositories)</i>. After the selection, you will be taken to the repository properties.</div>
                 <p>Set the <b>Project Permissions</b> as follows:</p>
-                <ol>
+                <ol style='margin-bottom:0 !important'>
                     <li>Uncheck the <b>Associate with all projects</b> option.</li>
                     <li>Click the <b><i>Restrict to project</i></b> field and select one or more project(s).</li>
                     <li>Save/Update the repository settings.</li>
@@ -115,10 +125,10 @@ The level of permissions can be one of the following:
             <td valign='baseline'><b>Integration</b></td>
             <td>
                 <div>
-                    Select an integration from the repository list then open the integration feature properties <i>(<img valign='middle' src='https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/2699.png' width=20 height=20 /> Actions ➜ Edit integration feature settings)</i>.
+                    Select an integration from the repository list then open the integration feature properties <i>(<img src='/wp-content/uploads/actions-icon.png' width=20 height=20 /> Actions ➜ Edit integration feature settings)</i>.
                 </div>
                 <p>Set the <b>Project Permissions</b> as follows:</p>
-                <ol>
+                <ol style='margin-bottom:0 !important'>
                     <li>Uncheck the <b>Associate with all projects</b> option.</li>
                     <li>Click the <b><i>Restrict to project</i><b/> field and select a project.</li>
                     <li>Save/Update the repository settings.</li>
@@ -140,10 +150,11 @@ The level of permissions can be one of the following:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        For Project Permissions, the <b>View Development Tools</b> _project permission_ must be granted to Users ➜ Group ➜ <b><i>Project Roles</i></b>.
+        For Project Permissions, the <b>View Development Tools</b> <i>project permission</i> must be granted to Users ➜ Group ➜ <b><i>Project Roles</i></b>.
     </div>
     </div>
 </div>
+<br>
 
 Click **Next**.
 
@@ -151,9 +162,9 @@ Click **Next**.
 
 If the entered git clone URL requires HTTP credentials, the following screen appears:
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397090/connect-git-wizard-auth-scr-http(n).png?version=1&modificationDate=1630642824202&cacheVersion=1&api=v2&width=680&height=355)
+![](/wp-content/uploads/gij-connect-git-wizard-auth-scr-http-n.png)
 
-<div align='center'>
+<div align='center' style='margin-top:10px'>
     <i><b>Figure 3:</b> HTTP authentication screen in the Connect wizard.</i>
 </div>
 <br>
@@ -170,6 +181,7 @@ Provide _**Username**_ and _**Password**_ in the respective fields then clic
     </div>
     </div>
 </div>
+<br>
 
 The HTTP authorization errors indicate that the credentials provided are not valid.
 
@@ -177,9 +189,9 @@ The HTTP authorization errors indicate that the credentials provided are not val
 
 For SSH git repository connections, the following screen is displayed for authentication:
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930397090/gitserver-ssh-connect-auth-screen.png?version=1&modificationDate=1630642825404&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitserver-ssh-connect-auth-screen.png)
 
-<div align='center'>
+<div align='center' style='margin-top:10px'>
     <i><b>Figure 4:</b> SSH authentication screen in the Connect wizard.</i>
 </div>
 <br>
@@ -193,7 +205,7 @@ Upload the private key file by clicking **Choose File** and navigate to the pr
     </div>
     <div class="imsgbox">
         For establishing safety connection with SSH, upload a public Key to the SSH server and set the private Key to the SSH client.
-        <div class='nextpara'>
+        <p style='margin-bottom:0 !important'>
             Take note that the SSH server is the Git server and the SSH client is the Jira server.
         </div>
     </div>
@@ -217,10 +229,11 @@ Click **Next** to proceed.
 
 If the generated SSH key pair has a passphrase, you will see the following screen:
 
-<img src='https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397090/connect-git-wizard-auth-scr-pass.png?version=1&modificationDate=1630642824934&cacheVersion=1&api=v2&width=442&height=254' class='center img-responsive img-bordered' />
+<img src='/wp-content/uploads/gij-connect-git-wizard-auth-scr-pass.png' width=442 height=254 style='display:block;margin:25px auto;max-width:100%' />
 
 <div align='center'>
     <b>Figure 4:</b> SSH authentication screen in the Connect wizard.</div>
+<br>
 <br>
 
 Enter the _**Passphrase**_ for your private key. Click **Next** to continue.
@@ -246,6 +259,7 @@ Enter the _**Passphrase**_ for your private key. Click **Next** to continue.
     </div>
     </div>
 </div>
+<br>
 
 After the above requirements are fulfilled, the wizard will:
 
@@ -253,8 +267,18 @@ After the above requirements are fulfilled, the wizard will:
 
 *   index the git repository to build change history.
 
-
+<br>
 Click **Finish** to close the wizard.
 
 This completes the setup and the newly added repository appears on the integration list on the Git Integration app repository configuration page.
+
+<br>
+<br>
+
+[](/git-integration-for-jira-data-center/using-the-add-new-integration-wizard-gij-self-managed)
+
+[](/git-integration-for-jira-data-center/connecting-a-repository-via-advanced-setup-gij-self-managed)
+
+<br>
+<br>
 
