@@ -110,3 +110,10 @@ You can configure the project permissions for repositories within integration:
 
 6.  Click **Update** to save the settings.
 
+<br>
+<br>
+
+[Prev: Managing integration or repository configuration](/git-integration-for-jira-data-center/managing-integration-or-repository-configuration-gij-self-managed)
+
+[Next: Bulk change](/git-integration-for-jira-data-center/bulk-change-gij-self-managed)
+

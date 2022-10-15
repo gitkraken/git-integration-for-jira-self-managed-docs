@@ -6,9 +6,11 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397673/gitserver-gitmgr-view-details-01.png?version=1&modificationDate=1630642852300&cacheVersion=1&api=v2&width=550&height=190)
+![](/wp-content/uplaods/gij-gitserver-gitmgr-view-details-01.png)
 
-Click the view <img src='https://api.media.atlassian.com/file/0a00d402-30e1-429e-8199-46d9a56d9493/image?collection=emoji-site-12f8cd86-3426-4c5c-aced-596093860704&width=38&height=32&max-age=31536000'> icon to see basic git repository details for the selected integration/repository:
+<br>
+
+Click the view <img src='/wp-content/uploads/eye-icon.png'> icon to see basic git repository details for the selected integration/repository:
 
 <table>
     <thead>
@@ -23,10 +25,10 @@ Click the view <img src='https://api.media.atlassian.com/file/0a00d402-30e1-429
         <td>
             This is the repository connection status.
             <ul>
-                <li>It shows <b>UPDATED</b> if <i>Repository Root</i> is configured correctly and the Jira instance can access it.</li>
-                <li>It shows the <b>DISABLED</b> status if the connected repository is unchecked.</li>
-                <li>It shows REINDEXING, SCANNING or QUEUED during reindexing of the connected repository or tracked folder/repositories.</li>
-                <li>It shows ERROR if the connected repository has connection issues with the configured git host.</li>
+                <li>It shows <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>UPDATED</b> if <i>Repository Root</i> is configured correctly and the Jira instance can access it.</li>
+                <li>It shows the <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>DISABLED</b> status if the connected repository is unchecked.</li>
+                <li>It shows <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>REINDEXING, <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>SCANNING</b> or <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>QUEUED during reindexing of the connected repository or tracked folder/repositories.</li>
+                <li>It shows <b style='background-color:#FFEBE6; padding:1px 5px; color:#C02909; border-radius:3px; margin: 0 5px; font-size: small;'>ERROR if the connected repository has connection issues with the configured git host.</li>
             </ol>
         </td>
       </tr>
@@ -63,18 +65,9 @@ Click the view <img src='https://api.media.atlassian.com/file/0a00d402-30e1-429
       </tr>
     </tbody>
   </table>
-
-| **Column** | **Description** |
-| --- | --- |
-| _**Status**_ | This is the repository connection status.<br><ul><li>It shows <b style='color: green'>UPDATED</b> if <i>Repository Root</i> is configured correctly and the Jira instance can access it.</li><li>It shows the <b style='color: #BBA4FF'>DISABLED</b> status if the connected repository is unchecked.</li><li>It shows <b style='color: #FFC75F'>REINDEXING</b>, <b style='color: #498CFF'>SCANNING</b> or <b>QUEUED</b> during reindexing of the connected repository or tracked folder/repositories.</li><li>It shows <b style='color: #FF565C'>ERROR</b> if the connected repository has connection issues with the configured git host.</li></ol> |
-| _**Last Indexed**_ | This is the date and time when synchronization was last executed. |
-| _**Host URL**_ | Displays the host URL of the connected integration/repository. |
-| _**Account**_ | This is shown for connected AWS integration. |
-| _**Repository Root**_ | This is shown if a connected integration is a single repository.<br><br>This is the local path to the repository on the server where your Jira service is running. |
-| _**Repository Origin**_ | This is shown if the connected integration is a single repository.<br><br>This is the URL to the hosted git service used on the project. |
-| _**Changeset, File Added, File Modified, and File Deleted formats**_ | This is shown if the connected integration is a single repository and web linking is also configured.<br><br>Displays the web linking format strings _(if set in the repository web linking configuration)_. |
-
 <br>
+<br>
+
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -96,4 +89,12 @@ Click the view <img src='https://api.media.atlassian.com/file/0a00d402-30e1-429
     </div>
     </div>
 </div>
+
+<br>
+<br>
+
+[Prev: SSL verify](/git-integration-for-jira-data-center/ssl-verify-gij-self-managed)
+
+[Next: Viewing indexing logs](/git-integration-for-jira-data-center/viewing-indexing-logs-gij-self-managed)
+
 
