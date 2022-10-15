@@ -7,11 +7,11 @@ taxonomy:
 
 ---
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397576/gitcfg-actions-edit-feature-conn-cfg.png?version=1&modificationDate=1630642846599&cacheVersion=1&api=v2&width=680&height=213)
+![](/wp-content/uploads/gij-gitcfg-actions-edit-feature-conn-cfg.png)
 
 <br>
 
-Clicking <img src='https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/2699.png' width=20 height=20 /> Actions ➜ **Edit integration feature settings** opens the configuration page for integration features settings.
+Clicking <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit integration feature settings** opens the configuration page for integration features settings.
 
 Utilize the following options to configure the selected integration:
 
@@ -23,23 +23,25 @@ Utilize the following options to configure the selected integration:
 - [Smart Commits](#smart-commits)
 - [Commit Notification Emails](#commit-notification-emails)
 
-* * *
+<br>
+<hr>
+<br>
 
 ## Repository Browser
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397576/gitserver-edit-repocfg-repovw.png?version=1&modificationDate=1630642846839&cacheVersion=1&api=v2&width=680&height=65)
+![](/wp-content/uploads/gij-gitserver-edit-repocfg-repovw.png)
 
 When `Enabled`, it allows users to view Git repositories of configured projects. For more information, see [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed/).
 
 ## Tags
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397576/gitserver-edit-features-tags.png?version=1&modificationDate=1630642847074&cacheVersion=1&api=v2&width=680&height=150)
+![](/wp-content/uploads/gij-gitserver-edit-features-tags.png)
 
 Set whether to show all tags or show on tags with matching regex pattern. For more information on git tags, see [Git Tags](/git-integration-for-jira-data-center/git-tags-gij-self-managed/).
 
 ## Personal Access Token: Require User PAT
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397576/gitserver-edit-features-pat-reqpat.png?version=1&modificationDate=1630642847309&cacheVersion=1&api=v2&width=680&height=61)
+![](/wp-content/uploads/gij-gitserver-edit-features-pat-reqpat.png)
 
 Enable this option to require users to provide PAT which will be used for branch and merge/pull request creation/deletion (via the developer panel on the Jira issue page). This is a security feature of Git Integration for Jira app for git hosts that support two-factor authentication.
 
@@ -49,7 +51,7 @@ Enable this option to require users to provide PAT which will be used for branch
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        This option requires the <a href='/git-integration-for-jira-data-center/Repository-Browser/'>Repository Browser</a> feature enabled.
+        This option requires the <a href='/git-integration-for-jira-data-center/repository-browser-gij-self-managed'>Repository Browser</a> feature enabled.
     </div>
     </div>
 </div>
@@ -68,7 +70,7 @@ Enable this option to require users to provide PAT which will be used for branch
 
 ## Project Permissions
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397576/gitserver-edit-feature-cfg-proj-acls.png?version=1&modificationDate=1639568670798&cacheVersion=1&api=v2&width=680&height=155)
+![](/wp-content/uploads/gij-gitserver-edit-feature-cfg-proj-acls.png)
 
 The default setting is **Associate with all projects**. You can restrict access to the Repository Browser and Git Commits tabs for the selected repository by setting the project associations.
 
@@ -76,21 +78,28 @@ To restrict to specific projects, uncheck the **Associate with all projects** _o
 
 ## Source Code Diff Viewing
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397576/gitserver-edit-features-src-code-diffvw.png?version=1&modificationDate=1630642847773&cacheVersion=1&api=v2&width=680&height=64)
+![](/wp-content/uploads/gij-gitserver-edit-features-src-code-diffvw.png)
 
 Allows or denies users to view the diff by commit and file.
 
 ## Smart Commits
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397576/gitserver-edit-features-smartcommits.png?version=1&modificationDate=1630642848019&cacheVersion=1&api=v2&width=680&height=82)
+![](/wp-content/uploads/gij-gitserver-edit-features-smartcommits.png)
 
 Allows or denies the users to use the smart commits feature.
 
 ## Commit Notification Emails
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397576/gitserver-edit-features-commit-notif-emails.png?version=1&modificationDate=1630642848253&cacheVersion=1&api=v2&width=680&height=116)
+![](/wp-content/uploads/gij-gitserver-edit-features-commit-notif-emails.png)
 
 Enable/disable this setting to allow/deny sending of commit notification emails.
 
 Set the **Max commit age (in minutes)** as to when commit notifications will be sent. Commit notifications will be e-mailed if the age of the commit is less than or equal to this value.
+
+<br>
+<br>
+
+[Prev: Edit integration connection settings](/git-integration-for-jira-data-center/edit-integration-connection-settings-gij-self-managed)
+
+[Next: SSL verify](/git-integration-for-jira-data-center/ssl-verify-gij-self-managed)
 

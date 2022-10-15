@@ -6,29 +6,23 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-On the **Manage Git Repositories** page, click the <img src='https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/2699.png' width=20 height=20 /> icon under the **Actions** column then select:
+
+On the **Manage Git Repositories** page, click the <img src='/wp-content/uploads/actions-icon.png' /> icon under the **Actions** column then select:
 
 *   For tracked folders  –  **Show tracked repositories**.
 
 *   For auto-connect integrations  –  **Show integration repositories**.
 
 
-This action will open the **Tracked Folder** dialog showing the tracked/integration repositories:
+This action will open the **Integration** or **Tracked Folder** dialog showing the integration/tracked repositories:
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397507/show-integration-repositories-dlg(n).png?version=1&modificationDate=1630642843526&cacheVersion=1&api=v2&width=680&height=530)
+![](/wp-content/uploads/gij-show-integration-repositories-dlg-n.png)
+
+<br>
 
 Browse the tracked repositories/folder by clicking the page controls (if more than 10 repositories are connected).
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        In the filter field at the top right, enter a character or a name to display repositories that contains the search text.
-    </div>
-    </div>
-</div>
+In the filter field at the top right, enter a character or a name to display repositories that contains the search text.
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -53,4 +47,12 @@ Browse the tracked repositories/folder by clicking the page controls (if more th
     </div>
 </div>
 <br>
+
+<br>
+<br>
+
+[Prev: Managing integrations via Actions](/git-integration-for-jira-data-center/managing-integrations-via-actions-gij-self-managed)
+
+[Next: Edit integration connection settings](/git-integration-for-jira-data-center/edit-integration-connection-settings-gij-self-managed)
+
 

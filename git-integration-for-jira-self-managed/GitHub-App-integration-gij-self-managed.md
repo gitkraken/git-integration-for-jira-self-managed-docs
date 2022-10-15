@@ -104,7 +104,7 @@ The Git Integration for Jira app will perform this task automatically. Provide p
 
     *   **Only select repositories** – lets you select a specific repository for this setup.
 
-12. Click Install to complete this process.
+12. Click **Install** to complete this process.
 
 The GitHub App integration is now displayed in the Git repositories configuration list.
 
@@ -123,4 +123,22 @@ The GHA is created automatically by Git Integration for Jira app. For any relate
     *   Private keys
     *   Any settings on the Permissions and Events page
     *   Any settings on the installation page
+
+## Troubleshooting GHA integrations
+
+A GHA integration may get stuck in <b style='background-color:#0C42A3; padding:1px 5px; color:#DEEAFE; border-radius:3px; margin: 0 3px; font-size: small;padding:2px 7px'>INSTALLING</b> status. At the moment, we found three cases when it may happen:
+
+| Case | What happened | What the user can do to remove the integration |
+| :--- | :--- | :--- |
+| **1** | The integration is waiting for response from a GitHub server | Wait till the GitHub server responds |
+| **2** | The GHA was not installed during connecting of the integration | Install the GHA and then remove the integration as usual |
+| **3** | The GHA was removed from the GitHub server | Nothing |
+
+If GitHub App integration is stuck on **Installing** status, use the **Remove integration** action to remove such integration.
+
+![](/wp-content/uploads/gij-gitserver-github-app-install-prog-remove-action.png)
+
+However, removing GHA integrations this way (in cases #1 and #2) will leave an unconnected/lost GHA on the GitHub server. As all data for connecting are stored in the integration, there is no way to connect an existing GHA to a new integration. On the other hand, the admin of the GitHub server can remove such lost GHA manually.
+
+For case #3, while this case is very rare, the integration will remain in the Manage Git integration list. The Jira admin can remove the integration using the **Remove integration** action.
 
