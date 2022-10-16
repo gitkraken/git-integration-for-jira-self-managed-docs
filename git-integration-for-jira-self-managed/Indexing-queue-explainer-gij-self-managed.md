@@ -6,17 +6,17 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-Git Integration for Jira (GIJ) Data Center (DC) and Server 4.0 introduces a new reindexing queue based on using the Jira database. This article provides in-depth details about this queue implementation that may be helpful for Jira administrators.
+Git Integration for Jira (GIJ) Data Center (DC) and Server v4.0 introduces a new reindexing queue based on using the Jira database. This article provides in-depth details about this queue implementation that may be helpful for Jira administrators.
 
 ## GIJ architecture
 
-Every connected repository (except local ones and those using the "[Tracked folder](/git-integration-for-jira-data-center/tracked-folders-gij-self-managed/)" feature) is cloned to a sub-folder in the `data/git-plugin` folder inside the shared Jira home.
+Every connected repository (except local ones and those using the "[Tracked folder](/git-integration-for-jira-data-center/tracked-folders-gij-self-managed)" feature) is cloned to a sub-folder in the `data/git-plugin` folder inside the shared Jira home.
 
 This cloned repository copy is used for 2 purposes:
 
 1.  The Jira DC nodes scan it and create local Lucene indexes to retrieve commit information quickly.
 
-2.  The "[View file](/git-integration-for-jira-data-center/repository-browser-gij-self-managed/)", "[View diff](/git-integration-for-jira-data-center/viewing-commit-code-diffs-gij-self-managed/)", and "[Compare](/git-integration-for-jira-data-center/comparing-branches-tags-in-repository-browser-gij-self-managed/)" features read files data directly from that cloned copy of the repository.
+2.  The "[View file](/git-integration-for-jira-data-center/repository-browser-gij-self-managed)", "[View diff](/git-integration-for-jira-data-center/viewing-commit-code-diffs-gij-self-managed)", and "[Compare](/git-integration-for-jira-data-center/comparing-branches-tags-in-repository-browser-gij-self-managed)" features read files data directly from that cloned copy of the repository.
 
 
 ## Indexing process
@@ -52,7 +52,7 @@ The local Lucene index update scans all branches and traverses all commits in th
 
 The initial indexing of large repositories can take several hours. Subsequent indexing of repositories is generally very fast (seconds). The amount of time required for indexing depends on the number of branches and commits in the repository.
 
-The "Reset index" functionality (<img src='https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/2699.png' width=20 height=20 style='vertical-align: middle;' /> Actions ➜ **Reset index**) is used to re-create or repair the repository Lucene index and causes the GIJ plugin to re-read all commits from all repository branches (like the initial indexing does).
+The "Reset index" functionality (<img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Reset index**) is used to re-create or repair the repository Lucene index and causes the GIJ plugin to re-read all commits from all repository branches (like the initial indexing does).
 
 ## Reindexing queue: Operations
 
@@ -65,23 +65,23 @@ The reindexing queue is used to perform the following operations on repositories
 *   Repository removal.
 
 
-Git GC is called only on a scheduled basis (please see the "[Garbage collection and Revision validation checkers](/git-integration-for-jira-data-center/repositories-garbage-collection-checker-gij-self-managed/)" option in the plugin "[General settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed/)").
+Git GC is called only on a scheduled basis (please see the "[Garbage collection and Revision validation checkers](/git-integration-for-jira-data-center/repositories-garbage-collection-checker-gij-self-managed)" option in the plugin "[General settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed)").
 
-The repository removal operation may be called either manually by a Jira administrator through the "[Remove repository"/"Remove integration](/git-integration-for-jira-data-center/removing-integration-or-repository-configuration-gij-self-managed/)" context menu, through [the REST API](/git-integration-for-jira-data-center/rest-api-gij-self-managed/), or by the "[Bulk import](/git-integration-for-jira-data-center/import-new-repositories-via-bulk-change-gij-self-managed/)" feature. Also, when some repositories are no longer available on the Git server, they are automatically scheduled for removal during integrations scanning.
+The repository removal operation may be called either manually by a Jira administrator through the "[Remove repository"/"Remove integration](/git-integration-for-jira-data-center/removing-integration-or-repository-configuration-gij-self-managed)" context menu, through [the REST API](/git-integration-for-jira-data-center/rest-api-gij-self-managed), or by the "[Bulk import](/git-integration-for-jira-data-center/import-new-repositories-via-bulk-change-gij-self-managed)" feature. Also, when some repositories are no longer available on the Git server, they are automatically scheduled for removal during integrations scanning.
 
 The repository reindexing operations are initiated in the following cases:
 
-*   A scheduled reindexing (please see the "[Repository reindexing](/git-integration-for-jira-data-center/scheduled-jobs-gij-self-managed#Repository-reindexing/)" option in the plugin "General settings" and [this article about Scheduled Jobs](/git-integration-for-jira-data-center/scheduling-jobs-gij-self-managed/) for more details).
+*   A scheduled reindexing (please see the "[Repository reindexing](/git-integration-for-jira-data-center/scheduled-jobs-gij-self-managed#Repository-reindexing)" option in the plugin "General settings" and [this article about Scheduled Jobs](/git-integration-for-jira-data-center/scheduling-jobs-gij-self-managed) for more details).
 
-*   A webhook-based reindexing (please see [Webhooks](/git-integration-for-jira-data-center/webhooks-gij-self-managed/) for more details).
+*   A webhook-based reindexing (please see [Webhooks](/git-integration-for-jira-data-center/webhooks-gij-self-managed) for more details).
 
-*   A manually called reindexing through the "[Reindex repository"/"Reindex integration"/"Reset index](/git-integration-for-jira-data-center/managing-integration-via-actions-gij-self-managed/)" context menu items, or the "[Reindex all](/git-integration-for-jira-data-center/git-integration-configuration-page-gij-self-managed/)" button.
+*   A manually called reindexing through the "[Reindex repository"/"Reindex integration"/"Reset index](/git-integration-for-jira-data-center/managing-integration-via-actions-gij-self-managed)" context menu items, or the "[Reindex all](/git-integration-for-jira-data-center/git-integration-configuration-page-gij-self-managed)" button.
 
 *   An automatic repository reindexing after the branch or merge/pull request creation/deletion.
 
-*   An automatic repository reindexing after the ["Bulk import"](/git-integration-for-jira-data-center/import-existing-repositories-via-bulk-change-gij-self-managed/).
+*   An automatic repository reindexing after the ["Bulk import"](/git-integration-for-jira-data-center/import-existing-repositories-via-bulk-change-gij-self-managed).
 
-*   A reindex triggered by REST API calls (please see [Reindex API](/git-integration-for-jira-data-center/reindex-api-gij-self-managed/) for more details).
+*   A reindex triggered by REST API calls (please see [Reindex API](/git-integration-for-jira-data-center/reindex-api-gij-self-managed) for more details).
 
 ## Reindexing queue: Priorities
 
@@ -135,17 +135,18 @@ When a new indexing cycle is started for a repository -- all existing entries ol
 2 -- Git GC.
 3 -- Remove repository.
 
-*   **ReindexSource**. The source of the operation. The same sources are used in the [Audit log](/git-integration-for-jira-data-center/audit-log-settings-gij-self-managed/) records.
+*   **ReindexSource**. The source of the operation. The same sources are used in the [Audit log](/git-integration-for-jira-data-center/audit-log-settings-gij-self-managed) records.
 
-INITIAL\_REINDEX
-MANUAL
-BRANCH\_OPERATION
-ON\_RESET\_REPOSITORY
-PERIODIC\_JOB
-PULL\_REQUEST\_OPERATION
-COMMIT\_OPERATION
-REPOSITORY\_UPDATE
-WEB\_HOOK
+INITIAL\_REINDEX<br>
+MANUAL<br>
+BRANCH\_OPERATION<br>
+ON\_RESET\_REPOSITORY<br>
+PERIODIC\_JOB<br>
+PULL\_REQUEST\_OPERATION<br>
+COMMIT\_OPERATION<br>
+REPOSITORY\_UPDATE<br>
+WEB\_HOOK<br>
+TAGS\_CALCULATION<br>
 
 *   **Priority**. The priority of the operation. Tasks in the queue are executed in descending order of priority. GIJ plugin internally uses the following priorities for operations:
 
