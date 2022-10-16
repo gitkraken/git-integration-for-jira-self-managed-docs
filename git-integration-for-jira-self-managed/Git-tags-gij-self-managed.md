@@ -52,17 +52,17 @@ Annotated tags can contain a message, author and date different than the commit 
 
 ## Getting started
 
-The git tag is displayed on the right sidebar if it is enabled in the [General Settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed/) of the Git Integration app ➜ `Calculate and show Git tags in Git Source Code panel`.
+The git tag is displayed on the right sidebar if it is enabled in the [General Settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed) of the Git Integration app ➜ `Calculate and show Git tags in Git Source Code panel`.
 
 <br>
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399204/dev-panel-git-tags-gen-cfg-setting.png?version=1&modificationDate=1630642925378&cacheVersion=1&api=v2&width=550&height=68)
+<img src='/wp-content/uploads/gij-dev-panel-git-tags-gen-cfg-setting.png' width=550 height=68 style='display:block;margin:25px auto;max-width:100%' />
 
 This feature is disabled by default for existing integrations and is automatically enabled for new integrations.
 
 <br>
 
-<img src='https://bigbrassband.atlassian.net/wiki/download/attachments/1930399204/git-tags-example.png?version=1&modificationDate=1630642926089&cacheVersion=1&api=v2' class='center img-responsive img-bordered' />
+<img src='/wp-content/uploads/gij-git-tags-example.png width=134 height=132 style='display:block;margin:25px auto;'/>
 
 <br>
 
@@ -108,7 +108,9 @@ If there are several git tags listed, click the **more...** label link to expa
 
 ## Tag information
 
-<img src='https://bigbrassband.atlassian.net/wiki/download/attachments/1930399204/gitserver-git-tags-hover.png?version=1&modificationDate=1630642926320&cacheVersion=1&api=v2' class='center img-responsive img-bordered' />
+<img src='/wp-content/uploads/gij-gitserver-git-tags-hover.png' width=334 height=221 style='display:block;margin:25px auto;max-width:100%' />
+
+<br>
 
 Move the mouse pointer over the tag to display the following tooltip information:
 
@@ -131,8 +133,21 @@ Tags are only associated with the Jira issue by Jira keys that are specified in 
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        If some commits relate only to tags, these commits will not be displayed. For more information, see the <a href='/git-integration-for-jira-data-center/Known-issues#commits-relating-only-to-tags-are-not-displayed-gij-self-managed/'>related known issue</a>.
+        If some commits relate only to tags, these commits will not be displayed. For more information, see the <a href='/git-integration-for-jira-data-center/Known-issues#commits-relating-only-to-tags-are-not-displayed-gij-self-managed'>related known issue</a>.
     </div>
     </div>
 </div>
+<br>
+
+## Reindexing tags
+
+For users who have the 'Calculate and show Git tags' option turned **off**, There is a safe way on how to turn this setting on. Do note that the following steps should be done outside business operating hours to avoid impacting Jira users:
+
+1.  Turn on the `Calculate and show Git tags` in **General settings**.
+
+2.  Manually reindex the repository(s) with the highest number of tags. The resulting reindexing time –- is the maximum reindexing time for the tags. The subsequent reindexing times will be much less due to the tags incremental reindex. This can be verified by running the repository reindex a second time.
+
+3.  **If the resulting reindexing time is acceptable** -- perform reindexing of all other repositories (for example, using ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Reindex all**).
+
+4.  **If the resulting reindexing time is not acceptable** –- the tags structure is probably too complex for the plugin, and the **Calculate and show Git tags** setting should be left as **OFF**.
 
