@@ -30,8 +30,9 @@ We are committed to provide you with an efficient and reliable support. Scroll d
 - [Atlassian Support End of Life](#atlassian-support-end-of-life)
 - [**Retiring IE11 Support**](#retiring-ie11-support)
 
-
-* * *
+<br>
+<hr>
+<br>
 
 ## Migrating to Jira 9
 
@@ -56,7 +57,6 @@ Using Atlassian's marketplace system, a Jira administrator can install the Git I
     Watch the complete installation of the Git Integration Plugin for Jira app from scratch (2 minutes).
 </div>
 <br>
-
 
 
 * * *

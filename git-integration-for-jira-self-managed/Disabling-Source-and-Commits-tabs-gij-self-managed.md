@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 The **Source** tab is part of the FishEye Plugin and is used for integration with SVN.  The **Commits** tab is part of the Jira DVCS Connector Plugin and is used for integration with gits _(Git, Mercurial, BitBucket etc.)_.
 
 Atlassian enables these tabs by default.
@@ -26,7 +27,7 @@ Atlassian enables these tabs by default.
 
 To hide the **Source** tab from the **Issues** page, disable the **FishEye Plugin**:
 
-1.  On your Jira dashboard, go to Jira Administration ➜ **Manage Apps**.
+1.  On your Jira dashboard, go to ![](/wp-content/uploads/actions-icon.png) Jira Administration ➜ **Manage Apps**.
 
 2.  Find and click **FishEye Plugin** under the installed add-ons to expand its options.
 
@@ -37,9 +38,16 @@ To hide the **Source** tab from the **Issues** page, disable the **FishEye 
 
 To hide the **Commits** tab from the **Issues** page, disable the **Jira DVCS Connector Plugin**:
 
-1.  On your Jira dashboard, go to Jira Administration ➜ **Manage Apps**.
+1.  On your Jira dashboard, go to ![](/wp-content/uploads/actions-icon.png) Jira Administration ➜ **Manage Apps**.
 
 2.  Find and click **Jira DVCS Connector Plugin** under the installed add-ons to expand its options.
 
 3.  Click **Disable**.
+
+<br>
+<br>
+
+[**Prev:** Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed)
+
+[**Next:** Linking git commits to Jira issues](/git-integration-for-jira-data-center/linking-git-commits-to-jira-issues-gij-self-managed)
 

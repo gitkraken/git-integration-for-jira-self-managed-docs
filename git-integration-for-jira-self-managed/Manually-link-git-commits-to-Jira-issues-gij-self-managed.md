@@ -11,7 +11,7 @@ taxonomy:
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/cq3r68b9ou?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/cq3r68b9ou'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 <br>
@@ -22,7 +22,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The process steps in this section applies to Jira Server/Cloud with installed Git Integration for Jira app.
+        The process steps in this section applies to Jira Server/Data Center/Cloud with installed Git Integration for Jira app.
     </div>
     </div>
 </div>
@@ -36,13 +36,13 @@ To manually link a git commit to a Jira issue, access the **Change commit issue
 *   **Git menu** ➜ View all repositories ➜ click a repository with git commits.
 
 
-![View full commits dialog highlighting the change commit issues function](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398296/gitserver-view-full-commits-assoc.png?version=1&modificationDate=1630642883212&cacheVersion=1&api=v2&width=680&height=375)
+![View full commits dialog highlighting the change commit issues function](/wp-content/uploads/gij-gitserver-view-full-commits-assoc.png)
 
 <br>
 
 Click the **Change commit issues** label. The following dialog is displayed.
 
-![This is the commit association dialog where you can manually map or associate a commit to a Jira issue. The setting shows one Jira issue key association.](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398296/gitserver-view-full-commits-assoc-issue-dlg.png?version=1&modificationDate=1630642882967&cacheVersion=1&api=v2&width=566&height=283)
+<img src='/wp-content/uploads/gij-gitserver-view-full-commits-assoc-issue-dlg.png' width=566 height=283 style='display:block;margin:25px auto;max-width:100%' alt='This is the commit association dialog where you can manually map or associate a commit to a Jira issue. The setting shows one Jira issue key association.' />
 
 Add, edit or delete linked Jira issue keys in the _**Associated issues to commit**_ field.
 
@@ -55,7 +55,7 @@ Add, edit or delete linked Jira issue keys in the _**Associated issues to commi
 
 If the commit is associated with multiple Jira issues, you will see the following:
 
-![This is the commit association dialog where you can manually map or associate a commit to a Jira issue. The setting shows multiple Jira issue key associations.](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398296/gitserver-view-full-commits-assoc-issue-dlg-multi.png?version=1&modificationDate=1630642882718&cacheVersion=1&api=v2&width=566&height=283)
+<img src='/wp-content/uploads/gij-gitserver-view-full-commits-assoc-issue-dlg-multi.png' width=566 height=283 style='display:block;margin:25px auto;max-width:100%' alt='This is the commit association dialog where you can manually map or associate a commit to a Jira issue. The setting shows multiple Jira issue key associations.' />
 
 In the above example, the selected commit is associated with Jira issues `TEST-1`, `TEST-2` and `PROJ-4` separated by commas.
 
@@ -78,4 +78,22 @@ Click **Save** to save the changes.
     </div>
     </div>
 </div>
+
+<br>
+<br>
+
+[**Prev:** Linking git commits to Jira issues](/git-integration-for-jira-data-center/linking-git-commits-to-jira-issues-gij-self-managed)
+
+[**Next:** Git notes](/git-integration-for-jira-data-center/git-notes-gij-self-managed)
+
+<br>
+<br>
+
+## More related topics about associating commits to Jira issues
+
+[Linking git commits to Jira issues](/git-integration-for-jira-data-center/linking-git-commits-to-jira-issues-gij-self-managed)
+
+**Manually link git commits to Jira issues** (this page)
+
+[Git notes](/git-integration-for-jira-data-center/git-notes-gij-self-managed)
 

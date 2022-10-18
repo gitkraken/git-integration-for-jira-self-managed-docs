@@ -74,11 +74,11 @@ _String_. Required.
 
 This is the URL to the hosted git service used on the project. For example, you might host your repository on GitHub, Beanstalk or your own server.
 
-**SSH INTEGRATION**
+### SSH INTEGRATION
 
 Before adding repositories (new or existing) via Bulk change, make sure that you have added SSH keys for the respective git hosts in the Git Integration for Jira app configuration page. BigBrassBand recommends to use the `git@<url>:[your-git-repo].git` format for the repository origin URL and [adding of SSH Keys](/git-integration-for-jira-data-center/adding-a-private-ssh-key-gij-self-managed) for each git host in the Git Integration for Jira app configuration page.
 
-**HTTPS/HTTP INTEGRATION**
+### HTTPS/HTTP INTEGRATION
 
 For HTTPS git repositories, obtain the URL from your git host. If you use HTTP/HTTPS URLs in the origin field, the Git Integration for Jira app will not be able to import said repositories due to missing credentials. Entering repository login credentials in the TSV file is not advisable due to a possible security risk. Therefore, when editing the _**origin**_ field of the TSV file, enter value using the `git@<repository-url>:[your-git-repo].git` format. This format will use the SSH key(s) from the Git Integration for Jira app configuration instead.
 
@@ -132,6 +132,7 @@ Set specific branch as the main branch for this repository. A commit will not be
     </div>
     </div>
 </div>
+<br>
 
 ## username, password
 
@@ -162,7 +163,7 @@ Enables or disables the **Repository Browser** feature for this repository. T
     </div>
 </div>
 
-For more information, see [Documentation -- Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed).
+For more information, see [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed).
 
 ## projectMapping
 
@@ -232,7 +233,7 @@ Displays all tags for the specific issue, if left blank. Otherwise, set tags ma
 
 Set _**tagsFilter**_ with a valid Java regular expression or an empty string. The filtered tags are displayed on the Jira Developer Panel.
 
-For more information, see example in [Documentation -- Git tags](/git-integration-for-jira-data-center/git-tags-gij-self-managed).
+For more information, see example in [Git tags](/git-integration-for-jira-data-center/git-tags-gij-self-managed).
 
 ## requireUserPat
 
@@ -364,6 +365,7 @@ The default value for Jira Server is `true`.
     </div>
     </div>
 </div>
+<br>
 
 ## weblinkType
 
@@ -446,7 +448,7 @@ This is a user-defined list of references used for fetching. It is a comma-separ
     </div>
     </div>
 </div>
-
+<br>
 
 Save the file to a tab-delimited format:
 
@@ -455,4 +457,29 @@ Save the file to a tab-delimited format:
 *   **Excel users** – save the file as **Text (Tab delimited) (\*.txt)**. Rename file's **.txt** extension to **.tsv**.
 
 *   **Google Drive** - upload the file to this service. Right click the **.tsv** file then open it with _Google Sheets_.  Make the necessary changes then go to File ➜ Download as ➜ **Tab separated values (.tsv)** to your local machine.
+
+<br>
+<br>
+
+[**Prev:** Import new repositories via Bulk change](/git-integration-for-jira-data-center/import-new-repositories-via-bulk-change-gij-self-managed)
+
+[**Next:** Removing existing repositories via Bulk change](/git-integration-for-jira-data-center/removing-existing-repositories-via-bulk-change-gij-self-managed)
+
+<br>
+
+## More related articles on Bulk change
+
+[Exporting repository configuration via Bulk change](/git-integration-for-jira-data-center/exporting-repository-configuration-via-bulk-change-gij-self-managed)
+
+[Requirement for secured import](/git-integration-for-jira-data-center/requirement-for-secured-import-gij-self-managed)
+
+[Import existing repositories via Bulk change](/git-integration-for-jira-data-center/import-existing-repositories-via-bulk-change-gij-self-managed)
+
+[Import new repositories via Bulk change](/git-integration-for-jira-data-center/import-new-repositories-via-bulk-change-gij-self-managed)
+
+**Editing existing repository settings in the TSV File** (this page)
+
+[Removing existing repositories via Bulk change](/git-integration-for-jira-data-center/removing-existing-repositories-via-bulk-change-gij-self-managed)
+
+[Bulk change (index)](/git-integration-for-jira-data-center/bulk-change-gij-self-managed)
 

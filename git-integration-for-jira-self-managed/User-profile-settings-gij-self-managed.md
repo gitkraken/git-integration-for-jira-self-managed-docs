@@ -8,12 +8,13 @@ taxonomy:
 ---
 By default, Jira email notification format is text-only.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398073/commit-email-view-text.png?version=1&modificationDate=1630642871399&cacheVersion=1&api=v2&width=589&height=256)
-<br><br>
+<img src='/wp-content/uploads/gij-commit-email-view-text.png' width=589 height=256 style='display:block;margin:25px auto;max-width:100%' />
 
-You can change this setting to HTML by going to **User Profile** ➜ **Preferences**. Click the <img src='/wp-content/uploads/gij-edit-icon-dark.png' width=20 height=20) **Edit** icon. The following dialog is displayed.
+<br>
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930398073/gitserver-user-prefs-email-type-sel.png?version=1&modificationDate=1630642872097&cacheVersion=1&api=v2)
+You can change this setting to HTML by going to ![](/wp-content/uploads/gij-profile-icon.png) User Profile ➜ **Preferences**. Click the <img src='/wp-content/uploads/gij-edit-icon-dark.png' /> **Edit** icon. The following dialog is displayed.
+
+<img src='/wp-content/uploads/gij-gitserver-user-prefs-email-type-sel.png' widht=544 height=662 style='' />
 
 <br>
 
@@ -21,5 +22,12 @@ Change the _**Email Type**_ to **HTML**.
 
 Click **Update** to save the changes. The email notifications that you receive will now be in HTML format.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930398073/commit-email-view-html.png?version=1&modificationDate=1630642871866&cacheVersion=1&api=v2)
+<img src='/wp-content/uploads/gij-commit-email-view-html.png' style='display:block;margin:25px auto;max-width:100%'
+
+<br>
+<br>
+
+[**Prev:** Watching email notifications](/git-integration-for-jira-data-center/watching-email-notifications-gij-self-managed)
+
+[**Next:** General settings](/git-integration-for-jira-data-center/general-settings-docs-gij-self-managed)
 

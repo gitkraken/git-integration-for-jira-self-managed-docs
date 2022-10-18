@@ -12,9 +12,9 @@ If you already have the formatted .tsv file ready for import such as the exporte
 
 1.  On the manage git configuration page, go to Bulk change ➜ **2\. Import configuration**. The following dialog is displayed.
 
-2.  ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930397888/gitserver-gitcfg-bulk-change-import-dlg(c).png?version=1&modificationDate=1630642863364&cacheVersion=1&api=v2&width=544&height=412)
+    ![](/wp-content/uploads/gij-gitserver-gitcfg-bulk-change-import-dlg-c.png)
 
-    Click **Choose File...** on the Import repository configuration dialog.
+2.  Click **Choose File...** on the Import repository configuration dialog.
 
 3.  Navigate to the location of the .tsv file then click **Open**.
 
@@ -24,4 +24,29 @@ If you already have the formatted .tsv file ready for import such as the exporte
 The Git Integration for Jira app will read the list from the file, detect the existing configured repositories, and automatically update its settings. If an error is found, it will be displayed in the message log on the import screen and in the _**Status**_ column on the repository configuration list. 
 
 Make the required changes to correct the errors on the affected rows and redo the upload.
+
+<br>
+<br>
+
+[**Prev:** Requirement for secured import](/git-integration-for-jira-data-center/requirement-for-secured-import-gij-self-managed)
+
+[**Next:** Import new repositories via Bulk change](/git-integration-for-jira-data-center/Import-new-repositories-via-Bulk-change-gij-self-managed)
+
+<br>
+
+## More related articles on Bulk change
+
+[Exporting repository configuration via Bulk change](/git-integration-for-jira-data-center/exporting-repository-configuration-via-bulk-change-gij-self-managed)
+
+[Requirement for secured import](/git-integration-for-jira-data-center/requirement-for-secured-import-gij-self-managed)
+
+**Import existing repositories via Bulk change** (this page)
+
+[Import new repositories via Bulk change](/git-integration-for-jira-data-center/import-new-repositories-via-bulk-change-gij-self-managed)
+
+[Editing existing repository settings in the TSV File](/git-integration-for-jira-data-center/editing-existing-repository-settings-in-the-TSV-file-gij-self-managed)
+
+[Removing existing repositories via Bulk change](/git-integration-for-jira-data-center/removing-existing-repositories-via-bulk-change-gij-self-managed)
+
+[Bulk change (index)](/git-integration-for-jira-data-center/bulk-change-gij-self-managed)
 

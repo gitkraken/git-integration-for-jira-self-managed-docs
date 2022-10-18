@@ -17,3 +17,28 @@ If you use HTTP/HTTPS URLs in the origin field, the Git Integration for Jira app
 
 Proceed to import repositories by following on the [next topic](/git-integration-for-jira-data-center/import-existing-repositories-via-bulk-change-gij-self-managed).
 
+<br>
+<br>
+
+[**Prev:** Exporting repository configuration via Bulk change](/git-integration-for-jira-data-center/exporting-repository-configuration-via-bulk-change-gij-self-managed)
+
+[**Next:** Import existing repositories via Bulk change](/git-integration-for-jira-data-center/import-existing-repositories-via-bulk-change-gij-self-managed)
+
+<br>
+
+## More related articles on Bulk change
+
+[Exporting repository configuration via Bulk change](/git-integration-for-jira-data-center/exporting-repository-configuration-via-bulk-change-gij-self-managed)
+
+**Requirement for secured import** (this page)
+
+[Import existing repositories via Bulk change](/git-integration-for-jira-data-center/import-existing-repositories-via-bulk-change-gij-self-managed)
+
+[Import new repositories via Bulk change](/git-integration-for-jira-data-center/import-new-repositories-via-bulk-change-gij-self-managed)
+
+[Editing existing repository settings in the TSV File](/git-integration-for-jira-data-center/editing-existing-repository-settings-in-the-TSV-file-gij-self-managed)
+
+[Removing existing repositories via Bulk change](/git-integration-for-jira-data-center/removing-existing-repositories-via-bulk-change-gij-self-managed)
+
+[Bulk change (index)](/git-integration-for-jira-data-center/bulk-change-gij-self-managed)
+
