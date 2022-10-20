@@ -110,16 +110,16 @@ You can create several custom configuration to support other git hosting provide
 
 <div class="bbb-callout bbb--note">
     <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The Bonobo git server requires a branch name to construct URL.  Use <code>$convert(${branch},"/","~2")</code> for web linking since bonobo requires substitution of "/" with "~2" in the branch name.
-        <p style='margin-bottom:0 !important'>
-            <b>For example:</b><br>
-            <code>http://<host>/Bonobo.Git.Server/Repository/<project>/$convert(${branch},"/","~2")/Commit/${rev}</code>
-        </p>
-    </div>
+        <div class="ilogobox">
+            <span class="logoimg"></span>
+        </div>
+        <div class="imsgbox">
+            The Bonobo git server requires a branch name to construct URL. Use <code>$convert(${branch},"/","~2")</code> for web linking since bonobo requires substitution of "/" with "~2" in the branch name.
+            <p style='margin-bottom:0 !important'>
+                <b>For example:</b><br>
+                <code>http://<host>/Bonobo.Git.Server/Repository/<project>/$convert(${branch},"/","~2")/Commit/${rev}</code>
+            </p>
+        </div>
     </div>
 </div>
 <br>
