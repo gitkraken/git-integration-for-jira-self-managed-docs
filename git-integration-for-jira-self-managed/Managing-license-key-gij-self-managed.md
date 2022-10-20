@@ -19,18 +19,19 @@ In most cases, when a new license for an app is purchased, the new license key c
     </div>
     </div>
 </div>
+<br>
 
 Log in to your [**My Atlassian Account**](https://my.atlassian.com/) where you will see the purchased license. From there, you can find the key:
 
 ![](/wp-content/uploads/gij-docs-manage-license-key-my-atlassian-sample-c.png)
 
-Go to the **Git Integration for Jira** app configuration <img src='wp-content/uploads/gij-jira-sys-admin-icon.png' style='vertical-align: middle; margin: 0 3px;' alt='' /> Jira Administration ➜ **Manage apps**).
+Go to the **Git Integration for Jira** app configuration <img src='/wp-content/uploads/gij-jira-sys-admin-icon.png' style='margin: 0 3px;' alt='' /> Jira Administration ➜ **Manage apps**).
 
 ![](/wp-content/uploads/gij-docs-manage-license-key-update-key-c.png)
 
 Click on the box to enter/change the **License key**.
 
-![](/wp-content/upload/gij-docs-manage-license-key-add-new-key.png)
+![](/wp-content/uploads/gij-docs-manage-license-key-add-new-key.png)
 
 *   After the 30-day evaluation period has expired, administrators can renew the evaluation for a total of 90 days. Paste the new license key in the provided field to activate a new trial period.
 
@@ -46,4 +47,14 @@ Click on the box to enter/change the **License key**.
     </div>
     </div>
 </div>
+<br>
+
+<br>
+<br>
+
+[**Prev:** Installation](/git-integration-for-jira-data-center/installation-gij-self-managed)
+
+[**Next:** Getting started for Git administrators](/git-integration-for-jira-data-center/getting-started-for-git-administrators-gij-self-managed)
+
+
 

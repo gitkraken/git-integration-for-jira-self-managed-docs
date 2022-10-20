@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 In order for GitLab to display correct repository clone links to your users, it needs to know the URL under which it is reached by your users (e.g. `http://gitlab.example.com`)
 
 To reconfigure:
@@ -29,6 +30,7 @@ To reconfigure:
     sudo gitlab-ctl reconfigure
     ```
 
+<br>
 
 Read this [**GitLab documentation**](https://docs.gitlab.com/omnibus/settings/configuration.html#configuring-the-external-url-for-gitlab) to know more about configuring the external URL for GitLab.
 
@@ -37,4 +39,12 @@ You should be able to add the GitLab repositories via Git Integration for Jira a
 *   [**Add new integration panel**](/git-integration-for-jira-data-center/using-the-add-new-integration-wizard-gij-self-managed/) (recommended for multiple repository integration)
 
 *   [**Connect to Git Repository**](/git-integration-for-jira-data-center/using-the-connect-repository-wizard-gij-self-managed/) (single repository or ssh repository integration)
+
+<br>
+<br>
+
+[**Prev:** Getting started for Git administrators (index)](/git-integration-for-jira-data-center/Getting-started-for-Git-administrators-gij-self-managed)
+
+[**Next:** New GitLab v10+ authentication](/git-integration-for-jira-data-center/New-GitLab-v10-authentication-gij-self-managed)
+
 

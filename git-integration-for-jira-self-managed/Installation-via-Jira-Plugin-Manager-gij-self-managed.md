@@ -11,7 +11,30 @@ taxonomy:
 2.  The _**Find new apps**_ page is displayed. Search the Marketplace with '`bigbrassband`' or '`git`' search phrase.
 
     ![](/wp-content/uploads/gij-docs-installation-jira-admin-addon-find-gitplugin-c.png)
+
 3.  Buy the app or start the free trial for 30 days.
 
-4.  Login to your Jira account, if required, to proceed installation of the app. The license key is automatically configured into the app configuration for free trial licenses. For purchased license keys, see [Managing license key](/git-integration-for-jira-data-center/managing-license-key-gij-self-managed/).
+4.  Login to your Jira account, if required, to proceed installation of the app. The license key is automatically configured into the app configuration for free trial licenses. For purchased license keys, see [Managing license key](/git-integration-for-jira-data-center/managing-license-key-gij-self-managed).
+
+<br>
+<br>
+
+[**Prev:** Installation via Atlassian Marketplace](/git-integration-for-jira-data-center/installation-via-atlassian-marketplace-gij-self-managed)
+
+[**Next:** Manual installation](/git-integration-for-jira-data-center/manual-installation-gij-self-managed)
+
+<br>
+<br>
+
+## More on Git Integration for Jira installation
+
+[Installation via Atlassian Marketplace](/git-integration-for-jira-data-center/installation-via-atlassian-marketplace-gij-self-managed)
+
+**Installation via Jira Plugin Manager** (this page)
+
+[Manual installation](/git-integration-for-jira-data-center/manual-installation-gij-self-managed)
+
+[Installation and updating](/git-integration-for-jira-data-center/installation-and-updating-gij-self-managed)
+
+
 

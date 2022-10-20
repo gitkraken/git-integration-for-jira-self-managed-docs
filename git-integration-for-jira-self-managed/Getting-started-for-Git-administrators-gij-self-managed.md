@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 ![](/wp-content/uploads/gij-docs-introduction-bbb-overview_708.png)
 
 <br>
@@ -86,11 +87,11 @@ Restart Jira to regain access to repositories.
 
 ## Does the Git Integration for Jira app have API commands that allow addition/removal of a Git project?
 
-Yes. As of **v2.8.3+** of the Git Integration for Jira app, the **REST API** for add, update, and delete repository is implemented. The documentation for this feature is available at [Git Integration for Jira: Hook and API Reference - Repository REST API](/git-integration-for-jira-data-center/repository-api-gij-self-managed/).
+Yes, the **REST API** for add, update, and delete repository is available. The documentation for this feature is available at [Git Integration for Jira: Hook and API Reference - Repository REST API](/git-integration-for-jira-data-center/repository-api-gij-self-managed).
 
 ## Troubleshooting issues
 
-For information on troubleshooting known errors and issues, see [Git Integration for Jira - Knowledge Base/FAQ](/git-integration-for-jira-data-center/frequently-asked-questions-gij-self-managed) and [Troubleshooting guides](/git-integration-for-jira-data-center/troubleshooting-articles-gij-self-managed/).
+For information on troubleshooting known errors and issues, see [Git Integration for Jira - Knowledge Base/FAQ](/git-integration-for-jira-data-center/frequently-asked-questions-gij-self-managed) and [Troubleshooting guides](/git-integration-for-jira-data-center/troubleshooting-articles-gij-self-managed).
 <br>
 <br>
 * * *
@@ -112,4 +113,14 @@ For information on troubleshooting known errors and issues, see [Git Integratio
   </div>
 </div>
 <br>
+<br>
+
+<hr>
+
+<br>
+<br>
+
+[**Prev:** Managing license key](/git-integration-for-jira-data-center/managing-license-key-gij-self-managed)
+
+[**Next:** Setup GitLab Server to respond to incoming network API calls](/git-integration-for-jira-data-center/setup-gitLab-server-to-respond-to-incoming-network-API-calls-gij-self-managed)
 

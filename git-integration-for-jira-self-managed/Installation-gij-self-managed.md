@@ -29,7 +29,7 @@ If the Git server and Jira server are installed on the same server, only the pat
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        If you have the previous version of the Git Integration app and will upgrade to <b>v4.0+</b>, all existing repositories in the app configuration will have the <b>Repository Browser</b> feature <b>turned off</b> by default. For more information about this feature and how to enable it, see <a href="/git-integration-for-jira-data-center/repository-browser-gij-self-managed/">Repository Browser</a>.
+        If you have the previous version of the Git Integration app and will upgrade to <b>v4.0+</b>, all existing repositories in the app configuration will have the <b>Repository Browser</b> feature <b>turned off</b> by default. For more information about this feature and how to enable it, see <a href="/git-integration-for-jira-data-center/repository-browser-gij-self-managed">Repository Browser</a>.
     </div>
     </div>
 </div>
@@ -38,7 +38,19 @@ If the Git server and Jira server are installed on the same server, only the pat
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/lr0jp6ntfd?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/lr0jp6ntfd'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
+<br>
+<br>
+
+<hr>
+
+<br>
+<br>
+
+[**Prev:** Documentation (index)](/git-integration-for-jira-data-center/documentation-gij-self-managed)
+
+[**Next:** Installation via Atlassian Marketplace](/git-integration-for-jira-data-center/installation-via-atlassian-marketplace-gij-self-managed)
+
 

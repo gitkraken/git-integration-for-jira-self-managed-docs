@@ -60,9 +60,19 @@ For permissions requirement, see [App platform and system permissions requiremen
 
 <br>
 
+Click the link below to proceed to installation:
+
+[**Next:** Installation](/git-integration-for-jira-data-center/installation-gij-self-managed)
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
 ## Welcome to the Git Integration for Jira app documentation.
 
-Click on the topics below to know more about the Git Integration for Jira app's administrative requirements, installation and integration setup or you can search for a topic that you wish to view.
+Jump to the topic you are interested in by clicking on the links below. Learn more about the Git Integration for Jira app's administrative requirements, installation and integration setup or you can search for a topic that you wish to view.
 
 ### [Permissions](/git-integration-for-jira-data-center/permissions-gij-self-managed)
 
