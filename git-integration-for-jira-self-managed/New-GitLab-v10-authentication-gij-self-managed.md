@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 GitLab v10+ stopped accepting username/password credentials for API access and will only recognize Personal Access Tokens (PAT) and OAuth authentications. Service users are strongly advised to switch from using username/password for GitLab.com and newer versions of GitLab Server (CE/EE) to using Personal Access Tokens.
 
 For GitLab Server service users, they won't see the issue until they upgrade their GitLab Servers to version 10 and higher. Git Integration for Jira app offers pre-v10 GitLab Server users as a Legacy connection option.
@@ -14,10 +15,19 @@ To access a Git repository over HTTP, use the **username** as the username and t
 
 To pass the private access token (for example: `XpigzF1JxMnAZ7mn9qgN`) to an API call with GitLab.com:
 
-```java
+```powershell
 curl --header "Private-Token: XpigzF1JxMnAZ7mn9qgN" https://gitlab.com/api/v4/projects?membership=true
 ```
 
+<br>
 
 For more information on GitLab personal access token, see [**GitLab: Personal Access Token**](https://docs.gitlab.com/ce/user/profile/personal_access_tokens.html).
+
+<br>
+<br>
+
+[**Prev:** Setup GitLab Server to respond to incoming network API calls](/git-integration-for-jira-data-center/Setup-GitLab-Server-to-respond-to-incoming-network-API-calls-gij-self-managed)
+
+[**Next:** General settings - Improving Jira performance](/git-integration-for-jira-data-center/General-settings-Improving-Jira-performance-gij-self-managed)
+
 

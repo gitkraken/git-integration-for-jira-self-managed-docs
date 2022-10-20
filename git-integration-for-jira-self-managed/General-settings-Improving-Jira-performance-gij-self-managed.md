@@ -7,6 +7,18 @@ taxonomy:
 
 ---
 
+**What's on this page:**
+- [Improving Git tags performance](#improving-git-tags-performance)
+- [Improving diff load performance](#improving-diff-load-performance)
+- [Enable/disable JQL search feature](#enabledisable-jql-search-feature)
+- [Smart commits setting](#smart-commits-setting)
+- [Commit Notification Emails](#commit-notification-emails)
+- [Git Activity Stream](#git-activity-stream)
+
+<br>
+<hr>
+<br>
+
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -17,6 +29,7 @@ taxonomy:
     </div>
     </div>
 </div>
+<br>
 
 ## Improving Git tags performance
 
@@ -24,7 +37,7 @@ Git tags and branches are cached for the most recently viewed 1000 Jira issues (
 
 Enabling the display of Git tags in commits for large repositories can affect the performance of Jira. This setting can be disabled by doing the following steps:
 
-![](/wp-content/uploads/gij-docs-admin-gitserver-gencfg-git-tags-calc-cfg.png)
+![](/wp-content/uploads/gij-gitserver-gencfg-git-tags-calc-cfg.png)
 
 1.  Go to Jira dashboard menu Git ➜ **Manage repositories**.
 
@@ -39,13 +52,13 @@ Enabling the display of Git tags in commits for large repositories can affect th
 
 There's a default limit to the size of files that the diff'er supports which is **16MB**. This is to keep a massive file from impacting the Jira server performance too much.
 
-As of **v2.8.5+** of the Git Integration for Jira app, Jira administrators can control over the size of diffs allowed to be displayed in the code diff dialog:
+Jira administrators can control over the size of diffs allowed to be displayed in the code diff dialog:
 
 1.  Go Jira dashboard menu Git ➜ **Manage repositories**. 
 2.  On the sidebar under Git Integration for Jira, select **General settings**. 
 3.  Scroll down to **Diff** then set the **Max Diff Line Count** value as desired.  Maximum supported value is 20000.
 
-    ![](/wp-content/uploads/gij-docs-admin-general-cfg-diff-code-setting.png)
+<img src='/wp-content/uploads/gij-docs-admin-general-cfg-diff-code-setting.png' style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 
@@ -79,7 +92,7 @@ As of **v2.8.5+** of the Git Integration for Jira app, Jira administrators can
 
 On your dashboard menu, go to Git ➜ Manage repositories ➜ **General settings** (sidebar). (Alternatively, go to Jira Administration ➜ Applications ➜ **General settings**).
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930396229/gitserver-gencfg-jql-search-loc2.png?version=1&modificationDate=1630642785286&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitserver-gencfg-jql-search-loc2.png)
 
 Enable/disable the JQL searching setting.
 
@@ -95,16 +108,17 @@ This general setting allows administrators to enable/disable the JQL functions w
     </div>
     </div>
 </div>
+<br>
 
 ## Smart commits setting
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930396229/gitserver-edit-repocfg-smartcommits.png?version=1&modificationDate=1630642785514&cacheVersion=1&api=v2&width=442&height=91)
+<img src='/wp-content/uploads/gij-gitserver-edit-repocfg-smartcommits.png' style='display:block;margin:25px auto;max-width:100%' />
 
 To improve performance, turn off smart commits on initial indexing then turn it back on after initial reindexing.
 
 ## Commit Notification Emails
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930396229/gitserver-gencfg-email-settings.png?version=1&modificationDate=1630642785995&cacheVersion=1&api=v2&width=680&height=151)
+![](/wp-content/uploads/gij-gitserver-gencfg-email-settings.png)
 
 Enable/disable the setting to allow sending of email notifications when a commit is made. This setting defaults to OFF for upgrades and ON for new installation of the Git Integration for Jira app.
 
@@ -118,10 +132,11 @@ Enable/disable the setting to allow sending of email notifications when a commit
     </div>
     </div>
 </div>
+<br>
 
 ## Git Activity Stream
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930396229/gitserver-gencfg-git-activity-stream.png?version=1&modificationDate=1630642786223&cacheVersion=1&api=v2&width=544&height=290)
+<img src='/wp-content/uploads/gij-gitserver-gencfg-git-activity-stream.png' style='display:block;margin:25px auto;max-width:100%' />
 
 Enable/disable the setting whether to show git commits in the Jira activity stream (Issue page or dashboard widget) or not. For in-place upgrade of the Git Integration for Jira app, this setting is turned off by default. For new installation, the default setting is enabled.
 
@@ -135,4 +150,13 @@ Enable/disable the setting whether to show git commits in the Jira activity stre
     </div>
     </div>
 </div>
+<br>
+
+<br>
+<br>
+
+[**Prev:** New GitLab v10+ authentication](/git-integration-for-jira-data-center/New-GitLab-v10-authentication-gij-self-managed)
+
+[**Next:** Adding a repository hosted on Windows Servers or Windows Network share \(Admins\)](/git-integration-for-jira-data-center/Adding-a-repository-hosted-on-Windows-Servers-or-Windows-Network-Share-(Admins)-gij-self-managed)
+
 
