@@ -18,14 +18,21 @@ The General settings configuration page can be accessed thru the following loc
 
 *   Jira dashboard ➜ Git menu ➜ Manage repositories ➜ Git Integration for Jira (sidebar) ➜ **General settings**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930398111/jira-serverdc-gen-cfg-entry-point-(c).png?version=1&modificationDate=1630642877772&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-jira-serverdc-gen-cfg-entry-point-c.png)
 
 *   Jira dashboard ➜ Administration ➜ Applications ➜ Git Integration for Jira (sidebar) ➜ **General settings**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930398111/jira-serverdc-gen-cfg-entry-point-two-(c).png?version=1&modificationDate=1630642878025&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-jira-serverdc-gen-cfg-entry-point-two-c.png)
 
 
 After making changes to the configuration settings, click **Save** to apply the changes.
 
 For detailed information about this feature, see [Git administration: General settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed).
+
+<br>
+<br>
+
+[**Prev:** Commit email notifications](/git-integration-for-jira-data-center/commit-email-notifications-gij-self-managed)
+
+[**Next:** Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed)
 

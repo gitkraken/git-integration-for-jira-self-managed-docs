@@ -12,7 +12,7 @@ To create a link between your Git commit and a Jira issue, developers must inclu
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/7kj43knu4m?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/7kj43knu4m'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 <br>
@@ -31,7 +31,7 @@ Commits are selected by issue key. Developers should add them to comments every
 </div>
 <br>
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398265/gitserver-jira-issue-git-commits-tab-view.png?version=1&modificationDate=1641369478236&cacheVersion=1&api=v2&width=680&height=302)
+![](/wp-content/uploads/gij-gitserver-jira-issue-git-commits-tab-view.png)
 
 <div align='center'>
     <i>Example Git commit message: "<b>GIT-4322 - Updated the plugin …</b>".<br>
@@ -53,7 +53,7 @@ Commits are selected by issue key. Developers should add them to comments every
 
 As a best practice to work with sub-task — put the parent and sub-task Jira issue keys in the commit message so that the commit shows in both places. This way, the commit for the sub-task does not get lost in the many commits of the parent issue.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398265/gitserver-git-commits-tab-view-subtask.png?version=1&modificationDate=1641369522246&cacheVersion=1&api=v2&width=655&height=253)
+<img src='/wp-content/uploads/gij-gitserver-git-commits-tab-view-subtask.png' width=655 height=253 style='display:block;margin:25px auto;max-width:100%' />
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -81,9 +81,28 @@ There are two scenarios related to the rename/move:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b>Jira Activity Stream</b>
+        <b>Jira Activity Stream</b><br>
         Only the commits that are linked to Jira issues will show on the Jira Activity Stream (not all commits in repositories).
     </div>
     </div>
 </div>
+<br>
+
+<br>
+
+[**Prev:** Disabling Source and Commits tabs](/git-integration-for-jira-data-center/disabling-source-and-commits-tabs-gij-self-managed)
+
+[**Next:** Manually link git commits to Jira issues](/git-integration-for-jira-data-center/manually-link-git-commits-to-jira-issues-gij-self-managed)
+
+<br>
+
+<br>
+
+## More related topics about associating commits to Jira issues
+
+**Linking git commits to Jira issues** (this page)
+
+[Manually link git commits to Jira issues](/git-integration-for-jira-data-center/manually-link-git-commits-to-jira-issues-gij-self-managed)
+
+[Git notes](/git-integration-for-jira-data-center/git-notes-gij-self-managed)
 

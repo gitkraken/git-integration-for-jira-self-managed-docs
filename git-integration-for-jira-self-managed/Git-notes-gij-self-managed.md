@@ -6,9 +6,10 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 The Git Integration for Jira app displays [**git notes**](https://git-scm.com/docs/git-notes) in the **Git Commits** tab:
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398342/gitserver-dc-git-notes-sample.png?version=1&modificationDate=1630642886594&cacheVersion=1&api=v2&width=557&height=289)
+<img src='/wp-content/uploads/gij-gitserver-dc-git-notes-sample.png' width=557 height=289 style='display:block;margin:25px auto;max-width:100%')
 
 For a git repository with several existing commits in it, commit authors can associate issue keys via git notes to these commits without having to edit the commit messages. The Git Integration for Jira app will index issue keys in git notes.
 
@@ -40,7 +41,7 @@ Each commit can only have one git note per namespace. There can be multiple not
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        For old commits that are already indexed and have issue key(s) in commit message - see <a href='/git-integration-for-jira-data-center/how-do-i-clear-the-git-integration-for-jira-app-cache-manually-gij-self-managed/'>How do I clear the Git Integration Plugin for Jira cache manually?</a> FAQ article.
+        For old commits that are already indexed and have issue key(s) in commit message - see <a href='/git-integration-for-jira-data-center/how-do-i-clear-the-git-integration-for-jira-app-cache-manually-gij-self-managed'>How do I clear the Git Integration Plugin for Jira cache manually?</a> FAQ article.
     </div>
     </div>
 </div>
@@ -69,25 +70,45 @@ For those who are using TortoiseGit client on Windows, you can perform the follo
 
 1.  Navigate to your local git clone folder.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398342/tortoisegit-bonus-git-notes-example(c).png?version=1&modificationDate=1630642885636&cacheVersion=1&api=v2&width=584&height=546)
+    ![](/wp-content/uploads/gij-tortoisegit-bonus-git-notes-example-c.png)
 
 2.  Right click anywhere on the file list view pane of the File Explorer to open up the context menu; go to **TortoiseGit** then click **Show log**. The Log Messages dialog is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398342/tortoisegit-bonus-git-notes-show-log-dlg(c).png?version=1&modificationDate=1630642885861&cacheVersion=1&api=v2&width=584&height=538)
-    
+    ![](/wp-content/uploads/gij-tortoisegit-bonus-git-notes-show-log-dlg-c.png)
+
 3.  Right click on a commit or PR then click **Edit notes**. The Edit Notes dialog is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398342/tortoisegit-bonus-git-notes-edit-notes-dlg(c).png?version=1&modificationDate=1630642886112&cacheVersion=1&api=v2&width=374&height=245)
+    ![](/wp-content/uploads/gij-tortoisegit-bonus-git-notes-edit-notes-dlg-c.png)
+
     *   Enter a descriptive note for the selected commit or PR. _We recommend to add a Jira issue key to this git note so that it will be indexed by the Git Integration for Jira app._
 
     *   Click **OK** to accept this entry.
 
 4.  Push this git note to the git server. To do so, right click on the file list view of the File Explorer then click **Git sync…** . The GIt Synchronization dialog is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398342/tortoisegit-bonus-git-notes-git-sync-push-notes(c).png?version=1&modificationDate=1630642886355&cacheVersion=1&api=v2&width=584&height=484)
+    ![](/wp-content/uploads/gij-tortoisegit-bonus-git-notes-git-sync-push-notes-c.png)
+
 5.  The new/edited git note is pushed to the git server and the git note can be seen in the Git Commits tab of the specified Jira issue.
 
 <br>
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398342/gitserver-dc-git-notes-sample.png?version=1&modificationDate=1630642886594&cacheVersion=1&api=v2&width=550&height=286)
+<img src='/wp-content/uploads/gij-gitserver-dc-git-notes-sample.png' width=550 height=286 style='display:block;margin:25px auto;max-width:100%' />
+
+<br>
+<br>
+
+[**Prev:** Manually link git commits to Jira issues](/git-integration-for-jira-data-center/manually-link-git-commits-to-jira-issues-gij-self-managed)
+
+[**Next:** Smart commits](/git-integration-for-jira-data-center/smart-commits-docs-gij-self-managed)
+
+<br>
+<br>
+
+## More related topics about associating commits to Jira issues
+
+[Linking git commits to Jira issues](/git-integration-for-jira-data-center/linking-git-commits-to-jira-issues-gij-self-managed)
+
+[Manually link git commits to Jira issues](/git-integration-for-jira-data-center/manually-link-git-commits-to-jira-issues-gij-self-managed)
+
+[Git notes](/git-integration-for-jira-data-center/git-notes-gij-self-managed)
 
