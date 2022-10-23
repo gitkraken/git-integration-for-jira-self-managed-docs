@@ -94,11 +94,14 @@ Yes, the **REST API** for add, update, and delete repository is available. T
 For information on troubleshooting known errors and issues, see [Git Integration for Jira - Knowledge Base/FAQ](/git-integration-for-jira-data-center/frequently-asked-questions-gij-self-managed) and [Troubleshooting guides](/git-integration-for-jira-data-center/troubleshooting-articles-gij-self-managed).
 <br>
 <br>
+
 * * *
+
+<br>
 <br>
 
-| **Get new product notifications and feature updates from BigBrassBand LLC.** |
-|:---:|
+| Get new product notifications and feature updates from BigBrassBand LLC. |
+| :---: |
 | [Click here to subscribe to our mailing list](http://eepurl.com/hhfbwz) |
 
 <br>
@@ -108,7 +111,7 @@ For information on troubleshooting known errors and issues, see [Git Integratio
       <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-      Need to know more features?  Read next: <a href='https://bigbrassband.com/tips-for-jira-admins.html' target='_blank' alt='Opens in a new tab'>Helpful Tips for Jira Administrators</a>.
+      Need to know more features? Read next: <a href='/git-integration-for-jira-data-center/tips-for-jira-admins-gij-self-managed'>Helpful Tips for Jira Administrators</a>.
     </div>
   </div>
 </div>
@@ -123,4 +126,38 @@ For information on troubleshooting known errors and issues, see [Git Integratio
 [**Prev:** Managing license key](/git-integration-for-jira-data-center/managing-license-key-gij-self-managed)
 
 [**Next:** Setup GitLab Server to respond to incoming network API calls](/git-integration-for-jira-data-center/setup-gitLab-server-to-respond-to-incoming-network-API-calls-gij-self-managed)
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+## More related articles on Git for Jira administrators
+
+[Setup GitLab Server to respond to incoming network API calls](/git-integration-for-jira-data-center/setup-gitLab-server-to-respond-to-incoming-network-API-calls-gij-self-managed)
+
+[New GitLab v10+ authentication](/git-integration-for-jira-data-center/New-GitLab-v10-authentication-gij-self-managed)
+
+[General settings: Improving Jira performance](/git-integration-for-jira-data-center/general-settings-Improving-Jira-performance-gij-self-managed)
+
+[Adding a repository hosted on Windows Servers or Windows Network Share (Admins)](/git-integration-for-jira-data-center/adding-a-repository-hosted-on-windows-servers-or-windows-network-share-(admins)-gij-self-managed)
+
+[Setting up repository root not located in Jira Home directory (Admins)](/git-integration-for-jira-data-center/setting-up-repository-root-not-located-in-Jira-Home-directory-(admins)-gij-self-managed)
+
+[Reindex API to trigger indexing](/git-integration-for-jira-data-center/reindex-API-to-trigger-indexing-gij-self-managed)
+
+[Recommended reindex interval setting](/git-integration-for-jira-data-center/recommended-reindex-interval-setting-gij-self-managed)
+
+[Setting up web linking](/git-integration-for-jira-data-center/setting-up-web-linking-gij-self-managed)
+
+[Setting up webhooks](/git-integration-for-jira-data-center/setting-up-webhooks-gij-self-managed)
+
+[Increasing timeout threshold for large repositories while doing a Git pull](/git-integration-for-jira-data-center/increasing-timeout-threshold-for-large-repositories-while-doing-a-git-pull-gij-self-managed)
+
+[Working with Tracked folders](/git-integration-for-jira-data-center/working-with-Tracked-folders-gij-self-managed)
+
+[Recommended upgrade method for Git Integration for Jira](/git-integration-for-jira-data-center/recommended-upgrade-method-for-git-integration-for-jira-gij-self-managed)
+
+[Discard cloned files in Jira Home directory (General setting)](/git-integration-for-jira-data-center/discard-cloned-files-in-Jira-Home-directory-(general-setting)-gij-self-managed)
 

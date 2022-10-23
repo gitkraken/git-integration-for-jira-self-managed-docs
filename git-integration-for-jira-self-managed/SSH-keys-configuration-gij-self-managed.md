@@ -8,13 +8,13 @@ taxonomy:
 ---
 Manage and associate SSH keys to connected git repositories via the **SSH Keys** in Git Integration for Jira Server app repository configuration page.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930396746/add-ssh-and-associate-keys.png?version=1&modificationDate=1630642804864&cacheVersion=1&api=v2&width=680&height=222)
+![](/wp-content/uploads/gij-add-ssh-and-associate-keys.png)
 
 The list of added private SSH keys is accessible on this page. Both types of SSH keys are displayed in this list. Legacy filesystem-based keys contain directory path in the _**Private key**_ column.
 
 Refer to the following table for list column information:
 
-| **Column** | **Description** |
+| Column | Description |
 | :--- | :--- |
 | _**Name**_ | The name of the private SSH key will appear here. |
 | _**Private key**_ | This is the private SSH key in hex mode. |
@@ -44,4 +44,37 @@ Refer to the following table for list column information:
     </div>
     </div>
 </div>
+<br>
+
+<br>
+<br>
+
+[**Prev:** Adding a public SSH key](/git-integration-for-jira-data-center/adding-a-public-ssh-key-gij-self-managed)
+
+[**Next:** Adding and associating SSH keys](/git-integration-for-jira-data-center/adding-and-associating-ssh-keys-gij-self-managed)
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+[Working with SSH keys (index)](/git-integration-for-jira-data-center/working-with-ssh-keys-gij-self-managed)
+
+[Generating SSH keys](/git-integration-for-jira-data-center/generating-ssh-keys-gij-self-managed)
+
+[Adding a private SSH key](/git-integration-for-jira-data-center/adding-a-private-ssh-key-gij-self-managed)
+
+[Adding a public SSH Key](/git-integration-for-jira-data-center/adding-a-public-ssh-key-gij-self-managed)
+
+**SSH keys configuration** (this page)
+
+[Adding and associating SSH keys](/git-integration-for-jira-data-center/adding-and-associating-ssh-keys-gij-self-managed)
+
+[Removing SSH keys](/git-integration-for-jira-data-center/removing-ssh-keys-gij-self-managed)
+
+[Reconfigure Git repositories and SSH keys](/git-integration-for-jira-data-center/reconfigure-git-repositories-and-ssh-keys-gij-self-managed)
+
+
+
 

@@ -37,3 +37,33 @@ taxonomy:
 
 3.  Click **Add** to complete this setup.
 
+<br>
+<br>
+
+[**Prev:** Generating SSH keys](/git-integration-for-jira-data-center/generating-ssh-keys-gij-self-managed)
+
+[**Next:** Adding a public SSH key](/git-integration-for-jira-data-center/adding-a-public-ssh-key-gij-self-managed)
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+[Working with SSH keys (index)](/git-integration-for-jira-data-center/working-with-ssh-keys-gij-self-managed)
+
+[Generating SSH keys](/git-integration-for-jira-data-center/generating-ssh-keys-gij-self-managed)
+
+**Adding a private SSH key** (this page)
+
+[Adding a public SSH Key](/git-integration-for-jira-data-center/adding-a-public-ssh-key-gij-self-managed)
+
+[SSH keys configuration](/git-integration-for-jira-data-center/ssh-keys-configuration-gij-self-managed)
+
+[Adding and associating SSH keys](/git-integration-for-jira-data-center/adding-and-associating-ssh-keys-gij-self-managed)
+
+[Removing SSH keys](/git-integration-for-jira-data-center/removing-ssh-keys-gij-self-managed)
+
+[Reconfigure Git repositories and SSH keys](/git-integration-for-jira-data-center/reconfigure-git-repositories-and-ssh-keys-gij-self-managed)
+
+
