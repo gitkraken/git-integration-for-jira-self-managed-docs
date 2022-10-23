@@ -10,7 +10,7 @@ SSH keys cannot be modified or updated. To change the keys, remove and add them 
 
 To delete the SSH key from the app configuration, click Actions ➜ **Delete**.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930396835/ssh-addkey-list-del-key.png?version=1&modificationDate=1630642808913&cacheVersion=1&api=v2&width=680&height=294)
+![](/wp-content/uploads/gij-ssh-addkey-list-del-key.png)
 
 <div class="bbb-callout bbb--note">
     <div class="irow">
@@ -22,4 +22,34 @@ To delete the SSH key from the app configuration, click Actions ➜ **Delete**.
     </div>
     </div>
 </div>
+
+<br>
+<br>
+
+[Adding and associating SSH keys](/git-integration-for-jira-data-center/adding-and-associating-ssh-keys-gij-self-managed)
+
+[Reconfigure Git repositories and SSH keys](/git-integration-for-jira-data-center/reconfigure-git-repositories-and-ssh-keys-gij-self-managed)
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+[Working with SSH keys (index)](/git-integration-for-jira-data-center/working-with-ssh-keys-gij-self-managed)
+
+[Generating SSH keys](/git-integration-for-jira-data-center/generating-ssh-keys-gij-self-managed)
+
+[Adding a private SSH key](/git-integration-for-jira-data-center/adding-a-private-ssh-key-gij-self-managed)
+
+[Adding a public SSH Key](/git-integration-for-jira-data-center/adding-a-public-ssh-key-gij-self-managed)
+
+[SSH keys configuration](/git-integration-for-jira-data-center/ssh-keys-configuration-gij-self-managed)
+
+[Adding and associating SSH keys](/git-integration-for-jira-data-center/adding-and-associating-ssh-keys-gij-self-managed)
+
+**Removing SSH keys** (this page)
+
+[Reconfigure Git repositories and SSH keys](/git-integration-for-jira-data-center/reconfigure-git-repositories-and-ssh-keys-gij-self-managed)
+
 

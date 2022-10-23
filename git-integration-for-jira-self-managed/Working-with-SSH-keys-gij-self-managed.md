@@ -93,18 +93,19 @@ In this case, the SSH server is the Git server and the SSH client is the Jira se
           <li>must use the supported certificate format: RSA.</li>
           <li>must use the supported storage format: OpenSSL PEM.</li>
         </li>
-        For more information, see troubleshooting article <a href='/git-intengration-for-jira-data-center/SSH-key-file-format-is-invalid-gij-self-managed/'>SSH key format is invalid</a>.
+        For more information, see troubleshooting article <a href='/git-intengration-for-jira-data-center/SSH-key-file-format-is-invalid-gij-self-managed'>SSH key format is invalid</a>.
     </div>
   </div>
 </div>
+<br>
 
 * * *
 
 ## Windows
 
-For Windows, we recommend to use [**PuTTY**](https://www.putty.org/) and use PuTTYgen to generate public and private SSH keys.
+For Windows, we recommend to use <a href='https://www.putty.org/'><b>PuTTY</b></a> and use PuTTYgen to generate public and private SSH keys.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930396577/puttygen-key-dlg.png?version=1&modificationDate=1630642799929&cacheVersion=1&api=v2&width=442&height=434)
+<img src='/wp-content/uploads/gij-puttygen-key-dlg.png' width=442 height=434 style='display:block;margin:25px auto;max-width:100%' />
 
 1. Launch **PuTTYgen** and refer to the above image for the rest of the steps on this section.
 
@@ -124,6 +125,8 @@ For Windows, we recommend to use [**PuTTY**](https://www.putty.org/) and use P
 
 9. For the private key, see the note below.
 
+<br>
+
 <div class="bbb-callout bbb--note">
     <div class="irow">
     <div class="ilogobox">
@@ -135,7 +138,7 @@ For Windows, we recommend to use [**PuTTY**](https://www.putty.org/) and use P
     </div>
 </div>
 
-You can also use the git bash command line to generate SSH key pair. For detailed information, see [**Generate SSH via Git bash**](https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key).
+You can also use the git bash command line to generate SSH key pair. For detailed information, see <a href='https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key'><b>Generate SSH via Git bash</b></a>.
 
 Read on the section [Generating SSH keys](/git-integration-for-jira-dta-center/generating-ssh-keys-gij-self-managed) and follow specific information for the git host and platform that you use.
 
@@ -147,5 +150,33 @@ On Linux and MacOS, this generates an SSH key in RSA format:
 ssh-keygen -t rsa -b 4096 -m pem -C "your_email@example.com"
 ```
 
-MacOS often incorrectly creates an OpenSSH format certificate. For more details, see information on this [**common problem**](https://serverfault.com/questions/939909/ssh-keygen-does-not-create-rsa-private-key).
+MacOS often incorrectly creates an OpenSSH format certificate. For more details, see information on this <a href='https://serverfault.com/questions/939909/ssh-keygen-does-not-create-rsa-private-key'><b>common problem</b></a>.
+
+<br>
+<br>
+
+[**Prev:** Getting started for Git administrators](/git-integration-for-jira-data-center/Getting-started-for-Git-administrators-gij-self-managed)
+
+[**Next:** Genenerating SSH keys](/git-integration-for-jira-data-center/generating-ssh-keys-gij-self-managed)
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+[Generating SSH keys](/git-integration-for-jira-data-center/generating-ssh-keys-gij-self-managed)
+
+[Adding a private SSH key](/git-integration-for-jira-data-center/adding-a-private-ssh-key-gij-self-managed)
+
+[Adding a public SSH Key](/git-integration-for-jira-data-center/adding-a-public-ssh-key-gij-self-managed)
+
+[SSH keys configuration](/git-integration-for-jira-data-center/ssh-keys-configuration-gij-self-managed)
+
+[Adding and associating SSH keys](/git-integration-for-jira-data-center/adding-and-associating-ssh-keys-gij-self-managed)
+
+[Removing SSH keys](/git-integration-for-jira-data-center/removing-ssh-keys-gij-self-managed)
+
+[Reconfigure Git repositories and SSH keys](/git-integration-for-jira-data-center/reconfigure-git-repositories-and-ssh-keys-gij-self-managed)
+
 

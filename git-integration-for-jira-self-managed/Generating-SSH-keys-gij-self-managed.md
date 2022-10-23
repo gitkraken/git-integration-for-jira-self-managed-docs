@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 Configure and generate SSH keys for the following git hosting systems by following the reference links on each sub-section:
 
 ## Beanstalk
@@ -34,6 +35,7 @@ Configure and generate SSH keys for the following git hosting systems by followi
     </div>
     </div>
 </div>
+<br>
 
 *   For information about Gerrit software, see [Gerrit Software Wiki](http://en.wikipedia.org/wiki/Gerrit_(software)) and [Gerrit at Code Review](https://code.google.com/p/gerrit/).
 
@@ -65,6 +67,7 @@ Configure and generate SSH keys for the following git hosting systems by followi
     </div>
     </div>
 </div>
+<br>
 
 See GitHub supported platforms for generating SSH keys by following [this article](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
@@ -78,7 +81,7 @@ See GitHub supported platforms for generating SSH keys by following [this articl
 
 Follow the above GitLab references for GitLab CE/EE. Then verify that your GitLab server should have the following SSH settings:
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930396609/gitlab-server-ssh-settings(c).png?version=1&modificationDate=1630642801142&cacheVersion=1&api=v2&width=680&height=471)
+![](/wp-content/uploads/gij-gitlab-server-ssh-settings-c.png)
 
 *   Enabled Git access protocols -- **Both SSH and HTTP(s)**
 
@@ -130,4 +133,34 @@ Other SSH key formats may be supported by Git Integration for Jira app, but pref
     </div>
 </div>
 <br>
+
+<br>
+<br>
+
+[**Prev:** Working with SSH keys (index)](/git-integration-for-jira-data-center/working-with-ssh-keys-gij-self-managed)
+
+[**Next:** Adding a private SSH key](/git-integration-for-jira-data-center/adding-a-private-ssh-key-gij-self-managed)
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+[Working with SSH keys (index)](/git-integration-for-jira-data-center/working-with-ssh-keys-gij-self-managed)
+
+**Generating SSH keys** (this page)
+
+[Adding a private SSH key](/git-integration-for-jira-data-center/adding-a-private-ssh-key-gij-self-managed)
+
+[Adding a public SSH Key](/git-integration-for-jira-data-center/adding-a-public-ssh-key-gij-self-managed)
+
+[SSH keys configuration](/git-integration-for-jira-data-center/ssh-keys-configuration-gij-self-managed)
+
+[Adding and associating SSH keys](/git-integration-for-jira-data-center/adding-and-associating-ssh-keys-gij-self-managed)
+
+[Removing SSH keys](/git-integration-for-jira-data-center/removing-ssh-keys-gij-self-managed)
+
+[Reconfigure Git repositories and SSH keys](/git-integration-for-jira-data-center/reconfigure-git-repositories-and-ssh-keys-gij-self-managed)
+
 
