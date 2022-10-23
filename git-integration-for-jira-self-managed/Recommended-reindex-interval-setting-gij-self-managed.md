@@ -6,7 +6,8 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-The configuration of the scheduler jobs are no longer accessible in the Jira administration page. For this case, the Git Integration for Jira app offers Jira administrators this capability via the [General settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed/) page.
+
+The configuration of the scheduler jobs are no longer accessible in the Jira administration page. For this case, the Git Integration for Jira app offers Jira administrators this capability via the [General settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed) page.
 
 <div class="bbb-callout bbb--note">
     <div class="irow">
@@ -15,12 +16,12 @@ The configuration of the scheduler jobs are no longer accessible in the Jira adm
     </div>
     <div class="imsgbox">
         <b>VERSION 3.7+</b><br>
-        The <b><i>Repository reindexing</i></b> and <b><i>Garbage collection and revision validation checkers</i></b> settings are now moved into the <a href='/git-integration-for-jira-data-center/scheduled-jobs-gij-self-managed/'><b>Scheduled Jobs</b></a> settings group.
+        The <b><i>Repository reindexing</i></b> and <b><i>Garbage collection and revision validation checkers</i></b> settings are now moved into the <a href='/git-integration-for-jira-data-center/scheduled-jobs-gij-self-managed'><b>Scheduled Jobs</b></a> settings group.
     </div>
     </div>
 </div>
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930396353/gitserver-gencfg-scheduled-jobs-repo-ridx-cfg.png?version=1&modificationDate=1630642790933&cacheVersion=1&api=v2&width=680&height=269)
+![](/wp-content/uploads/gij-gitserver-gencfg-scheduled-jobs-repo-ridx-cfg.png)
 
 Set the automatic reindex interval frequency value in minutes as required. The default value is **5** minutes.  Min = **1**, Max = **76,861,433,640,456**.
 
@@ -28,16 +29,19 @@ Regardless of the time to index, the reindex interval is the amount of time betw
 
 Improving Jira performance depends on the duration value of the _RevisionIndexJob_. To see the `Last run duration` value, do the following steps:
 
-1.  Go to Jira Administration ➜ **System**.
+1.  Go to <img src='/wp-content/uploads/actions-icon.png' /> Jira Administration ➜ **System**.
 
 2.  On the sidebar, select **Scheduler details**.
 
 3.  Scroll to `com.xiplink.jira.git.revisions.RevisionIndexJob`.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930396353/ira-system-sched-details-revidxjob-item(c).png?version=1&modificationDate=1630642790449&cacheVersion=1&api=v2&width=646&height=163)
+    ![](/wp-content/uploads/gij-ira-system-sched-details-revidxjob-item-c.png)
+
 4.  Click **Show more** under the Actions column.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930396353/jira-system-sched-details-revisionindexjob(c).png?version=1&modificationDate=1630642790693&cacheVersion=1&api=v2&width=646&height=202)
+    ![](/wp-content/uploads/gij-jira-system-sched-details-revisionindexjob-c.png)
+
+<br>
 
 If the `Last run duration` value shows `3 minutes` _or greater_, we recommend to increase the reindex interval.
 
@@ -51,4 +55,47 @@ If the `Last run duration` value shows `3 minutes` _or greater_, we recommend 
     </div>
     </div>
 </div>
+<br>
+
+<br>
+<br>
+
+[**Prev:** Reindex API to trigger indexing](/git-integration-for-jira-data-center/reindex-api-to-trigger-indexing-gij-self-managed)
+
+[**Next:** Setting up web linking](/git-integration-for-jira-data-center/setting-up-web-linking-gij-self-managed)
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+## More related articles on Git for Jira administrators
+
+[Setup GitLab Server to respond to incoming network API calls](/git-integration-for-jira-data-center/setup-gitLab-server-to-respond-to-incoming-network-API-calls-gij-self-managed)
+
+[New GitLab v10+ authentication](/git-integration-for-jira-data-center/New-GitLab-v10-authentication-gij-self-managed)
+
+[General settings: Improving Jira performance](/git-integration-for-jira-data-center/general-settings-Improving-Jira-performance-gij-self-managed)
+
+[Adding a repository hosted on Windows Servers or Windows Network Share (Admins)](/git-integration-for-jira-data-center/adding-a-repository-hosted-on-windows-servers-or-windows-network-share-(admins)-gij-self-managed)
+
+[Setting up repository root not located in Jira Home directory (Admins)](/git-integration-for-jira-data-center/setting-up-repository-root-not-located-in-Jira-Home-directory-(admins)-gij-self-managed)
+
+[Reindex API to trigger indexing](/git-integration-for-jira-data-center/reindex-API-to-trigger-indexing-gij-self-managed)
+
+**Recommended reindex interval setting** (this page)
+
+[Setting up web linking](/git-integration-for-jira-data-center/setting-up-web-linking-gij-self-managed)
+
+[Setting up webhooks](/git-integration-for-jira-data-center/setting-up-webhooks-gij-self-managed)
+
+[Increasing timeout threshold for large repositories while doing a Git pull](/git-integration-for-jira-data-center/increasing-timeout-threshold-for-large-repositories-while-doing-a-git-pull-gij-self-managed)
+
+[Working with Tracked folders](/git-integration-for-jira-data-center/working-with-Tracked-folders-gij-self-managed)
+
+[Recommended upgrade method for Git Integration for Jira](/git-integration-for-jira-data-center/recommended-upgrade-method-for-git-integration-for-jira-gij-self-managed)
+
+[Discard cloned files in Jira Home directory (General setting)](/git-integration-for-jira-data-center/discard-cloned-files-in-Jira-Home-directory-(general-setting)-gij-self-managed)
+
 
