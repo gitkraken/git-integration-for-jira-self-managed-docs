@@ -28,6 +28,9 @@ Before you can add new repository configuration via bulk change, you need to dow
 
 <br>
 <br>
+<hr>
+<br>
+<br>
 
 [**Prev:** Import existing repositories via Bulk change](/git-integration-for-jira-data-center/import-existing-repositories-via-bulk-change-gij-self-managed)
 

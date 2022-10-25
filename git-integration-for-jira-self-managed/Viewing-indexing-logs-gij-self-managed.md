@@ -8,19 +8,18 @@ taxonomy:
 ---
 Click <img src='/wp-content/uploads/actions-icon.png' />&nbsp; Actions ➜ **View log** for the selected integration or repository on the manage repositories configuration list.
 
-![](/wp-content/uploads/gij-gitserver-view-logs-actions.png)
+<img src='/wp-content/uploads/gij-gitserver-view-logs-actions.png' style='display:block;margin:25px auto;max-width:100%' />
 
 The following dialog is displayed. For example:
 
-![](/wp-content/uploads/gij-gitserver-view-logs-dialog.png)
+<img src='/wp-content/uploads/gij-gitserver-view-logs-dialog.png' style='display:block;margin:25px auto;max-width:100%' />
 
 
 You can send this log to [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com) for further analysis.
 
-<br>
-<br>
+<p>&nbsp;</p>
 
-[Prev: Viewing integration or repository properties](/git-integration-for-jira-data-center/view-integration-or-repository-properties-gij-self-managed)
+[**Prev:** Viewing integration or repository properties](/git-integration-for-jira-data-center/view-integration-or-repository-properties-gij-self-managed)
 
-[Next: Removing integration or repository configuration](/git-integration-for-jira-data-center/removing-integration-or-repository-configuration-gij-self-managed)
+[**Next:** Removing integration or repository configuration](/git-integration-for-jira-data-center/removing-integration-or-repository-configuration-gij-self-managed)
 

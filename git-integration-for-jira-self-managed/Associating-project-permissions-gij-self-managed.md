@@ -25,7 +25,7 @@ This feature is displayed on the following locations:
 
 <br>
 
-![](/wp-content/uploads/gij-gitserver-edit-feature-cfg-proj-acls.png)
+<img src='/wp-content/uploads/gij-gitserver-edit-feature-cfg-proj-acls.png' style='display:block;margin:25px auto;max-width:100%' />
 
 **Restrict to projects**  –  One or more projects can be mapped to this repository or integration to make Git Commits tabs available in the Issue pages of the associated projects. Disable _**Associate with all projects**_ option to gain access to this field.
 
@@ -41,7 +41,7 @@ There are several types of project permission levels, namely:
     <iframe width='709' height='533' src='https://fast.wistia.com/embed/iframe/xvzj32nxou?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center' style='margin-top:10px'>
+<div align='center' style='margin-top:10px;margin-bottom:30px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/xvzj32nxou'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 <br>
@@ -67,7 +67,7 @@ The same process can also be applied for single repository connections in Jira C
     <iframe width='709' height='533' src='https://fast.wistia.com/embed/iframe/rnm5t639cz?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center' style='margin-top:10px'>
+<div align='center' style='margin-top:10px;margin-bottom:30px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/rnm5t639cz'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
@@ -92,9 +92,10 @@ The same process can also be applied for integration connections in Jira Cloud -
     <iframe width='709' height='533' src='https://fast.wistia.com/embed/iframe/rnm5t639cz?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center' style='margin-top:10px'>
+<div align='center' style='margin-top:10px;margin-bottom:30px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/fder2qnpgw'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
+<br>
 
 You can configure the project permissions for repositories within integration:
 
@@ -110,10 +111,9 @@ You can configure the project permissions for repositories within integration:
 
 6.  Click **Update** to save the settings.
 
-<br>
-<br>
+<p>&nbsp;</p>
 
-[Prev: Managing integration or repository configuration](/git-integration-for-jira-data-center/managing-integration-or-repository-configuration-gij-self-managed)
+[**Prev:** Managing integration or repository configuration](/git-integration-for-jira-data-center/managing-integration-or-repository-configuration-gij-self-managed)
 
-[Next: Bulk change](/git-integration-for-jira-data-center/bulk-change-gij-self-managed)
+[**Next:** Bulk change](/git-integration-for-jira-data-center/bulk-change-gij-self-managed)
 

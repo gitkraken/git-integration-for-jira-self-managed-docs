@@ -7,6 +7,35 @@ taxonomy:
 
 ---
 
+**What's on this page:**
+- [Introduction](#introduction)
+- [Getting started](#getting-started)
+- [Advanced setup](#advanced-setup)
+  - [Display Name](#display-name)
+  - [Cloned Repository Root](#cloned-repository-root)
+  - [Repository Settings](#repository-settings)
+    - [Enable Fetches](#enable-fetches)
+    - [Repository Origin](#repository-origin)
+    - [Main Branch](#main-branch)
+  - [Use HTTP(S) authentication](#use-https-authentication)
+  - [SSL Verify and TrustFolderStat](#ssl-verify-and-trustfolderstat)
+  - [Repository Settings: Advanced](#repository-settings-advanced)
+  - [Repository Browser](#repository-browser)
+  - [Tags](#tags)
+  - [Project Permissions](#project-permissions)
+  - [Commit view options](#commit-view-options)
+    - [Source Code Diff Viewing](#source-code-diff-viewing)
+    - [Smart Commits](#smart-commits)
+    - [Commit Notification Emails](#commit-notification-emails)
+  - [Web Linking](#web-linking)
+  - [Completing setup](#completing-setup)
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
 <div class="bbb-callout bbb--alert">
     <div class="irow">
     <div class="ilogobox">
@@ -59,7 +88,7 @@ This is the local path to the repository on the server where your Jira service i
 
 ## Repository Settings
 
-![](/wp-content/uploads/gij-gitserver-advcfg-02.png)
+<img src='/wp-content/uploads/gij-gitserver-advcfg-02.png' style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 
@@ -85,6 +114,7 @@ Fetches are enabled when the repository is hosted locally. In this mode, no fetc
     </div>
     </div>
 </div>
+<br>
 
 The detection works for most repositories. If a repository root points to a valid git repository, the repository origin is detected automatically. When a repository has no origin, the user has to specify it manually.
 
@@ -100,7 +130,7 @@ When editing or updating repository settings, this field will allow a user to se
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <br>Default Main Branch</b><br>
+        <br><b>Default Main Branch</b><br>
         Most git integrations allow changing of the default branch of the repository/project other than <code>master</code> at the server level. On each reindex, the Git Integration for Jira app will check/update the main branch value. This change is reflected in the Repository Settings. In the case of Gerrit, the default main branch is always <code>master</code>.
     </div>
     </div>
@@ -115,7 +145,7 @@ Most git hosts provide HTTP access to git repositories. If this connection requi
 
 ## SSL Verify and TrustFolderStat
 
-![](/wp-content/uploads/gij-gitserver-advcfg-04.png)
+<img src='/wp-content/uploads/gij-gitserver-advcfg-04.png' style='display:block;margin:25px auto;max-width:100%' />
 
 **SSL Verify**<br>
 This option is set to `Enabled` by default. If set to `Disabled`, the Git Integration for Jira app will ignore verification of SSL certificates when connecting to a git server.
@@ -130,6 +160,7 @@ This option is set to `Enabled` by default. If set to `Disabled`, the Git Inte
     </div>
     </div>
 </div>
+<br>
 
 **TrustFolderStat**<br>
 When this setting is set to `False`, the `.git/objects/pack` folder will be always scanned to check for new pack files. If set to `True`, the `last-modified` attribute of the folder will be used instead to check the folder for modifications.
@@ -168,7 +199,7 @@ The default setting for Jira Server is `True`. For Jira Data Center, it would b
 This option turns on the memory cache which is used when list of commits are displayed. Select if revision indexing will index and link to any mentioned issue keys in the revision history or not.
 
 **Fetch refspec**<br>
-Git refspecs contains patterns mapped as references from the remote to the local repository. The first two refspec options are required. The rest of the options are optional. For more information, see [**Git Internals – The Refspec**](https://git-scm.com/book/en/v2/Git-Internals-The-Refspec).
+Git refspecs contains patterns mapped as references from the remote to the local repository. The first two refspec options are required. The rest of the options are optional. For more information, see <a href='https://git-scm.com/book/en/v2/Git-Internals-The-Refspec' target='_blank'><b>Git Internals – The Refspec</b></a>.
 
 ## Repository Browser
 
@@ -190,7 +221,7 @@ This will display tags on issue pages that match the specified regular expressio
 release2[.](7|8)[.][0-9]+
 ```
 
-This example is a filtering regexp for a range of releases from 2.7.x to 2.8.x. The sidebar will display git tags for release versions 2.7.0 to 2.8.x in decending order.
+This example is a filtering regexp for a range of releases from **2.7.x** to **2.8.x**. The sidebar will display git tags for release versions 2.7.0 to 2.8.x in decending order.
 
 ## Project Permissions
 
@@ -258,10 +289,9 @@ Click **Add** to save the settings. The newly added repository appears on the
 
 Repositories created via the _**Advanced setup**_ will perform an initial reindex.
 
-<br>
-<br>
+<p>&nbsp;</p>
 
-[Prev: Using the Connect Repository wizard](/git-integration-for-jira-data-center/using-the-connect-repository-wizard-gij-self-managed)
+[**Prev:** Using the Connect Repository wizard](/git-integration-for-jira-data-center/using-the-connect-repository-wizard-gij-self-managed)
 
-[Next: Adding a repository hosted on Windows Server or Windows Network share](/git-integration-for-jira-data-center/adding-a-repository-hosted-on-windows-server-or-windows-network-share-gij-self-managed)
+[**Next:** Adding a repository hosted on Windows Server or Windows Network share](/git-integration-for-jira-data-center/adding-a-repository-hosted-on-windows-server-or-windows-network-share-gij-self-managed)
 

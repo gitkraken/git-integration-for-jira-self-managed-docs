@@ -16,7 +16,7 @@ On the **Manage Git Repositories** page, click the <img src='/wp-content/uploa
 
 This action will open the **Integration** or **Tracked Folder** dialog showing the integration/tracked repositories:
 
-![](/wp-content/uploads/gij-show-integration-repositories-dlg-n.png)
+<img src='/wp-content/uploads/gij-show-integration-repositories-dlg-n.png' style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 
@@ -34,7 +34,6 @@ In the filter field at the top right, enter a character or a name to display rep
     </div>
     </div>
 </div>
-<br>
 
 <div class="bbb-callout bbb--note">
     <div class="irow">
@@ -48,11 +47,10 @@ In the filter field at the top right, enter a character or a name to display rep
 </div>
 <br>
 
-<br>
-<br>
+<p>&nbsp;</p>
 
-[Prev: Managing integrations via Actions](/git-integration-for-jira-data-center/managing-integrations-via-actions-gij-self-managed)
+[**Prev:** Managing integrations via Actions](/git-integration-for-jira-data-center/managing-integrations-via-actions-gij-self-managed)
 
-[Next: Edit integration connection settings](/git-integration-for-jira-data-center/edit-integration-connection-settings-gij-self-managed)
+[**Next:** Edit integration connection settings](/git-integration-for-jira-data-center/edit-integration-connection-settings-gij-self-managed)
 
 

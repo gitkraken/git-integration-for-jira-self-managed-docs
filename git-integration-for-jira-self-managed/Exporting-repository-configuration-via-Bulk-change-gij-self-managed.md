@@ -23,6 +23,9 @@ For detailed instructions on importing multiple repositories into the Git Integr
 
 <br>
 <br>
+<hr>
+<br>
+<br>
 
 [**Prev:** Bulk change (index)](/git-integration-for-jira-data-center/bulk-change-gij-self-managed)
 
@@ -45,4 +48,5 @@ For detailed instructions on importing multiple repositories into the Git Integr
 [Removing existing repositories via Bulk change](/git-integration-for-jira-data-center/removing-existing-repositories-via-bulk-change-gij-self-managed)
 
 [Bulk change (index)](/git-integration-for-jira-data-center/bulk-change-gij-self-managed)
+
 

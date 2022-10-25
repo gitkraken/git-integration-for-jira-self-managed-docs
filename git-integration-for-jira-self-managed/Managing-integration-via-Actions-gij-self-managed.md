@@ -27,6 +27,7 @@ Immediately starts the synchronization with the selected repository.
     </div>
     </div>
 </div>
+<br>
 
 ### Edit repository settings
 
@@ -122,9 +123,11 @@ Opens a dialog showing the indexing log of the selected integration. |
 
 The tracked folder and auto-connect integrations can be configured using the following methods:
 
-*   **Integration** _level_  –  Click  <img src='https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/2699.png' width=20 height=20 /> Actions ➜ **Edit integration connection settings**. This will open the settings for the selected integration.
+*   **Integration** _level_  –  Click  <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit integration connection settings**. This will open the settings for the selected integration.
 
-*   **Repository** _level_  –  Click  <img src='https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/2699.png' width=20 height=20 /> Actions ➜ **Show integration repositories**. Click a repository from the list to open the settings for the selected repository.
+*   **Repository** _level_  –  Click  <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Show integration repositories**. Click a repository from the list to open the settings for the selected repository.
+
+<br>
 
 ## GitHub App integration
 
@@ -169,10 +172,9 @@ Disconnects the selected GHA integration and removes its settings from the Git I
 
 Opens a dialog showing the indexing log of the selected GHA integration.
 
-<br>
-<br>
+<p>&nbsp;</p>
 
-[Prev: Managing repository or integration configuration](/git-integration-for-jira-data-center/managing-repository-or-integration-configuration-gij-self-managed)
+[**Prev:** Managing repository or integration configuration](/git-integration-for-jira-data-center/managing-repository-or-integration-configuration-gij-self-managed)
 
-[Next: Show tracked or integration repositories](/git-integration-for-jira-data-center/show-tracked-or-integration-repositories-gij-self-managed)
+[**Next:** Show tracked or integration repositories](/git-integration-for-jira-data-center/show-tracked-or-integration-repositories-gij-self-managed)
 
