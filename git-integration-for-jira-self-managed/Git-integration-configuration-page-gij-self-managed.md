@@ -95,7 +95,7 @@ For more information, see [Bulk change](/git-integration-for-jira-data-center/b
 
 **Reindex all integrations** &nbsp;&ndash;&nbsp; this function will perform a reindex queue of all integrations in the repository list. Disabled integrations are ignored.
 
-<b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE &mdash; VERSION 4.7+</b><br> **Reset all indexes** &nbsp;&ndash;&nbsp; Jira administrator can start the reset index process for all repositories using "Reset all" in the "Indexing" dropdown menu on the "Manage Git Integrations for Jira" page.
+<b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>NEW FEATURE &mdash; VERSION 4.7+</b><br> **Reset all indexes** &nbsp;&ndash;&nbsp; Jira administrator can start the reset index process for all repositories using "Reset all" in the "Indexing" dropdown menu on the "Manage Git Integrations for Jira" page.
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -198,11 +198,10 @@ For more information about this topic, click [here](/git-integration-for-jira-d
 <br>
 
 <br>
-
-[Prev: Setting up repositories](/git-integration-for-jira-data-center/setting-up-repositories-gij-self-managed)
-
-[Next: Using the Add new integration wizard](/git-integration-for-jira-data-center/using-the-add-new-integration-wizard-gij-self-managed)
-
 <br>
-<br>
+
+[**Prev:** Setting up repositories](/git-integration-for-jira-data-center/setting-up-repositories-gij-self-managed)
+
+[**Next:** Using the Add new integration wizard](/git-integration-for-jira-data-center/using-the-add-new-integration-wizard-gij-self-managed)
+
 

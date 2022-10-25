@@ -25,7 +25,7 @@ Integrate your git repositories via the Git Integration for Jira app in Jira Ser
 
 After the installation, the Git Integration for Jira app repository configuration page can be accessed via:
 
-**JIRA SERVER \| DATA CENTER**
+<b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>JIRA SERVER</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>DATA CENTER</b>
 
 *   Jira dashboard menu Git ➜ **Manage repositories; or**
 
@@ -33,12 +33,16 @@ After the installation, the Git Integration for Jira app repository configuratio
 
 *   Jira dashboard menu Jira Administration ➜ **Applications**; left sidebar _Git Integration for Jira_ ➜ **Git repositories**
 
-    ![](/wp-content/uploads/gij-gitserver-gitmgr-access-location-02.png))
+    ![](/wp-content/uploads/gij-gitserver-gitmgr-access-location-02.png)
 
 <br>
-
-<div style='text-align:right;margin-top:20px'>
-    <a href='/git-integration-for-jira-data-center/git-integration-configuration-page-gij-self-managed'>Git integration configuration page »</a>
-</div>
 <br>
+<hr>
+<br>
+<br>
+
+[**Prev:** Git URL ports](/git-integration-for-jira-data-center/git-url-ports-gij-self-managed)
+
+[**Next:** Git integration configuration page](/git-integration-for-jira-data-center/git-integration-configuration-page-gij-self-managed)
+
 

@@ -26,10 +26,9 @@ Navigate to the Manage repositories page.
 
 ![](/wp-content/uploads/gij-gitserver-gitmgr-connect2git-sel.png)
 
-<div align='center' style='margin-top:10px'>
+<div align='center' style='margin-top:10px;margin-bottom:30px;'>
     <b>Figure 1:</b> Connect wizard start screen.
 </div>
-<br>
 
 To start integrating a plain git repository, follow the steps below:
 
@@ -61,9 +60,9 @@ To start integrating a plain git repository, follow the steps below:
     </div>
     <div class="imsgbox">
         Do note that the Connect wizard <b>clones the remote repository by default</b>. It does not clone local repositories. For local repositories, the `root` is set to local path and fetches are disabled.
-        <p style='margin-bottom:0 !important'>
-            Starting <b>v2.6.7+</b> of the Git Integration for Jira app, the default identities are not used and the repository is created without the additional key upload.
-        </p>
+        <div style='margin-top:6px; margin-bottom:0px !important;'>
+            The default identities are not used and the repository is created without the additional key upload.
+        </div>
     </div>
     </div>
 </div>
@@ -86,7 +85,7 @@ In the **Settings** screen, you can configure features such as [Smart Commits
 
 ![](/wp-content/uploads/gij-connect-git-wizard-cfg-screen.png)
 
-<div align='center' style='margin-top:10px'>
+<div align='center' style='margin-top:10px;margin-bottom:30px;'>
     <b>Figure 2:</b> Settings screen at the end of the Connect wizard.
 </div>
 <br>
@@ -112,7 +111,7 @@ The level of permissions can be one of the following:
         <tr valign='baseline'>
             <td><b>Repository</b></td>
             <td>
-                <div>Select a repository from the repository list. For repositories inside integrations, view the integration then select a repository within <i>(<img  src='/wp-content/uploads/actions-icon.png' width=20 height=20 /> Actions ➜ Show integration repositories)</i>. After the selection, you will be taken to the repository properties.</div>
+                <div>Select a repository from the repository list. For repositories inside integrations, view the integration then select a repository within <i>(<img  src='/wp-content/uploads/actions-icon.png' /> Actions ➜ Show integration repositories)</i>. After the selection, you will be taken to the repository properties.</div>
                 <p>Set the <b>Project Permissions</b> as follows:</p>
                 <ol style='margin-bottom:0 !important'>
                     <li>Uncheck the <b>Associate with all projects</b> option.</li>
@@ -125,7 +124,7 @@ The level of permissions can be one of the following:
             <td valign='baseline'><b>Integration</b></td>
             <td>
                 <div>
-                    Select an integration from the repository list then open the integration feature properties <i>(<img src='/wp-content/uploads/actions-icon.png' width=20 height=20 /> Actions ➜ Edit integration feature settings)</i>.
+                    Select an integration from the repository list then open the integration feature properties <i>(<img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ Edit integration feature settings)</i>.
                 </div>
                 <p>Set the <b>Project Permissions</b> as follows:</p>
                 <ol style='margin-bottom:0 !important'>
@@ -164,7 +163,7 @@ If the entered git clone URL requires HTTP credentials, the following screen app
 
 ![](/wp-content/uploads/gij-connect-git-wizard-auth-scr-http-n.png)
 
-<div align='center' style='margin-top:10px'>
+<div align='center' style='margin-top:10px;'>
     <i><b>Figure 3:</b> HTTP authentication screen in the Connect wizard.</i>
 </div>
 <br>
@@ -205,7 +204,7 @@ Upload the private key file by clicking **Choose File** and navigate to the pr
     </div>
     <div class="imsgbox">
         For establishing safety connection with SSH, upload a public Key to the SSH server and set the private Key to the SSH client.
-        <p style='margin-bottom:0 !important'>
+        <div style='margin-top:6px;margin-bottom:0 !important'>
             Take note that the SSH server is the Git server and the SSH client is the Jira server.
         </div>
     </div>
@@ -229,11 +228,11 @@ Click **Next** to proceed.
 
 If the generated SSH key pair has a passphrase, you will see the following screen:
 
-<img src='/wp-content/uploads/gij-connect-git-wizard-auth-scr-pass.png' width=442 height=254 style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-connect-git-wizard-auth-scr-pass.png' width=442 height=254 style='display:block;margin:25px auto 10px auto;max-width:100%' />
 
 <div align='center'>
-    <b>Figure 4:</b> SSH authentication screen in the Connect wizard.</div>
-<br>
+    <b>Figure 4:</b> SSH authentication screen in the Connect wizard.
+</div>
 <br>
 
 Enter the _**Passphrase**_ for your private key. Click **Next** to continue.
@@ -275,9 +274,9 @@ This completes the setup and the newly added repository appears on the integrati
 <br>
 <br>
 
-[](/git-integration-for-jira-data-center/using-the-add-new-integration-wizard-gij-self-managed)
+[**Prev:** Using the Add new integration wizard](/git-integration-for-jira-data-center/using-the-add-new-integration-wizard-gij-self-managed)
 
-[](/git-integration-for-jira-data-center/connecting-a-repository-via-advanced-setup-gij-self-managed)
+[**Next:** Connecting a repository via Advanced setup](/git-integration-for-jira-data-center/connecting-a-repository-via-advanced-setup-gij-self-managed)
 
 <br>
 <br>

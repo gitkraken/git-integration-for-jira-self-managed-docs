@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 The **Repository Browser** allows users to view git repositories of configured projects via the **Git** menu on the Jira dashboard or on the **Applications** sidebar.
 
 ## Getting started
@@ -33,15 +34,15 @@ The **Repository Browser** allows users to view git repositories of configured
         <div class='nextpara'>
             The <b>Git</b> header is hidden for all users if there are no repositories with Repository Browser enabled for that user. The Git Integration for Jira app will always show the <b>Git</b> header to Jira administrators.
         </div>
-        <p style='margin-bottom:0 !important'>
+        <div class='nextpara' style='margin-bottom:0px !important'>
             The <b>Git</b> header is visible to other users who have repositories with Repository Browser enabled and have no history of using the Repository Browser (<i>for example -- no previously viewed or repositories set as favorite</i>).
-        </p>
+        </div>
     </div>
     </div>
 </div>
 <br>
 
-<img src='/wp-content/uploads/gij-gitserver-gitmenu-repo-browser.png' width=163 height=111 />
+<img src='/wp-content/uploads/gij-gitserver-gitmenu-repo-browser.png' width=163 height=111 style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 
@@ -49,13 +50,13 @@ The **Repository Browser** allows users to view git repositories of configured
 
 Available git repositories of configured projects are displayed.
 
-![Repository browser screen showing list of connected repositories, recent issue, last updated by, last commit and personal access (if require PAT setting is enabled).](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398598/gitserver-repo-browser-view.png?version=1&modificationDate=1630642896363&cacheVersion=1&api=v2&width=680&height=404)
+![Repository browser screen showing list of connected repositories, recent issue, last updated by, last commit and personal access (if require PAT setting is enabled).](/wp-content/uploads/gij-gitserver-repo-browser-view.png)
 
 *   Use the search bar to search and filter the Repositories list.
 
 *   On the list table, you will see git repositories, recent issues updated by the user, and the last commits made.
 
-*   The personal access token configuration column (_Pers. Access_) displays the PAT setup option if require user pat setting is enabled). Click the <img src='/wp-content/uploads/gij-edit-icon-dark.png' width=20 height=20 /> edit icon to setup PAT to allow branch and PR/MR creation functions via [Jira Git integration development panel](/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed/). The adjacent checkmark indicates a PAT has already been configured.
+*   The personal access token configuration column (_Pers. Access_) displays the PAT setup option if require user pat setting is enabled). Click the <img src='/wp-content/uploads/gij-edit-icon-dark.png' /> edit icon to setup PAT to allow branch and PR/MR creation functions via [Jira Git integration development panel](/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed). The adjacent checkmark indicates a PAT has already been configured.
 
 *   On the bottom left of the list, the view options control how many rows the list will display. The default view is 10 rows. Larger row view affects page loading time.
 
@@ -66,7 +67,7 @@ Available git repositories of configured projects are displayed.
 
 Click a git repository under Git repository column to browse its contents and switch to repository view. For example:
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398598/repo-browser-repo-view(c).png?version=1&modificationDate=1630642897794&cacheVersion=1&api=v2&width=646&height=365)
+<img src='/wp-content/uploads/gij-repo-browser-repo-view-c.png' style='display:block;margin:25px auto;max-width:100%' />
 
 *   Clicking **Repositories** at the top right of the screen will open the git app repositories page.
 
@@ -89,7 +90,7 @@ Click a git repository under Git repository column to browse its contents and sw
     </div>
     <div class="imsgbox">
         <b>Commit revisions</b><br>
-        The revisions of the commits are displayed on the Repository Browser in addition to branches and tags. See <a href='/git-integration-for-jira-data-center/viewing-list-of-commits-in-repository-browser-gij-self-managed/'>Repository Browser - Git Commits tab</a> for detailed information.
+        The revisions of the commits are displayed on the Repository Browser in addition to branches and tags. See <a href='/git-integration-for-jira-data-center/viewing-list-of-commits-in-repository-browser-gij-self-managed'>Repository Browser - Git Commits tab</a> for detailed information.
     </div>
     </div>
 </div>
@@ -112,7 +113,7 @@ Click a git repository under Git repository column to browse its contents and sw
     </div>
     <div class="imsgbox">
         <b>Administration</b><br>
-        Administrators can turn off the Repository Browser via &nbsp;<img src='https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/2699.png' width=20 height=20 /> Actions ➜ **Edit repository settings** in the Git Integration for Jira app configuration.
+        Administrators can turn off the Repository Browser via &nbsp;<img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ <b>Edit repository settings</b> in the Git Integration for Jira app configuration.
     </div>
     </div>
 </div>
@@ -128,4 +129,13 @@ Click a git repository under Git repository column to browse its contents and sw
     </div>
     </div>
 </div>
+<br>
+
+<br>
+<br>
+
+[**Prev:** Smart commits](/git-integration-for-jira-data-center/smart-commits-gij-self-managed)
+
+[**Next:** Viewing list of commits via Repository Browser](/git-integration-for-jira-data-center/viewing-list-of-commits-in-repository-browser-gij-self-managed)
+
 
