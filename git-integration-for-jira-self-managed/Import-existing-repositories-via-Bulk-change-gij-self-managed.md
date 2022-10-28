@@ -27,6 +27,9 @@ Make the required changes to correct the errors on the affected rows and redo th
 
 <br>
 <br>
+<hr>
+<br>
+<br>
 
 [**Prev:** Requirement for secured import](/git-integration-for-jira-data-center/requirement-for-secured-import-gij-self-managed)
 

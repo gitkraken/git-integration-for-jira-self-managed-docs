@@ -10,11 +10,12 @@ The Git Roll Up tab now allows users to view the code diff between the base and 
 
 Open an issue then go to the Git Roll Up tab to view commit statistics, diffs and related issues.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398901/jira-issue-git-rollup-summary.png?version=1&modificationDate=1630642911973&cacheVersion=1&api=v2&width=680&height=505)
+<img src='/wp-content/uploads/gij-jira-issue-git-rollup-summary.png' width=680 height=505 style='display:block;margin:25px auto;max-width:100%' />
 
 The **Summary** page shows statistical information of the first and last revision of the commits and the time since the last commit was made. A summary of the files, lines and the developers who made the changes in this range of commits are also displayed.
 
 ### Git Compare
+
 The git commit compare function (_Repository Browser - Compare_) is added into this tab:
 
 *   To view a compare result, set the **base:** and the **compare:** dropdown selectors with different values.
@@ -32,11 +33,11 @@ The git commit compare function (_Repository Browser - Compare_) is added into t
 
 *   To view list of unique Jira issues related to commits, click **Issues** on the left panel.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930398901/jira-issue-git-rollup-issues(c).png?version=1&modificationDate=1630642912212&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-jira-issue-git-rollup-issues-c.png)
 
 *   On the **Issues** tab, clicking the **View in Issue Navigator** text label will open the Search page with passed query of a list of Jira issues found based from the compare criteria.
 
-*   For example, the JQL will look like `issuekey in (GIT-1851, GIT-1159, GITCL-284, GITCL-254)`. |
+*   For example, the JQL will look like `issuekey in (GIT-1851, GIT-1159, GITCL-284, GITCL-254)`.
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -52,15 +53,15 @@ The git commit compare function (_Repository Browser - Compare_) is added into t
 
 Sort the code statistics by clicking the respective **Sort** button then selecting the required sorting option.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930398901/git-rollup-01.png?version=1&modificationDate=1630642912699&cacheVersion=1&api=v2)
+<img src='/wp-content/uploads/gij-git-rollup-01.png' style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 
 Select roll up options by clicking the respective **Rollup** button.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930398901/git-rollup-02.png?version=1&modificationDate=1630642912929&cacheVersion=1&api=v2)
+<img src='/wp-content/uploads/gij-git-rollup-02.png' style='display:block;margin:25px auto;max-width:100%' />
 
-
+<br>
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -72,4 +73,14 @@ Select roll up options by clicking the respective **Rollup** button.
     </div>
     </div>
 </div>
+
+<p>&nbsp;</p>
+
+<br>
+<br>
+
+[**Prev:** Jira issue page](/git-integration-for-jira-data-center/jira-issue-page-gij-self-managed)
+
+[**Next:** Git Commits tab](/git-integration-for-jira-data-center/git-commits-tab-gij-self-managed)
+
 

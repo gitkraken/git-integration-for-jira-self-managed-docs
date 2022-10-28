@@ -16,6 +16,7 @@ To create a link between your Git commit and a Jira issue, developers must inclu
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/7kj43knu4m'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 <br>
+<br>
 
 Commits are selected by issue key. Developers should add them to comments every time the commits are made.
 
@@ -31,7 +32,7 @@ Commits are selected by issue key. Developers should add them to comments every
 </div>
 <br>
 
-![](/wp-content/uploads/gij-gitserver-jira-issue-git-commits-tab-view.png)
+<img src='/wp-content/uploads/gij-gitserver-jira-issue-git-commits-tab-view.png' style='display:block;margin:25px auto;max-width:100%' />
 
 <div align='center'>
     <i>Example Git commit message: "<b>GIT-4322 - Updated the plugin …</b>".<br>
@@ -88,6 +89,8 @@ There are two scenarios related to the rename/move:
 </div>
 <br>
 
+<p>&nbsp;</p>
+
 <br>
 
 [**Prev:** Disabling Source and Commits tabs](/git-integration-for-jira-data-center/disabling-source-and-commits-tabs-gij-self-managed)
@@ -95,7 +98,9 @@ There are two scenarios related to the rename/move:
 [**Next:** Manually link git commits to Jira issues](/git-integration-for-jira-data-center/manually-link-git-commits-to-jira-issues-gij-self-managed)
 
 <br>
-
+<br>
+<hr>
+<br>
 <br>
 
 ## More related topics about associating commits to Jira issues

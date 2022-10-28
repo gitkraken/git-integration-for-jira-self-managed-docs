@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 There are smart commits commands that you can use in your commit messages. Read on to learn more details on each smart commit command and how they work.
 
 ## \#comment
@@ -20,6 +21,7 @@ There are smart commits commands that you can use in your commit messages. Read
     </div>
     </div>
 </div>
+<br>
 
 The `#comment` command will add a comment to a Jira issue.
 
@@ -55,6 +57,7 @@ The above examples will add the specified comment text against the Jira issues.
     </div>
     </div>
 </div>
+<br>
 
 The `#time` command will record time tracking information against a Jira issue.
 
@@ -101,6 +104,7 @@ The above examples will add the respective time and worklog comment text against
     </div>
     </div>
 </div>
+<br>
 
 The `#<transition-name>` command will move the Jira issue to a particular workflow state.
 
@@ -125,14 +129,13 @@ Examples:<br>
     </div>
     </div>
 </div>
+<br>
 
-For more information on transitions and workflow names and how they work, see [Workflow Transitions](/git-integration-for-jira-data-center/workflow-transitions-gij-self-managed/).
+For more information on transitions and workflow names and how they work, see [Workflow Transitions](/git-integration-for-jira-data-center/workflow-transitions-gij-self-managed).
 
 <br>
 
 ## \#assign
-
-**INTRODUCED v2.9.7+**
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -157,8 +160,6 @@ Examples:<br>
 
 ## \#fixversion
 
-**INTRODUCED v2.9.7+**
-
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -169,6 +170,7 @@ Examples:<br>
     </div>
     </div>
 </div>
+<br>
 
 The `#fixversion` command will add a Fix Version/s details tag to the specified issue.
 
@@ -193,8 +195,6 @@ Examples:<br>
 
 ## \#affectsversion
 
-**INTRODUCED v2.9.7+**
-
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -205,6 +205,7 @@ Examples:<br>
     </div>
     </div>
 </div>
+<br>
 
 The `#affectsversion` command will add an Affect Version/s details tag to the specified issue.
 
@@ -251,4 +252,14 @@ Examples:<br>
 **GITCL-443** **\#label** `bucketbreakfix` `bucketenhancement`<br>
 
 **GITCL-443 GITCL-247 GITCL-214** **\#label** `admin@example.com` `user1@example.com` requested-feature new-feature **\#comment** `Return email when implemented`
+
+<p>&nbsp;</p>
+
+<br>
+<br>
+
+[**Prev:** Smart commits (index)](/git-integration-for-jira-data-center/smart-commits-docs-gij-self-managed)
+
+[**Next:** Smart commits - Advanced examples](/git-integration-for-jira-data-center/Advanced-examples-gij-self-managed)
+
 

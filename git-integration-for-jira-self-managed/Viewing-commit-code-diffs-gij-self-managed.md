@@ -23,3 +23,13 @@ Access the commit code diff dialog via the following locations:
 
 Each click on the  <img src='/wp-content/uploads/gij-hidden-lines-icon.png' width=20 height=20 /> **\# lines hidden** label expands up to 20 lines of code on that section.
 
+<p>&nbsp;</p>
+
+<br>
+<br>
+
+[**Prev:** Repository browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed)
+
+[**Next:** Git user identity](/git-integration-for-jira-data-center/git-user-identity-gij-self-managed)
+
+

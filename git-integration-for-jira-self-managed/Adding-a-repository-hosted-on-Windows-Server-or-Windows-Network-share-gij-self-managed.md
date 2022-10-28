@@ -11,12 +11,11 @@ taxonomy:
 
 Add a new network share or Windows server hosted repository via the Connect to Git Repository wizard ➜ **Advanced setup**.
 
-![](/wp-content/uploads/gij-gitserver-adding-network-share-01.png)
+<img src='/wp-content/uploads/gij-gitserver-adding-network-share-01.png' style='display:block;margin:25px auto;max-width:100%' />
 
 For detailed information and step-by-step guide on this integration, see [Integration Guide - Windows Network/Server Share](/git-integration-for-jira-data-center/windows-network-server-share-gij-self-managed).
 
-<br>
-<br>
+<p>&nbsp;</p>
 
 [Prev: Connecting a repository via Advanced setup](/git-integration-for-jira-data-center/connecting-a-repository-via-advanced-setup-gij-self-managed)
 

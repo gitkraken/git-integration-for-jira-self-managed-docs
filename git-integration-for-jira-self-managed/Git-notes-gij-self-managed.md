@@ -7,9 +7,11 @@ taxonomy:
 
 ---
 
-The Git Integration for Jira app displays [**git notes**](https://git-scm.com/docs/git-notes) in the **Git Commits** tab:
+The Git Integration for Jira app displays <a href='https://git-scm.com/docs/git-notes' target='_blank'>git notes</a> in the **Git Commits** tab:
 
-<img src='/wp-content/uploads/gij-gitserver-dc-git-notes-sample.png' width=557 height=289 style='display:block;margin:25px auto;max-width:100%')
+<img src='/wp-content/uploads/gij-gitserver-dc-git-notes-sample.png' width=557 height=289 style='display:block;margin:25px auto;max-width:100%' />
+
+<br>
 
 For a git repository with several existing commits in it, commit authors can associate issue keys via git notes to these commits without having to edit the commit messages. The Git Integration for Jira app will index issue keys in git notes.
 
@@ -63,6 +65,7 @@ git push origin refs/notes/*
     </div>
     </div>
 </div>
+<br>
 
 ## Bonus: Adding git notes with TortoiseGit
 
@@ -94,6 +97,8 @@ For those who are using TortoiseGit client on Windows, you can perform the follo
 
 <img src='/wp-content/uploads/gij-gitserver-dc-git-notes-sample.png' width=550 height=286 style='display:block;margin:25px auto;max-width:100%' />
 
+<p>&nbsp;</p>
+
 <br>
 <br>
 
@@ -101,14 +106,4 @@ For those who are using TortoiseGit client on Windows, you can perform the follo
 
 [**Next:** Smart commits](/git-integration-for-jira-data-center/smart-commits-docs-gij-self-managed)
 
-<br>
-<br>
-
-## More related topics about associating commits to Jira issues
-
-[Linking git commits to Jira issues](/git-integration-for-jira-data-center/linking-git-commits-to-jira-issues-gij-self-managed)
-
-[Manually link git commits to Jira issues](/git-integration-for-jira-data-center/manually-link-git-commits-to-jira-issues-gij-self-managed)
-
-[Git notes](/git-integration-for-jira-data-center/git-notes-gij-self-managed)
 

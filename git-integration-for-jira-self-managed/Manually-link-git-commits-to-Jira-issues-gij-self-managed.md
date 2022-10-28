@@ -36,13 +36,15 @@ To manually link a git commit to a Jira issue, access the **Change commit issue
 *   **Git menu** ➜ View all repositories ➜ click a repository with git commits.
 
 
-![View full commits dialog highlighting the change commit issues function](/wp-content/uploads/gij-gitserver-view-full-commits-assoc.png)
+<img src='/wp-content/uploads/gij-gitserver-view-full-commits-assoc.png' alt='View full commits dialog highlighting the change commit issues function' style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 
 Click the **Change commit issues** label. The following dialog is displayed.
 
 <img src='/wp-content/uploads/gij-gitserver-view-full-commits-assoc-issue-dlg.png' width=566 height=283 style='display:block;margin:25px auto;max-width:100%' alt='This is the commit association dialog where you can manually map or associate a commit to a Jira issue. The setting shows one Jira issue key association.' />
+
+<br>
 
 Add, edit or delete linked Jira issue keys in the _**Associated issues to commit**_ field.
 
@@ -56,6 +58,8 @@ Add, edit or delete linked Jira issue keys in the _**Associated issues to commi
 If the commit is associated with multiple Jira issues, you will see the following:
 
 <img src='/wp-content/uploads/gij-gitserver-view-full-commits-assoc-issue-dlg-multi.png' width=566 height=283 style='display:block;margin:25px auto;max-width:100%' alt='This is the commit association dialog where you can manually map or associate a commit to a Jira issue. The setting shows multiple Jira issue key associations.' />
+
+<br>
 
 In the above example, the selected commit is associated with Jira issues `TEST-1`, `TEST-2` and `PROJ-4` separated by commas.
 
@@ -79,6 +83,8 @@ Click **Save** to save the changes.
     </div>
 </div>
 
+<p>&nbsp;</p>
+
 <br>
 <br>
 
@@ -86,14 +92,4 @@ Click **Save** to save the changes.
 
 [**Next:** Git notes](/git-integration-for-jira-data-center/git-notes-gij-self-managed)
 
-<br>
-<br>
-
-## More related topics about associating commits to Jira issues
-
-[Linking git commits to Jira issues](/git-integration-for-jira-data-center/linking-git-commits-to-jira-issues-gij-self-managed)
-
-**Manually link git commits to Jira issues** (this page)
-
-[Git notes](/git-integration-for-jira-data-center/git-notes-gij-self-managed)
 

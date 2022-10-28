@@ -161,7 +161,7 @@ Click **Next**.
 
 If the entered git clone URL requires HTTP credentials, the following screen appears:
 
-![](/wp-content/uploads/gij-connect-git-wizard-auth-scr-http-n.png)
+<img src='/wp-content/uploads/gij-connect-git-wizard-auth-scr-http-n.png' style='display:block;margin:25px auto;max-width:100%' />
 
 <div align='center' style='margin-top:10px;'>
     <i><b>Figure 3:</b> HTTP authentication screen in the Connect wizard.</i>
@@ -188,7 +188,7 @@ The HTTP authorization errors indicate that the credentials provided are not val
 
 For SSH git repository connections, the following screen is displayed for authentication:
 
-![](/wp-content/uploads/gij-gitserver-ssh-connect-auth-screen.png)
+<img src='/wp-content/uploads/gij-gitserver-ssh-connect-auth-screen.png' style='display:block;margin:25px auto;max-width:100%' />
 
 <div align='center' style='margin-top:10px'>
     <i><b>Figure 4:</b> SSH authentication screen in the Connect wizard.</i>
@@ -271,8 +271,7 @@ Click **Finish** to close the wizard.
 
 This completes the setup and the newly added repository appears on the integration list on the Git Integration app repository configuration page.
 
-<br>
-<br>
+<p>&nbsp;</p>
 
 [**Prev:** Using the Add new integration wizard](/git-integration-for-jira-data-center/using-the-add-new-integration-wizard-gij-self-managed)
 

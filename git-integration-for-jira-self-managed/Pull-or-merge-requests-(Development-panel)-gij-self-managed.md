@@ -22,7 +22,7 @@ The displayed information depends on which supported git hosts are connected to 
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        For necessary permissions that GitLab users must have for creating pull/merge requests, see <a href='https://docs.gitlab.com/ee/user/permissions.html'><b>GitLab Documentation: Permissions</b></a>.
+        For necessary permissions that GitLab users must have for creating pull/merge requests, see <a href='https://docs.gitlab.com/ee/user/permissions.html' target='_blank'><b>GitLab Documentation: Permissions</b></a>.
     </div>
     </div>
 </div>
@@ -43,13 +43,13 @@ The displayed information depends on which supported git hosts are connected to 
 
 If a git host is connected to Jira, create a pull/merge request by clicking **Create pull request** or **Create merge request** label link on the Git integration panel. The following dialog is displayed:
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399144/jira-server-issue-create-pull-request-dialog.png?version=1&modificationDate=1630642922913&cacheVersion=1&api=v2&width=544&height=282)
+<img src='/wp-content/uploads/gij-jira-server-issue-create-pull-request-dialog.png' width=544 height=282 style='display:block;margin:25px auto;max-width:100%' />
 
 *   Select **Repository** from the list.<br>
 
-    **GITHUB** &nbsp; If there are several repositories with the same name, the listed GitHub repositories will have their names attached with a GitHub organization name. For example, `BigBrassBand/second-webhook-test-repo`.<br>
+    <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>GITHUB</b> If there are several repositories with the same name, the listed GitHub repositories will have their names attached with a GitHub organization name. For example, `BigBrassBand/second-webhook-test-repo`.<br>
 
-    **GITLAB** &nbsp; If there are several repositories with the same name, the listed GitLab repositories will have their names attached with a GitLab owner name. For example, `johnsmith/second-webhook-test-repo`.
+    <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>GITLAB</b> If there are several repositories with the same name, the listed GitLab repositories will have their names attached with a GitLab owner name. For example, `johnsmith/second-webhook-test-repo`.
 
 *   Choose a branch as the **Source branch**. This branch will be merged to the Target branch.
 
@@ -61,9 +61,11 @@ If a git host is connected to Jira, create a pull/merge request by clicking **C
 
 <br>
 
-If the [Require User PAT option](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/) is enabled in **Integration Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, the dialog below is displayed instead:
+If the [Require User PAT option](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed) is enabled in **Integration Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, the dialog below is displayed instead:
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399144/jira-server-issue-create-pull-req-dlg-cfg-pat.png?version=1&modificationDate=1630642923158&cacheVersion=1&api=v2&width=544&height=272)
+<img src='/wp-content/uploads/gij-jira-server-issue-create-pull-req-dlg-cfg-pat.png' width=544 height=272 style='display:block;margin:25px auto;max-width:100%' />
+
+<br>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -103,10 +105,11 @@ This will also allow a service user to associate a Merge/Pull Request with multi
 
 The Pull/merge request list provides status information about the pull/merge request if it is opened or merged. Hover the mouse pointer on the pull/merge request label to see information of the repository and branch where it belongs.
 
-<img src='https://bigbrassband.atlassian.net/wiki/download/attachments/1930399144/dev-panel-pull-req-example.png?version=1&modificationDate=1630642923880&cacheVersion=1&api=v2' class='center img-responsive img-bordered' />
+<img src='/wp-content/uploads/gij-dev-panel-pull-req-example.png' style='display:block;margin:25px auto;max-width:100%' />
 
+<br>
 
-For detailed information on this feature, see [Creating pull/merge requests](/git-integration-for-jira-data-center/creating-branches-gij-self-managed/).
+For detailed information on this feature, see [Creating pull/merge requests](/git-integration-for-jira-data-center/creating-branches-gij-self-managed).
 
 * * *
 
@@ -118,7 +121,17 @@ _(UPDATED VIDEO COMING SOON)_
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/1jwzeex5qa?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/1jwzeex5qa'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
+
+<p>&nbsp;</p>
+
+<br>
+<br>
+
+[**Prev:** Branches (Development panel)](/git-integration-for-jira-data-center/branches-(development-panel)-gij-self-managed)
+
+[**Next:** Git tags](/git-integration-for-jira-data-center/git-tags-gij-self-managed)
+
 

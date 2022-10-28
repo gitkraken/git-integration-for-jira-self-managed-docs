@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 The General settings page is only accessible to Jira Administrators.
 
 The Git Integration for Jira app introduces the General Settings page which contains configuration options for performance and features.

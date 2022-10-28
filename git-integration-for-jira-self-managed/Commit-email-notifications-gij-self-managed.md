@@ -38,6 +38,9 @@ Access the settings for this feature via:
 
 <br>
 <br>
+<hr>
+<br>
+<br>
 
 [**Prev:** Bulk change](/git-integration-for-jira-data-center/bulk-change-gij-self-managed)
 

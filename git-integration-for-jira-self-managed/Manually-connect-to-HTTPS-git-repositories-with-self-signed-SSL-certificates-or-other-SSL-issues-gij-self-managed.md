@@ -43,9 +43,9 @@ If the above solution doesn't work, see below for the steps to workaround this i
 <br>
 There are alternative solutions to make Java trust this certificate. Refer to the good articles from Atlassian which focuses on helping to resolve SSL Verification Issues:
 
-1.  [**Unable to Connect to SSL Services due to PKIX Path Building Failed**](https://confluence.atlassian.com/kb/unable-to-connect-to-ssl-services-due-to-pkix-path-building-failed-779355358.html)
+1.  <a href='https://confluence.atlassian.com/kb/unable-to-connect-to-ssl-services-due-to-pkix-path-building-failed-779355358.html' target='_blank'><b>Unable to Connect to SSL Services due to PKIX Path Building Failed</b></a>
 
-2.  [**Connecting to SSL services**](https://confluence.atlassian.com/jira/connecting-to-ssl-services-117455.html)
+2.  <a href='https://confluence.atlassian.com/jira/connecting-to-ssl-services-117455.html' target='_blank'><b>Connecting to SSL services</b></a>
 
 <br>
 
@@ -59,20 +59,9 @@ There are alternative solutions to make Java trust this certificate. Refer to t
     </div>
     </div>
 </div>
-
 <br>
 
-## More related topics about self-signed HTTPS integration
-
-[Self-signed HTTPS integration](/git-integration-for-jira-data-center/self-signed-https-integration-gij-self-managed)
-
-[Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/git-integration-for-jira-data-center/automatically-connect-to-HTTPS-git-repositories-with-self-signed-SSL-certificates-or-other-SSL-issues-gij-self-managed)
-
-**Manually connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues** (this page)
-
-<br>
-
-* * *
+<p>&nbsp;</p>
 
 [**Prev:** Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/git-integration-for-jira-data-center/automatically-connect-to-HTTPS-git-repositories-with-self-signed-SSL-certificates-or-other-SSL-issues-gij-self-managed)
 

@@ -18,6 +18,7 @@ Navigate to the .tsv file and edit it with your favorite spreadsheet program.
     </div>
     </div>
 </div>
+<br>
 
 Populate/edit the fields by utilizing the following options:
 
@@ -40,6 +41,7 @@ This field is required if you wish to update or edit existing repositories by se
     </div>
     </div>
 </div>
+<br>
 
 ## realRoot
 
@@ -67,6 +69,7 @@ If this field is set to `true`, the repository is automatically managed by Git I
     </div>
     </div>
 </div>
+<br>
 
 ## origin
 
@@ -92,6 +95,7 @@ For HTTPS git repositories, obtain the URL from your git host. If you use HTTP/H
     </div>
     </div>
 </div>
+<br>
 
 ## displayName
 
@@ -264,6 +268,7 @@ This field will display the ID of the "parent" repository. It can be changed in
     </div>
     </div>
 </div>
+<br>
 
 ## delete
 
@@ -337,6 +342,7 @@ Default is `TRUE`. The **SSL Verify** option is set to enabled by default. If se
     </div>
     </div>
 </div>
+<br>
 
 ## trustFolderStat
 
@@ -415,6 +421,7 @@ This is a reference to `refs/notes/*` used for fetching. The default value for t
     </div>
     </div>
 </div>
+<br>
 
 ## refSpecChanges
 
@@ -439,7 +446,7 @@ This is a user-defined list of references used for fetching. It is a comma-separ
     </div>
     <div class="imsgbox">
         Take note that the .tsv file is verified by the Git for Jira app with the following rules:
-        <ul>
+        <ul style='margin-bottom:0px !important;'>
             <li>The header row is required.</li>
             <li>The order of fields specified in the header row – is the order of the fields in the following rows.</li>
             <li>If a field is omitted from the header row, the Git Integration app will use the default value for a new repository. The Git Integration app will keep the current value of a repository if it already exists in the configured repositories.</li>
@@ -458,6 +465,9 @@ Save the file to a tab-delimited format:
 
 *   **Google Drive** - upload the file to this service. Right click the **.tsv** file then open it with _Google Sheets_.  Make the necessary changes then go to File ➜ Download as ➜ **Tab separated values (.tsv)** to your local machine.
 
+<br>
+<br>
+<hr>
 <br>
 <br>
 
