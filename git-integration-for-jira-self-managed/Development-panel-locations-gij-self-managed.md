@@ -10,7 +10,7 @@ taxonomy:
 
 In **Issue** and **Search** pages, the developer panel is visible on the right pane.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930399041/jira-dev-panel-tags-search-issue2.png?version=1&modificationDate=1630642919145&cacheVersion=1&api=v2)
+<img src='/wp-content/uploads/gij-jira-dev-panel-tags-search-issue2.png' style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 
@@ -18,5 +18,15 @@ In **Issue** and **Search** pages, the developer panel is visible on the rig
 
 In Jira Agile screen, click on an issue on the board grid. Scroll down on the right pane to view the developer panel.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399041/jira-dev-panel-agile-screen2.png?version=1&modificationDate=1630642918687&cacheVersion=1&api=v2&width=680&height=449)
+<img src='/wp-content/uploads/gij-jira-dev-panel-agile-screen2.png' style='display:block;margin:25px auto;max-width:100%' />
+
+<p>&nbsp;</p>
+
+<br>
+<br>
+
+[**Prev:** Jira Git integration development panel](/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed)
+
+[**Next:** Branches (Development panel)](/git-integration-for-jira-data-center/Branches-(Development-panel)-gij-self-managed)
+
 

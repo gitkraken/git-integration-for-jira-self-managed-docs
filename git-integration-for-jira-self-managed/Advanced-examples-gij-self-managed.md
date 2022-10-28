@@ -81,3 +81,10 @@ _This is the equivalent smart commit message based from the above example._
 
 _This example, containing several issue keys, is also a valid multi-line smart commit message._
 
+<p>&nbsp;</p>
+
+[**Prev:** Smart commit - Basic commands](/git-integration-for-jira-data-center/)
+
+[**Next:** Workflow transitions](/git-integration-for-jira-data-center/workflow-transitions-gij-self-managed)
+
+

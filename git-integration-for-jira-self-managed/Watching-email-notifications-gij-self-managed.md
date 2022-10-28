@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 The user will get notifications when watching an issue or repository. The user will receive repository commit notifications if that repository is being watched by the user. If the user watches an issue, any commit related to the issue will be sent to that user as notifications.
 
 <div class="bbb-callout bbb--info">
@@ -14,7 +15,7 @@ The user will get notifications when watching an issue or repository. The user 
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The user will get notifications from own commits if the My Changes setting in the <img src='/wp-content/uploads/gij-profile-icon.png' /> User Profile ➜ <b>Preferences</b> is set to <b><i>Notify me</i></b>.
+        The user will get notifications from own commits if the My Changes setting in the <img src='/wp-content/uploads/gij-profile-icon.png' style='margin:0 3px' /> User Profile ➜ <b>Preferences</b> is set to <b><i>Notify me</i></b>.
     </div>
     </div>
 </div>

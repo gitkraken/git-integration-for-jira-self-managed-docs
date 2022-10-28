@@ -17,6 +17,7 @@ taxonomy:
     </div>
     </div>
 </div>
+<br>
 
 ## Permissions
 
@@ -39,7 +40,7 @@ Git links are now available on the developer panel in the following locations:
 
 <br>
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399012/new-jira-developer-panel.png?version=1&modificationDate=1630642916834&cacheVersion=1&api=v2&width=210&height=430)
+<img src='/wp-content/uploads/gij-new-jira-developer-panel.png' width=210 height=430 style='display:block;margin:25px auto;max-width:100%' />
 
 The **30 commits** refers to an existing Git Commits view, which the issue tab have now. Clicking this text link will reload the page and automatically switches to the **Git Commits** tab to view the commits.
 
@@ -47,7 +48,7 @@ The **Roll Up** refers to an existing Git Roll Up view, which the issue tab 
 
 Click **Compare code** to open the following dialog:
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399012/dev-panel-compare-code-dlg.png?version=1&modificationDate=1630642917074&cacheVersion=1&api=v2&width=544&height=285)
+<img src='/wp-content/uploads/gij-dev-panel-compare-code-dlg.png' width=544 height=285 style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 
@@ -71,4 +72,29 @@ The view redirects to the Repository Browser ➜ **Compare** tab showing changes
     </div>
     </div>
 </div>
+<br>
+
+<p>&nbsp;</p>
+
+<br>
+<br>
+
+[**Prev:** Code syntax highlighter](/git-integration-for-jira-data-center/code-syntax-highlighter-gij-self-managed)
+
+[**Next:** Development panel locations](/git-integration-for-jira-data-center/development-panel-locations-gij-self-managed)
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+## More articles on Jira Git integration development panel
+
+[Development panel locations](/git-integration-for-jira-data-center/development-panel-locations-gij-self-managed)
+
+[Branches (Development panel)](/git-integration-for-jira-data-center/Branches-(Development-panel)-gij-self-managed)
+
+[Pull or merge requests (Development panel)](/git-integration-for-jira-data-center/Pull-or-merge-requests-(Development-panel)-gij-self-managed)
+
 

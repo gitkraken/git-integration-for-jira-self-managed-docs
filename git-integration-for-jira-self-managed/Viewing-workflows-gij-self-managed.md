@@ -19,7 +19,7 @@ taxonomy:
 </div>
 
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930398494/gitserver-issue-page-view-workflow-sel.png?version=1&modificationDate=1630642891465&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitserver-issue-page-view-workflow-sel.png)
 
 You can see the available custom workflow transition commands for use with smart commits by doing the following:
 
@@ -29,7 +29,7 @@ You can see the available custom workflow transition commands for use with smart
 
     When you hover a status – it will highlight available transitions. This is the transition name that is used in smart commits and not the status name.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930398494/jira-workflow-hover(c).png?version=1&modificationDate=1630642891722&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-jira-workflow-hover-c.png)
 
 Below is an example using the above workflow where the issue is in OPEN status and want to send it to BUSINESS SPEC status:
 
@@ -84,4 +84,14 @@ The "..." indicates the truncation with the least character length to have the t
     </div>
     </div>
 </div>
+
+<p>&nbsp;</p>
+
+<br>
+<br>
+
+[**Prev:** Workflow transitions](/git-integration-for-jira-data-center/workflow-transitions-gij-self-managed)
+
+[**Next:** Smart commits helper](/git-integration-for-jira-data-center/smart-commits-helper-gij-self-managed)
+
 

@@ -17,7 +17,7 @@ The Jira user card is available on the following screens:
 *   Code diff dialog _(Commit info)_
 
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398841/jira-user-card-example.png?version=1&modificationDate=1630642908356&cacheVersion=1&api=v2&width=340&height=223)
+<img src='/wp-content/uploads/gij-jira-user-card-example.png' width=340 height=223 style='display:block;margin:25px auto;max-width:100%' />
 
 Hover the mouse pointer on the name of the user.  A small information box containing information such as email, zone & time and avatar for that user will appear.
 
@@ -37,8 +37,18 @@ Click **More ▾** to open more options such as:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The <a href='/git-integration-for-jira-data-center/git-user-identity-gij-self-managed/'>Git user identity</a> should be configured for the specific user. Otherwise, the user card information will not be displayed for that user.
+        The <a href='/git-integration-for-jira-data-center/git-user-identity-gij-self-managed'>Git user identity</a> should be configured for the specific user. Otherwise, the user card information will not be displayed for that user.
     </div>
     </div>
 </div>
+
+<p>&nbsp;</p>
+
+<br>
+<br>
+
+[**Prev:** Git user identity](/git-integration-for-jira-data-center/git-user-identity-gij-self-managed)
+
+[**Next:** Jira issue page](/git-integration-for-jira-data-center/jira-issue-page-gij-self-managed)
+
 

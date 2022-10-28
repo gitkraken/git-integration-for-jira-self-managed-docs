@@ -8,7 +8,7 @@ taxonomy:
 ---
 The Git Commits tab shows commit information such as commit authors, date of commit, commit messages, access to view code diffs, commit id and view full commit.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398950/gitserver-git-commits-tab-enum(feb2022).png?version=2&modificationDate=1645415299981&cacheVersion=1&api=v2&width=680&height=238)
+<img src='/wp-content/uploads/gij-gitserver-git-commits-tab-enum.png' style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 
@@ -25,7 +25,7 @@ Open an issue then go to the _**Git Commits**_ tab to view commit information:
 | **7** | **Commit indicator** | This is the commit indicator. Smart commit errors are also indicated here, if encountered. |
 | **8** | **View full commit** | Click the **View Full Commit** button to view the full code diff for the selected commit. |
 | **9** | **Web links** | These are clickable web links that will open the selected file code diff directly to git host portal in a new browser window/tab. |
-| **10** | **Files changed** | List of files affected by the commit. Click the file or git host link to view code diff of this commit.<br><br>![Git commit traffic light example](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398950/traffic-light-example.png?version=2&modificationDate=1639995867373&cacheVersion=1&api=v2&width=117&height=16)<br><br>The traffic light indicator shows the added/modified/deleted lines from the file code diffs. |
+| **10** | **Files changed** | List of files affected by the commit. Click the file or git host link to view code diff of this commit.<br><br><img src='/wp-content/uploads/gij-traffic-light-example.png' alt='Git commit traffic light example' width=117 height=16 style='display:block;margin:25px auto;max-width:100%' /><br><br>The traffic light indicator shows the added/modified/deleted lines from the file code diffs. |
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -40,4 +40,14 @@ Open an issue then go to the _**Git Commits**_ tab to view commit information:
     </div>
 </div>
 <br>
+
+<p>&nbsp;</p>
+
+<br>
+<br>
+
+[**Prev:** Git Roll Up tab](/git-integration-for-jira-data-center/git-roll-up-tab-docs-gij-self-managed)
+
+[**Next:** Code syntax highlighter](/git-integration-for-jira-data-center/code-syntax-highlighter-gij-self-managed)
+
 

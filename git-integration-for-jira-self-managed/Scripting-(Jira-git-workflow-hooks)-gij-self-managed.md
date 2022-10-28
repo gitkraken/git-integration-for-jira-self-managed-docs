@@ -13,7 +13,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b style='color: #C3B5FC'>ADVANCED</b>&nbsp; <b style='color: #FFF1B6'>DEVELOPERS</b><br>
+        <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADVANCED</b> <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>DEVELOPERS</b><br>
         Requires Git Integration for JIra <b>v2.20+</b> or newer.
     </div>
     </div>
@@ -76,5 +76,15 @@ The commits or pull/merge requests are processed by Git Integration for Jira app
 </div>
 <br>
 
-For more information about this feature, commands and debugging, see external page [**Git Integration for Jira: Git Workflow Hooks**](https://github.com/BigBrassBand/jira-git-workflow-hooks).
+For more information about this feature, commands and debugging, see external page <a href='https://github.com/BigBrassBand/jira-git-workflow-hooks' target='_blank'><b>Git Integration for Jira: Git Workflow Hooks</b></a>.
+
+<p>&nbsp;</p>
+
+<br>
+<br>
+
+[**Prev:** Smart commits General setting](/git-integration-for-jira-data-center/smart-commits-general-setting-gij-self-managed)
+
+[**Next:** Repository browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed)
+
 

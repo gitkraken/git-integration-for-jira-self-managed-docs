@@ -34,27 +34,29 @@ The branch panel will show a summary of all the unmerged branches (regardless of
 
 Click **Create branch** to create a branch for the selected repository. The following dialog is displayed:
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399090/dev-panel-create-branch-dlg(c).png?version=1&modificationDate=1630642920515&cacheVersion=1&api=v2&width=544&height=272)
+<img src='/wp-content/uploads/gij-dev-panel-create-branch-dlg-c.png' width=544 height=272 style='display:block;margin:25px auto;max-width:100%' />
 
 1.  Select a **Repository**.
 
-    **GITHUB** &nbsp; If there are several repositories with the same name, the listed GitHub repositories will have their names attached with a GitHub organization name. For example, `BigBrassBand/second-webhook-test-repo`.
+    <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>GITHUB</b> If there are several repositories with the same name, the listed GitHub repositories will have their names attached with a GitHub organization name. For example, `BigBrassBand/second-webhook-test-repo`.
 
-    **GITLAB** &nbsp; If there are several repositories with the same name, the listed GitLab repositories will have their names attached with a GitLab owner name. For example, `johnsmith/second-webhook-test-repo`.
+    <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>GITLAB</b> If there are several repositories with the same name, the listed GitLab repositories will have their names attached with a GitLab owner name. For example, `johnsmith/second-webhook-test-repo`.
 
 2.  Set **Base branch** and **Branch name**.
 
-3.  The Git Integration for Jira app will populate the **Branch name** field according to the _Branch Name Template_ declared in the [Git integration settings](/git-integration-for-jira-data-center/git-integration-features-gij-self-managed/) via **General Settings**. Enter a descriptive name or leave it as is (recommended).
+3.  The Git Integration for Jira app will populate the **Branch name** field according to the _Branch Name Template_ declared in the [Git integration settings](/git-integration-for-jira-data-center/git-integration-features-gij-self-managed) via **General Settings**. Enter a descriptive name or leave it as is (recommended).
+
+<br>
 
 ## Create branch (Require user PAT enabled)
 
-If the [Require User PAT option](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed/) is enabled in the **Integration Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead:
+If the [Require User PAT option](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed) is enabled in the **Integration Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead:
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399090/gitserver-create-branch-req-user-pat-enabled.png?version=3&modificationDate=1630669620374&cacheVersion=1&api=v2&width=550&height=276)
+<img src='/wp-content/uploads/gij-gitserver-create-branch-req-user-pat-enabled.png' width=550 height=276 style='display:block;margin:25px auto;max-width:100%' />
 
 *   Click the link label to setup the PAT. This will immediately open the Setup personal access dialog and the user should enter a valid PAT to continue creating branches.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399090/gitserver-setup-your-user-pat-dlg-new(c).png?version=1&modificationDate=1630668474897&cacheVersion=1&api=v2&width=578&height=318)
+    ![](/wp-content/uploads/gij-gitserver-setup-your-user-pat-dlg-new-c.png)
 
     *   Paste a valid PAT of the current user to proceed. Invalid PATs will fail the branch creation process.
 
@@ -70,7 +72,7 @@ The Setup PAT dialog can also be accessed on the Repository Browser under _**Per
 
 *   Click <img src='/wp-content/uploads/gij-edit-icon-dark.png'  style='margin: 0 3px' width=auto height=16> to setup a PAT for the selected repository. The PAT setup dialog appears.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399090/gitserver-setup-your-user-pat-dlg-new(c).png?version=1&modificationDate=1630668474897&cacheVersion=1&api=v2&width=544&height=300)
+    ![](/wp-content/uploads/gij-gitserver-setup-your-user-pat-dlg-new-c.png)
 
 *   Paste a valid PAT of the current user to proceed. Invalid PATs will fail the branch creation process.
 
@@ -84,7 +86,7 @@ The Setup PAT dialog can also be accessed on the Repository Browser under _**Per
 
 Click **Create branch** on the Create Branch dialog. The newly-created branch is now listed in the developer panel under **Branches**.
 
-<img src='https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399090/dev-panel-delete-branch-on-hover.png?version=1&modificationDate=1630642921461&cacheVersion=1&api=v2' width=319 height=157 style='margin: 0 auto' />
+<img src='/wp-content/uploads/gij-dev-panel-delete-branch-on-hover.png' width=319 height=157 style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 
@@ -142,8 +144,18 @@ Clicking on the branch text links will open that issue in the Repository Browser
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        For detailed information about creating branches, see article <a href='/git-integration-for-jira-data-center/Creating-branches-gij-self-managed/'>Creating branches</a>.
+        For detailed information about creating branches, see article <a href='/git-integration-for-jira-data-center/Creating-branches-gij-self-managed'>Creating branches</a>.
     </div>
     </div>
 </div>
+
+<p>&nbsp;</p>
+
+<br>
+<br>
+
+[**Prev:** Development panel locations](/git-integration-for-jira-data-center/development-panel-locations-gij-self-managed)
+
+[**Next:** Pull or merge requests (Development panel)](/git-integration-for-jira-data-center/pull-or-merge-requests-(development-panel)-gij-self-managed)
+
 

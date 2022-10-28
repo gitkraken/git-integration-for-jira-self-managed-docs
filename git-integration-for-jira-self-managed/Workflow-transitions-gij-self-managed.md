@@ -8,7 +8,7 @@ taxonomy:
 ---
 The simple Jira workflow does not contain explicit transition names. These kind of workflow with no explicit transition names are becoming more popular as Atlassian is suggesting them to administrators upon project creation.
 
-<img src='https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398464/jira-simple-workflow.png?version=1&modificationDate=1630642890131&cacheVersion=1&api=v2&width=217&height=232' class='center img-responsive img-bordered' />
+<img src='/wp-content/uploads/gij-jira-simple-workflow.png' width=217 height=232 style='display:block;margin:25px auto;max-width:100%' />
 
 The name of the status is the transition. So, using the basic example above, the valid transitions from DONE are:
 
@@ -65,4 +65,15 @@ The name of the status is the transition. So, using the basic example above, th
     </div>
     </div>
 </div>
+<br>
+
+<p>&nbsp;</p>
+
+<br>
+<br>
+
+[**Prev:** Smart commit - Advanced examples](/git-integration-for-jira-data-center/advanced-examples-gij-self-managed)
+
+[**Next:** Viewing workflows](/git-integration-for-jira-data-center/viewing-workflows-gij-self-managed)
+
 

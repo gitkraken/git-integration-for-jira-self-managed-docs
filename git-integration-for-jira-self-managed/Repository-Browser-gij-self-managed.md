@@ -138,4 +138,18 @@ Click a git repository under Git repository column to browse its contents and sw
 
 [**Next:** Viewing list of commits via Repository Browser](/git-integration-for-jira-data-center/viewing-list-of-commits-in-repository-browser-gij-self-managed)
 
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+## More articles on Repository browser
+
+[Viewing list of commits in Repository Browser](/git-integration-for-jira-data-center/viewing-list-of-commits-in-repository-browser-gij-self-managed)
+
+[Comparing branches/tags in Repository browser](/git-integration-for-jira-data-center/comparing-branches-tags-in-repository-browser-gij-self-managed)
+
+[Enable/disable Repository Browser via git repository configuration page](/git-integration-for-jira-data-center/enable-disable-repository-browser-via-git-repository-configuration-page-gij-self-managed)
+
 

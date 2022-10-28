@@ -6,11 +6,12 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-**ALSO IN JIRA CLOUD**
+
+<b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>ALSO IN JIRA CLOUD</b>
 
 On the Repository Browser, click the **Compare** page tab.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930398705/gitserver-repo-browser-compare-issues.png?version=1&modificationDate=1630642901624&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitserver-repo-browser-compare-issues.png)
 
 <Br>
 
@@ -41,4 +42,14 @@ Click **Issues** on the sidebar to view list of unique Jira issues related to 
 On the **Issues** page, clicking the **View in Issue Navigator** text label will open the Search page with passed query of a list of Jira issues found based from the compare criteria.
 
 *   For example, the JQL will look like `issuekey in (GIT-1851, GIT-1159, GITCL-284, GITCL-254)`.
+
+<p>&nbsp;</p>
+
+<br>
+<br>
+
+[Viewing list of commits in Repository Browser](/git-integration-for-jira-data-center/viewing-list-of-commits-in-repository-browser-gij-self-managed)
+
+[Enable/disable Repository Browser via git repository configuration page](/git-integration-for-jira-data-center/enable-disable-repository-browser-via-git-repository-configuration-page-gij-self-managed)
+
 

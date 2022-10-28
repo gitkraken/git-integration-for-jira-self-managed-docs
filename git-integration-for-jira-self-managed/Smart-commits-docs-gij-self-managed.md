@@ -10,13 +10,13 @@ Smart commits allows your team to perform actions on Jira issues from a single c
 
 ## Getting started
 
-The smart commit processing is **active by default** and can be enabled/disabled via the git configuration page &nbsp;<img src='https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/2699.png' width=20 height=20 /> **Actions ➜ Edit integration/repository settings**):
+The smart commit processing is **active by default** and can be enabled/disabled via the git configuration page &nbsp;<img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit integration/repository settings**):
 
-<img src='https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398395/smart-commit-setting.png?version=1&modificationDate=1630642887746&cacheVersion=1&api=v2&width=374&height=80' class='center img-responsive img-bordered' />
+<img src='/wp-content/uploads/gij-smart-commit-setting.png' width=374 height=80 style='display:block;margin:25px auto;max-width:100%' />
 
 <div align='center'>
     <i>In Jira Server, Smart Commits is a setting toggle in the **Connect wizard** or the git<br>
-    configuration page under <b>Actions</b> ➜ <b>Edit integration/repository settings</b>.<br>
+    configuration page under <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ <b>Edit integration/repository settings</b>.<br>
     In Jira Cloud, this setting is always enabled.</i>
 </div>
 <br>
@@ -28,8 +28,8 @@ The smart commit processing is **active by default** and can be enabled/disabl
     </div>
     <div class="imsgbox">
         Smart commits support for project keys that has an underscore "_" character.<br>
-        <b>VERSION 3.2.0+</b> Smart commits support for all alphabet characters.<br>
-        <b>VERSION 3.5.0.2+</b> Smart commits support for case insensitive smart commits.
+        <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>VERSION 3.2.0+</b> Smart commits support for all alphabet characters.<br>
+        <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>VERSION 3.5.0.2+</b> Smart commits support for case insensitive smart commits.
     </div>
     </div>
 </div>
@@ -58,5 +58,37 @@ The basic syntax for a Smart commit message is:
 <ISSUE_KEY> <ignored text> #<command> <optional command_params>
 ```
 
-To know more about syntax, commands and examples on Smart Commits, see [**Processing Jira Software Issues with Smart Commit Messages**](https://confluence.atlassian.com/bitbucket/processing-jira-software-issues-with-smart-commit-messages-298979931.html) at the Atlassian website or proceed to the next page.
+To know more about syntax, commands and examples on Smart Commits, see <a href='https://confluence.atlassian.com/bitbucket/processing-jira-software-issues-with-smart-commit-messages-298979931.html' target='_blank'><b>Processing Jira Software Issues with Smart Commit Messages</b></a> at the Atlassian website or proceed to the next page.
+
+<p>&nbsp;</p>
+
+<br>
+<br>
+
+[**Prev:** Linking git commits to Jira issues](/git-integration-for-jira-data-center/linking-git-commits-to-jira-issues-gij-self-managed)
+
+[**Next:** Smart commit - Basic commands](/git-integration-for-jira-data-center/basic-commands-gij-self-managed)
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+## More articles on Smart commits
+
+[Basic commands](/git-integration-for-jira-data-center/basic-commands-gij-self-managed)
+
+[Advanced examples](/git-integration-for-jira-data-center/advanced-examples-gij-self-managed)
+
+[Workflow transitions](/git-integration-for-jira-data-center/workflow-transitions-gij-self-managed)
+
+[Viewing transitions](/git-integration-for-jira-data-center/viewing-transitions-gij-self-managed)
+
+[Smart commit helper](/git-integration-for-jira-data-center/smart-commit-helper-gij-self-managed)
+
+[Smart commits general setting](/git-integration-for-jira-data-center/smart-commits-general-setting-gij-self-managed)
+
+[Jira workflow hooks (scripting)](/git-integration-for-jira-data-center/scripting-(jira-git-workflow-hooks)-gij-self-managed)
+
 

@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 The smart commit helper is available at the following locations in Jira:
 
 *   Issue ➜ **Git Commits tab**
@@ -15,22 +16,22 @@ The smart commit helper is available at the following locations in Jira:
 *   Repository Browser (View all repositories) ➜ click a repository ➜ **Latest commits**
 
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398529/smart-commit-helper-example.png?version=1&modificationDate=1630642893155&cacheVersion=1&api=v2&width=680&height=353)
+<img src='/wp-content/uploads/gij-smart-commit-helper-example.png' style='display:block;margin:25px auto;max-width:100%' />
 
 
 A smart commit helper indicator is displayed to the right of the user/commit author:
 
 | **Status** | **Description** |
 |:-----------|:----------------|
-| <b style='color: #aaa'>COMMIT<b> | The Smart Commits setting is enabled for the repository but there is no smart commit keyword in the commit message. |
-| <b style='color: green'>SMART COMMIT</b> | The commit message has a valid smart commit structure and was successfully  |
-| <b style='color: #FF7A52'>SMART COMMIT ERROR</b> | There was an error during smart commit processing. For example, invalid keyword; commit author and Jira user are not the same; permission issues or wrong values. |
+| <b style='background-color:#DEE0E5; padding:1px 5px; color:#44516C; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>COMMIT<b> | The Smart Commits setting is enabled for the repository but there is no smart commit keyword in the commit message. |
+| <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>SMART COMMIT</b> | The commit message has a valid smart commit structure and was successfully  |
+| <b style='background-color:#FFEBE6; padding:1px 5px; color:#C02909; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>SMART COMMIT ERROR</b> | There was an error during smart commit processing. For example, invalid keyword; commit author and Jira user are not the same; permission issues or wrong values. |
 
 <br>
 
 **The smart commit helper status are not shown:**
 
-*   for any smart commits that were made before VERSION 2.9.3 of Git Integration for Jira app.
+*   for any smart commits that were made before <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>VERSION 2.9.3</b> of Git Integration for Jira app.
 
 *   for smart commits that were ignored due to **Smart commits** setting for that repository is disabled.
 
@@ -64,18 +65,18 @@ Refer to the commit message case examples below:
 **When Smart commits setting (SC) was set to ENABLED:**
 
 | **Commit ID** | **Status after SC=Disabled** | **Status after SC=Enabled** |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | Commit1 | Commit is ignored since issue key is not provided. | Commit is ignored since issue key is not provided. |
-| Commit2 | No status indicator. | <b style='color: #aaa'>COMMIT</b> |
-| Commit3 | <b style='color: green'>SMART COMMIT</b> | <b style='color: green'>SMART COMMIT</b> |
-| Commit4 | <b style='color: #FF7A52'>SMART COMMIT ERROR</b> | <b style='color: #FF7A52'>SMART COMMIT ERROR</b> |
+| Commit2 | No status indicator. | <b style='background-color:#DEE0E5; padding:1px 5px; color:#44516C; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>COMMIT</b> |
+| Commit3 | <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>SMART COMMIT</b> | <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>SMART COMMIT</b> |
+| Commit4 | <b style='background-color:#FFEBE6; padding:1px 5px; color:#C02909; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>SMART COMMIT ERROR</b> | <b style='background-color:#FFEBE6; padding:1px 5px; color:#C02909; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>SMART COMMIT ERROR</b> |
 
 <br>
 
 **When Smart commits setting (SC) was set to DISABLED:**
 
 | **Commit ID** | **Status after SC=Disabled** | **Status after SC=Enabled** |
-| --- | --- | --- |
+| :--- | :--- | :--- |
 | Commit1 | Commit is ignored since issue key is not provided. | Commit is ignored since issue key is not provided. |
 | Commit2 | No status indicator. | No status indicator because it was marked as ignored. |
 | Commit3 | No status indicator. | No status indicator because it was marked as ignored. |
@@ -91,4 +92,14 @@ Refer to the commit message case examples below:
     </div>
     </div>
 </div>
+
+<p>&nbsp;</p>
+
+<br>
+<br>
+
+[**Prev:** Viewing workflows](/git-integration-for-jira-data-center/viewing-workflows-gij-self-managed)
+
+[**Next:** Smart commits General setting](/git-integration-for-jira-data-center/smart-commits-general-setting-gij-self-managed)
+
 
