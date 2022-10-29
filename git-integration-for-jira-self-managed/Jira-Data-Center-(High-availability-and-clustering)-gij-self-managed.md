@@ -6,7 +6,8 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-As of **v2.6.12+** of the Git Integration for Jira app, the Data Center version of Jira is supported. Jira 6.3 or higher is required for Data Center editions of Jira.
+
+The Git Integration for Jira app supports the Data Center version of Jira. We recommend Jira 8 or higher for Data Center editions of Jira.
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -16,11 +17,11 @@ As of **v2.6.12+** of the Git Integration for Jira app, the Data Center versio
     <div class="imsgbox">
         <b>Known issue (admins):</b><br>
         To provide access for both users for newly created tables, configure default tables and sequences permissions as follows (where <code>jira1</code> & <code>jira2</code> are users); see below.<br>
-        <div class='nextpara'><pre><code>ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL PRIVILEGES ON tables TO jira1;
+        <div><pre><code>ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL PRIVILEGES ON tables TO jira1;
 ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL PRIVILEGES ON tables TO jira2;
 ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL PRIVILEGES ON sequences TO jira1;
 ALTER DEFAULT PRIVILEGES IN SCHEMA public GRANT ALL PRIVILEGES ON sequences TO jira2;</code></pre>
-        </div>    
+        </div>
     </div>
     </div>
 </div>
@@ -79,13 +80,13 @@ The trustFolderStat setting can be accessed in the following locations:
 
 *   Jira dashboard menu **Git** ➜ Manage repositories ➜ **General Settings**.
 
-*   Manage repositories ➜ <img src='https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/2699.png' width=20 height=20 /> Actions ➜ **Edit integration connection settings**.
+*   Manage repositories ➜ <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit integration connection settings**.
 
-*   <img src='https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/2699.png' width=20 height=20 /> Actions ➜ **Show integration repositories** ➜ click a repository (_Integration_ ➜ repository level settings).
+*   <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Show integration repositories** ➜ click a repository (_Integration_ ➜ repository level settings).
 
-*   <img src='https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/2699.png' width=20 height=20 /> Actions ➜ **Edit repository settings**.
+*   <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit repository settings**.
 
-*   Manage repositories page ➜ Connect to Git repository ➜ **Advanced setup**.
+*   Manage repositories page ➜ Connect to Git repository wizard ➜ **Advanced setup**.
 
 
 When the _**trustFolderStat**_ setting is set to **false**, the `.git/objects/pack` folder will be always scanned to check for new pack files. If set to **true**, the `last-modified` attribute of the folder will be used to check the folder for modifications.
@@ -102,4 +103,14 @@ The _default_ setting for Jira Data Center is **false**.
     </div>
     </div>
 </div>
+
+<p>&nbsp;</p>
+
+<br>
+<br>
+
+[**Prev:** Integration webhooks](/git-integration-for-jira-data-center/integration-webhooks-gij-self-managed)
+
+[**Next:** Localization support](/git-integration-for-jira-data-center/localization-support-gij-self-managed)
+
 

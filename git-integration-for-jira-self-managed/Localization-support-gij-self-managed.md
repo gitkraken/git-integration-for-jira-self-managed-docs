@@ -30,9 +30,19 @@ To switch to another language:
 
 1.  Go to your **User Profile**.
 
-2.  Under **Preferences**, click the <img src='/wp-conteont/uploads/gij-edit-icon-dark.png' width=20 height=20 style='vertical-align: middle'> icon.
+2.  Under **Preferences**, click the <img src='/wp-content/uploads/gij-edit-icon-dark.png' width=20 height=20 style='margin:0 3px' /> icon.
 
 3.  On the **Update User Preferences** screen, select one of the supported language from the list.
 
 4.  Click **Update** to apply the new settings.
+
+<p>&nbsp;</p>
+
+<br>
+<br>
+
+[**Prev:** Jira Data Center (High availability and clustering)](/git-integration-for-jira-data-center/Jira-Data-Center-(High-availability-and-clustering)-gij-self-managed)
+
+[**Next:** Glossary and terms](/git-integration-for-jira-data-center/glossary-and-terms-gij-self-managed)
+
 

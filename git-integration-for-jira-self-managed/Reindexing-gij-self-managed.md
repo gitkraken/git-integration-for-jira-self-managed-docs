@@ -13,7 +13,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b>Permissions</b>
+        <b>Permissions</b><br>
         You must be a member of the <b>jira-developers</b> <i>group</i> to start reindex.
     </div>
     </div>
@@ -24,13 +24,13 @@ Synchronization between the repository and app will start automatically. However
 
 ## Getting started
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930399289/gitserver-gitmgr-reindex-all-reindex-actions.png?version=1&modificationDate=1630642930639&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitserver-gitmgr-reindex-all-reindex-actions.png)
 
 There are two ways to do this:
 
-1.  To start update of all repositories, go to the **Git Integration for Jira** app git configuration page then click **Reindex All** button. Once synchronization is started, the progress will be displayed on this tab.
+1.  To start update of all repositories, go to the **Git Integration for Jira** app git configuration page then click the **Indexing** dropdown. Choose to **Reindex all integrations** or **Reset all indexes**. Once synchronization is started, the progress will be displayed on this page.
 
-2.  If a specific repository or integration needs to be synchronized, click the <img src='https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/2699.png' width=20 height=20 /> **Actions** icon then **Reindex**.
+2.  If a specific repository or integration needs to be synchronized, click the <img src='/wp-content/uploads/actions-icon.png' /> **Actions** icon then **Reindex**.
 
 <div class="bbb-callout bbb--basic">
     <div class="irow">
@@ -62,7 +62,7 @@ There are two ways to do this:
     </div>
     <div class="imsgbox">
         <b>Reindex API</b><br>
-        For advanced administrators who want to have more control on reindex, see the <a href='/git-integration-for-jira-data-center/Reindex-API-gij-self-managed/'>Git Integration for Jira Reindex API</a>.
+        For advanced administrators who want to have more control on reindex, see the <a href='/git-integration-for-jira-data-center/reindex-api-gij-self-managed'>Git Integration for Jira Reindex API</a>.
     </div>
     </div>
 </div>
@@ -85,7 +85,7 @@ There are two ways to do this:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The Repository Reindex (<b><i>GitRevisionIndexerJob</i></b>) can be configured in the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed/'>General settings</a> page of the Git Integration for Jira app.
+        The Repository Reindex (<b><i>GitRevisionIndexerJob</i></b>) can be configured in the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'>General settings</a> page of the Git Integration for Jira app.
     </div>
     </div>
 </div>
@@ -95,17 +95,17 @@ There are two ways to do this:
 
 The Git Integration for Jira app stores the ID of the last indexed commit for each branch. This ID is used to limit the processed data upon reindex or update. This way, only new commits will be indexed on the next synchronization.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930399289/gitserver-gitmgr-actions-reset-index.png?version=1&modificationDate=1630642930870&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitserver-gitmgr-actions-reset-index.png)
 
-On the Manage git repositories page, click <img src='https://pf-emoji-service--cdn.us-east-1.prod.public.atl-paas.net/standard/a51a7674-8d5d-4495-a2d2-a67c090f5c3b/32x32/2699.png' width=20 height=20 /> **Actions** then **Reset index** to reset the _**Last**_ _**Indexed**_ date. Perform this process whenever the Git Integration for Jira app is updated or re-installed.
+On the Manage git repositories page, click <img src='/wp-content/uploads/actions-icon.png' /> **Actions** then **Reset index** to reset the _**Last**_ _**Indexed**_ date. Perform this process whenever the Git Integration for Jira app is updated or re-installed.
 
 ## Reindex and updatedDate filter
 
 The Git Integration for Jira app automatically changes the **updatedDate** of an issue when a Git commit is added to an issue upon reindex. When the reindex encounters a commit previously modified by the user relating to an issue, that issue will be updated.
 
-You can enable or disable this setting in the [Git Integration for Jira app - General Settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed/) page ➜ **Jira Issue Updates**.
+You can enable or disable this setting in the [Git Integration for Jira app - General Settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed) page ➜ **Jira Issue Updates**.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399289/gitserver-gencfg-last-updated-field.png?version=1&modificationDate=1630642931102&cacheVersion=1&api=v2&width=557&height=386)
+<img src='/wp-content/uploads/gij-gitserver-gencfg-last-updated-field.png' width=557 height=386 style='display:block;margin:25px auto;max-width:100%' />
 
  <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -124,7 +124,9 @@ Starting v3.6+ of the Git Integration for Jira app, indexer will show an error m
 
 ### Jira Server
 
-<img src='https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399289/git-server-indexing-error-sample.png?version=1&modificationDate=1630642930175&cacheVersion=1&api=v2&width=442&height=131' class='center img-responsive img-bordered' />
+<img src='/wp-content/uploads/gij-git-server-indexing-error-sample.png' width=442 height=131 style='display:block;margin:25px auto;max-width:100%' />
+
+<br>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -136,4 +138,14 @@ Starting v3.6+ of the Git Integration for Jira app, indexer will show an error m
     </div>
     </div>
 </div>
+
+<p>&nbsp;</p>
+
+<br>
+<br>
+
+[**Prev:** Jira project page](/git-integration-for-jira-data-center/jira-project-page-gij-self-managed)
+
+[**Next:** JQL searching](/git-integration-for-jira-data-center/jql-searching-gij-self-managed)
+
 

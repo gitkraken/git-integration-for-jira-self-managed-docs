@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 ### Git
 
 Git is a term used for version control system to easily track changes in one or more of files. Git is a source code repository where developers keep track of their source code using Git.
@@ -64,4 +65,14 @@ For every configured repository, this process do the following:
     </div>
     </div>
 </div>
+
+<p>&nbsp;</p>
+
+<br>
+<br>
+
+[**Prev:** Localization support](/git-integration-for-jira-data-center/localization-support-gij-self-managed)
+
+[**Next:** Licensing notice](/git-integration-for-jira-data-center/licensing-notice-gij-self-managed)
+
 
