@@ -468,3 +468,4 @@ The pull request is also ready for approval by the reviewers in your GitHub web 
 [Bonobo](/git-integration-for-jira-data-center/bonobo-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
 [Integration basics](/git-integration-for-jira-data-center/Integration-Basics-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
