@@ -42,7 +42,7 @@ taxonomy:
 <br>
 <br>
 
-<img src='/wp-content/uploads/gij-github-ent-server-banner-logo' width=510 height=59 style='max-width:100%;margin:25px 0 15px 0' />
+<img src='/wp-content/uploads/gij-github-ent-server-banner-logo.png' width=510 height=59 style='max-width:100%;margin:25px 0 15px 0' />
 
 <br>
 
@@ -468,3 +468,4 @@ The pull request is also ready for approval by the reviewers in your GitHub web 
 [Bonobo](/git-integration-for-jira-data-center/bonobo-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
 [Integration basics](/git-integration-for-jira-data-center/Integration-Basics-gij-self-managed) (Git Integration for Jira Data Center/Server)
+

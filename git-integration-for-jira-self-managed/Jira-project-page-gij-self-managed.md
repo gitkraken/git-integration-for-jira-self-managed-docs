@@ -6,13 +6,16 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 The Project page allows you to manage project related options.
 
 ## All Versions
 
 History of commits can also be viewed within the whole project scope. To do this, select a project then click the Git Commits tab. The format of commits is similar to that on the issue page.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930399252/gitserver-proj-git-commits-tab.png?version=1&modificationDate=1630642928218&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitserver-proj-git-commits-tab.png)
+
+<br>
 
 To view commit code diff information, click the **View full commit** button to the right of the commit message.
 
@@ -47,11 +50,23 @@ Click on a commit ID to open it with the Repository Browser. Related issues and 
 
 ## Commits for Select Version
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1930399252/gitserver-proj-select-versions-tab.png?version=1&modificationDate=1630642928449&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitserver-proj-select-versions-tab.png)
+
+<br>
 
 Commits can also be limited using a particular revision. Revision and commits are connected using the logic below:
 
 *   All issues linked with particular revision are selected (using both ‘fix version’ and ‘affects version’ fields).
 
 *   Commits linked with these tickets are fetched.
+
+<p>&nbsp;</p>
+
+<br>
+<br>
+
+[**Prev:** Git tags](/git-integration-for-jira-data-center/git-tags-gij-self-managed)
+
+[**Next:** Reindexing](/git-integration-for-jira-data-center/reindexing-gij-self-managed)
+
 

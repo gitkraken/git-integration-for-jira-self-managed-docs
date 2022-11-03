@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 The Git Integration for Jira app supports both lightweight and annotated tags. The tags are loaded separately from the rest of the Git Source Code.
 
 ## Introduction
@@ -45,6 +46,7 @@ The Git for Jira app supports two types of git tags:
 
 *   **annotated**  –  shows the message, author and the tag object followed by the commit
 
+<br>
 
 A lightweight tag can be use for marking a version or some specific commits that you will need to use later on  —  like a temporary object label. It does not contain extra information.
 
@@ -150,4 +152,14 @@ For users who have the 'Calculate and show Git tags' option turned **off**, Ther
 3.  **If the resulting reindexing time is acceptable** -- perform reindexing of all other repositories (for example, using ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Reindex all**).
 
 4.  **If the resulting reindexing time is not acceptable** –- the tags structure is probably too complex for the plugin, and the **Calculate and show Git tags** setting should be left as **OFF**.
+
+<p>&nbsp;</p>
+
+<br>
+<br>
+
+[**Prev:** Jira Git integration development panel](/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed)
+
+[**Next:** Jira project page](/git-integration-for-jira-data-center/jira-project-page-gij-self-managed)
+
 
