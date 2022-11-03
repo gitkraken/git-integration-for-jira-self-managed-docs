@@ -47,8 +47,19 @@ This is a filter based on the text in the repository name. It will list reposito
 
 Whitelists project tag.
 
-**Note**<br>
-GitLab refers to _**project tags**_ as tags in the API and in some places in the UI but the actual setting is called **Topics**.
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Note</b><br>
+        GitLab refers to <b><i>project tags</i></b> as tags in the API and in some places in the UI but the actual setting is called <b>Topics</b>.
+    </div>
+    </div>
+</div>
+<br>
+
 
 ## 4\. Starts with or ends with
 
@@ -85,5 +96,12 @@ Lists only repositories from projects that have existing repositories.
 <br>
 <hr>
 
-_1 Logo owned by_ [_GitLab Inc_](https://gitlab.com/) _used under_ [_license_](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+<!-- FOOTNOTE -->
+<br>
+<br>
+<div style='border-top: 1px solid #456; width: 40%; padding-bottom: 12px'></div>
+<div style='font-size: 12px;'>
+    <sup>1</sup> <i>Logo owned by <a href='https://gitlab.com/' target='_blank'>GitLab Inc</a> used under <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>license</a>.
+    <p>&nbsp;&nbsp;All product names, logos, and brands are property of their respective owners.<p><i>
+</div>
 

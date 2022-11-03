@@ -8,11 +8,19 @@ taxonomy:
 ---
 JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less.
 
-For help with writing expressions, please contact [**support**](mailto:support@bigbrassband.com).
+For help with writing expressions, please contact [**support**](mailto:gijsupport@bigbrassband.com).
 
-Read about JMESPath expressions on their [**website**](http://jmespath.org/).
+Read about JMESPath expressions on their <a href='http://jmespath.org/' target='_blank'><b>website</b></a>.
 
-* * *
+**What's on this page:**
+- [Accessible Locations](#accessible-locations)
+- [More on JMESPath filters for supported git services](#more-on-jmespath-filters-for-supported-git-services)
+
+<br>
+<br>
+<hr>
+<br>
+<br>
 
 ## Accessible Locations
 
@@ -20,25 +28,27 @@ Read about JMESPath expressions on their [**website**](http://jmespath.org/).
 
     For example:
     
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/135430238/jira-server-autoconnect-jmespath-cfg-loc.png?version=1&modificationDate=1609147226289&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-jira-server-autoconnect-jmespath-cfg-loc.png)
 
     <br>
 
-2.  Manage repositories page ➜ _**Action**_ ➜ Edit integration settings ➜ _**Integration settings**_ ➜ **JMESPath Filter**.
+2.  Manage repositories page ➜ _**Action**_ ➜ Edit integration connection settings ➜ _**Integration connection settings**_ ➜ **JMESPath Filter**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/135430238/jira-server-edit-repo-settings-jmespath.png?version=1&modificationDate=1609147307303&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-jira-server-edit-repo-settings-jmespath.png)
 
 <br>
 
-## Read more on JMESPath filters for supported git services
+<p>&nbsp;</p>
 
-*   [GitHub.com | GitHub Enterprise JMESPath filter examples](/git-integration-for-jira-data-center/GitHub-GitHub-Enterprise-JMESPath-filter-examples-gij-self-managed/)
+## More on JMESPath filters for supported git services
 
-*   [GitLab.com | GitLab CE/EE JMESPath filter examples](/git-integration-for-jira-data-center/GitLab-GitLab-CE-EE-JMESPath-filter-examples-gij-self-managed/)
+*   [GitHub.com \| GitHub Enterprise JMESPath filter examples](/git-integration-for-jira-data-center/GitHub-GitHub-Enterprise-JMESPath-filter-examples-gij-self-managed)
 
-*   [Microsoft | VSTS | TFS | Azure Repos JMESPath filter examples](/git-integration-for-jira-data-center/Microsoft-VSTS-TFS-Azure-Repos-JMESPath-filter-examples-gij-self-managed)
+*   [GitLab.com \| GitLab CE/EE JMESPath filter examples](/git-integration-for-jira-data-center/GitLab-GitLab-CE-EE-JMESPath-filter-examples-gij-self-managed)
+
+*   [Microsoft \| VSTS \| TFS \| Azure Repos JMESPath filter examples](/git-integration-for-jira-data-center/Microsoft-VSTS-TFS-Azure-Repos-JMESPath-filter-examples-gij-self-managed)
 
 *   [Tracked Folders JMESPath filter examples](/git-integration-for-jira-data-center/Tracked-Folders-JMESPath-filter-examples-gij-self-managed)
 
-*   [Gerrit JMESPath filter examples](/git-integration-for-jira-data-center/)
+*   [Gerrit JMESPath filter examples](/git-integration-for-jira-data-center/Gerrit-JMESPath-filter-examples-gij-self-managed)
 

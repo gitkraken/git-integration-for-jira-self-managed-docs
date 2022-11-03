@@ -42,7 +42,7 @@ taxonomy:
 <br>
 <br>
 
-<img src='/wp-content/uploads/gij-github-ent-server-banner-logo' width=510 height=59 style='max-width:100%;margin:25px 0 15px 0' />
+<img src='/wp-content/uploads/gij-github-ent-server-banner-logo.png' width=510 height=59 style='max-width:100%;margin:25px 0 15px 0' />
 
 <br>
 

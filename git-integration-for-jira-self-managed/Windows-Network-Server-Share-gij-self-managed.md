@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-<img src='/wp-content/uploads/gij-win-network-server-share-banner-logo.png' width=600 height=80 />
+<img src='/wp-content/uploads/win-network-server-share-banner-logo.png' width=600 height=80 />
 
 <br>
 
@@ -18,9 +18,9 @@ Quickly learn how to connect Windows Network or Server Share via Git Integration
 **What's on this page:**
 - [Integrate Windows Network/Server Share with Jira Data Center](#integrate-windows-networkserver-share-with-jiradata-center)
   - [Adding a Repository Hosted on Window Servers or Network Share](#adding-a-repository-hosted-on-window-servers-or-network-share)
-  - [**Editing Integration/Repository Settings**](#editing-integrationrepository-settings)
-  - [**Verifying Integration Settings**](#verifying-integration-settings)
-  - [**Viewing Git Commits in Jira Data Center**](#viewing-git-commits-in-jiradata-center)
+  - [Editing Integration/Repository Settings](#editing-integrationrepository-settings)
+  - [Verifying Integration Settings](#verifying-integration-settings)
+  - [Viewing Git Commits in Jira Data Center](#viewing-git-commits-in-jiradata-center)
   - [More Integration Guides](#more-integration-guides)
 
 <br>
@@ -61,7 +61,7 @@ The network/server share folder should now be connected with Jira.
 
 
 
-## **Editing Integration/Repository Settings**
+## Editing Integration/Repository Settings
 
 In the Git Repositories configuration page, edit the repository via **Actions** \> **Edit repository/integration settings**.
 
@@ -69,23 +69,23 @@ Under Repository Settings, set **_Enable Fetches_** option to  `Git reposito
 
 
 
-## **Verifying Integration Settings**
+## Verifying Integration Settings
 
 Verify network folder share name by opening the shared folder properties.
 
 For example:
 
-![](https://bigbrassband.com/docimgs/win-share-folder-properties-dlg.png)
+![](/wp-content/uploads/gij-win-share-folder-properties-dlg.png)
 
 Make sure that the user has read access permissions to the network path.
 
 For example:
 
-![](https://bigbrassband.com/docimgs/win-share-access-rights-check.png)
+![](/wp-content/uploads/gij-win-share-access-rights-check.png)
 
 
 
-## **Viewing Git Commits in Jira Data Center**
+## Viewing Git Commits in Jira Data Center
 
 1.  Perform a git commit by adding the Jira issue key in the commit message. This will associate the commit to the mentioned Jira issue.
 2.  Open the Jira issue.
