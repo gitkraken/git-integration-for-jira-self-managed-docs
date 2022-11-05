@@ -6,9 +6,20 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 Starts the process of importing configuration and returns the result at once.
 
-Only Jira admins can perform the Bulk Import API call.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Only Jira admins can perform the Bulk Import API call.
+    </div>
+    </div>
+</div>
+<br>
 
 ## Bulk Import Configuration
 
@@ -22,7 +33,7 @@ POST
 
 | Parameter | Condition |
 | :--- | :--- |
-| _**file**_ | Input the path to the tab-separated values (.TSV) file. See [**table below**](#Table1) for details on each TSV file parameter. |
+| _**file**_ | Input the path to the tab-separated values (.TSV) file. See [**table below**](#Field-parameters) for details on each TSV file parameter. |
 | _**confirmed-delete**_**\[ \]** | Optional.<br><br>Accepts multiple repository IDs confirmed for deletion. Input one or more repositories to delete, separated by commas.<br><br>_Repositories won't be deleted if it's not in this list._ |
 | _**HTTP headers**_ | The request should contain the additional HTTP header:<br><br>`X-Atlassian-Token: no-check` |
 
@@ -116,7 +127,7 @@ Refer to the parameters below when editing the TSV file:
 | _**apiPath**_ | _String_. Optional.<br><br>The integration will use this relative REST API path starting with "/" to retrieve the list of tracked repositories. For more information, see [Working with Custom API path](/git-integration-for-jira-data-center/working-with-custom-api-path-gij-self-managed). |
 | _**apiFilter**_ | _String_. Optional.<br><br>JMESPath filter expression will be used to filter API results. See article [Working with JMESPath filters](/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed) or [contact support](mailto:gijsupport@gitkraken.com) for help writing expressions. |
 | **tfsCollection** | _String_. Optional. TFS or Azure DevOps Server integrations only.<br><br>A TFS collection is a group of TFS team projects. Specify an existing TFS Collection for use with Jira integration. |
-| _**awsRegion**_ | _String_. Optional. AWS integrations only.<br><br>Specify a region for AWS CodeCommit integration. For region values, see [**AWS Regions and Endpoints**](https://docs.aws.amazon.com/general/latest/gr/rande.html). |
+| _**awsRegion**_ | _String_. Optional. AWS integrations only.<br><br>Specify a region for AWS CodeCommit integration. For region values, see <a href='https://docs.aws.amazon.com/general/latest/gr/rande.html' target='_blank'><b>AWS Regions and Endpoints</b></a>. |
 | _**trustFolderStat**_ | _Boolean._ Optional.<br><br>When the `trustFolderStat` setting is set to **false**, the `.git/objects/pack` folder will be always scanned to check for new pack files. If set to **true**, the `last-modified` attribute of the folder will be used to check the folder for modifications.<br><br>The default value for Jira Data Center is **false**.<br><br>If your repository is stored on a network share, it is highly recommended to set the `trustFolderStat` value to _**false**_.<br><br>When adding new repositories, we recommend to leave the setting of the `trustFolderStat`value to **false** _(default)_. You can change this setting later on via _Actions_ ➜ _**Edit repository settings**_ in the Manage repositories page. |
 | _**refSpecNotes**_ | _Boolean_. Optional.<br><br>This is a reference to `refs/notes/*` used for fetching. The default value for this field is _**true**_.<br><br>Git notes are not shown…<br><ul><li>when <code>refs/notes</code> are disabled on connecting a repository;</li><li>when a new note comes when <code>refs/notes</code> is disabled.</li></ul> |
 | _**refSpecChanges**_ | _Boolean_. Optional.<br><br>This is a reference to `refs/changes/*` used for fetching. The default value for this field is _**false**_. |
@@ -133,4 +144,17 @@ Take note that the .tsv file is verified by the Git Integration for Jira app wit
 *   If a field is omitted from the header row, the Git Integration app will use the default value for a new repository. The Git Integration app will keep the current value of a repository if it already exists in the configured repositories.
 
 *   If a repository is not listed in the .tsv file, no changes will be made if the same repository exists in the Git Integration app configuration.
+
+<p>&nbsp;</p>
+
+<br>
+<br>
+
+## Bulk Change REST APIs
+
+*   [Bulk Export](/git-integration-for-jira-data-center/bulk-export-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+*   **Bulk Ixport** (this page)
+
+*   [Get Bulk Import Information](/git-integration-for-jira-data-center/get-bulk-import-information-gij-self-managed) (Git Integration for Jira Server/Data Center)
 

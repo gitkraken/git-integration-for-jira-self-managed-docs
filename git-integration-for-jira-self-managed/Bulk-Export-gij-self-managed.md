@@ -100,3 +100,16 @@ Take note that the .tsv file is verified by the Git Integration for Jira app wit
 
 *   If a repository is not listed in the .tsv file, no changes will be made if the same repository exists in the Git Integration app configuration.
 
+<p>&nbsp;</p>
+
+<br>
+<br>
+
+## Bulk Change REST APIs
+
+*   **Bulk Export** (this page)
+
+*   [Bulk Import](/git-integration-for-jira-data-center/bulk-import-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+*   [Get Bulk Import Information](/git-integration-for-jira-data-center/get-bulk-import-information-gij-self-managed) (Git Integration for Jira Server/Data Center)
+

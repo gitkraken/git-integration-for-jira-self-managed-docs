@@ -6,22 +6,38 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91979855/gerrit-banner-logo.png?version=1&modificationDate=1591009190980&cacheVersion=1&api=v2&width=272&height=112)
+![](/wp-content/uploads/gerrit-banner-logo.png)
+
+<p>&nbsp;</p>
 
 # Integrate Gerrit with Jira Data Center
 
 Quickly learn how to connect Gerrit git repositories via Git Integration for Jira Data Center.
-For the Jira Cloud version of this document click [Here](/git-integration-for-jira-cloud/gerrit-gij-self-managed/)
+For the Jira Cloud version of this document click [Here](/git-integration-for-jira-cloud/gerrit-gij-self-managed)
 
-* * *
+**What's on this page:**
+- [Integrate Gerrit with Jira Data Center](#integrate-gerrit-with-jira-data-center)
+  - [Using Full feature Integration](#using-full-feature-integration)
+  - [Single Repository (Manually Connect via SSH/HTTP/HTTPS)](#single-repository-manually-connect-via-sshhttphttps)
+  - [Setting Up Gerrit Web Links](#setting-up-gerrit-web-links)
+  - [Viewing Git Commits in Jira Data Center](#viewing-git-commits-in-jira-data-center)
+  - [Default Branch](#default-branch)
+  - [More Integration Guides](#more-integration-guides)
+
+<br>
+<br>
+<hr>
+<br>
+<br>
 
 <div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/rknbc3ty4e?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/rknbc3ty4e'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
+<br>
 <br>
 
 ## Using Full feature Integration
@@ -30,7 +46,7 @@ For the Jira Cloud version of this document click [Here](/git-integration-for-ji
 
 2.  Click **Gerrit** on the Auto-connect integration panel. The Auto-connect wizard appears.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91979855/jira-server-gerrit-auto-connect-wiz-login(c).png?version=1&modificationDate=1591009191460&cacheVersion=1&api=v2&width=646&height=449)
+    ![](/wp-content/uploads/gij-jira-server-gerrit-auto-connect-wiz-login-c.png)
 
     *   Enter your git server’s **Host URL**.
 
@@ -38,21 +54,32 @@ For the Jira Cloud version of this document click [Here](/git-integration-for-ji
 
     *   OPTIONAL Click **Advanced** to setup how git fetches refs.
 
-        ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91979855/jira-server-gerrit-auto-connect-advanced(c).png?version=1&modificationDate=1591009191907&cacheVersion=1&api=v2&width=510&height=225)
+        ![](/Wp-content/uploads/gij-jira-server-gerrit-auto-connect-advanced-c.png)
 
-        *   Setup fetch refspec by selecting options needed for this integration. A refspec maps a branch in the local repository to a branch in a remote repository. For more information, see [**Git Refspec**](https://git-scm.com/book/en/v2/Git-Internals-The-Refspec).
+        *   Setup fetch refspec by selecting options needed for this integration. A refspec maps a branch in the local repository to a branch in a remote repository. For more information, see <a href='https://git-scm.com/book/en/v2/Git-Internals-The-Refspec' target='_blank'><b>Git Refspec</b></a>.
 
         *   For **Clone and index other refs**, enable it to define a custom refspec tailored for this integration. A refspec is specified as `[+]<source>:<destination>` --- where, `<source>` is the source branch in the local repository and `<destination>` is the destination branch in the remote repository. The optional `+` sign instructs git to force the remote repository to perform a non-fast-forward update.
 
-        *   For more detailed information on formatting, see [**Git Fetch**](https://git-scm.com/docs/git-fetch).
+        *   For more detailed information on formatting, see <a href='https://git-scm.com/docs/git-fetch' taget='_blank'><b>Git Fetch</b></a>.
 
-            **Note:** _The new values will be applied to the subsequent fetches only instead of applying it to the objects that have been already fetched_.
+            <div class="bbb-callout bbb--note">
+            <div class="irow">
+                <div class="ilogobox">
+                <span class="logoimg"></span>
+                </div>
+                <div class="imsgbox">
+                    <b>Note:</b><br>
+                    <i>The new values will be applied to the subsequent fetches only instead of applying it to the objects that have been already fetched</i>.
+                </div>
+            </div>
+            </div>
+            <br>
 
 3.  Click **Connect**. The Auto-connect wizard automatically reads git repositories for import into the git configuration.
 
 4.  Click **Import repositories**. The Settings screen is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/91979855/gerrit-git-server-autoconnect-settings-dlg(c).png?version=2&modificationDate=1591009193074&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gerrit-git-server-autoconnect-settings-dlg-c.png)
 
     *   Set **Smart Commits**, **Repository Browser** options or leave it as is.
 
@@ -73,7 +100,7 @@ Login to your Gerrit account. Obtain the repository URL from the Gerrit reposito
 
 4.  Click **Next**. The Settings page is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/91979855/gerrit-git-server-autoconnect-settings-dlg(c).png?version=2&modificationDate=1591009193074&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gerrit-git-server-autoconnect-settings-dlg-c.png)
 
     *   Set **Smart Commits**, **Repository Browser** options or leave it as is.
 
@@ -81,8 +108,17 @@ Login to your Gerrit account. Obtain the repository URL from the Gerrit reposito
 
 5.  Click **Finish** to complete this process.
 
-
-The refspec options are not available for single repository connections of Gerrit integration.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The refspec options are not available for single repository connections of Gerrit integration.
+    </div>
+    </div>
+</div>
+<br>
 
 The repository is now connected to Jira Data Center.
 
@@ -98,7 +134,7 @@ Configure web links from either of the following locations:
 
 *   Git ➜ Manage repositories ➜ **Edit repository/integration** settings.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/91979855/gerrit-web-linking-sample.png?version=1&modificationDate=1591009193560&cacheVersion=1&api=v2&width=680&height=356)
+<img src='/wp-content/uploads/gij-gerrit-web-linking-sample.png' style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 
@@ -125,5 +161,49 @@ Most git integrations allow changing of the default branch of the repository/pro
 
 For the case with Gerrit, the default main branch is always “master”.
 
-Main branch for repositories within an integration can only be changed on the git server.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Main branch for repositories within an integration can only be changed on the git server.
+    </div>
+    </div>
+</div>
+<br>
+
+<p>&nbsp;</p>
+
+<br>
+<br>
+
+## More Integration Guides
+
+[GitHub.com](/git-integration-for-jira-data-center/gitHub-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[GitHub Enterprise Server](/git-integration-for-jira-data-center/gitHub-Enterprise-Server-gij-self-managed)
+
+[GitLab.com](/git-integration-for-jira-data-center/gitLab-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[GitLab CE/EE](/git-integration-for-jira-data-center/gitLab-com-CE-EE-gijsm-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Azure DevOps \| Visual Studio Team Services (VSTS)](/git-integration-for-jira-data-center/azure-DevOps-Visual-Studio-Team-Services-(VSTS)-gij-self-managed) (Git Integration for Data Center/Jira Server)
+
+[Azure DevOps Server \| Team Foundation Services (TFS)](/git-integration-for-jira-data-center/azure-DevOps-Server-Team-Foundation-Services-(TFS)-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[AWS CodeCommit](/git-integration-for-jira-data-center/aws-codecommit-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+**Gerrit** (this page)
+
+[Windows Network \| Server Share](/git-integration-for-jira-data-center/Windows-Network-Server-Share-gij-self-managed)
+
+[Tracked Folders](/git-integration-for-jira-data-center/tracked-Folders-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Bitbucket Server](/git-integration-for-jira-data-center/Bitbucket-Server-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Bonobo](/git-integration-for-jira-data-center/bonobo-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Integration basics](/git-integration-for-jira-data-center/Integration-Basics-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
 

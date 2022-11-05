@@ -19,7 +19,7 @@ taxonomy:
 </div>
 <br>
 
-<img src='/wp-content/uploads/gij-aws-cc-logo-for-dark.png' width=387 height=81 style='max-width:100%' />
+<img src='/wp-content/uploads/gij-aws-cc-logo-banner.png' width=512 height=106 style='max-width:100%' />
 
 <br>
 
@@ -61,8 +61,10 @@ Quickly learn how to connect AWS CodeCommit git repositories via Git Integration
   - [Updating Require User PAT data](#updating-require-user-pat-data)
 
 <br>
-
-* * *
+<br>
+<hr>
+<br>
+<br>
 
 ## Required permissions
 
@@ -85,7 +87,7 @@ We recommend that the following AWS IAM policies are configured beforehand based
 
 ### Basic features
 
-Configure [**AWSCodeCommitReadOnly »**](http://docs.aws.amazon.com/codecommit/latest/userguide/access-permissions.html) IAM policy for basic features:
+Configure <a href='http://docs.aws.amazon.com/codecommit/latest/userguide/access-permissions.html' target='_blank'><b>AWSCodeCommitReadOnly »</b></a> IAM policy for basic features:
 
 | Feature | Required permission |
 | :--- | :--- |
@@ -146,7 +148,7 @@ CodeCommit doesn't have webhooks but it has SNS triggers requiring a [**subscri
 </div>
 <br>
 
-For more information on Amazon SNS, see [**Amazon SNS: Getting Started »**](https://docs.aws.amazon.com/sns/latest/dg/sns-getting-started.html).
+For more information on Amazon SNS, see <a href='https://docs.aws.amazon.com/sns/latest/dg/sns-getting-started.html' target='_blank'><b>Amazon SNS: Getting Started »</b></a>.
 
 <br>
 
@@ -203,7 +205,7 @@ We recommend using the Add new integration panel (_formerly Auto-connect integra
     ![](/wp-content/uploads/gij-gitserver-aws-auto-connect-wiz-advanced-opt-c.png)
 
     *   **Fetch refspec**  –  Git refspec contains patterns mapped as references from the remote to the local repository.
-        For more information, see [**Git Internals -- The Refspec**](https://git-scm.com/book/en/v2/Git-Internals-The-Refspec).
+        For more information, see <a href='https://git-scm.com/book/en/v2/Git-Internals-The-Refspec'><b>Git Internals -- The Refspec</b></a>.
 
         *   The first two refspec options are required.
 
@@ -409,7 +411,7 @@ The newly-created branch appears on the development panel under _Branches_ secti
 
 If the [Require user PAT setting](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed) is enabled in the **Integration feature settings** _Actions_ ➜ _Edit integration feature settings_) and a user PAT isn't configured yet for the selected repository via Repository Browser, the following create branch dialog is displayed instead.
 
-<img src='/wp-content/upoloads/gij-gitserver-create-branch-req-user-pat-enabled-aws.png' width=550 height=275 style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitserver-create-branch-req-user-pat-enabled-aws.png' width=550 height=275 style='display:block;margin:25px auto;max-width:100%' />
 
 Click the link label to setup the PAT.
 
@@ -429,7 +431,7 @@ The pull request feature works the same as merge request.
 
 2.  On the development panel under **Git integration**, click **Create pull request**. The following dialog is displayed.
 
-    ![](/wp-content/uploads/gitserver-create-pullreq-aws-c.png)
+    ![](/wp-content/uploads/gij-gitserver-create-pullreq-aws-c.png)
 
     *   Select **Repository** from the list.
 
@@ -453,17 +455,27 @@ The pull request is also ready for approval by the reviewers in your AWS CodeCom
 
 If the [Require user PAT setting](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed) is enabled in the **Integration feature settings** ( _Actions_ ➜ _Edit integration feature settings_) and a user PAT isn't configured yet for the selected repository via Repository Browser, the following pull request dialog is displayed instead.
 
-<img src='/wp-content/uploads/gij-gitserver-create-pullreq-dlg-reqPAT.png' width=550 height=275 style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitserver-create-pullreq-dlg-reqPAT-aws.png' width=550 height=275 style='display:block;margin:25px auto;max-width:100%' />
 
 Click the link label to setup the PAT.
 
 The Setup your AWS Credentials dialog appears.
 
-<img src='/wp-content/uploads/gitserver-create-branches-setup-pat-dlg-aws.png' width=550 height=275 style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitserver-create-branches-setup-pat-dlg-aws.png' width=550 height=275 style='display:block;margin:25px auto;max-width:100%' />
 
 Enter the required credentials then click **Update** to complete this setup. You can now proceed to create branches and pull requests for the selected repository.
 
-If an invalid secret access key was configured for the selected repository, the branch and pull request creation process will fail.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        If an invalid secret access key was configured for the selected repository, the branch and pull request creation process will fail.
+    </div>
+    </div>
+</div>
+<br>
 
 ## Updating Require User PAT data
 

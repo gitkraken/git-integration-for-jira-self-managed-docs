@@ -69,3 +69,16 @@ user@home:~$ python configuration_progress.py 1058
 ...
 ```
 
+<p>&nbsp;</p>
+
+<br>
+<br>
+
+## Bulk Change REST APIs
+
+*   [Bulk Export](/git-integration-for-jira-data-center/bulk-export-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+*   [Bulk Ixport](/git-integration-for-jira-data-center/bulk-import-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+*   **Get Bulk Import Information** (this page)
+

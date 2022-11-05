@@ -13,7 +13,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        These settings are part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed/'><b>General Settings</b></a> configuration page.
+        These settings are part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'><b>General Settings</b></a> configuration page.
     </div>
     </div>
 </div>
@@ -35,7 +35,9 @@ taxonomy:
 
 It displays how many commits/revisions are stored in the memory. The cache size is measured per piece where the approximate revision size is 256 bytes. For instance, there are 4000 revisions per 1 Mb. Set the revision cache size value to 4000 to allocate 1Mb of heap for the cache.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207828850/gitserver-gencfg-cache-sizes-new.png?version=1&modificationDate=1640601505018&cacheVersion=1&api=v2&width=680&height=290)
+<img src='/wp-content/uploads/gij-gitserver-gencfg-cache-sizes-new.png' style='display:block;margin:25px auto;max-width:100%' />
+
+<br>
 
 The above settings are the sizes of their respective memory cache. Higher values can affect the performance of the retrieved revisions from Git.
 
@@ -50,6 +52,8 @@ _Required._  This is the number of branches that will be kept as cache in memor
 ## Tags cache size
 
 _Required._  This is the number of tags that will be kept in cache memory for quick retrieval – per piece is 1000Kb.  The default value for this setting is **500**. (approx. ~488Mb+)
+
+<br>
 
 * * *
 
@@ -71,4 +75,36 @@ Calculating for the most desirable value depends on the following factors such a
     </div>
     </div>
 </div>
+<br>
 
+<p>&nbsp;</p>
+
+## More on General settings
+
+[Git roll up issue tab](/git-integration-for-jira-data-center/git-roll-up-tab-setting-gij-self-managed)
+
+[Git commits issue and project tabs](/git-integration-for-jira-data-center/git-commits-issue-and-project-tabs-gij-self-managed)
+
+[Git integration features](/git-integration-for-jira-data-center/git-integration-features-gij-self-managed)
+
+[Branch and pull request settings (formerly Git Integration Options)](/git-integration-for-jira-data-center/branch-and-pull-request-settings-(formerly-Git-Integration-Options)-gij-self-managed)
+
+[Email settings](/git-integration-for-jira-data-center/email-settings-gij-self-managed)
+
+[Scheduled jobs](/git-integration-for-jira-data-center/scheduled-jobs-gij-self-managed)
+
+[Audit log settings](/git-integration-for-jira-data-center/audit-log-settings-gij-self-managed)
+
+[General settings](/git-integration-for-jira-data-center/general-Settings-gij-self-managed)
+
+[Repository Browser general setting](/git-integration-for-jira-data-center/repository-Browser-general-setting-gij-self-managed)
+
+[Source Code Diff Viewing general setting](/git-integration-for-jira-data-center/source-Code-Diff-Viewing-general-setting-gij-self-managed)
+
+[Enforce Git service permissions](/git-integration-for-jira-data-center/enforce-Git-service-permissions-gij-self-managed)
+
+[Enable Automation for Jira general setting](/git-integration-for-jira-data-center/enable-Automation-for-Jira-general-setting-gij-self-managed)
+
+[Require User PAT general setting](/git-integration-for-jira-data-center/require-User-PAT-general-setting-gij-self-managed)
+
+**Cache sizes settings** (this page)
