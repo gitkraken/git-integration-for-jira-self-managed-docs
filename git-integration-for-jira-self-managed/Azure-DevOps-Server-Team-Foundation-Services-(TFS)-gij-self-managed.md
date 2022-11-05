@@ -13,16 +13,18 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs-gij-cloud/'>See the corresponding article</a>.
+        Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs-gij-cloud'>See the corresponding article</a>.
     </div>
     </div>
 </div>
 <br>
+<br>
 
-<img src='/wp-content/uploads/gij-azure-devops-server-logo.png' width=481 height=77 style='max-width:100%' />
+<img src='/wp-content/uploads/gij-azure-devops-banner.png' width=481 height=77 style='max-width:100%' />
 
 <img src='/wp-content/uploads/gij-tfs-logo.png' height=auto width=350 style='max-width:100%'/>
 
+<br>
 <br>
 
 # Integrate Azure DevOps Server/TFS with Jira Data Center/Server
@@ -48,7 +50,9 @@ The Git Integration for Jira app supports Azure Repos.
   - [More Integration Guides](#more-integration-guides)
 
 <br>
+<br>
 <hr>
+<br>
 <br>
 
 ## Creating a personal access token
@@ -92,7 +96,7 @@ We recommend using the Add new integration panel to connect multiple repositorie
 
         ![](/wp-content/uploads/gij-gitserver-azure-tfs-advanced-opt-tfs-c.png)
 
-        *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less. Read about JMESPath expressions on their [website](http://jmespath.org/).
+        *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less. Read about JMESPath expressions on their <a href='http://jmespath.org/' target='_blank'>website</a>.
 
             For help with writing expressions, please contact [support](mailto:gijsupport@gitkraken.com).
 
@@ -178,7 +182,7 @@ This process requires an existing Azure DevOps Server/TFS git repository. Look 
 
 Choose between SSH or HTTPS. Use this information to connect the Azure DevOps Server/TFS git repository to your Jira server via Git Integration for Jira app:
 
-![](/wp-content/uploads/gij-vsts-azure-clone-repo-page.png)
+<img src='/wp-content/uploads/gij-vsts-azure-clone-repo-page.png' style='display:block;margin:25px auto;max-width:100%' />
 
 1.  On your Jira dashboard menu, go to Git ➜ **Manage repositories**.
 
@@ -257,7 +261,7 @@ For the following steps, a Azure DevOps Server/TFS and a Visual Studio environme
 
 The commit is published to Azure DevOps Server/TFS. To view the commit in Jira, go to the Jira issue mentioned in the commit message. Click the **Git Commits** tab in the _**Activity**_ row.
 
-![](wp-content/uploads/gij-gitserver-azure-tfs-commits-example.png)
+<img src='wp-content/uploads/gij-gitserver-azure-tfs-commits-example.png' style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 
@@ -337,7 +341,7 @@ Perform a commit to the newly-created branch to be ready for merge.
 
 ### Pushing commits to the branch
 
-![](/wp-content/uploads/gij-jira-cloud-tfs-server-branches-list.png)
+<img src='/wp-content/uploads/gij-jira-cloud-tfs-server-branches-list.png' style='display:block;margin:25px auto;max-width:100%' />
 
 To update the branch list to your Visual Studio's Team Explorer, perform a **Pull** action on the connected team project.  The branches list in your VS IDE should be updated now.
 
@@ -350,6 +354,7 @@ To update the branch list to your Visual Studio's Team Explorer, perform a **Pu
 4.  Make changes to a file or project then perform a commit to the selected branch:
 
     ![](/wp-content/uploads/gij-vs-ide-team-explorer-branch-commit-c.png)
+
     1.  On the Team Explorer, click **Changes**.
 
     2.  <img src='/wp-content/uploads/bbb-alert-20.png' />&nbsp; Make sure that **Branch:** displays the name of the newly-created branch. If not, select it again from the list.
@@ -394,6 +399,8 @@ The pull request is also ready for approval by the reviewers in your Azure DevOp
 
 ![](/wp-content/uploads/gij-jira-cloud-tfs-pull-request-merge-details.png)
 
+<br>
+
 ### Merging branch to master
 
 Continuing from the above steps, the current branch is ready for merge.
@@ -420,8 +427,11 @@ The reviewer's approval is required to completely merge the pull request. This u
 
 Once approved, the team leader or reviewer can then complete the merge. The commit can be viewed in the associated Jira issue page.
 
-![](/wp-content/uploads/gij-gitserver-tfs-commits-tab-example.png)
+<img src='/wp-content/uploads/gij-gitserver-tfs-commits-tab-example.png' style='display:block;margin:25px auto;max-width:100%' />
 
+<p>&nbsp;</p>
+
+<br>
 <br>
 
 ## More Integration Guides

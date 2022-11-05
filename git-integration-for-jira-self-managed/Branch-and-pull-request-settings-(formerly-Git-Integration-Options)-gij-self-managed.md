@@ -13,7 +13,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed/'><b>General Settings</b></a> configuration page.
+        This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'><b>General Settings</b></a> configuration page.
     </div>
     </div>
 </div>
@@ -21,7 +21,9 @@ taxonomy:
 
 This setting affects git branches creation default names and toggles for git pull/merge request options for the Jira issue.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207828745/gitserver-gencfg-branch-and-pr-settings.png?version=1&modificationDate=1647772253436&cacheVersion=1&api=v2&width=566&height=479)
+<img src='/wp-content/uploads/gij-gitserver-gencfg-branch-and-pr-settings.png' style='display:block;margin:25px auto;max-width:100%' />
+
+<br>
 
 ## Personal access token
 
@@ -76,6 +78,7 @@ ${issuetype:type0,subsitute0[,type1,substitute1,...,typeN,substituteN][,defaults
     </div>
     </div>
 </div>
+<br>
 
 `${projectkey}` – Project Key. The Project key is used and will be in uppercase.
 
@@ -104,7 +107,9 @@ This generates the string format like "**branch/PRJ-123-add-more-logging**" as a
 
 ## Git pull/merge requests
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1207828745/git-merge-pullreq-settings.png?version=1&modificationDate=1613124415741&cacheVersion=1&api=v2)
+<img src='/wp-content/uploads/gij-git-merge-pullreq-settings.png' style='display:block;margin:25px auto;max-width:100%' />
+
+<br>
 
 **Enable pull/merge request creation**  –  shows or hides the function for creating pull/merge requests from the Jira developer panel. This setting is ON by default.
 
@@ -115,4 +120,34 @@ This generates the string format like "**branch/PRJ-123-add-more-logging**" as a
 When switched to `ON`, the _**Enable indexing pull/merge requests via API**_ setting completely activates the feature of indexing of PRs/MRs. This also allows users to use the toggle control for the _**Enable indexing pull/merge requests by commits**_ setting, which provides an additional way of indexing when switched to `ON`.
 
 For detailed information on this feature, see article [Associate pull/merge requests in Jira Issue](/git-integration-for-jira-data-center/associate-pull-merge-requests-to-issues-based-on-commits-gij-self-managed).
+
+<br>
+
+## More on General settings
+
+[Git roll up issue tab](/git-integration-for-jira-data-center/git-roll-up-tab-setting-gij-self-managed)
+
+[Git commits issue and project tabs](/git-integration-for-jira-data-center/git-commits-issue-and-project-tabs-gij-self-managed)
+
+[Git integration features](/git-integration-for-jira-data-center/git-integration-features-gij-self-managed)
+
+**Branch and pull request settings (formerly Git Integration Options)** (this page)
+
+[Email settings](/git-integration-for-jira-data-center/email-settings-gij-self-managed)
+
+[Scheduled jobs](/git-integration-for-jira-data-center/scheduled-jobs-gij-self-managed)
+
+[Audit log settings](/git-integration-for-jira-data-center/audit-log-settings-gij-self-managed)
+
+[General settings](/git-integration-for-jira-data-center/general-Settings-gij-self-managed)
+
+[Repository Browser general setting](/git-integration-for-jira-data-center/repository-Browser-general-setting-gij-self-managed)
+
+[Source Code Diff Viewing general setting](/git-integration-for-jira-data-center/source-Code-Diff-Viewing-general-setting-gij-self-managed)
+
+[Enforce Git service permissions](/git-integration-for-jira-data-center/enforce-Git-service-permissions-gij-self-managed)
+
+[Enable Automation for Jira general setting](/git-integration-for-jira-data-center/enable-Automation-for-Jira-general-setting-gij-self-managed)
+
+[Require User PAT general setting](/git-integration-for-jira-data-center/require-User-PAT-general-setting-gij-self-managed)
 

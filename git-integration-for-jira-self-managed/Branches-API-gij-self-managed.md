@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 The Branches REST API will obtain list of branches associated to a Jira issue.
 
 <div class="bbb-callout bbb--alert">
@@ -70,7 +71,7 @@ Result:
 
 *   [Commits API](/git-integration-for-jira-data-center/commits-api-gij-self-managed/)
 
-*   [Branches API](/git-integration-for-jira-data-center/branches-api-gij-self-managed/)
+*   **Branches API** (this page)
 
 *   [Integration API](/git-integration-for-jira-data-center/integration-api-gij-self-managed)
 
