@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 Every developer must have this hook on his local machine in order to:
 
 *   Commit codes locally several times then pushes it to the server.
@@ -26,11 +27,21 @@ Example: `https://jira.example.com/rpc/xmlrpc`
 
 Example: `re.compile(r'\[(\w+7-\d+?)\]')`
 
-In Linux and OSX, this file must have executable permissions in the file system; in Windows, setting this permission is not necessary.  To use the hook in Windows without python installed, see **[Python on Windows FAQ »](https://docs.python.org/2/faq/windows.html#how-do-i-make-an-executable-from-a-python-script)**.
+In Linux and OSX, this file must have executable permissions in the file system; in Windows, setting this permission is not necessary.  To use the hook in Windows without python installed, see <a href='https://docs.python.org/2/faq/windows.html#how-do-i-make-an-executable-from-a-python-script' target='_blank'><b>Python on Windows FAQ »</b></a>.
 
 See the commit-msg hook code on the right panel or download the sample **[commit-msg file ↓](https://bigbrassband.com/files/commit-msg.zip)**, make the necessary changes, and place it in the required folder.
 
-The **commit-msg** hook is a python script file that must be located in the developer's local repository.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The <b>commit-msg</b> hook is a python script file that must be located in the developer's local repository.
+    </div>
+    </div>
+</div>
+<br>
 
 <br>
 
@@ -55,22 +66,22 @@ import sys
 import re
 import xmlrpclib
 
-NO_JIRA_TICKET_MESSAGE = \
-'No Jira ticket present in the commit message. \
+NO_JIRA_TICKET_MESSAGE = \\
+'No Jira ticket present in the commit message. \\
 Please include the Jira ticket enclosed in brackets: [ABC-789].'
-INVALID_JIRA_TICKET_MESSAGE = \
-'Proper Jira ticket syntax was found, but none were valid tickets. \
+INVALID_JIRA_TICKET_MESSAGE = \\
+'Proper Jira ticket syntax was found, but none were valid tickets. \\
 Please check the tickets and try again.'
-TOO_MANY_JIRA_TICKETS_MESSAGE = \
+TOO_MANY_JIRA_TICKETS_MESSAGE = \\
 'Only 1 Jira ticket is allowed per commit. Please commit only 1 change at a time.'
-INVALID_ISSUE_TYPE_MESSAGE = \
-'You may not commit against subtasks or task-splits. \
+INVALID_ISSUE_TYPE_MESSAGE = \\
+'You may not commit against subtasks or task-splits. \\
 Please commit against the parent ticket.'
 
 JIRA_XMLRPC = 'https://jira.example.com/rpc/xmlrpc'
 JIRA_USER = 'user'
 JIRA_PASSWORD = 'password'
-JIRA_TICKET_PATTERN = re.compile(r'\[(\w+?-\d+?)\]')
+JIRA_TICKET_PATTERN = re.compile(r'\\[(\\w+?-\\d+?)\\]')
 
 FAULT_MSG_ISSUE_NOT_FOUND = 'com.atlassian.jira.rpc.exception.RemotePermissionException'
 
@@ -113,7 +124,7 @@ msg = msg_file.read()
 err_msg = check_message(msg)
 
 if err_msg:
-    print >> sys.stderr, 'Error: %s\nCommit message:\n%s' % (err_msg, msg)
+    print >> sys.stderr, 'Error: %s\\nCommit message:\\n%s' % (err_msg, msg)
     sys.exit(1)
 ```
 

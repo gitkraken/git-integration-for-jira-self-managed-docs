@@ -19,7 +19,7 @@ By default - integrations (GitLab, GitHub, etc) and individual repositories have
     <div class="imsgbox">
         <b>Related features</b><br>
         Enabling or disabling the <i>Source Code Diff Viewing</i> setting for an integration or repository will limit repository source code displaying in:
-        <ul>
+        <ul style='margin-bottom:-12px'>
             <li><b>Git Commits</b> issue tab: <b>View full commit</b> button is removed.</li>
             <li><b>Git Roll Up</b> issue tab: <b>Diff</b> page: shows information message.</li>
             <li><b>Repository Browser: Browse</b> page: shows information message.</li>
@@ -29,7 +29,6 @@ By default - integrations (GitLab, GitHub, etc) and individual repositories have
     </div>
     </div>
 </div>
-<br>
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -41,6 +40,7 @@ By default - integrations (GitLab, GitHub, etc) and individual repositories have
     </div>
     </div>
 </div>
+<br>
 <br>
 
 ## Instructions for integrations (GitLab, GitHub, etc)
@@ -94,6 +94,7 @@ To enable/disable the Repository Browser for individual repositories:
 
 5.  Click **Update**.
 
+<br>
 
 ### Example: Disabling _Source Code Diff Viewing_ for a repository
 
@@ -105,4 +106,26 @@ To enable/disable the Repository Browser for individual repositories:
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/mtwnmihirc'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 <br>
+
+## More How-to articles
+
+[Creating Personal Access Tokens](/git-integration-for-jira-data-center/Creating-Personal-Access-Tokens-gij-self-managed)
+
+[Working with JMESPath Filters](/git-integration-for-jira-data-center/Working-with-JMESPath-Filters-gij-self-managed)
+
+[Working with Custom API Path](/git-integration-for-jira-data-center/Working-with-Custom-API-Path-gij-self-managed)
+
+[Creating and configuring SSH keys (Windows/MacOS/Linux)](/git-integration-for-jira-data-center/creating-and-configuring-ssh-keys-windows-macos-linux-gij-self-managed)
+
+[Require Personal Access Tokens for user actions (create branch/pull request)](/git-integration-for-jira-data-center/Require-Personal-Access-Tokens-for-user-actions-(create-branch-pull-request)-gij-self-managed)
+
+[Setting Project Permissions](/git-integration-for-jira-data-center/Setting-Project-Permissions-gij-self-managed)
+
+[How to get a quote?](/git-integration-for-jira-data-center/How-to-get-a-quote-gij-self-managed)
+
+[Ways to Index Git Data to Jira Issues](/git-integration-for-jira-data-center/Ways-to-Index-Git-Data-to-Jira-Issues-gij-self-managed)
+
+[Proxy settings on adding integrations (except AWS CodeCommit)](/git-integration-for-jira-data-center/Proxy-settings-on-adding-integrations-(except-AWS-CodeCommit)-gij-self-managed)
+
+**Configure Source Code Diff Viewing** (this page)
 

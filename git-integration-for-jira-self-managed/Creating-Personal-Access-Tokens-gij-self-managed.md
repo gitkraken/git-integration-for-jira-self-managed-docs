@@ -17,7 +17,11 @@ This page contains steps for creating personal access tokens (PATs) for specific
 - [Azure DevOps Server](#azure-devops-server)
 - [AWS CodeCommit](#aws-codecommit)
 
-* * *
+<br>
+<br>
+<hr>
+<br>
+<br>
 
 ## GitHub | GitHub Enterprise
 
