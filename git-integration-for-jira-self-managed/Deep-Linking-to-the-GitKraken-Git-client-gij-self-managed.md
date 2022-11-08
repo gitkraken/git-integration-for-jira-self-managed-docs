@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-<div style='color: magenta'><b>NEW FEATURE</b></div>
+<b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b></div>
 <br>
 
 ## Feature
@@ -19,19 +19,20 @@ We've added the ability to deep link from repositories, commits, branches, and t
     <iframe width='709' height='476' src='https://fast.wistia.com/embed/iframe/n3ctymt8tq?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div style='text-align: center'>
+<div style='text-align: center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/n3ctymt8tq'><b>here</b></a> to open this video in a new tab/window for more viewing options</i>.
 </div>
 <br>
 
 ## Deep link locations
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1955430423/gitserver-gk-deeplinking-01c.png?version=1&modificationDate=1632390986717&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitserver-gk-deeplinking-01c.png)
 
 1.  Click the **Open in GitKraken** button to open this commit with the GitKraken client.
 
 2.  Click the pop-out icon to open this branch in GitKraken client.
 
+<br>
 
 ## Profile settings
 
@@ -41,16 +42,17 @@ Individual Jira Data Center users can enable or disable the GitKraken integratio
 
 2.  Scroll down to **Git Integration for Jira preferences** section.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1955430423/gitserver-gk-deeplinking-02a(c).png?version=1&modificationDate=1632390986461&cacheVersion=1&api=v2&width=476&height=206)
+    ![](/wp-content/uploads/gij-gitserver-gk-deeplinking-02ac.png)
 
     Click the edit icon. The following dialog is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1955430423/gitserver-gk-deeplinking-02b(c).png?version=1&modificationDate=1632390986201&cacheVersion=1&api=v2&width=476&height=262)
+    ![](/wp-content/uploads/gij-gitserver-gk-deeplinking-02bc.png)
 
 3.  Enable/disable the GitKraken integration using the dropdown. Default setting is `Enabled`.
 
 4.  Click **Update** to save the settings.
 
+<br>
 
 ## Administrator settings
 
@@ -60,5 +62,29 @@ Go to the Git Integration for Jira – **General settings** tab (sidebar).
 
 Enable/disable this setting under **GitKraken integration** section**.**
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1955430423/gitserver-gk-deeplinking-03.png?version=1&modificationDate=1632390985956&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitserver-gk-deeplinking-03.png)
+
+<br>
+
+<p>&nbsp;</p>
+
+## See more Git Integration for Jira app features
+
+[Smart commits overview](/git-integration-for-jira-data-center/Smart-commits-overview-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+[Associate Pull/Merge Requests to Issues Based on Commits](/git-integration-for-jira-data-center/Associate-Pull-Merge-Requests-to-Issues-Based-on-Commits-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+[Creating branches](/git-integration-for-jira-data-center/Creating-branches-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+[Creating pull/merge requests](/git-integration-for-jira-data-center/Creating-pull-merge-requests-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+[Issue Git integration panel](/git-integration-for-jira-data-center/Issue-Git-integration-panel-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+**Deep Linking to the GitKraken Git client** (this page)
+
+[Shared reindex queue between DC nodes](/git-integration-for-jira-data-center/Shared-reindex-queue-between-DC-nodes-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+[Enforced git permissions for Jira users](/git-integration-for-jira-data-center/Enforced-git-permissions-for-Jira-users-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+[Git Integration + Jira Automation (Jira Server \| DC)](/git-integration-for-jira-data-center/Git-integration-plus-Jira-automation-gij-self-managed) (Git Integration for Jira Server/Data Center)
 

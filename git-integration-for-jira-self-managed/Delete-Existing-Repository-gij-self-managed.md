@@ -23,12 +23,12 @@ Deletes the existing repository from the Git Integration for Jira app repository
 </div>
 <br>
 
-## Delete Existing Repository properties**
+## Delete Existing Repository properties
 
-_**url**_<br>
+### url
 `/rest/gitplugin/1.0/`**repository**
 
-_**method**_<br>
+### method
 DELETE
 
 ### Parameters
@@ -66,13 +66,15 @@ Response:
 }
 ```
 
+<p>&nbsp;</p>
+
 ## Related articles
 
-*   [Retrieve Repository List](/git-integration-for-jira-data-center/retrieve-repository-List-gij-self-managed/)
+[Retrieve Repository List](/git-integration-for-jira-data-center/retrieve-repository-List-gij-self-managed/)
 
-*   [Add New Repository](/git-integration-for-jira-data-center/add-new-repository-gij-self-managed/)
+[Add New Repository](/git-integration-for-jira-data-center/add-new-repository-gij-self-managed/)
 
-*   [Update Existing Repository](/git-integration-for-jira-data-center/Update-Existing-Repository-gij-self-managed/)
+[Update Existing Repository](/git-integration-for-jira-data-center/Update-Existing-Repository-gij-self-managed/)
 
-*   [Delete Existing Repository](/git-integration-for-jira-data-center/Delete-Existing-Repository-gij-self-managed/)
+**Delete Existing Repository** (this page)
 

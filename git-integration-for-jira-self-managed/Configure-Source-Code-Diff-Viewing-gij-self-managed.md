@@ -107,6 +107,8 @@ To enable/disable the Repository Browser for individual repositories:
 </div>
 <br>
 
+<p>&nbsp;</p>
+
 ## More How-to articles
 
 [Creating Personal Access Tokens](/git-integration-for-jira-data-center/Creating-Personal-Access-Tokens-gij-self-managed)
