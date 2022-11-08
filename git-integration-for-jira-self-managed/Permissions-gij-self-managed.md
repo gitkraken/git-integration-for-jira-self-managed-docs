@@ -30,6 +30,7 @@ taxonomy:
     </div>
     </div>
 </div>
+<br>
 
 ## Permissions Requirement to Display Commit Information
 
@@ -37,7 +38,7 @@ taxonomy:
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/ynjggc2wzg?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center'>
+<div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/ynjggc2wzg'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 <br>
@@ -54,6 +55,7 @@ taxonomy:
         </div>
     </div>
 </div>
+<br>
 
 The user needs to be in the developers group to view code diffs when default permission scheme is used.
 

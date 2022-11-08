@@ -9,9 +9,9 @@ taxonomy:
 
 You can generate a quote for Git Integration for Jira Data Center by doing the following steps below.
 
-Primarily, click this [**Generate quote link**](https://www.atlassian.com/purchase/addon/com.xiplink.jira.git.jira_git_plugin.ondemand?purchaseMode=quote) to take you directly to the quote page for Data Center:
+Primarily, click this <a href='https://www.atlassian.com/purchase/addon/com.xiplink.jira.git.jira_git_plugin.ondemand?purchaseMode=quote'><b>Generate quote link</b></a> to take you directly to the quote page for Data Center:
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1165721603/jira-datacenter-quote-process.png?version=1&modificationDate=1612508539966&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-jira-datacenter-quote-process.png)
 
 1.  The loaded page defaults to **Quote** mode.
 
@@ -30,5 +30,29 @@ Primarily, click this [**Generate quote link**](https://www.atlassian.com/purcha
 5.  Follow instructions on the next screen to complete this process.
 
 
-For more information on licensing, see [**Licensing Information, Migration and Transition**](/git-integration-for-jira-data-center/licensing-information-migration-and-transition-gij-self-managed/).
+For more information on licensing, see [**Licensing Information, Migration and Transition**](/git-integration-for-jira-data-center/licensing-information-migration-and-transition-gij-self-managed).
+
+<p>&nbsp;</p>
+
+## More How-to articles
+
+[Creating Personal Access Tokens](/git-integration-for-jira-data-center/Creating-Personal-Access-Tokens-gij-self-managed)
+
+[Working with JMESPath Filters](/git-integration-for-jira-data-center/Working-with-JMESPath-Filters-gij-self-managed)
+
+[Working with Custom API Path](/git-integration-for-jira-data-center/Working-with-Custom-API-Path-gij-self-managed)
+
+[Creating and configuring SSH keys (Windows/MacOS/Linux)](/git-integration-for-jira-data-center/creating-and-configuring-ssh-keys-windows-macos-linux-gij-self-managed)
+
+[Require Personal Access Tokens for user actions (create branch/pull request)](/git-integration-for-jira-data-center/Require-Personal-Access-Tokens-for-user-actions-(create-branch-pull-request)-gij-self-managed)
+
+[Setting Project Permissions](/git-integration-for-jira-data-center/Setting-Project-Permissions-gij-self-managed)
+
+**How to get a quote?** (this page)
+
+[Ways to Index Git Data to Jira Issues](/git-integration-for-jira-data-center/Ways-to-Index-Git-Data-to-Jira-Issues-gij-self-managed)
+
+[Proxy settings on adding integrations (except AWS CodeCommit)](/git-integration-for-jira-data-center/Proxy-settings-on-adding-integrations-(except-AWS-CodeCommit)-gij-self-managed)
+
+[Configure Source Code Diff Viewing](/git-integration-for-jira-data-center/configure-source-code-diff-viewing-gij-self-managed)
 

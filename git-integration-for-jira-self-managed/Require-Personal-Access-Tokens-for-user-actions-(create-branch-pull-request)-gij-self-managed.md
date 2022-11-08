@@ -7,6 +7,8 @@ taxonomy:
 
 ---
 
+<!-- how to -->
+
 **What's on this page:**
 - [Background](#background)
 - [Objective](#objective)
@@ -14,13 +16,21 @@ taxonomy:
 - [Instructions](#instructions)
 - [What will Jira users see?](#what-will-jira-users-see)
 - [Optional PAT setup for Create branches and Create pull request dialogs](#optional-pat-setup-for-create-branches-and-create-pull-request-dialogs)
+- [More How-to articles](#more-how-to-articles)
 
+<br>
+<br>
+<hr>
+<br>
+<br>
 
 ## Background
 
 The Git Integration for Jira app allows users of integrations _(such as GitLab, GitHub and etc.)_ to create branches and pull requests from within the Jira issue. By default, the operation will be performed by the integration user that is used for indexing.
 
-![Jira issue page showing the Create Branch dialog where you can select a Repository, Base Branch and enter a user-defined Branch name. Create branch to proceed to Cancel to disregard.](https://bigbrassband.atlassian.net/wiki/download/thumbnails/317390849/jira-server-create-branch-example-01.png?version=3&modificationDate=1641640872850&cacheVersion=1&api=v2&width=680&height=506)
+<img src='/wp-content/uploads/gij-jira-server-create-branch-example-01.png' width=680 height=506 alt='Jira issue page showing the Create Branch dialog where you can select a Repository, Base Branch and enter a user-defined Branch name. Create branch to proceed or Cancel to disregard.' style='display:block;margin:25px auto;max-width:100%'/>
+
+<br>
 
 ## Objective
 
@@ -40,6 +50,8 @@ User attribution is supported in the following special integrations in Git Integ
 *   Microsoft Team Foundation Server (TFS)
 *   AWS CodeCommit
 
+<br>
+
 ## Instructions
 
 To enable/disable the _**Require User PAT**_ setting for all repositories within an integration:
@@ -48,41 +60,46 @@ To enable/disable the _**Require User PAT**_ setting for all repositories with
 
 2.  Add a new integration or edit existing integration's feature settings.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/317390849/gitserver-webhook-cfg-edit-features-settings-sel(c).png?version=1&modificationDate=1641640872899&cacheVersion=1&api=v2&width=646&height=438)
+    ![](/wp-content/uploads/gij-gitserver-webhook-cfg-edit-features-settings-sel-c.png)
 
     <br>
 
-    Locate the **Require User PAT** setting.
+3.  Locate the **Require User PAT** setting.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/317390849/gitserver-edit-features-cfg-reqUserPAT-sel(c).png?version=1&modificationDate=1641640872903&cacheVersion=1&api=v2&width=646&height=543)
+    ![](/wp-content/uploads/gij-gitserver-edit-features-cfg-reqUserPAT-sel-c.png)
 
-3.  Click the box to enable the requiring of user PAT.
+4.  Click the box to enable the requiring of user PAT.
 
-4.  Click **Update** at the bottom of the page to save the setting.
+5.  Click **Update** at the bottom of the page to save the setting.
 
 
 ## What will Jira users see?
 
 1.  Once the Jira administrator requires Personal Access Tokens, your Jira users will be presented with a message that setup is required.
 
-2.  ![](https://bigbrassband.atlassian.net/wiki/download/attachments/317390849/gitserver-create-branch-dlg-start(c).png?version=1&modificationDate=1641641133909&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitserver-create-branch-dlg-start-c.png)
 
-    Following that link, the PAT setup dialog is displayed.
+2.  Following that link, the PAT setup dialog is displayed.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/317390849/gitserver-setup-pat-dlg(c).png?version=1&modificationDate=1641640873034&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitserver-setup-pat-dlg-c.png)
+    
     *   Users will be prompted to enter their Personal Access Token (PAT) for the service (GitHub, GitLab, etc).
-        Instructions: Creating Personal Access Tokens
+        
+        **Instructions:** [Creating Personal Access Tokens](/git-integration-for-jira-data-center/Creating-Personal-Access-Tokens-gij-self-managed)
 
 3.  With the Personal Access Token saved, the user will now see the following:
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/317390849/gitserver-create-branch-dlg-use-pat-sel(c).png?version=1&modificationDate=1641640873038&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitserver-create-branch-dlg-use-pat-sel-c.png)
+
 4.  Users can also go to the **Repository browser** screen and then configure the Personal Access Token for the repository via the ![](gij-edit-icon-dark.png) edit icon.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/317390849/gitserver-repo-browser-PAT-col-sel(c).png?version=1&modificationDate=1641640873041&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitserver-repo-browser-PAT-col-sel-c.png)
 
     *   The checkmark adjacent to the edit icon indicates that the PAT has been configured.
 
 5.  Users can reconfigure the PAT in the Repository browser if it was changed from the git server or expired.
+
+<br>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -110,4 +127,28 @@ To enable/disable the _**Require User PAT**_ setting for all repositories with
 ## Optional PAT setup for Create branches and Create pull request dialogs
 
 Jira users can now provide their own PATS on the **Create branches** and **Create pull/merge request** dialogs even if it is not mandatory from the Jira admin.
+
+<p>&nbsp;</p>
+
+## More How-to articles
+
+[Creating Personal Access Tokens](/git-integration-for-jira-data-center/Creating-Personal-Access-Tokens-gij-self-managed)
+
+[Working with JMESPath Filters](/git-integration-for-jira-data-center/Working-with-JMESPath-Filters-gij-self-managed)
+
+[Working with Custom API Path](/git-integration-for-jira-data-center/Working-with-Custom-API-Path-gij-self-managed)
+
+[Creating and configuring SSH keys (Windows/MacOS/Linux)](/git-integration-for-jira-data-center/creating-and-configuring-ssh-keys-windows-macos-linux-gij-self-managed)
+
+**Require Personal Access Tokens for user actions (create branch/pull request)** (this page)
+
+[Setting Project Permissions](/git-integration-for-jira-data-center/Setting-Project-Permissions-gij-self-managed)
+
+[How to get a quote?](/git-integration-for-jira-data-center/How-to-get-a-quote-gij-self-managed)
+
+[Ways to Index Git Data to Jira Issues](/git-integration-for-jira-data-center/Ways-to-Index-Git-Data-to-Jira-Issues-gij-self-managed)
+
+[Proxy settings on adding integrations (except AWS CodeCommit)](/git-integration-for-jira-data-center/Proxy-settings-on-adding-integrations-(except-AWS-CodeCommit)-gij-self-managed)
+
+[Configure Source Code Diff Viewing](/git-integration-for-jira-data-center/configure-source-code-diff-viewing-gij-self-managed)
 
