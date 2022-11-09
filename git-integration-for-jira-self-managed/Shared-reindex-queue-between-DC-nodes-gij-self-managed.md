@@ -7,13 +7,26 @@ taxonomy:
 
 ---
 
-GIT INTEGRATION: DATA CENTER
+<b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>GIT INTEGRATION: DATA CENTER</b>
 
 With Git Integration for Jira app v4.0, the shared reindex queue improvement offers vast performance improvements between DC nodes.
 
-**What’s on this page:**
+<br>
 
-* * *
+**What’s on this page:**
+- [Main features](#main-features)
+  - [The Skipping feature](#the-skipping-feature)
+  - [Webhook sleeping](#webhook-sleeping)
+- [Before implementation](#before-implementation)
+- [Advantages](#advantages)
+- [Known issues](#known-issues)
+- [See more Git Integration for Jira app features](#see-more-git-integration-for-jira-app-features)
+
+<br>
+<br>
+<hr>
+<br>
+<br>
 
 ## Main features
 
@@ -25,7 +38,10 @@ Duplicate reindex requests are filtered out from the queue for the same reposito
 
 ### Webhook sleeping
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2018803716/gitserver-webhooks-new-feature.png?version=1&modificationDate=1638882019096&cacheVersion=1&api=v2&width=680&height=250)
+![](/wp-content/uploads/gij-gitserver-webhooks-new-feature.png)
+
+<br>
+<br>
 
 New Webhook settings are added under _**Advanced**_:
 
@@ -71,3 +87,28 @@ The new implementation eliminates all the above drawbacks. Git Integration for J
 ## Known issues
 
 The new implementation provides better utility and performance gains. However, it requires cluster lock usage to enforce synchronization between nodes.
+
+<br>
+
+<p>&nbsp;</p>
+
+## See more Git Integration for Jira app features
+
+[Smart commits overview](/git-integration-for-jira-data-center/Smart-commits-overview-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+[Associate Pull/Merge Requests to Issues Based on Commits](/git-integration-for-jira-data-center/Associate-Pull-Merge-Requests-to-Issues-Based-on-Commits-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+[Creating branches](/git-integration-for-jira-data-center/Creating-branches-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+[Creating pull/merge requests](/git-integration-for-jira-data-center/Creating-pull-merge-requests-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+[Issue Git integration panel](/git-integration-for-jira-data-center/Issue-Git-integration-panel-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+[Deep Linking to the GitKraken Git client](/git-integration-for-jira-data-center/Deep-Linking-to-the-GitKraken-Git-client-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+[Shared reindex queue between DC nodes](/git-integration-for-jira-data-center/Shared-reindex-queue-between-DC-nodes-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+[Enforced git permissions for Jira users](/git-integration-for-jira-data-center/Enforced-git-permissions-for-Jira-users-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+[Git Integration + Jira Automation (Jira Server \| DC)](/git-integration-for-jira-data-center/Git-integration-plus-Jira-automation-gij-self-managed) (Git Integration for Jira Server/Data Center)
+

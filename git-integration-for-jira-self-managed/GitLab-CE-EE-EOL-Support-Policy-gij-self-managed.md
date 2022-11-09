@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 GitLab’s current policy is to support one stable release at any given time, but for medium-level security issues, GitLab may backport security fixes to the previous two monthly releases. For critical security issues, there is precedent to backport security fixes to even more monthly releases of GitLab. This decision is made on a case-by-case basis.
 
 The patch releases **only include bug fixes** for the current stable released version of GitLab.
@@ -24,3 +25,4 @@ These two policies are in place because:
 
 
 For more information, see [GitLab releases](https://about.gitlab.com/releases/categories/releases/).
+

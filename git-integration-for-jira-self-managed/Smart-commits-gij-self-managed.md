@@ -6,22 +6,31 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
+<!-- documentation  -->
+
 Smart commits allows your team to perform actions on Jira issues from a single commit. Users can enter the issue key and the desired action such as time tracking or closing an issue.
 
 ## Getting started
 
-VERSION 2.6.3+ The smart commit processing is **active by default** and can be enabled/disabled via the git configuration page (![(blue star)](/wiki/s/-1639011364/6452/8b4898d3c114827e64ec143b4fa79bb76a6cfa5b/_/images/icons/emoticons/star_blue.png) **Actions ➜ Edit integration/repository settings**):
+The smart commit processing is **active by default** and can be enabled/disabled via the git configuration page (![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit integration/repository settings**):
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398395/smart-commit-setting.png?version=1&modificationDate=1630642887746&cacheVersion=1&api=v2&width=374&height=80)
+<img src='/wp-content/uploads/gij-smart-commit-setting.png' style='display:block;margin:25px auto;max-width:100%' />
 
-_In Jira Server, Smart Commits is a setting toggle in the **Connect wizard** or the git_
-_configuration page under **Actions** ➜ **Edit integration/repository settings**._
-_In Jira Cloud, this setting is always enabled._
+<div style='text-align:center;font-style:italic;'>
+    In Jira Server, Smart Commits is a setting toggle in the <b>Connect wizard</b> or <br>the git configuration page under <img src='/wp-content/uploads/actions-icon.png' style='margin:0 3px' /> Actions ➜ <b>Edit integration/repository settings</b>. <br>In Jira Cloud, this setting is always enabled.
+</div>
 
-VERSION 2.13.0+ Smart commits support for project keys that has an underscore "\_" character.
-VERSION 3.2.0+ Smart commits support for all alphabet characters.
-VERSION 3.5.0.2+ Smart commits support for case insensitive smart commits.
+<p>&nbsp;</p>
 
+<br>
+
+Smart commits support for project keys that has an underscore "\_" character.<br>
+<b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>VERSION 3.2.0+</b> Smart commits support for all alphabet characters.<br>
+<b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>VERSION 3.5.0.2+</b> Smart commits support for case insensitive smart commits.
+
+<br>
+<br>
 
 Smart commits configuration checklist:
 
@@ -36,7 +45,8 @@ Smart commits configuration checklist:
 
 *   **Advanced:** Verify that the workflow conditions and validators are able to process successfully.
 
-
+<br>
+<br>
 
 The Git Integration app supports smart commit by adding a simple syntax to a commit message.
 
@@ -46,5 +56,5 @@ The basic syntax for a Smart commit message is:
 <ISSUE_KEY> <ignored text> #<command> <optional command_params>
 ```
 
-To know more about syntax, commands and examples on Smart Commits, see [**Processing Jira Software Issues with Smart Commit Messages**](https://confluence.atlassian.com/bitbucket/processing-jira-software-issues-with-smart-commit-messages-298979931.html) at the Atlassian website or proceed to the next page.
+To know more about syntax, commands and examples on Smart Commits, see <a href='https://confluence.atlassian.com/bitbucket/processing-jira-software-issues-with-smart-commit-messages-298979931.html' target='_blank'><b>Processing Jira Software Issues with Smart Commit Messages</b></a> at the Atlassian website or proceed to the next page.
 

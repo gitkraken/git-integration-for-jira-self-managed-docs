@@ -13,7 +13,9 @@ Smart commits allows your team to perform actions on Jira issues from a single c
 
 The Git Integration for Jira app, the smart commit processing is **active by default** and can be enabled/disabled via the repository configuration:
 
-![](https://bigbrassband.com/docimgs/smart-commit-setting.png)
+![](/wp-content/uploads/gij-smart-commit-setting.png)
+
+<br>
 
 Smart commits configuration checklist:
 
@@ -85,7 +87,13 @@ The Git Integration for Jira app support multi-line commit messages for smart co
 **Smart Commit Status**<br>
 The commit status shown on the Issue page depends on the Smart Commits setting that was set at the time the commits were processed.
 
+<br>
+<br>
+
 * * *
+
+<br>
+<br>
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -98,4 +106,28 @@ The commit status shown on the Issue page depends on the Smart Commits setting t
     </div>
 </div>
 <br>
+
+<br>
+
+<p>&nbsp;</p>
+
+## See more Git Integration for Jira app features
+
+**Smart commits overview** (this page)
+
+[Associate Pull/Merge Requests to Issues Based on Commits](/git-integration-for-jira-data-center/Associate-Pull-Merge-Requests-to-Issues-Based-on-Commits-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+[Creating branches](/git-integration-for-jira-data-center/Creating-branches-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+[Creating pull/merge requests](/git-integration-for-jira-data-center/Creating-pull-merge-requests-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+[Issue Git integration panel](/git-integration-for-jira-data-center/Issue-Git-integration-panel-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+[Deep Linking to the GitKraken Git client](/git-integration-for-jira-data-center/Deep-Linking-to-the-GitKraken-Git-client-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+[Shared reindex queue between DC nodes](/git-integration-for-jira-data-center/Shared-reindex-queue-between-DC-nodes-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+[Enforced git permissions for Jira users](/git-integration-for-jira-data-center/Enforced-git-permissions-for-Jira-users-gij-self-managed) (Git Integration for Jira Server/Data Center)
+
+[Git Integration + Jira Automation (Jira Server \| DC)](/git-integration-for-jira-data-center/Git-integration-plus-Jira-automation-gij-self-managed) (Git Integration for Jira Server/Data Center)
 

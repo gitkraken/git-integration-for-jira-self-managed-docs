@@ -18,32 +18,53 @@ When the server handles the push from a client, the **pre-receive** script is 
 The **pre-receive** server-side hook requires git administrators to:
 
 1.  Copy the **pre-receive** script file from the `hooks/` folder in the git repository to the Git server repository `hooks/` folder.
+
 2.  Configure **JIRA\_XMLRPC**, **JIRA\_USER**, **JIRA\_PASSWORD** and **PROJECT\_KEYS** in the pre-receive file.
 
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The <b>PROJECT_KEYS</b> setting defines an array of project keys which is compared to a ticket key from the commit message. When Jira is not available, the hook simply checks the commit message if it contains the string pattern satisfying its declared conditions.<br>
+        <div>
+            <b>Pattern example:</b><br>
+            <code>(PROJECT_KEY1|PROJECT_KEY2|...)-\d+</code>
+        </div>
+    </div>
+    </div>
+</div>
 
-
-The PROJECT\_KEYS setting defines an array of project keys which is compared to a ticket key from the commit message.  When Jira is not available, the hook simply checks the commit message if it contains the string pattern satisfying its declared conditions.
-
-**Pattern example:**
-**`(PROJECT_KEY1|PROJECT_KEY2|...)-\d+`**
-
-
-
-The PROJECT\_KEYS variable is only used when Jira is not available, otherwise, this setting in the **pre-receive** file is ignored. The hook will not perform any checks if the PROJECT\_KEY array is empty and Jira is not available.
-
-
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The <b>PROJECT_KEYS</b> variable is only used when Jira is not available, otherwise, this setting in the <b>pre-receive</b> file is ignored. The hook will not perform any checks if the PROJECT\_KEY array is empty and Jira is not available.
+    </div>
+    </div>
+</div>
+<br>
 
 See the server-side hook script on the right panel or download the sample **[pre-receive file ↓](https://bigbrassband.com/files/pre-receive.zip)** – make the necessary changes, and place it in the required folder.
 
-
-
-The server-side hook script enforces users to include correct Jira tags.
-
-
+<div class="bbb-callout bbb--error">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The server-side hook script enforces users to include correct Jira tags.
+    </div>
+    </div>
+</div>
+<br>
 
 **Sample contents of the pre-receive file:**
 
-```py
+```python
 #!/usr/bin/python
 import sys
 import os
@@ -58,14 +79,14 @@ JIRA_PASSWORD = 'password'
 
 PROJECT_KEYS = ['EXAMPLE', 'EXAMPLE']
 
-NO_JIRA_TICKET_MESSAGE = \
-'No Jira ticket present in the commit message. \
+NO_JIRA_TICKET_MESSAGE = \\
+'No Jira ticket present in the commit message. \\
 Please include the Jira ticket key.'
-INVALID_JIRA_TICKET_MESSAGE = \
-'Proper Jira ticket syntax was found, but none were valid tickets. \
+INVALID_JIRA_TICKET_MESSAGE = \\
+'Proper Jira ticket syntax was found, but none were valid tickets. \\
 Please check the tickets and try again.'
-INVALID_ISSUE_TYPE_MESSAGE = \
-'You may not commit against subtasks or task-splits. \
+INVALID_ISSUE_TYPE_MESSAGE = \\
+'You may not commit against subtasks or task-splits. \\
 Please commit against the parent ticket.'
 
 FAULT_MSG_ISSUE_NOT_FOUND = 'com.atlassian.jira.rpc.exception.RemotePermissionException'
@@ -120,14 +141,14 @@ def build_ticket_re(auth):
     return build_ticket_re_for_project_list(map(lambda project: project['key'], projects));
 
 def build_ticket_re_for_project_list(projects):
-    pattern_string = '\\b('
+    pattern_string = '\\\b('
     for idx, project in enumerate(projects):
         if (idx>0):
             pattern_string +='|'
         pattern_string +=project
-        pattern_string +='-\d+?'
+        pattern_string +='-\\d+?'
 
-    pattern_string +=')\\b';
+    pattern_string +=')\\\b';
 
     return re.compile(pattern_string)
 
@@ -162,7 +183,7 @@ for c, msg in commits.iteritems():
     err_msg = check_message(auth if isAuthenticated else None, msg, ticket_re_pattern)
 
     if err_msg:
-        print >> sys.stderr, 'Error: %s\nCommit message:\n%s' % (err_msg, msg)
+        print >> sys.stderr, 'Error: %s\\nCommit message:\\n%s' % (err_msg, msg)
         print >> sys.stderr, 'Install pre-commit hook (https://bigbrassband.com/api-doc.html#cmhook) to run this check at the commit time'
         sys.exit(1)
 ```
