@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 Git Integration for Jira app currently supports all the cloud hosted versions and the officially supported versions of the self-hosted git services:
 
 *   [GitHub Enterprise](/git-integration-for-jira-data-center/github-enterprise-eol-gij-self-managed)
