@@ -1,6 +1,6 @@
 ---
 
-title: Scheduled jobs
+title: Scheduled jobs general setting
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -21,7 +21,7 @@ taxonomy:
 
 This setting allows administrators to configure duration of jobs and the GC checkers.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1207795958/gitserver-gencfg-scheduler-jobs.png?version=2&modificationDate=1647774645146&cacheVersion=1&api=v2&width=680&height=317)
+<img src='/wp-content/uploads/gij-gitserver-gencfg-scheduler-jobs.png' style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 
@@ -57,7 +57,7 @@ Scheduling jobs gives administrators control over when jobs run. These jobs can
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b>VERSION 3.7+</b><br>
+        <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>VERSION 3.7+</b><br>
         <b>Repository reindexing</b> and <b>Garbage collection and revision validation checkers</b> settings are now moved into the <i>Scheduled Jobs</i> settings group.
     </div>
     </div>
@@ -75,4 +75,48 @@ Configuration of the scheduler jobs are no longer accessible in the Jira adminis
 **Job interval**  –  Set the number of minutes that will elapse before a repository is checked to see if it should be garbage collected.  The default value is _**1440 minutes**_.
 
 For detailed information, see introductory article on [Scheduling Jobs](/git-integration-for-jira-data-center/scheduling-jobs-gij-self-managed).
+
+<br>
+
+<p>&nbsp;</p>
+
+## More on general settings
+
+[Repository Browser general setting](/git-integration-for-jira-data-center/repository-Browser-general-setting-gij-self-managed)
+
+[Source Code Diff Viewing general setting](/git-integration-for-jira-data-center/source-Code-Diff-Viewing-general-setting-gij-self-managed)
+
+[Require User PAT general setting](/git-integration-for-jira-data-center/require-User-PAT-general-setting-gij-self-managed)
+
+[Enforce Git service permissions setting](/git-integration-for-jira-data-center/enforce-Git-service-permissions-gij-self-managed)
+
+[Git roll up issue tab setting](/git-integration-for-jira-data-center/git-roll-up-tab-setting-gij-self-managed)
+
+[Git commits issue and project tabs setting](/git-integration-for-jira-data-center/git-commits-issue-and-project-tabs-gij-self-managed)
+
+[Git integration features settings](/git-integration-for-jira-data-center/git-integration-features-gij-self-managed)
+
+[Enable Automation for Jira general setting](/git-integration-for-jira-data-center/enable-Automation-for-Jira-general-setting-gij-self-managed)
+
+[Audit log settings](/git-integration-for-jira-data-center/audit-log-settings-gij-self-managed)
+
+[Branch and pull request settings (formerly Git Integration Options)](/git-integration-for-jira-data-center/branch-and-pull-request-settings-(formerly-Git-Integration-Options)-gij-self-managed)
+
+[Email settings](/git-integration-for-jira-data-center/email-settings-gij-self-managed)
+
+**Scheduled jobs settings** (this page)
+
+[Per node repository indexing setting](/git-integration-for-jira-data-center/Per-Node-Repository-Indexing-gij-self-managed)
+
+[Repositories garbage collection checker settings](/git-integration-for-jira-data-center/Repositories-garbage-collection-checker-gij-self-managed)
+
+[Diff settings](/git-integration-for-jira-data-center/Diff-Settings-gij-self-managed)
+
+[Discard cloned files in Jira HOME directory setting](/git-integration-for-jira-data-center/Discard-cloned-files-in-Jira-home-directory-gij-self-managed)
+
+[Git operations timeout](/git-integration-fpr-jira-data-center/git-operations-timeout-gij-self-managed)
+
+[Git data processing age limit general setting](/git-integration-for-jira-data-center/Git-data-processing-age-limit-general-settings-gij-self-managed)
+
+[Cache sizes settings](/git-integration-for-jira-data-center/cache-sizes-settings-gij-self-managed)
 

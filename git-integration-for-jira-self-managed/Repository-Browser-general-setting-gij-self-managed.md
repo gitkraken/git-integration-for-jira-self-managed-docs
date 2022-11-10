@@ -13,7 +13,19 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        For detailed information on this feature, see [Documentation: Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed/).
+        This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'><b>General Settings</b></a> configuration page.
+    </div>
+    </div>
+</div>
+
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        For detailed information on this feature, see <a href='/git-integration-for-jira-data-center/repository-browser-gij-self-managed'>Documentation: Repository Browser</a>.
     </div>
     </div>
 </div>
@@ -24,7 +36,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b>VERSION 3.8.1</b><br>
+        <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 3.8.1</b><br>
         Git Integration for Jira adds three new settings in the General settings configuration page:
         <ul>
             <li>Repository Browser (this page)</li>
@@ -36,9 +48,11 @@ taxonomy:
 </div>
 <br>
 
-![Repository browser setting in General settings (enabled checked)](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1947140158/gitserver-gencfg-repo-browser.png?version=1&modificationDate=1631802543905&cacheVersion=1&api=v2&width=442&height=89)
+<img src='/wp-content/uploads/gij-gitserver-gencfg-repo-browser.png' alt='Repository browser setting in General settings (enabled checked)' style='display:block;margin:25px auto;max-width:100%' />
 
-The [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed/) allows users to view git repositories of configured projects.
+<br>
+
+The [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed) allows users to view git repositories of configured projects.
 
 The default setting is `Enabled` for new and existing Git Integration for Jira app installations. This setting is retained on restore/upgrade of the app.
 
@@ -46,33 +60,45 @@ If this setting is disabled (_unchecked_) in General settings, the **Git** dashb
 
 * * *
 
-### More on general settings
+<p>&nbsp;</p>
 
-*   [Git roll up issue tab](/git-integration-for-jira-data-center/git-roll-up-issue-tab-gij-self-managed/)
+## More on general settings
 
-*   [Git commits issue and project tabs](/git-integration-for-jira-data-center/git-commits-issue-and-project-tabs-gij-self-managed/)
+**Repository Browser general setting** (this page)
 
-*   [Git integration features](/git-integration-for-jira-data-center/git-integration-features-gij-self-managed/)
+[Source Code Diff Viewing general setting](/git-integration-for-jira-data-center/source-Code-Diff-Viewing-general-setting-gij-self-managed)
 
-*   [Branch and pull request settings (formerly Git Integration Options)](/git-integration-for-jira-data-center/branch-and-pull-request-settings-formerly-git-integration-options-gij-self-managed)
+[Require User PAT general setting](/git-integration-for-jira-data-center/require-User-PAT-general-setting-gij-self-managed)
 
-*   [Email settings](/git-integration-for-jira-data-center/email-settings-gij-self-managed/)
+[Enforce Git service permissions setting](/git-integration-for-jira-data-center/enforce-Git-service-permissions-gij-self-managed)
 
-*   [Scheduled jobs](/git-integration-for-jira-data-center/scheduled-jobs-gij-self-managed/)
+[Git roll up issue tab setting](/git-integration-for-jira-data-center/git-roll-up-tab-setting-gij-self-managed)
 
-*   [Audit log settings](/git-integration-for-jira-data-center/audit-log-settings-gij-self-managed/)
+[Git commits issue and project tabs setting](/git-integration-for-jira-data-center/git-commits-issue-and-project-tabs-gij-self-managed)
 
-*   [General settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed/)
+[Git integration features settings](/git-integration-for-jira-data-center/git-integration-features-gij-self-managed)
 
-*   [Repository Browser general setting](/git-integration-for-jira-data-center/repository-browser-general-setting-gij-self-managed/)
+[Enable Automation for Jira general setting](/git-integration-for-jira-data-center/enable-Automation-for-Jira-general-setting-gij-self-managed)
 
-*   [Source Code Diff Viewing general setting](/git-integration-for-jira-data-center/source-code-diff-viewing-general-setting-gij-self-managed/)
+[Audit log settings](/git-integration-for-jira-data-center/audit-log-settings-gij-self-managed)
 
-*   [Require User PAT general setting](/git-integration-for-jira-data-center/require-user-pat-general-setting-gij-self-managed/)
+[Branch and pull request settings (formerly Git Integration Options)](/git-integration-for-jira-data-center/branch-and-pull-request-settings-(formerly-Git-Integration-Options)-gij-self-managed)
 
-*   [Enable Automation for Jira general setting](/git-integration-for-jira-data-center/Enable-automation-for-jira-general-setting/)
+[Email settings](/git-integration-for-jira-data-center/email-settings-gij-self-managed)
 
-*   [Enforce Git service permissions](/git-integration-for-jira-data-center/enforce-git-service-permissions-gij-self-managed/)
+[Scheduled jobs settings](/git-integration-for-jira-data-center/scheduled-jobs-gij-self-managed)
 
-*   [Per Node Repository Indexing](/git-integration-for-jira-data-center/per-node-repository-indexing-gij-self-managed/)
+[Per node repository indexing setting](/git-integration-for-jira-data-center/Per-Node-Repository-Indexing-gij-self-managed)
+
+[Repositories garbage collection checker settings](/git-integration-for-jira-data-center/Repositories-garbage-collection-checker-gij-self-managed)
+
+[Diff settings](/git-integration-for-jira-data-center/Diff-Settings-gij-self-managed)
+
+[Discard cloned files in Jira HOME directory setting](/git-integration-for-jira-data-center/Discard-cloned-files-in-Jira-home-directory-gij-self-managed)
+
+[Git operations timeout](/git-integration-fpr-jira-data-center/git-operations-timeout-gij-self-managed)
+
+[Git data processing age limit general setting](/git-integration-for-jira-data-center/Git-data-processing-age-limit-general-settings-gij-self-managed)
+
+[Cache sizes settings](/git-integration-for-jira-data-center/cache-sizes-settings-gij-self-managed)
 

@@ -15,18 +15,19 @@ Let automation do the work while your developers focus on what’s important.  
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        All of the templates from <a href='https://www.atlassian.com/software/jira/automation-template-library/bitbucket-github-gitlab'>Atlassian’s template library</a will work with Git Integration for Jira.
+        All of the templates from <a href='https://www.atlassian.com/software/jira/automation-template-library/bitbucket-github-gitlab' target='_blank'>Atlassian’s template library</a will work with Git Integration for Jira.
     </div>
     </div>
 </div>
 <br>
 
-<img src='https://bigbrassband.atlassian.net/wiki/download/attachments/2127495330/index.png?api=v2' height=300 width=353 style='display: block; margin: 25px auto;'>
+<img src='/wp-content/uploads/gij-git-platform-index.png' height=300 width=353 style='display:block;margin:25px auto;max-width: 100%' />
 
 **With Git Integration for Jira you can integrate any Git repository with Jira. And better yet, you can make use of any of our handy automation templates, or use Atlassian’s!**
 
 You can write your own templates using [Atlassian's no-code Jira automation engine](https://www.atlassian.com/software/jira/features/automation).
 
+<br>
 <br>
 
 ## Available templates from Atlassian for Git Integration for Jira users:
@@ -69,9 +70,11 @@ Here are some templates from Atlassian you can use as a guide for some of the mo
 
 We currently support the 5 highlighted triggers depicted below, and we will support all of these triggers in coming releases.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/2127495330/image.jpg?api=v2)
+<img src='/wp-content/uploads/gij-jira-automation-supported-rules-triggers.png' style='display:block;margin:25px auto;max-width:100%' />
 
-### Setup:
+<br>
+
+## Setup:
 
 [Git Integration + Jira Automation](/git-integration-for-jira-data-center/git-integration-plus-Jira-automation-gij-self-managed)
 
