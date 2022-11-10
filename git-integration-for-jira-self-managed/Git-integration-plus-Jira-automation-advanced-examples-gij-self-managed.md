@@ -11,27 +11,27 @@ taxonomy:
 
 <br>
 
-<img src='https://bigbrassband.atlassian.net/wiki/download/attachments/2126905522/automation-branch-01.png?api=v2' style='text-align: center;' />
+<img src='/wp-content/uploads/gij-automation-branch-01.png' style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 
-<img src='https://bigbrassband.atlassian.net/wiki/download/attachments/2126905522/automation-commit-01.png?api=v2' style='text-align: center;' />
+<img src='/wp-content/uploads/gij-automation-commit-01.png' style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 
-<img src='https://bigbrassband.atlassian.net/wiki/download/attachments/2126905522/automation-pullreq-01.png?api=v2'  style='text-align: center;' />
+<img src='/wp-content/uploads/gij-automation-pullreq-01.png' style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 
-<img src='https://bigbrassband.atlassian.net/wiki/download/attachments/2126905522/automation-pullreq-02.png?api=v2'  style='text-align: center;' />
+<img src='/wp-content/uploads/gij-automation-pullreq-02.png' style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 
-<img src='https://bigbrassband.atlassian.net/wiki/download/attachments/2126905522/automation-branch-conditional-01.png?api=v2'  style='text-align: center;' />
+<img src='/wp-content/uploads/gij-automation-branch-conditional-01.png' style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 
-<img src='https://bigbrassband.atlassian.net/wiki/download/attachments/2126905522/automation-issue-condition-01.png?api=v2'  style='text-align: center;' />
+<img src='/wp-content/uploads/gij-automation-issue-condition-01.png' style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 

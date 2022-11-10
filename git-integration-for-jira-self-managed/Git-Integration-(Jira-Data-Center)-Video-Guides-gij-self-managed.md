@@ -15,19 +15,25 @@ Get started with connecting your favorite git host to Jira Data Center now!
 
 ## Installation
 
-**[![](/wp-content/uploads/gij-vid-play-icon-20.png) Installation with Jira 7 »](https://bigbrassband.wistia.com/medias/lr0jp6ntfd)**
+<a href='https://bigbrassband.wistia.com/medias/lr0jp6ntfd' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b>Installation with Jira 7 »</b></a>
 
 Learn quick installation steps of the Git Integration app for Jira Data Center.
 
-**[![](/wp-content/uploads/gij-vid-play-icon-20.png) The Git Commits Tab »](https://bigbrassband.wistia.com/medias/fp60i95l2w)**
+<br>
+
+<a href='https://bigbrassband.wistia.com/medias/fp60i95l2w' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b>The Git Commits Tab »</b></a>
 
 View information about commits, author, web links, code diff, etc. in the Git Commits tab.
 
-**[![](/wp-content/uploads/gij-vid-play-icon-20.png) Installation: Automatic and Manual Updating »](https://bigbrassband.wistia.com/medias/aoyowvw485)**
+<br>
+
+<a href='https://bigbrassband.wistia.com/medias/aoyowvw485' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b>Installation: Automatic and Manual Updating »</b></a>
 
 Learn how automatic and manual updating of Git Integration for Jira Data Center app – the easy way.
 
-**[![](/wp-content/uploads/gij-vid-play-icon-20.png) Linking Git Commits to Jira »](https://bigbrassband.wistia.com/medias/cs229y2gzj)**
+<br>
+
+<a href='https://bigbrassband.wistia.com/medias/cs229y2gzj' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b>Linking Git Commits to Jira »</b></a>
 
 Familiarize quick steps on how to associate git commits to Jira issues in Jira Data Center.
 
@@ -35,11 +41,13 @@ Familiarize quick steps on how to associate git commits to Jira issues in Jira D
 
 ## Administration
 
-**[![](/wp-content/uploads/gij-vid-play-icon-20.png) Setting Permissions »](https://bigbrassband.wistia.com/medias/21vd3arsj6)**
+<a href='https://bigbrassband.wistia.com/medias/21vd3arsj6' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b>Setting Permissions »</b></a>
 
 Learn how to set project permissions with View Development Tools. The "View Development Tools" project permission enables users/groups to view commits and related information in Jira Data Center.
 
-**[![](/wp-content/uploads/gij-vid-play-icon-20.png) Creating Branches and Merge/Pull Requests »](https://bigbrassband.wistia.com/medias/c5qh10mjgf)**
+<br>
+
+<a href='https://bigbrassband.wistia.com/medias/c5qh10mjgf' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b>Creating Branches and Merge/Pull Requests »</b></a>
 
 Learn how to create branches, merge/pull requests by watching this video. These steps is also applicable to supported git hosts such as GitLab, GitHub, VSTS, TFS, etc.
 
@@ -49,47 +57,53 @@ Learn how to create branches, merge/pull requests by watching this video. These 
 
 Quick and easy! Learn about the basics of integrating git repositories to Jira Data Center/Server and associating git commits to a Jira issue. Click on a link below to see specific steps for the selected git host.
 
-**[![](/wp-content/uploads/gij-vid-play-icon-20.png) GitHub.com »](https://bigbrassband.wistia.com/medias/8jtnqzp79y)**
+<a href='https://bigbrassband.wistia.com/medias/8jtnqzp79y' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b>GitHub.com »</b></a>
 
-**[![](/wp-content/uploads/gij-vid-play-icon-20.png) GitHub Enterprise »](https://bigbrassband.wistia.com/medias/vfwwqnn3mm)**
+<a href='https://bigbrassband.wistia.com/medias/vfwwqnn3mm' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b>GitHub Enterprise »</b></a>
 
-**[![](/wp-content/uploads/gij-vid-play-icon-20.png) GitLab.com »](https://bigbrassband.wistia.com/medias/hi45vum4yp)**
+<a href='https://bigbrassband.wistia.com/medias/hi45vum4yp' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b>GitLab.com »</b></a>
 
-**[![](/wp-content/uploads/gij-vid-play-icon-20.png) GitLab CE/EE »](https://bigbrassband.wistia.com/medias/q9q0zg3rug)**
+<a href='https://bigbrassband.wistia.com/medias/q9q0zg3rug' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b>GitLab CE/EE »</b></a>
 
-**[![](/wp-content/uploads/gij-vid-play-icon-20.png) Bitbucket Server »](https://bigbrassband.wistia.com/medias/t06mkhx4ae)**
+<a href='https://bigbrassband.wistia.com/medias/t06mkhx4ae' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b>Bitbucket Server »</b></a>
 
-**[![](/wp-content/uploads/gij-vid-play-icon-20.png) AWS CodeCommit »](https://bigbrassband.wistia.com/medias/5w5p0lbz77)**
+<a href='https://bigbrassband.wistia.com/medias/5w5p0lbz77' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b>AWS CodeCommit »</b></a>
 
-**[![](/wp-content/uploads/gij-vid-play-icon-20.png) Visual Studio Team Services »](https://bigbrassband.wistia.com/medias/n840jfrer4)**
+<a href='https://bigbrassband.wistia.com/medias/n840jfrer4' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b>Visual Studio Team Services »</b></a>
 
-**[![](/wp-content/uploads/gij-vid-play-icon-20.png) Team Foundation Services »](https://bigbrassband.wistia.com/medias/czu7wovicv)**
+<a href='https://bigbrassband.wistia.com/medias/czu7wovicv' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b>Team Foundation Services »</b></a>
 
-**[![](/wp-content/uploads/gij-vid-play-icon-20.png) Azure DevOps »](https://bigbrassband.wistia.com/medias/czu7wovicv)**
+<a href='https://bigbrassband.wistia.com/medias/czu7wovicv' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b>Azure DevOps »</b></a>
 
-**[![](/wp-content/uploads/gij-vid-play-icon-20.png) GitHub with 2FA »](https://bigbrassband.wistia.com/medias/td1tnswem8)**
+<a href='https://bigbrassband.wistia.com/medias/td1tnswem8' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b>GitHub with 2FA »</b></a>
 
-**[![](/wp-content/uploads/gij-vid-play-icon-20.png) Gerrit »](https://bigbrassband.wistia.com/medias/eolraizc6s)**
+<a href='https://bigbrassband.wistia.com/medias/eolraizc6s' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b>Gerrit »</b></a>
 
-**[![](/wp-content/uploads/gij-vid-play-icon-20.png) HTTPS/HTTP/SSH »](https://bigbrassband.wistia.com/medias/bu0wamg1fx)**
+<a href='https://bigbrassband.wistia.com/medias/bu0wamg1fx' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b>HTTPS/HTTP/SSH »</b></a>
 
 <br>
 
 ## Customization
 
-**[![](/wp-content/uploads/gij-vid-play-icon-20.png) Webhooks »](https://bigbrassband.wistia.com/medias/4o796wnrdx)**
+<a href='https://bigbrassband.wistia.com/medias/4o796wnrdx' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b>Webhooks »</b></a>
 
 Learn how to configure webhooks for supported git hosts.
 
-**[![](/wp-content/uploads/gij-vid-play-icon-20.png) Web Linking »](https://bigbrassband.wistia.com/medias/zfxfemq7z8)**
+<br>
+
+<a href='https://bigbrassband.wistia.com/medias/zfxfemq7z8' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b>Web Linking »</b></a>
 
 Learn how to setup web linking options for supported git hosts via git configuration page.
 
-**[![](/wp-content/uploads/gij-vid-play-icon-20.png) GitLab: Webhooks »](https://bigbrassband.wistia.com/medias/jp6bqtvkf4)**
+<br>
+
+<a href='https://bigbrassband.wistia.com/medias/jp6bqtvkf4' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b>GitLab: Webhooks »</b></a>
 
 Learn how to configure webhooks for GitLab git hosts.
 
-**[![](/wp-content/uploads/gij-vid-play-icon-20.png) GitHub: Webhooks »](https://bigbrassband.wistia.com/medias/iqy5461ebq)**
+<br>
+
+<a href='https://bigbrassband.wistia.com/medias/iqy5461ebq' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b>GitHub: Webhooks »</b></a>
 
 Learn how to configure webhooks for GitHub git hosts.
 
@@ -97,15 +111,20 @@ Learn how to configure webhooks for GitHub git hosts.
 
 ## Support
 
-**[![](/wp-content/uploads/gij-vid-play-icon-20.png) GitLab.com Personal Access Tokens »](https://bigbrassband.wistia.com/medias/pugrp72ylq)**
+<a href='https://bigbrassband.wistia.com/medias/pugrp72ylq' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b>GitLab.com Personal Access Tokens »</b></a>
 
 Setup GitLab.com personal access tokens and scopes required for Git for Jira Data Center integration. This video is applicable to GitLab git hosts.
 
-**[![](/wp-content/uploads/gij-vid-play-icon-20.png) GitLab CE/EE Personal Access Tokens »](https://bigbrassband.wistia.com/medias/pugrp72ylq)**
+<br>
+
+<a href='https://bigbrassband.wistia.com/medias/pugrp72ylq' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b>GitLab CE/EE Personal Access Tokens »</b></a>
 
 Setup GitLab server personal access tokens and scopes required for Git for Jira Data Center integration. This video is applicable to GitLab git hosts.
 
-**[![](/wp-content/uploads/gij-vid-play-icon-20.png) Receive App Update Notifications »](https://bigbrassband.wistia.com/medias/u9rojnv0vv)**
+<br>
+
+<a href='https://bigbrassband.wistia.com/medias/u9rojnv0vv' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b>Receive App Update Notifications »</b></a>
+
 
 Configure Jira preferences to enable receiving of app update notifications.
 

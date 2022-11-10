@@ -29,12 +29,12 @@ The **General settings** configuration page can be accessed thru the following
 
 1.  Jira dashboard menu **Git** ➜ Manage repositories ➜ Git Integration for Jira (sidebar) ➜ **General settings**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/966852655/jira-serverdc-gen-cfg-entry-point-(c).png?version=3&modificationDate=1613118421121&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-jira-serverdc-gen-cfg-entry-point-one-c.png)
 
 
 2.  Jira dashboard menu➜ **General settings**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/966852655/jira-serverdc-gen-cfg-entry-point-two-(c).png?version=3&modificationDate=1613118421140&cacheVersion=1&api=v2)
+    ![](/wp=content/uploads/gij-jira-serverdc-gen-cfg-entry-point-two-c.png)
 
 <br>
 
@@ -52,33 +52,33 @@ The **General settings** configuration page can be accessed thru the following
 
 ## Settings index
 
-*   [Git roll up issue tab](/git-integration-for-jira-data-center/git-roll-up-issue-tab-gij-self-managed)
+[Repository Browser general setting](/git-integration-for-jira-data-center/repository-Browser-general-setting-gij-self-managed)
 
-*   [Git commits issue and project tabs](/git-integration-for-jira-data-center/git-commits-issue-and-project-tabs-gij-self-managed)
+[Source Code Diff Viewing general setting](/git-integration-for-jira-data-center/source-Code-Diff-Viewing-general-setting-gij-self-managed)
 
-*   [Git integration features](/git-integration-for-jira-data-center/git-integration-features-gij-self-managed)
+[Require User PAT general setting](/git-integration-for-jira-data-center/require-User-PAT-general-setting-gij-self-managed)
 
-*   [Branch and pull request settings (formerly Git Integration Options)](/git-integration-for-jira-data-center/branch-and-pull-request-settings-formerly-git-integration-options-gij-self-managed)
+[Enforce Git service permissions setting](/git-integration-for-jira-data-center/enforce-Git-service-permissions-gij-self-managed)
 
-*   [Email settings](/git-integration-for-jira-data-center/email-settings-gij-self-managed)
+[Git roll up issue tab setting](/git-integration-for-jira-data-center/git-roll-up-tab-setting-gij-self-managed)
 
-*   [Scheduled jobs](/git-integration-for-jira-data-center/scheduled-jobs-gij-self-managed)
+[Git commits issue and project tabs setting](/git-integration-for-jira-data-center/git-commits-issue-and-project-tabs-gij-self-managed)
 
-*   [Audit log settings](/git-integration-for-jira-data-center/audit-log-settings-gij-self-managed)
+[Git integration features settings](/git-integration-for-jira-data-center/git-integration-features-gij-self-managed)
 
-*   [General settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed)
+[Enable Automation for Jira general setting](/git-integration-for-jira-data-center/enable-Automation-for-Jira-general-setting-gij-self-managed)
 
-*   [Repository Browser general setting](/git-integration-for-jira-data-center/repository-browser-general-setting-gij-self-managed)
+[Audit log settings](/git-integration-for-jira-data-center/audit-log-settings-gij-self-managed)
 
-*   [Source Code Diff Viewing general setting](/git-integration-for-jira-data-center/source-code-diff-viewing-general-setting-gij-self-managed)
+[Branch and pull request settings (formerly Git Integration Options)](/git-integration-for-jira-data-center/branch-and-pull-request-settings-(formerly-Git-Integration-Options)-gij-self-managed)
 
-*   [Require User PAT general setting](/git-integration-for-jira-data-center/require-user-pat-general-setting-gij-self-managed)
+[Email settings](/git-integration-for-jira-data-center/email-settings-gij-self-managed)
 
-*   [Enable Automation for Jira general setting](/git-integration-for-jira-data-center/Enable-automation-for-jira-general-setting)
+[Scheduled jobs settings](/git-integration-for-jira-data-center/scheduled-jobs-gij-self-managed)
 
-*   [Enforce Git service permissions](/git-integration-for-jira-data-center/enforce-git-service-permissions-gij-self-managed)
+[Per node repository indexing setting](/git-integration-for-jira-data-center/Per-Node-Repository-Indexing-gij-self-managed)
 
-*   [Per Node Repository Indexing](/git-integration-for-jira-data-center/per-node-repository-indexing-gij-self-managed)
+<br>
 
 * * *
 
@@ -112,7 +112,7 @@ These settings have optimal recommended default values and works out of the box 
 
 *   [Git operations timeout](/git-integration-for-jira-data-center/git-operations-timeout-gij-self-managed)
 
-*   [Smart commits setting](/git-integration-for-jira-data-center/smart-commits-setting-gij-self-managed)
+*   [Git data processing age limit general setting](/git-integration-for-jira-data-center/Git-data-processing-age-limit-general-settings-gij-self-managed)
 
 *   [Cache sizes settings](/git-integration-for-jira-data-center/cache-sizes-settings-gij-self-managed)
 
