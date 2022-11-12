@@ -6,6 +6,9 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
+<!-- TROUBLESHOOTING -->
+
 ## Problem
 
 Some or all repositories in Azure DevOps integrations are not seen or showing by the integration user.
@@ -20,7 +23,7 @@ The connecting Azure DevOps user must have access to the repository to be added 
 
 Jira admins will notice that some repositories expected in the Azure DevOps integration do not appear in the Git Integration for Jira app. Basic or Visual Studio Professional access is the minimum access level necessary for the Git Integration for Jira app as Code access level is required.
 
-![](/wp-content/uploads/gij-azure-devops-code-access-level)
+![](/wp-content/uploads/gij-azure-devops-code-access-level.png)
 
 For more information - see Microsoft's article on [Azure DevOps Access Levels](https://learn.microsoft.com/en-us/azure/devops/organizations/security/access-levels?view=azure-devops).
 
@@ -36,7 +39,7 @@ Assign the connecting Azure DevOps user appropriate access to the repository or 
 
 **2\.  Access Level**
 
-Grant at least Basic or Visual Studio Professional access is the minimum access level necessary for the Git Integration for Jira app. 
+Grant at least Basic or Visual Studio Professional access is the minimum access level necessary for the Git Integration for Jira app.
 
 **3\. Repository format**
 
@@ -61,11 +64,13 @@ Convert the Team Foundation Version Control (TFVC) formatted repositories to git
 </div>
 <br>
 
-<br>
+<p>&nbsp;</p>
 
 ## More articles about troubleshooting, workarounds and solutions
 
-[Avoid OutOfMemory exceptions by configuring or memory allocation with Jira to accommodate large repositories](/git-integration-for-jira-data-center/Avoid-OutOfMemory-exceptions-by-configuring-or-memory-allocation-with-Jira-to-accommodate-large-repositories-gij-self-managed)
+[Why I am getting the error, “git-upload-pack not permitted”?](/git-integration-for-jira-data-center/why-i-am-getting-the-error-git-upload-pack-not-permitted-gij-self-managed/)
+
+[Avoid OutOfMemory exceptions by configuring or memory allocation with Jira to accommodate large repositories](/git-integration-for-jira-data-center/avoid-outofmemory-exceptions-by-configuring-or-memory-allocation-with-jira-to-accommodate-large-repositories-gij-self-managed)
 
 [Cannot auto-deploy some tracked repositories: Specified origin is incorrect or not supported](/git-integration-for-jira-data-center/Cannot-auto-deploy-some-tracked-repositories-gij-self-managed)
 
@@ -75,17 +80,17 @@ Convert the Team Foundation Version Control (TFVC) formatted repositories to git
 
 [Duplicate entry 0 for key PRIMARY exceptions in log](/git-integration-for-jira-data-center/Duplicate-entry-0-for-key-PRIMARY-exceptions-in-log-gij-self-managed)
 
-[Error while reindexing - Java heap space / Object too large, rejecting the pack](/git-integration-for-jira-data-center/Error-while-reindexing-Java-heap-space-Object-too-large,-rejecting-the-pack-gij-self-managed)
+[Error while reindexing – Java heap space / Object too large, rejecting the pack](/git-integration-for-jira-data-center/Error-while-reindexing-Java-heap-space-Object-too-large,-rejecting-the-pack-gij-self-managed)
 
 [Gitolite integration: Why the Git integration app not see the master branch?](/git-integration-for-jira-data-center/Gitolite-integration--why-the-Git-integration-app-not-see-the-master-branch-gij-self-managed)
 
-[Health Check\: Database Collation](/git-integration-for-jira-data-center/Health-check--database-collation-gij-self-managed)
+[Health Check: Database Collation](/git-integration-for-jira-data-center/Health-check--database-collation-gij-self-managed)
 
-[Indexing error - Too many open files](/git-integration-for-jira-data-center/Indexing-error-Too-many-open-files-gij-self-managed)
+[Indexing error – Too many open files](/git-integration-for-jira-data-center/Indexing-error-Too-many-open-files-gij-self-managed)
 
 [Installation fails when installing manually](/git-integration-for-jira-data-center/Installation-fails-when-installing-manually-gij-self-managed)
 
-[Jira index error: IndexNotFoundException: no segments\* file found](/git-integration-for-jira-data-center/Jira-index-error--IndexNotFoundException--no-segments-file-found)
+[Jira index error: IndexNotFoundException: no segments* file found](/git-integration-for-jira-data-center/Jira-index-error--IndexNotFoundException--no-segments-file-found)
 
 [Malformed input or input contains unmappable characters](/git-integration-for-jira-data-center/Malformed-input-or-input-contains-unmappable-characters-gij-self-managed)
 
@@ -95,15 +100,20 @@ Convert the Team Foundation Version Control (TFVC) formatted repositories to git
 
 [Pull request index error: org.json.JSONException](/git-integration-for-jira-data-center/Pull-request-index-error--JSONException-gij-self-managed)
 
-**Repositories missing from Azure DevOps** integration (this page)
+**Repositories missing from Azure DevOps integration** (this page)
 
-[Service proxy has been destroyed  exceptions in log](/git-integration-for-jira-data-center/Service-proxy-has-been-destroyed-exceptions-in-log-gij-self-managed)
+["Service proxy has been destroyed" exceptions in log](/git-integration-for-jira-data-center/service-proxy-has-been-destroyed-exceptions-in-log-gij-self-managed)
 
-[SQLException Incorrect string value in merge requests](/git-integration-for-jira-data-center/SQLException-'Incorrect-string-value'-in-merge-requests-gij-self-managed)
+[SQLException 'Incorrect string value' in merge requests](/git-integration-for-jira-data-center/sqlexception-incorrect-string-value-in-merge-requests-gij-self-managed)
 
-[SSH key file format is invalid](/git-integration-for-jira-data-center/SSH-key-file-format-is-invalid-gij-self-managed)
+[SSH key file format is invalid](/git-integration-for-jira-data-center/ssh-key-file-format-is-invalid-gij-self-managed)
 
-[TFS - Not Authorized exception when Jira works thru proxy](/git-integration-for-jira-data-center/TFS-Not-authorized-exception-when-Jira-works-thru-proxy-gij-self-managed)
+[TFS - Not authorized exception when Jira works thru proxy](/git-integration-for-jira-data-center/tfs-not-authorized-exception-when-jira-works-thru-proxy-gij-self-managed)
 
 [Unexpected exception parsing XML document from URL error in log](/git-integration-for-jira-data-center/Unexpected-exception-parsing-XML-document-from-URL-error-in-log-gij-self-managed)
+
+[Why don't I see the Create Branch or Pull Request features?](/git-integration-for-jira-data-center/why-dont-i-see-the-create-branch-or-pull-request-features-gij-self-managed)
+
+<br>
+<br>
 

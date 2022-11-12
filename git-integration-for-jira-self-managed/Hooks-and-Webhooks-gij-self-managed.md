@@ -6,13 +6,16 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 Welcome to the Git Integration for Jira app hooks and webhooks reference page index for Jira Data Center.
 
 On this page, you will find the list of available hooks and webhooks supported by the Git Integration for Jira app.  Click on a topic title to view its content or search through the related topics.
 
-
-
-* * *
+<br>
+<br>
+<hr>
+<br>
+<br>
 
 <img src='/wp-content/uploads/gij-bbb-cs-script-icon.png' height=48 width=61 />
 
@@ -20,7 +23,7 @@ On this page, you will find the list of available hooks and webhooks supported b
 
 The **_commit-msg_** hook is a python script file that must be located in the developer's local repository.
 
-<br>
+<p>&nbsp;</p>
 
 <img src='/wp-content/uploads/gij-bbb-ss-script-icon.png' height=48 width=58 />
 
@@ -28,7 +31,7 @@ The **_commit-msg_** hook is a python script file that must be located in the 
 
 Use server-side hooks to apply policies for your project. The server runs these scripts before and after the push. The server-side hook, like commit-msg hook, requires Python to be installed.
 
-<br>
+<p>&nbsp;</p>
 
 <img src='/wp-content/uploads/gij-bbb-workflow-icon.png' height=48 width=60 />
 
@@ -36,11 +39,11 @@ Use server-side hooks to apply policies for your project. The server runs these
 
 Use JavaScript as another workflow to operate Jira aside from Smart Commits.
 
-<br>
+<p>&nbsp;</p>
 
-<img src='https://bigbrassband.com/confluence/images/gij-webhooks-bbb-icon.png' height=48 width=52 />
+<img src='/wp-content/uploads/gij-webhooks-bbb-icon.png' height=48 width=52 />
 
-[**Webhooks**](/git-integration-for-jira-data-center/Webhooks)
+[**Webhooks**](/git-integration-for-jira-data-center/Webhooks-gij-self-managed)
 
 Trigger immediate reindex of your repositories from remote systems via webhooks.
 

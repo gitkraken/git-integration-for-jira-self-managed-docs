@@ -78,7 +78,7 @@ Enter `<your-git-server-host>` to `nonProxyHosts` entries.
 
 To get a better view of the cause of the error:
 
-1.   See the debug logs of the jgit library in Jira generated during cloning/re-indexing of your repository.
+*   See the debug logs of the jgit library in Jira generated during cloning/re-indexing of your repository.
 
     Enable debug logging for jgit library in Jira:
 
@@ -92,7 +92,8 @@ To get a better view of the cause of the error:
 
     5.  Click **Add** to add this configuration to the _**Debug Loggers**_ list.
 
-    <br>
+    <p>&nbsp;</p>
+    
     Collect logs generated during reindex of your repository:
 
     1.  Write down the current time right before doing a reindex – let's call it `time1`.
@@ -103,13 +104,13 @@ To get a better view of the cause of the error:
 
     4.  Collect logs created between `time1` and `time2`.<br><br>
 
-2.  See the verbose logs of successful clone of your repository cloned by the console git client.
+*   See the verbose logs of successful clone of your repository cloned by the console git client.
 
     *   From the command line, run `set GIT_CURL_VERBOSE=1`
 
     *   Do a git clone of the affected repository `git clone http://<your-repo>`.
 
-<br>
+<p>&nbsp;</p>
 
 The output is a verbose log of this process.
 
@@ -158,4 +159,57 @@ From the above log:
 2.  In the example it contains `Basic amlyYTpqaXJhcGFzc3dvcmQ=`, where `amlyYTpqaXJhcGFzc3dvcmQ=` is the login credentials encoded in base64. Decode the base64 string using any online decoder. `Result: jira:jirapassword`.
 
 3.  Verify that `jira` is the expected username and `jirapassword` is the expected password.
+
+<p>&nbsp;</p>
+
+## More articles about troubleshooting, workarounds and solutions
+
+**Why I am getting the error, “git-upload-pack not permitted”?** (this page)
+
+[Avoid OutOfMemory exceptions by configuring or memory allocation with Jira to accommodate large repositories](/git-integration-for-jira-data-center/avoid-outofmemory-exceptions-by-configuring-or-memory-allocation-with-jira-to-accommodate-large-repositories-gij-self-managed)
+
+[Cannot auto-deploy some tracked repositories: Specified origin is incorrect or not supported](/git-integration-for-jira-data-center/Cannot-auto-deploy-some-tracked-repositories-gij-self-managed)
+
+[Connection Reset when Accessing the Database](/git-integration-for-jira-data-center/Connection-reset-when-accessing-the-database-gij-self-managed)
+
+["Dangerous use of multiple connections" error on local database](/git-integration-for-jira-data-center/Dangerous-use-of-multiple-connections-error-on-local-database-gij-self-managed)
+
+[Duplicate entry 0 for key PRIMARY exceptions in log](/git-integration-for-jira-data-center/Duplicate-entry-0-for-key-PRIMARY-exceptions-in-log-gij-self-managed)
+
+[Error while reindexing – Java heap space / Object too large, rejecting the pack](/git-integration-for-jira-data-center/Error-while-reindexing-Java-heap-space-Object-too-large,-rejecting-the-pack-gij-self-managed)
+
+[Gitolite integration: Why the Git integration app not see the master branch?](/git-integration-for-jira-data-center/Gitolite-integration--why-the-Git-integration-app-not-see-the-master-branch-gij-self-managed)
+
+[Health Check: Database Collation](/git-integration-for-jira-data-center/Health-check--database-collation-gij-self-managed)
+
+[Indexing error – Too many open files](/git-integration-for-jira-data-center/Indexing-error-Too-many-open-files-gij-self-managed)
+
+[Installation fails when installing manually](/git-integration-for-jira-data-center/Installation-fails-when-installing-manually-gij-self-managed)
+
+[Jira index error: IndexNotFoundException: no segments* file found](/git-integration-for-jira-data-center/Jira-index-error--IndexNotFoundException--no-segments-file-found)
+
+[Malformed input or input contains unmappable characters](/git-integration-for-jira-data-center/Malformed-input-or-input-contains-unmappable-characters-gij-self-managed)
+
+[Personal access token failing Azure DevOps integration with Not Authorized error](/git-integration-for-jira-data-center/Personal-access-token-failing-azure-devops-integration-with-Not-Authorized-error-gij-self-managed)
+
+[Problems with shared home on Azure Storage](/git-integration-for-jira-data-center/Problems-with-shared-home-on-azure-storage-gij-self-managed)
+
+[Pull request index error: org.json.JSONException](/git-integration-for-jira-data-center/Pull-request-index-error--JSONException-gij-self-managed)
+
+[Repositories missing from Azure DevOps integration](/git-integration-for-jira-data-center/Repositories-missing-from-azure-devops-integration-gij-self-managed)
+
+["Service proxy has been destroyed" exceptions in log](/git-integration-for-jira-data-center/service-proxy-has-been-destroyed-exceptions-in-log-gij-self-managed)
+
+[SQLException 'Incorrect string value' in merge requests](/git-integration-for-jira-data-center/sqlexception-incorrect-string-value-in-merge-requests-gij-self-managed)
+
+[SSH key file format is invalid](/git-integration-for-jira-data-center/ssh-key-file-format-is-invalid-gij-self-managed)
+
+[TFS - Not authorized exception when Jira works thru proxy](/git-integration-for-jira-data-center/tfs-not-authorized-exception-when-jira-works-thru-proxy-gij-self-managed)
+
+[Unexpected exception parsing XML document from URL error in log](/git-integration-for-jira-data-center/Unexpected-exception-parsing-XML-document-from-URL-error-in-log-gij-self-managed)
+
+[Why don't I see the Create Branch or Pull Request features?](/git-integration-for-jira-data-center/why-dont-i-see-the-create-branch-or-pull-request-features-gij-self-managed)
+
+<br>
+<br>
 
