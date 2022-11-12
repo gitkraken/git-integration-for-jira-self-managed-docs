@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 On this page you will find topics related to the supported features of the app.
 
 *   [Smart commits overview](/git-integration-for-jira-data-center/smart-commits-overview-gij-self-managed)
@@ -24,5 +25,9 @@ On this page you will find topics related to the supported features of the app.
 
 *   [Enforced git permissions for Jira users](/git-integration-for-jira-data-center/enforced-git-permissions-for-jira-users-gij-self-managed)
 
+*   [Git Integration + Jira Automation](/git-integration-for-jira-data-center/Git-integration-plus-Jira-automation-gij-self-managed)
+
 *   [Git Integration + Scriptrunner](/git-integration-for-jira-data-center/GIJ-plus-Scriptrunner-gij-self-managed)
+
+*   [GitHub App integration](/git-integration-for-jira-data-center/github-app-integration-gij-self-managed/)
 
