@@ -1,6 +1,6 @@
 ---
 
-title: Administration (FAQ)
+title: Administration FAQ
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -21,7 +21,9 @@ Use the [FAQ](/git-integration-for-jira-data-center/frequently-asked-questions-g
 - [How do I setup GitLab Server to respond to incoming network API calls?](#how-do-i-setup-gitlab-server-to-respond-to-incoming-network-api-calls)
 
 <br>
+<br>
 <hr>
+<br>
 <br>
 
 ## How do I let people browse Git securely but without defining Git IDs for everyone?

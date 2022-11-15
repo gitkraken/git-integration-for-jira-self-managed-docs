@@ -1,11 +1,12 @@
 ---
 
-title: SSH
+title: SSH FAQ
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 This page contains related questions on Git Integration for Jira app SSH connections in Jira.
 
 Use the FAQ below to find answers to common questions. Feel free to contact our support team ([gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com?subject=Help%20on%20SSH%20issues%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you don't see what you're looking for.
@@ -25,7 +26,9 @@ Use the FAQ below to find answers to common questions. Feel free to contact our
 - [How do I configure/connect an SSH remote git repository to Jira?](#how-do-i-configureconnect-an-ssh-remote-git-repository-to-jira)
 
 <br>
+<br>
 <hr>
+<br>
 <br>
 
 ## Creating and configuring SSH keys (Windows/MacOS/Linux)

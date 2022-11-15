@@ -1,6 +1,6 @@
 ---
 
-title: Add New Integration - API
+title: Add New Integration API
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -57,7 +57,7 @@ Request body is a _JSON_ structure supporting the following parameters:
 | _**revisionIndexing**_ | _Boolean_. Optional.<br><br>This setting turns on the memory cache which is used when list of commits are displayed. Set to _**true**_ if revision indexing will index and link to any mentioned issue keys in the revision history or not (_**false**_). |
 | _**tagsFilter**_ | _String._ Optional.<br><br>Displays all tags for the specific issue, if left blank. Otherwise, set tags matching pattern to display tags on issue pages that match the specified regular expression pattern.<br><br>For more information, see example in [Show tags](/git-integration-for-jira-data-center/git-tags-gij-self-managed/). |
 | _**projectMappingIds**_ | _Long \[ \]_. Array. Optional.<br><br>These are numeric projects IDs associated with the repository.<br><br>This field accepts list of comma separated project IDs for project mapping. Trailing spaces are ignored _(equivalent to unchecking the_ **Associate to All Projects** _checkbox in the Advanced Setup dialog)_.<br><br>_Example:_ `“projectMappingIds”: [10000,10100]` |
-| _**trustFolderStat**_ | _Boolean._ Optional.<br><br>When the `trustFolderStat` setting is set to **false**, the `.git/objects/pack` folder will be always scanned to check for new pack files. If set to **true**, the `last-modified` attribute of the folder will be used to check the folder for modifications.<br><br>The default value for Jira Data Center is **false**.<br><div class="bbb-callout bbb--note"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">If your repository is stored on a network share, it is highly recommended to set this setting to <b><i>false</i></b>.</div></div></div><div class="bbb-callout bbb--tip"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">We recommend to leave this setting to <code>false</code> <i>(default)</i> when adding new integration. You can change this setting later on via &nbsp;<img src='/wp-content/uploads/actions-icon.png' /> <i>Actions</i> ➜ <b>Edit repository settings</b> in the Manage repositories page.</div></div></div><div class="bbb-callout bbb--tip"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">The <code>trustFolderStat</code> setting can be configured for each repository in the integration.</div></div></div> |
+| _**trustFolderStat**_ | _Boolean._ Optional.<br><br>When the `trustFolderStat` setting is set to **false**, the `.git/objects/pack` folder will be always scanned to check for new pack files. If set to **true**, the `last-modified` attribute of the folder will be used to check the folder for modifications.<br><br>The default value for Jira Data Center is **false**.<br><div class="bbb-callout bbb--note"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">If your repository is stored on a network share, it is highly recommended to set this setting to <b><i>false</i></b>.</div></div></div><div class="bbb-callout bbb--tip"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">We recommend to leave this setting to <code>false</code> <i>(default)</i> when adding new integration. You can change this setting later on via &nbsp;<img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ <b>Edit repository settings</b> in the Manage repositories page.</div></div></div><div class="bbb-callout bbb--tip"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">The <code>trustFolderStat</code> setting can be configured for each repository in the integration.</div></div></div> |
 | _**refSpecNotes**_ | _Boolean_. Optional. <br>This is a reference to `refs/notes/*` used for fetching. The default value for this field is _**true**_.<br><div class="bbb-callout bbb--info"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">Git notes are not shown…<br><ul><li>when <code>refs/notes</code> are disabled on connecting a repository;</li><li>when a new note comes when <code>refs/notes</code> is disabled.</li></ul></div></div></div> |
 | _**refSpecChanges**_ | _Boolean_. Optional. <br>This is a reference to `refs/changes/*` used for fetching. The default value for this field is _**false**_. |
 | _**refSpecCustom**_ | _String_. Optional. <br>This is a user-defined list of references used for fetching. It is a comma-separated list with the format: `+refs/refname1/*:refs/refname1/*`, `refs/refname2/*:refs/refname2/*`, ... |
@@ -126,4 +126,20 @@ This will add a new integration of the connected git host to the git repository 
     }
 }
 ```
+
+<br>
+
+### Integration REST APIs
+
+**Add New Integration** (this page)
+
+[Add New Integration Type API (examples)](/git-integration-for-jira-data-center/add-new-integration-type-api-examples-gij-self-managed)
+
+[Update Existing Integration](/git-integration-for-jira-data-center/update-existing-integration-gij-self-managed)
+
+[Remove Integration](/git-integration-for-jira-data-center/remove-integration-gij-self-managed)
+
+[Retrieve an Integration](/git-integration-for-jira-data-center/retrieve-an-integration-gij-self-managed)
+
+[Retrieve Integration List](/git-integration-for-jira-data-center/retrieve-integration-list-gij-self-managed)
 

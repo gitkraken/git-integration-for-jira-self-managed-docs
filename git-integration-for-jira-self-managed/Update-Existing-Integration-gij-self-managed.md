@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 Updates the existing parameters of the specified integration.
 
 <div class="bbb-callout bbb--alert">
@@ -22,24 +23,24 @@ Updates the existing parameters of the specified integration.
 
 ## Update Existing Integration
 
-_**url**_<br>
+### url
 `/rest/gitplugin/1.0/`**integration**`/`**\{integrationId\}**
 
-_**integrationId**_<br>
+### integrationId
 _Integer_. Required.
 
 This is the ID of the existing integration. For example, `/integration/3`.
 
 Using the _**integrationId**_ from the url, the Update Integration API will look for the integration with `id : 3` and replaces integration properties according to the declared JSON request body structure file.
 
-_**method**_<br>
+### method
 PUT
 
 ### Parameters
 
 The Request body is a _JSON_ structure similar to the [Add New Integration API](/git-integration-for-jira-data-center/add-new-integration-gij-self-managed). Unlike the [Update Existing Repository API](/git-integration-for-jira-data-center/update-existing-integration-gij-self-managed), the `id` of the integration is substituted to the url as `integrationId`.
 
-| **Parameter** | **Condition** |
+| Parameter | Condition |
 | :--- | :--- |
 | _**displayName**_ | _String_. Optional. Some git hosts may require this to be filled in.<br><br>This is the name that will appear in the Git Integration for Jira app repositories list. |
 | _**origin**_ | _String_. Optional.<br><br>This is the URL to the hosted git service used on the project.<br><br>For example, you might host your repository on GitHub, Beanstalk or your own server.<br><br>_**Example URL:**_ `https://api.github.com` |
@@ -50,20 +51,20 @@ The Request body is a _JSON_ structure similar to the [Add New Integration AP
 | _**username**_ | _String._ Optional.<br><br>Set as username for the git host. Leave blank if 2FA is enabled. |
 | _**password**_ | _String._ Optional.<br><br>Set as password for the git host. Leave blank if 2FA is enabled. Otherwise, fill this in if password has changed. |
 | _**pat**_ | _String._ Optional.<br><br>This field accepts personal access token from supported git hosts. Fill this in if 2FA is enabled for the git host and if the PAT has changed. |
-| _**disableSslVerification**_ | _Boolean._ Optional.<br><br>The **SSL Verify** setting is set to `Enabled` by default. If set to disabled, the Git Integration for Jira app will ignore verification of SSL certificates when connecting to a git server.<br><br><img src='/wp-uploads/content/bbb-tips-20.png' valign=middle /> This setting can also be accessed via **Manage Git repositories** ➜ _Actions_ ➜ **Edit Integration settings**. |
+| _**disableSslVerification**_ | _Boolean._ Optional.<br><br>The **SSL Verify** setting is set to `Enabled` by default. If set to disabled, the Git Integration for Jira app will ignore verification of SSL certificates when connecting to a git server.<br><br><img src='/wp-uploads/content/bbb-tips-20.png' /> This setting can also be accessed via Manage Git repositories ➜ _Actions_ ➜ **Edit Integration settings**. |
 | _**apiPath**_ | _String_. Optional.<br><br>The integration will use the relative REST API path starting with "/" to retrieve the list of tracked repositories. For more information, see article [Working with Custom API path](/git-integration-for-jira-data-center/working-with-custom-api-path-gij-self-managed). |
 | _**apiFilter**_ | _String_. Optional.<br><br>It is a [**JMESPath**](http://jmespath.org/) filter expression. The expression will be used to filter API results such as repository names, etc. For more information, see article [Working with JMESPath filters](/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed). |
 | _**tfsCollection**_ | _String_. Optional.<br><br>Specify the specific collection to connect. It is used for Microsoft integrations only. |
 | _**awsRegion**_ | _String_. Optional.<br><br>Specify AWS region; where CodeCommit repositories are located. The list of regions with their names can be found [**here**](https://docs.aws.amazon.com/codecommit/latest/userguide/regions.html).<br><br>Supported regions:<br><ul><li><code>us-east-1</code></li><li><code>us-east-2</code></li><li><code>us-west-1</code></li><li><code>us-west-2</code></li><li><code>ap-south-1</code></li><li><code>ap-northeast-2</code></li><li><code>ap-southeast-1</code></li><li><code>ap-southeast-2</code></li><li><code>ap-northeast-1</code></li><li><code>ca-central-1</code></li><li><code>eu-central-1</code></li><li><code>eu-west-1</code></li><li><code>eu-west-2</code></li><li><code>eu-west-3</code></li><li><code>eu-north-1</code></li><li><code>me-south-1</code></li><li><code>sa-east-1</code></li></ul> |
 | _**requireUserPat**_ | _Boolean_. Optional.<br><br>Setting this parameter to _**true**_ will require users to specify their own PAT for branch and pull/merge request management. |
-| **_gitViewerEnabled_** | _Boolean._ Optional.<br><br>Enables or disables the **Repository Browser** feature for this repository. The default setting for this setting is _**enabled**_.<br><br><img src='/wp-content/uploads/bbb-alert-20.png' valign=middle /> Users must have the **View Development Tools** _project permission_ in order to use this feature. Consult your Jira System Administrator on permissions.<br><br>For more information, see section, [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed). |
+| **_gitViewerEnabled_** | _Boolean._ Optional.<br><br>Enables or disables the **Repository Browser** feature for this repository. The default setting for this setting is _**enabled**_.<br><br><img src='/wp-content/uploads/bbb-alert-20.png' /> Users must have the **View Development Tools** _project permission_ in order to use this feature. Consult your Jira System Administrator on permissions.<br><br>For more information, see section, [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed). |
 | _**smartCommitsEnabled**_ | _Boolean._ Optional.<br><br>This setting is enabled by default. Enables/disables smart commits processing for this repository or tracked folder. The default value for this field is _**true**_. |
 | _**global**_ | _Boolean._ Optional.<br><br>If set to true, the _projectMappingIds_ parameter is ignored. Otherwise the `projectMappingIds` parameter value(s) are applied. |
 | _**sourcesDiffViewEnabled**_ | _Boolean._ Optional.<br><br>When enabled, this setting allows Jira users with the **View Development Tools** and correct Jira/Git Integration for Jira app permissions to view the commit and file diffs inside Jira. |
 | _**revisionIndexing**_ | _Boolean_. Optional.<br><br>This setting turns on the memory cache which is used when list of commits are displayed. Set to _**true**_ if revision indexing will index and link to any mentioned issue keys in the revision history or not (_**false**_). |
 | _**tagsFilter**_ | _String._ Optional.<br><br>Displays all tags for the specific issue, if left blank. Otherwise, set tags matching pattern to display tags on issue pages that match the specified regular expression pattern.<br><br>For more information, see example in [Show tags](/git-integration-for-jira-data-center/git-tags-gij-self-managed). |
 | _**projectMappingIds**_ | _Long \[ \]_. Array. Optional.<br><br>These are numeric projects IDs associated with the repository. When you create a new repository and set the field _gitViewerEnabled_ to **true**, at least one project must be associated with it. |
-| _**trustFolderStat**_ | _Boolean_. Optional.<br><br>When the `trustFolderStat` setting is set to **false**, the `.git/objects/pack` folder will be always scanned to check for new pack files. If set to **true**, the `last-modified` attribute of the folder will be used to check the folder for modifications.<br><br>The default value for Jira Data Center is **false**.<br><br><img src='/wp-content/uploads/bbb-note-20.png' valign=middle /> If your repository is stored on a network share, it is highly recommended to set this setting to _**false**_.<br><br><img src='/wp-content/uploads/bbb-tips-20.png' valign=middle /> The `trustFolderStat` setting can be configured for each repository in the integration. |
+| _**trustFolderStat**_ | _Boolean_. Optional.<br><br>When the `trustFolderStat` setting is set to **false**, the `.git/objects/pack` folder will be always scanned to check for new pack files. If set to **true**, the `last-modified` attribute of the folder will be used to check the folder for modifications.<br><br>The default value for Jira Data Center is **false**.<br><br><img src='/wp-content/uploads/bbb-note-20.png' /> If your repository is stored on a network share, it is highly recommended to set this setting to _**false**_.<br><br><img src='/wp-content/uploads/bbb-tips-20.png' /> The `trustFolderStat` setting can be configured for each repository in the integration. |
 | _**refSpecNotes**_ | _Boolean_. Optional.<br><br>This is a reference to `refs/notes/*` used for fetching. The default value for this field is _**true**_.<br><br>Git notes are not shown…<br><ul><li>when `refs/notes` are disabled on connecting a repository;</li><li>when a new note comes when `refs/notes` is disabled.</li></ul> |
 | _**refSpecChanges**_ | _Boolean_. Optional.<br><br>This is a reference to `refs/changes/*` used for fetching. The default value for this field is _**false**_. |
 | _**refSpecCustom**_ | _String_. Optional.<br><br>This is a user-defined list of references used for fetching. It is a comma-separated list with the format: `+refs/refname1/*:refs/refname1/*`, `refs/refname2/*:refs/refname2/*`, ... |
@@ -71,7 +72,6 @@ The Request body is a _JSON_ structure similar to the [Add New Integration AP
 ### Response
 
 Updates the recent changes of the parameters for the specified integration.
-
 
 **Example 1:**<br>
 `http://jira.yourorg.com/rest/gitplugin/1.0/`**integration**`/`**1**
@@ -178,4 +178,18 @@ Response:
     }
 }
 ```
+
+### Integration REST APIs
+
+[Add New Integration](/git-integration-for-jira-data-center/add-new-integration-gij-self-managed)
+
+[Add New Integration Type API (examples)](/git-integration-for-jira-data-center/add-new-integration-type-api-examples-gij-self-managed)
+
+**Update Existing Integration** (this page)
+
+[Remove Integration](/git-integration-for-jira-data-center/remove-integration-gij-self-managed)
+
+[Retrieve an Integration](/git-integration-for-jira-data-center/retrieve-an-integration-gij-self-managed)
+
+[Retrieve Integration List](/git-integration-for-jira-data-center/retrieve-integration-list-gij-self-managed)
 

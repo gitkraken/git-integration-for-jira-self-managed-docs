@@ -1,11 +1,12 @@
 ---
 
-title: Workspace
+title: Workspace FAQ
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 This page contains related questions on Git Integration for Jira add-on user experience in Jira.
 
 Use the FAQ below to find answers to common questions. Feel free to contact our support team ([gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com?subject=Commits%20display%20issues%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you don't see what you're looking for.
@@ -18,14 +19,16 @@ Use the FAQ below to find answers to common questions. Feel free to contact our
 - [The git commits are not showing on the Jira Activity Stream. Why?](#the-git-commits-are-not-showing-on-the-jira-activity-stream-why)
 
 <br>
+<br>
 <hr>
+<br>
 <br>
 
 ## How do I see if work has really started on an issue?
 
 Open an issue in your browser and click on the **Git Commits** tab.
 
-<img src='/wp-cotent/uploads/gij-gitserver-jira-issue-activity-workspace-faq.png' style='max-width:100%;margin: 25px auto 0 auto' />
+<img src='/wp-cotent/uploads/gij-gitserver-jira-issue-activity-workspace-faq.png' style='max-width:100%;margin:25px auto 0 auto;max-width:100%' />
 
 <i style='display:inline-block;margin:10px auto 30px auto;text-align:center;'>See all Git commits associated with an issue in Jira</i>
 
@@ -59,7 +62,7 @@ Open the project summary in your browser and click on the **Git Commits** tab.
 
 All changes in all issues will be present. If you use the "Version" tagging feature of Jira, you can filter the changes by version.
 
-<img src='/wp-content/uploads/gij-gitserver-proj-git-commits-all-versions.png' style='max-width:100%;margin: 25px auto 0 auto' />
+<img src='/wp-content/uploads/gij-gitserver-proj-git-commits-all-versions.png' style='max-width:100%;margin:25px auto 0 auto;max-width:100%' />
 
 <i style='display:inline-block;margin:10px auto 30px auto;text-align:center;'>See all Git commits associated with a version tag in Jira.</i>
 

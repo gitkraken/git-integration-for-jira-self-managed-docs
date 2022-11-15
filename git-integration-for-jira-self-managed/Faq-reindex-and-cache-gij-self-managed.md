@@ -1,6 +1,6 @@
 ---
 
-title: Reindex and cache
+title: Reindex and cache FAQ
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -20,7 +20,9 @@ Use the FAQ below to find answers to common questions. Feel free to contact our 
 - [The git notes are still not visible in Jira. What should I do?](#the-git-notes-are-still-not-visible-in-jira-what-should-i-do)
 
 <br>
+<br>
 <hr>
+<br>
 <br>
 
 ## What does re-index do?

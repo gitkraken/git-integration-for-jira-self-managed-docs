@@ -1,11 +1,12 @@
 ---
 
-title: Repositories
+title: Repositories FAQ
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 This page contains solutions to common issues encountered while connecting and configuring git repositories.
 
 Use the FAQ below to find answers to common questions. Feel free to contact our support team ([gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com?subject=Repository%20connection%20issues%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you don't see what you're looking for.
@@ -19,7 +20,9 @@ Use the FAQ below to find answers to common questions. Feel free to contact our
 - [I am using Jira which is hosted on Windows. I changed the password of the Active Directory account running Jira. Now, I cannot access my repository. Why?](#i-am-using-jira-which-is-hosted-on-windows-i-changed-the-password-of-the-active-directory-account-running-jira-now-i-cannot-access-my-repository-why)
 
 <br>
+<br>
 <hr>
+<br>
 <br>
 
 ## I have an existing git repository on a Jira server. How can I figure out what values should be used for Repository origin and Repository root fields?
