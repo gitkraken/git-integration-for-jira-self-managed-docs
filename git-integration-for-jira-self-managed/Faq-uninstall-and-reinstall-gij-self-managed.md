@@ -1,11 +1,12 @@
 ---
 
-title: Uninstall and reinstall
+title: Uninstall and reinstall FAQ
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 This page contains related questions about installation management of Git Integration for Jira add-on.
 
 Use the FAQ below to find answers to common questions.  Feel free to contact our support team ([gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com?subject=Uninstall/Reinstall%20issues%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you don't see what you're looking for.
@@ -16,7 +17,9 @@ Use the FAQ below to find answers to common questions.  Feel free to contact ou
 - [When removing the Git Integration for Jira app indexing service, there are 2 services listed: "GitRevisionIndexerJob" AND "Git Revision Indexing Service". Which should I delete?](#when-removing-the-git-integration-for-jira-app-indexing-service-there-are-2-services-listed-gitrevisionindexerjob-and-git-revision-indexing-service-which-should-i-delete)
 
 <br>
+<br>
 <hr>
+<br>
 <br>
 
 ## How do I reinstall the plugin?

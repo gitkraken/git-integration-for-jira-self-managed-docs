@@ -1,6 +1,6 @@
 ---
 
-title: Installation and setup
+title: Installation and setup FAQ
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -16,7 +16,9 @@ Use the FAQ below to find answers to common questions. Feel free to contact our 
 - [How do I install the plugin in a development version of JIRA?](#how-do-i-install-the-plugin-in-a-development-version-of-jira)
 
 <br>
+<br>
 <hr>
+<br>
 <br>
 
 ## Does it take long to install?

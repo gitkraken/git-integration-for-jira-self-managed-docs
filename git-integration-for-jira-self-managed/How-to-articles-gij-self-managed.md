@@ -11,6 +11,8 @@ Read through our collection of how-to guides which will show you the recommended
 
 ## See our in-depth how-to articles
 
+*   [How to get a quote?](/git-integration-for-jira-data-center/how-to-get-a-quote-gij-self-managed)
+
 *   [Creating Personal Access Tokens](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed)
 
 *   [Working with JMESPath Filters](/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed)
@@ -22,8 +24,6 @@ Read through our collection of how-to guides which will show you the recommended
 *   [Require Personal Access Tokens for user actions (create branch/pull request)](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed)
 
 *   [Setting Project Permissions](/git-integration-for-jira-data-center/setting-project-permissions-gij-self-managed)
-
-*   [How to get a quote?](/git-integration-for-jira-data-center/how-to-get-a-quote-gij-self-managed)
 
 *   [Ways to Index Git Data to Jira Issues](/git-integration-for-jira-data-center/ways-to-index-git-data-to-jira-issues-gij-self-managed)
 

@@ -1,6 +1,6 @@
 ---
 
-title: Logging - FAQ
+title: Logging FAQ
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -15,7 +15,9 @@ Use the FAQ below to find answers to common questions.  Feel free to contact ou
 - [Where can I find the Jira logs?](#where-can-i-find-the-jira-logs)
 
 <br>
+<br>
 <hr>
+<br>
 <br>
 
 ## How to create the support zip file?

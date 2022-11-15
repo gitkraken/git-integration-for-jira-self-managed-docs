@@ -235,3 +235,19 @@ For complete reference of the parameters, see [Add New Integration API](/git-int
 }
 ```
 
+<br>
+
+### Integration REST APIs
+
+[Add New Integration](/git-integration-for-jira-data-center/add-new-integration-gij-self-managed)
+
+**Add New Integration Type API (examples)** (this page)
+
+[Update Existing Integration](/git-integration-for-jira-data-center/update-existing-integration-gij-self-managed)
+
+[Remove Integration](/git-integration-for-jira-data-center/remove-integration-gij-self-managed)
+
+[Retrieve an Integration](/git-integration-for-jira-data-center/retrieve-an-integration-gij-self-managed)
+
+[Retrieve Integration List](/git-integration-for-jira-data-center/retrieve-integration-list-gij-self-managed)
+

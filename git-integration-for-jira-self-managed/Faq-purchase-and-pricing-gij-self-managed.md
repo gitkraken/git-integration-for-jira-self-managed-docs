@@ -1,6 +1,6 @@
 ---
 
-title: Purchase and pricing
+title: Purchase and pricing FAQ
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -16,7 +16,9 @@ Use the FAQ below to find answers to common questions. Feel free to contact our 
 - [How do I determine the Git Integration for Jira app pricing after the trial?](#how-do-i-determine-the-git-integration-for-jira-app-pricing-after-the-trial)
 
 <br>
+<br>
 <hr>
+<br>
 <br>
 
 ## How do I buy this app?

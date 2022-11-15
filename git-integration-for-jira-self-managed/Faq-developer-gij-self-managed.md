@@ -1,6 +1,6 @@
 ---
 
-title: Developer
+title: Developer FAQ
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -18,7 +18,9 @@ Use the FAQ below to find answers to common questions. Feel free to contact our
 - [How to associate a commit, branch or pull request AFTER it has been created?](#how-to-associate-a-commit-branch-or-pull-request-after-it-has-been-created)
 
 <br>
+<br>
 <hr>
+<br>
 <br>
 
 ## How do Git commits get associated with a Jira issue?

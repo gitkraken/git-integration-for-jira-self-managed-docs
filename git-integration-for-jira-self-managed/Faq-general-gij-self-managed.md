@@ -1,6 +1,6 @@
 ---
 
-title: FAQ - General
+title: General FAQ
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
