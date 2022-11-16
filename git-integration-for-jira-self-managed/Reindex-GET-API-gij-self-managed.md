@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 Use this method to track messages for a particular thread.
 
 <div class="bbb-callout bbb--alert">
@@ -31,10 +32,10 @@ Use this method to track messages for a particular thread.
 
 ## Reindex GET API
 
-_**url**_<br>
+### url
 `/rest/gitplugin/1.0/index.json`
 
-_**method**_<br>
+### method
 GET
 
 ### Parameters
@@ -66,4 +67,16 @@ Response:
     "lastOperationPercent":100.0
 }
 ```
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+## Reindex REST APIs
+
+[Reindex POST API](/git-integration-for-jira-data-center/reindex-post-api-gij-self-managed) (Git Integration for Jira Data Center)
+
+**Reindex GET API** (this page)
 

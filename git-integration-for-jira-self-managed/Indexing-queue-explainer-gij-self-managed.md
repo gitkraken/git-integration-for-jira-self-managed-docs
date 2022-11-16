@@ -6,6 +6,9 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
+<!-- ADMINISTRATION -->
+
 Git Integration for Jira (GIJ) Data Center (DC) and Server v4.0 introduces a new reindexing queue based on using the Jira database. This article provides in-depth details about this queue implementation that may be helpful for Jira administrators.
 
 ## GIJ architecture
@@ -103,7 +106,7 @@ Tasks from the indexing queue are taken based on the following criteria:
 
 2.  In addition, this shared queue is processed by all nodes in the cluster in parallel, which improves indexing performance.
 
-3.  Since GIJ 4.0 the initial integration scanning is performed in a separate thread and does not depend on other reindexing operations.
+3.  Since Git Integration for Jira v4.0, the initial integration scanning is performed in a separate thread and does not depend on other reindexing operations.
 
 4.  All operations with the queue (putting & getting) are performed under a Cluster Lock provided by the Atlassian Jira library.
 
@@ -201,4 +204,22 @@ When troubleshooting indexing issues it may be useful to [enable the logging](/g
 *   Git GC task - INFO/DEBUG for <br>`com.bigbrassband.jira.git.services.async.ReindexQueueGCTask`.
 
 *   Repository removing - INFO/DEBUG for <br>`com.bigbrassband.jira.git.services.gitmanager.visitors.RemoveVisitor`.
+
+<p>&nbsp;</p>
+
+## More related Administration articles
+
+[General settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed)
+
+[Upgrades and migrations within same servver](/git-integration-for-jira-data-center/upgrades-and-migrations-within-same-server-gij-self-managed)
+
+[Migration to another server](/git-integration-for-jira-data-center/migration-to-another-server-gij-self-managed)
+
+[Scheduling jobs](/git-integration-for-jira-data-center/scheduling-jobs-gij-self-managed)
+
+[Recommended Jira memory settings](/git-integration-for-jira-data-center/recommended-jira-memory-settings-gij-self-managed)
+
+[Plugin Data Storage](/git-integration-for-jira-data-center/plugin-data-storage-gij-self-managed)
+
+**Indexing queue explainer** (this page)
 

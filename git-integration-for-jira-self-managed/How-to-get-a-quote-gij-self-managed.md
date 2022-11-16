@@ -9,9 +9,9 @@ taxonomy:
 
 You can generate a quote for Git Integration for Jira Data Center by doing the following steps below.
 
-Primarily, click this <a href='https://www.atlassian.com/purchase/addon/com.xiplink.jira.git.jira_git_plugin.ondemand?purchaseMode=quote'><b>Generate quote link</b></a> to take you directly to the quote page for Data Center:
+Primarily, click this <a href='https://www.atlassian.com/purchase/addon/com.xiplink.jira.git.jira_git_plugin.ondemand?purchaseMode=quote' target='_blank'><b>Generate quote link</b></a> to take you directly to the quote page for Data Center:
 
-![](/wp-content/uploads/gij-jira-datacenter-quote-process.png)
+<img src='/wp-content/uploads/gij-jira-datacenter-quote-process.png' style='display:block;margin:25px auto;max-width:100%' />
 
 1.  The loaded page defaults to **Quote** mode.
 

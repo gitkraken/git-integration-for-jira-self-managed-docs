@@ -7,6 +7,8 @@ taxonomy:
 
 ---
 
+<!-- ADMINISTRATION -->
+
 This page is about how to configure/allocate memory to Jira to accommodate large repositories and avoid OutOfMemory exceptions.
 
 <div class="bbb-callout bbb--tip">
@@ -16,7 +18,7 @@ This page is about how to configure/allocate memory to Jira to accommodate large
     </div>
     <div class="imsgbox">
         The approximate plugin memory usage should be 2 times the size of the repository indexes.
-        <div class='nextpara'>During GC, the approximate plugin memory usage should be 4 times the size of the repository indexes.</div>
+        <div class='nextpara' style='margin-bottom:-10px'>During GC, the approximate plugin memory usage should be 4 times the size of the repository indexes.</div>
     </div>
     </div>
 </div>
@@ -37,8 +39,27 @@ The JGit library implementation loads all indexes into the memory to simplify an
     </div>
     </div>
 </div>
+<br>
 
 When you connect several repositories, the required memory will be the sum of the required memory for each repository. Fortunately, that 4x memory in the peaks is required only for the biggest repository because Git GC is performed on a per-repository basis and only in one repository at a time.
 
 For troubleshooting out of memory errors related to this issue, see [Avoid OutOfMemory exceptions by configuring or memory allocation with Jira to accommodate large repositories](/git-integration-for-jira-data-center/avoid-outofmemory-exceptions-by-configuring-or-memory-allocation-with-jira-to-accommodate-large-repositories-gij-self-managed).
+
+<p>&nbsp;</p>
+
+## More related Administration articles
+
+[General settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed)
+
+[Upgrades and migrations within same servver](/git-integration-for-jira-data-center/upgrades-and-migrations-within-same-server-gij-self-managed)
+
+[Migration to another server](/git-integration-for-jira-data-center/migration-to-another-server-gij-self-managed)
+
+[Scheduling jobs](/git-integration-for-jira-data-center/scheduling-jobs-gij-self-managed)
+
+**Recommended Jira memory settings** (this page)
+
+[Plugin Data Storage](/git-integration-for-jira-data-center/plugin-data-storage-gij-self-managed)
+
+[Indexing queue explainer](/git-integration-for-jira-data-center/indexing-queue-explainer-gij-self-managed)
 

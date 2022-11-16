@@ -31,7 +31,6 @@ The **General settings** configuration page can be accessed thru the following
 
     ![](/wp-content/uploads/gij-jira-serverdc-gen-cfg-entry-point-one-c.png)
 
-
 2.  Jira dashboard menu➜ **General settings**.
 
     ![](/wp=content/uploads/gij-jira-serverdc-gen-cfg-entry-point-two-c.png)
@@ -44,7 +43,7 @@ The **General settings** configuration page can be accessed thru the following
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        If you're using Jira Cloud, <a href='/git-integration-for-jira-cloud/general-settings-gij-cloud/'><b>view this page instead</b></a>.
+        If you're using Jira Cloud, <a href='/git-integration-for-jira-cloud/general-settings-gij-cloud'><b>view this page instead</b></a>.
     </div>
     </div>
 </div>

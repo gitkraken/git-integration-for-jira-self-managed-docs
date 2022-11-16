@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 Starts the reindex process in a separate thread and returns the result immediately.
 
 <div class="bbb-callout bbb--alert">
@@ -31,10 +32,10 @@ Starts the reindex process in a separate thread and returns the result immediate
 
 ## Reindex POST API
 
-_**url**_<br>
+### url
 `/rest/gitplugin/1.0/index.json`
 
-_**method**_<br>
+### method
 POST
 
 ### Parameters
@@ -68,3 +69,14 @@ Response:
 }
 ```
 
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+## Reindex REST APIs
+
+**Reindex POST API** (this page)
+
+[Reindex GET API](/git-integration-for-jira-data-center/reindex-get-api-gij-self-managed)

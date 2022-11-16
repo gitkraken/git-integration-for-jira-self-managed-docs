@@ -12,17 +12,19 @@
     - [Do you offer academic, community, or open-source licenses for Data Center apps?](#do-you-offer-academic-community-or-open-source-licenses-for-data-center-apps)
     - [Can I extend my free trial?](#can-i-extend-my-free-trial-1)
   - [Git Integration for Jira Cloud](#git-integration-for-jira-cloud)
-    - [**How do I determine my cloud pricing?**](#how-do-i-determine-my-cloud-pricing)
+    - [How do I determine my cloud pricing?](#how-do-i-determine-my-cloud-pricing)
     - [Do you offer academic, community, or open-source licenses for cloud apps?](#do-you-offer-academic-community-or-open-source-licenses-for-cloud-apps)
-    - [**Can I extend my free trial?**](#can-i-extend-my-free-trial-2)
+    - [Can I extend my free trial?](#can-i-extend-my-free-trial-2)
 - [Related questions](#related-questions)
   - [Will the app stop working once it expires?](#will-the-app-stop-working-once-it-expires)
   - [Are we able to transfer a license from Jira Server to a Jira Cloud instance upon our migration?](#are-we-able-to-transfer-a-license-from-jira-server-to-a-jira-cloud-instance-upon-our-migration)
   - [If transition is not possible, would it be possible for us to receive a pro rata refund when our migration to Jira Cloud is complete?](#if-transition-is-not-possible-would-it-be-possible-for-us-to-receive-a-pro-rata-refund-when-our-migration-to-jira-cloud-is-complete)
 
 <br>
-
-* * *
+<br>
+<hr>
+<br>
+<br>
 
 ## License Types
 
@@ -142,7 +144,7 @@ When your subscription renews each month, you are automatically billed for apps 
 
 If app pricing changes after your initial purchase, there's a 60-day grandfathering period during which you can renew based on the old pricing.
 
-#### **How do I determine my cloud pricing?**
+#### How do I determine my cloud pricing?
 
 Apps are billed based on the number of users in your Atlassian product. Jira Cloud apps are priced based on the maximum users of the Jira products on your instance. For example, if you have Jira Software (50 users) and Jira Service Management (10 agents) on the same instance, you pay the 50-user price for apps.
 
@@ -172,7 +174,7 @@ Annual subscriptions may offer a discount depending on the number of users purch
 
 Yes. Academic, community, and open source licenses are available to qualifying organizations. See our [Purchasing & Licensing FAQ](https://www.atlassian.com/licensing/purchase-licensing#pricing-discounts) for more information.
 
-#### **Can I extend my free trial?**
+#### Can I extend my free trial?
 
 For cloud apps, you cannot extend your free evaluation period. All cloud apps are immediately subscribed by a user, and we provide a free evaluation period. This is a minimum of 30 days and ends on the second billing cycle after you first subscribe to the app.
 

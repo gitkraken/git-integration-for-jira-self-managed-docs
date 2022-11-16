@@ -7,13 +7,17 @@ taxonomy:
 
 ---
 
+<!-- ADMINISTRATION -->
+
 ## Introduction
 
 Scheduling jobs in the [**Git Integration for Jira**](https://marketplace.atlassian.com/4984) app for Jira Server and Data Center (in the **General settings** page) gives Jira administrators control over when jobs run.
 
 <br>
 
-![Scheduled jobs showing repository indexing and gc](https://bigbrassband.atlassian.net/wiki/download/attachments/756056197/general-settings-scheduled-jobs.png?version=1&modificationDate=1600179577661&cacheVersion=1&api=v2)
+<img src='/wp-content/uploads/gij-gitserver-gencfg-scheduler-jobs.png' style='display:block;margin:25px auto;max-width:100%' alt='Scheduled jobs showing repository indexing and garbage collection' />
+
+<br>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -23,7 +27,7 @@ Scheduling jobs in the [**Git Integration for Jira**](https://marketplace.atlass
     <div class="imsgbox">
         <b>Scheduling rule types</b><br>
         The Git Integration for Jira app for Jira Server and Jira Data Center uses the Atlassian Jira Scheduling API for scheduling jobs. These jobs can be scheduled in two ways:
-        <ul>
+        <ul style='margin-bottom:-10px'>
             <li><b>Scanning interval:</b> Schedule jobs on a regular interval in minutes. If the job is still running, the job will be skipped (and not added to a job queue).</li>
             <li><b>Cron expression:</b> Schedule jobs via cron expression to schedule the jobs to run at specific times on specific days. (<i>Available starting in Git Integration version 3.7+</i>)</li>
         </ul>
@@ -138,4 +142,22 @@ Job scheduling for the Git Integration app for Jira Data Center is generally the
 *   The reindexing job runs on a single Jira Data Center node (including API requests, git fetch requests, etc) and stores this data in the Jira Shared Storage (`sharedhome`). Then, each Jira Data Center node is notified to index the changes.
 
 *   The Git Integration app schedules the jobs with the Atlassian Jira Scheduler. The Jira Scheduler controls which node carries out the reindexing job.
+
+<p>&nbsp;</p>
+
+## More related Administration articles
+
+[General settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed)
+
+[Upgrades and migrations within same servver](/git-integration-for-jira-data-center/upgrades-and-migrations-within-same-server-gij-self-managed)
+
+[Migration to another server](/git-integration-for-jira-data-center/migration-to-another-server-gij-self-managed)
+
+**Scheduling jobs** (this page)
+
+[Recommended Jira memory settings](/git-integration-for-jira-data-center/recommended-jira-memory-settings-gij-self-managed)
+
+[Plugin Data Storage](/git-integration-for-jira-data-center/plugin-data-storage-gij-self-managed)
+
+[Indexing queue explainer](/git-integration-for-jira-data-center/indexing-queue-explainer-gij-self-managed)
 
