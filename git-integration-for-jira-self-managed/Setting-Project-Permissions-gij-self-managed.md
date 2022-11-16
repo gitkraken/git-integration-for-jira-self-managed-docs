@@ -7,34 +7,47 @@ taxonomy:
 
 ---
 
+<!-- HOW TO ARTICLES -->
 
 ## Introduction
 
 By default - integrations (GitLab, GitHub, etc) and individual repositories are associated with all Jira projects. Jira administrators can limit which Jira projects are associated to integrations or individual repositories.
 
-**Related Features**
-Associating a Jira project with an integration or repository will limit repository content displaying in:
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Related Features</b><br>
+        Associating a Jira project with an integration or repository will limit repository content displaying in:<br><br>
+        <ul style='margin-bottom:-10px'>
+            <li><b>Git Commits</b> issue tab</li>
+            <li><b>Git Roll Up</b> issue tab</li>
+            <li><b>Git integration</b> issue side panel</li>
+            <li><b>View all repositories</b> page</li>
+            <li><b>Repository Browser: Browse</b> page</li>
+            <li><b>Repository Browser: Commits</b> page</li>
+            <li><b>Repository Browser: Compare</b> page</li>
+            <li><b>Create branch issue</b> dialog</li>
+            <li><b>Create pull/merge request</b> dialog</li>
+        </ul>
+    </div>
+    </div>
+</div>
+<br>
 
-*   **Git Commits** issue tab
-
-*   **Git Roll Up** issue tab
-
-*   **Git Source Code** issue side panel 
-
-*   **View all repositories** page
-
-*   **Repository Browser: Browse** page
-
-*   **Repository Browser: Commits** page
-
-*   **Repository Browser: Compare** page
-
-*   **Create branch issue** dialog
-
-*   **Create pull/merge request** issue dialog
-
-
-Jira users must have the **View Development Tools** permission in the context of a Jira project to view content from the Git Integration for Jira app.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Jira users must have the <b>View Development Tools</b> permission in the context of a Jira project to view content from the Git Integration for Jira app.
+    </div>
+    </div>
+</div>
+<br>
 
 ## Instructions for integrations (GitLab, GitHub, etc)
 
@@ -52,14 +65,29 @@ To limit which Jira projects are associated with an integration's repositories:
 
 6.  Click **Update.**
 
+<br>
 
-### **Video Example 1:** Setting project permissions for an existing GitLab integration
+### Video Example 1: Setting project permissions for an existing GitLab integration
 
-_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/rnm5t639cz) _to open this video in a new browser tab for more viewing options._
+<div class='embed-container' style='padding-bottom:75.21%'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/rnm5t639cz?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
 
-### **Video Example 2:** Setting project permissions at the repository level for an existing GitLab integration
+<div align='center' style='margin-top:10px'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/rnm5t639cz'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
 
-_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/fder2qnpgw) _to open this video in a new browser tab for more viewing options._
+### Video Example 2: Setting project permissions at the repository level for an existing GitLab integration
+
+<div class='embed-container' style='padding-bottom:75.21%'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/fder2qnpgw?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
+
+<div align='center' style='margin-top:10px'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/fder2qnpgw'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
+
+<p>&nbsp;</p>
 
 ## Instructions for individual repositories
 
@@ -78,6 +106,37 @@ To limit which Jira projects are associated for individual repositories:
 6.  Click **Update.**
 
 
-### **Video Example:** Setting project permissions for a repository 
+### Video Example: Setting project permissions for a repository
 
-_Right click_ [_**here**_](https://bigbrassband.wistia.com/medias/xvzj32nxou) _to open this video in a new browser tab for more viewing options._
+<div class='embed-container' style='padding-bottom:75.21%'>
+    <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/xvzj32nxou?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
+
+<div align='center' style='margin-top:10px'>
+    <i>Right click <a href='https://bigbrassband.wistia.com/medias/xvzj32nxou'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+</div>
+
+<p>&nbsp;</p>
+
+## More How-to articles
+
+[Creating Personal Access Tokens](/git-integration-for-jira-data-center/Creating-Personal-Access-Tokens-gij-self-managed)
+
+[Working with JMESPath Filters](/git-integration-for-jira-data-center/Working-with-JMESPath-Filters-gij-self-managed)
+
+[Working with Custom API Path](/git-integration-for-jira-data-center/Working-with-Custom-API-Path-gij-self-managed)
+
+[Creating and configuring SSH keys (Windows/MacOS/Linux)](/git-integration-for-jira-data-center/creating-and-configuring-ssh-keys-windows-macos-linux-gij-self-managed)
+
+[Require Personal Access Tokens for user actions (create branch/pull request)](/git-integration-for-jira-data-center/Require-Personal-Access-Tokens-for-user-actions-(create-branch-pull-request)-gij-self-managed)
+
+**Setting Project Permissions** (this page)
+
+[How to get a quote?](/git-integration-for-jira-data-center/How-to-get-a-quote-gij-self-managed)
+
+[Ways to Index Git Data to Jira Issues](/git-integration-for-jira-data-center/Ways-to-Index-Git-Data-to-Jira-Issues-gij-self-managed)
+
+[Proxy settings on adding integrations (except AWS CodeCommit)](/git-integration-for-jira-data-center/Proxy-settings-on-adding-integrations-(except-AWS-CodeCommit)-gij-self-managed)
+
+[Configure Source Code Diff Viewing](/git-integration-for-jira-data-center/configure-source-code-diff-viewing-gij-self-managed)
+

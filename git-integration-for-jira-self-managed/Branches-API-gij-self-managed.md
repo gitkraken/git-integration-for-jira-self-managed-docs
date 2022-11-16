@@ -33,10 +33,10 @@ The Branches REST API will obtain list of branches associated to a Jira issue.
 
 ## Branches
 
-_**url**_<br>
+### url
 `/rest/gitplugin/1.0/issues/branches?`**key**`=`**{issuekey}**
 
-_**method**_<br>
+### method
 GET
 
 ### Parameters
@@ -61,17 +61,11 @@ Result:
 }
 ```
 
-### REST APIs
+<br>
+<br>
+<hr>
+<br>
+<br>
 
-*   [Bulk Change API](/git-integration-for-jira-data-center/bulk-change-api-gij-self-managed/)
-
-*   [Repository API](/git-integration-for-jira-data-center/repository-api-gij-self-managed/)
-
-*   [Reindex API](/git-integration-for-jira-data-center/Reindex-api-gij-self-managed/)
-
-*   [Commits API](/git-integration-for-jira-data-center/commits-api-gij-self-managed/)
-
-*   **Branches API** (this page)
-
-*   [Integration API](/git-integration-for-jira-data-center/integration-api-gij-self-managed)
+**[« Back to REST API index](/git-integration-for-jira-data-center/rest-api-gij-self-managed)**
 

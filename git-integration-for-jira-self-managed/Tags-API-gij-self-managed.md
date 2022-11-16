@@ -20,12 +20,11 @@ The Tag REST API returns several latest tags for the issue.  Tags are sorted in
 </div>
 <br>
 
-## Tag
 
-_**url**_<br>
+### url
 `/rest/gitplugin/1.0/issuegitdetails/issue/`**{issuekey}**`/tag`
 
-_**method**_<br>
+### method
 GET
 
 ### Parameters
@@ -97,4 +96,6 @@ The additional flag _**hasMore**_ indicates if an issue contains more tags. I
   }
 }
 ```
+
+**[« Back to REST API index](/git-integration-for-jira-data-center/rest-api-gij-self-managed)**
 

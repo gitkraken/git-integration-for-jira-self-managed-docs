@@ -6,24 +6,119 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 Retrieves list of repositories mapped to a given project.
 
 Any Jira user can perform the Retrieve Repository List API call.
 
-| **Retrieve Repository List** |     |
-| --- | --- |
-| _**url**_ | `/rest/gitplugin/1.0/`**repository** |
-| _**method**_ | GET |
+### url
+`/rest/gitplugin/1.0/`**repository**
 
+### method
+GET
 
-| _**parameters**_ |     |
-| --- | --- |
-| `projectKey` | Jira Project key (string). _**Optional**_.  Query parameter.  If omitted, all imported repositories will be returned.<br><br>Example: Form param (`projectKey`: **TST**) |
-| _**response**_ | JSON |
+### parameters
 
+_**projectKey**_
 
+Jira Project key (string). _**Optional**_.  Query parameter.  If omitted, all imported repositories will be returned.
 
-| **Example:** |
-| --- |
-| `http://jira.yourorg.com/rest/gitplugin/1.0/`**repository**`?`**projectKey**`=`**TST**<br><br>```java<br>Response Example:<br>{<br>  "success": true,<br>  "repositories": [<br>    {<br>      "id": 2,<br>      "displayName": "testrepo",<br>      "origin": "https://github.com/xxx",<br>      "mainBranch": "master",<br>      "root": "xxx/xxx",<br>      "realRoot": "2_testrepo",<br>      "absoluteRoot": false,<br>      "disabled": false,<br>      "enableFetches": true,<br>      "sendCommitEmails": true,<br>      "maxMinsToCommitEmail": 1440,<br>      "global": true,<br>      "hosted": false,<br>      "initDate": 1606383040986,<br>      "lastIndexedDate": 1613815871685,<br>      "revisionIndexing": true,<br>      "gitViewerEnabled": true,<br>      "disableSslVerification": false,<br>      "smartCommitsEnabled": true,<br>      "viewFormat": "",<br>      "commitsValidationRequired": true,<br>      "requireUserPat": false,<br>      "projectMappingIds": [],<br>      "trackedFolderId": 11,<br>      "integrationType": "GITHUB",<br>      "showAllTags": true,<br>      "supportsBranchCreationApi": true,<br>      "supportsPullRequestApi": "PULL_REQUESTS_GROUP",<br>      "sourcesDiffViewEnabled": true,<br>      "refSpecNotes": true,<br>      "refSpecChanges": false,<br>      "trustFolderStat": true<br>    },<br>    {<br>      "id": 1,<br>      "displayName": "gitrepo",<br>      "origin": "https://xxx@xxx.gitlab.org/xxx",<br>      "mainBranch": "master",<br>      "root": "/xxx/xxx/xxx",<br>      "realRoot": "1_gitrepo",<br>      "absoluteRoot": false,<br>      "disabled": false,<br>      "enableFetches": true,<br>      "sendCommitEmails": true,<br>      "maxMinsToCommitEmail": 1440,<br>      "global": true,<br>      "hosted": false,<br>      "initDate": 1606383040986,<br>      "lastIndexedDate": 1613815870861,<br>      "revisionIndexing": true,<br>      "gitViewerEnabled": true,<br>      "disableSslVerification": false,<br>      "smartCommitsEnabled": true,<br>      "commitsValidationRequired": true,<br>      "requireUserPat": false,<br>      "projectMappingIds": [],<br>      "trackedFolderId": 11,<br>      "integrationType": "GITLAB",<br>      "showAllTags": true,<br>      "supportsBranchCreationApi": true,<br>      "supportsPullRequestApi": "MERGE_REQUESTS_GROUP",<br>      "sourcesDiffViewEnabled": true,<br>      "refSpecNotes": true,<br>      "refSpecChanges": false,<br>      "trustFolderStat": true<br>    }<br>  ]<br>}<br>``` |
+**Example:** Form param (`projectKey`: **TST**)
+
+### response
+JSON
+
+### Example:
+`http://jira.yourorg.com/rest/gitplugin/1.0/`**repository**`?`**projectKey**`=`**TST**
+
+```json
+{
+  "success": true,
+  "repositories": [
+    {
+      "id": 2,
+      "displayName": "testrepo",
+      "origin": "https://github.com/xxx",
+      "mainBranch": "master",
+      "root": "xxx/xxx",
+      "realRoot": "2_testrepo",
+      "absoluteRoot": false,
+      "disabled": false,
+      "enableFetches": true,
+      "sendCommitEmails": true,
+      "maxMinsToCommitEmail": 1440,
+      "global": true,
+      "hosted": false,
+      "initDate": 1606383040986,
+      "lastIndexedDate": 1613815871685,
+      "revisionIndexing": true,
+      "gitViewerEnabled": true,
+      "disableSslVerification": false,
+      "smartCommitsEnabled": true,
+      "viewFormat": "",
+      "commitsValidationRequired": true,
+      "requireUserPat": false,
+      "projectMappingIds": [],
+      "trackedFolderId": 11,
+      "integrationType": "GITHUB",
+      "showAllTags": true,
+      "supportsBranchCreationApi": true,
+      "supportsPullRequestApi": "PULL_REQUESTS_GROUP",
+      "sourcesDiffViewEnabled": true,
+      "refSpecNotes": true,
+      "refSpecChanges": false,
+      "trustFolderStat": true
+    },
+    {
+      "id": 1,
+      "displayName": "gitrepo",
+      "origin": "https://xxx@xxx.gitlab.org/xxx",
+      "mainBranch": "master",
+      "root": "/xxx/xxx/xxx",
+      "realRoot": "1_gitrepo",
+      "absoluteRoot": false,
+      "disabled": false,
+      "enableFetches": true,
+      "sendCommitEmails": true,
+      "maxMinsToCommitEmail": 1440,
+      "global": true,
+      "hosted": false,
+      "initDate": 1606383040986,
+      "lastIndexedDate": 1613815870861,
+      "revisionIndexing": true,
+      "gitViewerEnabled": true,
+      "disableSslVerification": false,
+      "smartCommitsEnabled": true,
+      "commitsValidationRequired": true,
+      "requireUserPat": false,
+      "projectMappingIds": [],
+      "trackedFolderId": 11,
+      "integrationType": "GITLAB",
+      "showAllTags": true,
+      "supportsBranchCreationApi": true,
+      "supportsPullRequestApi": "MERGE_REQUESTS_GROUP",
+      "sourcesDiffViewEnabled": true,
+      "refSpecNotes": true,
+      "refSpecChanges": false,
+      "trustFolderStat": true
+    }
+  ]
+}
+```
+
+<br>
+<br>
+<hr>
+<br>
+<br>
+
+### Repository REST APIs
+
+**Retrieve Repository List** (this page)
+
+[Add New Repository](/git-integration-for-jira-data-center/add-new-repository-gij-self-managed)
+
+[Update Existing Repository](/git-integration-for-jira-data-center/update-existing-repository-gij-self-managed)
+
+[Delete Existing Repository](/git-integration-for-jira-data-center/delete-existing-repository-gij-self-managed)
 

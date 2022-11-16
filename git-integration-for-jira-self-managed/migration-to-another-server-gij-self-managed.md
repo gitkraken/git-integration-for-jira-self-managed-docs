@@ -7,6 +7,8 @@ taxonomy:
 
 ---
 
+<!-- ADMINISTRATION -->
+
 The following instructions are for migrations of Jira to a different server. See [Upgrades and migrations within same server](/git-integration-for-jira-data-center/upgrades-and-migrations-within-same-server-gij-self-managed) instructions for in-place upgrades or migrations.
 
 
@@ -39,4 +41,22 @@ Follow the [standard instructions from Atlassian for upgrading on the same serve
 ## After you migrate
 
 Verify that configured integrations and repositories in the **Manage Git repositories** screen are correct and index properly.
+
+<p>&nbsp;</p>
+
+## More related Administration articles
+
+[General settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed)
+
+[Upgrades and migrations within same servver](/git-integration-for-jira-data-center/upgrades-and-migrations-within-same-server-gij-self-managed)
+
+**Migration to another server** (this page)
+
+[Scheduling jobs](/git-integration-for-jira-data-center/scheduling-jobs-gij-self-managed)
+
+[Recommended Jira memory settings](/git-integration-for-jira-data-center/recommended-jira-memory-settings-gij-self-managed)
+
+[Plugin Data Storage](/git-integration-for-jira-data-center/plugin-data-storage-gij-self-managed)
+
+[Indexing queue explainer](/git-integration-for-jira-data-center/indexing-queue-explainer-gij-self-managed)
 
