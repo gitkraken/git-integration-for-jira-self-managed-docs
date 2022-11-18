@@ -39,7 +39,7 @@ Connect your GitHub Enterprise remote repositories via Connect to Git Repository
 
 * * *
 
-<img src='/wp-content/uploads/gij-vsts-azure-devops-logo.png' width=40 height=40  style='display:inline-block;margin:15px 10px 0 0;' /> [**VSTS / Azure DevOps**](/git-integration-for-jira-data-center/azure-devops-visual-studio-team-services-vsts-gij-self-managed)
+<img src='/wp-content/uploads/gij-vsts-azure-devops-logo2.png' width=40 height=40  style='display:inline-block;margin:15px 10px 0 0;' /> [**VSTS / Azure DevOps**](/git-integration-for-jira-data-center/azure-devops-visual-studio-team-services-vsts-gij-self-managed)
 
 Connect to Visual Studio Team Services (VSTS) / Azure DevOps via Auto-Connect integration panel in Manage Git Repositories.
 
