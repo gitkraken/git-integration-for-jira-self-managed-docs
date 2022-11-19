@@ -11,12 +11,12 @@ The web linking feature adds links to your git hosting provider directly into th
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Web links are automatically configured for integrations connected via the Add new integration wizard (Auto-connect).
-    </div>
+        <div class="ilogobox">
+            <span class="logoimg"></span>
+        </div>
+        <div class="imsgbox">
+            Web links are automatically configured for integrations connected via the Add new integration wizard (Auto-connect).
+        </div>
     </div>
 </div>
 <br>
@@ -25,7 +25,7 @@ The web linking feature adds links to your git hosting provider directly into th
 <br>
 <br>
 
-<div class='embed-container embed-container--16-10'>
+<div class='embed-container' style='padding-bottom:62.5%'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/zfxfemq7z8?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
