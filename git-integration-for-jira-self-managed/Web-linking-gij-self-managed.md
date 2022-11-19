@@ -11,12 +11,12 @@ The web linking feature adds links to your git hosting provider directly into th
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Web links are automatically configured for integrations connected via the Add new integration wizard (Auto-connect).
-    </div>
+        <div class="ilogobox">
+            <span class="logoimg"></span>
+        </div>
+        <div class="imsgbox">
+            Web links are automatically configured for integrations connected via the Add new integration wizard (Auto-connect).
+        </div>
     </div>
 </div>
 <br>
@@ -25,7 +25,7 @@ The web linking feature adds links to your git hosting provider directly into th
 <br>
 <br>
 
-<div class='embed-container embed-container--16-10'>
+<div class='embed-container' style='padding-bottom:62.5%'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/zfxfemq7z8?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
@@ -78,7 +78,7 @@ The following providers are supported:
 
 <br>
 
-![](/wp-content/uploads/gij-gitlab-guide-web-linking.png)
+<img src='/wp-content/uploads/gij-gitlab-guide-web-linking.png' style='display:block;margin:25px auto;max-width:100%' />
 
 Select a git host from the **Web Link** list. The web linking input box options are automatically filled out with corresponding variables for the selected git host. Change the variables according to the actual URL settings of the git host. Configure server and port and `${rev}` will be substituted based on the commit ID.
 
@@ -118,10 +118,10 @@ You can create several custom configuration to support other git hosting provide
             <span class="logoimg"></span>
         </div>
         <div class="imsgbox">
-            The Bonobo git server requires a branch name to construct URL. Use <code>$convert(${branch},"/","~2")</code> for web linking since bonobo requires substitution of "/" with "~2" in the branch name.
-            <p style='margin-bottom:0 !important'>
+            The Bonobo git server requires a branch name to construct URL. Use <code>$convert(${branch},"/","~2")</code> for web linking since bonobo requires substitution of <code>"/"</code> with <code>"~2"</code> in the branch name.
+            <p style='margin-bottom:-10px !important'>
                 <b>For example:</b><br>
-                <code>http://<host>/Bonobo.Git.Server/Repository/<project>/$convert(${branch},"/","~2")/Commit/${rev}</code>
+                <code>http://\<host\>/Bonobo.Git.Server/Repository/\<project\>/$convert(${branch},"/","~2")/Commit/${rev}</code>
             </p>
         </div>
     </div>
