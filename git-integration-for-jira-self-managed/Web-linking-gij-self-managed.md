@@ -20,6 +20,10 @@ The web linking feature adds links to your git hosting provider directly into th
     </div>
 </div>
 <br>
+<br>
+<hr>
+<br>
+<br>
 
 <div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/zfxfemq7z8?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
