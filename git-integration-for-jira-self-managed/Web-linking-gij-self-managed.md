@@ -15,7 +15,7 @@ The web linking feature adds links to your git hosting provider directly into th
             <span class="logoimg"></span>
         </div>
         <div class="imsgbox">
-            Web links are automatically configured for integrations connected via the Add new integration wizard (Auto-connect).
+            Web links are automatically configured for integrations connected via the Add new integration wizard (Auto-connect setup).
         </div>
     </div>
 </div>
@@ -78,7 +78,7 @@ The following providers are supported:
 
 <br>
 
-<img src='/wp-content/uploads/gij-gitlab-guide-web-linking.png' style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitlab-guide-web-linking.png' style='display:block;margin:25px auto;max-width:100%' alt='GitLab web linking example'/>
 
 Select a git host from the **Web Link** list. The web linking input box options are automatically filled out with corresponding variables for the selected git host. Change the variables according to the actual URL settings of the git host. Configure server and port and `${rev}` will be substituted based on the commit ID.
 
