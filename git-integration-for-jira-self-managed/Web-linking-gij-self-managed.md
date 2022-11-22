@@ -34,6 +34,8 @@ The web linking feature adds links to your git hosting provider directly into th
 </div>
 <br>
 
+## Supported git services
+
 The following providers are supported:
 
 *   **cgit**
@@ -77,6 +79,8 @@ The following providers are supported:
 *   **Gitolite**
 
 <br>
+
+## Web linking manual setup
 
 <img src='/wp-content/uploads/gij-gitlab-guide-web-linking.png' style='display:block;margin:25px auto;max-width:100%' alt='GitLab web linking example'/>
 
@@ -136,6 +140,9 @@ Once properly configured, the **Git Commits** tab on the **Issues** page wil
 
 The Git Integration app supports custom web linking. The commit information is displayed in the **Git Commits** issue tab if the git host server URL is provided on the **Web Linking** section in the [Advanced Setup](/git-integration-for-jira-data-center/connecting-a-repository-via-advanced-setup) or repository settings of the connected repositories.
 
+<br>
+<br>
+<hr>
 <br>
 <br>
 
