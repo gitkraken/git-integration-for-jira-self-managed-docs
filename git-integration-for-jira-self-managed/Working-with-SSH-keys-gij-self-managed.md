@@ -165,6 +165,8 @@ MacOS often incorrectly creates an OpenSSH format certificate. For more details,
 <br>
 <br>
 
+## More on Working with SSH keys
+
 [Generating SSH keys](/git-integration-for-jira-data-center/generating-ssh-keys-gij-self-managed)
 
 [Adding a private SSH key](/git-integration-for-jira-data-center/adding-a-private-ssh-key-gij-self-managed)

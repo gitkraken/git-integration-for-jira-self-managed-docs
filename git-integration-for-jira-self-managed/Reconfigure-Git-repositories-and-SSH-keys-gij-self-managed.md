@@ -32,6 +32,8 @@ For multiple repository configuration, see [Bulk change](/git-integration-for-j
 <br>
 <br>
 
+## More on Working with SSH keys
+
 [Working with SSH keys (index)](/git-integration-for-jira-data-center/working-with-ssh-keys-gij-self-managed)
 
 [Generating SSH keys](/git-integration-for-jira-data-center/generating-ssh-keys-gij-self-managed)
