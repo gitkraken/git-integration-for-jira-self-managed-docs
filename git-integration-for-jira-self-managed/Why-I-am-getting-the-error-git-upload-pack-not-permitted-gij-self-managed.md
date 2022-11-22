@@ -22,7 +22,7 @@ You are getting this error because of wrong login credentials or a permission is
 
 The most common cause is a wrong login credentials input.
 
-<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>REPOSITORY LEVEL</b> Go to the **Manage** **Git repositories** configuration list. Select ![](/wp-content/uploads/actions-icon.png) **Actions** for a particular repository then **Edit repository settings**.
+<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>REPOSITORY LEVEL</b> Go to the **Manage Git repositories** configuration list. Select ![](/wp-content/uploads/actions-icon.png) **Actions** for a particular repository then **Edit repository settings**.
 
 ![](/wp-content/uploads/gij-gitserver-git-uploack-pack-err-01.png)
 
@@ -60,16 +60,16 @@ The command should be successful. If not, ask your administrator to setup your 
 If you are using proxy, configure your Jira with the following parameter format:
 
 ```python
-Dhttp.proxyHost=<your-proxy-host>
-Dhttps.proxyHost=<your-proxy-host>
-Dhttp.proxyPort=<your-proxy-port>
-Dhttps.proxyPort=<your-proxy-port>
+Dhttp.proxyHost=\<your-proxy-host\>
+Dhttps.proxyHost=\<your-proxy-host\>
+Dhttp.proxyPort=\<your-proxy-port\>
+Dhttps.proxyPort=\<your-proxy-port\>
 Dhttp.proxyUser=*****
 Dhttps.proxyUser=*****
 Dhttp.proxyPassword=*****
 Dhttps.proxyPassword=*****
-Dhttp.nonProxyHosts=*.some.mask|localhost|1.1.1.1<someIP>
-Dhttps.nonProxyHosts=*.some.mask|localhost|1.1.1.1<someIP>
+Dhttp.nonProxyHosts=*.some.mask|localhost|1.1.1.1\<someIP\>
+Dhttps.nonProxyHosts=*.some.mask|localhost|1.1.1.1\<someIP\>
 ```
 
 Enter `<your-git-server-host>` to `nonProxyHosts` entries.
@@ -141,12 +141,12 @@ Below is another example of the debug logs of the jgit library in JIRA generated
 
 ```java
 ...
-2016-10-24 19:46:21,504 xiplink-gitplugin-RevisionIndexerImpl:thread - 0 DEBUG      [org.apache.http.headers] http-outgoing-9 >> GET /<your-git-server-url>/<your-repo-name>.git/info/refs?service=git-upload-pack HTTP/1.1
+2016-10-24 19:46:21,504 xiplink-gitplugin-RevisionIndexerImpl:thread - 0 DEBUG      [org.apache.http.headers] http-outgoing-9 >> GET /\<your-git-server-url\>/\<your-repo-name\>.git/info/refs?service=git-upload-pack HTTP/1.1
 2016-10-24 19:46:21,504 xiplink-gitplugin-RevisionIndexerImpl:thread - 0 DEBUG      [org.apache.http.headers] http-outgoing-9 >> Accept-Encoding: gzip
 2016-10-24 19:46:21,504 xiplink-gitplugin-RevisionIndexerImpl:thread - 0 DEBUG      [org.apache.http.headers] http-outgoing-9 >> Pragma: no-cache
 2016-10-24 19:46:21,504 xiplink-gitplugin-RevisionIndexerImpl:thread - 0 DEBUG      [org.apache.http.headers] http-outgoing-9 >> User-Agent: JGit/unknown
 2016-10-24 19:46:21,519 xiplink-gitplugin-RevisionIndexerImpl:thread - 0 DEBUG      [org.apache.http.headers] http-outgoing-9 >> Authorization: Basic amlyYTpqaXJhcGFzc3dvcmQ=
-2016-10-24 19:46:21,519 xiplink-gitplugin-RevisionIndexerImpl:thread - 0 DEBUG      [org.apache.http.headers] http-outgoing-9 >> Accept: application/x-git-upload-pack-advertisement, */*
+2016-10-24 19:46:21,519 xiplink-gitplugin-RevisionIndexerImpl:thread - 0 DEBUG      [org.apache.http.headers] http-outgoing-9 >> Accept: application/x-git-upload-pack-advertisement, \*/\*
 2016-10-24 19:46:21,519 xiplink-gitplugin-RevisionIndexerImpl:thread - 0 DEBUG      [org.apache.http.headers] http-outgoing-9 >> Host: 123.123.123.123
 2016-10-24 19:46:21,519 xiplink-gitplugin-RevisionIndexerImpl:thread - 0 DEBUG      [org.apache.http.headers] http-outgoing-9 >> Connection: Keep-Alive
 ...
