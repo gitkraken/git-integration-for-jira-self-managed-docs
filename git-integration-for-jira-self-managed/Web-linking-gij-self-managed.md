@@ -121,7 +121,7 @@ You can create several custom configuration to support other git hosting provide
             The Bonobo git server requires a branch name to construct URL. Use <code>$convert(${branch},"/","~2")</code> for web linking since bonobo requires substitution of <code>"/"</code> with <code>"~2"</code> in the branch name.
             <p style='margin-bottom:-10px !important'>
                 <b>For example:</b><br>
-                <code>http://\<host\>/Bonobo.Git.Server/Repository/\<project\>/$convert(${branch},"/","~2")/Commit/${rev}</code>
+                <code>http://&lt;host&gt;/Bonobo.Git.Server/Repository/&lt;project&gt;/$convert(${branch},"/","~2")/Commit/${rev}</code>
             </p>
         </div>
     </div>
