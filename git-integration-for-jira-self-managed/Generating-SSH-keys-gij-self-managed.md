@@ -147,6 +147,8 @@ Other SSH key formats may be supported by Git Integration for Jira app, but pref
 <br>
 <br>
 
+## More on Working with SSH keys
+
 [Working with SSH keys (index)](/git-integration-for-jira-data-center/working-with-ssh-keys-gij-self-managed)
 
 **Generating SSH keys** (this page)
