@@ -1,6 +1,6 @@
 ---
 
-title:  - Link git commits to Jira issues (Integration basics)
+title:  Link git commits to Jira issues (Integration basics)
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -16,9 +16,9 @@ taxonomy:
 </div>
 <br>
 
-Open a Jira issue then go to the Git Commits tab.  In this tab, you will see commits, files changed, links to external repository, commit author and more.
+Open a Jira issue then go to the Git Commits tab. In this tab, you will see commits, files changed, links to external repository, commit author and more.
 
-![](/wp-content/uploads/gij-gitserver-git-commits-tab-view-c1.png)
+<img src='/wp-content/uploads/gij-gitserver-git-commits-tab-view-c1.png' style='display:block;margin:25px auto;max-width:100%' />
 
 In the above example, the issue key **GIT-4322** text is inserted into a git commit message to link the commit to this issue.
 
@@ -56,3 +56,4 @@ If you want to enforce the commit with a hook, please install this Git commit ho
 [Using the Repository Browser](/git-integration-for-jira-data-center/using-the-repository-browser-gij-self-managed)
 
 [Creating branches and pull | merge requests (Basics)](/git-integration-for-jira-data-center/Creating-branches-and-pull-merge-requests-(Basics)-gij-self-managed)
+
