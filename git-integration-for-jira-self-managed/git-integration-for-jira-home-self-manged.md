@@ -56,6 +56,8 @@ Check out the introduction video and links below to get started with GitKraken C
 
 - [Hooks and Webhooks](/git-integration-for-jira-data-center/hooks-and-webhooks-gij-self-managed) - all about hooks!
 
+- [Product Documentation](/git-integration-for-jira-self-managed/documentation-gij-self-managed)
+
 <br>
 
 ***

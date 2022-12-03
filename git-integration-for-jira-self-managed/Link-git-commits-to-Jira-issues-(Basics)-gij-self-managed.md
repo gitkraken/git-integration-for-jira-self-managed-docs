@@ -45,7 +45,7 @@ If you want to enforce the commit with a hook, please install this Git commit ho
 
 [Connecting to a git host account via Add new integration panel](/git-integration-for-jira-data-center/connecting-to-a-git-host-account-via-Add-new-integration-panel-gij-self-managed)
 
-[Connecting to a single git repository (HTTPS | SSH)](/git-integration-for-jira-data-center/connecting-to-a-single-git-repository-(HTTPS-SSH)-gij-self-managed)
+[Connecting to a single git repository (HTTPS \| SSH)](/git-integration-for-jira-data-center/connecting-to-a-single-git-repository-(HTTPS-SSH)-gij-self-managed)
 
 [Setting up web links](/git-integration-for-jira-data-center-gij-self-managed/setting-up-web-links-gij-self-managed)
 
@@ -55,5 +55,5 @@ If you want to enforce the commit with a hook, please install this Git commit ho
 
 [Using the Repository Browser](/git-integration-for-jira-data-center/using-the-repository-browser-gij-self-managed)
 
-[Creating branches and pull | merge requests (Basics)](/git-integration-for-jira-data-center/Creating-branches-and-pull-merge-requests-(Basics)-gij-self-managed)
+[Creating branches and pull \| merge requests (Basics)](/git-integration-for-jira-data-center/Creating-branches-and-pull-merge-requests-(Basics)-gij-self-managed)
 
