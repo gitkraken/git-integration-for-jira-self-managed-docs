@@ -32,13 +32,15 @@ Check out the introduction video and links below to get started with GitKraken C
     <iframe width='709' height='443' src='https://fast.wistia.net/embed/iframe/lr0jp6ntfd?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div> 
 
-<div style='margin-top: 10px; text-align: center'>
+<div style='margin-top: 20px;'>
     Direct links to the above <a href='https://bigbrassband.wistia.com/medias/8c0iq4hwdt'>Getting started</a> video as well as <a href='https://bigbrassband.wistia.com/medias/lr0jp6ntfd'>Installation</a> video.
 </div>
 
-<br>
+&nbsp;
 
 ***
+
+&nbsp;
 
 ## Knowledgebase  
 
@@ -56,7 +58,7 @@ Check out the introduction video and links below to get started with GitKraken C
 
 - [Hooks and Webhooks](/git-integration-for-jira-data-center/hooks-and-webhooks-gij-self-managed) - all about hooks!
 
-- [Product Documentation](/git-integration-for-jira-self-managed/documentation-gij-self-managed)
+- [Product Documentation](/git-integration-for-jira-self-managed/documentation-gij-self-managed) - Learn more about Git Integration for Jira Cloud app and how to easily install it.
 
 <br>
 

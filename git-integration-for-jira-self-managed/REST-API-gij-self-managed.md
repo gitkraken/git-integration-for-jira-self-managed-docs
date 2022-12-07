@@ -12,9 +12,9 @@ Welcome to the Git Integration for Jira app REST API reference page index.
 On this page, you will find the list of available REST APIs supported by the Git Integration for Jira app.  Click on a topic title to view its content or search through the related topics.
 
 <br>
-
-* * *
-
+<br>
+<hr>
+<br>
 <br>
 
 <img src='/wp-content/uploads/gij-bbb-bulkchg-icon.png' width=52 height=39 />
