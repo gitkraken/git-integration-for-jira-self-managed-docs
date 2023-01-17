@@ -6,11 +6,14 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 SSH keys cannot be modified or updated. To change the keys, remove and add them again.
 
 To delete the SSH key from the app configuration, click Actions ➜ **Delete**.
 
-![](/wp-content/uploads/gij-ssh-addkey-list-del-key.png)
+<img src='/wp-content/uploads/gij-ssh-addkey-list-del-key.png' style='display:block;margin:25px auto;max-width:100%' />
+
+&nbsp;
 
 <div class="bbb-callout bbb--note">
     <div class="irow">
@@ -26,9 +29,9 @@ To delete the SSH key from the app configuration, click Actions ➜ **Delete**.
 <br>
 <br>
 
-[Adding and associating SSH keys](/git-integration-for-jira-data-center/adding-and-associating-ssh-keys-gij-self-managed)
+[**Prev:** Adding and associating SSH keys](/git-integration-for-jira-data-center/adding-and-associating-ssh-keys-gij-self-managed)
 
-[Reconfigure Git repositories and SSH keys](/git-integration-for-jira-data-center/reconfigure-git-repositories-and-ssh-keys-gij-self-managed)
+[**Next:** Reconfigure Git repositories and SSH keys](/git-integration-for-jira-data-center/reconfigure-git-repositories-and-ssh-keys-gij-self-managed)
 
 <br>
 <br>

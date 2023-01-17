@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 The Git Integration for Jira app is packed with features that makes Jira administrators and developers happy. However, with different hardware configurations out there, these great features can also become burdened by issues.
 
 Below are the Git Integration app known issues and workarounds:
@@ -18,12 +19,14 @@ Below are the Git Integration app known issues and workarounds:
 - [Enabling the App With Many Repositories Configured](#enabling-the-app-with-many-repositories-configured)
 - [Pull Requests Changed Before Migration to v3.7 Do Not Trigger Workflow Hooks](#pull-requests-changed-before-migration-to-v37-do-not-trigger-workflow-hooks)
 - [Deleted Merge Requests Not Removed from the Jira Issue Screen](#deleted-merge-requests-not-removed-from-the-jira-issue-screen)
-- [**Azure DevOps: Long Pull Request Descriptions Limited to 400 Characters**](#azure-devops-long-pull-request-descriptions-limited-to-400-characters)
-- [**Gerrit Integration Connected with Errors**](#gerrit-integration-connected-with-errors)
-- [**Starred repositories Custom API Path might fail if using SSO**](#starred-repositories-custom-api-path-might-fail-if-using-sso)
+- [Azure DevOps: Long Pull Request Descriptions Limited to 400 Characters](#azure-devops-long-pull-request-descriptions-limited-to-400-characters)
+- [Gerrit Integration Connected with Errors](#gerrit-integration-connected-with-errors)
+- [Starred repositories Custom API Path might fail if using SSO](#starred-repositories-custom-api-path-might-fail-if-using-sso)
 
 <br>
+<br>
 <hr>
+<br>
 <br>
 
 ### 2GB Object Git Repositories Storage Limit
@@ -131,13 +134,13 @@ To delete a Merge Request in GitLab and see results in Jira please reset the ind
 
 _Reference:_ GIT-3989
 
-### **Azure DevOps: Long Pull Request Descriptions Limited to 400 Characters**
+### Azure DevOps: Long Pull Request Descriptions Limited to 400 Characters
 
 Azure DevOps supports descriptions of pull requests with the maximum length of 4000 chars in the web interface. However, only the first 400 characters of an Azure DevOps Pull Request description are made are made available via the Azure DevOps API. As a result, the long PR descriptions appear to be cropped in the tooltip over a pull request on the Git Integration panel.
 
 _Reference: GIT-3989_
 
-### **Gerrit Integration Connected with Errors**
+### Gerrit Integration Connected with Errors
 
 The standard Gerrit "All-Projects", "All-Users" and other parent repositories do not contain commits and JGit is not able to clone/index these repositories
 
@@ -154,7 +157,7 @@ Jira administrators may specify the "`+refs/meta/*:refs/meta/*`" custom refs:
     
 _Reference:_ GIT-4111
 
-### **Starred repositories Custom API Path might fail if using SSO**
+### Starred repositories Custom API Path might fail if using SSO
 
 The Custom API Path, `/users/<username>/starred`, could fail in returning the repository list for starred repositories with GitHub Enterprise git hosts that have enabled SSO (single sign-on) authentication.
 
