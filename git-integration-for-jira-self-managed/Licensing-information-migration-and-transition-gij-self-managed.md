@@ -1,3 +1,12 @@
+---
+
+title:  Licensing information, migration and transition
+description:
+taxonomy:
+    category: git-integration-for-jira-data-center
+
+---
+
 **What’s on this page:**
 
 - [License Types](#license-types)
@@ -94,7 +103,7 @@ For server apps, you can extend your app trial up to 5 times - in other words, f
 If you own a legacy Jira Server Unlimited (100+ users) or Confluence Server Unlimited (2000+ users) license purchased in 2012 or earlier, legacy app pricing is no longer available. You have two options for app purchasing:
 
 *   Purchase the app at the non-legacy Unlimited (10000+ users) tier.
-    
+
 *   Renew your Jira or Confluence license at a non-legacy tier, then purchase the app at the same tier.
     
 
