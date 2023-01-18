@@ -40,11 +40,11 @@ taxonomy:
 There are different types of licensing for each Jira instance:
 
 *   Git Integration for Jira Server - **perpetual license** – where it allows for the app to continue working after the maintenance expires.
-    
+
 *   Git Integration for Jira Data Center - **subscription license** – where the app will only work during the active subscription period.
-    
+
 *   Git Integration for Jira Cloud - **subscription license** - where the app will only work during the active subscription period.
-    
+
 
 ## Product Licenses
 
@@ -73,9 +73,9 @@ If app pricing changes after your initial purchase, there's a 60-day grandfather
 Apps are billed based on the number of users in your Atlassian product:
 
 *   For Jira 7.0 or later, the app tier should match the maximum tier of the licensed Jira products on your instance. For example, if you're running Jira Software (500 users) and Jira Service Management (25 agents) on the same instance, you should purchase the 500-user tier for apps.
-    
+
 *   For versions of Jira prior to 7.0, the app tier should match the licensed user tier for Jira. Even if fewer users want to use the app than your Jira license, the two licenses should match exactly.
-    
+
 <div class="bbb-callout bbb--note">
     <div class="irow">
     <div class="ilogobox">
@@ -105,7 +105,7 @@ If you own a legacy Jira Server Unlimited (100+ users) or Confluence Server Unli
 *   Purchase the app at the non-legacy Unlimited (10000+ users) tier.
 
 *   Renew your Jira or Confluence license at a non-legacy tier, then purchase the app at the same tier.
-    
+
 
 [Learn more](https://www.atlassian.com/licensing/marketplace)
 
@@ -120,9 +120,9 @@ If app pricing changes after your initial purchase, there's a 60-day grandfather
 Apps are billed based on the number of users in your Atlassian product:
 
 *   For Jira 7.0 or later, the app tier should match the maximum tier of the licensed Jira products on your instance. For example, if you're running Jira Software (500 users) and Jira Service Management (25 agents) on the same instance, you should purchase the 500-user tier for apps.
-    
+
 *   For versions of Jira prior to 7.0, the app tier should match the licensed user tier for Jira. Even if fewer users want to use the app than your Jira license, the two licenses should match exactly.
-    
+
 <div class="bbb-callout bbb--note">
     <div class="irow">
     <div class="ilogobox">
@@ -171,11 +171,11 @@ Apps are billed based on the number of users in your Atlassian product. Jira Clo
 The pricing structure for cloud apps is as follows:
 
 *   Monthly subscriptions with up to 10 Atlassian product users are billed at a flat rate price.
-    
+
 *   Monthly subscriptions with more than 10 users are billed per user, starting at the first user.
-    
+
 *   Monthly subscriptions with more than 100 users are billed per user. The table above provides example pricing at various user levels.
-    
+
 
 Annual subscriptions may offer a discount depending on the number of users purchased.
 
