@@ -74,7 +74,7 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/s26h3avwuo?seo=false' frameborder='0' allowfullscreen></iframe>
 </div>
 
-<div align="center" style='margin-top:10px'>
+<div align="center" style='margin-top:15px;margin-bottom:35px'>
   <i>Watch the video guide by clicking <a href="https://bigbrassband.wistia.com/medias/s26h3avwuo" target="_blank"><b>here</b></a> to open this video in a <br>new browser tab for more viewing options.</i>
 </div>
 <br>
@@ -130,11 +130,13 @@ We strongly recommend to use personal access tokens for GitHub.com account integ
         ![](/wp-content/uploads/gij-gitserver-general-advanced-autoconnect-opt-c.png)
 
         -  **Custom API Path**  –  this is a relative path that starts with "/". The maximum allowed length is 2000 characters or less. The integration will use the supported relative REST API path to retrieve the list of tracked repositories.
+
             For more examples, see article [Working with Custom API Path - GitHub.com](/git-integration-for-jira-data-center/working-with-custom-api-path-gij-self-managed#githubcom-and-github-enterprise-examples).
 
         -  **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated.   The maximum allowed length is 2000 characters or less.
 
             For help with writing expressions, please contact [support](mailto:gijsupport@gitkraken.com). Read about JMESPath expressions on their **website**.
+
             For some other examples, see [Working with JMESPath Filter in GitHub.com](/git-integration-for-jira-data-center/gitHub-gitHub-enterprise-jmespath-filter-examples-gij-self-managed).
 
         -  **Fetch refspec**  –  Git refspecs contains patterns mapped as references from the remote to the local repository.
@@ -368,7 +370,7 @@ Click this text label to open the Setup PAT dialog and paste your personal acces
   </div>
 </div>
 
-The Setup PAT dialog is also accessible via Repository Browser (dashboard menu Git ➜ **Repository browser**) ➜ Click the &nbsp;![(edit icon)](/wp-content/uploads/gij-edit-icon-dark.png)&nbsp; icon under _**Pers. Access**_ column.
+The Setup PAT dialog is also accessible via Repository Browser (dashboard menu Git ➜ **Repository browser**) ➜ Click the &nbsp;![](/wp-content/uploads/gij-edit-icon-dark.png) icon under _**Pers. Access**_ column.
 
 ## Working with branches and pull requests
 
