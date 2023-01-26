@@ -1,6 +1,6 @@
 ---
 
-title: Tips for Jira Admins (Server)
+title: Tips for Jira Admins (Self-Managed)
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -15,7 +15,7 @@ Welcome, Jira administrators! In this page, you will be seeing some useful tips 
 
 To improve performance, turn off smart commits on initial indexing then turn it back on after initial reindexing.
 
-<img src='/wp-content/uploads/gij-tips-smart-commits.png' style='display:block;margin:25px auto;max-width:100%'>
+<img src='/wp-content/uploads/gij-tips-smart-commits.png' style='display:block;margin:25px auto;max-width:100%' />
 
 ### Indexing strategies to reduce strain on system
 

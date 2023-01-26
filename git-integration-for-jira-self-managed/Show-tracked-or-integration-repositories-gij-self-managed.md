@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-On the **Manage Git Repositories** page, click the <img src='/wp-content/uploads/actions-icon.png' /> icon under the **Actions** column then select:
+On the <b>Manage Git Repositories</b> page, click the <img src='/wp-content/uploads/actions-icon.png' /> icon under the <b>Actions</b> column then select:
 
 *   For tracked folders  –  **Show tracked repositories**.
 
@@ -47,7 +47,7 @@ In the filter field at the top right, enter a character or a name to display rep
 </div>
 <br>
 
-<p>&nbsp;</p>
+&nbsp;
 
 [**Prev:** Managing integrations via Actions](/git-integration-for-jira-data-center/managing-integrations-via-actions-gij-self-managed)
 

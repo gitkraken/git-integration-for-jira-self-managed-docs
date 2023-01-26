@@ -6,7 +6,8 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-The Git Integration for Jira app currently supports **Jira** **8.0** to **9.3**!
+
+The Git Integration for Jira app currently supports **Jira** **8.0** to **9.5**!
 
 <div class="bbb-callout bbb--error">
     <div class="irow">
@@ -124,6 +125,8 @@ The table below shows the Jira Version, when [Atlassian will stop supporting th
 | 9.1 | July 21, 2024 | Edge | Yes\* |
 | 9.2 | August 25, 2024 | Edge | Yes\* |
 | 9.3 | September 29, 2024 | Edge | Yes\* |
+| 9.4 | November 15, 2024 | Edge | Yes\* |
+| 9.5 | December 6, 2024 | Edge | Yes\* |
 
 \* _See information below about retiring IE11 support._
 
