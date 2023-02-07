@@ -8,7 +8,7 @@ taxonomy:
 ---
 1.  On your Jira dashboard, go to  Jira Administration ➜ **Manage apps**.
 
-2.  The _**Find new apps**_ page is displayed. Search the Marketplace with '`bigbrassband`' or '`git`' search phrase.
+2.  The _**Find new apps**_ page is displayed. Search the Marketplace with '`gitkraken`' or '`git`' search phrase.
 
     ![](/wp-content/uploads/gij-docs-installation-jira-admin-addon-find-gitplugin-c.png)
 
