@@ -30,6 +30,7 @@ Lists repositories with names that starts with `'git'` or ends with `'test'`.
 ## 3\. Contains (exclude)
 
 `[?(!contains(name, 'firstword'))]
+
 [?(!contains(name, 'firstword')) || (!contains(name, 'secondword'))]
 `
 
