@@ -61,33 +61,25 @@ GitHub Apps have different JMESPath format in comparison with previous GitHub in
 
 ## 1\. Starts with
 
-```java
-repositories[] | [?starts_with(name, 'repo-prefix')]
-```
+`repositories[] | [?starts_with(name, 'repo-prefix')]`
 
 Lists repositories with names that starts with the specified word.
 
 ## 2\. Contains (include)
 
-```java
-repositories[] | [?contains(name, 'substring')]
-```
+`repositories[] | [?contains(name, 'substring')]`
 
 Lists repositories with names that contains the specified word.
 
 ## 3\. Contains (exclude)
 
-```java
-repositories[] | [?!contains(name, '<search_phrase>')]
-```
+`repositories[] | [?!contains(name, '<search_phrase>')]`
 
 Lists repositories with names that does not contain the specified word.
 
 ## 4\. Specific (exact)
 
-```java
-repositories[] | [?name == 'exact-repo-name')]
-```
+`repositories[] | [?name == 'exact-repo-name')]`
 
 This is a filter based on the text in the repository name. It will list repositories with names that contain the specified word. Do note that the declared string format is case-sensitive.
 
