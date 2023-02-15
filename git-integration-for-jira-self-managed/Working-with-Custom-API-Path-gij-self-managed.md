@@ -55,17 +55,13 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 
 ### 1\. Lists all repositories (default)
 
-    ```java
-    /user/repos
-    ```
+    `/user/repos`
 
     Gets a list of repositories by the authenticated user. This is the same as when no API path is specified.
 
 ### 2\. Display all repositories from \<username\>
 
-    ```java
-    /users/<username>/repos
-    ```
+    `/users/<username>/repos`
 
     Gets a list of public repositories for the specified user, **\<username\>**.
 
@@ -73,15 +69,11 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 
 ### 3\. Displays starred repositories
 
-    ```java
-    /user/starred
-    ```
+    `/user/starred`
 
     Gets a list of repositories by the authenticated user. This is the same as when no API path is specified.
 
-    ```java
-    /users/<username>/starred
-    ```
+    `/users/<username>/starred`
 
     Gets the list of starred public/private repositories for the specified user, **\<username\>**.
 
@@ -89,18 +81,13 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 
 ### 4\. List all repositories for the specified organization
 
-    ```java
-    /orgs/<org>/repos
-    ```
+    `/orgs/<org>/repos`
 
-    Gets a list of repositories for the specified org, **
-    \<org\>**. _BigBrassBand_
+    Gets a list of repositories for the specified org, **\<org\>**. __GitKraken__
 
     **For instance:**
 
-    ```java
-    /orgs/BigBrassBand/repos
-    ```
+    `/orgs/GitKraken/repos`
 
     This will filter for repositories only within the org: `BigBrassBand`. This works for GitHub integrations.
 
@@ -112,41 +99,31 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 
 ### 1\. Lists all projects (default)
 
-    ```java
-    /api/v4/projects?membership=true
-    ```
+    `/api/v4/projects?membership=true`
 
     Gets a list of projects. This is the same as when no API path is specified.
 
 ### 2\. Display all projects from \<user\_id\>
 
-    ```java
-    /api/v4/users/<user_id>/projects
-    ```
+    `/api/v4/users/<user_id>/projects`
 
-    Gets a list of projects for the specified user, **\<user\_id\>**. _johnsmith_
+    Gets a list of projects for the specified user, **\<user\_id\>**.  __johnsmith__
 
 ### 3\. Displays starred projects
 
-    ```java
-    /api/v4/projects?starred=true
-    ```
+    `/api/v4/projects?starred=true`
 
     Returns GitLab projects that have been starred by the connecting GitLab user.
 
 ### 4\. Limit to owned projects
 
-    ```java
-    /api/v4/projects?owned=true
-    ```
+    `/api/v4/projects?owned=true`
 
     The current user will be limited to the projects it's explicitly owned.
 
 ### 5\. List projects from within a Group
 
-    ```java
-    /api/v4/groups/5245789/projects<br>/api/v4/groups/BigBrassBand/projects
-    ```
+    `/api/v4/groups/5245789/projects<br>/api/v4/groups/BigBrassBand/projects`
 
     Returns the list of repositories within a GitLab Group (or GitLab Subgroup).
     
@@ -154,12 +131,11 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 
 ### 6\. List projects from the specified sub-group
 
-    ```java
-    /api/v4/groups/5245789/projects?include_subgroups=true
-    /api/v4/groups/BigBrassBand/projects?include_subgroups=true
-    ```
+    `/api/v4/groups/5245789/projects?include_subgroups=true
+    /api/v4/groups/GitKraken/projects?include_subgroups=true
+    `
 
-    In the above examples, the `?include_subgroups=true` API extension will return a recursive list of repositories within a nested GitLab Group (or GitLab Subgroup) where the #, `5245789`, is the **Group id**; and `BigBrassBand` is the **Group name**.
+    In the above examples, the `?include_subgroups=true` API extension will return a recursive list of repositories within a nested GitLab Group (or GitLab Subgroup) where the #, `5245789`, is the **Group id**; and `GitKraken` is the **Group name**.
 
 
 For more information on GitLab custom API paths, see <a href='https://docs.gitlab.com/ee/api/' target='_blank'><b>GitLab API</b></a>.
