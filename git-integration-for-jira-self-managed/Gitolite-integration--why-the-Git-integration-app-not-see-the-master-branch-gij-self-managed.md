@@ -27,7 +27,7 @@ Set the **UMASK** setting as mentioned in [https://stackoverflow.com/questions/1
 
 For gitolite and git repository on the same server as Jira, set the UMASK value in .gitolite.rc file to the following:
 
-```java
+```
 From UMASK => 0077
 To UMASK => 0027
 ```

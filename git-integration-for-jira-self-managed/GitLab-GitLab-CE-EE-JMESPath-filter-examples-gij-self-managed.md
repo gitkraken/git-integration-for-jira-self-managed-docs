@@ -17,33 +17,29 @@ An optional JMESPath filter can be configured when adding GitLab integration or 
 
 ## 1\. Contains (include)
 
-```java
-[?contains(name, 'git') | contains(name, 'Slap') | contains(name, 'est')]
-```
+`[?contains(name, 'git') || contains(name, 'Slap') || contains(name, 'est')]`
 
 This is a filter based on the text in the repository name. It will list repositories that contains the specified names. Do note that the declared string format is case-sensitive.
 
 ## 2\. Contains (exclude)
 
-```java
+```
 [?(!contains(tag_list, 'largemedia'))]
 
 [?(!contains(name, 'firstword'))]
 
-[?(!contains(name, 'firstword')) | (!contains(name, 'secondword'))]
+[?(!contains(name, 'firstword')) || (!contains(name, 'secondword'))]
 ```
 
 **1** – Blacklists project tag.
 
 **2** – Lists repositories with names that either do not contain the word `'firstword'`.
 
-**3** – Lists repositories with names that either do not contain the words `‘firstword’` OR `‘secondword’`.
+**3** – Lists repositories with names that either do not contain the words `'firstword'` OR `'secondword'`.
 
 ## 3\. Tags
 
-```java
-[?contains(tag_list, 'largemedia')]
-```
+`[?contains(tag_list, 'largemedia')]`
 
 Whitelists project tag.
 
@@ -63,17 +59,13 @@ Whitelists project tag.
 
 ## 4\. Starts with or ends with
 
-```java
-[?starts_with(name, 'git') | ends_with(name, 'test')]
-```
+`[?starts_with(name, 'git') || ends_with(name, 'test')]`
 
 Lists repositories with names that starts with `'git'` or ends with `'test'`.
 
 ## 5\. Exclude projects without repositories
 
-```java
-[?!empty_repo]
-```
+`[?!empty_repo]`
 
 Lists only repositories from projects that have existing repositories.
 

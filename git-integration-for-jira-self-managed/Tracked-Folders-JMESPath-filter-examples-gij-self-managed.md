@@ -13,7 +13,7 @@ An optional JMESPath filter can be configured when adding tracked folders.
 
 ## 1\. Contains (include)
 
-```java
+```
 [?contains(name, 'git')]
 ```
 
@@ -21,7 +21,7 @@ Lists repositories with names containing `‘git’`
 
 <br>
 
-```java
+```
 [?contains(name, 'git') | contains(name, 'Slap') | contains(name, 'est')]
 ```
 
@@ -29,7 +29,7 @@ Lists all the repositories that contain the specified names. |
 
 ## 2\. Contains (exclude)
 
-```java
+```
 [?(!contains(name, 'firstword'))]
 
 [?(!contains(name, 'firstword')) | (!contains(name, 'secondword'))]
@@ -43,7 +43,7 @@ Lists all the repositories that contain the specified names. |
 
 The example below ONLY works for tracked folder integration; where it supports the ‘`fullPath`’ field:
 
-```java
+```
 [?!starts_with(fullPath, '/home/user/local/store/private-repos')]
 ```
 

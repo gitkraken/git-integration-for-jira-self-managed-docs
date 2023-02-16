@@ -29,14 +29,13 @@ Lists repositories with names that starts with `'git'` or ends with `'test'`.
 
 ## 3\. Contains (exclude)
 
-`[?(!contains(name, 'firstword'))]
+`[?(!contains(name, 'firstword'))]`
 
-[?(!contains(name, 'firstword')) || (!contains(name, 'secondword'))]
-`
+`[?(!contains(name, 'firstword')) || (!contains(name, 'secondword'))]`
 
 **1** – Lists repositories with names that either do not contain the word `'firstword'`.
 
-**2** – Lists repositories with names that either do not contain the words `‘firstword’` OR `‘secondword’`.
+**2** – Lists repositories with names that either do not contain the words `'firstword'` OR `'secondword'`.
 
 <br>
 
