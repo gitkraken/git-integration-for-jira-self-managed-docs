@@ -22,26 +22,26 @@ Lists repositories with names containing `‘git’`
 <br>
 
 ```
-[?contains(name, 'git') | contains(name, 'Slap') | contains(name, 'est')]
+[?contains(name, 'git') || contains(name, 'Slap') || contains(name, 'est')]
 ```
 
-Lists all the repositories that contain the specified names. |
+Lists all the repositories that contain the specified names.
 
 ## 2\. Contains (exclude)
 
 ```
 [?(!contains(name, 'firstword'))]
 
-[?(!contains(name, 'firstword')) | (!contains(name, 'secondword'))]
+[?(!contains(name, 'firstword')) || (!contains(name, 'secondword'))]
 ```
 
 **1** – Lists repositories with names that either do not contain the word `'firstword'`.
 
-**2** – Lists repositories with names that either do not contain the words `‘firstword’` OR `‘secondword’`.
+**2** – Lists repositories with names that either do not contain the words `'firstword'` OR `'secondword'`.
 
 ## 3\. Starts with (exclude)
 
-The example below ONLY works for tracked folder integration; where it supports the ‘`fullPath`’ field:
+The example below ONLY works for tracked folder integration; where it supports the `'fullPath'` field:
 
 ```
 [?!starts_with(fullPath, '/home/user/local/store/private-repos')]
