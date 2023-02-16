@@ -32,7 +32,7 @@ Lists all the repositories that contain the specified names.
 ```
 [?(!contains(name, 'firstword'))]
 
-[?(!contains(name, 'firstword')) || (!contains(name, 'secondword'))]
+[?(!contains(name, 'firstword')) && (!contains(name, 'secondword'))]
 ```
 
 **1** – Lists repositories with names that either do not contain the word `'firstword'`.

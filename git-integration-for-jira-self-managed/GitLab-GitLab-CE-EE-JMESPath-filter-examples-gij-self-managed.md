@@ -28,7 +28,7 @@ This is a filter based on the text in the repository name. It will list reposito
 
 [?(!contains(name, 'firstword'))]
 
-[?(!contains(name, 'firstword')) || (!contains(name, 'secondword'))]
+[?(!contains(name, 'firstword')) && (!contains(name, 'secondword'))]
 ```
 
 **1** – Blacklists project tag.
