@@ -23,7 +23,7 @@ This is a filter based on the text in the repository name. It will list reposito
 
 ## 2. Starts with or ends with
 
-`[?starts_with(name, 'git') | ends_with(name, 'test')]`
+`[?starts_with(name, 'git') || ends_with(name, 'test')]`
 
 Lists repositories with names that starts with `'git'` or ends with `'test'`.
 
@@ -32,7 +32,7 @@ Lists repositories with names that starts with `'git'` or ends with `'test'`.
 ```
 [?(!contains(name, 'firstword'))]
 
-[?(!contains(name, 'firstword')) | (!contains(name, 'secondword'))]
+[?(!contains(name, 'firstword')) || (!contains(name, 'secondword'))]
 ```
 
 **1** – Lists repositories with names that either do not contain the word `'firstword'`.

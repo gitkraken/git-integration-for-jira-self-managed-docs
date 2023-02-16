@@ -29,7 +29,7 @@ The '**!**' expression removes all repositories with `'test'` in the repository 
 
 ## 3\. Starts with or ends with
 
-`value[?starts_with(name, 'git') | ends_with(name, 'test')] | {value:@}`
+`value[?starts_with(name, 'git') || ends_with(name, 'test')] | {value:@}`
 
 Lists repositories with names that starts with `'git'` or ends with `'test'`.
 
