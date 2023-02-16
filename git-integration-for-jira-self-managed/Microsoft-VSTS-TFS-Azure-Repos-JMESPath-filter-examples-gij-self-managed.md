@@ -17,31 +17,25 @@ An optional JMESPath filter can be configured when adding Azure Repos integratio
 
 ## 1\. Contains (include)
 
-```java
-value[?contains(name, 'example')] | {value:@}
-```
+`value[?contains(name, 'example')] | {value:@}`
 
 This is a filter based on the text in the repository name. It will list repositories with names containing `'example'`. Do note that the declared string format is case-sensitive.
 
 ## 2\. Contains (exclude)
 
-```java
-value[?(!contains(name, 'Test'))] | {value:@}
-```
+`value[?(!contains(name, 'Test'))] | {value:@}`
 
 The '**!**' expression removes all repositories with `'test'` in the repository name.
 
 ## 3\. Starts with or ends with
 
-```java
-value[?starts_with(name, 'git') | ends_with(name, 'test')] | {value:@}
-```
+`value[?starts_with(name, 'git') | ends_with(name, 'test')] | {value:@}`
 
 Lists repositories with names that starts with `'git'` or ends with `'test'`.
 
 ## Other examples
 
-```java
+```
 value[?contains(project.state, 'wellFormed')] | {value:@}
 
 value[?contains(project.name, 'test2')] | {value:@}
