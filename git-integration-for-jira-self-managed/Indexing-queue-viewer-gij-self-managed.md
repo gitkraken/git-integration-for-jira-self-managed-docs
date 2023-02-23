@@ -51,7 +51,7 @@ Click **Clear queue** to free up the current queue of all tasks with <b style='b
 
 ![](/wp-content/uploads/gij-gitserver-indexing-queue-viewer-gencfg-dashboard.png)
 
-To the right of the dashboard is the settings view panel. which shows information related to the general settings for scheduled indexing, garbage collection, etc.
+To the right of the dashboard is the Settings view panel. which shows information related to the general settings for scheduled indexing, garbage collection, etc.
 
 Click **Edit** to go directly to the General settings page.
 
@@ -80,15 +80,15 @@ These includes:
 
 Filter the task list by clicking on the **Status** dropdown and selecting a category:
 
-*   **All** – The filter is not applied. Displays the data for every Status category.
+*   **All** – Displays the data for every Status category.
 
-*   **Queued** -- This filters the tasks by queued status. This indicates that the indexing tasks are still waiting in line to be processed or are still unfinished.
+*   **Queued** -- Displays tasks having <b style='background-color:#DEE0E5; padding:1px 5px; color:#44516C; border-radius:3px; margin: 0 5px; font-size: small;'>QUEUED</b> status. This indicates that the indexing tasks are still waiting in line to be processed or are still unfinished.
 
-*   **Indexing** -- This filters the tasks by Indexing status. This indicates that the indexing task is already running.
+*   **Indexing** -- Displays tasks having <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>INDEXING</b> status. This indicates that the indexing task is already running.
 
-*   **Indexed** -- This filters the tasks by Indexed status. This indicates that the indexing task has finished.
+*   **Indexed** -- Displays tasks having <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>INDEXED</b> status. This indicates that the indexing task has finished.
 
-*   **Error** -- This filters the tasks by Error status. This indicates that the indexing task has encountered an error. Go to **...** Actions ➜ **View log** to see the error(s).
+*   **Error** -- Displays tasks having <b style='background-color:#FFEBE6; padding:1px 5px; color:#C02909; border-radius:3px; margin: 0 5px; font-size: small;'>ERROR</b> status. This indicates that the indexing task has encountered an error. Go to **...** Actions ➜ **View log** to see the error(s).
 
 ### Filter: Trigger
 
@@ -96,9 +96,9 @@ Filter the task list by clicking on the **Status** dropdown and selecting a cate
 
 Filters the task list by clicking on the **Trigger** dropdown and selecting a category:
 
-*   **All** – The filter is not applied. Displays the data for every Trigger category.
+*   **All** – Displays the data for every Trigger category.
 
-*   **Manual** -- This filters the tasks by manual triggers. This includes user-triggered events such as:
+*   **Manual** -- Displays tasks that was triggered manually. This includes user-triggered events such as:
 
     *   reindex repositories/integrations/reindex all
 
@@ -110,11 +110,11 @@ Filters the task list by clicking on the **Trigger** dropdown and selecting a ca
 
     *   reindex triggered by an update of repository
 
-*   **Webhook** -- This filters the tasks by webhook triggers. Indexing triggered by webhooks fall on this category. For related information, see [Webhook indexing explainer](Webhook-indexing-explainer-gij-self-managed).
+*   **Webhook** -- Displays tasks triggered by webhook. Indexing triggered by webhooks fall on this category. For related information, see [Webhook indexing explainer](/git-integration-for-jira-data-center/Webhook-indexing-explainer-gij-self-managed).
 
-*   **Scheduled** -- This filters the tasks by scheduled jobs. For more information, see [Scheduler jobs](Scheduler-jobs-gij-self-managed).
+*   **Scheduled** -- Displays tasks triggered by scheduled jobs. For more information, see [Scheduler jobs](/git-integration-for-jira-data-center/Scheduler-jobs-gij-self-managed).
 
-    *   App activity -- This filters the tasks by a reindex triggered by: 
+*   App activity -- Displays reindex tasks triggered by:
 
     *   a branch creation/deletion
 
@@ -124,7 +124,7 @@ Filters the task list by clicking on the **Trigger** dropdown and selecting a ca
 
     *   a repository update, e.g. by a change of main branch
 
-*   **Initial indexing** -- This filters the tasks by initial indexing triggers. Initial indexing is performed by the app on the first connection of the git service integration.
+*   **Initial indexing** -- Displays tasks triggered by initial indexing. Initial indexing is performed by the Git Integration for Jira app on the first successful connection of the git service integration.
 
 ### Filter: Type of operation
 
@@ -132,29 +132,29 @@ Filters the task list by clicking on the **Trigger** dropdown and selecting a ca
 
 Filters the view by clicking on the **Type of operation** dropdown and selecting a category:
 
-*   **All** – The filter is not applied. Displays the data for every Type of operation category.
+*   **All** –- Displays the data for every Type of operation category.
 
-*   **Reindex** – This filters the tasks related to indexing.
+*   **Reindex** –- Displays tasks related to indexing.
 
-*   **Garbage Collection** – This filters the tasks related to Garbage Collection.
+*   **Garbage Collection** -– Displays tasks related to Garbage Collection.
 
-*   **Remove repository** – This filters the tasks related to removal of a repository.
+*   **Remove repository** –- Displays tasks related to removal of a repository.
 
 ### Filter: Node
 
-![](/wp-content/uploads/gij-gitdc-indexing-queue-filter-nodes.png)
-
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>DATA CENTER</b>
+
+![](/wp-content/uploads/gij-gitdc-indexing-queue-filter-nodes.png)
 
 Filters the view by clicking on the **Node** dropdown and selecting a category:
 
-*   **All** – The filter is not applied. Displays the tasks for every Node in the cluster.
+*   **All** –- Displays the data for every Node in the cluster.
 
-*   **Node\[1…\] - Node\[n\]** – This filters the tasks and displays data only for the specified node in the cluster.
+*   **Node\[1…\] - Node\[n\]** –- Displays tasks and data only for the specified node in the cluster.
 
 ### Using search to filter specific items to view
 
-To the right of the view filter options, users can use the search bar to inquire for specific tasks and the list view will be updated accordingly. Note that filtering by name is case-sensitive.
+To the right of the view filter options, users can use the search bar to query for specific tasks and the indexing list view will be updated accordingly. Note that filtering by name is case-sensitive.
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -162,7 +162,7 @@ To the right of the view filter options, users can use the search bar to inquire
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Users may combine search text by repository ID, task ID, parent task ID and name – in one field.
+        Search text criteria can be combined by repository ID, task ID, parent task ID and name – in one field.
     </div>
     </div>
 </div>
@@ -170,7 +170,7 @@ To the right of the view filter options, users can use the search bar to inquire
 
 ## Sorting
 
-Sorting allows users to arrange tasks by categories such as status, trigger, and type of operation. 
+Sorting allows users to arrange tasks by categories such as status, trigger, and type of operation.
 
 The default sort order applies the following rule:
 
@@ -182,11 +182,11 @@ The default sort order applies the following rule:
 
     b.  reindex triggered manually:
 
-        *   ![](/wp-content/uploads/actions-icon.png) Actions ➜ reindex repositories/integrations/reindex all
+        *   ![](/wp-content/uploads/actions-icon.png) Actions ➜ Reindex repositories/integrations or Reindex all
 
-        *   ![](/wp-content/uploads/actions-icon.png) Actions ➜ reset all/reset repository
+        *   ![](/wp-content/uploads/actions-icon.png) Actions ➜ Reset all/Reset repository
 
-        *   via bulk import
+        *   via Bulk Import
 
         *   via Reindex REST API
 
@@ -223,7 +223,7 @@ The default sort order applies the following rule:
 
 ![](/wp-content/uploads/gij-gitserver-indexing-queue-viewer-actions-menu.png)
 
-The ‘indexing status’ is displayed in the indexing log dialog that appears during manual reindex. The View log information from the **Indexing queue viewer** is similar to the logs that can be viewed in the Manage integration screen.
+The ‘indexing status’ is displayed in the indexing log dialog that appears during manual reindex. The View log information from the **Indexing Queue Qiewer** is similar to the logs that can be viewed in the Manage integration screen.
 
 ![](/wp-content/uploads/gij-gitserver-reindex-log-error.png)
 
@@ -285,7 +285,7 @@ The type of operation states what kind of indexing was triggered:
 
 ### Delay
 
-This column shows _**No delay**_ for indexed items that were processed immediately after the previous one.
+This column shows _**No delay**_ for indexed items that were processed immediately after the previous one. Also displayed are the amount of time when the indexing has finished for the tasks.
 
 ### Trigger
 
@@ -297,7 +297,7 @@ This column shows the indexing status of the task in the list.
 
 ### Refresh function
 
-At the bottom-left portion of the indexing queue viewer, click the **Refresh** icon to refresh the queue list view.
+At the bottom-left portion of the indexing queue viewer, click the ![](/wp-content/uploads/gij-refresh-icon.png) **Refresh** icon to refresh the queue list view.
 
 ### Pagination
 
