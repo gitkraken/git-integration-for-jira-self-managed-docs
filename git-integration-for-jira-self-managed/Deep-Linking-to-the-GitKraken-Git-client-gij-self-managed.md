@@ -6,7 +6,8 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-<b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b></div>
+
+<b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b>
 <br>
 
 ## Feature
