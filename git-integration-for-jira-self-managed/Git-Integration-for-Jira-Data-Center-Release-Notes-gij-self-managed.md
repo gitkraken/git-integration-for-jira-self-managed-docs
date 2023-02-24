@@ -14,7 +14,7 @@ We publish new features, bug fixes, security updates/patches, and Jira compatibi
 
 *   [Atlassian Marketplace listing](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=datacenter&tab=overview)
 
-*   [BigBrassBand Server/Data Center Security](https://bigbrassband.com/security-and-trust.html)
+*   [Git Integration for Jira Server/Data Center Security](https://www.gitkraken.com/git-integration-for-jira/security-and-trust)
 
 
 If you have any questions, please contact us through our [Support Portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) or by emailing [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com)
