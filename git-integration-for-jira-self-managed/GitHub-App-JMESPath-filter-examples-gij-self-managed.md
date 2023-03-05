@@ -77,6 +77,20 @@ Lists repositories with the names that contain the specified word.
 
 Lists repositories with the names that do not contain the specified word.
 
+<br>
+
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The <code>!condition</code> must be wrapped in a parenthesis so it won’t invert the whole expression.
+    </div>
+    </div>
+</div>
+<br>
+
 ## 4\. Specific (exact)
 
 `repositories[] | [?name == 'exact-repo-name']`

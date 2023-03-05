@@ -37,7 +37,19 @@ Lists repositories with the names that starts with `'git'` or ends with `'test'`
 
 **2** – Lists repositories with the names that either do not contain the words `'firstword'` OR `'secondword'`.
 
-The `!condition` must be wrapped in a parenthesis so it won’t invert the whole expression.
+<br>
+
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The <code>!condition</code> must be wrapped in a parenthesis so it won’t invert the whole expression.
+    </div>
+    </div>
+</div>
+<br>
 
 <hr>
 

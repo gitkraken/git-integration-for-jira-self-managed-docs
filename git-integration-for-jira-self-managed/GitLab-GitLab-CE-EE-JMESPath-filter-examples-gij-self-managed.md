@@ -35,6 +35,20 @@ This is a filter based on the text in the repository name. It lists repositories
 
 **3** – Lists repositories with the names that either do not contain the words `'firstword'` OR `'secondword'`.
 
+<br>
+
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The <code>!condition</code> must be wrapped in a parenthesis so it won’t invert the whole expression.
+    </div>
+    </div>
+</div>
+<br>
+
 ## 3\. Tags
 
 `[?contains(tag_list, 'largemedia')]`

@@ -35,6 +35,20 @@ Lists repositories with the names that contain any of the specified word.
 
 **2** – Lists repositories with the names that either do not contain the words `'firstword'` OR `'secondword'`.
 
+<br>
+
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The <code>!condition</code> must be wrapped in a parenthesis so it won’t invert the whole expression.
+    </div>
+    </div>
+</div>
+<br>
+
 ## 3\. Starts with (exclude)
 
 The example below ONLY works for tracked folder integration; where it supports the `'fullPath'` field:
