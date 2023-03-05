@@ -28,7 +28,7 @@ Use the FAQ below to find answers to common questions. Feel free to contact our
 
 Open an issue in your browser and click on the **Git Commits** tab.
 
-<img src='/wp-cotent/uploads/gij-gitserver-jira-issue-activity-workspace-faq.png' style='max-width:100%;margin:25px auto 0 auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitserver-jira-issue-activity-workspace-faq.png' style='max-width:100%;margin:25px auto 0 auto;max-width:100%' />
 
 <i style='display:inline-block;margin:10px auto 30px auto;text-align:center;'>See all Git commits associated with an issue in Jira</i>
 
