@@ -94,6 +94,6 @@ Lists only repositories from projects that have existing repositories.
 <div style='border-top: 1px solid #456; width: 40%; padding-bottom: 12px'></div>
 <div style='font-size: 12px;'>
     <sup>1</sup> <i>Logo owned by <a href='https://gitlab.com/' target='_blank'>GitLab Inc</a> used under <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>license</a>.
-    <p>&nbsp;&nbsp;All product names, logos, and brands are property of their respective owners.<p><i>
+    <p>&nbsp;&nbsp;All product names, logos, and brands are property of their respective owners.</p></i>
 </div>
 
