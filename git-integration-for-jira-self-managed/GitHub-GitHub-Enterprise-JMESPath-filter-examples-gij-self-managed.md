@@ -11,7 +11,7 @@ taxonomy:
 
 <br>
 
-An optional JMESPath filter can be configured when adding GitHub integration or repositories.
+An optional JMESPath filter can be configured when adding GitHub integrations.
 
 <br>
 
@@ -19,7 +19,7 @@ An optional JMESPath filter can be configured when adding GitHub integration or 
 
 `[?contains(name, 'git')]`
 
-This is a filter based on the text in the repository name. It will list repositories with names that contain the word `'git'`. Do note that the declared string format is case-sensitive.
+This is a filter based on the text in the repository name. It lists repositories with the names that contain the word `'git'`. Do note that the declared string format is case-sensitive.
 
 ## 2\. Starts with or ends with
 
@@ -33,9 +33,9 @@ Lists repositories with names that starts with `'git'` or ends with `'test'`.
 
 `[?(!contains(name, 'firstword')) && (!contains(name, 'secondword'))]`
 
-**1** – Lists repositories with names that either do not contain the word `'firstword'`.
+**1** – Lists repositories with the names that do not contain the word `'firstword'`.
 
-**2** – Lists repositories with names that either do not contain the words `'firstword'` OR `'secondword'`.
+**2** – Lists repositories with the names that either do not contain the words `'firstword'` OR `'secondword'`.
 
 <br>
 

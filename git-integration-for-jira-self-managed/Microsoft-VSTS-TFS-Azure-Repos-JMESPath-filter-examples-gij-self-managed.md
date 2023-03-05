@@ -11,7 +11,7 @@ taxonomy:
 
 <br>
 
-An optional JMESPath filter can be configured when adding Azure Repos integration or repositories.
+An optional JMESPath filter can be configured when adding Azure Repos integrations.
 
 <br>
 
@@ -19,39 +19,37 @@ An optional JMESPath filter can be configured when adding Azure Repos integratio
 
 `value[?contains(name, 'example')] | {value:@}`
 
-This is a filter based on the text in the repository name. It will list repositories with names containing `'example'`. Do note that the declared string format is case-sensitive.
+This is a filter based on the text in the repository name. It lists repositories with the names that contain the word `'example'`. Do note that the declared string format is case-sensitive.
 
 ## 2\. Contains (exclude)
 
-`value[?(!contains(name, 'Test'))] | {value:@}`
+`value[?(!contains(name, 'test'))] | {value:@}`
 
-The '**!**' expression removes all repositories with `'test'` in the repository name.
+Lists repositories with the names that do not contain the word `'test'`.
 
 ## 3\. Starts with or ends with
 
 `value[?starts_with(name, 'git') || ends_with(name, 'test')] | {value:@}`
 
-Lists repositories with names that starts with `'git'` or ends with `'test'`.
+Lists repositories with the names that starts with `'git'` or ends with `'test'`.
 
 ## Other examples
 
-```
-value[?contains(project.state, 'wellFormed')] | {value:@}
+`value[?contains(project.state, 'wellFormed')] | {value:@}`
 
-value[?contains(project.name, 'test2')] | {value:@}
+`value[?contains(project.name, 'test2')] | {value:@}`
 
-value[?contains(project.visibility, 'private')] | {value:@}
+`value[?contains(project.visibility, 'private')] | {value:@}`
 
-value[?contains(project.visibility, 'public')] | {value:@}
-```
+`value[?contains(project.visibility, 'public')] | {value:@}`
 
-1.  Displays repositories from projects where its state is _completely created and ready to use_.
+1.  Lists repositories from projects where their state is _completely created and ready to use_.
 
-2.  List all repositories from project named "_**test2**_".
+2.  Lists all repositories from the project named "_**test2**_".
 
-3.  Displays all private repositories.
+3.  Lists all private repositories.
 
-4.  Displays all public repositories.
+4.  Lists all public repositories.
 
 <hr>
 

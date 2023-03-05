@@ -23,7 +23,7 @@ taxonomy:
 </div>
 <br>
 
-This filter will allow users to connect only those repositories from the GitHub App integration that matches the JMESPath expression.
+This filter will allow users to connect only those repositories from a GitHub App integration that matches the JMESPath expression.
 
 GitHub applications have two type of scopes:
 
@@ -63,25 +63,25 @@ GitHub Apps have different JMESPath format in comparison with previous GitHub in
 
 `repositories[] | [?starts_with(name, 'repo-prefix')]`
 
-Lists repositories with names that starts with the specified word.
+This is a filter based on the text in the repository name. It lists repositories with the names that starts with the specified word. Do note that the declared string format is case-sensitive.
 
 ## 2\. Contains (include)
 
 `repositories[] | [?contains(name, 'substring')]`
 
-Lists repositories with names that contains the specified word.
+Lists repositories with the names that contain the specified word.
 
 ## 3\. Contains (exclude)
 
-`repositories[] | [?!contains(name, '<search_phrase>')]`
+`repositories[] | [?(!contains(name, 'search-phrase'))]`
 
-Lists repositories with names that does not contain the specified word.
+Lists repositories with the names that do not contain the specified word.
 
 ## 4\. Specific (exact)
 
-`repositories[] | [?name == 'exact-repo-name')]`
+`repositories[] | [?name == 'exact-repo-name']`
 
-This is a filter based on the text in the repository name. It will list repositories with names that contain the specified word. Do note that the declared string format is case-sensitive.
+Lists repositories with the exact specified name.
 
 <hr>
 
