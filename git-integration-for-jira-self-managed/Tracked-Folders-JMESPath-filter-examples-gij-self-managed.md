@@ -51,7 +51,7 @@ Lists repositories with the names that contain any of the specified word.
 
 ## 3\. Starts with (exclude)
 
-The example below ONLY works for tracked folder integration; where it supports the `'fullPath'` field:
+The example below ONLY works for tracked folder integrations; where it supports the `'fullPath'` field:
 
 `[?!starts_with(fullPath, '/home/user/local/store/private-repos')]`
 
