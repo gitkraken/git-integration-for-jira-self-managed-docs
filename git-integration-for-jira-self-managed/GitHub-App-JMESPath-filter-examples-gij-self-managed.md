@@ -21,9 +21,20 @@ taxonomy:
     </div>
     </div>
 </div>
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Do note that the declared string format is case-sensitive.
+    </div>
+    </div>
+</div>
 <br>
 
-This filter will allow users to connect only those repositories from the GitHub App integration that matches the JMESPath expression.
+This filter will allow users to connect only those repositories from a GitHub App integration that matches the JMESPath expression.
 
 GitHub applications have two type of scopes:
 
@@ -63,31 +74,47 @@ GitHub Apps have different JMESPath format in comparison with previous GitHub in
 
 `repositories[] | [?starts_with(name, 'repo-prefix')]`
 
-Lists repositories with names that starts with the specified word.
+This is a filter based on the text in the repository name. It lists repositories with the names that start with the specified word. Do note that the declared string format is case-sensitive.
 
 ## 2\. Contains (include)
 
 `repositories[] | [?contains(name, 'substring')]`
 
-Lists repositories with names that contains the specified word.
+Lists repositories with the names that contain the specified word.
 
 ## 3\. Contains (exclude)
 
-`repositories[] | [?!contains(name, '<search_phrase>')]`
+`repositories[] | [?(!contains(name, 'search-phrase'))]`
 
-Lists repositories with names that does not contain the specified word.
+Lists repositories with the names that do not contain the specified word.
+
+<br>
+
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The <code>!condition</code> must be wrapped in a parenthesis so it won’t invert the whole expression.
+    </div>
+    </div>
+</div>
+<br>
 
 ## 4\. Specific (exact)
 
-`repositories[] | [?name == 'exact-repo-name')]`
+`repositories[] | [?name == 'exact-repo-name']`
 
-This is a filter based on the text in the repository name. It will list repositories with names that contain the specified word. Do note that the declared string format is case-sensitive.
+Lists repositories with the exact specified name.
 
 <hr>
 
 ## More articles on JMESPath filter examples
 
 [GitHub.com \| GitHub Enterprise JMESPath filter examples](/git-integration-for-jira-data-center/GitHub-GitHub-Enterprise-JMESPath-filter-examples-gij-self-managed)
+
+**GitHub App JMESPath filter examples** (this page)
 
 [GitLab.com \| GitLab CE/EE JMESPath filter examples](/git-integration-for-jira-data-center/GitLab-GitLab-CE-EE-JMESPath-filter-examples-gij-self-managed)
 
@@ -96,6 +123,4 @@ This is a filter based on the text in the repository name. It will list reposito
 [Tracked Folders JMESPath filter examples](/git-integration-for-jira-data-center/Tracked-Folders-JMESPath-filter-examples-gij-self-managed)
 
 [Gerrit JMESPath filter examples](/git-integration-for-jira-data-center/Gerrit-JMESPath-filter-examples-gij-self-managed)
-
-**GitHub App JMESPath filter examples** (this page)
 

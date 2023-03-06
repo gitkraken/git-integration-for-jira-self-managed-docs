@@ -11,49 +11,73 @@ taxonomy:
 
 An optional JMESPath filter can be configured when adding tracked folders.
 
+<br>
+
 ## 1\. Contains (include)
 
-```
-[?contains(name, 'git')]
-```
+`[?contains(name, 'git')]`
 
-Lists repositories with names containing `‘git’`
+This is a filter based on the text in the repository name. It lists repositories with the names that contain the word `'git'`. Do note that the declared string format is case-sensitive.
 
 <br>
 
-```
-[?contains(name, 'git') || contains(name, 'Slap') || contains(name, 'est')]
-```
+`[?contains(name, 'git') || contains(name, 'Slap') || contains(name, 'est')]`
 
-Lists all the repositories that contain the specified names.
+Lists repositories with the names that contain any of the specified word.
 
 ## 2\. Contains (exclude)
 
-```
-[?(!contains(name, 'firstword'))]
+`[?(!contains(name, 'firstword'))]`
 
-[?(!contains(name, 'firstword')) && (!contains(name, 'secondword'))]
-```
+`[?(!contains(name, 'firstword')) && (!contains(name, 'secondword'))]`
 
-**1** – Lists repositories with names that either do not contain the word `'firstword'`.
+**1** – Lists repositories with the names that do not contain the word `'firstword'`.
 
-**2** – Lists repositories with names that either do not contain the words `'firstword'` OR `'secondword'`.
+**2** – Lists repositories with the names that either do not contain the words `'firstword'` OR `'secondword'`.
+
+<br>
+
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The <code>!condition</code> must be wrapped in a parenthesis so it won’t invert the whole expression.
+    </div>
+    </div>
+</div>
+<br>
 
 ## 3\. Starts with (exclude)
 
-The example below ONLY works for tracked folder integration; where it supports the `'fullPath'` field:
+The example below ONLY works for tracked folder integrations; where it supports the `'fullPath'` field:
 
-```
-[?!starts_with(fullPath, '/home/user/local/store/private-repos')]
-```
+`[?!starts_with(fullPath, '/home/user/local/store/private-repos')]`
 
 Excludes repositories from the sub-folder.
+
+<p>&nbsp;</p>
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Do note that the declared string format is case-sensitive.
+    </div>
+    </div>
+</div>
+<br>
 
 <hr>
 
 ## More articles on JMESPath filter examples
 
 [GitHub.com \| GitHub Enterprise JMESPath filter examples](/git-integration-for-jira-data-center/GitHub-GitHub-Enterprise-JMESPath-filter-examples-gij-self-managed)
+
+[GitHub App JMESPath filter examples](/git-integration-for-jira-data-center/GitHub-App-JMESPath-filter-examples-gij-self-managed)
 
 [GitLab.com \| GitLab CE/EE JMESPath filter examples](/git-integration-for-jira-data-center/GitLab-GitLab-CE-EE-JMESPath-filter-examples-gij-self-managed)
 
@@ -62,6 +86,4 @@ Excludes repositories from the sub-folder.
 **Tracked Folders JMESPath filter examples** (this page)
 
 [Gerrit JMESPath filter examples](/git-integration-for-jira-data-center/Gerrit-JMESPath-filter-examples-gij-self-managed)
-
-[GitHub App JMESPath filter examples](/git-integration-for-jira-data-center/GitHub-App-JMESPath-filter-examples-gij-self-managed)
 

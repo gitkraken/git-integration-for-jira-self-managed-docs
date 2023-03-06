@@ -11,7 +11,7 @@ taxonomy:
 
 <br>
 
-An optional JMESPath filter can be configured when adding GitLab integration or repositories.
+An optional JMESPath filter can be configured when adding GitLab integrations.
 
 <br>
 
@@ -19,29 +19,41 @@ An optional JMESPath filter can be configured when adding GitLab integration or 
 
 `[?contains(name, 'git') || contains(name, 'Slap') || contains(name, 'est')]`
 
-This is a filter based on the text in the repository name. It will list repositories that contains the specified names. Do note that the declared string format is case-sensitive.
+This is a filter based on the text in the repository name. It lists repositories with the names that contain any of the specified word. Do note that the declared string format is case-sensitive.
 
 ## 2\. Contains (exclude)
 
-```
-[?(!contains(tag_list, 'largemedia'))]
+`[?(!contains(tag_list, 'largemedia'))]`
 
-[?(!contains(name, 'firstword'))]
+`[?(!contains(name, 'firstword'))]`
 
-[?(!contains(name, 'firstword')) && (!contains(name, 'secondword'))]
-```
+`[?(!contains(name, 'firstword')) && (!contains(name, 'secondword'))]`
 
-**1** – Blacklists project tag.
+**1** – Blacklists a project tag.
 
-**2** – Lists repositories with names that either do not contain the word `'firstword'`.
+**2** – Lists repositories with the names that do not contain the word `'firstword'`.
 
-**3** – Lists repositories with names that either do not contain the words `'firstword'` OR `'secondword'`.
+**3** – Lists repositories with the names that either do not contain the words `'firstword'` OR `'secondword'`.
+
+<br>
+
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The <code>!condition</code> must be wrapped in a parenthesis so it won’t invert the whole expression.
+    </div>
+    </div>
+</div>
+<br>
 
 ## 3\. Tags
 
 `[?contains(tag_list, 'largemedia')]`
 
-Whitelists project tag.
+Whitelists a project tag.
 
 <div class="bbb-callout bbb--note">
     <div class="irow">
@@ -61,7 +73,7 @@ Whitelists project tag.
 
 `[?starts_with(name, 'git') || ends_with(name, 'test')]`
 
-Lists repositories with names that starts with `'git'` or ends with `'test'`.
+Lists repositories with the names that start with `'git'` or end with `'test'`.
 
 ## 5\. Exclude projects without repositories
 
@@ -69,11 +81,27 @@ Lists repositories with names that starts with `'git'` or ends with `'test'`.
 
 Lists only repositories from projects that have existing repositories.
 
+<p>&nbsp;</p>
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Do note that the declared string format is case-sensitive.
+    </div>
+    </div>
+</div>
+<br>
+
 <hr>
 
 ## More articles on JMESPath filter examples
 
 [GitHub.com \| GitHub Enterprise JMESPath filter examples](/git-integration-for-jira-data-center/GitHub-GitHub-Enterprise-JMESPath-filter-examples-gij-self-managed)
+
+[GitHub App JMESPath filter examples](/git-integration-for-jira-data-center/GitHub-App-JMESPath-filter-examples-gij-self-managed)
 
 **GitLab.com \| GitLab CE/EE JMESPath filter examples** (this page)
 
@@ -82,8 +110,6 @@ Lists only repositories from projects that have existing repositories.
 [Tracked Folders JMESPath filter examples](/git-integration-for-jira-data-center/Tracked-Folders-JMESPath-filter-examples-gij-self-managed)
 
 [Gerrit JMESPath filter examples](/git-integration-for-jira-data-center/Gerrit-JMESPath-filter-examples-gij-self-managed)
-
-[GitHub App JMESPath filter examples](/git-integration-for-jira-data-center/GitHub-App-JMESPath-filter-examples-gij-self-managed)
 
 <br>
 <hr>
@@ -94,6 +120,6 @@ Lists only repositories from projects that have existing repositories.
 <div style='border-top: 1px solid #456; width: 40%; padding-bottom: 12px'></div>
 <div style='font-size: 12px;'>
     <sup>1</sup> <i>Logo owned by <a href='https://gitlab.com/' target='_blank'>GitLab Inc</a> used under <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' target='_blank'>license</a>.
-    <p>&nbsp;&nbsp;All product names, logos, and brands are property of their respective owners.<p><i>
+    <p>&nbsp;&nbsp;All product names, logos, and brands are property of their respective owners.</p></i>
 </div>
 

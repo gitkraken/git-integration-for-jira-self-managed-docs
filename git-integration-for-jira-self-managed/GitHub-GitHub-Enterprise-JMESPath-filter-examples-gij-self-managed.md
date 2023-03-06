@@ -11,7 +11,7 @@ taxonomy:
 
 <br>
 
-An optional JMESPath filter can be configured when adding GitHub integration or repositories.
+An optional JMESPath filter can be configured when adding GitHub integrations.
 
 <br>
 
@@ -19,13 +19,13 @@ An optional JMESPath filter can be configured when adding GitHub integration or 
 
 `[?contains(name, 'git')]`
 
-This is a filter based on the text in the repository name. It will list repositories with names that contain the word `'git'`. Do note that the declared string format is case-sensitive.
+This is a filter based on the text in the repository name. It lists repositories with the names that contain the word `'git'`. Do note that the declared string format is case-sensitive.
 
 ## 2\. Starts with or ends with
 
 `[?starts_with(name, 'git') || ends_with(name, 'test')]`
 
-Lists repositories with names that starts with `'git'` or ends with `'test'`.
+Lists repositories with the names that start with `'git'` or end with `'test'`.
 
 ## 3\. Contains (exclude)
 
@@ -33,9 +33,9 @@ Lists repositories with names that starts with `'git'` or ends with `'test'`.
 
 `[?(!contains(name, 'firstword')) && (!contains(name, 'secondword'))]`
 
-**1** – Lists repositories with names that either do not contain the word `'firstword'`.
+**1** – Lists repositories with the names that do not contain the word `'firstword'`.
 
-**2** – Lists repositories with names that either do not contain the words `'firstword'` OR `'secondword'`.
+**2** – Lists repositories with the names that either do not contain the words `'firstword'` OR `'secondword'`.
 
 <br>
 
@@ -49,6 +49,17 @@ Lists repositories with names that starts with `'git'` or ends with `'test'`.
     </div>
     </div>
 </div>
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Do note that the declared string format is case-sensitive.
+    </div>
+    </div>
+</div>
 <br>
 
 <hr>
@@ -57,6 +68,8 @@ Lists repositories with names that starts with `'git'` or ends with `'test'`.
 
 **GitHub.com \| GitHub Enterprise JMESPath filter examples** (this page)
 
+[GitHub App JMESPath filter examples](/git-integration-for-jira-data-center/GitHub-App-JMESPath-filter-examples-gij-self-managed)
+
 [GitLab.com \| GitLab CE/EE JMESPath filter examples](/git-integration-for-jira-data-center/GitLab-GitLab-CE-EE-JMESPath-filter-examples-gij-self-managed)
 
 [Microsoft \| VSTS \| TFS \| Azure Repos JMESPath filter examples](/git-integration-for-jira-data-center/Microsoft-VSTS-TFS-Azure-Repos-JMESPath-filter-examples-gij-self-managed)
@@ -64,6 +77,4 @@ Lists repositories with names that starts with `'git'` or ends with `'test'`.
 [Tracked Folders JMESPath filter examples](/git-integration-for-jira-data-center/Tracked-Folders-JMESPath-filter-examples-gij-self-managed)
 
 [Gerrit JMESPath filter examples](/git-integration-for-jira-data-center/Gerrit-JMESPath-filter-examples-gij-self-managed)
-
-[GitHub App JMESPath filter examples](/git-integration-for-jira-data-center/GitHub-App-JMESPath-filter-examples-gij-self-managed)
 

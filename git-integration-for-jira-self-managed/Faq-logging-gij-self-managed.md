@@ -41,7 +41,7 @@ _(The old video is removed. Updated Video guide coming soon)_
 
 Jira can produce a Support Zip file for diagnosing issues. This will give our support team a better view of the issue.
 
-![](/wp-cotent/uploads/gij-gitserver-jira-admin-system-support-tools-zip.png)
+![](/wp-content/uploads/gij-gitserver-jira-admin-system-support-tools-zip.png)
 
 You can create this file by accessing the Atlassian Support Tools in your Jira:
 
@@ -71,7 +71,7 @@ The debug logging level can be set by performing the following steps:
 
 3.  Scroll down to the _**Default Loggers**_ section, then click **Configure**.
 
-    ![](/wp-cotent/uploads/gij-gitserver-jira-admin-system-default-loggers-dlg-c.png)
+    ![](/wp-content/uploads/gij-gitserver-jira-admin-system-default-loggers-dlg-c.png)
 
 4.  On the following screen, enter `com.bigbrassband.jira.git` for _**Package name**_ then set _**Logging Level**_ to **DEBUG**.
 
