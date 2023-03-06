@@ -258,7 +258,7 @@ Examples:<br>
 <br>
 <br>
 
-[**Prev:** Smart commits (index)](/git-integration-for-jira-data-center/smart-commits-docs-gij-self-managed)
+[**Prev:** Smart commits (index)](/git-integration-for-jira-data-center/smart-commits-gij-self-managed)
 
 [**Next:** Smart commits - Advanced examples](/git-integration-for-jira-data-center/Advanced-examples-gij-self-managed)
 

@@ -17,7 +17,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        This documentation guide covers <b>v4.7</b> features. For more information on released features, see <a href='/git-integration-for-jira-data-center/git-integration-for-jira-data-center-release-notes-gij-self-managed'>Release notes</a>.
+        This documentation guide covers <b>v4.13</b> features. For more information on released features, see <a href='/git-integration-for-jira-data-center/git-integration-for-jira-data-center-release-notes-gij-self-managed'>Release notes</a>.
     </div>
     </div>
 </div>
@@ -32,7 +32,8 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
+
+<p>&nbsp;</p>
 
 * * *
 
@@ -126,7 +127,7 @@ This page contains information about disabling Source and Commits tabs in Jira.
 
 This page describes how to associate your commits to Jira issues.
 
-### [Smart commits](/git-integration-for-jira-data-center/smart-commits-docs-gij-self-managed)
+### [Smart commits](/git-integration-for-jira-data-center/smart-commits-gij-self-managed)
 
 Learn how to use smart commits to transition Jira issues. See workflow setting and permission requirements to get started.
 

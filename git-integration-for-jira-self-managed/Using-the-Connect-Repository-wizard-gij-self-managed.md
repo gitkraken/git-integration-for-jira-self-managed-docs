@@ -81,7 +81,7 @@ To start integrating a plain git repository, follow the steps below:
 
 ## Settings
 
-In the **Settings** screen, you can configure features such as [Smart Commits](/git-integration-for-jira-data-center/smart-commits-docs-gij-self-managed), [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed) and [Project Permission](/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed) settings.
+In the **Settings** screen, you can configure features such as [Smart Commits](/git-integration-for-jira-data-center/smart-commits-gij-self-managed), [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed) and [Project Permission](/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed) settings.
 
 ![](/wp-content/uploads/gij-connect-git-wizard-cfg-screen.png)
 
