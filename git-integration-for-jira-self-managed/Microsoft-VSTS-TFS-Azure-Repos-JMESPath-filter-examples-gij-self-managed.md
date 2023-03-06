@@ -65,6 +65,20 @@ Lists repositories with the names that start with `'git'` or end with `'test'`.
 
 4.  Lists all public repositories.
 
+<P>&nbsp;</p>
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Do note that the declared string format is case-sensitive.
+    </div>
+    </div>
+</div>
+<br>
+
 <hr>
 
 ## More articles on JMESPath filter examples
