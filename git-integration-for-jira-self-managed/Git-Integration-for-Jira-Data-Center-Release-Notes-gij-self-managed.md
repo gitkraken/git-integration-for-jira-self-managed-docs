@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 We publish new features, bug fixes, security updates/patches, and Jira compatibility regularly. Below are highlights of the changes.
 
 **Important links**

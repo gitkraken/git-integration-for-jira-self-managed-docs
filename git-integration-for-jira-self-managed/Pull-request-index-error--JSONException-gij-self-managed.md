@@ -53,7 +53,7 @@ Caused by: org.json.JSONException: A JSONObject text must begin with '{' at 1 [c
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        This issue should be resolved in <b>v3.5.0.2+</b>. If similar issue is found in later versions, please contact us at <a href='gijsupport@bigbrassband.com'>gijsupport@bigbrassband.com</a>.
+        This issue should be resolved in <b>v3.5.0.2+</b>. If similar issue is found in later versions, please contact us at <a href='gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
     </div>
     </div>
 </div>
