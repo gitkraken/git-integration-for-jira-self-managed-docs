@@ -49,6 +49,17 @@ Lists repositories with the names that start with `'git'` or end with `'test'`.
     </div>
     </div>
 </div>
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Do note that the declared string format is case-sensitive.
+    </div>
+    </div>
+</div>
 <br>
 
 <hr>
