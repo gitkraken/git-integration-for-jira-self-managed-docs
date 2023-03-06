@@ -63,7 +63,7 @@ GitHub Apps have different JMESPath format in comparison with previous GitHub in
 
 `repositories[] | [?starts_with(name, 'repo-prefix')]`
 
-This is a filter based on the text in the repository name. It lists repositories with the names that starts with the specified word. Do note that the declared string format is case-sensitive.
+This is a filter based on the text in the repository name. It lists repositories with the names that start with the specified word. Do note that the declared string format is case-sensitive.
 
 ## 2\. Contains (include)
 

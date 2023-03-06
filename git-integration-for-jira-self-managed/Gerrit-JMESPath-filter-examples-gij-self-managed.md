@@ -25,7 +25,7 @@ This is a filter based on the text in the repository name. It lists repositories
 
 `[?starts_with(name, 'git') || ends_with(name, 'test')]`
 
-Lists repositories with the names that starts with `'git'` or ends with `'test'`.
+Lists repositories with the names that start with `'git'` or end with `'test'`.
 
 ## 3. Contains (exclude)
 

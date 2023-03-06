@@ -45,7 +45,7 @@ Lists repositories with the names that do not contain the word `'test'`.
 
 `value[?starts_with(name, 'git') || ends_with(name, 'test')] | {value:@}`
 
-Lists repositories with the names that starts with `'git'` or ends with `'test'`.
+Lists repositories with the names that start with `'git'` or end with `'test'`.
 
 ## Other examples
 

@@ -73,7 +73,7 @@ Whitelists a project tag.
 
 `[?starts_with(name, 'git') || ends_with(name, 'test')]`
 
-Lists repositories with the names that starts with `'git'` or ends with `'test'`.
+Lists repositories with the names that start with `'git'` or end with `'test'`.
 
 ## 5\. Exclude projects without repositories
 
