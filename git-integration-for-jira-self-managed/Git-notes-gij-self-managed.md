@@ -104,6 +104,6 @@ For those who are using TortoiseGit client on Windows, you can perform the follo
 
 [**Prev:** Manually link git commits to Jira issues](/git-integration-for-jira-data-center/manually-link-git-commits-to-jira-issues-gij-self-managed)
 
-[**Next:** Smart commits](/git-integration-for-jira-data-center/smart-commits-docs-gij-self-managed)
+[**Next:** Smart commits](/git-integration-for-jira-data-center/smart-commits-gij-self-managed)
 
 

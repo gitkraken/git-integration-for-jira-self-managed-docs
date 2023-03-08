@@ -37,7 +37,7 @@ To connect a git repository to Jira via the Git Integration for Jira app:
 
     ![](/wp-content/uploads/gij-gitserver-connect-wizard-03a.png)
     
-    *   Change settings for [Smart Commits](/git-integration-for-jira-data-center/smart-commits-docs-gij-self-managed) and [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed) as required or leave the default settings as it is.
+    *   Change settings for [Smart Commits](/git-integration-for-jira-data-center/smart-commits-gij-self-managed) and [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed) as required or leave the default settings as it is.
 
     *   For **Project Permissions** settings, [see this article](/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed) for more information.
 
