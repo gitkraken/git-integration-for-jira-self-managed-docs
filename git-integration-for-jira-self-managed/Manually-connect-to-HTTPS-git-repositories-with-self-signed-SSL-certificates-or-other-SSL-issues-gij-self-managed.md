@@ -43,11 +43,16 @@ If the above solution doesn't work, see below for the steps to workaround this i
 <br>
 There are alternative solutions to make Java trust this certificate. Refer to the good articles from Atlassian which focuses on helping to resolve SSL Verification Issues:
 
-1.  <a href='https://confluence.atlassian.com/kb/unable-to-connect-to-ssl-services-due-to-pkix-path-building-failed-779355358.html' target='_blank'><b>Unable to Connect to SSL Services due to PKIX Path Building Failed</b></a>
+<ol>
+    <li>
+        <a href='https://confluence.atlassian.com/kb/unable-to-connect-to-ssl-services-due-to-pkix-path-building-failed-779355358.html' target='_blank'><b>Unable to Connect to SSL Services due to PKIX Path Building Failed</b></a>
+    </li>
+    <li>
+        <a href='https://confluence.atlassian.com/jira/connecting-to-ssl-services-117455.html' target='_blank'><b>Connecting to SSL services</b></a>
+    </li>
+</ol>
 
-2.  <a href='https://confluence.atlassian.com/jira/connecting-to-ssl-services-117455.html' target='_blank'><b>Connecting to SSL services</b></a>
-
-<br>
+<p>&nbsp;</p>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">

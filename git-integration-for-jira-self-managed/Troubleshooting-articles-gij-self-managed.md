@@ -59,17 +59,7 @@ This page contains a list of troubleshooting articles, workarounds and solutions
 
 [Jira index error: IndexNotFoundException: no segments* file found](/git-integration-for-jira-data-center/Jira-index-error--IndexNotFoundException--no-segments-file-found)
 
-#### INDEXING QUEUE VIEWER <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px 0 8px; font-size: small;'>NEW!</b>
-
-*   [How to see when some indexing tasks has stuck?](/git-integration-for-jira-data-center/Indexing-queue-viewer---How-to-see-when-some-indexing-tasks-has-stuck)
-
-*   [How to make sure only the dedicated node is reindexing?](/git-integration-for-jira-data-center/Indexing-queue-viewer---How-to-make-sure-only-the-dedicated-node-is-reindexing)
-
-*   [How to see the progress of an integration index?](/git-integration-for-jira-data-center/Indexing-queue-viewer---How-to-see-the-progress-of-an-integration-index)
-
-*   [Why my repository hasn't been removed yet?](/git-integration-for-jira-data-center/Indexing-queue-viewer---Why-my-repository-hasnt-been-removed-yet)
-
-*   [How to find a nested repository in ERROR state?](/git-integration-for-jira-data-center/Indexing-queue-viewer---How-to-find-a-nested-repository-in-ERROR-state)
+[Fixing reindex issues using Indexing Queue Viewer](//git-integration-for-jira-data-center/Fixing-reindex-issues-using-Indexing-Queue-Viewer-gij-self-managed)
 
 ### OTHERS
 
