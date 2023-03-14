@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 Before you can add new repository configuration via bulk change, you need to download the template file:
 
 1.  On the manage git configuration page, go to Bulk change ➜ **Import Configuration**. The following dialog is displayed.
@@ -26,11 +27,9 @@ Before you can add new repository configuration via bulk change, you need to dow
 </div>
 <br>
 
-<br>
-<br>
+&nbsp;
 <hr>
-<br>
-<br>
+&nbsp;
 
 [**Prev:** Import existing repositories via Bulk change](/git-integration-for-jira-data-center/import-existing-repositories-via-bulk-change-gij-self-managed)
 

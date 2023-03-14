@@ -26,7 +26,7 @@ The following instructions are for migrations of Jira to a different server. See
 
 ## Before you migrate
 
-1.  We recommend Jira admins upgrade to the latest version of [Git Integration app from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=server&tab=versions).
+1.  We recommend Jira admins upgrade to the latest version of [Git Integration for Jira app from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=server&tab=versions).
 
 2.  Verify that configured integrations and repositories in **Manage Git repositories** screen are correct and index properly.
 
