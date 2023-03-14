@@ -17,7 +17,7 @@ This guide covers related issue such as the unknown error example below:
 
 For generating the HAR file, we recommend to use Google Chrome. Make sure Chrome is updated to the latest version.
 
-<img src='browser-right-click-inspect.png' style='margin:25px auto;display:block;' />
+<img src='/wp-content/uploads/gij-browser-right-click-inspect.png' style='margin:25px auto;display:block;' />
 
 1.  Right click on the blank area of the page with the error then click **Inspect** on the context menu. This will open the browser web tools.
 
