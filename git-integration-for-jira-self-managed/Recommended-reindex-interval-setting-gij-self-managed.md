@@ -35,7 +35,7 @@ Improving Jira performance depends on the duration value of the scheduled jobs.Â
 
     ![](/wp-content/uploads/gij-gitserver-indexing-queue-mgr-loc-01.png)
 
-2.  On the indexing queue dashboard, under **Scheduled time for indexing, minutes** or **Garbage collection, minutes** panels to see the `Last run duration` value.
+2.  On the indexing queue dashboard, look under **Scheduled time for indexing, minutes** or **Garbage collection, minutes** panels to see the `Last run duration` value.
 
     ![](/wp-content/uploads/gij-gitserver-indexing-queue-viewer-gencfg-dashboard.png)
 
