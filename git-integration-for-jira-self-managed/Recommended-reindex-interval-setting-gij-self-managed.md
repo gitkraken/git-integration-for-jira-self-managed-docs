@@ -27,25 +27,19 @@ Set the automatic reindex interval frequency value in minutes as required. The 
 
 Regardless of the time to index, the reindex interval is the amount of time between the currently completed reindex task until the next reindex.
 
-Improving Jira performance depends on the duration value of the _RevisionIndexJob_. To see the `Last run duration` value, do the following steps:
+Improving Jira performance depends on the duration value of the scheduled jobs. To see the `Last run duration` value, do the following steps:
 
-1.  Go to <img src='/wp-content/uploads/actions-icon.png' /> Jira Administration ➜ **System**.
+<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.13+</b>
 
-2.  On the sidebar, select **Scheduler details**.
+1.  Go to **Indexing queue viewer** (Jira dashboard menu Git ➜ _**Indexing queue**_).
 
-3.  Scroll to `com.xiplink.jira.git.revisions.RevisionIndexJob`.
+    ![](/wp-content/uploads/gij-gitserver-indexing-queue-mgr-loc-01.png)
 
-    ![](/wp-content/uploads/gij-ira-system-sched-details-revidxjob-item-c.png)
+2.  On the indexing queue dashboard, under **Scheduled time for indexing, minutes** or **Garbage collection, minutes** panels to see the `Last run duration` value.
 
-4.  Click **Show more** under the Actions column.
+    ![](/wp-content/uploads/gij-gitserver-indexing-queue-viewer-gencfg-dashboard.png)
 
-    ![](/wp-content/uploads/gij-jira-system-sched-details-revisionindexjob-c.png)
-
-<br>
-
-<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.13+</b> The other recommended method to see the value of the <code>Last run duration</code> is to use the <a href='/git-integration-for-jira-data-center/Indexing-queue-viewer-gij-self-managed'>Indexing queue viewer</a>.
-
-<br>
+<p>&nbsp;</p>
 
 If the `Last run duration` value shows `3 minutes` _or greater_, we recommend to increase the reindex interval.
 
