@@ -43,6 +43,10 @@ Improving Jira performance depends on the duration value of the _RevisionIndexJo
 
 <br>
 
+<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.13+</b> The other recommended method to see the value of the <code>Last run duration</code> is to use the <a href='/git-integration-for-jira-data-center/Indexing-queue-viewer-gij-self-managed'>Indexing queue viewer</a>.
+
+<br>
+
 If the `Last run duration` value shows `3 minutes` _or greater_, we recommend to increase the reindex interval.
 
 <div class="bbb-callout bbb--tip">
