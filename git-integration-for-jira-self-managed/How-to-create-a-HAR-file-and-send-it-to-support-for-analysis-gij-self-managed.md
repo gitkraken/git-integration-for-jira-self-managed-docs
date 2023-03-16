@@ -23,13 +23,13 @@ For generating the HAR file, we recommend to use Google Chrome. Make sure Chrome
 
 2.  On the web tools UI, click on the **Network** tab.
 
-    ![](/wp-content/uploads/gij-browser-dev-tolls-network-tab.png)
+    ![](/wp-content/uploads/gij-browser-dev-tools-network-tab.png)
 
 3.  Reload the page to ensure that debug data is gathered from the very beginning.
 
 4.  If the error screen persist, click on the **Export HAR** icon then save the file to an easily-accessible location. Alternatively, right click on the results list then click _**Save all as HAR with content**_ on the context menu.
 
-    ![](/wp-content/uploads/gij-browser-dev-tolls-network-tab-export-har.png)
+    ![](/wp-content/uploads/gij-browser-dev-tools-network-tab-export-har.png)
 
 5.  Send this file to [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com) for analysis. If the file is larger than the email service attachment limit, you can use free Cloud storage services such as Google Drive, Dropbox etc. and share this link with our support team.
 
