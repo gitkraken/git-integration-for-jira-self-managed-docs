@@ -27,7 +27,7 @@ Download the [**Git app installer package from Atlassian Marketplace**](https:/
 
 Use manual install if you have a specific version of **Git Integration for Jira** downloaded from the marketplace or sent by some other file sharing method.
 
-1.  On the Jira dashboard, go to menu <img src='/wp-content/uploads/gij-jira-sys-admin-icon.png' /> Jira Administration ➜ **Manage Apps.**
+1.  On the Jira dashboard, go to menu ![](/wp-content/uploads/gij-jira-sys-admin-icon.png) Jira Administration ➜ **Manage Apps**.
 
     ![](/wp-content/uploads/gij-docs-installation-jira-admin-cfg-manage-apps-menu-c.png)
 

@@ -49,7 +49,7 @@ The dashboard displays the current number of processing tasks and tasks in the q
 
 Click **Clear queue** to free up the current queue of all tasks with <b style='background-color:#DEE0E5; padding:1px 5px; color:#44516C; border-radius:3px; margin: 0 5px; font-size: small;'>QUEUED</b> status.
 
-![](/wp-content/uploads/gij-gitserver-indexing-queue-viewer-gencfg-dashboard.png)
+![](/wp-content/uploads/gij-gitserver-indexing-queue-viewer-gencfg-dashboard-c.png)
 
 To the right of the dashboard is the Settings view panel. which shows information related to the general settings for scheduled indexing, garbage collection, etc.
 
