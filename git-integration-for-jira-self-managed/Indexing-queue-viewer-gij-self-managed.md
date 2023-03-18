@@ -43,7 +43,7 @@ This feature can be accessed via the Jira dashboard menu Git ➜ Indexing queue.
 
 ## Indexing queue dashboard
 
-![](/wp-content/uploads/gij-gitserver-indexing-queue-viewer-dashboard.png)
+![](/wp-content/uploads/gij-gitserver-indexing-queue-viewer-gencfg-dashboard-c.png)
 
 The dashboard displays the current number of processing tasks and tasks in the queue.
 

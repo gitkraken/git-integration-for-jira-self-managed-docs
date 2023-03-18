@@ -23,7 +23,7 @@ The configuration of the scheduler jobs are no longer accessible in the Jira adm
 
 ![](/wp-content/uploads/gij-gitserver-gencfg-scheduled-jobs-repo-ridx-cfg.png)
 
-Set the automatic reindex interval frequency value in minutes as required. The default value is **5** minutes.  Min = **1**, Max = **76,861,433,640,456**.
+Set the automatic reindex interval frequency value in minutes as required. The default value is **5 minutes**.  Min = **1**, Max = **76,861,433,640,456**.
 
 Regardless of the time to index, the reindex interval is the amount of time between the currently completed reindex task until the next reindex.
 
