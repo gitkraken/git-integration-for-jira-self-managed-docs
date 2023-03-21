@@ -16,7 +16,7 @@ taxonomy:
 
 Support for GitLens deep linking is now available in Git Integration for Jira app. Open repositories, commits, tags, and branches into GitLens using the relevant access locations in Jira.
 
-## Access locations
+## Deep link access locations
 
 The GitLens deep links are accessible on the following locations:
 

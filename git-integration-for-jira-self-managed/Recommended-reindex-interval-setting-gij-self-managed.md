@@ -25,9 +25,22 @@ The configuration of the scheduler jobs are no longer accessible in the Jira adm
 
 Set the automatic reindex interval frequency value in minutes as required. The default value is **5 minutes**.  Min = **1**, Max = **76,861,433,640,456**.
 
-Regardless of the time to index, the reindex interval is the amount of time between the currently completed reindex task until the next reindex.
+Starting from v4.0+ of the Git Integration for Jira app, the Reindex All task became much simplier. Reindex tasks are added for each repository and finishes all tasks without waiting for the completion of the new index tasks.
 
-Improving Jira performance depends on the duration value of the scheduled jobs. To see the `Last run duration` value, do the following steps:
+Since indexing queue does not allow duplicate tasks, Reindex All task will not be processed twice.
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Improving Jira performance depends on the duration value of the scheduled jobs. That's why, it's important to set the Reindex interval to greater than the Last run duraton value.
+    </div>
+    </div>
+</div>
+
+To see the `Last run duration` value, do the following steps:
 
 <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.13+</b>
 
@@ -49,7 +62,7 @@ If the `Last run duration` value shows `3 minutes` _or greater_, we recommend 
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The reindex interval must be greater or equal to the <code>Last run duration</code> value of <i>RevisionIndexJob</i> to improve Jira performance. For example, if the <code>Last run duration</code> value is <b>20 minutes</b>, set the Reindex interval value to <b>20 minutes or more</b> in the General settings page.
+        The reindex interval must be greater or equal to the <code>Last run duration</code> value of <i>RevisionIndexJob</i> to improve Jira performance. For example, if the <code>Last run duration</code> value is <b>19 minutes</b>, set the Reindex interval value to <b>20 minutes or more</b> in the General settings page.
     </div>
     </div>
 </div>
