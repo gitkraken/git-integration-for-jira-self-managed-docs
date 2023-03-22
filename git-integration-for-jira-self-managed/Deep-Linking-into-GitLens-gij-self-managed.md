@@ -74,7 +74,7 @@ Use the deeplinking panel on the Jira issue Git development sidebar to download 
 
 Individual Jira Data Center users can enable or disable the GitLens integration with Git Integration for Jira Data Center by visiting the Git Integration: User settings page.
 
-1.  Go to **Jira Profile** menu then click **Summary** on the sidebar.
+1.  From the Jira menu, go your **Jira Profile**. The Summary page is displayed.
 
 2.  Scroll down to _**Git Integration for Jira preferences**_ section.
 
@@ -94,11 +94,11 @@ The GitLens deeplinking feature is enabled by default in the General settings of
 
 Jira Data Center administrators can enable/disable this feature for all Jira users. All Jira Server users can enable the GitLens integration separately (see Profile settings)
 
-Go to the Git Integration for Jira – General settings tab (sidebar).
+Go to the Git Integration for Jira – **General settings** tab (sidebar).
 
-Enable/disable this setting under GitLens integration section.
+Enable/disable this setting under **GitLens integration** section.
 
-<img src='/wp-content/uploads/gij-gitserverdc-deeplink-gitlens-general-settings.png'  style='margin:25px auto;display:block;' alt='Access the GitLens option to enable/disable the feature in the General settings of the Git Integration for Jira app' />
+<img src='/wp-content/uploads/gij-gitserverdc-deeplink-gitlens-general-settings.png'  style='margin:25px auto;display:block;' alt='Access the GitLens integration option to enable/disable the feature in the General settings of the Git Integration for Jira app' />
 
 <br>
 
