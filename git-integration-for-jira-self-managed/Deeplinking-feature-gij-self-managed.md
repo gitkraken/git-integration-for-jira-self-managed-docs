@@ -18,7 +18,7 @@ GitKraken supports deep linking into Git Integration for Jira as well. To learn 
 
 GitLens 13.3 introduced deeplinking support and Git Integration for Jira allows users to open commit, tags and repository links into GitLens. To learn more about this feature, see [GitLens Deep Linking support](https://help.gitkraken.com/gitlens/gitlens-release-notes-current/#deep-linking-support).
 
-## See topics about deeplinking into apps
+## See topics about deeplinking integration
 
 [Deep Linking into GitKraken Git client](/git-integration-for-jira-data-center/deep-linking-to-the-gitkraken-git-client-gij-self-managed/)
 
