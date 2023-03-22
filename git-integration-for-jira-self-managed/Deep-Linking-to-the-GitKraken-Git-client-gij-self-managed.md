@@ -27,8 +27,6 @@ taxonomy:
 
 ## Deep link access locations
 
-![](/wp-content/uploads/gij-gitserver-gk-deeplinking-01c.png)
-
 The GitKraken deep links are accessible on the following locations:
 
 ### Jira issue – Git commits tab
