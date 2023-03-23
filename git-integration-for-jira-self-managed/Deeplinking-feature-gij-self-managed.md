@@ -10,7 +10,9 @@ taxonomy:
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b>
 <br>
 
-We've added the ability to deep link from repositories, commits, branches, and tags throughout the Git Integration for Jira app into the [GitKraken client](https://www.gitkraken.com). Deep linking allows you to quickly move between Jira and your Git source code. GitKraken supports deep linking into Git Integration for Jira as well. To learn more about this feature - see [GitKraken Integrations: Git Integration for Jira](https://support.gitkraken.com/integrations/git-integration-for-jira/).
+Deep linking allows you to quickly move between Jira and your Git source code.
+
+We've added the ability to deep link from repositories, commits, branches, and tags throughout the Git Integration for Jira app into the [GitKraken Git client](https://www.gitkraken.com) and [GitLens VS Code extension](https://www.gitkraken.com/gitlens).
 
 ![](/wp-content/uploads/gij-deeplinking-feature-example.png)
 
