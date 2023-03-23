@@ -24,23 +24,132 @@ The following instructions are for in-place upgrades + migrations of Jira on the
 </div>
 <br>
 
-## Before you upgrade/migrate
+# GitServer ➜ GitServer
 
-1.  We recommend Jira admins upgrade to the latest version of [Git Integration app from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=server&tab=versions).
+Do note that the steps outlined in this section is also applicable to Jira Data Center instances.
 
-2.  Verify that configured integrations and repositories in **Manage Git repositories** screen are correct and index properly.
+## Migration within the same server when Jira HOME path is unchanged
 
-3.  If you are upgrading the version of Jira during the migration - review the [**Upgrading Jira Applications article from Atlassian**](https://confluence.atlassian.com/adminjiraserver/upgrading-jira-applications-938846936.html).
+### Before you upgrade/migrate
 
-4.  Backup your Git Integration for Jira integration and repository configurations using the [Export function of the Bulk Change feature](/git-integration-for-jira-data-center/exporting-repository-configuration-via-bulk-change-gij-self-managed).
+1.  We recommend Jira admins to upgrade to the latest version of [Git Integration app from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=server&tab=versions).
 
-## Upgrade/migrate
+2.  Run the instance for some time (a few days or weeks) and once the testing is stable – then do the migration.
 
-Follow the [standard instructions from Atlassian for upgrading on the same server](https://confluence.atlassian.com/adminjiraserver/upgrading-jira-applications-938846936.html) (select your Jira version).
+### Upgrade/migrate
 
-## After you migrate
+Please follow the [standard instructions from Atlassian for upgrading on the same server](https://confluence.atlassian.com/adminjiraserver073/migrating-jira-applications-to-another-server-861253107.html) (select your Jira version).
 
-Verify that configured integrations and repositories in the **Manage Git repositories** screen are correct and index properly.
+No extra steps are required.
+
+### After you migrate
+
+Verify that configured integrations and repositories in the **Manage Git repositories** screen are correct and indexed properly.
+
+## Migration within the same server when Jira HOME path is changed (Classic)
+
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Pros:</b> Easy for migration.<br><br>
+        <b>Cons:</b> You will have to set up all your repository settings again (including mapping to projects, repository watchers and user PATs) and do a full reindexing for all your repositories.
+    </div>
+    </div>
+</div>
+
+### Before you migrate
+
+1.  We recommend Jira admins to upgrade to the latest version of [Git Integration app from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=server&tab=versions).
+
+2.  Run it for some time (a few days or weeks) and once the testing is stable – then do the migration.
+
+3.  Use the Git Integration [Bulk Change export](/git-integration-for-jira-data-center/exporting-repository-configuration-via-bulk-change-gij-self-managed/) to backup the integration settings and extract/save credentials for repositories.
+
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Please note that bulk export data contains lines for all repositories -- including those that were automatically created within integrations. You need only the data for 'top-level' repositories and integration to reconnect to all your repositories.
+    </div>
+    </div>
+</div>
+
+### Upgrade/migrate
+
+Please follow the [standard instructions from Atlassian for upgrading on the same server](https://confluence.atlassian.com/adminjiraserver073/migrating-jira-applications-to-another-server-861253107.html) (select your Jira version).
+
+No extra steps are required.
+
+### After you migrate
+
+1.  With Git Integration for Jira app, **remove all repositories** in Manage Git repositories.
+
+2.  Remove all repositories data from the `/data/git-plugin/` folder in the new Jira home directory (i.e. remove all folders which have the next format: `'<repositoryID>_<repositoryName>'`)
+
+3.  Reconnect to all integrations/repositories using new credentials or existing credentials from the exported save file via [Bulk Change import](/git-integration-for-jira-data-center/import-existing-repositories-via-bulk-change-gij-self-managed/). Your stored SSH keys will be migrated automatically.
+
+## Migration within the same server when Jira HOME path is changed (Recommended)
+
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Pros:</b> Less steps than Classic.<br><br>
+        <b>Cons:</b> You will have to change internal configuration files for the GitServer plugin. This should be done with extreme care.
+    </div>
+    </div>
+</div>
+
+### Before you migrate
+
+1.  We recommend Jira admins to upgrade to the latest version of [Git Integration app from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=server&tab=versions).
+
+2.  Run it for some time (a few days or weeks) and once the testing is stable – then do the migration.
+
+3.  Use the Git Integration [Bulk Change export](/git-integration-for-jira-data-center/exporting-repository-configuration-via-bulk-change-gij-self-managed/) to backup the integration settings.
+
+4.  Open the backup file with your favorite text editor and replace all occurrences of the **old Jira home path** with the **new Jira home path**.
+
+### Upgrade/migrate
+
+Please follow the [standard instructions from Atlassian for upgrading on the same server](https://confluence.atlassian.com/adminjiraserver073/migrating-jira-applications-to-another-server-861253107.html) (select your Jira version).
+
+No extra steps are required.
+
+### After you migrate
+
+Use Git Integration for Jira app: [Bulk import](/git-integration-for-jira-data-center/import-existing-repositories-via-bulk-change-gij-self-managed/) to load the updated backup file with the new Jira home path. This should reconnect all existing integration repositories as it was before the backup.
+
+## GitServer ➜ GitDataCenter
+
+If you are thinking of migrating your server installtion to Data Center, read the guidelines below to help you get up and running.
+
+### Before you migrate
+
+1.  We recommend Jira admins to upgrade to the latest version of [Git Integration app from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=server&tab=versions).
+
+2.  Run it for some time (a few days or weeks) and once the testing is stable – then do the migration.
+
+### Migration
+
+*   [Migrate from Server to Data Center](https://confluence.atlassian.com/enterprise/moving-from-server-to-data-center-953127136.html) – If you currently have apps installed on your server installation, you’ll also need to upgrade your apps to the Data Center version.
+
+*   [Atlassian Data Center migration plan](https://confluence.atlassian.com/enterprise/atlassian-data-center-migration-plan-935363952.html) – Gives some guidance on overall process, organizational preparedness, estimated time frames, and app compatibility.
+
+*   [Atlassian Data Center migration checklist](https://confluence.atlassian.com/enterprise/atlassian-data-center-migration-checklist-935383667.html) – Rrovides useful tests and checks to perform throughout the moving process.
+
+*   [Getting started with Atlassian Data Center](https://confluence.atlassian.com/enterprise/how-to-set-up-atlassian-data-center-954260161.html) – Migration is done? Read this to learn how to setup and configure Jira Data Center.
+
+### After you migrate
+
+Atlassian recommends using the applicable database backup tools in general BUT for migrations - Atlassian recommends using the [Jira XML backup](https://confluence.atlassian.com/adminjiraserver/backing-up-data-938847673.html) (helps when migrating to new OS / database / version of Jira)
 
 <p>&nbsp;</p>
 
