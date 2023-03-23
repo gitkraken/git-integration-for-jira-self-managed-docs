@@ -26,7 +26,7 @@ The following instructions are for in-place upgrades + migrations of Jira on the
 
 # GitServer ➜ GitServer
 
-Do note that the steps outlined in this section is also applicable to Jira Data Center instances.
+Do note that the steps outlined in this section are also applicable to Jira Data Center instances.
 
 ## Migration within the same server when Jira HOME path is unchanged
 
