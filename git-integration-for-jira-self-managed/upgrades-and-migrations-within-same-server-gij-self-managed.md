@@ -107,8 +107,15 @@ No extra steps are required.
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b>Pros:</b> Less steps than Classic.<br><br>
-        <b>Cons:</b> You will have to change internal configuration files for the GitServer plugin. This should be done with extreme care.
+        <b>Pros:</b><br>
+        <ul>
+            <li>Import repository configuration back easily.</li>
+            <li>No extra steps after bulk import post-migration</li>
+        </ul>
+        <b>Cons:</b><br>
+        <ul>
+            <li>You will have to change internal configuration files for the GitServer plugin. This should be done with extreme care.</li>
+        </ul>
     </div>
     </div>
 </div>
