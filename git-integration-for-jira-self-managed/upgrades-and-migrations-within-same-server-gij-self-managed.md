@@ -34,7 +34,7 @@ Do note that the steps outlined in this section are also applicable to Jira Data
 
 1.  We recommend Jira admins to upgrade to the latest version of [Git Integration app from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=server&tab=versions).
 
-2.  Run the instance for some time (a few days or weeks) and once the testing is stable – then do the migration.
+2.  Run the instance for some time (a few days) and once the testing is stable – then do the migration.
 
 ### Upgrade/migrate
 
@@ -70,7 +70,7 @@ Verify that configured integrations and repositories in the **Manage Git reposit
 
 1.  We recommend Jira admins to upgrade to the latest version of [Git Integration app from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=server&tab=versions).
 
-2.  Run it for some time (a few days or weeks) and once the testing is stable – then do the migration.
+2.  Run it for some time (a few days) and once the testing is stable – then do the migration.
 
 3.  Use the Git Integration [Bulk Change export](/git-integration-for-jira-data-center/exporting-repository-configuration-via-bulk-change-gij-self-managed/) to backup the integration settings and extract/save credentials for repositories.
 
@@ -117,7 +117,7 @@ No extra steps are required.
 
 1.  We recommend Jira admins to upgrade to the latest version of [Git Integration app from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=server&tab=versions).
 
-2.  Run it for some time (a few days or weeks) and once the testing is stable – then do the migration.
+2.  Run it for some time (a few days) and once the testing is stable – then do the migration.
 
 3.  Use the Git Integration [Bulk Change export](/git-integration-for-jira-data-center/exporting-repository-configuration-via-bulk-change-gij-self-managed/) to backup the integration settings.
 
@@ -141,7 +141,7 @@ If you are thinking of migrating your server installtion to Data Center, read th
 
 1.  We recommend Jira admins to upgrade to the latest version of [Git Integration app from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=server&tab=versions).
 
-2.  Run it for some time (a few days or weeks) and once the testing is stable – then do the migration.
+2.  Run it for some time (a few days) and once the testing is stable – then do the migration.
 
 ### Migration
 
@@ -149,7 +149,7 @@ If you are thinking of migrating your server installtion to Data Center, read th
 
 *   [Atlassian Data Center migration plan](https://confluence.atlassian.com/enterprise/atlassian-data-center-migration-plan-935363952.html) – Gives some guidance on overall process, organizational preparedness, estimated time frames, and app compatibility.
 
-*   [Atlassian Data Center migration checklist](https://confluence.atlassian.com/enterprise/atlassian-data-center-migration-checklist-935383667.html) – Rrovides useful tests and checks to perform throughout the moving process.
+*   [Atlassian Data Center migration checklist](https://confluence.atlassian.com/enterprise/atlassian-data-center-migration-checklist-935383667.html) – Provides useful tests and checks to perform throughout the moving process.
 
 *   [Getting started with Atlassian Data Center](https://confluence.atlassian.com/enterprise/how-to-set-up-atlassian-data-center-954260161.html) – Migration is done? Read this to learn how to setup and configure Jira Data Center.
 
