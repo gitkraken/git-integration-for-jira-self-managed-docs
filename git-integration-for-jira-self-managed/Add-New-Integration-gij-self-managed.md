@@ -61,6 +61,7 @@ Request body is a _JSON_ structure supporting the following parameters:
 | _**refSpecNotes**_ | _Boolean_. Optional. <br>This is a reference to `refs/notes/*` used for fetching. The default value for this field is _**true**_.<br><div class="bbb-callout bbb--info"><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">Git notes are not shown…<br><ul><li>when <code>refs/notes</code> are disabled on connecting a repository;</li><li>when a new note comes when <code>refs/notes</code> is disabled.</li></ul></div></div></div> |
 | _**refSpecChanges**_ | _Boolean_. Optional. <br>This is a reference to `refs/changes/*` used for fetching. The default value for this field is _**false**_. |
 | _**refSpecCustom**_ | _String_. Optional. <br>This is a user-defined list of references used for fetching. It is a comma-separated list with the format: `+refs/refname1/*:refs/refname1/*`, `refs/refname2/*:refs/refname2/*`, ... |
+| _**folderDepth**_ | _Integer_. Optional. <br>Valid value range: 1 - 5 <br>This parameter is required if _**integrationType**_ = `FILESPACE`. |
 
 <br>
 

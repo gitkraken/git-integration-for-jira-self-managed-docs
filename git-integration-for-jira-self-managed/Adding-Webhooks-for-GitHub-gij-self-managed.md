@@ -17,7 +17,7 @@ taxonomy:
         <ul>
             <li>Pushes event</li>
             <li>Pull request events</li>
-        </li>
+        </ul>
     </div>
     </div>
 </div>

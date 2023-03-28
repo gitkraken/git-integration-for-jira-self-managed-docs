@@ -33,26 +33,42 @@ Starts the reindex process in a separate thread and returns the result immediate
 ## Reindex POST API
 
 ### url
-`/rest/gitplugin/1.0/index.json`
+`/rest/gitplugin/2.0/reindex`
+
+<div class="bbb-callout bbb--error">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The old URL format (<code>/rest/gitplugin/1.0/index.json</code>) is deprecated.
+    </div>
+    </div>
+</div>
+<br>
 
 ### method
 POST
+
+### content-type
+application/json
 
 ### Parameters
 
 | Parameter | Condition |
 | :--- | :--- |
-| _**repoId**_ | _Array of Long_. Repository ID.  Form parameter.<br><br>**Example:**<br>Form param (`repoId: [133]`) |
+| _**repoId**_ | _Integer_. Repository ID. JSON parameter.<br><br>**Example:**<br>`/rest/gitplugin/2.0/reindex?repoId=133`<br><br>If _**repoId**_ is left as blank, the API will perform a reindex of all repositories. |
+| _**priority**_ | Set the priority of the operation. The tasks in the queue are processed in descending order of priority. Use the following priorities for indexing operations:<br>24 -- Manual reindex<br>22 -- Webhook reindex<br>20 -- Scheduled reindex<br>10 -- Remove repository<br>&nbsp;&nbsp;2 -- Git GC<br><br><b>Example:</b><br>`/rest/gitplugin/2.0/reindex?repoId=133&prioirity=20` |
 
 ### Response
 JSON
 
 <br>
 
-### Example:
+### Example with repoId assigned:
 
 ```json
-http://jira.yourorg.com/rest/gitplugin/1.0/index.json
+http://jira.yourorg.com/rest/gitplugin/2.0/reindex?repoID=133
 
 Body, JSON(application/json):
 {
@@ -63,20 +79,51 @@ Body, JSON(application/json):
  
 Response:
 {
-  "success":true,
-  "finished":true,
-  "threadId": xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
+  "success": true,
+  "finished": false,
+  "threadId": "c3989477-053b-4cb7-965c-1ab54690490f"
 }
 ```
 
-<br>
-<br>
+### Example with priority assigned:
+
+```json
+http://jira.yourorg.com/rest/gitplugin/2.0/reindex?repoID=133&priority=20
+
+Body, JSON(application/json):
+{
+  "repoId": [133],
+  "priority": 20
+}
+ 
+-----------------------
+ 
+Response:
+{
+  "success": true,
+  "finished": false,
+  "threadId": "c3989477-053b-4cb7-965c-1ab54690490f"
+}
+```
+
+### Example with blank repoId:
+
+```json
+http://jira.yourorg.com/rest/gitplugin/2.0/reindex
+
+-----------------------
+
+Response:
+{}
+```
+
+&nbsp;
 <hr>
-<br>
-<br>
+&nbsp;
 
 ## Reindex REST APIs
 
 **Reindex POST API** (this page)
 
 [Reindex GET API](/git-integration-for-jira-data-center/reindex-get-api-gij-self-managed)
+

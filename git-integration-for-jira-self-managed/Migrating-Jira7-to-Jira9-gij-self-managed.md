@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-Upgrading from Jira 8 to Jira provides new features, performance and stability. However, there are some small things that need to be considered for the transition.
+Upgrading from Jira 8 to Jira 9 provides new features, performance and stability. However, there are some small things that need to be considered for the transition.
 
 ## Resetting indexes
 
