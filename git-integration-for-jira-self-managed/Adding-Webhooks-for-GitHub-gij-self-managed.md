@@ -13,8 +13,9 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Pull request webhooks are now supported. See <a href='#pull-request-webhooks'>details</a> on this page.<div class='nextpara'>Supported webhook events:</div>
-        <ul>
+        Pull request webhooks are now supported. See <a href='#pull-request-webhooks'>details</a> on this page.
+        <div class='nextpara'>Supported webhook events:</div>
+        <ul style='margin-bottom: 0px !important'>
             <li>Pushes event</li>
             <li>Pull request events</li>
         </ul>
