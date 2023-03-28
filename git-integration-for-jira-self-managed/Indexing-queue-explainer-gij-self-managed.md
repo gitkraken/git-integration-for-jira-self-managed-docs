@@ -151,13 +151,24 @@ REPOSITORY\_UPDATE<br>
 WEB\_HOOK<br>
 TAGS\_CALCULATION<br>
 
-*   **Priority**. The priority of the operation. Tasks in the queue are executed in descending order of priority. GIJ plugin internally uses the following priorities for operations:
+*   **Priority**. The priority of the operation. Tasks in the queue are processed in descending order of priority. GIJ plugin internally uses the following priorities for operations:
 
 24 -- Manual reindex.
 22 -- Webhook reindex.
 20 -- Scheduled reindex.
 10 -- Remove repository.
 2 -- Git GC.
+
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The reindex priority can be assigned using the <a href='/git-integration-for-jira-data-center/Reindex-POST-API/'>Reindex POST API</a>. Set the <b><i>priority</i></b> parameter to place the task being added at the particular position in the indexing queue.
+    </div>
+    </div>
+</div>
 
 When a sub-repository (a repository inside an integration) is pushed into the queue - it gets the priority of the base (i.e. – integration) request +1.
 
