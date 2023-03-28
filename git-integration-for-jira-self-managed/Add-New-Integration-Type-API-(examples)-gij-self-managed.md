@@ -33,7 +33,7 @@ POST
 
 ### Prameters
 
-Request body is a _JSON_ structure.
+Request body is a JSON structure.
 
 For complete reference of the parameters, see [Add New Integration API](/git-integration-for-jira-data-center/add-new-integration-gij-self-managed/).
 
@@ -52,13 +52,10 @@ For complete reference of the parameters, see [Add New Integration API](/git-int
 
 ### GITHUB
 
-**Example 1: (Username/password)**
-
 ```json
 {
   "type": "GITHUB",
-  "password": "mypassword",
-  "username": "johnsmith",
+  "pat": "Sh#ft#t1Q6PDVm",
   "displayName": "johnsmith's GitHub via API"
 }
 ```
@@ -66,21 +63,6 @@ For complete reference of the parameters, see [Add New Integration API](/git-int
 <br>
 
 ### GITHUB ENTERPRISE
-
-**Example 1: (Username/password)**
-
-```json
-{
-  "type": "GITHUB_SERVER",
-  "displayName": "GitHub Ent. via API -- password",
-  "origin": "https://mygithub.yourorg.com",
-  "username": "githubadmin",
-  "password": "4TKaCXtaf59G",
-  "disableSslVerification": true
-}
-```
-
-**Example 2: (Personal access token)**
 
 ```json
 {
@@ -203,7 +185,7 @@ For complete reference of the parameters, see [Add New Integration API](/git-int
 {
   "type": "FILESPACE",
   "displayName": "Tracked folder via API",
-  "origin": "D:\tmp\*"
+  "origin": "D:\\tmp\\*"
 }
 ```
 

@@ -25,7 +25,18 @@ The configuration of the scheduler jobs are no longer accessible in the Jira adm
 
 Set the automatic reindex interval frequency value in minutes as required. The default value is **5 minutes**.  Min = **1**, Max = **76,861,433,640,456**.
 
-Starting from v4.0+ of the Git Integration for Jira app, the Reindex All task became much simplier. Reindex tasks are added for each repository and finishes all tasks without waiting for the completion of the new index tasks.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>VERSION 4.0+</b><br>
+        Starting from v4.0+ of the Git Integration for Jira app, the Reindex All task became much simplier. Reindex tasks are added for each repository and finishes all tasks without waiting for the completion of the new index tasks.
+    </div>
+    </div>
+</div>
+<br>
 
 Since indexing queue does not allow duplicate tasks, Reindex All task will not be processed twice.
 

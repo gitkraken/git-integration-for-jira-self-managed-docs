@@ -55,10 +55,12 @@ application/json
 
 ### Parameters
 
+Request body is a JSON structure.
+
 | Parameter | Condition |
 | :--- | :--- |
-| _**repoId**_ | _Integer_. Repository ID. JSON parameter.<br><br>**Example:**<br>`/rest/gitplugin/2.0/reindex?repoId=133`<br><br>If _**repoId**_ is left as blank, the API will perform a reindex of all repositories. |
-| _**priority**_ | Set the priority of the operation. The tasks in the queue are processed in descending order of priority. Use the following priorities for indexing operations:<br>24 -- Manual reindex<br>22 -- Webhook reindex<br>20 -- Scheduled reindex<br>10 -- Remove repository<br>&nbsp;&nbsp;2 -- Git GC<br><br><b>Example:</b><br>`/rest/gitplugin/2.0/reindex?repoId=133&prioirity=20` |
+| _**repoId**_ | _Integer_. Optional.<br><br>If _**repoId**_ is left as blank, the API will perform a reindex of all repositories. |
+| _**priority**_ |  _Integer_. Optional.<br><br>Set the priority of the operation. Default value is **24**. Any value greater or equal to **1** is allowed.<br><br>The tasks in the queue are executed in descending order of priority. The Git Integration for Jira app internally uses the following priorities for operations:<br>24 -- Manual reindex<br>22 -- Webhook reindex<br>20 -- Scheduled reindex<br>10 -- Remove repository<br>&nbsp;&nbsp;2 -- Git GC<br><br> |
 
 ### Response
 JSON
@@ -68,11 +70,11 @@ JSON
 ### Example with repoId assigned:
 
 ```json
-http://jira.yourorg.com/rest/gitplugin/2.0/reindex?repoID=133
+http://jira.yourorg.com/rest/gitplugin/2.0/reindex
 
 Body, JSON(application/json):
 {
-  "repoId": [133]
+  "repoId": 133,
 }
  
 -----------------------
@@ -88,11 +90,11 @@ Response:
 ### Example with priority assigned:
 
 ```json
-http://jira.yourorg.com/rest/gitplugin/2.0/reindex?repoID=133&priority=20
+http://jira.yourorg.com/rest/gitplugin/2.0/reindex
 
 Body, JSON(application/json):
 {
-  "repoId": [133],
+  "repoId": 133,
   "priority": 20
 }
  
@@ -114,7 +116,11 @@ http://jira.yourorg.com/rest/gitplugin/2.0/reindex
 -----------------------
 
 Response:
-{}
+{
+  "success": true,
+  "finished": false,
+  "threadId": "18cc6873-2b75-45b3-ab86-a6b1d09f6c9f"
+}
 ```
 
 &nbsp;
