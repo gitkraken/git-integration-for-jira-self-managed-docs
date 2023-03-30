@@ -74,7 +74,7 @@ http://jira.yourorg.com/rest/gitplugin/2.0/reindex
 
 Body, JSON(application/json):
 {
-  "repoId": 133,
+  "repoId": 133
 }
  
 -----------------------
