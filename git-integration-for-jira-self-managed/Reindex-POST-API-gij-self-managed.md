@@ -33,7 +33,7 @@ Starts the reindex process in a separate thread and returns the result immediate
 ## Reindex POST API
 
 ### url
-`/rest/gitplugin/2.0/reindex`
+`/rest/gitplugin/1.0/index.json`
 
 <div class="bbb-callout bbb--error">
     <div class="irow">
@@ -41,7 +41,7 @@ Starts the reindex process in a separate thread and returns the result immediate
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        The old URL format (<code>/rest/gitplugin/1.0/index.json</code>) is deprecated.
+        The old URL format (<code>/rest/gitplugin/1.0/index.json</code>) will be deprecated in GIJ v4.17+.
     </div>
     </div>
 </div>
@@ -57,10 +57,11 @@ application/json
 
 Request body is a JSON structure.
 
-| Parameter | Condition |
+| Parameter | Description |
 | :--- | :--- |
-| _**repoId**_ | _Integer_. Optional.<br><br>If _**repoId**_ is left as blank, the API will perform a reindex of all repositories. |
-| _**priority**_ |  _Integer_. Optional.<br><br>Set the priority of the operation. Default value is **24**. Any value greater or equal to **1** is allowed.<br><br>The tasks in the queue are executed in descending order of priority. The Git Integration for Jira app internally uses the following priorities for operations:<br>24 -- Manual reindex<br>22 -- Webhook reindex<br>20 -- Scheduled reindex<br>10 -- Remove repository<br>&nbsp;&nbsp;2 -- Git GC<br><br> |
+| _**repoId**_ | Array of Long. Form parameter.<br><br>This is the repository ID, separated by commas.<br><br>**Examples:**<br>Form param (`"repoId": [133]`)<br>Form param (`"repoId": [133,142,...,154]`) |
+
+&nbsp;
 
 ### Response
 JSON
@@ -70,59 +71,22 @@ JSON
 ### Example with repoId assigned:
 
 ```json
-http://jira.yourorg.com/rest/gitplugin/2.0/reindex
-
+http://jira.yourorg.com/rest/gitplugin/1.0/index.json
+ 
 Body, JSON(application/json):
 {
-  "repoId": 133
+  "repoId": [133]
 }
  
 -----------------------
  
 Response:
 {
-  "success": true,
-  "finished": false,
-  "threadId": "c3989477-053b-4cb7-965c-1ab54690490f"
+  "success":true,
+  "finished":true,
+  "threadId": xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 }
 ```
-
-### Example with priority assigned:
-
-```json
-http://jira.yourorg.com/rest/gitplugin/2.0/reindex
-
-Body, JSON(application/json):
-{
-  "repoId": 133,
-  "priority": 20
-}
- 
------------------------
- 
-Response:
-{
-  "success": true,
-  "finished": false,
-  "threadId": "c3989477-053b-4cb7-965c-1ab54690490f"
-}
-```
-
-### Example with blank repoId:
-
-```json
-http://jira.yourorg.com/rest/gitplugin/2.0/reindex
-
------------------------
-
-Response:
-{
-  "success": true,
-  "finished": false,
-  "threadId": "18cc6873-2b75-45b3-ab86-a6b1d09f6c9f"
-}
-```
-
 &nbsp;
 <hr>
 &nbsp;
