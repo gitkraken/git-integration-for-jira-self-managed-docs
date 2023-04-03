@@ -13,18 +13,18 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 
 **What's on this page:**
 - [Accessible locations](#accessible-locations)
-- [GitHub.com and GitHub Enterprise examples](#githubcom-and-github-enterprise-examples)
-  - [1\. Lists all repositories (default)](#1-lists-allrepositories-default)
-  - [2\. Display all repositories from \<username\>](#2-display-allrepositories-from-username)
-  - [3\. Displays starred repositories](#3-displays-starredrepositories)
-  - [4\. List all repositories for the specified organization](#4-list-allrepositories-for-the-specified-organization)
-- [GitLab.com and GitLab CE|EE examples](#gitlabcom-and-gitlab-ceee-examples)
+- [GitHub.com and GitHub Enterprise examples](#github-com-and-github-enterprise-examples)
+  - [1\. Lists all repositories (default)](#1-lists-all-repositories-default)
+  - [2\. Display all repositories from \<username\>](#2-display-all-repositories-from-username)
+  - [3\. Displays starred repositories](#3-displays-starred-repositories)
+  - [4\. List all repositories for the specified organization](#4-list-all-repositories-for-the-specified-organization)
+- [GitLab.com and GitLab CE|EE examples](#gitlab-com-and-gitlab-ceee-examples)
   - [1\. Lists all projects (default)](#1-lists-all-projects-default)
   - [2\. Display all projects from \<user\_id\>](#2-display-all-projects-from-user_id)
-  - [3\. Displays starred projects](#3-displays-starredprojects)
+  - [3\. Displays starred projects](#3-displays-starred-projects)
   - [4\. Limit to owned projects](#4-limit-to-owned-projects)
-  - [5\. List projects from within a Group](#5-list-projects-from-within-a-group)
-  - [6\. List projects from the specified sub-group](#6-list-projects-from-the-specified-sub-group)
+  - [5\. List projects from within a group](#5-list-projects-from-within-a-group)
+  - [6\. List projects from the specified sub-group](#6-list-projects-from-the-specified-subgroup)
 - [More how-to articles](#more-how-to-articles)
 
 <br>
@@ -53,13 +53,13 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 
 ## GitHub.com and GitHub Enterprise examples
 
-### 1\. Lists all repositories (default)
+### 1\. Lists all repositories (default)
 
     `/user/repos`
 
     Gets a list of repositories by the authenticated user. This is the same as when no API path is specified.
 
-### 2\. Display all repositories from \<username\>
+### 2\. Display all repositories from \<username\>
 
     `/users/<username>/repos`
 
@@ -67,7 +67,7 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 
     **For example:** `/users/johnsmith/repos`
 
-### 3\. Displays starred repositories
+### 3\. Displays starred repositories
 
     `/user/starred`
 
@@ -79,7 +79,7 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 
     **For example:** `/users/johnsmith/starred`
 
-### 4\. List all repositories for the specified organization
+### 4\. List all repositories for the specified organization
 
     `/orgs/<org>/repos`
 
@@ -109,7 +109,7 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 
     Gets a list of projects for the specified user, **\<user\_id\>**.  __johnsmith__
 
-### 3\. Displays starred projects
+### 3\. Displays starred projects
 
     `/api/v4/projects?starred=true`
 
@@ -121,15 +121,15 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 
     The current user will be limited to the projects it's explicitly owned.
 
-### 5\. List projects from within a Group
+### 5\. List projects from within a group
 
     `/api/v4/groups/5245789/projects<br>/api/v4/groups/BigBrassBand/projects`
 
-    Returns the list of repositories within a GitLab Group (or GitLab Subgroup).
+    Returns the list of repositories within a GitLab group (or GitLab subgroup).
     
     In the above examples, you can use the **Group id** or your **Group** **name** as query parameter.
 
-### 6\. List projects from the specified sub-group
+### 6\. List projects from the specified subgroup
 
     `/api/v4/groups/5245789/projects?include_subgroups=true
     /api/v4/groups/GitKraken/projects?include_subgroups=true
