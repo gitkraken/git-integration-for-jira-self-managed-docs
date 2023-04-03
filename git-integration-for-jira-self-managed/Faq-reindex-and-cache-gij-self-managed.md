@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 This page contains related questions about git notes, reindex tracking and control.
 
 Use the FAQ below to find answers to common questions. Feel free to contact our support team ([gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com?subject=Reindex%20issues%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you don't see what you're looking for.
@@ -16,8 +17,9 @@ Use the FAQ below to find answers to common questions. Feel free to contact our 
 - [How do I completely rebuild plugin indexes?](#how-do-i-completely-rebuild-plugin-indexes)
 - [How do I clear the Git Integration for Jira app cache manually?](#how-do-i-clear-the-git-integration-for-jira-app-cache-manually)
 - [Is it possible to track the specified branches when reindexing?](#is-it-possible-to-track-the-specified-branches-when-reindexing)
-- [Is there a URL I can call to trigger fetch and re-index? Would be nice to add as service hook to GitHub/Gitlab.](#is-there-a-url-i-can-call-to-trigger-fetch-and-re-index-would-be-nice-to-add-as-service-hook-to-githubgitlab)
+- [Is there a URL I can call to trigger fetch and re-index? Would be nice to add as service hook to GitHub or Gitlab](#is-there-a-url-i-can-call-to-trigger-fetch-and-re-index-would-be-nice-to-add-as-service-hook-to-github-or-gitlab)
 - [The git notes are still not visible in Jira. What should I do?](#the-git-notes-are-still-not-visible-in-jira-what-should-i-do)
+
 
 <br>
 <br>
@@ -127,7 +129,7 @@ If you think that the Git caches are corrupt and needed to be removed, please do
 
 No. The Git Integration for Jira app is designed to do a full index.
 
-## Is there a URL I can call to trigger fetch and re-index? Would be nice to add as service hook to GitHub/Gitlab.
+## Is there a URL I can call to trigger fetch and re-index? Would be nice to add as service hook to GitHub or Gitlab
 
 Yes  –  the following url can be used:
 
