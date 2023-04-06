@@ -1,6 +1,6 @@
 ---
 
-title: Bulk Export
+title: Bulk Export API
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -13,7 +13,7 @@ Only Jira admins can perform the Bulk Export API call.
 ## Bulk Export Configuration
 
 ### url
-`/rest/gitplugin/1.0/`**configuration**
+`/rest/gitplugin/1.0/configuration`
 
 ### method
 GET

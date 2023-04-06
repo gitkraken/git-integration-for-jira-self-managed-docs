@@ -29,7 +29,7 @@ Jira Project key (string). _**Optional**_.  Query parameter.  If omitted, al
 JSON
 
 ### Example:
-`http://jira.yourorg.com/rest/gitplugin/1.0/`**repository**`?`**projectKey**`=`**TST**
+`http://jira.yourorg.com/rest/gitplugin/1.0/repository?projectKey=TST`
 
 ```json
 {

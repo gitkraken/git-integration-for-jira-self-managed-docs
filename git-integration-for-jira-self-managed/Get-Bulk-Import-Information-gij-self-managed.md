@@ -39,7 +39,7 @@ Returns the status information of the import process.
 
 ### Example:
 
-`http://jira.example.org/rest/gitplugin/1.0/`**configuration**`/progress.json?`**thread\_id**`=`**123**
+`http://jira.example.org/rest/gitplugin/1.0/configuration/progress.json?thread\_id=123`
 
 ```json
 Response example:

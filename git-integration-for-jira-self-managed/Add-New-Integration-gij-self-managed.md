@@ -24,7 +24,7 @@ Adds a new integration to the git configuration list via the API call.
 ## Add new integration
 
 ### url
-`/rest/gitplugin/1.0/`**integration**
+`/rest/gitplugin/1.0/integration`
 
 ### method
 POST
@@ -71,7 +71,7 @@ This will add a new integration of the connected git host to the git repository 
 
 ### Example:
 
-`https://jira.yourorg.com/rest/gitplugin/1.0/`**integration**
+`https://jira.yourorg.com/rest/gitplugin/1.0/integration`
 
 ```json
 {

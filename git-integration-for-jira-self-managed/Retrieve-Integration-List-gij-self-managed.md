@@ -14,14 +14,14 @@ Only Jira admins can perform the Retrieve Integration List API call.
 ## Retrieve Integration List
 
 ### url
-`/rest/gitplugin/1.0/`**integration**
+`/rest/gitplugin/1.0/integration`
 
 ### method
 GET
 
 ### Example:
 
-`http://jira.yourorg.com/rest/gitplugin/1.0/`**integration**
+`http://jira.yourorg.com/rest/gitplugin/1.0/integration`
 
 **Response example:**
 
