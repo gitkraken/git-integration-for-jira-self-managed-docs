@@ -15,7 +15,7 @@ Only Jira admins can perform the Retrieve an Integration API call.
 ### Retrieve an Integration
 
 ### url
-`/rest/gitplugin/1.0/`**integration**`/`**{integrationId}**
+`/rest/gitplugin/1.0/integration/{integrationId}`
 
 ### method
 GET
@@ -28,7 +28,7 @@ GET
 
 ### Example:
 
-`http://jira.yourorg.com/rest/gitplugin/1.0/`**integration**`/`**2**
+`http://jira.yourorg.com/rest/gitplugin/1.0/integration/2`
 
 **Response example:**
 

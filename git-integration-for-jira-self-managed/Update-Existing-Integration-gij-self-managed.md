@@ -24,7 +24,7 @@ Updates the existing parameters of the specified integration.
 ## Update Existing Integration
 
 ### url
-`/rest/gitplugin/1.0/`**integration**`/`**\{integrationId\}**
+`/rest/gitplugin/1.0/integration/\{integrationId\}`
 
 ### integrationId
 _Integer_. Required.
@@ -75,7 +75,7 @@ The Request body is a _JSON_ structure similar to the [Add New Integration AP
 Updates the recent changes of the parameters for the specified integration.
 
 **Example 1:**<br>
-`http://jira.yourorg.com/rest/gitplugin/1.0/`**integration**`/`**1**
+`http://jira.yourorg.com/rest/gitplugin/1.0/integration/1`
 
 Request body (JSON) example:
 
@@ -134,7 +134,7 @@ Response:
 <br>
 
 **Example 2: Restrict an integration to project(s)**<br>
-`http://jira.yourorg.com/rest/gitplugin/1.0/`**integration**`/`**1**
+`http://jira.yourorg.com/rest/gitplugin/1.0/integration/1`
 
 Request body (JSON) example:
 

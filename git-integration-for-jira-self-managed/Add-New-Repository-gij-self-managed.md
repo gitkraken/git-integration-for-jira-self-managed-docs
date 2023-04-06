@@ -25,7 +25,7 @@ Creates new repository from the given settings.
 ## Add New Repository
 
 ### url
-`/rest/gitplugin/1.0/`**repository**
+`/rest/gitplugin/1.0/repository`
 
 ### method
 POST
@@ -39,9 +39,8 @@ Request body is a _JSON_ structure supporting the following parameters:
 | _**displayName**_ | _String_. Optional.<br><br>This is the name that will appear in the Git Integration for Jira app repositories list. |
 | _**origin**_ | _String_. Required.<br><br>This is the URL to the hosted git service used on the project.<br><br>For example, you might host your repository on GitHub, Beanstalk or your own server. |
 | _**mainBranch**_ | _String._ Optional.<br><br>The specified branch will intend to organize the Git Commit tab. A commit will not be shown in other branches if it is a part of the main branch. By default, "master" will be used if a main branch is not specified. |
-| _**root**_ | _String_. Optional.<br><br>This is the local path to the repository on the server where your Jira service is running. This will point the Git Integration for Jira app to a clone of the repository hosted locally with Jira. |
-| _**realRoot**_ | _String_. **Optional on existing servers**.<br><br>This is the local path to the repository on the server where your Jira service is running. This will point the Git Integration for Jira app to a clone of the repository hosted locally with Jira.<br><br>This field corresponds to the **Repository root** input box in the Advanced setup/Repository settings.<br><br>![](/wp-content/uploads/bbb-info-20.png) The _**realRoot**_ field may refer to an existing repository on a new server. If "root" doesn't exist, this field must be blank.<br><br>![](/wp-content/uploads/bbb-note-20.png) If this field is specified, _**absoluteRoot**_ must also be defined. |
-| _**absoluteRoot**_ | _Boolean_. Optional.<br><br>This field corresponds to the **Cloned root location** input field in the Advanced setup/Repository settings.<br><br>If set to **true**, the repository is automatically managed by Git Integration for Jira app (stored in `$JiraHOME`).<br><br>If set to **false**, the repository is manually configured by the Jira administrator.<br><br>![](/wp-content/uploads/bbb-note-20.png) If this field is specified, _**realRoot**_ must also be defined. |
+| _**realRoot**_ | _String_. **Optional on existing servers**.<br><br>This is the local path to the repository on the server where your Jira service is running. This will point the Git Integration for Jira app to a clone of the repository hosted locally with Jira.<br><br>This field corresponds to the **Repository root** input box in the Advanced setup/Repository settings.<br><br>![](/wp-content/uploads/bbb-info-20.png) The `realRoot` field may refer to an existing repository on a new server. If "root" doesn't exist, this field must be blank.<br><br>![](/wp-content/uploads/bbb-note-20.png) If this field is specified, `absoluteRoot` must also be defined. |
+| _**absoluteRoot**_ | _Boolean_. Optional.<br><br>This field corresponds to the **Cloned root location** input field in the Advanced setup/Repository settings.<br><br>If set to **false**, the repository realRoot is a path relative to `${JiraHOME}/data/git-plugin` folder.<br><br>![](/wp-content/uploads/bbb-note-20.png) If this field is specified, `realRoot` must also be defined.<br><br>![](/wp-content/uploads/bbb-alert-20.png) Repositories located in the folder are automatically managed by the Git Integration for Jira app. |
 | _**disabled**_ | _Boolean._ Optional.<br><br>Set the repository status to updated (enabled) or disabled. If left blank, the default value for this field is _**false**_. |
 | _**enableFetches**_ | _Boolean._ Optional.<br><br>Set to _**true**_ to enable fetches on git repositories hosted on remote servers.<br><br>Set to _**false**_ to enable fetches on git repositories hosted on the same server as Jira. |
 | _**sendCommitEmails**_ | _Boolean._ Optional.<br><br>Enables or disables commit notification emails for this repository. |
@@ -80,7 +79,7 @@ Adds a new repository to the Git Integration for Jira app repository configurati
 
 ### Example:
 
-`http://jira.yourorg.com/rest/gitplugin/1.0/`**repository**`.json`
+`http://jira.yourorg.com/rest/gitplugin/1.0/repository.json`
 
 Request body (JSON) example:
 

@@ -24,7 +24,7 @@ Call the Get Commits REST API to obtain commit information associated with an is
 ## Get Commits
 
 ### url
-`/rest/gitplugin/1.0/`**issues**`/`**{issueKey}**`/commits`
+`/rest/gitplugin/1.0/issues/{issueKey}/commits`
 
 ### method
 GET
@@ -41,7 +41,7 @@ Returns the result in the example below.
 
 ### Example:
 
-`http://jira.yourorg.com/rest/gitplugin/1.0/`**issues**`/`**TST-234**`/commits`
+`http://jira.yourorg.com/rest/gitplugin/1.0/issues/TST-234/commits`
 
 ```json
 Returns the following example result:

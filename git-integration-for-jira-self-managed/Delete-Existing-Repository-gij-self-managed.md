@@ -26,7 +26,7 @@ Deletes the existing repository from the Git Integration for Jira app repository
 ## Delete Existing Repository properties
 
 ### url
-`/rest/gitplugin/1.0/`**repository**
+`/rest/gitplugin/1.0/repository`
 
 ### method
 DELETE
@@ -45,7 +45,7 @@ Deletes the repository from the Git Integration for Jira app repository configur
 ### Examples
 
 **Example 1:**<br>
-`http://jira.yourorg.com/rest/gitplugin/1.0/`**repository**`?`**id=3**`&`**deleteFiles=true**
+`http://jira.yourorg.com/rest/gitplugin/1.0/repository?id=3&deleteFiles=true`
 
 ```json
 Response:
@@ -55,7 +55,7 @@ Response:
 ```
 
 **Example 2:**<br>
-`http://jira.yourorg.com/rest/gitplugin/1.0/`**repository**`?`**id=5**
+`http://jira.yourorg.com/rest/gitplugin/1.0/repository?id=5`
 
 ```json
 Response:

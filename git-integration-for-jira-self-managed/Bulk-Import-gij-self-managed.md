@@ -147,9 +147,6 @@ Take note that the .tsv file is verified by the Git Integration for Jira app wit
 
 <p>&nbsp;</p>
 
-<br>
-<br>
-
 ## Bulk Change REST APIs
 
 *   [Bulk Export](/git-integration-for-jira-data-center/bulk-export-gij-self-managed) (Git Integration for Jira Server/Data Center)

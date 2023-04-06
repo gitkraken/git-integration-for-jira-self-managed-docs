@@ -22,7 +22,7 @@ The Tag REST API returns several latest tags for the issue.  Tags are sorted in
 
 
 ### url
-`/rest/gitplugin/1.0/issuegitdetails/issue/`**{issuekey}**`/tag`
+`/rest/gitplugin/1.0/issuegitdetails/issue/{issuekey}/tag`
 
 ### method
 GET
@@ -32,7 +32,7 @@ GET
 | Parameter | Description |
 | :--- | :--- |
 | _**issueKey**_ | _String_. Required. Path parameter.<br><br>This is the Jira Issue Key – a concatenation of Project key and Issue number. It must contain a dash ('-'). The _**issueKey**_ must be valid and existent.<br><br>For example: `TST-435`. |
-| _**tagsPerRepository**_ | _Integer._ Required.<br><br>This parameter limits the total number of tags returned.<br><br>Use values greater than or equal to **1** (`RECOMMENDED`).<br><br>Using the zero (0) value will return all tags linked to the issue but this greatly impacts Jira performance (`NOT RECOMMENDED`).<br><br>**Example:**<br><br>`/rest/gitplugin/1.0/issuegitdetails/issue/`**TST-435**`/tag?`**tagsPerRepository=2** |
+| _**tagsPerRepository**_ | _Integer._ Required.<br><br>This parameter limits the total number of tags returned.<br><br>Use values greater than or equal to **1** (`RECOMMENDED`).<br><br>Using the zero (0) value will return all tags linked to the issue but this greatly impacts Jira performance (`NOT RECOMMENDED`).<br><br>**Example:**<br><br>`/rest/gitplugin/1.0/issuegitdetails/issue/TST-435/tag?tagsPerRepository=2` |
 
 <br>
 
@@ -48,7 +48,7 @@ The additional flag _**hasMore**_ indicates if an issue contains more tags. I
 
 ### Example:
 
-`http://jira.yourorg.com/rest/gitplugin/1.0/`**issuegitdetails**`/issue/`**TST-435**`/`**tag**`?`**tagsPerRepository**\=**2**
+`http://jira.yourorg.com/rest/gitplugin/1.0/issuegitdetails/issue/TST-435/tag?tagsPerRepository=2`
 
 **Result:**
 

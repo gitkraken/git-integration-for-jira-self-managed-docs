@@ -36,7 +36,7 @@ Returns the list of issues associated with the commit from the specified reposit
 ## Get Commit Issue Changes
 
 ### url
-`http://`**<jira-host>**`/rest/gitplugin/1.0/`**repository**`/`**{repoId}**`/commits/`**{commitHash}**`/issues`
+`http://\<jira-host\>/rest/gitplugin/1.0/repository/{repoId}/commits/{commitHash}/issues`
 
 ### method
 GET
@@ -57,7 +57,7 @@ Returns the result for the example below.
 
 ### Examples
 
-`http://`**local-host-jira.com:2990**`/rest/gitplugin/1.0/`**repository**`/`**1**`/commit/`**e012663bf9bd968388faa510cb5b310e4798c512**`/issues`
+`http://local-host-jira.com:2990/rest/gitplugin/1.0/repository/1/commit/e012663bf9bd968388faa510cb5b310e4798c512/issues`
 
 **Result:**
 ```json

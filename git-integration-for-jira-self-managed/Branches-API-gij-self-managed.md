@@ -34,7 +34,7 @@ The Branches REST API will obtain list of branches associated to a Jira issue.
 ## Branches
 
 ### url
-`/rest/gitplugin/1.0/issues/branches?`**key**`=`**{issuekey}**
+`/rest/gitplugin/1.0/issues/branches?key={issuekey}`
 
 ### method
 GET
@@ -51,7 +51,7 @@ If the _optional query_ is not defined, it will return all indexed git branche
 
 ### Example
 
-`http://jira.yourorg.com/rest/gitplugin/1.0/issues/branches?`**key="TST-435"**
+`http://jira.yourorg.com/rest/gitplugin/1.0/issues/branches?key="TST-435"`
 
 ```json
 Result:

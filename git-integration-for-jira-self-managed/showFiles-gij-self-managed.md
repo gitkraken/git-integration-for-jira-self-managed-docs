@@ -23,7 +23,7 @@ Extend the Commits REST API to review which files changed related to a specific 
 ## showFiles (Commits REST API extension)
 
 ### url
-`/rest/gitplugin/1.0/issues/`**\{issueKey\}**`/commits{?`**showFiles**`=[`**true**`|`**false**`]}`
+`/rest/gitplugin/1.0/issues/{issueKey}/commits{?showFiles=[true|false]}`
 
 ### method
 GET
@@ -40,7 +40,7 @@ GET
 
 ### Example usage:
 
-`http://jira.yourorg.com/jira/rest/gitplugin/1.0/issues/`**TST-123**`/commits?`**showFiles=true**
+`http://jira.yourorg.com/jira/rest/gitplugin/1.0/issues/TST-123/commits?showFiles=true`
 
 ```json
 Returns the following example result, if showFiles=true:
