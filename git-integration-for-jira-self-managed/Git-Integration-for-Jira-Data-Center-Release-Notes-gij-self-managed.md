@@ -22,6 +22,26 @@ If you have any questions, please contact us through our [Support Portal](https:
 
 * * *
 
+## GitLens for Visual Studio Code Integration
+'29 Mar 2023' <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ALL USERS</b>
+
+This workflow improvement is a great addition for developers that are using Visual Studio Code to edit source code. [GitLens](https://www.gitkraken.com/gitlens) is a Visual Studio Code extension that helps users visualize code, explore Git repositories, use powerful compare commands and so much more. From within Jira, clicking on the GitLens icon next to repositories, commits, tags, and branches will open them in VS Code.
+
+![](https://help.gitkraken.com/wp-content/uploads/gij-gitserverdc-deeplink-gitlens-issue-git-commits.png)
+
+This enables team members to quickly transition between Jira and their code editor without losing context. GitLens deep links are located within Jira issues and the Repository Browser. [View the help article](https://help.gitkraken.com/git-integration-for-jira-data-center/deep-linking-into-gitlens-gij-self-managed/) for more information.
+
+## Indexing Queue Viewer
+'26 Jan 2023' <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
+
+The Indexing queue viewer allows you to easily view upcoming and in-progress tasks such as repository indexing and garbage collection.
+This provides greater visibility into what's happening with your repositories and system resources.
+
+![](https://help.gitkraken.com/wp-content/uploads/gij-gitserver-gitmgr-indexing-queue-viewer.png)
+
+This view displays detailed information about the tasks - which node it was processed on, start time, finish time, processing time, task id, and more.
+Easily see which tasks are in the queue, find specific tasks by history, and filter tasks by specific parameters. [View the help article](https://help.gitkraken.com/git-integration-for-jira-data-center/indexing-queue-viewer-gij-self-managed/) to learn more.
+
 ## Dedicated indexing nodes for Jira Data Center
 
 `22 Mar 2022` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
