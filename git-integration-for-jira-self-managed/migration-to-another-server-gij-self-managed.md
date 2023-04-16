@@ -24,23 +24,41 @@ The following instructions are for migrations of Jira to a different server. See
 </div>
 <br>
 
-## Before you migrate
+## Migration to another server when Jira Home is not changed
 
-1.  We recommend Jira admins upgrade to the latest version of [Git Integration for Jira app from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=server&tab=versions).
+### Before you migrate
 
-2.  Verify that configured integrations and repositories in **Manage Git repositories** screen are correct and index properly.
+We recommend Jira admins to upgrade to the latest version of [Git Integration app from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=server&tab=versions).
 
-3.  If you are upgrading the version of Jira during the migration - review the [**Upgrading Jira Applications article from Atlassian**](https://confluence.atlassian.com/adminjiraserver/upgrading-jira-applications-938846936.html).
+Run the instance for some time (a few days or weeks) and once the testing is stable – then do the migration.
 
-4.  Backup your Git Integration for Jira integration and repository configurations using the [Export function of the Bulk Change feature](/git-integration-for-jira-data-center/exporting-repository-configuration-via-bulk-change-gij-self-managed/).
+### Upgrade/migrate
 
-## Upgrade/migrate
+Follow the [standard instructions from Atlassian on migrating to another server](https://confluence.atlassian.com/adminjiraserver073/migrating-jira-applications-to-another-server-861253107.html) (select your Jira version).
 
-Follow the [standard instructions from Atlassian for upgrading on the same server](https://confluence.atlassian.com/adminjiraserver/upgrading-jira-applications-938846936.html) (select your Jira version).
+No extra steps are required.
 
-## After you migrate
+### After you migrate
 
 Verify that configured integrations and repositories in the **Manage Git repositories** screen are correct and index properly.
+
+## Migration to another server when Jira home on the new server has exactly the same path
+
+### Before you migrate
+
+We recommend Jira admins upgrade to the latest version of [Git Integration app from the Atlassian Marketplace](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=server&tab=versions).
+
+Run it for some time (a few days) and once the testing is stable – then do the migration.
+
+### Upgrade/migrate
+
+Follow the [standard instructions from Atlassian on migrating to another server](https://confluence.atlassian.com/adminjiraserver073/migrating-jira-applications-to-another-server-861253107.html) (select your Jira version).
+
+No extra steps are required.
+
+### After you migrate
+
+Verify that configured integrations and repositories in the Manage Git repositories screen are correct and index properly.
 
 <p>&nbsp;</p>
 
