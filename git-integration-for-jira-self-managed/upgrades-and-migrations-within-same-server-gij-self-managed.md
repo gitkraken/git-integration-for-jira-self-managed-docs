@@ -97,7 +97,7 @@ No extra steps are required.
 
 2.  Remove all repositories data from the `/data/git-plugin/` folder in the new Jira home directory (i.e. remove all folders which have the next format: `'<repositoryID>_<repositoryName>'`)
 
-3.  Reconnect to all integrations/repositories using new credentials or existing credentials from the exported save file via [Bulk Change import](/git-integration-for-jira-data-center/import-existing-repositories-via-bulk-change-gij-self-managed/). Your stored SSH keys will be migrated automatically.
+3.  Reconnect to all integrations/repositories using new or existing credentials. Your stored SSH keys will stil be migrated automatically.
 
 ## Migration within the same server when Jira HOME path is changed (Recommended)
 
@@ -109,7 +109,8 @@ No extra steps are required.
     <div class="imsgbox">
         <b>Pros:</b><br>
         <ul>
-            <li>Import repository configuration back easily.</li>
+            <li>Repository settings and user’s PATs are preserved.</li>
+            <li>Reconnection of all integrations is not required.</li>
             <li>No extra steps after bulk import post-migration</li>
         </ul>
         <b>Cons:</b><br>
