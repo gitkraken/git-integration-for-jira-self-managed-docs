@@ -15,19 +15,18 @@ Read about JMESPath expressions on their <a href='http://jmespath.org/' target=
 **What's on this page:**
 - [Accessible Locations](#accessible-locations)
 - [More on JMESPath filters for supported git services](#more-on-jmespath-filters-for-supported-git-services)
+- [More How-to articles](#more-how-to-articles)
 
-<br>
-<br>
+&nbsp;
 <hr>
-<br>
-<br>
+&nbsp;
 
 ## Accessible Locations
 
 1.  Auto-connect integration Wizard ➜ **Connection** screen ➜ _**Advanced**_ ➜ **JMESPath filter**.
 
     For example:
-    
+
     ![](/wp-content/uploads/gij-jira-server-autoconnect-jmespath-cfg-loc.png)
 
     <br>
@@ -53,4 +52,28 @@ Read about JMESPath expressions on their <a href='http://jmespath.org/' target=
 *   [Tracked Folders JMESPath filter examples](/git-integration-for-jira-data-center/Tracked-Folders-JMESPath-filter-examples-gij-self-managed)
 
 *   [Gerrit JMESPath filter examples](/git-integration-for-jira-data-center/Gerrit-JMESPath-filter-examples-gij-self-managed)
+
+## More How-to articles
+
+[How to get a quote?](/git-integration-for-jira-data-center/how-to-get-a-quote-gij-self-managed/)
+
+[Setting Project Permissions](/git-integration-for-jira-data-center/Setting-Project-Permissions-gij-self-managed)
+
+[How to create a HAR file and send it to support for analysis](/git-integration-for-jira-data-center/how-to-create-a-har-file-and-send-it-to-support-for-analysis-gij-self-managed/)
+
+[Working with Custom API Path](/git-integration-for-jira-data-center/Working-with-Custom-API-Path-gij-self-managed)
+
+**Working with JMESPath Filters** (this page)
+
+[Configure Source Code Diff Viewing](/git-integration-for-jira-data-center/configure-source-code-diff-viewing-gij-self-managed)
+
+[Creating and configuring SSH keys (Windows/MacOS/Linux)](/git-integration-for-jira-data-center/creating-and-configuring-ssh-keys-windows-macos-linux-gij-self-managed)
+
+[Require Personal Access Tokens for user actions (create branch/pull request)](/git-integration-for-jira-data-center/Require-Personal-Access-Tokens-for-user-actions-(create-branch-pull-request)-gij-self-managed)
+
+[Ways to Index Git Data to Jira Issues](/git-integration-for-jira-data-center/Ways-to-Index-Git-Data-to-Jira-Issues-gij-self-managed)
+
+[Proxy settings on adding integrations (except AWS CodeCommit)](/git-integration-for-jira-data-center/Proxy-settings-on-adding-integrations-(except-AWS-CodeCommit)-gij-self-managed)
+
+[Creating Personal Access Tokens](/git-integration-for-jira-data-center/Creating-Personal-Access-Tokens-gij-self-managed)
 

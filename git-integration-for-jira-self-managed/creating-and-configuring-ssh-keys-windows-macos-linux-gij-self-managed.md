@@ -9,20 +9,18 @@ taxonomy:
 
 **What's on this page:**
 - [Introduction](#introduction)
-- [1\. Acquire SSH Git Repository URL](#1-acquire-ssh-git-repository-url)
-- [2\. Generate SSH key pair (public and private key)](#2-generate-ssh-key-pair-public-and-private-key)
+- [Acquire SSH Git Repository URL](#acquire-ssh-git-repository-url)
+- [Generate SSH key pair (public and private key)](#generate-ssh-key-pair-public-and-private-key)
   - [Linux/MacOS](#linuxmacos)
   - [Windows](#windows)
-- [3\. Add the public key to your git host.](#3-add-the-public-key-to-your-git-host)
-- [4\. Add the private key via Git Integration in Jira app.](#4-add-the-private-key-via-git-integration-in-jira-app)
+- [Add the public key to your git host.](#add-the-public-key-to-your-git-host)
+- [Add the private key via Git Integration in Jira app.](#add-the-private-key-via-git-integration-in-jira-app)
 - [Video Guide](#video-guide)
 - [More How-to articles](#more-how-to-articles)
 
-<br>
-<br>
+&nbsp;
 <hr>
-<br>
-<br>
+&nbsp;
 
 ## Introduction
 
@@ -38,13 +36,13 @@ As a summary, you need to perform the following tasks in order to successfully i
 
 *   Add the private key by connecting your SSH git repositories via Git Integration for Jira app.
 
-## 1\. Acquire SSH Git Repository URL
+## Acquire SSH Git Repository URL
 
 <img src='/wp-content/uploads/gij-gitserver-gitlab-example-acquire-ssh-home-repo.png' style='display:block;margin:25px auto;max-width:100%' />
 
 Get the git clone SSH URL from the repository home of the git host that will be used for Jira integration. The above screen represents an example from GitLab.
 
-## 2\. Generate SSH key pair (public and private key)
+## Generate SSH key pair (public and private key)
 
 Do note that when generating the key pair for use with Git Integration for Jira app, the following checklist must be considered:
 
@@ -141,7 +139,7 @@ For Windows, we recommend to use <a href='https://www.putty.org/' target='_blank
 </div>
 <br>
 
-## 3\. Add the public key to your git host.
+## Add the public key to your git host.
 
 1.  Login to your git host and go the SSH configuration page (for example, **Profile** ➜ **Settings** in GitLab or GitHub).
 
@@ -149,7 +147,7 @@ For Windows, we recommend to use <a href='https://www.putty.org/' target='_blank
 
 3.  Add this key to complete setting up the public key for SSH git connection for your git host.
 
-## 4\. Add the private key via Git Integration in Jira app.
+## Add the private key via Git Integration in Jira app.
 
 For the private key, PuTTY creates it in its own ".ppk" format. To convert it to ".pem" format:
 
@@ -177,24 +175,28 @@ Watch the video below to learn more details of the steps outlined above. As a bo
 
 ## More How-to articles
 
-[Creating Personal Access Tokens](/git-integration-for-jira-data-center/Creating-Personal-Access-Tokens-gij-self-managed)
+[How to get a quote?](/git-integration-for-jira-data-center/how-to-get-a-quote-gij-self-managed/)
+
+[Setting Project Permissions](/git-integration-for-jira-data-center/Setting-Project-Permissions-gij-self-managed)
+
+[How to create a HAR file and send it to support for analysis](/git-integration-for-jira-data-center/how-to-create-a-har-file-and-send-it-to-support-for-analysis-gij-self-managed/)
+
+[Working with Custom API Path](/git-integration-for-jira-data-center/Working-with-Custom-API-Path-gij-self-managed)
 
 [Working with JMESPath Filters](/git-integration-for-jira-data-center/Working-with-JMESPath-Filters-gij-self-managed)
 
-[Working with Custom API Path](/git-integration-for-jira-data-center/Working-with-Custom-API-Path-gij-self-managed)
+[Configure Source Code Diff Viewing](/git-integration-for-jira-data-center/configure-source-code-diff-viewing-gij-self-managed)
 
 **Creating and configuring SSH keys (Windows/MacOS/Linux)** (this page)
 
 [Require Personal Access Tokens for user actions (create branch/pull request)](/git-integration-for-jira-data-center/Require-Personal-Access-Tokens-for-user-actions-(create-branch-pull-request)-gij-self-managed)
 
-[Setting Project Permissions](/git-integration-for-jira-data-center/Setting-Project-Permissions-gij-self-managed)
-
-[How to get a quote?](/git-integration-for-jira-data-center/How-to-get-a-quote-gij-self-managed)
-
 [Ways to Index Git Data to Jira Issues](/git-integration-for-jira-data-center/Ways-to-Index-Git-Data-to-Jira-Issues-gij-self-managed)
 
 [Proxy settings on adding integrations (except AWS CodeCommit)](/git-integration-for-jira-data-center/Proxy-settings-on-adding-integrations-(except-AWS-CodeCommit)-gij-self-managed)
 
-[Configure Source Code Diff Viewing](/git-integration-for-jira-data-center/configure-source-code-diff-viewing-gij-self-managed)
+[Creating Personal Access Tokens](/git-integration-for-jira-data-center/Creating-Personal-Access-Tokens-gij-self-managed)
+
+
 
 

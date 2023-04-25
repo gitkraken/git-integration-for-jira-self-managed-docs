@@ -13,25 +13,23 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 
 **What's on this page:**
 - [Accessible locations](#accessible-locations)
-- [GitHub.com and GitHub Enterprise examples](#github-com-and-github-enterprise-examples)
-  - [1\. Lists all repositories (default)](#1-lists-all-repositories-default)
-  - [2\. Display all repositories from \<username\>](#2-display-all-repositories-from-username)
-  - [3\. Displays starred repositories](#3-displays-starred-repositories)
-  - [4\. List all repositories for the specified organization](#4-list-all-repositories-for-the-specified-organization)
-- [GitLab.com and GitLab CE|EE examples](#gitlab-com-and-gitlab-ceee-examples)
-  - [1\. Lists all projects (default)](#1-lists-all-projects-default)
-  - [2\. Display all projects from \<user\_id\>](#2-display-all-projects-from-user_id)
-  - [3\. Displays starred projects](#3-displays-starred-projects)
-  - [4\. Limit to owned projects](#4-limit-to-owned-projects)
-  - [5\. List projects from within a group](#5-list-projects-from-within-a-group)
-  - [6\. List projects from the specified sub-group](#6-list-projects-from-the-specified-subgroup)
+- [GitHub.com and GitHub Enterprise examples](#githubcom-and-github-enterprise-examples)
+  - [1. Lists all repositories (default)](#1-lists-all-repositories-default)
+  - [2. Display all repositories from \<username\>](#2-display-all-repositories-from-username)
+  - [3. Displays starred repositories](#3-displays-starred-repositories)
+  - [4. List all repositories for the specified organization](#4-list-all-repositories-for-the-specified-organization)
+- [GitLab.com and GitLab CE|EE examples](#gitlabcom-and-gitlab-ceee-examples)
+  - [1. Lists all projects (default)](#1-lists-all-projects-default)
+  - [2. Display all projects from \<user\_id\>](#2-display-all-projects-from-user_id)
+  - [3. Displays starred projects](#3-displays-starred-projects)
+  - [4. Limit to owned projects](#4-limit-to-owned-projects)
+  - [5. List projects from within a group](#5-list-projects-from-within-a-group)
+  - [6. List projects from the specified subgroup](#6-list-projects-from-the-specified-subgroup)
 - [More how-to articles](#more-how-to-articles)
 
-<br>
-<br>
+&nbsp;
 <hr>
-<br>
-<br>
+&nbsp;
 
 ## Accessible locations
 
@@ -43,7 +41,7 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 
 <br>
 
-*   Manage repositories page ➜ <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ Edit integration connection settings ➜ **Custom API Path**.
+*   Manage repositories page ➜ ![](/wp-content/uploads/actions-icon.png) Actions ➜ Edit integration connection settings ➜ **Custom API Path**.
 
     ![](/wp-content/uploads/gij-gitserver-actions-int-conn-cfg-custom-apipath.png)
 
@@ -170,27 +168,29 @@ While Custom API Path and JMESPath filter are mutually exclusive, you can use on
 
 ## More how-to articles
 
-*   [Creating Personal Access Tokens](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed)
+[How to get a quote?](/git-integration-for-jira-data-center/how-to-get-a-quote-gij-self-managed/)
 
-*   [Working with JMESPath Filters](/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed)
+[Setting Project Permissions](/git-integration-for-jira-data-center/Setting-Project-Permissions-gij-self-managed)
 
-*   [Working with Custom API Path](/git-integration-for-jira-data-center/working-with-custom-api-path-gij-self-managed)
+[How to create a HAR file and send it to support for analysis](/git-integration-for-jira-data-center/how-to-create-a-har-file-and-send-it-to-support-for-analysis-gij-self-managed/)
 
-*   [Setting Project Permissions](/git-integration-for-jira-data-center/setting-project-permissions-gij-self-managed)
+**Working with Custom API Path** (this page)
 
-*   [Configure Source Code Diff Viewing](/git-integration-for-jira-data-center/configure-source-code-diff-viewing-gij-self-managed)
+[Working with JMESPath Filters](/git-integration-for-jira-data-center/Working-with-JMESPath-Filters-gij-self-managed)
 
-*   [Configure Repository Browser](/git-integration-for-jira-data-center/configure-repository-browser-gij-self-managed)
+[Configure Source Code Diff Viewing](/git-integration-for-jira-data-center/configure-source-code-diff-viewing-gij-self-managed)
 
-*   [Require Personal Access Tokens for user actions (create branch/pull request)](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed)
+[Creating and configuring SSH keys (Windows/MacOS/Linux)](/git-integration-for-jira-data-center/creating-and-configuring-ssh-keys-windows-macos-linux-gij-self-managed)
 
-*   [Creating and configuring SSH keys (Windows/MacOS/Linux)](/git-integration-for-jira-data-center/creating-and-configuring-ssh-keys-windows-macos-linux-gij-self-managed)
+[Require Personal Access Tokens for user actions (create branch/pull request)](/git-integration-for-jira-data-center/Require-Personal-Access-Tokens-for-user-actions-(create-branch-pull-request)-gij-self-managed)
 
-*   [How to get a quote?](/git-integration-for-jira-data-center/how-to-get-a-quote-gij-self-managed)
+[Ways to Index Git Data to Jira Issues](/git-integration-for-jira-data-center/Ways-to-Index-Git-Data-to-Jira-Issues-gij-self-managed)
 
-*   [Ways to Index Git Data to Jira Issues](/git-integration-for-jira-data-center/ways-to-index-git-data-to-jira-gij-self-managed)
+[Proxy settings on adding integrations (except AWS CodeCommit)](/git-integration-for-jira-data-center/Proxy-settings-on-adding-integrations-(except-AWS-CodeCommit)-gij-self-managed)
 
-*   [Proxy settings on adding integrations (except AWS CodeCommit)](/git-integration-for-jira-data-center/proxy-settings-on-adding-integrations-except-aws-codecommit-gij-self-managed)
+[Creating Personal Access Tokens](/git-integration-for-jira-data-center/Creating-Personal-Access-Tokens-gij-self-managed)
+
+
 
 <p>&nbsp;</p>
 
