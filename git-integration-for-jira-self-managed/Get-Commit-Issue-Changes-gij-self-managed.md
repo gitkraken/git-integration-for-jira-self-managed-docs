@@ -18,7 +18,7 @@ Returns the list of issues associated with the commit from the specified reposit
     </div>
     <div class="imsgbox">
         There are two types of users who can perform the Get Commit Issue Changes API call:
-        <ol>
+        <ol style='margin-bottom:-10px'>
             <li>Jira <b>administrators</b></li>
             <li>Jira user who has <b>all</b> of the following:
                 <ul>
@@ -31,9 +31,8 @@ Returns the list of issues associated with the commit from the specified reposit
     </div>
     </div>
 </div>
-<br>
 
-## Get Commit Issue Changes
+&nbsp;
 
 ### url
 `http://\<jira-host\>/rest/gitplugin/1.0/repository/{repoId}/commits/{commitHash}/issues`
@@ -84,13 +83,13 @@ Host: local-host-jira.com:2990
 Content-Type: application/json
 ```
 
-<br>
+&nbsp;
 
-## Related articles on Commits API
+### Commits REST APIs
 
 [Get Commits](/git-integration-for-jira-data-center/get-Commits-gij-self-managed)
 
-[showFiles](/git-integration-for-jira-data-center/)
+[showFiles (Commits API extension)](/git-integration-for-jira-data-center/)
 
 **Get Commit Issue Changes** (this page)
 

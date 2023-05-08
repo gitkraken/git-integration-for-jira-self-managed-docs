@@ -7,6 +7,8 @@ taxonomy:
 
 ---
 
+<!-- Commits REST API -->
+
 Call the Get Commits REST API to obtain commit information associated with an issue.
 
 <div class="bbb-callout bbb--alert">
@@ -19,9 +21,8 @@ Call the Get Commits REST API to obtain commit information associated with an is
     </div>
     </div>
 </div>
-<br>
 
-## Get Commits
+&nbsp;
 
 ### url
 `/rest/gitplugin/1.0/issues/{issueKey}/commits`
@@ -72,9 +73,9 @@ Returns the following example result:
 }
 ```
 
-<br>
+&nbsp;
 
-## Related articles on Commits API
+###  Commits REST APIs
 
 **Get Commits** (this page)
 

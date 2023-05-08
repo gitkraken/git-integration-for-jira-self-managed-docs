@@ -11,8 +11,6 @@ Obtains information about the importing thread. Use the following path format t
 
 Any Jira user can perform the Getting Bulk Import Information API call.
 
-## Getting Bulk Import Information**
-
 _**url**_<br>
 `/rest/gitplugin/1.0/configuration/progress.json`
 
@@ -71,10 +69,8 @@ user@home:~$ python configuration_progress.py 1058
 
 <p>&nbsp;</p>
 
-<br>
-<br>
 
-## Bulk Change REST APIs
+### Bulk Change REST APIs
 
 *   [Bulk Export](/git-integration-for-jira-data-center/bulk-export-gij-self-managed) (Git Integration for Jira Server/Data Center)
 

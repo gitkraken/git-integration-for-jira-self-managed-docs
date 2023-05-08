@@ -1,6 +1,6 @@
 ---
 
-title: Retrieve Integration List
+title: Retrieve Integration List API
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -9,9 +9,18 @@ taxonomy:
 
 Retrieves the list of integrations and their respective parameter details from the git repository configuration.
 
-Only Jira admins can perform the Retrieve Integration List API call.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Only Jira admins can perform the Retrieve Integration List API call.
+    </div>
+    </div>
+</div>
 
-## Retrieve Integration List
+&nbsp;
 
 ### url
 `/rest/gitplugin/1.0/integration`
@@ -19,7 +28,7 @@ Only Jira admins can perform the Retrieve Integration List API call.
 ### method
 GET
 
-### Example:
+### Example
 
 `http://jira.yourorg.com/rest/gitplugin/1.0/integration`
 
@@ -127,7 +136,7 @@ GET
 }
 ```
 
-<br>
+&nbsp;
 
 ### Integration REST APIs
 

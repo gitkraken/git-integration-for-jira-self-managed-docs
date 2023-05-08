@@ -15,7 +15,7 @@ Use this method to track messages for a particular thread.
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <ol>
+        <ol style='margin-bottom:-10px'>
             <li>Jira <b>administrators</b></li>
             <li>Jira user who has <b>all</b> of the following:
                 <ol type='a'>
@@ -30,7 +30,7 @@ Use this method to track messages for a particular thread.
 </div>
 <br>
 
-## Reindex GET API
+&nbsp;
 
 ### url
 `/rest/gitplugin/1.0/index.json`
@@ -68,13 +68,9 @@ Response:
 }
 ```
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
 
-## Reindex REST APIs
+### Reindex REST APIs
 
 [Reindex POST API](/git-integration-for-jira-data-center/reindex-post-api-gij-self-managed) (Git Integration for Jira Data Center)
 

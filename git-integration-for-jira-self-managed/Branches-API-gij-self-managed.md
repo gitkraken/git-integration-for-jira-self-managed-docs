@@ -16,7 +16,7 @@ The Branches REST API will obtain list of branches associated to a Jira issue.
     </div>
     <div class="imsgbox">
         There are two types of users who can perform the Branches API call:
-        <ol>
+        <ol style='margin-bottom:-10px'>
             <li>Jira <b>administrators</b></li>
             <li>Jira user who has <b>all</b> of the following:
             <ol type='a'>
@@ -29,9 +29,8 @@ The Branches REST API will obtain list of branches associated to a Jira issue.
     </div>
     </div>
 </div>
-<br>
 
-## Branches
+&nbsp;
 
 ### url
 `/rest/gitplugin/1.0/issues/branches?key={issuekey}`

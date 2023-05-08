@@ -9,7 +9,18 @@ taxonomy:
 
 Retrieves list of repositories mapped to a given project.
 
-Any Jira user can perform the Retrieve Repository List API call.
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Any Jira user can perform the Retrieve Repository List API call.
+    </div>
+    </div>
+</div>
+
+&nbsp;
 
 ### url
 `/rest/gitplugin/1.0/`**repository**
@@ -106,11 +117,7 @@ JSON
 }
 ```
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
 
 ### Repository REST APIs
 

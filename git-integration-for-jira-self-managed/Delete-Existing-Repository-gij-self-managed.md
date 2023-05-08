@@ -21,9 +21,8 @@ Deletes the existing repository from the Git Integration for Jira app repository
     </div>
     </div>
 </div>
-<br>
 
-## Delete Existing Repository properties
+&nbsp;
 
 ### url
 `/rest/gitplugin/1.0/repository`
@@ -68,7 +67,7 @@ Response:
 
 <p>&nbsp;</p>
 
-## Related articles
+### Repository REST APIs
 
 [Retrieve Repository List](/git-integration-for-jira-data-center/retrieve-repository-List-gij-self-managed/)
 

@@ -19,7 +19,8 @@ Updates the existing repository from the given settings.
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 ### url
 `/rest/gitplugin/1.0/repository`
@@ -30,8 +31,6 @@ PUT
 ### Parameters
 
 The Request body is a _JSON_ structure similar to the [Add New Repository API](/git-integration-for-jira-data-center/add-new-repository-gij-self-managed) plus the _**id**_ parameter:
-
-<br>
 
 | Parameter | Condition |
 | :--- | :--- |
@@ -69,7 +68,7 @@ The Request body is a _JSON_ structure similar to the [Add New Repository API
 | _**refSpecChanges**_ | _Boolean_. Optional.<br><br>This is a reference to `refs/changes/*` used for fetching. The default value for this field is _**false**_. |
 | _**refSpecCustom**_ | _String_. Optional.  <br>This is a user-defined list of references used for fetching. It is a comma-separated list with the format: `+refs/refname1/*:refs/refname1/*`, `refs/refname2/*:refs/refname2/*`, ... |
 
-<br>
+&nbsp;
 
 ### Response
 
@@ -128,11 +127,7 @@ Request body (JSON) example:
 }
 ```
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
 
 ### Repository REST APIs
 

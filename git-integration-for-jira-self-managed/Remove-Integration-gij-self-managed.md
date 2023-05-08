@@ -9,9 +9,18 @@ taxonomy:
 
 Deletes the existing integration from the Git Integration for Jira app repository configuration.
 
-Only Jira admins can perform the Remove Integration API call.
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Only Jira admins can perform the Remove Integration API call.
+    </div>
+    </div>
+</div>
 
-## Remove Existing Integration
+&nbsp;
 
 ### url
 `/rest/gitplugin/1.0/integration/{integrationId}`
@@ -29,9 +38,9 @@ DELETE
 | _**response**_ | Deletes the integration from the Git Integration for Jira app repository configuration. If the `deleteFiles` parameter is set to _**true**_, the folders of all the repositories of the integration are also deleted from the Jira instance. |
 | _**format**_ | `http://jira.yourorg.com/rest/gitplugin/1.0/integration/\[integrationId\]?deleteFiles=true` |
 
-<br>
+&nbsp;
 
-### Examples:
+### Examples
 
 **Example 1:**
 
@@ -57,7 +66,7 @@ Response:
 }
 ```
 
-<br>
+&nbsp;
 
 ### Integration REST APIs
 

@@ -127,6 +127,9 @@ Response:
 }
 ```
 
+&nbsp;
+<div id='for-gij-416-users-and-below'></div>
+
 ## For GIJ 4.16 users and below
 
 <div class="bbb-callout bbb--info">
@@ -135,7 +138,8 @@ Response:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        For improved security, we recommend users to upgrade to v4.17.</p>
+        For improved security, we recommend users to upgrade to v4.17.
+        <p style='margin-bottom:-10px'>This section will be removed after <b>January 1, 2024</b>.</p>
     </div>
     </div>
 </div>
