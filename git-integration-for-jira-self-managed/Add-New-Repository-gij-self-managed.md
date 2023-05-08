@@ -19,10 +19,8 @@ Creates new repository from the given settings.
     </div>
     </div>
 </div>
-<br>
 
-
-## Add New Repository
+&nbsp;
 
 ### url
 `/rest/gitplugin/1.0/repository`
@@ -154,4 +152,16 @@ Response:
   "trustFolderStat": false
 }
 ```
+
+&nbsp;
+
+### Repository REST APIs
+
+[Retrieve Repository List](/git-integration-for-jira-data-center/retrieve-repository-list-gij-self-managed/)
+
+**Add New Repository** (this page)
+
+[Update Exisiting Repository](/git-integration-for-jira-data-center/update-existing-repository-gij-self-managed/)
+
+[Delete Existing Repository](/git-integration-for-jira-data-center/delete-existing-repository-gij-self-managed/)
 

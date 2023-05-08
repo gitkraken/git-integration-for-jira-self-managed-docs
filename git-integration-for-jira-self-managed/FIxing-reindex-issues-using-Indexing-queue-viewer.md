@@ -44,9 +44,9 @@ Sometimes the indexing process takes longer for some tasks. To see which tasks a
             </div>
             <div class="imsgbox">
                 Setting the Logging to DEBUG level for the above package name will intruct Jira to do verbose logging on the plugin. Make sure to turn this setting off once it is confirmed that indexing is working on the said tasks. For example, the reindex is in progress if you see logs constantly adding to your <b><i>atlassian-jira.log</i></b> below:
-                <pre><code>Branch: {}
+                <div style='margin-bottom:-10px'><pre><code>Branch: {}
 Last index revision: {}
-Adding document for repository = {}; branch = {}; revision = {}.</code></pre>
+Adding document for repository = {}; branch = {}; revision = {}.</code></pre></div>
             </div>
             </div>
         </div>

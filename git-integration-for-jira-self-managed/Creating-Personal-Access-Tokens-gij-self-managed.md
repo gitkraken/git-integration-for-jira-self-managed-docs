@@ -17,6 +17,7 @@ This page contains steps for creating personal access tokens (PATs) for specific
 - [Azure DevOps Server](#azure-devops-server)
 - [AWS CodeCommit](#aws-codecommit)
 
+
 &nbsp;
 <hr>
 &nbsp;
@@ -53,6 +54,7 @@ While instructions from GitHub works just fine, here are some specific instructi
 
 7.  Copy the token (write it down or save it somewhere safe – this is the ONLY time you'll see the token).
 
+&nbsp;
 
 ## GitLab, GitLab CE and GitLab EE
 
@@ -96,6 +98,8 @@ While instructions from GitLab works just fine, here are some specific instructi
 </div>
 <br>
 
+&nbsp;
+
 ## Azure DevOps and Visual Studio Team Services (VSTS)
 
 Creating a personal access token will allow control on how a service user accesses specific resources from your git repositories. PATs can give you access to Azure Repos without using your username or password directly.
@@ -134,14 +138,15 @@ When you're done, make sure to copy and save the token. This token can be used 
     </div>
     <div class="imsgbox">
         As for <b><i>Scopes</i></b>:
-        <ul style='margin-bottom:-10px;'>
-            <li><code>Code (read)</code> – This scope allows only to view commits and smart commits, and browse repositories (if enabled) of connected VSTS/Azure repositories inside Jira.</li>
-            <li><code>Code (read and write)</code> – This scope has the `Code (read)` functions plus the ability to create branches and pull requests to specified VSTS/Azure repositories via developer panel of a Jira issue.</li>
+        <ul style='margin-bottom:-5px;'>
+            <li><code>Code (read)</code> – This scope allows only to view commits and smart commits, and browse repositories (if enabled) of connected VSTS/Azure repositories inside Jira. This is the recommended scope for regular users.</li>
+            <li><code>Code (read and write)</code> – This scope has the `Code (read)` functions plus the ability to create branches and pull requests to specified VSTS/Azure repositories via developer panel of a Jira issue. This is the recommended scope for developers and contributors.</li>
         </ul>
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 ## Team Foundation Server (TFS) 2017 and newer
 
@@ -151,7 +156,7 @@ Follow the steps below, if you have not yet generated a personal access token (P
 
 1.  On the TFS portal dashboard, clicking the user settings icon on the top right corner of the page then click **Security**.
 
-    ![](/wp-content/uploads/gij-/tfs-201718-acct-menu-panel.png)
+    ![](/wp-content/uploads/gij-tfs-201718-acct-menu-panel.png)
 
 2.  Click **Add** on the Personal Access Token page to see the following screen.
 
@@ -171,6 +176,8 @@ Follow the steps below, if you have not yet generated a personal access token (P
 
 
 When you're done, make sure to copy and save the token. This token can be used as your password.
+
+&nbsp;
 
 ## Azure DevOps Server
 
@@ -211,6 +218,8 @@ Follow the steps below, if you have not yet generated a personal access token (P
 
 
 When you're done, make sure to copy and save the token. This token can be used as your password.
+
+&nbsp;
 
 ## AWS CodeCommit
 

@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 Extend the Commits REST API to review which files changed related to a specific Jira issue by adding `?showfiles=[true|false]` as an optional parameter.
 
 <div class="bbb-callout bbb--alert">
@@ -18,7 +19,8 @@ Extend the Commits REST API to review which files changed related to a specific 
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 ## showFiles (Commits REST API extension)
 
@@ -30,7 +32,7 @@ GET
 
 ### parameters
 
-| **Parameter** | **Condition** |
+| Parameter | Condition |
 | :--- | :--- |
 | _**issueKey**_ | _String_. Required.<br><br>This is the Jira Issue Key – a concatenation of Project key and Issue number. It must contain a dash ('-'). The _**issueKey**_ must be valid and existent.<br><br>For example: `TST-123`. |
 | _**?showFiles=**_**\[**_**true\|false**_**\]** | _Boolean_. Optional.<br><br>When set to _**true**_, this extends the commits API to display which files where changed related to a specific Jira issue.<br><br>See usage example below. |
@@ -75,13 +77,13 @@ Returns the following example result, if showFiles=true:
 }
 ```
 
-<br>
+&nbsp;
 
-## Related articles on Commits API
+### Commits REST APIs
 
 [Get Commits](/git-integration-for-jira-data-center/get-Commits-gij-self-managed)
 
-**showFiles** (this page)
+**showFiles (Commits REST API extension)** (this page)
 
 [Get Commit Issue Changes](/git-integration-for-jira-data-center/get-commit-issue-changes-gij-self-managed)
 
