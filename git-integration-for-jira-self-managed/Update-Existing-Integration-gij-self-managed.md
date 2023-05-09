@@ -1,6 +1,6 @@
 ---
 
-title: Update Existing Integration
+title: Update Existing Integration API
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -19,9 +19,6 @@ Updates the existing parameters of the specified integration.
     </div>
     </div>
 </div>
-<br>
-
-## Update Existing Integration
 
 ### url
 `/rest/gitplugin/1.0/integration/\{integrationId\}`
@@ -69,6 +66,8 @@ The Request body is a _JSON_ structure similar to the [Add New Integration AP
 | _**refSpecChanges**_ | _Boolean_. Optional.<br><br>This is a reference to `refs/changes/*` used for fetching. The default value for this field is _**false**_. |
 | _**refSpecCustom**_ | _String_. Optional.<br><br>This is a user-defined list of references used for fetching. It is a comma-separated list with the format: `+refs/refname1/*:refs/refname1/*`, `refs/refname2/*:refs/refname2/*`, ... |
 | _**folderDepth**_ | _Integer_. Optional. <br>Valid value range: 1 - 5 <br>This parameter is required if _**integrationType**_ = `FILESPACE`. |
+
+&nbsp;
 
 ### Response
 
@@ -131,7 +130,7 @@ Response:
 }
 ```
 
-<br>
+&nbsp;
 
 <b style='color:#F9EFC1;'>Example 2: Restrict an integration to project(s)</b><br>
 `http://jira.yourorg.com/rest/gitplugin/1.0/integration/1`
