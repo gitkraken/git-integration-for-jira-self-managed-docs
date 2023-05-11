@@ -159,7 +159,7 @@ Request body is a multipart/form-data structure.
 
 | Parameter | Description |
 | :--- | :--- |
-| _**repoId**_ | Array of Long. Form parameter.<br><br>This is the repository ID, separated by commas.<br><br>**Examples:**<br>Form param (`repoId=133`)<br>Form param (`repoId=133,142,...,154`) |
+| _**repoId**_ | Form parameter.<br><br>This is the repository ID.<br><br>**Examples:**<br>Form param (`repoId=133`) |
 
 ### Response
 JSON
