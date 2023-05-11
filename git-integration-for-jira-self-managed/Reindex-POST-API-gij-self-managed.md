@@ -145,21 +145,21 @@ Response:
 </div>
 
 ### url
-`/rest/gitplugin/1.0/index.json`
+`/rest/gitplugin/1.0/index`
 
 ### method
 POST
 
 ### content-type
-application/json
+multipart/form-data
 
 ### Parameters
 
-Request body is a JSON structure.
+Request body is a multipart/form-data structure.
 
 | Parameter | Description |
 | :--- | :--- |
-| _**repoId**_ | Array of Long. Form parameter.<br><br>This is the repository ID, separated by commas.<br><br>**Examples:**<br>Form param (`"repoId": [133]`)<br>Form param (`"repoId": [133,142,...,154]`) |
+| _**repoId**_ | Array of Long. Form parameter.<br><br>This is the repository ID, separated by commas.<br><br>**Examples:**<br>Form param (`repoId=133`)<br>Form param (`repoId=133,142,...,154`) |
 
 ### Response
 JSON
@@ -169,12 +169,10 @@ JSON
 ### Example with repoId assigned:
 
 ```json
-http://jira.yourorg.com/rest/gitplugin/1.0/index.json
+http://jira.yourorg.com/rest/gitplugin/1.0/index
  
-Body, JSON(application/json):
-{
-  "repoId": [133]
-}
+Body, (multipart/form-data):
+repoId=133
  
 -----------------------
  
