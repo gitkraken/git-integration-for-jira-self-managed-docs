@@ -29,12 +29,18 @@ Starts the reindex process in a separate thread and returns the result immediate
     </div>
 </div>
 
-For users that have GIJ v4.16 and below and haven't upgrade to v4.17 yet, jump to [this section](#for-gij-416-users-and-below).
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        For users that have GIJ v4.16 and below and haven't upgrade to v4.17 yet, jump to <a href='#for-gij-416-users-and-below'>this section</a>.
+    </div>
+    </div>
+</div>
 
 &nbsp;
-
-## Reindex POST API
-
 ### url
 `/rest/gitplugin/2.0/reindex` <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>NEW IN  v4.17</b>
 
@@ -132,7 +138,7 @@ Response:
 
 ## For GIJ 4.16 users and below
 
-<div class="bbb-callout bbb--info">
+<div class="bbb-callout bbb--alert">
     <div class="irow">
     <div class="ilogobox">
         <span class="logoimg"></span>

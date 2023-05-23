@@ -8,7 +8,7 @@ taxonomy:
 ---
 This page contains related questions about troubleshooting using Jira logs.
 
-Use the FAQ below to find answers to common questions.  Feel free to contact our support team ([gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com?subject=Help%20on%20logs%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you don't see what you're looking for.
+Use the FAQ below to find answers to common questions.  Feel free to contact our support team via our [Support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you don't see what you're looking for.
 
 - [How to create the support zip file?](#how-to-create-the-support-zip-file)
 - [How do I enable debug logging level for Git Integration for Jira app?](#how-do-i-enable-debug-logging-level-for-git-integration-for-jira-app)
@@ -59,7 +59,7 @@ You can create this file by accessing the Atlassian Support Tools in your Jira:
 
 6.  Click **Create zip** to start generating support data.
 
-Locate the generated Support Zip file and send it to [support@gitkraken.com](mailto:support@gitkraken.com).
+Locate the generated Support Zip file and send it via our [Support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/faq-logging-gij-self-managed).
 
 ## How do I enable debug logging level for Git Integration for Jira app?
 
@@ -83,7 +83,7 @@ The debug logging level can be set by performing the following steps:
 
 To report errors:
 
-1.  Collect errors and send log file to [support@gitkraken.com](mailto:support@gitkraken.com).
+1.  Collect errors and send log file via our [Support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/faq-logging-gij-self-managed).
 
 2.  Also, please add your Jira version, Git plugin version and OS used to run Jira.
 
