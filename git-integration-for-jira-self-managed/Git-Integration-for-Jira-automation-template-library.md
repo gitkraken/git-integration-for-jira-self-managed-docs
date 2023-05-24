@@ -27,8 +27,7 @@ Let automation do the work while your developers focus on what’s important.  
 
 You can write your own templates using [Atlassian's no-code Jira automation engine](https://www.atlassian.com/software/jira/features/automation).
 
-<br>
-<br>
+&nbsp;
 
 ## Available templates from Atlassian for Git Integration for Jira users:
 
@@ -70,7 +69,7 @@ Here are some templates from Atlassian you can use as a guide for some of the mo
 
 We currently support the 5 highlighted triggers depicted below, and we will support all of these triggers in coming releases.
 
-<img src='/wp-content/uploads/gij-jira-automation-supported-rules-triggers.png' style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-jira-automation-supported-rules-triggers.jpg' style='display:block;margin:25px auto;max-width:100%;width:600px;height:auto;' />
 
 <br>
 

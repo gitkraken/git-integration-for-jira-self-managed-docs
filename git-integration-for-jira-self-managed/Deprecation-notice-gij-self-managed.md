@@ -14,7 +14,6 @@ taxonomy:
 | **`${username}`** | Effective 29 April 2019 | The `${username}` is used when logging into Jira and in the branch name template to generate a default name for newly-created branches. This template variable is deprecated as Atlassian is no longer making usernames available. |
 | **Ignore unmatching webhooks** | Starting v3.8+ | We will no longer reindex all repositories by default when a webhook arrives without a matching repository. There will be a setting in the Webhooks setting page where the previous functionality can be restored.<br><br>The advanced options provide a couple of settings for webhook indexing performance improvements.<br><br>![](/wp-content/uploads/gij-gitserver-webhooks-ignore-dups-and-min-ridx-adv.png) |
 | **StartReindexGitRepositories** | Starting v4.16+ | This action is deprecated since it is not being used by GIJ starting v4.16 and later.<br><br>For example: <ul><li>http://localhost/secure/StartReindexGitRepositories.jspa</li><li>http://localhost/secure/ReindexGitRepositories!progress.jspa</li></ul><br>These actions will be removed from GIJ Server/DC product in 12 months. |
-| **/jira/rest/gitplugin/1.0/index** | Starting v4.17+ | Reindex POST API<br><br>Users are advised to update to v4.17+ for better security. |
-| **Contet-type: multipart/form-data** | Starting v4.17+ | Reindex POST API<br><br>Users are advised to update to v4.17+ for better security. |
+| Reindex POST API<br>**/jira/rest/gitplugin/1.0/index** | Starting v4.17+ | **Contet-type: multipart/form-data** is also deprecated.for Reindex POST API.<br><br>The v2.0 API with JSON body is more improved and users are advised to update to v4.17+ for better security. |
 | _(more to come)_ |     |     |
 
