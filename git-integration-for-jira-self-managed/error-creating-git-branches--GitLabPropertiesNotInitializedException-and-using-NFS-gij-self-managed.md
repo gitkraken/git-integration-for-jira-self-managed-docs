@@ -1,15 +1,18 @@
 ---
 
-title: Error creating git branches - GitLabPropertiesNotInitializedException and also using NFS
+title: Error creating git branches and also using NFS
 description:
 taxonomy:
     category: git-integration-for-jira-cloud
 
 ---
 
+<!-- I'm moving the long word from the title because it just clips through the right pane of the HC page -->
+
 <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>JIRA SELF-MANAGED</b>
 
 Also relates to the following exception errors:
+*   `GitLabPropertiesNotInitializedException`
 *   `GitHubPropertiesNotInitializedException`
 *   `GerritPropertiesNotInitializedException`
 
