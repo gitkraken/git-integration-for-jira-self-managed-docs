@@ -34,7 +34,7 @@ The branch panel will show a summary of all the unmerged branches (regardless of
 
 Click **Create branch** to create a branch for the selected repository. The following dialog is displayed:
 
-<img src='/wp-content/uploads/gij-dev-panel-create-branch-dlg-c.png' width=544 height=272 style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitserver-create-branch-dlg-pat-ok.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 1.  Select a **Repository**.
 
@@ -52,11 +52,11 @@ Click **Create branch** to create a branch for the selected repository. The f
 
 If the [Require User PAT option](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed) is enabled in the **Integration Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead:
 
-<img src='/wp-content/uploads/gij-gitserver-create-branch-req-user-pat-enabled.png' width=550 height=276 style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitserver-create-branch-dlg-pat-cfg.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 *   Click the link label to setup the PAT. This will immediately open the Setup personal access dialog and the user should enter a valid PAT to continue creating branches.
 
-    ![](/wp-content/uploads/gij-gitserver-setup-your-user-pat-dlg-new-c.png)
+    ![](/wp-content/uploads/gij-gitserver-setup-your-user-pat-dlg-new.png)
 
     *   Paste a valid PAT of the current user to proceed. Invalid PATs will fail the branch creation process.
 
@@ -68,11 +68,11 @@ If the [Require User PAT option](/git-integration-for-jira-data-center/require
 
 The Setup PAT dialog can also be accessed on the Repository Browser under _**Pers. Access**_ column. This will display connected git repositories and which repositories have **Required User PAT** feature enabled..
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930399090/gitserver-repo-browser-setup-pat-highlight.png?version=1&modificationDate=1630669274634&cacheVersion=1&api=v2&width=680&height=381)
+![](/wp-content/uploads/gij-gitserver-repo-browser-pat-col-sel.png)
 
-*   Click <img src='/wp-content/uploads/gij-edit-icon-dark.png'  style='margin: 0 3px' width=auto height=16> to setup a PAT for the selected repository. The PAT setup dialog appears.
+*   Click ![edit icon](/wp-content/uploads/gij-edit-icon-dark.png) to setup a PAT for the selected repository. The PAT setup dialog appears.
 
-    ![](/wp-content/uploads/gij-gitserver-setup-your-user-pat-dlg-new-c.png)
+    ![](/wp-content/uploads/gij-gitserver-setup-your-user-pat-dlg-new.png)
 
 *   Paste a valid PAT of the current user to proceed. Invalid PATs will fail the branch creation process.
 
@@ -86,7 +86,7 @@ The Setup PAT dialog can also be accessed on the Repository Browser under _**Per
 
 Click **Create branch** on the Create Branch dialog. The newly-created branch is now listed in the developer panel under **Branches**.
 
-<img src='/wp-content/uploads/gij-dev-panel-delete-branch-on-hover.png' width=319 height=157 style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitserver-dev-panel-delete-branch-on-hover.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 <br>
 
