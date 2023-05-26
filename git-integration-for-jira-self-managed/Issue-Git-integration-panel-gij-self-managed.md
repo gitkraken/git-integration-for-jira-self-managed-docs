@@ -43,11 +43,9 @@ The Issue Git integration panel displays:
 
 *   **Tags:** git tags associated to Jira issue (via associated commit). Tags are sometimes referred to as Releases in some products.
 
-<br>
+![](/wp-content/uploads/gij-gitserver-git-integration-panel-view-417.png)
 
-![](/wp-content-uploads/gij-gitserver-git-integration-panel-view.png)
-
-<br>
+&nbsp;
 
 ## How can a Jira administrator enable or disable the Issue Git integration development panel?
 
@@ -61,7 +59,7 @@ The Issue Git integration panel displays:
 
 <br>
 
-![](/wp-content/uploads/gij-gitserver-gencfg-dev-panel-sel.png)
+![](/wp-content/uploads/gij-gitserver-gencfg-dev-panel-sel-417.png)
 
 <div class="bbb-callout bbb--info">
     <div class="irow">

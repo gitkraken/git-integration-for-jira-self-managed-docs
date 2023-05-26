@@ -47,36 +47,36 @@ This state is called secure mode – where a Jira user is limited from viewing g
     </div>
     </div>
 </div>
-<br>
 
+&nbsp;
 
 ## What a Jira user will see while in this mode and has not yet provided a Personal Access Token:
 
-![](/wp-content/uploads/gij-gitserver-secure-mode-users-01.png)
+![](/wp-content/uploads/gij-gitserver-secure-mode-users-01-new.png)
 
 <div style='text-align:center;font-style:italic;margin-top:10px'>
-    Click the <img src='/wp-content/uploads/gij-key-icon.png' style='margin:0 3px' /> icon in the Git Commits tab or the **Set up** label under Git Integration panel and <br>
+    Click the <img src='/wp-content/uploads/gij-blue-key-icon.png' style='margin:0 3px' /> icon in the Git Commits tab or the <b>Set up</b> label under Git Integration panel and <br>
 enter your personal access token to view git data (if permitted via your Git service).
 </div>
 
-<br>
+&nbsp;
 
 ## Jira user profile: Entering the Personal Access Token
 
 From the Jira user profile page, the Jira user can enter their Git service Personal Access Token (PAT). For instructions on creating the appropriate token, see article [Creating Personal Access Tokens](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed).
 
-![](/wp-content/uploads/gij-gitserver-secure-mode-users-02.png)
+<img src='/wp-content/uploads/gij-gitserver-secure-mode-users-02-new.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 <div style='text-align:center;font-style:italic;margin-top:10px'>
     Connected integration are displayed in your user profile. Enter your personal <br>
 access token to gain access to git data (if permitted by your git service).
 </div>
 
-<br>
+&nbsp;
 
 ## Jira issue view: Git service permissions setting is enabled and a Jira user has provided a Personal Access Token
 
-![](/wp-content/uploads/gij-gitserver-secure-mode-users-01.png)
+![](/wp-content/uploads/gij-gitserver-secure-mode-users-03-new.png)
 
 <div style='text-align:center;font-style:italic;margin-top:10px'>
     Git commits are displayed for users who entered a PAT and has <br>git service permission to view git data.
