@@ -22,39 +22,31 @@ Use the Indexing Queue Viewer to check and look for reindex related issues.
 
 Sometimes the indexing process takes longer for some tasks. To see which tasks are in this state, start from the Manage integrations page and check the integration with the <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>SCANNING</b> or <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>INDEXING</b> status.
 
-<ol>
-    <li>
-        Go to <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ <b>Show integration repositories</b>. You may see some <b style='background-color:#DEE0E5; padding:1px 5px; color:#44516C; border-radius:3px; margin: 0 5px; font-size: small;'>QUEUED</b> or <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>FETCHING</b> status in the list and is somewhat taking a bit longer to process.
-    </li>
-    <li>
-        Open <img src='/wp-content/uploads/actions-icon.png' /> Jira System administration then click <b>Logging and profiling</b> on the left sidebar.
-    </li>
-    <li>
-        Under the <b>Default loggers section</b>, click <b>Configure...</b>.
-    </li>
-    <li>
-        Set the <b>Package name</b> to <code>com.bigbrassband.jira.git.services.indexer</code>.
-    </li>
-    <li>
-        Set <b>Logging Level</b> to <b>DEBUG</b>.<br>
-        <div class="bbb-callout bbb--alert">
-            <div class="irow">
-            <div class="ilogobox">
-                <span class="logoimg"></span>
-            </div>
-            <div class="imsgbox">
-                Setting the Logging to DEBUG level for the above package name will intruct Jira to do verbose logging on the plugin. Make sure to turn this setting off once it is confirmed that indexing is working on the said tasks. For example, the reindex is in progress if you see logs constantly adding to your <b><i>atlassian-jira.log</i></b> below:
-                <div style='margin-bottom:-10px'><pre><code>Branch: {}
-Last index revision: {}
-Adding document for repository = {}; branch = {}; revision = {}.</code></pre></div>
-            </div>
-            </div>
+1.  Go to ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Show integration repositories**. You may see some <b style='background-color:#DEE0E5; padding:1px 5px; color:#44516C; border-radius:3px; margin: 0 5px; font-size: small;'>QUEUED</b> or <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>FETCHING</b> status in the list and is somewhat taking a bit longer to process.
+
+2.  Open ![](/wp-content/uploads/actions-icon.png) Jira System administration then click **Logging and profiling** on the left sidebar.
+
+3.  Under the Default loggers section, click **Configure...**.
+
+4.  Set the **Package name** to `com.bigbrassband.jira.git.services.indexer`.
+
+5.  Set Logging Level to **DEBUG**.
+
+    <div class="bbb-callout bbb--alert">
+        <div class="irow">
+        <div class="ilogobox">
+            <span class="logoimg"></span>
         </div>
-    </li>
-    <li>
-        Click <b>Add</b> to proceed.
-    </li>
-</ol>
+        <div class="imsgbox">
+            Setting the Logging to <b>DEBUG</b> level for the above package name will intruct Jira to do verbose logging on the plugin. Make sure to turn this setting off once it is confirmed that indexing is working on the said tasks. For example, the reindex is in progress if you see logs constantly adding to your <b><i>atlassian-jira.log</i></b> below:
+            <div style='margin-bottom:-10px'><pre><code>Branch: {}
+Last index revision: {}
+Adding document for repository = {}; branch = {}; revision = {}.</code></pre style='margin-bottom:0px'></div>
+        </div>
+        </div>
+    </div>
+
+6.  Click **Add** to proceed.
 
 Take a look at Atlassian logs in dynamic. The better way is to use "Last Log for Jira" plugin ([Last Log for Jira \| Atlassian Marketplace](https://marketplace.atlassian.com/apps/1211604/last-log-for-jira?hosting=server&tab=overview)). If the Git Integration for Jira app is doing something, then your logs are being flooded by a lot of messages like:
 
@@ -127,5 +119,5 @@ If you’re suspecting a indexing issue from a certain repository in an integrat
 
 1.  Switch to Indexing Queue Viewer and set the filter to **Status: Error**. This will narrow down the list for queued index items with the <b style='background-color:#FFEBE6; padding:1px 5px; color:#C02909; border-radius:3px; margin: 0 5px; font-size: small;'>ERROR</b> status.
 
-2.  View the logs of the error via **...** Actions ➜ **View log**. You may send the logs with errors or issues to us at [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com) for analysis.
+2.  View the logs of the error via **...** Actions ➜ **View log**. You may send the logs with errors or issues to us at [GIJ Support](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) for analysis.
 

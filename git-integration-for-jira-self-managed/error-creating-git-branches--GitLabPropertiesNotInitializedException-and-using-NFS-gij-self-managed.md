@@ -42,11 +42,11 @@ at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 
 ## Diagnosis
 
-Check the root of the reason by  [turning on DEBUG logging](https://help.gitkraken.com/git-integration-for-jira-data-center/faq-logging-gij-self-managed/#how-do-i-enable-debug-logging-level-for-git-integration-for-jira-app) for the package – `com.bigbrassband.jira.git.services.integration`.
+Check the root of the reason by [turning on DEBUG logging](https://help.gitkraken.com/git-integration-for-jira-data-center/faq-logging-gij-self-managed/#how-do-i-enable-debug-logging-level-for-git-integration-for-jira-app) for the package – **com.bigbrassband.jira.git.services.integration**.
 
 The root reason of the exception error can be one of the following:
 
-1.  not a valid json entry in repo.auto.json
+1.  not a valid json entry in `repo.auto.json`
 
 2.  incapability to lock file (`java.io.IOException: No locks available`)
 
