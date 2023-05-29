@@ -43,7 +43,7 @@ The displayed information depends on which supported git hosts are connected to 
 
 If a git host is connected to Jira, create a pull/merge request by clicking **Create pull request** or **Create merge request** label link on the Git integration panel. The following dialog is displayed:
 
-<img src='/wp-content/uploads/gij-jira-server-issue-create-pull-request-dialog.png' width=544 height=282 style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitserver-create-pullreq-dlg-pat-ok.png' style='display:block;margin:25px auto;max-width:100%' />
 
 *   Select **Repository** from the list.<br>
 
@@ -63,7 +63,7 @@ If a git host is connected to Jira, create a pull/merge request by clicking **C
 
 If the [Require User PAT option](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed) is enabled in **Integration Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, the dialog below is displayed instead:
 
-<img src='/wp-content/uploads/gij-jira-server-issue-create-pull-req-dlg-cfg-pat.png' width=544 height=272 style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitserver-create-pullreq-dlg-pat-cfg.png.png' style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 
@@ -74,7 +74,7 @@ If the [Require User PAT option](/git-integration-for-jira-data-center/require
     </div>
     <div class="imsgbox">
         If an invalid PAT was configured for the selected repository, the pull/merge request creation process will fail.
-        <div class='nextpara'>
+        <div class='nextpara' style='margin-bottom:0px'>
             This feature is available on connected GitLab1 and GitHub2 git hosts for Jira Server; GitLab, GitHub, Microsoft TFS/VSTS and AWS CodeCommit git hosts for Jira Cloud.
         </div>
     </div>
@@ -105,9 +105,7 @@ This will also allow a service user to associate a Merge/Pull Request with multi
 
 The Pull/merge request list provides status information about the pull/merge request if it is opened or merged. Hover the mouse pointer on the pull/merge request label to see information of the repository and branch where it belongs.
 
-<img src='/wp-content/uploads/gij-dev-panel-pull-req-example.png' style='display:block;margin:25px auto;max-width:100%' />
-
-<br>
+<img src='/wp-content/uploads/gij-gitserver-dev-panel-pullreq-list-hover.png' style='display:block;margin:25px auto;max-width:100%' />
 
 For detailed information on this feature, see [Creating pull/merge requests](/git-integration-for-jira-data-center/creating-branches-gij-self-managed).
 
@@ -125,13 +123,10 @@ _(UPDATED VIDEO COMING SOON)_
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/1jwzeex5qa'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
-<p>&nbsp;</p>
-
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Branches (Development panel)](/git-integration-for-jira-data-center/branches-(development-panel)-gij-self-managed)
 
 [**Next:** Git tags](/git-integration-for-jira-data-center/git-tags-gij-self-managed)
-
 
