@@ -63,6 +63,11 @@ Tag information.
 
 
 # Methods
+
+## getCommitDate()
+
+
+
 ## getCommitId()
 Returns the tag Id.
 

@@ -137,6 +137,12 @@ Returns whether the integration repositories are visible for all projects.
 
 
 
+
+## getGroup()
+Gets the Group of the Integration.
+
+This is the name that will appear in the Git Integration for Jira app repositories list.
+
 ## getMaxMinsToCommitEmail()
 Returns the property "Max commit age in minutes" value.
 
@@ -256,24 +262,33 @@ For more information, see [Working with Custom API path](/git-integration-for-ji
 Sets AWS region; where CodeCommit repositories are located. The list of regions with their names can be found [here](https://docs.aws.amazon.com/codecommit/latest/userguide/regions.html).
 
  Supported regions:
-
- * us-east-1
- * us-east-2
- * us-west-1
- * us-west-2
- * ap-south-1
- * ap-northeast-2
- * ap-southeast-1
- * ap-southeast-2
- * ap-northeast-1
- * ca-central-1
- * eu-central-1
- * eu-west-1
- * eu-west-2
- * eu-west-3
- * eu-north-1
- * me-south-1
- * sa-east-1
+ 
+*   us-east-1
+*   us-east-2
+*   us-west-1
+*   us-west-2
+*   af-south-1
+*   ap-east-1
+*   ap-south-1
+*   ap-south-2
+*   ap-northeast-3
+*   ap-northeast-2
+*   ap-southeast-1
+*   ap-southeast-3
+*   ap-southeast-2
+*   ap-northeast-1
+*   ca-central-1
+*   eu-central-1
+*   eu-central-2
+*   eu-west-1
+*   eu-west-2
+*   eu-west-3
+*   eu-south-1
+*   eu-south-2
+*   eu-north-1
+*   me-central-1
+*   me-south-1
+*   sa-east-1
 
 `GIJFacade.createIntegration()`: Optional. Required for AWS integration creation.<br>
 `GIJFacade.updateIntegration()`: Optional.

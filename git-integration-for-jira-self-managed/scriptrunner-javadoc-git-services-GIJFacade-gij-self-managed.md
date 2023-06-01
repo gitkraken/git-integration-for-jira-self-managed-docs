@@ -275,7 +275,16 @@ Returns commits information (including files) associated with the issue.
 * [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 *  *[IOException](https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html)*  
 
+## getGroup()
+Gets the Group of the Integration.
 
+This is the name that will appear in the Git Integration for Jira app repositories list.
+
+## getPrHideFilter()
+String. Optional.
+
+Displays all pull requests for the specific issue, if left blank.
+Otherwise, set pull requests matching pattern to hide pull requests on issue pages that match the specified regular expression pattern.
 
 ## getIntegration(Integer)
 Returns an integration by id.
@@ -360,7 +369,10 @@ Returns tags associated with the issue.
 * [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 * *com.atlassian.jira.issue.index.IndexException* 
 
+## setPrHideFilter()
+String. Optional.
 
+Set pull requests matching pattern to hide pull requests on issue pages that match the specified regular expression pattern.
 
 ## updateCommitIssueChanges(Integer, String, IssuesAssociationRequest)
 Changes the commit issues associations. <br>

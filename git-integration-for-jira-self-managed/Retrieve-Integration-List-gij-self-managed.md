@@ -28,6 +28,13 @@ Retrieves the list of integrations and their respective parameter details from t
 ### method
 GET
 
+### parameter
+
+| Parameter | Description |
+| :--- | :--- |
+| _**prHideFilter**_ | _String_. Optional. <br>
+Displays all pull requests for the specific issue, if left blank. Otherwise, set pull requests matching pattern to hide pull requests on issue pages that match the specified regular expression pattern. |
+
 ### Example
 
 `http://jira.yourorg.com/rest/gitplugin/1.0/integration`

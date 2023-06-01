@@ -61,6 +61,8 @@ Request body is a _JSON_ structure supporting the following parameters:
 | _**refSpecChanges**_ | _Boolean_. Optional. <br>This is a reference to `refs/changes/*` used for fetching. The default value for this field is _**false**_. |
 | _**refSpecCustom**_ | _String_. Optional. <br>This is a user-defined list of references used for fetching. It is a comma-separated list with the format: `+refs/refname1/*:refs/refname1/*`, `refs/refname2/*:refs/refname2/*`, ... |
 | _**folderDepth**_ | _Integer_. Optional. <br>Valid value range: 1 - 5 <br>This parameter is required if _**type**_ = `FILESPACE`. |
+| _**prHideFilter**_ | _String_. Optional. <br>
+Displays all pull requests for the specific issue, if left blank. Otherwise, set pull requests matching pattern to hide pull requests on issue pages that match the specified regular expression pattern. |
 
 ### Response
 

@@ -225,6 +225,11 @@ Returns the display name of the repository.
 
 
 
+## getGroupName()
+
+
+
+
 ## getId()
 
 
@@ -263,6 +268,12 @@ Returns the display name of the repository.
 ## getOrigin()
 
 
+
+
+## getPrHideFilter()
+String. Optional.
+
+Displays all pull requests for the specific issue, if left blank. Otherwise, set pull requests matching pattern to hide pull requests on issue pages that match the specified regular expression pattern.
 
 
 ## getProjectMappingIds()
@@ -478,8 +489,8 @@ This is the name that will appear in the Git Integration for Jira app repositori
 <br>
 `GIJFacade.updateRepository()`: Optional.
 
-### **Parameters**
-* `displayName`: the new display name
+**Parameters**<br>
+`displayName`: the new display name
 
 
 
@@ -495,7 +506,7 @@ Sets new password for the git repository. Leave blank and use PAT if 2FA is enab
  Use `initPassword()` when none encryption is required.<br>
  [GIJFacade](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-GIJFacade-gij-self-managed/) requires an [IntegrationRequest](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-integration-IntegrationRequest-gij-self-managed/) with an encrypted password, so use `setPassword()` instead of `initPassword()`.
 
-### **Parameters**
+**Parameters**<br>
 * `password`: new password
 
 
@@ -593,6 +604,12 @@ Sets new password for the git repository. Leave blank and use PAT if 2FA is enab
 ## setPat(String)
 
 
+
+
+## setPrHideFilter()
+String. Optional.
+
+Set pull requests matching pattern to hide pull requests on issue pages that match the specified regular expression pattern.
 
 
 ## setProjectMappingIds(Set\<Long\>)
