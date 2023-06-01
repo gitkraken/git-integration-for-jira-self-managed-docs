@@ -149,6 +149,18 @@ Clicking on the branch text links will open that issue in the Repository Browser
     </div>
 </div>
 
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.17+</b><br>
+        The "main" branch is now displayed under the Branches list -- if this setting is enabled in the General settings.
+    </div>
+    </div>
+</div>
+
 <p>&nbsp;</p>
 
 <br>
