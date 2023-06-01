@@ -21,9 +21,7 @@ taxonomy:
 
 These group of settings affect how new commits are updated; how tags are displayed on Jira issues; and give administrators control -- if commit information in JQL searches and Git activity stream is shown or not.
 
-<b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 3.9+</b> GitKraken deep linking integration is implemented.
-
-<img src='/wp-content/uploads/gij-gitserver-gencfg-git-integration-options.png' style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitserver-gencfg-git-integration-options-417.png' style='display:block;margin:25px auto;max-width:100%' />
 
 <br>
 
@@ -35,15 +33,21 @@ These group of settings affect how new commits are updated; how tags are display
 - [Git activity stream](#git-activity-stream)
 - [More on general settings](#more-on-general-settings)
 
-<br>
-<br>
+&nbsp;
 <hr>
-<br>
-<br>
+&nbsp;
 
 ## GitKraken integration
 
-Enable/disable GitKraken deep linking feature on Jira issue development panel and Git Commit tab. Clicking the deep links opens the respective commit, branches and repositories with GitKraken git client. For more information on this feature, see [Deep linking to the GitKraken client](/git-integration-for-jira-data-center/deep-linking-to-the-gitkraken-git-client-gij-self-managed).
+<b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 3.9+</b>
+
+On the General settings page, enable/disable the GitKraken deep linking feature for Jira issue development panel and Git Commits tab. This will allow access to the deep links at these locations which opens the respective commit, branches and repositories with GitKraken git client. For more information on this feature, see [Deep linking to the GitKraken client](/git-integration-for-jira-data-center/deep-linking-to-the-gitkraken-git-client-gij-self-managed).
+
+## GitLens integration
+
+<b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.15+</b>
+
+On the General settings page, enable/disable the GitLens deep linking feature for Jira issue development panel and Git Commits tab. This will allow access to the GitLens deep links at these locations which opens the respective commit, branches and repositories with GitKraken git client. For more information on this feature, see [Deep linking to the GitLens client](/git-integration-for-jira-data-center/deep-linking-into-gitlens-gij-self-managed).
 
 ## Jira issue updates
 
@@ -70,6 +74,8 @@ For more information, see [Jira git integration development panel](/git-integrat
     </div>
 </div>
 <br>
+
+**Show main branch under the Branches section in Git Integration panel** -- Enable/disable this setting to show/hide the "main" branch under the Branches list on the Jira issue Git development integration panel.
 
 **Calculate and show Git tags in the Git integration panel**  –  Enable/disable the setting to have Git Integration for Jira app calculate and show the Git tags in the Git Integration panel.
 
