@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-The Git Integration for Jira app currently supports **Jira** **8.0** to **9.7**!
+The Git Integration for Jira app currently supports **Jira** **8.0** to **9.8**!
 
 <div class="bbb-callout bbb--error">
     <div class="irow">
@@ -29,7 +29,7 @@ We are committed to provide you with an efficient and reliable support. Scroll d
 - [Quick Installation Video](#quick-installation-video)
 - [Viewing Reindex Logs](#viewing-reindex-logs)
 - [Atlassian Support End of Life](#atlassian-support-end-of-life)
-- [**Retiring IE11 Support**](#retiring-ie11-support)
+- [Retiring IE11 Support](#retiring-ie11-support)
 
 <br>
 <hr>
@@ -59,8 +59,7 @@ Using Atlassian's marketplace system, a Jira administrator can install the Git I
 </div>
 <br>
 
-
-* * *
+&nbsp;
 
 ## Viewing Reindex Logs
 
@@ -72,7 +71,7 @@ If there is an error encountered when connecting to a repository, a similar inde
 
 ![](/wp-content/uploads/gij-manage-git-repo-indexing-logs-dlg.png)
 
-* * *
+&nbsp;
 
 ## Atlassian Support End of Life
 
@@ -129,6 +128,7 @@ The table below shows the Jira Version, when [Atlassian will stop supporting th
 | 9.5 | December 6, 2024 | Edge | Yes\* |
 | 9.6 | January 24, 2025 | Edge | Yes\* |
 | 9.7 | March 20, 2025 | Edge | Yes\* |
+| 9.8 | April 25, 2025 | Edge | Yes\* |
 
 \* _See information below about retiring IE11 support._
 
