@@ -20,12 +20,7 @@ Only Jira admins can perform the Bulk Export API call.
 GET
 
 ### Parameters
-
-| _**prHideFilter**_ | _String_. Optional. <br>
-Displays all pull requests for the specific issue, if left blank. Otherwise, set pull requests matching pattern to hide pull requests on issue pages that match the specified regular expression pattern. |
-
-### Response
-Generates a tab-separated values (.tsv) file. See the parameters table below for more information on each parameter in a TSV file.
+| _**prHideFilter**_ | _String_. Optional. <br>Displays all pull requests for the specific issue, if left blank. Otherwise, set pull requests matching pattern to hide pull requests on issue pages that match the specified regular expression pattern. |
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -92,6 +87,11 @@ Edit the TSV file by referring to the parameters below:
 | _**refSpecCustom**_ | _String_. Optional.  <br>This is a user-defined list of references used for fetching. It is a comma-separated list with the format:<br>`+refs/refname1/*:refs/refname1/*`, `refs/refname2/*:refs/refname2/*`, ... |
 
 &nbsp;
+
+### Response
+Generates a tab-separated values (.tsv) file. See the parameters table below for more information on each parameter in a TSV file.
+
+* * *
 
 Take note that the .tsv file is verified by the Git Integration for Jira app with the following rules:
 

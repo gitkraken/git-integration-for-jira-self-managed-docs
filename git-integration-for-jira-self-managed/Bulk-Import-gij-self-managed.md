@@ -139,10 +139,9 @@ Refer to the parameters below when editing the TSV file:
 | _**refSpecNotes**_ | _Boolean_. Optional.<br><br>This is a reference to `refs/notes/*` used for fetching. The default value for this field is _**true**_.<br><br>Git notes are not shown…<br><ul><li>when <code>refs/notes</code> are disabled on connecting a repository;</li><li>when a new note comes when <code>refs/notes</code> is disabled.</li></ul> |
 | _**refSpecChanges**_ | _Boolean_. Optional.<br><br>This is a reference to `refs/changes/*` used for fetching. The default value for this field is _**false**_. |
 | _**refSpecCustom**_ | _String_. Optional.<br><br>This is a user-defined list of references used for fetching. It is a comma-separated list with the format: `+refs/refname1/*:refs/refname1/*`, `refs/refname2/*:refs/refname2/*`, ... |
-| _**prHideFilter**_ | _String_. Optional. <br>
-Displays all pull requests for the specific issue, if left blank. Otherwise, set pull requests matching pattern to hide pull requests on issue pages that match the specified regular expression pattern. |
+| _**prHideFilter**_ | _String_. Optional. <br>Displays all pull requests for the specific issue, if left blank. Otherwise, set pull requests matching pattern to hide pull requests on issue pages that match the specified regular expression pattern. |
 
-<br>
+&nbsp;
 
 Take note that the .tsv file is verified by the Git Integration for Jira app with the following rules:
 
@@ -154,7 +153,7 @@ Take note that the .tsv file is verified by the Git Integration for Jira app wit
 
 *   If a repository is not listed in the .tsv file, no changes will be made if the same repository exists in the Git Integration app configuration.
 
-<p>&nbsp;</p>
+&nbsp;
 
 ## Bulk Change REST APIs
 
