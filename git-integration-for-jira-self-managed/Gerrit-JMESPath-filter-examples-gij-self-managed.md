@@ -9,25 +9,25 @@ taxonomy:
 
 ![](/wp-content/uploads/gerrit-banner-logo.png)
 
-<br>
+&nbsp;
 
 An optional JMESPath filter can be configured when adding Gerrit integrations.
 
-<br>
+&nbsp;
 
-## 1. Contains (include)
+### 1\. Contains (include)
 
 `[?contains(name, 'git')]`
 
 This is a filter based on the text in the repository name. It lists repositories with the names that contain the word `'git'`. Do note that the declared string format is case-sensitive.
 
-## 2. Starts with or ends with
+### 2\. Starts with or ends with
 
 `[?starts_with(name, 'git') || ends_with(name, 'test')]`
 
 Lists repositories with the names that start with `'git'` or end with `'test'`.
 
-## 3. Contains (exclude)
+## 3\. Contains (exclude)
 
 `[?(!contains(name, 'firstword'))]`
 
@@ -36,8 +36,6 @@ Lists repositories with the names that start with `'git'` or end with `'test'`.
 **1** – Lists repositories with the names that do not contain the word `'firstword'`.
 
 **2** – Lists repositories with the names that either do not contain the words `'firstword'` OR `'secondword'`.
-
-<br>
 
 <div class="bbb-callout bbb--note">
     <div class="irow">
@@ -60,9 +58,10 @@ Lists repositories with the names that start with `'git'` or end with `'test'`.
     </div>
     </div>
 </div>
-<br>
 
-<hr>
+&nbsp;
+* * *
+&nbsp;
 
 ## More articles on JMESPath filter examples
 

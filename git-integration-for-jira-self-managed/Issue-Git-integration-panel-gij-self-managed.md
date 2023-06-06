@@ -29,15 +29,16 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
-## Overview
+&nbsp;
+
+### Overview
 
 The Issue Git integration panel displays:
 
 *   **Git Commits:** number of commits and link to [Git Commits Issue Tab](/git-integration-for-jira-data-center/git-commits-tab-gij-self-managed), link to [Git Roll Up Issue Tab](/git-integration-for-jira-data-center/git-roll-up-tab-docs-gij-self-managed).
 
-*   **Branches:** Create branch function, list of branches associated to Jira issue (Jira issue key must be in branch title)
+*   **Branches:** Create branch function, list of branches associated to Jira issue (Jira issue key must be in branch title).<br><b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW v4.17+</b> The main branch can now be displayed in the Branches list. This is controlled [enabling/disabling this General setting](/git-integration-for-jira-data-center/git-integration-features-gij-self-managed/#issue-git-integration-panel) under Issue Git integration panel.
 
 *   **Pull/Merge Requests:** Create pull/merge request function, list of pull/merge requests associated to Jira issue (Jira issue key must be in PR/MR title), status of pull/merge request
 
@@ -47,7 +48,7 @@ The Issue Git integration panel displays:
 
 &nbsp;
 
-## How can a Jira administrator enable or disable the Issue Git integration development panel?
+### How can a Jira administrator enable or disable the Issue Git integration development panel?
 
 1.  Install the [Git Integration for Jira](https://marketplace.atlassian.com/4984) app.
 
@@ -57,7 +58,7 @@ The Issue Git integration panel displays:
 
 4.  Click **Update** button.
 
-<br>
+&nbsp;
 
 ![](/wp-content/uploads/gij-gitserver-gencfg-dev-panel-sel-417.png)
 
@@ -72,9 +73,10 @@ The Issue Git integration panel displays:
     </div>
     </div>
 </div>
-<br>
 
-## See more Git Integration for Jira app features
+&nbsp;
+
+### See more Git Integration for Jira app features
 
 [Indexing queue viewer](/git-integration-for-jira-data-center/Indexing-queue-viewer-gij-self-managed) (Git Integration for Jira Server/Data Center)
 

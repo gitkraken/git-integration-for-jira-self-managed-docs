@@ -9,7 +9,7 @@ taxonomy:
 
 ![](/wp-content/uploads/github-mobile-dark.png)
 
-<br>
+&nbsp;
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -32,7 +32,8 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 This filter will allow users to connect only those repositories from a GitHub App integration that matches the JMESPath expression.
 
@@ -60,7 +61,8 @@ So if the user selects the **All repositories** scope, it would be more convenie
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 ## Examples of JMESPath expressions for GitHub App
 
@@ -70,25 +72,31 @@ GitHub Apps have different JMESPath format in comparison with previous GitHub in
 
 *   it should be followed by any valid JMESPath from standard GitHub integration.
 
-## 1\. Starts with
+&nbsp;
+
+### 1\. Starts with
 
 `repositories[] | [?starts_with(name, 'repo-prefix')]`
 
 This is a filter based on the text in the repository name. It lists repositories with the names that start with the specified word. Do note that the declared string format is case-sensitive.
 
-## 2\. Contains (include)
+&nbsp;
+
+### 2\. Contains (include)
 
 `repositories[] | [?contains(name, 'substring')]`
 
 Lists repositories with the names that contain the specified word.
 
-## 3\. Contains (exclude)
+&nbsp;
+
+### 3\. Contains (exclude)
 
 `repositories[] | [?(!contains(name, 'search-phrase'))]`
 
 Lists repositories with the names that do not contain the specified word.
 
-<br>
+&nbsp;
 
 <div class="bbb-callout bbb--note">
     <div class="irow">
@@ -100,15 +108,18 @@ Lists repositories with the names that do not contain the specified word.
     </div>
     </div>
 </div>
-<br>
 
-## 4\. Specific (exact)
+&nbsp;
+
+### 4\. Specific (exact)
 
 `repositories[] | [?name == 'exact-repo-name']`
 
 Lists repositories with the exact specified name.
 
-<hr>
+&nbsp;
+* * *
+&nbsp;
 
 ## More articles on JMESPath filter examples
 

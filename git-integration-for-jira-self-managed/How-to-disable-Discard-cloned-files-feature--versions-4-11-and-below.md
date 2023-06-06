@@ -19,9 +19,10 @@ The Remove Discard files feature is deprecated and the purpose of this article i
     </div>
     </div>
 </div>
-<br>
 
-## 1\. Update Git Integration for Jira
+&nbsp;
+
+### 1\. Update Git Integration for Jira
 
 Upgrade to the latest version of [Git Integration for Jira](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=datacenter) supporting the _**Discard cloned files**_ feature (GIJ v4.16 as of now).
 
@@ -31,7 +32,9 @@ Go to the **Manage apps** page and expand Git Integration for Jira under Install
 
 Click **Update** to upgrade the Git Integration for Jira app to the newest version.
 
-## 2\. Verify that a Git client is installed
+&nbsp;
+
+### 2\. Verify that a Git client is installed
 
 Make sure that a Git client is installed on the machine where the Jira instance is running.. Use the following command to check the installed Git version:
 
@@ -39,19 +42,25 @@ Make sure that a Git client is installed on the machine where the Jira instance 
 git --version
 ```
 
-## 3\. On Windows, verify installed Powershell version (skip this step for Linux)
+&nbsp;
+
+### 3\. On Windows, verify installed Powershell version (skip this step for Linux)
 
 Ensure that PowerShell version 5.x or higher is installed on the machine where the Jira instance is running.
 
 ![Shows the PowerShell version command example in the Command prompt window](/wp-content/uploads/gij-check-powershell-version.png)
 
-## 4\. Disable webhooks on "Webhooks" page
+&nbsp;
+
+### 4\. Disable webhooks on "Webhooks" page
 
 On the Manage repositories page, click **Webhooks** on the sidebar then click **Disabled**.
 
 ![Shows how to access the Webhooks page via Git menu then Manage repositories then on the sidebar click on Webhooks tab then click on Disabled radio button](/wp-content/uploads/gij-gitserver-gitmgr-manage-webhooks.png)
 
-## 5. Take note of the following General settings
+&nbsp;
+
+### 5. Take note of the following General settings
 
 Make sure to write down the following settings and save it for use later:
 
@@ -83,13 +92,17 @@ Also, disable the following settings to make GIJ repositories temporarily unavai
 
 *   Untick the Enable JQL searching using commit information setting
 
-## 6\. Disable all repositories/integrations via Actions
+&nbsp;
+
+### 6\. Disable all repositories/integrations via Actions
 
 Click the **Disable all** button on the Manage repositories page.
 
 ![Shows Manage repositories page while highlighting the "Disable all" button](/wp-content/uploads/gij-gitserverdc-gitmgr-disable-all-sel.png)
 
-## 7\. Clear the indexing queue
+&nbsp;
+
+### 7\. Clear the indexing queue
 
 On your Jira dashboard Git menu, click **Indexing queue**.
 
@@ -97,7 +110,9 @@ Click on the **Clear queue** button to clear the indexing queue.
 
 ![Shows the Indexing queue viewer dashboard panel with the Clear queue button](/wp-content/uploads/gij-gitserver-indexing-queue-viewer-dashboard.png)
 
-## 8a\. Powershell script for Windows
+&nbsp;
+
+### 8a\. Powershell script for Windows
 
 ```powershell
 #requires -version 5
@@ -218,9 +233,10 @@ if ( $IsFullRunSet ) {
     </div>
     </div>
 </div>
-<br>
 
-## 8b\. ShellScript for Linux
+&nbsp;
+
+### 8b\. ShellScript for Linux
 
 ```shell
 #!/bin/bash
@@ -294,9 +310,10 @@ ls --directory */ | grep --invert-match --word-regexp --extended-regexp 'scripts
     </div>
     </div>
 </div>
-<br>
 
-## 9\. Review repository folders that will be cleared
+&nbsp;
+
+### 9\. Review repository folders that will be cleared
 
 Run the script without arguments in `jira/home/data/git-plugin` folder to preview which repository folders are going to be cleared.
 
@@ -329,9 +346,10 @@ On Linux (Terminal):
     </div>
     </div>
 </div>
-<br>
 
-## 10\. Clear the repository clone folders
+&nbsp;
+
+### 10\. Clear the repository clone folders
 
 The script loops through all the folders in `jira/home/data/git-plugin` (where the cloned repositories reside). For each folder, the contents are deleted such as git files structure (except several **config** files) and initializes a bare Git repository using the same configuration.
 
@@ -343,7 +361,9 @@ On Windows (in PowerShell console):
 On Linux (Terminal):
 `./clearDataInRepositories.sh go`
 
-## 11\. Disable the Remove Discard files setting
+&nbsp;
+
+### 11\. Disable the Remove Discard files setting
 
 1.  Go to **General settings** (_Jira dashboard menu Git ➜ Manage repositories ➜ General settings [left sidebar]_).
 
@@ -355,7 +375,9 @@ On Linux (Terminal):
 
 3.  For the _**Discard cloned files in Jira home directory**_ setting, set it to **Keep all cloned files. No storage savings. All features available**.
 
-## 12\. Enable all the repositories/integrations back
+&nbsp;
+
+### 12\. Enable all the repositories/integrations back
 
 On the Manage repositories page, click the **Enable all** to reconnect all integration repositories to Git Integration for Jira.
 
@@ -371,15 +393,18 @@ On the Manage repositories page, click the **Enable all** to reconnect all integ
     </div>
     </div>
 </div>
-<br>
 
-## 13\. Perform a Reset all of the indexes
+&nbsp;
+
+### 13\. Perform a Reset all of the indexes
 
 On the Manage repositories page, click on Indexing ➜ **Reset all indexes**.
 
 ![Shows where to access this function -- Manage repositories page then click on Indexing drop down then click "Reset all indexes"](/wp-content/uploads/gij-gitserver-reindex-reset-index-all.png)
 
-## 14\. Revert back the Generals settings
+&nbsp;
+
+### 14\. Revert back the Generals settings
 
 Change back the following settings to the saved values from step 5:
 
@@ -401,12 +426,14 @@ Also, enable the following settings to make GIJ repositories available again:
 
 *   Tick on the **Enable JQL searching using commit information** setting
 
-## 15\. Enable back webhooks
+&nbsp;
+
+### 15\. Enable back webhooks
 
 On the Manage repositories page, click **Webhooks** on the sidebar then click **Enabled**.
 
 &nbsp;
-<hr>
+* * *
 &nbsp;
 
 ## Related admin articles
@@ -430,6 +457,8 @@ On the Manage repositories page, click **Webhooks** on the sidebar then click **
 [Administration FAQ](/git-integration-for-jira-self-managed/administration-faq-gij-self-managed) (Git Integration for Jira Data Center)
 
 [Indexing queue explainer](/git-integration-for-jira-self-managed/indexing-queue-explainer-gij-self-managed) (Git Integration for Jira Data Center)
+
+&nbsp;
 
 ## See other how-to articles
 
@@ -457,5 +486,3 @@ On the Manage repositories page, click **Webhooks** on the sidebar then click **
 
 *   [Creating Personal Access Tokens](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed)
 
-
-&nbsp;
