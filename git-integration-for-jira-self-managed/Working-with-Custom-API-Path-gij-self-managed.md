@@ -28,7 +28,7 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 - [More how-to articles](#more-how-to-articles)
 
 &nbsp;
-<hr>
+* * *
 &nbsp;
 
 ## Accessible locations
@@ -36,105 +36,103 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 *   Add new integration Wizard ➜ Connection screen ➜ _Advanced_ ➜ **Custom API Path**.
 
     For example:
-    
+
     ![](/wp-content/uploads/gij-gitserver-github-custom-api-path-01.png)
 
-<br>
+&nbsp;
 
 *   Manage repositories page ➜ ![](/wp-content/uploads/actions-icon.png) Actions ➜ Edit integration connection settings ➜ **Custom API Path**.
 
     ![](/wp-content/uploads/gij-gitserver-actions-int-conn-cfg-custom-apipath.png)
 
-<br>
+&nbsp;
 
 <img src='/wp-content/uploads/github-mobile-dark.png' width=40 height=40 style='margin-bottom:10px;display:block;' />
 
 ## GitHub.com and GitHub Enterprise examples
 
-### 1\. Lists all repositories (default)
+**1\. Lists all repositories (default)**
 
-    `/user/repos`
+`/user/repos`
 
-    Gets a list of repositories by the authenticated user. This is the same as when no API path is specified.
+Gets a list of repositories by the authenticated user. This is the same as when no API path is specified.
 
-### 2\. Display all repositories from \<username\>
+**2\. Display all repositories from \<username\>**
 
-    `/users/<username>/repos`
+`/users/<username>/repos`
 
-    Gets a list of public repositories for the specified user, **\<username\>**.
+Gets a list of public repositories for the specified user, **\<username\>**.
 
-    **For example:** `/users/johnsmith/repos`
+**For example:** `/users/johnsmith/repos`
 
-### 3\. Displays starred repositories
+**3\. Displays starred repositories**
 
-    `/user/starred`
+`/user/starred`
 
-    Gets a list of repositories by the authenticated user. This is the same as when no API path is specified.
+Gets a list of repositories by the authenticated user. This is the same as when no API path is specified.
 
-    `/users/<username>/starred`
+`/users/<username>/starred`
 
-    Gets the list of starred public/private repositories for the specified user, **\<username\>**.
+Gets the list of starred public/private repositories for the specified user, **\<username\>**.
 
-    **For example:** `/users/johnsmith/starred`
+**For example:** `/users/johnsmith/starred`
 
-### 4\. List all repositories for the specified organization
+**4\. List all repositories for the specified organization**
 
-    `/orgs/<org>/repos`
+`/orgs/<org>/repos`
 
-    Gets a list of repositories for the specified org, **\<org\>**. __GitKraken__
+Gets a list of repositories for the specified org, **\<org\>**. __GitKraken__
 
-    **For instance:**
+**For instance:**
 
-    `/orgs/GitKraken/repos`
+`/orgs/GitKraken/repos`
 
-    This will filter for repositories only within the org: `BigBrassBand`. This works for GitHub integrations.
+This will filter for repositories only within the org: `BigBrassBand`. This works for GitHub integrations.
 
-<br>
+&nbsp;
 
 <img src='/wp-content/uploads/gij-gitlab-mobile.png' width=40 height=40 style='margin-bottom:10px;display:block;' />
 
 ## GitLab.com and GitLab CE|EE examples
 
-### 1\. Lists all projects (default)
+**1\. Lists all projects (default)**
 
-    `/api/v4/projects?membership=true`
+`/api/v4/projects?membership=true`
 
-    Gets a list of projects. This is the same as when no API path is specified.
+Gets a list of projects. This is the same as when no API path is specified.
 
-### 2\. Display all projects from \<user\_id\>
+**2\. Display all projects from \<user\_id\>**
 
-    `/api/v4/users/<user_id>/projects`
+`/api/v4/users/<user_id>/projects`
 
-    Gets a list of projects for the specified user, **\<user\_id\>**.  __johnsmith__
+Gets a list of projects for the specified user, **\<user\_id\>**.  _**johnsmith**_
 
-### 3\. Displays starred projects
+**3\. Displays starred projects**
 
-    `/api/v4/projects?starred=true`
+`/api/v4/projects?starred=true`
 
-    Returns GitLab projects that have been starred by the connecting GitLab user.
+Returns GitLab projects that have been starred by the connecting GitLab user.
 
-### 4\. Limit to owned projects
+**4\. Limit to owned projects**
 
-    `/api/v4/projects?owned=true`
+`/api/v4/projects?owned=true`
 
-    The current user will be limited to the projects it's explicitly owned.
+The current user will be limited to the projects it's explicitly owned.
 
-### 5\. List projects from within a group
+**5\. List projects from within a group**
 
-    `/api/v4/groups/5245789/projects<br>/api/v4/groups/BigBrassBand/projects`
+`/api/v4/groups/5245789/projects<br>/api/v4/groups/BigBrassBand/projects`
 
-    Returns the list of repositories within a GitLab group (or GitLab subgroup).
-    
-    In the above examples, you can use the **Group id** or your **Group** **name** as query parameter.
+Returns the list of repositories within a GitLab group (or GitLab subgroup).
 
-### 6\. List projects from the specified subgroup
+In the above examples, you can use the **Group id** or your **Group** **name** as query parameter.
 
-    `/api/v4/groups/5245789/projects?include_subgroups=true
-    /api/v4/groups/GitKraken/projects?include_subgroups=true
-    `
+**6\. List projects from the specified subgroup**
 
-    In the above examples, the `?include_subgroups=true` API extension will return a recursive list of repositories within a nested GitLab Group (or GitLab Subgroup) where the #, `5245789`, is the **Group id**; and `GitKraken` is the **Group name**.
+`/api/v4/groups/5245789/projects?include_subgroups=true`
+`/api/v4/groups/GitKraken/projects?include_subgroups=true`
 
+In the above examples, the `?include_subgroups=true` API extension will return a recursive list of repositories within a nested GitLab Group (or GitLab Subgroup) where the #, `5245789`, is the **Group id**; and `GitKraken` is the **Group name**.
 
 For more information on GitLab custom API paths, see <a href='https://docs.gitlab.com/ee/api/' target='_blank'><b>GitLab API</b></a>.
 
@@ -162,9 +160,10 @@ For more information on GitLab custom API paths, see <a href='https://docs.gitl
     </div>
     </div>
 </div>
-<br>
 
 While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
+
+&nbsp;
 
 ## More how-to articles
 
@@ -190,14 +189,11 @@ While Custom API Path and JMESPath filter are mutually exclusive, you can use on
 
 [Creating Personal Access Tokens](/git-integration-for-jira-data-center/Creating-Personal-Access-Tokens-gij-self-managed)
 
-
-
-<p>&nbsp;</p>
-
-<br>
-<br>
-<br>
-<br>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 <div style='border-top: 1px solid #456; width: 40%; padding-bottom: 12px'></div>
 <div style='font-size: 12px;'>

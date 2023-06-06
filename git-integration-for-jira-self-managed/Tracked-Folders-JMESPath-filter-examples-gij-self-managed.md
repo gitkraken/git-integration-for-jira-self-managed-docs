@@ -9,23 +9,25 @@ taxonomy:
 
 ![](/wp-content/uploads/tracked-folder-mobile-custom3.png)
 
+&nbsp;
+
 An optional JMESPath filter can be configured when adding tracked folders.
 
-<br>
+&nbsp;
 
-## 1\. Contains (include)
+### 1\. Contains (include)
 
 `[?contains(name, 'git')]`
 
 This is a filter based on the text in the repository name. It lists repositories with the names that contain the word `'git'`. Do note that the declared string format is case-sensitive.
 
-<br>
+&nbsp;
 
 `[?contains(name, 'git') || contains(name, 'Slap') || contains(name, 'est')]`
 
 Lists repositories with the names that contain any of the specified word.
 
-## 2\. Contains (exclude)
+### 2\. Contains (exclude)
 
 `[?(!contains(name, 'firstword'))]`
 
@@ -35,7 +37,7 @@ Lists repositories with the names that contain any of the specified word.
 
 **2** – Lists repositories with the names that either do not contain the words `'firstword'` OR `'secondword'`.
 
-<br>
+&nbsp;
 
 <div class="bbb-callout bbb--note">
     <div class="irow">
@@ -47,9 +49,10 @@ Lists repositories with the names that contain any of the specified word.
     </div>
     </div>
 </div>
-<br>
 
-## 3\. Starts with (exclude)
+&nbsp;
+
+### 3\. Starts with (exclude)
 
 The example below ONLY works for tracked folder integrations; where it supports the `'fullPath'` field:
 
@@ -57,7 +60,7 @@ The example below ONLY works for tracked folder integrations; where it supports 
 
 Excludes repositories from the sub-folder.
 
-<p>&nbsp;</p>
+&nbsp;
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -69,9 +72,10 @@ Excludes repositories from the sub-folder.
     </div>
     </div>
 </div>
-<br>
 
-<hr>
+&nbsp;
+* * *
+&nbsp;
 
 ## More articles on JMESPath filter examples
 

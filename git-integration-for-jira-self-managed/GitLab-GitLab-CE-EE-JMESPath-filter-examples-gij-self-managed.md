@@ -9,19 +9,21 @@ taxonomy:
 
 ![](/wp-content/uploads/gitlab-mobile-custom1.png)
 
-<br>
+&nbsp;
 
 An optional JMESPath filter can be configured when adding GitLab integrations.
 
-<br>
+&nbsp;
 
-## 1\. Contains (include)
+### 1\. Contains (include)
 
 `[?contains(name, 'git') || contains(name, 'Slap') || contains(name, 'est')]`
 
 This is a filter based on the text in the repository name. It lists repositories with the names that contain any of the specified word. Do note that the declared string format is case-sensitive.
 
-## 2\. Contains (exclude)
+&nbsp;
+
+### 2\. Contains (exclude)
 
 `[?(!contains(tag_list, 'largemedia'))]`
 
@@ -35,7 +37,7 @@ This is a filter based on the text in the repository name. It lists repositories
 
 **3** – Lists repositories with the names that either do not contain the words `'firstword'` OR `'secondword'`.
 
-<br>
+&nbsp;
 
 <div class="bbb-callout bbb--note">
     <div class="irow">
@@ -47,9 +49,10 @@ This is a filter based on the text in the repository name. It lists repositories
     </div>
     </div>
 </div>
-<br>
 
-## 3\. Tags
+&nbsp;
+
+### 3\. Tags
 
 `[?contains(tag_list, 'largemedia')]`
 
@@ -66,22 +69,23 @@ Whitelists a project tag.
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 
-## 4\. Starts with or ends with
+### 4\. Starts with or ends with
 
 `[?starts_with(name, 'git') || ends_with(name, 'test')]`
 
 Lists repositories with the names that start with `'git'` or end with `'test'`.
 
-## 5\. Exclude projects without repositories
+&nbsp;
+
+### 5\. Exclude projects without repositories
 
 `[?!empty_repo]`
 
 Lists only repositories from projects that have existing repositories.
-
-<p>&nbsp;</p>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -93,9 +97,10 @@ Lists only repositories from projects that have existing repositories.
     </div>
     </div>
 </div>
-<br>
 
-<hr>
+&nbsp;
+* * *
+&nbsp;
 
 ## More articles on JMESPath filter examples
 
@@ -111,8 +116,11 @@ Lists only repositories from projects that have existing repositories.
 
 [Gerrit JMESPath filter examples](/git-integration-for-jira-data-center/Gerrit-JMESPath-filter-examples-gij-self-managed)
 
-<br>
-<hr>
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
+&nbsp;
 
 <!-- FOOTNOTE -->
 <br>
