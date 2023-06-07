@@ -57,8 +57,8 @@ For the example list of PRs (or MRs): TEST-1 pr\_1, TEST-1 pr\_2, TEST-1 pr\_23,
 | Action | RegExp | Hide result | PR list result |
 | :--- | :--- | :--- | :--- |
 | Hide all PRs | .* | all | _none_ |
-| Hide only **TEST-1 pr\_1** | `((^\|, )(TEST-1 pr\_1))+$` | TEST-1 pr\_1 | TEST-1 pr\_2<br>TEST-1 pr\_23<br>TEST-1 pr\_3<br>TEST-1 pr\_4 |
+| Hide only **TEST-1 pr\_1** | `((^|, )(TEST-1 pr_1))+$` | TEST-1 pr\_1 | TEST-1 pr\_2<br>TEST-1 pr\_23<br>TEST-1 pr\_3<br>TEST-1 pr\_4 |
 | Hides anything that does NOT contain the **TEST-1 pr\_2** phrase | `^((?!TEST-1 pr_2).)*$` | TEST-1 pr\_1<br>TEST-1 pr\_3<br>TEST-1 pr\_4 | TEST-1 pr\_2<br>TEST-1 pr\_23 |
-| Hide all PRs **BUT** **TEST-1 pr\_2** | `^((?!((^\|, )(TEST-1 pr\_2))+$).)*$` | TEST-1 pr\_1<br>TEST-1 pr\_23<br>TEST-1 pr\_3<br>TEST-1 pr\_4 | TEST-1 pr\_2 |
-| Hide some PRs: **TEST-1 pr\_1**, **TEST-1 pr\_2**, **TEST-1 pr\_3** | `((^\|, )(TEST-1 pr\_\[1-3\]))+$` | TEST-1 pr\_1<br>TEST-1 pr\_2<br>TEST-1 pr\_3 | TEST-1 pr\_23<br>TEST-1 pr\_4 |
+| Hide all PRs **BUT** **TEST-1 pr\_2** | `^((?!((^|, )(TEST-1 pr_2))+$).)*$` | TEST-1 pr\_1<br>TEST-1 pr\_23<br>TEST-1 pr\_3<br>TEST-1 pr\_4 | TEST-1 pr\_2 |
+| Hide some PRs: **TEST-1 pr\_1**, **TEST-1 pr\_2**, **TEST-1 pr\_3** | `((^|, )(TEST-1 pr_[1-3]))+$` | TEST-1 pr\_1<br>TEST-1 pr\_2<br>TEST-1 pr\_3 | TEST-1 pr\_23<br>TEST-1 pr\_4 |
 
