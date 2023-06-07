@@ -68,7 +68,7 @@ For the example list of PRs (or MRs): TEST-1 pr\_1, TEST-1 pr\_2, TEST-1 pr\_23,
     <tbody style='text-align:left;'>
         <tr>
             <td width=38%>Hide all PRs</td>
-            <td width=26%>.*</td>
+            <td width=26%><code>.*</code></td>
             <td width=18%>all</td>
             <td width=18%><i>none</i></td>
         </tr>
