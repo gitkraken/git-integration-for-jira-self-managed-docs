@@ -57,7 +57,7 @@ For the example list of PRs (or MRs): TEST-1 pr\_1, TEST-1 pr\_2, TEST-1 pr\_23,
 <!-- md and char esc don't work on the regexp code preview therefore I'll have to use the html table here -->
 
 <table>
-    <thead>
+    <thead style='text-align:left;'>
         <tr>
             <th>Action</th>
             <th>RegExp</th>
@@ -65,7 +65,7 @@ For the example list of PRs (or MRs): TEST-1 pr\_1, TEST-1 pr\_2, TEST-1 pr\_23,
             <th>PR list result</th>
         </tr>
     </thead>
-    <tbody>
+    <tbody style='text-align:left;'>
         <tr>
             <td width=38%>Hide all PRs</td>
             <td width=26%>.*</td>
