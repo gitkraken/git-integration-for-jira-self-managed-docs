@@ -25,11 +25,11 @@ The tag filter is available on the following locations:
 
 ### Basic regex examples
 
-*   The below example will hide tags starting with word/phrase "\[version-1\]", e.g. "\[version-1\] This is a test tag".
+*   The below example will show tags starting with word/phrase "\[version-1\]", e.g. "\[version-1\] This is a test tag".
 
-    `^[version-1].*`
+    `^(version\-1).*`
 
-*   The below example will hide tags starting with word/phrase "Release" or "release", e.g. "Release sprint 1.0.9".
+*   The below example will show tags starting with word/phrase "Release" or "release", e.g. "Release sprint 1.0.9".
 
     `^(Release|release).*`
 
@@ -45,39 +45,39 @@ For the example list of tags: release-1, release-2, release-2.3, release-3, rele
             <th>Action</th>
             <th>RegExp</th>
             <th>Hide result</th>
-            <th>Tag list result</th>
+            <th>Tags list result</th>
         </tr>
     </thead>
     <tbody style='text-align:left;'>
         <tr>
-            <td width=38%>Hide all tags</td>
+            <td width=38%>Show all tags</td>
             <td width=26%><code>.*</code></td>
             <td width=18%>all</td>
-            <td width=18%><i>none</i></td>
+            <td width=18%>release-1<br>release-2<br>release-2.3<br>release-3<br>release-4</td>
         </tr>
         <tr>
-            <td>Hide only <b>release-1</b></td>
+            <td>Show only <b>release-1</b></td>
             <td><code>((^|, )(release-1))+$</code></td>
-            <td>release-1</td>
             <td>release-2<br>release-2.3<br>release-3<br>release-4</td>
+            <td>release-1</td>
         </tr>
         <tr>
-            <td>Hides anything that does <b>NOT</b> contain the <b>release-2</b> phrase</td>
+            <td>Shows anything that does <b>NOT</b> contain the <b>release-2</b> phrase</td>
             <td><code>^((?!release-2).)*$</code></td>
-            <td>release-1<br>release-3<br>release-4</td>
             <td>release-2<br>release-2.3</td>
+            <td>release-1<br>release-3<br>release-4</td>
         </tr>
         <tr>
-            <td>Hide all tags <b>BUT release-2</b></td>
+            <td>Show all tags <b>BUT release-2</b></td>
             <td><code>^((?!((^|, )(release-2))+$).)*$</code></td>
-            <td>release-1<br>release-2.3<br>release-3<br>release-4</td>
             <td>release-2</td>
+            <td>release-1<br>release-2.3<br>release-3<br>release-4</td>
         </tr>
         <tr>
-            <td>Hide some tags: <b>release-1</b>, <b>release-2</b>, <b>release-3</b></td>
+            <td>Show some tags: <b>release-1</b>, <b>release-2</b>, <b>release-3</b></td>
             <td><code>((^|, )(release-[1-3]))+$</code></td>
-            <td>release-1<br>release-2<br>release-3</td>
             <td>release-2.3<br>release-4</td>
+            <td>release-1<br>release-2<br>release-3</td>
         </tr>
     </tbody>
 </table>
