@@ -15,11 +15,11 @@ The tag filter is available on the following locations:
 
 1.  **Integration Feature Settings page** – ![](/wp-content/uploads/actions-icon.png)&nbsp; Actions ➜ Edit integration feature settings
 
-    ![Pull request filter location 1](/wp-content/uploads/gij-gitserver-tags-filters-location-01.png)
+    ![Pull request filter location 1](/wp-content/uploads/gij-gitserver-tags-filters-feature-location-01.png)
 
 2.  **Update Repository page (integration sub repository)** – ![](/wp-content/uploads/actions-icon.png)&nbsp; Actions ➜ Show integration repositories
 
-    ![Pull request filter location 2](/wp-content/uploads/gij-gitserver-tags-filters-location-02.png)
+    ![Pull request filter location 2](/wp-content/uploads/gij-gitserver-tags-filters-feature-location-02.png)
 
 &nbsp;
 
