@@ -3,7 +3,7 @@
 title: Error creating git branches and also using NFS
 description:
 taxonomy:
-    category: git-integration-for-jira-cloud
+    category: git-integration-for-jira-data-center
 
 ---
 
