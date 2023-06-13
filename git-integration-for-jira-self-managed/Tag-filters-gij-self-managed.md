@@ -52,7 +52,7 @@ For the example list of tags: release-1, release-2, release-2.3, release-3, rele
         <tr>
             <td width=38%>Show all tags</td>
             <td width=26%><code>.*</code></td>
-            <td width=18%>all</td>
+            <td width=18%>none</td>
             <td width=18%>release-1<br>release-2<br>release-2.3<br>release-3<br>release-4</td>
         </tr>
         <tr>
