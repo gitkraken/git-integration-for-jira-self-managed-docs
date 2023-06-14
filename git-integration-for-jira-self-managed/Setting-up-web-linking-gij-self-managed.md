@@ -7,6 +7,8 @@ taxonomy:
 
 ---
 
+<!-- getting started -->
+
 The web linking feature adds links to your git hosting provider directly into the _**Git Commits**_ tab.
 
 <div class="bbb-callout bbb--info">
@@ -30,9 +32,10 @@ The web linking feature adds links to your git hosting provider directly into th
     </div>
     </div>
 </div>
-<br>
 
-## Configure Web Linking for GitHub/GitLab
+&nbsp;
+
+### Configure Web Linking for GitHub/GitLab
 
 <div class='embed-container embed-container--16-9'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/zfxfemq7z8?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -42,26 +45,20 @@ The web linking feature adds links to your git hosting provider directly into th
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/zfxfemq7z8'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
-<br>
+&nbsp;
 
 For more information, see [Documentation: Web Linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed).
 
-<br>
-
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Recommended reindex interval setting](/git-integration-for-jira-data-center/recommended-reindex-interval-setting-gij-self-managed)
 
 [**Next:** Setting up webhooks](/git-integration-for-jira-data-center/setting-up-webhooks-gij-self-managed)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
 
-## More related articles on Git for Jira administrators
+### More related articles on Git for Jira administrators
 
 [Setup GitLab Server to respond to incoming network API calls](/git-integration-for-jira-data-center/setup-gitLab-server-to-respond-to-incoming-network-API-calls-gij-self-managed)
 

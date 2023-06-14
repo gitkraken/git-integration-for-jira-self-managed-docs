@@ -7,6 +7,8 @@ taxonomy:
 
 ---
 
+<!-- getting started -->
+
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -17,7 +19,6 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
 If you have installed the Git Integration for Jira app with versions prior to v2.10.2, perform the following steps to upgrade with minimal risk:
 
@@ -27,17 +28,21 @@ If you have installed the Git Integration for Jira app with versions prior to v2
 
 3.  Upgrade the Git for Jira app to the latest version.
 
-<br>
+&nbsp;
 
-## Making backups
+### Making backups
 
-We strongly advise to make backups to avoid operations disaster.
+**We strongly advise to make backups to avoid operations disaster.**
 
-### Make a Jira backup (recommended)
+&nbsp;
+
+#### Make a Jira backup (recommended)
 
 The Git for Jira app upgrade only updates its components. Thus, it has no adverse effect to Jira. It is still better to make a backup of your Jira before any app upgrade as a safety measure.
 
-### Make a Git Integration for Jira app configuration backup (recommended)
+&nbsp;
+
+#### Make a Git Integration for Jira app configuration backup (recommended)
 
 Make sure to do a backup of the Git repositories connection configuration.
 
@@ -67,9 +72,10 @@ Make sure to do a backup of the Git repositories connection configuration.
     </div>
     </div>
 </div>
-<br>
 
-## Unisntall \| Reinstall (Not recommended)
+&nbsp;
+
+### Unisntall \| Reinstall (Not recommended)
 
 Another option is to completely uninstall then reinstall the Git for Jira app. However, this will result in Jira running on a clean state:
 
@@ -85,19 +91,16 @@ Another option is to completely uninstall then reinstall the Git for Jira app. 
 
 6.  Manually reindex the repositories based on its usage priority or click **Reindex all** to reindex them all at once.
 
-
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Working with Tracked folders](/git-integration-for-jira-data-center/working-with-Tracked-folders-gij-self-managed)
 
 [**Next:** Discard cloned files in Jira Home directory (General setting)](/git-integration-for-jira-data-center/discard-cloned-files-in-Jira-Home-directory-(general-setting)-gij-self-managed)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+
+### More related topics on Getting started for Git administrators
 
 [Setup GitLab Server to respond to incoming network API calls](/git-integration-for-jira-data-center/setup-gitLab-server-to-respond-to-incoming-network-API-calls-gij-self-managed)
 

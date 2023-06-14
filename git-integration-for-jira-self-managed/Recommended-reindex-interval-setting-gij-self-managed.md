@@ -21,6 +21,8 @@ The configuration of the scheduler jobs are no longer accessible in the Jira adm
     </div>
 </div>
 
+&nbsp;
+
 ![](/wp-content/uploads/gij-gitserver-gencfg-scheduled-jobs-repo-ridx-cfg.png)
 
 Set the automatic reindex interval frequency value in minutes as required. The default value is **5 minutes**.  Min = **1**, Max = **76,861,433,640,456**.
@@ -36,7 +38,8 @@ Set the automatic reindex interval frequency value in minutes as required. The 
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 Since indexing queue does not allow duplicate tasks, Reindex All task will not be processed twice.
 
@@ -51,6 +54,8 @@ Since indexing queue does not allow duplicate tasks, Reindex All task will not b
     </div>
 </div>
 
+&nbsp;
+
 To see the `Last run duration` value, do the following steps:
 
 <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.13+</b>
@@ -63,7 +68,7 @@ To see the `Last run duration` value, do the following steps:
 
     ![](/wp-content/uploads/gij-gitserver-indexing-queue-viewer-gencfg-dashboard-c.png)
 
-<p>&nbsp;</p>
+&nbsp;
 
 If the `Last run duration` value shows `3 minutes` _or greater_, we recommend to increase the reindex interval.
 
@@ -77,22 +82,17 @@ If the `Last run duration` value shows `3 minutes` _or greater_, we recommend 
     </div>
     </div>
 </div>
-<br>
 
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Reindex API to trigger indexing](/git-integration-for-jira-data-center/reindex-api-to-trigger-indexing-gij-self-managed)
 
 [**Next:** Setting up web linking](/git-integration-for-jira-data-center/setting-up-web-linking-gij-self-managed)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
 
-## More related articles on Git for Jira administrators
+### More related articles on Git for Jira administrators
 
 [Setup GitLab Server to respond to incoming network API calls](/git-integration-for-jira-data-center/setup-gitLab-server-to-respond-to-incoming-network-API-calls-gij-self-managed)
 

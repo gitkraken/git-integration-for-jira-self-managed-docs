@@ -25,8 +25,8 @@ For this workaround to work, the user must have an access to a Jira hosting inst
     git clone git@gitserver.com:repo/url.git  **2
     ```
 
-    ^1^ Modify the git repository URL to the correct one.<br>
-    ^2^ Using the generic clone may take a bit longer and requires more disk space to store.
+    <sup><b>1</b></sup> Modify the git repository URL to the correct one.<br>
+    <sup><b>2</b></sup> Using the generic clone may take a bit longer and requires more disk space to store.
 
 4.  For `~/Image-repo/` directory, give read and write permissions to the same user running Jira.
     For example, to make the user named _user_ be an owner of a folder, perform the following command:
@@ -46,7 +46,9 @@ For this workaround to work, the user must have an access to a Jira hosting inst
 
 The repository is added and indexing should work.
 
-## Git operations timeout
+&nbsp;
+
+### Git operations timeout
 
 <img src='/wp-content/uploads/gij-git-serverdc-repo-cfg-git-operations-timeout.png' style='display:block;margin:25px auto;max-width:100%' />
 
@@ -62,22 +64,17 @@ This setting affects how long will Git Integration for Jira app waits for connec
     </div>
     </div>
 </div>
-<br>
 
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Setting up webhooks](/git-integration-for-jira-data-center/setting-up-webhooks-gij-self-managed)
 
 [**Next:** Working with Tracked folders](/git-integration-for-jira-data-center/working-with-tracked-folders-gij-self-managed)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
 
-## More related articles on Git for Jira administrators
+### More related articles on Git for Jira administrators
 
 [Setup GitLab Server to respond to incoming network API calls](/git-integration-for-jira-data-center/setup-gitLab-server-to-respond-to-incoming-network-API-calls-gij-self-managed)
 

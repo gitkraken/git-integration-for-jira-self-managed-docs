@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 1.  On your Jira dashboard, go to  Jira Administration ➜ **Manage apps**.
 
 2.  The _**Find new apps**_ page is displayed. Search the Marketplace with '`gitkraken`' or '`git`' search phrase.
@@ -16,17 +17,17 @@ taxonomy:
 
 4.  Login to your Jira account, if required, to proceed installation of the app. The license key is automatically configured into the app configuration for free trial licenses. For purchased license keys, see [Managing license key](/git-integration-for-jira-data-center/managing-license-key-gij-self-managed).
 
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
 [**Prev:** Installation via Atlassian Marketplace](/git-integration-for-jira-data-center/installation-via-atlassian-marketplace-gij-self-managed)
 
 [**Next:** Manual installation](/git-integration-for-jira-data-center/manual-installation-gij-self-managed)
 
-<br>
-<br>
+&nbsp;
 
-## More on Git Integration for Jira installation
+### More on Git Integration for Jira installation
 
 [Installation via Atlassian Marketplace](/git-integration-for-jira-data-center/installation-via-atlassian-marketplace-gij-self-managed)
 
