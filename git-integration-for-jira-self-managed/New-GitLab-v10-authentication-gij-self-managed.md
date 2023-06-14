@@ -19,24 +19,22 @@ To pass the private access token (for example: `XpigzF1JxMnAZ7mn9qgN`) to an API
 curl --header "Private-Token: XpigzF1JxMnAZ7mn9qgN" https://gitlab.com/api/v4/projects?membership=true
 ```
 
-<br>
+&nbsp;
 
 For more information on GitLab personal access token, see [**GitLab: Personal Access Token**](https://docs.gitlab.com/ce/user/profile/personal_access_tokens.html).
 
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
+
 
 [**Prev:** Setup GitLab Server to respond to incoming network API calls](/git-integration-for-jira-data-center/Setup-GitLab-Server-to-respond-to-incoming-network-API-calls-gij-self-managed)
 
 [**Next:** General settings - Improving Jira performance](/git-integration-for-jira-data-center/General-settings-Improving-Jira-performance-gij-self-managed)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
 
-## More related articles on Git for Jira administrators
+### More related articles on Git for Jira administrators
 
 [Setup GitLab Server to respond to incoming network API calls](/git-integration-for-jira-data-center/setup-gitLab-server-to-respond-to-incoming-network-API-calls-gij-self-managed)
 

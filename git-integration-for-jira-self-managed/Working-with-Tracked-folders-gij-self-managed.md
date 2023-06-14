@@ -7,6 +7,8 @@ taxonomy:
 
 ---
 
+<!-- getting started -->
+
 ![](/wp-content/uploads/gij-gitserver-gitcfg-connect2git-menu-add-tracked-folder.png)
 
 This feature scans a locally accessible path for cloned Git repositories and automatically imports those Git repository references into Jira. A repository group called FOLDER is added in the Git Integration for Jira app repository settings.
@@ -32,26 +34,21 @@ This feature scans a locally accessible path for cloned Git repositories and aut
     </div>
     </div>
 </div>
-<br>
 
 If you have a local folder that contains multiple repositories, the Git Integration for Jira app will auto-detect and connect this folder to Jira as a tracked folder.
 
 For more information about this feature, see [Integration guide - Adding tracked folders](/git-integration-for-jira-self-managed/tracked-folders).
 
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Increasing timeout threshold for large repositories while doing a Git pull](/git-integration-for-jira-data-center/increasing-timeout-threshold-for-large-repositories-while-doing-a-git-pull-gij-self-managed)
 
 [**Next:** Recommended upgrade method for Git Integration for Jira](/git-integration-for-jira-data-center/recommended-upgrade-method-for-git-integration-for-jira-gij-self-managed)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
 
-## More related articles on Git for Jira administrators
+### More related articles on Git for Jira administrators
 
 [Setup GitLab Server to respond to incoming network API calls](/git-integration-for-jira-data-center/setup-gitLab-server-to-respond-to-incoming-network-API-calls-gij-self-managed)
 

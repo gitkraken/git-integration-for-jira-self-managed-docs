@@ -8,7 +8,7 @@ taxonomy:
 ---
 Install our product via the Atlassian Marketplace, Jira Plugin Manager or with manual installation (using the Upload method).
 
-## Getting started
+### Getting started
 
 If the Git server and Jira server are installed on the same server, only the path to the Git repository is needed. The URL and the access credentials to the Git server will only be needed if it is located on another server.
 
@@ -38,16 +38,13 @@ If the Git server and Jira server are installed on the same server, only the pat
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/lr0jp6ntfd?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center' style='margin-top:10px'>
+<div align='center' style='margin-top:12px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/lr0jp6ntfd'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
-<br>
 
+&nbsp;
 <hr>
-
-<br>
-<br>
+&nbsp;
 
 [**Prev:** Documentation (index)](/git-integration-for-jira-data-center/documentation-gij-self-managed)
 

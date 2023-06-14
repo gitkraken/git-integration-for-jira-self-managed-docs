@@ -11,7 +11,9 @@ taxonomy:
 
 Call the [Reindex REST API](/git-integration-for-jira-data-center/reindex-api-gij-self-managed) to have more control on indexing.
 
-## Reindex POST API
+&nbsp;
+
+### Reindex POST API
 
 Use this method to start the reindex process in a separate thread.
 
@@ -21,7 +23,11 @@ Use this method to start the reindex process in a separate thread.
 http://jira.yourorg.com/rest/gitplugin/1.0/index.json
 ```
 
-## Reindex GET API
+For more detailed information, see [Reindex POST API documentation](/git-integration-for-jira-data-center/reindex-post-api-gij-self-managed).
+
+&nbsp;
+
+### Reindex GET API
 
 Use this method to track messages for a particular thread.
 
@@ -31,20 +37,18 @@ Use this method to track messages for a particular thread.
 http://jira.yourorg.com/rest/gitplugin/1.0/index.json?threadId=eafe58fc-d8de-42ff-8815-6fe5860b38d2
 ```
 
-<br>
-<br>
+For more detailed information, see [Reindex GET API documentation](/git-integration-for-jira-data-center/reindex-get-api-gij-self-managed)
+
+&nbsp;
+* * *
 
 [**Prev:** Setting up repository root not located in Jira Home directory \(Admins\)](/git-integration-for-jira-data-center/Setting-up-repository-root-not-located-in-Jira-Home-directory-(Admins)-gij-self-managed)
 
 [**Next:** Recommended reindex interval setting](/git-integration-for-jira-data-center/recommended-reindex-interval-setting-gij-self-managed)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
 
-## More related articles on Git for Jira administrators
+### More related articles on Git for Jira administrators
 
 [Setup GitLab Server to respond to incoming network API calls](/git-integration-for-jira-data-center/setup-gitLab-server-to-respond-to-incoming-network-API-calls-gij-self-managed)
 

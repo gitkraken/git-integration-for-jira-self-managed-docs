@@ -10,15 +10,15 @@ taxonomy:
 **What's on this page:**
 - [Improving Git tags performance](#improving-git-tags-performance)
 - [Improving diff load performance](#improving-diff-load-performance)
-- [Enable/disable JQL search feature](#enabledisable-jql-search-feature)
+- [Enable/disable JQL search feature](#enable-or-disable-jql-search-feature)
 - [Smart commits setting](#smart-commits-setting)
 - [Commit Notification Emails](#commit-notification-emails)
 - [Git Activity Stream](#git-activity-stream)
 - [More related articles on Git for Jira administrators](#more-related-articles-on-git-for-jira-administrators)
 
-<br>
-<hr>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -30,9 +30,10 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
-## Improving Git tags performance
+&nbsp;
+
+### Improving Git tags performance
 
 Git tags and branches are cached for the most recently viewed 1000 Jira issues (across all Jira projects). The cache is reset each time a new change in any repository is detected. The cache is built the first time an issue with a tag and/or branch is loaded by a user. Subsequent loading of Jira issues with tag or branch information will utilize cached values.
 
@@ -48,8 +49,9 @@ Enabling the display of Git tags in commits for large repositories can affect th
 
 4.  Click **Save** to save and apply the setting.
 
+&nbsp;
 
-## Improving diff load performance
+### Improving diff load performance
 
 There's a default limit to the size of files that the diff'er supports which is **16MB**. This is to keep a massive file from impacting the Jira server performance too much.
 
@@ -57,11 +59,11 @@ Jira administrators can control over the size of diffs allowed to be displayed i
 
 1.  Go Jira dashboard menu Git ➜ **Manage repositories**. 
 2.  On the sidebar under Git Integration for Jira, select **General settings**. 
-3.  Scroll down to **Diff** then set the **Max Diff Line Count** value as desired.  Maximum supported value is 20000.
+3.  Scroll down to **Diff** then set the **Max Diff Line Count** value as desired. Maximum supported value is **20000**.
 
 <img src='/wp-content/uploads/gij-docs-admin-general-cfg-diff-code-setting.png' style='display:block;margin:25px auto;max-width:100%' />
 
-<br>
+&nbsp;
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -85,9 +87,10 @@ Jira administrators can control over the size of diffs allowed to be displayed i
     </div>
     </div>
 </div>
-<br>
 
-## Enable/disable JQL search feature
+&nbsp;
+
+### Enable or disable JQL search feature
 
 On your dashboard menu, go to Git ➜ Manage repositories ➜ **General settings** (sidebar). (Alternatively, go to Jira Administration ➜ Applications ➜ **General settings**).
 
@@ -107,17 +110,18 @@ This general setting allows administrators to enable/disable the JQL functions w
     </div>
     </div>
 </div>
-<br>
 
-## Smart commits setting
+&nbsp;
+
+### Smart commits setting
 
 <img src='/wp-content/uploads/gij-gitserver-edit-repocfg-smartcommits.png' style='display:block;margin:25px auto;max-width:100%' />
 
 To improve performance, turn off smart commits on initial indexing then turn it back on after initial reindexing.
 
-## Commit Notification Emails
+### Commit Notification Emails
 
-![](/wp-content/uploads/gij-gitserver-gencfg-email-settings.png)
+<img src='/wp-content/uploads/gij-gitserver-gencfg-email-settings.png' style='display:block;margin:25px auto;max-width:100%' />
 
 Enable/disable the setting to allow sending of email notifications when a commit is made. This setting defaults to OFF for upgrades and ON for new installation of the Git Integration for Jira app.
 
@@ -131,9 +135,10 @@ Enable/disable the setting to allow sending of email notifications when a commit
     </div>
     </div>
 </div>
-<br>
 
-## Git Activity Stream
+&nbsp;
+
+### Git Activity Stream
 
 <img src='/wp-content/uploads/gij-gitserver-gencfg-git-activity-stream.png' style='display:block;margin:25px auto;max-width:100%' />
 
@@ -149,22 +154,17 @@ Enable/disable the setting whether to show git commits in the Jira activity stre
     </div>
     </div>
 </div>
-<br>
 
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** New GitLab v10+ authentication](/git-integration-for-jira-data-center/New-GitLab-v10-authentication-gij-self-managed)
 
 [**Next:** Adding a repository hosted on Windows Servers or Windows Network share \(Admins\)](/git-integration-for-jira-data-center/Adding-a-repository-hosted-on-Windows-Servers-or-Windows-Network-Share-(Admins)-gij-self-managed)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
 
-## More related articles on Git for Jira administrators
+### More related articles on Git for Jira administrators
 
 [Setup GitLab Server to respond to incoming network API calls](/git-integration-for-jira-data-center/setup-gitLab-server-to-respond-to-incoming-network-API-calls-gij-self-managed)
 
