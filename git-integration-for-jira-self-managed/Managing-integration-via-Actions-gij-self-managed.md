@@ -11,9 +11,9 @@ After integrating your repository or git host, a set of actions can be performed
 
 The set of functions depends on what type of integration or repository connection is selected:
 
-## HOSTED and EXTERNAL (Single repository)
+### HOSTED and EXTERNAL (Single repository)
 
-### Reindex repository
+#### Reindex repository
 
 Immediately starts the synchronization with the selected repository.
 
@@ -27,58 +27,61 @@ Immediately starts the synchronization with the selected repository.
     </div>
     </div>
 </div>
-<br>
 
-### Edit repository settings
+#### Edit repository settings
 
 Opens the **Git Repository - Advanced** page where you can change the settings of the selected connected repository.
 
 For more details, see [Edit repository settings](/git-integration-for-jira-data-center/edit-repository-settings-gij-self-managed).
 
-### Reset index
+#### Reset index
 
 Clears the last indexed revision and rebuild Lucene index on next synchronization.
 
-### Remove repository
+#### Remove repository
 
 Disconnects the repository and removes its settings from the Git Integration for Jira app repository configuration.
 
-### View log
+#### View log
 
 Opens a dialog showing the indexing log of the connected repository. |
 
+&nbsp;
 * * *
+&nbsp;
 
-## FOLDER (Tracked folder)
+### FOLDER (Tracked folder)
 
-### Show tracked repositories
+#### Show tracked repositories
 
 Opens the **Tracked Repositories** dialog to view the connected tracked folder repositories. This option is only available if the added repository is a tracked folder.
 
 For more information about this function, see [View tracked repositories](/git-integration-for-jira-data-center/show-tracked-or-integration-repositories-gij-self-managed).
 
-### Edit repository settings
+#### Edit repository settings
 
 Opens the **Git Repository - Advanced** page where you can change the settings of the selected tracked folder integration.
 
 For more details, see [Edit repository settings](/git-integration-for-jira-data-center/edit-repository-settings-gij-self-managed).
 
-### Reset index
+#### Reset index
 
 Clears the last indexed revision and rebuild Lucene index on next synchronization.
 
-### Remove tracked folder
+#### Remove tracked folder
 
 Disconnects the tracked folder integration and removes its settings from the Git Integration for Jira app repository configuration.
 
-### View log
+#### View log
 Opens a dialog showing the indexing log of the connected tracked repository.
 
+&nbsp;
 * * *
+&nbsp;
 
-## AUTO-CONNECT** (Integration)
+### AUTO-CONNECT** (Integration)
 
-### Reindex integration
+#### Reindex integration
 
 Immediately starts the synchronization with the selected repository.
 
@@ -93,32 +96,33 @@ Immediately starts the synchronization with the selected repository.
     </div>
 </div>
 
-### Show integration repositories
+#### Show integration repositories
 
 Opens the **Integration** dialog to manage multiple repositories for this integration. You can enable/disable connected repositories individually. Clicking a repository name will open the connection settings for the selected repository.
 
 For more information about this function, see [View tracked repositories](/git-integration-for-jira-data-center/show-tracked-or-integration-repositories-gij-self-managed).
 
-### Edit integration connection settings
+#### Edit integration connection settings
 
 Opens the [Integration connection settings](/git-integration-for-jira-data-center/edit-integration-connection-settings-gij-self-managed) page where you can change the connection settings of the selected integration.
 
-### Edit integration feature settings
+#### Edit integration feature settings
 
 Opens the [Integration feature settings](/git-integration-for-jira-data-center/edit-integration-feature-settings-gij-self-managed) page where you can change the feature settings of the selected integration.
 
-### Reset index
+#### Reset index
 
 Clears the last indexed revision and rebuild Lucene index on next synchronization.
 
-### Remove integration
+#### Remove integration
 
 Disconnects the selected integration and removes its settings from the Git Integration for Jira app repository configuration.
 
-### View log
+#### View log
 
 Opens a dialog showing the indexing log of the selected integration. |
 
+&nbsp;
 * * *
 
 The tracked folder and auto-connect integrations can be configured using the following methods:
@@ -127,11 +131,11 @@ The tracked folder and auto-connect integrations can be configured using the fol
 
 *   **Repository** _level_  –  Click  <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Show integration repositories**. Click a repository from the list to open the settings for the selected repository.
 
-<br>
+&nbsp;
 
-## GitHub App integration
+### GitHub App integration
 
-### Reindex integration
+#### Reindex integration
 
 Immediately starts the synchronization with the selected GHA integration.
 
@@ -146,33 +150,34 @@ Immediately starts the synchronization with the selected GHA integration.
     </div>
 </div>
 
-### Show integration repositories
+#### Show integration repositories
 
 Opens the **Integration** dialog to manage multiple repositories of an organization for this GHA integration. You can enable/disable connected repositories individually. Clicking a repository name will open the connection settings for the selected repository.
 
 For more information about this function, see [View tracked repositories](/git-integration-for-jira-data-center/show-tracked-or-integration-repositories-gij-self-managed).
 
-### Edit integration connection settings
+#### Edit integration connection settings
 
 Opens the [Integration connection settings](/git-integration-for-jira-data-center/edit-integration-connection-settings-gij-self-managed) page where you can change the connection settings of the selected GHA integration.
 
-### Edit integration feature settings
+#### Edit integration feature settings
 
 Opens the [Integration feature settings](/git-integration-for-jira-data-center/edit-integration-feature-settings-gij-self-managed) page where you can change the feature settings of the selected GHA integration.
 
-### Reset index
+#### Reset index
 
 Clears the last indexed revision and rebuild Lucene index on next synchronization.
 
-### Remove integration
+#### Remove integration
 
 Disconnects the selected GHA integration and removes its settings from the Git Integration for Jira app repository configuration.
 
-### View log
+#### View log
 
 Opens a dialog showing the indexing log of the selected GHA integration.
 
-<p>&nbsp;</p>
+&nbsp;
+* * *
 
 [**Prev:** Managing repository or integration configuration](/git-integration-for-jira-data-center/managing-repository-or-integration-configuration-gij-self-managed)
 

@@ -6,9 +6,10 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 Smart commits allows your team to perform actions on Jira issues from a single commit. Users can enter the issue key and the desired action such as time tracking or closing an issue.
 
-## Getting started
+### Getting started
 
 The smart commit processing is **active by default** and can be enabled/disabled via the git configuration page &nbsp;<img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit integration/repository settings**):
 
@@ -19,7 +20,6 @@ The smart commit processing is **active by default** and can be enabled/disabl
     configuration page under <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ <b>Edit integration/repository settings</b>.<br>
     In Jira Cloud, this setting is always enabled.</i>
 </div>
-<br>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -28,12 +28,11 @@ The smart commit processing is **active by default** and can be enabled/disabl
     </div>
     <div class="imsgbox">
         Smart commits support for project keys that has an underscore "_" character.<br>
-        <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>VERSION 3.2.0+</b> Smart commits support for all alphabet characters.<br>
-        <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>VERSION 3.5.0.2+</b> Smart commits support for case insensitive smart commits.
+        Smart commits support for all alphabet characters.<br>
+        Smart commits support for case insensitive smart commits.
     </div>
     </div>
 </div>
-<br>
 
 Smart commits configuration checklist:
 
@@ -48,8 +47,6 @@ Smart commits configuration checklist:
 
 *   **Advanced:** Verify that the workflow conditions and validators are able to process successfully.
 
-
-
 The Git Integration app supports smart commit by adding a simple syntax to a commit message.
 
 The basic syntax for a Smart commit message is:
@@ -60,22 +57,16 @@ The basic syntax for a Smart commit message is:
 
 To know more about syntax, commands and examples on Smart Commits, see <a href='https://confluence.atlassian.com/bitbucket/processing-jira-software-issues-with-smart-commit-messages-298979931.html' target='_blank'><b>Processing Jira Software Issues with Smart Commit Messages</b></a> at the Atlassian website or proceed to the next page.
 
-<p>&nbsp;</p>
-
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Linking git commits to Jira issues](/git-integration-for-jira-data-center/linking-git-commits-to-jira-issues-gij-self-managed)
 
 [**Next:** Smart commit - Basic commands](/git-integration-for-jira-data-center/basic-commands-gij-self-managed)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
 
-## More articles on Smart commits
+### More articles on Smart commits
 
 [Basic commands](/git-integration-for-jira-data-center/basic-commands-gij-self-managed)
 

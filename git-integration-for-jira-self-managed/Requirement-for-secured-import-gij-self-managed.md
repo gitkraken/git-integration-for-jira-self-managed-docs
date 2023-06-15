@@ -7,29 +7,28 @@ taxonomy:
 
 ---
 
-## SSH integration
+### SSH integration
 
 Before adding repositories (new or existing) via Bulk change, make sure that you have added SSH keys for the respective git hosts in the Git Integration for Jira app configuration page. For example, you have GitHub and GitLab repositories to import, add the private SSH keys to the Git for Integration Jira app ➜ **SSH Keys** (_sidebar_) for each git host. For more information, see [Documentation – Adding a private SSH key](/git-integration-for-jira-data-center/adding-a-private-ssh-key-gij-self-managed).
 
-## HTTP/HTTPS integration
+&nbsp;
+
+### HTTP/HTTPS integration
 
 If you use HTTP/HTTPS URLs in the origin field, the Git Integration for Jira app will not be able to import said repositories due to missing credentials. Entering repository login credentials in the TSV file is not advisable due to a possible security risk. Therefore, when editing the _**origin**_ field of the TSV file, enter value using the `git@<repository-url>:[your-git-repo].git` format. This format will use the SSH key(s) from the Git Integration for Jira app configuration instead.
 
 Proceed to import repositories by following on the next topic.
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Exporting repository configuration via Bulk change](/git-integration-for-jira-data-center/exporting-repository-configuration-via-bulk-change-gij-self-managed)
 
 [**Next:** Import existing repositories via Bulk change](/git-integration-for-jira-data-center/import-existing-repositories-via-bulk-change-gij-self-managed)
 
-<br>
+&nbsp;
 
-## More related articles on Bulk change
+### More related articles on Bulk change
 
 [Exporting repository configuration via Bulk change](/git-integration-for-jira-data-center/exporting-repository-configuration-via-bulk-change-gij-self-managed)
 

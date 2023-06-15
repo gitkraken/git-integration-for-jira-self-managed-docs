@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 To delete multiple repositories from the Git Integration for Jira app git repository/integration configuration:
 
 1.  Open the existing .tsv file that you want to use for this process. See the [previous article](/git-integration-for-jira-data-center/editing-existing-repository-settings-in-the-tsv-file-gij-self-managed) for more information.
@@ -16,20 +17,16 @@ To delete multiple repositories from the Git Integration for Jira app git reposi
 
 ![](/wp-content/uploads/gij-gitserver-gitcfg-bulk-change-menu-import.png)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Editing existing repository settings in the TSV File](/git-integration-for-jira-data-center/editing-existing-repository-settings-in-the-TSV-file-gij-self-managed)
 
 [**Next:** Commit email notifications](/git-integration-for-jira-data-center/commit-email-notifications-gij-self-managed)
 
-<br>
-<br>
+&nbsp;
 
-## More related articles on Bulk change
+### More related articles on Bulk change
 
 [Exporting repository configuration via Bulk change](/git-integration-for-jira-data-center/exporting-repository-configuration-via-bulk-change-gij-self-managed)
 

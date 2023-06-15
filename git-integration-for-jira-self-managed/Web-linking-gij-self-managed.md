@@ -19,11 +19,10 @@ The web linking feature adds links to your git hosting provider directly into th
         </div>
     </div>
 </div>
-<br>
-<br>
-<hr>
-<br>
-<br>
+
+&nbsp;
+* * *
+&nbsp;
 
 <div class='embed-container' style='padding-bottom:62.5%'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/zfxfemq7z8?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -32,9 +31,10 @@ The web linking feature adds links to your git hosting provider directly into th
 <div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/zfxfemq7z8'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
 
-## Supported git services
+&nbsp;
+
+### Supported git services
 
 The following providers are supported:
 
@@ -80,7 +80,7 @@ The following providers are supported:
 
 <br>
 
-## Web linking manual setup
+### Web linking manual setup
 
 <img src='/wp-content/uploads/gij-gitlab-guide-web-linking.png' style='display:block;margin:25px auto;max-width:100%' alt='GitLab web linking example'/>
 
@@ -130,7 +130,6 @@ You can create several custom configuration to support other git hosting provide
         </div>
     </div>
 </div>
-<br>
 
 Any Git host that is accessible via SSH, HTTP, HTTPS, git protocol, local and network share is supported.
 
@@ -140,11 +139,8 @@ Once properly configured, the **Git Commits** tab on the **Issues** page wil
 
 The Git Integration app supports custom web linking. The commit information is displayed in the **Git Commits** issue tab if the git host server URL is provided on the **Web Linking** section in the [Advanced Setup](/git-integration-for-jira-data-center/connecting-a-repository-via-advanced-setup) or repository settings of the connected repositories.
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** General settings](/git-integration-for-jira-data-center/general-settings-docs-gij-self-managed)
 

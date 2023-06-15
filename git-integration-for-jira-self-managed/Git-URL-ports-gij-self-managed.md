@@ -10,7 +10,7 @@ If your Jira and Git servers are running through a firewall, configure the firew
 
 Below are the default ports for common git URL protocols:
 
-| Protocol | **Default Port |
+| Protocol | Default Port |
 | :--- | :--- |
 | ssh:\/\/ | port 22 |
 | git:\/\/ | port 9418 |
@@ -37,15 +37,12 @@ Test git connection and repository URL by doing the following:
     </div>
     </div>
 </div>
-<br>
 
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Working with SSH keys](/git-integration-for-jira-data-center/working-with-ssh-keys-gij-self-managed)
 
 [**Next:** Setting up repositories](/git-integration-for-jira-data-center/setting-up-repositories-gij-self-managed)
-
-
 
 

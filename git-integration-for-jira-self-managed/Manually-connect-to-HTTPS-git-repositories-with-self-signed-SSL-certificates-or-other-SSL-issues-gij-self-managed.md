@@ -52,7 +52,7 @@ There are alternative solutions to make Java trust this certificate. Refer to t
     </li>
 </ol>
 
-<p>&nbsp;</p>
+&nbsp;
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -64,9 +64,9 @@ There are alternative solutions to make Java trust this certificate. Refer to t
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
+* * *
 
 [**Prev:** Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](/git-integration-for-jira-data-center/automatically-connect-to-HTTPS-git-repositories-with-self-signed-SSL-certificates-or-other-SSL-issues-gij-self-managed)
 
