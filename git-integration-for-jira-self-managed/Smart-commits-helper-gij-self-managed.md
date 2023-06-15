@@ -27,7 +27,7 @@ A smart commit helper indicator is displayed to the right of the user/commit aut
 | <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>SMART COMMIT</b> | The commit message has a valid smart commit structure and was successfully  |
 | <b style='background-color:#FFEBE6; padding:1px 5px; color:#C02909; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>SMART COMMIT ERROR</b> | There was an error during smart commit processing. For example, invalid keyword; commit author and Jira user are not the same; permission issues or wrong values. |
 
-<br>
+&nbsp;
 
 **The smart commit helper status are not shown:**
 
@@ -49,7 +49,8 @@ A smart commit helper indicator is displayed to the right of the user/commit aut
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 Refer to the commit message case examples below:
 
@@ -60,7 +61,7 @@ Refer to the commit message case examples below:
 | Commit3 | **TST-1** Merged to master **#done**<br>(This commit message has an issue key and a valid smart commit transition keyword) |
 | Commit4 | **TST-1** Merged to master **#unknownSCkeyword**<br>(This commit message has an invalid smart commit keyword) |
 
-<br>
+&nbsp;
 
 **When Smart commits setting (SC) was set to ENABLED:**
 
@@ -71,7 +72,7 @@ Refer to the commit message case examples below:
 | Commit3 | <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>SMART COMMIT</b> | <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>SMART COMMIT</b> |
 | Commit4 | <b style='background-color:#FFEBE6; padding:1px 5px; color:#C02909; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>SMART COMMIT ERROR</b> | <b style='background-color:#FFEBE6; padding:1px 5px; color:#C02909; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>SMART COMMIT ERROR</b> |
 
-<br>
+&nbsp;
 
 **When Smart commits setting (SC) was set to DISABLED:**
 
@@ -93,10 +94,8 @@ Refer to the commit message case examples below:
     </div>
 </div>
 
-<p>&nbsp;</p>
-
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Viewing workflows](/git-integration-for-jira-data-center/viewing-workflows-gij-self-managed)
 

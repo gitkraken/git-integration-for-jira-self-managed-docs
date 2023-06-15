@@ -9,7 +9,7 @@ taxonomy:
 
 Configure and generate SSH keys for the following git hosting systems by following the reference links on each sub-section:
 
-## Beanstalk
+### Beanstalk
 
 *   For MacOS, see [Working with Git on MacOS](http://guides.beanstalkapp.com/version-control/git-on-mac.html).
 
@@ -17,13 +17,13 @@ Configure and generate SSH keys for the following git hosting systems by followi
 
 *   For Linux, see [Working with Git on Linux](http://guides.beanstalkapp.com/version-control/git-on-linux.html).
 
-## Bitbucket
+### Bitbucket
 
 *   For MacOS/Linux, see [Setting up SSH for Git on MacOS/Linux](https://support.atlassian.com/bitbucket-cloud/docs/set-up-an-ssh-key/#Set-up-SSH-on-macOS-Linux).
 
 *   For Windows, see [Set up SSH for Git on Windows](https://support.atlassian.com/bitbucket-cloud/docs/set-up-an-ssh-key/).
 
-## Gerrit
+### Gerrit
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -35,7 +35,6 @@ Configure and generate SSH keys for the following git hosting systems by followi
     </div>
     </div>
 </div>
-<br>
 
 *   For information about Gerrit software, see [Gerrit Software Wiki](http://en.wikipedia.org/wiki/Gerrit_(software)) and [Gerrit at Code Review](https://code.google.com/p/gerrit/).
 
@@ -45,7 +44,7 @@ Configure and generate SSH keys for the following git hosting systems by followi
 
 *   For details on User Change-IDs, see [Change-IDs in Gerrit](https://git.eclipse.org/r/Documentation/user-changeid.html).
 
-## GitBlit
+### GitBlit
 
 *   For information about Gitblit, see [GitBlit official website](http://gitblit.github.io/gitblit/).
 
@@ -55,7 +54,7 @@ Configure and generate SSH keys for the following git hosting systems by followi
 
 *   For GitBlit related FAQ, see [GitBlit Frequently Asked Questions](http://gitblit.com/faq.html).
 
-## GitHub
+### GitHub
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -67,17 +66,16 @@ Configure and generate SSH keys for the following git hosting systems by followi
     </div>
     </div>
 </div>
-<br>
 
 See GitHub supported platforms for generating SSH keys by following [this article](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
-## GitLab
+### GitLab
 
 *   See reference, [Installing Git for MacOS/Windows/Linux](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git).
 
 *   For creating SSH keys, see [Generating SSH Public Key](https://docs.gitlab.com/ce/ssh/README.html). Also see the video demonstration [here](https://about.gitlab.com/blog/2014/03/04/add-ssh-key-screencast/).
 
-## GitLab CE/EE
+### GitLab CE/EE
 
 Follow the above GitLab references for GitLab CE/EE. Then verify that your GitLab server should have the following SSH settings:
 
@@ -89,13 +87,13 @@ Follow the above GitLab references for GitLab CE/EE. Then verify that your GitLa
 
 Other SSH key formats may be supported by Git Integration for Jira app, but prefer to use RSA format for your SSH git connections.
 
-## Git-scm
+### Git-scm
 
 *   See reference, [Installing Git for MacOS/Windows/Linux](https://git-scm.com/book/en/Getting-Started-Installing-Git).
 
 *   For creating SSH keys, see [Connecting to GitHub with SSH](https://help.github.com/en/articles/connecting-to-github-with-ssh).
 
-## Gitolite
+### Gitolite
 
 *   For full reference and installation, see [All About Gitolite](https://gitolite.com/gitolite/index.html).
 
@@ -103,7 +101,7 @@ Other SSH key formats may be supported by Git Integration for Jira app, but pref
 
 *   For details on user key management, see [Managing User Keys in Gitolite](https://gitolite.com/gitolite/contrib/ukm.html).
 
-## VSTS \| TFS \| Azure DevOps/Azure Repos
+### VSTS \| TFS \| Azure DevOps/Azure Repos
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -120,8 +118,6 @@ Other SSH key formats may be supported by Git Integration for Jira app, but pref
 
 *   For general reference and terms, see [Git Experience Futures](https://devblogs.microsoft.com/devops/git-experience-futures/).
 
-* * *
-
 <div class="bbb-callout bbb--note">
     <div class="irow">
     <div class="ilogobox">
@@ -132,22 +128,17 @@ Other SSH key formats may be supported by Git Integration for Jira app, but pref
     </div>
     </div>
 </div>
-<br>
 
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Working with SSH keys (index)](/git-integration-for-jira-data-center/working-with-ssh-keys-gij-self-managed)
 
 [**Next:** Adding a private SSH key](/git-integration-for-jira-data-center/adding-a-private-ssh-key-gij-self-managed)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
 
-## More on Working with SSH keys
+### More on Working with SSH keys
 
 [Working with SSH keys (index)](/git-integration-for-jira-data-center/working-with-ssh-keys-gij-self-managed)
 

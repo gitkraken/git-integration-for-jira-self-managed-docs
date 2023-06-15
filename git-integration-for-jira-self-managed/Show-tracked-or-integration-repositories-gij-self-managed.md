@@ -18,7 +18,7 @@ This action will open the **Integration** or **Tracked Folder** dialog showing
 
 <img src='/wp-content/uploads/gij-show-integration-repositories-dlg-n.png' style='display:block;margin:25px auto;max-width:100%' />
 
-<br>
+&nbsp;
 
 Browse the tracked repositories/folder by clicking the page controls (if more than 10 repositories are connected).
 
@@ -48,6 +48,7 @@ In the filter field at the top right, enter a character or a name to display rep
 <br>
 
 &nbsp;
+* * *
 
 [**Prev:** Managing integrations via Actions](/git-integration-for-jira-data-center/managing-integrations-via-actions-gij-self-managed)
 

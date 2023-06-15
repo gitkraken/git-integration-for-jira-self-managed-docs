@@ -25,17 +25,15 @@ Before you can add new repository configuration via bulk change, you need to dow
     </div>
     </div>
 </div>
-<br>
 
 &nbsp;
-<hr>
-&nbsp;
+* * *
 
 [**Prev:** Import existing repositories via Bulk change](/git-integration-for-jira-data-center/import-existing-repositories-via-bulk-change-gij-self-managed)
 
 [**Next:** Editing existing repository settings in the TSV file](/git-integration-for-jira-data-center/editing-existing-repository-settings-in-the-TSV-file-gij-self-managed)
 
-<br>
+&nbsp;
 
 ## More related articles on Bulk change
 

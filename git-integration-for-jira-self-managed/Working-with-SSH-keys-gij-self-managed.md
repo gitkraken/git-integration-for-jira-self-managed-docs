@@ -126,8 +126,6 @@ For Windows, we recommend to use <a href='https://www.putty.org/'><b>PuTTY</b><
 
 9. For the private key, see the note below.
 
-&nbsp;
-
 <div class="bbb-callout bbb--note">
     <div class="irow">
     <div class="ilogobox">
@@ -139,7 +137,16 @@ For Windows, we recommend to use <a href='https://www.putty.org/'><b>PuTTY</b><
     </div>
 </div>
 
-You can also use the git bash command line to generate SSH key pair. For detailed information, see <a href='https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key'><b>Generate SSH via Git bash</b></a>.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        You can also use the git bash command line to generate SSH key pair. For detailed information, see <a href='https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key'><b>Generate SSH via Git bash</b></a>.
+    </div>
+    </div>
+</div>
 
 Read on the section [Generating SSH keys](/git-integration-for-jira-dta-center/generating-ssh-keys-gij-self-managed) and follow specific information for the git host and platform that you use.
 

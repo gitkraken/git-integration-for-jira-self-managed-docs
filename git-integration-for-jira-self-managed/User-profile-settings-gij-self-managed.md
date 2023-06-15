@@ -10,22 +10,22 @@ By default, Jira email notification format is text-only.
 
 <img src='/wp-content/uploads/gij-commit-email-view-text.png' width=589 height=256 style='display:block;margin:25px auto;max-width:100%' />
 
-<br>
+&nbsp;
 
-You can change this setting to HTML by going to ![](/wp-content/uploads/gij-profile-icon.png) User Profile ➜ **Preferences**. Click the <img src='/wp-content/uploads/gij-edit-icon-dark.png' /> **Edit** icon. The following dialog is displayed.
+You can change this setting to HTML by going to &nbsp;![](/wp-content/uploads/gij-profile-icon.png) User Profile ➜ **Preferences**. Click the <img src='/wp-content/uploads/gij-edit-icon-dark.png' /> **Edit** icon. The following dialog is displayed.
 
-<img src='/wp-content/uploads/gij-gitserver-user-prefs-email-type-sel.png' widht=544 height=662 style='' />
+<img src='/wp-content/uploads/gij-gitserver-user-prefs-email-type-sel.png' widht=544 height=662 style='margin:25px auto;max-width:100%;display:block;' />
 
-<br>
+&nbsp;
 
 Change the _**Email Type**_ to **HTML**.
 
 Click **Update** to save the changes. The email notifications that you receive will now be in HTML format.
 
-<img src='/wp-content/uploads/gij-commit-email-view-html.png' style='display:block;margin:25px auto;max-width:100%'
+<img src='/wp-content/uploads/gij-commit-email-view-html.png' style='display:block;margin:25px auto;max-width:100%' />
 
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Watching email notifications](/git-integration-for-jira-data-center/watching-email-notifications-gij-self-managed)
 

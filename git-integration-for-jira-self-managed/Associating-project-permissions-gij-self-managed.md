@@ -23,7 +23,7 @@ This feature is displayed on the following locations:
 
 *   <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>TRACKED FOLDER</b> &nbsp;Manage Git Integration for Jira configuration page ➜ <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit repository settings**.
 
-<br>
+&nbsp;
 
 <img src='/wp-content/uploads/gij-gitserver-edit-feature-cfg-proj-acls.png' style='display:block;margin:25px auto;max-width:100%' />
 
@@ -31,11 +31,13 @@ This feature is displayed on the following locations:
 
 **Associate with all projects**  –  Enable this option to associate this repository or integration to all projects. Disable this option if you want to use the existing mapped projects from the **Restrict to projects** field. The default setting is enabled _(checked)_.
 
-## Project permissions level
+&nbsp;
+
+### Project permissions level
 
 There are several types of project permission levels, namely:
 
-### Repository level
+#### Repository level
 
 <div class='embed-container' style='padding-bottom: 75.21%'>
     <iframe width='709' height='533' src='https://fast.wistia.com/embed/iframe/xvzj32nxou?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -95,7 +97,6 @@ The same process can also be applied for integration connections in Jira Cloud -
 <div align='center' style='margin-top:10px;margin-bottom:30px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/fder2qnpgw'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
 
 You can configure the project permissions for repositories within integration:
 
@@ -111,9 +112,34 @@ You can configure the project permissions for repositories within integration:
 
 6.  Click **Update** to save the settings.
 
-<p>&nbsp;</p>
+&nbsp;
+* * *
 
 [**Prev:** Managing integration or repository configuration](/git-integration-for-jira-data-center/managing-integration-or-repository-configuration-gij-self-managed)
 
 [**Next:** Bulk change](/git-integration-for-jira-data-center/bulk-change-gij-self-managed)
+
+&nbsp;
+
+### More related topics on setting up repositories
+
+[Git integration configuration page](/git-integration-for-jira-data-center/git-integration-configuration-page-gij-self-managed)
+
+[Using the Add new integration wizard](/git-integration-for-jira-data-center/using-the-add-new-integration-wizard-gij-self-managed)
+
+[Using the Connect Repository wizard](/git-integration-for-jira-data-center/using-the-connect-repository-wizard-gij-self-managed)
+
+[Connecting a repository via Advanced setup](/git-integration-for-jira-data-center/connecting-a-repository-via-advanced-setup-gij-self-managed)
+
+[Adding a repository hosted on Windows Server or Windows Network Share](/git-integration-for-jira-data-center/adding-a-repository-hosted-on-windows-server-or-windows-network-share-gij-self-managed)
+
+[Setup repository root not located in Jira HOME directory](/git-integration-for-jira-data-center/setup-repository-root-not-located-in-jira-home-directory-gij-self-managed)
+
+[Tracked folders overview](/git-integration-for-jira-data-center/tracked-folders-overview-gij-self-managed)
+
+[Self-signed HTTPS integration](/git-integration-for-jira-data-center/self-signed-https-integration-gij-self-managed)
+
+[Managing repository or integration configuration](/git-integration-for-jira-data-center/managing-repository-or-integration-configuration-gij-self-managed)
+
+**Associating project permissions** (this page)
 

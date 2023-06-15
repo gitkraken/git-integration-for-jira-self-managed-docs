@@ -6,6 +6,9 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
+<!-- jira issue page - git roll up tab documentation -->
+
 The Git Roll Up tab now allows users to view the code diff between the base and the compare versions.
 
 Open an issue then go to the Git Roll Up tab to view commit statistics, diffs and related issues.
@@ -13,6 +16,8 @@ Open an issue then go to the Git Roll Up tab to view commit statistics, diffs 
 <img src='/wp-content/uploads/gij-jira-issue-git-rollup-summary.png' width=680 height=505 style='display:block;margin:25px auto;max-width:100%' />
 
 The **Summary** page shows statistical information of the first and last revision of the commits and the time since the last commit was made. A summary of the files, lines and the developers who made the changes in this range of commits are also displayed.
+
+&nbsp;
 
 ### Git Compare
 
@@ -53,13 +58,13 @@ The git commit compare function (_Repository Browser - Compare_) is added into t
 
 Sort the code statistics by clicking the respective **Sort** button then selecting the required sorting option.
 
-<img src='/wp-content/uploads/gij-git-rollup-01.png' style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-git-rollup-01.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-<br>
+&nbsp;
 
 Select roll up options by clicking the respective **Rollup** button.
 
-<img src='/wp-content/uploads/gij-git-rollup-02.png' style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-git-rollup-02.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 <br>
 
@@ -74,10 +79,8 @@ Select roll up options by clicking the respective **Rollup** button.
     </div>
 </div>
 
-<p>&nbsp;</p>
-
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Jira issue page](/git-integration-for-jira-data-center/jira-issue-page-gij-self-managed)
 

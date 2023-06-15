@@ -29,7 +29,6 @@ Each commit can only have one git note per namespace. There can be multiple not
     </div>
     </div>
 </div>
-<br>
 
 **Guidelines for adding new git notes:**
 
@@ -65,9 +64,8 @@ git push origin refs/notes/*
     </div>
     </div>
 </div>
-<br>
 
-## Bonus: Adding git notes with TortoiseGit
+### Bonus: Adding git notes with TortoiseGit
 
 For those who are using TortoiseGit client on Windows, you can perform the following steps to add/edit git notes:
 
@@ -93,14 +91,10 @@ For those who are using TortoiseGit client on Windows, you can perform the follo
 
 5.  The new/edited git note is pushed to the git server and the git note can be seen in the Git Commits tab of the specified Jira issue.
 
-<br>
-
 <img src='/wp-content/uploads/gij-gitserver-dc-git-notes-sample.png' width=550 height=286 style='display:block;margin:25px auto;max-width:100%' />
 
-<p>&nbsp;</p>
-
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Manually link git commits to Jira issues](/git-integration-for-jira-data-center/manually-link-git-commits-to-jira-issues-gij-self-managed)
 

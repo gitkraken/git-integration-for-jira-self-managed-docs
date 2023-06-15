@@ -14,7 +14,8 @@ taxonomy:
 <div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/cq3r68b9ou'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
+
+&nbsp;
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -43,8 +44,6 @@ To manually link a git commit to a Jira issue, access the **Change commit issue
 Click the **Change commit issues** label. The following dialog is displayed.
 
 <img src='/wp-content/uploads/gij-gitserver-view-full-commits-assoc-issue-dlg.png' width=566 height=283 style='display:block;margin:25px auto;max-width:100%' alt='This is the commit association dialog where you can manually map or associate a commit to a Jira issue. The setting shows one Jira issue key association.' />
-
-<br>
 
 Add, edit or delete linked Jira issue keys in the _**Associated issues to commit**_ field.
 
@@ -83,10 +82,8 @@ Click **Save** to save the changes.
     </div>
 </div>
 
-<p>&nbsp;</p>
-
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Linking git commits to Jira issues](/git-integration-for-jira-data-center/linking-git-commits-to-jira-issues-gij-self-managed)
 

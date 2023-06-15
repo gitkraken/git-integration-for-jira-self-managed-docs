@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 Setup repositories and manage them in the Git Integration app configuration in Jira.
 
 <div class='embed-container embed-container--16-10'>
@@ -15,13 +16,16 @@ Setup repositories and manage them in the Git Integration app configuration in J
 <div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/m1k2sol0a5'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
 
-## Introduction
+&nbsp;
+
+### Introduction
 
 Integrate your git repositories via the Git Integration for Jira app in Jira Server, Jira Data Center and Jira Cloud. The Git Integration app provides special integrations with GitHub, GitLab, Azure Repos and more. This feature is accessible via the Auto-connect integration panel in the Git Integration app configuration screen. For single repository connections, these can be added via the Connect Wizard on the Git Integration app configuration screen.
 
-## Getting started
+&nbsp;
+
+### Getting started
 
 After the installation, the Git Integration for Jira app repository configuration page can be accessed via:
 
@@ -35,11 +39,8 @@ After the installation, the Git Integration for Jira app repository configuratio
 
     ![](/wp-content/uploads/gij-gitserver-gitmgr-access-location-02.png)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Git URL ports](/git-integration-for-jira-data-center/git-url-ports-gij-self-managed)
 

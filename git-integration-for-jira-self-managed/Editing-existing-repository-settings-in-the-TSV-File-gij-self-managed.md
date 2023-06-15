@@ -18,11 +18,12 @@ Navigate to the .tsv file and edit it with your favorite spreadsheet program.
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 Populate/edit the fields by utilizing the following options:
 
-## id
+### id
 
 _Integer_. Required.
 
@@ -41,9 +42,8 @@ This field is required if you wish to update or edit existing repositories by se
     </div>
     </div>
 </div>
-<br>
 
-## realRoot
+### realRoot
 
 _String_. **Optional on existing servers**.
 
@@ -51,7 +51,7 @@ This is the local path to the repository on the server where your Jira service i
 
 The `realRoot` field may refer to an existing repository on a new server. If `root` doesn't exist, this field must be blank.
 
-## absoluteRoot
+### absoluteRoot
 
 _Boolean_. Optional.
 
@@ -69,19 +69,18 @@ If this field is set to `true`, the repository is automatically managed by Git I
     </div>
     </div>
 </div>
-<br>
 
-## origin
+### origin
 
 _String_. Required.
 
 This is the URL to the hosted git service used on the project. For example, you might host your repository on GitHub, Beanstalk or your own server.
 
-### SSH INTEGRATION
+#### SSH INTEGRATION
 
 Before adding repositories (new or existing) via Bulk change, make sure that you have added SSH keys for the respective git hosts in the Git Integration for Jira app configuration page. BigBrassBand recommends to use the `git@<url>:[your-git-repo].git` format for the repository origin URL and [adding of SSH Keys](/git-integration-for-jira-data-center/adding-a-private-ssh-key-gij-self-managed) for each git host in the Git Integration for Jira app configuration page.
 
-### HTTPS/HTTP INTEGRATION
+#### HTTPS/HTTP INTEGRATION
 
 For HTTPS git repositories, obtain the URL from your git host. If you use HTTP/HTTPS URLs in the origin field, the Git Integration for Jira app will not be able to import said repositories due to missing credentials. Entering repository login credentials in the TSV file is not advisable due to a possible security risk. Therefore, when editing the _**origin**_ field of the TSV file, enter value using the `git@<repository-url>:[your-git-repo].git` format. This format will use the SSH key(s) from the Git Integration for Jira app configuration instead.
 
@@ -95,15 +94,14 @@ For HTTPS git repositories, obtain the URL from your git host. If you use HTTP/H
     </div>
     </div>
 </div>
-<br>
 
-## displayName
+### displayName
 
 _String_. Optional.
 
 Define a meaningful name for this repository configuration. This is the name that will appear in the Git Integration for Jira app repositories list. If this field is left blank, the default value is obtained from the origin.
 
-## enableFetches
+### enableFetches
 
 _Boolean._ Optional.
 
@@ -111,7 +109,7 @@ Set to `true` to enable fetches on git repositories hosted on remote servers. 
 
 Set to `false` to enable fetches on git repositories hosted on the same server as Jira. Fetches are enabled when the repository is hosted locally. In this mode, no fetches are made. The reindex service runs in the background and process every new commit found.
 
-## revisionIndexing
+### revisionIndexing
 
 _Boolean_. Optional.
 
@@ -119,7 +117,7 @@ The default value for this field is `true`.
 
 This option turns on the memory cache which is used when list of commits are displayed. Set to `true` if revision indexing will index and link to any mentioned issue keys in the revision history or not (`false`).
 
-## mainBranch
+### mainBranch
 
 _String._ Optional.
 
@@ -136,21 +134,20 @@ Set specific branch as the main branch for this repository. A commit will not be
     </div>
     </div>
 </div>
-<br>
 
-## username, password
+### username, password
 
 _String_. Optional.
 
 Critical for https origins. Define `username` and `password` for the git host. Leave blank if 2FA is enabled in your git host.
 
-## pat
+### pat
 
 _String_. Optional.
 
 Required, if 2FA is enabled for the git host. This field accepts personal access token from supported git hosts.
 
-## gitViewerEnabled
+### gitViewerEnabled
 
 _Boolean._ Optional.
 
@@ -169,7 +166,7 @@ Enables or disables the **Repository Browser** feature for this repository. T
 
 For more information, see [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed).
 
-## projectMapping
+### projectMapping
 
 _Long \[ \]_. Array. Optional.
 
@@ -185,51 +182,72 @@ These are numeric projects IDs associated with the repository.
 
 *   If projects are not associated to the repository, you must leave this field blank and set the _**gitViewerEnabled**_ field to `false`.
 
-## smartCommitsEnabled
+### smartCommitsEnabled
 
 _Boolean._ Optional.
 
 Enables/disables smart commits processing for this repository or tracked folder. The default value for this field is `true`.
 
-## sendCommitEmails
+### sendCommitEmails
 
 _Boolean._ Optional.
 
 Enables or disables commit notification emails for this repository. If left blank, the default value for this field is `true`.
 
-## maxMinsToCommitEmail
+### maxMinsToCommitEmail
 
 _Integer_. Optional.
 
 Set the desired value in minutes, as to when commit notifications will be sent. Commit notifications will be e-mailed if the age of the commit is less than or equal to this value.
 
-## changesetFormat, fileAddedFormat, fileModifiedFormat, fileDeletedFormat
+### changesetFormat, fileAddedFormat, fileModifiedFormat, fileDeletedFormat
 
 _String._ Optional.
 
 This is the URL to display content of added, modified or deleted files. Use the following variables:
 
-*   `${num}` –  number of change (0, 1, …)
-*   `${rev}`  –  git revision
-*   `${path}`  –  path of the file being changed
-*   `${parent}`  –  parent git revision
-*   `${blob}`  –  ID of blob object
-*   `${parent_blob}`  –  ID of parent blob object
-*   `$convert(${branch},"subStr","newSubStr")`  –  this inline function returns branch name with _subStr_ replaced by a _newSubStr_. The `${branch}` code has been changed to cope up with the character requirements on some hosting services.
+<ul>
+    <li>`${num}` –  number of change (0, 1, …)</li>
+    <li>`${rev}`  –  git revision</li>
+    <li>
+        `${path}` –  path of the file being changed</li><li>`${sha256path}`  –  sha256 applied to the path and hex encoded. <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>NEW!</b> in v4.17+ and is used in <b>GitHub.com</b> weblinking.
+    </li>
+    <li>
+        `${md5}`  –  md5 applied to the path and hex encoded. <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>NEW!</b> in v4.17+ and is used in <b>GitHub EE</b> weblinking.
+    </li>
+    <li>
+        `${sha1path}`  –  sha1 applied to the path and hex encoded. <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>NEW!</b> in v4.17+ and is used in <b>GitLab</b> weblinking.
+    </li>
+    <li>`${parent}` –  parent git revision</li>
+    <li>`${blob}`  –  ID of blob object</li>
+    <li>`${parent_blob}` – ID of parent blob object</li>
+    <li>
+        `$convert(${branch},"subStr","newSubStr")` – this inline function returns branch name with `subStr` replaced by a `newSubStr`.
+    </li>
+</ul>
 
-## disabled
+<div class="bbb-callout bbb--info" style='margin-bottom:0px;'>
+    <div class="irow">
+        <div class="ilogobox"><span class="logoimg"></span></div>
+        <div class="imsgbox">
+            The <code>${branch}</code> code has been changed to cope up with the character requirements on some hosting services.
+        </div>
+    </div>
+</div>
+
+### disabled
 
 _Boolean_. Optional.
 
 Add this repository into the Git Integration app configuration and set its status to updated (_enabled_) or disabled. If left blank, the default value for this field is `false`.
 
-## hosted
+### hosted
 
 _Boolean._ Optional.
 
 **Internal field**. Read-only. This field will show whether the repository is hosted on Jira or not.
 
-## tagsFilter
+### tagsFilter
 
 _String._ Optional.
 
@@ -239,19 +257,19 @@ Set _**tagsFilter**_ with a valid Java regular expression or an empty string.�
 
 For more information, see example in [Git tags](/git-integration-for-jira-data-center/git-tags-gij-self-managed).
 
-## requireUserPat
+### requireUserPat
 
 _Boolean_. Optional.
 
 Setting this field to `true` will require users to specify their own PAT for branch and pull/merge request management. If left blank, the default value of this field is `false`.
 
-## integrationType*
+### integrationType
 
 _Boolean._ **Internal field**.
 
 This field will show whether the repository is a tracked folder, a connected GitLab server or a simple repository.
 
-## trackedFolderId
+### trackedFolderId
 
 _Integer._ **Internal field**.
 
@@ -268,27 +286,26 @@ This field will display the ID of the "parent" repository. It can be changed in
     </div>
     </div>
 </div>
-<br>
 
-## delete
+### delete
 
 _Flag_. Optional.
 
 Set **"delete"** on this column/field as a confirmation to the Git Integration app to automatically remove the selected repository from the plugin configuration. If left blank, no changes will occur.
 
-## sshKeyId
+### sshKeyId
 
 _Integer_. Optional.
 
 This is the ID of an associated SSH key.
 
-## sourcesDiffViewEnabled
+### sourcesDiffViewEnabled
 
 _Boolean._ Optional.
 
 When enabled, this setting allows Jira users with the **View Development Tools** and correct Jira/Git Integration for Jira app permissions to view the commit and file diffs inside Jira.
 
-## apiPath
+### apiPath
 
 _String_. Optional.
 
@@ -296,7 +313,7 @@ The integration will use this relative REST API path starting with "/" to retrie
 
 For more information, see [Working with Custom API Path](/git-integration-for-jira-data-center/working-wit-custom-api-path-gij-self-managed).
 
-## apiFilter
+### apiFilter
 
 _String_. Optional.
 
@@ -304,13 +321,13 @@ JMESPath filter expression will be used to filter API results.
 
 See our [Integration Guides](/git-integration-for-jira-data-center/integration-guides-gij-self-managed), [Working with JMESPath filters](/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed) or [contact support](mailto:gijupport@gitkraken.com) for help writing expressions.
 
-## tfsCollection
+### tfsCollection
 
 _String_. Optional. TFS or Azure DevOps Server integrations only.
 
 A TFS collection is a group of TFS team projects. Specify an existing TFS Collection for use with Jira integration.
 
-## awsRegion
+### awsRegion
 
 _String_. Optional. AWS integrations only.
 
@@ -326,7 +343,7 @@ Git Integration for Jira app supported regions:
 | eu-west-2 | eu-west-3 | eu-north-1 | me-south-1 |
 | sa-east-1 | | | |
 
-## sslVerify
+### sslVerify
 
 _Boolean_. Optional.
 
@@ -342,9 +359,8 @@ Default is `TRUE`. The **SSL Verify** option is set to enabled by default. If se
     </div>
     </div>
 </div>
-<br>
 
-## trustFolderStat
+### trustFolderStat
 
 When this field is set to `false`, the `.git/objects/pack` folder will be always scanned to check for new pack files. If set to `true`, the `last-modified` attribute of the folder will be used to check the folder for modifications.
 
@@ -371,21 +387,20 @@ The default value for Jira Server is `true`.
     </div>
     </div>
 </div>
-<br>
 
-## weblinkType
+### weblinkType
 
 _String._ Optional.
 
 Set web link type equivalent to the connected git host. Set web linking formats by referring to [Documentation – Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed).
 
-## viewFormat
+### viewFormat
 
 _String._ Optional.
 
 This is the URL to display diff from some git hosts. Other git hosts does not use this field.
 
-## mergeRequestFormat
+### mergeRequestFormat
 
 _String._ Optional.
 
@@ -393,7 +408,7 @@ This is the URL to display content of pull/merge requests on the git server.  U
 
 `${mergereqId}` – ID of the pull/merge request
 
-## branchLinkFormat
+### branchLinkFormat
 
 _String._ Optional.
 
@@ -401,7 +416,7 @@ This is the URL to display a branch on the git server. Use the following variab
 
 `${branch}` – Name of the branch
 
-## refSpecNotes
+### refSpecNotes
 
 _Boolean_. Optional.
 
@@ -421,15 +436,14 @@ This is a reference to `refs/notes/*` used for fetching. The default value for t
     </div>
     </div>
 </div>
-<br>
 
-## refSpecChanges
+### refSpecChanges
 
 _Boolean_. Optional.
 
 This is a reference to `refs/changes/*` used for fetching. The default value for this field is `false`.
 
-## refSpecCustom
+### refSpecCustom
 
 _String_. Optional.
 
@@ -437,6 +451,7 @@ This is a user-defined list of references used for fetching. It is a comma-separ
 
 `+refs/refname1/*:refs/refname1/*`, `refs/refname2/*:refs/refname2/*`, ...
 
+&nbsp;
 * * *
 
 <div class="bbb-callout bbb--note">
@@ -465,17 +480,14 @@ Save the file to a tab-delimited format:
 
 *   **Google Drive** - upload the file to this service. Right click the **.tsv** file then open it with _Google Sheets_.  Make the necessary changes then go to File ➜ Download as ➜ **Tab separated values (.tsv)** to your local machine.
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Import new repositories via Bulk change](/git-integration-for-jira-data-center/import-new-repositories-via-bulk-change-gij-self-managed)
 
 [**Next:** Removing existing repositories via Bulk change](/git-integration-for-jira-data-center/removing-existing-repositories-via-bulk-change-gij-self-managed)
 
-<br>
+&nbsp;
 
 ## More related articles on Bulk change
 

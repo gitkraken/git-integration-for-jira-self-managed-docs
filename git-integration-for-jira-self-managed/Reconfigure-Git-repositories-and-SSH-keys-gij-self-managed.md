@@ -19,20 +19,16 @@ Perform the following steps to reconfigure repositories and SSH key:
 
 For multiple repository configuration, see [Bulk change](/git-integration-for-jira-data-center/bulk-change-gij-self-managed).
 
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Removing SSH keys](/git-integration-for-jira-data-center/removing-ssh-keys-gij-self-managed)
 
 [**Next:** Git URL ports](/git-integration-for-jira-data-center/git-url-ports-gij-self-managed)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
 
-## More on Working with SSH keys
+### More on Working with SSH keys
 
 [Working with SSH keys (index)](/git-integration-for-jira-data-center/working-with-ssh-keys-gij-self-managed)
 

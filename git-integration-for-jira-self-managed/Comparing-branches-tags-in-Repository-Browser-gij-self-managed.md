@@ -27,7 +27,9 @@ To view desired results, use the following selection scenarios:
 
 *   select different branches as base and compare. (Example: `TYT-212` against `TYT-316`)
 
-## Functions
+&nbsp;
+
+### Functions
 
 Click **…** to swap the base and the compare selection.
 
@@ -43,10 +45,8 @@ On the **Issues** page, clicking the **View in Issue Navigator** text label 
 
 *   For example, the JQL will look like `issuekey in (GIT-1851, GIT-1159, GITCL-284, GITCL-254)`.
 
-<p>&nbsp;</p>
-
-<br>
-<br>
+&nbsp;
+* * *
 
 [Viewing list of commits in Repository Browser](/git-integration-for-jira-data-center/viewing-list-of-commits-in-repository-browser-gij-self-managed)
 

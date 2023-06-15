@@ -41,7 +41,9 @@ Do note that invalid characters can be used in the transition name. Jira accepts
 
 Thus, the part of the transition name up to the invalid character can be used for transitions; where spaces become "-".
 
-### Example 1:
+&nbsp;
+
+#### Example 1:
 
 | Transition name | Smart Commit transition |
 |:----------------|:------------------------|
@@ -51,7 +53,9 @@ Thus, the part of the transition name up to the invalid character can be used fo
 
 There must be at least one unique way to call each transition name. If you have multiple transition names from a single status that use the same word, the smart commits will fail.
 
-### Example 2:
+&nbsp;
+
+#### Example 2:
 
 Another example, where an issue status NEW has these two transition paths:
 
@@ -60,7 +64,9 @@ Another example, where an issue status NEW has these two transition paths:
     
 The invalid characters are used before unique transition names are possible. Both will become "**#SEND**". Therefore, they are not unique and these transitions will fail.
 
-### Example 3:
+&nbsp;
+
+#### Example 3:
 
 Finally, the transition names have spaces instead:
 
@@ -69,8 +75,8 @@ Finally, the transition names have spaces instead:
 
 Both of these transitions are smart commit-friendly and the possible transitions are:
 
-*   **#SEND-TO-D...**
-*   **#SEND-TO-B...**
+*   `#SEND-TO-D...`
+*   `#SEND-TO-B...`
 
 The "..." indicates the truncation with the least character length to have the transition names be recognized as unique by Smart Commits. Any length shorter than this will fail the transition as explained in [**Example 2**](#example-2) above.
 
@@ -85,10 +91,8 @@ The "..." indicates the truncation with the least character length to have the t
     </div>
 </div>
 
-<p>&nbsp;</p>
-
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Workflow transitions](/git-integration-for-jira-data-center/workflow-transitions-gij-self-managed)
 

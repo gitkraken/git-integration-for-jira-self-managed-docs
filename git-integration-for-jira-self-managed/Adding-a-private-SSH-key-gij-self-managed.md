@@ -19,7 +19,6 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
 1.  From your Jira dashboard menu, go to Git ➜ **Manage repositories**. On the sidebar under _Git Integration for Jira_, select **SSH keys**.
 
@@ -37,20 +36,16 @@ taxonomy:
 
 3.  Click **Add** to complete this setup.
 
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Generating SSH keys](/git-integration-for-jira-data-center/generating-ssh-keys-gij-self-managed)
 
 [**Next:** Adding a public SSH key](/git-integration-for-jira-data-center/adding-a-public-ssh-key-gij-self-managed)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
 
-## More on Working with SSH keys
+### More on Working with SSH keys
 
 [Working with SSH keys (index)](/git-integration-for-jira-data-center/working-with-ssh-keys-gij-self-managed)
 

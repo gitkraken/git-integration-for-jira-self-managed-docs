@@ -6,9 +6,9 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-<img src='/wp-content/uplaods/gij-gitserver-gitmgr-view-details-01.png' style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitserver-gitmgr-view-details-01.png' style='display:block;margin:25px auto;max-width:100%' />
 
-<br>
+&nbsp;
 
 Click the view <img src='/wp-content/uploads/eye-icon.png' style='margin:0 3px'> icon to see basic git repository details for the selected integration/repository:
 
@@ -63,10 +63,10 @@ Click the view <img src='/wp-content/uploads/eye-icon.png' style='margin:0 3px'
         also configured.&lt;br&gt;&lt;br&gt;Displays the web linking format strings <i>(if set in
         the repository web linking configuration)</i>.</td>
       </tr>
-    </tbody>
-  </table>
-<br>
-<br>
+   </tbody>
+</table>
+
+&nbsp;
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -90,7 +90,8 @@ Click the view <img src='/wp-content/uploads/eye-icon.png' style='margin:0 3px'
     </div>
 </div>
 
-<p>&nbsp;</p>
+&nbsp;
+* * *
 
 [**Prev:** SSL verify](/git-integration-for-jira-data-center/ssl-verify-gij-self-managed)
 

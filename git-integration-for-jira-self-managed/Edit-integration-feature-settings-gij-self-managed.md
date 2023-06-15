@@ -9,7 +9,7 @@ taxonomy:
 
 ![](/wp-content/uploads/gij-gitcfg-actions-edit-feature-conn-cfg.png)
 
-<br>
+&nbsp;
 
 Clicking <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit integration feature settings** opens the configuration page for integration features settings.
 
@@ -23,23 +23,27 @@ Utilize the following options to configure the selected integration:
 - [Smart Commits](#smart-commits)
 - [Commit Notification Emails](#commit-notification-emails)
 
-<br>
-<hr>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
-## Repository Browser
+### Repository Browser
 
 <img src='/wp-content/uploads/gij-gitserver-edit-repocfg-repovw.png' style='display:block;margin:25px auto;max-width:100%' />
 
 When `Enabled`, it allows users to view Git repositories of configured projects. For more information, see [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed/).
 
-## Tags
+&nbsp;
+
+### Tags
 
 <img src='/wp-content/uploads/gij-gitserver-edit-features-tags.png' style='display:block;margin:25px auto;max-width:100%' />
 
 Set whether to show all tags or show on tags with matching regex pattern. For more information on git tags, see [Git Tags](/git-integration-for-jira-data-center/git-tags-gij-self-managed/).
 
-## Personal Access Token: Require User PAT
+&nbsp;
+
+### Personal Access Token: Require User PAT
 
 <img src='/wp-content/uploads/gij-gitserver-edit-features-pat-reqpat.png' style='display:block;margin:25px auto;max-width:100%' />
 
@@ -66,9 +70,10 @@ Enable this option to require users to provide PAT which will be used for branch
     </div>
     </div>
 </div>
-<br>
 
-## Project Permissions
+&nbsp;
+
+### Project Permissions
 
 <img src='/wp-content/uploads/gij-gitserver-edit-feature-cfg-proj-acls.png' style='display:block;margin:25px auto;max-width:100%' />
 
@@ -76,19 +81,25 @@ The default setting is **Associate with all projects**. You can restrict access
 
 To restrict to specific projects, uncheck the **Associate with all projects** _option_ and set/select one or more projects from the list.
 
-## Source Code Diff Viewing
+&nbsp;
+
+### Source Code Diff Viewing
 
 <img src='/wp-content/uploads/gij-gitserver-edit-features-src-code-diffvw.png' style='display:block;margin:25px auto;max-width:100%' />
 
 Allows or denies users to view the diff by commit and file.
 
-## Smart Commits
+&nbsp;
+
+### Smart Commits
 
 <img src='/wp-content/uploads/gij-gitserver-edit-features-smartcommits.png' style='display:block;margin:25px auto;max-width:100%' />
 
 Allows or denies the users to use the smart commits feature.
 
-## Commit Notification Emails
+&nbsp;
+
+### Commit Notification Emails
 
 <img src='/wp-content/uploads/gij-gitserver-edit-features-commit-notif-emails.png' style='display:block;margin:25px auto;max-width:100%' />
 
@@ -96,7 +107,8 @@ Enable/disable this setting to allow/deny sending of commit notification emails.
 
 Set the **Max commit age (in minutes)** as to when commit notifications will be sent. Commit notifications will be e-mailed if the age of the commit is less than or equal to this value.
 
-<p>&nbsp;</p>
+&nbsp;
+* * *
 
 [**Prev:** Edit integration connection settings](/git-integration-for-jira-data-center/edit-integration-connection-settings-gij-self-managed)
 

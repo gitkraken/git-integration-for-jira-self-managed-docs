@@ -11,7 +11,9 @@ The General settings page is only accessible to Jira Administrators.
 
 The Git Integration for Jira app introduces the General Settings page which contains configuration options for performance and features.
 
-## Getting started
+&nbsp;
+
+### Getting started
 
 Open the **General settings** page in the Jira Apps Management (**Applications** _page in Jira 8 and up_) to enable/disable features of the Git Integration for Jira Server/Data Center app.
 
@@ -30,8 +32,8 @@ After making changes to the configuration settings, click **Save** to apply th
 
 For detailed information about this feature, see [Git administration: General settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed).
 
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Commit email notifications](/git-integration-for-jira-data-center/commit-email-notifications-gij-self-managed)
 

@@ -9,6 +9,8 @@ taxonomy:
 
 This setting allows an individual user to receive or to stop receiving any of the notification emails.
 
+&nbsp;
+
 ## Permissions
 
 The user must have the following permissions to get notifications:
@@ -19,8 +21,9 @@ The user must have the following permissions to get notifications:
 
 *   developer access to at least one project and the repository is mapped to all projects.
 
+&nbsp;
 
-## Settings
+### Settings
 
 Access the settings for this feature via:
 
@@ -36,11 +39,8 @@ Access the settings for this feature via:
 
     ![](/wp-content/uploads/gij-user-profile-git-commit-emails.png)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Bulk change](/git-integration-for-jira-data-center/bulk-change-gij-self-managed)
 

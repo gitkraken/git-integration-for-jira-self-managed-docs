@@ -21,11 +21,11 @@ On this page, you will be able to setup your git repositories and connect them t
 - [Webhooks](#webhooks)
 - [Related helpful tips](#related-helpful-tips)
 
-<br>
-<hr>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
-## Add new integration panel
+### Add new integration panel
 
 ![](/wp-content/uploads/gij-gitserver-git-manager-add-new-integration-panel.png)
 
@@ -59,17 +59,20 @@ The **Add tracked folder** connection feature is added to the **Add new integrat
     </div>
     </div>
 </div>
-<br>
 
-## Connect to Git repository
+&nbsp;
+
+### Connect to Git repository
 
 ![](/wp-content/uploads/gij-gitserver-connect-git-repo.png)
 
 This feature opens the Connect wizard.
 
-You can connect single git repositories using this setup such as git protocol, SSH, HTTP/HTTPS, etc. Clicking the adjacent **…** will open the dropdown list of integration options such as [Add tracked folder](/git-integration-for-jira-data-cemter/tracked-folders-gij-self-managed) and equivalent integration connection options. |
+You can connect single git repositories using this setup such as git protocol, SSH, HTTP/HTTPS, etc. Clicking the adjacent **…** will open the dropdown list of integration options such as [Add tracked folder](/git-integration-for-jira-data-cemter/tracked-folders-gij-self-managed) and equivalent integration connection options.
 
-## Enable all or Disable all
+&nbsp;
+
+### Enable all or Disable all
 
 ![](/wp-content/uploads/gij-gitserver-enable-disable-all.png)
 
@@ -77,7 +80,9 @@ The **Enable all** function will enable each integration in the repository list 
 
 The **Disable all** function will disable each integration in the repository list and unmark all the checkboxes in the _**Enabled**_ column.
 
-## Bulk change
+&nbsp;
+
+### Bulk change
 
 ![](/wp-content/uploads/gij-gitserver-bulk-change.png)
 
@@ -89,7 +94,9 @@ Bulk change provides an easier way to import or export repository configuration.
 
 For more information, see [Bulk change](/git-integration-for-jira-data-center/bulk-change-gij-self-managed).
 
-## Indexing options
+&nbsp;
+
+### Indexing options
 
 ![](/wp-content/uploads/gij-gitserver-reindex-reset-index-all.png)
 
@@ -111,15 +118,19 @@ For more information, see [Bulk change](/git-integration-for-jira-data-center/b
 
 For more information on this topic, see [Reindexing](/git-integration-for-jira-data-center/reindexing-gij-self-managed).
 
-## Webhooks
+&nbsp;
+
+### Webhooks
 
 ![](/wp-content/uploads/gij-gitserver-webhooks-sidebar.png)
 
 Opens the Webhooks configuration page. Enable/disable webhooks to trigger immediate reindex of the connected git repositories and integration.
 
-For more information about this topic, click [here](/git-integration-for-jira-data-center/integration-webhooks-gij-self-managed) to go to the **Webhooks documentation page**.
+For more information about this topic, see [GIJ Webhooks documentation](/git-integration-for-jira-data-center/integration-webhooks-gij-self-managed).
 
-## Related helpful tips
+&nbsp;
+
+### Related helpful tips
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -154,7 +165,7 @@ For more information about this topic, click [here](/git-integration-for-jira-d
         <b>Windows Network Share</b><br>
         When using Windows network sharing for the repository origin, it is recommended to allocate repositories’ paths shorter than 256 characters.
         <p>Example: <code>\\WS129\custom-repo\project-z\</code></p>
-        <p style='margin-bottom: 0 !important'>Otherwise, the provided URL will not be recognized as valid.</p>
+        <p style='margin-bottom: -10px !important'>Otherwise, the provided URL will not be recognized as valid.</p>
     </div>
     </div>
 </div>
@@ -167,7 +178,7 @@ For more information about this topic, click [here](/git-integration-for-jira-d
     <div class="imsgbox">
         <b>For Jira hosted on Windows</b><br>
         When using Active Directory accounts for repository access, changing the password of the AD account running Jira can cause repository authentication issues.
-        <p style='margin-bottom: 0 !important'>The solution for this is to restart Jira to regain access to repositories.</p>
+        <p style='margin-bottom: -10px !important'>The solution for this is to restart Jira to regain access to repositories.</p>
     </div>
     </div>
 </div>
@@ -195,13 +206,35 @@ For more information about this topic, click [here](/git-integration-for-jira-d
     </div>
     </div>
 </div>
-<br>
 
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Setting up repositories](/git-integration-for-jira-data-center/setting-up-repositories-gij-self-managed)
 
 [**Next:** Using the Add new integration wizard](/git-integration-for-jira-data-center/using-the-add-new-integration-wizard-gij-self-managed)
 
+&nbsp;
+
+### More related topics on setting up repositories
+
+**Git integration configuration page** (this page)
+
+[Using the Add new integration wizard](/git-integration-for-jira-data-center/using-the-add-new-integration-wizard-gij-self-managed)
+
+[Using the Connect Repository wizard](/git-integration-for-jira-data-center/using-the-connect-repository-wizard-gij-self-managed)
+
+[Connecting a repository via Advanced setup](/git-integration-for-jira-data-center/connecting-a-repository-via-advanced-setup-gij-self-managed)
+
+[Adding a repository hosted on Windows Server or Windows Network Share](/git-integration-for-jira-data-center/adding-a-repository-hosted-on-windows-server-or-windows-network-share-gij-self-managed)
+
+[Setup repository root not located in Jira HOME directory](/git-integration-for-jira-data-center/setup-repository-root-not-located-in-jira-home-directory-gij-self-managed)
+
+[Tracked folders overview](/git-integration-for-jira-data-center/tracked-folders-overview-gij-self-managed)
+
+[Self-signed HTTPS integration](/git-integration-for-jira-data-center/self-signed-https-integration-gij-self-managed)
+
+[Managing repository or integration configuration](/git-integration-for-jira-data-center/managing-repository-or-integration-configuration-gij-self-managed)
+
+[Associating project permissions](/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed)
 

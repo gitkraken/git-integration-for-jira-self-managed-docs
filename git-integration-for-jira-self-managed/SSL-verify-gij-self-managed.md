@@ -17,9 +17,9 @@ This feature can be accessed at the following locations on the Manage Git reposi
 
 *   <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>EXISTING INTEGRATION</b> <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>EXISTING REPOSITORY</b> <br>Under **Repository/integration** _column_ ➜ click an integration or repository URL name
 
-<br>
-<hr>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
 The **SSL Verify** option is set to `Enabled` by default. If set to `Disabled`, the Git Integration for Jira app will ignore verification of SSL certificates when connecting to a git server.
 
@@ -37,9 +37,9 @@ The **SSL Verify** option is set to `Enabled` by default. If set to `Disabl
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
+* * *
 
 [**Prev:** Edit repository settings](/git-integration-for-jira-data-center/edit-repository-settings-gij-self-managed)
 
