@@ -37,7 +37,7 @@ PUT
 
 The Request body is a _JSON_ structure similar to the [Add New Integration API](/git-integration-for-jira-data-center/add-new-integration-gij-self-managed). Unlike the [Update Existing Repository API](/git-integration-for-jira-data-center/update-existing-integration-gij-self-managed), the `id` of the integration is substituted to the url as `integrationId`.
 
-| Parameter | Condition |
+| Parameter | Description |
 | :--- | :--- |
 | _**displayName**_ | _String_. Optional. Some git hosts may require this to be filled in.<br><br>This is the name that will appear in the Git Integration for Jira app repositories list. |
 | _**origin**_ | _String_. Optional.<br><br>This is the URL to the hosted git service used on the project.<br><br>For example, you might host your repository on GitHub, Beanstalk or your own server.<br><br>_**Example URL:**_ `https://api.github.com` |
@@ -66,6 +66,7 @@ The Request body is a _JSON_ structure similar to the [Add New Integration AP
 | _**refSpecChanges**_ | _Boolean_. Optional.<br><br>This is a reference to `refs/changes/*` used for fetching. The default value for this field is _**false**_. |
 | _**refSpecCustom**_ | _String_. Optional.<br><br>This is a user-defined list of references used for fetching. It is a comma-separated list with the format: `+refs/refname1/*:refs/refname1/*`, `refs/refname2/*:refs/refname2/*`, ... |
 | _**folderDepth**_ | _Integer_. Optional. <br>Valid value range: 1 - 5 <br>This parameter is required if _**integrationType**_ = `FILESPACE`. |
+| _**prHideFilter**_ | _String_. Optional. <br>Displays all pull requests for the specific issue, if left blank. Otherwise, set pull requests matching pattern to hide pull requests on issue pages that match the specified regular expression pattern. |
 
 &nbsp;
 

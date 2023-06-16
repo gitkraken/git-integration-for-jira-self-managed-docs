@@ -451,6 +451,12 @@ This is a user-defined list of references used for fetching. It is a comma-separ
 
 `+refs/refname1/*:refs/refname1/*`, `refs/refname2/*:refs/refname2/*`, ...
 
+## prHideFilter
+
+_String_. Optional.
+
+Displays all pull requests for the specific issue, if left blank. Otherwise, set pull requests matching pattern to hide pull requests on issue pages that match the specified regular expression pattern.
+
 &nbsp;
 * * *
 
@@ -481,7 +487,8 @@ Save the file to a tab-delimited format:
 *   **Google Drive** - upload the file to this service. Right click the **.tsv** file then open it with _Google Sheets_.  Make the necessary changes then go to File ➜ Download as ➜ **Tab separated values (.tsv)** to your local machine.
 
 &nbsp;
-* * *
+<hr>
+&nbsp;
 
 [**Prev:** Import new repositories via Bulk change](/git-integration-for-jira-data-center/import-new-repositories-via-bulk-change-gij-self-managed)
 

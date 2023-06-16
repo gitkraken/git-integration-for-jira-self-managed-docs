@@ -32,7 +32,7 @@ POST
 
 Request body is a _JSON_ structure supporting the following parameters:
 
-| Parameter | Condition |
+| Parameter | Description |
 | :--- | :--- |
 | _**displayName**_ | _String_. Optional.<br><br>This is the name that will appear in the Git Integration for Jira app repositories list. |
 | _**origin**_ | _String_. Required.<br><br>This is the URL to the hosted git service used on the project.<br><br>For example, you might host your repository on GitHub, Beanstalk or your own server. |
@@ -66,14 +66,15 @@ Request body is a _JSON_ structure supporting the following parameters:
 | _**refSpecNotes**_ | _Boolean_. Optional.  <br>This is a reference to `refs/notes/*` used for fetching. The default value for this field is _**true**_.<br><br>![](/wp-content/uploads/bbb-info-20.png) Git notes are not shown…<br><ul><li>when <code>refs/notes</code> are disabled on connecting a repository;</li><li>when a new note comes when <code>refs/notes</code> is disabled.</li></ul> |
 | _**refSpecChanges**_ | _Boolean_. Optional.  <br>This is a reference to `refs/changes/*` used for fetching. The default value for this field is _**false**_. |
 | _**refSpecCustom**_ | _String_. Optional.  <br>This is a user-defined list of references used for fetching. It is a comma-separated list with the format: `+refs/refname1/*:refs/refname1/*`, `refs/refname2/*:refs/refname2/*`, ... |
+| _**prHideFilter**_ | _String_. Optional. <br>Displays all pull requests for the specific issue, if left blank. Otherwise, set pull requests matching pattern to hide pull requests on issue pages that match the specified regular expression pattern. |
 
-<br>
+&nbsp;
 
 ### Response
 
 Adds a new repository to the Git Integration for Jira app repository configuration.
 
-* * *
+&nbsp;
 
 ### Example:
 

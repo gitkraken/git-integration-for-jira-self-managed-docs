@@ -275,8 +275,6 @@ Returns commits information (including files) associated with the issue.
 * [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 *  *[IOException](https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html)*  
 
-
-
 ## getIntegration(Integer)
 Returns an integration by id.
 
@@ -359,8 +357,6 @@ Returns tags associated with the issue.
 *  *[IOException](https://docs.oracle.com/javase/8/docs/api/java/io/IOException.html)*  
 * [GIJException](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-GIJException-gij-self-managed/) 
 * *com.atlassian.jira.issue.index.IndexException* 
-
-
 
 ## updateCommitIssueChanges(Integer, String, IssuesAssociationRequest)
 Changes the commit issues associations. <br>

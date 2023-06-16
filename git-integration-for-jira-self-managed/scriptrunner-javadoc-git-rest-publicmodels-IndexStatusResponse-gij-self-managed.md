@@ -19,6 +19,7 @@ Contains status of a reindex.
 | Visibility | Signature |
 | --- | --- |
 | `public` | [IndexStatusResponse](#indexstatusresponse)() |
+| `public` | [IndexStatusResponse](#indexstatusresponsestring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* threadId) |
 
 #### Methods
 | Type and modifiers | Method signature |
@@ -38,6 +39,10 @@ Contains status of a reindex.
 # Constructors
 ## IndexStatusResponse()
 
+
+
+
+## IndexStatusResponse(String)
 
 
 

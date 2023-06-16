@@ -31,11 +31,25 @@ This is a POJO object containing an integration properties/settings.
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getDisplayName](#getdisplayname)() |
 | `public`  *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  | [getFolderDepth](#getfolderdepth)() |
 | `public`  *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  | [getGitViewerEnabled](#getgitviewerenabled)() |
+| `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getGithubAppClientId](#getgithubappclientid)() |
+| `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getGithubAppClientSecret](#getgithubappclientsecret)() |
+| `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getGithubAppHtmlUrl](#getgithubapphtmlurl)() |
+| `public`  *[Long](https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html)*  | [getGithubAppId](#getgithubappid)() |
+| `public`  *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  | [getGithubAppInstallationId](#getgithubappinstallationid)() |
+| `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getGithubAppName](#getgithubappname)() |
+| `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getGithubAppOrg](#getgithubapporg)() |
+| `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getGithubAppPem](#getgithubapppem)() |
+| `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getGithubAppSecret](#getgithubappsecret)() |
+| `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getGithubAppSlug](#getgithubappslug)() |
+| `public`  *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  | [getGithubAppSuspended](#getgithubappsuspended)() |
+| `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getGithubAppWebhookSecret](#getgithubappwebhooksecret)() |
 | `public`  *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  | [getGlobal](#getglobal)() |
+| `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getGroup](#getgroup)() |
 | `public`  *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  | [getMaxMinsToCommitEmail](#getmaxminstocommitemail)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getOrigin](#getorigin)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getPassword](#getpassword)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getPat](#getpat)() |
+| `public` *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getPrHideFilter](#getprhidefilter)() |
 | `public`  *[Set](https://docs.oracle.com/javase/8/docs/api/java/util/Set.html)* \< *[Long](https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html)* \> | [getProjectMappingIds](#getprojectmappingids)() |
 | `public`  *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  | [getRefSpecChanges](#getrefspecchanges)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getRefSpecCustom](#getrefspeccustom)() |
@@ -58,11 +72,25 @@ This is a POJO object containing an integration properties/settings.
 | `public` `void` | [setDisplayName](#setdisplaynamestring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  displayName) |
 | `public` `void` | [setFolderDepth](#setfolderdepthinteger)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  folderDepth) |
 | `public` `void` | [setGitViewerEnabled](#setgitviewerenabledboolean)( *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  gitViewerEnabled) |
+| `public` `void` | [setGithubAppClientId](#setgithubappclientidstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  githubAppClientId) |
+| `public` `void` | [setGithubAppClientSecret](#setgithubappclientsecretstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  githubAppClientSecret) |
+| `public` `void` | [setGithubAppHtmlUrl](#setgithubapphtmlurlstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  githubAppHtmlUrl) |
+| `public` `void` | [setGithubAppId](#setgithubappidlong)( *[Long](https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html)*  githubAppId) |
+| `public` `void` | [setGithubAppInstallationId](#setgithubappinstallationidinteger)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  githubAppInstallationId) |
+| `public` `void` | [setGithubAppName](#setgithubappnamestring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  githubAppName) |
+| `public` `void` | [setGithubAppOrg](#setgithubapporgstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  githubAppOrg) |
+| `public` `void` | [setGithubAppPem](#setgithubapppemstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  githubAppPem) |
+| `public` `void` | [setGithubAppSecret](#setgithubappsecretstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  githubAppSecret) |
+| `public` `void` | [setGithubAppSlug](#setgithubappslugstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  githubAppSlug) |
+| `public` `void` | [setGithubAppSuspended](#setgithubappsuspendedboolean)( *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  githubAppSuspended) |
+| `public` `void` | [setGithubAppWebhookSecret](#setgithubappwebhooksecretstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  githubAppWebhookSecret) |
 | `public` `void` | [setGlobal](#setglobalboolean)( *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  global) |
+| `public` `void` | [setGroup](#setgroupstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* group) |
 | `public` `void` | [setMaxMinsToCommitEmail](#setmaxminstocommitemailinteger)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  maxMinsToCommitEmail) |
 | `public` `void` | [setOrigin](#setoriginstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  origin) |
 | `public` `void` | [setPassword](#setpasswordstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  password) |
 | `public` `void` | [setPat](#setpatstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  pat) |
+| `public` `void` | [setPrHideFilter](#setprhidefilterstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* prHideFilter) |
 | `public` `void` | [setProjectMappingIds](#setprojectmappingidsset)( *[Set](https://docs.oracle.com/javase/8/docs/api/java/util/Set.html)* \< *[Long](https://docs.oracle.com/javase/8/docs/api/java/lang/Long.html)* \> projectMappingIds) |
 | `public` `void` | [setRefSpecChanges](#setrefspecchangesboolean)( *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  refSpecChanges) |
 | `public` `void` | [setRefSpecCustom](#setrefspeccustomstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  refSpecCustom) |
@@ -132,6 +160,67 @@ For more information, see section, [Repository Browser](/git-integration-for-jir
 
 
 
+
+## getGithubAppClientId()
+
+
+
+
+## getGithubAppClientSecret()
+
+
+
+
+## getGithubAppHtmlUrl()
+
+
+
+
+## getGithubAppId()
+
+
+
+
+## getGithubAppInstallationId()
+
+
+
+
+## getGithubAppName()
+
+
+
+
+## getGithubAppOrg()
+
+
+
+
+## getGithubAppPem()
+
+
+
+
+## getGithubAppSecret()
+
+
+
+
+## getGithubAppSlug()
+
+
+
+
+## getGithubAppSuspended()
+
+
+
+
+## getGithubAppWebhookSecret()
+
+
+
+
 ## getGlobal()
 Returns whether the integration repositories are visible for all projects.
 
@@ -154,6 +243,11 @@ Returns password.
 
 ## getPat()
 Returns PAT.
+
+
+
+## getPrHideFilter()
+Returns the regexp string of the pull request filter.
 
 
 
@@ -257,23 +351,31 @@ Sets AWS region; where CodeCommit repositories are located. The list of regions 
 
  Supported regions:
 
- * us-east-1
- * us-east-2
- * us-west-1
- * us-west-2
- * ap-south-1
- * ap-northeast-2
- * ap-southeast-1
- * ap-southeast-2
- * ap-northeast-1
- * ca-central-1
- * eu-central-1
- * eu-west-1
- * eu-west-2
- * eu-west-3
- * eu-north-1
- * me-south-1
- * sa-east-1
+* us-east-2
+* us-west-1
+* us-west-2
+* af-south-1
+* ap-east-1
+* ap-south-1
+* ap-south-2
+* ap-northeast-3
+* ap-northeast-2
+* ap-southeast-1
+* ap-southeast-3
+* ap-southeast-2
+* ap-northeast-1
+* ca-central-1
+* eu-central-1
+* eu-central-2
+* eu-west-1
+* eu-west-2
+* eu-west-3
+* eu-south-1
+* eu-south-2
+* eu-north-1
+* me-central-1
+* me-south-1
+* sa-east-1
 
 `GIJFacade.createIntegration()`: Optional. Required for AWS integration creation.<br>
 `GIJFacade.updateIntegration()`: Optional.
@@ -345,11 +447,88 @@ Enables or disables Repository Browser feature.
 
 
 
+
+## setGithubAppClientId(String)
+
+
+
+
+## setGithubAppClientSecret(String)
+
+
+
+
+## setGithubAppHtmlUrl(String)
+
+
+
+
+## setGithubAppId(Long)
+
+
+
+
+## setGithubAppInstallationId(Integer)
+
+
+
+
+## setGithubAppName(String)
+
+
+
+
+## setGithubAppOrg(String)
+
+
+
+
+## setGithubAppPem(String)
+
+
+
+
+## setGithubAppSecret(String)
+
+
+
+
+## setGithubAppSlug(String)
+
+
+
+
+## setGithubAppSuspended(Boolean)
+
+
+
+
+## setGithubAppWebhookSecret(String)
+
+
+
+
 ## setGlobal(Boolean)
 If set to true, the projectMappingIds parameter is ignored. Otherwise, the projectMappingIds parameter value(s) are applied.
 
+
 ### **Parameters**
 * `global`: new value for "Associate with all projects" property
+
+
+
+
+## setGroup(String)
+Sets the Group of the Integration.
+ This is the name that will appear in the Git Integration for Jira app repositories list.
+
+`GIJFacade.createIntegration()`: Optional. Is autogenerated by default.
+<br>
+`GIJFacade.updateIntegration()`: isn't supported.
+
+### **Parameters**
+* `group`: a new group name
+
 
 
 
@@ -383,6 +562,11 @@ For example, you might host your repository on GitHub, Beanstalk or your own ser
 
 
 ## setPat(String)
+
+
+
+## setPrHideFilter(String)
+Set the regexp for the pull request filter.
 
 
 

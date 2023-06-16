@@ -16,14 +16,15 @@ Tag information.
 ## Summary
 #### Constructors
 | Visibility | Signature |
-| --- | --- |
+| :--- | :--- |
 | `public` | [Tag](#tag)() |
 | `public` | [Tag](#tagtag)([Tag](#) other) |
-| `public` | [Tag](#tagstring-string-integer-string-date-string-string-string-string)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  name,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  commitId,  *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  repoId,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  repoName,  *[Date](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)*  creationDate,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  creationDateFormatted,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  message,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  committerName,  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  committerEmail) |
+| `public` | [Tag](#tagstring-string-integer-string-date-date-string-string-string-string)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* name, *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* commitId, *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)* repoId, *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* repoName, *[Date](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)* commitDate, *[Date](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)* creationDate, *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* creationDateFormatted, *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* message, *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* committerName, *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* committerEmail) |
 
 #### Methods
 | Type and modifiers | Method signature |
-| --- | --- |
+| :--- | :--- |
+| `public` *[Date](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)*  | [getCommitDate](#getcommitdate)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getCommitId](#getcommitid)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getCommitterEmail](#getcommitteremail)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getCommitterName](#getcommittername)() |
@@ -33,6 +34,7 @@ Tag information.
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getName](#getname)() |
 | `public`  *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  | [getRepoId](#getrepoid)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getRepoName](#getreponame)() |
+| `public` `void` | [setCommitDate](#setcommitdatedate)( *[Date](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)* commitDate) |
 | `public` `void` | [setCommitId](#setcommitidstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  commitId) |
 | `public` `void` | [setCommitterEmail](#setcommitteremailstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  committerEmail) |
 | `public` `void` | [setCommitterName](#setcommitternamestring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  committerName) |
@@ -56,13 +58,18 @@ Tag information.
 
 
 
-## Tag(String, String, Integer, String, Date, String, String, String, String)
+## Tag(String, String, Integer, String, Date, Date, String, String, String, String)
 
 
 
 
 
 # Methods
+
+## getCommitDate()
+Returns the commit date.
+
+
 ## getCommitId()
 Returns the tag Id.
 
@@ -106,6 +113,10 @@ Returns the repository id the tag belongs to.
 ## getRepoName()
 Returns the display name of the tag repository.
 
+
+
+## setCommitDate(Date)
+Set the commit date.
 
 
 ## setCommitId(String)

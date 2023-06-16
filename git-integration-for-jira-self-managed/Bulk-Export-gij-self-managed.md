@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 The API returns a file with the plugin configuration.
 
 Only Jira admins can perform the Bulk Export API call.
@@ -19,10 +20,7 @@ Only Jira admins can perform the Bulk Export API call.
 GET
 
 ### Parameters
-none
-
-### Response
-Generates a tab-separated values (.tsv) file. See the parameters table below for more information on each parameter in a TSV file.
+| _**prHideFilter**_ | _String_. Optional. <br>Displays all pull requests for the specific issue, if left blank. Otherwise, set pull requests matching pattern to hide pull requests on issue pages that match the specified regular expression pattern. |
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -88,7 +86,12 @@ Edit the TSV file by referring to the parameters below:
 | _**refSpecChanges**_ | _Boolean_. Optional.  <br>This is a reference to `refs/changes/*` used for fetching. The default value for this field is _**false**_. |
 | _**refSpecCustom**_ | _String_. Optional.  <br>This is a user-defined list of references used for fetching. It is a comma-separated list with the format:<br>`+refs/refname1/*:refs/refname1/*`, `refs/refname2/*:refs/refname2/*`, ... |
 
-<br>
+&nbsp;
+
+### Response
+Generates a tab-separated values (.tsv) file. See the parameters table below for more information on each parameter in a TSV file.
+
+* * *
 
 Take note that the .tsv file is verified by the Git Integration for Jira app with the following rules:
 
@@ -100,9 +103,7 @@ Take note that the .tsv file is verified by the Git Integration for Jira app wit
 
 *   If a repository is not listed in the .tsv file, no changes will be made if the same repository exists in the Git Integration app configuration.
 
-<p>&nbsp;</p>
-
-<br>
+&nbsp;
 <br>
 
 ## Bulk Change REST APIs

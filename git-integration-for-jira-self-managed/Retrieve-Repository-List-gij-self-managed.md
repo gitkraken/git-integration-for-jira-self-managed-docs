@@ -30,11 +30,10 @@ GET
 
 ### parameters
 
-_**projectKey**_
-
-Jira Project key (string). _**Optional**_.  Query parameter.  If omitted, all imported repositories will be returned.
-
-**Example:** Form param (`projectKey`: **TST**)
+| Parameter | Description |
+| :--- | :--- |
+| _**projectKey**_ | _**Jira Project key (string)**_. Optional. <br>Query parameter. If omitted, all imported repositories will be returned.<br><br>**Example:**<br>Form param (`projectKey`: **TST**) |
+| _**prHideFilter**_ | _String_. Optional. <br>Displays all pull requests for the specific issue, if left blank. Otherwise, set pull requests matching pattern to hide pull requests on issue pages that match the specified regular expression pattern. |
 
 ### response
 JSON
@@ -44,74 +43,56 @@ JSON
 
 ```json
 {
-  "success": true,
-  "repositories": [
+    "success": true,
+    "integrations": [
     {
-      "id": 2,
-      "displayName": "testrepo",
-      "origin": "https://github.com/xxx",
-      "mainBranch": "master",
-      "root": "xxx/xxx",
-      "realRoot": "2_testrepo",
-      "absoluteRoot": false,
-      "disabled": false,
-      "enableFetches": true,
-      "sendCommitEmails": true,
-      "maxMinsToCommitEmail": 1440,
-      "global": true,
-      "hosted": false,
-      "initDate": 1606383040986,
-      "lastIndexedDate": 1613815871685,
-      "revisionIndexing": true,
-      "gitViewerEnabled": true,
-      "disableSslVerification": false,
-      "smartCommitsEnabled": true,
-      "viewFormat": "",
-      "commitsValidationRequired": true,
-      "requireUserPat": false,
-      "projectMappingIds": [],
-      "trackedFolderId": 11,
-      "integrationType": "GITHUB",
-      "showAllTags": true,
-      "supportsBranchCreationApi": true,
-      "supportsPullRequestApi": "PULL_REQUESTS_GROUP",
-      "sourcesDiffViewEnabled": true,
-      "refSpecNotes": true,
-      "refSpecChanges": false,
-      "trustFolderStat": true
+        "id": 1,
+        "displayName": "https://github.com/",
+        "origin": "https://api.github.com",
+        "disabled": false,
+        "sendCommitEmails": true,
+        "maxMinsToCommitEmail": 1440,
+        "global": true,
+        "initDate": 1685725083439,
+        "lastIndexedDate": 1685728181726,
+        "revisionIndexing": true,
+        "gitViewerEnabled": true,
+        "disableSslVerification": false,
+        "smartCommitsEnabled": true,
+        "prHideFilter": "",
+        "requireUserPat": false,
+        "projectMappingIds": [],
+        "integrationType": "GITHUB",
+        "showAllTags": true,
+        "sourcesDiffViewEnabled": true,
+        "apiFilter": "[?contains(name, 'long')]",
+        "refSpecNotes": true,
+        "refSpecChanges": false,
+        "trustFolderStat": true
     },
     {
-      "id": 1,
-      "displayName": "gitrepo",
-      "origin": "https://xxx@xxx.gitlab.org/xxx",
-      "mainBranch": "master",
-      "root": "/xxx/xxx/xxx",
-      "realRoot": "1_gitrepo",
-      "absoluteRoot": false,
-      "disabled": false,
-      "enableFetches": true,
-      "sendCommitEmails": true,
-      "maxMinsToCommitEmail": 1440,
-      "global": true,
-      "hosted": false,
-      "initDate": 1606383040986,
-      "lastIndexedDate": 1613815870861,
-      "revisionIndexing": true,
-      "gitViewerEnabled": true,
-      "disableSslVerification": false,
-      "smartCommitsEnabled": true,
-      "commitsValidationRequired": true,
-      "requireUserPat": false,
-      "projectMappingIds": [],
-      "trackedFolderId": 11,
-      "integrationType": "GITLAB",
-      "showAllTags": true,
-      "supportsBranchCreationApi": true,
-      "supportsPullRequestApi": "MERGE_REQUESTS_GROUP",
-      "sourcesDiffViewEnabled": true,
-      "refSpecNotes": true,
-      "refSpecChanges": false,
-      "trustFolderStat": true
+        "id": 3,
+        "displayName": "https://gitlab.com/",
+        "origin": "https://gitlab.com",
+        "disabled": false,
+        "sendCommitEmails": true,
+        "maxMinsToCommitEmail": 1440,
+        "global": true,
+        "initDate": 1685731335247,
+        "lastIndexedDate": 1685731345075,
+        "revisionIndexing": true,
+        "gitViewerEnabled": true,
+        "disableSslVerification": false,
+        "smartCommitsEnabled": true,
+        "requireUserPat": false,
+        "projectMappingIds": [],
+        "integrationType": "GITLAB",
+        "showAllTags": true,
+        "sourcesDiffViewEnabled": true,
+        "apiFilter": "[?contains(name, 'Release-test-GIJ-GitLab-PAT')]",
+        "refSpecNotes": true,
+        "refSpecChanges": false,
+        "trustFolderStat": true
     }
   ]
 }
