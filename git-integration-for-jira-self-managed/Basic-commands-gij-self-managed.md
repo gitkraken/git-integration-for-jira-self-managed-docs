@@ -21,15 +21,14 @@ There are smart commits commands that you can use in your commit messages. Read
     </div>
     </div>
 </div>
-<br>
 
 The `#comment` command will add a comment to a Jira issue.
 
 **Syntax: ISSUE\_KEY** **#comment** `[your comment text]`
 
 Examples:<br>
-**GIT-264** **\#comment** `Resolved conflicts.`<br>
-**GIT-1720** **\#comment** `Plugin version change from 2.8.2 to 2.8.3. Build number change from 69 to 70.`<br>
+`GIT-264 #comment Resolved conflicts.`<br>
+`GIT-1720 #comment Plugin version change from 2.8.2 to 2.8.3. Build number change from 69 to 70.`
 
 The above examples will add the specified comment text against the Jira issues.
 
@@ -43,7 +42,8 @@ The above examples will add the specified comment text against the Jira issues.
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 ## \#time
 
@@ -57,15 +57,14 @@ The above examples will add the specified comment text against the Jira issues.
     </div>
     </div>
 </div>
-<br>
 
 The `#time` command will record time tracking information against a Jira issue.
 
 **Syntax:** **ISSUE\_KEY** **\#time** \[Some amount in Jira time syntax\] `[Your worklog comment text]`
 
 Examples:<br>
-**GIT-264** **\#time** 1w 6d 13h 52m `Total work logged.`<br>
-**GIT-1720** **\#time** 1h 20m `Merged to master. Released to marketplace.`
+`GIT-264 #time 1w 6d 13h 52m Total work logged.`<br>
+`GIT-1720 #time 1h 20m `Merged to master. Released to marketplace.`
 
 The above examples will add the respective time and worklog comment text against the Jira issues.
 
@@ -79,7 +78,8 @@ The above examples will add the respective time and worklog comment text against
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 ## \#\<transition-name\>
 
@@ -104,15 +104,14 @@ The above examples will add the respective time and worklog comment text against
     </div>
     </div>
 </div>
-<br>
 
 The `#<transition-name>` command will move the Jira issue to a particular workflow state.
 
 **Syntax:** **ISSUE\_KEY** **\#\<transition-name\>** `[Your commit comment text]`
 
 Examples:<br>
-**GIT-264** **\#code-review** `For review.`<br>
-**GIT-1720** **\#close** `Closing ticket.` **\#comment** `Tasks completed.`
+`GIT-264 #code-review For review.`<br>
+`GIT-1720 #close Closing ticket. #comment Tasks completed.`
 
 **1** - The first example will transition the Jira issue to the specified workflow state and adds the comment message to the commit.
 
@@ -129,11 +128,10 @@ Examples:<br>
     </div>
     </div>
 </div>
-<br>
 
 For more information on transitions and workflow names and how they work, see [Workflow Transitions](/git-integration-for-jira-data-center/workflow-transitions-gij-self-managed).
 
-<br>
+&nbsp;
 
 ## \#assign
 
@@ -153,10 +151,10 @@ The `#assign` command will assign the particular issue to the specified Jira u
 **Syntax:** **ISSUE\_KEY** **\#assign** `[Jira username or email of Jira user]`
 
 Examples:<br>
-**GIT-1925** **\#assign** `johnsmith`<br>
-**GIT-1961** **\#assign** `johnsmith@example.com`
+`GIT-1925 #assign johnsmith`<br>
+`GIT-1961 #assign johnsmith@example.com`
 
-<br>
+&nbsp;
 
 ## \#fixversion
 
@@ -170,25 +168,24 @@ Examples:<br>
     </div>
     </div>
 </div>
-<br>
 
 The `#fixversion` command will add a Fix Version/s details tag to the specified issue.
 
 **Syntax: ISSUE\_KEY \#fixversion** `[project version]`
 
 Examples:<br>
-**GIT-1628** **\#fixversion** `2.9.6`<br>
-**GIT-1628** **\#fixversion** `2.9.5` **\#fixversion** `2.9.6` |
+`GIT-1628 #fixversion 2.9.6`<br>
+`GIT-1628 #fixversion 2.9.5 #fixversion 2.9.6`
 
 *   The first example adds fix version tag **2.9.6** to the issue, `GIT-1628`.
 
 *   The second example adds fix version tags **2.9.5** and **2.9.6** to the issue, `GIT-1628`.
 
     If there was an initial Fix Version tag on the specified issue, a `#fixversion` command will append the new Fix Version tag to it.
-    
+
     **For instance:**<br>
     The Fix Version tag, `2.9.4`, already exists in issue **GIT-1254**.
-    
+
     Performing the smart commit, **GIT-1254** **\#fixversion** `2.9.5`, will give a result of: &nbsp; `Fix Version/s: 2.9.4, 2.9.5`
 
 <br>
@@ -205,18 +202,17 @@ Examples:<br>
     </div>
     </div>
 </div>
-<br>
 
 The `#affectsversion` command will add an Affect Version/s details tag to the specified issue.
 
 **Syntax: ISSUE\_KEY \#affectsversion** `[project version]`
 
 Example:<br>
-**GIT-1582** **\#affectsversion** `2.9.6`
+`GIT-1582 #affectsversion 2.9.6`
 
 The `#affectsversion` command works the same way as `#fixversion`. However, it appends Affect Version/s tag instead to the specified issue.
 
-<br>
+&nbsp;
 
 ## \#label
 
@@ -242,21 +238,17 @@ The `#affectsversion` command works the same way as `#fixversion`. However, 
     </div>
     </div>
 </div>
-<br>
 
 The `#label` command will add a new label to a Jira issue. If more than one Jira issue is referenced, the labels are added to all mentioned Jira issues. Multiple labels can be created by putting spaces between words.
 
 **Syntax: ISSUE\_KEY(S) \#label** `[label1] .. [labeln]`
 
 Examples:<br>
-**GITCL-443** **\#label** `bucketbreakfix` `bucketenhancement`<br>
+`GITCL-443 #label bucketbreakfix bucketenhancement`<br>
+`GITCL-443 GITCL-247 GITCL-214 #label admin@example.com user1@example.com requested-feature new-feature #comment Return email when implemented`
 
-**GITCL-443 GITCL-247 GITCL-214** **\#label** `admin@example.com` `user1@example.com` requested-feature new-feature **\#comment** `Return email when implemented`
-
-<p>&nbsp;</p>
-
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Smart commits (index)](/git-integration-for-jira-data-center/smart-commits-gij-self-managed)
 

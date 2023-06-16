@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 The **Pull Requests** (GitHub or other connected git hosts) or **Merge Requests** (if GitLab is connected) section lists the merge/pull requests and their status. All merge/pull requests from all types of sources are shown here (for now, GitLab/GitHub/Azure/TFS/VSTS).
 
 The displayed information depends on which supported git hosts are connected to Jira. For example:
@@ -37,9 +38,10 @@ The displayed information depends on which supported git hosts are connected to 
     </div>
     </div>
 </div>
-<br>
 
-## Getting started
+&nbsp;
+
+### Getting started
 
 If a git host is connected to Jira, create a pull/merge request by clicking **Create pull request** or **Create merge request** label link on the Git integration panel. The following dialog is displayed:
 
@@ -59,13 +61,13 @@ If a git host is connected to Jira, create a pull/merge request by clicking **C
 
 *   Click **Create** to finish this process.
 
-<br>
+&nbsp;
 
 If the [Require User PAT option](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed) is enabled in **Integration Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, the dialog below is displayed instead:
 
-<img src='/wp-content/uploads/gij-gitserver-create-pullreq-dlg-pat-cfg.png.png' style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitserver-create-pullreq-dlg-pat-cfg.png' style='display:block;margin:25px auto;max-width:100%' />
 
-<br>
+&nbsp;
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -80,9 +82,10 @@ If the [Require User PAT option](/git-integration-for-jira-data-center/require
     </div>
     </div>
 </div>
-<br>
 
-## GitLab merge request
+&nbsp;
+
+### GitLab merge request
 
 If you want to create a merge request for GitLab, click **Create merge request**. It has the same process described in the pull request creation steps above.
 
@@ -109,8 +112,7 @@ The Pull/merge request list provides status information about the pull/merge req
 
 For detailed information on this feature, see [Creating pull/merge requests](/git-integration-for-jira-data-center/creating-branches-gij-self-managed).
 
-* * *
-
+&nbsp;
 ### Video Guide
 
 _(UPDATED VIDEO COMING SOON)_
@@ -119,7 +121,7 @@ _(UPDATED VIDEO COMING SOON)_
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/1jwzeex5qa?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center' style='margin-top:10px'>
+<div align='center' style='margin-top:12px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/1jwzeex5qa'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 

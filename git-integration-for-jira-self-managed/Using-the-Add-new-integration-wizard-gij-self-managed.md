@@ -21,13 +21,34 @@ Access the Add new integration panel on the Git Integration app configuration pa
 
 For more details on this topic, see the connection information for your favorite git host in our [Integration Guides](/git-integration-for-jira-data-center/integration-guides-gij-self-managed).
 
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Git integration configuration page](/git-integration-for-jira-data-center/git-integration-configuration-page-gij-self-managed)
 
 [**Next:** Using the Connect repository wizard](/git-integration-for-jira-data-center/using-the-connect-repository-wizard-gij-self-managed)
 
-<br>
-<br>
+&nbsp;
+
+### More related topics on setting up repositories
+
+[Git integration configuration page](/git-integration-for-jira-data-center/git-integration-configuration-page-gij-self-managed)
+
+**Using the Add new integration wizard** (this page)
+
+[Using the Connect Repository wizard](/git-integration-for-jira-data-center/using-the-connect-repository-wizard-gij-self-managed)
+
+[Connecting a repository via Advanced setup](/git-integration-for-jira-data-center/connecting-a-repository-via-advanced-setup-gij-self-managed)
+
+[Adding a repository hosted on Windows Server or Windows Network Share](/git-integration-for-jira-data-center/adding-a-repository-hosted-on-windows-server-or-windows-network-share-gij-self-managed)
+
+[Setup repository root not located in Jira HOME directory](/git-integration-for-jira-data-center/setup-repository-root-not-located-in-jira-home-directory-gij-self-managed)
+
+[Tracked folders overview](/git-integration-for-jira-data-center/tracked-folders-overview-gij-self-managed)
+
+[Self-signed HTTPS integration](/git-integration-for-jira-data-center/self-signed-https-integration-gij-self-managed)
+
+[Managing repository or integration configuration](/git-integration-for-jira-data-center/managing-repository-or-integration-configuration-gij-self-managed)
+
+[Associating project permissions](/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed)
 

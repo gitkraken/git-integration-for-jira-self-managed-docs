@@ -18,11 +18,12 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
 Synchronization between the repository and app will start automatically. However, reindexing may be required to manually start the synchronization process.
 
-## Getting started
+&nbsp;
+
+### Getting started
 
 ![](/wp-content/uploads/gij-gitserver-gitmgr-reindex-all-reindex-actions.png)
 
@@ -89,9 +90,10 @@ There are two ways to do this:
     </div>
     </div>
 </div>
-<br>
 
-## Last indexed revision
+&nbsp;
+
+### Last indexed revision
 
 The Git Integration for Jira app stores the ID of the last indexed commit for each branch. This ID is used to limit the processed data upon reindex or update. This way, only new commits will be indexed on the next synchronization.
 
@@ -99,7 +101,9 @@ The Git Integration for Jira app stores the ID of the last indexed commit for ea
 
 On the Manage git repositories page, click <img src='/wp-content/uploads/actions-icon.png' /> **Actions** then **Reset index** to reset the _**Last**_ _**Indexed**_ date. Perform this process whenever the Git Integration for Jira app is updated or re-installed.
 
-## Reindex and updatedDate filter
+&nbsp;
+
+### Reindex and updatedDate filter
 
 The Git Integration for Jira app automatically changes the **updatedDate** of an issue when a Git commit is added to an issue upon reindex. When the reindex encounters a commit previously modified by the user relating to an issue, that issue will be updated.
 
@@ -118,11 +122,13 @@ You can enable or disable this setting in the [Git Integration for Jira app - G
     </div>
 </div>
 
-## Indexing errors
+&nbsp;
+
+### Indexing errors
 
 Starting v3.6+ of the Git Integration for Jira app, indexer will show an error message on the Jira issue ➜ Git Commits tab.
 
-### Jira Server
+#### Jira Server/Data Center
 
 <img src='/wp-content/uploads/gij-git-server-indexing-error-sample.png' width=442 height=131 style='display:block;margin:25px auto;max-width:100%' />
 
@@ -139,10 +145,8 @@ Starting v3.6+ of the Git Integration for Jira app, indexer will show an error m
     </div>
 </div>
 
-<p>&nbsp;</p>
-
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Jira project page](/git-integration-for-jira-data-center/jira-project-page-gij-self-managed)
 

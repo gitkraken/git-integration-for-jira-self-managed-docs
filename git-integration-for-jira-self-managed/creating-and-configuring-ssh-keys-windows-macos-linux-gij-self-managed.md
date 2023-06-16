@@ -19,7 +19,7 @@ taxonomy:
 - [More How-to articles](#more-how-to-articles)
 
 &nbsp;
-<hr>
+* * *
 &nbsp;
 
 ## Introduction
@@ -36,11 +36,15 @@ As a summary, you need to perform the following tasks in order to successfully i
 
 *   Add the private key by connecting your SSH git repositories via Git Integration for Jira app.
 
+&nbsp;
+
 ## Acquire SSH Git Repository URL
 
 <img src='/wp-content/uploads/gij-gitserver-gitlab-example-acquire-ssh-home-repo.png' style='display:block;margin:25px auto;max-width:100%' />
 
 Get the git clone SSH URL from the repository home of the git host that will be used for Jira integration. The above screen represents an example from GitLab.
+
+&nbsp;
 
 ## Generate SSH key pair (public and private key)
 
@@ -54,6 +58,8 @@ Do note that when generating the key pair for use with Git Integration for Jira 
 
 For more information on SSH connection issues, see article [SSH key file format is invalid](/git-integration-for-jira-data-center/ssh-key-file-format-is-invalid-gij-self-managed).
 
+&nbsp;
+
 ### Linux/MacOS
 
 On Linux and MacOS, perform this command in Terminal to generate an SSH key in RSA format:
@@ -62,7 +68,7 @@ On Linux and MacOS, perform this command in Terminal to generate an SSH key in R
 ssh-keygen -t rsa -b 4096 -m pem -C "your_email@example.com"
 ```
 
-<div class="bbb-callout bbb--tip">
+<div class="bbb-callout bbb--alert">
     <div class="irow">
     <div class="ilogobox">
         <span class="logoimg"></span>
@@ -78,7 +84,7 @@ ssh-keygen -t rsa -b 4096 -m pem -C "your_email@example.com"
 
 <br>
 
-<div class="bbb-callout bbb--tip">
+<div class="bbb-callout bbb--note">
     <div class="irow">
     <div class="ilogobox">
         <span class="logoimg"></span>
@@ -99,15 +105,14 @@ ssh-keygen -t rsa -b 4096 -m pem -C "your_email@example.com"
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 ### Windows
 
 For Windows, we recommend to use <a href='https://www.putty.org/' target='_blank'>PuTTY</a> and use PuTTYgen to generate key pair for your SSH git repository connection.
 
 <img src='/wp-content/uploads/gij-puttygen-key-dlg.png' style='display:block;margin:25px auto;max-width:100%' />
-
-<br>
 
 1.  Launch **PuTTYgen** and refer to the above image for the rest of the steps on this section.
 
@@ -125,8 +130,6 @@ For Windows, we recommend to use <a href='https://www.putty.org/' target='_blank
 
 8.  Copy the generated key. This is the public key that will used on the SSH configuration page of your git host.
 
-<br>
-
 <div class="bbb-callout bbb--tip">
     <div class="irow">
     <div class="ilogobox">
@@ -137,15 +140,18 @@ For Windows, we recommend to use <a href='https://www.putty.org/' target='_blank
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 ## Add the public key to your git host.
 
-1.  Login to your git host and go the SSH configuration page (for example, **Profile** ➜ **Settings** in GitLab or GitHub).
+1.  Login to your git host and go the SSH configuration page (for example, Profile ➜ **Settings** in GitLab or GitHub).
 
 2.  Paste the generated public SSH key from PuTTYgen to the provided box.
 
 3.  Add this key to complete setting up the public key for SSH git connection for your git host.
+
+&nbsp;
 
 ## Add the private key via Git Integration in Jira app.
 
@@ -156,6 +162,8 @@ For the private key, PuTTY creates it in its own ".ppk" format. To convert it to
 2.  Select **Export OpenSSH key**.
 
 Add/upload this file to Git Integration for Jira app ➜ SSH keys or when prompted in connecting SSH git repositories.
+
+&nbsp;
 
 ## Video Guide
 
@@ -168,10 +176,9 @@ Watch the video below to learn more details of the steps outlined above. As a bo
 <div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/migvqa03gw'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
+&nbsp;
 
 ## More How-to articles
 
@@ -196,7 +203,4 @@ Watch the video below to learn more details of the steps outlined above. As a bo
 [Proxy settings on adding integrations (except AWS CodeCommit)](/git-integration-for-jira-data-center/Proxy-settings-on-adding-integrations-(except-AWS-CodeCommit)-gij-self-managed)
 
 [Creating Personal Access Tokens](/git-integration-for-jira-data-center/Creating-Personal-Access-Tokens-gij-self-managed)
-
-
-
 

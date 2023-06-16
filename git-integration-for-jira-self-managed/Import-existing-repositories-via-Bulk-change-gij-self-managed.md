@@ -25,9 +25,8 @@ The Git Integration for Jira app will read the list from the file, detect the ex
 
 Make the required changes to correct the errors on the affected rows and redo the upload.
 
-<p>&nbsp;</p>
-<hr>
-<p>&nbsp;</p>
+&nbsp;
+* * *
 
 [**Prev:** Requirement for secured import](/git-integration-for-jira-data-center/requirement-for-secured-import-gij-self-managed)
 
@@ -35,7 +34,7 @@ Make the required changes to correct the errors on the affected rows and redo th
 
 &nbsp;
 
-## More related articles on Bulk change
+### More related articles on Bulk change
 
 [Exporting repository configuration via Bulk change](/git-integration-for-jira-data-center/exporting-repository-configuration-via-bulk-change-gij-self-managed)
 

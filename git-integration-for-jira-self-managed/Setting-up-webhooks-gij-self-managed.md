@@ -22,7 +22,9 @@ Access the Git Integration for Jira app webhook configuration page:
 
 On this page, you can also find the **Webhook URL** and the **Secret key** for use with your git host webhook configuration.
 
-## Secret key
+&nbsp;
+
+### Secret key
 
 The secret key is a secure random-generated alphanumeric string at the time of the Git Integration for Jira app installation.
 
@@ -34,7 +36,9 @@ ruby -rsecurerandom -e 'puts SecureRandom.hex(32)'
 
 The secret key also has the same restrictions on the valid set of characters as a regular URL. Invalid characters such as spaces, slashes, colon, etc. are not allowed. The default recommended length for the secret key is 32 chars and the maximum length is 255 chars.
 
-## More information on webhooks configuration
+&nbsp;
+
+### More information on webhooks configuration
 
 For detailed information on setting up webhooks for supported git hosts, see [Git Integration for Jira: Integration webhooks](/git-integration-for-jira-data-center/integration-webhooks-gij-self-managed).
 
@@ -48,22 +52,17 @@ For detailed information on setting up webhooks for supported git hosts, see [Gi
     </div>
     </div>
 </div>
-<br>
 
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Setting up web linking](/git-integration-for-jira-data-center/setting-up-web-linking-gij-self-managed)
 
 [**Next:** Increasing timeout threshold for large repositories while doing a Git pull](/git-integration-for-jira-data-center/increasing-timeout-threshold-for-large-repositories-while-doing-a-Git-pull-gij-self-managed)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
 
-## More related articles on Git for Jira administrators
+### More related articles on Git for Jira administrators
 
 [Setup GitLab Server to respond to incoming network API calls](/git-integration-for-jira-data-center/setup-gitLab-server-to-respond-to-incoming-network-API-calls-gij-self-managed)
 

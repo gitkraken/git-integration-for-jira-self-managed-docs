@@ -16,8 +16,8 @@ To create a link between your Git commit and a Jira issue, developers must inclu
 <div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/7kj43knu4m'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
-<br>
+
+&nbsp;
 
 Commits are selected by issue key. Developers should add them to comments every time the commits are made.
 
@@ -31,7 +31,8 @@ Commits are selected by issue key. Developers should add them to comments every
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 <img src='/wp-content/uploads/gij-gitserver-jira-issue-git-commits-tab-view.png' style='display:block;margin:25px auto;max-width:100%' />
 
@@ -39,7 +40,6 @@ Commits are selected by issue key. Developers should add them to comments every
     <i>Example Git commit message: "<b>GIT-4322 - Updated the plugin …</b>".<br>
     In this case, "<b>GIT-4322</b>" is the issue key linking the commit message to the Jira issue.</i>
 </div>
-<br>
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -51,7 +51,6 @@ Commits are selected by issue key. Developers should add them to comments every
     </div>
     </div>
 </div>
-<br>
 
 As a best practice to work with sub-task — put the parent and sub-task Jira issue keys in the commit message so that the commit shows in both places. This way, the commit for the sub-task does not get lost in the many commits of the parent issue.
 
@@ -67,7 +66,6 @@ As a best practice to work with sub-task — put the parent and sub-task Jira is
     </div>
     </div>
 </div>
-<br>
 
 The Git Integration for Jira app supports commits that used the old Jira key in the commit message after a project rename to a new key name (Example: `TEST-16` to `PROJ-16`).
 
@@ -88,23 +86,17 @@ There are two scenarios related to the rename/move:
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
-
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Disabling Source and Commits tabs](/git-integration-for-jira-data-center/disabling-source-and-commits-tabs-gij-self-managed)
 
 [**Next:** Manually link git commits to Jira issues](/git-integration-for-jira-data-center/manually-link-git-commits-to-jira-issues-gij-self-managed)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
 
-## More related topics about associating commits to Jira issues
+### More related topics about associating commits to Jira issues
 
 **Linking git commits to Jira issues** (this page)
 

@@ -9,25 +9,25 @@ taxonomy:
 
 ![](/wp-content/uploads/azure2-logo.png)
 
-<br>
+&nbsp;
 
 An optional JMESPath filter can be configured when adding Azure Repos integrations.
 
-<br>
+&nbsp;
 
-## 1\. Contains (include)
+### 1\. Contains (include)
 
 `value[?contains(name, 'example')] | {value:@}`
 
 This is a filter based on the text in the repository name. It lists repositories with the names that contain the word `'example'`. Do note that the declared string format is case-sensitive.
 
-## 2\. Contains (exclude)
+&nbsp;
+
+### 2\. Contains (exclude)
 
 `value[?(!contains(name, 'test'))] | {value:@}`
 
 Lists repositories with the names that do not contain the word `'test'`.
-
-<br>
 
 <div class="bbb-callout bbb--note">
     <div class="irow">
@@ -39,13 +39,16 @@ Lists repositories with the names that do not contain the word `'test'`.
     </div>
     </div>
 </div>
-<br>
 
-## 3\. Starts with or ends with
+&nbsp;
+
+### 3\. Starts with or ends with
 
 `value[?starts_with(name, 'git') || ends_with(name, 'test')] | {value:@}`
 
 Lists repositories with the names that start with `'git'` or end with `'test'`.
+
+&nbsp;
 
 ## Other examples
 
@@ -65,7 +68,7 @@ Lists repositories with the names that start with `'git'` or end with `'test'`.
 
 4.  Lists all public repositories.
 
-<P>&nbsp;</p>
+&nbsp;
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -77,9 +80,10 @@ Lists repositories with the names that start with `'git'` or end with `'test'`.
     </div>
     </div>
 </div>
-<br>
 
-<hr>
+&nbsp;
+* * *
+&nbsp;
 
 ## More articles on JMESPath filter examples
 

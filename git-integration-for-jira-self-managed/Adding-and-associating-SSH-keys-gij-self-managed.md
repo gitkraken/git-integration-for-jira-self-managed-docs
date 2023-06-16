@@ -14,8 +14,8 @@ taxonomy:
 <div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/0a1exzdgpc'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
-<br>
+
+&nbsp;
 
 Limit the usage of the SSH key by associating them to selected repositories. Strictly map SSH keys to repositories via SSH Actions menu.
 
@@ -43,9 +43,10 @@ Limit the usage of the SSH key by associating them to selected repositories. St
     </div>
     </div>
 </div>
-<br>
 
-## Associating SSH keys for multiple repositories
+&nbsp;
+
+### Associating SSH keys for multiple repositories
 
 If you have multiple repositories that uses the same SSH key, configure them via Git Integration app by doing the following steps:
 
@@ -64,26 +65,24 @@ If you have multiple repositories that uses the same SSH key, configure them via
 
 For third-party products or services (such as GitHub, GitLab, Bitbucket, etc.), register the PUBLIC KEY for target repository or in profile settings of your git account.
 
-## Associating SSH for custom git servers
+&nbsp;
+
+### Associating SSH for custom git servers
 
 For custom git hosting servers, ask your administrator to check that the target keypair's PUBLIC KEY is added into the `authorized_keys` file of the git server.
 
 For more information, see the following article <a href='https://git-scm.com/book/it/v2/Git-on-the-Server-Setting-Up-the-Server' target='_blank'><b>Setting up Git on the Server</b></a>.
 
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** SSH keys configuration](/git-integration-for-jira-data-center/ssh-keys-configuration-gij-self-managed)
 
 [**Next:** Removing SSH keys](/git-integration-for-jira-data-center/removing-ssh-keys-gij-self-managed)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
 
-## More on Working with SSH keys
+### More on Working with SSH keys
 
 [Working with SSH keys (index)](/git-integration-for-jira-data-center/working-with-ssh-keys-gij-self-managed)
 

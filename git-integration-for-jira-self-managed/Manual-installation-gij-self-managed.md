@@ -17,7 +17,6 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
 Download the [**Git app installer package from Atlassian Marketplace**](https://marketplace.atlassian.com/plugins/com.xiplink.jira.git.jira_git_plugin/versions):
 
@@ -49,17 +48,17 @@ Use manual install if you have a specific version of **Git Integration for Jira
 
 9.  Login to your Jira account, if required, to proceed installation of the app. The license key is automatically configured into the app configuration for free trial licenses. For purchased license keys, see [Managing license key](/git-integration-for-jira-data-center/managing-license-key-gij-self-managed).
 
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
 [**Prev:** Installation via Jira Plugin Manager](/git-integration-for-jira-data-center/installation-via-jira-plugin-manager-gij-self-managed)
 
 [**Next:** Installation and updating](/git-integration-for-jira-data-center/installation-and-updating-gij-self-managed)
 
-<br>
-<br>
+&nbsp;
 
-## More on Git Integration for Jira installation
+### More on Git Integration for Jira installation
 
 [Installation via Atlassian Marketplace](/git-integration-for-jira-data-center/installation-via-atlassian-marketplace-gij-self-managed)
 

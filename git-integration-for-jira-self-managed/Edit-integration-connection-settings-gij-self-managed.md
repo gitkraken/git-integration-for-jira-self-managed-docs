@@ -6,15 +6,16 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-<img src='/wp=content/uploads/gij-gitcfg-actions-edit-repo-conn-cfg.png' style='display:block;margin:25px auto;max-width:100%' />
 
-<br>
+<img src='/wp-content/uploads/gij-gitcfg-actions-edit-repo-conn-cfg.png' style='display:block;margin:25px auto;max-width:100%' />
+
+&nbsp;
 
 Clicking  <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit integration connection settings** opens the configuration page for integration connection settings. The displayed settings depends on which type of integration you are currently working on.
 
 <img src='/wp-content/uploads/gij-gitserver-edit-integration-conn-cfg.png' style='display:block;margin:25px auto;max-width:100%' />
 
-<br>
+&nbsp;
 
 Utilize the following options to configure the selected integration:
 
@@ -27,7 +28,8 @@ Utilize the following options to configure the selected integration:
 | _**Custom API Path**_ | The Git Integration for Jira app supports this feature for GitHub and GitLab integrations. For more details, see [Working with Custom API Path](/git-integration-for-jira-data-center/working-with-custom-api-path-gij-self-managed). |
 | _**JMESPath Filters**_ | JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. For more information, see [Working with JMESPath Filters](/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed). |
 
-<p>&nbsp;</p>
+&nbsp;
+* * *
 
 [**Prev:** Show tracked or integration repositories](/git-integration-for-jira-data-center/show-tracked-or-integration-repositories-gij-self-managed)
 

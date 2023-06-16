@@ -29,7 +29,6 @@ There are two ways to do this:
     </div>
     </div>
 </div>
-<br>
 
 Watch the video below on how to update your version of Git Integration for Jira app via UPM (Universal Plugin Manager).
 
@@ -39,7 +38,7 @@ The updating process is demonstrated in two chapters:
 
 2.  Manual updating via UPM **(0:48)**
 
-<br>
+&nbsp;
 
 <div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/s26h3avwuo?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -49,17 +48,17 @@ The updating process is demonstrated in two chapters:
     <i>Right-click <a href='https://bigbrassband.wistia.com/medias/aoyowvw485' target='_blank'><b>here</b></a> and view this video in a new browser tab.</i>
 </div>
 
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
 [**Prev:** Manual installation](/git-integration-for-jira-data-center/manual-installation-gij-self-managed)
 
 [**Next:** Managing license key](/git-integration-for-jira-data-center/managing-license-key-gij-self-managed)
 
-<br>
-<br>
+&nbsp;
 
-## More on Git Integration for Jira installation
+### More on Git Integration for Jira installation
 
 [Installation via Atlassian Marketplace](/git-integration-for-jira-data-center/installation-via-atlassian-marketplace-gij-self-managed)
 
@@ -67,6 +66,6 @@ The updating process is demonstrated in two chapters:
 
 [Manual installation](/git-integration-for-jira-data-center/manual-installation-gij-self-managed)
 
-[Installation and updating](/git-integration-for-jira-data-center/installation-and-updating-gij-self-managed)
+**Installation and updating** (this page)
 
 

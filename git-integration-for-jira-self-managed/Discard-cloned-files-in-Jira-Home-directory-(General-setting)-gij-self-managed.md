@@ -7,9 +7,11 @@ taxonomy:
 
 ---
 
-![](/wp-content/uploads/gij-gitserver-discard-cloned-files-gencfg.png)
+<!-- getting started -->
 
-<br>
+<img src='/wp-content/uploads/gij-gitserver-discard-cloned-files-gencfg.png' style='margin:25px auto;max-width:100%;display:block;' />
+
+&nbsp;
 
 This feature will reduce Jira server storage by deleting files from cloned git repositories after indexing.  Discarding files can save disk space but may limit some features such as displaying diffs of files.
 
@@ -23,7 +25,7 @@ There are three options to choose from:
 
 *   **Discard all files EXCEPT those that match the mask below. Some features limited.** This option will delete all other files in the cloned repositories except those files with extensions declared.
 
-<br>
+&nbsp;
 
 Select any option with the _discard_ label to enable editing of the file mask field.
 
@@ -48,22 +50,17 @@ Select any option with the _discard_ label to enable editing of the file mask 
     </div>
     </div>
 </div>
-<br>
 
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Recommended upgrade method for Git Integration for Jira app](/git-integration-for-jira-data-center/recommended-upgrade-method-for-git-integration-for-jira-gij-self-managed)
 
 [**Next:** Working with SSH keys](/git-integration-for-jira-data-center/working-with-ssh-keys-gij-self-managed)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
 
-## More related articles on Git for Jira administrators
+### More related articles on Git for Jira administrators
 
 [Setup GitLab Server to respond to incoming network API calls](/git-integration-for-jira-data-center/setup-gitLab-server-to-respond-to-incoming-network-API-calls-gij-self-managed)
 

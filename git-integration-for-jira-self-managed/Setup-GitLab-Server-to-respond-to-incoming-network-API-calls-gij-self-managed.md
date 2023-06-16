@@ -11,49 +11,46 @@ In order for GitLab to display correct repository clone links to your users, it 
 
 To reconfigure:
 
-1.  Access the GitLab configuration file in `/etc/gitlab/gitlab.rb`.
+1. Access the GitLab configuration file in `/etc/gitlab/gitlab.rb`.
 
-    ```powershell
+    ```shell
     sudo vi /etc/gitlab/gitlab.rb
     ```
 
-2.  Change the `external_url` value to your GitLab server URL.
+2. Change the `external_url` value to your GitLab server URL.
 
-    ```powershell
+    ```shell
     external_url "http://gitlab.example.com" #this is the default URL
     external_url "http://X.X.X.X.local/" #change it to your GitLab Server URL
     ```
 
-3.  Run the reconfigure command to make the change take effect.
+3. Run the reconfigure command to make the change take effect.
 
-    ```powershell
+    ```shell
     sudo gitlab-ctl reconfigure
     ```
 
-<br>
+&nbsp;
 
 Read this [**GitLab documentation**](https://docs.gitlab.com/omnibus/settings/configuration.html#configuring-the-external-url-for-gitlab) to know more about configuring the external URL for GitLab.
 
 You should be able to add the GitLab repositories via Git Integration for Jira app ➜ Manage git repositories:
 
-*   [**Add new integration panel**](/git-integration-for-jira-data-center/using-the-add-new-integration-wizard-gij-self-managed/) (recommended for multiple repository integration)
+*   [**Add new integration panel**](/git-integration-for-jira-data-center/using-the-add-new-integration-wizard-gij-self-managed) (recommended for multiple repository integration)
 
-*   [**Connect to Git Repository**](/git-integration-for-jira-data-center/using-the-connect-repository-wizard-gij-self-managed/) (single repository or ssh repository integration)
+*   [**Connect to Git Repository**](/git-integration-for-jira-data-center/using-the-connect-repository-wizard-gij-self-managed) (single repository or ssh repository integration)
 
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
 [**Prev:** Getting started for Git administrators (index)](/git-integration-for-jira-data-center/Getting-started-for-Git-administrators-gij-self-managed)
 
 [**Next:** New GitLab v10+ authentication](/git-integration-for-jira-data-center/New-GitLab-v10-authentication-gij-self-managed)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
 
-## More related articles on Git for Jira administrators
+### More related articles on Git for Jira administrators
 
 **Setup GitLab Server to respond to incoming network API calls** (this page)
 

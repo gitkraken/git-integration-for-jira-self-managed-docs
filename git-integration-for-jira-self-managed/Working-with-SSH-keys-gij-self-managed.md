@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 SSH keys are required in order to provide secure connection with the remote git host. The Git Integration for Jira app uses one set of keys for accessing all configured repositories.
 
 <div class="bbb-callout bbb--info">
@@ -23,7 +24,7 @@ SSH keys are required in order to provide secure connection with the remote git 
 
 Follow this guide if you are one of the users who are limited to or wanted to use SSH to securely connect to your git repositories.
 
-## Introduction
+### Introduction
 
 There are two options available for specifying SSH keys:
 
@@ -53,9 +54,10 @@ There are two options available for specifying SSH keys:
     </div>
   </div>
 </div>
-<br>
 
-## Getting started
+&nbsp;
+
+### Getting started
 
 Before connecting repositories via SSH, users are required to generate SSH keys for use with the remote git host (_public key_) and for Git Integration app in Jira (_private key_).
 
@@ -97,11 +99,10 @@ In this case, the SSH server is the Git server and the SSH client is the Jira se
     </div>
   </div>
 </div>
-<br>
 
-* * *
+&nbsp;
 
-## Windows
+### Windows
 
 For Windows, we recommend to use <a href='https://www.putty.org/'><b>PuTTY</b></a> and use PuTTYgen to generate public and private SSH keys.
 
@@ -125,8 +126,6 @@ For Windows, we recommend to use <a href='https://www.putty.org/'><b>PuTTY</b><
 
 9. For the private key, see the note below.
 
-<br>
-
 <div class="bbb-callout bbb--note">
     <div class="irow">
     <div class="ilogobox">
@@ -138,11 +137,22 @@ For Windows, we recommend to use <a href='https://www.putty.org/'><b>PuTTY</b><
     </div>
 </div>
 
-You can also use the git bash command line to generate SSH key pair. For detailed information, see <a href='https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key'><b>Generate SSH via Git bash</b></a>.
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        You can also use the git bash command line to generate SSH key pair. For detailed information, see <a href='https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key'><b>Generate SSH via Git bash</b></a>.
+    </div>
+    </div>
+</div>
 
 Read on the section [Generating SSH keys](/git-integration-for-jira-dta-center/generating-ssh-keys-gij-self-managed) and follow specific information for the git host and platform that you use.
 
-## Linux/MacOS
+&nbsp;
+
+### Linux/MacOS
 
 On Linux and MacOS, this generates an SSH key in RSA format:
 
@@ -152,20 +162,16 @@ ssh-keygen -t rsa -b 4096 -m pem -C "your_email@example.com"
 
 MacOS often incorrectly creates an OpenSSH format certificate. For more details, see information on this <a href='https://serverfault.com/questions/939909/ssh-keygen-does-not-create-rsa-private-key'><b>common problem</b></a>.
 
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Getting started for Git administrators](/git-integration-for-jira-data-center/Getting-started-for-Git-administrators-gij-self-managed)
 
 [**Next:** Genenerating SSH keys](/git-integration-for-jira-data-center/generating-ssh-keys-gij-self-managed)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
 
-## More on Working with SSH keys
+### More on Working with SSH keys
 
 [Generating SSH keys](/git-integration-for-jira-data-center/generating-ssh-keys-gij-self-managed)
 

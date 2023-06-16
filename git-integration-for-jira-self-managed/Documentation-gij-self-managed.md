@@ -17,7 +17,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        This documentation guide covers <b>v4.13</b> features. For more information on released features, see <a href='/git-integration-for-jira-data-center/git-integration-for-jira-data-center-release-notes-gij-self-managed'>Release notes</a>.
+        This documentation guide covers <b>v4.19</b> features. For more information on released features, see <a href='/git-integration-for-jira-data-center/git-integration-for-jira-data-center-release-notes-gij-self-managed'>Release notes</a>.
     </div>
     </div>
 </div>
@@ -33,8 +33,7 @@ taxonomy:
     </div>
 </div>
 
-<p>&nbsp;</p>
-
+&nbsp;
 * * *
 
 The [**Git Integration for Jira**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=datacenter&tab=overview) app is intended for displaying list of commits linked with a particular Jira issue. It is often useful to figure out real issue progress as well as contributors involved in the real work of an issue.
@@ -53,23 +52,21 @@ Click on a topic on the sidebar or continue immediately to the next article by c
 
 For permissions requirement, see [App platform and system permissions requirement](/git-integration-for-jira-data-center/permissions-gij-self-managed).
 
-<br>
+&nbsp;
 
 | **Get new product notifications and feature updates from BigBrassBand LLC.** |
 |:---:|
 | [Click here to subscribe to our mailing list](http://eepurl.com/hhfbwz) |
 
-<br>
+&nbsp;
 
 Click the link below to proceed to installation:
 
 [**Next:** Installation](/git-integration-for-jira-data-center/installation-gij-self-managed)
 
-<br>
-<br>
+&nbsp;
 <hr>
-<br>
-<br>
+&nbsp;
 
 ## Welcome to the Git Integration for Jira app documentation.
 

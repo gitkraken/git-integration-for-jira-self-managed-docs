@@ -14,7 +14,6 @@ $ git config --global user.name "John Doe"
 $ git config --global user.email johndoe@example.com
 ```
 
-
 Or, for specific repository:
 
 ```powershell
@@ -22,7 +21,7 @@ $ git config user.name "John Doe"
 $ git config user.email johndoe@example.com
 ```
 
-<br>
+&nbsp;
 
 Then every commit is supported by the configured user information.
 
@@ -36,12 +35,10 @@ Hosting services _(like GitHub and BitBucket, for example)_ try to match these
 *   **If an email is configured in the local repository, the account is detected and will be displayed.**
     The Git Integration for Jira app will use the email from a commit and will search for a Jira user using this email. If the Jira user is found, the associated link to his Jira profile is displayed with the accompanying Jira avatar beside the name.
 
-    ![](/wp-content/uploads/gij-git-user-matching-email.png)
+    ![](/wp-content/uploads/git-user-matching-email.png)
 
-<p></p>
-
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Viewing commit code diffs](/git-integration-for-jira-data-center/viewing-commit-code-diffs-gij-self-managed)
 

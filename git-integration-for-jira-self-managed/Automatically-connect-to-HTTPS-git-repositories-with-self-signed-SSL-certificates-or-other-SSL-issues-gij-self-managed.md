@@ -29,7 +29,8 @@ Perform auto-connect integration with HTTPS git repositories that have self-sign
 
 8.  Import the detected repositories and then click **Finish** to complete the setup.
 
-<p>&nbsp;</p>
+&nbsp;
+* * *
 
 [**Prev:** Self-signed HTTPS integration](/git-integration-for-jira-data-center/self-signed-https-integration-gij-self-managed)
 

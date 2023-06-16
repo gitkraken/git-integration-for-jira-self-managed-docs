@@ -21,7 +21,7 @@ taxonomy:
 
 ![](/wp-content/uploads/gitlab-mobile-custom1.png)
 
-<br>
+&nbsp;
 
 # Integrate GitLab.com with Jira Data Center/Server
 
@@ -37,7 +37,8 @@ GitLab introduced personal access tokens (PAT) since version 8.8 and now (v10+) 
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 Quickly learn how to connect GitLab.com git repositories via Git Integration for Jira app.
 
@@ -53,10 +54,9 @@ Quickly learn how to connect GitLab.com git repositories via Git Integration for
     - [Creating branches](#creating-branches)
     - [Merge request](#merge-request)
   
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
 <div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/eqwv6puk4k?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -65,8 +65,8 @@ Quickly learn how to connect GitLab.com git repositories via Git Integration for
 <div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/eqwv6puk4k'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
-<br>
+
+&nbsp;
 
 ## Permissions
 
@@ -83,7 +83,9 @@ Take the following cases for example:
 
 We recommend creating a specific GitLab user for the integration. This way, the GitLab user can have specific permissions to do the given tasks.
 
-![](/wp-content/uploads/gij-gitlab-member-role-screen.png)
+![](/wp-content/uploads/gij-gitlab-user-permissions-or-repository-permissions.png)
+
+&nbsp;
 
 **For minimum access (read-only) permissions:**
 
@@ -93,7 +95,7 @@ We recommend creating a specific GitLab user for the integration. This way, the
 
 This level of access allows the user to view commits for the specific repository.
 
-<br>
+&nbsp;
 
 **For users who will be tasked with creating branches and merge requests:**
 
@@ -105,6 +107,8 @@ This level of access allows the user to view commits for the specific repository
 This level of access allows the user to create/delete branches and create merge requests.
 
 For more information, see [**GitLab Permissions »**](https://docs.gitlab.com/ee/user/permissions.html).
+
+&nbsp;
 
 ## Creating a personal access token
 
@@ -120,6 +124,8 @@ For more information, see [**GitLab Permissions »**](https://docs.gitlab.com/e
 </div>
 
 While instructions from GitLab works just fine, [follow this article](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed#gitlab--gitlab-ceee) for some specific instructions to get you started.
+
+&nbsp;
 
 ## Using Full feature integration
 
@@ -238,6 +244,8 @@ Use this information to connect the GitLab git repository to your Jira server vi
 
 The repository is now connected to Jira Server. There will be a slight delay in adding 2FA-enabled repositories compared to others. These will show in the git configuration list eventually.
 
+&nbsp;
+
 ## Setting up GitLab web links
 
 The Git Integration for Jira app automatically configures web linking for GitLab CE/EE git repositories.
@@ -245,6 +253,8 @@ The Git Integration for Jira app automatically configures web linking for GitLab
 For single repository connections, web link setup is optional. However, git links will become available in Git Commits tab when configured.
 
 For more information on this feature, see [Documentation: Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed).
+
+&nbsp;
 
 ## Viewing git commits in Jira Server
 
@@ -258,6 +268,8 @@ For more information on this feature, see [Documentation: Web linking](/git-inte
 
 
 For more information about this feature, see [Documentation: Viewing commit code diffs](/git-integration-for-jira-data-center/viewing-commit-code-diffs-gij-self-managed).
+
+&nbsp;
 
 ## Working with branches and merge requests
 
@@ -279,7 +291,8 @@ Most git integrations allow changing of the default branch of the repository/pro
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 ### Creating branches
 
@@ -287,7 +300,7 @@ On your Jira Server, open a Jira issue.
 
 1.  On the [Jira developer panel](/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed) under **Git integration**, click **Create branch**. The following dialog is displayed.
 
-    ![](/wp-content/uploads/gij-gitserver-create-branches-dlg-c.png)
+    ![](/wp-content/uploads/gij-gitserver-gitlab-create-branch-dlg.png)
 
     -  Select a **Repository** from the list.
         If there are several repositories with the same name, the listed GitLab CE/EE repositories will have their names attached with a GitLab owner name. For example, `johnsmith/second-webhook-test-repo`.
@@ -298,7 +311,7 @@ On your Jira Server, open a Jira issue.
 
     -  If the [Require User PAT option](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed) is enabled in the Integration Settings and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead:
 
-        ![](/wp-content/uploads/gij-gitserver-create-branches-dlg-req-userPAT-c.png)
+        ![](/wp-content/uploads/gij-gitserver-gitlab-create-branch-dlg-req-userpat.png)
 
     -  Click the link label to setup the PAT. The following dialog appears.
 
@@ -317,12 +330,15 @@ On your Jira Server, open a Jira issue.
         *   PAT settings can be accessed via Repository browser ➜ **Pers. access** column.
 
             ![](/wp-content/uploads/gij-gitserver-repo-browser-pat-sel-c.png)
+
         *   Click the **Edit** ![](/wp-content/uploads/gij-edit-icon-dark.png) icon to setup/reconfigure PAT. The checkmark adjacent to the edit icon indicates PAT has been configured.
 
 2.  Click **Create branch**. The newly-created branch is now listed in the developer panel under **Branches**.
 
 
 Perform a commit to the newly-created branch to be ready for merge.
+
+&nbsp;
 
 ### Merge request
 
@@ -334,7 +350,7 @@ To create a merge request and merge it to the main source (master):
 
 2.  On the developer panel under **Git integration**, click **Create merge request**. The following dialog is displayed.
 
-    ![](/wp-content/uploads/gij-gitserver-create-merge-request-dlg-c.png)
+    ![](/wp-content/uploads/gij-gitserver-gitlab-create-merge-request-dlg.png)
 
     *   Select a **Repository** from the list.
         If there are several repositories with the same name, the listed GitLab CE/EE repositories will have their names attached with a GitLab owner name. For example, `johnsmith/second-webhook-test-repo`.
@@ -347,7 +363,7 @@ To create a merge request and merge it to the main source (master):
 
     *   If the [Require User PAT option](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed) is enabled in the Integration Settings and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead.
 
-        ![](/wp-content/uploads/gij-gitserver-create-merge-request-dlg-reqPAT-c.png)
+        ![](/wp-content/uploads/gij-gitserver-gitlab-create-merge-request-dlg-req-userpat.png)
 
         *   If an invalid PAT was configured for the selected repository, the merge request creation process will fail.
 
@@ -358,6 +374,7 @@ The merge request is listed on the developer panel of the Jira issue page.
 
 The merge request is also ready for approval by the reviewers in your GitLab web portal.
 
+&nbsp;
 
 ## More Integration Guides
 

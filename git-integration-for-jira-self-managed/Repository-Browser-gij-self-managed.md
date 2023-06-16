@@ -9,7 +9,9 @@ taxonomy:
 
 The **Repository Browser** allows users to view git repositories of configured projects via the **Git** menu on the Jira dashboard or on the **Applications** sidebar.
 
-## Getting started
+&nbsp;
+
+### Getting started
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -31,22 +33,21 @@ The **Repository Browser** allows users to view git repositories of configured
     <div class="imsgbox">
         <b>Git menu</b><br>
         After installing the Git Integration for Jira app, the <b>Git</b> dropdown menu is added to the dashboard.
-        <div class='nextpara'>
+        <p>
             The <b>Git</b> header is hidden for all users if there are no repositories with Repository Browser enabled for that user. The Git Integration for Jira app will always show the <b>Git</b> header to Jira administrators.
-        </div>
-        <div class='nextpara' style='margin-bottom:0px !important'>
+        </p>
+        <div class='nextpara' style='margin-bottom:-10px !important'>
             The <b>Git</b> header is visible to other users who have repositories with Repository Browser enabled and have no history of using the Repository Browser (<i>for example -- no previously viewed or repositories set as favorite</i>).
         </div>
     </div>
     </div>
 </div>
-<br>
 
 <img src='/wp-content/uploads/gij-gitserver-gitmenu-repo-browser.png' width=163 height=111 style='display:block;margin:25px auto;max-width:100%' />
 
-<br>
+&nbsp;
 
-## Repository list
+### Repository list
 
 Available git repositories of configured projects are displayed.
 
@@ -62,8 +63,9 @@ Available git repositories of configured projects are displayed.
 
 *   On the right of the view options are the pagination options. Use the controls to navigate through the page list.
 
+&nbsp;
 
-## Repository view
+### Repository view
 
 Click a git repository under Git repository column to browse its contents and switch to repository view. For example:
 
@@ -129,22 +131,17 @@ Click a git repository under Git repository column to browse its contents and sw
     </div>
     </div>
 </div>
-<br>
 
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Smart commits](/git-integration-for-jira-data-center/smart-commits-gij-self-managed)
 
 [**Next:** Viewing list of commits via Repository Browser](/git-integration-for-jira-data-center/viewing-list-of-commits-in-repository-browser-gij-self-managed)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
 
-## More articles on Repository browser
+### More articles on Repository browser
 
 [Viewing list of commits in Repository Browser](/git-integration-for-jira-data-center/viewing-list-of-commits-in-repository-browser-gij-self-managed)
 

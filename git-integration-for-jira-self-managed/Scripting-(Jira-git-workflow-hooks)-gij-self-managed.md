@@ -34,9 +34,10 @@ Use JavaScript as another workflow to operate Jira aside from Smart Commits with
     </div>
     </div>
 </div>
-<br>
 
-## Git Data Processing Age Limit (General settings)
+&nbsp;
+
+### Git Data Processing Age Limit (General settings)
 
 The scripting feature now uses the global setting instead of hardcoded value (1 week).
 
@@ -74,14 +75,11 @@ The commits or pull/merge requests are processed by Git Integration for Jira app
     </div>
     </div>
 </div>
-<br>
 
 For more information about this feature, commands and debugging, see external page <a href='https://github.com/BigBrassBand/jira-git-workflow-hooks' target='_blank'><b>Git Integration for Jira: Git Workflow Hooks</b></a>.
 
-<p>&nbsp;</p>
-
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Smart commits General setting](/git-integration-for-jira-data-center/smart-commits-general-setting-gij-self-managed)
 

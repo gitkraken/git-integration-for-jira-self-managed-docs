@@ -21,7 +21,8 @@ Atlassian enables these tabs by default.
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 ## Hiding the Source tab
 
@@ -33,6 +34,7 @@ To hide the **Source** tab from the **Issues** page, disable the **FishEye 
 
 3.  Click **Disable**.
 
+&nbsp;
 
 ## Hiding the Commits tab
 
@@ -44,8 +46,8 @@ To hide the **Commits** tab from the **Issues** page, disable the **Jira DV
 
 3.  Click **Disable**.
 
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed)
 

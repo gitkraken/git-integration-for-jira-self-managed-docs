@@ -26,20 +26,16 @@ To delete the SSH key from the app configuration, click Actions ➜ **Delete**.
     </div>
 </div>
 
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Adding and associating SSH keys](/git-integration-for-jira-data-center/adding-and-associating-ssh-keys-gij-self-managed)
 
 [**Next:** Reconfigure Git repositories and SSH keys](/git-integration-for-jira-data-center/reconfigure-git-repositories-and-ssh-keys-gij-self-managed)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
 
-## More on Working with SSH keys
+### More on Working with SSH keys
 
 [Working with SSH keys (index)](/git-integration-for-jira-data-center/working-with-ssh-keys-gij-self-managed)
 

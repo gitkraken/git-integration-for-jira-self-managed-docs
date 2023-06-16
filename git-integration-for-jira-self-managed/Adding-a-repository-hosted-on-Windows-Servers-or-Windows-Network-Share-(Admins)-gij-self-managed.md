@@ -18,13 +18,13 @@ The wizard will continue without errors if the following conditions are met:
 *   The user under which Jira is running should have **read** access to network path.
 
 
-In the Manage git repositories page, edit the repository via  ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit repository settings**.
+In the Manage git repositories page, edit the repository via &nbsp;![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit repository settings**.
 
 Under **Repository Settings**, set _**Enable Fetches**_ option to `Git repository hosted on the same server as Jira`.
 
 <img src='/wp-content/uploads/gij-gitserver-edit-repocfg-fetches-sel2.png' style='display:block;margin:25px auto;max-width:100%' />
 
-Considering the above conditions, verify if the repository can be cloned successfully using the network path.  With the server which hosts Jira, start the command-line session under the same user which Jira is running on.
+Considering the above conditions, verify if the repository can be cloned successfully using the network path. With the server which hosts Jira, start the command-line session under the same user which Jira is running on.
 
 For example:
 
@@ -43,24 +43,20 @@ Please make sure you have the correct access rights
 and the repository exists.
 ```
 
-<br>
+&nbsp;
 
 For more information, see [Integration guide -- Windows Network Share](/git-integration-for-jira-data-center/windows-network-server-share-gij-self-managed).
 
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** General settings: Improving Jira performance](/git-integration-for-jira-data-center/General-settings-Improving-Jira-performance-gij-self-managed)
 
 [**Next:** Setting up repository root not located in Jira Home directory \(Admins\)](/git-integration-for-jira-data-center/Setting-up-repository-root-not-located-in-Jira-Home-directory-(Admins)-gij-self-managed)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
 
-## More related articles on Git for Jira administrators
+### More related articles on Git for Jira administrators
 
 [Setup GitLab Server to respond to incoming network API calls](/git-integration-for-jira-data-center/setup-gitLab-server-to-respond-to-incoming-network-API-calls-gij-self-managed)
 

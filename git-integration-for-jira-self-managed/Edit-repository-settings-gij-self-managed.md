@@ -33,7 +33,8 @@ Utilize the options below for configuring repository settings:
 | _**Commit Notification Emails**_ | Enable/disable this setting to allow sending of commit notification emails.<br><br>Set the **Max commit age (in minutes)** as desired. Commit notifications will be e-mailed if the age of the commit is less than or equal to this value. | HOSTED EXTERNAL FOLDER |
 | _**Web Linking**_ | _Optional._<br><br>The web linking feature adds links to your git hosting provider directly into the Git Commits tab. For special integrations (Auto-Connect), this feature is configured automatically. For more information on about this topic, see [Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed). | EXTERNAL |
 
-<p>&nbsp;</p>
+&nbsp;
+* * *
 
 [**Prev:** Edit integration feature settings](/git-integration-for-jira-data-center/edit-integration-feature-settings-gij-self-managed)
 
