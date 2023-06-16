@@ -43,19 +43,16 @@ The code diff dialog view has been improved. The Git Integration for Jira app u
     </div>
     <div class="imsgbox">
         This feature will only display properly on browsers supported by Atlassian for specific versions of Jira:
-        <ul>            
+        <ul style='margin-bottom:0px'>
             <li><a href="https://confluence.atlassian.com/adminjiraserver0900/supported-platforms-1142254604.html" target="_blank">Jira 9.x supported platforms</a></li>
             <li><a href="https://confluence.atlassian.com/adminjiraserver080/supported-platforms-967896891.html" target="_blank">Jira 8.x supported platforms</a></li>
         </ul>
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
-
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Git Commits tab](/git-integration-for-jira-data-center/git-commits-tab-gij-self-managed)
 

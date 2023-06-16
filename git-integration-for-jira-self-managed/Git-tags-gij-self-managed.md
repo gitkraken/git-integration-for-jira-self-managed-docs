@@ -9,7 +9,9 @@ taxonomy:
 
 The Git Integration for Jira app supports both lightweight and annotated tags. The tags are loaded separately from the rest of the Git Source Code.
 
-## Introduction
+&nbsp;
+
+### Introduction
 
 Git tags identify specific release versions of your code in a particular branch and do not change when the branch moves on. A tag is an alias for a commit hash, much like symbolic names for a given revision. It is typically used to mark a particular point in the commit. It is like a branch with a read-only attribute. The git tags are accessible in the developer panel.
 
@@ -38,7 +40,8 @@ Tags cannot be moved since it is linked to a specific commit and are not pushed 
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 The Git for Jira app supports two types of git tags:
 
@@ -46,27 +49,21 @@ The Git for Jira app supports two types of git tags:
 
 *   **annotated**  –  shows the message, author and the tag object followed by the commit
 
-<br>
-
 A lightweight tag can be use for marking a version or some specific commits that you will need to use later on  —  like a temporary object label. It does not contain extra information.
 
 Annotated tags can contain a message, author and date different than the commit that they are pointing to  —  like describing a release without making a release commit.
 
-## Getting started
+&nbsp;
+
+### Getting started
 
 The git tag is displayed on the right sidebar if it is enabled in the [General Settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed) of the Git Integration app ➜ `Calculate and show Git tags in Git Source Code panel`.
-
-<br>
 
 <img src='/wp-content/uploads/gij-dev-panel-git-tags-gen-cfg-setting.png' width=550 height=68 style='display:block;margin:25px auto;max-width:100%' />
 
 This feature is disabled by default for existing integrations and is automatically enabled for new integrations.
 
-<br>
-
 <img src='/wp-content/uploads/gij-git-tags-example.png width=134 height=132 style='display:block;margin:25px auto;'/>
-
-<br>
 
 The Git Integration for Jira app will show the last 3 and first tags if no filter is set. If the filter is set, the Git Integration for Jira app will use it and will display the tags sorted in ascending order by date.
 
@@ -106,13 +103,12 @@ If there are several git tags listed, click the **more...** label link to expa
     </div>
     </div>
 </div>
-<br>
 
-## Tag information
+&nbsp;
+
+### Tag information
 
 <img src='/wp-content/uploads/gij-gitserver-git-tags-hover.png' width=334 height=221 style='display:block;margin:25px auto;max-width:100%' />
-
-<br>
 
 Move the mouse pointer over the tag to display the following tooltip information:
 
@@ -124,8 +120,9 @@ Move the mouse pointer over the tag to display the following tooltip information
 
 *   Message (if any)
 
+&nbsp;
 
-## Tag associations
+### Tag associations
 
 Tags are only associated with the Jira issue by Jira keys that are specified in commits that belong to the tag. Specifying a Jira key in the name of a tag does not associate this tag with the mentioned ticket.
 
@@ -139,9 +136,10 @@ Tags are only associated with the Jira issue by Jira keys that are specified in 
     </div>
     </div>
 </div>
-<br>
 
-## Reindexing tags
+&nbsp;
+
+### Reindexing tags
 
 For users who have the 'Calculate and show Git tags' option turned **off**, There is a safe way on how to turn this setting on. Do note that the following steps should be done outside business operating hours to avoid impacting Jira users:
 
@@ -153,10 +151,8 @@ For users who have the 'Calculate and show Git tags' option turned **off**, Ther
 
 4.  **If the resulting reindexing time is not acceptable** –- the tags structure is probably too complex for the plugin, and the **Calculate and show Git tags** setting should be left as **OFF**.
 
-<p>&nbsp;</p>
-
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Jira Git integration development panel](/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed)
 

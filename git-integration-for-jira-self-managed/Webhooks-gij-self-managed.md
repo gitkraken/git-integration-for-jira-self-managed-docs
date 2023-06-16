@@ -7,19 +7,21 @@ taxonomy:
 
 ---
 
+<!-- hooks and webhooks -->
+
 **What's on this page:**
 - [What are webhooks and why use them?](#what-are-webhooks-and-why-use-them)
 - [Do I need to set up webhooks?](#do-i-need-to-set-up-webhooks)
 - [Getting started](#getting-started)
 - [Advanced settings](#advanced-settings)
-- [GitHub/GitLab push events](#githubgitlab-push-events)
+- [GitHub/GitLab push events](#github-or-gitlab-push-events)
 - [More articles about webhooks setup](#more-articles-about-webhooks-setup)
 
-<br>
-<hr>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
-## What are webhooks and why use them?
+### What are webhooks and why use them?
 
 Webhooks can be an extremely powerful tool that can be configured to trigger an immediate re-index of your repositories from remote systems. Your git server can send this near real-time data to Jira when your git data changes. This results in much faster indexing time so that you don’t have to wait for the regular polling interval (see [General settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed).
 
@@ -34,13 +36,13 @@ Webhooks can be triggered whenever certain actions are performed. For example, y
 
 You can create webhooks for individual repositories or most git providers will allow you to create webhooks at an account-level or org-level.
 
-## Do I need to set up webhooks?
+### Do I need to set up webhooks?
 
 Short answer is no, the [regular reindexing](/git-integration-for-jira-data-center/general-settings-gij-self-managed) configured in General settings by the Jira administrator is the base requirement for indexing. However, by configuring webhooks to trigger reindexing, Jira will more often have up-to-date information. The normal frequency of the app limits this by polling at set intervals.
 
 Without webhooks, you will rely on the default polling of the app which is unchangeable by non-Jira administrators. Jira users will have to wait for the default interval for updates which means users will not see new commits or pull requests until the next indexing interval.
 
-## Getting started
+### Getting started
 
 <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT!</b><br>
 To use the webhooks feature, it must be enabled in the Manage (Git) repositories page.
@@ -54,8 +56,6 @@ Configure webhooks to trigger immediate reindex of your repositories from remote
 2.  Enable/disable the webhook feature by clicking on the **Enabled/Disabled** option.
 
     ![](/wp-content/uploads/gij-gitserver-webhooks-settings-page-c.png)
-
-<br>
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -95,9 +95,10 @@ https://your.jira.com/rest/gitplugin/webhook/1.0/reindex/sdf34tGdfgGDG345g3y0045
     </div>
     </div>
 </div>
-<br>
 
-## Advanced settings
+&nbsp;
+
+### Advanced settings
 
 The advanced options provide a couple of settings for webhook indexing performance improvements.
 
@@ -107,7 +108,9 @@ The advanced options provide a couple of settings for webhook indexing performan
 
 **Min. repository reindex interval** – The frequency of reindexing is set to a maximum of this value (in minutes). Default value is 5 minutes. Set this value to 0 (zero) to disable this setting.
 
-## GitHub/GitLab push events
+&nbsp;
+
+### GitHub or GitLab push events
 
 The Git Integration for Jira app supports GitLab and GitHub push event to define individual repository to index.
 
@@ -139,7 +142,9 @@ The webhook parses the following payload formats:
 }
 ```
 
-## More articles about webhooks setup
+&nbsp;
+
+### More articles about webhooks setup
 
 [Creating reindex triggers for a single repository](/git-integration-for-jira-data-center/Creating-reindex-triggers-for-a-single-repository-gij-self-managed)
 

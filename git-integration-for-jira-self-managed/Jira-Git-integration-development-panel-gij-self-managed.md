@@ -17,9 +17,10 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
-## Permissions
+&nbsp;
+
+### Permissions
 
 **Jira Cloud - Development panel**<br>
 The **View Development Tools** _permission_ only applies to Jira Classic Projects. Next-Gen Projects don't allow to modify the permission.
@@ -30,7 +31,7 @@ For connected GitHub git host, this feature requires enabled `public_repo` sco
 **Commits Ahead and Behind**<br>
 If the user does not have the **View Development Tools** _project permission_ for the project, the developer panel will be unavailable for that user.
 
-## Getting started
+### Getting started
 
 Git links are now available on the developer panel in the following locations:
 
@@ -38,9 +39,7 @@ Git links are now available on the developer panel in the following locations:
 *   Search page in detailed view
 *   Jira Agile screen
 
-<br>
-
-<img src='/wp-content/uploads/gij-new-jira-developer-panel.png' width=210 height=430 style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitserver-new-jira-developer-panel-419.png' style='display:block;margin:25px auto;max-width:100%' />
 
 The **30 commits** refers to an existing Git Commits view, which the issue tab have now. Clicking this text link will reload the page and automatically switches to the **Git Commits** tab to view the commits.
 
@@ -49,8 +48,6 @@ The **Roll Up** refers to an existing Git Roll Up view, which the issue tab 
 Click **Compare code** to open the following dialog:
 
 <img src='/wp-content/uploads/gij-dev-panel-compare-code-dlg.png' width=544 height=285 style='display:block;margin:25px auto;max-width:100%' />
-
-<br>
 
 Compare code diff of different branches by performing the following options:
 
@@ -72,24 +69,17 @@ The view redirects to the Repository Browser ➜ **Compare** tab showing changes
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
-
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Code syntax highlighter](/git-integration-for-jira-data-center/code-syntax-highlighter-gij-self-managed)
 
 [**Next:** Development panel locations](/git-integration-for-jira-data-center/development-panel-locations-gij-self-managed)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
 
-## More articles on Jira Git integration development panel
+### More articles on Jira Git integration development panel
 
 [Development panel locations](/git-integration-for-jira-data-center/development-panel-locations-gij-self-managed)
 

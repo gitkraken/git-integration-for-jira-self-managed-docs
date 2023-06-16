@@ -28,9 +28,10 @@ The branch panel will show a summary of all the unmerged branches (regardless of
     </div>
     </div>
 </div>
-<br>
 
-## Create branch
+&nbsp;
+
+### Create branch
 
 Click **Create branch** to create a branch for the selected repository. The following dialog is displayed:
 
@@ -46,9 +47,9 @@ Click **Create branch** to create a branch for the selected repository. The f
 
 3.  The Git Integration for Jira app will populate the **Branch name** field according to the _Branch Name Template_ declared in the [Git integration settings](/git-integration-for-jira-data-center/git-integration-features-gij-self-managed) via **General Settings**. Enter a descriptive name or leave it as is (recommended).
 
-<br>
+&nbsp;
 
-## Create branch (Require user PAT enabled)
+### Create branch (Require user PAT enabled)
 
 If the [Require User PAT option](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed) is enabled in the **Integration Settings** and a user PAT isn't configured yet for the selected repository via Repository Browser, the following dialog is displayed instead:
 
@@ -102,9 +103,10 @@ Hover the mouse pointer on the branch label to reveal the **Delete** icon. Cl
     </div>
     </div>
 </div>
-<br>
 
-## Commits ahead and behind
+&nbsp;
+
+### Commits ahead and behind
 
 The numbers **ahead** and **behind** represent the number of commits that are ahead/behind the main branch:
 
@@ -136,7 +138,6 @@ Clicking on the branch text links will open that issue in the Repository Browser
     </div>
     </div>
 </div>
-<br>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -161,10 +162,8 @@ Clicking on the branch text links will open that issue in the Repository Browser
     </div>
 </div>
 
-<p>&nbsp;</p>
-
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Development panel locations](/git-integration-for-jira-data-center/development-panel-locations-gij-self-managed)
 
