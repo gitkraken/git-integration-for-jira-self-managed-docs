@@ -9,7 +9,9 @@ taxonomy:
 
 The Git Integration for Jira app has added JQL operators and fields to query Jira using JQL and git context via the Jira search.
 
-## Enable/disable JQL search feature
+&nbsp;
+
+### Enable/disable JQL search feature
 
 Go to ![](/wp-content/uploads/actions-icon.png) Jira Administration ➜ Applications ➜ **General settings**.
 
@@ -17,7 +19,7 @@ Go to ![](/wp-content/uploads/actions-icon.png) Jira Administration ➜ Appli
 
 This general setting allows administrators to enable/disable the JQL functions within the Git Integration for Jira app.
 
-## JQL field syntax
+### JQL field syntax
 
 The Jira JQL has been extended as follows:
 
@@ -32,7 +34,9 @@ gitBranch in (master) AND resolution = Unresolved
 gitCommitsReferenced is not empty AND resolution = Unresolved
 ```
 
-## Exporting JQL search results
+&nbsp;
+
+### Exporting JQL search results
 
 You can save the JQL search results to CSV, HTML, XML or Word via **Export**.
 
@@ -49,10 +53,8 @@ You can save the JQL search results to CSV, HTML, XML or Word via **Export**.
     </div>
 </div>
 
-<p>&nbsp;</p>
-
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Reindexing](/git-integration-for-jira-data-center/reindexing-gij-self-managed)
 

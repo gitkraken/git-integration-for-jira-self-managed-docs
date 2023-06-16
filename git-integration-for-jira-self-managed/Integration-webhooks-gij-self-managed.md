@@ -7,9 +7,11 @@ taxonomy:
 
 ---
 
-Trigger immediate reindex of your repositories from remote systems via webhooks. For more information about this topic, see <a href='https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/web_hooks/web_hooks.md'><b>About GitLab Webhooks</b></a>.
+Trigger immediate reindex of your repositories from remote systems via webhooks. For more information about this topic, see [About GitLab Webhooks](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/web_hooks/web_hooks.md).
 
-## Getting started
+&nbsp;
+
+### Getting started
 
 Setup webhooks for your configured integration/repositories from remote systems by enabling the feature first.
 
@@ -25,8 +27,6 @@ Setup webhooks for your configured integration/repositories from remote systems 
 
 
 ![](/wp-content/uploads/gij-gitserver-gitmgr-webhooks-cfg-page.png)
-
-<br>
 
 Use the **Webhook URL** to setup webhook for your remote git host. For detailed information on webhook configuration, see [Webhooks](/git-integration-for-jira-data-center/webhooks-gij-self-managed).
 
@@ -57,11 +57,11 @@ https://your.jira.com/rest/gitplugin/webhook/1.0/reindex/sdf34tGdfgGDG345g3y0045
     </div>
 </div>
 
-<br>
-
 For more information about triggers and event types, see [Creating reindex triggers for a single repository](/git-integration-for-jira-data-center/creating-reindex-triggers-for-a-single-repository-gij-self-managed).
 
-## Advanced settings
+&nbsp;
+
+### Advanced settings
 
 The advanced options provide a couple of settings for webhook indexing performance improvements.
 
@@ -71,10 +71,8 @@ The advanced options provide a couple of settings for webhook indexing performan
 
 **Min. repository reindex interval** – The frequency of reindexing is set to a maximum of this value (in minutes). Default value is 5 minutes. Set this value to 0 (zero) to disable this setting.
 
-<p>&nbsp;</p>
-
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** JQL searching](/git-integration-for-jira-data-center/jql-searching-gij-self-managed)
 

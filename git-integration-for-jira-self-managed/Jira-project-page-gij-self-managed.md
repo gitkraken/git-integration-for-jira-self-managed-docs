@@ -9,13 +9,13 @@ taxonomy:
 
 The Project page allows you to manage project related options.
 
-## All Versions
+&nbsp;
+
+### All Versions
 
 History of commits can also be viewed within the whole project scope. To do this, select a project then click the Git Commits tab. The format of commits is similar to that on the issue page.
 
 ![](/wp-content/uploads/gij-gitserver-proj-git-commits-tab.png)
-
-<br>
 
 To view commit code diff information, click the **View full commit** button to the right of the commit message.
 
@@ -46,13 +46,12 @@ Click on a commit ID to open it with the Repository Browser. Related issues and 
     </div>
     </div>
 </div>
-<br>
 
-## Commits for Select Version
+&nbsp;
+
+### Commits for Select Version
 
 ![](/wp-content/uploads/gij-gitserver-proj-select-versions-tab.png)
-
-<br>
 
 Commits can also be limited using a particular revision. Revision and commits are connected using the logic below:
 
@@ -60,10 +59,8 @@ Commits can also be limited using a particular revision. Revision and commits ar
 
 *   Commits linked with these tickets are fetched.
 
-<p>&nbsp;</p>
-
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Git tags](/git-integration-for-jira-data-center/git-tags-gij-self-managed)
 
