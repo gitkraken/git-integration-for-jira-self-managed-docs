@@ -31,7 +31,7 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 * * *
 &nbsp;
 
-## Accessible locations
+### Accessible locations
 
 *   Add new integration Wizard ➜ Connection screen ➜ _Advanced_ ➜ **Custom API Path**.
 
@@ -49,7 +49,11 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 
 <img src='/wp-content/uploads/github-mobile-dark.png' width=40 height=40 style='margin-bottom:10px;display:block;' />
 
-## GitHub.com and GitHub Enterprise examples
+&nbsp;
+
+<div id='githubcom-and-github-enterprise-examples'> <!-- set anchor -->
+
+### GitHub.com and GitHub Enterprise examples
 
 **1\. Lists all repositories (default)**
 
@@ -93,7 +97,11 @@ This will filter for repositories only within the org: `BigBrassBand`. This work
 
 <img src='/wp-content/uploads/gij-gitlab-mobile.png' width=40 height=40 style='margin-bottom:10px;display:block;' />
 
-## GitLab.com and GitLab CE|EE examples
+&nbsp;
+
+<div id='gitlabcom-and-gitlab-ceee-examples'> <!-- set anchor -->
+
+### GitLab.com and GitLab CE|EE examples
 
 **1\. Lists all projects (default)**
 
@@ -165,7 +173,7 @@ While Custom API Path and JMESPath filter are mutually exclusive, you can use on
 
 &nbsp;
 
-## More how-to articles
+### More how-to articles
 
 [How to get a quote?](/git-integration-for-jira-data-center/how-to-get-a-quote-gij-self-managed/)
 

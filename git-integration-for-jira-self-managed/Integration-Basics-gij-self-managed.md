@@ -17,7 +17,9 @@ Learn basic integration for most git hosts by connecting git repositories to Jir
 
 *   Learn how to create branch/pull/merge request inside Jira via the developer panel.
 
-## Group definition for each integration type
+&nbsp;
+
+### Group definition for each integration type
 
 | Git-hosting service | Group |
 | :--- | :--- |
@@ -31,11 +33,9 @@ Learn basic integration for most git hosts by connecting git repositories to Jir
 | Tracked folder | No groups |
 | Single repository | No groups |
 
-* * *
+&nbsp;
 
-<br>
-
-## More related articles on integration basics
+### More related articles on integration basics
 
 [Connecting to a git host account via Add new integration panel](/git-integration-for-jira-data-center/connecting-to-a-git-host-account-via-Add-new-integration-panel-gij-self-managed)
 

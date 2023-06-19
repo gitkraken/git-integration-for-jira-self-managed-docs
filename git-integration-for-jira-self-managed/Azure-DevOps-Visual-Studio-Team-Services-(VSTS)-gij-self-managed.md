@@ -18,14 +18,15 @@ taxonomy:
     </div>
 </div>
 
+&nbsp;
 
 ![](/wp-content/uploads/gij-vsts-azure-devops-logo.png)
 
 ![](https://bigbrassband.com/confluence/images/vsts-new-logo.png)
 
-<br>
+&nbsp;
 
-# Integrate Azure DevOps/Visual Studio Team Services (VSTS) with Jira Data Center/Server
+## Integrate Azure DevOps/Visual Studio Team Services (VSTS) with Jira Data Center/Server
 
 Quickly learn how to connect Azure DevOps/VSTS git repositories via Git Integration for Jira Data Center/Server.
 
@@ -48,11 +49,9 @@ The Git Integration for Jira app supports Azure Repos.
     - [Merging _branch_ to _master_](#merging-branch-to-master)
   - [More Integration Guides](#more-integration-guides)
 
-<br>
-<hr>
-<br>
-
-<br>
+&nbsp;
+* * *
+&nbsp;
 
 <div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/dwk9zxeane?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -61,18 +60,18 @@ The Git Integration for Jira app supports Azure Repos.
 <div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/dwk9zxeane'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
-<br>
 
-## Permissions
+&nbsp;
+
+### Permissions
 
 Set Azure DevOps/VSTS repository permissions according to your organization's rules. Viewing commits from Jira requires the user to have at least **Read** or **View** permissions. For branch/pull request creation, set specific service users with **Write** permissions.
 
-## Creating personal access tokens for Azure DevOps/VSTS account
+### Creating personal access tokens for Azure DevOps/VSTS account
 
 Connecting to Azure DevOps / VSTS account requires personal access token to work. If you have not yet generated a personal access token (PAT), create your token by following the steps outlined [in this article](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed#azure-devops-visual-studio-team-services-vsts).
 
-## Using Full feature integration
+### Using Full feature integration
 
 This process requires an existing Microsoft account with Azure DevOps or VSTS **git** projects.
 
@@ -151,11 +150,12 @@ We recommend using the Add new integration panel to connect multiple repositorie
     </div>
     </div>
 </div>
-<br>
 
 Azure DevOps/VSTS git repositories are now connected to Jira Server.
 
-## Single repository integration (Manual integration)
+&nbsp;
+
+### Single repository integration (Manual integration)
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -167,7 +167,6 @@ Azure DevOps/VSTS git repositories are now connected to Jira Server.
     </div>
     </div>
 </div>
-<br>
 
 This process requires an existing VSTS/Azure git repository. Look for the the VSTS/Azure repository URL on the repository project page.
 
@@ -199,9 +198,10 @@ The repository is now connected to Jira Server.
     </div>
     </div>
 </div>
-<br>
 
-## Webhooks and web linking
+&nbsp;
+
+### Webhooks and web linking
 
 The Git Integration for Jira app automatically configures web linking for Azure DevOps/VSTS git repositories.
 
@@ -221,7 +221,7 @@ For detailed step-by-step guide showcasing the webhooks setup, [see this articl
 
 For single repository connections, web link setup is optional. However, git links will become available in Git Commits tab when configured. For more information on this feature, see [Documentation: Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed).
 
-## Linking Azure DevOps/VSTS git commits to Jira Data Center/Server
+### Linking Azure DevOps/VSTS git commits to Jira Data Center/Server
 
 This process requires a Azure DevOps/VSTS git repository.
 
@@ -249,9 +249,9 @@ This process requires a Azure DevOps/VSTS git repository.
 
 <img src='/wp-content/uploads/gij-gitserver-azure-vsts-commits-view.png' width=544 height=183 style='display:block;margin:25px auto;max-width:100%' />
 
-<br>
+&nbsp;
 
-## Viewing git commits in Jira Server
+### Viewing git commits in Jira Server
 
 1.  Perform a git commit by adding the Jira issue key in the commit message. This will associate the commit to the mentioned Jira issue.
 
@@ -264,11 +264,15 @@ This process requires a Azure DevOps/VSTS git repository.
 
 For more information on this feature, see [Documentation: Viewing commit code diffs](/git-integration-for-jira-data-center/viewing-commit-code-diffs-gij-self-managed).
 
-## Working with branches and pull requests
+&nbsp;
+
+### Working with branches and pull requests
 
 This process requires a Azure DevOps/VSTS git repository and a PAT with at least `Code (read and write)` scope.
 
-### Default branch
+&nbsp;
+
+#### Default branch
 
 Most git integrations allow changing of the default branch of the repository/project other than "master".  This change is reflected in the  Repository Settings of the Git Integration for Jira app on the next reindex.  Repositories added via Add new integration support this feature where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
@@ -282,9 +286,10 @@ Most git integrations allow changing of the default branch of the repository/pro
     </div>
     </div>
 </div>
-<br>
 
-### Creating branches
+&nbsp;
+
+#### Creating branches
 
 1.  On your Jira Server, open a Jira issue. 
 
@@ -324,8 +329,9 @@ Most git integrations allow changing of the default branch of the repository/pro
 
 3.  Click **Create branch**. The newly-created branch is now listed in the developer panel under **Branches**.
 
+&nbsp;
 
-### Pushing commits to the branch
+#### Pushing commits to the branch
 
 Perform a commit to the newly-created branch to be ready for merge.
 
@@ -353,7 +359,9 @@ Perform a commit to the newly-created branch to be ready for merge.
 
 The commit is pushed to the new branch and is now ready for merge..
 
-### Creating pull requests
+&nbsp;
+
+#### Creating pull requests
 
 The pull request feature works the same as merge request.
 
@@ -390,9 +398,9 @@ The pull request is also ready for approval by the reviewers in your Azure DevOp
 
 ![](/wp-content/uploads/gij-vsts-webui-branch-ready-for-merge.png)
 
-<br>
+&nbsp;
 
-### Merging _branch_ to _master_
+#### Merging _branch_ to _master_
 
 Continuing from the above steps, the current branch is ready for merge.
 
@@ -424,13 +432,15 @@ Once approved, the team leader or reviewer can then complete the merge. The comm
 
 ![](/wp-content/uploads/gij-gitserver-git-commits-azure-tests.png)
 
-<br>
+&nbsp;
 
-## More Integration Guides
+### More Integration Guides
 
 [GitHub.com](/git-integration-for-jira-data-center/gitHub-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
 [GitHub Enterprise Server](/git-integration-for-jira-data-center/gitHub-Enterprise-Server-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[GitHub App integration](/git-integration-for-jira-data-center/github-app-integration-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
 [GitLab.com](/git-integration-for-jira-data-center/gitLab-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
@@ -444,13 +454,13 @@ Once approved, the team leader or reviewer can then complete the merge. The comm
 
 [Gerrit](/git-integration-for-jira-data-center/gerrit-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
-[Windows Network | Server Share](/git-integration-for-jira-data-center/windows-Network-Server-Share-gij-self-managed) (Git Integration for Jira Data Center/Server)
-
-[Tracked Folders](/git-integration-for-jira-data-center/tracked-Folders-gij-self-managed) (Git Integration for Jira Data Center/Server)
-
 [Bitbucket Server](/git-integration-for-jira-data-center/Bitbucket-Server-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
 [Bonobo](/git-integration-for-jira-data-center/bonobo-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
-[Integration basics](/git-integration-for-jira-data-center/Integration-Basics-gij-self-managed) (Git Integration for Jira Data Center/Server)
+[Windows Network | Server Share](/git-integration-for-jira-data-center/windows-Network-Server-Share-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Tracked Folders](/git-integration-for-jira-data-center/tracked-Folders-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[**Back to:** Integration basics](/git-integration-for-jira-data-center/Integration-Basics-gij-self-managed) (Git Integration for Jira Data Center/Server)
 

@@ -38,7 +38,8 @@ The configured repositories are located on the shared resource, since the nodes 
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 The smart commits are processed by the reindex job which run once per cluster. The node updates the index during the scheduled reindex job. For Jira Data Centers, the indexes are stored in each node.
 
@@ -72,9 +73,10 @@ The _GarbageCollection_ job should be run once on one node at the same time. Th
     </div>
     </div>
 </div>
-<br>
 
-## The trustFolderStat setting
+&nbsp;
+
+### The trustFolderStat setting
 
 The trustFolderStat setting can be accessed in the following locations:
 
@@ -104,10 +106,8 @@ The _default_ setting for Jira Data Center is **false**.
     </div>
 </div>
 
-<p>&nbsp;</p>
-
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Integration webhooks](/git-integration-for-jira-data-center/integration-webhooks-gij-self-managed)
 

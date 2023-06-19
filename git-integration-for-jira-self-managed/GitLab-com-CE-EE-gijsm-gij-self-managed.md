@@ -17,13 +17,14 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 <img src='/wp-content/uploads/gitlab-ceee-integration-banner-logo.png' height=120 width=528 style='max-width:100%' />
 
 &nbsp;
 
-# Integrate GitLab CE/EE with Jira Data Center/Server
+## Integrate GitLab CE/EE with Jira Data Center/Server
 
 Introduced in **v2.9.4** of the Git Integration for Jira app, this feature tracks added or deleted repositories from a remote GitLab server (EE/CE) and automatically imports those Git repository references into Jira.
 
@@ -87,7 +88,7 @@ Quickly learn how to connect GitLab CE/EE git repositories via Git Integration f
 
 &nbsp;
 
-## Permissions
+### Permissions
 
 GitLab can have users with different access level to a group or project. If the user's connected GitLab repositories to Jira are not accessible or commits are not showing for that user -- it's related to permission issues. This can be a per user, repository or a project level restriction.
 
@@ -128,13 +129,13 @@ For more information, see [**GitLab Permissions »**](https://docs.gitlab.com/e
 
 &nbsp;
 
-## Creating a personal access token
+### Creating a personal access token
 
 GitLab Server version 10.2 and newer requires a configured PAT. Follow [this article](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed#gitlab--gitlab-ceee-gij-self-managed) for some specific instructions on how to create PAT for Jira git integration.
 
 &nbsp;
 
-## Using Full feature integration
+### Using Full feature integration
 
 This process requires an existing GitLab Server EE or GitLab Server CE. If your GitLab Server version is 10.2 and newer, a personal access token must be configured.
 
@@ -243,7 +244,7 @@ Repositories added or removed from GitLab server will be likewise added or remov
 
 &nbsp;
 
-## Single repository (Manual integration)
+### Single repository (Manual integration)
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -276,7 +277,7 @@ The repository is now connected to Jira Server.
 
 &nbsp;
 
-## Post-install tips
+### Post-install tips
 
 We recommend to change the following setting if there are connection issues:
 
@@ -286,7 +287,7 @@ Go to the general settings in Git Integration app configuration page (Git ➜ 
 
 &nbsp;
 
-## Setting up GitLab web links
+### Setting up GitLab web links
 
 The Git Integration for Jira app automatically configures web linking for GitLab CE/EE git repositories.
 
@@ -296,7 +297,7 @@ For more information on this feature, see [Documentation: Web linking](/git-inte
 
 &nbsp;
 
-## Viewing git commits in Jira Server
+### Viewing git commits in Jira Server
 
 1.  Perform a git commit by adding the Jira issue key in the commit message. This will associate the commit to the mentioned Jira issue.
 
@@ -311,11 +312,11 @@ For more information about this feature, see [Documentation: Linking git commits
 
 &nbsp;
 
-## Working with branches and merge requests
+### Working with branches and merge requests
 
 For this feature to work with GitLab CE/EE, the user must have the **Write** permissions and the `api` PAT scope.
 
-### Default branch
+#### Default branch
 
 Most git integrations allow changing of the default branch of the repository/project other than "master". This change is reflected in the Repository Settings of the Git Integration for Jira app on the next reindex. Full feature integrations support this feature where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
@@ -332,7 +333,7 @@ Most git integrations allow changing of the default branch of the repository/pro
 
 &nbsp;
 
-### Creating branches
+#### Creating branches
 
 On your Jira Server, open a Jira issue.
 
@@ -378,7 +379,7 @@ Perform a commit to the newly-created branch to be ready for merge.
 
 &nbsp;
 
-### Merge request
+#### Merge request
 
 The merge request feature works the same as pull request.
 
@@ -413,11 +414,13 @@ The merge request is listed on the developer panel of the Jira issue page.
 The merge request is also ready for approval by the reviewers in your GitLab web portal.
 
 
-## More Integration Guides
+### More Integration Guides
 
 [GitHub.com](/git-integration-for-jira-data-center/gitHub-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
 [GitHub Enterprise Server](/git-integration-for-jira-data-center/gitHub-Enterprise-Server-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[GitHub App integration](/git-integration-for-jira-data-center/github-app-integration-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
 [GitLab.com](/git-integration-for-jira-data-center/gitLab-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
@@ -431,15 +434,15 @@ The merge request is also ready for approval by the reviewers in your GitLab web
 
 [Gerrit](/git-integration-for-jira-data-center/gerrit-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
-[Windows Network | Server Share](/git-integration-for-jira-data-center/windows-Network-Server-Share-gij-self-managed) (Git Integration for Jira Data Center/Server)
-
-[Tracked Folders](/git-integration-for-jira-data-center/tracked-Folders-gij-self-managed) (Git Integration for Jira Data Center/Server)
-
 [Bitbucket Server](/git-integration-for-jira-data-center/Bitbucket-Server-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
 [Bonobo](/git-integration-for-jira-data-center/bonobo-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
-[Integration basics](/git-integration-for-jira-data-center/Integration-Basics-gij-self-managed) (Git Integration for Jira Data Center/Server)
+[Windows Network | Server Share](/git-integration-for-jira-data-center/windows-Network-Server-Share-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Tracked Folders](/git-integration-for-jira-data-center/tracked-Folders-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[**Back to:** Integration basics](/git-integration-for-jira-data-center/Integration-Basics-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
 <br>
 <br>

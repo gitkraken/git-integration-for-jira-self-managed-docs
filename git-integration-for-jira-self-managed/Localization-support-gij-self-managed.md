@@ -36,10 +36,8 @@ To switch to another language:
 
 4.  Click **Update** to apply the new settings.
 
-<p>&nbsp;</p>
-
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Jira Data Center (High availability and clustering)](/git-integration-for-jira-data-center/Jira-Data-Center-(High-availability-and-clustering)-gij-self-managed)
 

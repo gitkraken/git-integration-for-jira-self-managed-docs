@@ -66,10 +66,8 @@ For every configured repository, this process do the following:
     </div>
 </div>
 
-<p>&nbsp;</p>
-
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Localization support](/git-integration-for-jira-data-center/localization-support-gij-self-managed)
 

@@ -17,15 +17,14 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 ![](https://bigbrassband.com/confluence/images/bitbucket-banner-logo.png)
 
-<br>
-<p>&nbsp;</p>
-<br>
+&nbsp;
 
-# Integrate Bitbucket with Jira Data Center/Server
+## Integrate Bitbucket with Jira Data Center/Server
 
 Quickly learn how to connect Bitbucket Server git repositories via Git Integration for Jira app.
 
@@ -35,13 +34,11 @@ Quickly learn how to connect Bitbucket Server git repositories via Git Integrat
   - [Viewing git commits in Jira Data Center/Server](#viewing-git-commits-in-jiradata-centerserver)
   - [More Integration Guides](#more-integration-guides)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
-## Single repository integration
+### Single repository integration
 
 Obtain the repository URL from the Bitbucket Server repository project page. Choose between SSH or HTTPS.
 
@@ -57,7 +54,9 @@ Obtain the repository URL from the Bitbucket Server repository project page. C
 
 The repository is now connected to Jira Data Center/Server.
 
-## Setting up weblinks
+&nbsp;
+
+### Setting up weblinks
 
 This feature is optional.
 
@@ -81,16 +80,16 @@ Save the changes.
 
 4.  Click **View Full Commit** to view the code diff.
 
-<p>&nbsp;</p>
+&nbsp;
+* * *
 
-<br>
-<br>
-
-## More Integration Guides
+### More Integration Guides
 
 [GitHub.com](/git-integration-for-jira-data-center/gitHub-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
-[GitHub Enterprise Server](/git-integration-for-jira-data-center/gitHub-Enterprise-Server-gij-self-managed)
+[GitHub Enterprise Server](/git-integration-for-jira-data-center/gitHub-Enterprise-Server-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[GitHub App integration](/git-integration-for-jira-data-center/github-app-integration-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
 [GitLab.com](/git-integration-for-jira-data-center/gitLab-gij-self-managed) (Git Integration for Jira Data Center/Server)
 

@@ -8,9 +8,9 @@ taxonomy:
 ---
 <img src=''/wp-content/uploads/gij-bonobo-banner-logo.png' width=545 height=84 />
 
-<br>
+&nbsp;
 
-# Integrate Bonobo with Jira Data Center/Server
+## Integrate Bonobo with Jira Data Center/Server
 
 Quickly learn how to connect Bonobo git repositories via Git Integration for Jira app.
 
@@ -21,13 +21,9 @@ Quickly learn how to connect Bonobo git repositories via Git Integration for Jir
   - [Viewing Git Commits in Jira Data Center](#viewing-git-commits-in-jiradata-center)
   - [More Integration Guides](#more-integration-guides)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
 
-## Single repository integration
+### Single repository integration
 
 Obtain the repository URL from the Bonobo repository project page.
 
@@ -43,7 +39,9 @@ Obtain the repository URL from the Bonobo repository project page.
 
 The repository is now connected to Jira Data Center.
 
-## Setting up weblinks
+&nbsp;
+
+### Setting up weblinks
 
 This feature is optional.
 
@@ -59,7 +57,9 @@ Set the variables to the actual URL settings of the git host. In this case, repl
 
 Save the changes.
 
-## Viewing Git Commits in Jira Data Center
+&nbsp;
+
+### Viewing Git Commits in Jira Data Center
 
 1.  Perform a git commit by adding the Jira issue key in the commit message. This will associate the commit to the mentioned Jira issue.
 
@@ -69,16 +69,15 @@ Save the changes.
 
 4.  Click **View Full Commit** to view the code diff.
 
-<p>&nbsp;</p>
+&nbsp;
 
-<br>
-<br>
-
-## More Integration Guides
+### More Integration Guides
 
 [GitHub.com](/git-integration-for-jira-data-center/gitHub-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
-[GitHub Enterprise Server](/git-integration-for-jira-data-center/gitHub-Enterprise-Server-gij-self-managed)
+[GitHub Enterprise Server](/git-integration-for-jira-data-center/gitHub-Enterprise-Server-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[GitHub App integration](/git-integration-for-jira-data-center/github-app-integration-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
 [GitLab.com](/git-integration-for-jira-data-center/gitLab-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
@@ -92,14 +91,14 @@ Save the changes.
 
 [Gerrit](/git-integration-for-jira-data-center/gerrit-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
+[Bitbucket Server](/git-integration-for-jira-data-center/Bitbucket-Server-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+**Bonobo integration** (this page)
+
 [Windows Network \| Server Share](/git-integration-for-jira-data-center/Windows-Network-Server-Share-gij-self-managed)
 
 [Tracked Folders](/git-integration-for-jira-data-center/tracked-Folders-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
-[Bitbucket Server](/git-integration-for-jira-data-center/Bitbucket-Server-gij-self-managed) (Git Integration for Jira Data Center/Server)
-
-**Bonobo** (this page)
-
-[Integration basics](/git-integration-for-jira-data-center/Integration-Basics-gij-self-managed) (Git Integration for Jira Data Center/Server)
+[**Back to:** Integration basics](/git-integration-for-jira-data-center/Integration-Basics-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
 

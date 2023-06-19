@@ -8,9 +8,9 @@ taxonomy:
 ---
 ![](/wp-content/uploads/gerrit-banner-logo.png)
 
-<p>&nbsp;</p>
+&nbsp;
 
-# Integrate Gerrit with Jira Data Center
+## Integrate Gerrit with Jira Data Center
 
 Quickly learn how to connect Gerrit git repositories via Git Integration for Jira Data Center.
 For the Jira Cloud version of this document click [Here](/git-integration-for-jira-cloud/gerrit-gij-self-managed)
@@ -24,11 +24,9 @@ For the Jira Cloud version of this document click [Here](/git-integration-for-ji
   - [Default Branch](#default-branch)
   - [More Integration Guides](#more-integration-guides)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
 <div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/rknbc3ty4e?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -37,10 +35,10 @@ For the Jira Cloud version of this document click [Here](/git-integration-for-ji
 <div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/rknbc3ty4e'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
-<br>
 
-## Using Full feature Integration
+&nbsp;
+
+### Using Full feature Integration
 
 1.  On your Jira dashboard, go to menu **Git** ➜ **Manage repositories**.
 
@@ -87,8 +85,9 @@ For the Jira Cloud version of this document click [Here](/git-integration-for-ji
 
 5.  Click **Finish** to complete this setup.
 
+&nbsp;
 
-## Single Repository (Manually Connect via SSH/HTTP/HTTPS)
+### Single Repository (Manually Connect via SSH/HTTP/HTTPS)
 
 Login to your Gerrit account. Obtain the repository URL from the Gerrit repository project page.  Use SSH or HTTP/HTTPS.
 
@@ -118,11 +117,12 @@ Login to your Gerrit account. Obtain the repository URL from the Gerrit reposito
     </div>
     </div>
 </div>
-<br>
 
 The repository is now connected to Jira Data Center.
 
-## Setting Up Gerrit Web Links
+&nbsp;
+
+### Setting Up Gerrit Web Links
 
 Web links are automatically configured for Gerrit repositories with Auto-connect integration.
 
@@ -144,7 +144,9 @@ Set the variables to the actual URL settings of the git host.
 
 Save the changes.
 
-## Viewing Git Commits in Jira Data Center
+&nbsp;
+
+### Viewing Git Commits in Jira Data Center
 
 1.  Perform a git commit by adding the Jira issue key in the commit message. This will associate the commit to the mentioned Jira issue.
 
@@ -154,8 +156,9 @@ Save the changes.
 
 4.  Click **View Full Commit** to view the code diff.
 
+&nbsp;
 
-## Default Branch
+### Default Branch
 
 Most git integrations allow changing of the default branch of the repository/project other than "master". This change is reflected in the **Repository Settings** of the Git Integration for Jira app on the next reindex. Auto-connected integrations support this feature where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
@@ -171,18 +174,17 @@ For the case with Gerrit, the default main branch is always “master”.
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
+* * *
 
-<br>
-<br>
-
-## More Integration Guides
+### More Integration Guides
 
 [GitHub.com](/git-integration-for-jira-data-center/gitHub-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
-[GitHub Enterprise Server](/git-integration-for-jira-data-center/gitHub-Enterprise-Server-gij-self-managed)
+[GitHub Enterprise Server](/git-integration-for-jira-data-center/gitHub-Enterprise-Server-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[GitHub App integration](/git-integration-for-jira-data-center/github-app-integration-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
 [GitLab.com](/git-integration-for-jira-data-center/gitLab-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
@@ -196,14 +198,14 @@ For the case with Gerrit, the default main branch is always “master”.
 
 **Gerrit** (this page)
 
-[Windows Network \| Server Share](/git-integration-for-jira-data-center/Windows-Network-Server-Share-gij-self-managed)
-
-[Tracked Folders](/git-integration-for-jira-data-center/tracked-Folders-gij-self-managed) (Git Integration for Jira Data Center/Server)
-
 [Bitbucket Server](/git-integration-for-jira-data-center/Bitbucket-Server-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
 [Bonobo](/git-integration-for-jira-data-center/bonobo-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
-[Integration basics](/git-integration-for-jira-data-center/Integration-Basics-gij-self-managed) (Git Integration for Jira Data Center/Server)
+[Windows Network \| Server Share](/git-integration-for-jira-data-center/Windows-Network-Server-Share-gij-self-managed)
+
+[Tracked Folders](/git-integration-for-jira-data-center/tracked-Folders-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[**Back to:** Integration basics](/git-integration-for-jira-data-center/Integration-Basics-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
 
