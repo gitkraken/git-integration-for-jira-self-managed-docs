@@ -6,12 +6,14 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
+<!-- integration guide -->
+
 <img src='/wp-content/uploads/tracked-folder-mobile-custom3.png' width=367 height=82 style='max-width:100%' />
 
-<br>
+&nbsp;
 
-# Integrate Tracked Folders with Jira Data Center
-
+## Integrate Tracked Folders with Jira Data Center
 
 Quickly learn how to connect Tracked Folders via Git Integration for Jira Data Center app.
 
@@ -31,19 +33,17 @@ Quickly learn how to connect Tracked Folders via Git Integration for Jira Data C
   - [Jira administrators](#jira-administrators)
   - [More Integration Guides](#more-integration-guides)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
-## Limitations
+### Limitations
 
-**Pros**
+**Pros:**
 
 *   Less storage is required (the repositories are not cloned to Jira).
 
-**Cons**
+**Cons:**
 
 *   Only commits and branches get indexed with this method.
 *   Pull/merge requests are not indexed with this method.
@@ -59,14 +59,14 @@ Quickly learn how to connect Tracked Folders via Git Integration for Jira Data C
     </div>
     </div>
 </div>
-<br>
 
-## Introduction
+&nbsp;
+
+### Introduction
 
 This feature scans a locally accessible path for cloned Git repositories and automatically imports those Git repository references into Jira. A repository group called <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>FOLDER</b> is added into the Git Integration for Jira app repository settings.
 
-<br>
-<br>
+&nbsp;
 
 <div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/npya1xi1pm?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -76,13 +76,13 @@ This feature scans a locally accessible path for cloned Git repositories and aut
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/npya1xi1pm'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
-<br>
+&nbsp;
 
-## Connecting to a tracked folder
+### Connecting to a tracked folder
 
 To add repositories via Tracked Folders:
 
-<img src='/wp-content/uploads/gij-jira-dashboard-menu-git-gitmgr-sel.png' />
+<img src='/wp-content/uploads/gij-jira-dashboard-menu-git-gitmgr-sel.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 1.  Go to **Manage Git Repositories** (_Jira Dashboard_ ➜ **Git** menu) in Jira Data Center.
 
@@ -116,7 +116,9 @@ The tracked folder is added to the repository configuration list.
 
 You can add multiple tracked folders in case your repositories are spread among multiple locations.
 
-## Folder depth setting
+&nbsp;
+
+### Folder depth setting
 
 GitLab 13+ switched to hashed storage as the default. Git Integration for Jira app also supports this move by implementing support to tracked repositories with a new folder depth option for the GitLab hashed storage.
 
@@ -126,7 +128,9 @@ The default tracked folder depth value is **1**. For GitLab hashed storage suppo
 
 See <a href='https://docs.gitlab.com/ee/administration/repository_storage_types.html#hashed-storage' target='_blank'><b>GitLab docs on Hashed Storage</b></a> for detailed information.
 
-## JMESPath filter setting
+&nbsp;
+
+### JMESPath filter setting
 
 This optional setting is a filter on how repositories are listed and displayed.
 
@@ -158,27 +162,33 @@ The example below ONLY works for tracked folder integration; where it supports t
 [?!starts_with(fullPath, '/home/user/local/store/private-repos')]
 ```
 
-## Editing a tracked folder
+&nbsp;
+
+### Editing a tracked folder
 
 On the **Manage Git repositories** settings page, click ![](/wp-content/uploads/actions-icon.png) Actions  ➜ **Edit tracked folder** to modify tracked folder git repository settings.
 
 ![](/wp-content/uploads/gij=jira-serverdc-tracked-folder-git-edit.png)
 
-<br>
+&nbsp;
 
-## Removing a tracked folder
+### Removing a tracked folder
 
 On the **Git Repositories** settings page, click ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Delete tracked folder** to remove the tracked folder configuration from Jira.
 
 A confirmation prompt will be displayed. Clicking **Remove** will only remove the tracked folder setting from the repository configuration list. The local path for this tracked folder will not be deleted and will still remain in the local system for later use.
 
-## Resetting index
+&nbsp;
+
+### Resetting index
 
 On the **Git Repositories** settings page, click ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Reset index**.
 
 This action will reset the indexes of the repositories for the selected tracked folder.
 
-## Viewing tracked repositories
+&nbsp;
+
+### Viewing tracked repositories
 
 On the **Git Repositories** settings page, click ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Show tracked repositories**.
 
@@ -186,7 +196,9 @@ This action will open the **Tracked Folder** dialog showing the tracked reposi
 
 The Repository Browser will not display the repository if it is disabled in the Git Repositories configuration. The commits and code diffs in the **Issue** ➜ **Git Commits**, **Git Roll Up** and **Project** tabs will also be unavailable due to this.
 
-## Reindexing a tracked folder
+&nbsp;
+
+### Reindexing a tracked folder
 
 On the **Manage Git repositories** settings page, click ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Reindex tracked folder**.
 
@@ -196,7 +208,9 @@ If a new repository is manually added into the local path, the Git Integration f
 
 If a repository folder is manually deleted from the local path, the Git Integration for Jira app will remove the repository setting from the tracked folder in Jira on the next reindex.
 
-## Viewing git commits in Jira Data Center
+&nbsp;
+
+### Viewing git commits in Jira Data Center
 
 1.  Perform a git commit by adding the Jira issue key in the commit message. This will associate the commit to the mentioned Jira issue.
 
@@ -206,8 +220,9 @@ If a repository folder is manually deleted from the local path, the Git Integrat
 
 4.  Click **View Full Commit** to view the code diff.
 
+&nbsp;
 
-## Jira administrators 
+### Jira administrators
 
 It is possible to track all repositories hosted on a GitLab server from inside a Jira server:
 
@@ -217,28 +232,38 @@ It is possible to track all repositories hosted on a GitLab server from inside a
 
 3.  Configure NFS permissions to allow Jira to access GitLab folders by using either of the two possible solutions:
 
+&nbsp;
 
-| Solution 1 |
-| :--- |
-| The `'all_squash'` option must not be used in the NFS server **'etc/exports'** file for GitLab folders. The NFS client should have the **'git'** group with the same GID as the **'git'** group on the NFS server. The Jira user on the NFS client should be added to the group **'git'**. |
-| **Example of '/etc/exports' line:**<br><br>```java<br>/var/opt/gitlab/git-data/repositories/testrepo xx.xx.xx.xx/24(ro,root_squash,async)<br>``` |
+#### Solution 1
 
-| Solution 2 |
-| :--- |
-| Use the `'all_squash,async,anonuid=$uid,anongid=$gid'` option on the NFS server, where _$uid_ and _$gid_ are the user ID and group ID for **'git'** user and **'git'** group respectively _(or another user/group which you are using to access GitLab repositories on GitLab server)_. |
-| ```java<br>/var/opt/gitlab/git-data/repositories/testrepo xx.xx.xx.xx/24(ro,all_squash,async,anonuid=497,anongid=497)<br>``` |
-| In both cases either `'ro'` or `'rw'` options may be used on the NFS server. |
+The `'all_squash'` option must not be used in the NFS server **'etc/exports'** file for GitLab folders. The NFS client should have the **'git'** group with the same GID as the **'git'** group on the NFS server. The Jira user on the NFS client should be added to the group **'git'**.
 
-<p>&nbsp;</p>
+**Example of '/etc/exports' line:**
 
-<br>
-<br>
+```java
+/var/opt/gitlab/git-data/repositories/testrepo xx.xx.xx.xx/24(ro,root_squash,async)
+```
+
+#### Solution 2
+
+Use the `'all_squash,async,anonuid=$uid,anongid=$gid'` option on the NFS server, where _$uid_ and _$gid_ are the user ID and group ID for **'git'** user and **'git'** group respectively _(or another user/group which you are using to access GitLab repositories on GitLab server)_.
+
+```java
+/var/opt/gitlab/git-data/repositories/testrepo xx.xx.xx.xx/24(ro,all_squash,async,anonuid=497,anongid=497)
+```
+
+In both cases either `'ro'` or `'rw'` options may be used on the NFS server.
+
+&nbsp;
+* * *
 
 ## More Integration Guides
 
 [GitHub.com](/git-integration-for-jira-data-center/gitHub-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
-[GitHub Enterprise Server](/git-integration-for-jira-data-center/gitHub-Enterprise-Server-gij-self-managed)
+[GitHub Enterprise Server](/git-integration-for-jira-data-center/gitHub-Enterprise-Server-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[GitHub App integration](/git-integration-for-jira-data-center/github-app-integration-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
 [GitLab.com](/git-integration-for-jira-data-center/gitLab-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
@@ -252,14 +277,14 @@ It is possible to track all repositories hosted on a GitLab server from inside a
 
 [Gerrit](/git-integration-for-jira-data-center/gerrit-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
-[Windows Network \| Server Share](/git-integration-for-jira-data-center/Windows-Network-Server-Share-gij-self-managed)
-
-**Tracked Folders** (this page)
-
 [Bitbucket Server](/git-integration-for-jira-data-center/Bitbucket-Server-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
 [Bonobo](/git-integration-for-jira-data-center/bonobo-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
-[Integration basics](/git-integration-for-jira-data-center/Integration-Basics-gij-self-managed) (Git Integration for Jira Data Center/Server)
+[Windows Network \| Server Share](/git-integration-for-jira-data-center/Windows-Network-Server-Share-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+**Tracked Folders** (this page)
+
+[**Back to:** Integration basics](/git-integration-for-jira-data-center/Integration-Basics-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
 

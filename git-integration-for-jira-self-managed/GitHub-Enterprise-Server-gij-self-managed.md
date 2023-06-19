@@ -39,14 +39,14 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
-<br>
+
+&nbsp;
 
 <img src='/wp-content/uploads/gij-github-ent-server-banner-logo.png' width=510 height=59 style='max-width:100%;margin:25px 0 15px 0' />
 
-<br>
+&nbsp;
 
-# Integrate GitHub Enterprise Server with Jira Data Center/Server
+## Integrate GitHub Enterprise Server with Jira Data Center/Server
 
 Quickly learn how to connect GitHub Enterprise Server git repositories via Git Integration for Jira Server.
 
@@ -67,9 +67,9 @@ Quickly learn how to connect GitHub Enterprise Server git repositories via Git I
     - [Creating pull requests](#creating-pull-requests)
   - [More Integration Guides](#more-integration-guides)
 
-<br>
-<hr>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
 <div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/75nvefgz66?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -78,9 +78,10 @@ Quickly learn how to connect GitHub Enterprise Server git repositories via Git I
 <div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/75nvefgz66'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
 
-## Creating a personal access token
+&nbsp;
+
+### Creating a personal access token
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -95,7 +96,9 @@ Quickly learn how to connect GitHub Enterprise Server git repositories via Git I
 
 While instructions from GitHub works just fine, [follow this article](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed) for some specific instructions to get you started.
 
-## Using Full feature integration
+&nbsp;
+
+### Using Full feature integration
 
 This process requires an existing GitHub Enterprise account.
 
@@ -171,7 +174,9 @@ This setup uses full feature integration offering functions and features not fou
 
 GitHub Enterprise Server repositories are now connected to Jira Server.
 
-## Single repository (Manual integration)
+&nbsp;
+
+### Single repository (Manual integration)
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -203,13 +208,17 @@ Choose between SSH or HTTPS. Use this information to connect the GitLab git rep
 
 The repository is now connected to Jira Server.
 
-## Setting up GitHub Enterprise Server permissions
+&nbsp;
+
+### Setting up GitHub Enterprise Server permissions
 
 We recommend using a "service user" in GitHub Enterprise _(example:_ `GitIntegrationforJira`_)_ to be used to integrate with Git Integration for Jira app. This dedicated "service user" will allow the GitHub Enterprise Server administrator to set permissions so the app clones only the desired repositories.
 
 Assign GitHub Enterprise Server permissions for team members or collaborators to allow which resources are accessible for service users. This feature is only available in a GitHub Organization.
 
-### Default repository permission**
+&nbsp;
+
+#### Default repository permission**
 
 1.  Login to your GitHub Enterprise Server account.
 
@@ -227,7 +236,9 @@ Assign GitHub Enterprise Server permissions for team members or collaborators to
 
 For more information, see **Access Permissions on GitHub »**.
 
-### Teams and collaborators
+&nbsp;
+
+#### Teams and collaborators
 
 To give a member additional access, they must be added to a team or make them collaborators on individual repositories.
 
@@ -307,7 +318,9 @@ For more information on organization teams, see [**GitHub: Organizing Members i
 
 For more information on inviting collaborators, see [**Inviting Collaborators to a Personal/Organization Repository »**](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository).
 
-## Setting up GitHub web links
+&nbsp;
+
+### Setting up GitHub web links
 
 The Git Integration for Jira app automatically configures web linking for GitHub Enterprise Server git repositories.
 
@@ -315,7 +328,9 @@ For single repository connections, web link setup is optional. However, git link
 
 For more information on this feature, see [Documentation: Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed).
 
-## Viewing git commits in Jira Server
+&nbsp;
+
+### Viewing git commits in Jira Server
 
 1.  Perform a git commit by adding the Jira issue key in the commit message. This will associate the commit to the mentioned Jira issue.
 
@@ -328,7 +343,9 @@ For more information on this feature, see [Documentation: Web linking](/git-inte
 
 For more information about this feature, see [Documentation: Viewing commit code diffs](/git-integration-for-jira-data-center/viewing-commit-code-diffs-gij-self-managed).
 
-## Require User PAT settings for user access
+&nbsp;
+
+### Require User PAT settings for user access
 
 For teams looking to maintain user attribution, Jira administrators can place a requirement where individual Jira users must provide personal access tokens to perform certain actions. This includes actions such as creating a branch or pull request in Jira using their git service account - rather than the integration account.
 
@@ -353,13 +370,17 @@ Click this text label to open the Setup PAT dialog and paste your personal acces
 
 The Setup PAT dialog is also accessible via Repository Browser (dashboard menu Git ➜ **Repository browser**) ➜ Click the <img src='/wp-content/uploads/gij-edit-icon-dark.png' style='margin: 0 3px;' /> icon under _**Pers. Access**_ column.
 
-## Working with branches and pull requests
+&nbsp;
+
+### Working with branches and pull requests
 
 This process requires a GitHub Enterprise Server git repository and a PAT with `repo` scopes.
 
 For GitHub Organization, the user must have the **Write** permissions and the `repo` PAT scopes.
 
-### Default branch
+&nbsp;
+
+#### Default branch
 
 Most git integrations allow changing of the default branch of the repository/project other than "master". This change is reflected in the **Repository Settings** of the Git Integration for Jira app on the next reindex. Auto-connected integrations support this feature where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
@@ -374,7 +395,9 @@ Most git integrations allow changing of the default branch of the repository/pro
     </div>
 </div>
 
-### Creating branches
+&nbsp;
+
+#### Creating branches
 
 On your Jira Server, open a Jira issue. On the Jira developer panel under **Git Integration**, click **Create branch**. The following dialog is displayed.
 
@@ -405,7 +428,9 @@ On your Jira Server, open a Jira issue. On the Jira developer panel under **Git
 
 The newly-created branch is now listed in the developer panel under **Branches**. Perform a commit to the newly-created branch to be ready for merge.
 
-### Creating pull requests
+&nbsp;
+
+#### Creating pull requests
 
 The pull request feature works the same as merge request. On your Jira Server, open the Jira issue where your previously created a branch. On the developer panel under **Git Integration**, click **Create pull request**. The following dialog is displayed.
 
@@ -435,17 +460,20 @@ The pull request feature works the same as merge request. On your Jira Server, o
     </div>
     </div>
 </div>
-<br>
 
 The pull request is listed on the developer panel of the Jira issue page.
 
 The pull request is also ready for approval by the reviewers in your GitHub web portal.
 
-## More Integration Guides
+&nbsp;
+
+### More Integration Guides
 
 [GitHub.com](/git-integration-for-jira-data-center/gitHub-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
 **GitHub Enterprise Server** (this page)
+
+[GitHub App integration](/git-integration-for-jira-data-center/github-app-integration-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
 [GitLab.com](/git-integration-for-jira-data-center/gitLab-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
@@ -459,13 +487,13 @@ The pull request is also ready for approval by the reviewers in your GitHub web 
 
 [Gerrit](/git-integration-for-jira-data-center/gerrit-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
-[Windows Network | Server Share](/git-integration-for-jira-data-center/windows-Network-Server-Share-gij-self-managed) (Git Integration for Jira Data Center/Server)
-
-[Tracked Folders](/git-integration-for-jira-data-center/tracked-Folders-gij-self-managed) (Git Integration for Jira Data Center/Server)
-
 [Bitbucket Server](/git-integration-for-jira-data-center/Bitbucket-Server-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
 [Bonobo](/git-integration-for-jira-data-center/bonobo-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
-[Integration basics](/git-integration-for-jira-data-center/Integration-Basics-gij-self-managed) (Git Integration for Jira Data Center/Server)
+[Windows Network | Server Share](/git-integration-for-jira-data-center/windows-Network-Server-Share-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Tracked Folders](/git-integration-for-jira-data-center/tracked-Folders-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[**Back to:** Integration basics](/git-integration-for-jira-data-center/Integration-Basics-gij-self-managed) (Git Integration for Jira Data Center/Server)
 

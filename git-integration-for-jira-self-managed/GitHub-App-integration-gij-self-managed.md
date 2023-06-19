@@ -19,7 +19,9 @@ GitHub offers a variety of integration options, including: API, OAuth, and more 
 
 For more details, see the [GitHub Apps article](https://docs.github.com/en/developers/apps/getting-started-with-apps/differences-between-github-apps-and-oauth-apps).
 
-## New integration options
+&nbsp;
+
+### New integration options
 
 Two new integration options are added into the Add new integration wizard Connect screen:
 
@@ -33,7 +35,9 @@ There are two terms:
 
 *   **Installation of a GitHub Application** –  To get access to repositories inside the organization, an admin has to install the GHA in the organization. During the installation of GHA, the administrator selects the scope that will be available for this installation of this GHA. It is the second step of connecting a GHA integration.
 
-## Permissions
+&nbsp;
+
+### Permissions
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -45,7 +49,6 @@ There are two terms:
     </div>
     </div>
 </div>
-<br>
 
 Check GitHub Apps permission for your organization:
 
@@ -55,7 +58,9 @@ Check GitHub Apps permission for your organization:
 
 ![](/wp-content/uploads/gij-github-app-org-setting-GHA-c.png)
 
-## Integrate to a GitHub App
+&nbsp;
+
+### Integrate to a GitHub App
 
 As an initial configuration requirement, admins need to install the GHA in an organization. After this setup, only then Jira can read the repositories with Git Integration for Jira app:
 
@@ -108,7 +113,9 @@ The Git Integration for Jira app will perform this task automatically. Provide p
 
 The GitHub App integration is now displayed in the Git repositories configuration list.
 
-## Post-install notes
+&nbsp;
+
+### Post-install notes
 
 The GHA is created automatically by Git Integration for Jira app. For any related questions, please contact [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com.)
 
@@ -124,7 +131,9 @@ The GHA is created automatically by Git Integration for Jira app. For any relate
     *   Any settings on the Permissions and Events page
     *   Any settings on the installation page
 
-## Troubleshooting GHA integrations
+&nbsp;
+
+### Troubleshooting GHA integrations
 
 A GHA integration may get stuck in <b style='background-color:#0C42A3; padding:1px 5px; color:#DEEAFE; border-radius:3px; margin: 0 3px; font-size: small;padding:2px 7px'>INSTALLING</b> status. At the moment, we found three cases when it may happen:
 
@@ -141,4 +150,36 @@ If GitHub App integration is stuck on **Installing** status, use the **Remove in
 However, removing GHA integrations this way (in cases #1 and #2) will leave an unconnected/lost GHA on the GitHub server. As all data for connecting are stored in the integration, there is no way to connect an existing GHA to a new integration. On the other hand, the admin of the GitHub server can remove such lost GHA manually.
 
 For case #3, while this case is very rare, the integration will remain in the Manage Git integration list. The Jira admin can remove the integration using the **Remove integration** action.
+
+&nbsp;
+
+### More Integration Guides
+
+[GitHub.com](/git-integration-for-jira-data-center/github-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[GitHub Enterprise Server](/git-integration-for-jira-data-center/gitHub-Enterprise-Server-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+**GitHub App integration** (this page)
+
+[GitLab.com](/git-integration-for-jira-data-center/gitLab-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[GitLab CE/EE](/git-integration-for-jira-data-center/gitLab-com-CE-EE-gijsm-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Azure DevOps | Visual Studio Team Services (VSTS)](/git-integration-for-jira-data-center/azure-DevOps-Visual-Studio-Team-Services-(VSTS)-gij-self-managed) (Git Integration for Data Center/Jira Server)
+
+[Azure DevOps Server | Team Foundation Services (TFS)](/git-integration-for-jira-data-center/azure-DevOps-Server-Team-Foundation-Services-(TFS)-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[AWS CodeCommit](/git-integration-for-jira-data-center/aws-codecommit-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Gerrit](/git-integration-for-jira-data-center/gerrit-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Bitbucket Server](/git-integration-for-jira-data-center/Bitbucket-Server-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Bonobo](/git-integration-for-jira-data-center/bonobo-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Windows Network | Server Share](/git-integration-for-jira-data-center/windows-Network-Server-Share-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Tracked Folders](/git-integration-for-jira-data-center/tracked-Folders-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[**Back to:** Integration basics](/git-integration-for-jira-data-center/Integration-Basics-gij-self-managed) (Git Integration for Jira Data Center/Server)
 

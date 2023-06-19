@@ -13,9 +13,10 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b>VERSION 4.0+</b> We are dropping support for Jira 7.x.x.<br>
-        <b>VERSION 3.5.1+</b> Dropped support for Internet Explorer 11 browser.<br>
-        <b>VERSION 2.13.0+</b> We are dropping support for Java 7, Jira 6.3 and 6.4.
+        <b>Depreciation notes</b>
+        <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.0+</b> -- We are dropping support for Jira 7.x.x.<br>
+        <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 3.5.1+</b> -- Dropped support for Internet Explorer 11 browser.<br>
+        <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 2.13.0+</b> -- We are dropping support for Java 7, Jira 6.3 and 6.4.
     </div>
     </div>
 </div>
@@ -30,9 +31,10 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
-## Permissions Requirement to Display Commit Information
+&nbsp;
+
+### Permissions Requirement to Display Commit Information
 
 <div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/ynjggc2wzg?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -41,8 +43,7 @@ taxonomy:
 <div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/ynjggc2wzg'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
-<br>
+
 <div class="bbb-callout bbb--alert">
     <div class="irow">
     <div class="ilogobox">
@@ -55,7 +56,6 @@ taxonomy:
         </div>
     </div>
 </div>
-<br>
 
 The user needs to be in the developers group to view code diffs when default permission scheme is used.
 

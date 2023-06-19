@@ -17,13 +17,14 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 <img src='/wp-content/uploads/gij-aws-cc-logo-banner.png' width=512 height=106 style='max-width:100%' />
 
-<br>
+&nbsp;
 
-# Integrate AWS CodeCommit with Jira Data Center/Server
+## Integrate AWS CodeCommit with Jira Data Center/Server
 
 AWS CodeCommit is a git host service by Amazon Web Services to store and manage source code, related files and private Git repositories in the cloud.
 
@@ -37,7 +38,8 @@ AWS CodeCommit is a git host service by Amazon Web Services to store and manage 
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 Quickly learn how to connect AWS CodeCommit git repositories via Git Integration for Jira Data Center/Server.
 
@@ -60,13 +62,11 @@ Quickly learn how to connect AWS CodeCommit git repositories via Git Integration
     - [Creating pull request with Require user PAT setting enabled](#creating-pull-request-with-require-user-pat-setting-enabled)
   - [Updating Require User PAT data](#updating-require-user-pat-data)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
-## Required permissions
+### Required permissions
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -79,11 +79,12 @@ Quickly learn how to connect AWS CodeCommit git repositories via Git Integration
     </div>
     </div>
 </div>
-<br>
 
 The permissions detailed in the connect/Auto-connect wizard are necessary for specific features to work.
 
 We recommend that the following AWS IAM policies are configured beforehand based on what features that will be used.
+
+&nbsp;
 
 ### Basic features
 
@@ -94,6 +95,8 @@ Configure <a href='http://docs.aws.amazon.com/codecommit/latest/userguide/acces
 | show commits, process smart commits, show branches | `codecommit:ListRepositories`  <br>`codecommit:GitPull`  <br>`codecommit:BatchGetRepositories` |
 | show pull requests | `codecommit:ListPullRequests`  <br>`codecommit:GetPullRequest` |
 
+&nbsp;
+
 ### All features
 
 Configure [**AWSCodeCommitPowerUser »**](https://docs.aws.amazon.com/codecommit/latest/userguide/auth-and-access-control-permissions-reference.html) IAM policy for all features:
@@ -103,11 +106,13 @@ Configure [**AWSCodeCommitPowerUser »**](https://docs.aws.amazon.com/codecommi
 | create pull request | `codecommit:CreatePullRequest` |
 | create branch | `codecommit:CreateBranch` |
 | delete branch | `codecommit:DeleteBranch` |
-| configure webhooks automatically | `codecommit:GetRepositoryTriggers`  <br>`codecommit:PutRepositoryTriggers`  <br>`sns:CreateTopic`  <br>`sns:DeleteTopic`  <br>`sns:Subscribe` |
+| configure webhooks automatically | `codecommit:GetRepositoryTriggers`<br>`codecommit:PutRepositoryTriggers`<br>`sns:CreateTopic`<br>`sns:DeleteTopic`<br>`sns:Subscribe` |
 
 See [this article](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed) for related information.
 
-## Webhooks and triggers
+&nbsp;
+
+### Webhooks and triggers
 
 <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>RECOMMENDED</b>
 
@@ -146,11 +151,10 @@ CodeCommit doesn't have webhooks but it has SNS triggers requiring a [**subscri
     </div>
     </div>
 </div>
-<br>
 
 For more information on Amazon SNS, see <a href='https://docs.aws.amazon.com/sns/latest/dg/sns-getting-started.html' target='_blank'><b>Amazon SNS: Getting Started »</b></a>.
 
-<br>
+&nbsp;
 
 <div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/657k3pibj6?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -159,10 +163,10 @@ For more information on Amazon SNS, see <a href='https://docs.aws.amazon.com/sn
 <div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/657k3pibj6'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
-<br>
 
-## Using Full feature integration
+&nbsp;
+
+### Using Full feature integration
 
 This process requires an AWS account with existing CodeCommit repositories.
 
@@ -262,7 +266,9 @@ There are two ways to configure the git repository connection using tracked fold
 
 If the connected git host has newly added repositories, the Git Integration for Jira app will automatically add them to the git repositories configuration on the next reindex. For the deleted git repositories, these will be removed from the Git repositories configuration on the next reindex.
 
-## Single repository (Manually connect via HTTP or HTTPS)
+&nbsp;
+
+### Single repository (Manually connect via HTTP or HTTPS)
 
  <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -274,7 +280,6 @@ If the connected git host has newly added repositories, the Git Integration for 
     </div>
     </div>
 </div>
-<br>
 
 Connect a single AWS CodeCommit repository manually to Jira via HTTP/HTTPS connection.
 
@@ -299,7 +304,9 @@ Connect a single AWS CodeCommit repository manually to Jira via HTTP/HTTPS conne
 
 The repository is now connected to Jira Data Center/Server.
 
-## Single repository integration (Manually connect via SSH)
+&nbsp;
+
+### Single repository integration (Manually connect via SSH)
 
 <div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/xq1xzic0tm?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -320,7 +327,6 @@ The repository is now connected to Jira Data Center/Server.
     </div>
     </div>
 </div>
-<br>
 
 Connect a single AWS CodeCommit repository manually to Jira via SSH connection.
 
@@ -343,11 +349,15 @@ ssh://1a2b3c4d5e@git-codecommit.us-east-1.amazonaws.com/v1/repos/test-repo
 
 The modified URL can now be used as a valid repository URL via _Git Integration for Jira_ ➜ **Connect to Git repository**.
 
-## Setting up AWS CodeCommit web links
+&nbsp;
+
+### Setting up AWS CodeCommit web links
 
 The Git Integration for Jira app automatically configures web linking for AWS CodeCommit repositories in Jira Data Center/Server.
 
-## Viewing git commits in Jira Data Center/Server
+&nbsp;
+
+### Viewing git commits in Jira Data Center/Server
 
 1.  Perform a git commit by adding the Jira issue key in the commit message. This will associate the commit to the mentioned Jira issue.
 
@@ -357,8 +367,9 @@ The Git Integration for Jira app automatically configures web linking for AWS Co
 
 4.  Click **View Full Commit** to view the code diff.
 
+&nbsp;
 
-## Working with branches and pull requests
+### Working with branches and pull requests
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -370,11 +381,12 @@ The Git Integration for Jira app automatically configures web linking for AWS Co
     </div>
     </div>
 </div>
-<br>
 
 The Git Integration for Jira app supports creation of branches and pull requests from Jira via the developer panel.
 
-### Default branch
+&nbsp;
+
+#### Default branch
 
 Most git integrations allow changing of the default branch of the repository/project other than "master". This change is reflected in the  Repository Settings of the Git Integration for Jira app on the next reindex. Auto-connected integrations support this feature where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
@@ -388,9 +400,10 @@ Most git integrations allow changing of the default branch of the repository/pro
     </div>
     </div>
 </div>
-<br>
 
-### Creating branches
+&nbsp;
+
+#### Creating branches
 
 1.  On your Jira Data Center/Server instance, open a Jira issue.
 
@@ -412,9 +425,9 @@ The newly-created branch appears on the development panel under _Branches_ secti
 
 <img src='/wp-content/uploads/gij-gitserver-create-branches-list-dev-panel.png' width=331 height=294 style='display:block;margin:25px auto;max-width:100%' />
 
-<br>
+&nbsp;
 
-### Creating branches with Require user PAT enabled
+#### Creating branches with Require user PAT enabled
 
 If the [Require user PAT setting](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed) is enabled in the **Integration feature settings** _Actions_ ➜ _Edit integration feature settings_) and a user PAT isn't configured yet for the selected repository via Repository Browser, the following create branch dialog is displayed instead.
 
@@ -430,7 +443,9 @@ Enter the required credentials then click **Update** to complete this setup. You
 
 If an invalid secret access key was configured for the selected repository, the branch and pull request creation process will fail.
 
-### Creating pull requests
+&nbsp;
+
+#### Creating pull requests
 
 The pull request feature works the same as merge request.
 
@@ -458,7 +473,9 @@ The pull request is listed on the developer panel of the Jira issue page.
 
 The pull request is also ready for approval by the reviewers in your AWS CodeCommit web portal.
 
-### Creating pull request with Require user PAT setting enabled
+&nbsp;
+
+#### Creating pull request with Require user PAT setting enabled
 
 If the [Require user PAT setting](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed) is enabled in the **Integration feature settings** ( _Actions_ ➜ _Edit integration feature settings_) and a user PAT isn't configured yet for the selected repository via Repository Browser, the following pull request dialog is displayed instead.
 
@@ -482,13 +499,47 @@ Enter the required credentials then click **Update** to complete this setup. You
     </div>
     </div>
 </div>
-<br>
 
-## Updating Require User PAT data
+&nbsp;
+
+### Updating Require User PAT data
 
 If the secret access key has changed for your AWS account, update the credentials via Repository Browser (_dashboard menu Git_ ➜ _View all repositories_).
 
 ![](/wp-content/uploads/gij-gitserver-repo-browser-setup-pat-sel.png)
 
 Click the edit ![](/wp-content/uploads/gij-edit-icon-dark.png) icon under the Personal access column for the selected repository. The same dialog for Setup your AWS Credentials appears. Enter the updated _**Secret access key**_ then click **Update** to save the settings.
+
+&nbsp;
+* * *
+
+### More Integration Guides
+
+[GitHub.com](/git-integration-for-jira-data-center/gitHub-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[GitHub Enterprise Server](/git-integration-for-jira-data-center/gitHub-Enterprise-Server-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[GitHub App integration](/git-integration-for-jira-data-center/github-app-integration-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[GitLab.com](/git-integration-for-jira-data-center/gitLab-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[GitLab CE/EE](/git-integration-for-jira-data-center/gitLab-com-CE-EE-gijsm-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Azure DevOps \| Visual Studio Team Services (VSTS)](/git-integration-for-jira-data-center/azure-DevOps-Visual-Studio-Team-Services-(VSTS)-gij-self-managed) (Git Integration for Data Center/Jira Server)
+
+[Azure DevOps Server \| Team Foundation Services (TFS)](/git-integration-for-jira-data-center/azure-devops-server-team-foundation-services-tfs-gij-self-managed)
+
+**AWS CodeCommit** (this page)
+
+[Gerrit](/git-integration-for-jira-data-center/gerrit-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Bitbucket Server](/git-integration-for-jira-data-center/Bitbucket-Server-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Bonobo](/git-integration-for-jira-data-center/bonobo-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Windows Network | Server Share](/git-integration-for-jira-data-center/windows-Network-Server-Share-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[Tracked Folders](/git-integration-for-jira-data-center/tracked-Folders-gij-self-managed) (Git Integration for Jira Data Center/Server)
+
+[**Back to:** Integration basics](/git-integration-for-jira-data-center/Integration-Basics-gij-self-managed) (Git Integration for Jira Data Center/Server)
 

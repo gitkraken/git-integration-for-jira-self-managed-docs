@@ -51,8 +51,9 @@ https://your.jira.com/rest/gitplugin/webhook/1.0/reindex/sdf34tGdfgGDG345g3y0045
     </div>
     <div class="imsgbox">
         All the repositories will be reindexed if the URL specified above is activated through <code>GET</code>, <code>POST</code>, or <code>PUT</code> and the webhooks are enabled.
-        <div class='nextpara'>
+        <div class='nextpara' style='margin-bottom:-10px;'>
             There is no support for other HTTP methods such as <code>DELETE</code> or <code>HEAD</code>.
+        </div>
     </div>
     </div>
 </div>
