@@ -7,6 +7,8 @@ taxonomy:
 
 ---
 
+<!-- GENERAL SETTINGS -->
+
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -17,24 +19,23 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
 This setting affects how the information is displayed in the **Git commits issue** and **Project** tabs on the Jira issue.
 
-<img src='/wp-content/uploads/gij-gitserver-gencfg-git-commits-issue-and-proj-tabs.png' style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitserver-gencfg-git-commits-issue-and-proj-tabs.png' style='display:block;margin:25px auto;max-width:100%;' />
 
-<br>
+**Do not display**<br>
+This tab is not displayed on the **Issue** and **Project** screens for all Jira projects.
 
-*   **Do not display**  –  This tab is not displayed on the **Issue** and **Project** screens for all Jira projects.
+**Show for all projects**<br>
+This tab will be displayed on the issue and project screens for all Jira projects.
 
-*   **Show for all projects**  –  This tab will be displayed on the issue and project screens for all Jira projects.
+**Show for selected projects**<br>
+This tab will only be displayed on the issue and project screens on selected projects. Define one or more required projects into the textbox.
 
-*   **Show for selected projects**  –  This tab will only be displayed on the issue and project screens on selected projects. Define one or more required projects into the textbox.
+&nbsp;
 
-
-* * *
-
-## Reverse commit tab sort order
+### Reverse commit tab sort order
 
 Turn this setting to `ON` to sort commits in the Git Commits tab from newest (top) to oldest (bottom). Set this to off to sort commits from oldest (top) to newest (bottom). This setting is `ON` by default. On app upgrade, it defaults to `ON`.
 
@@ -48,11 +49,10 @@ Turn this setting to `ON` to sort commits in the Git Commits tab from newest (to
     </div>
     </div>
 </div>
-<br>
 
-* * *
+&nbsp;
 
-## Commits limit
+### Commits limit
 
 _Required_. Set the maximum number of commits to display on the Jira issue Git Commits tab. The default setting is **20**.
 
@@ -66,11 +66,10 @@ _Required_. Set the maximum number of commits to display on the Jira issue Git C
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More on general settings
+### More on General settings
 
 [Repository Browser general setting](/git-integration-for-jira-data-center/repository-Browser-general-setting-gij-self-managed)
 

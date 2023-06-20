@@ -29,35 +29,39 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
-## What is revision cache size?
+&nbsp;
+
+### What is revision cache size?
 
 It displays how many commits/revisions are stored in the memory. The cache size is measured per piece where the approximate revision size is 256 bytes. For instance, there are 4000 revisions per 1 Mb. Set the revision cache size value to 4000 to allocate 1Mb of heap for the cache.
 
-<img src='/wp-content/uploads/gij-gitserver-gencfg-cache-sizes-new.png' style='display:block;margin:25px auto;max-width:100%' />
-
-<br>
+<img src='/wp-content/uploads/gij-gitserver-gencfg-cache-sizes-new.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 The above settings are the sizes of their respective memory cache. Higher values can affect the performance of the retrieved revisions from Git.
 
-## Revision cache size
+&nbsp;
+
+### Revision cache size
 
 _Required._  This is the number of revisions that will be kept as cache in memory for quick retrieval – per piece is 256 bytes. The default value for this setting is **180,000**. (approx. ~44Mb)
 
-## Branch cache size
+&nbsp;
+
+### Branch cache size
 
 _Required._  This is the number of branches that will be kept as cache in memory for quick retrieval --per piece is 500 bytes. The default value for this setting is **28,000**. (approx. ~13Mb+)
 
-## Tags cache size
+&nbsp;
+
+### Tags cache size
 
 _Required._  This is the number of tags that will be kept in cache memory for quick retrieval – per piece is 1000Kb.  The default value for this setting is **500**. (approx. ~488Mb+)
 
-<br>
-
+&nbsp;
 * * *
 
-## Where do I start on how to get the best value setting?
+### Where do I start on how to get the best value setting?
 
 Calculating for the most desirable value depends on the following factors such as how many issues are currently active; and how many commits are associated with the active issues on average. For example, if you have 100 active issues and multiply it by 10 commits per issue, you’ll get around 1000 commits. This is considered a minimal amount.
 
@@ -75,11 +79,10 @@ Calculating for the most desirable value depends on the following factors such a
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More on General settings
+### More on General settings
 
 [Git roll up issue tab](/git-integration-for-jira-data-center/git-roll-up-tab-setting-gij-self-managed)
 

@@ -31,7 +31,6 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
 <div class='embed-container embed-container--16-9'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/npe76i5nxm?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -40,9 +39,10 @@ taxonomy:
 <div style='text-align: center; margin-top: 10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/npe76i5nxm'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
 
-## Getting started
+&nbsp;
+
+### Getting started
 
 Source code is sensitive data and a great deal of effort is taken by development teams to get the permissions right. With the **Enforce Git service permissions** feature, your Git service permissions will be honored when presenting Jira users any Git data.
 
@@ -76,7 +76,8 @@ This setting provides Jira administrators the option of switching to a secure mo
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 ### What Jira users will see when Git service permissions are enabled and they have not yet provided a Personal Access Token
 
@@ -85,7 +86,8 @@ This setting provides Jira administrators the option of switching to a secure mo
 <div align=center>
     <i>When "Enforce Git service permissions" is enabled, Jira users with the "View development tools"<br> Jira permission will be prompted to provide a Personal Access Token <br>from the Jira user profile page.</i>
 </div>
-<br>
+
+&nbsp;
 
 ### Jira user profile: Entering the Personal Access Token
 
@@ -97,7 +99,7 @@ From the Jira user profile page, the Jira user will enter their Git service Pers
     <i>Connected integration are displayed in your user profile. Enter your personal access token<br> to gain access to git data (if permitted by your git service).</i>
 </div>
 
-<br>
+&nbsp;
 
 ### Jira issue view: Git service permissions are enabled and a Jira user has provided a Personal Access Token
 
@@ -107,7 +109,7 @@ From the Jira user profile page, the Jira user will enter their Git service Pers
     <i>Git commits are displayed for users who entered a PAT and has git service <br>permission to view git data.</i>
 </div>
 
-<br>
+&nbsp;
 
 ## Applied permissions
 
@@ -120,6 +122,8 @@ If the **Enforce Git service permissions** setting is enabled, a Jira user will 
 | Project sidebar | Git Commits | Git data is only shown if the user has a Git server account, GitHub for example, that has permissions to this repository. |
 | Repository browser | Repository view | Git data is only shown if the user has provided a Git service account. |
 
+&nbsp;
+
 ## Supported git platforms
 
 | Integration | Supported? | Result |
@@ -129,7 +133,7 @@ If the **Enforce Git service permissions** setting is enabled, a Jira user will 
 | Azure git repositories | Yes | **MICROSOFT AZURE DevOps/TFS/VSTS**<br>Users will only see the Azure/TFS/VSTS integration data when a PAT is provided for it. |
 | AWS git repositories | No* | <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>COMING SOON</b><br>\*Support for AWS CC on the Enforce Git service permissions feature will be added sometime later in 2022. |
 
-<br>
+&nbsp;
 
 ## General setting: Enforce Git service permissions (advanced)
 

@@ -17,11 +17,10 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
 These group of settings affect how new commits are updated; how tags are displayed on Jira issues; and give administrators control -- if commit information in JQL searches and Git activity stream is shown or not.
 
-<img src='/wp-content/uploads/gij-gitserver-gencfg-git-integration-options-417.png' style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitserver-gencfg-git-integration-options-417.png' style='display:block;margin:25px auto;max-width:100%;' />
 
 <br>
 
@@ -34,34 +33,28 @@ These group of settings affect how new commits are updated; how tags are display
 - [More on general settings](#more-on-general-settings)
 
 &nbsp;
-<hr>
+* * *
 &nbsp;
 
-## GitKraken integration
+### GitKraken integration
 
 <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 3.9+</b>
 
 On the General settings page, enable/disable the GitKraken deep linking feature for Jira issue development panel and Git Commits tab. This will allow access to the deep links at these locations which opens the respective commit, branches and repositories with GitKraken git client. For more information on this feature, see [Deep linking to the GitKraken client](/git-integration-for-jira-data-center/deep-linking-to-the-gitkraken-git-client-gij-self-managed).
 
-## GitLens integration
+&nbsp;
+
+### GitLens integration
 
 <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.15+</b>
 
 On the General settings page, enable/disable the GitLens deep linking feature for Jira issue development panel and Git Commits tab. This will allow access to the GitLens deep links at these locations which opens the respective commit, branches and repositories with GitKraken git client. For more information on this feature, see [Deep linking to the GitLens client](/git-integration-for-jira-data-center/deep-linking-into-gitlens-gij-self-managed).
 
-## Jira issue updates
+&nbsp;
+
+### Jira issue updates
 
 Enable/disable the setting to allow new commits to change the _Last Updated_ field.  Default is _**enabled**_.  For more information about this setting, see section [Reindexing – Reindex and updatedDate Filter](/git-integration-for-jira-data-center/reindexing-gij-self-managed).
-
-Disabling this setting will improve Jira performance.
-
-## Issue git integration panel
-
-**Show Git integration panel on issue pages**  –  Enable/disable this setting to have Git Integration for Jira app show/hide the _Git Integration_ section on the Jira issue developer panel.
-
-<img src='/wp-content/uploads/gij-jira-issue-dev-panel.png' style='display:block;margin:25px auto;max-width:100%' />
-
-For more information, see [Jira git integration development panel](/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed).
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -73,11 +66,23 @@ For more information, see [Jira git integration development panel](/git-integrat
     </div>
     </div>
 </div>
-<br>
 
-**Show main branch under the Branches section in Git Integration panel** -- Enable/disable this setting to show/hide the "main" branch under the Branches list on the Jira issue Git development integration panel.
+&nbsp;
 
-**Calculate and show Git tags in the Git integration panel**  –  Enable/disable the setting to have Git Integration for Jira app calculate and show the Git tags in the Git Integration panel.
+### Issue git integration panel
+
+<img src='/wp-content/uploads/gij-jira-issue-dev-panel.png' style='display:block;margin:25px auto;max-width:100%' />
+
+**Show Git integration panel on issue pages**<br>
+Enable/disable this setting to have Git Integration for Jira app show/hide the _Git Integration_ section on the Jira issue developer panel.
+
+For more information, see [Jira git integration development panel](/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed).
+
+**Show main branch under the Branches section in Git Integration panel**<br>
+Enable/disable this setting to show/hide the "main" branch under the Branches list on the Jira issue Git development integration panel.
+
+**Calculate and show Git tags in the Git integration panel**<br>
+Enable/disable the setting to have Git Integration for Jira app calculate and show the Git tags in the Git Integration panel.
 
 For more information, see [Git Tags](/git-integration-for-jira-data-center/git-tags-gij-self-managed).
 
@@ -91,9 +96,10 @@ For more information, see [Git Tags](/git-integration-for-jira-data-center/git-
     </div>
     </div>
 </div>
-<br>
 
-## JQL searching
+&nbsp;
+
+### JQL searching
 
 Enables/disables the ability to use the JQL functions within the Git Integration for Jira app.
 
@@ -111,9 +117,10 @@ For more information, see [JQL searching](/git-integration-for-jira-data-center/
     </div>
     </div>
 </div>
-<br>
 
-## Git activity stream
+&nbsp;
+
+### Git activity stream
 
 Enable/disable the setting whether to show git commits in the Jira activity stream (Issue page or dashboard widget) or not.
 
@@ -129,7 +136,6 @@ For in-place upgrade of the Git Integration for Jira app, this setting is turned
     </div>
     </div>
 </div>
-<br>
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -141,11 +147,10 @@ For in-place upgrade of the Git Integration for Jira app, this setting is turned
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More on general settings
+### More on general settings
 
 [Repository Browser general setting](/git-integration-for-jira-data-center/repository-Browser-general-setting-gij-self-managed)
 

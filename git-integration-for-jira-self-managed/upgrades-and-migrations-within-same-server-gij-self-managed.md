@@ -22,7 +22,8 @@ The following instructions are for in-place upgrades + migrations of Jira on the
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 # GitServer ➜ GitServer
 
@@ -45,6 +46,8 @@ No extra steps are required.
 ### After you migrate
 
 Verify that configured integrations and repositories in the **Manage Git repositories** screen are correct and indexed properly.
+
+&nbsp;
 
 ## Migration within the same server when Jira HOME path is changed (Classic)
 
@@ -99,6 +102,8 @@ No extra steps are required.
 
 3.  Reconnect to all integrations/repositories using new or existing credentials. Your stored SSH keys will stil be migrated automatically.
 
+&nbsp;
+
 ## Migration within the same server when Jira HOME path is changed (Recommended)
 
 <div class="bbb-callout bbb--tip">
@@ -114,7 +119,7 @@ No extra steps are required.
             <li>No extra steps after bulk import post-migration</li>
         </ul>
         <b>Cons:</b><br>
-        <ul>
+        <ul style='margin-bottom:0px;'>
             <li>You will have to change internal configuration files for the GitServer plugin. This should be done with extreme care.</li>
         </ul>
     </div>
@@ -140,6 +145,8 @@ No extra steps are required.
 ### After you migrate
 
 Use Git Integration for Jira app: [Bulk import](/git-integration-for-jira-data-center/import-existing-repositories-via-bulk-change-gij-self-managed/) to load the updated backup file with the new Jira home path. This should reconnect all existing integration repositories as it was before the backup.
+
+&nbsp;
 
 ## GitServer ➜ GitDataCenter
 

@@ -15,7 +15,7 @@ Get started with connecting your favorite git host to Jira Data Center now!
 
 ## Installation
 
-<a href='https://bigbrassband.wistia.com/medias/lr0jp6ntfd' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b style='vertical-align:top'>Installation with Jira 7 »</b></a>
+<a href='https://bigbrassband.wistia.com/medias/lr0jp6ntfd' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b style='vertical-align:top'>Installation with Jira 8/9 »</b></a>
 
 Learn quick installation steps of the Git Integration app for Jira Data Center.
 
@@ -60,6 +60,8 @@ Quick and easy! Learn about the basics of integrating git repositories to Jira 
 <a href='https://bigbrassband.wistia.com/medias/8jtnqzp79y' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b style='vertical-align:top'>GitHub.com »</b></a>
 
 <a href='https://bigbrassband.wistia.com/medias/vfwwqnn3mm' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b style='vertical-align:top'>GitHub Enterprise »</b></a>
+
+<!-- insert here when GitHub App video guide is ready and up -->
 
 <a href='https://bigbrassband.wistia.com/medias/hi45vum4yp' target='_blank'><img src='/wp-content/uploads/gij-vid-play-icon-20.png' valign=middle style='margin:0 5px 0 0' width=24 height=24 /> <b style='vertical-align:top'>GitLab.com »</b></a>
 

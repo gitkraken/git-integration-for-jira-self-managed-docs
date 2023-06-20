@@ -108,7 +108,7 @@ On your Jira dashboard Git menu, click **Indexing queue**.
 
 Click on the **Clear queue** button to clear the indexing queue.
 
-![Shows the Indexing queue viewer dashboard panel with the Clear queue button](/wp-content/uploads/gij-gitserver-indexing-queue-viewer-dashboard.png)
+<img src='/wp-content/uploads/gij-gitserver-indexing-queue-viewer-dashboard.png' alt='Shows the Indexing queue viewer dashboard panel with the Clear queue button' style='margin:25px auto;max-width:100%;display:block;' />
 
 &nbsp;
 

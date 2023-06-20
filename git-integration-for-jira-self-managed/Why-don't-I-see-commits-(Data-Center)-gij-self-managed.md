@@ -6,13 +6,11 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-![](/wp-content/uploads/gij-troubleshoot-how-do-i-see-commits-top)
+<img src='/wp-content/uploads/gij-troubleshoot-how-do-i-see-commits-top.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 <p style='text-align: center'>↓</p>
 
-### \> Check if Git Integration for Jira app is installed, licensed and active
-
-
+#### \> Check if Git Integration for Jira app is installed, licensed and active
 
 Follow the [link](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=server&tab=overview) to install from the Atlassian Marketplace. You can verify that the Git Integration for Jira Data Center app is installed by visiting:
 
@@ -26,7 +24,7 @@ Verify that the license is valid and that the application is active (installed, 
 
 <p style='text-align: center'>↓</p>
 
-**\> Is Integration/repository enabled?** (JIRA ADMIN)
+#### \> Is Integration/repository enabled? (JIRA ADMIN)
 
 Repo or integration level:
 
@@ -42,7 +40,7 @@ Repo within integration:
 
 <p style='text-align: center'>↓</p>
 
-**\> Is the Git commits issue tab enabled by the Jira administrator in General Settings?** (JIRA ADMIN)
+#### \> Is the Git commits issue tab enabled by the Jira administrator in General Settings? (JIRA ADMIN)
 
 ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/2041937935/jira-server-dc-general-settings-whycommits(c).png?version=1&modificationDate=1640251773360&cacheVersion=1&api=v2&width=800&height=483)
 

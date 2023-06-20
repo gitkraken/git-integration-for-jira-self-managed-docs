@@ -15,7 +15,7 @@ taxonomy:
     <div class="imsgbox">
         Pull request webhooks are now supported. See <a href='#pull-request-webhooks'>details</a> on this page.
         <p>Supported webhook events:</p>
-        <ul>
+        <ul style='margin-bottom:0px;'>
             <li><i>Repository</i> - Push</li>
             <li><i>Pull request</i> - Created</li>
             <li><i>Pull request</i> - Updated</li>
@@ -23,8 +23,6 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
-<br>
 
 <div class='embed-container' style='padding-bottom:56.25%'>
     <iframe width='709' height='399' src='https://fast.wistia.com/embed/iframe/s26h3avwuo?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -34,7 +32,8 @@ taxonomy:
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/v2c5qrgps8'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i><br>
     <i>(While the above video showcases other integration, jump to 01:41 to see Webhook setup for Bitbucket Cloud.)</i>
 </div>
-<br>
+
+&nbsp;
 
 <div class="bbb-callout bbb--error">
     <div class="irow">
@@ -46,7 +45,6 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
 1.  Configure webhook by logging in to your Bitbucket:
 
@@ -89,6 +87,7 @@ taxonomy:
 
 10.  Click **Save** to complete this setup.
 
+&nbsp;
 
 ### Pull Request Webhooks
 
@@ -98,9 +97,9 @@ For pull request triggers, you will need to have three (3) separate service hook
 
 ![](/wp-content/uploads/gij-webhooks-bitbucket-sample.png)
 
-<br>
+&nbsp;
 
-## More related articles about webhooks setup
+### More related articles about webhooks setup
 
 [Creating reindex triggers for a single repository](/git-integration-for-jira-data-center/Creating-reindex-triggers-for-a-single-repository-gij-self-managed)
 

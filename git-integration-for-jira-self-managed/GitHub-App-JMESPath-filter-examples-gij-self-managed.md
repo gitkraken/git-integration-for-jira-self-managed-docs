@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-![](/wp-content/uploads/github-mobile-dark.png)
+![](/wp-content/uploads/gij-github-mobile-logo-dark.png)
 
 &nbsp;
 
@@ -64,8 +64,6 @@ So if the user selects the **All repositories** scope, it would be more convenie
 
 &nbsp;
 
-## Examples of JMESPath expressions for GitHub App
-
 GitHub Apps have different JMESPath format in comparison with previous GitHub integrations:
 
 *   it must start with `repositories[] |` and then,
@@ -121,7 +119,7 @@ Lists repositories with the exact specified name.
 * * *
 &nbsp;
 
-## More articles on JMESPath filter examples
+### More articles on JMESPath filter examples
 
 [GitHub.com \| GitHub Enterprise JMESPath filter examples](/git-integration-for-jira-data-center/GitHub-GitHub-Enterprise-JMESPath-filter-examples-gij-self-managed)
 
