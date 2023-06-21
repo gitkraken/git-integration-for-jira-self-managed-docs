@@ -17,23 +17,23 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
 This setting affects how the information is displayed in the **Git roll up** tab on the Jira issue.
 
-<img src='/wp-content/uploads/gij-gitserver-gencfg-git-rollup-issue-tab.png' style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitserver-gencfg-git-rollup-issue-tab.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-<br>
+**Do not display**<br>
+This tab is not displayed on the **Issue** screen for all Jira projects.
 
-**Do not display**  –  This tab is not displayed on the **Issue** screen for all Jira projects.
+**Show for all projects**<br>
+This tab will be displayed on the issue screen for all Jira projects.
 
-**Show for all projects**  –  This tab will be displayed on the issue screen for all Jira projects.
+**Show for selected Jira projects**<br>
+This tab will only be displayed on selected projects.  Define one or more required projects into the textbox.
 
-**Show for selected Jira projects**  –  This tab will only be displayed on selected projects.  Define one or more required projects into the textbox.
+&nbsp;
 
-<p>&nbsp;</p>
-
-## More on general settings
+### More on general settings
 
 [Repository Browser general setting](/git-integration-for-jira-data-center/repository-Browser-general-setting-gij-self-managed)
 

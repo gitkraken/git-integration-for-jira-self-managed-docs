@@ -28,7 +28,6 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
 These settings affect which audit logs are displayed on the Jira system administration audit log page.
 
@@ -51,7 +50,6 @@ With auditing feature, key activities are tracked on the Jira instance. This pro
     </div>
     </div>
 </div>
-<br>
 
 The audit log functionality is also extended to Jira Data Center instances as it will have more coverage areas, various event volume levels and an option to integrate the audit log file with external tools.
 
@@ -68,19 +66,24 @@ For more information on the audit log and it’s new functions, see [**this arti
     </div>
     </div>
 </div>
-<br>
 
-## Enable audit logging
+&nbsp;
+
+### Enable audit logging
 
 This setting enables/disables audit logging for the Git Integration for Jira app. This setting is set to ON for new app installations and is set to OFF on app upgrades by default.
 
-## Audit log events
+&nbsp;
+
+### Audit log events
+
+<img src='/wp-content/uploads/gij-jira-server-gencfg-audit-log-advanced.png' width=272 height=528 style='display:block;margin:25px auto;max-width:100%;' />
 
 Click **Advanced** to expand the audit log events. Enable/disable event items to turn tracking ON/OFF for specific events.
 
-<img src='/wp-content/uploads/gij-jira-server-gencfg-audit-log-advanced.png' width=272 height=528 style='display:block;margin:25px auto;max-width:100%' />
+&nbsp;
 
-## View Jira audit log
+### View Jira audit log
 
 Click this label link to take you to the Jira administrator system Audit log page. Alternatively, go to Jira administration ➜ System ➜ **Audit log**.
 
@@ -90,9 +93,9 @@ Below is an example of the logs audited of the selected events from the **Audit 
 
 ![](/wp-content/uploads/gij-jira-audit-log-example.png)
 
-<br>
+&nbsp;
 
-## More on general settings
+### More on general settings
 
 [Git roll up issue tab](/git-integration-for-jira-data-center/git-roll-up-tab-setting-gij-self-managed)
 

@@ -26,21 +26,21 @@ The webhook is a POST request with the following JSON body:
 }
 ```
 
-<br>
+<br><br>
 
 **For example:**
 
 ![](/wp-content/uploads/gij-webhook-reindex-post-api-json.png)
 
-<br>
+<br><br>
 
 **Result:**
 
 The repository is placed in the indexing queue via the git repositories configuration page (_Jira dashboard menu Git ➜ **Manage repositories**_).
 
-<br>
+&nbsp;
 
-## More related articles about webhooks setup
+### More related articles about webhooks setup
 
 **Creating reindex triggers for a single repository** (this page)
 

@@ -7,6 +7,8 @@ taxonomy:
 
 ---
 
+<!-- GENERAL SETTINGS -->
+
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -17,13 +19,10 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
 This setting allows administrators to configure duration of jobs and the GC checkers.
 
-<img src='/wp-content/uploads/gij-gitserver-gencfg-scheduler-jobs.png' style='display:block;margin:25px auto;max-width:100%' />
-
-<br>
+<img src='/wp-content/uploads/gij-gitserver-gencfg-scheduler-jobs.png' style='display:block;margin:25px auto;max-width:100%;' />
 
 Scheduling jobs gives administrators control over when jobs run. These jobs can be scheduled in two ways:
 
@@ -43,13 +42,14 @@ Scheduling jobs gives administrators control over when jobs run. These jobs can
             <li><code>com.bigbrassband.jira.git.jiraservices.jobs.GarbageCollectionJob</code></li>
             <li><code>com.bigbrassband.jira.git.jiraservices.jobs.RevisionIndexJob</code></li>
         </ul>
-        Expand them to observe schedule, duration, last run, duration, and next run.
+        <p style='margin-bottom:-10px;'>Expand them to observe schedule, duration, last run, duration, and next run.</p>
     </div>
     </div>
 </div>
-<br>
 
-## Scheduled Jobs
+&nbsp;
+
+### Scheduled Jobs
 
 <div class="bbb-callout bbb--note">
     <div class="irow">
@@ -62,25 +62,26 @@ Scheduling jobs gives administrators control over when jobs run. These jobs can
     </div>
     </div>
 </div>
-<br>
 
-### Repository reindexing
+&nbsp;
+
+#### Repository reindexing
 
 **Reindex interval**  –  Set the automatic reindex interval frequency value in minutes as required. Default value is _**5 minutes**_.
 
 Configuration of the scheduler jobs are no longer accessible in the Jira administration page. For this case, the Git for Jira app offers Jira administrators this capability via the **General** screen. Minimum value is **1**. Maximum value is **76,861,433,640,456**. Only whole numbers are allowed.
 
-### Garbage collection and revision validation checkers
+&nbsp;
+
+#### Garbage collection and revision validation checkers
 
 **Job interval**  –  Set the number of minutes that will elapse before a repository is checked to see if it should be garbage collected.  The default value is _**1440 minutes**_.
 
 For detailed information, see introductory article on [Scheduling Jobs](/git-integration-for-jira-data-center/scheduling-jobs-gij-self-managed).
 
-<br>
+&nbsp;
 
-<p>&nbsp;</p>
-
-## More on general settings
+### More on general settings
 
 [Repository Browser general setting](/git-integration-for-jira-data-center/repository-Browser-general-setting-gij-self-managed)
 

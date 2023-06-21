@@ -9,7 +9,7 @@ taxonomy:
 
 <!-- how to -->
 
-## Proxy settings for Jira
+### Proxy settings for Jira
 
 *   The client should specify **both** `http.proxyXXXX` and `https.proxyXXXX` parameters for Jira.
 
@@ -19,9 +19,9 @@ taxonomy:
 
     `jdk.http.auth.proxying.disabledSchemes=""`
 
-<br>
+&nbsp;
 
-## How to check if your connection uses a proxy
+### How to check if your connection uses a proxy
 
 If you are unsure whether the connection goes through a proxy or directly you may use the following trick. Add the following rows in the /etc/hosts file to fool the direct routing:
 
@@ -35,11 +35,9 @@ etc
 
 If your connection uses a proxy, you will be able to connect to the chosen integration because all connections will be executed on the remote proxy server. Otherwise, all connections will be executed on your local machine where integration hosts will have incorrect host resolving issue.
 
-<br>
+&nbsp;
 
-<p>&nbsp;</p>
-
-## More How-to articles
+### More How-to articles
 
 [How to get a quote?](/git-integration-for-jira-data-center/how-to-get-a-quote-gij-self-managed/)
 

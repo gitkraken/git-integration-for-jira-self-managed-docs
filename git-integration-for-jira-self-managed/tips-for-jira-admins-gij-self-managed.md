@@ -45,6 +45,8 @@ When adding a new repository, users might be able to encounter an indexing issue
 
 We also suggest [the following article](http://blogs.atlassian.com/2014/05/handle-big-repositories-git/) which covers problems of large repositories and possible solutions for them. Look for the topic, **Handling Repositories with Huge Binary Assets**.
 
+&nbsp;
+
 ## Timeout Strategies
 
 This strategy will aid in the initial cloning of large repositories and repositories that have large files via Git Integration for Jira app.
@@ -54,6 +56,8 @@ This strategy will aid in the initial cloning of large repositories and reposito
 3.  After the repository is cloned, roll back the timeout setting to the default value so that fetching updates are performed quicker.
 
 For detailed information on this topic, see [Git Admins - Increase Timeout Threshold](/git-integration-for-jira-data-center/increasing-timeout-threshold-for-large-repositories-while-doing-a-git-pull-gij-self-managed).
+
+&nbsp;
 
 ## Bulk Change
 
@@ -82,6 +86,8 @@ When saving the file to a tab-delimited (.tsv) format:
 *   Excel users – save the file as Text (Tab delimited) (*.txt). Rename the file's .txt extension to .tsv.
 *   Google Drive – upload the file to this service. Right click the .tsv file then open it with Google Sheets. Make the necessary changes then go to File ➜ Download as ➜ Tab separated values (.tsv) to your local machine.
 
+&nbsp;
+
 ## Webhooks
 
 With Git Integration for Jira app, setting up webhooks on your remote git host offers almost instantaneous reindexing of git repositories. For example, if you made a change in a file from the git repository and then commit it, the Git Integration for Jira app can fetch it immediately and updates the changes into Jira. Administrators can enable/disable this feature via Jira Administration ➜ Add-ons/Applications ➜ Git Integration for Jira ➜ Webhooks.
@@ -102,9 +108,10 @@ The secret key is provided at the time of the Git Integration for Jira app insta
     </div>
     </div>
 </div>
-<br>
 
 For detailed information, usage and examples, see [Hook and API Reference - Webhooks](/git-integration-for-jira-data-center/webhooks-gij-self-managed).
+
+&nbsp;
 
 ## REST APIs
 
@@ -174,6 +181,8 @@ This API returns several latest tags for the Jira issue. The tags are sorted in 
 
 For detailed information, usage and examples, see [Hook and API Reference - Tags REST API](/git-integration-for-jira-data-center/tags-api-gij-self-managed).
 
+&nbsp;
+
 ## Tracked Folders (Jira Server/Data Center only)
 
 On the git repositories configuration page, click the Connect to Git Repository dropdown then select Add tracked folder.
@@ -192,7 +201,6 @@ This feature scans a locally accessible path for cloned Git repositories and aut
     </div>
     </div>
 </div>
-<br>
 
 The Add tracked folder wizard automatically adds the detected repositories to Jira. You can add multiple tracked folders in case your repositories are spread among multiple locations.
 

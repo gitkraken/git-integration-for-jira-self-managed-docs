@@ -9,7 +9,7 @@ taxonomy:
 
 Upgrading from Jira 8 to Jira 9 provides new features, performance and stability. However, there are some small things that need to be considered for the transition.
 
-## Resetting indexes
+### Resetting indexes
 
 After upgrading from Jira 8 to Jira 9, administrators must re-create all indexes using the Reset index action command for all repositories or integrations.
 
@@ -26,9 +26,10 @@ After upgrading from Jira 8 to Jira 9, administrators must re-create all indexes
     </div>
     </div>
 </div>
-<br>
 
-## Commit tab sort order
+&nbsp;
+
+### Commit tab sort order
 
 In Jira 9.x, comments are now sorted from newest to oldest by default. If the Git Integration for Jira _**Reverse commit tab sort order**_ General setting is **enabled**, this results in git commits sorted from oldest to newest. This behavior is technically correct because it corresponds to the settings. However, the sort order where you get used to after the upgrade becomes reversed.
 
@@ -41,7 +42,9 @@ This is because:
 
 We recommend that after migration from Jira 8 to Jira 9, administrators should turn off the "**Reverse commit tab sort order**" option in General settings. If this is a new Jira 9 installation then nothing is required.
 
-## Other Jira 9 migration preparations
+&nbsp;
+
+### Other Jira 9 migration preparations
 
 See more information on preparing for Jira 9 migration at [Atlassian Jira 9 transition](https://confluence.atlassian.com/jiracore/preparing-for-jira-9-0-1115661092.html).
 

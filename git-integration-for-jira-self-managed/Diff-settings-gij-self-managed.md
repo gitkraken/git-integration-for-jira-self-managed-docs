@@ -29,17 +29,16 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
-![](/wp-content/uploads/gij-gitserver-gencfg-adv-diff-count-encoding.png)
+<img src='/wp-content/uploads/gij-gitserver-gencfg-adv-diff-count-encoding.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-<br>
+&nbsp;
 
-## Max diff line count
+### Max diff line count
 
 Set the maximum size of diffs that is allowed to be displayed in the diff dialog. Setting this option to a higher value will affect diff display performance.
 
-## File encoding
+### File encoding
 
 While the Git for Jira app uses default Jira System Encoding (utf-8) to deliver source files and diffs of repository, this setting is for those who have several repositories with source files encoded under different encodings.
 
@@ -53,11 +52,10 @@ While the Git for Jira app uses default Jira System Encoding (utf-8) to deliver 
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More on general settings
+### More on general settings
 
 [Repository Browser general setting](/git-integration-for-jira-data-center/repository-Browser-general-setting-gij-self-managed)
 

@@ -40,10 +40,10 @@ By default - integrations (GitLab, GitHub, etc) and individual repositories have
     </div>
     </div>
 </div>
-<br>
-<br>
 
-## Instructions for integrations (GitLab, GitHub, etc)
+&nbsp;
+
+### Instructions for integrations (GitLab, GitHub, etc)
 
 To enable/disable the _Source Code Diff Viewing_ setting for all repositories within an integration:
 
@@ -57,8 +57,9 @@ To enable/disable the _Source Code Diff Viewing_ setting for all repositories
 
 5.  Click **Update**.
 
+&nbsp;
 
-### Example: Disabling _Source Code Diff Viewing_ for an existing GitLab integration
+#### Example: Disabling _Source Code Diff Viewing_ for an existing GitLab integration
 
 <div class='embed-container' style='padding-bottom:75.21%'>
     <iframe width='709' height='533' src='https://fast.wistia.com/embed/iframe/qgatwyyv2m?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -67,9 +68,10 @@ To enable/disable the _Source Code Diff Viewing_ setting for all repositories
 <div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/qgatwyyv2m'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
 
-### Example: Disabling _Source Code Diff Viewing_ at the repository level for an existing GitLab integration
+&nbsp;
+
+#### Example: Disabling _Source Code Diff Viewing_ at the repository level for an existing GitLab integration
 
 <div class='embed-container' style='padding-bottom:75.21%'>
     <iframe width='709' height='533' src='https://fast.wistia.com/embed/iframe/4vpnakdzpf?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -78,9 +80,10 @@ To enable/disable the _Source Code Diff Viewing_ setting for all repositories
 <div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/4vpnakdzpf'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
 
-## Instructions for individual repositories
+&nbsp;
+
+### Instructions for individual repositories
 
 To enable/disable the Repository Browser for individual repositories:
 
@@ -94,9 +97,9 @@ To enable/disable the Repository Browser for individual repositories:
 
 5.  Click **Update**.
 
-<br>
+&nbsp;
 
-### Example: Disabling _Source Code Diff Viewing_ for a repository
+#### Example: Disabling _Source Code Diff Viewing_ for a repository
 
 <div class='embed-container' style='padding-bottom:75.21%'>
     <iframe width='709' height='533' src='https://fast.wistia.com/embed/iframe/mtwnmihirc?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -105,11 +108,10 @@ To enable/disable the Repository Browser for individual repositories:
 <div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/mtwnmihirc'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More How-to articles
+### More How-to articles
 
 [How to get a quote?](/git-integration-for-jira-data-center/how-to-get-a-quote-gij-self-managed/)
 

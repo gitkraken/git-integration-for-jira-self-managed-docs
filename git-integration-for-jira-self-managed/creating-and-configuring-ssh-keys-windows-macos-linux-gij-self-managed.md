@@ -7,6 +7,8 @@ taxonomy:
 
 ---
 
+<!-- how tos -->
+
 **What's on this page:**
 - [Introduction](#introduction)
 - [Acquire SSH Git Repository URL](#acquire-ssh-git-repository-url)
@@ -22,7 +24,7 @@ taxonomy:
 * * *
 &nbsp;
 
-## Introduction
+### Introduction
 
 The Git Integration for Jira app supports SSH git repository connections via Connect Wizard or Git on the Add new integration panel.
 
@@ -38,7 +40,7 @@ As a summary, you need to perform the following tasks in order to successfully i
 
 &nbsp;
 
-## Acquire SSH Git Repository URL
+### Acquire SSH Git Repository URL
 
 <img src='/wp-content/uploads/gij-gitserver-gitlab-example-acquire-ssh-home-repo.png' style='display:block;margin:25px auto;max-width:100%' />
 
@@ -46,7 +48,7 @@ Get the git clone SSH URL from the repository home of the git host that will be 
 
 &nbsp;
 
-## Generate SSH key pair (public and private key)
+### Generate SSH key pair (public and private key)
 
 Do note that when generating the key pair for use with Git Integration for Jira app, the following checklist must be considered:
 
@@ -80,7 +82,7 @@ ssh-keygen -t rsa -b 4096 -m pem -C "your_email@example.com"
 </div>
 <br>
 
-<img src='/wp-content/uploads/gij-example-linux-terminal-ssh-generate-pair.png' style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-example-linux-terminal-ssh-generate-pair.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 <br>
 
@@ -112,7 +114,7 @@ ssh-keygen -t rsa -b 4096 -m pem -C "your_email@example.com"
 
 For Windows, we recommend to use <a href='https://www.putty.org/' target='_blank'>PuTTY</a> and use PuTTYgen to generate key pair for your SSH git repository connection.
 
-<img src='/wp-content/uploads/gij-puttygen-key-dlg.png' style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-puttygen-key-dlg.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 1.  Launch **PuTTYgen** and refer to the above image for the rest of the steps on this section.
 
@@ -143,7 +145,7 @@ For Windows, we recommend to use <a href='https://www.putty.org/' target='_blank
 
 &nbsp;
 
-## Add the public key to your git host.
+### Add the public key to your git host
 
 1.  Login to your git host and go the SSH configuration page (for example, Profile ➜ **Settings** in GitLab or GitHub).
 
@@ -153,7 +155,7 @@ For Windows, we recommend to use <a href='https://www.putty.org/' target='_blank
 
 &nbsp;
 
-## Add the private key via Git Integration in Jira app.
+### Add the private key via Git Integration in Jira app
 
 For the private key, PuTTY creates it in its own ".ppk" format. To convert it to ".pem" format:
 
@@ -165,7 +167,7 @@ Add/upload this file to Git Integration for Jira app ➜ SSH keys or when prompt
 
 &nbsp;
 
-## Video Guide
+### Video Guide
 
 Watch the video below to learn more details of the steps outlined above. As a bonus, the video also shows how to connect SSH git repositories to Jira and viewing commits and code diff in Jira issues.
 
@@ -178,9 +180,8 @@ Watch the video below to learn more details of the steps outlined above. As a bo
 </div>
 
 &nbsp;
-&nbsp;
 
-## More How-to articles
+### More How-to articles
 
 [How to get a quote?](/git-integration-for-jira-data-center/how-to-get-a-quote-gij-self-managed/)
 

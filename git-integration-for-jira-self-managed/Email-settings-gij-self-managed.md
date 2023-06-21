@@ -17,15 +17,14 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
 The settings in this group controls email notifications and recipient filters.
 
-<img src='/wp-content/uploads/gij-gitserver-gencfg-email-settings.png' style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitserver-gencfg-email-settings.png' style='display:block;margin:25px auto;max-width:100%;' />
 
-<br>
+&nbsp;
 
-## Send commit notification emails
+### Send commit notification emails
 
 Enable/disable the setting to allow sending of email notifications when a commit is made. This setting defaults to OFF for our app upgrades and ON for new installations of the Git Integration for Jira app. This setting also enables/disables email notifications related to smart commits.
 
@@ -56,11 +55,10 @@ For more information, see [**Commit Email Notifications**](/git-integration-for
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More on general settings
+### More on general settings
 
 [Repository Browser general setting](/git-integration-for-jira-data-center/repository-Browser-general-setting-gij-self-managed)
 

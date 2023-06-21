@@ -46,7 +46,7 @@ Select any option with the _discard_ label to enable editing of the file mask 
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Whenever the setting is changed, BigBrassBand recommends to perform a manual re-clone of the repositories to ensure an error-free operation.
+        Whenever the setting is changed, we recommend to perform a manual re-clone of the repositories to ensure an error-free operation.
     </div>
     </div>
 </div>

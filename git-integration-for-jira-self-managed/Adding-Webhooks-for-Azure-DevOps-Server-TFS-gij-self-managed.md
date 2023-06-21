@@ -15,7 +15,7 @@ taxonomy:
     <div class="imsgbox">
         Pull request webhooks are now supported. See <a href='#pull-request-webhooks'>details</a> on this page.
         <div class='nextpara'>Supported webhook events:</div>
-        <ul>
+        <ul style='margin-bottom:0px;'>
             <li>Code pushed</li>
             <li>Pull request created</li>
             <li>Pull request updated</li>
@@ -24,7 +24,6 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
 <div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/61wl72vp91?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -33,7 +32,8 @@ taxonomy:
 <div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/61wl72vp91'><b>here</b></a> and view this video in a new browser tab. (While the above video showcases VSTS/Azure DevOps, the entire process is entirely the same for Azure Repos webhooks setup.)</i>
 </div>
-<br>
+
+&nbsp;
 
 <div class="bbb-callout bbb--error">
     <div class="irow">
@@ -45,7 +45,6 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
 1.  Configure webhook by logging in to your Azure DevOps Server/TFS account:
 
@@ -85,7 +84,7 @@ taxonomy:
 
 11. Click **Finish** to complete this setup.
 
-
+&nbsp;
 
 ### Pull Request Webhooks
 
@@ -95,9 +94,9 @@ You will need to have three (3) separate service hooks configuration for it to w
 
 ![](/wp-content/uploads/gij-azure-devops-server-2019-req-service-hooks.png)
 
-<br>
+&nbsp;
 
-## More related articles about webhooks setup
+### More related articles about webhooks setup
 
 [Creating reindex triggers for a single repository](/git-integration-for-jira-data-center/Creating-reindex-triggers-for-a-single-repository-gij-self-managed)
 

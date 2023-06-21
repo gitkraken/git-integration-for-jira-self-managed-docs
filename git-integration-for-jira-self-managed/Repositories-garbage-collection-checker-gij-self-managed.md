@@ -7,6 +7,8 @@ taxonomy:
 
 ---
 
+<!-- GENERAL SETTINGS -->
+
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -29,11 +31,8 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
-<img src='wp-content/uploads/gij-gitserver-gencfg-adv-repo-gcc.png' style='display:block;margin:25px auto;max-width:100%' />
-
-<br>
+<img src='/wp-content/uploads/gij-gitserver-gencfg-adv-repo-gcc.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 These group of settings control Git repositories garbage collection. Garbage collection process will prune all loose objects, pack loose references and repack all reachable objects into new pack files and remove the old ones.
 
@@ -47,21 +46,24 @@ These group of settings control Git repositories garbage collection. Garbage co
     </div>
     </div>
 </div>
-<br>
 
 This is a block of parameters that determine when the garbage collection task is triggered for the clones of your repositories. The garbage collection task is invoked whenever the number of loose objects or packed files exceeds the set limit.
 
-## Max loose objects count
+&nbsp;
+
+### Max loose objects count
 
 Set the maximum number of loose objects that will be checked before the garbage collection task is triggered. The garbage collection is activated if the number of loose objects exceeds this setting. Loose objects are individual items that are not compressed into a Git pack file. The recommended default value is _**2000**_.
 
-## Max packed files count
+&nbsp;
+
+### Max packed files count
 
 Set the maximum number of packed files that will be checked before the garbage collection is triggered. If the number of packed files count exceeds this setting, the garbage collection is activated. The recommended default value is _**30**_.
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More on general settings
+### More on general settings
 
 [Repository Browser general setting](/git-integration-for-jira-data-center/repository-Browser-general-setting-gij-self-managed)
 

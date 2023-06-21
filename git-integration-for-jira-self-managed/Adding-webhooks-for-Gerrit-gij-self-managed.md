@@ -8,13 +8,15 @@ taxonomy:
 ---
 <img src='/wp-content/uploads/gij-gerrit-webhook-banner.png' width=510 height=117 style='display:block;margin:25px auto;max-width:!00%' />
 
-<br>
+&nbsp;
 
-## Introduction
+### Introduction
 
 Webhooks are not configured by default in Gerrit. They are not built into Gerrit just like they are in GitHub, GitLab and etc. Thus, when calling Gerrit webhooks, these won't trigger the reindex of the integration / repositories.
 
-## Installation
+&nbsp;
+
+### Installation
 
 To use webhooks with Gerrit, it needs to be configured.
 
@@ -47,9 +49,9 @@ Where `webhook.json`:
 }
 ```
 
-<br>
+&nbsp;
 
-## Manually Trigger Webhooks
+### Manually Trigger Webhooks
 
 Create a webhook that can be triggered for any **individual** repository. It can be used with continuous integration service
 
@@ -86,9 +88,9 @@ curl -H 'x-bbb-webhook-type: push' -H 'x-bbb-webhook-id: id-string' -H 'content-
 }
 ```
 
-<br>
+&nbsp;
 
-## More related articles about webhooks setup
+### More related articles about webhooks setup
 
 [Creating reindex triggers for a single repository](/git-integration-for-jira-data-center/Creating-reindex-triggers-for-a-single-repository-gij-self-managed)
 
