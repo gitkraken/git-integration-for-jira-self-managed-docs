@@ -17,13 +17,11 @@ Use the FAQ below to find answers to common questions. Feel free to contact our
 - [What are developer licenses?](#what-are-developer-licenses)
 - [How to associate a commit, branch or pull request AFTER it has been created?](#how-to-associate-a-commit-branch-or-pull-request-after-it-has-been-created)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
-## How do Git commits get associated with a Jira issue?
+#### How do Git commits get associated with a Jira issue?
 
 On every Git commit, make sure the message includes the exact issue ID at the beginning of the text. Git Integration for Jira app will automatically index new commits and associate the referenced issue.
 
@@ -45,7 +43,7 @@ To create a link between your Git commit and a Jira issue, developers must inclu
 
 If you want to enforce the commit with a hook, please install this [**Git commit hook script »**](/git-integration-for-jira-data-center/commit-msg-hook-gij-self-managed).
 
-## How do I ensure people are following our organization's process for source code?
+#### How do I ensure people are following our organization's process for source code?
 
 Open the project summary in your browser and click on the **"Git Commits"** tab.
 
@@ -53,7 +51,7 @@ From **"Select Version"** drop-down, make sure that **"All versions"** is select
 
 All changes that developers have submitted will be listed in reverse chronologically order. From this view, you can audit all of the changes that developers have recently submitted.
 
-## What will happen to Jira issue associations with commits if the Jira issue is moved to a new project?
+#### What will happen to Jira issue associations with commits if the Jira issue is moved to a new project?
 
 The commit retains the association even in the new project. The Git Integration for Jira app supports history tracking. Thus, when moving a ticket to a new project whose issue key has changed, the association will still work.
 
@@ -79,9 +77,8 @@ The steps below provides an outline that you can follow to verify that the issue
     </div>
     </div>
 </div>
-<br>
 
-## What are developer licenses?
+#### What are developer licenses?
 
 Developer licenses are available to existing commercial and academic service license holders who wish to deploy testing and development installations of the Atlassian software. It is provided free of charge and the license maintenance expiration date is the same as your commercial/academic product. This is not available for cloud or server Starter products.
 
@@ -91,7 +88,7 @@ Only the technical contact can generate a developer key from your commercial/aca
 
 For more information, see [**What are developer licenses and how are they used?**](https://www.atlassian.com/licensing/purchase-licensing#licensing-10) and [**Getting a Developer License**](https://confluence.atlassian.com/jirakb/get-a-developer-license-for-jira-server-744526918.html).
 
-## How to associate a commit, branch or pull request AFTER it has been created?
+#### How to associate a commit, branch or pull request AFTER it has been created?
 
 **For commits:** – these can be associated either via [manual association feature](/git-integration-for-jira-data-center/manually-link-git-commits-to-jira-issues-gij-self-managed) of the Git Integration for Jira app or via _**Git Notes**_.
 

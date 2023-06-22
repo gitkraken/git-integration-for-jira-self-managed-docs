@@ -16,19 +16,17 @@ Use the FAQ below to find answers to common questions.  Feel free to contact ou
 - [In the temp location, I see several jar files with different versions updated at the same time. What would be the procedure for cleaning them up?](#in-the-temp-location-i-see-several-jar-files-with-different-versions-updated-at-the-same-time-what-would-be-the-procedure-for-cleaning-them-up)
 - [When removing the Git Integration for Jira app indexing service, there are 2 services listed: "GitRevisionIndexerJob" AND "Git Revision Indexing Service". Which should I delete?](#when-removing-the-git-integration-for-jira-app-indexing-service-there-are-2-services-listed-gitrevisionindexerjob-and-git-revision-indexing-service-which-should-i-delete)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
-## How do I reinstall the plugin?
+#### How do I reinstall the plugin?
 
 1.  Do a full uninstall of the plugin as detailed in [**here**](#how-do-i-uninstall-the-git-integration-for-jira-app-and-delete-its-data).
 
 2.  Install the Git Integration for Jira app as outlined in [**here**](/git-integration-for-jira-data-center/Installation-gij-self-managed).
 
-## How do I uninstall the Git Integration for Jira app and delete its data?
+#### How do I uninstall the Git Integration for Jira app and delete its data?
 
 The following steps will remove the Git Integration for Jira app and delete its data from Jira:
 
@@ -66,7 +64,7 @@ The following steps will remove the Git Integration for Jira app and delete its 
 
     `DROP TABLE table_name`.
 
-## In the temp location, I see several jar files with different versions updated at the same time. What would be the procedure for cleaning them up?
+#### In the temp location, I see several jar files with different versions updated at the same time. What would be the procedure for cleaning them up?
 
 Make sure that the UPM add-on installed in your Jira instance is the latest version.
 
@@ -93,7 +91,7 @@ The goal here is to end up with only one copy of the `jira_git_plugin jar` file 
 
 4.  Run Jira.
 
-## When removing the Git Integration for Jira app indexing service, there are 2 services listed: "GitRevisionIndexerJob" AND "Git Revision Indexing Service". Which should I delete?
+#### When removing the Git Integration for Jira app indexing service, there are 2 services listed: "GitRevisionIndexerJob" AND "Git Revision Indexing Service". Which should I delete?
 
 **GitRevisionIndexerJob** is the correct one. Keep that job.
 

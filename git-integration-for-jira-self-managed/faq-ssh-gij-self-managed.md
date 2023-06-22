@@ -9,29 +9,27 @@ taxonomy:
 
 This page contains related questions on Git Integration for Jira app SSH connections in Jira.
 
-Use the FAQ below to find answers to common questions. Feel free to contact our support team ([gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com?subject=Help%20on%20SSH%20issues%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you don't see what you're looking for.
+Use the FAQ below to find answers to common questions. Feel free to contact our support team ([gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com?subject=Help%20on%20SSH%20issues%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support) if you don't see what you're looking for.
 
 - [Creating and configuring SSH keys (Windows/MacOS/Linux)](#creating-and-configuring-ssh-keys-windowsmacoslinux)
-  - [1\. Acquire SSH Git Repository URL](#1-acquire-ssh-git-repository-url)
-  - [2\. Generate SSH key pair (public and private key)](#2-generate-ssh-key-pair-public-and-private-key)
-    - [Linux/MacOs](#linuxmacos)
-    - [Windows](#windows)
-  - [3\. Add the public key to your git host.](#3-add-the-public-key-to-your-git-host)
-  - [4\. Add the private key via Git Integration in Jira app.](#4-add-the-private-key-via-git-integration-in-jira-app)
-  - [Video Guide](#video-guide)
+    - [1\. Acquire SSH Git Repository URL](#1-acquire-ssh-git-repository-url)
+    - [2\. Generate SSH key pair (public and private key)](#2-generate-ssh-key-pair-public-and-private-key)
+        - [Linux/MacOs](#linuxmacos)
+        - [Windows](#windows)
+    - [3\. Add the public key to your git host.](#3-add-the-public-key-to-your-git-host)
+    - [4\. Add the private key via Git Integration in Jira app.](#4-add-the-private-key-via-git-integration-in-jira-app)
+    - [Video Guide](#video-guide)
 - [Are passphrases supported on SSH keys?](#are-passphrases-supported-on-ssh-keys)
 - [Does this app support authenticating to git repositories via SSH?](#does-this-app-support-authenticating-to-git-repositories-via-ssh)
 - [How do you configure the SSH key used when adding a new project?](#how-do-you-configure-the-ssh-key-used-when-adding-a-new-project)
 - [Why do I need to provide a PRIVATE KEY to the Git Integration for Jira app instead of a PUBLIC KEY?](#why-do-i-need-to-provide-a-private-key-to-the-git-integration-for-jira-app-instead-of-a-public-key)
 - [How do I configure/connect an SSH remote git repository to Jira?](#how-do-i-configureconnect-an-ssh-remote-git-repository-to-jira)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
-## Creating and configuring SSH keys (Windows/MacOS/Linux)
+### Creating and configuring SSH keys (Windows/MacOS/Linux)
 
 The Git Integration for Jira app supports SSH git repository connections via **Connect Wizard** or **Git** on the Add new integration panel.
 
@@ -45,15 +43,13 @@ As a summary, you need to perform the following tasks in order to successfully i
 
 *   Add the private key by connecting your SSH git repositories via Git Integration for Jira app.
 
-<br>
-
-### 1\. Acquire SSH Git Repository URL
+#### 1\. Acquire SSH Git Repository URL
 
 ![](/wp-content/uploads/gij-gitserver-acquire-ssh-git-repo-url.png)
 
 Get the git clone SSH URL from the repository home of the git host that will be used for Jira integration. The above screen represents an example from GitLab.
 
-### 2\. Generate SSH key pair (public and private key)
+#### 2\. Generate SSH key pair (public and private key)
 
 Do note that when generating the key pair for use with Git Integration for Jira app, the following checklist must be considered:
 
@@ -64,6 +60,8 @@ Do note that when generating the key pair for use with Git Integration for Jira 
 *   The generated SSH key must use the OpenSSL PEM storage format.
 
     For more information on SSH connection issues, see article [SSH key format is invalid](/git-integration-for-jira-data-center/ssh-key-file-format-is-invalid-gij-self-managed).
+
+<div id='linuxmacos'></div>
 
 #### Linux/MacOs
 
@@ -105,7 +103,7 @@ For Windows, we recommend to use [**PuTTY**](https://www.putty.org/) and use P
 
 9. If you lose your SSH key passphrase, recovering it is impossible. You will need to generate a new SSH key pair and a new passphrase instead.
 
-### 3\. Add the public key to your git host.
+#### 3\. Add the public key to your git host.
 
 *  Login to your git host and go the SSH configuration page (_for example, **Profile**➜ **Settings** in GitLab or GitHub_).
 
@@ -113,7 +111,7 @@ For Windows, we recommend to use [**PuTTY**](https://www.putty.org/) and use P
 
 *  Add this key to complete setting up the public key for SSH git connection for your git host.
 
-### 4\. Add the private key via Git Integration in Jira app. 
+#### 4\. Add the private key via Git Integration in Jira app. 
 For the private key, PuTTY creates it in its own ".ppk" format. To convert it to ".pem" format:
 
 *  On PuTTYgen window, go to menu **Conversions**.
@@ -122,7 +120,7 @@ For the private key, PuTTY creates it in its own ".ppk" format. To convert it to
 
 *  Add/upload this file to Git Integration for Jira app ➜ SSH keys or when prompted in connecting SSH git repositories.
 
-### Video Guide
+#### Video Guide
 
 Watch the video below to learn more details of the steps outlined above. As a bonus, the video also shows how to connect SSH git repositories to Jira and viewing commits and code diff in Jira issues. 
 
@@ -133,13 +131,12 @@ Watch the video below to learn more details of the steps outlined above. As a bo
 <div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/migvqa03gw'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
 
-## Are passphrases supported on SSH keys?
+#### Are passphrases supported on SSH keys?
 
 Passphrases are now supported since v2.x.x of the Git Integration for Jira app.
 
-## Does this app support authenticating to git repositories via SSH?
+#### Does this app support authenticating to git repositories via SSH?
 
 Yes.
 
@@ -154,9 +151,8 @@ Yes.
     </div>
     </div>
 </div>
-<br>
 
-## How do you configure the SSH key used when adding a new project?
+#### How do you configure the SSH key used when adding a new project?
 
 SSH keys should be in **.ssh** folder located in user home (user which is used to run jira).
 
@@ -169,13 +165,14 @@ SSH keys with and without passphrases are supported.
 <div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/qmumdo048n'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
 
-## Why do I need to provide a PRIVATE KEY to the Git Integration for Jira app instead of a PUBLIC KEY?
+&nbsp;
+
+#### Why do I need to provide a PRIVATE KEY to the Git Integration for Jira app instead of a PUBLIC KEY?
 
 The PRIVATE KEY is needed by the SSH client, which is the Jira server, to connect to the Git server via SSH.
 
-## How do I configure/connect an SSH remote git repository to Jira?
+#### How do I configure/connect an SSH remote git repository to Jira?
 
 In Jira, use the **Connect to Git Repository** wizard to configure SSH integration with any remote git repositories.
 

@@ -23,11 +23,9 @@ Below are the Git Integration app known issues and workarounds:
 - [Gerrit Integration Connected with Errors](#gerrit-integration-connected-with-errors)
 - [Starred repositories Custom API Path might fail if using SSO](#starred-repositories-custom-api-path-might-fail-if-using-sso)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
 ### 2GB Object Git Repositories Storage Limit
 
@@ -50,7 +48,7 @@ To increase the 65,000 issue JQL search limit:
     ```
 For more information on this issue, see [**Atlassian KB - 65K issue limit in JQL functions - Time to SLA for Jira**](https://confluence.snapbytes.com/time-to-sla/knowledge-base/common-problems/65k-issue-limit-in-jql-functions).
 
-Please contact [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com) if you encounter related issues.
+Please contact [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com) or via [GIJ Support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you encounter related issues.
 
 _Reference:_ GIT-3710, GITSERVER-1008
 
@@ -103,6 +101,8 @@ Repositories are initialized upon enabling the Git Integration for Jira app. Thi
 We are working on an improvement to move this initialization process away from enabling/disabling the app.
 
 _Reference:_ GIT-3977
+
+<div id='pull-requests-changed-before-migration-to-v37-do-not-trigger-workflow-hooks'></div>
 
 ### Pull Requests Changed Before Migration to v3.7 Do Not Trigger Workflow Hooks
 
@@ -160,6 +160,8 @@ _Reference:_ GIT-4111
 ### Starred repositories Custom API Path might fail if using SSO
 
 The Custom API Path, `/users/<username>/starred`, could fail in returning the repository list for starred repositories with GitHub Enterprise git hosts that have enabled SSO (single sign-on) authentication.
+
+Example error message:
 
 <div class="bbb-callout bbb--error">
     <div class="irow">

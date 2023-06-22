@@ -8,19 +8,17 @@ taxonomy:
 ---
 This page contains related questions about troubleshooting using Jira logs.
 
-Use the FAQ below to find answers to common questions.  Feel free to contact our support team via our [Support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you don't see what you're looking for.
+Use the FAQ below to find answers to common questions.  Feel free to contact our support team via our [Support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support) if you don't see what you're looking for.
 
 - [How to create the support zip file?](#how-to-create-the-support-zip-file)
 - [How do I enable debug logging level for Git Integration for Jira app?](#how-do-i-enable-debug-logging-level-for-git-integration-for-jira-app)
 - [Where can I find the Jira logs?](#where-can-i-find-the-jira-logs)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
-## How to create the support zip file?
+#### How to create the support zip file?
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -33,11 +31,6 @@ Use the FAQ below to find answers to common questions.  Feel free to contact ou
     </div>
     </div>
 </div>
-<br>
-
-_(The old video is removed. Updated Video guide coming soon)_
-
-<br>
 
 Jira can produce a Support Zip file for diagnosing issues. This will give our support team a better view of the issue.
 
@@ -61,7 +54,7 @@ You can create this file by accessing the Atlassian Support Tools in your Jira:
 
 Locate the generated Support Zip file and send it via our [Support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/faq-logging-gij-self-managed).
 
-## How do I enable debug logging level for Git Integration for Jira app?
+#### How do I enable debug logging level for Git Integration for Jira app?
 
 The debug logging level can be set by performing the following steps:
 
@@ -97,9 +90,8 @@ To report errors:
     </div>
     </div>
 </div>
-<br>
 
-## Where can I find the Jira logs?
+#### Where can I find the Jira logs?
 
 The Git logging is also found in the standard Jira logs. This can change based on how Jira was installed, which version you have, and which version you started with. Generally, start by looking at `catalina.out` in the Jira Tomcat directory.
 

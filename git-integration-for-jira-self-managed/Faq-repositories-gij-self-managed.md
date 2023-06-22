@@ -9,7 +9,7 @@ taxonomy:
 
 This page contains solutions to common issues encountered while connecting and configuring git repositories.
 
-Use the FAQ below to find answers to common questions. Feel free to contact our support team ([gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com?subject=Repository%20connection%20issues%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you don't see what you're looking for.
+Use the FAQ below to find answers to common questions. Feel free to contact our support team ([gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com?subject=Repository%20connection%20issues%20-)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support) if you don't see what you're looking for.
 
 - [I have an existing git repository on a Jira server. How can I figure out what values should be used for Repository origin and Repository root fields?](#i-have-an-existing-git-repository-on-a-jira-server-how-can-i-figure-out-what-values-should-be-used-for-repository-origin-and-repository-root-fields)
 - [Can the app be configured to handle or scan multiple keys for one project? How is this supposed to work?](#can-the-app-be-configured-to-handle-or-scan-multiple-keys-for-one-project-how-is-this-supposed-to-work)
@@ -19,13 +19,11 @@ Use the FAQ below to find answers to common questions. Feel free to contact our
 - [We use GitBlit without SSH keys and use only HTTPS instead. Does Git Integration for Jira app support this?](#we-use-gitblit-without-ssh-keys-and-use-only-https-instead-does-git-integration-for-jira-app-support-this)
 - [I am using Jira which is hosted on Windows. I changed the password of the Active Directory account running Jira. Now, I cannot access my repository. Why?](#i-am-using-jira-which-is-hosted-on-windows-i-changed-the-password-of-the-active-directory-account-running-jira-now-i-cannot-access-my-repository-why)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
-## I have an existing git repository on a Jira server. How can I figure out what values should be used for Repository origin and Repository root fields?
+#### I have an existing git repository on a Jira server. How can I figure out what values should be used for Repository origin and Repository root fields?
 
 1.  Change current directory to the folder where repository is located.
 
@@ -39,13 +37,13 @@ Use the FAQ below to find answers to common questions. Feel free to contact our
 
 6.  Set this value for **Repository origin** field.
 
-## Can the app be configured to handle or scan multiple keys for one project? How is this supposed to work?
+#### Can the app be configured to handle or scan multiple keys for one project? How is this supposed to work?
 
 Yes – the Git Integration for Jira app supports multiple Jira issue keys in a multiple-line commit message.
 
 For more information, see [Smart Commits: Advanced examples](/git-integration-for-jira-data-center/advanced-examples-gij-self-managed).
 
-## Where is the location of the local git repository?
+#### Where is the location of the local git repository?
 
 The Repository Root (in settings) must be a local path for server which is used to run Jira.
 
@@ -90,11 +88,11 @@ Test git connection and repository URL by doing the following:
 
 The Git Integration for Jira app will run successfully if the above connection test ran without errors.
 
-## We use GitBlit without SSH keys and use only HTTPS instead. Does Git Integration for Jira app support this?
+#### We use GitBlit without SSH keys and use only HTTPS instead. Does Git Integration for Jira app support this?
 
 Yes. The Git Integration for Jira app definitely supports GitBlit via HTTPS authentication.  Use the **Connect to Git Repository** wizard to connect to your repositories. Towards the end of the process, a username and password will be required for connection authentication.
 
-## I am using Jira which is hosted on Windows. I changed the password of the Active Directory account running Jira. Now, I cannot access my repository. Why?
+#### I am using Jira which is hosted on Windows. I changed the password of the Active Directory account running Jira. Now, I cannot access my repository. Why?
 
 When using Active Directory accounts for repository access, changing the password of the AD account running Jira can cause repository authentication issues.
 

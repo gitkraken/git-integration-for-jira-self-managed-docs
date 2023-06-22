@@ -9,19 +9,17 @@ taxonomy:
 
 This page contains related questions about trial or purchase of Git Integration for Jira app and accepted payment methods.
 
-Use the FAQ below to find answers to common questions. Feel free to contact our support team ([gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com?subject=About%20purchasing%20Git%20Plugin)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you don't see what you're looking for.
+Use the FAQ below to find answers to common questions. Feel free to contact our support team ([gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com?subject=About%20purchasing%20Git%20Plugin)) or visit our [support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support) if you don't see what you're looking for.
 
 - [How do I buy this app?](#how-do-i-buy-this-app)
 - [What payment methods are accepted?](#what-payment-methods-are-accepted)
 - [How do I determine the Git Integration for Jira app pricing after the trial?](#how-do-i-determine-the-git-integration-for-jira-app-pricing-after-the-trial)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
-## How do I buy this app?
+#### How do I buy this app?
 
 Buy the Git Integration for Jira app on Atlassian Marketplace using your Atlassian account  —  the same place where you manage your Jira license today.
 
@@ -29,7 +27,7 @@ Buy the Git Integration for Jira app on Atlassian Marketplace using your Atlassi
 
 [**Click here to buy the app via Atlassian Marketplace**](https://my.atlassian.com/purchase/buyaddon?key=com.xiplink.jira.git.jira_git_plugin)
 
-## What payment methods are accepted?
+#### What payment methods are accepted?
 
 Atlassian Marketplace accepts MasterCard, Visa and American Express. You may also pay with bank transfer or mailed check.
 
@@ -37,7 +35,7 @@ Atlassian Marketplace accepts MasterCard, Visa and American Express. You may al
 
 [**Buy Now**](https://my.atlassian.com/purchase/buyaddon?key=com.xiplink.jira.git.jira_git_plugin)
 
-## How do I determine the Git Integration for Jira app pricing after the trial?
+#### How do I determine the Git Integration for Jira app pricing after the trial?
 
 There are four ways to determine the pricing:
 
