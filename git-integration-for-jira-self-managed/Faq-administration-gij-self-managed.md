@@ -15,18 +15,14 @@ Use the [FAQ](/git-integration-for-jira-data-center/frequently-asked-questions-g
 - [After upgrading Jira from 4.1.1 to 5.2.9, I get some errors "Folder ... FORNEOnlineSolver git doesn't exist". Where can I set the path correctly? Is there any properties file?](#after-upgrading-jira-from-411-to-529-i-get-some-errors-folder--forneonlinesolver-git-doesnt-exist-where-can-i-set-the-path-correctly-is-there-any-properties-file)
 - [Does Jira+GitHub integration support multiple Jira projects (many) to multiple git repositories (many)? If it does not, how about many-to-one or one-to-many?](#does-jiragithub-integration-support-multiple-jira-projects-many-to-multiple-git-repositories-many-if-it-does-not-how-about-many-to-one-or-one-to-many)
 - [How do I connect to HTTPS repositories with self signed SSL certificates or other SSL issues?](#how-do-i-connect-to-https-repositories-with-self-signed-ssl-certificates-or-other-ssl-issues)
-- [I want to track all repositories hosted in my GitLab server from my Jira Data Center/Server. How do I configure the required NFS access permissions?](#i-want-to-track-all-repositories-hosted-in-my-gitlab-server-from-my-jira-data-centerserver-how-do-i-configure-the-required-nfs-access-permissions)
-  - [Solution 1](#solution-1)
-  - [Solution 2](#solution-2)
+- [I want to track all repositories hosted in my GitLab server from my Jira Data Center/Server. How do I configure the required NFS access permissions?](#i-want-to-track-all-repositories-hosted-in-my-gitlab-server-from-my-jira-data-centerserver-how-do-i-configure-the-required-nfs-access-permissions)  
 - [How do I setup GitLab Server to respond to incoming network API calls?](#how-do-i-setup-gitlab-server-to-respond-to-incoming-network-api-calls)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
-## How do I let people browse Git securely but without defining Git IDs for everyone?
+#### How do I let people browse Git securely but without defining Git IDs for everyone?
 
 With the Git Integration for Jira app, you only need to define a single ID for the Jira server.  Jira then lets authorized Jira users browse Git.
 
@@ -48,29 +44,29 @@ Configure this setting via:
 
     *   Unmark the _**All Projects**_ checkbox and set one or two projects.
 
-## Does the Git Integration for Jira app have API commands that allow addition/removal of a Git project?
+#### Does the Git Integration for Jira app have API commands that allow addition/removal of a Git project?
 
 Yes. The Git Integration for Jira app supports REST APIs for adding, updating, and deleting repository. The documentation for this feature is available at [Git Integration app: Hook and API Reference - Repository REST API](/git-integration-for-jira-data-center/repository-api-gij-self-managed).
 
-## After upgrading Jira from 4.1.1 to 5.2.9, I get some errors "Folder ... FORNEOnlineSolver git doesn't exist". Where can I set the path correctly? Is there any properties file?
+#### After upgrading Jira from 4.1.1 to 5.2.9, I get some errors "Folder ... FORNEOnlineSolver git doesn't exist". Where can I set the path correctly? Is there any properties file?
 
 Please visit Git Integration for Jira app config and check Git Repositories tab (_Jira dashboard menu Git_ ➜ _Manage repositories_ ➜ ![](/wp-content/uploads/actions-icon.png) **Actions**):
 
-*   For integrations, go to ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Show integration repositories** ➜ click a repository to view the repository settings.
+*   For integrations, go to &nbsp;![](/wp-content/uploads/actions-icon.png) Actions ➜ **Show integration repositories** ➜ click a repository to view the repository settings.
 
-*   For repository connections, go to ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit repository settings**.
+*   For repository connections, go to &nbsp;![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit repository settings**.
 
 Check and verify the path to your configured repositories.
 
 Also, an upgrade of Jira may lead to changing of user account used to run the service, which in turn, may result in lack of permissions.
 
-## Does Jira+GitHub integration support multiple Jira projects (many) to multiple git repositories (many)? If it does not, how about many-to-one or one-to-many?
+#### Does Jira+GitHub integration support multiple Jira projects (many) to multiple git repositories (many)? If it does not, how about many-to-one or one-to-many?
 
 Yes — it does support repositories supporting many projects. That said, the associations are made by the developers when they commit code to a specific issue key (which is part of a project). The permission that allows a user to see these commits in a Jira project is whether they have the "**View Development Tools**" permission for that project (that's a Jira setting).
 
 The only project permissions that the Git Integration for Jira app has are for the Repository Browser (Git dropdown menu). To associate a repository with all Jira projects or only specific projects, see [Project permissions setting](/git-integration-for-jira-data-center/using-the-connect-repository-wizard-gij-self-managed#settings) in the Connect to Git Repository wizard or [associating project permissions](/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed) via **Edit repository settings** in the Git Repositories configuration page.
 
-## How do I connect to HTTPS repositories with self signed SSL certificates or other SSL issues?
+#### How do I connect to HTTPS repositories with self signed SSL certificates or other SSL issues?
 
 This problem may be caused by a custom (a self-signed) certificate. Make sure to install the latest JRE and then change the `JAVA_HOME` of Jira server.
 
@@ -123,11 +119,11 @@ There are alternative solutions to make Java trust this certificate.  Please re
 
 If the problem persist, please [send us a support zip](/git-integration-for-jira-data-center/faq-support#how-to-create-the-support-zip-file-gij-self-managed) to give us a better view of the issue.
 
-## I want to track all repositories hosted in my GitLab server from my Jira Data Center/Server. How do I configure the required NFS access permissions?
+#### I want to track all repositories hosted in my GitLab server from my Jira Data Center/Server. How do I configure the required NFS access permissions?
 
 Where a GitLab server is configured with NFS server and the Jira Data Center/Server is configured with NFS client, there are two possible solutions:
 
-### Solution 1
+**Solution 1**
 
 The `'all_squash'` option must not be used in the NFS server **'etc/exports'** file for GitLab folders. The NFS client should have the **'git'** group with the same GID as the **'git'** group on the NFS server. The Jira user on the NFS client should be added to the group **'git'**.
 
@@ -136,7 +132,7 @@ _**Example:**_<br>
 /var/opt/gitlab/git-data/repositories/testrepo xx.xx.xx.xx/24(ro,root_squash,async)
 ```
 
-### Solution 2
+**Solution 2**
 
 Use the `'all_squash,async,anonuid=$uid,anongid=$gid'` option on NFS server, where `$uid` and `$gid` are user ID and group ID for **'git'** user and **'git'** group respectively _(or another user/group which you are using to access GitLab repositories on GitLab server)_.
 
@@ -148,7 +144,7 @@ _**Example:**_
 
 In both cases either `'ro'` or `'rw'` options may be used on NFS server.
 
-## How do I setup GitLab Server to respond to incoming network API calls?
+#### How do I setup GitLab Server to respond to incoming network API calls?
 
 In order for GitLab to display correct repository clone links to your users it needs to know the URL under which it is reached by your users (e.g. `http://gitlab.example.com/`)
 

@@ -54,11 +54,11 @@ Check out the introduction video and links below to get started with GitKraken C
 
 - [Troubleshooting](/git-integration-for-jira-data-center/troubleshooting-articles-gij-self-managed) - In-depth articles to help you diagnose and solve problems.
 
-- [Known Issues](/git-integration-for-jira-data-center/known-issues-gij-self-managed) - problems that occur with some configurations their accompanying workarounds.
+- [Known Issues](/git-integration-for-jira-data-center/known-issues-gij-self-managed) - Problems that are known to occur with some configurations and their accompanying workarounds.
 
-- [Hooks and Webhooks](/git-integration-for-jira-data-center/hooks-and-webhooks-gij-self-managed) - all about hooks!
+- [Hooks and Webhooks](/git-integration-for-jira-data-center/hooks-and-webhooks-gij-self-managed) - All about hooks!
 
-- [Product Documentation](/git-integration-for-jira-self-managed/documentation-gij-self-managed) - Learn more about Git Integration for Jira Cloud app and how to easily install it.
+- [Product Documentation](/git-integration-for-jira-self-managed/documentation-gij-self-managed) - Learn more about Git Integration for Jira Server/Data Center app and how to easily install it and learn how to use its features.
 
 <br>
 

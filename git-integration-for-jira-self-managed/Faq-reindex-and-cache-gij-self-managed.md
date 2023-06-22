@@ -20,14 +20,11 @@ Use the FAQ below to find answers to common questions. Feel free to contact our 
 - [Is there a URL I can call to trigger fetch and re-index? Would be nice to add as service hook to GitHub or Gitlab](#is-there-a-url-i-can-call-to-trigger-fetch-and-re-index-would-be-nice-to-add-as-service-hook-to-github-or-gitlab)
 - [The git notes are still not visible in Jira. What should I do?](#the-git-notes-are-still-not-visible-in-jira-what-should-i-do)
 
+&nbsp;
+* * *
+&nbsp;
 
-<br>
-<br>
-<hr>
-<br>
-<br>
-
-## What does re-index do?
+#### What does re-index do?
 
 Re-index does 2 operations:
 
@@ -35,7 +32,7 @@ Re-index does 2 operations:
 
 *   Updates local indexes which contain info about every commit
 
-## Is there any way to control the reindex?
+#### Is there any way to control the reindex?
 
 In terms of kicking off the indexing based on an event, you have two options:
 
@@ -47,7 +44,7 @@ In terms of kicking off the indexing based on an event, you have two options:
 
 What other users have done is set a high interval and then configure one of those options.
 
-## Commits are not showing right away. Can they show up faster?
+#### Commits are not showing right away. Can they show up faster?
 
 Commits won't appear immediately since synchronization is implemented as background job _(GitRevisionIndexerJob)_.  You can reduce the job delay down to 1 minute to schedule updates more often.
 
@@ -59,7 +56,7 @@ Scroll down to the **Scheduled jobs** section and set the **Repository indexing*
 
 For near-instantaneous display of commits in your Jira issues, we recommend to [configure webhooks](/git-integration-for-jira-data-center/Integration-webhooks-gij-self-managed).
 
-## How do I completely rebuild plugin indexes?
+#### How do I completely rebuild plugin indexes?
 
 If you think that the Git indexes are corrupt and needed to be completely rebuilt, please do the following:
 
@@ -86,9 +83,8 @@ On the next startup, the app will create the above folders again.
     </div>
     </div>
 </div>
-<br>
 
-## How do I clear the Git Integration for Jira app cache manually?
+#### How do I clear the Git Integration for Jira app cache manually?
 
 If you think that the Git caches are corrupt and needed to be removed, please do the following:
 
@@ -123,13 +119,12 @@ If you think that the Git caches are corrupt and needed to be removed, please do
     </div>
     </div>
 </div>
-<br>
 
-## Is it possible to track the specified branches when reindexing?
+#### Is it possible to track the specified branches when reindexing?
 
 No. The Git Integration for Jira app is designed to do a full index.
 
-## Is there a URL I can call to trigger fetch and re-index? Would be nice to add as service hook to GitHub or Gitlab
+#### Is there a URL I can call to trigger fetch and re-index? Would be nice to add as service hook to GitHub or Gitlab
 
 Yes  –  the following url can be used:
 
@@ -147,9 +142,8 @@ http://<server url>/secure/StartReindexGitRepositories.jspa?reindex=true
     </div>
     </div>
 </div>
-<br>
 
-## The git notes are still not visible in Jira. What should I do?
+#### The git notes are still not visible in Jira. What should I do?
 
 Perform a **Reset** + **Reindex** of the selected repository via Git Repositories of the Git add-on. If the issue still persist, see article, [How do I clear the Git Integration app for Jira cache manually?](#how-do-i-clear-the-git-integration-for-jira-app-cache-manually)
 
