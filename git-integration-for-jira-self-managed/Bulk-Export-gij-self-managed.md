@@ -19,9 +19,6 @@ Only Jira admins can perform the Bulk Export API call.
 ### method
 GET
 
-### Parameters
-| _**prHideFilter**_ | _String_. Optional. <br>Displays all pull requests for the specific issue, if left blank. Otherwise, set pull requests matching pattern to hide pull requests on issue pages that match the specified regular expression pattern. |
-
 <div class="bbb-callout bbb--tip">
     <div class="irow">
     <div class="ilogobox">
@@ -42,6 +39,7 @@ Usage:
 user@home:~$ python configuration_get.py > conf.tsv
 ```
 
+### Parameters
 Edit the TSV file by referring to the parameters below:
 
 | Column/Field | Description |
@@ -85,6 +83,7 @@ Edit the TSV file by referring to the parameters below:
 | _**refSpecNotes**_ | _Boolean_. Optional.  <br>This is a reference to `refs/notes/*` used for fetching. The default value for this field is _**true**_.<br><br>Git notes are not shown…<br><ul><li>when <code>refs/notes</code> are disabled on connecting a repository;</li><li>when a new note comes when <code>refs/notes</code> is disabled.</li></ul> |
 | _**refSpecChanges**_ | _Boolean_. Optional.  <br>This is a reference to `refs/changes/*` used for fetching. The default value for this field is _**false**_. |
 | _**refSpecCustom**_ | _String_. Optional.  <br>This is a user-defined list of references used for fetching. It is a comma-separated list with the format:<br>`+refs/refname1/*:refs/refname1/*`, `refs/refname2/*:refs/refname2/*`, ... |
+| _**prHideFilter**_ | _String_. Optional. <br>Displays all pull requests for the specific issue, if left blank. Otherwise, set pull requests matching pattern to hide pull requests on issue pages that match the specified regular expression pattern. |
 
 &nbsp;
 
