@@ -60,9 +60,30 @@ Check GitHub Apps permission for your organization:
 
 &nbsp;
 
-### Integrate to a GitHub App
+### Pre-requisites
 
-As an initial configuration requirement, admins need to install the GHA in an organization. After this setup, only then Jira can read the repositories with Git Integration for Jira app:
+<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 3px; font-size: small;padding:2px 7px'>IMPORTANT!</b>
+
+*   As an initial configuration requirement, admins need to install the GHA in an organization. After this setup, only then that Jira instance can read the repositories with Git Integration for Jira app.
+
+*   Establishing a connection using GHA is a two-way process. This requires the Jira instance, where the GHA integration is connected, be accessible remotely from the GitHub server. Make the IP of the Jira instance accessible from the internet as well as add this IP address to the GitHub.com allow list.
+
+*   
+
+*   _[looking for more related info...]_
+
+
+&nbsp;
+
+### Limitations
+
+*   Only one GHA installation is allowed on each GitHub organization. This is because the GHA itself is created each time on the first step of connecting a GHA integration and prevents the reuse of an existing GHA for installing in another organization.
+
+*   The **Cancel** function on the scope selection page does not do anything. When a user installs a GHA created manually, this function redirects back to the GHA page. GIJ have no control over it and cannot affect its behavior.
+
+*   We advise users against renaming their GHAs. GIJ uses this name for identifying the GHA. However, the GitHub server does not return information about the application rename event. Thus, GIJ has no way to receive any information about the new name. As the result, the `your GitHub app` link on the **Remove integration** page will return a 404 page error if a GHA is renamed.
+
+### Integrate to a GitHub App
 
 1.  On your Jira dashboard menu, go to Git ➜ **Manage repositories**.
 
@@ -70,7 +91,7 @@ As an initial configuration requirement, admins need to install the GHA in an or
 
 2.  On the Add new integration panel, click **GitHub**.
 
-3.  With version 4.6, the GitHub App integration feature is added to the External service list.
+3.  With GIJ version 4.6+ and later, the GitHub App integration feature is added to the External service list.
 
     ![](/wp-content/uploads/gij-github-integration-external-host-selection-c.png)
 
@@ -92,8 +113,9 @@ As an initial configuration requirement, admins need to install the GHA in an or
 
 7.  On the Settings screen, the _**Require user PAT**_ setting is enabled and cannot be changed because it is directly affected by the _**Enforce Git service permissions**_ setting in the **General settings** page. For the GHA feature, the user’s PAT is not mandatory since it can interact with the Git server using the GHA access token.
 
-8.  Click Connect to start configuring this GitHub App integration.
-The Git Integration for Jira app will perform this task automatically. Provide password credentials if prompted.
+8.  Click **Connect** to start configuring this GitHub App integration.
+
+    The Git Integration for Jira app will perform this task automatically. Provide login credentials if prompted.
 
 9.  On the following screen, enter a **descriptive name** for the new GitHub App. _(Changing this name later on will have a negative impact on the GHA integration)_
 
@@ -119,17 +141,27 @@ The GitHub App integration is now displayed in the Git repositories configuratio
 
 The GHA is created automatically by Git Integration for Jira app. For any related questions, please contact [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com.)
 
-*   You can reconfigure connected repositories in the Edit integration connection settings page for this GHA integration (_Actions_).
+*   You can reconfigure connected repositories in the Edit integration connection settings page for this GHA integration ( ![](/wp-content/uploads/actions-icon.png)_Actions_).
 
     ![](/wp-content/uploads/gij-github-app-edit-integration-connection-cfg-c.png)
 
 *   Make sure that the following properties must not be changed for this GHA integration:
-    *   GitHub App name
+    *   **GitHub App name**
     *   Post installation
     *   Webhook attributes
     *   Private keys
     *   Any settings on the Permissions and Events page
     *   Any settings on the installation page
+
+*   Admins can restrict repositories using the JMESpath filter to avoid a case when a user tries to connect thousands of heavy repositories resulting in decreased Jira performance.
+
+*   A GHA installation can be suspended in two ways:
+    *   **_From the owner side_** -- Press **Suspend** on the Integration Connection settings for the selected integration via GIJ actions. <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 3px; font-size: small;padding:2px 7px'>RECOMMENDED</b>
+    *   **_From the user side_** -- Press **Suspend** on the GitHub portal for the GHA installation. <b style='background-color:#DEE0E5; padding:1px 5px; color:#44516C; border-radius:3px; margin: 0 3px; font-size: small;padding:2px 7px'>NOT RECOMMENDED</b>
+
+*   It is possible to re-issue a PEM key for a GHA on the GitHub server side. However, the only way to update the PEM key of a connected GHA integration is via [Bulk Import](/git-integration-for-jira-data-center/import-existing-repositories-via-bulk-change-gij-self-managed/). Bulk export the GHA integration and then paste the entire PEM key enclosed in double quotes into the .tsv file (to preserve line esc chars).
+
+*   A GHA must be deleted by its owner. If several users have access to Repository Management, only one of them can actually remove the app from the Git server after the GHA integration is removed.
 
 &nbsp;
 
