@@ -435,67 +435,6 @@ Enables or disables Repository Browser feature.
 
 
 
-
-## setGithubAppClientId(String)
-
-
-
-
-## setGithubAppClientSecret(String)
-
-
-
-
-## setGithubAppHtmlUrl(String)
-
-
-
-
-## setGithubAppId(Long)
-
-
-
-
-## setGithubAppInstallationId(Integer)
-
-
-
-
-## setGithubAppName(String)
-
-
-
-
-## setGithubAppOrg(String)
-
-
-
-
-## setGithubAppPem(String)
-
-
-
-
-## setGithubAppSecret(String)
-
-
-
-
-## setGithubAppSlug(String)
-
-
-
-
-## setGithubAppSuspended(Boolean)
-
-
-
-
-## setGithubAppWebhookSecret(String)
-
-
-
-
 ## setGlobal(Boolean)
 If set to true, the projectMappingIds parameter is ignored. Otherwise, the projectMappingIds parameter value(s) are applied.
 

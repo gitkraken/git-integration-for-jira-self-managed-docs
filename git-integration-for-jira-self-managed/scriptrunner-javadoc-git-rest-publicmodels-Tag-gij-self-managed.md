@@ -19,7 +19,6 @@ Tag information.
 | :--- | :--- |
 | `public` | [Tag](#tag)() |
 | `public` | [Tag](#tagtag)([Tag](#) other) |
-| `public` | [Tag](#tagstring-string-integer-string-date-date-string-string-string-string)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* name, *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* commitId, *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)* repoId, *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* repoName, *[Date](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)* commitDate, *[Date](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)* creationDate, *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* creationDateFormatted, *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* message, *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* committerName, *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)* committerEmail) |
 
 #### Methods
 | Type and modifiers | Method signature |
@@ -54,12 +53,6 @@ Tag information.
 
 
 ## Tag(Tag)
-
-
-
-
-## Tag(String, String, Integer, String, Date, Date, String, String, String, String)
-
 
 
 

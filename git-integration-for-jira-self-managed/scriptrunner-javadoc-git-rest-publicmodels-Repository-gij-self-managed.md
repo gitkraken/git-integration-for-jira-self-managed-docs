@@ -142,7 +142,6 @@ All implemented interfaces :
 | `public` `void` | [setRevisionIndexing](#setrevisionindexingboolean)( *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  revisionIndexing) |
 | `public` `void` | [setRoot](#setrootstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  root) |
 | `public` `void` | [setSendCommitEmails](#setsendcommitemailsboolean)( *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  sendCommitEmails) |
-| `public` `void` | [setShowAllTags](#setshowalltagsboolean)( *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  showAllTags) |
 | `public` `void` | [setSmartCommitsEnabled](#setsmartcommitsenabledboolean)( *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  smartCommitsEnabled) |
 | `public` `void` | [setSourcesDiffViewEnabled](#setsourcesdiffviewenabledboolean)( *[Boolean](https://docs.oracle.com/javase/8/docs/api/java/lang/Boolean.html)*  sourcesDiffViewEnabled) |
 | `public` `void` | [setSshKeyId](#setsshkeyidinteger)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  sshKeyId) |
@@ -807,11 +806,6 @@ Set pull requests matching pattern to hide pull requests on issue pages that mat
 
 
 ## setSendCommitEmails(Boolean)
-
-
-
-
-## setShowAllTags(Boolean)
 
 
 
