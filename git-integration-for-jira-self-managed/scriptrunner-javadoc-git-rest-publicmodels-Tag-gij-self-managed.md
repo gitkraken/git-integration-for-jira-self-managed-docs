@@ -33,17 +33,6 @@ Tag information.
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getName](#getname)() |
 | `public`  *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  | [getRepoId](#getrepoid)() |
 | `public`  *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  | [getRepoName](#getreponame)() |
-| `public` `void` | [setCommitDate](#setcommitdatedate)( *[Date](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)* commitDate) |
-| `public` `void` | [setCommitId](#setcommitidstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  commitId) |
-| `public` `void` | [setCommitterEmail](#setcommitteremailstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  committerEmail) |
-| `public` `void` | [setCommitterName](#setcommitternamestring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  committerName) |
-| `public` `void` | [setCreationDate](#setcreationdatedate)( *[Date](https://docs.oracle.com/javase/8/docs/api/java/util/Date.html)*  creationDate) |
-| `public` `void` | [setCreationDateFormatted](#setcreationdateformattedstring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  creationDateFormatted) |
-| `public` `void` | [setMessage](#setmessagestring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  message) |
-| `public` `void` | [setName](#setnamestring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  name) |
-| `public` `void` | [setRepoId](#setrepoidinteger)( *[Integer](https://docs.oracle.com/javase/8/docs/api/java/lang/Integer.html)*  repoId) |
-| `public` `void` | [setRepoName](#setreponamestring)( *[String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)*  repoName) |
-
 
 
 # Constructors
@@ -105,56 +94,6 @@ Returns the repository id the tag belongs to.
 
 ## getRepoName()
 Returns the display name of the tag repository.
-
-
-
-## setCommitDate(Date)
-Set the commit date.
-
-
-## setCommitId(String)
-
-
-
-
-## setCommitterEmail(String)
-
-
-
-
-## setCommitterName(String)
-
-
-
-
-## setCreationDate(Date)
-
-
-
-
-## setCreationDateFormatted(String)
-
-
-
-
-## setMessage(String)
-
-
-
-
-## setName(String)
-
-
-
-
-## setRepoId(Integer)
-
-
-
-
-## setRepoName(String)
-
-
 
 
 
