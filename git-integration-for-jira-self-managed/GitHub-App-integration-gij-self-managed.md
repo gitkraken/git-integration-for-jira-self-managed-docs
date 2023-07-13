@@ -68,18 +68,13 @@ Check GitHub Apps permission for your organization:
 
 *   Establishing a connection using GHA is a two-way process. This requires the Jira instance, where the GHA integration is connected, be accessible remotely from the GitHub server. Make the IP of the Jira instance accessible from the internet as well as add this IP address to the GitHub.com allow list.
 
-*   
-
-*   _[looking for more related info...]_
-
-
 &nbsp;
 
 ### Limitations
 
 *   Only one GHA installation is allowed on each GitHub organization. This is because the GHA itself is created each time on the first step of connecting a GHA integration and prevents the reuse of an existing GHA for installing in another organization.
 
-*   The **Cancel** function on the scope selection page does not do anything. When a user installs a GHA created manually, this function redirects back to the GHA page. GIJ have no control over it and cannot affect its behavior.
+*   The **Cancel** function on the scope selection page does not do anything and GIJ have no control and cannot affect its behavior. When a user installs a GHA created manually, clicking **Cancel** redirects back to the GHA page.
 
 *   We advise users against renaming their GHAs. GIJ uses this name for identifying the GHA. However, the GitHub server does not return information about the application rename event. Thus, GIJ has no way to receive any information about the new name. As the result, the `your GitHub app` link on the **Remove integration** page will return a 404 page error if a GHA is renamed.
 
