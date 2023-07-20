@@ -78,6 +78,8 @@ Check GitHub Apps permission for your organization:
 
 *   We advise users against renaming their GHAs. GIJ uses this name for identifying the GHA. However, the GitHub server does not return information about the application rename event. Thus, GIJ has no way to receive any information about the new name. As the result, the `your GitHub app` link on the **Remove integration** page will return a 404 page error if a GHA is renamed.
 
+&nbsp;
+
 ### Integrate to a GitHub App
 
 1.  On your Jira dashboard menu, go to Git ➜ **Manage repositories**.
