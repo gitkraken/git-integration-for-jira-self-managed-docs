@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-The Git Integration for Jira app currently supports **Jira** **8.0** to **9.9**!
+The Git Integration for Jira app currently supports **Jira** **8.0** to **9.10**!
 
 <div class="bbb-callout bbb--error">
     <div class="irow">
@@ -20,11 +20,12 @@ The Git Integration for Jira app currently supports **Jira** **8.0** to **9.9*
     </div>
     </div>
 </div>
-<br>
 
 We are committed to provide you with an efficient and reliable support. Scroll down to see helpful tips to get started.
 
-## Migrating to Jira 9
+&nbsp;
+
+### Migrating to Jira 9
 
 Administrators should deselect the "Reverse commit tab sort order" option in General settings when Jira 8 is migrated to Jira 9. If this is a new Jira 9 installation then nothing is required.
 
@@ -32,9 +33,11 @@ After upgrading from Jira 8 to Jira 9, administrators must re-create all indexes
 
 For detailed information, see [Migrating from Jira 8 to Jira 9](/git-integration-for-jira-data-center/migrating-jira7-to-jira9-gij-self-managed).
 
-## Quick Installation Video
+&nbsp;
 
-No changes necessary to your Git server. This Jira app acts as a regular Git client.
+### Quick Installation Video
+
+No changes necessary to your Git server. This Jira app acts as a regular Git client.
 
 Using Atlassian's marketplace system, a Jira administrator can install the Git Integration for Jira app without ever leaving the web browser.
 
@@ -46,13 +49,12 @@ Using Atlassian's marketplace system, a Jira administrator can install the Git I
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/lr0jp6ntfd'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i><br>
     Watch the complete installation of the Git Integration Plugin for Jira app from scratch (2 minutes).
 </div>
-<br>
 
 &nbsp;
 
-## Viewing Reindex Logs
+### Viewing Reindex Logs
 
-Go to the Manage Git Repositories page, click the **Actions** <img src='/wp-content/uploads/actions-icon.png' /> icon then **View Log** to view the indexing logs.
+Go to the Manage Git Repositories page, click the **Actions** <img src='/wp-content/uploads/actions-icon.png' /> icon then **View Log** to view the indexing logs.
 
 ![](/wp-content/uploads/gij-manage-git-repo-view-reindex-logs-c.png)
 
@@ -62,7 +64,7 @@ If there is an error encountered when connecting to a repository, a similar inde
 
 &nbsp;
 
-## Atlassian Support End of Life
+### Atlassian Support End of Life
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -71,17 +73,16 @@ If there is an error encountered when connecting to a repository, a similar inde
     </div>
     <div class="imsgbox">
         <b>Important changes to Atlassian server and Data Center products</b><br>
-        Atlassian is making changes to the server and Data Center products, including the end of sale for new server licenses on February 2, 2021 and the end of support for server on February 2, 2024. <a href='https://www.atlassian.com/migration/journey-to-cloud'>Learn what this means for you</a>.
+        Atlassian is making changes to the server and Data Center products, including the end of sale for new server licenses on February 2, 2021 and the end of support for server on February 2, 2024. <a href='https://www.atlassian.com/migration/journey-to-cloud'>Learn what this means for you</a>.
     </div>
     </div>
 </div>
-<br>
 
-Starting **v2.13.0+**, we are dropping support for Java 7, Jira 6.3 and 6.4.
+Starting **v2.13.0+**, we are dropping support for Java 7, Jira 6.3 and 6.4.
 
 Starting **v3.5.1+**, support for Internet Explorer 11 browser is dropped.
 
-The table below shows the Jira Version, when [Atlassian will stop supporting that Jira version](https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html) and the corresponding version of Internet Explorer.
+The table below shows the Jira Version, when [Atlassian will stop supporting that Jira version](https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html) and the corresponding version of Internet Explorer.
 
 | **Jira Version** | **Jira End of Life Date** | **Oldest IE Supported** | **Git Integration for Jira supported?** |
 | :--- | :--- | :--- | :--- |
@@ -118,22 +119,23 @@ The table below shows the Jira Version, when [Atlassian will stop supporting th
 | 9.7 | March 20, 2025 | Edge | Yes\* |
 | 9.8 | April 25, 2025 | Edge | Yes\* |
 | 9.9 | June 2, 2025 | Edge | Yes\* |
+| 9.10 | Ju1y 11, 2025 | Edge | Yes\* |
 
 \* _See information below about retiring IE11 support._
 
 * * *
 
-## **Retiring IE11 Support**
+### **Retiring IE11 Support**
 
-With the release of the Edge browser since 2015, IE has not been receiving major updates. Atlassian has stated in their [**blog**](https://blog.developer.atlassian.com/retiring-ie11-support-for-atlassian-cloud-server-and-data-center-products/) that they will withdraw support for IE11 on all Jira products.
+With the release of the Edge browser since 2015, IE has not been receiving major updates. Atlassian has stated in their [**blog**](https://blog.developer.atlassian.com/retiring-ie11-support-for-atlassian-cloud-server-and-data-center-products/) that they will withdraw support for IE11 on all Jira products.
 
 In view of this, BigBrassBand LLC will also follow this decision effectively:
 
-*   For all Atlassian Cloud products, support will end on **31 March 2020**.
+*   For all Atlassian Cloud products, support will end on **31 March 2020**.
 
-*   For Atlassian server and data center products, the last version to support IE11 will be released between **September 2019** and **March 2020**.
+*   For Atlassian server and data center products, the last version to support IE11 will be released between **September 2019** and **March 2020**.
 
-<br>
+&nbsp;
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -146,5 +148,5 @@ In view of this, BigBrassBand LLC will also follow this decision effectively:
     </div>
     </div>
 </div>
-<br>
+
 
