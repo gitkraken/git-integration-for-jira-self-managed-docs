@@ -7,11 +7,11 @@ taxonomy:
 
 ---
 
-## Story
+### Story
 
 The JGit library loads all index files into the memory and consumes about twice more memory than the size (in bytes) of these files.
 
-## Problem(s)
+### Problem(s)
 
 The one or several of the following issues are encountered:
 
@@ -22,7 +22,7 @@ The one or several of the following issues are encountered:
 *   Unable to perform the Git GC procedure
 
 
-## Diagnosis
+### Diagnosis
 
 The one or several of the following errors appear in the atlassian-jira.log:
 
@@ -84,21 +84,19 @@ Additionally, go to System ➜ System info ➜ **JAVA VM memory statistics** to 
 
 ![](/wp-content/uploads/gij-java-vm-memory-statistics-c.png)
 
-<br>
+&nbsp;
 
-## Cause
+### Cause
 
 The JVM running JIRA applications has hit an OutOfMemory Error (OOME). This is thrown when the Java Virtual Machine cannot allocate an object because it is out of memory, and no more memory can be made available by the garbage collector.
 
-## Solution
+### Solution
 
 [**Follow these instructions**](https://confluence.atlassian.com/adminjiraserver/increasing-jira-application-memory-938847654.html) to increase the memory available to the JIRA application.
 
 Verify if the memory for Jira has changed by going to System ➜ System info ➜ **JAVA VM memory statistics**:
 
 ![](/wp-content/uploads/gij-verify-memory-alloc-jira-java-vm.png)
-
-<br>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -111,11 +109,10 @@ Verify if the memory for Jira has changed by going to System ➜ System info ➜
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More articles about troubleshooting, workarounds and solutions
+### More articles about troubleshooting, workarounds and solutions
 
 [Why I am getting the error, “git-upload-pack not permitted”?](/git-integration-for-jira-data-center/why-i-am-getting-the-error-git-upload-pack-not-permitted-gij-self-managed/)
 

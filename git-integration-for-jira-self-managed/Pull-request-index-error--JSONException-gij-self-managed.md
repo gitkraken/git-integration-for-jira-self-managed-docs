@@ -9,7 +9,7 @@ taxonomy:
 
 <!-- TROUBLESHOOTING -->
 
-## Problem
+### Problem
 
 Pull requests (or merge requests in GitLab) do not index and the pull request index (pullreqsIndexInfo.json inside `jira/home/caches/indexes/plugins/jira-git-pull-requests`) is broken.
 
@@ -19,7 +19,9 @@ Pull requests (or merge requests in GitLab) do not index and the pull request in
 
 `jira/home/caches/indexes/plugins/jira-git-pull-requests/3/pullreqs/pullreqsIndexInfo.json`
 
-## Diagnosis
+&nbsp;
+
+### Diagnosis
 
 Jira admins will see a message similar to the one below in the Jira `/application-logs/atlassian-jira.log`:
 
@@ -45,7 +47,9 @@ Caused by: org.json.JSONException: A JSONObject text must begin with '{' at 1 [c
     ... 9 more
 ```
 
-## Solutions
+&nbsp;
+
+### Solutions
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -57,8 +61,6 @@ Caused by: org.json.JSONException: A JSONObject text must begin with '{' at 1 [c
     </div>
     </div>
 </div>
-<br>
-<br>
 
 1.  Verify that the Git Integration for Jira app does not have a reindex process in progress.
 
@@ -70,13 +72,11 @@ Caused by: org.json.JSONException: A JSONObject text must begin with '{' at 1 [c
 
 5.  Start a reindex of the Git Integration for Jira app.
 
-<p>&nbsp;</p>
+&nbsp;
 
-## Resolution
+### Resolution
 
 `jira/home/caches/indexes/plugins/jira-git-pull-requests/` will be recreated.
-
-<br>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -89,11 +89,10 @@ Caused by: org.json.JSONException: A JSONObject text must begin with '{' at 1 [c
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More articles about troubleshooting, workarounds and solutions
+### More articles about troubleshooting, workarounds and solutions
 
 [Why I am getting the error, “git-upload-pack not permitted”?](/git-integration-for-jira-data-center/why-i-am-getting-the-error-git-upload-pack-not-permitted-gij-self-managed/)
 

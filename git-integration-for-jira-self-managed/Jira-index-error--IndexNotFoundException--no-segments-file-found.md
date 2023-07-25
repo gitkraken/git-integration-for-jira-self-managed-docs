@@ -9,15 +9,15 @@ taxonomy:
 
 <!-- TROUBLESHOOTING -->
 
-## Problem
+### Problem
 
 Some or all repositories are not indexing which may be caused by a system or disk failure.
 
-## Diagnosis
+### Diagnosis
 
 Jira admins will see a message similar to the one below in the Jira `/application-logs/atlassian-jira.log`:
 
-**Error**
+**Error:**
 
 ```java
 2019/05/08 18:29:06 org.apache.lucene.index.IndexNotFoundException: no segments* file found in MMapDirectory@E:\\Program Files\\Atlassian\\Application Data\\JIRA\\caches\\indexes\\plugins\\jira-git-revisions lockFactory=org.apache.lucene.store.NativeFSLockFactory@4fd7bb9a: files: []
@@ -45,13 +45,11 @@ at com.bigbrassband.jira.git.jiraservices.compatibility.CompatibilityLuceneServi
 ... 11 more
 ```
 
-## Solution
+### Solution
 
 Perform a Jira System Full re-index option via Administration ➜ System ➜ Advanced ➜ **Indexing**.
 
 For more information - see Atlassian help article about [Search indexing](https://confluence.atlassian.com/adminjiraserver/search-indexing-938847710.html).
-
-<br>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -64,11 +62,10 @@ For more information - see Atlassian help article about [Search indexing](https:
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More articles about troubleshooting, workarounds and solutions
+### More articles about troubleshooting, workarounds and solutions
 
 [Why I am getting the error, “git-upload-pack not permitted”?](/git-integration-for-jira-data-center/why-i-am-getting-the-error-git-upload-pack-not-permitted-gij-self-managed/)
 

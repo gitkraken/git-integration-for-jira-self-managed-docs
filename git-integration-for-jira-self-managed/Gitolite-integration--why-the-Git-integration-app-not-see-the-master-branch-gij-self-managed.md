@@ -7,11 +7,11 @@ taxonomy:
 
 ---
 
-## Problem
+### Problem
 
 After creating a new bare repository and integrating it to Jira Server via Git Integration for Jira app, I'm not able to see the last changes I made which contains smart commit tags thru the Repository Browser.
 
-## Diagnosis
+### Diagnosis
 
 The following criteria are true:
 
@@ -31,8 +31,6 @@ For gitolite and git repository on the same server as Jira, set the UMASK value 
 From UMASK => 0077
 To UMASK => 0027
 ```
-<br>
-
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -44,11 +42,10 @@ To UMASK => 0027
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More articles about troubleshooting, workarounds and solutions
+### More articles about troubleshooting, workarounds and solutions
 
 [Why I am getting the error, “git-upload-pack not permitted”?](/git-integration-for-jira-data-center/why-i-am-getting-the-error-git-upload-pack-not-permitted-gij-self-managed/)
 

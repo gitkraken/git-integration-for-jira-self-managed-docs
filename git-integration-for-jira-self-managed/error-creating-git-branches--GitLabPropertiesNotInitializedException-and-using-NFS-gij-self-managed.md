@@ -19,7 +19,7 @@ Also relates to the following exception errors:
 
 &nbsp;
 
-## Problem
+### Problem
 
 An error is encountered with the next exception ( `GitLabPropertiesNotInitializedException` ) and you are using NFS.
 
@@ -41,7 +41,7 @@ at java.base/java.lang.reflect.Method.invoke(Method.java:566)
 
 &nbsp;
 
-## Diagnosis
+### Diagnosis
 
 Check the root of the reason by [turning on DEBUG logging](https://help.gitkraken.com/git-integration-for-jira-data-center/faq-logging-gij-self-managed/#how-do-i-enable-debug-logging-level-for-git-integration-for-jira-app) for the package – **com.bigbrassband.jira.git.services.integration**.
 
@@ -53,13 +53,13 @@ The root reason of the exception error can be one of the following:
 
 &nbsp;
 
-## Solution 1
+### Solution 1
 
 Make sure that `repo.auto.json` (`jira/data/git-plugin/###-somerepo/repo.auto.json`) contains a valid json.
 
 &nbsp;
 
-## Solution 2
+### Solution 2
 
 The lock daemon (lockd) may not be running on the **NFS** server. Check whether your NFS server supports locking. Update the NFS version, if required.
 

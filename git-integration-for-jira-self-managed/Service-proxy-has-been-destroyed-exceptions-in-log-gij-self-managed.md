@@ -9,15 +9,15 @@ taxonomy:
 
 <!-- TROUBLESHOOTING -->
 
-## Problem
+### Problem
 
 Errors/failures in the Git Integration for Jira application are seen sporadically.
 
-## Diagnosis
+### Diagnosis
 
 Jira admins will see a message similar to the one below in the Jira log -- `/application-logs/atlassian-jira.log`:
 
-**Error**
+**Error:**
 
 ```java
 2019-07-07 07:07:072,777 bigbrassband-gitplugin-RevisionIndexerImpl:thread - 0 ERROR      [c.b.j.g.s.indexer.revisions.RevisionIndexerImpl] Unable to index repository 'my-repository-example-name' (repoId: 777)
@@ -56,11 +56,11 @@ org.eclipse.gemini.blueprint.service.importer.ServiceProxyDestroyedException: se
     at java.lang.Thread.run(Thread.java:748)
 ```
 
-## Cause
+### Cause
 
 On occasion - the Atlassian Universal Plugin Manager (UPM) will not stop threads from previous versions of the Git Integration for Jira app.
 
-## Solution
+### Solution
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -72,11 +72,10 @@ On occasion - the Atlassian Universal Plugin Manager (UPM) will not stop threads
     </div>
     </div>
 </div>
-<br>
 
 **Update the** [**Atlassian Universal Plugin Manager**](https://marketplace.atlassian.com/apps/23915/atlassian-universal-plugin-manager) **("UPM") to the latest version prior to using the following solutions:**
 
-### Step 1: Re-enable app.
+#### Step 1: Re-enable app.
 
 1.  Disable the _Git Integration for Jira_ app in **Manage apps**.
 
@@ -88,7 +87,7 @@ On occasion - the Atlassian Universal Plugin Manager (UPM) will not stop threads
 
 5.  If symptoms persist, proceed to next step.
 
-### Step 2: Reinstall app.
+#### Step 2: Reinstall app.
 
 1.  Update the Universal Plugin Manager (UPM) to the [**latest version**](https://marketplace.atlassian.com/apps/23915/atlassian-universal-plugin-manager?tab=versions) offered by Atlassian.
 
@@ -102,7 +101,7 @@ On occasion - the Atlassian Universal Plugin Manager (UPM) will not stop threads
 
 6.  If symptoms persist, proceed to next step.
 
-### Step 3: Clean up plugin folders.
+#### Step 3: Clean up plugin folders.
 
 1.  Stop Jira.
 
@@ -122,8 +121,6 @@ On occasion - the Atlassian Universal Plugin Manager (UPM) will not stop threads
 
 6.  If symptoms persist, contact BigBrassBand Support.
 
-<br>
-
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -135,11 +132,10 @@ On occasion - the Atlassian Universal Plugin Manager (UPM) will not stop threads
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More articles about troubleshooting, workarounds and solutions
+### More articles about troubleshooting, workarounds and solutions
 
 [Why I am getting the error, “git-upload-pack not permitted”?](/git-integration-for-jira-data-center/why-i-am-getting-the-error-git-upload-pack-not-permitted-gij-self-managed/)
 

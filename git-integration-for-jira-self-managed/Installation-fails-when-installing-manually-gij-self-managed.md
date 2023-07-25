@@ -9,11 +9,11 @@ taxonomy:
 
 <!-- TROUBLESHOOTING -->
 
-## Problem
+### Problem
 
 Git Integration for Jira application installation fails when using the file upload install method.
 
-## Diagnosis
+### Diagnosis
 
 *   Jira admins will see the installation screen in the Universal Plugin Manager (UPM) a message similar to the one below when installing the Git Integration for Jira app via the [file upload](https://confluence.atlassian.com/upm/installing-marketplace-apps-273875715.html#InstallingMarketplaceapps-Installingbyfileupload) method.
 *   The "Installing" dialog hangs indefinitely.
@@ -21,21 +21,17 @@ Git Integration for Jira application installation fails when using the file uplo
 
 ![](/wp-content/uploads/gij-installation-fails-when-installing-manually.png)
 
-<br>
-
-## Cause
+### Cause
 
 The Jira system is behind a type of proxy, firewall or network security and the network security/proxy has a limitation on request size.
 
-## Solutions
+### Solutions
 
 See the following articles from Atlassian on a resolution:
 
 *   [Updating add-ons by file upload hangs using UPM](https://confluence.atlassian.com/stashkb/updating-add-ons-by-file-upload-hangs-using-upm-660735049.html)
 
 *   [Attaching a File Results in Request Entity Too Large](https://confluence.atlassian.com/jirakb/attaching-a-file-results-in-request-entity-too-large-320602682.html)
-
-<br>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -48,11 +44,10 @@ See the following articles from Atlassian on a resolution:
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More articles about troubleshooting, workarounds and solutions
+### More articles about troubleshooting, workarounds and solutions
 
 [Why I am getting the error, “git-upload-pack not permitted”?](/git-integration-for-jira-data-center/why-i-am-getting-the-error-git-upload-pack-not-permitted-gij-self-managed/)
 

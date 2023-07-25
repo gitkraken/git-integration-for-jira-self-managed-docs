@@ -32,7 +32,7 @@ For the Jira Cloud version of this document click [Here](/git-integration-for-ji
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/rknbc3ty4e?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center' style='margin-top:10px'>
+<div align='center' style='margin-top:12px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/rknbc3ty4e'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
@@ -40,7 +40,7 @@ For the Jira Cloud version of this document click [Here](/git-integration-for-ji
 
 ### Using Full feature Integration
 
-1.  On your Jira dashboard, go to menu **Git** ➜ **Manage repositories**.
+1.  On your Jira dashboard, go to menu Git ➜ **Manage repositories**.
 
 2.  Click **Gerrit** on the Auto-connect integration panel. The Auto-connect wizard appears.
 
@@ -174,6 +174,20 @@ For the case with Gerrit, the default main branch is always “master”.
     </div>
     </div>
 </div>
+
+### How to enable GetRepositories log response from Gerrit to the Jira log
+
+1.  Open ![](/wp-content/uploads/actions-icon.png) Jira System Administration then click **Logging and profiling** on the left sidebar.
+
+2.  Under the Default loggers section, click **Configure….**
+
+3.  Set the Package name to `com.bigbrassband.jira.git.services.integration`.
+
+4.  Set Logging Level to **DEBUG**.
+
+5.  Click **Add** to proceed.
+
+<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT!</b> Remember to turn this setting off after you have obtained the log file for analysis.
 
 &nbsp;
 * * *

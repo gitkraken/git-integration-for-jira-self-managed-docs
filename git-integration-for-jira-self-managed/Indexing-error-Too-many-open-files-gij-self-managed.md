@@ -7,15 +7,15 @@ taxonomy:
 
 ---
 
-## Problem
+### Problem
 
 Repository is not indexing and errors in Jira logs point to "Too many open files".
 
-## Diagnosis
+### Diagnosis
 
 Jira admins will see a message similar to the one below in the Jira `/application-logs/atlassian-jira.log`:
 
-**Error**
+**Error:**
 
 ```java
 2019-05-07 15:41:13,171 bigbrassband-gitplugin-RevisionIndexerImpl:thread - 0 ERROR      [c.b.j.g.s.indexer.revisions.RevisionIndexerImpl] Unable to index repository 'name' (repoId: 111)
@@ -45,11 +45,9 @@ Caused by: java.io.IOException: Too many open files
 	... 13 more
 ```
 
-## Solution
+### Solution
 
 See Atlassian help article about [increasing the number of file handles available to Jira](https://confluence.atlassian.com/jirakb/loss-of-functionality-due-to-too-many-open-files-errors-156862102.html)
-
-<br>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -62,11 +60,10 @@ See Atlassian help article about [increasing the number of file handles availab
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More articles about troubleshooting, workarounds and solutions
+### More articles about troubleshooting, workarounds and solutions
 
 [Why I am getting the error, “git-upload-pack not permitted”?](/git-integration-for-jira-data-center/why-i-am-getting-the-error-git-upload-pack-not-permitted-gij-self-managed/)
 

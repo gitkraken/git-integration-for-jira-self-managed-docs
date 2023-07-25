@@ -9,11 +9,11 @@ taxonomy:
 
 <!-- TROUBLESHOOTING -->
 
-## Problem
+### Problem
 
 Some or all repositories in Azure DevOps integrations are not seen or showing by the integration user.
 
-## Diagnoses
+### Diagnoses
 
 **1\. Permissions**
 
@@ -31,7 +31,7 @@ For more information - see Microsoft's article on [Azure DevOps Access Levels](h
 
 Only git format repositories are supported by the Git Integration for Jira app. Team Foundation Version Control (TFVC) formatted repositories are not supported.
 
-## Solutions
+### Solutions
 
 **1\.  Permissions**
 
@@ -49,8 +49,6 @@ Convert the Team Foundation Version Control (TFVC) formatted repositories to git
 
 *   Microsoft article: [Import repositories from TFVC to Git](https://docs.microsoft.com/en-us/azure/devops/repos/git/import-from-tfvc?view=azure-devops)
 
-<br>
-
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -62,11 +60,10 @@ Convert the Team Foundation Version Control (TFVC) formatted repositories to git
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More articles about troubleshooting, workarounds and solutions
+### More articles about troubleshooting, workarounds and solutions
 
 [Why I am getting the error, “git-upload-pack not permitted”?](/git-integration-for-jira-data-center/why-i-am-getting-the-error-git-upload-pack-not-permitted-gij-self-managed/)
 

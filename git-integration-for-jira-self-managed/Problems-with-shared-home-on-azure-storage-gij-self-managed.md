@@ -9,7 +9,7 @@ taxonomy:
 
 <!-- TROUBLESHOOTING -->
 
-## Problem
+### Problem
 
 Сan't auto-deploy a new repository. UnknownErrorException: Internal plugin error.
 
@@ -49,12 +49,12 @@ Caused by: java.nio.file.FileSystemException: /var/atlassian/application-data/ji
       ... 15 more
 ```
 
-## Diagnosis
+### Diagnosis
 
 The root problem is that the modern **jgit** (the Java git library) does not recognize **cifs** mounts on Linux. It thinks they are NFS and must support hard links. The same behavior is also present with the jgit command line on Ubuntu with a **cifs** mount in Azure.
 
 
-## Solutions
+### Solutions
 
 It is possible to suppress that behavior by adding a setting to the Linux users **.gitconfig**. The Linux user will be the one that Jira runs under (normally jira). You can switch to the user with `sudo su jira`:
 
@@ -63,8 +63,6 @@ jira@MLS:/mnt/cifs$ cat $HOME/.gitconfig
 [core]
 supportsatomicfilecreation = true
 ```
-
-<br>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -77,11 +75,10 @@ supportsatomicfilecreation = true
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More articles about troubleshooting, workarounds and solutions
+### More articles about troubleshooting, workarounds and solutions
 
 [Why I am getting the error, “git-upload-pack not permitted”?](/git-integration-for-jira-data-center/why-i-am-getting-the-error-git-upload-pack-not-permitted-gij-self-managed/)
 
