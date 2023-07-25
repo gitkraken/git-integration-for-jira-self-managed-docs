@@ -7,11 +7,11 @@ taxonomy:
 
 ---
 
-## Problem
+### Problem
 
 After Jira installation or configuration changes - the following errors appear. Errors/failures in the Git Integration for Jira application are seen sporadically.
 
-## Diagnosis
+### Diagnosis
 
 Jira admins will see a message similar to the one below in the Jira log: /application-logs/atlassian-jira.log:
 
@@ -39,11 +39,11 @@ Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationExce
 	... 194 more
 ```
 
-## Cause
+### Cause
 
 In MySQL configuration (my.ini (Windows) or my.cnf (Unix)), parameter of sql_mode is set to  NO_AUTO_VALUE_ON_ZERO.
 
-## Solution
+### Solution
 
 1.  Uninstall the Git Integration for Jira app.
 2.  Remove all Git Integration for Jira app tables.
@@ -57,8 +57,6 @@ In MySQL configuration (my.ini (Windows) or my.cnf (Unix)), parameter of sql_mod
 
 For more information - see Atlassian help article about [Duplicate entry 0 for key PRIMARY exceptions in log](https://confluence.atlassian.com/jirakb/duplicate-entry-0-for-key-primary-exceptions-in-log-646251198.html).
 
-<br>
-
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -70,11 +68,10 @@ For more information - see Atlassian help article about [Duplicate entry 0 for k
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More articles about troubleshooting, workarounds and solutions
+### More articles about troubleshooting, workarounds and solutions
 
 [Why I am getting the error, “git-upload-pack not permitted”?](/git-integration-for-jira-data-center/why-i-am-getting-the-error-git-upload-pack-not-permitted-gij-self-managed/)
 

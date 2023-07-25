@@ -7,19 +7,19 @@ taxonomy:
 
 ---
 
-## Problem
+### Problem
 
 The Personal Access Token created in Azure DevOps is not valid for authentication.
 
-## Diagnosis
+### Diagnosis
 
 Jira admins will see a Not authorized error (with the following full error) when connecting to Azure DevOps with a Personal Access Token if the token was created for a specific Azure DevOps organization:
 
 ![](/wp-content/uploads/gij-personal-access-token-failing-azure-devops.png)
 
-<br>
+&nbsp;
 
-**Technical info: Error**
+**Technical info: Error:**
 
 ```java
 2019-07-08 12:21:09,997 http-nio-8080-exec-436 ERROR sfj 741x4276982x1 a7oa8 192.168.143.212 /rest/gitplugin/1.0/trackedfolders/scan/4994-Bpv7dj9zmeyFAAf6 [c.b.j.g.rest.exceptionmappers.WrappedIntegrationAPIExceptionMapper] Rest API has thrown exception.
@@ -43,7 +43,7 @@ at com.bigbrassband.jira.git.services.integration.microsoft.MicrosoftApi.getRepo
 ... 10 more
 ```
 
-## Solution
+### Solution
 
 Azure DevOps Personal Access Tokens must be created using the All accessible organizations in the **Organization** dropdown. Additionally - the token must either have _**Full access**_ scope or _**Code: Read & Write**_ (as shown below). Minimum requirement is _**Code: Read**_.
 
@@ -65,8 +65,6 @@ Azure DevOps Personal Access Tokens must be created using the All accessible org
 
 5.  Click **Connect**.
 
-<br>
-
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -78,11 +76,10 @@ Azure DevOps Personal Access Tokens must be created using the All accessible org
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More articles about troubleshooting, workarounds and solutions
+### More articles about troubleshooting, workarounds and solutions
 
 [Why I am getting the error, “git-upload-pack not permitted”?](/git-integration-for-jira-data-center/why-i-am-getting-the-error-git-upload-pack-not-permitted-gij-self-managed/)
 

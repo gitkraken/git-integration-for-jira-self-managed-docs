@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-## Problem
+### Problem
 
 Technical error reported from the git client:
 
@@ -19,13 +19,13 @@ http://127.0.0.1:8080/tfs/DefaultCollection/_git/console-app/: not authorized
 Attempt to connect to the Git server failed. This may be because of invalid username and password or may be because of a network error.
 
 
-## Diagnosis
+### Diagnosis
 
 The above error is similar to _**"service=git-upload pack not found"**_ type errors and happens when the credentials being used by the Git Integration app don't have access to clone the specified Git repositories. There's the possibility to see the repositories from the TFS API (they are actually listed) but unable to access them via the Git protocol.
 
 
 
-## Solution
+### Solution
 
 If you are using proxy, configure your Jira with the following parameter format:
 
@@ -60,8 +60,6 @@ Or instead, use pipe and quotes for multiple hosts:
 -Dhttps.nonProxyHosts="your.git.server.host1|your.git.server.host2"
 ```
 
-<br>
-
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -73,11 +71,10 @@ Or instead, use pipe and quotes for multiple hosts:
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More articles about troubleshooting, workarounds and solutions
+### More articles about troubleshooting, workarounds and solutions
 
 [Why I am getting the error, “git-upload-pack not permitted”?](/git-integration-for-jira-data-center/why-i-am-getting-the-error-git-upload-pack-not-permitted-gij-self-managed/)
 

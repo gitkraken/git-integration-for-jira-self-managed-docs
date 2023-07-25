@@ -9,7 +9,7 @@ taxonomy:
 
 <!-- TROUBLESHOOTING -->
 
-## Problem
+### Problem
 
 Pull/merge requests no longer show in the app after updating beyond Git Integration version **3.7.0+**.
 
@@ -76,7 +76,9 @@ Caused by: java.sql.SQLException: Incorrect string value: '\\xF0\\x9F\\x8E\\x84 
 	... 41 more
 ```
 
-## Diagnosis
+&nbsp;
+
+### Diagnosis
 
 The reason for these errors – some pull/merge requests may use 4-byte UTF-8 characters (like emojis) which not supported in MySQL database collation 'utf8\_bin'.
 
@@ -90,12 +92,11 @@ Some useful references for this issue:
 
 *   [https://confluence.atlassian.com/fishkb/migrate-mysql-database-to-utf8mb4-character-encoding-962356253.html](https://confluence.atlassian.com/fishkb/migrate-mysql-database-to-utf8mb4-character-encoding-962356253.html)
 
+&nbsp;
 
-## Solution
+### Solution
 
 Switch the character encoding in the MySQL Jira database to `utf8mb4` and collation to `utf8mb4_bin` as described in the first article listed above.
-
-<br>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -108,11 +109,10 @@ Switch the character encoding in the MySQL Jira database to `utf8mb4` and collat
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More articles about troubleshooting, workarounds and solutions
+### More articles about troubleshooting, workarounds and solutions
 
 [Why I am getting the error, “git-upload-pack not permitted”?](/git-integration-for-jira-data-center/why-i-am-getting-the-error-git-upload-pack-not-permitted-gij-self-managed/)
 

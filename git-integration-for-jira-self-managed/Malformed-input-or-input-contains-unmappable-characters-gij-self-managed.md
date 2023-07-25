@@ -9,15 +9,15 @@ taxonomy:
 
 <!-- TROUBLESHOOTING -->
 
-## Problem
+### Problem
 
 Errors/failures in the Git Integration for Jira application indexing.
 
-## Diagnosis
+### Diagnosis
 
 Jira admins will see a message similar to the one below in the Jira log: `/application-logs/atlassian-jira.log`:
 
-**Error**
+**Error:**
 
 ```java
 2019/10/01 12:34:56 Malformed input or input contains unmappable characters: /var/jira/data/git-plugin/150_repository_name/refs/heads/hølaf
@@ -51,15 +51,13 @@ java.nio.file.InvalidPathException: Malformed input or input contains unmappable
 	at java.lang.Thread.run(Thread.java:748)
 ```
 
-## Cause
+### Cause
 
 Atlassian recommends UTF-8 or Unicode encoding, and case-insensitive collation. In most cases, problems are due to a misconfiguration in one of the components.
 
-## Solutions
+### Solutions
 
 See Atlassian help article: [Troubleshoot character display issues in Jira server](https://confluence.atlassian.com/jirakb/troubleshoot-character-display-issues-in-jira-server-203394762.html).
-
-<br>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -72,11 +70,10 @@ See Atlassian help article: [Troubleshoot character display issues in Jira serve
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More articles about troubleshooting, workarounds and solutions
+### More articles about troubleshooting, workarounds and solutions
 
 [Why I am getting the error, “git-upload-pack not permitted”?](/git-integration-for-jira-data-center/why-i-am-getting-the-error-git-upload-pack-not-permitted-gij-self-managed/)
 

@@ -9,16 +9,16 @@ taxonomy:
 
 <!-- TROUBLESHOOTING -->
 
-## Problem
+### Problem
 
 After Jira installation or configuration changes - the following errors appear. The Git Integration for Jira app may not enable.
 
-## Diagnosis
+### Diagnosis
 
 Jira admins will see a message similar to the one below in the Jira log: `/application-logs/atlassian-jira.log` due to a plugin cache corruption.
 
 
-**Error**
+**Error:**
 
 ```java
 2020-06-18 11:26:38,203 ThreadPoolAsyncTaskExecutor::Thread 31 ERROR dwall 686x89952x1 11eu4cp 192.168.4.155 /rest/plugins/1.0/com.xiplink.jira.git.jira_git_plugin-key [o.e.g.b.e.i.dependencies.startup.DependencyWaiterApplicationContextExecutor] Unable to create application context for [com.xiplink.jira.git.jira_git_plugin], unsatisfied dependencies: none
@@ -71,11 +71,11 @@ at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefin
 ... 20 more
 ```
 
-## Cause
+### Cause
 
 The Jira plugins cache might be corrupted. You may need to clear the plugins cache.
 
-## Solution
+### Solution
 
 1.  Stop Jira.
 
@@ -86,8 +86,6 @@ The Jira plugins cache might be corrupted. You may need to clear the plugins cac
     *   `JIRA_HOME/plugins/.osgi-plugins`
 
 3.  Start Jira.
-
-<br>
 
 For more information - see this Atlassian Community article: [UPM: Unexpected exception parsing XML document from URL](https://community.atlassian.com/t5/Jira-Software-questions/UPM-Unexpected-exception-parsing-XML-document-from-URL/qaq-p/855850)
 
@@ -104,11 +102,10 @@ For more information - see this Atlassian Community article: [UPM: Unexpected e
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More articles about troubleshooting, workarounds and solutions
+### More articles about troubleshooting, workarounds and solutions
 
 [Why I am getting the error, “git-upload-pack not permitted”?](/git-integration-for-jira-data-center/why-i-am-getting-the-error-git-upload-pack-not-permitted-gij-self-managed/)
 

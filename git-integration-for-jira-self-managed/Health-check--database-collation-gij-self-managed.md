@@ -7,11 +7,11 @@ taxonomy:
 
 ---
 
-## Problem
+### Problem
 
 Incorrect database collation setting can cause errors/failures in the Git Integration for Jira application.
 
-## Diagnosis
+### Diagnosis
 
 Jira admins will see a message similar to the one below in the Jira log: `/healthchecks/healthcheckResults.txt`:
 
@@ -24,7 +24,7 @@ Failure reason: The database collation 'utf8_bin' and table collation 'utf8_bin'
 Severity: CRITICAL
 ```
 
-## Cause
+### Cause
 
 From Atlassian:
 
@@ -32,7 +32,7 @@ From Atlassian:
 
 [Atlassian - Health Check: Database Collation](https://confluence.atlassian.com/jirakb/health-check-database-collation-790955315.html)
 
-## Solution
+### Solution
 
 Follow instructions from Atlassian:
 
@@ -43,8 +43,6 @@ Follow instructions from Atlassian:
 3.  PostgreSQL: [Health Check: Database Collation in PostgreSQL](https://confluence.atlassian.com/display/JIRAKB/Health+Check%3A+Database+Collation+in+PostgreSQL)
 
 4.  Oracle: Health Check: [Database Collation in Oracle](https://confluence.atlassian.com/display/JIRAKB/Health+Check%3A+Database+Collation+in+Oracle)
-
-<br>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -57,11 +55,10 @@ Follow instructions from Atlassian:
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More articles about troubleshooting, workarounds and solutions
+### More articles about troubleshooting, workarounds and solutions
 
 [Why I am getting the error, “git-upload-pack not permitted”?](/git-integration-for-jira-data-center/why-i-am-getting-the-error-git-upload-pack-not-permitted-gij-self-managed/)
 

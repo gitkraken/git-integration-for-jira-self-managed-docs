@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 ---
 
-## Problem
+### Problem
 
 As Git Integration for Jira Server app uses the Jira database increasingly, it is to be expected that this error will be seen or encountered more often:
 
@@ -15,11 +15,11 @@ As Git Integration for Jira Server app uses the Jira database increasingly, it i
 java.lang.AssertionError: Explicit stack trace requested
 ```
 
-## Diagnosis
+### Diagnosis
 
 All database connections are handled internally by the Jira Active Objects (AO) library. While the Git Integration app accesses the database progressively more, the AO library will use more database connections proportional to the volume of database requests.
 
-## Solution
+### Solution
 
 The default value of **20** for database connections is sufficient for small Jira instances. For larger Jira instances, this value should be tuned based on Jira load, number of users, hardware performance and other factors.
 
@@ -28,8 +28,6 @@ More details may be found in the following articles:
 *   [**Tuning Database Connections**](https://confluence.atlassian.com/adminjiraserver/tuning-database-connections-938846864.html)
 
 *   [**Monitoring Database Connection Usage**](https://confluence.atlassian.com/adminjiraserver/monitoring-database-connection-usage-938847726.html)
-
-<br>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -42,11 +40,10 @@ More details may be found in the following articles:
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More articles about troubleshooting, workarounds and solutions
+### More articles about troubleshooting, workarounds and solutions
 
 [Why I am getting the error, “git-upload-pack not permitted”?](/git-integration-for-jira-data-center/why-i-am-getting-the-error-git-upload-pack-not-permitted-gij-self-managed/)
 

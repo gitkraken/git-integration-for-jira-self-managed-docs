@@ -6,7 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
-## Problem
+### Problem
 
 Git Integration for Jira application SSH keys:
 
@@ -15,7 +15,7 @@ Git Integration for Jira application SSH keys:
 3.  Must use the supported certificate format: RSA
 4.  Must use the supported storage format: OpenSSL PEM
 
-## Diagnosis
+### Diagnosis
 
 Jira admins will see a message similar to the one below when adding the SSH key:
 
@@ -26,7 +26,7 @@ Jira admins will see a message similar to the one below when adding the SSH key:
 
 Full error (stack trace) available in the Manage Git Repositories wizard or in Jira logs `/application-logs/atlassian-jira.log`:
 
-**Error**
+**Error:**
 
 ```java
 com.bigbrassband.jira.git.exceptions.repository.InvalidPrivateKeyException: Private SSH key is invalid or empty
@@ -47,11 +47,11 @@ Caused by: com.jcraft.jsch.JSchException: invalid privatekey: [C@17h421rm
 	... 264 more
 ```
 
-## Cause
+### Cause
 
 Jira admin has provided an SSH public key or an SSH private key with an incorrect format.
 
-## Solutions
+### Solutions
 
 1. Create a new SSH key:
 
@@ -73,8 +73,7 @@ Jira admin has provided an SSH public key or an SSH private key with an incorrec
         </div>
       </div>
     </div>
-    <br>
-
+    
     **On Windows:**
 
     Download **[PuTTY](https://www.putty.org)** and use PuTTYgen to generate an SSH key pair:
@@ -104,8 +103,6 @@ Jira admin has provided an SSH public key or an SSH private key with an incorrec
 
 5. Provide the private SSH key to the Git Integration for Jira app ➜ **SSH Keys** or when prompted on connecting SSH git repositories in Jira.
 
-<br>
-
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -117,11 +114,10 @@ Jira admin has provided an SSH public key or an SSH private key with an incorrec
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More articles about troubleshooting, workarounds and solutions
+### More articles about troubleshooting, workarounds and solutions
 
 [Why I am getting the error, “git-upload-pack not permitted”?](/git-integration-for-jira-data-center/why-i-am-getting-the-error-git-upload-pack-not-permitted-gij-self-managed/)
 

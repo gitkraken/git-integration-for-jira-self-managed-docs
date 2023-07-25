@@ -7,23 +7,19 @@ taxonomy:
 
 ---
 
-## Problem
+### Problem
 
 The Git Integration for Jira application uses the [JGit](https://www.eclipse.org/jgit/) library which does not support objects over 2GB in size stored in git repositories.
 
-## Diagnosis
+### Diagnosis
 
 Jira admins will see an error in the Git Integration for Jira app interface - for example:
 
-<br>
-
 <img src='/wp-content/uploads/gij-wizard-java-heap-space.png' height=299 width=402 style='display:block;margin:25px auto;max-width:100%' />
-
-<br>
 
 or Jira admins will see a message similar to the one below in the Jira `/application-logs/atlassian-jira.log:`
 
-**Error**
+**Error:**
 
 ```java
 Сan't auto-deploy a new repository https://server/project/repository.git
@@ -49,7 +45,7 @@ Caused by: org.eclipse.jgit.api.errors.TransportException: Object too large (2,2
         ... 11 more
 ```
 
-## Solutions
+### Solutions
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -61,7 +57,6 @@ Caused by: org.eclipse.jgit.api.errors.TransportException: Object too large (2,2
     </div>
     </div>
 </div>
-<br>
 
 *   Remove objects larger than 2GB from the git repository history. See following articles for suggestions:
 
@@ -88,11 +83,10 @@ Caused by: org.eclipse.jgit.api.errors.TransportException: Object too large (2,2
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More articles about troubleshooting, workarounds and solutions
+### More articles about troubleshooting, workarounds and solutions
 
 [Why I am getting the error, “git-upload-pack not permitted”?](/git-integration-for-jira-data-center/why-i-am-getting-the-error-git-upload-pack-not-permitted-gij-self-managed/)
 

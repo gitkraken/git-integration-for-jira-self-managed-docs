@@ -7,11 +7,11 @@ taxonomy:
 
 ---
 
-## Problem
+### Problem
 
 Git Integration for Jira application is not able to index repositories from a self-hosted GitLab or GitHub server.
 
-## Diagnosis
+### Diagnosis
 
 List of repositories may load in the wizard correctly - but repositories are not indexed.
 Logs contain a message similar to:
@@ -21,19 +21,17 @@ Logs contain a message similar to:
 com.bigbrassband.jira.git.exceptions.InvalidRemoteOperationException: Specified origin http://gitlab-server.company.com/path/repository.git is incorrect or not supported
 ```
 
-## Cause
+### Cause
 
 GitLab or GitHub permissions of the service user connecting Jira (via the Git Integration for Jira app) are not sufficient to view source code for the repository.
 
-## Solutions
+### Solutions
 
 Grant sufficient access to the service account user in GitLab or GitHub:
 
 *   See [GitLab permissions](https://docs.gitlab.com/ee/user/permissions.html) (Reporter is minimum required)
 
 *   See [GitHub permissions](https://help.github.com/en/articles/access-permissions-on-github#personal-user-accounts) (Read for GitHub organizations or Collaborator for personal owned repositories is is minimum required).
-
-<br>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -46,11 +44,10 @@ Grant sufficient access to the service account user in GitLab or GitHub:
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More articles about troubleshooting, workarounds and solutions
+### More articles about troubleshooting, workarounds and solutions
 
 [Why I am getting the error, “git-upload-pack not permitted”?](/git-integration-for-jira-data-center/why-i-am-getting-the-error-git-upload-pack-not-permitted-gij-self-managed/)
 
