@@ -35,10 +35,10 @@ GET
 | Parameter | Condition |
 | :--- | :--- |
 | _**issueKey**_ | _String_. Required.<br><br>This is the Jira Issue Key – a concatenation of Project key and Issue number. It must contain a dash ('-'). The _**issueKey**_ must be valid and existent.<br><br>For example: `TST-123`. |
-| _**?showFiles=**_**\[**_**true\|false**_**\]** | _Boolean_. Optional.<br><br>When set to _**true**_, this extends the commits API to display which files where changed related to a specific Jira issue.<br><br>See usage example below. |
-| _**response**_ | Returns the result in the example below. |
+| **_\?showFiles=\[true\|false\]_** | _Boolean_. Optional.<br><br>When set to _**true**_, this extends the commits API to display which files where changed related to a specific Jira issue.<br><br>See usage example below. |
 
-<br>
+### response
+Returns the result in the example below.
 
 ### Example usage:
 
