@@ -22,10 +22,11 @@ For the Jira Cloud version of this document click [Here](/git-integration-for-ji
   - [Setting Up Gerrit Web Links](#setting-up-gerrit-web-links)
   - [Viewing Git Commits in Jira Data Center](#viewing-git-commits-in-jira-data-center)
   - [Default Branch](#default-branch)
+  - [How to enable GetRepositories log response from Gerrit to the Jira log?](#how-to-enable-GetRepositories-log-response-from-Gerrit-to-the-Jira-log)
   - [More Integration Guides](#more-integration-guides)
 
-&nbsp;
-* * *
+<br>
+<hr>
 &nbsp;
 
 <div class='embed-container embed-container--16-10'>
@@ -50,9 +51,9 @@ For the Jira Cloud version of this document click [Here](/git-integration-for-ji
 
     *   Enter login credentials for username and password.
 
-    *   OPTIONAL Click **Advanced** to setup how git fetches refs.
+    *   <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>OPTIONAL</b> Click <b>Advanced</b> to setup how git fetches refs.
 
-        ![](/Wp-content/uploads/gij-jira-server-gerrit-auto-connect-advanced-c.png)
+        ![](/wp-content/uploads/gij-jira-server-gerrit-auto-connect-advanced-c.png)
 
         *   Setup fetch refspec by selecting options needed for this integration. A refspec maps a branch in the local repository to a branch in a remote repository. For more information, see <a href='https://git-scm.com/book/en/v2/Git-Internals-The-Refspec' target='_blank'><b>Git Refspec</b></a>.
 
@@ -71,7 +72,6 @@ For the Jira Cloud version of this document click [Here](/git-integration-for-ji
                 </div>
             </div>
             </div>
-            <br>
 
 3.  Click **Connect**. The Auto-connect wizard automatically reads git repositories for import into the git configuration.
 
@@ -175,7 +175,7 @@ For the case with Gerrit, the default main branch is always “master”.
     </div>
 </div>
 
-### How to enable GetRepositories log response from Gerrit to the Jira log
+### How to enable GetRepositories log response from Gerrit to the Jira log?
 
 1.  Open ![](/wp-content/uploads/actions-icon.png) Jira System Administration then click **Logging and profiling** on the left sidebar.
 
