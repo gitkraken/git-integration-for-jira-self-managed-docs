@@ -16,7 +16,7 @@ Starts the reindex process in a separate thread and returns the result immediate
     </div>
     <div class="imsgbox">
         There are two types of users who can perform the Reindex POST API call:
-        <ol style='margin-bottom:-10px'>
+        <ol style='margin-bottom:-20px'>
             <li>Jira <b>administrators</b></li>
             <li>Jira user who has <b>all</b> of the following:
             <ul>
@@ -55,7 +55,6 @@ Starts the reindex process in a separate thread and returns the result immediate
     </div>
     </div>
 </div>
-<br>
 
 ### method
 POST
@@ -67,15 +66,13 @@ application/json
 
 Request body is a JSON structure.
 
-| Parameter | Description |
+| Field | Description |
 | :--- | :--- |
 | _**repoId**_ | _Integer_. Optional.<br><br>If _**repoId**_ is left as blank, the API will perform a reindex of all repositories. |
 | _**priority**_ |  _Integer_. Optional.<br><br>Set the priority of the operation. Default value is **24**. Any value greater or equal to **1** is allowed.<br><br>The tasks in the queue are executed in descending order of priority. The Git Integration for Jira app internally uses the following priorities for operations:<br>24 -- Manual reindex<br>22 -- Webhook reindex<br>20 -- Scheduled reindex<br>10 -- Remove repository<br>&nbsp;&nbsp;2 -- Git GC<br><br> |
 
 ### Response
 JSON
-
-<br>
 
 ### Example with repoId assigned:
 

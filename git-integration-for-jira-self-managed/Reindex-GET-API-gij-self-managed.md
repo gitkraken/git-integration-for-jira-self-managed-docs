@@ -15,7 +15,7 @@ Use this method to track messages for a particular thread.
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <ol style='margin-bottom:-10px'>
+        <ol style='margin-bottom:-20px;'>
             <li>Jira <b>administrators</b></li>
             <li>Jira user who has <b>all</b> of the following:
                 <ol type='a'>
@@ -28,7 +28,6 @@ Use this method to track messages for a particular thread.
     </div>
     </div>
 </div>
-<br>
 
 &nbsp;
 
@@ -38,14 +37,13 @@ Use this method to track messages for a particular thread.
 ### method
 GET
 
-### Parameters
+### parameters
 
-| Parameter | Condition |
+| Field | Condition |
 | :--- | :--- |
 | _**threadID**_ | _Required_.<br><br>Indexer thread ID (UUID).  Query parameter.<br><br>**Example:**<br>`eafe58fc-d8de-42ff-8815-6fe5860b38d2` |
 
-### Response
-
+### response
 JSON
 
 <br>

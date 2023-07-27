@@ -33,11 +33,14 @@ Using the _**integrationId**_ from the url, the Update Integration API will look
 ### method
 PUT
 
-### Parameters
+### content-type
+application/json
+
+### parameters
 
 The Request body is a _JSON_ structure similar to the [Add New Integration API](/git-integration-for-jira-data-center/add-new-integration-gij-self-managed). Unlike the [Update Existing Repository API](/git-integration-for-jira-data-center/update-existing-integration-gij-self-managed), the `id` of the integration is substituted to the url as `integrationId`.
 
-| Parameter | Description |
+| Field | Description |
 | :--- | :--- |
 | _**displayName**_ | _String_. Optional. Some git hosts may require this to be filled in.<br><br>This is the name that will appear in the Git Integration for Jira app repositories list. |
 | _**origin**_ | _String_. Optional.<br><br>This is the URL to the hosted git service used on the project.<br><br>For example, you might host your repository on GitHub, Beanstalk or your own server.<br><br>_**Example URL:**_ `https://api.github.com` |
