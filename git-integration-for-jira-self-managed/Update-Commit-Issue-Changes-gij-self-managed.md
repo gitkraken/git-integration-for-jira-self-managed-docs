@@ -108,3 +108,5 @@ associates TST-6 and TST-7 to the same commit in repo1 and repo2.
 
 **Update Commit Issue Changes** (this page)
 
+[Merge Commit](/git-integration-for-jira-data-center/isMergeCommit-REST-API-gij-self-managed)
+

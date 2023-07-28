@@ -102,6 +102,12 @@ Caused by: org.eclipse.jgit.api.errors.TransportException: Object too large (2,2
 
 **Error while reindexing – Java heap space / Object too large, rejecting the pack** (this page)
 
+[Error creating git branches and also using NFS](/git-integration-for-jira-data-center/error-creating-git-branches-gitlabpropertiesnotinitializedexception-and-using-nfs-gij-self-managed)
+
+[Fix performance issues for nested cloned repositories with enabled Git Service Permissions mode](/git-integration-for-jira-data-center/Fix-performance-issues-for-nested-cloned-repositories-with-enabled-secure-mode-gij-self-managed)
+
+[Fixing reindex issues using Indexing Queue Viewer](/git-integration-for-jira-data-center/fixing-reindex-issues-using-indexing-queue-viewer)
+
 [Gitolite integration: Why the Git integration app not see the master branch?](/git-integration-for-jira-data-center/Gitolite-integration--why-the-Git-integration-app-not-see-the-master-branch-gij-self-managed)
 
 [Health Check: Database Collation](/git-integration-for-jira-data-center/Health-check--database-collation-gij-self-managed)
@@ -134,6 +140,4 @@ Caused by: org.eclipse.jgit.api.errors.TransportException: Object too large (2,2
 
 [Why don't I see the Create Branch or Pull Request features?](/git-integration-for-jira-data-center/why-dont-i-see-the-create-branch-or-pull-request-features-gij-self-managed)
 
-<br>
-<br>
 
