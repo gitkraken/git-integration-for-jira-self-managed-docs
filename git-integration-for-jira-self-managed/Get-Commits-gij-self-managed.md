@@ -85,3 +85,4 @@ Returns the following example result:
 
 [Update Commit Issue Changes](/git-integration-for-jira-data-center/update-commit-issue-changes-gij-self-managed)
 
+[Merge Commit](/git-integration-for-jira-data-center/isMergeCommit-REST-API-gij-self-managed)

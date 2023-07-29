@@ -1,60 +1,49 @@
 ---
 
-title: Health Check - Database Collation
+title: Fix performance issues for nested cloned repositories with enabled Git Service Permissions mode
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
 
+<!-- TROUBLESHOOTING -->
+
 ### Problem
 
-Incorrect database collation setting can cause errors/failures in the Git Integration for Jira application.
+There will be some performance issues when the following conditions are met:
+
+*   you are using GIJ 4.19 or earlier
+
+*   you have enabled “Enforced git permissions” in General settings
+
+*   with each reindex of some of your integration, GIJ also tries to detect new nested repositories, which for some reason, can't be cloned. The root cause could be one or some of the following:
+
+    *   Corrupt pack file errors
+
+    *   Max object size error
+
+    *   Git -upload pack errors for multiple repositories
+
+    *   Timeout errors
+
+    *   401 error with a different user
+
+    *   Error getting repository permissions for user XXXXXXXX – 401 unauthorized error
 
 ### Diagnosis
 
-Jira admins will see a message similar to the one below in the Jira log: `/healthchecks/healthcheckResults.txt`:
-
-**Health Check: Collation**
-
-```json
-Name: Collation
-Is healthy: false
-Failure reason: The database collation 'utf8_bin' and table collation 'utf8_bin' are not supported by Jira.
-Severity: CRITICAL
-```
-
-### Cause
-
-From Atlassian:
-
->   This check retrieves the collation of the database and determines if it is within the list of collations supported by Atlassian. The Check will not assess collation when using an embedded (H2/HSQL) database and will fail if it cannot successfully identify the database (MariaDB is being used, for example). It fails if the collation does not match what we expect, or it cannot be retrieved due to an exception checking it. This health check does not report any warnings for Postgres database users. If you experience an error on this health check, the steps in the resolution should be applied.
-
-[Atlassian - Health Check: Database Collation](https://confluence.atlassian.com/jirakb/health-check-database-collation-790955315.html)
+With each reindex of the integration, permissions for all the users PATs are recalculated. It’s a heavy calculation degrading performance, high CPU usage and increasing a possibility of exceeding GitService rate limit.
 
 ### Solution
 
-Follow instructions from Atlassian:
+Upgrade to GIJ 4.20 or later.
 
-1.  MySQL: [Health Check: Database Collation in MySQL](https://confluence.atlassian.com/jirakb/health-check-database-collation-in-mysql-943951422.html)
+![](/wp-content/uploads/gij-gitserver-setup-jmespath-exclude-example.png)
 
-2.  Microsoft SQL Server: [Health Check: Database Collation in Microsoft SQL Server](https://confluence.atlassian.com/display/JIRAKB/Health+Check%3A+Database+Collation+in+Microsoft+SQL+Server)
+If you can’t upgrade due to production workflow policies for now, then setup a JMESPath filter for the integration to exclude the affected nested repositories.
 
-3.  PostgreSQL: [Health Check: Database Collation in PostgreSQL](https://confluence.atlassian.com/display/JIRAKB/Health+Check%3A+Database+Collation+in+PostgreSQL)
-
-4.  Oracle: Health Check: [Database Collation in Oracle](https://confluence.atlassian.com/display/JIRAKB/Health+Check%3A+Database+Collation+in+Oracle)
-
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Contact us</b><br>
-        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
-    </div>
-    </div>
-</div>
+![](/wp-content/uploads/gij-gitserver-manage-apps-app-update.png)
 
 &nbsp;
 
@@ -76,13 +65,13 @@ Follow instructions from Atlassian:
 
 [Error creating git branches and also using NFS](/git-integration-for-jira-data-center/error-creating-git-branches-gitlabpropertiesnotinitializedexception-and-using-nfs-gij-self-managed)
 
-[Fix performance issues for nested cloned repositories with enabled Git Service Permissions mode](/git-integration-for-jira-data-center/Fix-performance-issues-for-nested-cloned-repositories-with-enabled-secure-mode-gij-self-managed)
+**Fix performance issues for nested cloned repositories with enabled Git Service Permissions mode** (this page)
 
 [Fixing reindex issues using Indexing Queue Viewer](/git-integration-for-jira-data-center/fixing-reindex-issues-using-indexing-queue-viewer)
 
 [Gitolite integration: Why the Git integration app not see the master branch?](/git-integration-for-jira-data-center/Gitolite-integration--why-the-Git-integration-app-not-see-the-master-branch-gij-self-managed)
 
-**Health Check: Database Collation** (this page)
+[Health Check: Database Collation](/git-integration-for-jira-data-center/Health-check--database-collation-gij-self-managed)
 
 [Indexing error – Too many open files](/git-integration-for-jira-data-center/Indexing-error-Too-many-open-files-gij-self-managed)
 
@@ -108,8 +97,7 @@ Follow instructions from Atlassian:
 
 [TFS - Not authorized exception when Jira works thru proxy](/git-integration-for-jira-data-center/tfs-not-authorized-exception-when-jira-works-thru-proxy-gij-self-managed)
 
-[Unexpected exception parsing XML document from URL error in log](/git-integration-for-jira-data-center/Unexpected-exception-parsing-XML-document-from-URL-error-in-log-gij-self-managed)
+[Unexpected exception parsing XML document from URL error in log](/git-integration-for-jira-data-center/unexpected-exception-parsing-xml-document-from-url-error-in-log-gij-self-managed)
 
 [Why don't I see the Create Branch or Pull Request features?](/git-integration-for-jira-data-center/why-dont-i-see-the-create-branch-or-pull-request-features-gij-self-managed)
-
 
