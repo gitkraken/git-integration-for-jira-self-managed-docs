@@ -29,7 +29,7 @@ Use the FAQ below to find answers to common questions. Feel free to contact our
 * * *
 &nbsp;
 
-### Creating and configuring SSH keys (Windows/MacOS/Linux)
+#### Creating and configuring SSH keys (Windows/MacOS/Linux)
 
 The Git Integration for Jira app supports SSH git repository connections via **Connect Wizard** or **Git** on the Add new integration panel.
 
@@ -202,4 +202,4 @@ Here's a video to guide you step-by-step as stated above:
 <div align='center' style='margin-top:10px'>
     <i>Watch how to add an SSH Git repository. Right click <a href='https://bigbrassband.wistia.com/medias/qmumdo048n'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
+
