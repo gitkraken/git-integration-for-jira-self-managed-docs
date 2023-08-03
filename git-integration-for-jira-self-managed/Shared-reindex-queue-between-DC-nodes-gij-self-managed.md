@@ -11,8 +11,6 @@ taxonomy:
 
 With Git Integration for Jira app v4.0, the shared reindex queue improvement offers vast performance improvements between DC nodes.
 
-<br>
-
 **What’s on this page:**
 - [Main features](#main-features)
   - [The Skipping feature](#the-skipping-feature)
@@ -22,26 +20,23 @@ With Git Integration for Jira app v4.0, the shared reindex queue improvement off
 - [Known issues](#known-issues)
 - [See more Git Integration for Jira app features](#see-more-git-integration-for-jira-app-features)
 
-<br>
-<br>
+&nbsp;
 <hr>
-<br>
-<br>
+&nbsp;
 
-## Main features
+### Main features
 
 This implementation added two new features that handle the reindex queue between DC nodes.
 
-### The Skipping feature
+#### The Skipping feature
 
 Duplicate reindex requests are filtered out from the queue for the same repository. This does not interrupt and affect repositories currently being indexed. This feature affects all types of reindexing tasks – scheduled, manual and webhook.
 
-### Webhook sleeping
+#### Webhook sleeping
 
 ![](/wp-content/uploads/gij-gitserver-webhooks-new-feature.png)
 
-<br>
-<br>
+&nbsp;
 
 New Webhook settings are added under _**Advanced**_:
 
@@ -59,7 +54,7 @@ Performing manual reindexing will process the repository and is always unaffecte
 *   automatic reindexing (scheduled interval)
 
 
-## Before implementation
+### Before implementation
 
 Every DC node performs reindexing independently.
 
@@ -71,7 +66,7 @@ There is no way to show the current indexing status on nodes other than one that
 
 The scanning operations for integrations (during the integration connection) go to the same queue. Thus, if some reindexing is currently performed, the scanning is suspended until all indexing operations are completed.
 
-## Advantages
+### Advantages
 
 The new implementation eliminates all the above drawbacks. Git Integration for Jira v4.0 introduces a new persistent reindex queue that is shared between nodes.
 
@@ -84,15 +79,13 @@ The new implementation eliminates all the above drawbacks. Git Integration for J
 *   All nodes may take any requests from the queue regardless of the node that placed the request. For consistency reasons, each repository may be processed only on one node at a time.
 
 
-## Known issues
+### Known issues
 
 The new implementation provides better utility and performance gains. However, it requires cluster lock usage to enforce synchronization between nodes.
 
-<br>
+&nbsp;
 
-<p>&nbsp;</p>
-
-## See more Git Integration for Jira app features
+### See more Git Integration for Jira app features
 
 [Indexing queue viewer](/git-integration-for-jira-data-center/Indexing-queue-viewer-gij-self-managed) (Git Integration for Jira Server/Data Center)
 

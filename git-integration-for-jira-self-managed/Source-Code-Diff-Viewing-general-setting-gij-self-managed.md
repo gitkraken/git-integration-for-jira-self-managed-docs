@@ -34,11 +34,8 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
 <img src='/wp-content/uploads/gij-gitserver-gencfg-code-diff.png' style='display:block;margin:25px auto;max-width:100%' />
-
-<br>
 
 This setting allows users to view source code commit diffs inside Jira:
 
@@ -50,17 +47,13 @@ This setting allows users to view source code commit diffs inside Jira:
 
 *   Repository Browser ➜ Compare tab
 
-<br>
-
 The default setting is `Enabled` for new and existing Git Integration for Jira app installations. This setting is retained on restore/upgrade of the app.
 
 If this setting is disabled (_unchecked_) in General settings, the above locations will not show the code diff or is not accessible to view to users. This also overrides repository and integration settings, by changing them to `Disabled`.
 
-<br>
+&nbsp;
 
-<p>&nbsp;</p>
-
-## More on general settings
+### More on general settings
 
 [Repository Browser general setting](/git-integration-for-jira-data-center/repository-Browser-general-setting-gij-self-managed)
 

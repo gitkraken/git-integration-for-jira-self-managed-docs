@@ -78,7 +78,7 @@ The following providers are supported:
 
 *   **Gitolite**
 
-<br>
+&nbsp;
 
 ### Web linking manual setup
 

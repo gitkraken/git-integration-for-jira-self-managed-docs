@@ -26,9 +26,7 @@ The most common cause is a wrong login credentials input.
 
 ![](/wp-content/uploads/gij-gitserver-git-uploack-pack-err-01.png)
 
-Check the repository properties for the **Username** and **Password/PAT** fields and verify that they are filled with correct values. Retype login credentials just to make sure and save the settings.
-
-<br>
+Check the repository properties for the **Username** and **Password/PAT** fields and verify that they are filled with correct values. Retype login credentials just to make sure and save the settings.  
 
 <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>INTEGRATION LEVEL</b> Go to the **Manage** **Git repositories** configuration list. Select **Actions** for a particular repository then **Edit integration connection settings**.
 
@@ -46,7 +44,7 @@ To install Git Integration for Jira app and clone a repository:
 
 2.  Install the git client: `sudo apt-get install git` or `sudo yum install git`.
 
-3.  Verify the correct `<JIRA_user>` (Go to **Jira Administration** ➜ **System** ➜ **System Info**. Scroll to **User Name**. _**How?**_).
+3.  Verify the correct `<JIRA_user>` (Go to Jira Administration ➜ System ➜ **System Info**. Scroll to **User Name**. _**How?**_).
 
 4.  Re-login as `<JIRA_user>`
 
@@ -82,7 +80,7 @@ To get a better view of the cause of the error:
 
     Enable debug logging for jgit library in Jira:
 
-    1.  Go to **Jira Administration** ➜ **System**.
+    1.  Go to Jira Administration ➜ **System**.
 
     2.  On the sidebar, under _**System Support**_, click **Logging and profiling**.
 
@@ -92,7 +90,7 @@ To get a better view of the cause of the error:
 
     5.  Click **Add** to add this configuration to the _**Debug Loggers**_ list.
 
-    <p>&nbsp;</p>
+    &nbsp;
     
     Collect logs generated during reindex of your repository:
 
@@ -110,7 +108,7 @@ To get a better view of the cause of the error:
 
     *   Do a git clone of the affected repository `git clone http://<your-repo>`.
 
-<p>&nbsp;</p>
+&nbsp;
 
 The output is a verbose log of this process.
 
@@ -160,7 +158,7 @@ From the above log:
 
 3.  Verify that `jira` is the expected username and `jirapassword` is the expected password.
 
-<p>&nbsp;</p>
+&nbsp;
 
 ## More articles about troubleshooting, workarounds and solutions
 

@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 Access the commit code diff dialog via the following locations:
 
 *   View a file on the **Repository Browser** _(Git menu ➜ **Repository browser**)_.
@@ -19,11 +20,11 @@ Access the commit code diff dialog via the following locations:
 *   Open an issue. Select the **Git Commits** tab then click a file or click **View full commit**.
 
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1930398768/git-for-jira-view-code-diffs.png?version=1&modificationDate=1630642905619&cacheVersion=1&api=v2&width=680&height=572)
+![](/wp-content/uploads/gij-git-for-jira-view-code-diffs.png)
 
 Each click on the  <img src='/wp-content/uploads/gij-hidden-lines-icon.png' width=20 height=20 /> **\# lines hidden** label expands up to 20 lines of code on that section.
 
-<p>&nbsp;</p>
+&nbsp;
 
 <br>
 <br>

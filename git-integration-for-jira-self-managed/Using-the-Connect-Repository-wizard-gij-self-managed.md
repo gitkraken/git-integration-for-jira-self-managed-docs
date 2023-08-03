@@ -151,7 +151,6 @@ The level of permissions can be one of the following:
     </div>
     </div>
 </div>
-<br>
 
 Click **Next**.
 
@@ -180,7 +179,6 @@ Provide _**Username**_ and _**Password**_ in the respective fields then clic
     </div>
     </div>
 </div>
-<br>
 
 The HTTP authorization errors indicate that the credentials provided are not valid.
 

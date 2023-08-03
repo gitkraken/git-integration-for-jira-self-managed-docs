@@ -29,7 +29,7 @@ The list of commits for the currently selected project is displayed in descendin
 
 Clicking on the **Repositories** button at the top right of the page returns the view to the Repository Browser.
 
-<p>&nbsp;</p>
+&nbsp;
 
 <br>
 <br>

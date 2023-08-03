@@ -37,7 +37,7 @@ In some cases with large amount of repositories, there could be some frequent pu
 
     ![](/wp-content/uploads/gij-tips-smart-commits.png)
 
-<br>
+&nbsp;
 
 ### Adding new repositories
 
@@ -47,7 +47,7 @@ We also suggest [the following article](http://blogs.atlassian.com/2014/05/handl
 
 &nbsp;
 
-## Timeout Strategies
+### Timeout Strategies
 
 This strategy will aid in the initial cloning of large repositories and repositories that have large files via Git Integration for Jira app.
 
@@ -224,5 +224,4 @@ If a repository folder is manually deleted from the local path, the Git Integrat
     </div>
     </div>
 </div>
-<br>
 

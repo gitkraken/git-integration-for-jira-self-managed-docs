@@ -6,17 +6,18 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 The simple Jira workflow does not contain explicit transition names. These kind of workflow with no explicit transition names are becoming more popular as Atlassian is suggesting them to administrators upon project creation.
 
 <img src='/wp-content/uploads/gij-jira-simple-workflow.png' width=217 height=232 style='display:block;margin:25px auto;max-width:100%' />
 
 The name of the status is the transition. So, using the basic example above, the valid transitions from DONE are:
 
-*   **#to-do**
+*   `#to-do`
 
-*   **#in-progress**
+*   `#in-progress`
 
-*   **#in-review**
+*   `#in-review`
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -65,9 +66,8 @@ The name of the status is the transition. So, using the basic example above, th
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
 <br>
 <br>

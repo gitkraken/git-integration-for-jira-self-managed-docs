@@ -32,8 +32,7 @@ The user will get notifications when watching an issue or repository. The user 
     </div>
 </div>
 
-<br>
-<br>
+&nbsp;
 
 [**Prev:** Commit email notifications (index)](/git-integration-for-jira-data-center/commit-email-notifications-gij-self-managed)
 

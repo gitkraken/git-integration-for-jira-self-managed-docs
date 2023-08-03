@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-## Introduction
+### Introduction
 
 Smart commits allows your team to perform actions on Jira issues from a single commit. Users can enter the issue key and the desired action such as time tracking or closing an issue.
 
@@ -15,8 +15,7 @@ The Git Integration for Jira app, the smart commit processing is **active by de
 
 ![](/wp-content/uploads/gij-smart-commit-setting.png)
 
-<br>
-
+  
 Smart commits configuration checklist:
 
 *   The Jira DVCS Connector Plugin is not required.
@@ -26,8 +25,6 @@ Smart commits configuration checklist:
 The basic syntax for a smart commit message is:
 
 **\<ISSUE\_KEY\>** _\<ignored text\>_ **\#\<command\>** _\<optional command\_params\>_
-
-<br>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -39,11 +36,10 @@ The basic syntax for a smart commit message is:
     </div>
     </div>
 </div>
-<br>
 
 * * *
 
-## Did You Know?
+### Did You Know?
 
 <br>
 
@@ -87,13 +83,9 @@ The Git Integration for Jira app support multi-line commit messages for smart co
 **Smart Commit Status**<br>
 The commit status shown on the Issue page depends on the Smart Commits setting that was set at the time the commits were processed.
 
-<br>
-<br>
-
+&nbsp;
 * * *
-
-<br>
-<br>
+&nbsp;
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -105,13 +97,10 @@ The commit status shown on the Issue page depends on the Smart Commits setting t
     </div>
     </div>
 </div>
-<br>
 
-<br>
+&nbsp;
 
-<p>&nbsp;</p>
-
-## See more Git Integration for Jira app features
+### See more Git Integration for Jira app features
 
 [Indexing queue viewer](/git-integration-for-jira-data-center/Indexing-queue-viewer-gij-self-managed) (Git Integration for Jira Server/Data Center)
 

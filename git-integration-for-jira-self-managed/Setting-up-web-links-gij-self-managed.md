@@ -13,9 +13,9 @@ For single repository connections, web link setup is optional. However, git link
 
 For more information on this feature, see [Documentation: Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed).
 
-<br>
+&nbsp;
 
-## More related articles on integration basics
+### More related articles on integration basics
 
 [Connecting to a git host account via Add new integration panel](/git-integration-for-jira-data-center/connecting-to-a-git-host-account-via-Add-new-integration-panel-gij-self-managed)
 

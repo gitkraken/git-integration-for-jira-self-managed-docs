@@ -45,7 +45,6 @@ In the filter field at the top right, enter a character or a name to display rep
     </div>
     </div>
 </div>
-<br>
 
 &nbsp;
 * * *

@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 The Repository Browser permits users to explore the repository similar to browsing a folder in Finder or Windows Explorer.
 
 Go to the **Git** menu in Jira then select **Repository browser** (_or specific repository if it appears in the **Git** menu._)
@@ -24,7 +25,7 @@ Enable/disable this feature via:
 
 *   Apps/Applications ➜ Git repositories ➜ Actions ➜ **Edit repository**
 
-## More on Integration basics
+### More on Integration basics
 
 [Connecting to a git host account via Add new integration panel](/git-integration-for-jira-data-center/connecting-to-a-git-host-account-via-Add-new-integration-panel-gij-self-managed)
 
