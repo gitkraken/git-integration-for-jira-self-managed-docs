@@ -24,14 +24,13 @@ There are several ways to associate git data to Jira issues:
 | Link pull/merge request to Jira issue | Associated git commits | Merge/Pull request by a Jira key in the MRs/PRs base or compare branch. | \-  | \-  |
 | Tag a commit | Associated tags in a Jira issue. (See example) | Associated tags in a Jira issue.  <br>Tags are associated only with a Jira issue by Jira keys that are specified in commits that belong to the tag.<br><br>**Note:** Specifying a Jira key in the name of a tag does NOT associate this tag with the mentioned Jira issue. | $ git tag -a v3.7 9f1a4c2 | \-  |
 
-<br>
-<br>
+&nbsp;
 
-## Manually associate git commits to Jira issues
+### Manually associate git commits to Jira issues
 
 For more information on this topic, see documentation [Associate git commit to Jira issues manually](/git-integration-for-jira-data-center/linking-git-commits-to-jira-issues-gij-self-managed).
 
-## More How-to articles
+### More How-to articles
 
 [How to get a quote?](/git-integration-for-jira-data-center/how-to-get-a-quote-gij-self-managed/)
 

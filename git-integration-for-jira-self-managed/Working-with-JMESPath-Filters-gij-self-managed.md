@@ -21,7 +21,7 @@ Read about JMESPath expressions on their <a href='http://jmespath.org/' target=
 <hr>
 &nbsp;
 
-## Accessible Locations
+### Accessible Locations
 
 1.  Auto-connect integration Wizard ➜ **Connection** screen ➜ _**Advanced**_ ➜ **JMESPath filter**.
 
@@ -29,17 +29,13 @@ Read about JMESPath expressions on their <a href='http://jmespath.org/' target=
 
     ![](/wp-content/uploads/gij-jira-server-autoconnect-jmespath-cfg-loc.png)
 
-    <br>
-
 2.  Manage repositories page ➜ _**Action**_ ➜ Edit integration connection settings ➜ _**Integration connection settings**_ ➜ **JMESPath Filter**.
 
     ![](/wp-content/uploads/gij-jira-server-edit-repo-settings-jmespath.png)
 
-<br>
+&nbsp;
 
-<p>&nbsp;</p>
-
-## More on JMESPath filters for supported git services
+### More on JMESPath filters for supported git services
 
 *   [GitHub.com \| GitHub Enterprise JMESPath filter examples](/git-integration-for-jira-data-center/GitHub-GitHub-Enterprise-JMESPath-filter-examples-gij-self-managed)
 
@@ -53,7 +49,7 @@ Read about JMESPath expressions on their <a href='http://jmespath.org/' target=
 
 *   [Gerrit JMESPath filter examples](/git-integration-for-jira-data-center/Gerrit-JMESPath-filter-examples-gij-self-managed)
 
-## More How-to articles
+### More How-to articles
 
 [How to get a quote?](/git-integration-for-jira-data-center/how-to-get-a-quote-gij-self-managed/)
 

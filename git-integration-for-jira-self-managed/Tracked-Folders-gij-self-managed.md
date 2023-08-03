@@ -257,7 +257,7 @@ In both cases either `'ro'` or `'rw'` options may be used on the NFS server.
 &nbsp;
 * * *
 
-## More Integration Guides
+### More Integration Guides
 
 [GitHub.com](/git-integration-for-jira-data-center/gitHub-gij-self-managed) (Git Integration for Jira Data Center/Server)
 

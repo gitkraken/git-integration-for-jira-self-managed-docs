@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 Smart commits enable users to perform actions on Jira issues from a single commit. In a commit message, enter the issue key and some desired action such as resolving an issue, closing an issue, time tracking or all of them.
 
 ![](/wp-content/uploads/gij-gitserver-git-commits-tab-example-new.png)
@@ -22,12 +23,12 @@ Enable/disable this feature via:
 
 *   Connect to Git Repository ➜ **Advanced setup**
 
-*   Apps/Applications ➜ Manage repositories ➜ <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit Repository**
+*   Apps/Applications ➜ Manage repositories ➜ ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit Repository**
 
 
 To learn more about Smart Commits, see [Git Integration for Jira: Smart Commits](/git-integration-for-jira-data-center/smart-commits-gij-self-managed).
 
-## More related articles on integration basics
+### More related articles on integration basics
 
 [Connecting to a git host account via Add new integration panel](/git-integration-for-jira-data-center/connecting-to-a-git-host-account-via-Add-new-integration-panel-gij-self-managed)
 

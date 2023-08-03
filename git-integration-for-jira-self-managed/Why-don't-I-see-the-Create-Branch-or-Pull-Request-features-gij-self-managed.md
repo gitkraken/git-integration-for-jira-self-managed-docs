@@ -7,13 +7,13 @@ taxonomy:
 
 ---
 
-## Problem
+### Problem
 
 Users cannot see the **Create branch** or **Create Pull/Merge Request** actions in the Jira issue sidebar.
 
 ![](/wp-content/uploads/gij-jira-issue-page-default-view-dev-panel-sel.png)
 
-## Solution
+### Solution
 
 The **Create branch** and **Create Pull/Merge Requests** features are enabled by connecting to one of the Add new (Auto-Connect) integrations.
 
@@ -23,15 +23,12 @@ The **Create branch** and **Create Pull/Merge Requests** features are enabled by
 
 ![](/wp-content/uploads/gij-gitserver-gitmgr-add-new-auto-connect-sel.png)
 
-<br>
-
 See [integration guides](/git-integration-for-jira-self-managed/integration-guides-gij-self-managed) for each Auto-Connect option.
 
 The regular Git integration option does not offer the Create branch and Create pull/merge request features.
 
 ![](/wp-content/uploads/gij-gitserver-gitmgr-plain-git-sel.png)
 
-<br>
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -43,9 +40,8 @@ The regular Git integration option does not offer the Create branch and Create p
     </div>
     </div>
 </div>
-<br>
 
-<p>&nbsp;</p>
+&nbsp;
 
 ## More articles about troubleshooting, workarounds and solutions
 

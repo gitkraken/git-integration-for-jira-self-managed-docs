@@ -23,7 +23,7 @@ taxonomy:
 
 ### What are webhooks and why use them?
 
-Webhooks can be an extremely powerful tool that can be configured to trigger an immediate re-index of your repositories from remote systems. Your git server can send this near real-time data to Jira when your git data changes. This results in much faster indexing time so that you don’t have to wait for the regular polling interval (see [General settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed).
+Webhooks can be an extremely powerful tool that can be configured to trigger an immediate re-index of your repositories from remote systems. Your git server can send this near real-time data to Jira when your git data changes. This results in much faster indexing time so that you don’t have to wait for the regular polling interval (see [General settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed)).
 
 Webhooks can be triggered whenever certain actions are performed. For example, you can configure a webhook to execute when:
 
@@ -67,7 +67,6 @@ Configure webhooks to trigger immediate reindex of your repositories from remote
     </div>
     </div>
 </div>
-<br>
 
 The **Secret Key** is a secure random-generated alphanumeric string at the time of the Git Integration for Jira app installation. The user can change this to a different value by generating another secret token according to your Git host.
 

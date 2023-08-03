@@ -15,10 +15,7 @@ Navigate to Git integration for Jira (sidebar) ➜ **General settings** to acces
 
 **Max commit age**  –  Set a limit (in days) for Smart commit processing. Commits older than the _Max commit age_ can be associated to the Jira issue but any Smart commit commands will not be processed. This protects against cases where old commits are merged into a new repository.
 
-<p>&nbsp;</p>
-
-<br>
-<br>
+&nbsp;
 
 [**Prev:** Smart commits helper](/git-integration-for-jira-data-center/smart-commits-helper-gij-self-managed)
 

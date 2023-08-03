@@ -22,7 +22,7 @@ To configure GitHub organization webhook:
 
 4.  Paste the webhook URL into the _**Payload URL**_ field. (The webhook URL is acquired from the Git Integration for Jira app [webhook configuration page](/git-integrationn-for-jira-data-center/webhooks-gij-self-managed).)
 
-5.  <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT!</b>  For the **Content type**, choose **applications/json**.
+5.  <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT!</b>  For the <b>Content type</b>, choose `applications/json`.
 
 6.  Enter the **Secret key** on the _**Secret**_ field.
 
@@ -30,9 +30,9 @@ To configure GitHub organization webhook:
 
 8.  Click **Add webhook** to complete this setup.
 
-<br>
+&nbsp;
 
-## More related articles about webhooks setup
+### More related articles about webhooks setup
 
 [Creating reindex triggers for a single repository](/git-integration-for-jira-data-center/Creating-reindex-triggers-for-a-single-repository-gij-self-managed)
 
