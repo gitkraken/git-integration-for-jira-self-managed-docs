@@ -69,8 +69,6 @@ If you think that the Git indexes are corrupt and needed to be completely rebuil
 
 3.  Enable Git Integration for Jira app.
 
-<br>
-
 On the next startup, the app will create the above folders again.
 
 <div class="bbb-callout bbb--alert">

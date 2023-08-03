@@ -26,9 +26,9 @@ Use the FAQ below to find answers to common questions. Feel free to contact our
 
 Open an issue in your browser and click on the **Git Commits** tab.
 
-<img src='/wp-content/uploads/gij-gitserver-jira-issue-activity-workspace-faq.png' style='max-width:100%;margin:25px auto 0px auto;' />
+![](/wp-content/uploads/gij-gitserver-jira-issue-activity-workspace-faq.png)
 
-<p style='text-align:center;'><i>See all Git commits associated with an issue in Jira</i></p>
+<div align=center style='margin-top:12px;margin-bottom:30px;'><i>See all Git commits associated with an issue in Jira</i></div>
 
 If the tab says that no Git log entries have been found, then work has not yet started on the ticket.
 
@@ -60,9 +60,9 @@ Open the project summary in your browser and click on the **Git Commits** tab.
 
 All changes in all issues will be present. If you use the "Version" tagging feature of Jira, you can filter the changes by version.
 
-<img src='/wp-content/uploads/gij-gitserver-proj-git-commits-all-versions.png' style='max-width:100%;margin:25px auto 0 auto;' />
+![](/wp-content/uploads/gij-gitserver-proj-git-commits-all-versions.png)
 
-<p style='text-align:center;'><i>See all Git commits associated with a version tag in Jira.</i></p>
+<div align=center style='margin-top:12px;margin-bottom:30px;'><i>See all Git commits associated with a version tag in Jira.</i></div>
 
 #### The git commits are not showing on the Jira Activity Stream. Why?
 

@@ -51,9 +51,8 @@ In other words, the plugin must point to a clone of the repository and this clon
 
 ![](/wp-content/uploads/gij-faq-git-repo-advanced-screen.png)
 
-<br>
 
-## How do you configure the Repository Root which is not located in a Jira home directory with Git Integration for Jira?
+#### How do you configure the Repository Root which is not located in a Jira home directory with Git Integration for Jira?
 
 There are three possible ways to do this:
 
@@ -63,18 +62,18 @@ There are three possible ways to do this:
 
 *   You could symlink the `{$Jira_HOME}/data/git-plugin` directory to a different volume. The standard **Connect to Git Repository Wizard** will still write there, but the data will reside on the different volume. But be aware, that the Git Integration for Jira app treats anything in the Git-Plugin folder as a clone that it owns.
 
-## I get the following error: "Host or port specified in \<git\_repository\_url\> are inaccessible". Do I also need a git instance on the Jira server?
+#### I get the following error: "Host or port specified in \<git\_repository\_url\> are inaccessible". Do I also need a git instance on the Jira server?
 
 If your Jira and Git servers are running through a firewall, configure the firewall to allow access using the URL schemes for git repositories. For authentication issues, make sure to check first the correct port for its connection.
 
 Below are the default ports for common git URL protocols:
 
 | Protocol | Default port |
-| :--- | :--- |
-| ssh:// | 22  |
-| git:// | 9418 |
-| http:// | 80  |
-| https:// | 443 |
+| :------- | :----------- |
+| ssh://   | 22           |
+| git://   | 9418         |
+| http://  | 80           |
+| https:// | 443          |
 
 
 Test git connection and repository URL by doing the following:
