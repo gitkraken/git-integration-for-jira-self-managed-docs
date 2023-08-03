@@ -59,11 +59,11 @@ Annotated tags can contain a message, author and date different than the commit 
 
 The git tag is displayed on the right sidebar if it is enabled in the [General Settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed) of the Git Integration app ➜ `Calculate and show Git tags in Git Source Code panel`.
 
-<img src='/wp-content/uploads/gij-dev-panel-git-tags-gen-cfg-setting.png' width=550 height=68 style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-dev-panel-git-tags-gen-cfg-setting.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 This feature is disabled by default for existing integrations and is automatically enabled for new integrations.
 
-<img src='/wp-content/uploads/gij-git-tags-example.png width=134 height=132 style='display:block;margin:25px auto;'/>
+<img src='/wp-content/uploads/gij-git-tags-example.png' style='margin:25px auto;max-width:100%;display:block;'/>
 
 The Git Integration for Jira app will show the last 3 and first tags if no filter is set. If the filter is set, the Git Integration for Jira app will use it and will display the tags sorted in ascending order by date.
 
@@ -108,7 +108,7 @@ If there are several git tags listed, click the **more...** label link to expa
 
 ### Tag information
 
-<img src='/wp-content/uploads/gij-gitserver-git-tags-hover.png' width=334 height=221 style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitserver-git-tags-hover.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 Move the mouse pointer over the tag to display the following tooltip information:
 

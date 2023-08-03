@@ -36,13 +36,20 @@ taxonomy:
 
 The Issue Git integration panel displays:
 
-*   **Git Commits:** number of commits and link to [Git Commits Issue Tab](/git-integration-for-jira-data-center/git-commits-tab-gij-self-managed), link to [Git Roll Up Issue Tab](/git-integration-for-jira-data-center/git-roll-up-tab-docs-gij-self-managed).
-
-*   **Branches:** Create branch function, list of branches associated to Jira issue (Jira issue key must be in branch title).<br><b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW v4.17+</b> The main branch can now be displayed in the Branches list. This is controlled [enabling/disabling this General setting](/git-integration-for-jira-data-center/git-integration-features-gij-self-managed/#issue-git-integration-panel) under Issue Git integration panel.
-
-*   **Pull/Merge Requests:** Create pull/merge request function, list of pull/merge requests associated to Jira issue (Jira issue key must be in PR/MR title), status of pull/merge request
-
-*   **Tags:** git tags associated to Jira issue (via associated commit). Tags are sometimes referred to as Releases in some products.
+<ul>
+    <li>
+        <b>Git Commits:</b> number of commits and link to <a href='/git-integration-for-jira-data-center/git-commits-tab-gij-self-managed'>Git Commits Issue Tab</a>, link to <a href='/git-integration-for-jira-data-center/git-roll-up-tab-docs-gij-self-managed'>Git Roll Up Issue Tab</a>.
+    </li>
+    <li>
+        <b>Branches:</b> Create branch function, list of branches associated to Jira issue (Jira issue key must be in branch title).<br><b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW v4.17+</b> The main branch can now be displayed in the Branches list. This is controlled by <a href='/git-integration-for-jira-data-center/git-integration-features-gij-self-managed/#issue-git-integration-panel'>enabling/disabling this General setting</a> under Issue Git integration panel.
+    </li>
+    <li>
+        <b>Pull/Merge Requests:</b> Create pull/merge request function, list of pull/merge requests associated to Jira issue (Jira issue key must be in PR/MR title), status of pull/merge request
+    </li>
+    <li>
+        <b>Tags:</b> git tags associated to Jira issue (via associated commit). Tags are sometimes referred to as Releases in some products.
+    </li>
+</ul>
 
 ![](/wp-content/uploads/gij-gitserver-git-integration-panel-view-417.png)
 
