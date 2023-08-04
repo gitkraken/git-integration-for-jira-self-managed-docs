@@ -60,7 +60,7 @@ Verify that configured integrations and repositories in the **Manage Git reposit
         <b>Pros:</b><br>
         Easy for migration.<br><br>
         <b>Cons:</b><br>
-        <ul>
+        <ul style='margin-bottom:0px;'>
             <li>You will have to set up all your repository settings again (including mapping to projects and repository watchers.</li>
             <li>Users are required to re-setup their PATs after upgrade/migration.</li>
             <li>Afterwards, do a full reindexing for all your repositories.</li>

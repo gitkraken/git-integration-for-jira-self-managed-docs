@@ -11,11 +11,9 @@ Welcome to the Git Integration for Jira app REST API reference page index.
 
 On this page, you will find the list of available REST APIs supported by the Git Integration for Jira app.  Click on a topic title to view its content or search through the related topics.
 
-<br>
-<br>
+&nbsp;
 <hr>
-<br>
-<br>
+&nbsp;
 
 <img src='/wp-content/uploads/gij-bbb-bulkchg-icon.png' width=52 height=39 />
 
@@ -29,11 +27,9 @@ The bulk change API extends the possibility of importing and exporting repositor
 
 [Getting Bulk Import Information](/git-integration-for-jira-data-center/get-bulk-import-information-gij-self-managed)  –  Obtains information about the importing thread.
 
-<br>
-<br>
+&nbsp;
 <hr>
-<br>
-<br>
+&nbsp;
 
 <img src='/wp-content/uploads/gij-bbb-repoapi-icon.png' width=48 height=48 />
 
@@ -49,11 +45,9 @@ The repository REST API allows query of the project repository list; as well as 
 
 *   [Delete Existing Repository](/git-integration-for-jira-data-center/delete-existing-repository-gij-self-managed)  –  Deletes the existing repository from the Git Integration app repository configuration.
 
-<br>
-<br>
+&nbsp;
 <hr>
-<br>
-<br>
+&nbsp;
 
 <img src='/wp-content/uploads/gij-bbb-reindexapi-icon.png' width=57 height=48 />
 
@@ -65,11 +59,9 @@ Call the Reindex REST API to have more control on indexing.
 
 *   [Reindex GET](/git-integration-for-jira-data-center/reindex-get-api-gij-self-managed)  –  Use this method to track messages for a particular thread.
 
-<br>
-<br>
+&nbsp;
 <hr>
-<br>
-<br>
+&nbsp;
 
 <img src='/wp-content/uploads/gij-bbb-commitsapi-icon.png' width=49 height=48 />
 
@@ -83,11 +75,9 @@ Call the Reindex REST API to have more control on indexing.
 
 *   [Update Commit Issue Changes](/git-integration-for-jira-data-center/update-commit-issue-changes-gij-self-managed) - Updates the list of issues associated with the commit to the specified repository.
 
-<br>
-<br>
+&nbsp;
 <hr>
-<br>
-<br>
+&nbsp;
 
 <img src='/wp-content/uploads/gij-bbb-branchesapi-icon.png' width=52 height=48 />
 
@@ -95,11 +85,9 @@ Call the Reindex REST API to have more control on indexing.
 
 Gets list of branches associated to a Jira issue.
 
-<br>
-<br>
+&nbsp;
 <hr>
-<br>
-<br>
+&nbsp;
 
 <img src='/wp-content/uploads/gij-bbb-tagsapi-icon.png' width=56 height=48 />
 
@@ -107,11 +95,9 @@ Gets list of branches associated to a Jira issue.
 
 Returns several latest tags for the issue.  Tags are sorted in chronological order from newest to oldest.
 
-<br>
-<br>
+&nbsp;
 <hr>
-<br>
-<br>
+&nbsp;
 
 <img src='/wp-content/uploads/gij-bbb-repoapi-icon.png' width=48 height=48 />
 

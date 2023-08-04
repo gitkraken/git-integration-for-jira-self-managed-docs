@@ -20,8 +20,6 @@ Updates the existing repository from the given settings.
     </div>
 </div>
 
-&nbsp;
-
 ### url
 `/rest/gitplugin/1.0/repository`
 
@@ -72,13 +70,13 @@ The Request body is a _JSON_ structure similar to the [Add New Repository API
 &nbsp;
 
 ### Response
-
 Updates the newly changed parameters to the selected repository.
 
 **Example:**<br>
 `http://jira.yourorg.com/rest/gitplugin/1.0/repository.json`
 
 Request body (JSON) example:
+
 ```json
 {
   "id": 3,

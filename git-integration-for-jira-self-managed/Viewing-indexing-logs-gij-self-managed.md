@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-Click <img src='/wp-content/uploads/actions-icon.png' />&nbsp; Actions ➜ **View log** for the selected integration or repository on the manage repositories configuration list.
+Click <img src='/wp-content/uploads/actions-icon.png' />&nbsp; Actions ➜ <b>View log</b> for the selected integration or repository on the manage repositories configuration list.
 
 <img src='/wp-content/uploads/gij-gitserver-view-logs-actions.png' style='display:block;margin:25px auto;max-width:100%' />
 

@@ -22,7 +22,7 @@ taxonomy:
 
 This setting allows administrators to configure duration of jobs and the GC checkers.
 
-<img src='/wp-content/uploads/gij-gitserver-gencfg-scheduler-jobs.png' style='display:block;margin:25px auto;max-width:100%;' />
+<img src='/wp-content/uploads/gij-gitserver-gencfg-scheduler-jobs.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 Scheduling jobs gives administrators control over when jobs run. These jobs can be scheduled in two ways:
 

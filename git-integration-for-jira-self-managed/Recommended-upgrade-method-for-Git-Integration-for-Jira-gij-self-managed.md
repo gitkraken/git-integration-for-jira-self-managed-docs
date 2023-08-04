@@ -75,7 +75,7 @@ Make sure to do a backup of the Git repositories connection configuration.
 
 &nbsp;
 
-### Unisntall \| Reinstall (Not recommended)
+### Unisntall or Reinstall (Not recommended)
 
 Another option is to completely uninstall then reinstall the Git for Jira app. However, this will result in Jira running on a clean state:
 

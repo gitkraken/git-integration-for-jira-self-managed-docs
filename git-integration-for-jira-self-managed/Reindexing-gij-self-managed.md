@@ -31,7 +31,7 @@ There are two ways to do this:
 
 1.  To start update of all repositories, go to the **Git Integration for Jira** app git configuration page then click the **Indexing** dropdown. Choose to **Reindex all integrations** or **Reset all indexes**. Once synchronization is started, the progress will be displayed on this page.
 
-2.  If a specific repository or integration needs to be synchronized, click the <img src='/wp-content/uploads/actions-icon.png' /> **Actions** icon then **Reindex**.
+2.  If a specific repository or integration needs to be synchronized, click the ![](/wp-content/uploads/actions-icon.png) **Actions** icon then **Reindex**.
 
 <div class="bbb-callout bbb--basic">
     <div class="irow">
@@ -99,7 +99,7 @@ The Git Integration for Jira app stores the ID of the last indexed commit for ea
 
 ![](/wp-content/uploads/gij-gitserver-gitmgr-actions-reset-index.png)
 
-On the Manage git repositories page, click <img src='/wp-content/uploads/actions-icon.png' /> **Actions** then **Reset index** to reset the _**Last**_ _**Indexed**_ date. Perform this process whenever the Git Integration for Jira app is updated or re-installed.
+On the Manage git repositories page, click ![](/wp-content/uploads/actions-icon.png) **Actions** then **Reset index** to reset the _**Last**_ _**Indexed**_ date. Perform this process whenever the Git Integration for Jira app is updated or re-installed.
 
 &nbsp;
 
@@ -131,8 +131,6 @@ Starting v3.6+ of the Git Integration for Jira app, indexer will show an error m
 #### Jira Server/Data Center
 
 <img src='/wp-content/uploads/gij-git-server-indexing-error-sample.png' width=442 height=131 style='display:block;margin:25px auto;max-width:100%' />
-
-<br>
 
 <div class="bbb-callout bbb--info">
     <div class="irow">

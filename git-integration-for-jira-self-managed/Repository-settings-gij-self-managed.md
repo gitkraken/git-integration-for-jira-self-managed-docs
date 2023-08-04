@@ -33,9 +33,9 @@ taxonomy:
 
 <img src='/wp-content/uploads/gij-gitserver-gencfg-repo-max-open-pack-files.png' style='display:block;max-width:100%;margin:25px auto' />
 
-<br>
+&nbsp;
 
-## Max open pack files count
+### Max open pack files count
 
 Set the maximum number of open files the Git Integration for Jira app uses. For new Git Integration for Jira app install or upgrade, the default value is **16**. This is the **recommended** value.
 
