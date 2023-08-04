@@ -76,7 +76,7 @@ If the [Require User PAT option](/git-integration-for-jira-data-center/require
     </div>
     <div class="imsgbox">
         If an invalid PAT was configured for the selected repository, the pull/merge request creation process will fail.
-        <div class='nextpara' style='margin-bottom:0px'>
+        <div style='margin-top:5px;margin-bottom:-10px'>
             This feature is available on connected GitLab1 and GitHub2 git hosts for Jira Server; GitLab, GitHub, Microsoft TFS/VSTS and AWS CodeCommit git hosts for Jira Cloud.
         </div>
     </div>

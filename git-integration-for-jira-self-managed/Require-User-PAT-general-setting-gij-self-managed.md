@@ -37,7 +37,7 @@ taxonomy:
     <div class="imsgbox">
         <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 3.8.1</b><br>
         Git Integration for Jira adds three new settings in the General settings configuration page:
-        <ul>
+        <ul style='margin-bottom:0px;'>
             <li>Repository Browser</li>
             <li>Source Code Diff Viewing</li>
             <li>Require user personal access tokens for branch and PR/MR creation (this page)</li>
@@ -45,29 +45,22 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
-<img src='/wp-content/uploads/gij-gitserver-gencfg-req-pat-tokens.png' style='display:block;margin:25px auto;max-width:100%' />
-
-<br>
+<img src='/wp-content/uploads/gij-gitserver-gencfg-req-pat-tokens.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 When enabled, this setting requires Jira users to configure personal access tokens to allow them to create branches or pull requests from Jira.
 
-<img src='/wp-content/uploads/gij-gitserver-create-pullreq-dlg-reqPAT.png' style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitserver-create-pullreq-dlg-reqPAT.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-<img src='/wp-content/uploads/gij-gitserver-create-branch-req-user-pat-enabled-aws.png' style='display:block;margin:25px auto;max-width:100%' />
-
-<br>
+<img src='/wp-content/uploads/gij-gitserver-create-branch-req-user-pat-enabled-aws.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 The default setting is `Disabled` for new and existing Git Integration for Jira app installations. This setting is retained on restore/upgrade of the app.
 
 If this setting is enabled (_checked_) in General settings, the users are required to setup personal access tokens for the connected repository and to be able to create branches and PR/MR from Jira. This general setting will override the repository and integration settings, regardless if they were set to `OFF`.
 
-<br>
+&nbsp;
 
-<p>&nbsp;</p>
-
-## More on general settings
+### More on general settings
 
 [Repository Browser general setting](/git-integration-for-jira-data-center/repository-Browser-general-setting-gij-self-managed)
 

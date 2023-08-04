@@ -9,7 +9,7 @@ taxonomy:
 
 This page contains a list of troubleshooting articles, workarounds and solutions to common issues while using Git Integration for Jira Server/Data Center app.
 
-<p>&nbsp;</p>
+&nbsp;
 
 ### REPOSITORY / INTEGRATION
 
@@ -69,5 +69,5 @@ This page contains a list of troubleshooting articles, workarounds and solutions
 
 [Unexpected exception parsing XML document from URL error in log](/git-integration-for-jira-data-center/Unexpected-exception-parsing-XML-document-from-URL-error-in-log-gij-self-managed)
 
-<p>&nbsp;</p>
+&nbsp;
 

@@ -9,7 +9,7 @@ taxonomy:
 
 <!-- HOW TO ARTICLES -->
 
-## Introduction
+### Introduction
 
 By default - integrations (GitLab, GitHub, etc) and individual repositories are associated with all Jira projects. Jira administrators can limit which Jira projects are associated to integrations or individual repositories.
 
@@ -35,7 +35,6 @@ By default - integrations (GitLab, GitHub, etc) and individual repositories are 
     </div>
     </div>
 </div>
-<br>
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -47,9 +46,10 @@ By default - integrations (GitLab, GitHub, etc) and individual repositories are 
     </div>
     </div>
 </div>
-<br>
 
-## Instructions for integrations (GitLab, GitHub, etc)
+&nbsp;
+
+### Instructions for integrations (GitLab, GitHub, etc)
 
 To limit which Jira projects are associated with an integration's repositories:
 
@@ -65,8 +65,7 @@ To limit which Jira projects are associated with an integration's repositories:
 
 6.  Click **Update.**
 
-<br>
-
+&nbsp;
 ### Video Example 1: Setting project permissions for an existing GitLab integration
 
 <div class='embed-container' style='padding-bottom:75.21%'>
@@ -76,6 +75,8 @@ To limit which Jira projects are associated with an integration's repositories:
 <div align='center' style='margin-top:10px'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/rnm5t639cz'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
+
+&nbsp;
 
 ### Video Example 2: Setting project permissions at the repository level for an existing GitLab integration
 
@@ -87,9 +88,9 @@ To limit which Jira projects are associated with an integration's repositories:
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/fder2qnpgw'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## Instructions for individual repositories
+### Instructions for individual repositories
 
 To limit which Jira projects are associated for individual repositories:
 
@@ -105,6 +106,7 @@ To limit which Jira projects are associated for individual repositories:
 
 6.  Click **Update.**
 
+&nbsp;
 
 ### Video Example: Setting project permissions for a repository
 
@@ -116,9 +118,9 @@ To limit which Jira projects are associated for individual repositories:
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/xvzj32nxou'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More How-to articles
+### More How-to articles
 
 [How to get a quote?](/git-integration-for-jira-data-center/how-to-get-a-quote-gij-self-managed/)
 

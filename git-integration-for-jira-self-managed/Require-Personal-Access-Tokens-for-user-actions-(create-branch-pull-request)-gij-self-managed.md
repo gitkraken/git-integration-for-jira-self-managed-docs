@@ -127,7 +127,7 @@ Jira users can now provide their own PATS on the **Create branches** and **Creat
 
 &nbsp;
 
-## More How-to articles
+### More How-to articles
 
 [How to get a quote?](/git-integration-for-jira-data-center/how-to-get-a-quote-gij-self-managed/)
 

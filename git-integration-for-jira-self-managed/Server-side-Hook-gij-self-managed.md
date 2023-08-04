@@ -28,7 +28,7 @@ The **pre-receive** server-side hook requires git administrators to:
     </div>
     <div class="imsgbox">
         The <b>PROJECT_KEYS</b> setting defines an array of project keys which is compared to a ticket key from the commit message. When Jira is not available, the hook simply checks the commit message if it contains the string pattern satisfying its declared conditions.<br>
-        <div>
+        <div style='margin-bottom:-10px;'>
             <b>Pattern example:</b><br>
             <code>(PROJECT_KEY1|PROJECT_KEY2|...)-\d+</code>
         </div>
@@ -79,14 +79,14 @@ JIRA_PASSWORD = 'password'
 
 PROJECT_KEYS = ['EXAMPLE', 'EXAMPLE']
 
-NO_JIRA_TICKET_MESSAGE = \\
-'No Jira ticket present in the commit message. \\
+NO_JIRA_TICKET_MESSAGE = \\\\
+'No Jira ticket present in the commit message. \\\\
 Please include the Jira ticket key.'
-INVALID_JIRA_TICKET_MESSAGE = \\
-'Proper Jira ticket syntax was found, but none were valid tickets. \\
+INVALID_JIRA_TICKET_MESSAGE = \\\\
+'Proper Jira ticket syntax was found, but none were valid tickets. \\\\
 Please check the tickets and try again.'
-INVALID_ISSUE_TYPE_MESSAGE = \\
-'You may not commit against subtasks or task-splits. \\
+INVALID_ISSUE_TYPE_MESSAGE = \\\\
+'You may not commit against subtasks or task-splits. \\\\
 Please commit against the parent ticket.'
 
 FAULT_MSG_ISSUE_NOT_FOUND = 'com.atlassian.jira.rpc.exception.RemotePermissionException'

@@ -22,7 +22,6 @@ This page is about how to configure/allocate memory to Jira to accommodate large
     </div>
     </div>
 </div>
-<br>
 
 The Git Integration for Jira app uses the JGit library ([https://www.eclipse.org/jgit/](https://www.eclipse.org/jgit/)) to read git repositories. This library loads all index files into the memory. In our experience, it consumes memory about twice more than the size (in bytes) of these files. These indexes are internal structures of the git database and contain information about all objects in the git database.
 
@@ -39,13 +38,12 @@ The JGit library implementation loads all indexes into the memory to simplify an
     </div>
     </div>
 </div>
-<br>
 
 When you connect several repositories, the required memory will be the sum of the required memory for each repository. Fortunately, that 4x memory in the peaks is required only for the biggest repository because Git GC is performed on a per-repository basis and only in one repository at a time.
 
 For troubleshooting out of memory errors related to this issue, see [Avoid OutOfMemory exceptions by configuring or memory allocation with Jira to accommodate large repositories](/git-integration-for-jira-data-center/avoid-outofmemory-exceptions-by-configuring-or-memory-allocation-with-jira-to-accommodate-large-repositories-gij-self-managed).
 
-<p>&nbsp;</p>
+&nbsp;
 
 ## More related Administration articles
 

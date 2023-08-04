@@ -57,7 +57,7 @@ Available git repositories of configured projects are displayed.
 
 *   On the list table, you will see git repositories, recent issues updated by the user, and the last commits made.
 
-*   The personal access token configuration column (_Pers. Access_) displays the PAT setup option if require user pat setting is enabled). Click the <img src='/wp-content/uploads/gij-edit-icon-dark.png' /> edit icon to setup PAT to allow branch and PR/MR creation functions via [Jira Git integration development panel](/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed). The adjacent checkmark indicates a PAT has already been configured.
+*   The personal access token configuration column (_Pers. Access_) displays the PAT setup option (if require user pat setting is enabled). Click the ![](/wp-content/uploads/gij-edit-icon-dark.png) edit icon to setup PAT to allow branch and PR/MR creation functions via [Jira Git integration development panel](/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed). The adjacent checkmark indicates a PAT has already been configured.
 
 *   On the bottom left of the list, the view options control how many rows the list will display. The default view is 10 rows. Larger row view affects page loading time.
 
@@ -69,7 +69,7 @@ Available git repositories of configured projects are displayed.
 
 Click a git repository under Git repository column to browse its contents and switch to repository view. For example:
 
-<img src='/wp-content/uploads/gij-repo-browser-repo-view-c.png' style='display:block;margin:25px auto;max-width:100%' />
+![](/wp-content/uploads/gij-repo-browser-repo-view-c.png)
 
 *   Clicking **Repositories** at the top right of the screen will open the git app repositories page.
 

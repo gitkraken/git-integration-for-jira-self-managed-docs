@@ -18,7 +18,6 @@ taxonomy:
     </div>
 </div>
 
-
 <div class="bbb-callout bbb--info">
     <div class="irow">
     <div class="ilogobox">
@@ -46,11 +45,8 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
-<img src='/wp-content/uploads/gij-gitserver-gencfg-repo-browser.png' alt='Repository browser setting in General settings (enabled checked)' style='display:block;margin:25px auto;max-width:100%' />
-
-<br>
+<img src='/wp-content/uploads/gij-gitserver-gencfg-repo-browser.png' alt='Repository browser setting in General settings (enabled checked)' style='margin:25px auto;max-width:100%;display:block;' />
 
 The [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed) allows users to view git repositories of configured projects.
 
@@ -60,9 +56,9 @@ If this setting is disabled (_unchecked_) in General settings, the **Git** dashb
 
 * * *
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More on general settings
+### More on general settings
 
 **Repository Browser general setting** (this page)
 
