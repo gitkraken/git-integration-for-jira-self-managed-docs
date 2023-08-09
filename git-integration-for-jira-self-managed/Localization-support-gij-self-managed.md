@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 Starting **v2.6.25+** of the Git Integration for Jira app, unicode characters are now supported and displayed properly.
 
 The following language localization for this app are available:
@@ -30,7 +31,7 @@ To switch to another language:
 
 1.  Go to your **User Profile**.
 
-2.  Under **Preferences**, click the <img src='/wp-content/uploads/gij-edit-icon-dark.png' width=20 height=20 style='margin:0 3px' /> icon.
+2.  Under **Preferences**, click the ![](/wp-content/uploads/gij-edit-icon-dark.png) icon.
 
 3.  On the **Update User Preferences** screen, select one of the supported language from the list.
 

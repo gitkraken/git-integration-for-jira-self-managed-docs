@@ -28,7 +28,7 @@ The database tables are described in the table below:
 | AO\_8BA09E\_USERS\_PATS | This table contains users' personal access tokens. |
 | AO\_8BA09E\_WEB\_HOOK\_ENTRY | This table contains a secret key of the reindex webhook. It contains only one record. |
 
-<br>
+&nbsp;
 
 **The following pull request tables are deprecated:**
 
@@ -39,9 +39,7 @@ The database tables are described in the table below:
 | AO\_8BA09E\_REVIEW\_COMMENT | We don't use it any more. But, Atlassian advised not to delete tables. |
 | AO\_8BA09E\_REVIEW\_COMMENT\_V2 | This table contains comments to the pull requests. |
 
-<br>
-
-<p>&nbsp;</p>
+&nbsp;
 
 ## More related Administration articles
 

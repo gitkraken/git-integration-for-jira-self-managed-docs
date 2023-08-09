@@ -30,7 +30,7 @@ GET
 
 ### parameters
 
-| Paramater | Condition |
+| Field | Description |
 | :--- | :--- |
 | _**integrationId**_ | _Integer_. Required.<br><br>This is the ID of the existing integration. For example, `/integration/2`. |
 

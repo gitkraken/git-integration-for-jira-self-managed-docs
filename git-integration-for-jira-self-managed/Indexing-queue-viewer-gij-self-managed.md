@@ -11,7 +11,7 @@ taxonomy:
 
 ![](/wp-content/uploads/gij-gitserver-gitmgr-indexing-queue-viewer-new.png)
 
-## Introduction
+### Introduction
 
 Indexing is a very large part of Git Integration for Jira app. This indexing feature displays various task entries, allowing you to easily view upcoming and ongoing tasks such as repository indexing and garbage collection.
 
@@ -25,7 +25,7 @@ The Indexing queue viewer displays detailed information such as:
 *   ID of the task
 *   on which node the indexing was processed <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>DATA CENTER</b>
 
-## Highlights
+### Highlights
 
 Offering ease of use and scope of features, the Indexing queue viewer:
 
@@ -35,13 +35,13 @@ Offering ease of use and scope of features, the Indexing queue viewer:
 
 *   allows users to see which tasks are in the queue, find specific tasks by history, and filter tasks by specific parameters.
 
-## Access location
+### Access location
 
 This feature can be accessed via the Jira dashboard menu Git ➜ Indexing queue.
 
 ![](/wp-content/uploads/gij-gitserver-indexing-queue-mgr-loc-01.png)
 
-## Indexing queue dashboard
+### Indexing queue dashboard
 
 ![](/wp-content/uploads/gij-gitserver-indexing-queue-viewer-dashboard.png)
 
@@ -55,7 +55,7 @@ To the right of the dashboard is the Settings view panel. which shows informatio
 
 Click **Edit** to go directly to the General settings page.
 
-## Filters and search
+### Filters and search
 
 Just below the dashboard are controls for view filters. This section allow users to control which information is displayed on the screen.
 
@@ -74,7 +74,7 @@ These includes:
     *   For ‘_**repository: Name**_’ -- this is a name comprising a group and a repository name.
     *   For '_**integration: Name**_' -- this is the name of the connected integration.
 
-### Filter: Status
+#### Filter: Status
 
 ![](/wp-content/uploads/gij-gitserver-indexing-queue-viewer-status-all.png)
 
@@ -90,7 +90,7 @@ Filter the task list by clicking on the **Status** dropdown and selecting a cate
 
 *   **Error** -- Displays tasks having <b style='background-color:#FFEBE6; padding:1px 5px; color:#C02909; border-radius:3px; margin: 0 5px; font-size: small;'>ERROR</b> status. This indicates that the indexing task has encountered an error. Go to **...** Actions ➜ **View log** to see the error(s).
 
-### Filter: Trigger
+#### Filter: Trigger
 
 ![](/wp-content/uploads/gij-gitserver-indexing-queue-viewer-trigger-all.png)
 
@@ -126,7 +126,7 @@ Filters the task list by clicking on the **Trigger** dropdown and selecting a ca
 
 *   **Initial indexing** -- Displays tasks triggered by initial indexing. Initial indexing is performed by the Git Integration for Jira app on the first successful connection of the git service integration.
 
-### Filter: Type of operation
+#### Filter: Type of operation
 
 ![](/wp-content/uploads/gij-gitserver-indexing-queue-viewer-reindex-type-ops.png)
 
@@ -140,7 +140,7 @@ Filters the view by clicking on the **Type of operation** dropdown and selecting
 
 *   **Remove repository** –- Displays tasks related to removal of a repository.
 
-### Filter: Node
+#### Filter: Node
 
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>DATA CENTER</b>
 
@@ -152,7 +152,7 @@ Filters the view by clicking on the **Node** dropdown and selecting a category:
 
 *   **Node\[1…\] - Node\[n\]** –- Displays tasks and data only for the specified node in the cluster.
 
-### Using search to filter specific items to view
+#### Using search to filter specific items to view
 
 To the right of the view filter options, users can use the search bar to query for specific tasks and the indexing list view will be updated accordingly. Note that filtering by name is case-sensitive.
 
@@ -166,9 +166,10 @@ To the right of the view filter options, users can use the search bar to query f
     </div>
     </div>
 </div>
-<br>
 
-## Sorting
+&nbsp;
+
+### Sorting
 
 Sorting allows users to arrange tasks by categories such as status, trigger, and type of operation.
 
@@ -211,15 +212,16 @@ The default sort order applies the following rule:
         <b>Summary of the sorting order</b><br>
         <ol style='margin-bottom:0px !important'>
             <li>The first few rows are tasks being currently processed and sorted by <b>Start time</b> in <u>ascending</u> order.</li>
-            <li>Then, the queued tasks which are sorted in the order –  they will be processed from the queue.</li>
+            <li>Then, the queued tasks which are sorted in the order – they will be processed from the queue.</li>
             <li>And the last rows – are completed tasks sorted by <b>Finish time</b> in <u>descending</u> order.</li>
         </ol>
     </div>
     </div>
 </div>
-<br>
 
-## Viewing logs
+&nbsp;
+
+### Viewing logs
 
 ![](/wp-content/uploads/gij-gitserver-indexing-queue-viewer-actions-menu.png)
 
@@ -227,9 +229,9 @@ The ‘indexing status’ is displayed in the indexing log dialog that appears d
 
 ![](/wp-content/uploads/gij-gitserver-reindex-log-error.png)
 
-For encountered errors when indexing, open the logs via Actions ➜ View log. Copy the message log and submit this to us thru [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com) for analysis. For the above example error, there are several factors that caused this error – the Git service is down, no internet connection, the webhook has changed or the personal access token has expired.
+For encountered errors when indexing, open the logs via Actions ➜ View log. Copy the message log and submit this to us thru [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com) or via [Support portal](/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) for analysis. For the above example error, there are several factors that caused this error – the Git service is down, no internet connection, the webhook has changed or the personal access token has expired.
 
-## Indexing queue list
+### Indexing queue list
 
 On the next indexing run, the finished tasks for some repository are removed from the queue. This is regardless of the reindex trigger whether scheduled, webhook or manual. The max age for old finished tasks is 1 hour (see below).
 
@@ -252,7 +254,6 @@ For removed integrations/repositories., the pending queued tasks related to remo
     </div>
     </div>
 </div>
-<br>
 
 ### View indexing details
 

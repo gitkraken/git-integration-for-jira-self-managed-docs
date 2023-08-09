@@ -11,8 +11,6 @@ The Git Integration for Jira app displays <a href='https://git-scm.com/docs/git-
 
 <img src='/wp-content/uploads/gij-gitserver-dc-git-notes-sample.png' width=557 height=289 style='display:block;margin:25px auto;max-width:100%' />
 
-<br>
-
 For a git repository with several existing commits in it, commit authors can associate issue keys via git notes to these commits without having to edit the commit messages. The Git Integration for Jira app will index issue keys in git notes.
 
 Smart commit actions are also supported in git notes.
@@ -46,7 +44,6 @@ Each commit can only have one git note per namespace. There can be multiple not
     </div>
     </div>
 </div>
-<br>
 
 ```powershell
 git notes add -m 'TST-3 is also fixed' 107af254

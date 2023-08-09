@@ -30,7 +30,7 @@ GET
 
 ### parameters
 
-| Parameter | Description |
+| Field | Description |
 | :--- | :--- |
 | _**projectKey**_ | _**Jira Project key (string)**_. Optional. <br>Query parameter. If omitted, all imported repositories will be returned.<br><br>**Example:**<br>Form param (`projectKey`: **TST**) |
 | _**prHideFilter**_ | _String_. Optional. <br>Displays all pull requests for the specific issue, if left blank. Otherwise, set pull requests matching pattern to hide pull requests on issue pages that match the specified regular expression pattern. |

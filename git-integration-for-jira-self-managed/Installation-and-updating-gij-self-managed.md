@@ -50,7 +50,6 @@ The updating process is demonstrated in two chapters:
 
 &nbsp;
 * * *
-&nbsp;
 
 [**Prev:** Manual installation](/git-integration-for-jira-data-center/manual-installation-gij-self-managed)
 

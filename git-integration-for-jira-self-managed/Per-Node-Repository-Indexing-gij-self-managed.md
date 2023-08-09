@@ -10,8 +10,6 @@ taxonomy:
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>NEW FEATURE</b>
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>DATA CENTER ONLY</b>
 
-<br>
-
 <div class="bbb-callout bbb--tip">
     <div class="irow">
     <div class="ilogobox">
@@ -22,19 +20,21 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
 Large Jira Data Center deployments can be designed to have specific Jira Data Center nodes focusing exclusively on responding to user activity while other nodes focus on other activities (example: responding to API requests). As of version 4.2+, Git Integration for Jira Data Center allows the Jira administrator to designate some or all DC nodes to perform Git indexing.
 
-## New General setting: Per Node Repository Indexing
+&nbsp;
+
+### New General setting: Per Node Repository Indexing
 
 <img src='/wp-content/uploads/gij-gitserver-gencfg-indexing-dc-nodes.png' style='display:block;margin:25px auto;max-width:100%' />
 
-<br>
 
 Set specific dedicated Jira Data Center (DC) nodes to perform Git Integration for Jira indexing jobs. The default setting is set to allow repository reindexing tasks to be performed on all Jira DC nodes.
 
-## Setting specific nodes for repository reindexing
+&nbsp;
+
+### Setting specific nodes for repository reindexing
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -46,17 +46,14 @@ Set specific dedicated Jira Data Center (DC) nodes to perform Git Integration fo
     </div>
     </div>
 </div>
-<br>
 
 Uncheck the **Allow all nodes…** setting to access the drop down list and assign one or more dedicated nodes for repository reindexing tasks.
 
 ![](/wp-content/uploads/gij-gitdc-gencfg-indexing-allow-all-nodes-specific.png)
 
-<br>
-
 The repository reindexing tasks will be performed only on the specified nodes. This mode will reduce the background processing load on the non-selected DC nodes.
 
-## Sample Jira Data Center nodes configuration
+### Sample Jira Data Center nodes configuration
 
 **Example 1:**
 
@@ -90,7 +87,7 @@ Jira API activity and GIJ indexing on specific nodes
 
 <br>
 
-<p>&nbsp;</p>
+&nbsp;
 
 ## More on general settings
 

@@ -54,7 +54,6 @@ The git commit compare function (_Repository Browser - Compare_) is added into t
     </div>
     </div>
 </div>
-<br>
 
 Sort the code statistics by clicking the respective **Sort** button then selecting the required sorting option.
 
@@ -65,8 +64,6 @@ Sort the code statistics by clicking the respective **Sort** button then selec
 Select roll up options by clicking the respective **Rollup** button.
 
 <img src='/wp-content/uploads/gij-git-rollup-02.png' style='margin:25px auto;max-width:100%;display:block;' />
-
-<br>
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
