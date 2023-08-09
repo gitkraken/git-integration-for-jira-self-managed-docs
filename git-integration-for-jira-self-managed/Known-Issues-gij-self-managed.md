@@ -147,7 +147,7 @@ The standard Gerrit "All-Projects", "All-Users" and other parent repositories do
 **WORKAROUND**<br>
 Jira administrators may specify the "`+refs/meta/*:refs/meta/*`" custom refs:
 
-1.  For your connected integration in the Manage Git repositories page, go to &nbsp;<img src='/wp-content/uploads/actions-icon.png' />&nbsp; Actions ➜ **Edit integration connection settings**.
+1.  For your connected integration in the Manage Git repositories page, go to ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit integration connection settings**.
 
 2.  Locate and click **Advanced ❯** (_just below JMESPath or TrustFolderStat option_) to see the _**refspec**_ options.
 

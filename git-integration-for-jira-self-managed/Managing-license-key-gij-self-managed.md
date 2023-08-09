@@ -26,7 +26,9 @@ Log in to your [**My Atlassian Account**](https://my.atlassian.com/) where you
 
 ![](/wp-content/uploads/gij-docs-manage-license-key-my-atlassian-sample-c.png)
 
-Go to the **Git Integration for Jira** app configuration ( <img src='/wp-content/uploads/gij-jira-sys-admin-icon.png' style='margin: 0 3px;' alt='' /> Jira Administration ➜ **Manage apps** ).
+&nbsp;
+
+Go to the **Git Integration for Jira** app configuration ( ![](/wp-content/uploads/gij-jira-sys-admin-icon.png) Jira Administration ➜ **Manage apps** ).
 
 ![](/wp-content/uploads/gij-docs-manage-license-key-update-key-c.png)
 
@@ -51,7 +53,6 @@ Click on the box to enter/change the **License key**.
 
 &nbsp;
 * * *
-&nbsp;
 
 [**Prev:** Installation](/git-integration-for-jira-data-center/installation-gij-self-managed)
 

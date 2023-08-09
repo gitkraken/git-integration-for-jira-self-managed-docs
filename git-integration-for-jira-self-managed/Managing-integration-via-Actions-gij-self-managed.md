@@ -127,9 +127,9 @@ Opens a dialog showing the indexing log of the selected integration. |
 
 The tracked folder and auto-connect integrations can be configured using the following methods:
 
-*   **Integration** _level_  –  Click  <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit integration connection settings**. This will open the settings for the selected integration.
+*   **Integration** _level_  –  Click  ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Edit integration connection settings**. This will open the settings for the selected integration.
 
-*   **Repository** _level_  –  Click  <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Show integration repositories**. Click a repository from the list to open the settings for the selected repository.
+*   **Repository** _level_  –  Click  ![](/wp-content/uploads/actions-icon.png) Actions ➜ **Show integration repositories**. Click a repository from the list to open the settings for the selected repository.
 
 &nbsp;
 

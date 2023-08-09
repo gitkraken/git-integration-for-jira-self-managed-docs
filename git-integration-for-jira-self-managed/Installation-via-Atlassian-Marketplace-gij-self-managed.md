@@ -17,7 +17,6 @@ taxonomy:
 
 &nbsp;
 * * *
-&nbsp;
 
 [**Prev:** Installation (index)](/git-integration-for-jira-data-center/installation-gij-self-amanaged)
 

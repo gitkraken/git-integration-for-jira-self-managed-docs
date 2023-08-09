@@ -28,15 +28,13 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
 <img src='/wp-content/uploads/gij-gitserver-gencfg-git-operations-timeout.png' style='display:block;margin:25px auto;max-width:100%' />
 
-<br>
 
 **Timeout**  –  Set the git operations timeout value in seconds. The default value is **60 seconds**. This setting affects how long will Git Integration for Jira app waits for connections performed during git clone and git fetch.
 
-<p>&nbsp;</p>
+&nbsp;
 
 ## More on general settings
 

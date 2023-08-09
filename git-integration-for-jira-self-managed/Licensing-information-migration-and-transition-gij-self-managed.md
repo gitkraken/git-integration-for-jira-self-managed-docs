@@ -11,31 +11,29 @@ taxonomy:
 
 - [License Types](#license-types)
 - [Product Licenses](#product-licenses)
-  - [Git Integration for Jira Server](#git-integration-for-jira-server)
-    - [How do I determine my server pricing?](#how-do-i-determine-my-server-pricing)
-    - [Do you offer academic, community, or open-source licenses for server apps?](#do-you-offer-academic-community-or-open-source-licenses-for-server-apps)
-    - [Can I extend my free trial?](#can-i-extend-my-free-trial)
-    - [How can I buy apps for my legacy Jira Server or Confluence Server license?](#how-can-i-buy-apps-for-my-legacy-jira-server-or-confluence-server-license)
-  - [Git Integration for Jira Data Center](#git-integration-for-jira-data-center)
-    - [How do I determine my Data Center pricing?](#how-do-i-determine-my-data-center-pricing)
-    - [Do you offer academic, community, or open-source licenses for Data Center apps?](#do-you-offer-academic-community-or-open-source-licenses-for-data-center-apps)
-    - [Can I extend my free trial?](#can-i-extend-my-free-trial-1)
-  - [Git Integration for Jira Cloud](#git-integration-for-jira-cloud)
-    - [How do I determine my cloud pricing?](#how-do-i-determine-my-cloud-pricing)
-    - [Do you offer academic, community, or open-source licenses for cloud apps?](#do-you-offer-academic-community-or-open-source-licenses-for-cloud-apps)
-    - [Can I extend my free trial?](#can-i-extend-my-free-trial-2)
+    - [Git Integration for Jira Server](#git-integration-for-jira-server)
+        - [How do I determine my server pricing?](#how-do-i-determine-my-server-pricing)
+        - [Do you offer academic, community, or open-source licenses for server apps?](#do-you-offer-academic-community-or-open-source-licenses-for-server-apps)
+        - [Can I extend my free trial?](#can-i-extend-my-free-trial)
+        - [How can I buy apps for my legacy Jira Server or Confluence Server license?](#how-can-i-buy-apps-for-my-legacy-jira-server-or-confluence-server-license)
+    - [Git Integration for Jira Data Center](#git-integration-for-jira-data-center)
+        - [How do I determine my Data Center pricing?](#how-do-i-determine-my-data-center-pricing)
+        - [Do you offer academic, community, or open-source licenses for Data Center apps?](#do-you-offer-academic-community-or-open-source-licenses-for-data-center-apps)
+        - [Can I extend my free trial?](#can-i-extend-my-free-trial-1)
+    - [Git Integration for Jira Cloud](#git-integration-for-jira-cloud)
+        - [How do I determine my cloud pricing?](#how-do-i-determine-my-cloud-pricing)
+        - [Do you offer academic, community, or open-source licenses for cloud apps?](#do-you-offer-academic-community-or-open-source-licenses-for-cloud-apps)
+        - [Can I extend my free trial?](#can-i-extend-my-free-trial-2)
 - [Related questions](#related-questions)
-  - [Will the app stop working once it expires?](#will-the-app-stop-working-once-it-expires)
-  - [Are we able to transfer a license from Jira Server to a Jira Cloud instance upon our migration?](#are-we-able-to-transfer-a-license-from-jira-server-to-a-jira-cloud-instance-upon-our-migration)
-  - [If transition is not possible, would it be possible for us to receive a pro rata refund when our migration to Jira Cloud is complete?](#if-transition-is-not-possible-would-it-be-possible-for-us-to-receive-a-pro-rata-refund-when-our-migration-to-jira-cloud-is-complete)
+    - [Will the app stop working once it expires?](#will-the-app-stop-working-once-it-expires)
+    - [Are we able to transfer a license from Jira Server to a Jira Cloud instance upon our migration?](#are-we-able-to-transfer-a-license-from-jira-server-to-a-jira-cloud-instance-upon-our-migration)
+    - [If transition is not possible, would it be possible for us to receive a pro rata refund when our migration to Jira Cloud is complete?](#if-transition-is-not-possible-would-it-be-possible-for-us-to-receive-a-pro-rata-refund-when-our-migration-to-jira-cloud-is-complete)
 
-<br>
-<br>
-<hr>
-<br>
-<br>
+&nbsp;
+* * *
+&nbsp;
 
-## License Types
+### License Types
 
 There are different types of licensing for each Jira instance:
 
@@ -45,6 +43,7 @@ There are different types of licensing for each Jira instance:
 
 *   Git Integration for Jira Cloud - **subscription license** - where the app will only work during the active subscription period.
 
+&nbsp;
 
 ## Product Licenses
 
@@ -66,7 +65,6 @@ If app pricing changes after your initial purchase, there's a 60-day grandfather
     </div>
     </div>
 </div>
-<br>
 
 #### How do I determine my server pricing?
 
@@ -86,7 +84,6 @@ Apps are billed based on the number of users in your Atlassian product:
     </div>
     </div>
 </div>
-<br>
 
 #### Do you offer academic, community, or open-source licenses for server apps?
 
@@ -108,6 +105,8 @@ If you own a legacy Jira Server Unlimited (100+ users) or Confluence Server Unli
 
 
 [Learn more](https://www.atlassian.com/licensing/marketplace)
+
+&nbsp;
 
 ### Git Integration for Jira Data Center
 
@@ -133,7 +132,6 @@ Apps are billed based on the number of users in your Atlassian product:
     </div>
     </div>
 </div>
-<br>
 
 #### Do you offer academic, community, or open-source licenses for Data Center apps?
 
@@ -144,6 +142,8 @@ Community and open-source licenses are not available for Data Center apps. [Lear
 #### Can I extend my free trial?
 
 For Data Center apps, you can extend your app trial up to 5 times - in other words, for up to six months. Extend your trial by generating a new evaluation license key from Atlassian Marketplace. Click **Try it free** and you'll be directed to generate a new license. Paste this license key into the app listing in UPM from your Atlassian product, and you're all set.
+
+&nbsp;
 
 ### Git Integration for Jira Cloud
 
@@ -187,17 +187,19 @@ Yes. Academic, community, and open source licenses are available to qualifying o
 
 For cloud apps, you cannot extend your free evaluation period. All cloud apps are immediately subscribed by a user, and we provide a free evaluation period. This is a minimum of 30 days and ends on the second billing cycle after you first subscribe to the app.
 
-## Related questions
+&nbsp;
 
-### Will the app stop working once it expires?
+### Related questions
+
+#### Will the app stop working once it expires?
 
 As with all Jira Data Center licensing, Git Integration for Jira Data Center is a subscription license. The Git Integration for Data Center app will stop working when the license expires.
 
-### Are we able to transfer a license from Jira Server to a Jira Cloud instance upon our migration?
+#### Are we able to transfer a license from Jira Server to a Jira Cloud instance upon our migration?
 
 Atlassian currently manages all licenses for the Git Integration for Jira app. Currently, Atlassian is licensing each Jira platform separately. If you have any questions, you can contact Atlassian at [advocates@atlassian.com](mailto:advocates@atlassian.com).
 
-### If transition is not possible, would it be possible for us to receive a pro rata refund when our migration to Jira Cloud is complete?
+#### If transition is not possible, would it be possible for us to receive a pro rata refund when our migration to Jira Cloud is complete?
 
 Regarding upgrades/refunds you should contact Atlassian for this, since they treat them all very differently.
 

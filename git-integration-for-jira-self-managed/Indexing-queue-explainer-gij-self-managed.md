@@ -55,7 +55,7 @@ The local Lucene index update scans all branches and traverses all commits in th
 
 The initial indexing of large repositories can take several hours. Subsequent indexing of repositories is generally very fast (seconds). The amount of time required for indexing depends on the number of branches and commits in the repository.
 
-The "Reset index" functionality (<img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Reset index**) is used to re-create or repair the repository Lucene index and causes the GIJ plugin to re-read all commits from all repository branches (like the initial indexing does).
+The "Reset index" functionality (![](/wp-content/uploads/actions-icon.png) Actions ➜ **Reset index**) is used to re-create or repair the repository Lucene index and causes the GIJ plugin to re-read all commits from all repository branches (like the initial indexing does).
 
 &nbsp;
 

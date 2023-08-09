@@ -37,9 +37,7 @@ To manually link a git commit to a Jira issue, access the **Change commit issue
 *   **Git menu** ➜ View all repositories ➜ click a repository with git commits.
 
 
-<img src='/wp-content/uploads/gij-gitserver-view-full-commits-assoc.png' alt='View full commits dialog highlighting the change commit issues function' style='display:block;margin:25px auto;max-width:100%' />
-
-<br>
+![View full commits dialog highlighting the change commit issues function](/wp-content/uploads/gij-gitserver-view-full-commits-assoc.png)
 
 Click the **Change commit issues** label. The following dialog is displayed.
 

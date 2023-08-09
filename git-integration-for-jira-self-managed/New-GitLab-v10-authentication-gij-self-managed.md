@@ -25,8 +25,6 @@ For more information on GitLab personal access token, see [**GitLab: Personal A
 
 &nbsp;
 * * *
-&nbsp;
-
 
 [**Prev:** Setup GitLab Server to respond to incoming network API calls](/git-integration-for-jira-data-center/Setup-GitLab-Server-to-respond-to-incoming-network-API-calls-gij-self-managed)
 

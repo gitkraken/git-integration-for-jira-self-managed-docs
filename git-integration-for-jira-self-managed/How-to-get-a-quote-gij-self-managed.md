@@ -32,9 +32,9 @@ Primarily, click this <a href='https://www.atlassian.com/purchase/addon/com.xipl
 
 For more information on licensing, see [**Licensing Information, Migration and Transition**](/git-integration-for-jira-data-center/licensing-information-migration-and-transition-gij-self-managed).
 
-<p>&nbsp;</p>
+&nbsp;
 
-## More How-to articles
+### More How-to articles
 
 **How to get a quote?** (this page)
 

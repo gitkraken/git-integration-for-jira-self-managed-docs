@@ -43,8 +43,7 @@ If the Git server and Jira server are installed on the same server, only the pat
 </div>
 
 &nbsp;
-<hr>
-&nbsp;
+* * *
 
 [**Prev:** Documentation (index)](/git-integration-for-jira-data-center/documentation-gij-self-managed)
 

@@ -42,10 +42,8 @@ Click **More ▾** to open more options such as:
     </div>
 </div>
 
-<p>&nbsp;</p>
-
-<br>
-<br>
+&nbsp;
+* * *
 
 [**Prev:** Git user identity](/git-integration-for-jira-data-center/git-user-identity-gij-self-managed)
 

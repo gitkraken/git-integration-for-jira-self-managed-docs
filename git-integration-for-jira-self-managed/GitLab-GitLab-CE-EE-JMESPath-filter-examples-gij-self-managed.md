@@ -100,7 +100,6 @@ Lists only repositories from projects that have existing repositories.
 
 &nbsp;
 * * *
-&nbsp;
 
 ## More articles on JMESPath filter examples
 

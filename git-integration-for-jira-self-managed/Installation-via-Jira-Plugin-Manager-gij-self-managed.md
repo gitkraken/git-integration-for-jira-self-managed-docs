@@ -19,7 +19,6 @@ taxonomy:
 
 &nbsp;
 * * *
-&nbsp;
 
 [**Prev:** Installation via Atlassian Marketplace](/git-integration-for-jira-data-center/installation-via-atlassian-marketplace-gij-self-managed)
 

@@ -11,10 +11,9 @@ taxonomy:
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/7kj43knu4m?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center' style='margin-top:10px'>
+<div align='center' style='margin-top:12px;margin-bottom:30px;'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/7kj43knu4m'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
-<br>
 
 Open a Jira issue then go to the Git Commits tab. In this tab, you will see commits, files changed, links to external repository, commit author and more.
 
@@ -34,14 +33,14 @@ The git commit will get associated with the Jira issue if the commit message inc
     </div>
     </div>
 </div>
-<br>
-<br>
+
+&nbsp;
 
 **Git administrator »**
 
 If you want to enforce the commit with a hook, please install this Git commit hook script - [Commit-msg Hook](/git-integration-for-jira-data-center/commit-msg-Hook-gij-self-managed).
 
-## More related articles on integration basics
+### More related articles on integration basics
 
 [Connecting to a git host account via Add new integration panel](/git-integration-for-jira-data-center/connecting-to-a-git-host-account-via-Add-new-integration-panel-gij-self-managed)
 
