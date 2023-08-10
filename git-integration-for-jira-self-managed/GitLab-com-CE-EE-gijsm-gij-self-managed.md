@@ -43,13 +43,24 @@ For GitLab Server service users, they won't see the issue until they upgrade the
     </div>
 </div>
 
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Starting v4.19+, we will be dropping support for GitLab legacy integrations.
+    </div>
+    </div>
+</div>
+
 <div class="bbb-callout bbb--tip">
     <div class="irow">
     <div class="ilogobox">
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        BigBrassBand recommends a dedicated user for this integration which has access permissions to the GitLab git repositories.
+        We recommend a dedicated user for this integration which has access permissions to the GitLab git repositories.
     </div>
     </div>
 </div>

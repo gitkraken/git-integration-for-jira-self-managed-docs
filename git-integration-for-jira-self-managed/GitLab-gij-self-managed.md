@@ -39,6 +39,17 @@ GitLab introduced personal access tokens (PAT) since version 8.8 and now (v10+) 
     </div>
 </div>
 
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Starting v4.19+, we will be dropping support for GitLab legacy integrations.
+    </div>
+    </div>
+</div>
+
 &nbsp;
 
 Quickly learn how to connect GitLab.com git repositories via Git Integration for Jira app.
@@ -160,7 +171,7 @@ We recommend using the Add new integration panel to connect multiple repositori
             Gitlab v9.0 to v9.4.x -- API v4 (support for API v3 is deprecated)
             ```
 
-            ![(info)](/wp-content/uploads/bbb-info-20.png) **Remember:** The GitLab.com API can see all the public projects. For GitLab.com, we recommend using JMESPath over the Custom API path when possible.
+            <img src='/wp-content/uploads/bbb-info-20.png' /> <b>Remember:</b> The GitLab.com API can see all the public projects. For GitLab.com, we recommend using JMESPath over the Custom API path when possible.
 
         *   **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated. The maximum allowed length is 2000 characters or less. Read about JMESPath expressions on their [website](http://jmespath.org/). For help with writing expressions, please contact [support](mailto:gijsupport@gitkraken.com).
 

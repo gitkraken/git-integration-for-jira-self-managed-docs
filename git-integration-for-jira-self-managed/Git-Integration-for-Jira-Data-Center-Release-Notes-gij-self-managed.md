@@ -32,6 +32,7 @@ This workflow improvement is a great addition for developers that are using Visu
 This enables team members to quickly transition between Jira and their code editor without losing context. GitLens deep links are located within Jira issues and the Repository Browser. [View the help article](https://help.gitkraken.com/git-integration-for-jira-data-center/deep-linking-into-gitlens-gij-self-managed/) for more information.
 
 ## Indexing Queue Viewer
+
 `26 Jan 2023` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
 The Indexing queue viewer allows you to easily view upcoming and in-progress tasks such as repository indexing and garbage collection.
@@ -48,7 +49,7 @@ Easily see which tasks are in the queue, find specific tasks by history, and fil
 
 New General setting for specifying specific DC nodes to perform Git Integration for Jira indexing jobs.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1078231449/gitdc-gencfg-indexing-allow-all-nodes-specific.png?version=1&modificationDate=1648202939114&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitdc-gencfg-indexing-allow-all-nodes-specific.png)
 
 ## Added support for SSH config file
 
@@ -90,7 +91,7 @@ Support for the [SSH Config File](https://linuxize.com/post/using-the-ssh-config
 *   **Sleep** -- Prevents repositories' indexing tasks from being added too often. (5)
 
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1078231449/image-20211209-031238.png?version=1&modificationDate=1639021594011&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitserverdc-webhook-sleeping-feature.png)
 
 ## View all repositories renamed to Repository browser
 
@@ -114,7 +115,7 @@ With the [acquisition](https://www.gitkraken.com/blog/gitkraken-acquires-git-int
 
 You will see the added ability to open the GitKraken client from our app in various locations. See an example of what this looks like below.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1078231449/server-screen%20copy.png?version=1&modificationDate=1636580970015&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitserverdc-deeplink-gitkraken-issue-git-commits.png)
 
 ## Native Jira audit logging support
 
@@ -122,7 +123,7 @@ You will see the added ability to open the GitKraken client from our app in vari
 
 With the auditing feature, key activities are tracked on the Jira instance. This provides administrators insight on how the instance is being used.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1078231449/gencfg-audit-log.png?version=2&modificationDate=1618649456348&cacheVersion=1&api=v2&width=374&height=74)![](https://bigbrassband.atlassian.net/wiki/download/attachments/1078231449/audit-logging.png?version=1&modificationDate=1622578322231&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitserver-gencfg-audit-log.png)![](/wp-content/uploads/gij-jira-server-audit-log-navigation.png)
 
 The audit log functionality is also extended to Jira Data Center instances as it will have more coverage areas, various event volume levels and an option to integrate the audit log file with external tools.
 
@@ -132,9 +133,9 @@ For more information on this feature, see [**General settings – Audit log sett
 
 `26 Mar 2021` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b>
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1078231449/CleanShot2021-06-01%20at%2015.23.50@2x-20210601-192353.png?version=1&modificationDate=1622578333469&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-auto-link-PR-to-jira-issue-example-01.png)
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1078231449/image-20210328-071823.png?version=1&modificationDate=1618649456408&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-auto-link-PR-to-jira-issue-example-02.png)
 
 Pull/merge requests created via the git integration developer panel in the Jira issue will automatically add a link to the Jira issue where it was created from.
 
@@ -142,7 +143,7 @@ Pull/merge requests created via the git integration developer panel in the Jira 
 
 `26 Mar 2021` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b>
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1078231449/gitserver-gerrit-jmespath-filter-option.png?version=1&modificationDate=1618649456413&cacheVersion=1&api=v2&width=544&height=357)
+![](/wp-content/uploads/gij-gitserver-gerrit-jmespath-filter-option.png)
 
 Gerrit auto-connect integration now supports JMESPath. This feature is used to filter and limit which repositories are integrated.
 
@@ -152,7 +153,7 @@ Gerrit auto-connect integration now supports JMESPath. This feature is used to f
 
 Tracked folder integration now supports JMESpath. This feature is used to filter and limit which repositories are integrated. For more information, read about JMESPath expressions on their [website](https://jmespath.org/).
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1078231449/jira-serverdc-add-tracked-folder-jmespath-advanced.png?version=1&modificationDate=1611738996438&cacheVersion=1&api=v2&width=442&height=163)
+![](/wp-content/uploads/gij-gitserverdc-tracked-folder-jmespath-advanced.png)
 
 Follow this feature in [**this article**](/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed).
 
@@ -168,7 +169,7 @@ Additionally, the PR/MR will still be linked to the Jira issue even if users did
 
 The following settings are implemented in the **Manage git repositories** page ➜ **General settings** under **Git pull/merge requests**.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1078231449/jira-server-general-settings-branch-pull-req-cfgs%20(c).png?version=1&modificationDate=1611742804892&cacheVersion=1&api=v2&width=544&height=362)
+![](/wp-content/uploads/gij-gitserverdc-general-settings-branch-pull-req-421.png)
 
 For more information, follow [**this article**](/git-integration-for-jira-data-center/associate-pull-merge-requests-to-issues-based-on-commits-gij-self-managed).
 
@@ -180,7 +181,7 @@ For more information, follow [**this article**](/git-integration-for-jira-data-c
 
 Europe (Milan) has been added to the supported region list in the AWS CodeCommit integration.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1078231449/jira-serverdc-aws-cc-eu-milan-region-add.png?version=1&modificationDate=1611745484608&cacheVersion=1&api=v2&width=612&height=433)
+![](/wp-content/uploads/gij-gitserverdc-aws-cc-eu-milan-region-add.png)
 
 * * *
 
@@ -198,7 +199,7 @@ This is an improvement of the feature which requires a full reindex after upgrad
 
 By scheduling jobs in [**Git Integration for Jira**](https://marketplace.atlassian.com/4984) for Server and Data Center (in the **General settings** page) Jira administrators gain control over when jobs run.
 
-![Scheduled jobs showing repository indexing and gc](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1078231449/general-settings-scheduled-jobs.png?version=1&modificationDate=1611748710415&cacheVersion=1&api=v2&width=544&height=217)
+![Scheduled jobs showing repository indexing and gc](/wp-content/uploads/gij-gitserver-gencfg-scheduler-jobs.png)
 
 For detailed information, see [**this article**](/git-integration-for-jira-data-center/scheduling-jobs-gij-self-managed),
 
@@ -220,7 +221,6 @@ This is an optimization feature where the new reindex request is skipped wheneve
     </div>
     </div>
 </div>
-<br>
 
 * * *
 
@@ -230,7 +230,7 @@ This is an optimization feature where the new reindex request is skipped wheneve
 
 Gerrit integration has been added to the Auto-connect integration panel. Access this feature via the dashboard menu **Git** ➜ **Manage repositories**.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1078231449/jira-serverdc-new-autoconnect-ui.png?version=1&modificationDate=1611822418749&cacheVersion=1&api=v2&width=612&height=174)
+![](/wp-content/uploads/gij-gitserverdc-gerrit-autoconnect-panel.png)
 
 Follow this feature in the [**Gerrit integration guide**](/git-integration-for-jira-data-center/gerrit-gij-self-managed).
 
@@ -242,7 +242,7 @@ Follow this feature in the [**Gerrit integration guide**](/git-integration-for-j
 
 The Commits REST API has been extended to show branch name in the results.
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1078231449/jira-serverdc-branches-commits-api-example.png?version=1&modificationDate=1611825301037&cacheVersion=1&api=v2&width=442&height=468)
+![](/wp-content/uploads/gij-gitserverdc-branches-commits-api-example.png)
 
 For more information, see [**Commits REST API**](/git-integration-for-jira-data-center/commits-api-gij-self-managed).
 
@@ -258,7 +258,7 @@ For more information, see [**Commits REST API**](/git-integration-for-jira-data-
 
 *   Added clickable link to respective git hosts in the message which opens in a new tab/window.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1078231449/jira-serverdc-branch-add-msg.png?version=1&modificationDate=1611833546033&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitserverdc-branch-add-msg.png)
 
 <br>
 
@@ -266,7 +266,7 @@ For more information, see [**Commits REST API**](/git-integration-for-jira-data-
 
 *   Improved message matching in how Jira displays it.
  
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1078231449/jira-serverdc-branch-del-msg.png?version=1&modificationDate=1611833572873&cacheVersion=1&api=v2)
+    ![](/wp-content/uploads/gij-gitserverdc-branch-del-msg.png)
 
 <br>
 
@@ -276,7 +276,7 @@ For more information, see [**Commits REST API**](/git-integration-for-jira-data-
 
 *   Improved message matching in how Jira displays it.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/1078231449/jira-serverdc-autosel-branch-from-list-first-one-if-many.png?version=1&modificationDate=1611842239570&cacheVersion=1&api=v2) |
+    ![](/wp-content/uploads/gij-gitserverdc-autosel-branch-from-list-first-one-if-many.png)
 
 For related information, see [**Creating Pull/Merge Request**](/git-integration-for-jira-data-center/creating-branches-and-pull-merge-requests-basics-gij-self-managed).
 
@@ -315,13 +315,13 @@ The REST APIs for the following articles were updated with refspec support:
 
 See also **Fetch Refspec** with Auto-Connect Integration wizard in _**Advanced**_ options:
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1078231449/image-20210130-065758.png?version=1&modificationDate=1611989883536&cacheVersion=1&api=v2&width=510&height=179)
+![](/wp-content/uploads/gij-gitserver-gerrit-jmespath-filter-option.png)
 
 <br>
 
 The refspec options are available for supported auto-connect integrations via the Git Integration configuration page:
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1078231449/image-20210130-070135.png?version=1&modificationDate=1611990100009&cacheVersion=1&api=v2&width=510&height=122)
+![](/wp-content/uploads/gij-gitserver-gerrit-kb-refspecs-wkaround.png)
 
 * * *
 
@@ -331,7 +331,7 @@ The refspec options are available for supported auto-connect integrations via th
 
 Asia Pacific (Hong Kong) has been added to the supported region list in the AWS CodeCommit integration.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1078231449/jira-serverdc-aws-cc-asiapacific-region-add.png?version=1&modificationDate=1611990576907&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitserverdc-aws-cc-asiapacific-region-add.png)
 
 * * *
 
@@ -349,14 +349,14 @@ The new smart commit **\#label** adds a new label to a Jira issue. The label(s) 
 | :--- | :--- |
 | `ABC-123` **#label** `bucketbreakfix` `bucketenhancement` | ABC-123 #label this-is-a-label |
 | **Result** | **Result** |
-| Creates four (4) labels `bucketbreakfix` and `bucketenhancement` to the **ABC-123** Jira issue. | Creates the label `this-is-a-label` to the **ABC-123** Jira issue. |
+| Creates two (2) labels `bucketbreakfix` and `bucketenhancement` to the **ABC-123** Jira issue. | Creates the label `this-is-a-label` to the **ABC-123** Jira issue. |
 
 <br>
 
 | Screens for Example 1 |
 | :---: |
-| ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1078231449/image-20210201-090037.png?version=1&modificationDate=1612170042752&cacheVersion=1&api=v2&width=442&height=201) |
-| ![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1078231449/image-20210201-090111.png?version=1&modificationDate=1612170076399&cacheVersion=1&api=v2&width=442&height=155) |
+| ![](/wp-content/uploads/gij-gitserverdc-label-smart-commit-example-01.png) |
+| ![](/wp-content/uploads/gij-gitserverdc-label-smart-commit-example-02.png) |
 
 * * *
 
@@ -368,7 +368,7 @@ The Git Integration for Jira app will show the last three and first tags if no f
 
 If there are several git tags listed, click the **more...** label link to expand the list in increments of five tags.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/1078231449/image-20210201-090855.png?version=1&modificationDate=1612170538758&cacheVersion=1&api=v2)
+![](/wp-content/uploads/gij-gitserverdc-tags-show-last-3-and-more.png)
 
 * * *
 
@@ -385,5 +385,5 @@ Adds **Max. commit age** setting to General Settings which:
 *   Protects against cases where old commits are merged into a new repository.
 
 
-![](https://bigbrassband.atlassian.net/wiki/download/thumbnails/1078231449/image-20210201-091335.png?version=1&modificationDate=1612170818610&cacheVersion=1&api=v2&width=340&height=74)
+![](/wp-content/uploads/gij-gitserverdc-smart-commits-max-age-setting.png)
 
