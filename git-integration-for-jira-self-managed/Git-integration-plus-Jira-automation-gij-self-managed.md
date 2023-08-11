@@ -10,7 +10,7 @@ taxonomy:
 <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>JIRA SERVER / DATA CENTER</b> &mdash; <b>AVAILABLE!</b><br>
 <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>JIRA CLOUD</b> &mdash; <b>AVAILABLE!</b>
 
-<br>
+&nbsp;
 
 Jira automation allows teams and groups to control processes and workflows using a rule to automate actions within Jira based on criteria.
 
@@ -55,7 +55,7 @@ On Jira Cloud, the Automation for Jira has been completely integrated into Jira 
 
 2.  Login to your Atlassian account when prompted and generate a new license for the trial.
 
-3.  IMPORTANT Make sure to copy your license and save it.
+3.  <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT!</b> Make sure to copy your license and save it.
 
 4.  Click **Download** to download the app to your local system.
 
@@ -84,15 +84,17 @@ Before you can use the full extent of this feature, make sure that it is enabled
 
 <img src='/wp-content/uploads/gij-jira-server-gen-cfg-jira-automation-setting.png' style='margin:25px auto;max-width:100%;display:block;' />
 
+&nbsp;
+
 ### How to set up automation templates
 
 Create a rule to configure triggers and actions for automating tasks. There are two levels:
 
-### Project level (projects)
+#### Project level (projects)
 
 Project rules only apply within specific projects.
 
-![](/wp-content/uploads/gij-gitserver-proj-settings-automation-sel-a1.png?api=v2)
+![](/wp-content/uploads/gij-gitserverdc-proj-settings-automation-sel.png)
 
 1.  Open a project to work on, then go to ![](/wp-content/uploads/gij-jira-sys-admin-icon.png) **Project settings**.
 
@@ -106,7 +108,7 @@ Project rules only apply within specific projects.
 
 5.  Configure triggers, conditions and actions for this rule.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/2126905349/gitserver-create-automation-rule-example(c1).png?api=v2)
+    ![](/wp-content/uploads/gij-gitserverdc-create-automation-rule-example.png)
 
 6.  For the above example:
 
@@ -121,19 +123,19 @@ Project rules only apply within specific projects.
 8.  Click **Turn it on** to publish and activate it. The new rule is added to the automation list.
 
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/2126905349/gitserver-create-automation-rule-list-sel.png?api=v2)
+![](/wp-content/uploads/gij-gitserverdc-create-automation-rule-list.png)
 
-<br>
+&nbsp;
 
-### Global administration level (system)
+#### Global administration level (system)
 
 Global rules apply to all projects. If there are similar automation rule triggers from one or more projects, the global rule is executed first.
 
 The steps for creating automation rules for global level is exactly the same as the Project level instructions.
 
-1.  Access the global automation rules via Jira settings ➜ **System**.
+1.  Access the global automation rules via ![](/wp-content/actions-icon.png) Jira settings ➜ **System**.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/2126905349/gitserver-system-menu-sidebar-automation(c).png?api=v2)
+    ![](/wp-content/uploads/gij-gitserverdc-system-menu-sidebar-automation-sel.png)
 
 2.  On the sidebar under Automation for Jira, click **Automation rules**.
 
@@ -141,7 +143,7 @@ The steps for creating automation rules for global level is exactly the same as 
 
 4.  Configure triggers, conditions and actions for this rule.
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/2126905349/gitserver-global-automation-rule-example-2(c1).png?api=v2)
+    ![](/wp-content/uploads/gij-gitserverdc-create-automation-rule-example-global.png)
 
     *   **TRIGGER** – This rule will trigger when a commit is created.
 
@@ -154,25 +156,25 @@ The steps for creating automation rules for global level is exactly the same as 
 6.  Click **Turn it on** to publish and activate it. The new rule is added to the automation list.
 
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/2126905349/gitserver-global-automation-rule-list-add.png?api=v2)
+![](/wp-content/uploads/gij-gitserverdc-create-automation-rule-list-global.png)
 
-<br>
+&nbsp;
 
-## Known issue
+### Known issue
 
-![(info)](https://bigbrassband.atlassian.net/wiki/s/1390985508/6452/54e101d7235b2d7307c412fdfb4c3bd12f35dd91/_/images/icons/emoticons/information.png) The limitation of Git Integration for Jira (GIJ) app not working with Automation for Jira (A4J) Lite is not a GIJ limitation but an Atlassian limitation.
+![(info)](/wp-content/uploads/bbb-info-20.png) The limitation of Git Integration for Jira (GIJ) app not working with Automation for Jira (A4J) Lite is not a GIJ limitation but an Atlassian limitation.
 
-## Advanced Examples
+### Advanced Examples
 
-For advanced examples, see sub-page [Automation Advanced Examples](https://bigbrassband.atlassian.net/wiki/spaces/GITCLOUD/pages/1714257921).
+For advanced examples, see sub-page [Automation Advanced Examples](/git-integration-for-jira-data-center/git-integration-plus-jira-automation-advanced-examples-gij-self-managed/).
 
-## More related topics about Jira automation
+### More related topics about Jira automation
 
 *   [A4J advanced examples](/git-integration-for-jira-data-center/Git-integration-plus-Jira-automation-advanced-examples-gij-self-managed/)
 
 *   [A4J library templates](/git-integration-for-jira-data-center/Git-Integration-for-Jira-automation-template-library/)
 
-## See more Git Integration for Jira app features
+### See more Git Integration for Jira app features
 
 [Indexing queue viewer](/git-integration-for-jira-data-center/Indexing-queue-viewer-gij-self-managed) (Git Integration for Jira Server/Data Center)
 
