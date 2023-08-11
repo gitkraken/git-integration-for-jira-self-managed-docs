@@ -22,11 +22,11 @@ The automation rules have 3 parts:
 
 *   **Actions** - Set automated tasks to perform when a condition is met.
 
-## Permissions
+### Permissions
 
 Any user with Browser Project permissions can create a rule.
 
-## Git Integration for Jira app supported triggers
+### Git Integration for Jira app supported triggers
 
 We currently support the following triggers:
 
@@ -41,15 +41,15 @@ We currently support the following triggers:
 *   Pull request declined
 
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/2126905349/gitserver-supported-a4j-triggers.png?api=v2)
+![](/wp-content/uploads/gij-jira-automation-supported-rules-triggers.jpg)
 
 And thus, we will support all of these triggers in the coming releases. The presence of these triggers extends the automation capabilities of Jira by providing additional conditions.
 
-## Getting started with Automation for Jira
+### Getting started with Automation for Jira
 
 On Jira Cloud, the Automation for Jira has been completely integrated into Jira Cloud and no longer exists as a standalone app in the Atlassian Marketplace. For Jira Server/Data Center, you will need to download and install Automation for Jira - Data Center and Server from the Atlassian Marketplace.
 
-### Downloading the app
+#### Downloading the app
 
 1.  Go to [Automation for Jira - Data Center and Server](https://marketplace.atlassian.com/apps/1215460/automation-for-jira-data-center-and-server?hosting=datacenter&tab=overview) and start the free trial or buy it now.
 
@@ -60,13 +60,13 @@ On Jira Cloud, the Automation for Jira has been completely integrated into Jira 
 4.  Click **Download** to download the app to your local system.
 
 
-### Installing the app
+#### Installing the app
 
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>REQUIRES ADMIN ACCESS</b>
 
 1.  On your Jira Server/Data Center instance, navigate to Manage apps (Jira settings ➜ Apps ➜ **Manage apps**).
 
-    ![](https://bigbrassband.atlassian.net/wiki/download/attachments/2126905349/jira-admin-cfg-manage-apps-upload-app-sel(c).png?api=v2)
+    ![](/wp-content/uploads/gij-jira-admin-cfg-manage-apps-upload-app-sel-c.png)
 
 2.  Click **Upload app** and locate the downloaded A4J JAR file.
 
@@ -74,16 +74,17 @@ On Jira Cloud, the Automation for Jira has been completely integrated into Jira 
 
 4.  Paste the license key into the provided box then click **Update**.
 
+&nbsp;
 
-## General settings for A4J
+### General settings for Automation for Jira (A4J)
 
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>ADMINS</b>
 
 Before you can use the full extent of this feature, make sure that it is enabled in the Git Integration for Jira app General settings.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/2126905349/jira-server-gen-cfg-jira-automation-setting.png?api=v2)
+<img src='/wp-content/uploads/gij-jira-server-gen-cfg-jira-automation-setting.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-## How to set up automation templates
+### How to set up automation templates
 
 Create a rule to configure triggers and actions for automating tasks. There are two levels:
 
@@ -91,9 +92,9 @@ Create a rule to configure triggers and actions for automating tasks. There are 
 
 Project rules only apply within specific projects.
 
-![](https://bigbrassband.atlassian.net/wiki/download/attachments/2126905349/gitserver-proj-settings-automation-sel-a1.png?api=v2)
+![](/wp-content/uploads/gij-gitserver-proj-settings-automation-sel-a1.png?api=v2)
 
-1.  Open a project to work on, then go to <img src='/wp-content/uploads/gij-jira-sys-admin-icon.png' style='margin: 0 3px' /> **Project settings**.
+1.  Open a project to work on, then go to ![](/wp-content/uploads/gij-jira-sys-admin-icon.png) **Project settings**.
 
 2.  On the sidebar, click **Project automation**.
 
