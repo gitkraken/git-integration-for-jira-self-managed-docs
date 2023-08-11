@@ -35,10 +35,7 @@ GET
 application/json
 
 ### parameters
-
-| Field | Description |
-| :--- | :--- |
-| **_isMergeCommit_** | _Boolean_. Internal.<br><br>Returns **true** if the commit is a merge commit. Otherwise, the commit is a normal commit. |
+none
 
 ### response
 Returns the result in the example below.
