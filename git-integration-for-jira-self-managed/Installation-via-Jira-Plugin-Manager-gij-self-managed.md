@@ -11,7 +11,7 @@ taxonomy:
 
 2.  The _**Find new apps**_ page is displayed. Search the Marketplace with '`gitkraken`' or '`git`' search phrase.
 
-    ![](/wp-content/uploads/gij-docs-installation-jira-admin-addon-find-gitplugin-419.png)
+    ![](/wp-content/uploads/gij-docs-installation-jira-admin-addon-find-gitplugin-421.png)
 
 3.  Buy the app or start the free trial for 30 days.
 
