@@ -37,8 +37,6 @@ This is a filter based on the text in the repository name. It lists repositories
 
 **3** – Lists repositories with the names that either do not contain the words `'firstword'` OR `'secondword'`.
 
-&nbsp;
-
 <div class="bbb-callout bbb--note">
     <div class="irow">
     <div class="ilogobox">
