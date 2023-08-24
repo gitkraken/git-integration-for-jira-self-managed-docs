@@ -111,26 +111,14 @@ Job name in Jira Administration ➜ Scheduler Details:<br>
 
 &nbsp;
 
-### How to find out how long the job takes to run
+### How to find out how long the job takes to run?
 
-To understand how long the above jobs take to run:
+To understand how long the above jobs take to run, use the [Indexing queue viewer](com/git-integration-for-jira-data-center/indexing-queue-viewer-gij-self-managed/):
 
-1.  Navigate to the Jira Administration ➜ **Scheduler Details** page.
+1.  On your Jira dashboard menu Git ➜ **Indexing queue**.
 
-2.  Look up the `Job name` posted above.
+2.  Look for the information displayed on the [indexing queue dashboard](/git-integration-for-jira-data-center/indexing-queue-viewer-gij-self-managed/#indexing-queue-dashboard).
 
-3.  Expand the job name (show more) and observe the schedule, duration, last run, duration, and next run. The duration indicates how long the **last scheduled job** required to run completely (**Note:** manually or API reindexed jobs will not show here).
-
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        When the Reindex job duration is measured in a few tens of milliseconds, this means that the reindex job was still running from the last scheduled reindex job. We recommend that the scheduled job be given more time so that jobs do not overlap.
-    </div>
-    </div>
-</div>
 
 &nbsp;
 
