@@ -119,6 +119,8 @@ To understand how long the above jobs take to run, use the [Indexing queue viewe
 
 2.  Look for the information displayed on the [indexing queue dashboard](/git-integration-for-jira-data-center/indexing-queue-viewer-gij-self-managed/#indexing-queue-dashboard).
 
+![](/wp-content/uploads/gij-gitserver-indexing-queue-viewer-gencfg-dashboard-c.png)
+
 
 &nbsp;
 
