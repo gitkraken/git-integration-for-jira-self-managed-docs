@@ -125,13 +125,26 @@ When creating a pull request from within Jira:
     <iframe width='709' height='551' src='https://fast.wistia.com/embed/iframe/rsccl5wxps?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
 </div>
 
-<div align='center' style='margin-top:10px'>
+<div align='center' style='margin-top:10px;margin-bottom:30px;'>
     <i>Right click <a href='https://bigbrassband.wistia.com/medias/rsccl5wxps'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
     <p>The video shows Git Integration for Jira Cloud process but is also applicable to the Jira Server version.</p>
 </div>
-<br>
 
 If you still have a question – reach out to our [Support Desk](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) or email us at [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com).
+
+### Associating pull/merge request to Jira issue
+
+A git service user can create a PR/MR via the Git host service portal and adding/inserting a Jira issue key in the PR/MR title. This is automatically added to the Pull/Merge request list in the Jira issue Git developer panel.
+
+| Git service portal |
+| :---: |
+| ![](/wp-content/uploads/gij-gitserverdc-associate-pull-req-example-host.png) |
+
+| Jira issue PR/MR list view |
+| :---: |
+| ![](/wp-content/uploads/gij-gitserverdc-assoc-pull-req-dev-panel-list.png) |
+
+Additionally, creating PR/MR via the Git developer panel automatically associates the PR/MR to a Jira issue.
 
 ## See more Git Integration for Jira app features
 
