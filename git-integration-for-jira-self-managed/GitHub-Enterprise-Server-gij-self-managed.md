@@ -467,6 +467,22 @@ The pull request is also ready for approval by the reviewers in your GitHub web 
 
 &nbsp;
 
+### How to enable GetRepositories log response from GitHub to the Jira log?
+
+1.  Open ![](/wp-content/uploads/actions-icon.png) Jira System Administration then click **Logging and profiling** on the left sidebar.
+
+2.  Under the Default loggers section, click **Configure….**
+
+3.  Set the Package name to `com.bigbrassband.jira.git.services.integration`.
+
+4.  Set Logging Level to **DEBUG**.
+
+5.  Click **Add** to proceed.
+
+<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT!</b> Remember to turn this setting off after you have obtained the log file for analysis.
+
+&nbsp;
+
 ### More Integration Guides
 
 [GitHub.com](/git-integration-for-jira-data-center/gitHub-gij-self-managed) (Git Integration for Jira Data Center/Server)
