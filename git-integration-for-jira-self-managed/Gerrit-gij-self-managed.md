@@ -18,7 +18,7 @@ For the Jira Cloud version of this document click [Here](/git-integration-for-ji
 **What's on this page:**
 - [Integrate Gerrit with Jira Data Center](#integrate-gerrit-with-jira-data-center)
   - [Using Full feature Integration](#using-full-feature-integration)
-  - [Single Repository (Manually Connect via SSH/HTTP/HTTPS)](#single-repository-manually-connect-via-sshhttphttps)
+  - [Single Repository (Manually Connect via SSH, HTTP, HTTPS)](#single-repository-manually-connect-via-ssh-http-https)
   - [Setting Up Gerrit Web Links](#setting-up-gerrit-web-links)
   - [Viewing Git Commits in Jira Data Center](#viewing-git-commits-in-jira-data-center)
   - [Default Branch](#default-branch)
@@ -87,7 +87,7 @@ For the Jira Cloud version of this document click [Here](/git-integration-for-ji
 
 &nbsp;
 
-### Single Repository (Manually Connect via SSH/HTTP/HTTPS)
+### Single Repository (Manually Connect via SSH, HTTP, HTTPS)
 
 Login to your Gerrit account. Obtain the repository URL from the Gerrit repository project page.  Use SSH or HTTP/HTTPS.
 
