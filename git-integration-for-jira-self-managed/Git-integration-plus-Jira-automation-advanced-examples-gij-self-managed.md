@@ -9,33 +9,15 @@ taxonomy:
 
 [Git Integration + Jira Automation (Jira Server \| DC)](/git-integration-for-jira-data-center/git-integration-plus-jira-automation-gij-self-managed/) \> Advanced examples
 
-<br>
+| Examples | Examples |
+| :------: | :------: |
+| ![]('/wp-content/uploads/gij-422-jira-automation-branch-01.png) | ![](/wp-content/uploads/gij-422-jira-automation-commit-01.png) |
+| ![](/wp-content/uploads/gij-automation-pullreq-01.png) | ![](/wp-content/uploads/gij-automation-pullreq-02.png) |
+| ![](/wp-content/uploads/gij-422-jira-automation-branch-conditional-01.png) | ![](/wp-content/uploads/gij-automation-issue-condition-01.png) |
 
-<img src='/wp-content/uploads/gij-automation-branch-01.png' style='display:block;margin:25px auto;max-width:100%' />
+&nbsp;
 
-<br>
-
-<img src='/wp-content/uploads/gij-automation-commit-01.png' style='display:block;margin:25px auto;max-width:100%' />
-
-<br>
-
-<img src='/wp-content/uploads/gij-automation-pullreq-01.png' style='display:block;margin:25px auto;max-width:100%' />
-
-<br>
-
-<img src='/wp-content/uploads/gij-automation-pullreq-02.png' style='display:block;margin:25px auto;max-width:100%' />
-
-<br>
-
-<img src='/wp-content/uploads/gij-automation-branch-conditional-01.png' style='display:block;margin:25px auto;max-width:100%' />
-
-<br>
-
-<img src='/wp-content/uploads/gij-automation-issue-condition-01.png' style='display:block;margin:25px auto;max-width:100%' />
-
-<br>
-
-## More Jira automation information
+### More Jira automation information
 
 *   [Automation basics](https://www.atlassian.com/software/jira/guides/expand-jira/automation)
 
