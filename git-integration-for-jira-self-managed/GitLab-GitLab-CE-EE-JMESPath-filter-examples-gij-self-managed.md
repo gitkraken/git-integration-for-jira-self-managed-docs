@@ -99,7 +99,7 @@ Lists only repositories from projects that have existing repositories.
 &nbsp;
 * * *
 
-## More articles on JMESPath filter examples
+### More articles on JMESPath filter examples
 
 [GitHub.com \| GitHub Enterprise JMESPath filter examples](/git-integration-for-jira-data-center/GitHub-GitHub-Enterprise-JMESPath-filter-examples-gij-self-managed)
 

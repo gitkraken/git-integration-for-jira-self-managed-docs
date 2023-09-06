@@ -66,7 +66,7 @@ So if the user selects the **All repositories** scope, it would be more convenie
 
 GitHub Apps have different JMESPath format in comparison with previous GitHub integrations:
 
-*   it must start with `repositories[] |` and then,
+*   it must start with `repositories[] ||` and then,
 
 *   it should be followed by any valid JMESPath from standard GitHub integration.
 
@@ -74,7 +74,7 @@ GitHub Apps have different JMESPath format in comparison with previous GitHub in
 
 ### 1\. Starts with
 
-`repositories[] | [?starts_with(name, 'repo-prefix')]`
+`repositories[] || [?starts_with(name, 'repo-prefix')]`
 
 This is a filter based on the text in the repository name. It lists repositories with the names that start with the specified word. Do note that the declared string format is case-sensitive.
 
@@ -82,7 +82,7 @@ This is a filter based on the text in the repository name. It lists repositories
 
 ### 2\. Contains (include)
 
-`repositories[] | [?contains(name, 'substring')]`
+`repositories[] || [?contains(name, 'substring')]`
 
 Lists repositories with the names that contain the specified word.
 
@@ -90,7 +90,7 @@ Lists repositories with the names that contain the specified word.
 
 ### 3\. Contains (exclude)
 
-`repositories[] | [?(!contains(name, 'search-phrase'))]`
+`repositories[] || [?(!contains(name, 'search-phrase'))]`
 
 Lists repositories with the names that do not contain the specified word.
 
@@ -111,7 +111,7 @@ Lists repositories with the names that do not contain the specified word.
 
 ### 4\. Specific (exact)
 
-`repositories[] | [?name == 'exact-repo-name']`
+`repositories[] || [?name == 'exact-repo-name']`
 
 Lists repositories with the exact specified name.
 
