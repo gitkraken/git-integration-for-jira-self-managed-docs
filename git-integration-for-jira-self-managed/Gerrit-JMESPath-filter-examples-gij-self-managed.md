@@ -27,7 +27,7 @@ This is a filter based on the text in the repository name. It lists repositories
 
 Lists repositories with the names that start with `'git'` or end with `'test'`.
 
-## 3\. Contains (exclude)
+### 3\. Contains (exclude)
 
 `[?(!contains(name, 'firstword'))]`
 
@@ -63,7 +63,7 @@ Lists repositories with the names that start with `'git'` or end with `'test'`.
 * * *
 &nbsp;
 
-## More articles on JMESPath filter examples
+### More articles on JMESPath filter examples
 
 [GitHub.com \| GitHub Enterprise JMESPath filter examples](/git-integration-for-jira-data-center/GitHub-GitHub-Enterprise-JMESPath-filter-examples-gij-self-managed)
 
