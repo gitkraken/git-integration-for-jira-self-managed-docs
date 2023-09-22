@@ -23,7 +23,7 @@ Retrieves list of repositories mapped to a given project.
 &nbsp;
 
 ### url
-`/rest/gitplugin/1.0/`**repository**
+`/rest/gitplugin/1.0/repository`
 
 ### method
 GET
