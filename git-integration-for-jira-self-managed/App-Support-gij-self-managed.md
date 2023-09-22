@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-The Git Integration for Jira app currently supports **Jira** **8.0** to **9.10**!
+The Git Integration for Jira app currently supports **Jira** **8.0** to **9.11**!
 
 <div class="bbb-callout bbb--error">
     <div class="irow">
@@ -54,7 +54,7 @@ Using Atlassian's marketplace system, a Jira administrator can install the Git I
 
 ### Viewing Reindex Logs
 
-Go to the Manage Git Repositories page, click the **Actions** <img src='/wp-content/uploads/actions-icon.png' /> icon then **View Log** to view the indexing logs.
+Go to the Manage Git Repositories page, click the **Actions** ![](/wp-content/uploads/actions-icon.png) icon then **View Log** to view the indexing logs.
 
 ![](/wp-content/uploads/gij-manage-git-repo-view-reindex-logs-c.png)
 
@@ -120,6 +120,7 @@ The table below shows the Jira Version, when [Atlassian will stop supporting tha
 | 9.8 | April 25, 2025 | Edge | Yes\* |
 | 9.9 | June 2, 2025 | Edge | Yes\* |
 | 9.10 | Ju1y 11, 2025 | Edge | Yes\* |
+| 9.11 | August 30, 2025 | Edge | Yes\* |
 
 \* _See information below about retiring IE11 support._
 
