@@ -95,7 +95,7 @@ This will filter for repositories only within the org: `BigBrassBand`. This work
 <div id='gitlabcom-and-gitlab-ceee-examples'></div> <!-- set anchor -->
 <img src='/wp-content/uploads/gij-gitlab-mobile.png' width=40 height=40 style='margin-bottom:10px;display:block;' />
 
-### GitLab.com and GitLab CE|EE examples
+### GitLab\.com and GitLab CE\|EE examples
 
 **1\. Lists all projects (default)**
 
