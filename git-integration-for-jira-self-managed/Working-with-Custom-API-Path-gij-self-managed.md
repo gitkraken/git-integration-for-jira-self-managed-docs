@@ -47,7 +47,7 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 
 &nbsp;
 
-<div id='githubcom-and-github-enterprise-examples'></div> <!-- set anchor -->
+<span id='githubcom-and-github-enterprise-examples'></span> <!-- set anchor -->
 <img src='/wp-content/uploads/github-mobile-dark.png' width=40 height=40 style='margin-bottom:10px;display:block;' />
 
 ### GitHub\.com and GitHub Enterprise examples
@@ -92,10 +92,10 @@ This will filter for repositories only within the org: `BigBrassBand`. This work
 
 &nbsp;
 
-<div id='gitlabcom-and-gitlab-ceee-examples'></div> <!-- set anchor -->
+<span id='gitlabcom-and-gitlab-ceee-examples'></span> <!-- set anchor -->
 <img src='/wp-content/uploads/gij-gitlab-mobile.png' width=40 height=40 style='margin-bottom:10px;display:block;' />
 
-### GitLab.com and GitLab CE|EE examples
+### GitLab\.com and GitLab CE\|EE examples
 
 **1\. Lists all projects (default)**
 
