@@ -30,7 +30,7 @@ PUT
 
 The Request body is a _JSON_ structure similar to the [Add New Repository API](/git-integration-for-jira-data-center/add-new-repository-gij-self-managed) plus the _**id**_ parameter:
 
-| Parameter | Description |
+| Field | Description |
 | :--- | :--- |
 | _**id**_ | Integer. Required.<br><br>This is the ID of the existing repository. For example, `id : 3,`.<br><br>The Update Repository API will look for the repository with `id : 3` and replaces repository properties according to the declared JSON request body structure file. |
 | _**displayName**_ | _String._ Optional.<br><br>This is the name that will appear in the Git Integration for Jira app repositories list. |

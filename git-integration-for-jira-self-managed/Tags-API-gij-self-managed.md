@@ -30,7 +30,7 @@ GET
 
 ### Parameters
 
-| Parameter | Description |
+| Field | Description |
 | :--- | :--- |
 | _**issueKey**_ | _String_. Required. Path parameter.<br><br>This is the Jira Issue Key – a concatenation of Project key and Issue number. It must contain a dash ('-'). The _**issueKey**_ must be valid and existent.<br><br>For example: `TST-435`. |
 | _**tagsPerRepository**_ | _Integer._ Required.<br><br>This parameter limits the total number of tags returned.<br><br>Use values greater than or equal to **1** <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>RECOMMENDED</b>.<br><br>Using the zero (0) value will return all tags linked to the issue but this greatly impacts Jira performance <b style='background-color:#DEE0E5; padding:1px 5px; color:#44516C; border-radius:3px; margin: 0 5px; font-size: small;'>NOT RECOMMENDED</b>.<br><br>**Example:**<br><br>`/rest/gitplugin/1.0/issuegitdetails/issue/TST-435/tag?tagsPerRepository=2` |
@@ -45,7 +45,7 @@ The additional flag _**hasMore**_ indicates if an issue contains more tags. I
 
 ### Example:
 
-`http://jira.yourorg.com/rest/gitplugin/1.0/issuegitdetails/issue/TST-435/tag?tagsPerRepository=2`
+`http://jira.yourorg.com/rest/gitplugin/1.0/issuegitdetails/issue/TEST-435/tag?tagsPerRepository=2`
 
 **Result:**
 

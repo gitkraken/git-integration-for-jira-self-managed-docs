@@ -24,8 +24,7 @@ HTTP Status code response:
 
 *   **403**  –  lack of privileges _(The user doesn't have Jira Admin global permission)_
 
-<br>
-<br>
+&nbsp;
 
 ## Bulk Change REST APIs
 
@@ -35,3 +34,4 @@ HTTP Status code response:
 
 *   [Get Bulk Import Information](/git-integration-for-jira-data-center/get-bulk-import-information-gij-self-managed/) 
 (Git Integration for Jira Server/Data Center)
+

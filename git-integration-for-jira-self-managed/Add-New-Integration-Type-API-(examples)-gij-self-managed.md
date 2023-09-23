@@ -21,15 +21,11 @@ taxonomy:
 
 Below are integration API examples for each integration types:
 
-## Add new integration type
-
 ### url
 `/rest/gitplugin/1.0/`**integration**
 
 ### method
 POST
-
-<br>
 
 ### Prameters
 

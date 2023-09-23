@@ -40,57 +40,58 @@ none
 {
     "success": true,
     "integrations": [
-    {
-        "id": 1,
-        "displayName": "https://github.com/",
-        "origin": "https://api.github.com",
-        "disabled": false,
-        "sendCommitEmails": true,
-        "maxMinsToCommitEmail": 1440,
-        "global": true,
-        "initDate": 1685725083439,
-        "lastIndexedDate": 1685728181726,
-        "revisionIndexing": true,
-        "gitViewerEnabled": true,
-        "disableSslVerification": false,
-        "smartCommitsEnabled": true,
-        "prHideFilter": "",
-        "requireUserPat": false,
-        "projectMappingIds": [],
-        "integrationType": "GITHUB",
-        "showAllTags": true,
-        "sourcesDiffViewEnabled": true,
-        "apiFilter": "[?contains(name, 'long')]",
-        "refSpecNotes": true,
-        "refSpecChanges": false,
-        "trustFolderStat": true
-    },
-    {
-        "id": 3,
-        "displayName": "https://gitlab.com/",
-        "origin": "https://gitlab.com",
-        "disabled": false,
-        "sendCommitEmails": true,
-        "maxMinsToCommitEmail": 1440,
-        "global": true,
-        "initDate": 1685731335247,
-        "lastIndexedDate": 1685731345075,
-        "revisionIndexing": true,
-        "gitViewerEnabled": true,
-        "disableSslVerification": false,
-        "smartCommitsEnabled": true,
-        "requireUserPat": false,
-        "projectMappingIds": [],
-        "integrationType": "GITLAB",
-        "showAllTags": true,
-        "sourcesDiffViewEnabled": true,
-        "apiFilter": "[?contains(name, 'Release-test-GIJ-GitLab-PAT')]",
-        "refSpecNotes": true,
-        "refSpecChanges": false,
-        "trustFolderStat": true
-    }
-  ]
+        {
+            "id": 1,
+            "displayName": "https://github.com/*",
+            "origin": "https://api.github.com",
+            "disabled": false,
+            "sendCommitEmails": true,
+            "maxMinsToCommitEmail": 1440,
+            "global": true,
+            "initDate": 1675942373613,
+            "lastIndexedDate": 1695470025397,
+            "revisionIndexing": true,
+            "gitViewerEnabled": true,
+            "disableSslVerification": false,
+            "smartCommitsEnabled": true,
+            "prHideFilter": "^.*master.*$",
+            "requireUserPat": false,
+            "projectMappingIds": [
+            ],
+            "integrationType": "GITHUB",
+            "showAllTags": true,
+            "sourcesDiffViewEnabled": true,
+            "refSpecNotes": true,
+            "refSpecChanges": false,
+            "trustFolderStat": true
+        },
+        {
+            "id": 2,
+            "displayName": "https://gitlab.com/*",
+            "origin": "https://gitlab.com",
+            "disabled": true,
+            "sendCommitEmails": true,
+            "maxMinsToCommitEmail": 1440,
+            "global": true,
+            "initDate": 1675942410674,
+            "lastIndexedDate": 1686136525099,
+            "revisionIndexing": true,
+            "gitViewerEnabled": true,
+            "disableSslVerification": false,
+            "smartCommitsEnabled": true,
+            "requireUserPat": false,
+            "projectMappingIds": [
+            ],
+            "integrationType": "GITLAB",
+            "showAllTags": true,
+            "sourcesDiffViewEnabled": true,
+            "refSpecNotes": true,
+            "refSpecChanges": false,
+            "trustFolderStat": true
+        }        
+    ]
 }
+
 ```
 
 &nbsp;
