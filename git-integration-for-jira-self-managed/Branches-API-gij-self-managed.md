@@ -40,9 +40,9 @@ GET
 
 ### Parameters
 
-| Parameter | Description |
+| Field | Description |
 | :--- | :--- |
-| _**issueKey**_ | _String_. Optional.<br><br>This is the Jira Issue Key – a concatenation of Project key and Issue number. It must contain a dash ('-'). The _**issueKey**_ must be valid and existent.<br><br>For example: `TST-435`. |
+| _**issueKey**_ | _String_. Optional.<br><br>This is the Jira Issue Key – a concatenation of Project key and Issue number. It must contain a dash ('-'). The _**issueKey**_ must be valid and existent.<br><br>For example: `TEST-435`. |
 
 ### Response
 
@@ -50,21 +50,19 @@ If the _optional query_ is not defined, it will return all indexed git branche
 
 ### Example
 
-`http://jira.yourorg.com/rest/gitplugin/1.0/issues/branches?key="TST-435"`
+`http://jira.yourorg.com/rest/gitplugin/1.0/issues/branches?key=TEST-435`
 
 ```json
 Result:
 {
     "success":true,
-    "branches":["master","release","TST-435"]
+    "branches":["master","release","TEST-435"]
 }
 ```
 
-<br>
-<br>
+&nbsp;
 <hr>
-<br>
-<br>
+&nbsp;
 
 **[« Back to REST API index](/git-integration-for-jira-data-center/rest-api-gij-self-managed)**
 

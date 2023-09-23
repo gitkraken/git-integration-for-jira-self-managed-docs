@@ -42,7 +42,7 @@ Starts the reindex process in a separate thread and returns the result immediate
 
 &nbsp;
 ### url
-`/rest/gitplugin/2.0/reindex` <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>NEW IN  v4.17</b>
+`/rest/gitplugin/2.0/reindex` <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>NEW IN v4.17</b>
 
 <div class="bbb-callout bbb--error">
     <div class="irow">

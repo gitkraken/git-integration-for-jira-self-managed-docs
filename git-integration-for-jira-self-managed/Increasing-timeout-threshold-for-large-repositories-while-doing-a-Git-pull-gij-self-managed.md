@@ -16,13 +16,13 @@ For this workaround to work, the user must have an access to a Jira hosting inst
 3.  Go to a directory and perform a clone of a repository:
 
     ```powershell
-    git clone --mirror git@gitserver.com:repo/url.git  **1
+    git clone --mirror git@gitserver.com:repo/url.git  \*\*1
     ```
 
     Or use the generic clone:
 
     ```powershell
-    git clone git@gitserver.com:repo/url.git  **2
+    git clone git@gitserver.com:repo/url.git  \*\*2
     ```
 
     <sup><b>1</b></sup> Modify the git repository URL to the correct one.<br>

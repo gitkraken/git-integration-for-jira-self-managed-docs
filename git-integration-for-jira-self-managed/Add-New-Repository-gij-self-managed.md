@@ -32,7 +32,7 @@ POST
 
 Request body is a _JSON_ structure supporting the following parameters:
 
-| Parameter | Description |
+| Field | Description |
 | :--- | :--- |
 | _**displayName**_ | _String_. Optional.<br><br>This is the name that will appear in the Git Integration for Jira app repositories list. |
 | _**origin**_ | _String_. Required.<br><br>This is the URL to the hosted git service used on the project.<br><br>For example, you might host your repository on GitHub, Beanstalk or your own server. |

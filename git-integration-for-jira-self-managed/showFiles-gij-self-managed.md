@@ -32,9 +32,9 @@ GET
 
 ### parameters
 
-| Parameter | Condition |
+| Field | Condition |
 | :--- | :--- |
-| _**issueKey**_ | _String_. Required.<br><br>This is the Jira Issue Key – a concatenation of Project key and Issue number. It must contain a dash ('-'). The _**issueKey**_ must be valid and existent.<br><br>For example: `TST-123`. |
+| _**issueKey**_ | _String_. Required.<br><br>This is the Jira Issue Key – a concatenation of Project key and Issue number. It must contain a dash ('-'). The _**issueKey**_ must be valid and existent.<br><br>For example: `TEST-123`. |
 | **_\?showFiles=\[true\|false\]_** | _Boolean_. Optional.<br><br>When set to _**true**_, this extends the commits API to display which files where changed related to a specific Jira issue.<br><br>See usage example below. |
 
 ### response
@@ -42,7 +42,7 @@ Returns the result in the example below.
 
 ### Example usage:
 
-`http://jira.yourorg.com/jira/rest/gitplugin/1.0/issues/TST-123/commits?showFiles=true`
+`http://jira.yourorg.com/jira/rest/gitplugin/1.0/issues/TEST-123/commits?showFiles=true`
 
 ```json
 Returns the following example result, if showFiles=true:
@@ -53,14 +53,14 @@ Returns the following example result, if showFiles=true:
       "author": "msmith <mark@bigbrassband.com>",
       "commitId": "257b4a8490270014922f3b821d61c86e76166dd9",
       "date": "2015-12-07 10:54:56 +0600",
-      "message": "message with TST-123",
-      "repository": {  INTRODUCED V2.11.0+
+      "message": "message with TEST-123",
+      "repository": {
         "id": 5,
         "name": "test repository name"
       },
       "branch": "master",
       "notes": {
-        "refs/notes/commits": "TST-1 fixed also"
+        "refs/notes/commits": "TEST-1 fixed also"
       },
       "files": [
         {

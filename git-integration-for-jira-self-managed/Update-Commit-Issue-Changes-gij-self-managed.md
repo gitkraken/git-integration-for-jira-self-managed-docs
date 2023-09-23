@@ -71,7 +71,7 @@ The request body is a JSON structure supporting the following parameters:
 **Example request:**<br>
 ```json
 {
-    "changeStrs": ["d:TST-5", "a:TST-6", "a:TST-7"]
+    "changeStrs": ["d:TEST-5", "a:TEST-6", "a:TEST-7"]
 }
 ```
 
@@ -85,15 +85,15 @@ Host: localhost:2990
 Content-Type: application/json
  
 {
-  "changeStrs": ["d:TST-5", "a:TST-6", "a:TST-7"]
+  "changeStrs": ["d:TEST-5", "a:TEST-6", "a:TEST-7"]
 }
 ```
 
 The _**changeStrs**_ modifier with the specified parameters will give the following result:
 
 ```ruby
-Removes association of TST-5; and
-associates TST-6 and TST-7 to the same commit in repo1 and repo2.
+Removes association of TEST-5; and
+associates TEST-6 and TEST-7 to the same commit in repo1 and repo2.
 ```
 
 &nbsp;

@@ -61,11 +61,11 @@ Returns the result for the example below.
 {
  "success": true,
  "issueKeys":[
-     "TST-999",
+     "TEST-999",
      "NEXT-3",
-     "TST-6",
-     "TST-2",
-     "TST-1"
+     "TEST-6",
+     "TEST-2",
+     "TEST-1"
  ]
 }
 ```
@@ -94,3 +94,4 @@ Content-Type: application/json
 [Update Commit Issue Changes](/git-integration-for-jira-data-center/update-commit-issue-changes-gij-self-managed)
 
 [Merge Commit](/git-integration-for-jira-data-center/isMergeCommit-REST-API-gij-self-managed)
+
