@@ -77,6 +77,8 @@ The debug logging level can be set by performing the following steps:
 
 <br>
 
+Starting GIJ v4.22, webhook logging is added to the Jira logs. The log will contain whether a webhook event has been triggered and which payload the request had.
+
 To report errors:
 
 1.  Collect errors and send log file via our [Support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/faq-logging-gij-self-managed).

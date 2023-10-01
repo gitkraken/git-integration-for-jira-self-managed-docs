@@ -111,9 +111,9 @@ For the repository/integration list, utilize the following references for the co
 
 &nbsp;
 
-[Prev: Self-signed HTTPS integration](/git-integration-for-jira-data-center/self-signed-https-integration-gij-self-managed)
+[**Prev:** Self-signed HTTPS integration](/git-integration-for-jira-data-center/self-signed-https-integration-gij-self-managed)
 
-[Next: Managing integration via Actions](/git-integration-for-jira-data-center/managing-integration-via-actions-gij-self-managed)
+[**Next:** Managing integration via Actions](/git-integration-for-jira-data-center/managing-integration-via-actions-gij-self-managed)
 
 &nbsp;
 

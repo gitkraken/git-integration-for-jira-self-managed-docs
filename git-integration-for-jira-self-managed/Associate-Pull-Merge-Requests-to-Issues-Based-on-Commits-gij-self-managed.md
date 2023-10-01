@@ -15,6 +15,8 @@ Starting with **v3.7.2+** of the Git Integration for Jira Server and Data Center
 
 Pull/merge requests appear automatically in the Git Integration panel based on the commits associated with the pull/merge request. This allows users who did not mention a Jira issue key in the PR/MR title or description, they will still be linked.
 
+**This feature supports integrations such as GitHub, GitLab and Microsoft TFS/VSTS/Azure. However, AWS CodeCommit is not supported because there is no ability to get commits of a pull request via API.**
+
 ## Getting Started
 
 The following settings are implemented in the **Manage git repositories** page ➜ **General settings** under **Git pull/merge requests**:

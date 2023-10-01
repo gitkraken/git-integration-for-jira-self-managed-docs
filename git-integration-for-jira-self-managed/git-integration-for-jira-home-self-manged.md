@@ -21,16 +21,16 @@ Check out the introduction video and links below to get started with GitKraken C
     </div>
     </div>
 </div>
-<br>
 
+&nbsp;
 
 ***
 
-## Getting started
+### Getting started
 
 <div class='embed-container embed-container--16-9'>
-    <iframe width='709' height='443' src='https://fast.wistia.net/embed/iframe/lr0jp6ntfd?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
-</div> 
+    <iframe width='709' height='443' src='https://fast.wistia.net/embed/iframe/8c0iq4hwdt?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
+</div>
 
 <div style='margin-top: 20px;'>
     Direct links to the above <a href='https://bigbrassband.wistia.com/medias/8c0iq4hwdt'>Getting started</a> video as well as <a href='https://bigbrassband.wistia.com/medias/lr0jp6ntfd'>Installation</a> video.
@@ -42,7 +42,7 @@ Check out the introduction video and links below to get started with GitKraken C
 
 &nbsp;
 
-## Knowledgebase  
+### Knowledgebase  
 
 - [Features](/git-integration-for-jira-data-center/features-gij-self-managed) - Learn more about all of the offered features.
 
@@ -60,11 +60,11 @@ Check out the introduction video and links below to get started with GitKraken C
 
 - [Product Documentation](/git-integration-for-jira-self-managed/documentation-gij-self-managed) - Learn more about Git Integration for Jira Server/Data Center app and how to easily install it and learn how to use its features.
 
-<br>
+&nbsp;
 
 ***
 
-## Additional Resources
+### Additional Resources
 
 - [Video Guides](/git-integration-for-jira-data-center/git-integration-jira-data-center-video-guides-gij-self-managed) - List of video guides to aid you in your Git Integration for Jira journey.
 
