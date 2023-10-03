@@ -22,6 +22,7 @@ Below are the Git Integration app known issues and workarounds:
 - [Azure DevOps: Long Pull Request Descriptions Limited to 400 Characters](#azure-devops-long-pull-request-descriptions-limited-to-400-characters)
 - [Gerrit Integration Connected with Errors](#gerrit-integration-connected-with-errors)
 - [Starred repositories Custom API Path might fail if using SSO](#starred-repositories-custom-api-path-might-fail-if-using-sso)
+- [The Pull Request or Merge Request template is not used if it is created via GIJ](#the-pull-request-or-merge-request-template-is-not-used-if-it-is-created-via-GIJ)
 
 &nbsp;
 * * *
@@ -174,4 +175,10 @@ Example error message:
     </div>
     </div>
 </div>
+
+### The Pull Request or Merge Request template is not used if it is created via GIJ
+
+When a user creates a PR/MR using via GIJ, if they use PR/MR templates, the PR/MR template is not used.
+
+We will be adding support for PR/MR templates in the future stated in [our roadmap](https://trello.com/c/kJKMu66e).
 

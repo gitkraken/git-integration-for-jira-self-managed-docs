@@ -19,6 +19,17 @@ taxonomy:
 
     `jdk.http.auth.proxying.disabledSchemes=""`
 
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        For more information on setting up proxy settings for Jira, see <a href='https://confluence.atlassian.com/kb/how-to-configure-outbound-http-and-https-proxy-for-your-atlassian-application-834000120.html'>How to Configure Outbound HTTP and HTTPS Proxy for your Atlassian application.
+    </div>
+    </div>
+</div>
+
 &nbsp;
 
 ### How to check if your connection uses a proxy

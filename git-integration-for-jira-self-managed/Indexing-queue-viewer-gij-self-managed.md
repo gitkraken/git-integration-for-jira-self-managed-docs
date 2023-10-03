@@ -49,6 +49,12 @@ The dashboard displays the current number of processing tasks and tasks in the q
 
 Click **Clear queue** to free up the current queue of all tasks with <b style='background-color:#DEE0E5; padding:1px 5px; color:#44516C; border-radius:3px; margin: 0 5px; font-size: small;'>QUEUED</b> status.
 
+Take into consideration that this action...
+
+*   only removes tasks in **QUEUED** status.
+*   does not cancel tasks in **INDEXING** status.
+*   does not clear the CANCELED status. A task with CANCELED status will stay like that indefinitely until it is processed again for reindex.
+
 ![](/wp-content/uploads/gij-gitserver-indexing-queue-viewer-gencfg-dashboard-c.png)
 
 To the right of the dashboard is the Settings view panel. which shows information related to the general settings for scheduled indexing, garbage collection, etc.
@@ -89,6 +95,13 @@ Filter the task list by clicking on the **Status** dropdown and selecting a cate
 *   **Indexed** -- Displays tasks having <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>INDEXED</b> status. This indicates that the indexing task has finished.
 
 *   **Error** -- Displays tasks having <b style='background-color:#FFEBE6; padding:1px 5px; color:#C02909; border-radius:3px; margin: 0 5px; font-size: small;'>ERROR</b> status. This indicates that the indexing task has encountered an error. Go to **...** Actions ➜ **View log** to see the error(s).
+
+*   <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.23</b> **Canceled** -- Displays tasks having <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>CANCELED</b> status. This indicates that the indexing task has been cancelled...
+    *   manually -- triggered by a user action (admins)
+    *   forcefully -- triggered because of an error
+    *   automatically -- triggered because the repository/integration disabled
+
+    For detailed information on canceling reindex, see [Cancel indexing: Revision indexing](/git-integration-for-jira-data-center/Cancel-indexing-revision-indexing-gij-self-managed).
 
 #### Filter: Trigger
 
@@ -225,7 +238,7 @@ The default sort order applies the following rule:
 
 ![](/wp-content/uploads/gij-gitserver-indexing-queue-viewer-actions-menu.png)
 
-The ‘indexing status’ is displayed in the indexing log dialog that appears during manual reindex. The View log information from the **Indexing Queue Qiewer** is similar to the logs that can be viewed in the Manage integration screen.
+The 'indexing status' is displayed in the indexing log dialog that appears during manual reindex. The View log information from the **Indexing Queue Viewer** is similar to the logs that can be viewed in the Manage integration screen.
 
 ![](/wp-content/uploads/gij-gitserver-reindex-log-error.png)
 
