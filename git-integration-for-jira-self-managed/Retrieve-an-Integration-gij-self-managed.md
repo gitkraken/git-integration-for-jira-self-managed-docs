@@ -43,7 +43,7 @@ GET
 ```json
 {
     "success": "true",
-    "integrations": [                  
+    "integration": [                  
         {
             "id": 2,
             "displayName": "Test GitHub",
