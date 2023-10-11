@@ -42,7 +42,7 @@ GET
 
 ### Parameters
 
-| Field | Condition |
+| Field | Description |
 | :--- | :--- |
 | _**jira-host**_ | _String_. Required.<br><br>This is the default url location where you host your Jira.<br><br>For example:<br>`http://local-host-jira.com:2990`<br>`https://jira.your-organization.com` |
 | _**repoId**_ | _Integer_. Required.<br><br>Substitute `{repoId}` with the actual repository ID.<br><br>Use the Repository REST API to obtain the connected repositories' IDs. |
@@ -54,7 +54,7 @@ Returns the result for the example below.
 
 ### Examples
 
-`http://local-host-jira.com:2990/rest/gitplugin/1.0/repository/1/commit/e012663bf9bd968388faa510cb5b310e4798c512/issues`
+`http://jira.yourorg.com:2990/rest/gitplugin/1.0/repository/1/commit/e012663bf9bd968388faa510cb5b310e4798c512/issues`
 
 **Result:**
 ```json
@@ -87,11 +87,7 @@ Content-Type: application/json
 
 [Get Commits](/git-integration-for-jira-data-center/get-Commits-gij-self-managed)
 
-[showFiles (Commits API extension)](/git-integration-for-jira-data-center/)
-
 **Get Commit Issue Changes** (this page)
 
 [Update Commit Issue Changes](/git-integration-for-jira-data-center/update-commit-issue-changes-gij-self-managed)
-
-[Merge Commit](/git-integration-for-jira-data-center/isMergeCommit-REST-API-gij-self-managed)
 

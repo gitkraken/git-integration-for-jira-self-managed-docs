@@ -51,7 +51,7 @@ POST
 
 ### parameters
 
-| Field | Condition |
+| Field | Description |
 | :--- | :--- |
 | _**jira-host**_ | _String_. Required.<br><br>This is the default url location where you host your Jira.<br><br>**For example:**<br>`http://local-host-jira.com:2990`<br>`https://jira.your-organization.com` |
 | _**repoId**_ | _Integer_. Required.<br><br>Substitute `{repoId}` with the actual repository ID.<br><br>Use the [Repository REST API](/git-integration-for-jira-data-center/repository-api-gij-self-managed) to obtain the connected repositories' IDs.<br><br>**Example:**<br>`http://local-host-jira.com:2990/rest/gitplugin/1.0/repository/1/commit/e012663bf9bd968388faa510cb5b310e4798c512/issues`<br><br>In the case of the above example, the commit association(s) of the specified commit hash and repository will be updated using the parameters specified in the JSON request body. See [changeStrs](#changeStrs) parameter. |
@@ -102,11 +102,7 @@ associates TEST-6 and TEST-7 to the same commit in repo1 and repo2.
 
 [Get Commits](/git-integration-for-jira-data-center/get-Commits-gij-self-managed)
 
-[showFiles (Commits API extension)](/git-integration-for-jira-data-center/)
-
 [Get Commit Issue Changes](/git-integration-for-jira-data-center/get-commit-issue-changes-gij-self-managed)
 
 **Update Commit Issue Changes** (this page)
-
-[Merge Commit](/git-integration-for-jira-data-center/isMergeCommit-REST-API-gij-self-managed)
 
