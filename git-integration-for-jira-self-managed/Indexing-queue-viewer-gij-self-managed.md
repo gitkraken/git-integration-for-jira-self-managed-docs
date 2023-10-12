@@ -37,7 +37,7 @@ Offering ease of use and scope of features, the Indexing queue viewer:
 
 ### Access location
 
-This feature can be accessed via the Jira dashboard menu Git ➜ Indexing queue.
+This feature can be accessed via the Jira dashboard menu Git ➜ **Indexing queue**.
 
 ![](/wp-content/uploads/gij-gitserver-indexing-queue-mgr-loc-01.png)
 
@@ -86,7 +86,7 @@ These includes:
 
 Filter the task list by clicking on the **Status** dropdown and selecting a category:
 
-*   **All** – Displays the data for every Status category.
+*   **All** – Displays the data for every Status category. **This is the default selection for the Status filter.**
 
 *   **Queued** -- Displays tasks having <b style='background-color:#DEE0E5; padding:1px 5px; color:#44516C; border-radius:3px; margin: 0 5px; font-size: small;'>QUEUED</b> status. This indicates that the indexing tasks are still waiting in line to be processed or are still unfinished.
 
@@ -234,6 +234,18 @@ The default sort order applies the following rule:
 
 &nbsp;
 
+### Cancel indexing
+
+<b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.23</b>
+
+This feature allows Jira administrators to interrupt the indexing process once it has been queued or has already started. It will suspend the indexing process and can be resumed with subsequent reindex later on.
+
+For the selected queue task, click on **...** (Actions) ➜ **Cancel**.
+
+![](/wp-content/uploads/gij-gitserverdc-indexing-queue-cancel-reindex-action.png)
+
+For more information on this feature, see [Cancel indexing](/git-integration-for-jira-data-center/Cancel-indexing-revision-indexing-gij-self-managed). <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>COMING VERY SOON</b>
+
 ### Viewing logs
 
 ![](/wp-content/uploads/gij-gitserver-indexing-queue-viewer-actions-menu.png)
@@ -243,6 +255,10 @@ The 'indexing status' is displayed in the indexing log dialog that appears durin
 ![](/wp-content/uploads/gij-gitserver-reindex-log-error.png)
 
 For encountered errors when indexing, open the logs via Actions ➜ View log. Copy the message log and submit this to us thru [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com) or via [Support portal](/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) for analysis. For the above example error, there are several factors that caused this error – the Git service is down, no internet connection, the webhook has changed or the personal access token has expired.
+
+### Moving list items to top
+
+Move the selected queue item to the top of the list (most recent). To do this click **...** (Action) ➜ **Move to top**. This will make it easy to monitor the selected item's behavior such as indexing status and viewing its indexing process logs.
 
 ### Indexing queue list
 

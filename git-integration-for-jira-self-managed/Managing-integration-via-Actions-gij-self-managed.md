@@ -38,6 +38,21 @@ For more details, see [Edit repository settings](/git-integration-for-jira-data
 
 Clears the last indexed revision and rebuild Lucene index on next synchronization.
 
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Please do note that this process will rebuild index from scratch. Take this into consideration when indexing very large repositories or integration.
+    </div>
+    </div>
+</div>
+
+On following screen, the user is prompted to also reset all main revision information or not. The default setting is enabled. For a proper rebuild of the index information, leave it as is. Click **Reset index** to proceed.
+
+![](/wp-content/uploads/gij-gitserverdc-gitmgr-actions-reset-index-prompt.png)
+
 #### Remove repository
 
 Disconnects the repository and removes its settings from the Git Integration for Jira app repository configuration.
@@ -68,6 +83,21 @@ For more details, see [Edit repository settings](/git-integration-for-jira-data
 
 Clears the last indexed revision and rebuild Lucene index on next synchronization.
 
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Please do note that this process will rebuild index from scratch. Take this into consideration when indexing very large repositories or integration.
+    </div>
+    </div>
+</div>
+
+On following screen, the user is prompted to also reset all main revision information or not. The default setting is enabled. For a proper rebuild of the index information, leave it as is. Click **Reset index** to proceed.
+
+![](/wp-content/uploads/gij-gitserverdc-gitmgr-actions-reset-index-prompt.png)
+
 #### Remove tracked folder
 
 Disconnects the tracked folder integration and removes its settings from the Git Integration for Jira app repository configuration.
@@ -79,7 +109,7 @@ Opens a dialog showing the indexing log of the connected tracked repository.
 * * *
 &nbsp;
 
-### AUTO-CONNECT** (Integration)
+### AUTO-CONNECT (Integration)
 
 #### Reindex integration
 
@@ -113,6 +143,21 @@ Opens the [Integration feature settings](/git-integration-for-jira-data-center/
 #### Reset index
 
 Clears the last indexed revision and rebuild Lucene index on next synchronization.
+
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Please do note that this process will rebuild index from scratch. Take this into consideration when indexing very large repositories or integration.
+    </div>
+    </div>
+</div>
+
+On following screen, the user is prompted to also reset all main revision information or not. The default setting is enabled. For a proper rebuild of the index information, leave it as is. Click **Reset index** to proceed.
+
+![](/wp-content/uploads/gij-gitserverdc-gitmgr-actions-reset-index-prompt.png)
 
 #### Remove integration
 
@@ -167,6 +212,21 @@ Opens the [Integration feature settings](/git-integration-for-jira-data-center/
 #### Reset index
 
 Clears the last indexed revision and rebuild Lucene index on next synchronization.
+
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Please do note that this process will rebuild index from scratch. Take this into consideration when indexing very large repositories or integration.
+    </div>
+    </div>
+</div>
+
+On following screen, the user is prompted to also reset all main revision information or not. The default setting is enabled. For a proper rebuild of the index information, leave it as is. Click **Reset index** to proceed.
+
+![](/wp-content/uploads/gij-gitserverdc-gitmgr-actions-reset-index-prompt.png)
 
 #### Remove integration
 
