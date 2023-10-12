@@ -144,7 +144,7 @@ A git service user can create a PR/MR via the Git host service portal and adding
 | :---: |
 | ![](/wp-content/uploads/gij-gitserverdc-assoc-pull-req-dev-panel-list.png) |
 
-Additionally, creating PR/MR via the Git developer panel automatically associates the PR/MR to a Jira issue.
+Additionally, creating PR/MR via the Git developer panel automatically associates the PR/MR to a Jira issue. This also adds a description in the PR/MR to the git host service portal containing the link to the Jira issue.
 
 ## See more Git Integration for Jira app features
 
