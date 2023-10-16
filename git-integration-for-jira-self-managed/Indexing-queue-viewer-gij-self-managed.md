@@ -53,7 +53,7 @@ Take into consideration that this action...
 
 *   only removes tasks in **QUEUED** status.
 *   does not cancel tasks in **INDEXING** status.
-*   does not clear the CANCELED status. A task with CANCELED status will stay like that indefinitely until it is processed again for reindex.
+*   does not clear the CANCELED status. A task with CANCELED status will stay like that indefinitely until subsequent reindex.
 
 ![](/wp-content/uploads/gij-gitserver-indexing-queue-viewer-gencfg-dashboard-c.png)
 
