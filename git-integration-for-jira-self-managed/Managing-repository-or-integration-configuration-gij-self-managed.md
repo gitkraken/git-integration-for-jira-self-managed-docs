@@ -91,6 +91,9 @@ For the repository/integration list, utilize the following references for the co
                     <li>
                         It shows <b style='background-color:#FFEBE6; padding:1px 5px; color:#C02909; border-radius:3px; margin: 0 5px; font-size: small;'>ERROR</b> if the connected repository has connection issues with the configured git host.
                     </li>
+                    <li>
+                        It shows <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>CANCELED</b> if the indexing progress of this repository was manually interrupted. A subsequent reindex will resume the indexing progress of repositories/integrations with this state.
+                    </li>
                 </ul>
             </td>
             <td>JIRA SERVER<br>DATA CENTER<br>JIRA CLOUD</td>
