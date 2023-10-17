@@ -80,7 +80,7 @@ Use this key in the form of:
 
 Example:<br>
 ```powershell
-https://your.jira.com/rest/gitplugin/webhook/1.0/reindex/sdf34tGdfgGDG345g3y0045TYG23te37
+https://jira.yourorg.com/rest/gitplugin/webhook/1.0/reindex/sdf34tGdfgGDG345g3y0045TYG23te37
 ```
 
 <div class="bbb-callout bbb--info">
@@ -101,11 +101,15 @@ https://your.jira.com/rest/gitplugin/webhook/1.0/reindex/sdf34tGdfgGDG345g3y0045
 
 The advanced options provide a couple of settings for webhook indexing performance improvements.
 
-![](/wp-content/uploads/gij-gitserver-webhooks-ignore-dups-and-min-ridx-adv.png)
+![](/wp-content/uploads/gij-gitserverdc-webhooks-indexing-interval-423.png)
 
-**Ignore unmatching webhooks** – Continuous reindexing of all repositories may cause significant performance issues if unmatching webhooks are not ignored. When set to `Enabled` (default), this setting filters out incoming webhooks without a matching repository. This setting is `Enabled` by default for new and upgrading users.
+**Ignore unmatching webhooks**<br>
+Continuous reindexing of all repositories may cause significant performance issues if unmatching webhooks are not ignored. When set to `Enabled` (default), this setting filters out incoming webhooks without a matching repository. This setting is `Enabled` by default for new and upgrading users.
 
-**Min. repository reindex interval** – The frequency of reindexing is set to a maximum of this value (in minutes). Default value is 5 minutes. Set this value to 0 (zero) to disable this setting.
+**Min. repository reindex interval**<br>
+<b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT!</b> v4.23+ uses seconds as unit value. Pre-v4.23 uses minutes.
+
+The frequency of reindexing is set this value (in seconds). Default value is 0 seconds. Upgrading the plugin does not change the value for this setting. For new users, the default value is 3 seconds.
 
 &nbsp;
 
