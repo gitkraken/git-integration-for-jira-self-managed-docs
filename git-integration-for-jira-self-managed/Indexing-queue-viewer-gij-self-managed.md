@@ -244,7 +244,7 @@ For the selected queue task, click on **...** (Actions) ➜ **Cancel**.
 
 ![](/wp-content/uploads/gij-gitserverdc-indexing-queue-cancel-reindex-action.png)
 
-For more information on this feature, see [Cancel indexing](/git-integration-for-jira-data-center/Cancel-indexing-revision-indexing-gij-self-managed). <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>COMING VERY SOON</b>
+For more information on this feature, see [Cancel indexing](/git-integration-for-jira-data-center/Cancel-indexing-revision-indexing-gij-self-managed).
 
 ### Viewing logs
 
