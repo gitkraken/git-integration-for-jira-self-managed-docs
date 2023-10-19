@@ -133,7 +133,7 @@ A reindex of the task is canceled on all Jira nodes.
 
 ### How to know the average number of commits in a branch?
 
-If your main branch is master, then the next command call from the root of your repository clone will return the average number:
+If your main branch is "master", then the next command call from the root of your repository clone will return the average number:
 
 ```powershell
 git branch -r | xargs -i git rev-list --count {} ^master | grep -v 0 | awk 'BEGIN{s=0;}{s+=$1;}END{print s/NR;}'
