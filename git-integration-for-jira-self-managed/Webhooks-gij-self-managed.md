@@ -103,10 +103,12 @@ The advanced options provide a couple of settings for webhook indexing performan
 
 ![](/wp-content/uploads/gij-gitserverdc-webhooks-indexing-interval-423.png)
 
-**Ignore unmatching webhooks**<br>
+#### Ignore unmatching webhooks
+
 Continuous reindexing of all repositories may cause significant performance issues if unmatching webhooks are not ignored. When set to `Enabled` (default), this setting filters out incoming webhooks without a matching repository. This setting is `Enabled` by default for new and upgrading users.
 
-**Min. repository reindex interval**<br>
+#### Min. repository reindex interval
+
 <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT!</b> v4.23+ uses seconds as unit value. Pre-v4.23 uses minutes.
 
 The frequency of reindexing is set this value (in seconds). Default value is 0 seconds. Upgrading the plugin does not change the value for this setting. For new users, the default value is 3 seconds.
