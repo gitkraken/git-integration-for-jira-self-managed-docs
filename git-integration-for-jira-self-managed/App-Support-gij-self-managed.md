@@ -25,6 +25,26 @@ We are committed to provide you with an efficient and reliable support. Scroll d
 
 &nbsp;
 
+### Jira Server platform end of life support
+
+Atlassian's end of life support for the Jira Server platform is slated for **February 15, 2024**. Plan ahead on migrating your Jira Server to Cloud or Data Center starting now.
+
+This process is simple and manageable:
+
+*   Before you migrate, upgrade Git Integration for Jira app to the latest version.
+*   Back your data for migration.
+*   Plan your migration path.
+
+See the following topics from Atlassian for migration:
+
+*   [Migrating Jira applications to another server](https://confluence.atlassian.com/adminjiraserver073/migrating-jira-applications-to-another-server-861253107.html)
+
+*   [Migrating from Jira Server to Jira Cloud](https://www.atlassian.com/migration/plan/cloud-guide)
+
+*   [Migrating from Jira Server to Jira Data Center](https://confluence.atlassian.com/enterprise/migrate-from-server-to-data-center-953127136.html)
+
+&nbsp;
+
 ### Migrating to Jira 9
 
 Administrators should deselect the "Reverse commit tab sort order" option in General settings when Jira 8 is migrated to Jira 9. If this is a new Jira 9 installation then nothing is required.
