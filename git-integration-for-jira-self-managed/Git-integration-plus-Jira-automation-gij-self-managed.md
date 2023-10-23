@@ -54,7 +54,9 @@ And thus, we will support all of these triggers in the coming releases. The pres
 
 ### Getting started with Automation for Jira
 
-On Jira Cloud, the Automation for Jira has been completely integrated into Jira Cloud and no longer exists as a standalone app in the Atlassian Marketplace. For Jira Server/Data Center, you will need to download and install Automation for Jira - Data Center and Server from the Atlassian Marketplace.
+On Jira Cloud, the Automation for Jira app has been completely integrated into Jira Cloud and no longer exists as a standalone app in the Atlassian Marketplace.
+
+For Jira Data Center 9.0 and later, there is no need to download Automation for Jira app separately as the functionality is already included in this version of Jira.
 
 #### Downloading the app
 
