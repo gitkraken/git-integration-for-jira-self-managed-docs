@@ -32,10 +32,11 @@ DELETE
 
 ### Parameters
 
-| Parameter | Condition |
+| Field | Description |
 | :--- | :--- |
 | _**id**_ | _Integer_. Required.<br><br>This is the ID of the existing repository. For example, `id : 3,`. |
-| _**deleteFiles**_ | _Boolean._ Optional.<br><br>Indicates whether the repository folder is also deleted from the Jira server. If set to _**true**_, the repository folder is deleted from the Jira server. |
+| _**deleteFiles**_ | _Boolean._ Optional.<br><br>Indicates whether the repository folder is also deleted from the Jira server. If set to _**true**_, the repository folder is deleted from the Jira server. Default value is `false`.<br><br>And he unused clone of a repository will remain in `jira/home/data/git-plugin` folder.<br><br><div class="bbb-callout bbb--alert" style='margin-bottom:0px;'><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox"><b>Important!</b><br>DO NOT use <code>deleteFiles=true</code> to repository files where origin points to an original repository path. For example:<br><ul><li>...when a plain repository is pointing to an absolute path</li><li>...when a tracked folder is connected to a GitLab hashed storage</li></ul><p style='margin-bottom:-10px;'>If set to <code>true</code>, it will erase (a) repositories from the absolute path and (b) repositories from your Gitlab.</p></div></div>
+</div> |
 
 ### Response
 
