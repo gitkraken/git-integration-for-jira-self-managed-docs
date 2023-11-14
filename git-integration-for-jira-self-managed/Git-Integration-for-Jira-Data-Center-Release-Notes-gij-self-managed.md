@@ -11,8 +11,6 @@ We publish new features, bug fixes, security updates/patches, and Jira compatibi
 
 **Important links**
 
-*   [Roadmap for Git Integration for Jira Server/Data Center](https://trello.com/b/WRrWMs87/git-integration-server-data-center-roadmap)
-
 *   [Atlassian Marketplace listing](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=datacenter&tab=overview)
 
 *   [Git Integration for Jira Server/Data Center Security](https://www.gitkraken.com/git-integration-for-jira/security-and-trust)
