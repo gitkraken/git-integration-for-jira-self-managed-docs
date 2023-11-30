@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-The Git Integration for Jira app currently supports **Jira** **8.0** to **9.12**!
+The Git Integration for Jira app currently supports **Jira** **8.12** to **9.12**!
 
 <div class="bbb-callout bbb--error">
     <div class="irow">
@@ -16,19 +16,8 @@ The Git Integration for Jira app currently supports **Jira** **8.0** to **9.12**
     </div>
     <div class="imsgbox">
         <b>UPDATE</b><br>
-        Starting v4.0+ of the Git Integration for Jira app, support for Jira 7 is entirely dropped.
-    </div>
-    </div>
-</div>
-
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>NOTE</b><br>        
-        The Git Integration for Jira app <b>Cancel indexing</b> and <b>View log</b> features do not work with Jira self-managed instances earlier than version 8.12.
+        Starting Git Integration for Jira v4.0+ app, support for Jira 7 is entirely dropped.<br>
+        Starting Git Integration for Jira v4.12+ app, we are dropping support for Java 8.0-8.11.
     </div>
     </div>
 </div>
