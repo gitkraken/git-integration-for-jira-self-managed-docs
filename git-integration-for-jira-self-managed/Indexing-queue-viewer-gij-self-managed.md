@@ -246,6 +246,17 @@ For the selected queue task, click on **...** (Actions) ➜ **Cancel**.
 
 For more information on this feature, see [Cancel indexing](/git-integration-for-jira-data-center/Cancel-indexing-revision-indexing-gij-self-managed).
 
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The Git Integration for Jira app <b>Cancel indexing</b> feature does not work with Jira self-managed instances earlier than version 8.12.
+    </div>
+    </div>
+</div>
+
 ### Viewing logs
 
 ![](/wp-content/uploads/gij-gitserver-indexing-queue-viewer-actions-menu.png)
@@ -255,6 +266,17 @@ The 'indexing status' is displayed in the indexing log dialog that appears durin
 ![](/wp-content/uploads/gij-gitserver-reindex-log-error.png)
 
 For encountered errors when indexing, open the logs via Actions ➜ View log. Copy the message log and submit this to us thru [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com) or via [Support portal](/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) for analysis. For the above example error, there are several factors that caused this error – the Git service is down, no internet connection, the webhook has changed or the personal access token has expired.
+
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The Git Integration for Jira app <b>View log</b> feature does not work with Jira self-managed instances earlier than version 8.12.
+    </div>
+    </div>
+</div>
 
 ### Moving list items to top
 
