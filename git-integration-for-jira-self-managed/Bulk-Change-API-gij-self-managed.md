@@ -13,7 +13,7 @@ To use the API, users must:
 
 *   install the <a href='http://docs.python-requests.org/en/latest/user/install/#install' target='_blank'><b>Requests »</b></a> Python package.
 
-*   declare `JIRA_BASE`, `JIRA_USER`, and `JIRA_PASSWORD` in the `configuration_conf.py` file.  The `JIRA_USER` defined in this file must have Jira Admin global permissions.  _(Download_ <a href='https://bigbrassband.com/files/configuration_conf.zip'>sample file ↓</b></a> _as a zip file.)_
+*   declare `JIRA_BASE`, `JIRA_USER`, and `JIRA_PASSWORD` in the `configuration_conf.py` file.  The `JIRA_USER` defined in this file must have Jira Admin global permissions.  _(Download_ <a href='/wp-content/uploads/configuration_conf.zip'>sample file ↓</b></a> _as a zip file.)_
 
 
 HTTP Status code response:
@@ -28,10 +28,10 @@ HTTP Status code response:
 
 ## Bulk Change REST APIs
 
-*   [Bulk Export](/git-integration-for-jira-data-center/bulk-export-gij-self-managed/) (Git Integration for Jira Server/Data Center)
+*   [Bulk Export](/git-integration-for-jira-data-center/bulk-export-gij-self-managed/) (Git Integration for Jira Data Center)
 
-*   [Bulk Import](/git-integration-for-jira-data-center/bulk-import-gij-self-managed/) (Git Integration for Jira Server/Data Center)
+*   [Bulk Import](/git-integration-for-jira-data-center/bulk-import-gij-self-managed/) (Git Integration for Jira Data Center)
 
 *   [Get Bulk Import Information](/git-integration-for-jira-data-center/get-bulk-import-information-gij-self-managed/) 
-(Git Integration for Jira Server/Data Center)
+(Git Integration for Jira Data Center)
 

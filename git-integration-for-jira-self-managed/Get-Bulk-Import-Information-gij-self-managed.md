@@ -31,7 +31,7 @@ Returns the status information of the import process.
 
 ### Download sample file
 
-[**configuration\_progress.py**](https://bigbrassband.com/files/configuration_progress.zip)
+[**configuration\_progress.py**](/wp-content/uploads/configuration_progress.zip)
 
 * * *
 
@@ -72,9 +72,9 @@ user@home:~$ python configuration_progress.py 1058
 
 ### Bulk Change REST APIs
 
-*   [Bulk Export](/git-integration-for-jira-data-center/bulk-export-gij-self-managed) (Git Integration for Jira Server/Data Center)
+*   [Bulk Export](/git-integration-for-jira-data-center/bulk-export-gij-self-managed) (Git Integration for Jira Data Center)
 
-*   [Bulk Ixport](/git-integration-for-jira-data-center/bulk-import-gij-self-managed) (Git Integration for Jira Server/Data Center)
+*   [Bulk Ixport](/git-integration-for-jira-data-center/bulk-import-gij-self-managed) (Git Integration for Jira Data Center)
 
 *   **Get Bulk Import Information** (this page)
 

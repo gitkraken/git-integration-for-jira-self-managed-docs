@@ -26,7 +26,7 @@ GET
     </div>
     <div class="imsgbox">
         <b><i>Download sample file</i></b><br>
-        <a href='https://bigbrassband.com/files/configuration_get.zip'><b>configuration_get.py</b></a>
+        <a href='/wp-content/uploads/configuration_get.zip'><b>configuration_get.py</b></a>
     </div>
     </div>
 </div>
@@ -109,7 +109,7 @@ Take note that the .tsv file is verified by the Git Integration for Jira app wit
 
 *   **Bulk Export** (this page)
 
-*   [Bulk Import](/git-integration-for-jira-data-center/bulk-import-gij-self-managed) (Git Integration for Jira Server/Data Center)
+*   [Bulk Import](/git-integration-for-jira-data-center/bulk-import-gij-self-managed) (Git Integration for Jira Data Center)
 
-*   [Get Bulk Import Information](/git-integration-for-jira-data-center/get-bulk-import-information-gij-self-managed) (Git Integration for Jira Server/Data Center)
+*   [Get Bulk Import Information](/git-integration-for-jira-data-center/get-bulk-import-information-gij-self-managed) (Git Integration for Jira Data Center)
 
