@@ -48,7 +48,7 @@ The **pre-receive** server-side hook requires git administrators to:
 </div>
 <br>
 
-See the server-side hook script on the right panel or download the sample **[pre-receive file ↓](https://bigbrassband.com/files/pre-receive.zip)** – make the necessary changes, and place it in the required folder.
+See the server-side hook script on the right panel or download the sample **[pre-receive file ↓](/wp-content/uploads/pre-receive.zip)** – make the necessary changes, and place it in the required folder.
 
 <div class="bbb-callout bbb--error">
     <div class="irow">
@@ -184,7 +184,7 @@ for c, msg in commits.iteritems():
 
     if err_msg:
         print >> sys.stderr, 'Error: %s\\nCommit message:\\n%s' % (err_msg, msg)
-        print >> sys.stderr, 'Install pre-commit hook (https://bigbrassband.com/api-doc.html#cmhook) to run this check at the commit time'
+        print >> sys.stderr, 'Install pre-commit hook (https://help.gitkraken.com/git-integration-for-jira-data-center/commit-msg-hook-gij-self-managed/) to run this check at the commit time'
         sys.exit(1)
 ```
 

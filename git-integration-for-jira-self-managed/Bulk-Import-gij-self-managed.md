@@ -65,7 +65,7 @@ Returns the ID of the importing thread.
 <br>
 
 _**Download sample file**_<br>
-[**configuration\_post.py**](https://bigbrassband.com/files/configuration_post.zip)
+[**configuration\_post.py**](/wp-content/uploads/configuration_post.zip)
 
 &nbsp;
 * * *
@@ -159,7 +159,7 @@ Take note that the .tsv file is verified by the Git Integration for Jira app wit
 
 *   [Bulk Export](/git-integration-for-jira-data-center/bulk-export-gij-self-managed) (Git Integration for Jira Server/Data Center)
 
-*   **Bulk Ixport** (this page)
+*   **Bulk Import** (this page)
 
 *   [Get Bulk Import Information](/git-integration-for-jira-data-center/get-bulk-import-information-gij-self-managed) (Git Integration for Jira Server/Data Center)
 
