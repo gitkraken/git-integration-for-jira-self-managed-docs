@@ -31,6 +31,7 @@ Returns the status information of the import process.
 
 ### Download sample file
 
+Right click the link and download the file below:
 [**configuration\_progress.py**](/wp-content/uploads/configuration_progress.zip)
 
 * * *
