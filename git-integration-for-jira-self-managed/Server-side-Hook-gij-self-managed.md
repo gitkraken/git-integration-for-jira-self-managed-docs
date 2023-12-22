@@ -48,7 +48,7 @@ The **pre-receive** server-side hook requires git administrators to:
 </div>
 <br>
 
-See the server-side hook script on the right panel or download the sample **[pre-receive file ↓](/wp-content/uploads/pre-receive.zip)** – make the necessary changes, and place it in the required folder.
+See the server-side hook script below or right click and download the sample **[pre-receive file ↓](/wp-content/uploads/pre-receive.zip)**. Extract this file and make the necessary changes. Afterwards, place the edited file to the required folder (usually in .git/hooks directory).
 
 <div class="bbb-callout bbb--error">
     <div class="irow">

@@ -29,7 +29,7 @@ Example: `re.compile(r'\[(\w+7-\d+?)\]')`
 
 In Linux and OSX, this file must have executable permissions in the file system; in Windows, setting this permission is not necessary.  To use the hook in Windows without python installed, see <a href='https://docs.python.org/2/faq/windows.html#how-do-i-make-an-executable-from-a-python-script' target='_blank'><b>Python on Windows FAQ »</b></a>.
 
-See the commit-msg hook code on the right panel or download the sample **[commit-msg file ↓](/wp-content/uploads/commit-msg.zip)**, make the necessary changes, and place it in the required folder.
+See the commit-msg hook script below or right click and download the sample **[commit-msg file ↓](/wp-content/uploads/commit-msg.zip)**. Extract this file and make the necessary changes. Afterwards, place the edited file to the required folder (usually in .git/hooks directory).
 
 <div class="bbb-callout bbb--info">
     <div class="irow">

@@ -26,6 +26,7 @@ GET
     </div>
     <div class="imsgbox">
         <b><i>Download sample file</i></b><br>
+        Right click the link and save it somewhere accessible:<br>
         <a href='/wp-content/uploads/configuration_get.zip'><b>configuration_get.py</b></a>
     </div>
     </div>

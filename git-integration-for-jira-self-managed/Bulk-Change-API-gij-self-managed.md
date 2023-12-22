@@ -13,7 +13,7 @@ To use the API, users must:
 
 *   install the <a href='http://docs.python-requests.org/en/latest/user/install/#install' target='_blank'><b>Requests »</b></a> Python package.
 
-*   declare `JIRA_BASE`, `JIRA_USER`, and `JIRA_PASSWORD` in the `configuration_conf.py` file.  The `JIRA_USER` defined in this file must have Jira Admin global permissions.  _(Download_ <a href='/wp-content/uploads/configuration_conf.zip'>sample file ↓</b></a> _as a zip file.)_
+*   declare `JIRA_BASE`, `JIRA_USER`, and `JIRA_PASSWORD` in the `configuration_conf.py` file.  The `JIRA_USER` defined in this file must have Jira Admin global permissions.  _(Download by right-clicking the file then save_ <a href='/wp-content/uploads/configuration_conf.zip'>sample file ↓</b></a> _as a zip file.)_
 
 
 HTTP Status code response:

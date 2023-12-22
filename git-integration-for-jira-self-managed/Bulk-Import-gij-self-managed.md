@@ -65,6 +65,7 @@ Returns the ID of the importing thread.
 <br>
 
 _**Download sample file**_<br>
+Right click and save the file below then extract to an easily accessible folder:<br>
 [**configuration\_post.py**](/wp-content/uploads/configuration_post.zip)
 
 &nbsp;
