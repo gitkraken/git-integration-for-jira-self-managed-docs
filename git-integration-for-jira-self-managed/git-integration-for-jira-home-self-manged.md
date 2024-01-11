@@ -96,6 +96,14 @@ Check out the introduction video and links below to get started with Git Integra
 
 - [Version History](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira/version-history) - Find out what changes were implemented when.
 
+- [Service Level Agreement](https://www.gitkraken.com/sla-gij)
+
+- [Terms and Conditions](/git-integration-for-jira-data-center/sla-terms-and-conditions-gij-sekf-managed/)
+
+- [Deprecation Notice](/git-integration-for-jira-data-center/deprecation-notice-gij-self-managed/)
+
+***
+
 Join our GitKraken public slack community and interact with other Git Integration for Jira users from around the world 🌐.
 [Join GitKraken Slack](https://slack.gitkraken.com/)
 
