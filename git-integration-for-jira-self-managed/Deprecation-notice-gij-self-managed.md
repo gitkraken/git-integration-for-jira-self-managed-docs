@@ -16,5 +16,6 @@ taxonomy:
 | **StartReindexGitRepositories** | 12 April 2023 | Starting v4.16+<br>This action is deprecated since it is not being used anymore by GIJ.<br><br>For example: <ul><li>http://localhost/secure/StartReindexGitRepositories.jspa</li><li>http://localhost/secure/ReindexGitRepositories!progress.jspa</li></ul><br>These actions will be removed from GIJ Server/DC product in 12 months. |
 | Reindex POST API<br>**/jira/rest/gitplugin/1.0/index** | 04 May 2023 | Starting v4.17+<br>**Contet-type: multipart/form-data** is also deprecated.for Reindex POST API.<br><br>The v2.0 API with JSON body is more improved and users are advised to update to v4.17+ for better security. |
 | **GitLab legacy** | 06 June 2023 | Starting v4.19+<br>We will be dropping support for GitLab legacy integrations.<br><br>The removal of legacy routes in the recent Gitlab update is breaking links from our apps -- as the URL structure has changed. More details regarding the change [here](https://docs.gitlab.com/ee/update/removals.html#legacy-routes-removed). |
+| **Java 8** | Q2 2024 | Starting Git Integration for Jira app v5.0, it will no longer support Java 8. We recommend to upgrade to newer versions of Java especially for security reasons. |
 | _(more to come)_ |     |     |
 
