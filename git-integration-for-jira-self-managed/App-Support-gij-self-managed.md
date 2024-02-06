@@ -28,6 +28,18 @@ We are committed to provide you with an efficient and reliable support. Scroll d
 
 ### Jira Server platform end of life support
 
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Starting from version 9.13, Jira Software now exclusively supports Data Center licenses. If you attempt to upgrade to release 9.13 or any subsequent version with your Server license, Jira will be unable to start and you will be required to revert back to the previous version.<br>
+        <div style="margin-top:5px;margin-bottom:-10px;">If you prefer to continue using a Server license, you have the option of upgrading to Jira Software version 9.12 or an earlier release.</div>
+    </div>
+    </div>
+</div>
+
 Atlassian's end of life support for the Jira Server platform is slated for **February 15, 2024**. Plan ahead on migrating your Jira Server to Cloud or Data Center starting now.
 
 This process is simple and manageable:

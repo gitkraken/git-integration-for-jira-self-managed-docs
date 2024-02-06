@@ -110,7 +110,7 @@ The Pull/merge request list provides status information about the pull/merge req
 
 <img src='/wp-content/uploads/gij-gitserver-dev-panel-pullreq-list-hover.png' style='display:block;margin:25px auto;max-width:100%' />
 
-For detailed information on this feature, see [Creating pull/merge requests](/git-integration-for-jira-data-center/creating-branches-gij-self-managed).
+For detailed information on this feature, see [Creating pull/merge requests](/git-integration-for-jira-data-center/creating-pull-merge-requests-gij-self-managed/).
 
 &nbsp;
 ### Video Guide
