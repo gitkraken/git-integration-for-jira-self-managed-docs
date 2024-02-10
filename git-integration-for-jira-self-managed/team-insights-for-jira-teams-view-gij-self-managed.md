@@ -1,9 +1,9 @@
 ---
 
-title: Teams View (TIJ Cloud)
+title: Teams View (TIJ self-managed)
 description:
 taxonomy:
-    category: git-integration-for-jira-cloud
+    category: git-integration-for-jira-data-center
 
 ---
 
@@ -145,14 +145,14 @@ With all the selection of filters and search options in place, click **Search** 
 
 ### More on Team Insights for Jira features
 
-[Team Insights for Jira Cloud](/git-integration-for-jira-cloud/team-insights-for-jira-gij-cloud)
+[Team Insights for Jira](/git-integration-for-jira-data-center/team-insights-for-jira-gij-self-managed)
 
-[Sprints/Epics View](/git-integration-for-jira-cloud/team-insights-for-jira-issues-epics-view-gij-cloud/)
+[Sprints/Epics View](/git-integration-for-jira-data-center/team-insights-for-jira-issues-epics-view-gij-self-managed)
 
 **Teams View** (this page)
 
-[Backlog View](/git-integration-for-jira-cloud/team-insights-for-jira-backlog-view-gij-cloud/)
+[Backlog View](/git-integration-for-jira-data-center/team-insights-for-jira-backlog-view-gij-self-managed)
 
-[Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-tij-gij-cloud/)
+[Pull request timeline reindex](/git-integration-for-jira-data-center/pull-request-timeline-for-tij-gij-self-managed)
 
 

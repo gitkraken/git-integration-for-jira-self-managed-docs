@@ -3,11 +3,9 @@
 title: Team Insights for Jira Cloud
 description:
 taxonomy:
-    category: git-integration-for-jira-cloud
+    category: git-integration-for-jira-self-managed
 
 ---
-
-Introducing Team Insights for Jira app extension.
 
 <div class='embed-container embed-container--16-9'>
         <iframe width='709' height='382' src='https://www.youtube.com/embed/ctzCdY9CXOg' frameborder='0' allowfullscreen ></iframe>
@@ -17,7 +15,7 @@ Introducing Team Insights for Jira app extension.
     <i>Right click <a href='https://www.youtube.com/watch?v=ctzCdY9CXOg'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
-From the creators of Git Integration for Jira (GIJ) app, this extension provides team managers the ability to monitor specific git history and Jira team activity at the project, epic and sprint level. This enables managers to prioritize work, identify risks, reveal trends and make better decisions of managing Jira team workflows and activities.
+This extension provides team managers the ability to monitor specific git history and Jira team activity at the project, epic and sprint level. This enables managers to prioritize work, identify risks, reveal trends and make better decisions of managing Jira team workflows and activities.
 
 ![](/wp-content/uploads/tij-gitcloud-main-default-view-issues-tab.png)
 
@@ -29,7 +27,7 @@ Team Insights for Jira (TIJ) grants managers a complete view of what your team i
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        It's not a requirement but if you have Git Integration for Jira Cloud installed, this extension will improve planning workflow and display more information by pulling Git data into your views.
+        It's not a requirement but if you have Git Integration for Jira app installed, this extension will improve planning workflow and display more information by pulling Git data into your views.
     </div>
     </div>
 </div>
@@ -118,7 +116,7 @@ Enable every member of the team and all departments to enhance their understandi
 
 Team Insights for Jira provides a comprehensive view of your team's Jira and Git activity over time. It allows you to easily track what tasks your team is currently working on and monitor their progress. With this information, you can make more informed decisions to improve productivity and efficiency.
 
-TIJ displays Jira activity for all Jira users. Git data such as branches, commits, pull requests, and tags are automatically included in the views if you have the [Git Integration for Jira Cloud](https://www.gitkraken.com/git-integration-for-jira) app installed.
+TIJ displays Jira activity for all Jira users. Git data such as branches, commits, pull requests, and tags are automatically included in the views if you have the [Git Integration for Jira](https://www.gitkraken.com/git-integration-for-jira) app installed.
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -135,14 +133,14 @@ TIJ displays Jira activity for all Jira users. Git data such as branches, commit
 
 ### More on Team Insights for Jira features
 
-**Team Insights for Jira Cloud** (this page)
+**Team Insights for Jira** (this page)
 
-[Sprints/Epics View](/git-integration-for-jira-cloud/team-insights-for-jira-issues-epics-view-gij-cloud/)
+[Sprints/Epics View](/git-integration-for-jira-self-managed/team-insights-for-jira-issues-epics-view-gij-self-managed/)
 
-[Teams View](/git-integration-for-jira-cloud/team-insights-for-jira-teams-view-gij-cloud)
+[Teams View](/git-integration-for-jira-self-managed/team-insights-for-jira-teams-view-gij-self-managed)
 
-[Backlog View](/git-integration-for-jira-cloud/team-insights-for-jira-backlog-view-gij-cloud/)
+[Backlog View](/git-integration-for-jira-self-managed/team-insights-for-jira-backlog-view-gij-self-managed/)
 
-[Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-tij-gij-cloud/)
+[Pull request timeline reindex](/git-integration-for-jira-self-managed/pull-request-timeline-for-tij-gij-self-managed/)
 
 

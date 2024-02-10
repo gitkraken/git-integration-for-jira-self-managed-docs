@@ -1,9 +1,9 @@
 ---
 
-title: Sprints / Epics View (TIJ Cloud)
+title: Sprints / Epics View (TIJ self-managed)
 description:
 taxonomy:
-    category: git-integration-for-jira-cloud
+    category: git-integration-for-jira-data-center
 
 ---
 
@@ -34,11 +34,11 @@ The list view displays Jira issues showing priority, user activity, and other in
 
 To view more details about a specific Jira issue, click on the twisty icon (**\>**) to expand it.
 
-![](/wp-content/uploads/tij-gircloud-issue-view-item-details.png)
+![](/wp-content/uploads/tij-gitcloud-issue-view-item-details.png)
 
 Click on the Issue details icon to display the detailed dialog of the Jira issue.
 
-<img src='/wp-content/uploads/tij-gircloud-issue-view-issue-details-dialog.png' style='margin:25px auto;max-width:100%;display:block;' />
+<img src='/wp-content/uploads/tij-gitcloud-issue-view-issue-details-dialog.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 The issue details shows the following information on:
 
@@ -142,13 +142,13 @@ Click on the following column headers to toggle ascending or descending sorting 
 
 ### More on Team Insights for Jira features
 
-[Team Insights for Jira Cloud](/git-integration-for-jira-cloud/team-insights-for-jira-gij-cloud)
+[Team Insights for Jira Cloud](/git-integration-for-jira-data-center/team-insights-for-jira-gij-self-managed)
 
 **Sprints/Epics View** (this page)
 
-[Teams View](/git-integration-for-jira-cloud/team-insights-for-jira-teams-view-gij-cloud)
+[Teams View](/git-integration-for-jira-data-center/team-insights-for-jira-teams-view-gij-self-managed)
 
-[Backlog View](/git-integration-for-jira-cloud/team-insights-for-jira-backlog-view-gij-cloud/)
+[Backlog View](/git-integration-for-jira-data-center/team-insights-for-jira-backlog-view-gij-self-managed)
 
-[Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-tij-gij-cloud/)
+[Pull request timeline reindex](/git-integration-for-jira-data-center/pull-request-timeline-for-tij-gij-self-managed)
 

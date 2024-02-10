@@ -1,9 +1,9 @@
 ---
 
-title: Backlog View (TIJ Cloud)
+title: Backlog View (TIJ self-managed)
 description:
 taxonomy:
-    category: git-integration-for-jira-cloud
+    category: git-integration-for-jira-data-center
 
 ---
 
@@ -233,14 +233,14 @@ Click on the following column headers to toggle ascending or descending sorting 
 
 ### More on Team Insights for Jira features
 
-[Team Insights for Jira Cloud](/git-integration-for-jira-cloud/team-insights-for-jira-gij-cloud)
+[Team Insights for Jira](/git-integration-for-jira-data-center/team-insights-for-jira-gij-self-managed)
 
-[Sprints/Epics View](/git-integration-for-jira-cloud/team-insights-for-jira-issues-epics-view-gij-cloud/)
+[Sprints/Epics View](/git-integration-for-jira-data-center/team-insights-for-jira-issues-epics-view-gij-self-managed)
 
-[Teams View](/git-integration-for-jira-cloud/team-insights-for-jira-teams-view-gij-cloud)
+[Teams View](/git-integration-for-jira-data-center/team-insights-for-jira-teams-view-gij-self-managed)
 
 **Backlog View** (this page)
 
-[Pull request timeline reindex](/git-integration-for-jira-cloud/pull-request-timeline-for-tij-gij-cloud/)
+[Pull request timeline reindex](/git-integration-for-jira-data-center/pull-request-timeline-for-tij-gij-self-managed)
 
 
