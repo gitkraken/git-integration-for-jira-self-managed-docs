@@ -47,11 +47,13 @@ The Git Integration for Jira sidebar menu now includes a new item called **88**.
 
     &nbsp;
 
-3.  You can create a new group or use an existing group on the Groups page. Enter the group **Name** under the Add group section as required. For this guide, enter “GIJ Managers”.
+3.  You can create a new group or use an existing group on the Groups page.
 
     ![](/wp-content/uploads/gij-datacenter-manager-permissions-add-new-group.png)
 
-    *   Enter Group's name as required. For this guide, enter "GIJ Managers".
+    *   Enter the group **Name** under the Add group section as required. For this guide, enter "GIJ Managers".
+    
+    *   Click **Add group** to create this new group for managers.
 
     This creates the specified group and displays it in the Groups list.
 
