@@ -19,6 +19,10 @@ We publish new features, bug fixes, security updates/patches, and Jira compatibi
 If you have any questions, please contact us through our [Support Portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) or by emailing [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com)
 
 * * *
+## Manager Permissions
+`05 Feb 2024` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
+
+Jira Admins can now share app management control (e.g. change settings, update integrations) with other trusted users. In the past, Jira Admins were the only users that could setup integrations and otherwise manage the app. With the new Manager Permissions page, Jira Admins can use Global Permissions and Groups to allow other Jira users to perform the actions that were previously limited to admins. [View the help article](https://help.gitkraken.com/git-integration-for-jira-data-center/manager-permissions-gij-self-managed-2/) for more information.
 
 ## GitLens for Visual Studio Code Integration
 `29 Mar 2023` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ALL USERS</b>
