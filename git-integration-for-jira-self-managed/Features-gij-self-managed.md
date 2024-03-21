@@ -39,7 +39,7 @@ On this page you will find topics related to the supported features of the app.
 
 *   [Creating branches](/git-integration-for-jira-data-center/creating-branches-gij-self-managed)
 
-*   [Creating pull/merge requests](/git-integration-for-jira-data-center/create-pull-merge-requests-gij-self-managed)
+*   [Creating pull/merge requests](/git-integration-for-jira-self-managed/Creating-pull-merge-requests-gij-self-managed)
 
 *   [General Settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed)
 
