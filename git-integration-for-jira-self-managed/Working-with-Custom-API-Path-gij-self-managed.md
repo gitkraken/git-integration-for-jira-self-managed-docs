@@ -14,17 +14,17 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 **What's on this page:**
 - [Accessible locations](#accessible-locations)
 - [GitHub.com and GitHub Enterprise examples](#githubcom-and-github-enterprise-examples)
-  - [1. Lists all repositories (default)](#1-lists-all-repositories-default)
-  - [2. Display all repositories from \<username\>](#2-display-all-repositories-from-username)
-  - [3. Displays starred repositories](#3-displays-starred-repositories)
-  - [4. List all repositories for the specified organization](#4-list-all-repositories-for-the-specified-organization)
+  - [1. Lists all repositories (default)](#GH1)
+  - [2. Display all repositories from \<username\>](#GH2)
+  - [3. Displays starred repositories](#GH3)
+  - [4. List all repositories for the specified organization](#GH4)
 - [GitLab.com and GitLab CE|EE examples](#gitlabcom-and-gitlab-ceee-examples)
-  - [1. Lists all projects (default)](#1-lists-all-projects-default)
-  - [2. Display all projects from \<user\_id\>](#2-display-all-projects-from-user_id)
-  - [3. Displays starred projects](#3-displays-starred-projects)
-  - [4. Limit to owned projects](#4-limit-to-owned-projects)
-  - [5. List projects from within a group](#5-list-projects-from-within-a-group)
-  - [6. List projects from the specified subgroup](#6-list-projects-from-the-specified-subgroup)
+  - [1. Lists all projects (default)](#GL1)
+  - [2. Display all projects from \<user\_id\>](#GL2)
+  - [3. Displays starred projects](#GL3)
+  - [4. Limit to owned projects](#GL4)
+  - [5. List projects from within a group](#GL5)
+  - [6. List projects from the specified subgroup](#GL6)
 - [More how-to articles](#more-how-to-articles)
 
 &nbsp;
@@ -52,13 +52,13 @@ The Custom API Path is called in the integration setup, settings changes, on a r
 
 ### GitHub\.com and GitHub Enterprise examples
 
-**1\. Lists all repositories (default)**
+<p id='GH1'><b>1. Lists all repositories (default)</b></p>
 
 `/user/repos`
 
 Gets a list of repositories by the authenticated user. This is the same as when no API path is specified.
 
-**2\. Display all repositories from \<username\>**
+<p id='GH2'><b>2. Display all repositories from \<username\></b></p>
 
 `/users/<username>/repos`
 
@@ -66,7 +66,7 @@ Gets a list of public repositories for the specified user, **\<username\>**.
 
 **For example:** `/users/johnsmith/repos`
 
-**3\. Displays starred repositories**
+<p id='GH3'><b>3. Displays starred repositories</b></p>
 
 `/user/starred`
 
@@ -78,7 +78,7 @@ Gets the list of starred public/private repositories for the specified user, **
 
 **For example:** `/users/johnsmith/starred`
 
-**4\. List all repositories for the specified organization**
+<p id='GH4'><b>4. List all repositories for the specified organization</b></p>
 
 `/orgs/<org>/repos`
 
@@ -97,31 +97,31 @@ This will filter for repositories only within the org: `BigBrassBand`. This work
 
 ### GitLab\.com and GitLab CE\|EE examples
 
-**1\. Lists all projects (default)**
+<p id='GL1'><b>1. Lists all projects (default)</b></p>
 
 `/api/v4/projects?membership=true`
 
 Gets a list of projects. This is the same as when no API path is specified.
 
-**2\. Display all projects from \<user\_id\>**
+<p id='GL2'><b>2. Display all projects from &lt;user_id&gt;</b></p>
 
 `/api/v4/users/<user_id>/projects`
 
 Gets a list of projects for the specified user, **\<user\_id\>**.  _**johnsmith**_
 
-**3\. Displays starred projects**
+<p id='GL3'><b>3. Displays starred projects</b></p>
 
 `/api/v4/projects?starred=true`
 
 Returns GitLab projects that have been starred by the connecting GitLab user.
 
-**4\. Limit to owned projects**
+<p id='GL4'><b>4. Limit to owned projects</b></p>
 
 `/api/v4/projects?owned=true`
 
 The current user will be limited to the projects it's explicitly owned.
 
-**5\. List projects from within a group**
+<p id='GL5'><b>5. List projects from within a group</b></p>
 
 `/api/v4/groups/5245789/projects<br>/api/v4/groups/BigBrassBand/projects`
 
@@ -129,7 +129,7 @@ Returns the list of repositories within a GitLab group (or GitLab subgroup).
 
 In the above examples, you can use the **Group id** or your **Group** **name** as query parameter.
 
-**6\. List projects from the specified subgroup**
+<p id='GL6'><b>6. List projects from the specified subgroup</b></p>
 
 `/api/v4/groups/5245789/projects?include_subgroups=true`
 `/api/v4/groups/GitKraken/projects?include_subgroups=true`
