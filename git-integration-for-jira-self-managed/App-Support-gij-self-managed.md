@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-The Git Integration for Jira app currently supports **Jira** **8.12** to **9.13**!
+The Git Integration for Jira app currently supports **Jira** **8.12** to **9.15**!
 
 <div class="bbb-callout bbb--error">
     <div class="irow">
@@ -40,7 +40,7 @@ We are committed to provide you with an efficient and reliable support. Scroll d
     </div>
 </div>
 
-Atlassian's end of life support for the Jira Server platform is slated for **February 15, 2024**. Plan ahead on migrating your Jira Server to Cloud or Data Center starting now.
+Atlassian's end of life support for the Jira Server platform has ended. Please plan ahead on migrating your Jira Server to Cloud or Data Center starting now.
 
 This process is simple and manageable:
 
@@ -105,8 +105,8 @@ If there is an error encountered when connecting to a repository, a similar inde
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b>Important changes to Atlassian server and Data Center products</b><br>
-        Atlassian is making changes to the server and Data Center products, including the end of sale for new server licenses on February 2, 2021 and the end of support for server on February 2, 2024. <a href='https://www.atlassian.com/migration/journey-to-cloud'>Learn what this means for you</a>.
+        <b>Important changes to Atlassian Server and Data Center products</b><br>
+        Atlassian is making changes to the Server and Data Center products, especially ending sale and support for the Server products -- <a href='https://www.atlassian.com/migration/journey-to-cloud'>Learn what this means for you</a>.
     </div>
     </div>
 </div>
@@ -156,6 +156,8 @@ The table below shows the Jira Version, when [Atlassian will stop supporting tha
 | 9.11 | August 30, 2025 | Edge | Yes\* |
 | 9.12 | November 29, 2025 | Edge | Yes\* |
 | 9.13 | January 22, 2026 | Edge | Yes\* |
+| 9.14 | February 15, 2026 | Edge | Yes\* |
+| 9.15 | Marchs 27, 2026 | Edge | Yes\* |
 
 \* _See information below about retiring IE11 support._
 

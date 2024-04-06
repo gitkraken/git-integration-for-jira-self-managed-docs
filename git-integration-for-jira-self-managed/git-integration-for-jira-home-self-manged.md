@@ -14,7 +14,7 @@ taxonomy:
     </div>
     <div class="imsgbox">
         <b style='font-size:20px;'>JIRA SERVER PLATFORM END OF LIFE SUPPORT</b><br>
-        <p>Atlassian's end of life support for the Jira Server platform is slated for <b>February 15, 2024</b>. Plan ahead on migrating your Jira Server to Cloud or Data Center starting now.</p>
+        <p>Atlassian's end of life support for the Jira Server platform has ended. Please plan ahead on migrating your Jira Server to Cloud or Data Center starting now.</p>
         <p>This process is simple and manageable:</p>
         <ul>
             <li>Before you migrate, upgrade Git Integration for Jira app to the latest version.</li>
