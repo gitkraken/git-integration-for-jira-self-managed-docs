@@ -49,7 +49,14 @@ For GitLab Server service users, they won't see the issue until they upgrade the
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Starting v4.19+, we will be dropping support for GitLab legacy integrations.
+        <b>GitLab deprecation notes</b><br>
+        Starting v4.19+, we will be dropping support for GitLab legacy integrations.<br>
+        Starting v4.25+, GitLab legacy integrations will be deprecated in the Manage integrations screen. To prevent any integration issues:<br>
+        <ul style='margin-bottom:0px;'>
+            <li>Please upgrade your GitLab server;</li>
+            <li>Remove legacy integrations; and</li>
+            <li>Connect a new GitLab integration to your GitLab CE/EE.</li>
+        </ul>
     </div>
     </div>
 </div>
