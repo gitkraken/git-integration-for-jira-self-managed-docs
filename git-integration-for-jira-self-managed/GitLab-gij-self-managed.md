@@ -46,14 +46,8 @@ GitLab introduced personal access tokens (PAT) since version 8.8 and now (v10+) 
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b>GitLab deprecation notes</b><br>
-        Starting v4.19+, we will be dropping support for GitLab legacy integrations.<br>
-        Starting v4.25+, GitLab legacy integrations will be deprecated in the Manage integrations screen. To avoid integration issues:<br>
-        <ul style='margin-bottom:0px;'>
-            <li>Please upgrade your GitLab server;</li>
-            <li>Remove legacy integrations; and</li>
-            <li>Connect a new GitLab integration to your GitLab CE/EE.</li>
-        </ul>
+        <b>GitLab legacy support</b><br>
+        Starting v4.19+, we will be dropping support for GitLab legacy integrations.<br>        
     </div>
     </div>
 </div>
@@ -63,9 +57,10 @@ GitLab introduced personal access tokens (PAT) since version 8.8 and now (v10+) 
 Quickly learn how to connect GitLab.com git repositories via Git Integration for Jira app.
 
 **What's on this page:**
+- [Integrate GitLab.com with Jira Data Center/Server](#integrate-gitlabcom-with-jira-data-centerserver)
   - [Permissions](#permissions)
   - [Creating a personal access token](#creating-a-personal-access-token)
-  - [Full feature integration](#full-feature-integration)
+  - [Using Full feature integration](#using-full-feature-integration)
   - [Single repository (Manual integration)](#single-repository-manual-integration)
   - [Setting up GitLab web links](#setting-up-gitlab-web-links)
   - [Viewing git commits in Jira Server](#viewing-git-commits-in-jira-server)
@@ -73,6 +68,7 @@ Quickly learn how to connect GitLab.com git repositories via Git Integration for
     - [Default branch](#default-branch)
     - [Creating branches](#creating-branches)
     - [Merge request](#merge-request)
+  - [More Integration Guides](#more-integration-guides)
   
 &nbsp;
 * * *
