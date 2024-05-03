@@ -34,6 +34,7 @@ GitLab introduced personal access tokens (PAT) since version 8.8 and now (v10+) 
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
+        <b>GitLab API</b><br>
         Support for Gitlab API v3 is deprecated. We recommend to use <b>GitLab API v4</b> when adding new integrations for increased security.
     </div>
     </div>
@@ -45,7 +46,14 @@ GitLab introduced personal access tokens (PAT) since version 8.8 and now (v10+) 
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Starting v4.19+, we will be dropping support for GitLab legacy integrations.
+        <b>GitLab deprecation notes</b><br>
+        Starting v4.19+, we will be dropping support for GitLab legacy integrations.<br>
+        Starting v4.25+, GitLab legacy integrations will be deprecated in the Manage integrations screen. To avoid integration issues:<br>
+        <ul style='margin-bottom:0px;'>
+            <li>Please upgrade your GitLab server;</li>
+            <li>Remove legacy integrations; and</li>
+            <li>Connect a new GitLab integration to your GitLab CE/EE.</li>
+        </ul>
     </div>
     </div>
 </div>
