@@ -27,6 +27,8 @@ With Manager permissions:
 
 *   Manage user roles through Jira Global Permissions
 
+*   Managers are allowed to create integrations with project mapping settings.
+
 &nbsp;
 
 ### Getting started
@@ -77,11 +79,9 @@ The Git Integration for Jira sidebar menu now includes a new item called **88**.
 
     On the Add permission section:
 
-    *   Select a **Permission** from the list. For this guide, choose **_Manage Git Integration for Jira by GitKraken_**.
+    *   Select a **Permission** from the list. This feature adds a new global permission to your Jira instance. For this guide, choose **_Manage Git Integration for Jira by GitKraken_**.
 
-    Select a **Group** from the list. For this case, choose the group that you created previously (GIJ Managers).
-
-    &nbsp;
+    *   Select a **Group** from the list. For this case, choose the group that you created previously (GIJ Managers).
 
 7.  Click **Add** to continue.
 
