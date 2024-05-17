@@ -23,6 +23,8 @@ Here is a comprehensive list of reasons why it would be beneficial for GIJ v5.0 
 
 *   GIJ uses some other third party tools that requires at least Java 9 or later in order to use their latest iterations. These tools empower us to conduct compatibility and performance testing, among other functions.
 
+&nbsp;
+
 ### Which Jira self-hosted instances are affected?
 
 <div class="bbb-callout bbb--info">
@@ -39,6 +41,8 @@ Here is a comprehensive list of reasons why it would be beneficial for GIJ v5.0 
 
 If you are using Jira 9.8 or later, please note that GIJ v5.0 requires at least Java 9 or a newer version.
 
+&nbsp;
+
 ### What do I need to do if I'm running Jira Server or Data Center product on Java 8?
 
 There are three ways:
@@ -52,7 +56,9 @@ There are three ways:
 *   <u>Use Oracle Java SE instead:</u>
     If you want to continue to get updates and security patches beyond this point, you'll need to purchase an Oracle Java SE subscription.
 
-How do I migrate from Java 8 to a newer version?
+&nbsp;
+
+### How do I migrate from Java 8 to a newer version?
 
 For related information and resources about Java 8 upgrade and migration, see the following links below:
 
