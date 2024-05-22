@@ -13,13 +13,7 @@ The Git Integration for Jira v5.0 app (GIJ) utilizes various third-party librari
 
 Here is a comprehensive list of reasons why it would be beneficial for GIJ v5.0 to discontinue support for Java 8:
 
-*   GIJ will be able to maintain compatibility with Jira if it uses the latest Amazon AWS SDK – which requires at least Java 9. We have made the decision to refrain from using the old AWS SDK due to concerns that it may be flagged by Atlassian for security vulnerabilities.
-
-*   GIJ uses jgit and version 6.6.1+ fixes some vulnerabilities from the older jgit versions and this requires at least Java 11.
-
-*   GIJ uses `java-modularity-excluded` profile in pom.xml and we will remove it when we stop support for Java 8.
-
-*   GIJ uses the maven plugin – version 4.9.9 is the latest version for Java 8; version 7.0.0 requires at least Java 11 for Jira compatibility.
+*   GIJ follows Atlassian's guidelines to maintain compatibility with its platform and we encourage Jira administrators to upgrade to the latest Java platform for better security and performance.
 
 *   GIJ uses some other third party tools that requires at least Java 9 or later in order to use their latest iterations. These tools empower us to conduct compatibility and performance testing, among other functions.
 
@@ -27,19 +21,13 @@ Here is a comprehensive list of reasons why it would be beneficial for GIJ v5.0 
 
 ### Which Jira self-hosted instances are affected?
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>From Atlassian:</b><br>
-        "We're planning to stop supporting Java 8 in upcoming releases. You can use it with Jira 9.7 until we announce the deprecation of Java 8."
-    </div>
-    </div>
-</div>
+Atlassian supports Java 17 since Jira 9.5. If you are using previous versions of Jira, official support for Java 11 started from Jira 8.2. For more information, see [Administering Jira applications support - Upgrade matrix](https://confluence.atlassian.com/adminjiraserver/upgrade-matrix-966063322.html).
 
-If you are using Jira 9.8 or later, please note that GIJ v5.0 requires at least Java 9 or a newer version.
+| Jira version | Supports Java version |
+|:-------------|:----------------------|
+| 9.5 and newer | Java 17 and newer    |
+| 8.2 up to 9.4 | Java 11 and later    |
+| 8.1 and older | Java 8 (deprecated)  |
 
 &nbsp;
 
