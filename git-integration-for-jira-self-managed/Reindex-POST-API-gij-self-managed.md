@@ -29,32 +29,9 @@ Starts the reindex process in a separate thread and returns the result immediate
     </div>
 </div>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For users that have GIJ v4.16 and below and haven't upgrade to v4.17 yet, jump to <a href='#for-gij-416-users-and-below'>this section</a>.
-    </div>
-    </div>
-</div>
-
 &nbsp;
 ### url
 `/rest/gitplugin/2.0/reindex` <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>NEW IN v4.17</b>
-
-<div class="bbb-callout bbb--error">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The old URL format (<code>/rest/gitplugin/1.0/index.json</code>) is deprecated starting GIJ v4.17.
-        <p style='margin-bottom:-10px'>For improved security, we recommend users to upgrade to v4.17.</p>
-    </div>
-    </div>
-</div>
 
 ### method
 POST
@@ -127,63 +104,6 @@ Response:
   "success": true,
   "finished": false,
   "threadId": "18cc6873-2b75-45b3-ab86-a6b1d09f6c9f"
-}
-```
-
-&nbsp;
-<div id='for-gij-416-users-and-below'></div>
-
-## For GIJ 4.16 users and below
-
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For improved security, we recommend users to upgrade to v4.17.
-        <p style='margin-bottom:-10px'>This section will be removed after <b>January 1, 2024</b>.</p>
-    </div>
-    </div>
-</div>
-
-### url
-`/rest/gitplugin/1.0/index`
-
-### method
-POST
-
-### content-type
-multipart/form-data
-
-### Parameters
-
-Request body is a multipart/form-data structure.
-
-| Parameter | Description |
-| :--- | :--- |
-| _**repoId**_ | Form parameter.<br><br>This is the repository ID.<br><br>**Examples:**<br>Form param (`repoId=133`) |
-
-### Response
-JSON
-
-<br>
-
-### Example with repoId assigned:
-
-```json
-http://jira.yourorg.com/rest/gitplugin/1.0/index
- 
-Body, (multipart/form-data):
-repoId=133
- 
------------------------
- 
-Response:
-{
-  "success":true,
-  "finished":true,
-  "threadId": xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx
 }
 ```
 

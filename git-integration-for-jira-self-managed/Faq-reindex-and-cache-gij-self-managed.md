@@ -122,13 +122,15 @@ If you think that the Git caches are corrupt and needed to be removed, please do
 
 No. The Git Integration for Jira app is designed to do a full index.
 
-#### Is there a URL I can call to trigger fetch and re-index? Would be nice to add as service hook to GitHub or Gitlab
+#### Is there a URL I can call to trigger fetch and re-index? Would be nice to add as service hook to GitHub or Gitlab.
 
 Yes  –  the following url can be used:
 
 ```powershell
 http://<server url>/secure/StartReindexGitRepositories.jspa?reindex=true
 ```
+
+**** see if there is an updated reindex url....
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -143,5 +145,5 @@ http://<server url>/secure/StartReindexGitRepositories.jspa?reindex=true
 
 #### The git notes are still not visible in Jira. What should I do?
 
-Perform a **Reset** + **Reindex** of the selected repository via Git Repositories of the Git add-on. If the issue still persist, see article, [How do I clear the Git Integration app for Jira cache manually?](#how-do-i-clear-the-git-integration-for-jira-app-cache-manually)
+Perform a **Reset** + **Reindex** of the selected repository via Git Repositories of the GIJ app. If the issue still persist, see article, [How do I clear the Git Integration app for Jira cache manually?](#how-do-i-clear-the-git-integration-for-jira-app-cache-manually)
 
