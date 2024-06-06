@@ -52,6 +52,7 @@ Request body is a JSON structure.
 JSON
 
 ### Example with repoId assigned:
+Reindex the repository with repoId.
 
 ```json
 http://jira.yourorg.com/rest/gitplugin/2.0/reindex
@@ -93,9 +94,26 @@ Response:
 ```
 
 ### Example with blank repoId:
+With blank repoId, the example below will perform a full reindex.
 
 ```json
 http://jira.yourorg.com/rest/gitplugin/2.0/reindex
+
+-----------------------
+
+Response:
+{
+  "success": true,
+  "finished": false,
+  "threadId": "18cc6873-2b75-45b3-ab86-a6b1d09f6c9f"
+}
+```
+
+### Example with Webhook URL from the GIJ webhooks page:
+Reindex a repository which contains the webhook setting.
+
+```json
+http://jira.yourorg.com/rest/gitplugin/webhook/1.0/reindex/<secret_key>
 
 -----------------------
 
