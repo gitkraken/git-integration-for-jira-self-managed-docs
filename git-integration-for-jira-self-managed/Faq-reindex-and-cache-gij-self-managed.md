@@ -32,6 +32,8 @@ Re-index does 2 operations:
 
 *   Updates local indexes which contain info about every commit
 
+&nbsp;
+
 #### Is there any way to control the reindex?
 
 In terms of kicking off the indexing based on an event, you have two options:
@@ -44,6 +46,8 @@ In terms of kicking off the indexing based on an event, you have two options:
 
 What other users have done is set a high interval and then configure one of those options.
 
+&nbsp;
+
 #### Commits are not showing right away. Can they show up faster?
 
 Commits won't appear immediately since synchronization is implemented as background job _(GitRevisionIndexerJob)_.  You can reduce the job delay down to 1 minute to schedule updates more often.
@@ -55,6 +59,8 @@ Scroll down to the **Scheduled jobs** section and set the **Repository indexing*
 ![](/wp-cotnent/uploads/gij-gitserver-gencfg-sched-jobs-repo-idx-sel.png)
 
 For near-instantaneous display of commits in your Jira issues, we recommend to [configure webhooks](/git-integration-for-jira-data-center/Integration-webhooks-gij-self-managed).
+
+&nbsp;
 
 #### How do I completely rebuild plugin indexes?
 
@@ -81,6 +87,8 @@ On the next startup, the app will create the above folders again.
     </div>
     </div>
 </div>
+
+&nbsp;
 
 #### How do I clear the Git Integration for Jira app cache manually?
 
@@ -118,19 +126,23 @@ If you think that the Git caches are corrupt and needed to be removed, please do
     </div>
 </div>
 
+&nbsp;
+
 #### Is it possible to track the specified branches when reindexing?
 
 No. The Git Integration for Jira app is designed to do a full index.
 
+&nbsp;
+
 #### Is there a URL I can call to trigger fetch and re-index? Would be nice to add as service hook to GitHub or Gitlab.
 
-Yes  –  the following url can be used:
+Yes  –  use the following url:
 
 ```powershell
-http://<server url>/secure/StartReindexGitRepositories.jspa?reindex=true
+\<JIRA\_BASE\_URL\>/git/webhook/reindex/\<SECRET_KEY\>
 ```
 
-**** see if there is an updated reindex url....
+... where `\<JIRA\_BASE\_URL\>` is your domain host and `\<SECRET|_KEY\>` is your webhook secret key. The secret key can be found in your GIJ Webhooks page.
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
