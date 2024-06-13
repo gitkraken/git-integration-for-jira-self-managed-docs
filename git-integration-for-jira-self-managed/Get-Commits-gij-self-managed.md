@@ -25,7 +25,7 @@ Call the Get Commits REST API to obtain commit information associated with an is
 &nbsp;
 
 ### url
-`/rest/gitplugin/1.0/issues/{issueKey}/commits`
+`{JiraBaseURL}/rest/gitplugin/1.0/issues/{issueKey}/commits`
 
 ### method
 GET

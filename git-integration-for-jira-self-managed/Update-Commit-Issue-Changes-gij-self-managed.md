@@ -44,7 +44,7 @@ Updates the list of issues associated with the commit to the specified repositor
 &nbsp;
 
 ### url
-`http://\<jira-host\>/rest/gitplugin/1.0/repository/\{repoId\}/commits/\{commitHash\}/issues`
+`{JiraBaseURL}/rest/gitplugin/1.0/repository/\{repoId\}/commits/\{commitHash\}/issues`
 
 ### method
 POST

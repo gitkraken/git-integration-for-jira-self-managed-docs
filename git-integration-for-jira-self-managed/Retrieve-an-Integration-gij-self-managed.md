@@ -23,7 +23,7 @@ Retrieves the parameter details of an integration from the git repository config
 &nbsp;
 
 ### url
-`/rest/gitplugin/1.0/integration/{integrationId}`
+`{JiraBaseURL}/rest/gitplugin/1.0/integration/{integrationId}`
 
 ### method
 GET

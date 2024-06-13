@@ -33,7 +33,7 @@ The Branches REST API will obtain list of branches associated to a Jira issue.
 &nbsp;
 
 ### url
-`/rest/gitplugin/1.0/issues/branches?key={issuekey}`
+`{JiraBaseURL}/rest/gitplugin/1.0/issues/branches?key={issuekey}`
 
 ### method
 GET
@@ -42,11 +42,11 @@ GET
 
 | Field | Description |
 | :--- | :--- |
-| _**issueKey**_ | _String_. Optional.<br><br>This is the Jira Issue Key – a concatenation of Project key and Issue number. It must contain a dash ('-'). The _**issueKey**_ must be valid and existent.<br><br>For example: `TEST-435`. |
+| _**issueKey**_ | _String_. Optional.<br><br>This is the Jira Issue Key – a concatenation of Project key and Issue number. It must contain a dash ('-'). The _**issueKey**_ must be valid and existent.<br><br>For example: `TEST-435`. |
 
 ### Response
 
-If the _optional query_ is not defined, it will return all indexed git branches.
+If the _optional query_ is not defined, it will return all indexed git branches.
 
 ### Example
 

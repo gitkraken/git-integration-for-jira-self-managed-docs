@@ -21,7 +21,7 @@ Updates the existing parameters of the specified integration.
 </div>
 
 ### url
-`/rest/gitplugin/1.0/integration/\{integrationId\}`
+`{JiraBaseURL}/rest/gitplugin/1.0/integration/\{integrationId\}`
 
 ### integrationId
 _Integer_. Required.

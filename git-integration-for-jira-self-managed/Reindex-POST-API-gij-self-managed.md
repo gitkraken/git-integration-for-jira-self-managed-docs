@@ -18,11 +18,11 @@ Starts the reindex process in a separate thread and returns the result immediate
         There are two types of users who can perform the Reindex POST API call:
         <ol style='margin-bottom:-20px'>
             <li>Jira <b>administrators</b></li>
-            <li>Jira user who has <b>all</b> of the following:
+            <li>Jira user who has <b>all</b> of the following:
             <ul>
-                <li><b>View/browse permissions</b> to the project;</li>
-                <li><b>View Development Tools permissions</b> to the same project; and</li>
-                <li>The repository is <b>associated</b> to the project.</li>
+                <li><b>View/browse permissions</b> to the project;</li>
+                <li><b>View Development Tools permissions</b> to the same project; and</li>
+                <li>The repository is <b>associated</b> to the project.</li>
             </ul></li>
         </ol>
     </div>
@@ -31,7 +31,7 @@ Starts the reindex process in a separate thread and returns the result immediate
 
 &nbsp;
 ### url
-`/rest/gitplugin/2.0/reindex` <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>NEW IN v4.17</b>
+`{JiraBaseURL}/rest/gitplugin/2.0/reindex` <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>NEW IN v4.17</b>
 
 ### method
 POST
@@ -41,7 +41,7 @@ application/json
 
 ### Parameters
 
-Request body is a JSON structure.
+Request body is a JSON structure.
 
 | Field | Description |
 | :--- | :--- |

@@ -25,7 +25,7 @@ Deletes the existing repository from the Git Integration for Jira app repository
 &nbsp;
 
 ### url
-`/rest/gitplugin/1.0/repository`
+`{JiraBaseURL}/rest/gitplugin/1.0/repository`
 
 ### method
 DELETE

@@ -23,7 +23,7 @@ Creates new repository from the given settings.
 &nbsp;
 
 ### url
-`/rest/gitplugin/1.0/repository`
+`{JiraBaseURL}/rest/gitplugin/1.0/repository`
 
 ### method
 POST

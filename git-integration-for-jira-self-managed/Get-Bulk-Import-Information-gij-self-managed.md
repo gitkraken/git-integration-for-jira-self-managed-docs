@@ -12,7 +12,7 @@ Obtains information about the importing thread. Use the following path format t
 Any Jira user can perform the Getting Bulk Import Information API call.
 
 _**url**_<br>
-`/rest/gitplugin/1.0/configuration/progress.json`
+`{JiraBaseURL}/rest/gitplugin/1.0/configuration/progress.json`
 
 _**method**_<br>
 GET

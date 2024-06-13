@@ -32,7 +32,7 @@ Use this method to track messages for a particular thread.
 &nbsp;
 
 ### url
-`{baseURL}/rest/gitplugin/1.0/index.json`
+`{JiraBaseURL}/rest/gitplugin/1.0/index.json`
 
 ### method
 GET
@@ -41,7 +41,7 @@ GET
 
 | Field | Description |
 | :--- | :--- |
-| _**threadID**_ | _Required_.<br><br>Indexer thread ID (UUID).  Query parameter.<br><br>**Example:**<br>`eafe58fc-d8de-42ff-8815-6fe5860b38d2` |
+| _**threadID**_ | _Required_.<br><br>Indexer thread ID (UUID). Query parameter.<br><br>**Example:**<br>`eafe58fc-d8de-42ff-8815-6fe5860b38d2` |
 | _**repoId**_ | _Integer_. Optional.<br><br>When the `repoId` field is empty, the API will fetch the reindex status for all repositories. Providing an integer value will retrieve the reindex status for a particular repository. |
 
 ### response
