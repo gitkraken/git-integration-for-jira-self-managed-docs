@@ -14,7 +14,7 @@ Only Jira admins can perform the Bulk Export API call.
 ## Bulk Export Configuration
 
 ### url
-`/rest/gitplugin/1.0/configuration`
+`{JiraBaseURL}/rest/gitplugin/1.0/configuration`
 
 ### method
 GET

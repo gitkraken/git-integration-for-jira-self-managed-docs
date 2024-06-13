@@ -23,7 +23,7 @@ Retrieves the list of integrations and their respective parameter details from t
 &nbsp;
 
 ### url
-`/rest/gitplugin/1.0/integration`
+`{JiraBaseURL}/rest/gitplugin/1.0/integration`
 
 ### method
 GET

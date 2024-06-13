@@ -22,14 +22,14 @@ taxonomy:
 Below are integration API examples for each integration types:
 
 ### url
-`/rest/gitplugin/1.0/`**integration**
+`{JiraBaseURL}/rest/gitplugin/1.0/`**integration**
 
 ### method
 POST
 
 ### Prameters
 
-Request body is a JSON structure.
+Request body is a JSON structure.
 
 For complete reference of the parameters, see [Add New Integration API](/git-integration-for-jira-data-center/add-new-integration-gij-self-managed/).
 

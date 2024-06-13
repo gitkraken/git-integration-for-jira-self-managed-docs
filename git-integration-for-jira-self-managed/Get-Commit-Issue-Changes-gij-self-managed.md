@@ -35,7 +35,7 @@ Returns the list of issues associated with the commit from the specified reposit
 &nbsp;
 
 ### url
-`http://\<jira-host\>/rest/gitplugin/1.0/repository/{repoId}/commits/{commitHash}/issues`
+`{JiraBaseURL}/rest/gitplugin/1.0/repository/{repoId}/commits/{commitHash}/issues`
 
 ### method
 GET

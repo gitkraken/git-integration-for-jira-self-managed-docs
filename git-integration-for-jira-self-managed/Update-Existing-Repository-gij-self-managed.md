@@ -21,7 +21,7 @@ Updates the existing repository from the given settings.
 </div>
 
 ### url
-`/rest/gitplugin/1.0/repository`
+`{JiraBaseURL}/rest/gitplugin/1.0/repository`
 
 ### method
 PUT

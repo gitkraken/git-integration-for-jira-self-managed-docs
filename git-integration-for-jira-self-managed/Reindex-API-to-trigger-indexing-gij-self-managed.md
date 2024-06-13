@@ -20,7 +20,7 @@ Use this method to start the reindex process in a separate thread.
 **Example:**
 
 ```powershell
-http://jira.yourorg.com/rest/gitplugin/1.0/index.json
+http://jira.yourorg.com/rest/gitplugin/2.0/reindex
 ```
 
 For more detailed information, see [Reindex POST API documentation](/git-integration-for-jira-data-center/reindex-post-api-gij-self-managed).
@@ -29,12 +29,18 @@ For more detailed information, see [Reindex POST API documentation](/git-integra
 
 ### Reindex GET API
 
-Use this method to track messages for a particular thread.
-
-**Example:**
+**Example #1:**
+Use this method to retrieve the reindex status for a particular repository.
 
 ```powershell
-http://jira.yourorg.com/rest/gitplugin/1.0/index.json?threadId=eafe58fc-d8de-42ff-8815-6fe5860b38d2
+http://jira.yourorg.com/rest/gitplugin/1.0/index.json?repoId=113
+```
+
+**Example #2:**
+Use this method to retrieve reindex status of all repositories.
+
+```powershell
+http://jira.yourorg.com/rest/gitplugin/1.0/index.json
 ```
 
 For more detailed information, see [Reindex GET API documentation](/git-integration-for-jira-data-center/reindex-get-api-gij-self-managed)

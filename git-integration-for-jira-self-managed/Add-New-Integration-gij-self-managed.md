@@ -23,7 +23,7 @@ Adds a new integration to the git configuration list via the API call.
 &nbsp;
 
 ### url
-`/rest/gitplugin/1.0/integration`
+`{JiraBaseURL}/rest/gitplugin/1.0/integration`
 
 ### method
 POST

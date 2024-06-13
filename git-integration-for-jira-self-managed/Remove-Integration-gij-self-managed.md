@@ -23,7 +23,7 @@ Deletes the existing integration from the Git Integration for Jira app repositor
 &nbsp;
 
 ### url
-`/rest/gitplugin/1.0/integration/{integrationId}`
+`{JiraBaseURL}/rest/gitplugin/1.0/integration/{integrationId}`
 
 ### method
 DELETE

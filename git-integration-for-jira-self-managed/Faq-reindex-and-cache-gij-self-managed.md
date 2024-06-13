@@ -50,7 +50,7 @@ What other users have done is set a high interval and then configure one of thos
 
 #### Commits are not showing right away. Can they show up faster?
 
-Commits won't appear immediately since synchronization is implemented as background job _(GitRevisionIndexerJob)_.  You can reduce the job delay down to 1 minute to schedule updates more often.
+Commits won't appear immediately since synchronization is implemented as background job _(GitRevisionIndexerJob)_. You can reduce the job delay down to 1 minute to schedule updates more often.
 
 Navigate to the **General settings** of the Git Integration for Jira app.
 
@@ -96,23 +96,23 @@ If you think that the Git caches are corrupt and needed to be removed, please do
 
 1.  Disable the Git Integration for Jira app (_Jira administration_ ➜ _Manage apps_).
 
-2.  Go to `<jira_home>`.
+2.  Go to `<jira_home>`.
 
 3.  Delete the index:
 
-    **Example:** `rm -rf <jira_home>/caches/indexes/plugins/jira-git-*`
+    **Example:** `rm -rf <jira_home>/caches/indexes/plugins/jira-git-*`
 
 4.  Delete the cache:
 
-    **Example:** `rm <jira_home>/data/git-plugin/indexed-revisions-info-cache`
+    **Example:** `rm <jira_home>/data/git-plugin/indexed-revisions-info-cache`
 
 5.  Enable the Git Integration for Jira app.
 
 6.  Reindex all integration repositories by performing the next two steps.
 
-7.  Go to Jira administration ➜ **Applications**. On the sidebar under _Git Integration for Jira_, click **Git Repositories**.
+7.  Go to Jira administration ➜ **Applications**. On the sidebar under _Git Integration for Jira_, click **Git Repositories**.
 
-8.  Click **Reindex All**.
+8.  Click **Reindex All**.
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -130,7 +130,7 @@ If you think that the Git caches are corrupt and needed to be removed, please do
 
 #### Is it possible to track the specified branches when reindexing?
 
-No. The Git Integration for Jira app is designed to do a full index.
+No. The Git Integration for Jira app is designed to do a full index.
 
 &nbsp;
 
@@ -157,5 +157,5 @@ Yes  –  use the following url:
 
 #### The git notes are still not visible in Jira. What should I do?
 
-Perform a **Reset** + **Reindex** of the selected repository via Git Repositories of the GIJ app. If the issue still persist, see article, [How do I clear the Git Integration app for Jira cache manually?](#how-do-i-clear-the-git-integration-for-jira-app-cache-manually)
+Perform a **Reset** + **Reindex** of the selected repository via Git Repositories of the GIJ app. If the issue still persist, see article, [How do I clear the Git Integration app for Jira cache manually?](#how-do-i-clear-the-git-integration-for-jira-app-cache-manually)
 

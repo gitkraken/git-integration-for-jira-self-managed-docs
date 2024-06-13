@@ -24,14 +24,14 @@ Starts the process of importing configuration and returns the result at once.
 ## Bulk Import Configuration
 
 ### url
-`/rest/gitplugin/1.0/configuration.json`
+`{JiraBaseURL}/rest/gitplugin/1.0/configuration.json`
 
 ### method
 POST
 
 ### Parameters
 
-| Parameter | Condition |
+| Parameter | Description |
 | :--- | :--- |
 | _**file**_ | Input the path to the tab-separated values (.TSV) file. See [**table below**](#Field-parameters) for details on each TSV file parameter. |
 | _**confirmed-delete**_**\[ \]** | Optional.<br><br>Accepts multiple repository IDs confirmed for deletion. Input one or more repositories to delete, separated by commas.<br><br>_Repositories won't be deleted if it's not in this list._ |
