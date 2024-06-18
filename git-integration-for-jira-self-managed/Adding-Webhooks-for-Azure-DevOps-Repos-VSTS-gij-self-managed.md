@@ -84,7 +84,7 @@ taxonomy:
 
     a.  Paste the webhook URL into the **URL** field.
 
-    b.  For the **HTTP header**, enter `X-GIJ-Microsoft-Event:1`.
+    b.  For the **HTTP header**, enter `X-GIJ-Microsoft-Event:1`. This header will improve webhook processing efficiency since we are only expecting specific MS events.
 
     c.  Set <u>Resource details to send</u> to **All**.
 
@@ -92,7 +92,7 @@ taxonomy:
 
     e.  Set <u>Detailed messages to send</u> to **None**.
 
-    The settings **9d** to **9e** limits the data transfered to your Jira instance since too much webhook traffic can degrade Jira performance.
+    The settings **9d** and **9e** limits the data transfered to your Jira instance since too much webhook traffic can degrade Jira performance.
 
 10. Click **Test** to verify if webhook integration is successful or not.
 
