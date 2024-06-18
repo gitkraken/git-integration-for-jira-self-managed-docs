@@ -48,35 +48,51 @@ taxonomy:
 
 1.  Configure webhook by logging in to your Azure DevOps Server/TFS account:
 
+    ![](/wp-content/uploads/gij-webhooks-azure-devops-sel-proj-c.png)
+
 2.  Open a project by clicking on it.
 
-3.  Click **Project Settings** (sidebar) then select **Service Hooks**. The following screen is displayed.
+3.  On the sidebar, click **Project Settings** then select **Service Hooks**. The following dialog is displayed.
 
-    ![](/wp-content/uploads/gij-webhooks-azure-devops-add-shooks-c.png)
+    ![](/wp-content/uploads/gij-webhooks-azure-devops-add-service-hooks-c.png)
 
-4.  Click  **+**  to add a new service hook subscription.
+4.  Click **Create subscription** to add a new service hook subscription.
 
-5.  Scroll to **Web Hooks** and click to select it.
+5.  Scroll down to **Web Hooks** and click to select it.
 
-6.  Click **Next**. The following screen is displayed.
+6.  Click **Next**. The following screen is displayed.
 
     ![](/wp-content/uploads/gij-webhooks-azure-devops-triggers-cfg-c.png)
 
-    *   Set **"code pushed"** for the _**Trigger on this type of event**_ selector.
-    
-    *   Set all **FILTERS** to **"Any"**.
-    
-    *   Click **Next** to proceed to the following screen.
+    a.  Set **"code pushed"** for the _**Trigger on this type of event**_ selector.
+
+    b.  Set all **FILTERS** to **"Any"**.
+
+    c.  Click **Next** to proceed to the following screen.
 
     ![](/wp-content/uploads/gij-webhooks-azure-devops-action-cfg-c.png)
 
-7.  Switch to your Jira instance then navigate to Git ➜ **Manage repositories** page and then open **Webhooks**.
+7.  Switch to your Jira instance then navigate to **Git** ➜ **Manage repositories** page and then open **Webhooks**.
 
-    ![](/wp-content/uploads/gij-jira-server-git-webhooks-loc-pointer-list.png)
+    ![](/wp-content/uploads/gij-webhooks-azure-devops-copy-webhook-url-c.png)
 
 8.  Copy the complete Webhook URL by clicking the copy icon adjacent to the right of the URL field.
 
-9.  Switch back to Azure DevOps Server/TFS (where you left off) and paste this information into the provided **URL** box.
+9.  Switch back to your Azure DevOps/VSTS web portal (where you left off):
+
+    ![](/wp-content/uploads/gij-webhooks-azure-devops-service-settings-c.png)
+
+    a.  Paste the webhook URL into the **URL** field.
+
+    b.  For the **HTTP header**, enter `X-GIJ-Microsoft-Event:1`.
+
+    c.  Set <u>Resource details to send</u> to **All**.
+
+    d.  Set <u>Messages to send</u> to **None**.
+
+    e.  Set <u>Detailed messages to send</u> to **None**.
+
+    The settings **9d** to **9e** limits the data transfered to your Jira instance since too much webhook traffic can degrade Jira performance.
 
 10. Click **Test** to verify if webhook integration is successful or not.
 
