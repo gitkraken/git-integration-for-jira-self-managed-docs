@@ -46,21 +46,21 @@ taxonomy:
     </div>
 </div>
 
-1.  Configure webhook by logging in to your Azure DevOps/VSTS account:
+Configure webhook by logging in to your Azure DevOps/VSTS account:
+
+1.  Open a project by clicking on it.
 
     ![](/wp-content/uploads/gij-webhooks-azure-devops-sel-proj-c.png)
 
-2.  Open a project by clicking on it.
-
-3.  On the sidebar, click **Project Settings** then select **Service Hooks**. The following dialog is displayed.
+2.  On the sidebar, click **Project Settings** then select **Service Hooks**. The following dialog is displayed.
 
     ![](/wp-content/uploads/gij-webhooks-azure-devops-add-service-hooks-c.png)
 
-4.  Click **Create subscription** to add a new service hook subscription.
+3.  Click **Create subscription** to add a new service hook subscription.
 
-5.  Scroll down to **Web Hooks** and click to select it.
+4.  Scroll down to **Web Hooks** and click to select it.
 
-6.  Click **Next**. The following screen is displayed.
+5.  Click **Next**. The following screen is displayed.
 
     ![](/wp-content/uploads/gij-webhooks-azure-devops-triggers-cfg-c.png)
 
@@ -72,13 +72,13 @@ taxonomy:
 
     ![](/wp-content/uploads/gij-webhooks-azure-devops-action-cfg-c.png)
 
-7.  Switch to your Jira instance then navigate to **Git** ➜ **Manage repositories** page and then open **Webhooks**.
+6.  Switch to your Jira instance then navigate to **Git** ➜ **Manage repositories** page and then open **Webhooks**.
 
     ![](/wp-content/uploads/gij-webhooks-azure-devops-copy-webhook-url-c.png)
 
-8.  Copy the complete Webhook URL by clicking the copy icon adjacent to the right of the URL field.
+7.  Copy the complete Webhook URL by clicking the copy icon adjacent to the right of the URL field.
 
-9.  Switch back to your Azure DevOps/VSTS web portal (where you left off):
+8.  Switch back to your Azure DevOps/VSTS web portal (where you left off):
 
     ![](/wp-content/uploads/gij-webhooks-azure-devops-service-settings-c.png)
 
@@ -92,13 +92,13 @@ taxonomy:
 
     e.  Set <u>Detailed messages to send</u> to **None**.
 
-    The settings **9d** and **9e** limits the data transfered to your Jira instance since too much webhook traffic can degrade Jira performance.
+    The settings **8.d** and **8.e** limits the data transfered to your Jira instance since too much webhook traffic can degrade Jira performance.
 
-10. Click **Test** to verify if webhook integration is successful or not.
+9. Click **Test** to verify if webhook integration is successful or not.
 
     ![](/wp-content/uploads/gij-webhooks-azure-devops-test-cfg-c.png)
 
-11. Click **Finish** to complete this setup.
+10. Click **Finish** to complete this setup.
 
 &nbsp;
 
@@ -106,7 +106,7 @@ taxonomy:
 
 The Git Integration for Jira app supports pull request webhooks now.
 
-You will need to have three (3) separate service hooks configuration for this to work properly. Aside from setting up the "**Code pushed**" service hook outlined above in step **6.a**, perform the same process with **_Pull request created_** and _**Pull request updated**_ for the triggers.
+You will need to have three (3) separate service hooks configuration for this to work properly. Aside from setting up the "**Code pushed**" service hook outlined above in step **5.a**, perform the same process with **_Pull request created_** and _**Pull request updated**_ for the triggers.
 
 ![](/wp-content/uploads/gij-azure-devops-server-2019-req-service-hooks.png)
 
