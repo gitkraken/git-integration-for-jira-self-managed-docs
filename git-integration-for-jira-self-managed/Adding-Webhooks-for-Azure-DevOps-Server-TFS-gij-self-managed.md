@@ -52,7 +52,7 @@ Configure webhook by logging in to your Azure DevOps Server/TFS account:
 
     ![](/wp-content/uploads/gij-webhooks-azure-devops-sel-proj-c.png)
 
-2.  On the sidebar, click **Project Settings** then select **Service Hooks**. The following dialog is displayed.
+2.  On the sidebar, click **Project Settings** then select **Service Hooks**. The following screen is displayed.
 
     ![](/wp-content/uploads/gij-webhooks-azure-devops-add-service-hooks-c.png)
 
