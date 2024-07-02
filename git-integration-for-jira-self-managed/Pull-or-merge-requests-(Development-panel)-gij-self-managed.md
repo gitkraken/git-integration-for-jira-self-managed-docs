@@ -108,7 +108,7 @@ This will also allow a service user to associate a Merge/Pull Request with multi
 
 The Pull/merge request list provides status information about the pull/merge request if it is opened or merged. Hover the mouse pointer on the pull/merge request label to see information of the repository and branch where it belongs.
 
-<img src='/wp-content/uploads/gij-gitserver-dev-panel-pullreq-list-hover.png' style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-datacenter-dev-panel-pullreq-list-hover.png' style='display:block;margin:25px auto;max-width:100%' />
 
 For detailed information on this feature, see [Creating pull/merge requests](/git-integration-for-jira-data-center/creating-pull-merge-requests-gij-self-managed/).
 
