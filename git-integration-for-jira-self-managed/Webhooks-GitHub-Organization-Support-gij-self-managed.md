@@ -26,7 +26,8 @@ To configure GitHub organization webhook:
 
 6.  Enter the **Secret key** on the _**Secret**_ field.
 
-7.  Set the webhook trigger to **Just the Push event**.
+7.  Set the webhook trigger to **Let me select individual events (**`Pushes`/`Pull requests`).
+   ![](/wp-content/uploads/gij-github-pull-request-event-trigger-webhook.png)
 
 8.  Click **Add webhook** to complete this setup.
 
