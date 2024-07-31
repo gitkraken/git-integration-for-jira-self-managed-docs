@@ -25,12 +25,11 @@ Large Jira Data Center deployments can be designed to have specific Jira Data Ce
 
 &nbsp;
 
-### New General setting: Per Node Repository Indexing
-
 <img src='/wp-content/uploads/gij-datacenter-indexing-allow-all-nodes-reindex.png' style='display:block;margin:25px auto;max-width:100%' />
 
+This setting allows administrators to carefully manage the nodes where repository reindexing tasks take place. By default (when enabled), all nodes within the cluster undergo repository reindexing. This configuration guarantees the consistency and availability of data throughout the entire cluster. Administrators can customize this setting by restricting repository reindexing to specific nodes.
 
-Set specific dedicated Jira Data Center (DC) nodes to perform Git Integration for Jira indexing jobs. The default setting is set to allow repository reindexing tasks to be performed on all Jira DC nodes.
+The default setting is set to allow repository reindexing tasks to be performed on all Jira DC nodes. Uncheck the "Allow all nodes" checkbox to set specific dedicated Jira Data Center (DC) nodes to perform Git Integration for Jira indexing jobs. Set one or more DC nodes by typing the node name or select a node from the dropdown list.
 
 If you're using a Jira Server instance this setting is disabled and unavailable for configuration.
 
