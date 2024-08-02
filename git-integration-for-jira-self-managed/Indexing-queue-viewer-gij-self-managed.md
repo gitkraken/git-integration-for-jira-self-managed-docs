@@ -236,7 +236,7 @@ The default sort order applies the following rule:
 
 ### Cancel indexing
 
-<b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.23</b>
+<b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.23+</b>
 
 This feature allows Jira administrators to interrupt the indexing process once it has been queued or has already started. It will suspend the indexing process and can be resumed with subsequent reindex later on.
 
@@ -354,4 +354,18 @@ At the bottom-left portion of the indexing queue viewer, click the ![](/wp-conte
 ### Pagination
 
 At the bottom-right portion of the indexing queue viewer, use the page controls to navigate across the task page list.
+
+### Data center node indexing
+
+The Indexing queue viewer page correctly displays the number of current indexing tasks according to the specified number of threads, such as:
+
+*   Current number of indexing threads which defines the number of indexing threads on current node
+*   Current number of processing tasks which defines the number of all processing tasks on all nodes
+*   Number of tasks with  status which corresponds to the number of threads; multiplied by the number of nodes involved in indexing.
+
+Tasks with <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 3px 0px 3px; font-size: small;'>INDEXING</b> status can also be marked for cancelling.
+
+The <b style='background-color:#DEE0E5; padding:1px 5px; color:#44516C; border-radius:3px; margin: 0 3px 0px 3px; font-size: small;'>QUEUED</b> tasks can also be removed from the indexing queue.
+
+The GC tasks can be completed if the indexing queue is empty.
 
