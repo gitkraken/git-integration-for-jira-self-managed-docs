@@ -7,6 +7,8 @@ taxonomy:
 
 ---
 
+<!-- TROUBLESHOOTING -->
+
 Use the Indexing Queue Viewer to check and look for reindex related issues.
 
 **What's on this page:**
@@ -187,4 +189,6 @@ If you’re suspecting a indexing issue from a certain repository in an integrat
 [Unexpected exception parsing XML document from URL error in log](/git-integration-for-jira-data-center/Unexpected-exception-parsing-XML-document-from-URL-error-in-log-gij-self-managed)
 
 [Why don't I see the Create Branch or Pull Request features?](/git-integration-for-jira-data-center/why-dont-i-see-the-create-branch-or-pull-request-features-gij-self-managed)
+
+[Your token has not been granted the required scopes](/git-integration-for-jira-data-center/Your-token-has-not-been-granted-the-required-scopes-gij-self-managed)
 

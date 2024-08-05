@@ -121,23 +121,34 @@ This setting controls user accessibility to other Git PR/MR settings such as:
 *   Share PR/MR author information with TIJ
 *   Enable indexing PR/MR by commits
 
-Note that to be able to view the new GitHub share PR events, we recommend that users must update their personal access token to have the following scopes:
-*   `read:discussion`
-*   `read:org`
-*   `read:user`
-*   `repo` (all)
-*   `user:email`
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Note that to be able to view the new GitHub share PR events, we recommend that users must update their personal access token to have the following scopes:<br>
+        <ul style='margin-bottom:-10px'>
+            <li><code>read:discussion</code></li>
+            <li><code>read:org</code></li>
+            <li><code>read:user</code></li>
+            <li><code>repo</code> (all)</li>
+            <li><code>user:email</code></li>
+        </ul>
+    </div>
+    </div>
+</div>
 
 <img src='/wp-content/uploads/gij-datacenter-enable-indexing-pmreq-via-api-group-gencfg.png' style='display:block;margin:25px auto;max-width:100%' />
 
 **Share pull/merge request events information with Team Insights for Jira**<br>
-This feature allows the TIJ extension to either receive or stop receiving PR/MR events data from GIJ. When utilizing a GitHub service, the specified scopes (mentioned above) are mandatory. By default, this setting is configured as `OFF`.
+This feature allows GIJ indexing PR/MR events data which can be utilized by the TIJ extension. When utilizing a GitHub service, the specified scopes (mentioned above) are mandatory. By default, this setting is configured as `OFF`.
 
 Click on **> Advanced** to expand more options for this setting.
 
 | Option      | Description |
 |:------------|:------------|
-| Event limit | **No limits**<br>If this option is selected, the event request frequency is updated more regularly.<br><br>**Limit the period**<br>If this setting is selected, the next setting options becomes available and can be configured manually. |
+| Event limit | **No limits**<br>If this option is selected, GIJ will read all available PR/MR events data from history. This setting could impact Jira performance.<br><br>**Limit the period**<br>If this setting is selected, the next setting options becomes available and can be configured manually. |
 | Max event age in days | Required.<br>Specify the duration, in days, during which PR events information will be processed. Only PR events occurring within this defined period will be considered and used. Events that fall outside of this timeframe will be excluded and will not be processed. The default value is **90 days**. |
 | Pull requests events reindex interval | Required.<br>Enter the frequency for reindexing PR events by specifying a time interval in seconds. A minimum time interval is necessary between each reindexing operation to reduce performance impact.<br><br>This setting specifically applies to integrations with Microsoft products. It does not impact reindexing processes for integrations with different systems or platforms. The default value is **14400 seconds (4 hours)**.
 

@@ -7,13 +7,15 @@ taxonomy:
 
 ---
 
+<!-- TROUBLESHOOTING -->
+
 This page contains a list of troubleshooting articles, workarounds and solutions to common issues while using Git Integration for Jira Server/Data Center app.
 
 &nbsp;
 
 ### REPOSITORY / INTEGRATION
 
-[Why I am getting the error, “git-upload-pack not permitted”?](/git-integration-for-jira-data-center/why-i-am-getting-the-error-git-upload-pack-not-permitted-gij-self-managed/)
+[Why I am getting the error, "git-upload-pack not permitted"?](/git-integration-for-jira-data-center/why-i-am-getting-the-error-git-upload-pack-not-permitted-gij-self-managed/)
 
 [Cannot auto-deploy some tracked repositories: Specified origin is incorrect or not supported](/git-integration-for-jira-data-center/Cannot-auto-deploy-some-tracked-repositories-gij-self-managed)
 
@@ -32,6 +34,8 @@ This page contains a list of troubleshooting articles, workarounds and solutions
 [Pull request index error: org.json.JSONException](/git-integration-for-jira-data-center/Pull-request-index-error--JSONException-gij-self-managed)
 
 [Why don't I see the Create Branch or Pull Request features?](/git-integration-for-jira-data-center/why-dont-i-see-the-create-branch-or-pull-request-features-gij-self-managed)
+
+[Your token has not been granted the required scopes](/git-integration-for-jira-data-center/Your-token-has-not-been-granted-the-required-scopes-gij-self-managed)
 
 ### MEMORY
 

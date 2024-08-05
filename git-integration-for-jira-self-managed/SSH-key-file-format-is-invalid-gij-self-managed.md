@@ -6,6 +6,9 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
+<!-- TROUBLESHOOTING -->
+
 ### Problem
 
 Git Integration for Jira application SSH keys:
@@ -171,4 +174,5 @@ Jira admin has provided an SSH public key or an SSH private key with an incorrec
 
 [Why don't I see the Create Branch or Pull Request features?](/git-integration-for-jira-data-center/why-dont-i-see-the-create-branch-or-pull-request-features-gij-self-managed)
 
+[Your token has not been granted the required scopes](/git-integration-for-jira-data-center/Your-token-has-not-been-granted-the-required-scopes-gij-self-managed)
 
