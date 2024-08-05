@@ -22,7 +22,7 @@ taxonomy:
 
 Many git administrators express concerns regarding the performance issues associated with indexing repositories. Our current single-thread indexer has been found inadequate for effectively addressing this situation.
 
-Starting GIJ version 4.72+, an extended feature has been introduced to support the use of multiple indexing threads for each node defined by the user for indexing. This enhancement is aimed at significantly improving the efficiency of the indexing procedure.
+Starting GIJ version 4.72+, an extended feature has been introduced to support the use of multiple indexing threads for each node defined by the user for indexing. This improvement aims to greatly enhance the efficiency of the indexing process.
 
 This feature allows the configuration of multiple indexing threads per node in the General Settings page. This new setting is introduced to consolidate all indexing threads from across all nodes.
 
