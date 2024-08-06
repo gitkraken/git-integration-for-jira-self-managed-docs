@@ -35,6 +35,8 @@ This page contains a list of troubleshooting articles, workarounds and solutions
 
 [Why don't I see the Create Branch or Pull Request features?](/git-integration-for-jira-data-center/why-dont-i-see-the-create-branch-or-pull-request-features-gij-self-managed)
 
+[Fix performance issues for nested cloned repsitories with enabled Secure Mode](/git-integration-for-jira-data-center/Fix-performance-issues-for-nested-cloned-repositories-with-enabled-secure-mode-gij-self-managed)
+
 [Your token has not been granted the required scopes](/git-integration-for-jira-data-center/Your-token-has-not-been-granted-the-required-scopes-gij-self-managed)
 
 ### MEMORY
@@ -44,6 +46,8 @@ This page contains a list of troubleshooting articles, workarounds and solutions
 [Error while reindexing – Java heap space / Object too large, rejecting the pack](/git-integration-for-jira-data-center/Error-while-reindexing-Java-heap-space-Object-too-large,-rejecting-the-pack-gij-self-managed)
 
 ### STORAGE
+
+[Error creating git branches and also using NFS](/git-integration-for-jira-data-center/error-creating-git-branches--GitLabPropertiesNotInitializedException-and-using-NFS-gij-self-managed)
 
 [Connection Reset when Accessing the Database](/git-integration-for-jira-data-center/Connection-reset-when-accessing-the-database-gij-self-managed)
 
@@ -59,11 +63,11 @@ This page contains a list of troubleshooting articles, workarounds and solutions
 
 ### INDEXING
 
+[Fixing reindex issues using Indexing Queue Viewer](//git-integration-for-jira-data-center/Fixing-reindex-issues-using-Indexing-Queue-Viewer-gij-self-managed)
+
 [Indexing error – Too many open files](/git-integration-for-jira-data-center/Indexing-error-Too-many-open-files-gij-self-managed)
 
 [Jira index error: IndexNotFoundException: no segments* file found](/git-integration-for-jira-data-center/Jira-index-error--IndexNotFoundException--no-segments-file-found)
-
-[Fixing reindex issues using Indexing Queue Viewer](//git-integration-for-jira-data-center/Fixing-reindex-issues-using-Indexing-Queue-Viewer-gij-self-managed)
 
 ### OTHERS
 
