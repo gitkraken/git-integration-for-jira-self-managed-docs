@@ -9,6 +9,8 @@ taxonomy:
 
 <!-- I'm removing the long word from the title because it just clips through the right pane of the HC page -->
 
+<!-- TROUBLESHOOTING -->
+
 <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>JIRA SELF-MANAGED</b>
 
 Also relates to the following exception errors:
@@ -119,4 +121,5 @@ NFSv4 supporting locking by default was [released in 2000](https://en.wikipedia.
 
 [Why don't I see the Create Branch or Pull Request features?](/git-integration-for-jira-data-center/why-dont-i-see-the-create-branch-or-pull-request-features-gij-self-managed)
 
+[Your token has not been granted the required scopes](/git-integration-for-jira-data-center/Your-token-has-not-been-granted-the-required-scopes-gij-self-managed)
 

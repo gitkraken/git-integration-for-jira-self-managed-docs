@@ -20,7 +20,7 @@ taxonomy:
 
 This setting affects git branches creation default names and toggles for git pull/merge request options for the Jira issue.
 
-<img src='/wp-content/uploads/gij-gitserver-gencfg-branch-and-pr-settings.png' style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitserver-gencfg-branch-and-pr-settings-group.png' style='display:block;margin:25px auto;max-width:100%' />
 
 &nbsp;
 
@@ -108,18 +108,57 @@ This generates the string format like "**branch/PRJ-123-add-more-logging**" as a
 
 ### Git pull/merge requests
 
-<img src='/wp-content/uploads/gij-git-merge-pullreq-settings.png' style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-datacenter-git-pull-merge-req-group-gencfg.png' style='display:block;margin:25px auto;max-width:100%' />
 
-**Enable pull/merge request creation**<br>
-Shows or hides the function for creating pull/merge requests from the Jira developer panel. This setting is ON by default.
+**Enable pull/merge request creation in Jira issues**<br>
+Shows or hides the function for creating pull/merge requests from the Jira developer panel. This setting is `ON` by default.
 
 **Enable indexing pull/merge requests via API**<br>
-This setting will index PR/MRs that are associated to Jira issues based on pull/merge request title which includes the Jira issue key. This setting is ON by default.
+This feature indexes pull requests/merge requests linked to Jira issues through their titles containing the Jira issue key. By default, this feature is enabled.
+
+This setting controls user accessibility to other Git PR/MR settings such as:
+*   Share PR/MR events information with TIJ
+*   Share PR/MR author information with TIJ
+*   Enable indexing PR/MR by commits
+
+<div class="bbb-callout bbb--tip">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Note that to be able to view the new GitHub share PR events, we recommend that users must update their personal access token to have the following scopes:<br>
+        <ul style='margin-bottom:-10px'>
+            <li><code>read:discussion</code></li>
+            <li><code>read:org</code></li>
+            <li><code>read:user</code></li>
+            <li><code>repo</code> (all)</li>
+            <li><code>user:email</code></li>
+        </ul>
+    </div>
+    </div>
+</div>
+
+<img src='/wp-content/uploads/gij-datacenter-enable-indexing-pmreq-via-api-group-gencfg.png' style='display:block;margin:25px auto;max-width:100%' />
+
+**Share pull/merge request events information with Team Insights for Jira**<br>
+This feature allows GIJ indexing PR/MR events data which can be utilized by the TIJ extension. When utilizing a GitHub service, the specified scopes (mentioned above) are mandatory. By default, this setting is configured as `OFF`.
+
+Click on **> Advanced** to expand more options for this setting.
+
+| Option      | Description |
+|:------------|:------------|
+| Event limit | **No limits**<br>If this option is selected, GIJ will read all available PR/MR events data from history. This setting could impact Jira performance.<br><br>**Limit the period**<br>If this setting is selected, the next setting options becomes available and can be configured manually. |
+| Max event age in days | Required.<br>Specify the duration, in days, during which PR events information will be processed. Only PR events occurring within this defined period will be considered and used. Events that fall outside of this timeframe will be excluded and will not be processed. The default value is **90 days**. |
+| Pull requests events reindex interval | Required.<br>Enter the frequency for reindexing PR events by specifying a time interval in seconds. A minimum time interval is necessary between each reindexing operation to reduce performance impact.<br><br>This setting specifically applies to integrations with Microsoft products. It does not impact reindexing processes for integrations with different systems or platforms. The default value is **14400 seconds (4 hours)**.
+
+**Share pull/merge request author information with Team Insights for Jira**
+This feature allows the TIJ extension to either activate or deactivate the retrieval of PR/MR author details from GIJ. GitHub users must have the specified scopes (mentioned above) to utilize this option. By default, this setting is configured as OFF.
 
 **Enable indexing pull/merge requests by commits**<br>
-This setting will index PR/MRs that are associated to Jira issues based on commits related to pull/merge requests with commit message containing a Jira issue key. This setting is `OFF` by default. Users will not be able to toggle this setting to ON/OFF if the _**Enable indexing pull/requests via API**_ is switched `OFF`.
+This setting enables the indexing of pull requests and merge requests linked to Jira issues through commits made in pull/merge requests. Specifically, it focuses on commits that include a Jira issue key within their commit messages. This setting is `OFF` by default.
 
-When switched to `ON`, the _**Enable indexing pull/merge requests via API**_ setting completely activates the feature of indexing of PRs/MRs. This also allows users to use the toggle control for the _**Enable indexing pull/merge requests by commits**_ setting, which provides an additional way of indexing when switched to `ON`.
+Users will not be able to access this setting if the _**Enable indexing pull/requests via API**_ setting is switched `OFF`.
 
 For detailed information on this feature, see article [Associate pull/merge requests in Jira Issue](/git-integration-for-jira-data-center/associate-pull-merge-requests-to-issues-based-on-commits-gij-self-managed).
 

@@ -91,6 +91,5 @@ The regular Git integration option does not offer the Create branch and Create p
 
 **Why don't I see the Create Branch or Pull Request features?** (this page)
 
-<br>
-<br>
+[Your token has not been granted the required scopes](/git-integration-for-jira-data-center/Your-token-has-not-been-granted-the-required-scopes-gij-self-managed)
 
