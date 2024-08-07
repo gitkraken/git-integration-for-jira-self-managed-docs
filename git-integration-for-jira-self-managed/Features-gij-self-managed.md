@@ -9,6 +9,10 @@ taxonomy:
 
 On this page you will find topics related to the supported features of the app.
 
+*   [Manager permissions](/git-integration-for-jira-data-center/manager-permissions-gij-self-managed/)
+
+*   [Cancel indexing](/git-integration-for-jira-data-center/cancel-indexing-revision-indexing-gij-self-managed/)
+
 *   [Pull request filters](/git-integration-for-jira-data-center/pull-request-filters-gij-self-managed)
 
 *   [Tag filtes](/git-integration-for-jira-data-center/tag-filters-gij-self-managed)
@@ -43,4 +47,11 @@ On this page you will find topics related to the supported features of the app.
 
 *   [General Settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed)
 
+    *   [Per node repository indexing](/git-integration-for-jira-data-center/per-node-repository-indexing-gij-self-managed)
+
+    *   [Multiple indexing threads per node](/git-integration-for-jira-data-center/Multiple-indexing-threads-per-node-gij-self-managed)
+
+    *   [Git Integration features](/git-integration-for-jira-data-center/git-integration-features-gij-self-managed)
+
+    *   [Branch and pull request settings](/git-integration-for-jira-data-center/branch-and-pull-request-settings-formerly-git-integration-options-gij-self-managed)
 
