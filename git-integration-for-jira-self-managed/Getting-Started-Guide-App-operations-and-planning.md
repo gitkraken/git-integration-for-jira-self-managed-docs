@@ -7,38 +7,40 @@ taxonomy:
 
 ---
 ## Integration Types
-**Full Featured**
+---
+### Full Featured
 
 Full featured integrations require GIJ clone your repositories to your Jira server in order to provide Code Compare and Code Diff functionality directly from Jira. Repositories will be cloned by the app to your Jira storage. These types of integrations are used to connect to all of the major Git Services such as GitHub, GitLab, Microsoft, AWS Code Commit or Gerrit self-hosted.
 
-**Plain Git Connections**
+### Plain Git Connections
 If you are not using one of the major Git services (GitHub, GitLab, Azure DevOps, AWS), we still have you covered! We support plain git connections to each individual repository you wish to roll up into your Jira issues. These types of connections are feature limited, not allowing branch/pull request creation, and not displaying any pull/merge request information.
 
-## Storage
+### Storage
 Git Integration for Jira clones all repositories included in an integration to your Jira Server, so you will need to make sure that your server has enough storage to accommodate the additional data. You will need at minimum the total amount of disk space used by all your repositories plus an additional 5% of space for our app data.
 
 
-# Indexing Behavior
+## Indexing Behavior
+---
 Now that you have determined what kind of integration type fits your needs, let’s learn how Git Integration for Jira indexes updates from your repositories.
 
-**Full Featured Integrations**
+### Full Featured Integrations
 By default, full featured integrations go through 2 different stages of indexing, Initial or First time indexing which only happens once, and normal indexing.
 
-**First time Indexing**
+### First time Indexing
 The initial indexing phase only happens the first time that an integration is added to GIJ, or a new repository is added to an existing integration. This initial indexing phase is comprised of 2 different actions:
 1. Clone all of your repositories/ the newly created repository. 
 2. Scan the entire Git history for each repository searching for Jira issues.
 
 This scan allows us to link any Git data that previously referenced Jira issues in the appropriate places in order to provide the most comprehensive historical git data in Jira possible. Because we are performing more intensive operations, this initial indexing phase tends to take more time than subsequent indexes. The total index time varies greatly for users, but in general demands more time for repositories with  longer Git histories, or with many branches and pull/merge requests. The number of repositories included in the integration will also have an impact on this indexing time.
 
-**Normal Indexing Operations**
+### Normal Indexing Operations
 GIJ operates on a configurable scheduled timer. GIJ will connect to your repository service and pull all updates from your repositories however often the reindex interval is set to. The indexing time will vary depending on your instance, so you will have to tune your indexing timer. We will discuss this process in more detail later on in this guide.
 
-**Indexing Triggers**
+### Indexing Triggers
 We suggest utilizing [Webhooks](https://help.gitkraken.com/git-integration-for-jira-data-center/webhooks-gij-self-managed/) alongside your integrations. These webhooks are sent from your repositories whenever there are updates to your repositories. When we receive the webhook, we will automatically index that repository outside of the normal indexing timer, allowing near real-time updates.
 
 ## Integration structure planning
-
+---
 Now that you have a better understanding of what to expect with GIJ, consider taking some time to evaluate how to structure your integrations such as: 
 1. Total Number of Repositories you wish to connect to Jira.
 - The higher the number of connected repositories, the more challenging it can become to manage them, especially if you wish to utilize project associations. 
