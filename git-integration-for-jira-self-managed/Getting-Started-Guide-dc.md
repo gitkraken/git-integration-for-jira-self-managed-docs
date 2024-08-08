@@ -49,4 +49,4 @@ Please see <a href='/[git-integration-for-jira-cloud/known-performance-limitatio
 </div>
 ___
 
-[<b style='background-color:#FFFCC3; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: small;'>NEXT</b>](/git-integration-for-jira-data-center/Getting-Started-Guide-App-operations-and-planning) <a href="https://help.gitkraken.com/git-integration-for-jira-data-center/Getting-Started-Guide-App-operations-and-planning/">Application operations and Integration Structure Planning</a>
+[<b style='background-color:#FFFCC3; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: small;'>NEXT</b>](/git-integration-for-jira-data-center/Getting-Started-Guide-App-operations-and-planning-dc) <a href="https://help.gitkraken.com/git-integration-for-jira-data-center/Getting-Started-Guide-App-operations-and-planning-dc/">Application operations and Integration Structure Planning</a>

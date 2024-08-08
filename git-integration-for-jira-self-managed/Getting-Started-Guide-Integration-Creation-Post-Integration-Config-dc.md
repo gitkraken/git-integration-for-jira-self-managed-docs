@@ -39,6 +39,6 @@ Once your integrations are all been configured, and they have indexed successful
 
 ___
 
-[<b style='background-color:#FFFCC3; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: small;'>NEXT</b>](/git-integration-for-jira-data-center/Getting-Started-Guide-Optional-Features) <a href="https://help.gitkraken.com/git-integration-for-jira-data-center/Getting-Started-Guide-Optional-Features/">Optional Features and Add-on Extensions</a>
+[<b style='background-color:#FFFCC3; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: small;'>NEXT</b>](/git-integration-for-jira-data-center/Getting-Started-Guide-Optional-Features-dc) <a href="https://help.gitkraken.com/git-integration-for-jira-data-center/Getting-Started-Guide-Optional-Features-dc/">Optional Features and Add-on Extensions</a>
 
-[<b style='background-color:#F1F1F1; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: small;'>PREVIOUS</b>](/git-integration-for-jira-data-center/git-integration-for-jira-data-center/Getting-Started-Guide-App-operations-and-planning/) <a href="https://help.gitkraken.com/git-integration-for-jira-data-center/git-integration-for-jira-data-center/Getting-Started-Guide-App-operations-and-planning/">Application operations and planning</a>
+[<b style='background-color:#F1F1F1; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: small;'>PREVIOUS</b>](/git-integration-for-jira-data-center/git-integration-for-jira-data-center/Getting-Started-Guide-App-operations-and-planning-dc/) <a href="https://help.gitkraken.com/git-integration-for-jira-data-center/git-integration-for-jira-data-center/Getting-Started-Guide-App-operations-and-planning-dc/">Application operations and planning</a>

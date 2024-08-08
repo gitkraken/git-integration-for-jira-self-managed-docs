@@ -68,6 +68,6 @@ There are certain features in GIJ Data Center that we recommend you disable if y
 
 ___
 
-[<b style='background-color:#FFFCC3; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: small;'>NEXT</b>](/git-integration-for-jira-data-center/Getting-Started-Guide-Integration-Creation-Post-Integration-Config) <a href="https://help.gitkraken.com/git-integration-for-jira-data-center/Getting-Started-Guide-Integration-Creation-Post-Integration-Config/">Integration Creation and Post Integration Config</a>
+[<b style='background-color:#FFFCC3; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: small;'>NEXT</b>](/git-integration-for-jira-data-center/Getting-Started-Guide-Integration-Creation-Post-Integration-Config-dc) <a href="https://help.gitkraken.com/git-integration-for-jira-data-center/Getting-Started-Guide-Integration-Creation-Post-Integration-Config-dc/">Integration Creation and Post Integration Config</a>
 
-[<b style='background-color:#F1F1F1; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: small;'>PREVIOUS</b>](/git-integration-for-jira-data-center/Getting-Started-Guide/) <a href="https://help.gitkraken.com/git-integration-for-jira-data-center/Getting-Started-Guide/">Getting Started</a>
+[<b style='background-color:#F1F1F1; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: small;'>PREVIOUS</b>](/git-integration-for-jira-data-center/Getting-Started-Guide-dc/) <a href="https://help.gitkraken.com/git-integration-for-jira-data-center/Getting-Started-Guide-dc/">Getting Started</a>

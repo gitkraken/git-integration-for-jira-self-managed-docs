@@ -18,4 +18,4 @@ Team insights for Jira is a free stand alone application that we offer that is g
 
 ___
 
-[<b style='background-color:#F1F1F1; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: small;'>PREVIOUS</b>](/git-integration-for-jira-data-center/Getting-Started-Guide-Integration-Creation-Post-Integration-Config/) <a href="https://help.gitkraken.com/git-integration-for-jira-data-center/Getting-Started-Guide-Integration-Creation-Post-Integration-Config/">Integration creation and Post integration Configuration</a>
+[<b style='background-color:#F1F1F1; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: small;'>PREVIOUS</b>](/git-integration-for-jira-data-center/Getting-Started-Guide-Integration-Creation-Post-Integration-Config-dc/) <a href="https://help.gitkraken.com/git-integration-for-jira-data-center/Getting-Started-Guide-Integration-Creation-Post-Integration-Config-dc/">Integration creation and Post integration Configuration</a>
