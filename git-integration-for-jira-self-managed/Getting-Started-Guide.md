@@ -7,6 +7,7 @@ taxonomy:
 
 ---
 ## Application Overview
+---
 ### What to expect
 
 Thank you for choosing Git Integration for Jira Data Center (GIJ)! This guide provides Jira Admins with crucial information for deciding the most effective configuration of Git Integration for Jira for their specific needs.
@@ -33,6 +34,7 @@ GIJ will display Commits, Branches, and Pull/Merge requests associated with a sp
 
 
 ## Security Restrictions and Policies
+---
 <div class="bbb-callout bbb--alert">
     <div class="irow">
     <div class="ilogobox">
