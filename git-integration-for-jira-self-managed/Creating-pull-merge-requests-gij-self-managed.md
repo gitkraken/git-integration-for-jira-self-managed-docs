@@ -142,7 +142,11 @@ A git service user can create a PR/MR via the Git host service portal and adding
 
 | Jira issue PR/MR list view |
 | :---: |
-| ![](/wp-content/uploads/gij-gitserverdc-assoc-pull-req-dev-panel-list.png) |
+| ![](/wp-content/uploads/gij-datacenter-assoc-pull-req-dev-panel-list.png) |
+
+| Git service portal draft example |
+| :---: |
+| ![](/wp-content/uploads/git-datacenter-github-pullreq-draft-example.png)<br><br>GIJ will be supporting the draft PRs for GitHub, GitLab and Azure in the future versions. For example, you can create GitHub draft PRs with a GitHub Org repository. For other supported git services, please see their respective requirements. Please note that the draft pull/merge requests cannot be merged until their state is changed for merging. |
 
 Additionally, creating PR/MR via the Git developer panel automatically associates the PR/MR to a Jira issue. This also adds a description in the PR/MR to the git host service portal containing the link to the Jira issue.
 
