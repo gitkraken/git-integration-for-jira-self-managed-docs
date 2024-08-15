@@ -52,20 +52,21 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
 
 **What's on this page:**
 - [Integrate GitHub.com with Jira Data Center/Server](#integrate-githubcom-with-jira-data-centerserver)
-- [Creating a personal access token](#creating-a-personal-access-token)
-- [Using Full feature integration](#using-full-feature-integration)
-- [Single repository (Manual integration)](#single-repository-manual-integration)
-- [Setting up GitHub permissions](#setting-up-github-permissions)
-  - [Default repository permission](#default-repository-permission)
-  - [Teams and collaborators](#teams-and-collaborators)
-- [Setting up GitHub web links](#setting-up-github-web-links)
-- [Viewing git commits in Jira Data Center](#viewing-git-commits-in-jira-data-center)
-- [Require User PAT settings for user access](#require-user-pat-settings-for-user-access)
-- [Working with branches and pull requests](#working-with-branches-and-pull-requests)
-  - [Default branch](#default-branch)
-  - [Creating branches](#creating-branches)
-  - [Creating pull requests](#creating-pull-requests)
-- [More Integration Guides](#more-integration-guides)
+  - [Creating a personal access token](#creating-a-personal-access-token)
+  - [Using Full feature integration](#using-full-feature-integration)
+  - [Single repository (Manual integration)](#single-repository-manual-integration)
+  - [Setting up GitHub permissions](#setting-up-github-permissions)
+    - [Default repository permission](#default-repository-permission)
+    - [Teams and collaborators](#teams-and-collaborators)
+  - [Setting up GitHub web links](#setting-up-github-web-links)
+  - [Viewing git commits in Jira Data Center](#viewing-git-commits-in-jira-data-center)
+  - [Require User PAT settings for user access](#require-user-pat-settings-for-user-access)
+  - [Working with branches and pull requests](#working-with-branches-and-pull-requests)
+    - [Default branch](#default-branch)
+    - [Creating branches](#creating-branches)
+    - [Creating pull requests](#creating-pull-requests)
+  - [How to enable GetRepositories log response from GitHub to the Jira log?](#how-to-enable-getrepositories-log-response-from-github-to-the-jira-log)
+  - [More Integration Guides](#more-integration-guides)
 
 &nbsp;
 * * *
@@ -96,6 +97,18 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
 
 While instructions from GitHub works just fine, [follow this article](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed#github--github-enterprise) for some specific instructions to get you started.
 
+<b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.27+</b><br>
+There will be two new options now available in the GIJ General Settings. Enabling these settings requires an "extended" scope for your PATs.
+
+![](/wp-content/uploads/gij-datacenter-git-pull-merge-req-group-gencfg-sel.png)
+
+To utilize the new GitHub share PR events, we recommend that users must update their personal access token to have the following scopes:
+* `read:discussion`
+* `read:org`
+* `read:user`
+* `repo` (all)
+* `user:email`
+
 &nbsp;
 
 ### Using Full feature integration
@@ -105,6 +118,7 @@ This process requires an existing GitHub git repository.
 We recommend using the Add new integration panel (_formerly Auto-connect integration_) to connect multiple repositories from your GitHub.com account.
 
 This setup uses full feature integration offering functions and features not found on single repository connections.
+
 &nbsp;
 
 <div class="bbb-callout bbb--error">
