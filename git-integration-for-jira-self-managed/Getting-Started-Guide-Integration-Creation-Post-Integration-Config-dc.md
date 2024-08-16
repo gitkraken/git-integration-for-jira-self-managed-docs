@@ -9,7 +9,7 @@ taxonomy:
 ## Integration Creation
 ---
 ### Creating your integrations
-Ready for the fun part? It is time to create your integrations! For detailed step by step instructions on how to create the integrations by Git service, please refer to our Integration guides. The guides for full featured integrations can be found [here](https://help.gitkraken.com/git-integration-for-jira-data-center/integration-guides-gij-self-managed/). 
+Ready for the fun part? It is time to create your integrations! For detailed step by step instructions on how to create the integrations by Git service, please refer to our Integration guides [Integration Guides](https://help.gitkraken.com/git-integration-for-jira-data-center/integration-guides-gij-self-managed/).
 
 All of the planning and decision making from the previous steps get put to work during the integration creation process. You should now have confidence choosing which repositories to include, and which Project Association permissions to apply to limit visibility. We suggest that you disable any features that you will not be using before creating your integrations as discussed previously.
 
@@ -39,6 +39,6 @@ Once your integrations are all been configured, and they have indexed successful
 
 ___
 
-[<b style='background-color:#FFFCC3; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: small;'>NEXT</b>](/git-integration-for-jira-data-center/Getting-Started-Guide-Optional-Features-dc) <a href="https://help.gitkraken.com/git-integration-for-jira-data-center/Getting-Started-Guide-Optional-Features-dc/">Optional Features and Add-on Extensions</a>
+[<b style='background-color:#FFFCC3; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: medium;'>NEXT</b>](/git-integration-for-jira-data-center/Getting-Started-Guide-Optional-Features-dc) <a href="https://help.gitkraken.com/git-integration-for-jira-data-center/Getting-Started-Guide-Optional-Features-dc/">Optional Features and Add-on Extensions</a>
 
-[<b style='background-color:#F1F1F1; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: small;'>PREVIOUS</b>](/git-integration-for-jira-data-center/git-integration-for-jira-data-center/Getting-Started-Guide-App-operations-and-planning-dc/) <a href="https://help.gitkraken.com/git-integration-for-jira-data-center/git-integration-for-jira-data-center/Getting-Started-Guide-App-operations-and-planning-dc/">Application operations and planning</a>
+[<b style='background-color:#F1F1F1; padding:1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: medium;'>PREVIOUS</b>](/git-integration-for-jira-data-center/git-integration-for-jira-data-center/Getting-Started-Guide-App-operations-and-planning-dc/) <a href="https://help.gitkraken.com/git-integration-for-jira-data-center/git-integration-for-jira-data-center/Getting-Started-Guide-App-operations-and-planning-dc/">Application operations and planning</a>
