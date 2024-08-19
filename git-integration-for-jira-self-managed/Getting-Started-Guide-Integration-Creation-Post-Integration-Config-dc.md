@@ -22,7 +22,7 @@ While this suggested approach may take a bit longer to complete, it avoids commo
 ---
 Now that you have created all of your integrations, we recommend the following actions to round out your configuration.
 
-### Edit Integration feature settings
+### Edit Integration settings
 **Display name**
 We suggest editing each of your integrations and modifying the display name to better reflect what is included, or what org/group is connected. Please see [Edit Integration connection settings](https://help.gitkraken.com/git-integration-for-jira-data-center/edit-integration-connection-settings-gij-self-managed/) for details.
 
