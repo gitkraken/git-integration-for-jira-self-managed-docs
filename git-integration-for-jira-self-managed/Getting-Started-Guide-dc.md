@@ -7,10 +7,13 @@ taxonomy:
 
 ---
 ## Application Overview
+
+Thank you for choosing Git Integration for Jira for Data Center (GIJ)! This guide provides Jira Admins with crucial information for deciding the most effective configuration of Git Integration for Jira.
+
+Consider GIJ a "set it and forget it" app and Jira Admins who read each page of this guide can expect to *save days of configuration rework*. With that, let's get crackin!
+
 ---
 ### What to expect
-
-Thank you for choosing Git Integration for Jira Data Center (GIJ)! This guide provides Jira Admins with crucial information for deciding the most effective configuration of Git Integration for Jira for their specific needs.
 
 GIJ will display Commits, Branches, and Pull/Merge requests associated with a specific Jira Issue. The Jira Issue key must be included in the commit message, the Branch name, and the Pull/Merge request title in order for GIJ to link the item to the respective Jira Issue.  
  Please see [Linking Git Commits](https://help.gitkraken.com/git-integration-for-jira-data-center/linking-git-commits-to-jira-issues-gij-self-managed/) for more details.
