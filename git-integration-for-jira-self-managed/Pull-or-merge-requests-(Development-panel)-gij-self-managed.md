@@ -101,7 +101,7 @@ This will also allow a service user to associate a Merge/Pull Request with multi
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        We recommends service users to enable pull/merge requests webhook trigger events. This way, any changes to pull/merge requests gets reindexed quickly.
+        We recommend service users to enable pull/merge requests webhook trigger events. This way, any changes to pull/merge requests gets reindexed quickly.
     </div>
     </div>
 </div>
