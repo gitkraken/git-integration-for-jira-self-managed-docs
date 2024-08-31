@@ -9,25 +9,40 @@ taxonomy:
 
 <!-- This falls under Features sidenav -->
 
-## Introduction
+### Introduction
 
 Starting with **v3.7.2+** of the Git Integration for Jira Server and Data Center app, we have added a new setting that allows for pull request (PR) and merge request (MR) indexing via API in **General Settings**. Additionally, in earlier versions, automatic indexing of PR/MRs cannot be avoided for auto-connect integrations.
 
 Pull/merge requests appear automatically in the Git Integration panel based on the commits associated with the pull/merge request. This allows users who did not mention a Jira issue key in the PR/MR title or description, they will still be linked.
 
-**This feature supports integrations such as GitHub, GitLab and Microsoft TFS/VSTS/Azure. However, AWS CodeCommit is not supported because there is no ability to get commits of a pull request via API.**
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        This feature supports integrations such as GitHub, GitLab and Microsoft TFS/VSTS/Azure. However, AWS CodeCommit is not supported because there is no ability to get commits of a pull request via API.
+    </div>
+    </div>
+</div>
 
-## Getting Started
+&nbsp;
+
+### Getting Started
 
 The following settings are implemented in the **Manage git repositories** page ➜ **General settings** under **Git pull/merge requests**:
 
 ![](/wp-content/uploads/gij-jira-server-general-settings-branch-pull-req-cfgs-c.png)
 
-### Enable pull/merge request creation in Jira issues
+&nbsp;
+
+#### Enable pull/merge request creation in Jira issues
 
 This setting will show or hide the function for creating pull/merge requests from the Jira developer panel. This setting is `ON` by default.
 
-### Enable indexing pull/merge requests via API
+&nbsp;
+
+#### Enable indexing pull/merge requests via API
 
 This setting will index PR/MRs that are associated to Jira issues _**based on pull/merge request title**_ which includes the Jira issue key. This setting is ON by default.
 
@@ -50,7 +65,9 @@ There are corresponding API calls to get merge/pull request commits, at least in
 
 *   [Azure/TFS](https://docs.microsoft.com/en-us/rest/api/azure/devops/git/pull%20request%20commits/get%20pull%20request%20commits?view=azure-devops-rest-6.0#response)
 
-### Enable indexing pull/merge requests by commits
+&nbsp;
+
+#### Enable indexing pull/merge requests by commits
 
 This setting will index PR/MRs that are associated to Jira issues _**based on commits**_ related to pull/merge requests with _**commit message containing**_ a Jira issue key. This setting is `OFF` by default. Users will not be able to toggle this setting to **ON/OFF** if the _**Enable indexing pull/requests via API**_ is switched `OFF`.
 
@@ -77,24 +94,34 @@ Turning this setting `ON` does not call commits on acquiring for existing pull/m
     </div>
     </div>
 </div>
-<br>
 
+&nbsp;
 
-## Guidelines
+### Guidelines
 
-### What to do with the rate limit issues?
+#### What to do with the rate limit issues?
 
 With the index settings above, the rate limit issues can be ignored. At least, the user may turn the feature off, connect an integration, wait until the reindexing is completed, and then turn the feature back on.
 
-### Do I need to do a Reset index?
+&nbsp;
 
-The commits for existing PR/MRs are not needed to be retrieved again, so there’s no need to do a reset index.
+#### Do I need to do a Reset index?
 
-### Will this affect repositories with webhooks? Will webhooks trigger reindexing a repository via API to get PRs via commits?
+The commits for existing PR/MRs are not needed to be retrieved again, so there's no need to do a reset index.
 
-Yes, Any indexing of repo (manually, via API, webhooks) will call reindexing a repository to get PRs via commits
+&nbsp;
 
-## Recommendations
+#### Will this affect repositories with webhooks? Will webhooks trigger reindexing a repository via API to get PRs via commits?
+
+Yes. Any indexing of repo (manually, via API, webhooks) will call reindexing a repository to get PRs via commits
+
+#### Are draft PR/MR supported?
+
+Yes. The pull/merge request drafts can be associated to a Jira issue by having a Jira issue key in the description.
+
+&nbsp;
+
+### Recommendations
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -106,5 +133,4 @@ Yes, Any indexing of repo (manually, via API, webhooks) will call reindexing a 
     </div>
     </div>
 </div>
-<br>
 
