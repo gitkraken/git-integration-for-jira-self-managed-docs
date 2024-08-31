@@ -170,7 +170,7 @@ If you are thinking of migrating your server installtion to Data Center, read th
 
 ### After you migrate
 
-Atlassian recommends using the applicable database backup tools in general BUT for migrations - Atlassian recommends using the [Jira XML backup](https://confluence.atlassian.com/adminjiraserver/backing-up-data-938847673.html) (helps when migrating to new OS / database / version of Jira)
+Atlassian suggests using the applicable database backup tools in general BUT for migrations - Atlassian recommends using the [Jira XML backup](https://confluence.atlassian.com/adminjiraserver/backing-up-data-938847673.html) (helps when migrating to new OS / database / version of Jira)
 
 <p>&nbsp;</p>
 
