@@ -7,9 +7,13 @@ taxonomy:
 
 ---
 
+<!-- FEATURES -->
+
 <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b>
 
 ![](/wp-content/uploads/gij-gitserver-gitmgr-indexing-queue-viewer-new.png)
+
+&nbsp;
 
 ### Introduction
 
@@ -25,6 +29,8 @@ The Indexing queue viewer displays detailed information such as:
 *   ID of the task
 *   on which node the indexing was processed <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>DATA CENTER</b>
 
+&nbsp;
+
 ### Highlights
 
 Offering ease of use and scope of features, the Indexing queue viewer:
@@ -35,11 +41,15 @@ Offering ease of use and scope of features, the Indexing queue viewer:
 
 *   allows users to see which tasks are in the queue, find specific tasks by history, and filter tasks by specific parameters.
 
+&nbsp;
+
 ### Access location
 
 This feature can be accessed via the Jira dashboard menu Git ➜ **Indexing queue**.
 
 ![](/wp-content/uploads/gij-gitserver-indexing-queue-mgr-loc-01.png)
+
+&nbsp;
 
 ### Indexing queue dashboard
 
@@ -61,6 +71,8 @@ To the right of the dashboard is the Settings view panel. which shows informatio
 
 Click **Edit** to go directly to the General settings page.
 
+&nbsp;
+
 ### Filters and search
 
 Just below the dashboard are controls for view filters. This section allow users to control which information is displayed on the screen.
@@ -79,6 +91,8 @@ These includes:
 *   filter by _**name**_ – case-sensitive:
     *   For ‘_**repository: Name**_’ -- this is a name comprising a group and a repository name.
     *   For '_**integration: Name**_' -- this is the name of the connected integration.
+
+&nbsp;
 
 #### Filter: Status
 
@@ -102,6 +116,8 @@ Filter the task list by clicking on the **Status** dropdown and selecting a cate
     *   automatically -- triggered because the repository/integration disabled
 
     For detailed information on canceling reindex, see [Cancel indexing: Revision indexing](/git-integration-for-jira-data-center/Cancel-indexing-revision-indexing-gij-self-managed).
+
+&nbsp;
 
 #### Filter: Trigger
 
@@ -139,6 +155,8 @@ Filters the task list by clicking on the **Trigger** dropdown and selecting a ca
 
 *   **Initial indexing** -- Displays tasks triggered by initial indexing. Initial indexing is performed by the Git Integration for Jira app on the first successful connection of the git service integration.
 
+&nbsp;
+
 #### Filter: Type of operation
 
 ![](/wp-content/uploads/gij-gitserver-indexing-queue-viewer-reindex-type-ops.png)
@@ -153,6 +171,8 @@ Filters the view by clicking on the **Type of operation** dropdown and selecting
 
 *   **Remove repository** –- Displays tasks related to removal of a repository.
 
+&nbsp;
+
 #### Filter: Node
 
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>DATA CENTER</b>
@@ -164,6 +184,8 @@ Filters the view by clicking on the **Node** dropdown and selecting a category:
 *   **All** –- Displays the data for every Node in the cluster.
 
 *   **Node\[1…\] - Node\[n\]** –- Displays tasks and data only for the specified node in the cluster.
+
+&nbsp;
 
 #### Using search to filter specific items to view
 
@@ -244,7 +266,7 @@ For the selected queue task, click on **...** (Actions) ➜ **Cancel**.
 
 ![](/wp-content/uploads/gij-gitserverdc-indexing-queue-cancel-reindex-action.png)
 
-For more information on this feature, see [Cancel indexing](/git-integration-for-jira-data-center/Cancel-indexing-revision-indexing-gij-self-managed).
+For a more detailed information about this feature, see [Cancel indexing](/git-integration-for-jira-data-center/Cancel-indexing-revision-indexing-gij-self-managed).
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -256,6 +278,8 @@ For more information on this feature, see [Cancel indexing](/git-integration-for
     </div>
     </div>
 </div>
+
+&nbsp;
 
 ### Viewing logs
 
@@ -278,9 +302,13 @@ For encountered errors when indexing, open the logs via Actions ➜ View log. Co
     </div>
 </div>
 
+&nbsp;
+
 ### Moving list items to top
 
 Move the selected queue item to the top of the list (most recent). To do this click **...** (Action) ➜ **Move to top**. This will make it easy to monitor the selected item's behavior such as indexing status and viewing its indexing process logs.
+
+&nbsp;
 
 ### Indexing queue list
 
@@ -306,25 +334,27 @@ For removed integrations/repositories., the pending queued tasks related to remo
     </div>
 </div>
 
+&nbsp;
+
 ### View indexing details
 
 ![](/wp-content/uploads/gij-gitserver-indexing-queue-viewer-show-indexer-data.png)
 
 On the left of the first column, click the **\>** symbol to expand the detailed view of the index task in the queue.
 
-### Finish time
+#### Finish time
 
 In this column, the amount of time from when the task has finished indexing is shown.
 
-### Integration name
+#### Integration name
 
 This column displays the name of the integrations where indexing tasks has been performed.
 
-### Repository name
+#### Repository name
 
 This column displays the name of the repositories where indexing tasks has been performed. Also displayed is the organization (GitHub) or group (GitLab) name before the repository name indicating it’s under that org or group.
 
-### Type of operation
+#### Type of operation
 
 The type of operation states what kind of indexing was triggered:
 
@@ -335,25 +365,27 @@ The type of operation states what kind of indexing was triggered:
 *   Garbage collection
 *   Remove
 
-### Delay
+#### Delay
 
 This column shows _**No delay**_ for indexed items that were processed immediately after the previous one. Also displayed are the amount of time when the indexing has finished for the tasks.
 
-### Trigger
+#### Trigger
 
 This column shows what kind of operation triggered the reindex for this task.
 
-### Status
+#### Status
 
 This column shows the indexing status of the task in the list.
 
-### Refresh function
+#### Refresh function
 
 At the bottom-left portion of the indexing queue viewer, click the ![](/wp-content/uploads/gij-refresh-icon.png) **Refresh** icon to refresh the queue list view.
 
-### Pagination
+#### Pagination
 
 At the bottom-right portion of the indexing queue viewer, use the page controls to navigate across the task page list.
+
+&nbsp;
 
 ### Data center node indexing
 
@@ -368,4 +400,40 @@ Tasks with <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; b
 The <b style='background-color:#DEE0E5; padding:1px 5px; color:#44516C; border-radius:3px; margin: 0 3px 0px 3px; font-size: small;'>QUEUED</b> tasks can also be removed from the indexing queue.
 
 The GC tasks can be completed if the indexing queue is empty.
+
+&nbsp;
+
+### See more Git Integration for Jira app features
+
+[Manager permissions](/git-integration-for-jira-data-center/manager-permissions-gij-self-managed) (Git Integration for Jira Data Center)
+
+[Cancel indexing](/git-integration-for-jira-data-center/cancel-indexing-revision-indexing-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Pull request filters](/git-integration-for-jira-data-center/pull-request-filters-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Tag filters](/git-integration-for-jira-data-center/tag-filters-gij-self-managed/) (Git Integration for Jira Data Center)
+
+**Indexing queue viewer** (this page)
+
+[Deep linking feature](/git-integration-for-jira-data-center/deeplinking-feature-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[GitHub App integration](/git-integration-for-jira-data-center/github-app-integration-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Git Integration + ScriptRunner](/git-integration-for-jira-data-center/gij-plus-scriptrunner-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Git Integration + Jira Automation](/git-integration-for-jira-data-center/git-integration-plus-jira-automation-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Enforced git permissions for Jira users – Features](/git-integration-for-jira-data-center/enforced-git-permissions-for-jira-users-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Shared reindex queue between DC nodes](/git-integration-for-jira-data-center/shared-reindex-queue-between-dc-nodes-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Smart commits overview](/git-integration-for-jira-data-center/smart-commits-overview-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Associate Pull/Merge Requests to Issues Based on Commits](/git-integration-for-jira-data-center/associate-pull-merge-requests-to-issues-based-on-commits-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Creating branches](/git-integration-for-jira-data-center/creating-branches-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Creating pull/merge requests](/git-integration-for-jira-data-center/creating-pull-merge-requests-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Issue Git integration panel – Features](/git-integration-for-jira-data-center/issue-git-integration-panel-gij-self-managed/) (Git Integration for Jira Data Center)
 

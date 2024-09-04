@@ -11,9 +11,9 @@ taxonomy:
 
 These scripts can be scheduled as a job or to be run on an issue transition within Jira workflows or etc. Out-of-the-box, you can find several built-in scripts ready to go, or you may try some recipes to start using a bit of groovy for custom scripts.
 
-<br>
+&nbsp;
 
-## Available APIs
+### Available APIs
 
 Which APIs or functions can be used while creating these scripts? See [ScriptRunner API quick reference](https://scriptrunner.adaptavist.com/latest/jira/behaviours-api-quickref.html) at Adaptavist.
 
@@ -40,28 +40,36 @@ Which APIs or functions can be used while creating these scripts? See [ScriptRun
 
 A singleton implementing [GIJFacade interface](/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-GIJFacade-gij-self-managed) is the main object having methods for all the above cases.
 
-## Feature use case examples
+&nbsp;
+
+### Feature use case examples
 
 *   The API allows you to write a script for re-associating git commits from one issue to another. With this script, you won't have to click each git commit and manually re-assign it to another issue.
 
 *   Use a script to create a pull request if an issue has been moved to `CODE REVIEW` status.
 
+&nbsp;
 
-## Tutorial
+### Tutorial
 
 Follow the order of steps below:
 
-*   [Getting started with ScriptRunner plugin](#getting-started-with-scriptrunner-plugin)
-
-*   [Example 1](#example-1-how-to-create-a-simple-script): a simple script for retrieving list of commits associated with issue `TST-4`
-
-*   [Example 2](#example-2-how-to-log): a simple script for logging number of files changed in each commit of issue `TST-4`
-
-*   [Example 3](#example-3-how-to-log-more-than-a-brief-information): a script listing files changed in each commit of issue `TST-4`
-
-*   [Example 4](#example-4-move-an-issue-in-in-progress-status-when-at-least-one-git-commit-exists): a setup of issue workflow in a such way that if an `OPEN` issue has at least one git commit then it's moved to `IN PROGRESS` status
+- [Available APIs](#available-apis)
+- [Feature use case examples](#feature-use-case-examples)
+- [Tutorial](#tutorial)
+- [Getting started with ScriptRunner plugin](#getting-started-with-scriptrunner-plugin)
+- [Example 1: How to create a simple script?](#example-1-how-to-create-a-simple-script)
+- [Example 2: How to log?](#example-2-how-to-log)
+- [Example 3: How to log more than a brief information?](#example-3-how-to-log-more-than-a-brief-information)
+  - [So how does it work?](#so-how-does-it-work)
+- [Example 4: Move an issue in "IN PROGRESS" status when at least one git commit exists](#example-4-move-an-issue-in-in-progress-status-when-at-least-one-git-commit-exists)
+- [How to integrate the code into workflow? How to customize it by dynamic IN issueKey parameter?](#how-to-integrate-the-code-into-workflow-how-to-customize-it-by-dynamic-in-issuekey-parameter)
+- [Let's test it](#lets-test-it)
+- [See more Git Integration for Jira app features](#see-more-git-integration-for-jira-app-features)
 
 For more example scripts, see GIJFacade [JavaDocs](/git-integration-for-jira-data-center/ScriptRunner-javadoc-git-services-GIJFacade-gij-self-managed).
+
+&nbsp;
 
 ### Getting started with ScriptRunner plugin
 
@@ -94,7 +102,9 @@ No further GIJ configuration is required.
 
 4.  Paste the license key into the provided box then click **Update**.
 
-## Example 1: How to create a simple script?
+&nbsp;
+
+### Example 1: How to create a simple script?
 
 <b style='color: #63B9CC'>REQUIRES ADMIN ACCESS</b>
 
@@ -148,9 +158,10 @@ Steps:
     </div>
   </div>
 </div>
-<br>
+
+&nbsp;
   
-## Example 2: How to log?
+### Example 2: How to log?
 
 *   Pay close attention to the "Logs" tab at the bottom. There can be a lot of logs while there is only one result.
   
@@ -188,9 +199,9 @@ Steps:
 
     ![](/wp-content/uploads/gijfacade-scriptrunner-logs-tab.png)
 
-<br>
+&nbsp;
 
-## Example 3: How to log more than a brief information?
+### Example 3: How to log more than a brief information?
 
 *   As mentioned above, a commit is logged using brief information by default.
   
@@ -235,9 +246,9 @@ Steps:
   
     ![](/wp-content/uploads/gijfacade-example-with-commits-and-files.png)
 
-<br>
+&nbsp;
 
-### So how does it work?
+#### So how does it work?
 
 Looking back at the original script, see how it was changed:
 
@@ -274,9 +285,10 @@ Looking back at the original script, see how it was changed:
         });
     ...
     ```
-<br>
 
-## Example 4: Move an issue in "IN PROGRESS" status when at least one git commit exists
+&nbsp;
+
+### Example 4: Move an issue in "IN PROGRESS" status when at least one git commit exists
 
 Let's write, debug a code and detect whether an issue has at least one git commit:
 
@@ -305,7 +317,7 @@ Let's write, debug a code and detect whether an issue has at least one git commi
   
 *   Assign a Jira issue key value to the `String issueKey` variable. For example: `String issueKey = "TST-4";` The above code will return `true` if the Jira issue has git commits and `false` if it doesn't.
 
-<br>
+&nbsp;
 
 ### How to integrate the code into workflow? How to customize it by dynamic IN issueKey parameter?
   
@@ -355,6 +367,8 @@ The steps below demonstrate the general rule of using gijFacade in ScriptRunner 
 
     *   Click **Add**.
 
+&nbsp;
+
 ### Let's test it
 
 1.   Open the TST-4 Jira issue, which is in `OPEN` status and has associated git commits.
@@ -365,4 +379,40 @@ The steps below demonstrate the general rule of using gijFacade in ScriptRunner 
 
 **Result:**<br>
 The Jira issue status becomes `IN PROGRESS` because it has git commits.
+
+&nbsp;
+
+### See more Git Integration for Jira app features
+
+[Manager permissions](/git-integration-for-jira-data-center/manager-permissions-gij-self-managed) (Git Integration for Jira Data Center)
+
+[Cancel indexing](/git-integration-for-jira-data-center/cancel-indexing-revision-indexing-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Pull request filters](/git-integration-for-jira-data-center/pull-request-filters-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Tag filters](/git-integration-for-jira-data-center/tag-filters-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Indexing queue viewer](/git-integration-for-jira-data-center/indexing-queue-viewer-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Deep linking feature](/git-integration-for-jira-data-center/deeplinking-feature-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[GitHub App integration](/git-integration-for-jira-data-center/github-app-integration-gij-self-managed/) (Git Integration for Jira Data Center)
+
+**Git Integration + ScriptRunner** (this page)
+
+[Git Integration + Jira Automation](/git-integration-for-jira-data-center/git-integration-plus-jira-automation-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Enforced git permissions for Jira users – Features](/git-integration-for-jira-data-center/enforced-git-permissions-for-jira-users-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Shared reindex queue between DC nodes](/git-integration-for-jira-data-center/shared-reindex-queue-between-dc-nodes-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Smart commits overview](/git-integration-for-jira-data-center/smart-commits-overview-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Associate Pull/Merge Requests to Issues Based on Commits](/git-integration-for-jira-data-center/associate-pull-merge-requests-to-issues-based-on-commits-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Creating branches](/git-integration-for-jira-data-center/creating-branches-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Creating pull/merge requests](/git-integration-for-jira-data-center/creating-pull-merge-requests-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Issue Git integration panel – Features](/git-integration-for-jira-data-center/issue-git-integration-panel-gij-self-managed/) (Git Integration for Jira Data Center)
 

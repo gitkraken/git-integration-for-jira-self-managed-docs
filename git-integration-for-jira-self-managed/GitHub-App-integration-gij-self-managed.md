@@ -212,3 +212,9 @@ For case #3, while this case is very rare, the integration will remain in the Ma
 
 [**Back to:** Integration basics](/git-integration-for-jira-data-center/Integration-Basics-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
+---
+
+### More Git Integration for Jira app features
+
+See the [Features section](/git-integration-for-jira-data-center/features-gij-self-managed) to learn more about Git Integration for Jira app features.
+

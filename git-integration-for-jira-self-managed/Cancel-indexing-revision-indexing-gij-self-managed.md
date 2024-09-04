@@ -38,6 +38,8 @@ It does not cover the following cases, such as a cancellation of:
 *   Garbage Collection All task
 *   Pull/merge requests indexing phase
 
+&nbsp;
+
 ### Highlights
 
 There are three (3) ways a reindex can be interrupted by performing the following methods:
@@ -54,6 +56,8 @@ There are three (3) ways a reindex can be interrupted by performing the followin
 
 3.	Disable the Git Integration for Jira app in the Jira **Manage apps** page. This will absolutely interrupt the reindex thread.
 
+&nbsp;
+
 ### Access location
 
 The **Cancel** indexing task can be only accessed at the following location:
@@ -62,6 +66,7 @@ The **Cancel** indexing task can be only accessed at the following location:
 
     ![](/wp-content/uploads/gij-gitserverdc-indexing-queue-cancel-reindex-action.png)
 
+&nbsp;
 
 ### CANCELED status
 
@@ -101,6 +106,8 @@ The initial reindex happens after a repository/integration is connected and when
 
 If the initial reindex is canceled, the Git Integration for Jira indexing engine will remember that the initial reindex hasn't been finished yet. You'll also notice that **Git Commits tab**, **Git Roll Up tab** and **Git Integration developer panel** on the Jira Issue page does not contain git data because the git connection is in an 'unfinished' state. We recommend that the initial reindex is not interrupted.
 
+&nbsp;
+
 ### How long does reindex take?
 
 Reindex usually completes in several seconds to a couple of hours or maybe more depending on the factors stated below.
@@ -127,9 +134,13 @@ Reindex usually completes in several seconds to a couple of hours or maybe more 
 
 *   (Data Centers) how many nodes are there
 
+&nbsp;
+
 ### How does canceling reindex affect queued Data Center nodes?
 
 A reindex of the task is canceled on all Jira nodes.
+
+&nbsp;
 
 ### How to know the average number of commits in a branch?
 
@@ -146,4 +157,40 @@ The following command will return number of commits , which will be reindexed on
 ```powershell
 git branch -r | xargs -i git rev-list --count {} ^master | grep -v 0 | awk 'BEGIN{s=0;}{s+=$1;}END{print s;}'
 ```
+
+&nbsp;
+
+### See more Git Integration for Jira app features
+
+[Manager permissions](/git-integration-for-jira-data-center/manager-permissions-gij-self-managed) (Git Integration for Jira Data Center)
+
+**Cancel indexing** (this page)
+
+[Pull request filters](/git-integration-for-jira-data-center/pull-request-filters-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Tag filters](/git-integration-for-jira-data-center/tag-filters-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Indexing queue viewer](/git-integration-for-jira-data-center/indexing-queue-viewer-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Deep linking feature](/git-integration-for-jira-data-center/deeplinking-feature-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[GitHub App integration](/git-integration-for-jira-data-center/github-app-integration-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Git Integration + ScriptRunner](/git-integration-for-jira-data-center/gij-plus-scriptrunner-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Git Integration + Jira Automation](/git-integration-for-jira-data-center/git-integration-plus-jira-automation-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Enforced git permissions for Jira users – Features](/git-integration-for-jira-data-center/enforced-git-permissions-for-jira-users-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Shared reindex queue between DC nodes](/git-integration-for-jira-data-center/shared-reindex-queue-between-dc-nodes-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Smart commits overview](/git-integration-for-jira-data-center/smart-commits-overview-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Associate Pull/Merge Requests to Issues Based on Commits](/git-integration-for-jira-data-center/associate-pull-merge-requests-to-issues-based-on-commits-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Creating branches](/git-integration-for-jira-data-center/creating-branches-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Creating pull/merge requests](/git-integration-for-jira-data-center/creating-pull-merge-requests-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Issue Git integration panel – Features](/git-integration-for-jira-data-center/issue-git-integration-panel-gij-self-managed/) (Git Integration for Jira Data Center)
 
