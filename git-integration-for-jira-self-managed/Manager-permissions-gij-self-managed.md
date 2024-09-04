@@ -110,7 +110,9 @@ The Git Integration for Jira sidebar menu now includes a new item called **88**.
 
 ### What do users with the manager role have access to?
 
-very user you add to the GIJ Managers group will have complete access to the Git Integration for Jira app configuration, which includes the ability to modify settings and add/manage integrations.
+Every user you add to the GIJ Managers group will have complete access to the Git Integration for Jira app configuration, which includes the ability to modify settings and add/manage integrations.
+
+GIJ Managers are allowed to create integrations and set project mapping settings with it. This also works with any git integration wizard in the Manage integrations page. However, the manager does not have the ability to change project visibility settings, only Jira admins do.
 
 **GIJ Managers** does not have the ability to change permissions or access the Manager permissions page. This level of access is exclusively reserved for Jira admins.
 
