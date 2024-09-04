@@ -56,9 +56,10 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
-## Introduction
+&nbsp;
+
+### Introduction
 
 The **Create pull/merge request** feature offers Jira users the ability to create a git pull request directly from the Jira issue.
 
@@ -66,7 +67,9 @@ The **Create pull/merge request** feature offers Jira users the ability to cre
 
 For information about creating a branch from a Jira issue, see [Creating branches](/git-integration-for-jira-data-center/creating-branches-gij-self-managed).
 
-## Advantages
+&nbsp;
+
+### Advantages
 
 When creating a pull request from within Jira:
 
@@ -74,8 +77,9 @@ When creating a pull request from within Jira:
 
 *   Require each Jira user to provide their [Personal Access Token](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed) for creating pull requests. This option adds some friction to creating pull requests/branches but enabling this setting will enforce the git server user permissions as well as give better attribution for the actions. See [Require Personal Access Tokens for user actions (create branch/pull request)](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed) for more information.
 
+&nbsp;
 
-## Supported platforms
+### Supported platforms
 
 *   Full feature (Auto-connect) integrations:
 
@@ -91,8 +95,9 @@ When creating a pull request from within Jira:
 
     *   Microsoft Team Foundation Server (TFS)
 
+&nbsp;
 
-## Steps to creating a git pull request in Jira
+### Steps to creating a git pull request in Jira
 
 1.  **Prerequisite:** Jira administrator configures a full feature (auto-connect) integration in the Git Integration for Jira Data Center app. See [Integration guides](/git-integration-for-jira-data-center/integration-guides-gij-self-managed) for more information.
 
@@ -117,6 +122,7 @@ When creating a pull request from within Jira:
 
 9.  Click **Create**.
 
+&nbsp;
 
 ### Video: Creating pull/merge request from Git integration development panel ( UPDATED VIDEO COMING SOON )
 
@@ -131,6 +137,8 @@ When creating a pull request from within Jira:
 </div>
 
 If you still have a question – reach out to our [Support Desk](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) or email us at [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com).
+
+&nbsp;
 
 ### Associating pull/merge request to Jira issue
 
@@ -150,27 +158,39 @@ A git service user can create a PR/MR via the Git host service portal and adding
 
 Additionally, creating PR/MR via the Git developer panel automatically associates the PR/MR to a Jira issue. This also adds a description in the PR/MR to the git host service portal containing the link to the Jira issue.
 
-## See more Git Integration for Jira app features
+&nbsp;
 
-[Indexing queue viewer](/git-integration-for-jira-data-center/Indexing-queue-viewer-gij-self-managed) (Git Integration for Jira Server/Data Center)
+### See more Git Integration for Jira app features
 
-[Deep Linking to the GitKraken Git client](/git-integration-for-jira-data-center/Deep-Linking-to-the-GitKraken-Git-client-gij-self-managed) (Git Integration for Jira Server/Data Center)
+[Manager permissions](/git-integration-for-jira-data-center/manager-permissions-gij-self-managed) (Git Integration for Jira Data Center)
 
-[Deep Linking into GitLens](/git-integration-for-jira-data-center/Deep-Linking-into-GitLens-gij-self-managed) (Git Integration for Jira Server/Data Center)
+[Cancel indexing](/git-integration-for-jira-data-center/cancel-indexing-revision-indexing-gij-self-managed/) (Git Integration for Jira Data Center)
 
-[Git Integration + Jira Automation (Jira Server \| DC)](/git-integration-for-jira-data-center/Git-integration-plus-Jira-automation-gij-self-managed) (Git Integration for Jira Server/Data Center)
+[Pull request filters](/git-integration-for-jira-data-center/pull-request-filters-gij-self-managed/) (Git Integration for Jira Data Center)
 
-[Creating branches](/git-integration-for-jira-data-center/Creating-branches-gij-self-managed) (Git Integration for Jira Server/Data Center)
+[Tag filters](/git-integration-for-jira-data-center/tag-filters-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Indexing queue viewer](/git-integration-for-jira-data-center/indexing-queue-viewer-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Deep linking feature](/git-integration-for-jira-data-center/deeplinking-feature-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[GitHub App integration](/git-integration-for-jira-data-center/github-app-integration-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Git Integration + ScriptRunner](/git-integration-for-jira-data-center/gij-plus-scriptrunner-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Git Integration + Jira Automation](/git-integration-for-jira-data-center/git-integration-plus-jira-automation-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Enforced git permissions for Jira users – Features](/git-integration-for-jira-data-center/enforced-git-permissions-for-jira-users-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Shared reindex queue between DC nodes](/git-integration-for-jira-data-center/shared-reindex-queue-between-dc-nodes-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Smart commits overview](/git-integration-for-jira-data-center/smart-commits-overview-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Associate Pull/Merge Requests to Issues Based on Commits](/git-integration-for-jira-data-center/associate-pull-merge-requests-to-issues-based-on-commits-gij-self-managed/) (Git Integration for Jira Data Center)
+
+[Creating branches](/git-integration-for-jira-data-center/creating-branches-gij-self-managed/) (Git Integration for Jira Data Center)
 
 **Creating pull/merge requests** (this page)
 
-[Associate Pull/Merge Requests to Issues Based on Commits](/git-integration-for-jira-data-center/Associate-Pull-Merge-Requests-to-Issues-Based-on-Commits-gij-self-managed) (Git Integration for Jira Server/Data Center)
-
-[Issue Git integration panel](/git-integration-for-jira-data-center/Issue-Git-integration-panel-gij-self-managed) (Git Integration for Jira Server/Data Center)
-
-[Smart commits overview](/git-integration-for-jira-data-center/Smart-commits-overview-gij-self-managed) (Git Integration for Jira Server/Data Center)
-
-[Shared reindex queue between DC nodes](/git-integration-for-jira-data-center/Shared-reindex-queue-between-DC-nodes-gij-self-managed) (Git Integration for Jira Server/Data Center)
-
-[Enforced git permissions for Jira users](/git-integration-for-jira-data-center/Enforced-git-permissions-for-Jira-users-gij-self-managed) (Git Integration for Jira Server/Data Center)
+[Issue Git integration panel – Features](/git-integration-for-jira-data-center/issue-git-integration-panel-gij-self-managed/) (Git Integration for Jira Data Center)
 
