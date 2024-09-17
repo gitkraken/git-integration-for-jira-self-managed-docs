@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-The Git Integration for Jira app currently supports **Jira** **8.12** to **9.15**!
+The Git Integration for Jira app currently supports **Jira** **8.12** to **9.17+**!
 
 <div class="bbb-callout bbb--error">
     <div class="irow">
@@ -18,6 +18,7 @@ The Git Integration for Jira app currently supports **Jira** **8.12** to **9.15*
         <b>UPDATE</b><br>
         Starting Git Integration for Jira v4.0+ app, support for Jira 7 is entirely dropped.<br>
         Starting Git Integration for Jira v4.12+ app, we are dropping support for Java 8.0-8.11.
+        The last Jira Server release is v9.12.
     </div>
     </div>
 </div>
@@ -158,6 +159,8 @@ The table below shows the Jira Version, when [Atlassian will stop supporting tha
 | 9.13 | January 22, 2026 | Edge | Yes\* |
 | 9.14 | February 15, 2026 | Edge | Yes\* |
 | 9.15 | Marchs 27, 2026 | Edge | Yes\* |
+| 9.16 | May 23, 2026 | Edge | Yes\* |
+| 9.17 | June 26, 2026 | Edge | Yes\* |
 
 \* _See information below about retiring IE11 support._
 
@@ -169,9 +172,9 @@ With the release of the Edge browser since 2015, IE has not been receiving major
 
 In view of this, BigBrassBand LLC will also follow this decision effectively:
 
-*   For all Atlassian Cloud products, support will end on **31 March 2020**.
+*   For all Atlassian Cloud products, support for IE11 will end on **31 March 2020**.
 
-*   For Atlassian server and data center products, the last version to support IE11 will be released between **September 2019** and **March 2020**.
+*   For Atlassian server and data center products, the last version to support IE11 were released between **September 2019** and **March 2020**.
 
 &nbsp;
 
