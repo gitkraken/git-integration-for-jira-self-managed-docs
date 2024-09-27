@@ -11,6 +11,8 @@ taxonomy:
 
 After Jira installation or configuration changes - the following errors appear. Errors/failures in the Git Integration for Jira application are seen sporadically.
 
+&nbsp;
+
 ### Diagnosis
 
 Jira admins will see a message similar to the one below in the Jira log: /application-logs/atlassian-jira.log:
@@ -39,9 +41,13 @@ Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationExce
 	... 194 more
 ```
 
+&nbsp;
+
 ### Cause
 
-In MySQL configuration (my.ini (Windows) or my.cnf (Unix)), parameter of sql_mode is set to  NO_AUTO_VALUE_ON_ZERO.
+In MySQL configuration (my.ini (Windows) or my.cnf (Unix)), parameter of sql_mode is set to  `NO_AUTO_VALUE_ON_ZERO`.
+
+&nbsp;
 
 ### Solution
 
