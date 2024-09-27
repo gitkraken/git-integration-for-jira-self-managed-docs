@@ -139,9 +139,9 @@ Filters the task list by clicking on the **Trigger** dropdown and selecting a ca
 
     *   reindex triggered by an update of repository
 
-*   **Webhook** -- Displays tasks triggered by webhook. Indexing triggered by webhooks fall on this category. For related information, see [Webhook indexing explainer](/git-integration-for-jira-data-center/Webhook-indexing-explainer-gij-self-managed).
+*   **Webhook** -- Displays tasks triggered by webhook. Indexing triggered by webhooks fall on this category. For related information, see [Webhook indexing explainer](/git-integration-for-jira-cloud/webhook-indexing-explainer-gij-cloud).
 
-*   **Scheduled** -- Displays tasks triggered by scheduled jobs. For more information, see [Scheduler jobs](/git-integration-for-jira-data-center/Scheduler-jobs-gij-self-managed).
+*   **Scheduled** -- Displays tasks triggered by scheduled jobs. For more information, see [Scheduler jobs](/git-integration-for-jira-data-center/scheduled-jobs-gij-self-managed).
 
 *   App activity -- Displays reindex tasks triggered by:
 

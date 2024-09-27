@@ -67,6 +67,20 @@ The lock daemon (lockd) may not be running on the **NFS** server. Check whether 
 
 NFSv4 supporting locking by default was [released in 2000](https://en.wikipedia.org/wiki/Network_File_System). So, it's a rare case to encounter an NFS server which is not able to lock the `/jira/data/git-plugin/###-somerepo/repo.auto.json` file these days.
 
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Contact Us</b><br>
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
+    </div>
+    </div>
+</div>
+
+&nbsp;
+
 ### More articles about troubleshooting, workarounds and solutions
 
 [Why I am getting the error, “git-upload-pack not permitted”?](/git-integration-for-jira-data-center/why-i-am-getting-the-error-git-upload-pack-not-permitted-gij-self-managed/)

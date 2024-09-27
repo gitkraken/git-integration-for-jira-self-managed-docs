@@ -311,7 +311,7 @@ The Git Integration for Jira app automatically configures web linking for GitLab
 
 For single repository connections, web link setup is optional. However, git links will become available in Git Commits tab when configured.
 
-For more information on this feature, see [Documentation: Web linking](/git-integration-for-jira-data-center/web-link-gij-self-managed).
+For more information on this feature, see [Documentation: Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed).
 
 &nbsp;
 

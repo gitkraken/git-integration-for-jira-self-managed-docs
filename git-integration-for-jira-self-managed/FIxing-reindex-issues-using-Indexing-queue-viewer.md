@@ -18,6 +18,7 @@ Use the Indexing Queue Viewer to check and look for reindex related issues.
 - [How to see the progress of an integration index?](#how-to-see-the-progress-of-an-integration-index)
 - [Why my repository hasn’t been removed yet?](#why-my-repository-hasnt-been-removed-yet)
 - [How to find a nested repository in ERROR state?](#how-to-find-a-nested-repository-in-error-state)
+- [More articles about troubleshooting, workarounds and solutions](#more-articles-about-troubleshooting-workarounds-and-solutions)
 
 &nbsp;
 
@@ -133,6 +134,18 @@ If you’re suspecting a indexing issue from a certain repository in an integrat
 1.  Switch to Indexing Queue Viewer and set the filter to **Status: Error**. This will narrow down the list for queued index items with the <b style='background-color:#FFEBE6; padding:1px 5px; color:#C02909; border-radius:3px; margin: 0 5px; font-size: small;'>ERROR</b> status.
 
 2.  View the logs of the error via **&ctdot;** Actions ➜ **View log**. You may send the logs with errors or issues to us at [GIJ Support](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) for analysis.
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Contact us</b><br>
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
+    </div>
+    </div>
+</div>
 
 &nbsp;
 

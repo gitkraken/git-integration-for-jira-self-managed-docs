@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+<!-- The Branch link is flagged as 404 by web crawlers. This is intended as is. -->
 
 * Package [com.bigbrassband.jira.git.services.scriptrunner.models](#)
 *  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [Branch](#)

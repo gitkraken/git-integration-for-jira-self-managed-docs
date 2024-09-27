@@ -40,7 +40,7 @@ Each commit can only have one git note per namespace. There can be multiple not
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        For old commits that are already indexed and have issue key(s) in commit message - see <a href='/git-integration-for-jira-data-center/how-do-i-clear-the-git-integration-for-jira-app-cache-manually-gij-self-managed'>How do I clear the Git Integration Plugin for Jira cache manually?</a> FAQ article.
+        For old commits that are already indexed and have issue key(s) in commit message - see <a href='/git-integration-for-jira-data-center/faq-reindex-and-cache-gij-self-managed/#how-do-i-clear-the-git-integration-for-jira-app-cache-manually'>How do I clear the Git Integration Plugin for Jira cache manually?</a> FAQ article.
     </div>
     </div>
 </div>

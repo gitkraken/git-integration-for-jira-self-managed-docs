@@ -14,9 +14,13 @@ You are getting this error because of wrong login credentials or a permission is
 - [Not Having Enough Access Permissions](#not-having-enough-access-permissions)
 - [Using Proxies](#using-proxies)
 - [Examining Logs and Errors](#examining-logs-and-errors)
-- [How to find supported authentication schemes?](#how-to-find-supported-authentication-schemes)
-- [How to find login credentials used in Basic authentication?](#how-to-find-login-credentials-used-in-basic-authentication)
+  - [How to find supported authentication schemes?](#how-to-find-supported-authentication-schemes)
+  - [How to find login credentials used in Basic authentication?](#how-to-find-login-credentials-used-in-basic-authentication)
+- [More articles about troubleshooting, workarounds and solutions](#more-articles-about-troubleshooting-workarounds-and-solutions)
 
+&nbsp;
+* * *
+&nbsp;
 
 ### Having Invalid Credentials
 
@@ -33,6 +37,8 @@ Check the repository properties for the **Username** and **Password/PAT** fi
 ![](/wp-content/uploads/gij-gitserver-git-upload-pack-err-02.png)
 
 Check the integration properties for the **Username** and **Password/PAT** fields and verify that they are filled with correct values. Retype login credentials just to make sure and save the settings.
+
+&nbsp;
 
 ### Not Having Enough Access Permissions
 
@@ -53,6 +59,8 @@ To install Git Integration for Jira app and clone a repository:
 
 The command should be successful. If not, ask your administrator to setup your environment.
 
+&nbsp;
+
 ### Using Proxies
 
 If you are using proxy, configure your Jira with the following parameter format:
@@ -71,6 +79,8 @@ Dhttps.nonProxyHosts=*.some.mask|localhost|1.1.1.1\<someIP\>
 ```
 
 Enter `<your-git-server-host>` to `nonProxyHosts` entries.
+
+&nbsp;
 
 ### Examining Logs and Errors
 
@@ -116,7 +126,9 @@ Compare the debug and the verbose logs and see the difference between them or se
 
 Examine used authentication schemes. If you are seeing Basic authentication, you can verify that the right login credentials are passed.
 
-### How to find supported authentication schemes?
+&nbsp;
+
+#### How to find supported authentication schemes?
 
 Below is an example of the debug logs of the jgit library in JIRA generated during cloning/re-indexing of your repository:
 
@@ -133,7 +145,9 @@ Below is an example of the debug logs of the jgit library in JIRA generated duri
 
 In this case, the Basic authentication was used because all other authentication methods have been rejected.
 
-### How to find login credentials used in Basic authentication?
+&nbsp;
+
+#### How to find login credentials used in Basic authentication?
 
 Below is another example of the debug logs of the jgit library in JIRA generated during cloning/re-indexing of your repository:
 
@@ -158,9 +172,21 @@ From the above log:
 
 3.  Verify that `jira` is the expected username and `jirapassword` is the expected password.
 
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Contact us</b><br>
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
+    </div>
+    </div>
+</div>
+
 &nbsp;
 
-## More articles about troubleshooting, workarounds and solutions
+### More articles about troubleshooting, workarounds and solutions
 
 **Why I am getting the error, “git-upload-pack not permitted”?** (this page)
 

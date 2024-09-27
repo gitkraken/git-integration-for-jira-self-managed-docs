@@ -13,6 +13,8 @@ taxonomy:
 
 After Jira installation or configuration changes - the following errors appear. The Git Integration for Jira app may not enable.
 
+&nbsp;
+
 ### Diagnosis
 
 Jira admins will see a message similar to the one below in the Jira log: `/application-logs/atlassian-jira.log` due to a plugin cache corruption.
@@ -71,9 +73,13 @@ at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefin
 ... 20 more
 ```
 
+&nbsp;
+
 ### Cause
 
 The Jira plugins cache might be corrupted. You may need to clear the plugins cache.
+
+&nbsp;
 
 ### Solution
 
