@@ -22,7 +22,7 @@ Below are the Git Integration app known issues and workarounds:
 - [Azure DevOps: Long Pull Request Descriptions Limited to 400 Characters](#azure-devops-long-pull-request-descriptions-limited-to-400-characters)
 - [Gerrit Integration Connected with Errors](#gerrit-integration-connected-with-errors)
 - [Starred repositories Custom API Path might fail if using SSO](#starred-repositories-custom-api-path-might-fail-if-using-sso)
-- [The Pull Request or Merge Request template is not used if it is created via GIJ](#the-pull-request-or-merge-request-template-is-not-used-if-it-is-created-via-GIJ)
+- [The Pull Request or Merge Request template is not used if it is created via GIJ](#the-pull-request-or-merge-request-template-is-not-used-if-it-is-created-via-gij)
 
 &nbsp;
 * * *
@@ -47,7 +47,7 @@ To increase the 65,000 issue JQL search limit:
     ```java
     jira.search.maxclauses = 100000
     ```
-For more information on this issue, see [**Atlassian KB - 65K issue limit in JQL functions - Time to SLA for Jira**](https://confluence.snapbytes.com/time-to-sla/knowledge-base/common-problems/65k-issue-limit-in-jql-functions).
+For more information on this issue, see [**Atlassian KB - 65K issue limit in JQL functions - Time to SLA for Jira**](https://appfire.atlassian.net/wiki/spaces/TTS/pages/49742019/65K+issue+limit+in+JQL+functions).
 
 Please contact [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com) or via [GIJ Support portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) if you encounter related issues.
 

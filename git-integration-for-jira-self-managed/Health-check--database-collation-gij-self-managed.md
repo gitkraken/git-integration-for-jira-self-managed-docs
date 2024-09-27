@@ -36,13 +36,13 @@ From Atlassian:
 
 Follow instructions from Atlassian:
 
-1.  MySQL: [Health Check: Database Collation in MySQL](https://confluence.atlassian.com/jirakb/health-check-database-collation-in-mysql-943951422.html)
+1.  MySQL: [Health Check: Database Collation in MySQL](https://confluence.atlassian.com/jirakb/mysql-database-collation-health-check-fails-in-jira-server-943951422.html)
 
-2.  Microsoft SQL Server: [Health Check: Database Collation in Microsoft SQL Server](https://confluence.atlassian.com/display/JIRAKB/Health+Check%3A+Database+Collation+in+Microsoft+SQL+Server)
+2.  Microsoft SQL Server: [Health Check: Database Collation in Microsoft SQL Server](https://confluence.atlassian.com/jirakb/database-collation-health-check-fails-in-jira-server-when-using-sql-server-943951391.html)
 
-3.  PostgreSQL: [Health Check: Database Collation in PostgreSQL](https://confluence.atlassian.com/display/JIRAKB/Health+Check%3A+Database+Collation+in+PostgreSQL)
+3.  PostgreSQL: [Health Check: Database Collation in PostgreSQL](https://confluence.atlassian.com/jirakb/database-collation-health-check-fails-with-postgresql-in-jira-server-943951450.html)
 
-4.  Oracle: Health Check: [Database Collation in Oracle](https://confluence.atlassian.com/display/JIRAKB/Health+Check%3A+Database+Collation+in+Oracle)
+4.  Oracle: Health Check: [Database Collation in Oracle](https://confluence.atlassian.com/jirakb/health-check-database-collation-in-oracle-943951532.html)
 
 <div class="bbb-callout bbb--info">
     <div class="irow">

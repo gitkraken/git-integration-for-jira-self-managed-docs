@@ -31,6 +31,8 @@ Quickly learn how to connect Tracked Folders via Git Integration for Jira Data C
   - [Reindexing a tracked folder](#reindexing-a-tracked-folder)
   - [Viewing git commits in Jira Data Center](#viewing-git-commits-in-jira-data-center)
   - [Jira administrators](#jira-administrators)
+    - [Solution 1](#solution-1)
+    - [Solution 2](#solution-2)
   - [More Integration Guides](#more-integration-guides)
 
 &nbsp;
@@ -126,7 +128,7 @@ In GitLab 13.0, hashed storage is enabled by default and the legacy storage is d
 
 The default tracked folder depth value is **1**. For GitLab hashed storage support, our recommended setting is **3**.
 
-See <a href='https://docs.gitlab.com/ee/administration/repository_storage_types.html#hashed-storage' target='_blank'><b>GitLab docs on Hashed Storage</b></a> for detailed information.
+See <a href='https://docs.gitlab.com/ee/administration/repository_storage_paths.html' target='_blank'><b>GitLab docs on Hashed Storage</b></a> for detailed information.
 
 &nbsp;
 
