@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+
 ## Application Overview
 
 Thank you for choosing Git Integration for Jira for Data Center (GIJ)! This guide provides Jira Admins with crucial information for deciding the most effective configuration of Git Integration for Jira.
@@ -33,23 +34,24 @@ GIJ will display Commits, Branches, and Pull/Merge requests associated with a sp
 7. Option to Create a branch directly from a Jira Issue. Associated Branches with change comparison count to main repository branch.
 8. Option to Create a Pull/Merge request directly from a Jira Issue. Associated Pull/Merge Requests with status
 
-
-
+&nbsp;
 
 ## Security Restrictions and Policies
----
+
 <div class="bbb-callout bbb--alert">
     <div class="irow">
     <div class="ilogobox">
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-Before configuring the application, we encourage new clients to discuss their team's needs and security concerns and restrictions. Consider whether your team needs to restrict code visibility between Jira projects. You can use <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed/'>Project association permissions</a> to limit visibility between Jira projects. 
-
-Please see <a href='/[git-integration-for-jira-cloud/known-performance-limitations-gij-cloud/](https://help.gitkraken.com/git-integration-for-jira-data-center/permissions-gij-self-managed)'>Permissions</a> for details on how to limit visibility of GIJ panels/Data between Jira users.
+        Before configuring the application, we encourage new clients to discuss their team's needs and security concerns and restrictions. Consider whether your team needs to restrict code visibility between Jira projects. You can use <a href='/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed'>Project association permissions</a> to limit visibility between Jira projects.
+        <p style='margin-bottom:0px'>Please see <a href='/git-integration-for-jira-cloud/known-performance-limitations-gij-cloud'>Known performance limitations on Cloud</a> and <a href='/git-integration-for-jira-data-center/permissions-gij-self-managed'>Permissions</a> for details on how to limit visibility of GIJ panels/Data between Jira users.</p>
     </div>
     </div>
 </div>
+
+&nbsp;
 ___
 
-[<b style='background-color:#FFFCC3; padding: 1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: medium;'>NEXT</b>](/git-integration-for-jira-data-center/Getting-Started-Guide-App-operations-and-planning-dc) <a href="https://help.gitkraken.com/git-integration-for-jira-data-center/Getting-Started-Guide-App-operations-and-planning-dc/">Application operations and Integration Structure Planning</a>
+[<b style='background-color:#FFFCC3; padding: 1px 5px; color:#181D28; border-radius:3px; margin: 0 5px; font-size: medium;'>NEXT</b>](/git-integration-for-jira-data-center/Getting-Started-Guide-App-operations-and-planning-dc) <a href="/git-integration-for-jira-data-center/Getting-Started-Guide-App-operations-and-planning-dc">Application operations and Integration Structure Planning</a>
+

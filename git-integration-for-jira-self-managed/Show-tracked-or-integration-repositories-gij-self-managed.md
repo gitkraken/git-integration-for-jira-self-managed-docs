@@ -49,7 +49,7 @@ In the filter field at the top right, enter a character or a name to display rep
 &nbsp;
 * * *
 
-[**Prev:** Managing integrations via Actions](/git-integration-for-jira-data-center/managing-integrations-via-actions-gij-self-managed)
+[**Prev:** Managing integrations via Actions](/git-integration-for-jira-data-center/managing-integration-via-Actions-gij-self-managed)
 
 [**Next:** Edit integration connection settings](/git-integration-for-jira-data-center/edit-integration-connection-settings-gij-self-managed)
 

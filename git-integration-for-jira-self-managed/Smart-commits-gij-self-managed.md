@@ -11,7 +11,7 @@ Smart commits allows your team to perform actions on Jira issues from a single c
 
 ### Getting started
 
-The smart commit processing is **active by default** and can be enabled/disabled via the git configuration page &nbsp;<img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit integration/repository settings**):
+The smart commit processing is **active by default** and can be enabled/disabled via the git configuration page &nbsp;<img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit integration/repository settings**:
 
 <img src='/wp-content/uploads/gij-smart-commit-setting.png' width=374 height=80 style='display:block;margin:25px auto;max-width:100%' />
 

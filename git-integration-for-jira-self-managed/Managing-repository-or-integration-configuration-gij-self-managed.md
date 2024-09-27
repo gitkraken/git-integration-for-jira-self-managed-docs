@@ -73,7 +73,7 @@ For the repository/integration list, utilize the following references for the co
         <tr>
             <td><b><i>Last indexer check</i></b></td>
             <td>
-                Shows the date and time the indexing service has checked if the repository should be examined for changes.<br><br>For more information on Jira Cloud indexer, see <a href="/git-integration-for-jira-cloud/jira-cloud-indexing-explainer-gij-cloud">Jira Cloud: Indexing Explainer</a>.
+                Shows the date and time the indexing service has checked if the repository should be examined for changes.<br><br>For more information on Jira Cloud indexer, see <a href="/git-integration-for-jira-cloud/classic-indexing-explainer-gij-cloud">Jira Cloud: Indexing Explainer</a>.
             </td>
             <td>JIRA CLOUD</td>
         </tr>

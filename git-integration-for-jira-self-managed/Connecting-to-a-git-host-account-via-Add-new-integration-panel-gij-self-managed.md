@@ -23,7 +23,7 @@ This process requires a git host account (e.g. GitHub/GitLab/VSTS etc.) Use the 
 
     *   [GitLab.com](/git-integration-for-jira-data-center/gitlab-gij-self-managed)
 
-    *   [GitLab CE/EE](/git-integration-for-jira-data-center/gitlab-ce-ee-gij-self-managed)
+    *   [GitLab CE/EE](/git-integration-for-jira-data-center/gitLab-com-CE-EE-gijsm-gij-self-managed)
 
     *   [AWS CodeCommit](/git-integration-for-jira-data-center/aws-codecommit-gij-self-managed)
 
@@ -33,7 +33,7 @@ This process requires a git host account (e.g. GitHub/GitLab/VSTS etc.) Use the 
 
     *   [Gerrit](/git-integration-for-jira-data-center/gerrit-gij-self-managed)
 
-    *   [Git](/git-integration-for-jira-data-center/connecting-to-a-single-git-repository-http-https-gij-self-managed)
+    *   [Git](/git-integration-for-jira-data-center/Connecting-to-a-single-git-repository-(HTTPS-SSH)-gij-self-managed)
 
 3.  The Add new integration Wizard is displayed.
 
@@ -55,9 +55,9 @@ This process requires a git host account (e.g. GitHub/GitLab/VSTS etc.) Use the 
 
 5. Click **Finish** to accept the settings and complete the setup.
 
-<br>
+&nbsp;
 
-## More related articles on integration basics
+### More related articles on integration basics
 
 **Connecting to a git host account via Add new integration panel** (this page)
 

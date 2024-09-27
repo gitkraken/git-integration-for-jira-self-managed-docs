@@ -311,7 +311,7 @@ _String_. Optional.
 
 The integration will use this relative REST API path starting with "/" to retrieve the list of tracked repositories.
 
-For more information, see [Working with Custom API Path](/git-integration-for-jira-data-center/working-wit-custom-api-path-gij-self-managed).
+For more information, see [Working with Custom API Path](/git-integration-for-jira-data-center/working-with-custom-api-path-gij-self-managed).
 
 ### apiFilter
 

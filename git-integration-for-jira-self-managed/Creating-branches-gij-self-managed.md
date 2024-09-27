@@ -49,7 +49,7 @@ The Create branch feature offers Jira users the ability to create a git branch d
 
 <img src='/wp-content/uploads/gij-dev-panel-create-branch-dlg-c.png' width=603 height=302 style='display:block;margin:25px auto;max-width:100%' />
 
-For information about creating pull/merge requests from a Jira issue - see article [Creating pull/merge request](/git-integration-for-jira-data-center/create-pull-merge-requests-gij-self-managed).
+For information about creating pull/merge requests from a Jira issue - see article [Creating pull/merge request](/git-integration-for-jira-data-center/creating-pull-merge-requests-gij-self-managed).
 
 &nbsp;
 

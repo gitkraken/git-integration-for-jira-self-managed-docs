@@ -63,7 +63,7 @@ There are corresponding API calls to get merge/pull request commits, at least in
 
 *   [GitLab](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-commits)
 
-*   [Azure/TFS](https://docs.microsoft.com/en-us/rest/api/azure/devops/git/pull%20request%20commits/get%20pull%20request%20commits?view=azure-devops-rest-6.0#response)
+*   [Azure/TFS](https://learn.microsoft.com/en-us/rest/api/azure/devops/git/pull-request-commits/get-pull-request-commits?view=azure-devops-rest-7.1)
 
 &nbsp;
 

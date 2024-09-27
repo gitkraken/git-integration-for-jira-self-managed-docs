@@ -81,7 +81,7 @@ Another option is to completely uninstall then reinstall the Git for Jira app. 
 
 1.  Backup the Git repositories configuration via the Git for Jira app Bulk Export.
 
-2.  Fully uninstall the Git Integration for Jira app  – follow [these instructions](/git-integration-for-jira-data-center/uninstall-and-reinstall-gij-self-managed).
+2.  Fully uninstall the Git Integration for Jira app  – follow [these instructions](/git-integration-for-jira-data-center/faq-uninstall-and-reinstall-gij-self-managed).
 
 3.  Install the Git Integration for Jira app via UPM.
 

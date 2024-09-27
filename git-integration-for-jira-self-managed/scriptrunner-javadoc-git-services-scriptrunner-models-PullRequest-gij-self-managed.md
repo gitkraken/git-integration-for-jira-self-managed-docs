@@ -6,6 +6,7 @@ taxonomy:
     category: git-integration-for-jira-data-center
 
 ---
+<!-- The methods - public - Repository link is flagged as 404 by web crawlers. This is intended as is. -->
 
 * Package [com.bigbrassband.jira.git.services.scriptrunner.models](#)
 *  *[Object](https://docs.oracle.com/javase/8/docs/api/java/lang/Object.html)*  \> [PullRequest](#) (this page)
@@ -68,7 +69,7 @@ Returns the pull request id.
 
 
 ## getRepository()
-Returns a repositry the pull request belongs to.
+Returns a repository the pull request belongs to.
 
 
 

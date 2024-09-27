@@ -454,7 +454,7 @@ On the Manage repositories page, click **Webhooks** on the sidebar then click **
 
 [Plugin Data Storage](/git-integration-for-jira-data-center/plugin-data-storage-gij-self-managed/) (Git Integration for Jira Data Center)
 
-[Administration FAQ](/git-integration-for-jira-self-managed/administration-faq-gij-self-managed) (Git Integration for Jira Data Center)
+[Administration FAQ](/git-integration-for-jira-self-managed/Faq-administration-gij-self-managed) (Git Integration for Jira Data Center)
 
 [Indexing queue explainer](/git-integration-for-jira-self-managed/indexing-queue-explainer-gij-self-managed) (Git Integration for Jira Data Center)
 

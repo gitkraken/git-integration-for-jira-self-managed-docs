@@ -63,7 +63,7 @@ This page contains a list of troubleshooting articles, workarounds and solutions
 
 ### INDEXING
 
-[Fixing reindex issues using Indexing Queue Viewer](//git-integration-for-jira-data-center/Fixing-reindex-issues-using-Indexing-Queue-Viewer-gij-self-managed)
+[Fixing reindex issues using Indexing Queue Viewer](/git-integration-for-jira-data-center/FIxing-reindex-issues-using-Indexing-queue-viewer-gij-self-managed)
 
 [Indexing error – Too many open files](/git-integration-for-jira-data-center/Indexing-error-Too-many-open-files-gij-self-managed)
 

@@ -57,6 +57,8 @@ Caused by: com.bigbrassband.jira.git.exceptions.internal.ExternalServiceExceptio
 	... 20 more
 ```
 
+&nbsp;
+
 ### Diagnosis
 
 You are getting this error because of missing permission scopes.
@@ -75,6 +77,18 @@ To utilize the new GitHub share PR events, we recommend that users must update t
 *   `read:user`
 *   `repo` (all)
 *   `user:email`
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        <b>Contact us</b><br>
+        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
+    </div>
+    </div>
+</div>
 
 &nbsp;
 

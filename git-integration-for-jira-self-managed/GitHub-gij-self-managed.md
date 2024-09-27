@@ -13,7 +13,7 @@ taxonomy:
       <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-      These instructions apply to instances on Free, Team, Cloud Enterprise (including <a href="https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users" target="_blank"><b>EMU</b></a>) plans hosted on GitHub.com.
+      These instructions apply to instances on Free, Team, Cloud Enterprise (including <a href="https://docs.github.com/en/enterprise-cloud@latest/admin/managing-iam/understanding-iam-for-enterprises/about-enterprise-managed-users" target="_blank"><b>EMU</b></a>) plans hosted on GitHub.com.
     </div>
   </div>
 </div>
@@ -35,7 +35,7 @@ taxonomy:
       <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-      Using <b>Jira Cloud</b>?  <a href="/git-integration-for-jira-cloud/github-gij-cloud">See the corresponding article</a>.
+      Using <b>Jira Cloud</b>?  <a href="/git-integration-for-jira-cloud/github-com-gij-cloud">See the corresponding article</a>.
     </div>
   </div>
 </div>
