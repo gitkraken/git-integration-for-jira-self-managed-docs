@@ -74,9 +74,9 @@ To know more about syntax, commands and examples on Smart Commits, see <a href=
 
 [Workflow transitions](/git-integration-for-jira-data-center/workflow-transitions-gij-self-managed)
 
-[Viewing transitions](/git-integration-for-jira-data-center/viewing-transitions-gij-self-managed)
+[Viewing workflows](/git-integration-for-jira-data-center/viewing-workflows-gij-self-managed/)
 
-[Smart commit helper](/git-integration-for-jira-data-center/smart-commit-helper-gij-self-managed)
+[Smart commit helper](/git-integration-for-jira-data-center/smart-commits-helper-gij-self-managed)
 
 [Smart commits general setting](/git-integration-for-jira-data-center/smart-commits-general-setting-gij-self-managed)
 

@@ -17,9 +17,10 @@ taxonomy:
     </div>
     </div>
 </div>
-<br>
 
 The Git Integration for Jira app introduces the General Settings page which contains configuration options for performance and features.
+
+&nbsp;
 
 ## Getting started
 
@@ -47,11 +48,12 @@ The **General settings** configuration page can be accessed thru the following
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
 
 ## Settings index
 
-[Repository Browser general setting](/git-integration-for-jira-data-center/repository-Browser-general-setting-gij-self-managed)
+[Repository Browser general setting](/git-integration-for-jira-data-center/repository-browser-general-setting-gij-self-managed)
 
 [Source Code Diff Viewing general setting](/git-integration-for-jira-data-center/source-Code-Diff-Viewing-general-setting-gij-self-managed)
 
@@ -77,9 +79,9 @@ The **General settings** configuration page can be accessed thru the following
 
 [Per node repository indexing setting](/git-integration-for-jira-data-center/Per-Node-Repository-Indexing-gij-self-managed)
 
-<br>
-
+&nbsp;
 * * *
+&nbsp;
 
 After making changes to the configuration settings, click **Save** to apply the changes.
 
@@ -93,9 +95,11 @@ After making changes to the configuration settings, click **Save** to apply th
     </div>
     </div>
 </div>
-<br>
 
-For more details on git configuration, see [**Customizing Git: Git Configuration**](http://git-scm.com/book/en/Customizing-Git-Git-Configuration).
+
+For more details on git configuration, see [**Customizing Git: Git Configuration**](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration).
+
+&nbsp;
 
 ## Advanced settings
 
