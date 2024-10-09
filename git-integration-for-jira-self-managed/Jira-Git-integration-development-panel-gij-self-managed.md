@@ -22,9 +22,6 @@ taxonomy:
 
 ### Permissions
 
-**Jira Cloud - Development panel**<br>
-The **View Development Tools** _permission_ only applies to Jira Classic Projects. Next-Gen Projects don't allow to modify the permission.
-
 **Create Branches and Branch Names**<br>
 For connected GitHub git host, this feature requires enabled `public_repo` scope permissions.
 
@@ -32,6 +29,10 @@ For connected GitHub git host, this feature requires enabled `public_repo` sco
 If the user does not have the **View Development Tools** _project permission_ for the project, the developer panel will be unavailable for that user.
 
 ### Getting started
+
+The **Refresh** action is available for manually reloading the git information on the Git Integration development panel. Use it to repopulate Git data without reloading the Jira issue page.
+
+<img src='/wp-content/uploads/gij-cloud-jira-git-integration-panel-refresh.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 Git links are now available on the developer panel in the following locations:
 
