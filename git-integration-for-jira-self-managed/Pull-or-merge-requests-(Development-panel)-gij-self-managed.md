@@ -139,6 +139,13 @@ A git service user can create a PR/MR via the Git host service portal and adding
 
 Additionally, creating PR/MR via the Git Integration developer panel automatically associates the PR/MR to a Jira issue. This also adds a description in the PR/MR to the git host service portal containing the link to the Jira issue.
 
+### Pull or merge requests indexing
+
+As of GIJ v4.27.1+, the pull/merge request reindex can be manually cancelled via Indexing queue viewer. To manually stop indexing for pull/merge requests, go to **...** (Actions) then click **Cancel**.
+
+![](/wp-content/uploads/gij-gitserverdc-indexing-queue-cancel-reindex-action.png)
+
+For a more detailed information about this feature, see [Cancel indexing](/git-integration-for-jira-data-center/Cancel-indexing-revision-indexing-gij-self-managed).
 
 &nbsp;
 * * *
