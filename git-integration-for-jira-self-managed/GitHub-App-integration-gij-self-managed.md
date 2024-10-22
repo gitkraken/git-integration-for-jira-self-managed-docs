@@ -164,6 +164,8 @@ The GHA is created automatically by Git Integration for Jira app. For any relate
 
 ### Troubleshooting GHA integrations
 
+#### GitHub App integration stuck installation state
+
 A GHA integration may get stuck in <b style='background-color:#0C42A3; padding:1px 5px; color:#DEEAFE; border-radius:3px; margin: 0 3px; font-size: small;padding:2px 7px'>INSTALLING</b> status. At the moment, we found three cases when it may happen:
 
 | Case | What happened | What the user can do to remove the integration |
@@ -179,6 +181,73 @@ If GitHub App integration is stuck on **Installing** status, use the **Remove in
 However, removing GHA integrations this way (in cases #1 and #2) will leave an unconnected/lost GHA on the GitHub server. As all data for connecting are stored in the integration, there is no way to connect an existing GHA to a new integration. On the other hand, the admin of the GitHub server can remove such lost GHA manually.
 
 For case #3, while this case is very rare, the integration will remain in the Manage Git integration list. The Jira admin can remove the integration using the **Remove integration** action.
+
+#### No displayed Pull Requests for GHA Enterprise integration on the Jira issue page
+
+When creating a new connection to GitHub-app, Git Integration for Jira pp requests additional information about the Issues with at least a `Read-only` access level.
+
+This issue refers on after adding or updating pull requests for a GitHub App Enterprise integration, the pull request information is not displayed in the Git integration panel on the Jira issue page.
+
+This behavior affects GitHub Enterprise Edition (EE) versions ranging from (v2.22) to (v3.12). The GitHub.com version does not exhibit this issue. To address this, just assign read and write permissions for pull requests. For PAT scopes, include `Pull requests:read` as minimum requirement and add Pull requests:write to be able to create PRs from Jira Git integration panel.
+
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        To those who have upgraded to GHE v3.13+, this issue is not present anymore; so skip the steps below.
+    </div>
+    </div>
+</div>
+
+For those who are experiencing problems with already existing applications and are still using older versions of GHE, follow these steps:
+
+1.  On your GHE portal dashboard, go to **User profile** ➜ **Your organizations**.
+
+2.  On the organizations list, select an org to manage by clicking on **Settings**.
+
+    ![](/wp-content/uploads/gij-datacenter-gha-enterprise-select-org-settings.png)
+
+3.  On the sidebar under Third-party Access, click on **GitHub Apps**.
+
+    ![](/wp-content/uploads/gij-datacenter-gha-enterprise-sidebar-gha.png)
+
+4.  Under Installed GitHub Apps, click **Configure** for the selected GHA.
+
+    ![](/wp-content/uploads/gij-datacenter-gha-enterprise-configure-gha.png)
+
+5.  Click **App settings** for this GitHub App.
+
+    ![](/wp-content/uploads/gij-datacenter-gha-enterprise-app-cfg.png)
+
+6.  On the App settings page, click the **Permissions &amp; Events** tab on the sidebar.
+
+    ![](/wp-content/uploads/gij-datacenter-gha-enterprise-app-permissions.png)
+
+7.  On the Permissions page, click on **Repository permissions**.
+
+8.  On the following page, scroll down to **Issues** then click on the **Access** dropdown.
+
+    ![](/wp-content/uploads/gij-datacenter-gha-enterprise-permissions-issues-dropdown.png)
+
+9.  On the access level dropdown list, click **Read-only**.
+
+    ![](/wp-content/uploads/gij-datacenter-gha-enterprise-permissions-issues-dd-readonly.png)
+
+10. Click **Save changes** to apply the setting.
+
+    ![](/wp-content/uploads/gij-datacenter-gha-enterprise-permissions-issues-save.png)
+
+11. If there's an incoming authorization request, refresh the Installed GitHub Apps page, then click **Review request** for the GitHub App that has pending permission request.
+
+    ![](/wp-content/uploads/gij-datacenter-gha-enterprise-permissions-review-request.png)
+
+12. On the GHA requesting page, click Accept new permissions.
+
+    ![](/wp-content/uploads/gij-datacenter-gha-enterprise-permissions-accept.png)
+
+This should move the installation progress on Manage integrations page in Git Integration for Jira app.
 
 &nbsp;
 

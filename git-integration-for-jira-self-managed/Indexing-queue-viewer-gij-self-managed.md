@@ -262,9 +262,13 @@ The default sort order applies the following rule:
 
 This feature allows Jira administrators to interrupt the indexing process once it has been queued or has already started. It will suspend the indexing process and can be resumed with subsequent reindex later on.
 
-For the selected queue task, click on **...** (Actions) ➜ **Cancel**.
+As of GIJ v4.27.1+, the pull/merge request reindex can be manually cancelled via Indexing queue viewer.
+
+For any selected queue task that is still processing or in progress, click on **...** (Actions) ➜ **Cancel**.
 
 ![](/wp-content/uploads/gij-gitserverdc-indexing-queue-cancel-reindex-action.png)
+
+
 
 For a more detailed information about this feature, see [Cancel indexing](/git-integration-for-jira-data-center/Cancel-indexing-revision-indexing-gij-self-managed).
 
