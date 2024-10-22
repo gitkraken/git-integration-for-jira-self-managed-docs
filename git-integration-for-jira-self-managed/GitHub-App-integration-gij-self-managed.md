@@ -243,11 +243,11 @@ For those who are experiencing problems with already existing applications and a
 
     ![](/wp-content/uploads/gij-datacenter-gha-enterprise-permissions-review-request.png)
 
-12. On the GHA requesting page, click Accept new permissions.
+12. On the GHA requesting page, click **Accept new permissions**.
 
     ![](/wp-content/uploads/gij-datacenter-gha-enterprise-permissions-accept.png)
 
-This should move the installation progress on Manage integrations page in Git Integration for Jira app.
+This should move the installation progress on the Manage integrations page of the Git Integration for Jira app.
 
 &nbsp;
 
