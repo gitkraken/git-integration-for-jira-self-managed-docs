@@ -9,6 +9,8 @@ taxonomy:
 
 Congratulations! You have now successfully completed your base GIJ configuration.! The following features and free add-on extension applications are not necessary for the operation of GIJ, but do provide additional value on top of the base functionality, so we recommend that you explore them.
 
+We have created an [End User Guide](https://help.gitkraken.com/git-integration-for-jira-cloud/End-User-Guide-dc.md/) that you can provide to your users.
+
 ### Feature: Automation for Jira triggers
 
 Our application provides triggers to the built in Jira Automation system that can be used to structure automation rules to perform all sorts of actions such as Issue transitions, or adding comments based on certain events that happen in your repositories. Please see [GIJ + Jira Automation](https://help.gitkraken.com/git-integration-for-jira-data-center/git-integration-plus-jira-automation-gij-self-managed/) for further details.
