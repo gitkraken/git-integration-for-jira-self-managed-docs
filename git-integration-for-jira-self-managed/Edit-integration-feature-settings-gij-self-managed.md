@@ -7,47 +7,85 @@ taxonomy:
 
 ---
 
-![](/wp-content/uploads/gij-gitcfg-actions-edit-feature-conn-cfg.png)
+Starting **v4.24+**, the integration feature settings page have been revamped and improved.
+
+![](/wp-content/uploads/gij-gitserverdc-edit-repository-actions-menu-sel.png)
 
 &nbsp;
 
-Clicking <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit integration feature settings** opens the configuration page for integration features settings.
+On the Manage integrations list, click <img src='/wp-content/uploads/actions-icon.png' /> Action ➜ **Edit integration settings** then click **Feature settings** on the sidebar. This will open the configuration feature settings page for the selected integration.
 
-Utilize the following options to configure the selected integration:
+![](/wp-content/uploads/gij-gitserverdc-edit-integration-feature-settings-01.png)
 
-- [Repository Browser](#repository-browser)
-- [Tags](#tags)
-- [Personal Access Token: Require User PAT](#personal-access-token-require-user-pat)
-- [Project Permissions](#project-permissions)
-- [Source Code Diff Viewing](#source-code-diff-viewing)
-- [Smart Commits](#smart-commits)
-- [Commit Notification Emails](#commit-notification-emails)
+Utilize the options below for configuring repository settings:
+
+*   [Code review settings](#code-review-settings)
+*   [Tags](#tags)
+*   [Pull/merge requests](#pull-or-merge-requests)
+*   [Smart commits](#smart-commits)
+*   [Require user PAT](#require-user-pat)
+*   [Project permissions](#project-permissions)
+*   [Commit notification emails](#commit-notification-emails)
 
 &nbsp;
 * * *
 &nbsp;
 
-### Repository Browser
+### Code review settings
 
-<img src='/wp-content/uploads/gij-gitserver-edit-repocfg-repovw.png' style='display:block;margin:25px auto;max-width:100%' />
+The Code review settings group contains configuration options for Repository Browser and Source code diff viewing.
 
-When `Enabled`, it allows users to view Git repositories of configured projects. For more information, see [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed/).
+<img src='/wp-content/uploads/gij-gitserverdc-edit-integration-feature-settings-02.png' style='margin:25px auto 35px auto;display:block;max-width:100%;' />
+
+#### Repository Browser
+
+If set to **Enabled**, this setting will allow users to have access to the Repository Browser to view git repositories of configured projects.
+
+For more information, see [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed/).
+
+#### Source code diff viewing
+
+If set to **Enabled**, this setting will allow users to have access to the Repository Browser to view git repositories of configured projects.
+
+For more information, see [Configure source code diff viewing](/git-integration-for-jira-data-center/configure-source-code-diff-viewing-gij-self-managed).
 
 &nbsp;
 
 ### Tags
 
-<img src='/wp-content/uploads/gij-gitserver-edit-features-tags.png' style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitserverdc-edit-integration-feature-settings-03.png' style='margin:25px auto 35px auto;display:block;max-width:100%;' />
 
-Set whether to show all tags or show on tags with matching regex pattern. For more information on git tags, see [Git Tags](/git-integration-for-jira-data-center/git-tags-gij-self-managed/).
+Set whether to show all tags or show only tags with matching regex pattern. You can view the list of tags at the bottom of the Jira issue Git integration panel.
+
+For more information on git tags, see [Git Tags](/git-integration-for-jira-data-center/git-tags-gij-self-managed/).
 
 &nbsp;
 
-### Personal Access Token: Require User PAT
+### Pull or merge requests
 
-<img src='/wp-content/uploads/gij-gitserver-edit-features-pat-reqpat.png' style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitserverdc-edit-integration-feature-settings-04.png' style='margin:25px auto 35px auto;display:block;max-width:100%;' />
 
-Enable this option to require users to provide PAT which will be used for branch and merge/pull request creation/deletion (via the developer panel on the Jira issue page). This is a security feature of Git Integration for Jira app for git hosts that support two-factor authentication.
+Set whether to show all pull requests or hide only the pull requests with matching regex pattern. You can view the list of available pull requests that are linked to a Jira issue on the Jira issue Git integration panel. 
+
+For more information, see [Pull/merge requests filters](/git-integration-for-jira-data-center/pull-request-filters-gij-self-managed).
+
+&nbsp;
+
+### Smart commits
+
+<img src='/wp-content/uploads/gij-gitserverdc-edit-integration-feature-settings-05.png' style='margin:25px auto 35px auto;display:block;max-width:100%;' />
+
+Toggle to turn on/off the Smart commits feature. [What are Smart Commits?](/git-integration-for-jira-data-center/smart-commits-overview-gij-self-managed)
+
+&nbsp;
+
+### Require User PAT
+
+<img src='/wp-content/uploads/gij-gitserverdc-edit-integration-feature-settings-06.png' style='margin:25px auto 35px auto;display:block;max-width:100%;' />
+
+Set this setting to **Enable** to force users to provide PAT which will be used for branch and merge/pull request creation/deletion (via the developer panel on the Jira issue Git integration page). This is a security feature of Git Integration for Jira app for git hosts that support two-factor authentication.
+
+For more information, see [Require PAT for user actions](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed).
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -75,37 +113,29 @@ Enable this option to require users to provide PAT which will be used for branch
 
 ### Project Permissions
 
-<img src='/wp-content/uploads/gij-gitserver-edit-feature-cfg-proj-acls.png' style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitserverdc-edit-integration-feature-settings-07.png' style='margin:25px auto 35px auto;display:block;max-width:100%;' />
 
-The default setting is **Associate with all projects**. You can restrict access to the Repository Browser and Git Commits tabs for the selected repository by setting the project associations.
+You can restrict access to the Repository Browser and Git Commits tabs for the selected repository by setting the project associations. The **Associate with all projects** setting is enabled by default.
 
-To restrict to specific projects, uncheck the **Associate with all projects** _option_ and set/select one or more projects from the list.
+To restrict to specific projects, uncheck the _**Associate with all projects**_ option and set/select one or more projects from the list.
 
-&nbsp;
-
-### Source Code Diff Viewing
-
-<img src='/wp-content/uploads/gij-gitserver-edit-features-src-code-diffvw.png' style='display:block;margin:25px auto;max-width:100%' />
-
-Allows or denies users to view the diff by commit and file.
-
-&nbsp;
-
-### Smart Commits
-
-<img src='/wp-content/uploads/gij-gitserver-edit-features-smartcommits.png' style='display:block;margin:25px auto;max-width:100%' />
-
-Allows or denies the users to use the smart commits feature.
+For more information, see [Associating project permissions](/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed).
 
 &nbsp;
 
 ### Commit Notification Emails
 
-<img src='/wp-content/uploads/gij-gitserver-edit-features-commit-notif-emails.png' style='display:block;margin:25px auto;max-width:100%' />
+<img src='/wp-content/uploads/gij-gitserverdc-edit-integration-feature-settings-08.png' style='margin:25px auto 35px auto;display:block;max-width:100%;' />
 
-Enable/disable this setting to allow/deny sending of commit notification emails.
+Enable/disable this setting to allow/stop sending of commit notification emails.
 
 Set the **Max commit age (in minutes)** as to when commit notifications will be sent. Commit notifications will be e-mailed if the age of the commit is less than or equal to this value.
+
+See [commit notification emails](/git-integration-for-jira-data-center/commit-email-notifications-gij-self-managed) to learn more about these settings.
+
+* * *
+
+Click **Save** to save the changes.
 
 &nbsp;
 * * *
