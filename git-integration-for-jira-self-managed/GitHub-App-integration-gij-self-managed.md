@@ -162,6 +162,46 @@ The GHA is created automatically by Git Integration for Jira app. For any relate
 
 &nbsp;
 
+### Using alternative URL for GitHub Apps
+
+<b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b>
+<b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.27+</b>
+
+The alternative URL will allow GitHub Apps to be configured to make them sending webhooks directly to that URL instead of Jira. In this case, an alternative URL points to a proxy server which stays between GitHub and Jira. This will allow webhook events to be redirected to the alternative URL when Jira is inaccessible from internet, behind a firewall or is running locally.
+
+Setup a new GHA integration by using an alternative URL instead of the original Jira base URL.For now, it can only be called via REST API:
+
+**url**
+`http://${originalJiraBaseUrl}/rest/gitplugin/1.0/global-settings`
+
+**method**
+POST
+
+**content-type**
+application/json
+
+**parameter(s)**
+`{"altJiraBaseUrl": "${alternativeJiraUrlAsString}"}`
+
+For example, let's assume you want to run a Jira standalone instance locally and try or test a GitHub App integration type. In this case, set up the following:
+
+1.  The Jira itself which may be accessible from your local instance. For example, `http://localhost:2990/jira`.
+
+2.  The ngrok utility as a proxy on the same machine to forward all incoming requests from the Internet to the local Jira. For instance, it has `https://my.ngrok.com` as a publicly available URL, which redirects all requests on to `http://localhost:2990/jira`.
+
+3.  With Git Integration for Jira app, set up an alternative URL by doing the following call:
+
+    ```bash
+    curl -X POST http://localhost:2990/jira/rest/gitplugin/1.0/global-settings \\
+    --user admin \\
+    -H "Content-Type: application/json" \\
+    -d '{"altJiraBaseUrl": "https://my.ngrok.com"}'
+    ```
+
+In order to clean up the `altJiraBaseUrl` property, just set up it to empty string `{"altJiraBaseUrl": ""}`.
+
+&nbsp;
+
 ### Troubleshooting GHA integrations
 
 #### GitHub App integration stuck installation state
