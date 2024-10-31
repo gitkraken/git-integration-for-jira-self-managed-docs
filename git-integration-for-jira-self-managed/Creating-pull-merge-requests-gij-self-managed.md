@@ -160,6 +160,12 @@ Additionally, creating PR/MR via the Git developer panel automatically associate
 
 &nbsp;
 
+### Administrators
+
+For users without access to a git repository (like GitHub or GitLab), the "Create Pull/Merge Request" action in the Git Integration panel of a Jira issue will be restricted, preventing the creation of a pull/merge request from Jira. Although users can still click on these integration actions, an error message will appear on the Create PR/MR dialog, preventing any changes.
+
+&nbsp;
+
 ### See more Git Integration for Jira app features
 
 [Manager permissions](/git-integration-for-jira-data-center/manager-permissions-gij-self-managed) (Git Integration for Jira Data Center)
