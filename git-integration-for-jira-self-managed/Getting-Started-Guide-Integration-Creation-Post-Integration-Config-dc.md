@@ -1,6 +1,6 @@
 ---
 
-title: GIJ Integration creation and Post integration Configuration
+title: Integration creation and Post integration Configuration
 description:
 taxonomy:
     category: git-integration-for-jira-data-center

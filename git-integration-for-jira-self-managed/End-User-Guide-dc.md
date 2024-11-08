@@ -1,6 +1,6 @@
 ---
 
-title: End User Guide - GIJ DC
+title: User Guide - GIJ DC
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -8,6 +8,17 @@ taxonomy:
 ---
 ## Introduction to GIJ
 Thank you for using Git Integration for Jira! First, let’s go over how information will be displayed in jira through our application.
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        If you have an idea for an improvement or would like to request a specific feature, please submit a feature request on our <a href='https://gitkraken.canny.io/git-integration-for-jira-feedback'>Feature Request Board</a>.
+    </div>
+    </div>
+</div>
 
 ## Jira Issue View
 
