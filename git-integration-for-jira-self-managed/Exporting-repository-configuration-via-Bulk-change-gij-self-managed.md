@@ -14,7 +14,7 @@ The bulk export function allows Jira administrators to create a backup copy of t
 
 2.  Click **Bulk change** then select **Export Configuration**. The following dialog is displayed.
 
-    <img src='/wp-content/uploads/gij-gitserver-bulk-change-export-cfg-c.png' width=604 height=416 style='max-width:100%')
+    ![](/wp-content/uploads/gij-gitserver-bulk-change-export-cfg-c.png')
 
 3.  Click **Download** to save the current configuration of your repositories to a specified location.
 
