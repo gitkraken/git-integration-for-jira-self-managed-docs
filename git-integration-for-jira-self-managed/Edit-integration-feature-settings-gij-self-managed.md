@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-Starting **v4.24+**, the integration feature settings page have been revamped and improved.
+Starting **v4.27+**, the integration feature settings page have been revamped and improved.
 
 ![](/wp-content/uploads/gij-gitserverdc-edit-repository-actions-menu-sel.png)
 
@@ -19,33 +19,36 @@ On the Manage integrations list, click <img src='/wp-content/uploads/actions-ico
 
 Utilize the options below for configuring repository settings:
 
-*   [Code review settings](#code-review-settings)
-*   [Tags](#tags)
-*   [Pull/merge requests](#pull-or-merge-requests)
-*   [Smart commits](#smart-commits)
-*   [Require user PAT](#require-user-pat)
-*   [Project permissions](#project-permissions)
-*   [Commit notification emails](#commit-notification-emails)
+- [Repository Browser](#repository-browser)
+- [Source code diff viewing](#source-code-diff-viewing)
+- [Tags](#tags)
+- [Pull or merge requests](#pull-or-merge-requests)
+- [Smart commits](#smart-commits)
+- [Require User PAT](#require-user-pat)
+- [Project Permissions](#project-permissions)
+- [Commit Notification Emails](#commit-notification-emails)
 
 &nbsp;
 * * *
 &nbsp;
 
+<!-- 
 ### Code review settings
 
 The Code review settings group contains configuration options for Repository Browser and Source code diff viewing.
 
 <img src='/wp-content/uploads/gij-gitserverdc-edit-integration-feature-settings-02.png' style='margin:25px auto 35px auto;display:block;max-width:100%;' />
+-->
 
-#### Repository Browser
+### Repository Browser
 
 If set to **Enabled**, this setting will allow users to have access to the Repository Browser to view git repositories of configured projects.
 
 For more information, see [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed/).
 
-#### Source code diff viewing
+### Source code diff viewing
 
-If set to **Enabled**, this setting will allow users to have access to the Repository Browser to view git repositories of configured projects.
+If set to **Enabled**, this setting will allow users to have access to the View Full Diff page which shows the commit changes in the diff code of a git commit on a Jira issue.
 
 For more information, see [Configure source code diff viewing](/git-integration-for-jira-data-center/configure-source-code-diff-viewing-gij-self-managed).
 

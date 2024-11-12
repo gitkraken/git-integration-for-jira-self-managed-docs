@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-Starting version **4.24+**, the Edit integration settings page have been revamped and improved. The integration connection and feature settings are now merged into the integration settings page.
+Starting version **4.27+**, the Edit integration settings page have been revamped and improved. The integration connection and feature settings are now merged into the integration settings page.
 
 ![](/wp-content/uploads/gij-gitserverdc-edit-integration-actions-menu-sel.png)
 
