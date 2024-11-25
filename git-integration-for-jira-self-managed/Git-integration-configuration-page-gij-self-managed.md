@@ -20,6 +20,7 @@ On this page, you will be able to setup your git repositories and connect them t
 - [Indexing options](#indexing-options)
 - [Webhooks](#webhooks)
 - [Related helpful tips](#related-helpful-tips)
+- [More related topics on setting up repositories](#more-related-topics-on-setting-up-repositories)
 
 &nbsp;
 * * *
@@ -44,9 +45,11 @@ In here, you will find special integration options for specific git hosts. This 
     </div>
 </div>
 
-For more details on supported git hosts, see the Auto-connect section in our [Integration guides](/git-integration-for-jira-data-center/integration-guides-gij-self-managed).
+For brief information on connecting new git integrations, see [Connecting to a git host account via Add new integration panel](/git-integration-for-jira-data-center/connecting-to-a-git-host-account-via-add-new-integration-panel-gij-self-managed).
 
-The **Add tracked folder** connection feature is added to the **Add new integration** panel for easy access.
+For more details on supported git hosts, see the **Full featured integration** section in our [Integration guides](/git-integration-for-jira-data-center/integration-guides-gij-self-managed).
+
+For easy access, the **Add tracked folder** connection feature is added to the far right side of the Add new integration panel.
 
 <div class="bbb-callout bbb--error">
     <div class="irow">
@@ -55,7 +58,7 @@ The **Add tracked folder** connection feature is added to the **Add new integrat
     </div>
     <div class="imsgbox">
         <b>GitLab</b><br>
-        We are dropping support for Gitlab API v3. Please use <b>GitLab API v4</b> when adding new integrations for increased security.
+        We are dropping support for Gitlab API v3. Please use <b>GitLab API v4</b> when adding new integrations for increased security. If you still wish to use GitLab API v3, please feel free to do so at your discretion.
     </div>
     </div>
 </div>
@@ -66,9 +69,9 @@ The **Add tracked folder** connection feature is added to the **Add new integrat
 
 ![](/wp-content/uploads/gij-gitserver-connect-git-repo.png)
 
-This feature opens the Connect wizard.
+Clicking the **Connect to Git repository** button will open the Plain Git Repository Connect wizard.
 
-You can connect single git repositories using this setup such as git protocol, SSH, HTTP/HTTPS, etc. Clicking the adjacent **…** will open the dropdown list of integration options such as [Add tracked folder](/git-integration-for-jira-data-cemter/tracked-folders-gij-self-managed) and equivalent integration connection options.
+You can connect single git repositories using this setup such as git protocol, SSH, HTTP/HTTPS, etc. Clicking the adjacent **…** (ellipsis button) will open the dropdown list of integration options for popular git services (such as GitHub, GitLab, Microsoft, AWS, etc.) and also the [Add tracked folder](/git-integration-for-jira-data-cemter/tracked-folders-gij-self-managed) integration feature.
 
 &nbsp;
 
@@ -76,9 +79,9 @@ You can connect single git repositories using this setup such as git protocol, S
 
 ![](/wp-content/uploads/gij-gitserver-enable-disable-all.png)
 
-The **Enable all** function will enable each integration in the repository list and mark all checkboxes in the _**Enabled**_ column.
+The **Enable all** function will mark all the checkboxes in the _**Enabled**_ column and each integration in the repository list will become active.
 
-The **Disable all** function will disable each integration in the repository list and unmark all the checkboxes in the _**Enabled**_ column.
+The **Disable all** function will deactivate each integration in the repository list and unmark all the checkboxes in the _**Enabled**_ column.
 
 &nbsp;
 
@@ -92,7 +95,7 @@ Bulk change provides an easier way to import or export repository configuration.
 
 **Import Configuration** &nbsp;&ndash;&nbsp; this function will import your repository integration configuration from a tab-delimited file (.TSV).
 
-For more information, see [Bulk change](/git-integration-for-jira-data-center/bulk-change-gij-self-managed).
+For detailed information about this feature, see [Bulk change](/git-integration-for-jira-data-center/bulk-change-gij-self-managed).
 
 &nbsp;
 
@@ -100,9 +103,9 @@ For more information, see [Bulk change](/git-integration-for-jira-data-center/b
 
 ![](/wp-content/uploads/gij-gitserver-reindex-reset-index-all.png)
 
-**Reindex all integrations** &nbsp;&ndash;&nbsp; this function will perform a reindex queue of all integrations in the repository list. Disabled integrations are ignored.
+**Reindex all integrations** &nbsp;&ndash;&nbsp; this function will perform a reindex queue of all integrations in the integration/repository list. Disabled integrations/repositories are ignored.
 
-<b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>NEW FEATURE &mdash; VERSION 4.7+</b><br> **Reset all indexes** &nbsp;&ndash;&nbsp; Jira administrator can start the reset index process for all repositories using "Reset all" in the "Indexing" dropdown menu on the "Manage Git Integrations for Jira" page.
+<b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>NEW FEATURE &mdash; VERSION 4.7+</b><br> **Reset all indexes** &nbsp;&ndash;&nbsp; With this function, Jira administrators can start the reset index process for all repositories in the integration/repository list. Disabled integrations/repositories are ignored.
 
 <div class="bbb-callout bbb--alert">
     <div class="irow">
@@ -110,7 +113,7 @@ For more information, see [Bulk change](/git-integration-for-jira-data-center/b
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        Indexing operations may require several hours for large and/or numerous repositories.
+        Indexing operations may require several hours or more for large and/or numerous repositories.
     </div>
     </div>
 </div>

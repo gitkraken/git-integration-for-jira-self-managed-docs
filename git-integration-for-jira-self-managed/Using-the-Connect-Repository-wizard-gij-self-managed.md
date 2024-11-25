@@ -15,6 +15,7 @@ This page is intended for users who are using SSH connections or those who wante
 - [HTTP(S) authentication](#https-authentication)
 - [SSH authentication](#ssh-authentication)
 - [Passphrase Input](#passphrase-input)
+- [More related topics on setting up repositories](#more-related-topics-on-setting-up-repositories)
 
 &nbsp;
 * * *
@@ -59,9 +60,9 @@ To start integrating a plain git repository, follow the steps below:
     </div>
     <div class="imsgbox">
         Do note that the Connect wizard <b>clones the remote repository by default</b>. It does not clone local repositories. For local repositories, the `root` is set to local path and fetches are disabled.
-        <div style='margin-top:6px; margin-bottom:0px !important;'>
+        <p style='margin-bottom:0px !important;'>
             The default identities are not used and the repository is created without the additional key upload.
-        </div>
+        </p>
     </div>
     </div>
 </div>
@@ -203,9 +204,9 @@ Upload the private key file by clicking **Choose File** and navigate to the pr
     </div>
     <div class="imsgbox">
         For establishing safety connection with SSH, upload a public Key to the SSH server and set the private Key to the SSH client.
-        <div style='margin-top:6px;margin-bottom:0 !important'>
+        <p style='margin-bottom:0 !important'>
             Take note that the SSH server is the Git server and the SSH client is the Jira server.
-        </div>
+        </p>
     </div>
     </div>
 </div>
@@ -231,7 +232,7 @@ If the generated SSH key pair has a passphrase, you will see the following scree
 
 <img src='/wp-content/uploads/gij-connect-git-wizard-auth-scr-pass.png' width=442 height=254 style='display:block;margin:25px auto 10px auto;max-width:100%' />
 
-<div align='center'>
+<div align='center' style="display:block;">
     <i><b>Figure 4:</b> SSH authentication screen in the Connect wizard.</i>
 </div>
 

@@ -7,11 +7,11 @@ taxonomy:
 
 ---
 
+Clicking <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit integration feature settings** opens the configuration page for integration features settings such as repository browser, requiring user PAT, project permissions and more.
+
 ![](/wp-content/uploads/gij-gitcfg-actions-edit-feature-conn-cfg.png)
 
 &nbsp;
-
-Clicking <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit integration feature settings** opens the configuration page for integration features settings.
 
 Utilize the following options to configure the selected integration:
 
