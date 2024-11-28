@@ -9,7 +9,7 @@ taxonomy:
 
 The Edit integration connection settings page allows admins and managers to configure git settings such as displayed name, folder scanning and repository filter options.
 
-<img src='/wp-content/uploads/gij-gitcfg-actions-edit-repo-conn-cfg.png' style='display:block;margin:25px auto;max-width:100%' />
+![](/wp-content/uploads/gij-gitcfg-actions-edit-integration-conn-cfg.png)
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">

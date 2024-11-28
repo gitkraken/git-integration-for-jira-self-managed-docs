@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-![](/wp-content/uploads/gij-gitcfg-actions-edit-integration-conn-cfg.png)
+![](/wp-content/uploads/gij-gitcfg-actions-edit-repository-settings.png)
 
 Click <img src='/wp-content/uploads/actions-icon.png' /> Action ➜ **Edit repository settings** to open the **Git Repository - Advanced** page where you can change the settings of the selected connected repository: `HOSTED`, `EXTERNAL` or `FOLDER`.
 
