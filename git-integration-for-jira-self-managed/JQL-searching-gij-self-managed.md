@@ -36,6 +36,20 @@ gitCommitsReferenced is not empty AND resolution = Unresolved
 
 &nbsp;
 
+<table style="border-size: 1px;">
+    <tr>
+        <td style="padding:10px;">
+            <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.28+</b> <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 5.1+</b><br><br>    
+            The <code>gitCommitsReferenced</code> field now additionally supports project filtering.<br><br>
+            The resulting set in the response to the user's request has not changed. The only difference is that, before, the project filter is applied only after the filter. Now, it is applied inside the filter as well.<br><br>
+            See the JQL query with the project filter together with the <code>gitCommitReferenced</code> field below:<br><br>
+            <code>project = ISSUE_KEY AND gitCommitsReferenced is EMPTY</code>
+        </td>
+    </tr>
+</table>
+
+&nbsp;
+
 ### Exporting JQL search results
 
 You can save the JQL search results to CSV, HTML, XML or Word via **Export**.
