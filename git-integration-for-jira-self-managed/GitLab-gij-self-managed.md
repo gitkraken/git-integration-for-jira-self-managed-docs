@@ -60,6 +60,7 @@ Quickly learn how to connect GitLab.com git repositories via Git Integration for
 - [Integrate GitLab.com with Jira Data Center/Server](#integrate-gitlabcom-with-jira-data-centerserver)
   - [Permissions](#permissions)
   - [Creating a personal access token](#creating-a-personal-access-token)
+    - [Group access tokens](#group-access-tokens)
   - [Using Full feature integration](#using-full-feature-integration)
   - [Single repository (Manual integration)](#single-repository-manual-integration)
   - [Setting up GitLab web links](#setting-up-gitlab-web-links)
@@ -140,6 +141,10 @@ For more information, see [**GitLab Permissions »**](https://docs.gitlab.com/e
 </div>
 
 While instructions from GitLab works just fine, [follow this article](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed#gitlab--gitlab-ceee) for some specific instructions to get you started.
+
+#### Group access tokens
+
+Group access token is natively supported by the Git Integration for Jira app. It's possible to connect GitLab git repositories using group access tokens (GAT). The GAT feature is introduced in GitLab 14.7+ self-managed instances and is only available on Premium license tier or higher.
 
 &nbsp;
 
