@@ -13,10 +13,10 @@ taxonomy:
 - [Introduction](#introduction)
 - [Acquire SSH Git Repository URL](#acquire-ssh-git-repository-url)
 - [Generate SSH key pair (public and private key)](#generate-ssh-key-pair-public-and-private-key)
-  - [Linux/MacOS](#linuxmacos)
-  - [Windows](#windows)
-- [Add the public key to your git host.](#add-the-public-key-to-your-git-host)
-- [Add the private key via Git Integration in Jira app.](#add-the-private-key-via-git-integration-in-jira-app)
+- [Linux/MacOS](#linuxmacos)
+- [Windows](#windows)
+- [Add the public key to your git host](#add-the-public-key-to-your-git-host)
+- [Add the private key via Git Integration in Jira app](#add-the-private-key-via-git-integration-in-jira-app)
 - [Video Guide](#video-guide)
 - [More How-to articles](#more-how-to-articles)
 
@@ -37,6 +37,17 @@ As a summary, you need to perform the following tasks in order to successfully i
 *   Add the public key to your git host SSH configuration
 
 *   Add the private key by connecting your SSH git repositories via Git Integration for Jira app.
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Native support for the edDSA SSH key format was introduced in Git Integration for Jira app version 4.0.3. However, edDSA won't work when reinstalling the app. A Jira restart would fix the issue. For the other workaround, see <a href='/git-integration-for-jira-data-center/edDSA-provider-not-supported-WARN-in-logs'>Can't add edDSA ssh key</a>.
+    </div>
+    </div>
+</div>
 
 &nbsp;
 

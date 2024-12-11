@@ -1,6 +1,6 @@
 ---
 
-title: Fix performance issues for nested cloned repositories with enabled Git Service Permissions mode
+title: edDSA provider not supported WARN in logs
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -11,43 +11,39 @@ taxonomy:
 
 ### Problem
 
-There will be some performance issues when the following conditions are met:
-
-*   you are using GIJ 4.19 or earlier
-
-*   you have enabled “Enforced git permissions” in General settings
-
-*   with each reindex of some of your integration, GIJ also tries to detect new nested repositories, which for some reason, can't be cloned. The root cause could be one or some of the following:
-
-    *   Corrupt pack file errors
-
-    *   Max object size error
-
-    *   Git -upload pack errors for multiple repositories
-
-    *   Timeout errors
-
-    *   401 error with a different user
-
-    *   Error getting repository permissions for user XXXXXXXX – 401 unauthorized error
-
-&nbsp;
+edDSA ssh key won't work after reinstalling the Git Integration for Jira app.
 
 ### Diagnosis
 
-With each reindex of the integration, permissions for all the users PATs are recalculated. It’s a heavy calculation degrading performance, high CPU usage and increasing a possibility of exceeding GitService rate limit.
+The Git Integration for Jira app (GIJ) natively supports repositories connection over SSH using edDSA format. However, reinstalling the app will raise a WARN error in logs:
 
-&nbsp;
+* Disable GIJ app in Manage apps
+* Uninstall GIJ app in Manage apps
+* Install the same GIJ app version
+* Do a reindex of the same SSH repository
+* Error in the logs is seen. See below.
+
+**Error:**
+
+```java
+2022-09-29 12:10:42,687+0000 sshd-JGitSshClient[7e4b4a97]-nio2-thread-2
+WARN admin 730x8551x1 rqwibt 172.17.9.3,192.168.32.1,192.168.32.7 
+/rest/gitplugin/1.0/wizard/validate.json 
+[o.a.s.client.session.ClientConnectionService] 
+globalRequest(ClientConnectionService[JGitClientSession[git@github.com/140.82.121.4:22]])[hostkeys-00@openssh.com, want-reply=false] 
+failed (SshException) to process: class configured for KeyFactory 
+(provider: EdDSA) cannot be found.
+```
 
 ### Solution
 
-Upgrade to GIJ 4.20 or later.
+1. Modify security providers:<br>`sudo nano $JAVA_HOME/jre/lib/security/java.security`
+2. Add the following security provider:<br>`security.provider.10=org.bouncycastle.jce.provider.BouncyCastleProvider`
+3. In case of Jira 9.12 or earlier:<br>copy `bcprov-jdk15on-1.54.jar` <br>to: `$JAVA_HOME/jre/lib/ext/bcprov-jdk15on-1.54.jar`
+3. In case of Jira 9.13 or newer" + "Java 8":<br>copy `bcprov-lts8on-2.73.3.jar`<br>to: `$JAVA_HOME/jre/lib/ext/bcprov-lts8on-2.73.3.jar`
+4. Restart Jira.
 
-![](/wp-content/uploads/gij-gitserver-setup-jmespath-exclude-example.png)
-
-If you can’t upgrade due to production workflow policies for now, then setup a JMESPath filter for the integration to exclude the affected nested repositories.
-
-![](/wp-content/uploads/gij-gitserver-manage-apps-app-update.png)
+&nbsp;
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -55,7 +51,7 @@ If you can’t upgrade due to production workflow policies for now, then setup a
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        <b>Contact us</b><br>
+        <b>Contact Us</b><br>
         If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
     </div>
     </div>
@@ -81,7 +77,7 @@ If you can’t upgrade due to production workflow policies for now, then setup a
 
 [Error creating git branches and also using NFS](/git-integration-for-jira-data-center/error-creating-git-branches-gitlabpropertiesnotinitializedexception-and-using-nfs-gij-self-managed)
 
-**Fix performance issues for nested cloned repositories with enabled Git Service Permissions mode** (this page)
+[Fix performance issues for nested cloned repositories with enabled Git Service Permissions mode](/git-integration-for-jira-data-center/Fix-performance-issues-for-nested-cloned-repositories-with-enabled-secure-mode-gij-self-managed)
 
 [Fixing reindex issues using Indexing Queue Viewer](/git-integration-for-jira-data-center/fixing-reindex-issues-using-indexing-queue-viewer)
 
@@ -113,13 +109,11 @@ If you can’t upgrade due to production workflow policies for now, then setup a
 
 [TFS - Not authorized exception when Jira works thru proxy](/git-integration-for-jira-data-center/tfs-not-authorized-exception-when-jira-works-thru-proxy-gij-self-managed)
 
-[Unexpected exception parsing XML document from URL error in log](/git-integration-for-jira-data-center/unexpected-exception-parsing-xml-document-from-url-error-in-log-gij-self-managed)
+[Unexpected exception parsing XML document from URL error in log](/git-integration-for-jira-data-center/Unexpected-exception-parsing-XML-document-from-URL-error-in-log-gij-self-managed)
 
 [Why don't I see the Create Branch or Pull Request features?](/git-integration-for-jira-data-center/why-dont-i-see-the-create-branch-or-pull-request-features-gij-self-managed)
 
 [Your token has not been granted the required scopes](/git-integration-for-jira-data-center/Your-token-has-not-been-granted-the-required-scopes-gij-self-managed)
 
-[When a GIJ license expires, it shows up as a session error to the user](/git-integration-for-jira-data-center/when-a-license-expires-a-session-error-is-shown-to-the-user-gij-self-managed)
-
-[edDSA provider not supported WARN in logs](/git-integration-for-jira-data-center/edDSA-provider-not-supported-WARN-in-logs-gij-self-managed)
+**edDSA provider not supported WARN in logs** (this page)
 
