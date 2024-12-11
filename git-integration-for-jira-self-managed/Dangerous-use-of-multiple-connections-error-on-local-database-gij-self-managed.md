@@ -6,6 +6,8 @@ taxonomy:
     category: git-integration-for-jira-data-center
 ---
 
+<!-- TROUBLESHOOTING -->
+
 ### Problem
 
 As Git Integration for Jira Server app uses the Jira database increasingly, it is to be expected that this error will be seen or encountered more often:
@@ -98,4 +100,8 @@ More details may be found in the following articles:
 [Why don't I see the Create Branch or Pull Request features?](/git-integration-for-jira-data-center/why-dont-i-see-the-create-branch-or-pull-request-features-gij-self-managed)
 
 [Your token has not been granted the required scopes](/git-integration-for-jira-data-center/Your-token-has-not-been-granted-the-required-scopes-gij-self-managed)
+
+[When a GIJ license expires, it shows up as a session error to the user](/git-integration-for-jira-data-center/when-a-license-expires-a-session-error-is-shown-to-the-user-gij-self-managed)
+
+[edDSA provider not supported WARN in logs](/git-integration-for-jira-data-center/edDSA-provider-not-supported-WARN-in-logs-gij-self-managed)
 

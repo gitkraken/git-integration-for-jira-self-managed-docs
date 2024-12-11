@@ -144,7 +144,7 @@ While instructions from GitLab works just fine, [follow this article](/git-inte
 
 #### Group access tokens
 
-Group access token is natively supported by the Git Integration for Jira app. It's possible to connect GitLab git repositories using group access tokens (GAT). The GAT feature is introduced in GitLab 14.7+ self-managed instances and is only available on Premium license tier or higher.
+The Git Integration for Jira app natively supports group access tokens (GAT), allowing users to connect GitLab group repositories. This feature was introduced in GitLab version 14.7 and is available exclusively for self-managed instances with a Premium license tier or higher.
 
 &nbsp;
 

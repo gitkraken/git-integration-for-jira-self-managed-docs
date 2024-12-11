@@ -31,9 +31,13 @@ There will be some performance issues when the following conditions are met:
 
     *   Error getting repository permissions for user XXXXXXXX – 401 unauthorized error
 
+&nbsp;
+
 ### Diagnosis
 
 With each reindex of the integration, permissions for all the users PATs are recalculated. It’s a heavy calculation degrading performance, high CPU usage and increasing a possibility of exceeding GitService rate limit.
+
+&nbsp;
 
 ### Solution
 
@@ -114,4 +118,8 @@ If you can’t upgrade due to production workflow policies for now, then setup a
 [Why don't I see the Create Branch or Pull Request features?](/git-integration-for-jira-data-center/why-dont-i-see-the-create-branch-or-pull-request-features-gij-self-managed)
 
 [Your token has not been granted the required scopes](/git-integration-for-jira-data-center/Your-token-has-not-been-granted-the-required-scopes-gij-self-managed)
+
+[When a GIJ license expires, it shows up as a session error to the user](/git-integration-for-jira-data-center/when-a-license-expires-a-session-error-is-shown-to-the-user-gij-self-managed)
+
+[edDSA provider not supported WARN in logs](/git-integration-for-jira-data-center/edDSA-provider-not-supported-WARN-in-logs-gij-self-managed)
 

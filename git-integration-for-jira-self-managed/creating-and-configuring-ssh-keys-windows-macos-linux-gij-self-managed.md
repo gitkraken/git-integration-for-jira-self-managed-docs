@@ -44,7 +44,7 @@ As a summary, you need to perform the following tasks in order to successfully i
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        We introduced the edDSA SSH key format support since v4.0.3 of the Git Integration for Jira app. However, edDSA won't work when reinstalling the app. A Jira restart would fix the issue. For other workaround on this issue, see <a href='/git-integration-for-jira-data-center/edDSA-provider-not-supported-WARN-in-logs'>Can't add edDSA ssh key</a>.
+        Native support for the edDSA SSH key format was introduced in Git Integration for Jira app version 4.0.3. However, edDSA won't work when reinstalling the app. A Jira restart would fix the issue. For the other workaround, see <a href='/git-integration-for-jira-data-center/edDSA-provider-not-supported-WARN-in-logs'>Can't add edDSA ssh key</a>.
     </div>
     </div>
 </div>

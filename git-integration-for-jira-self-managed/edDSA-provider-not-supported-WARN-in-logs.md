@@ -11,16 +11,16 @@ taxonomy:
 
 ### Problem
 
-edDSA ssh key won't working after reinstalling the Git Integration for Jara app.
+edDSA ssh key won't work after reinstalling the Git Integration for Jira app.
 
 ### Diagnosis
 
-The Git Integration for Jira (GIJ) app supports repositories connection over SSH using edDSA format. However, reinstalling the GIJ app will raise a WARN error in logs:
+The Git Integration for Jira app (GIJ) natively supports repositories connection over SSH using edDSA format. However, reinstalling the app will raise a WARN error in logs:
 
-* Disable GIJ app
-* Uninstall GIJ app
+* Disable GIJ app in Manage apps
+* Uninstall GIJ app in Manage apps
 * Install the same GIJ app version
-* Do a reindex of the same repository
+* Do a reindex of the same SSH repository
 * Error in the logs is seen. See below.
 
 **Error:**
@@ -37,10 +37,10 @@ failed (SshException) to process: class configured for KeyFactory
 
 ### Solution
 
-1. Modify security providers: `sudo nano $JAVA_HOME/jre/lib/security/java.security`
-2. Add the following security provider: `security.provider.10=org.bouncycastle.jce.provider.BouncyCastleProvider`
-3. In case of Jira 9.12 or earlier: copy `bcprov-jdk15on-1.54.jar` to: `$JAVA_HOME/jre/lib/ext/bcprov-jdk15on-1.54.jar`
-3. In case of Jira 9.13 or newer" + "Java 8": copy `bcprov-lts8on-2.73.3.jar` to: `$JAVA_HOME/jre/lib/ext/bcprov-lts8on-2.73.3.jar`
+1. Modify security providers:<br>`sudo nano $JAVA_HOME/jre/lib/security/java.security`
+2. Add the following security provider:<br>`security.provider.10=org.bouncycastle.jce.provider.BouncyCastleProvider`
+3. In case of Jira 9.12 or earlier:<br>copy `bcprov-jdk15on-1.54.jar` <br>to: `$JAVA_HOME/jre/lib/ext/bcprov-jdk15on-1.54.jar`
+3. In case of Jira 9.13 or newer" + "Java 8":<br>copy `bcprov-lts8on-2.73.3.jar`<br>to: `$JAVA_HOME/jre/lib/ext/bcprov-lts8on-2.73.3.jar`
 4. Restart Jira.
 
 &nbsp;
@@ -91,7 +91,7 @@ failed (SshException) to process: class configured for KeyFactory
 
 [Jira index error: IndexNotFoundException: no segments* file found](/git-integration-for-jira-data-center/Jira-index-error--IndexNotFoundException--no-segments-file-found)
 
-**Malformed input or input contains unmappable characters** (this page)
+[Malformed input or input contains unmappable characters](/git-integration-for-jira-data-center/Malformed-input-or-input-contains-unmappable-characters-gij-self-managed)
 
 [Personal access token failing Azure DevOps integration with Not Authorized error](/git-integration-for-jira-data-center/Personal-access-token-failing-azure-devops-integration-with-Not-Authorized-error-gij-self-managed)
 
@@ -114,4 +114,6 @@ failed (SshException) to process: class configured for KeyFactory
 [Why don't I see the Create Branch or Pull Request features?](/git-integration-for-jira-data-center/why-dont-i-see-the-create-branch-or-pull-request-features-gij-self-managed)
 
 [Your token has not been granted the required scopes](/git-integration-for-jira-data-center/Your-token-has-not-been-granted-the-required-scopes-gij-self-managed)
+
+**edDSA provider not supported WARN in logs** (this page)
 
