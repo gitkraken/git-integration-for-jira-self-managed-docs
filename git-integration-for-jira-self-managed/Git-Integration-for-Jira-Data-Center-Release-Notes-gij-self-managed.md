@@ -19,6 +19,28 @@ We publish new features, bug fixes, security updates/patches, and Jira compatibi
 If you have any questions, please contact us through our [Support Portal](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) or by emailing [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com)
 
 * * *
+
+## Improved Manage Integrations and Repositories UI
+`12 Nov 2024` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
+
+Updated manage integrations and repositories pages to provide additional info, improved navigation, and better user experience
+
+## Jira 10 Compatibility
+`4 Oct 2024` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ALL USERS</b>
+
+Git Integration for Jira v5.0 introduces support for Jira 10.
+
+## Draft PR Status
+`9 Aug 2024` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ALL USERS</b>
+
+Pull requests in the DRAFT status will now display as such in the interface (for GitHub only)
+
+## Multi-Threaded Indexing
+`13 Mar 2024` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
+
+Multiple Indexing Threads Per Node: Admins can now select the number of threads available for updating repositories from Git servers. Note: Changes should be made gradually and additional CPU and memory is required.
+External Services Throttling: To avoid problems with excessive load on external services, Admins can limit the number of requests per second that are performed for various Git integration services.
+
 ## Manager Permissions
 `05 Feb 2024` <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>
 
