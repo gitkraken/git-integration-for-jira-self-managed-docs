@@ -324,7 +324,7 @@ The indexing queue does not remove the task from the queue when any of the follo
 
 *   this task is not older than 1 hour from now
 
-For removed integrations/repositories., the pending queued tasks related to removal are deleted from the indexing queue list.
+For removed integrations/repositories, the pending queued tasks related to removal are deleted from the indexing queue list. Note that the Cancel action is not supported on delete operations.
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
