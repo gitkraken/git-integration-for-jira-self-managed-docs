@@ -160,6 +160,8 @@ git branch -r | xargs -i git rev-list --count {} ^master | grep -v 0 | awk 'BEGI
 
 ### Can I cancel delete operations?
 
+<b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.28.4</b>
+
 The cancel action is not supported on delete operations.
 
 &nbsp;
