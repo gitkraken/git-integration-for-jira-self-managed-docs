@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-<b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.23</b> <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b>
+<b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.23+</b> <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b>
 
 ### Introduction
 
@@ -160,6 +160,12 @@ The following command will return number of commits , which will be reindexed on
 ```powershell
 git branch -r | xargs -i git rev-list --count {} ^master | grep -v 0 | awk 'BEGIN{s=0;}{s+=$1;}END{print s;}'
 ```
+
+### Can I cancel delete operations?
+
+<b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.28.4</b>
+
+The cancel action is not supported on delete operations.
 
 &nbsp;
 
