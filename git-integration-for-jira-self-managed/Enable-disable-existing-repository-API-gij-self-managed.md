@@ -16,6 +16,7 @@ taxonomy:
         Only Jira admins can perform the Enable/Disable Existing Repository API call.
     </div>
 </div>
+</div>
 
 ### URL format
 `\{JIRA_BASE_URL\}/rest/gitplugin/1.0/repository/\{repoId\}/disable?disable=true|false`
