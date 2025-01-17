@@ -20,7 +20,7 @@ Updates the existing parameters of the specified integration.
     </div>
 </div>
 
-### url
+### URL format
 `{JiraBaseURL}/rest/gitplugin/1.0/integration/\{integrationId\}`
 
 ### integrationId
@@ -44,7 +44,7 @@ The Request body is a _JSON_ structure similar to the [Add New Integration AP
 | :--- | :--- |
 | _**displayName**_ | _String_. Optional. Some git hosts may require this to be filled in.<br><br>This is the name that will appear in the Git Integration for Jira app repositories list. |
 | _**origin**_ | _String_. Optional.<br><br>This is the URL to the hosted git service used on the project.<br><br>For example, you might host your repository on GitHub, Beanstalk or your own server.<br><br>_**Example URL:**_ `https://api.github.com` |
-| _**disabled**_ | _Boolean._ Optional.<br><br>Set the repository status to updated (enabled) or disabled. If left blank, the default value for this field is _**false**_. |
+| _**disabled**_ | _Boolean._ Optional.<br><br>Set the integration status to updated (enabled) or disabled. If left blank, the default value for this field is _**false**_.<br><br><b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px 10px 0; font-size: small;display:inline-block;'>UPDATE</b><br>For detailed instructions on how to enable or disable repositories via API, see [Enable/disable existing integration API](/git-integration-for-jira-data-center/Enable-disable-existing-integration-API-gij-self-managed) page. |
 | _**sendCommitEmails**_ | _Boolean._ Optional.<br><br>Enables or disables commit notification emails for this repository. |
 | _**maxMinsToCommitEmail**_ | _Integer_. Optional.<br><br>Set the desired value in minutes, as to when commit notifications will be sent. Commit notifications will be e-mailed if the age of the commit is less than or equal to this value. |
 | _**type**_ | _String_. Optional.<br><br>The type of integration. Available values are the following:<br><ul><li><code>GITHUB</code> - integration with Github.com</li><li><code>GITHUB_SERVER</code> - integration with GitHub Enterprise</li><li><code>GITLAB</code> - integration with GitLab.com</li><li><code>GITLAB_SERVER</code> - integration with GitLab Server (CE/EE) (APIv4)</li><li><code>GITLAB_SERVER_LEGACY</code> - integration with GitLab Server (CE/EE) Legacy (APIv3)</li><li><code>FILESPACE</code> - integration for a tracked folder</li><li><code>AZURE_DEVOPS</code> - integration with Azure DevOps Repos</li><li><code>VSTS</code> - integration with Visual Studio Team Services (VSTS)</li><li><code>AZURE</code> - integration with Azure DevOps Server</li><li><code>TFS_SERVER</code> - integration with Team Foundation Server (TFS)</li><li><code>AWS</code> - integration with AWS CodeCommit</li><li><code>GERRIT</code> - integration with Gerrit Code Review</li></ul> |
@@ -190,6 +190,8 @@ Response:
 [Add New Integration](/git-integration-for-jira-data-center/add-new-integration-gij-self-managed)
 
 [Add New Integration Type API (examples)](/git-integration-for-jira-data-center/add-new-integration-type-api-examples-gij-self-managed)
+
+[Enable/disable Existing Integration](/git-integration-for-jira-data-center/enable-disable-existing-integration-API-gij-self-managed)
 
 **Update Existing Integration** (this page)
 
