@@ -15,7 +15,7 @@ taxonomy:
     <div class="imsgbox">
         Only Jira admins can perform the Enable/Disable Existing Integration API call.
     </div>
-</div>
+    </div>
 </div>
 
 ### URL format
