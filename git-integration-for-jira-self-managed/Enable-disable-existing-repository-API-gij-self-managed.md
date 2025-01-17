@@ -19,7 +19,7 @@ taxonomy:
 </div>
 
 ### URL format
-`\{JIRA_BASE_URL\}/rest/gitplugin/1.0/repository/\{repoId\}/disable?disable=true|false`
+`\{JIRA\_BASE\_URL\}/rest/gitplugin/1.0/repository/\{repoId\}/disable?disable=true|false`
 
 ### method
 **PUT**
@@ -30,7 +30,7 @@ Utilize the following parameters to control the field values in the URL format:
 
 | Field | Description |
 | :---- | :---- |
-| _**JIRA_BASE_URL**_ | _String_. Required.<br><br>This is your organization’s Jira base URL. For example, `https://acmecorp.jira.com`. |
+| _**JIRA\_BASE\_URL**_ | _String_. Required.<br><br>This is your organization’s Jira base URL. For example, `https://acmecorp.jira.com`. |
 | _**repoId**_ | _Integer_. Required.<br><br> This is the repository ID that your are targeting to enable/disable. |
 | _**disable**_ | _Boolean_. Required.<br><br>When set to **disable=true**, the status of the target repository in the Manage git repository/integration configuration list becomes <b style='background-color:#6E5DC6; padding:1px 5px; color:#FFFFFF; border-radius:3px; margin: 0 5px; font-size: small;'>DISABLED</b>. Set to **disable=false**, to enable it again. |
 
