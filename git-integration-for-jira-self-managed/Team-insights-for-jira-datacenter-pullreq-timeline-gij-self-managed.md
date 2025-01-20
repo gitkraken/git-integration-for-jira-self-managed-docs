@@ -50,8 +50,8 @@ It is important that Git administrators must set the minimum permission requirem
 |:------------|:------------|
 | admin:org ➜ **read:org** | Under **admin:org** scope group, enable the **read:org** setting. This grants permission to read org and team membership as well as read org projects. This is required to read information about users with the organization type.<br><img src='/wp-content/uploads/tij-gitcloud-pull-req-timeline-reindex-github-org-setting.png' style='margin:15px auto 0px auto;max-width:100%;display:block;' /> |
 | user ➜ **user:email** | Under **user** scope group, enable the **user:email** setting. This grants read-only access to user email addresses. This is required to read the user's email address information which is then used to match with users from Jira. |
-| user ➜ **read:user** | Optional. This grants read access to all user profile data. |
-| **_read:discussion_** | Optional. This grants read access to team discussions. |
+| user ➜ **read:user** | _Optional_. This grants read access to all user profile data. |
+| **_read:discussion_** | _Optional_. This grants read access to team discussions. |
 
 &nbsp;
 
@@ -59,8 +59,8 @@ It is important that Git administrators must set the minimum permission requirem
 
 | Permissions | Description |
 |:------------|:------------|
-| **_Role_** | At least Reporter role. |
-| **_Scope_** | At least read_api scope. |
+| **_Role_** | At least **Reporter** role. |
+| **_Scope_** | At least **read_api** scope. |
 
 &nbsp;
 
@@ -71,4 +71,16 @@ Only these two scopes are required for GitHub App integration:
 *   **read:org** – Read org and team membership, read org projects, and 
 
 *   **user:email** – Access user email addresses (read-only).
+
+&nbsp;
+
+### More on Team Insights for Jira Data Center features
+
+[Main TIJ page](/git-integration-for-jira-data-center/Team-insights-for-jira-datacenter-gij-self-managed)
+
+[Issues View](/git-integration-for-jira-data-center/Team-insights-for-jira-datacenter-issues-view-gij-self-managed)
+
+_Epics View (Coming soon)_
+
+**Pull request timeline for Team Insights for Jira DC** (this page)
 

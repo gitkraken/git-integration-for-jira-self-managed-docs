@@ -11,7 +11,7 @@ taxonomy:
 
 The default view for the Team Insights for Jira app is the Issues View.
 
-You can switch to another view such as Issues or Epics by clicking their specific tabs. In Issues View, the epics issue list can be displayed along with the other general Jira issues.
+You can switch to another view such as Issues or Epics (coming soon) by clicking their specific tabs. In Issues View, the epics issue list can be displayed along with the other general Jira issues.
 
 Use the search bar together with available search options to filter the list view.
 
@@ -112,6 +112,8 @@ For **Contributors**, click on the drop-down list to select one or more members 
 
 To reset selection and filter settings click **Clear** for each filter group.
 
+&nbsp;
+
 #### Issue filter
 
 The Issue Filters allows team/project managers to assign available issue filters to the search. Utilize the search box on each filter to quickly find and select one or more categories.
@@ -128,9 +130,27 @@ The Issue Filters allows team/project managers to assign available issue filters
 | Priorities | Select one or more priority state for the issue filter. |
 | Components | Select one or more components for the issue filter. Displays nothing if no components are detected. |
 
+&nbsp;
+
 #### Clear All
 
 To clear all the selected filters and search settings, click **Clear All**. Some selections and search filters are also reset to default.
 
+&nbsp;
+
+### Completing the search
+
 With all the selection of filters and search options in place, click **Search** to see the results in the list view according to your preference.
+
+&nbsp;
+
+### More on Team Insights for Jira Data Center features
+
+[Main TIJ page](/git-integration-for-jira-data-center/Team-insights-for-jira-datacenter-gij-self-managed)
+
+**Issue View** (this page)
+
+_Epics View (Coming soon)_
+
+[Pull request timeline for Team Insights for Jira DC](/git-integration-for-jira-data-center/Team-insights-for-jira-datacenter-pullreq-timeline-gij-self-managed)
 

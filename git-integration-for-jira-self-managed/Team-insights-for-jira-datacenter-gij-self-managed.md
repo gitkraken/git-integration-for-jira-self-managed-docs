@@ -21,7 +21,7 @@ Team Insights for Jira (TIJ) provides team managers with a comprehensive overvie
 
 The Team Insights for Jira DC extension version 1.3.4 officially supports Jira Data Center versions **8.5.5** up to **9.17.2**.
 
-For Jira 10 instances, Team Insights for Jira DC supports up to 10.2. (needs citation)
+Team Insights for Jira DC is scheduled to be released for Jira 10 instances soon.
 
 <div class="bbb-callout bbb--tip">
     <div class="irow">
@@ -33,6 +33,14 @@ For Jira 10 instances, Team Insights for Jira DC supports up to 10.2. (needs cit
     </div>
     </div>
 </div>
+
+&nbsp;
+
+### Permissions to see TIJ data
+
+<b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT!</b>
+
+Viewing Team Insights for Jira data is derived from the Jira user permissions they are assigned with. Therefore, if users have access to Jira issues, they will also be able to view TIJ data.
 
 &nbsp;
 
@@ -83,17 +91,9 @@ With Team Insights for Jira DC app, team managers will be able to see team activ
 
 &nbsp;
 
-### Permissions to see TIJ data
-
-<b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>IMPORTANT!</b>
-
-Viewing Team Insights for Jira data is derived from the Jira user permissions they are assigned with. Therefore, if users have access to Jira issues, they will also be able to view TIJ data.
-
-&nbsp;
-
 ### App access location
 
-Once you have successfully installed the application, you will be able to access Team Insights for Jira via the Jira dashboard menu. Simply navigate to Jira dashboard then click the Insights tab.
+Once you have successfully installed the application, you will be able to access Team Insights for Jira via the Jira dashboard menu. Simply navigate to Jira dashboard then click the **Insights** tab.
 
 ![](/wp-content/uploads/tij-datacenter-menu-access-location.png)
 
@@ -158,4 +158,16 @@ TIJ displays Jira activity for all Jira users. Git data such as branches, commit
     </div>
     </div>
 </div>
+
+&nbsp;
+
+### More on Team Insights for Jira Data Center features
+
+**Main TIJ page** (this page)
+
+[Issues View](/git-integration-for-jira-data-center/Team-insights-for-jira-datacenter-issues-view-gij-self-managed)
+
+_Epics View (Coming soon)_
+
+[Pull request timeline for Team Insights for Jira DC](/git-integration-for-jira-data-center/Team-insights-for-jira-datacenter-pullreq-timeline-gij-self-managed)
 
