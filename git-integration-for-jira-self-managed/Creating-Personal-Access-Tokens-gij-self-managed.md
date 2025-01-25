@@ -16,7 +16,7 @@ This page contains steps for creating personal access tokens (PATs) for specific
 - [Team Foundation Server (TFS) 2017 and newer](#team-foundation-server-tfs-2017-and-newer)
 - [Azure DevOps Server](#azure-devops-server)
 - [AWS CodeCommit](#aws-codecommit)
-
+  - [How do I update the personal access token (PAT) for an integration or repository connection?](#how-do-i-update-the-personal-access-token-pat-for-an-integration-or-repository-connection)
 
 &nbsp;
 <hr>
@@ -257,5 +257,32 @@ To create a new Access Key ID and Secret Access Key, go to IAM ➜ Users ➜ Sec
     </div>
     </div>
 </div>
-<br>
+
+&nbsp;
+
+<div id="how-do-i-update-the-pat"></div>
+
+### How do I update the personal access token (PAT) for an integration or repository connection?
+
+> **INTEGRATION**
+
+1.  On your Jira dashboard, navigate to the **Git** menu then click **Manage repositories**. The Manage git repositories page is displayed.
+
+2.  On your selected integration, click on the ![](/wp-content/uploads/actions-icon.png) **Actions** dropdown then click **Edit integration connection settings**.
+
+3.  Paste the token into the _**Personal Access Token**_ field.
+
+4.  Click **Update** to save the settings.
+
+The PAT is now updated for the selected integration/repository.
+
+>**REPOSTORY**
+
+1.  On your Jira dashboard, navigate to the **Git** menu then click **Manage repositories**. The Manage git repositories page is displayed.
+
+2.  On your selected integration, click on the ![](/wp-content/uploads/actions-icon.png) **Actions** dropdown then click **Edit repository settings**.
+
+3.  Under _**Repository settings**_ group, paste the token into the **Password/PAT** field
+
+4.  Click **Update** to save the settings.
 
