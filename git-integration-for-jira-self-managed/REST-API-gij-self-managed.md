@@ -11,6 +11,17 @@ Welcome to the Git Integration for Jira app REST API reference page index.
 
 On this page, you will find the list of available REST APIs supported by the Git Integration for Jira app.  Click on a topic title to view its content or search through the related topics.
 
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        Starting Git Integration for Jira DC v5.2.1, the REST API now supports CORS.
+    </div>
+    </div>
+</div>
+
 &nbsp;
 <hr>
 &nbsp;
