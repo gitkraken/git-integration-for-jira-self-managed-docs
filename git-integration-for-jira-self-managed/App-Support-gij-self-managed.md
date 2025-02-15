@@ -7,7 +7,16 @@ taxonomy:
 
 ---
 
-The Git Integration for Jira app currently supports **Jira** **8.12** to **9.17+**!
+The Git Integration for Jira app currently supports the following Jira versions:
+
+| **GIJ version** | **Supported Jira versions** |
+| :--- | :--- |
+| 5.1.1+ | Jira Data Center 10.0.0 - 10.4.1 |
+| 4.28.6 | Jira Data Center 9.4.30 - 9.17.5 |
+| 4.28.5 | Jira Data Center 8.13.27 - 9.17.5 |
+| 4.24.2 | Jira Server 8.12.3 - 9.12.18\*<br>Jira Data Center 8.12.3 - 9.12.18 |
+
+\* _Jira server extended license support until Feb 15, 2025._
 
 <div class="bbb-callout bbb--error">
     <div class="irow">
@@ -18,7 +27,7 @@ The Git Integration for Jira app currently supports **Jira** **8.12** to **9.17+
         <b>UPDATE</b><br>
         Starting Git Integration for Jira v4.0+ app, support for Jira 7 is entirely dropped.<br>
         Starting Git Integration for Jira v4.12+ app, we are dropping support for Java 8.0-8.11.
-        The last Jira Server release is v9.12.
+        The last Jira Server release is v9.12+.
     </div>
     </div>
 </div>
@@ -155,12 +164,17 @@ The table below shows the Jira Version, when [Atlassian will stop supporting tha
 | 9.9 | June 2, 2025 | Edge | Yes\* |
 | 9.10 | Ju1y 11, 2025 | Edge | Yes\* |
 | 9.11 | August 30, 2025 | Edge | Yes\* |
-| 9.12 | November 29, 2025 | Edge | Yes\* |
+| 9.12 (LTS) | November 29, 2025 | Edge | Yes\* |
 | 9.13 | January 22, 2026 | Edge | Yes\* |
 | 9.14 | February 15, 2026 | Edge | Yes\* |
 | 9.15 | Marchs 27, 2026 | Edge | Yes\* |
 | 9.16 | May 23, 2026 | Edge | Yes\* |
 | 9.17 | June 26, 2026 | Edge | Yes\* |
+| 10.0 | August 22, 2026 | Edge | Yes\* |
+| 10.1 | October 9, 2026 | Edge | Yes\* |
+| 10.2 | November 20, 2026 | Edge | Yes\* |
+| 10.3 (LTS) | December 5, 2026 | Edge | Yes\* |
+| 10.4 | January 22, 2027 | Edge | Yes\* |
 
 \* _See information below about retiring IE11 support._
 
