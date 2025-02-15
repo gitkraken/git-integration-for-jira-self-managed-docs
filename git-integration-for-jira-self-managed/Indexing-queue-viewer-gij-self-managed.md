@@ -268,7 +268,16 @@ For any selected queue task that is still processing or in progress, click on **
 
 ![](/wp-content/uploads/gij-gitserverdc-indexing-queue-cancel-reindex-action.png)
 
-
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        At present, canceling tasks related to delete operations in the queue is not supported.
+    </div>
+    </div>
+</div>
 
 For a more detailed information about this feature, see [Cancel indexing](/git-integration-for-jira-data-center/Cancel-indexing-revision-indexing-gij-self-managed).
 

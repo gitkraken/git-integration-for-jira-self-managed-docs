@@ -68,13 +68,15 @@ See the following topics from Atlassian for migration:
 
 &nbsp;
 
-### Migrating to Jira 9
+### Migrating to Jira 9/10
 
-Administrators should deselect the "Reverse commit tab sort order" option in General settings when Jira 8 is migrated to Jira 9. If this is a new Jira 9 installation then nothing is required.
+Administrators should deselect the "Reverse commit tab sort order" option in General settings when Jira 8 is migrated to Jira 9. If this is a new Jira 9/10 installation then nothing is required.
 
-After upgrading from Jira 8 to Jira 9, administrators must re-create all indexes using the "Reset index" Action command for all repositories or integrations.
+After upgrading from Jira 8 to Jira 9/10, administrators must re-create all indexes using the "Reset index" Action command for all repositories or integrations.
 
-For detailed information, see [Migrating from Jira 8 to Jira 9](/git-integration-for-jira-data-center/migrating-jira7-to-jira9-gij-self-managed).
+For detailed information, see [Migrating from Jira 8 to Jira 9/10](/git-integration-for-jira-data-center/migrating-jira7-to-jira9-gij-self-managed).
+
+For more information on upgrading to Jira 10+, see [Jira 10 upgrade notes](https://confluence.atlassian.com/display/JIRASOFTWARE/Jira+Software+10.0.x+upgrade+notes).
 
 &nbsp;
 

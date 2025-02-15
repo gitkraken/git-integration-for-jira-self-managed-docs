@@ -7,32 +7,6 @@ taxonomy:
 
 ---
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b style='font-size:20px;'>JIRA SERVER PLATFORM END OF LIFE SUPPORT</b><br>
-        <p>Atlassian's end of life support for the Jira Server platform has ended. Please plan ahead on migrating your Jira Server to Cloud or Data Center starting now.</p>
-        <p>This process is simple and manageable:</p>
-        <ul>
-            <li>Before you migrate, upgrade Git Integration for Jira app to the latest version.</li>
-            <li>Back your data for migration.</li>
-            <li>Plan your migration path.</li>
-        </ul>
-        See the following topics from Atlassian for migration:
-        <ul style='margin-bottom:0px;'>
-            <li><a href='https://confluence.atlassian.com/adminjiraserver073/migrating-jira-applications-to-another-server-861253107.html'>Migrating Jira applications to another server</a></li>
-            <li><a href='https://www.atlassian.com/migration/plan/cloud-guide'>Migrating from Jira Server to Jira Cloud</a></li>
-            <li><a href='https://confluence.atlassian.com/enterprise/migrate-from-server-to-data-center-953127136.html'>Migrating from Jira Server to Jira Data Center</a></li>
-        </ul>
-    </div>
-    </div>
-</div>
-
-&nbsp;
-
 Everything you need to know about Git Integration for Jira on Data Center and Server.
 
 Check out the introduction video and links below to get started with Git Integration for Jira app. Use the left navigation to explore further.

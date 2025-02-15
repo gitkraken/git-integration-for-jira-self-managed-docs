@@ -185,9 +185,10 @@ application/json
 
 For example, let's assume you want to run a Jira standalone instance locally and try or test a GitHub App integration type. In this case, set up the following:
 
-1.  The Jira itself which may be accessible from your local instance. For example, `http://localhost:2990/jira`.
+1.  The Jira itself which may be accessible from your local instance. For example:<br>
+`http://localhost:2990`.
 
-2.  The ngrok utility as a proxy on the same machine to forward all incoming requests from the Internet to the local Jira. For instance, it has `https://my.ngrok.com` as a publicly available URL, which redirects all requests on to `http://localhost:2990/jira`.
+2.  The ngrok utility as a proxy on the same machine to forward all incoming requests from the Internet to the local Jira. For instance, it has `https://my.ngrok.com` as a publicly available URL, which redirects all requests on to `http://localhost:2990`.
 
 3.  With Git Integration for Jira app, set up an alternative URL by doing the following call:
 
@@ -195,7 +196,7 @@ For example, let's assume you want to run a Jira standalone instance locally and
     curl -X POST http://localhost:2990/jira/rest/gitplugin/1.0/global-settings \\
     --user admin \\
     -H "Content-Type: application/json" \\
-    -d '{"altJiraBaseUrl": "https://my.ngrok.com"}'
+    -d '{"altJiraBaseUrl": "https://my.ngrok.com/jira"}'
     ```
 
 In order to clean up the `altJiraBaseUrl` property, just set up it to empty string `{"altJiraBaseUrl": ""}`.

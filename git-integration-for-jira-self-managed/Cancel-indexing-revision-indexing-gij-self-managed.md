@@ -33,10 +33,13 @@ The Cancel action interrupts:
 
 It does not cover the following cases, such as a cancellation of:
 
-*   Garbage Collection task
-*   Remove repository task
-*   Garbage Collection All task
+*   Garbage Collection tasks
+*   Remove repository tasks
+*   Garbage Collection All tasks
 *   Pull/merge requests indexing phase
+*   Delete operation tasks<sup>1</sup>
+
+<sup>1</sup> Currently, the cancel action for any delete operation tasks in the queue is not supported.
 
 &nbsp;
 
@@ -138,7 +141,7 @@ Reindex usually completes in several seconds to a couple of hours or maybe more 
 
 ### How does canceling reindex affect queued Data Center nodes?
 
-A reindex of the task is canceled on all Jira nodes.
+A reindex of the task is canceled on ALL Jira nodes.
 
 &nbsp;
 

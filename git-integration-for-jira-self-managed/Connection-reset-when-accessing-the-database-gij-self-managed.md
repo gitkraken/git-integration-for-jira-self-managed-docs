@@ -7,6 +7,8 @@ taxonomy:
 
 ---
 
+<!-- TROUBLESHOOTING -->
+
 ### Problem
 
 Errors/failures in the Git Integration for Jira application are seen sporadically. Automatic reindexing may stop.
@@ -97,4 +99,8 @@ See [Atlassian's Connection Reset when Accessing the Database](https://confluenc
 [Why don't I see the Create Branch or Pull Request features?](/git-integration-for-jira-data-center/why-dont-i-see-the-create-branch-or-pull-request-features-gij-self-managed)
 
 [Your token has not been granted the required scopes](/git-integration-for-jira-data-center/Your-token-has-not-been-granted-the-required-scopes-gij-self-managed)
+
+[When a GIJ license expires, it shows up as a session error to the user](/git-integration-for-jira-data-center/when-a-license-expires-a-session-error-is-shown-to-the-user-gij-self-managed)
+
+[edDSA provider not supported WARN in logs](/git-integration-for-jira-data-center/edDSA-provider-not-supported-WARN-in-logs-gij-self-managed)
 
