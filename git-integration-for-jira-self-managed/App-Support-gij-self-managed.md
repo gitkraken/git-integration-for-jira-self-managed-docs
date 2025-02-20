@@ -169,7 +169,7 @@ The table below shows the Jira Version, when [Atlassian will stop supporting tha
 | 9.12 (LTS) | November 29, 2025 | Edge | Yes\* |
 | 9.13 | January 22, 2026 | Edge | Yes\* |
 | 9.14 | February 15, 2026 | Edge | Yes\* |
-| 9.15 | Marchs 27, 2026 | Edge | Yes\* |
+| 9.15 | March 27, 2026 | Edge | Yes\* |
 | 9.16 | May 23, 2026 | Edge | Yes\* |
 | 9.17 | June 26, 2026 | Edge | Yes\* |
 | 10.0 | August 22, 2026 | Edge | Yes\* |
