@@ -52,7 +52,7 @@ taxonomy:
     </div>
     <div class="imsgbox">
         <b>Feature note</b><br>
-        This feature is not available to single repository connections.
+        This feature is not available for single or plain git repository connections.
     </div>
     </div>
 </div>
