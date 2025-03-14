@@ -53,11 +53,12 @@ Quickly learn how to connect GitHub Enterprise Server git repositories via Git I
 **What's on this page:**
 - [Integrate GitHub Enterprise Server with Jira Data Center/Server](#integrate-github-enterprise-server-with-jira-data-centerserver)
   - [Creating a personal access token](#creating-a-personal-access-token)
-  - [Using Full feature integration](#using-full-feature-integration)
-  - [Single repository (Manual integration)](#single-repository-manual-integration)
   - [Setting up GitHub Enterprise Server permissions](#setting-up-github-enterprise-server-permissions)
     - [Default repository permission\*\*](#default-repository-permission)
     - [Teams and collaborators](#teams-and-collaborators)
+  - [Integration platform support](#integration-platform-support)
+  - [Using Full feature integration](#using-full-feature-integration)
+  - [Single repository (Manual integration)](#single-repository-manual-integration)
   - [Setting up GitHub web links](#setting-up-github-web-links)
   - [Viewing git commits in Jira Server](#viewing-git-commits-in-jira-server)
   - [Require User PAT settings for user access](#require-user-pat-settings-for-user-access)
@@ -108,6 +109,130 @@ To utilize the new GitHub share PR events, we recommend that users must update t
 * `read:user`
 * `repo` (all)
 * `user:email`
+
+&nbsp;
+
+### Setting up GitHub Enterprise Server permissions
+
+We recommend using a "service user" in GitHub Enterprise _(example:_ `GitIntegrationforJira`_)_ to be used to integrate with Git Integration for Jira app. This dedicated "service user" will allow the GitHub Enterprise Server administrator to set permissions so the app clones only the desired repositories.
+
+Assign GitHub Enterprise Server permissions for team members or collaborators to allow which resources are accessible for service users. This feature is only available in a GitHub Organization.
+
+&nbsp;
+
+#### Default repository permission**
+
+1.  Login to your GitHub Enterprise Server account.
+
+2.  Go to ![profile icon](/wp-content/uploads/gij-profile-icon.png) Profile ➜ **Settings**.
+
+3.  Under _Organization settings_, click **Member Privileges**.
+
+    ![](/wp-content/uploads/gij-github-default-repo-permission-c.png)
+    *   Choose the default permission level for organization members.
+
+    *   The default repository permission only applies to organization members and not to outside collaborators. If the default permission is set to _**None**_, organization members will need to be given access to repositories using the Teams or Collaborators methods (see below).
+
+4.  **Save** the changes.
+
+
+For more information, see **Access Permissions on GitHub »**.
+
+&nbsp;
+
+#### Teams and collaborators
+
+To give a member additional access, they must be added to a team or make them collaborators on individual repositories.
+
+<br>
+
+**Set default repository permission for the current team:**
+
+1.  Open an organization team. (_Your org ➜ Team ➜ scroll down to the bottom then click the desired team._)
+
+2.  Click the **Repositories** tab.
+
+    ![](/wp-content/uploads/gij-github-manage-repo-permission-tab-c.png)
+
+3.  Set **Read**, **Write** or **Admin** repository access as desired.
+
+<br>
+
+**Assign members to a team on your GitHub repository:**
+
+1.  Create a team in your GitHub Organization.
+
+2.  Invite a member to add it into the team.  An email invitation is sent to that GitHub service user.
+
+    ![](/wp-content/uploads/gij-add-members-to-team-c.png)
+
+    The service user is then added to the team if the invitation has been accepted.
+
+3.  Click the service user to manage permissions for this member to:
+
+    *   Set desired **Role** for this member.
+
+    *   Convert this member to outside collaborator.
+
+    *   Give this member access to organization repositories.
+
+    *   Remove this member from the team.
+
+4.  Click **Manage access** to manage repository access for this member.
+
+
+![](/wp-content/uploads/gij-manage-team-repo-permission.png)
+
+<div class="bbb-callout bbb--note">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        While users have configured PAT for repository access, users in a GitHub Enterprise Server must at least have <b>Read</b> permissions. This allows them to view commits and smart commits, and browse repositories (if enabled) of connected GitHub Enterprise Server repositories inside Jira.
+    </div>
+    </div>
+</div>
+
+<div class="bbb-callout bbb--info">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        For repository managers, collaborators and commit authors, set these users to have <b>Write</b> permissions. This will allow them to view commits and smart commits, browse repositories and also enables them to create branches and pull requests to specified GitHub git repositories via developer panel of a Jira issue.
+    </div>
+    </div>
+</div>
+
+<div class="bbb-callout bbb--alert">
+    <div class="irow">
+    <div class="ilogobox">
+        <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+        The user PAT for "Require User PAT" setting should have <b>Write</b> permission. Otherwise, the user will not be able to use it for branch or pull request creation/deletion.
+    </div>
+    </div>
+</div>
+
+For more information on organization teams, see [**GitHub: Organizing Members into Teams »**](https://docs.github.com/en/organizations/organizing-members-into-teams).
+
+For more information on inviting collaborators, see [**Inviting Collaborators to a Personal/Organization Repository »**](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository).
+
+&nbsp;
+
+### Integration platform support
+
+GitHub supports the four most recent version releases. We follow this direction and the Git Integration for Jira app (GIJ) will also support these versions.
+
+For previous versions, GIJ supports the following GHE versions:
+*   GitHubEE 3.11 (Deprecation 2024-12-05)
+*   GitHubEE 3.10 (Deprecation 2024-08-29)
+*   GitHubEE 3.9 (Deprecation 2024-06-29)
+*   GitHubEE 3.8 (Deprecation 2024-03-07)
+
+GHE 3.8 supports authenticating with username and password. Therefore, GIJ will also do.
 
 &nbsp;
 
@@ -220,116 +345,6 @@ Choose between SSH or HTTPS. Use this information to connect the GitLab git rep
 
 
 The repository is now connected to Jira Server.
-
-&nbsp;
-
-### Setting up GitHub Enterprise Server permissions
-
-We recommend using a "service user" in GitHub Enterprise _(example:_ `GitIntegrationforJira`_)_ to be used to integrate with Git Integration for Jira app. This dedicated "service user" will allow the GitHub Enterprise Server administrator to set permissions so the app clones only the desired repositories.
-
-Assign GitHub Enterprise Server permissions for team members or collaborators to allow which resources are accessible for service users. This feature is only available in a GitHub Organization.
-
-&nbsp;
-
-#### Default repository permission**
-
-1.  Login to your GitHub Enterprise Server account.
-
-2.  Go to ![profile icon](/wp-content/uploads/gij-profile-icon.png) Profile ➜ **Settings**.
-
-3.  Under _Organization settings_, click **Member Privileges**.
-
-    ![](/wp-content/uploads/gij-github-default-repo-permission-c.png)
-    *   Choose the default permission level for organization members.
-
-    *   The default repository permission only applies to organization members and not to outside collaborators. If the default permission is set to _**None**_, organization members will need to be given access to repositories using the Teams or Collaborators methods (see below).
-
-4.  **Save** the changes.
-
-
-For more information, see **Access Permissions on GitHub »**.
-
-&nbsp;
-
-#### Teams and collaborators
-
-To give a member additional access, they must be added to a team or make them collaborators on individual repositories.
-
-<br>
-
-**Set default repository permission for the current team:**
-
-1.  Open an organization team. (_Your org ➜ Team ➜ scroll down to the bottom then click the desired team._)
-
-2.  Click the **Repositories** tab.
-
-    ![](/wp-content/uploads/gij-github-manage-repo-permission-tab-c.png)
-
-3.  Set **Read**, **Write** or **Admin** repository access as desired.
-
-<br>
-
-**Assign members to a team on your GitHub repository:**
-
-1.  Create a team in your GitHub Organization.
-
-2.  Invite a member to add it into the team.  An email invitation is sent to that GitHub service user.
-
-    ![](/wp-content/uploads/gij-add-members-to-team-c.png)
-
-    The service user is then added to the team if the invitation has been accepted.
-
-3.  Click the service user to manage permissions for this member to:
-
-    *   Set desired **Role** for this member.
-
-    *   Convert this member to outside collaborator.
-
-    *   Give this member access to organization repositories.
-
-    *   Remove this member from the team.
-
-4.  Click **Manage access** to manage repository access for this member.
-
-
-![](/wp-content/uploads/gij-manage-team-repo-permission.png)
-
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        While users have configured PAT for repository access, users in a GitHub Enterprise Server must at least have <b>Read</b> permissions. This allows them to view commits and smart commits, and browse repositories (if enabled) of connected GitHub Enterprise Server repositories inside Jira.
-    </div>
-    </div>
-</div>
-
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For repository managers, collaborators and commit authors, set these users to have <b>Write</b> permissions. This will allow them to view commits and smart commits, browse repositories and also enables them to create branches and pull requests to specified GitHub git repositories via developer panel of a Jira issue.
-    </div>
-    </div>
-</div>
-
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The user PAT for "Require User PAT" setting should have <b>Write</b> permission. Otherwise, the user will not be able to use it for branch or pull request creation/deletion.
-    </div>
-    </div>
-</div>
-
-For more information on organization teams, see [**GitHub: Organizing Members into Teams »**](https://docs.github.com/en/organizations/organizing-members-into-teams).
-
-For more information on inviting collaborators, see [**Inviting Collaborators to a Personal/Organization Repository »**](https://docs.github.com/en/account-and-profile/setting-up-and-managing-your-github-user-account/managing-access-to-your-personal-repositories/inviting-collaborators-to-a-personal-repository).
 
 &nbsp;
 
