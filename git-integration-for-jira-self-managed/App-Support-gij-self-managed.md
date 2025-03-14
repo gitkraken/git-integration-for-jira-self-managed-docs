@@ -7,7 +7,7 @@ taxonomy:
 
 ---
 
-The Git Integration for Jira app currently supports the following Jira versions:
+The Git Integration for Jira app (GIJ) currently supports the following Jira versions:
 
 | **GIJ version** | **Supported Jira versions** |
 | :--- | :--- |
@@ -33,6 +33,13 @@ The Git Integration for Jira app currently supports the following Jira versions:
 </div>
 
 We are committed to provide you with an efficient and reliable support. Scroll down to see helpful tips to get started.
+
+&nbsp;
+
+### JDK compatibility
+
+Any of the GIJ 4.x.x versions are compatible with JDK 17.
+Any of the GIJ 5.x.x versions are ONLY compatible with JDK 17.
 
 &nbsp;
 
