@@ -1,6 +1,6 @@
 ---
 
-title: Azure DevOps | Visual Studio Team Services (VSTS)
+title: Azure DevOps Services | Visual Studio Team Services (VSTS)
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
@@ -28,7 +28,7 @@ taxonomy:
 
 ## Integrate Azure DevOps/Visual Studio Team Services (VSTS) with Jira Data Center/Server
 
-Quickly learn how to connect Azure DevOps/VSTS git repositories via Git Integration for Jira Data Center/Server.
+Quickly learn how to connect Azure DevOps Repos/VSTS git repositories via Git Integration for Jira Data Center/Server.
 
 The Git Integration for Jira app supports Azure Repos.
 
@@ -36,6 +36,7 @@ The Git Integration for Jira app supports Azure Repos.
 - [Integrate Azure DevOps/Visual Studio Team Services (VSTS) with Jira Data Center/Server](#integrate-azure-devopsvisual-studio-team-services-vsts-with-jira-data-centerserver)
   - [Permissions](#permissions)
   - [Creating personal access tokens for Azure DevOps/VSTS account](#creating-personal-access-tokens-for-azure-devopsvsts-account)
+  - [Integration supported platform](#integration-supported-platform)
   - [Using Full feature integration](#using-full-feature-integration)
   - [Single repository integration (Manual integration)](#single-repository-integration-manual-integration)
   - [Webhooks and web linking](#webhooks-and-web-linking)
@@ -67,9 +68,19 @@ The Git Integration for Jira app supports Azure Repos.
 
 Set Azure DevOps/VSTS repository permissions according to your organization's rules. Viewing commits from Jira requires the user to have at least **Read** or **View** permissions. For branch/pull request creation, set specific service users with **Write** permissions.
 
+&nbsp;
+
 ### Creating personal access tokens for Azure DevOps/VSTS account
 
 Connecting to Azure DevOps / VSTS account requires personal access token to work. If you have not yet generated a personal access token (PAT), create your token by following the steps outlined [in this article](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed#azure-devops-visual-studio-team-services-vsts).
+
+&nbsp;
+
+### Integration supported platform
+
+The Git Integration for Jira DC app support the latest version of VSTS. Visual Studio Team Services (VSTS) is now Azure DevOps Services, which is also known as, Azure DevOps Repos.
+
+&nbsp;
 
 ### Using Full feature integration
 
@@ -220,6 +231,8 @@ The Git Integration for Jira app automatically configures web linking for Azure 
 For detailed step-by-step guide showcasing the webhooks setup, [see this article](/git-integration-for-jira-data-center/Adding-Webhooks-for-Azure-DevOps-Repos-VSTS-gij-self-managed).
 
 For single repository connections, web link setup is optional. However, git links will become available in Git Commits tab when configured. For more information on this feature, see [Documentation: Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed).
+
+&nbsp;
 
 ### Linking Azure DevOps/VSTS git commits to Jira Data Center/Server
 
@@ -446,7 +459,7 @@ Once approved, the team leader or reviewer can then complete the merge. The comm
 
 [GitLab CE/EE](/git-integration-for-jira-data-center/gitLab-com-CE-EE-gijsm-gij-self-managed) (Git Integration for Jira Data Center/Server)
 
-**Azure DevOps \| Visual Studio Team Services (VSTS)** (this page)
+**Azure DevOps Repos \| Visual Studio Team Services (VSTS)** (this page)
 
 [Azure DevOps Server | Team Foundation Services (TFS)](/git-integration-for-jira-data-center/azure-DevOps-Server-Team-Foundation-Services-(TFS)-gij-self-managed) (Git Integration for Jira Data Center/Server)
 

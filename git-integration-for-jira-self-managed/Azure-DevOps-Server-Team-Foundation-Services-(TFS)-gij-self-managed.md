@@ -33,8 +33,9 @@ Quickly learn how to connect Azure DevOps Server/TFS git repositories via Git In
 The Git Integration for Jira app supports Azure Repos.
 
 - [Integrate Azure DevOps Server/TFS with Jira Data Center/Server](#integrate-azure-devops-servertfs-with-jira-data-centerserver)
-  - [Creating a personal access token](#creating-a-personal-access-token)
   - [Permissions](#permissions)
+  - [Creating a personal access token](#creating-a-personal-access-token)
+  - [Integration supported platform](#integration-supported-platform)
   - [Using Full feature integration](#using-full-feature-integration)
   - [Single repository integration (Manual integration)](#single-repository-integration-manual-integration)
   - [Webhooks and web linking](#webhooks-and-web-linking)
@@ -52,6 +53,12 @@ The Git Integration for Jira app supports Azure Repos.
 * * *
 &nbsp;
 
+### Permissions
+
+Set Azure DevOps Server/TFS repository permissions according to your organization's rules. Viewing commits from Jira requires the user to have at least **Read** or **View** permissions. For branch/pull request creation, set specific service users with **Write** permissions.
+
+&nbsp;
+
 ### Creating a personal access token
 
 For TFS 2017, TFS 2018 and Azure DevOps Server, you can generate a personal access token (PAT) for extra security. Use this token as password or as login key for auto-connect or manual integration with Git Integration for Jira app.
@@ -60,9 +67,15 @@ To create PATs, follow the simple steps outlined in [in this article](/git-inte
 
 &nbsp;
 
-### Permissions
+### Integration supported platform
 
-Set Azure DevOps Server/TFS repository permissions according to your organization's rules. Viewing commits from Jira requires the user to have at least **Read** or **View** permissions. For branch/pull request creation, set specific service users with **Write** permissions.
+The Git Integration for Jira DC app supports the following Microsoft git services and the latest versions of Azure DevOps Server:
+
+*   Azure DevOps Server 2022
+*   Azure DevOps Server 2020
+*   Azure DevOps Server 2019
+*   Team Foundation Server 2018
+*   Team Foundation Server 2017
 
 &nbsp;
 

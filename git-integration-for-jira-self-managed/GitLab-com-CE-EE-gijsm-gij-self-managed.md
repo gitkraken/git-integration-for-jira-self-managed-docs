@@ -30,7 +30,7 @@ Introduced in **v2.9.4** of the Git Integration for Jira app, this feature tra
 
 GitLab v10+ stopped accepting username/password credentials for API access and will only recognize Personal Access Tokens (PAT) and OAuth authentications. Service users are strongly advised to switch from using username/password for newer versions of GitLab Server (CE/EE) to using PAT.
 
-For GitLab Server service users, they won't see the issue until they upgrade their GitLab Servers to version 10 and higher. Git Integration for Jira app offers pre-v10 GitLab Server service users as a Legacy connection option.
+For GitLab Server service users, they won't see the issue until they upgrade their GitLab Servers to version 10 and higher.
 
 <div class="bbb-callout bbb--error">
     <div class="irow">
@@ -81,6 +81,7 @@ Quickly learn how to connect GitLab CE/EE git repositories via Git Integration f
 - [Integrate GitLab CE/EE with Jira Data Center/Server](#integrate-gitlab-ceee-with-jira-data-centerserver)
   - [Permissions](#permissions)
   - [Creating a personal access token](#creating-a-personal-access-token)
+  - [Integration supported platform](#integration-supported-platform)
   - [Using Full feature integration](#using-full-feature-integration)
   - [Single repository (Manual integration)](#single-repository-manual-integration)
   - [Post-install tips](#post-install-tips)
@@ -150,6 +151,18 @@ For more information, see [**GitLab Permissions »**](https://docs.gitlab.com/e
 ### Creating a personal access token
 
 GitLab Server version 10.2 and newer requires a configured PAT. Follow [this article](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed#gitlab--gitlab-ceee-gij-self-managed) for some specific instructions on how to create PAT for Jira git integration.
+
+&nbsp;
+
+### Integration supported platform
+
+We don't support API v3 anymore. Thus, supported GitLab versions are at least:
+
+*   GitLab v16.6 (EOL 15 Feb 2024)
+*   GitLab v16.5 (EOL 18 Jan 2024)
+*   GitLab v16.4 (EOL 21 Dec 2023)
+
+While Gitlab supports the following newer versions [here](https://endoflife.date/gitlab), the Git Integration for Jira app also support these.
 
 &nbsp;
 

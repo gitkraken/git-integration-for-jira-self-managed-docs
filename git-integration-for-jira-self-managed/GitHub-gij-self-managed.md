@@ -53,11 +53,11 @@ Quickly learn how to connect GitHub.com git repositories via Git Integration for
 **What's on this page:**
 - [Integrate GitHub.com with Jira Data Center/Server](#integrate-githubcom-with-jira-data-centerserver)
   - [Creating a personal access token](#creating-a-personal-access-token)
-  - [Using Full feature integration](#using-full-feature-integration)
-  - [Single repository (Manual integration)](#single-repository-manual-integration)
   - [Setting up GitHub permissions](#setting-up-github-permissions)
     - [Default repository permission](#default-repository-permission)
     - [Teams and collaborators](#teams-and-collaborators)
+  - [Using Full feature integration](#using-full-feature-integration)
+  - [Single repository (Manual integration)](#single-repository-manual-integration)
   - [Setting up GitHub web links](#setting-up-github-web-links)
   - [Viewing git commits in Jira Data Center](#viewing-git-commits-in-jira-data-center)
   - [Require User PAT settings for user access](#require-user-pat-settings-for-user-access)
@@ -110,129 +110,6 @@ To utilize the new GitHub share PR events, we recommend that users must update t
 * `user:email`
 
 &nbsp;
-
-### Using Full feature integration
-
-This process requires an existing GitHub git repository.
-
-We recommend using the Add new integration panel (_formerly Auto-connect integration_) to connect multiple repositories from your GitHub.com account.
-
-This setup uses full feature integration offering functions and features not found on single repository connections.
-
-&nbsp;
-
-<div class="bbb-callout bbb--error">
-  <div class="irow">
-    <div class="ilogobox">
-      <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-      On November 13, 2020, GitHub.com is going to stop allowing API authentication via username/password. For more information, see <a href="https://developer.github.com/changes/2020-02-14-deprecating-password-auth/" title="Opens this link in a new tab" target="_blank">GitHub.com - Deprecating Password Authentication</a>.
-    </div>
-  </div>
-</div>
-
-We strongly recommend to use personal access tokens for GitHub.com account integration.
-
-1.  On your Jira dashboard menu, go to Git ➜ **Manage repositories**.
-
-2.  Click **GitHub.com** on the Add new integration panel. The Add new integration wizard dialog is displayed.
-
-    ![](/wp-content/uploads/gij-gitserver-connect-auto-ext-service-github-com-c.png)
-
-3.  **GitHub.com and GitHub Enterprise Cloud** is selected by default. Paste the personal access token in the provided box.
-
-    -  Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed.
-
-        ![](/wp-content/uploads/gij-gitserver-general-advanced-autoconnect-opt-c.png)
-
-        -  **Custom API Path**  –  this is a relative path that starts with "/". The maximum allowed length is 2000 characters or less. The integration will use the supported relative REST API path to retrieve the list of tracked repositories.
-
-            For more examples, see article [Working with Custom API Path - GitHub.com](/git-integration-for-jira-data-center/working-with-custom-api-path-gij-self-managed#githubcom-and-github-enterprise-examples).
-
-        -  **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated.   The maximum allowed length is 2000 characters or less.
-
-            For help with writing expressions, please contact [support](mailto:gijsupport@gitkraken.com). Read about JMESPath expressions on their **website**.
-
-            For some other examples, see [Working with JMESPath Filter in GitHub.com](/git-integration-for-jira-data-center/gitHub-gitHub-enterprise-jmespath-filter-examples-gij-self-managed).
-
-        -  **Fetch refspec**  –  Git refspecs contains patterns mapped as references from the remote to the local repository.
-            For more information, see [**Git Internals -- The Refspec**](https://git-scm.com/book/en/v2/Git-Internals-The-Refspec).
-
-            -  The first two refspec options are required.
-
-            -  The rest of the options are OPTIONAL:
-
-                -  **Clone and index ref notes (refs/notes)** – This is a reference to `refs/notes/*` used for fetching.  This option is enabled by default.  This affects git notes which are not shown:
-
-                    - ...when `refs/notes` are disabled on connecting a repository.
-
-                    - ...when a new note comes when `refs/notes` is disabled.
-
-                -  **Clone and index changes (refs/changes)** – This is a reference to `refs/changes/*` used for fetching.  This option is turned off by default.
-
-                -  **Clone and index other refs** – This is a user-defined list of references used for fetching.  It is a comma-separated list with the format:
-
-                    - `+refs/refname1/*:refs/refname1/*, refs/refname2/*:refs/refname2/*, ...`
-
-    While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
-
-4.  Click **Connect**.
-
-5.  On the following screen, the Git Integration for Jira app will read all available repositories from your GitHub account. Click **Import repositories**.
-
-    Repositories of the logged-in GitHub user can be automatically connected to Jira Data Center. Repositories that are added or removed from GitHub will be likewise connected or disconnected from Jira Data Center.
-
-6.  After the import process, the **Settings** screen is displayed.
-
-    ![](/wp-content/uploads/gij-gitserver-github-autoconnect-settings-dlg-c.png)
-
-    *   On the Integration Settings, setting the _**Require User PAT**_ option to `ON`, will require users to provide PAT specific for branch and merge requests _(via the_ [developer panel](/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed) _on the Jira issue page)_.
-
-        For more information on this feature, see [Integration Settings: Require User PAT](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed).
-
-    *   Set **Smart Commits** and **Repository Browser** to enable/disable these features.
-
-    *   Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Associating project permissions](/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed).
-
-7.  Click **Finish** to complete this setup.
-
-The GitHub.com repositories are now connected to Jira Data Center.
-
-There will be a slight delay in adding 2FA-enabled repositories compared to others. These will show in the git configuration list eventually.
-
-&nbsp;
-
-### Single repository (Manual integration)
-
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-      <div class="ilogobox">
-        <span class="logoimg"></span>
-      </div>
-      <div class="imsgbox">
-        This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.
-      </div>
-    </div>
-  </div>
-
-This process requires an existing GitHub git repository. Look for the GitHub repository URL on the repository project page.
-
-Choose between SSH or HTTPS. Use this information to connect the GitHub git repository to your Jira Data Center via Git Integration for Jira app:
-
-![](/wp-content/uploads/gij-github-repository-home-dark.png)
-
-1.  On your Jira dashboard menu, go to Git ➜ **Manage repositories**.
-
-2.  Click **Connect to Git Repository** (_or click the Git icon on the Add new integration panel_) to open the Connect Wizard.
-
-3.  Paste the URL from GitHub in the provided box.
-
-4.  Continue to the next step by following the screen instructions.
-
-5.  Click **Finish** to complete this process.
-
-The repository is now connected to Jira Data Center.
 
 ### Setting up GitHub permissions
 
@@ -329,22 +206,147 @@ To give a member additional access, they must be added to a team or make them co
   </div>
 </div>
 
+For more information on organization teams, see [**GitHub: Organizing Members into Teams »**](https://help.github.com/articles/organizing-members-into-teams/).
+
+For more information on inviting collaborators, see [**Inviting Collaborators to a Personal/Organization Repository »**](https://help.github.com/articles/inviting-collaborators-to-a-personal-repository/).
+
+&nbsp;
+
+### Using Full feature integration
+
+This process requires an existing GitHub git repository.
+
+We recommend using the Add new integration panel (_formerly Auto-connect integration_) to connect multiple repositories from your GitHub.com account.
+
+This setup uses full feature integration offering functions and features not found on single repository connections.
+
+&nbsp;
+
+<div class="bbb-callout bbb--error">
+  <div class="irow">
+    <div class="ilogobox">
+      <span class="logoimg"></span>
+    </div>
+    <div class="imsgbox">
+      On November 13, 2020, GitHub.com is going to stop allowing API authentication via username/password. For more information, see <a href="https://developer.github.com/changes/2020-02-14-deprecating-password-auth/" title="Opens this link in a new tab" target="_blank">GitHub.com - Deprecating Password Authentication</a>.
+    </div>
+  </div>
+</div>
+
+We strongly recommend to use personal access tokens for GitHub.com account integration.
+
+1.  On your Jira dashboard menu, go to Git ➜ **Manage repositories**.
+
+2.  Click **GitHub.com** on the Add new integration panel. The Add new integration wizard dialog is displayed.
+
+    ![](/wp-content/uploads/gij-gitserver-connect-auto-ext-service-github-com-c.png)
+
+3.  **GitHub.com and GitHub Enterprise Cloud** is selected by default. Paste the personal access token in the provided box.
+
+    -  Configuring the **Advanced** settings is optional. However, admins/power users may set how the project listing is displayed.
+
+        ![](/wp-content/uploads/gij-gitserver-general-advanced-autoconnect-opt-c.png)
+
+        -  **Custom API Path**  –  this is a relative path that starts with "/". The maximum allowed length is 2000 characters or less. The integration will use the supported relative REST API path to retrieve the list of tracked repositories.
+
+            For more examples, see article [Working with Custom API Path - GitHub.com](/git-integration-for-jira-data-center/working-with-custom-api-path-gij-self-managed#githubcom-and-github-enterprise-examples).
+
+        -  **JMESPath filter**  –  JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated.   The maximum allowed length is 2000 characters or less.
+
+            For help with writing expressions, please contact [support](mailto:gijsupport@gitkraken.com). Read about JMESPath expressions on their **website**.
+
+            For some other examples, see [Working with JMESPath Filter in GitHub.com](/git-integration-for-jira-data-center/gitHub-gitHub-enterprise-jmespath-filter-examples-gij-self-managed).
+
+        -  **Fetch refspec**  –  Git refspecs contains patterns mapped as references from the remote to the local repository.
+            For more information, see [**Git Internals -- The Refspec**](https://git-scm.com/book/en/v2/Git-Internals-The-Refspec).
+
+            -  The first two refspec options are required.
+
+            -  The rest of the options are OPTIONAL:
+
+                -  **Clone and index ref notes (refs/notes)** – This is a reference to `refs/notes/*` used for fetching.  This option is enabled by default.  This affects git notes which are not shown:
+
+                    - ...when `refs/notes` are disabled on connecting a repository.
+
+                    - ...when a new note comes when `refs/notes` is disabled.
+
+                -  **Clone and index changes (refs/changes)** – This is a reference to `refs/changes/*` used for fetching.  This option is turned off by default.
+
+                -  **Clone and index other refs** – This is a user-defined list of references used for fetching.  It is a comma-separated list with the format:
+
+                    - `+refs/refname1/*:refs/refname1/*, refs/refname2/*:refs/refname2/*, ...`
+
+    While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
+
+4.  Click **Connect**.
+
+5.  On the following screen, the Git Integration for Jira app will read all available repositories from your GitHub account. Click **Import repositories**.
+
+    Repositories of the logged-in GitHub user can be automatically connected to Jira Data Center. Repositories that are added or removed from GitHub will be likewise connected or disconnected from Jira Data Center.
+
+6.  After the import process, the **Settings** screen is displayed.
+
+    ![](/wp-content/uploads/gij-gitserver-github-autoconnect-settings-dlg-c.png)
+
+    *   On the Integration Settings, setting the _**Require User PAT**_ option to `ON`, will require users to provide PAT specific for branch and merge requests _(via the_ [developer panel](/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed) _on the Jira issue page)_.
+
+        <div class="bbb-callout bbb--alert">
+          <div class="irow">
+            <div class="ilogobox">
+              <span class="logoimg"></span>
+            </div>
+            <div class="imsgbox">
+              <b>Personal access token</b><br>
+              The user PAT for "Require User PAT" setting should have <b>Write</b> permission. Otherwise, the user will not be able to use it for branch or pull request creation/deletion.
+            </div>
+          </div>
+        </div>
+
+        For more information on this feature, see [Integration Settings: Require User PAT](/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed).
+
+    *   Set **Smart Commits** and **Repository Browser** to enable/disable these features.
+
+    *   Set **Project Permissions** according to your organization's project association rules. For detailed information, see [Associating project permissions](/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed).
+
+7.  Click **Finish** to complete this setup.
+
+The GitHub.com repositories are now connected to Jira Data Center.
+
+There will be a slight delay in adding 2FA-enabled repositories compared to others. These will show in the git configuration list eventually.
+
+&nbsp;
+
+### Single repository (Manual integration)
+
 <div class="bbb-callout bbb--alert">
   <div class="irow">
     <div class="ilogobox">
       <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-      The user PAT for "Require User PAT" setting should have <b>Write</b> permission. Otherwise, the user will not be able to use it for branch or pull request creation/deletion.
+      This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.
     </div>
   </div>
 </div>
 
-For more information on organization teams, see [**GitHub: Organizing Members into Teams »**](https://help.github.com/articles/organizing-members-into-teams/).
+This process requires an existing GitHub git repository. Look for the GitHub repository URL on the repository project page.
 
-For more information on inviting collaborators, see [**Inviting Collaborators to a Personal/Organization Repository »**](https://help.github.com/articles/inviting-collaborators-to-a-personal-repository/).
+Choose between SSH or HTTPS. Use this information to connect the GitHub git repository to your Jira Data Center via Git Integration for Jira app:
 
-&nbsp;
+![](/wp-content/uploads/gij-github-repository-home-dark.png)
+
+1.  On your Jira dashboard menu, go to Git ➜ **Manage repositories**.
+
+2.  Click **Connect to Git Repository** (_or click the Git icon on the Add new integration panel_) to open the Connect Wizard.
+
+3.  Paste the URL from GitHub in the provided box.
+
+4.  Continue to the next step by following the screen instructions.
+
+5.  Click **Finish** to complete this process.
+
+The repository is now connected to Jira Data Center.
+
 
 ### Setting up GitHub web links
 
