@@ -68,6 +68,15 @@ You can save the JQL search results to CSV, HTML, XML or Word via **Export**.
 </div>
 
 &nbsp;
+
+### We’re getting no response anymore from JQL searches and when we try, we see CPU spikes. What's causing this?
+
+JQL has some limitations. Having more than 65,000 active Jira issues may cause the query to timeout. In some cases, it is better to add more conditions to narrow down the number of results.
+
+For example, you can try inverting the order of the query:<br>
+`gitCommitsReferenced = true AND project = XXX`
+
+&nbsp;
 * * *
 
 [**Prev:** Reindexing](/git-integration-for-jira-data-center/reindexing-gij-self-managed)
