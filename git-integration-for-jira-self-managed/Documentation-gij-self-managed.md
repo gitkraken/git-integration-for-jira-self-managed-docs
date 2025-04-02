@@ -17,7 +17,7 @@ taxonomy:
         <span class="logoimg"></span>
     </div>
     <div class="imsgbox">
-        This documentation guide covers <b>v4.23</b> features. For more information on released features, see <a href='/git-integration-for-jira-data-center/git-integration-for-jira-data-center-release-notes-gij-self-managed'>Release notes</a>.
+        This documentation guide covers <b>v4.28.x</b> and <b>v5.1.x</b>features. For more information on released features, see <a href='/git-integration-for-jira-data-center/git-integration-for-jira-data-center-release-notes-gij-self-managed'>Release notes</a>.
     </div>
     </div>
 </div>
