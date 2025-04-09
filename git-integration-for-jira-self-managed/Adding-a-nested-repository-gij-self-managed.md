@@ -97,13 +97,13 @@ For example:
 
 &nbsp;
 
-## Adding a nested repository example
+## Example: Adding a nested repository with Git Submodule
 
 While, GitHub does not allow nested repositories (Git doesn't allow this for bare repositories), you can use submodules to nest repositories on the "client side" in the working tree:
 
 1.  Clone the parent directory.
 
-2.  Add the sub-repository as a submodule:
+2.  Add the sub-repository as a [submodule](https://git-scm.com/book/en/v2/Git-Tools-Submodules):
 
     `git submodule add https://github.com/\<username\>/\<sub_repo\>.git`
 
@@ -121,6 +121,28 @@ While, GitHub does not allow nested repositories (Git doesn't allow this for bar
     </div>
     </div>
 </div>
+
+&nbsp;
+
+## Adding a nested repository with Git Integration for Jira app
+
+Adding a nested repository configuration through the Git Integration for Jira app is similar to adding a plain Git repository.
+
+1.  Go to the Manage integration configuration page.
+
+2.  Click either the Connect to Git repository button or the Git icon on the integration panel.
+
+3.  On the following screen, paste the clone URL of the submodule from your git service portal.
+
+4.  On the following screen, the input fields depends on what type of clone URL you’ll be using:
+
+    *   **HTTPS authentication** – Enter your credentials such as username and password. For the password, provide the PAT as the password.
+
+    *   **SSH authentication** – Provide the private ssh key. Enter the passphrase if your SSH key requires a passphrase.
+
+5.  On the Settings screen, leave all options as is. Click Finish to complete this setup.
+
+The nested repository configuration is added to the Manage integrations list.
 
 &nbsp;
 * * *
