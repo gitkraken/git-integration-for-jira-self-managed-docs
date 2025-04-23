@@ -35,13 +35,13 @@ To work with AWS submodules, you need to ensure that the IAM user or role has th
 
 &nbsp;
 
-## How Nested Repositories Work
+## How nested repositories work
 
 When a Git repository is placed inside another repository’s directory, it does not automatically become part of the parent repository. The parent repository does not track the nested repo’s files unless they are plainly added, which can sometimes cause confusion in version control workflows.
 
 &nbsp;
 
-## Practical Use for Developers
+## Practical use for developers
 
 Nested repositories can be useful in some specific development scenarios:
 
@@ -49,21 +49,21 @@ Nested repositories can be useful in some specific development scenarios:
 
     Developers working on large projects can organize their code into separate repositories while still keeping them inside a main project folder.
 
--   **Manage Third-Party Dependencies**
+-   **Manage third-party dependencies**
 
-    Developers can include third-party projects or libraries as nested repositories rather than manually copying their source code. This helps in maintaining dependencies up to date by pulling changes from the external repository when needed.
+    Developers can include third-party projects or libraries as nested repositories rather than manually copying their source code. This helps in maintaining dependencies up to date by pulling changes from the remote repository when needed.
 
--   **Standalone Version Control**
+-   **Standalone version control**
 
     Each nested repository keeps its own history and branches. This will allow teams to work on different components independently. This is useful in cases where sub-teams or external collaborators need full control over a specific module.
 
--   **Custom Development Environments**
+-   **Custom development environments**
 
     Some teams maintain separate repositories for configuration files, infrastructure scripts, or experimental features inside their main project repository. This allows for quick testing and switching between configurations without affecting the core project.
 
 &nbsp;
 
-## Some Challenges with Using Nested Repositories
+## Some challenges with using nested repositories
 
 While nested repositories offer some benefits, they also come with challenges. For instance:
 
@@ -81,7 +81,7 @@ While nested repositories offer some benefits, they also come with challenges. F
 
 &nbsp;
 
-## Nested Repository as a Formal Feature
+## Nested repository as a formal feature
 
 Various Git hosting services and platforms implement distinct policies for managing nested repositories. Although Git does not natively support "nested repositories" as a formal feature, certain services offer equivalent functionality under different name or terms.
 
@@ -129,6 +129,8 @@ While, GitHub does not allow nested repositories (Git doesn't allow this for bar
 Adding a nested repository configuration through the Git Integration for Jira app is similar to adding a plain Git repository.
 
 1.  Go to the Manage integration configuration page.
+
+    ![](/wp-content-uploads/)
 
 2.  Click either the Connect to Git repository button or the Git icon on the integration panel.
 
