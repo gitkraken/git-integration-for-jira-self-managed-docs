@@ -101,5 +101,5 @@ For example:
 
 [**Prev:** Using the Connect Repository wizard](/git-integration-for-jira-data-center/using-the-connect-repository-wizard-gij-self-managed)
 
-[**Next:** Adding and connecting a nested repository](/git-integration-for-jira-data-center/connecting-a-repository-via-advanced-setup-gij-self-managed)
+[**Next:** Adding and connecting a nested repository](/git-integration-for-jira-data-center/adding-a-nested-repository-gij-self-managed)
 

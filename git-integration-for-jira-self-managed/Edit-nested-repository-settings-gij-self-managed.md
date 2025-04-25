@@ -118,7 +118,7 @@ Utilize the options below for configuring repository settings:
 &nbsp;
 * * *
 
-[**Prev:** Connecting a nested repository](/git-integration-for-jira-data-center/adding-a-nested-repository-gij-self-managed)
+[**Prev:** Connecting a nested repository](/git-integration-for-jira-data-center/Adding-a-nested-repository-gij-self-managed)
 
 [**Next:** Remove a nested repository](/git-integration-for-jira-data-center/Remove-a-nested-repository-gij-self-managed)
 
