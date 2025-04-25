@@ -7,11 +7,9 @@ taxonomy:
 
 ---
 
-## How to edit a nested repository with Git Integration for Jira app?
+## Pre-GIJ version 5.x.x
 
-### Pre-GIJ version 5.x.x
-
-Go to the Manage integrations configuration page and choose an integration with the nested repository to manage.
+Go to the Manage repositories configuration page and choose an integration with the nested repository to manage.
 
 1.  Click &nbsp;<img src='/wp-content/uploads/actions-icon.png' /> Action ➜ **Show integration repositories**.
 
@@ -21,9 +19,13 @@ Go to the Manage integrations configuration page and choose an integration with 
 
     ![](/wp-content/uploads/gij-datacenter-pre-5x-show-integration-repos.png)
 
-3.  With screens similar to the Edit repository settings page (see next section), make some necessary changes to the selected nested repository and then click Save to save your changes.
+3.  With screens similar to the Edit repository settings page (see [next section]()), make some necessary changes to the selected nested repository and then click Save to save your changes.
 
-### GIJ version 5.x
+For single connected nested repository integration, click on <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit integration connection/feature settings** to modify/update nested repository settings.
+
+&nbsp;
+
+## GIJ version 5.x
 
 Go to the Manage repositories configuration page and navigate to the nested repository you want to manage.
 
@@ -32,6 +34,8 @@ Go to the Manage repositories configuration page and navigate to the nested repo
     ![](/wp-content/uploads/gij-datacenter-5x-manage-repos-nested.png)
 
 2.  On the **Settings for Repository** page, make the necessary changes as desired (see next section). Click **Save** to save the changes.
+
+For single connected nested repository integration, click on <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit repository** to modify/update nested repository settings.
 
 <div class="bbb-callout bbb--info">
     <div class="irow">
@@ -114,8 +118,8 @@ Utilize the options below for configuring repository settings:
 &nbsp;
 * * *
 
-[**Prev:** Adding a nested repository](/git-integration-for-jira-data-center/adding-a-nested-repository-gij-self-managed)
+[**Prev:** Connecting a nested repository](/git-integration-for-jira-data-center/adding-a-nested-repository-gij-self-managed)
 
-[**Next:** SSL verify](/git-integration-for-jira-data-center/edit-nested-repository-settings-gij-self-managed)
+[**Next:** Remove a nested repository](/git-integration-for-jira-data-center/Remove-a-nested-repository-gij-self-managed)
 
 
