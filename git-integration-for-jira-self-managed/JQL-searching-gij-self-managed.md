@@ -7,7 +7,9 @@ taxonomy:
 
 ---
 
-The Git Integration for Jira app has added JQL operators and fields to query Jira using JQL and git context via the Jira search.
+The Git Integration for Jira app has added JQL operators and fields to query Jira using JQL and git context via the Jira search. Our custom fields serve as additional criteria that allow you to filter Jira issues based on associated Git branches and commit references.
+
+
 
 &nbsp;
 
@@ -25,7 +27,7 @@ The Jira JQL has been extended as follows:
 
 | Criteria Name | JQL Field Syntax | Description | Search Result Value Example |
 | :--- | :--- | :--- | :--- |
-| Git Commits Referenced | `gitCommitsReferenced` IS NOT empty<br>`gitCommitsReferenced` IS empty | True for all issues referenced by a git commit<br>True for all issues not referenced by a git commit | `"true"` or “” _(empty string)_ |
+| Git Commits Referenced | `gitCommitsReferenced` IS NOT empty<br>`gitCommitsReferenced` IS empty | True for all issues referenced by a git commit<br>True for all issues not referenced by a git commit | IS empty<br>IS NOT empty |
 | Git Branch | `gitBranch` in (`Version-5.2`, `Version-5.3`) | True for all issues referenced by a git commit in branch Version-5.2 and branch Version-5.3 | `Version-5.2,` `Version-5.3` |
 
 **Examples:**<br>
