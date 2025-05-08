@@ -25,7 +25,7 @@ The Jira JQL has been extended as follows:
 
 | Criteria Name | JQL Field Syntax | Description | Search Result Value Example |
 | :--- | :--- | :--- | :--- |
-| Git Commits Referenced | `gitCommitsReferenced` is not empty<br>`gitCommitsReferenced` is empty | True for all issues referenced by a git commit<br>True for all issues not referenced by a git commit | `True` or “” _(empty string)_ |
+| Git Commits Referenced | `gitCommitsReferenced` IS NOT empty<br>`gitCommitsReferenced` IS empty | True for all issues referenced by a git commit<br>True for all issues not referenced by a git commit | `"true"` or “” _(empty string)_ |
 | Git Branch | `gitBranch` in (`Version-5.2`, `Version-5.3`) | True for all issues referenced by a git commit in branch Version-5.2 and branch Version-5.3 | `Version-5.2,` `Version-5.3` |
 
 **Examples:**<br>
@@ -40,10 +40,10 @@ gitCommitsReferenced is not empty AND resolution = Unresolved
     <tr>
         <td style="padding:10px;">
             <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.28+</b> <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 5.1+</b><br><br>    
-            The <code>gitCommitsReferenced</code> field now additionally supports project filtering.<br><br>
+            The <code>gitCommitsReferenced</code> field now additionally supports project filtering. Note that <code>gitCommitsReferenced</code> can only use <code>IS NOT</code> or <code>IS</code> operators.<br><br>
             The resulting set in the response to the user's request has not changed. The only difference is that, before, the project filter is applied only after the filter. Now, it is applied inside the filter as well.<br><br>
             See the JQL query with the project filter together with the <code>gitCommitReferenced</code> field below:<br><br>
-            <code>project = ISSUE_KEY AND gitCommitsReferenced is EMPTY</code>
+            <code>project = PROJECT_KEY AND gitCommitsReferenced IS EMPTY</code>
         </td>
     </tr>
 </table>
@@ -74,7 +74,7 @@ You can save the JQL search results to CSV, HTML, XML or Word via **Export**.
 JQL has some limitations. Having more than 65,000 active Jira issues may cause the query to timeout. In some cases, it is better to add more conditions to narrow down the number of results.
 
 For example, you can try inverting the order of the query:<br>
-`gitCommitsReferenced = true AND project = XXX`
+`gitCommitsReferenced IS NOT empty AND project = PROJECT_KEY`
 
 &nbsp;
 * * *
