@@ -74,7 +74,7 @@ You can save the JQL search results to CSV, HTML, XML or Word via **Export**.
 JQL has some limitations. Having more than 65,000 active Jira issues may cause the query to timeout. In some cases, it is better to add more conditions to narrow down the number of results.
 
 For example, you can try inverting the order of the query:<br>
-`gitCommitsReferenced IS "true" AND project = PROJECT_KEY`
+`gitCommitsReferenced IS NOT empty AND project = PROJECT_KEY`
 
 &nbsp;
 * * *
