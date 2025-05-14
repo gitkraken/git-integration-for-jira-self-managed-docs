@@ -31,7 +31,7 @@ To ensure the best support experience, please refer to our [Support & Compatibil
 
 - Browser compatibility
 
--Service limitations
+- Service limitations
 
 - End-of-life policies
 
