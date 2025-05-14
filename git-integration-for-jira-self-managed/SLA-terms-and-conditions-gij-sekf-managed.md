@@ -28,11 +28,8 @@ GitKraken provides technical support for Git Integration for Jira (GIJ) in align
 To ensure the best support experience, please refer to our [Support & Compatibility Information](https://help.gitkraken.com) for details on:
 
 - Supported Jira versions
-
 - Browser compatibility
-
 - Service limitations
-
 - End-of-life policies
 
 While GitKraken will make every reasonable effort to meet these response timelines, we are not liable for delays resulting from customer-side issues or events outside of our control.
