@@ -193,7 +193,7 @@ For example, let's assume you want to run a Jira standalone instance locally and
 3.  With Git Integration for Jira app, set up an alternative URL by doing the following call:
 
     ```bash
-    curl -X POST http://localhost:2990/jira/rest/gitplugin/1.0/global-settings \\
+    curl -X POST http://localhost:2990/rest/gitplugin/1.0/global-settings \\
     --user admin \\
     -H "Content-Type: application/json" \\
     -d '{"altJiraBaseUrl": "https://my.ngrok.com/jira"}'
