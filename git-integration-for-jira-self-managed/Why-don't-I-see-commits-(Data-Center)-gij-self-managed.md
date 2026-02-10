@@ -152,7 +152,7 @@ Check the video for more instructions:
 </div>
 
 <div align='center'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/7kj43knu4m'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/7kj43knu4m'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
 <p style='text-align:center;font-size:20px;margin-top:20px;'>&#8681;</p>
@@ -174,7 +174,7 @@ The Permission Helper is available to Jira admins: Jira Administration ➜ Sys
 </div>
 
 <div align='center' style='margin-top:12px;margin-bottom:20px;'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/ynjggc2wzg'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/ynjggc2wzg'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
 <p style='text-align:center;font-size:20px'>&#8681;</p>

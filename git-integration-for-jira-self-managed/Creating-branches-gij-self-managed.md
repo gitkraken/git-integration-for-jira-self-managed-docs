@@ -124,7 +124,7 @@ When creating a branch from within Jira:
 </div>
 
 <div style='text-align: center' style='margin-top:10px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/8cy7v6ykug'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i><br>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/8cy7v6ykug'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i><br>
     <i>The video shows Git Integration for Jira Cloud process but is also <br>applicable to the Jira Server version.</i>
 </div>
 

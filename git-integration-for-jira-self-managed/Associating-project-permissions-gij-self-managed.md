@@ -44,7 +44,7 @@ There are several types of project permission levels, namely:
 </div>
 
 <div align='center' style='margin-top:10px;margin-bottom:30px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/xvzj32nxou'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/xvzj32nxou'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 <br>
 
@@ -70,7 +70,7 @@ The same process can also be applied for single repository connections in Jira C
 </div>
 
 <div align='center' style='margin-top:10px;margin-bottom:30px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/rnm5t639cz'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/rnm5t639cz'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
 You can configure the project permissions for integration (multiple repository connection):
@@ -95,7 +95,7 @@ The same process can also be applied for integration connections in Jira Cloud -
 </div>
 
 <div align='center' style='margin-top:10px;margin-bottom:30px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/fder2qnpgw'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/fder2qnpgw'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
 You can configure the project permissions for repositories within integration:

@@ -33,7 +33,7 @@ Check out the introduction video and links below to get started with Git Integra
 </div>
 
 <div style='margin-top: 20px;'>
-    Direct links to the above <a href='https://bigbrassband.wistia.com/medias/8c0iq4hwdt'>Getting started</a> video as well as <a href='https://bigbrassband.wistia.com/medias/lr0jp6ntfd'>Installation</a> video.
+    Direct links to the above <a href='https://gitkraken.wistia.com/medias/8c0iq4hwdt'>Getting started</a> video as well as <a href='https://gitkraken.wistia.com/medias/lr0jp6ntfd'>Installation</a> video.
 </div>
 
 &nbsp;

@@ -45,7 +45,7 @@ The updating process is demonstrated in two chapters:
 </div>
 
 <div align='center' style='margin-top:10px'>
-    <i>Right-click <a href='https://bigbrassband.wistia.com/medias/aoyowvw485' target='_blank'><b>here</b></a> and view this video in a new browser tab.</i>
+    <i>Right-click <a href='https://gitkraken.wistia.com/medias/aoyowvw485' target='_blank'><b>here</b></a> and view this video in a new browser tab.</i>
 </div>
 
 &nbsp;

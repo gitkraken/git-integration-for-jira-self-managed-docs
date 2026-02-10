@@ -11,7 +11,7 @@ There are several ways to associate git data to Jira issues:
 
 | Objective | Method/Trigger | Description | Example | Video |
 | :--- | :--- | :--- | :--- | :--- |
-| Link commit to Jira issue | Commit message | Commit by a Jira key in the commit message. | "TEST-1 add fix for bug" | [vid link](https://bigbrassband.wistia.com/medias/7kj43knu4m) |
+| Link commit to Jira issue | Commit message | Commit by a Jira key in the commit message. | "TEST-1 add fix for bug" | [vid link](https://gitkraken.wistia.com/medias/7kj43knu4m) |
 | Link commit to Jira issue | Git note | Commit by a Jira key in git notes to the commit. | \-  | \-  |
 | Associate commit to Jira issue | Change commit issues\` in the \`Commits\` tab of a repository in the Repository Browser | Associate git commit(s) to Jira issue via Commits tab of a repository in the Repository Browser. | TEST-1, TEST-4 | \-  |
 | Associate commit to Jira issue | Change commit issues in the View full commit dialog of the selected commit in Commits tab | Associate git commits to Jira issue via View full commit dialog in Commits tab. | TEST-1, TEST-4 | \-  |

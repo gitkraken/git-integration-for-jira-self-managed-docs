@@ -37,7 +37,7 @@ taxonomy:
 </div>
 
 <div style='text-align: center; margin-top: 10px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/npe76i5nxm'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/npe76i5nxm'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
 &nbsp;

@@ -75,7 +75,7 @@ This feature scans a locally accessible path for cloned Git repositories and aut
 </div>
 
 <div align='center' style='margin-top:10px;'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/npya1xi1pm'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/npya1xi1pm'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
 &nbsp;

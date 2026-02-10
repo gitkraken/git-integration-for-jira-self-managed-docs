@@ -161,7 +161,7 @@ For more information on Amazon SNS, see <a href='https://docs.aws.amazon.com/sn
 </div>
 
 <div align='center' style='margin-top:10px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/657k3pibj6'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/657k3pibj6'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
 &nbsp;
@@ -313,7 +313,7 @@ The repository is now connected to Jira Data Center/Server.
 </div>
 
 <div align='center'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/xq1xzic0tm'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/xq1xzic0tm'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 <br>
 
