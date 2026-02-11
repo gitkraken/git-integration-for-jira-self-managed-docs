@@ -40,7 +40,7 @@ If the Git server and Jira server are installed on the same server, only the pat
 </div>
 
 <div align='center' style='margin-top:12px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/lr0jp6ntfd'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/lr0jp6ntfd'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
 &nbsp;

@@ -34,7 +34,7 @@ For the Jira Cloud version of this document click [Here](/git-integration-for-ji
 </div>
 
 <div align='center' style='margin-top:12px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/rknbc3ty4e'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/rknbc3ty4e'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
 &nbsp;

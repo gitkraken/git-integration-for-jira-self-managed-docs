@@ -14,7 +14,7 @@ To create a link between your Git commit and a Jira issue, developers must inclu
 </div>
 
 <div align='center' style='margin-top:10px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/7kj43knu4m'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/7kj43knu4m'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
 &nbsp;

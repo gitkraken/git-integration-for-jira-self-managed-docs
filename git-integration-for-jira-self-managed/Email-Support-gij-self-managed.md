@@ -37,7 +37,7 @@ You can produce the "Support Zip" by following the steps in [this article](/git
 </div>
 
 <div styel='text-align: center; margin-top: 10px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/thbjckk3kv'><b>here</b></a> to open this video in a new browser tab for more viewing options</i>.
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/thbjckk3kv'><b>here</b></a> to open this video in a new browser tab for more viewing options</i>.
 </div>
 <br>
 

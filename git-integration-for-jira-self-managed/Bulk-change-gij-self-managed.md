@@ -19,7 +19,7 @@ The **Bulk change** feature provides an easier way to import or export reposit
 </div>
 
 <div align='center' style='margin:25px auto'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/v2c5qrgps8'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/v2c5qrgps8'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 <br>
 

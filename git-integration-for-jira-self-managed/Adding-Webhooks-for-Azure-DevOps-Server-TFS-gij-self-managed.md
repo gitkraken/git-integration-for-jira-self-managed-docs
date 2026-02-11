@@ -30,7 +30,7 @@ taxonomy:
 </div>
 
 <div align='center' style='margin-top:10px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/61wl72vp91'><b>here</b></a> and view this video in a new browser tab. (While the above video showcases VSTS/Azure DevOps, the entire process is entirely the same for Azure Repos webhooks setup.)</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/61wl72vp91'><b>here</b></a> and view this video in a new browser tab. (While the above video showcases VSTS/Azure DevOps, the entire process is entirely the same for Azure Repos webhooks setup.)</i>
 </div>
 
 &nbsp;

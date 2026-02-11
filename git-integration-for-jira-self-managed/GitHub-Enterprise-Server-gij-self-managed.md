@@ -78,7 +78,7 @@ Quickly learn how to connect GitHub Enterprise Server git repositories via Git I
 </div>
 
 <div align='center' style='margin-top:10px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/75nvefgz66'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/75nvefgz66'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
 &nbsp;

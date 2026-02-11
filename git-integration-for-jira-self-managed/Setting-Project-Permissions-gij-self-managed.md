@@ -73,7 +73,7 @@ To limit which Jira projects are associated with an integration's repositories:
 </div>
 
 <div align='center' style='margin-top:10px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/rnm5t639cz'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/rnm5t639cz'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
 &nbsp;
@@ -85,7 +85,7 @@ To limit which Jira projects are associated with an integration's repositories:
 </div>
 
 <div align='center' style='margin-top:10px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/fder2qnpgw'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/fder2qnpgw'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
 &nbsp;
@@ -115,7 +115,7 @@ To limit which Jira projects are associated for individual repositories:
 </div>
 
 <div align='center' style='margin-top:10px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/xvzj32nxou'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/xvzj32nxou'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
 &nbsp;

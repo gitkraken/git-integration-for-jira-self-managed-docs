@@ -98,7 +98,7 @@ Using Atlassian's marketplace system, a Jira administrator can install the Git I
 </div>
 
 <div align='center' style='margin-top:10px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/lr0jp6ntfd'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i><br>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/lr0jp6ntfd'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i><br>
     Watch the complete installation of the Git Integration Plugin for Jira app from scratch (2 minutes).
 </div>
 

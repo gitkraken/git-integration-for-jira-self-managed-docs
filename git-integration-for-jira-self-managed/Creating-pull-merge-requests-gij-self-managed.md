@@ -132,7 +132,7 @@ When creating a pull request from within Jira:
 </div>
 
 <div align='center' style='margin-top:10px;margin-bottom:30px;'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/rsccl5wxps'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/rsccl5wxps'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
     <p>The video shows Git Integration for Jira Cloud process but is also applicable to the Jira Server version.</p>
 </div>
 

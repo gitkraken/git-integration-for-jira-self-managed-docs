@@ -12,7 +12,7 @@ taxonomy:
 </div>
 
 <div align='center' style='margin-top:12px;margin-bottom:30px;'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/7kj43knu4m'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/7kj43knu4m'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
 Open a Jira issue then go to the Git Commits tab. In this tab, you will see commits, files changed, links to external repository, commit author and more.

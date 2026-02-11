@@ -29,7 +29,7 @@ taxonomy:
 </div>
 
 <div align='center' style='margin-top:10px'>
-    <i>Right click <a href='https://bigbrassband.wistia.com/medias/v2c5qrgps8'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i><br>
+    <i>Right click <a href='https://gitkraken.wistia.com/medias/v2c5qrgps8'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i><br>
     <i>(While the above video showcases other integration, jump to 01:41 to see Webhook setup for Bitbucket Cloud.)</i>
 </div>
 
