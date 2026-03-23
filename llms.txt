@@ -1,0 +1,347 @@
+# Git Integration for Jira Data Center Documentation
+
+> Git Integration for Jira Data Center documentation — connect your Git repositories to Jira Data Center/Server for seamless issue tracking and development visibility.
+
+## Getting Started
+
+- [Data Center and Server Home](https://help.gitkraken.com/git-integration-for-jira-data-center/git-integration-for-jira-home-self-manged/): Your source for Git Integration for Jira Data Center and Server documentation
+
+## Documentation Pages
+
+- [Add New Integration API](https://help.gitkraken.com/git-integration-for-jira-data-center/add-new-integration-gij-self-managed/): Add New Integration API
+- [Add New Integration Type API (examples)](https://help.gitkraken.com/git-integration-for-jira-data-center/add-new-integration-type-api-(examples)-gij-self-managed/): Add New Integration Type API (examples)
+- [Add New Repository](https://help.gitkraken.com/git-integration-for-jira-data-center/add-new-repository-gij-self-managed/): Add New Repository
+- [Adding a private SSH key](https://help.gitkraken.com/git-integration-for-jira-data-center/adding-a-private-ssh-key-gij-self-managed/): Adding a private SSH key
+- [Adding a public SSH Key](https://help.gitkraken.com/git-integration-for-jira-data-center/adding-a-public-ssh-key-gij-self-managed/): Adding a public SSH Key
+- [Adding a repository hosted on Windows Server or Windows Network share](https://help.gitkraken.com/git-integration-for-jira-data-center/adding-a-repository-hosted-on-windows-server-or-windows-network-share-gij-self-managed/): Adding a repository hosted on Windows Server or Windows Network share
+- [Adding a repository hosted on Windows Servers or Windows Network Share (Admins)](https://help.gitkraken.com/git-integration-for-jira-data-center/adding-a-repository-hosted-on-windows-servers-or-windows-network-share-(admins)-gij-self-managed/): Adding a repository hosted on Windows Servers or Windows Network Share (Admins)
+- [Adding and associating SSH keys](https://help.gitkraken.com/git-integration-for-jira-data-center/adding-and-associating-ssh-keys-gij-self-managed/): Adding and associating SSH keys
+- [Adding and connecting a nested repository](https://help.gitkraken.com/git-integration-for-jira-data-center/adding-a-nested-repository-gij-self-managed/): Adding and connecting a nested repository
+- [Adding Webhooks for Azure DevOps Repos | VSTS](https://help.gitkraken.com/git-integration-for-jira-data-center/adding-webhooks-for-azure-devops-repos-vsts-gij-self-managed/): Adding Webhooks for Azure DevOps Repos | VSTS
+- [Adding Webhooks for Azure DevOps Server | TFS](https://help.gitkraken.com/git-integration-for-jira-data-center/adding-webhooks-for-azure-devops-server-tfs-gij-self-managed/): Adding Webhooks for Azure DevOps Server | TFS
+- [Adding Webhooks for Bitbucket](https://help.gitkraken.com/git-integration-for-jira-data-center/adding-webhooks-for-bitbucket-gij-self-managed/): Adding Webhooks for Bitbucket
+- [Adding webhooks for Gerrit](https://help.gitkraken.com/git-integration-for-jira-data-center/adding-webhooks-for-gerrit-gij-self-managed/): Adding webhooks for Gerrit
+- [Adding Webhooks for GitHub](https://help.gitkraken.com/git-integration-for-jira-data-center/adding-webhooks-for-github-gij-self-managed/): Adding Webhooks for GitHub
+- [Adding Webhooks for GitLab](https://help.gitkraken.com/git-integration-for-jira-data-center/adding-webhooks-for-gitlab-gij-self-managed/): Adding Webhooks for GitLab
+- [Admin Getting Started Guide](https://help.gitkraken.com/git-integration-for-jira-data-center/getting-started-guide-dc/): Admin Getting Started Guide
+- [Administration](https://help.gitkraken.com/git-integration-for-jira-data-center/administration-gij-self-managed/): Administration
+- [Administration FAQ](https://help.gitkraken.com/git-integration-for-jira-data-center/faq-administration-gij-self-managed/): Administration FAQ
+- [App Support](https://help.gitkraken.com/git-integration-for-jira-data-center/app-support-gij-self-managed/): App Support
+- [Application Operations and Planning](https://help.gitkraken.com/git-integration-for-jira-data-center/getting-started-guide-app-operations-and-planning-dc/): Application Operations and Planning
+- [Associate Pull/Merge Requests to Issues Based on Commits](https://help.gitkraken.com/git-integration-for-jira-data-center/associate-pull-merge-requests-to-issues-based-on-commits-gij-self-managed/): Associate Pull/Merge Requests to Issues Based on Commits
+- [Associating project permissions](https://help.gitkraken.com/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed/): Associating project permissions
+- [Audit log settings](https://help.gitkraken.com/git-integration-for-jira-data-center/audit-log-settings-gij-self-managed/): Audit log settings
+- [Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](https://help.gitkraken.com/git-integration-for-jira-data-center/automatically-connect-to-https-git-repositories-with-self-signed-ssl-certificates-or-other-ssl-issues-gij-self-managed/): Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues
+- [Avoid OutOfMemory exceptions by configuring or memory allocation with Jira to accommodate large repositories](https://help.gitkraken.com/git-integration-for-jira-data-center/avoid-outofmemory-exceptions-by-configuring-or-memory-allocation-with-jira-to-accommodate-large-repositories-gij-self-managed/): Avoid OutOfMemory exceptions by configuring or memory allocation with Jira to accommodate large repositories
+- [AWS CodeCommit](https://help.gitkraken.com/git-integration-for-jira-data-center/aws-codecommit-gij-self-managed/): AWS CodeCommit
+- [Azure DevOps Server Lifecycle Policies](https://help.gitkraken.com/git-integration-for-jira-data-center/azure-devops-server-lifecycle-policies-gij-self-managed/): Azure DevOps Server Lifecycle Policies
+- [Azure DevOps Server | Team Foundation Services (TFS)](https://help.gitkraken.com/git-integration-for-jira-data-center/azure-devops-server-team-foundation-services-(tfs)-gij-self-managed/): Azure DevOps Server | Team Foundation Services (TFS)
+- [Azure DevOps Services | Visual Studio Team Services (VSTS)](https://help.gitkraken.com/git-integration-for-jira-data-center/azure-devops-visual-studio-team-services-(vsts)-gij-self-managed/): Azure DevOps Services | Visual Studio Team Services (VSTS)
+- [Bitbucket Server](https://help.gitkraken.com/git-integration-for-jira-data-center/bitbucket-server-gij-self-managed/): Bitbucket Server
+- [Bitbucket Server/Cloud EOL Support Policy](https://help.gitkraken.com/git-integration-for-jira-data-center/bitbucket-server-cloud-eol-support-policy-gij-self-managed/): Bitbucket Server/Cloud EOL Support Policy
+- [Bonobo](https://help.gitkraken.com/git-integration-for-jira-data-center/bonobo-gij-self-managed/): Bonobo
+- [Branch and pull request settings (formerly Git Integration Options)](https://help.gitkraken.com/git-integration-for-jira-data-center/branch-and-pull-request-settings-(formerly-git-integration-options)-gij-self-managed/): Branch and pull request settings (formerly Git Integration Options)
+- [Branches (Development panel)](https://help.gitkraken.com/git-integration-for-jira-data-center/branches-(development-panel)-gij-self-managed/): Branches (Development panel)
+- [Branches API](https://help.gitkraken.com/git-integration-for-jira-data-center/branches-api-gij-self-managed/): Branches API
+- [Bulk change](https://help.gitkraken.com/git-integration-for-jira-data-center/bulk-change-gij-self-managed/): Bulk change
+- [Bulk Change API](https://help.gitkraken.com/git-integration-for-jira-data-center/bulk-change-api-gij-self-managed/): Bulk Change API
+- [Bulk Export API](https://help.gitkraken.com/git-integration-for-jira-data-center/bulk-export-gij-self-managed/): Bulk Export API
+- [Bulk Import API](https://help.gitkraken.com/git-integration-for-jira-data-center/bulk-import-gij-self-managed/): Bulk Import API
+- [Cache sizes settings](https://help.gitkraken.com/git-integration-for-jira-data-center/cache-sizes-settings-gij-self-managed/): Cache sizes settings
+- [Cancel indexing](https://help.gitkraken.com/git-integration-for-jira-data-center/cancel-indexing-revision-indexing-gij-self-managed/): Cancel indexing
+- [Cannot auto-deploy some tracked repositories -- Specified origin is incorrect or not supported](https://help.gitkraken.com/git-integration-for-jira-data-center/cannot-auto-deploy-some-tracked-repositories-gij-self-managed/): Cannot auto-deploy some tracked repositories -- Specified origin is incorrect or not supported
+- [Commit email notifications](https://help.gitkraken.com/git-integration-for-jira-data-center/commit-email-notifications-gij-self-managed/): Commit email notifications
+- [Commit-msg Hook](https://help.gitkraken.com/git-integration-for-jira-data-center/commit-msg-hook-gij-self-managed/): Commit-msg Hook
+- [Commits API](https://help.gitkraken.com/git-integration-for-jira-data-center/commits-api-gij-self-managed/): Commits API
+- [Comparing branches/tags in Repository Browser](https://help.gitkraken.com/git-integration-for-jira-data-center/comparing-branches-tags-in-repository-browser-gij-self-managed/): Comparing branches/tags in Repository Browser
+- [Configure Source Code Diff Viewing](https://help.gitkraken.com/git-integration-for-jira-data-center/configure-source-code-diff-viewing-gij-self-managed/): Configure Source Code Diff Viewing
+- [Connecting a repository via Advanced setup](https://help.gitkraken.com/git-integration-for-jira-data-center/connecting-a-repository-via-advanced-setup-gij-self-managed/): Connecting a repository via Advanced setup
+- [Connecting to a git host account via Add new integration panel (Integration basics)](https://help.gitkraken.com/git-integration-for-jira-data-center/connecting-to-a-git-host-account-via-add-new-integration-panel-gij-self-managed/): Connecting to a git host account via Add new integration panel (Integration basics)
+- [Connecting to a single git repository (HTTPS/SSH) (Integration basics)](https://help.gitkraken.com/git-integration-for-jira-data-center/connecting-to-a-single-git-repository-(https-ssh)-gij-self-managed/): Connecting to a single git repository (HTTPS/SSH) (Integration basics)
+- [Connection Reset when Accessing the Database](https://help.gitkraken.com/git-integration-for-jira-data-center/connection-reset-when-accessing-the-database-gij-self-managed/): Connection Reset when Accessing the Database
+- [Creating and configuring SSH keys](https://help.gitkraken.com/git-integration-for-jira-data-center/creating-and-configuring-ssh-keys-windows-macos-linux-gij-self-managed/): Creating and configuring SSH keys
+- [Creating branches](https://help.gitkraken.com/git-integration-for-jira-data-center/creating-branches-gij-self-managed/): Creating branches
+- [Creating branches and pull/merge requests (Integration basics)](https://help.gitkraken.com/git-integration-for-jira-data-center/creating-branches-and-pull-merge-requests-(basics)-gij-self-managed/): Creating branches and pull/merge requests (Integration basics)
+- [Creating Personal Access Tokens](https://help.gitkraken.com/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed/): Creating Personal Access Tokens
+- [Creating reindex triggers for a single repository](https://help.gitkraken.com/git-integration-for-jira-data-center/creating-reindex-triggers-for-a-single-repository-gij-self-managed/): Creating reindex triggers for a single repository
+- [Dangerous use of multiple connections error on local database](https://help.gitkraken.com/git-integration-for-jira-data-center/dangerous-use-of-multiple-connections-error-on-local-database-gij-self-managed/): Dangerous use of multiple connections error on local database
+- [Deep linking feature](https://help.gitkraken.com/git-integration-for-jira-data-center/deeplinking-feature-gij-self-managed/): Deep linking feature
+- [Deep Linking to GitLens](https://help.gitkraken.com/git-integration-for-jira-data-center/deep-linking-into-gitlens-gij-self-managed/): Deep Linking to GitLens
+- [Deep Linking to the GitKraken Git client](https://help.gitkraken.com/git-integration-for-jira-data-center/deep-linking-to-the-gitkraken-git-client-gij-self-managed/): Deep Linking to the GitKraken Git client
+- [Delete Existing Repository API](https://help.gitkraken.com/git-integration-for-jira-data-center/delete-existing-repository-gij-self-managed/): Delete Existing Repository API
+- [Deprecation notice](https://help.gitkraken.com/git-integration-for-jira-data-center/deprecation-notice-gij-self-managed/): Deprecation notice
+- [Developer FAQ](https://help.gitkraken.com/git-integration-for-jira-data-center/faq-developer-gij-self-managed/): Developer FAQ
+- [Development panel locations](https://help.gitkraken.com/git-integration-for-jira-data-center/development-panel-locations-gij-self-managed/): Development panel locations
+- [Diff settings](https://help.gitkraken.com/git-integration-for-jira-data-center/diff-settings-gij-self-managed/): Diff settings
+- [Disabling Source and Commits tabs](https://help.gitkraken.com/git-integration-for-jira-data-center/disabling-source-and-commits-tabs-gij-self-managed/): Disabling Source and Commits tabs
+- [Discard cloned files in Jira home directory](https://help.gitkraken.com/git-integration-for-jira-data-center/discard-cloned-files-in-jira-home-directory-gij-self-managed/): Discard cloned files in Jira home directory
+- [Discard cloned files in Jira Home directory (General setting)](https://help.gitkraken.com/git-integration-for-jira-data-center/discard-cloned-files-in-jira-home-directory-(general-setting)-gij-self-managed/): Discard cloned files in Jira Home directory (General setting)
+- [Documentation](https://help.gitkraken.com/git-integration-for-jira-data-center/documentation-gij-self-managed/): Documentation
+- [Duplicate entry 0 for key PRIMARY exceptions in log](https://help.gitkraken.com/git-integration-for-jira-data-center/duplicate-entry-0-for-key-primary-exceptions-in-log-gij-self-managed/): Duplicate entry 0 for key PRIMARY exceptions in log
+- [edDSA provider not supported WARN in logs](https://help.gitkraken.com/git-integration-for-jira-data-center/eddsa-provider-not-supported-warn-in-logs/): edDSA provider not supported WARN in logs
+- [Edit integration connection settings](https://help.gitkraken.com/git-integration-for-jira-data-center/edit-integration-connection-settings-gij-self-managed/): Edit integration connection settings
+- [Edit integration feature settings](https://help.gitkraken.com/git-integration-for-jira-data-center/edit-integration-feature-settings-gij-self-managed/): Edit integration feature settings
+- [Edit nested repository settings](https://help.gitkraken.com/git-integration-for-jira-data-center/edit-nested-repository-settings-gij-self-managed/): Edit nested repository settings
+- [Edit repository settings](https://help.gitkraken.com/git-integration-for-jira-data-center/edit-repository-settings-gij-self-managed/): Edit repository settings
+- [Editing existing repository settings in the TSV File](https://help.gitkraken.com/git-integration-for-jira-data-center/editing-existing-repository-settings-in-the-tsv-file-gij-self-managed/): Editing existing repository settings in the TSV File
+- [Email settings](https://help.gitkraken.com/git-integration-for-jira-data-center/email-settings-gij-self-managed/): Email settings
+- [Email Support](https://help.gitkraken.com/git-integration-for-jira-data-center/email-support-gij-self-managed/): Email Support
+- [Enable Automation for Jira general setting](https://help.gitkraken.com/git-integration-for-jira-data-center/enable-automation-for-jira-general-setting-gij-self-managed/): Enable Automation for Jira general setting
+- [Enable/Disable Existing Integration API](https://help.gitkraken.com/git-integration-for-jira-data-center/enable-disable-existing-integration-api-gij-self-managed/): Enable/Disable Existing Integration API
+- [Enable/Disable Existing Repository API](https://help.gitkraken.com/git-integration-for-jira-data-center/enable-disable-existing-repository-api-gij-self-managed/): Enable/Disable Existing Repository API
+- [Enable/disable Repository Browser via git repository configuration page](https://help.gitkraken.com/git-integration-for-jira-data-center/enable-disable-repository-browser-via-git-repository-configuration-page-gij-self-managed/): Enable/disable Repository Browser via git repository configuration page
+- [Enforce Git service permissions](https://help.gitkraken.com/git-integration-for-jira-data-center/enforce-git-service-permissions-gij-self-managed/): Enforce Git service permissions
+- [Enforced git permissions for Jira users - Features](https://help.gitkraken.com/git-integration-for-jira-data-center/enforced-git-permissions-for-jira-users-gij-self-managed/): Enforced git permissions for Jira users - Features
+- [Error creating git branches and also using NFS](https://help.gitkraken.com/git-integration-for-jira-data-center/error-creating-git-branches--gitlabpropertiesnotinitializedexception-and-using-nfs-gij-self-managed/): Error creating git branches and also using NFS
+- [Error while reindexing - Java heap space / Object too large, rejecting the pack](https://help.gitkraken.com/git-integration-for-jira-data-center/error-while-reindexing-java-heap-space-object-too-large,-rejecting-the-pack-gij-self-managed/): Error while reindexing - Java heap space / Object too large, rejecting the pack
+- [Exporting repository configuration via Bulk change](https://help.gitkraken.com/git-integration-for-jira-data-center/exporting-repository-configuration-via-bulk-change-gij-self-managed/): Exporting repository configuration via Bulk change
+- [Features](https://help.gitkraken.com/git-integration-for-jira-data-center/features-gij-self-managed/): Features
+- [Features - Creating pull/merge requests](https://help.gitkraken.com/git-integration-for-jira-data-center/creating-pull-merge-requests-gij-self-managed/): Features - Creating pull/merge requests
+- [Fix performance issues for nested cloned repositories with enabled Git Service Permissions mode](https://help.gitkraken.com/git-integration-for-jira-data-center/fix-performance-issues-for-nested-cloned-repositories-with-enabled-secure-mode-gij-self-managed/): Fix performance issues for nested cloned repositories with enabled Git Service Permissions mode
+- [Fixing reindex issues using Indexing Queue Viewer](https://help.gitkraken.com/git-integration-for-jira-data-center/fixing-reindex-issues-using-indexing-queue-viewer-gij-self-managed/): Fixing reindex issues using Indexing Queue Viewer
+- [Frequently Asked Questions](https://help.gitkraken.com/git-integration-for-jira-data-center/frequently-asked-questions-gij-self-managed/): Frequently Asked Questions
+- [General FAQ](https://help.gitkraken.com/git-integration-for-jira-data-center/faq-general-gij-self-managed/): General FAQ
+- [General Settings](https://help.gitkraken.com/git-integration-for-jira-data-center/general-settings-gij-self-managed/): General Settings
+- [General settings - Documentation](https://help.gitkraken.com/git-integration-for-jira-data-center/general-settings-docs-gij-self-managed/): General settings - Documentation
+- [General settings - Improving Jira performance](https://help.gitkraken.com/git-integration-for-jira-data-center/general-settings-improving-jira-performance-gij-self-managed/): General settings - Improving Jira performance
+- [Generating SSH keys](https://help.gitkraken.com/git-integration-for-jira-data-center/generating-ssh-keys-gij-self-managed/): Generating SSH keys
+- [Gerrit](https://help.gitkraken.com/git-integration-for-jira-data-center/gerrit-gij-self-managed/): Gerrit
+- [Gerrit End of Life (EOL)](https://help.gitkraken.com/git-integration-for-jira-data-center/gerrit-end-of-life-(eol)-gij-self-managed/): Gerrit End of Life (EOL)
+- [Gerrit JMESPath filter examples](https://help.gitkraken.com/git-integration-for-jira-data-center/gerrit-jmespath-filter-examples-gij-self-managed/): Gerrit JMESPath filter examples
+- [Get Bulk Import Information](https://help.gitkraken.com/git-integration-for-jira-data-center/get-bulk-import-information-gij-self-managed/): Get Bulk Import Information
+- [Get Commit Issue Changes API](https://help.gitkraken.com/git-integration-for-jira-data-center/get-commit-issue-changes-gij-self-managed/): Get Commit Issue Changes API
+- [Get Commits API](https://help.gitkraken.com/git-integration-for-jira-data-center/get-commits-gij-self-managed/): Get Commits API
+- [Getting started for Git administrators](https://help.gitkraken.com/git-integration-for-jira-data-center/getting-started-for-git-administrators-gij-self-managed/): Getting started for Git administrators
+- [GIJ Terms and Conditions](https://help.gitkraken.com/git-integration-for-jira-data-center/sla-terms-and-conditions-gij-sekf-managed/): GIJ Terms and Conditions
+- [Git commits issue and project tabs](https://help.gitkraken.com/git-integration-for-jira-data-center/git-commits-issue-and-project-tabs-gij-self-managed/): Git commits issue and project tabs
+- [Git Commits tab - Jira issue page](https://help.gitkraken.com/git-integration-for-jira-data-center/git-commits-tab-gij-self-managed/): Git Commits tab - Jira issue page
+- [Git data processing age limit](https://help.gitkraken.com/git-integration-for-jira-data-center/git-data-processing-age-limit-general-settings-gij-self-managed/): Git data processing age limit
+- [Git Integration (Jira Data Center) - Video Guides](https://help.gitkraken.com/git-integration-for-jira-data-center/git-integration-(jira-data-center)-video-guides-gij-self-managed/): Git Integration (Jira Data Center) - Video Guides
+- [Git Integration + Jira Automation](https://help.gitkraken.com/git-integration-for-jira-data-center/git-integration-plus-jira-automation-gij-self-managed/): Git Integration + Jira Automation
+- [Git Integration + Jira Automation - Advanced examples](https://help.gitkraken.com/git-integration-for-jira-data-center/git-integration-plus-jira-automation-advanced-examples-gij-self-managed/): Git Integration + Jira Automation - Advanced examples
+- [Git Integration + Jira Automation - Template library](https://help.gitkraken.com/git-integration-for-jira-data-center/git-integration-for-jira-automation-template-library/): Git Integration + Jira Automation - Template library
+- [Git Integration + ScriptRunner](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-plus-scriptrunner-gij-self-managed/): Git Integration + ScriptRunner
+- [Git integration configuration page](https://help.gitkraken.com/git-integration-for-jira-data-center/git-integration-configuration-page-gij-self-managed/): Git integration configuration page
+- [Git integration features](https://help.gitkraken.com/git-integration-for-jira-data-center/git-integration-features-gij-self-managed/): Git integration features
+- [Git Integration for Jira Data Center/Server - Release Notes](https://help.gitkraken.com/git-integration-for-jira-data-center/git-integration-for-jira-data-center-release-notes-gij-self-managed/): Git Integration for Jira Data Center/Server - Release Notes
+- [Git notes](https://help.gitkraken.com/git-integration-for-jira-data-center/git-notes-gij-self-managed/): Git notes
+- [Git operations timeout](https://help.gitkraken.com/git-integration-for-jira-data-center/git-operations-timeout-gij-self-managed/): Git operations timeout
+- [Git roll up issue tab - General settings](https://help.gitkraken.com/git-integration-for-jira-data-center/git-roll-up-tab-setting-gij-self-managed/): Git roll up issue tab - General settings
+- [Git Roll Up tab - Jira issue page](https://help.gitkraken.com/git-integration-for-jira-data-center/git-roll-up-tab-docs-gij-self-managed/): Git Roll Up tab - Jira issue page
+- [Git Services Support Page and End-of-Life Policies](https://help.gitkraken.com/git-integration-for-jira-data-center/git services support page and end-of-life policies/): Git Services Support Page and End-of-Life Policies
+- [Git tags](https://help.gitkraken.com/git-integration-for-jira-data-center/git-tags-gij-self-managed/): Git tags
+- [Git URL ports](https://help.gitkraken.com/git-integration-for-jira-data-center/git-url-ports-gij-self-managed/): Git URL ports
+- [Git user identity](https://help.gitkraken.com/git-integration-for-jira-data-center/git-user-identity-gij-self-managed/): Git user identity
+- [GitHub App integration](https://help.gitkraken.com/git-integration-for-jira-data-center/github-app-integration-gij-self-managed/): GitHub App integration
+- [GitHub App JMESPath filter examples](https://help.gitkraken.com/git-integration-for-jira-data-center/github-app-jmespath-filter-examples-gij-self-managed/): GitHub App JMESPath filter examples
+- [GitHub Enterprise (EOL)](https://help.gitkraken.com/git-integration-for-jira-data-center/github-enterprise-(eol)-gij-self-managed/): GitHub Enterprise (EOL)
+- [GitHub Enterprise Server](https://help.gitkraken.com/git-integration-for-jira-data-center/github-enterprise-server-gij-self-managed/): GitHub Enterprise Server
+- [GitHub.com](https://help.gitkraken.com/git-integration-for-jira-data-center/github-gij-self-managed/): GitHub.com
+- [GitHub.com | GitHub Enterprise JMESPath filter examples](https://help.gitkraken.com/git-integration-for-jira-data-center/github-github-enterprise-jmespath-filter-examples-gij-self-managed/): GitHub.com | GitHub Enterprise JMESPath filter examples
+- [GitLab CE/EE](https://help.gitkraken.com/git-integration-for-jira-data-center/gitlab-com-ce-ee-gijsm-gij-self-managed/): GitLab CE/EE
+- [GitLab CE/EE EOL Support Policy](https://help.gitkraken.com/git-integration-for-jira-data-center/gitlab-ce-ee-eol-support-policy-gij-self-managed/): GitLab CE/EE EOL Support Policy
+- [GitLab.com](https://help.gitkraken.com/git-integration-for-jira-data-center/gitlab-gij-self-managed/): GitLab.com
+- [GitLab.com | GitLab CE/EE JMESPath filter examples](https://help.gitkraken.com/git-integration-for-jira-data-center/gitlab-gitlab-ce-ee-jmespath-filter-examples-gij-self-managed/): GitLab.com | GitLab CE/EE JMESPath filter examples
+- [Gitolite integration - Why the Git integration app not see the master branch?](https://help.gitkraken.com/git-integration-for-jira-data-center/gitolite-integration--why-the-git-integration-app-not-see-the-master-branch-gij-self-managed/): Gitolite integration - Why the Git integration app not see the master branch?
+- [Glossary and terms](https://help.gitkraken.com/git-integration-for-jira-data-center/glossary-and-terms-gij-self-managed/): Glossary and terms
+- [Health Check - Database Collation](https://help.gitkraken.com/git-integration-for-jira-data-center/health-check--database-collation-gij-self-managed/): Health Check - Database Collation
+- [Hooks and Webhooks](https://help.gitkraken.com/git-integration-for-jira-data-center/hooks-and-webhooks-gij-self-managed/): Hooks and Webhooks
+- [How to create a HAR file and send it to support for analysis](https://help.gitkraken.com/git-integration-for-jira-data-center/how-to-create-a-har-file-and-send-it-to-support-for-analysis-gij-self-managed/): How to create a HAR file and send it to support for analysis
+- [How to disable "Discard cloned files" feature (Windows/Linux)](https://help.gitkraken.com/git-integration-for-jira-data-center/how-to-disable-discard-cloned-files-feature--versions-4-11-and-below/): How to disable "Discard cloned files" feature (Windows/Linux)
+- [How to get a quote?](https://help.gitkraken.com/git-integration-for-jira-data-center/how-to-get-a-quote-gij-self-managed/): How to get a quote?
+- [How-to articles](https://help.gitkraken.com/git-integration-for-jira-data-center/how-to-articles-gij-self-managed/): How-to articles
+- [Import existing repositories via Bulk change](https://help.gitkraken.com/git-integration-for-jira-data-center/import-existing-repositories-via-bulk-change-gij-self-managed/): Import existing repositories via Bulk change
+- [Import new repositories via Bulk change](https://help.gitkraken.com/git-integration-for-jira-data-center/import-new-repositories-via-bulk-change-gij-self-managed/): Import new repositories via Bulk change
+- [Increasing timeout threshold for large repositories while doing a Git pull](https://help.gitkraken.com/git-integration-for-jira-data-center/increasing-timeout-threshold-for-large-repositories-while-doing-a-git-pull-gij-self-managed/): Increasing timeout threshold for large repositories while doing a Git pull
+- [Indexing error - Too many open files](https://help.gitkraken.com/git-integration-for-jira-data-center/indexing-error-too-many-open-files-gij-self-managed/): Indexing error - Too many open files
+- [Indexing queue explainer - Administration](https://help.gitkraken.com/git-integration-for-jira-data-center/indexing-queue-explainer-gij-self-managed/): Indexing queue explainer - Administration
+- [Indexing queue viewer](https://help.gitkraken.com/git-integration-for-jira-data-center/indexing-queue-viewer-gij-self-managed/): Indexing queue viewer
+- [Installation - Documentation](https://help.gitkraken.com/git-integration-for-jira-data-center/installation-gij-self-managed/): Installation - Documentation
+- [Installation and setup FAQ](https://help.gitkraken.com/git-integration-for-jira-data-center/faq-installation-and-setup-gij-self-managed/): Installation and setup FAQ
+- [Installation and updating](https://help.gitkraken.com/git-integration-for-jira-data-center/installation-and-updating-gij-self-managed/): Installation and updating
+- [Installation fails when installing manually](https://help.gitkraken.com/git-integration-for-jira-data-center/installation-fails-when-installing-manually-gij-self-managed/): Installation fails when installing manually
+- [Installation via Atlassian Marketplace](https://help.gitkraken.com/git-integration-for-jira-data-center/installation-via-atlassian-marketplace-gij-self-managed/): Installation via Atlassian Marketplace
+- [Installation via Jira Plugin Manager](https://help.gitkraken.com/git-integration-for-jira-data-center/installation-via-jira-plugin-manager-gij-self-managed/): Installation via Jira Plugin Manager
+- [Integration API](https://help.gitkraken.com/git-integration-for-jira-data-center/integration-api-gij-self-managed/): Integration API
+- [Integration Basics](https://help.gitkraken.com/git-integration-for-jira-data-center/integration-basics-gij-self-managed/): Integration Basics
+- [Integration basics - Setting up web links](https://help.gitkraken.com/git-integration-for-jira-data-center/setting-up-web-links-gij-self-managed/): Integration basics - Setting up web links
+- [Integration creation and Post integration Configuration](https://help.gitkraken.com/git-integration-for-jira-data-center/getting-started-guide-integration-creation-post-integration-config-dc/): Integration creation and Post integration Configuration
+- [Integration Guides](https://help.gitkraken.com/git-integration-for-jira-data-center/integration-guides-gij-self-managed/): Integration Guides
+- [Integration webhooks](https://help.gitkraken.com/git-integration-for-jira-data-center/integration-webhooks-gij-self-managed/): Integration webhooks
+- [Issue Git integration panel - Features](https://help.gitkraken.com/git-integration-for-jira-data-center/issue-git-integration-panel-gij-self-managed/): Issue Git integration panel - Features
+- [Issues View - TIJ DC](https://help.gitkraken.com/git-integration-for-jira-data-center/team-insights-for-jira-datacenter-issues-view-gij-self-managed/): Issues View - TIJ DC
+- [Java 8 deprecation with Git Integration for Jira v5.0](https://help.gitkraken.com/git-integration-for-jira-data-center/gij5-serverdc-java8-depreciation-gij-self-managed/): Java 8 deprecation with Git Integration for Jira v5.0
+- [Javadocs example - Connect to a plain repository](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-scriptrunner-example-create-repository-groovy/): Javadocs example - Connect to a plain repository
+- [Javadocs example - Connect to an integration](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-scriptrunner-example-create-integration-groovy/): Javadocs example - Connect to an integration
+- [Javadocs example - Create a new pull/merge request](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-scriptrunner-example-create-pull-request-groovy/): Javadocs example - Create a new pull/merge request
+- [Javadocs example - Create/delete/reindex a repository](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-scriptrunner-example-create-delete-reindex-repository-groovy/): Javadocs example - Create/delete/reindex a repository
+- [Javadocs example - Creating a new branch](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-scriptrunner-example-create-branch-groovy/): Javadocs example - Creating a new branch
+- [Javadocs example - Deleting a branch](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-scriptrunner-example-delete-branch-groovy/): Javadocs example - Deleting a branch
+- [Javadocs example - Get branches associated with an issue](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-scriptrunner-example-get-branches-for-issue-groovy/): Javadocs example - Get branches associated with an issue
+- [Javadocs example - Get commits for an issue](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-scriptrunner-example-get-commits-for-issue-groovy/): Javadocs example - Get commits for an issue
+- [Javadocs example - Get reindex status](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-scriptrunner-example-ping-reindex-status-groovy/): Javadocs example - Get reindex status
+- [Javadocs example - Get tags](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-scriptrunner-example-get-tags-groovy/): Javadocs example - Get tags
+- [Javadocs example - gijFacade.getRepositories()](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-scriptrunner-example-getrepositories-groovy/): Javadocs example - gijFacade.getRepositories()
+- [Javadocs example - gijFacade.getRepositories(String issueKey)](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-scriptrunner-example-getrepositories-projectkey-groovy/): Javadocs example - gijFacade.getRepositories(String issueKey)
+- [Javadocs example - Start reindex of a repository](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-scriptrunner-example-start-reindex-groovy/): Javadocs example - Start reindex of a repository
+- [Javadocs example - Start sync reindex of a repository](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-scriptrunner-example-start-sync-reindex-groovy/): Javadocs example - Start sync reindex of a repository
+- [Javadocs example - Update commmit issues associations](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-scriptrunner-example-update-commit-issue-changes-groovy/): Javadocs example - Update commmit issues associations
+- [Javadocs example - Updating an integration](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-scriptrunner-example-update-integration-groovy/): Javadocs example - Updating an integration
+- [Jira Data Center (High availability and clustering)](https://help.gitkraken.com/git-integration-for-jira-data-center/jira-data-center-(high-availability-and-clustering)-gij-self-managed/): Jira Data Center (High availability and clustering)
+- [Jira Git integration development panel](https://help.gitkraken.com/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed/): Jira Git integration development panel
+- [Jira index error IndexNotFoundException - no segments\* file found](https://help.gitkraken.com/git-integration-for-jira-data-center/jira-index-error--indexnotfoundexception--no-segments-file-found/): Jira index error IndexNotFoundException - no segments\* file found
+- [Jira issue page](https://help.gitkraken.com/git-integration-for-jira-data-center/jira-issue-page-gij-self-managed/): Jira issue page
+- [Jira issue page - Code syntax highlighter](https://help.gitkraken.com/git-integration-for-jira-data-center/code-syntax-highlighter-gij-self-managed/): Jira issue page - Code syntax highlighter
+- [Jira project page](https://help.gitkraken.com/git-integration-for-jira-data-center/jira-project-page-gij-self-managed/): Jira project page
+- [Jira user information card](https://help.gitkraken.com/git-integration-for-jira-data-center/jira-user-information-card-gij-self-managed/): Jira user information card
+- [Jira Workflow Hook](https://help.gitkraken.com/git-integration-for-jira-data-center/jira-workflow-hook-gij-self-managed/): Jira Workflow Hook
+- [JQL searching](https://help.gitkraken.com/git-integration-for-jira-data-center/jql-searching-gij-self-managed/): JQL searching
+- [Known Issues](https://help.gitkraken.com/git-integration-for-jira-data-center/known-issues-gij-self-managed/): Known Issues
+- [Licensing information, migration and transition](https://help.gitkraken.com/git-integration-for-jira-data-center/licensing-information-migration-and-transition-gij-self-managed/): Licensing information, migration and transition
+- [Licensing notice](https://help.gitkraken.com/git-integration-for-jira-data-center/licensing-notice-gij-self-managed/): Licensing notice
+- [Link git commits to Jira issues (Integration basics)](https://help.gitkraken.com/git-integration-for-jira-data-center/link-git-commits-to-jira-issues-(basics)-gij-self-managed/): Link git commits to Jira issues (Integration basics)
+- [Linking git commits to Jira issues](https://help.gitkraken.com/git-integration-for-jira-data-center/linking-git-commits-to-jira-issues-gij-self-managed/): Linking git commits to Jira issues
+- [Localization support](https://help.gitkraken.com/git-integration-for-jira-data-center/localization-support-gij-self-managed/): Localization support
+- [Logging FAQ](https://help.gitkraken.com/git-integration-for-jira-data-center/faq-logging-gij-self-managed/): Logging FAQ
+- [Malformed input or input contains unmappable characters](https://help.gitkraken.com/git-integration-for-jira-data-center/malformed-input-or-input-contains-unmappable-characters-gij-self-managed/): Malformed input or input contains unmappable characters
+- [Manager permissions](https://help.gitkraken.com/git-integration-for-jira-data-center/manager-permissions-gij-self-managed/): Manager permissions
+- [Managing integration via Actions](https://help.gitkraken.com/git-integration-for-jira-data-center/managing-integration-via-actions-gij-self-managed/): Managing integration via Actions
+- [Managing license key](https://help.gitkraken.com/git-integration-for-jira-data-center/managing-license-key-gij-self-managed/): Managing license key
+- [Managing repository or integration configuration](https://help.gitkraken.com/git-integration-for-jira-data-center/managing-repository-or-integration-configuration-gij-self-managed/): Managing repository or integration configuration
+- [Manual installation](https://help.gitkraken.com/git-integration-for-jira-data-center/manual-installation-gij-self-managed/): Manual installation
+- [Manually connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues](https://help.gitkraken.com/git-integration-for-jira-data-center/manually-connect-to-https-git-repositories-with-self-signed-ssl-certificates-or-other-ssl-issues-gij-self-managed/): Manually connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues
+- [Manually link git commits to Jira issues](https://help.gitkraken.com/git-integration-for-jira-data-center/manually-link-git-commits-to-jira-issues-gij-self-managed/): Manually link git commits to Jira issues
+- [Microsoft | VSTS | TFS | Azure Repos JMESPath filter examples](https://help.gitkraken.com/git-integration-for-jira-data-center/microsoft-vsts-tfs-azure-repos-jmespath-filter-examples-gij-self-managed/): Microsoft | VSTS | TFS | Azure Repos JMESPath filter examples
+- [Migrating from Jira 8 to Jira 9](https://help.gitkraken.com/git-integration-for-jira-data-center/migrating-jira7-to-jira9-gij-self-managed/): Migrating from Jira 8 to Jira 9
+- [Migration to another server](https://help.gitkraken.com/git-integration-for-jira-data-center/migration-to-another-server-gij-self-managed/): Migration to another server
+- [Multiple Indexing Threads - General setting](https://help.gitkraken.com/git-integration-for-jira-data-center/multiple-indexing-threads-per-node-gij-self-managed/): Multiple Indexing Threads - General setting
+- [Nested repository](https://help.gitkraken.com/git-integration-for-jira-data-center/nested-repository-gij-self-managed/): Nested repository
+- [New GitLab v10+ authentication](https://help.gitkraken.com/git-integration-for-jira-data-center/new-gitlab-v10-authentication-gij-self-managed/): New GitLab v10+ authentication
+- [Optional Features and Add-on Extensions](https://help.gitkraken.com/git-integration-for-jira-data-center/getting-started-guide-optional-features-dc/): Optional Features and Add-on Extensions
+- [Per Node Repository Indexing - General setting](https://help.gitkraken.com/git-integration-for-jira-data-center/per-node-repository-indexing-gij-self-managed/): Per Node Repository Indexing - General setting
+- [Permissions](https://help.gitkraken.com/git-integration-for-jira-data-center/permissions-gij-self-managed/): Permissions
+- [Personal access token failing Azure DevOps integration with Not Authorized error](https://help.gitkraken.com/git-integration-for-jira-data-center/personal-access-token-failing-azure-devops-integration-with-not-authorized-error-gij-self-managed/): Personal access token failing Azure DevOps integration with Not Authorized error
+- [Plugin Data Storage](https://help.gitkraken.com/git-integration-for-jira-data-center/plugin-data-storage-gij-self-managed/): Plugin Data Storage
+- [Problems with shared home on Azure Storage](https://help.gitkraken.com/git-integration-for-jira-data-center/problems-with-shared-home-on-azure-storage-gij-self-managed/): Problems with shared home on Azure Storage
+- [Proxy settings on adding integrations (except AWS CodeCommit)](https://help.gitkraken.com/git-integration-for-jira-data-center/proxy-settings-on-adding-integrations-(except-aws-codecommit)-gij-self-managed/): Proxy settings on adding integrations (except AWS CodeCommit)
+- [Pull or merge requests (Development panel)](https://help.gitkraken.com/git-integration-for-jira-data-center/pull-or-merge-requests-(development-panel)-gij-self-managed/): Pull or merge requests (Development panel)
+- [Pull request filters](https://help.gitkraken.com/git-integration-for-jira-data-center/pull-request-filters-gij-self-managed/): Pull request filters
+- [Pull request index error -- org.json.JSONException](https://help.gitkraken.com/git-integration-for-jira-data-center/pull-request-index-error--jsonexception-gij-self-managed/): Pull request index error -- org.json.JSONException
+- [Pull request timeline - TIJ DC](https://help.gitkraken.com/git-integration-for-jira-data-center/team-insights-for-jira-datacenter-pullreq-timeline-gij-self-managed/): Pull request timeline - TIJ DC
+- [Purchase and pricing FAQ](https://help.gitkraken.com/git-integration-for-jira-data-center/faq-purchase-and-pricing-gij-self-managed/): Purchase and pricing FAQ
+- [Recommended Jira memory settings - Administration](https://help.gitkraken.com/git-integration-for-jira-data-center/recommended-jira-memory-settings-gij-self-managed/): Recommended Jira memory settings - Administration
+- [Recommended reindex interval setting](https://help.gitkraken.com/git-integration-for-jira-data-center/recommended-reindex-interval-setting-gij-self-managed/): Recommended reindex interval setting
+- [Recommended upgrade method for Git Integration for Jira](https://help.gitkraken.com/git-integration-for-jira-data-center/recommended-upgrade-method-for-git-integration-for-jira-gij-self-managed/): Recommended upgrade method for Git Integration for Jira
+- [Reconfigure Git repositories and SSH keys](https://help.gitkraken.com/git-integration-for-jira-data-center/reconfigure-git-repositories-and-ssh-keys-gij-self-managed/): Reconfigure Git repositories and SSH keys
+- [Reindex and cache FAQ](https://help.gitkraken.com/git-integration-for-jira-data-center/faq-reindex-and-cache-gij-self-managed/): Reindex and cache FAQ
+- [Reindex API](https://help.gitkraken.com/git-integration-for-jira-data-center/reindex-api-gij-self-managed/): Reindex API
+- [Reindex API to trigger indexing](https://help.gitkraken.com/git-integration-for-jira-data-center/reindex-api-to-trigger-indexing-gij-self-managed/): Reindex API to trigger indexing
+- [Reindex GET API](https://help.gitkraken.com/git-integration-for-jira-data-center/reindex-get-api-gij-self-managed/): Reindex GET API
+- [Reindex POST API](https://help.gitkraken.com/git-integration-for-jira-data-center/reindex-post-api-gij-self-managed/): Reindex POST API
+- [Reindexing](https://help.gitkraken.com/git-integration-for-jira-data-center/reindexing-gij-self-managed/): Reindexing
+- [Remove Integration API](https://help.gitkraken.com/git-integration-for-jira-data-center/remove-integration-gij-self-managed/): Remove Integration API
+- [Removing a nested repository](https://help.gitkraken.com/git-integration-for-jira-data-center/remove-a-nested-repository-gij-self-managed/): Removing a nested repository
+- [Removing existing repositories via Bulk change](https://help.gitkraken.com/git-integration-for-jira-data-center/removing-existing-repositories-via-bulk-change-gij-self-managed/): Removing existing repositories via Bulk change
+- [Removing integration or repository configuration](https://help.gitkraken.com/git-integration-for-jira-data-center/removing-integration-or-repository-configuration-gij-self-managed/): Removing integration or repository configuration
+- [Removing SSH keys](https://help.gitkraken.com/git-integration-for-jira-data-center/removing-ssh-keys-gij-self-managed/): Removing SSH keys
+- [Repositories FAQ](https://help.gitkraken.com/git-integration-for-jira-data-center/faq-repositories-gij-self-managed/): Repositories FAQ
+- [Repositories garbage collection checker](https://help.gitkraken.com/git-integration-for-jira-data-center/repositories-garbage-collection-checker-gij-self-managed/): Repositories garbage collection checker
+- [Repositories missing from Azure DevOps integration](https://help.gitkraken.com/git-integration-for-jira-data-center/repositories-missing-from-azure-devops-integration-gij-self-managed/): Repositories missing from Azure DevOps integration
+- [Repository API](https://help.gitkraken.com/git-integration-for-jira-data-center/repository-api-gij-self-managed/): Repository API
+- [Repository Browser](https://help.gitkraken.com/git-integration-for-jira-data-center/repository-browser-gij-self-managed/): Repository Browser
+- [Repository Browser general setting](https://help.gitkraken.com/git-integration-for-jira-data-center/repository-browser-general-setting-gij-self-managed/): Repository Browser general setting
+- [Repository settings (General setting)](https://help.gitkraken.com/git-integration-for-jira-data-center/repository-settings-gij-self-managed/): Repository settings (General setting)
+- [Require Personal Access Tokens for user actions (create branch/pull request)](https://help.gitkraken.com/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-(create-branch-pull-request)-gij-self-managed/): Require Personal Access Tokens for user actions (create branch/pull request)
+- [Require User PAT general setting](https://help.gitkraken.com/git-integration-for-jira-data-center/require-user-pat-general-setting-gij-self-managed/): Require User PAT general setting
+- [Requirement for secured import](https://help.gitkraken.com/git-integration-for-jira-data-center/requirement-for-secured-import-gij-self-managed/): Requirement for secured import
+- [REST API](https://help.gitkraken.com/git-integration-for-jira-data-center/rest-api-gij-self-managed/): REST API
+- [Retrieve an Integration API](https://help.gitkraken.com/git-integration-for-jira-data-center/retrieve-an-integration-gij-self-managed/): Retrieve an Integration API
+- [Retrieve Integration List API](https://help.gitkraken.com/git-integration-for-jira-data-center/retrieve-integration-list-gij-self-managed/): Retrieve Integration List API
+- [Retrieve Repository List](https://help.gitkraken.com/git-integration-for-jira-data-center/retrieve-repository-list-gij-self-managed/): Retrieve Repository List
+- [Scheduled jobs general setting](https://help.gitkraken.com/git-integration-for-jira-data-center/scheduled-jobs-gij-self-managed/): Scheduled jobs general setting
+- [Scheduling Jobs](https://help.gitkraken.com/git-integration-for-jira-data-center/scheduling-jobs-gij-self-managed/): Scheduling Jobs
+- [Scripting (Jira git workflow hooks)](https://help.gitkraken.com/git-integration-for-jira-data-center/scripting-(jira-git-workflow-hooks)-gij-self-managed/): Scripting (Jira git workflow hooks)
+- [ScriptRunner - Javadoc - Interface GIJFacade](https://help.gitkraken.com/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-gijfacade-gij-self-managed/): ScriptRunner - Javadoc - Interface GIJFacade
+- [ScriptRunner - Javadocs - Class Branch](https://help.gitkraken.com/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-scriptrunner-models-branch-gij-self-managed/): ScriptRunner - Javadocs - Class Branch
+- [ScriptRunner - Javadocs - Class Commit](https://help.gitkraken.com/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-commit-gij-self-managed/): ScriptRunner - Javadocs - Class Commit
+- [ScriptRunner - Javadocs - Class Commit.ShortFileInfo](https://help.gitkraken.com/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-shortfileinfo-gij-self-managed/): ScriptRunner - Javadocs - Class Commit.ShortFileInfo
+- [ScriptRunner - Javadocs - Class CreatePullRequestRequest](https://help.gitkraken.com/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-repository-createpullrequestrequest-gij-self-managed/): ScriptRunner - Javadocs - Class CreatePullRequestRequest
+- [ScriptRunner - Javadocs - Class GIJException](https://help.gitkraken.com/git-integration-for-jira-data-center/scriptrunner-javadoc-git-exceptions-gijexception-gij-self-managed/): ScriptRunner - Javadocs - Class GIJException
+- [ScriptRunner - Javadocs - Class IndexStatusResponse](https://help.gitkraken.com/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-indexstatusresponse-gij-self-managed/): ScriptRunner - Javadocs - Class IndexStatusResponse
+- [ScriptRunner - Javadocs - Class IntegrationRequest](https://help.gitkraken.com/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-integration-integrationrequest-gij-self-managed/): ScriptRunner - Javadocs - Class IntegrationRequest
+- [ScriptRunner - Javadocs - Class IntegrationType](https://help.gitkraken.com/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-integration-integrationtype-gij-self-managed/): ScriptRunner - Javadocs - Class IntegrationType
+- [ScriptRunner - Javadocs - Class IssuesAssociationRequest](https://help.gitkraken.com/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-issuesassociationrequest/): ScriptRunner - Javadocs - Class IssuesAssociationRequest
+- [ScriptRunner - Javadocs - Class PullRequest](https://help.gitkraken.com/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-scriptrunner-models-pullrequest-gij-self-managed/): ScriptRunner - Javadocs - Class PullRequest
+- [ScriptRunner - Javadocs - Class ReindexLogEntry](https://help.gitkraken.com/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-async-reindexlogentry-gij-self-managed/): ScriptRunner - Javadocs - Class ReindexLogEntry
+- [ScriptRunner - Javadocs - Class Repository](https://help.gitkraken.com/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-repository-gij-self-managed/): ScriptRunner - Javadocs - Class Repository
+- [ScriptRunner - Javadocs - Class RepositoryShortInfo](https://help.gitkraken.com/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-repositoryshortinfo-gij-self-managed/): ScriptRunner - Javadocs - Class RepositoryShortInfo
+- [ScriptRunner - Javadocs - Class Tag](https://help.gitkraken.com/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-tag-gij-self-managed/): ScriptRunner - Javadocs - Class Tag
+- [Self-signed HTTPS integration](https://help.gitkraken.com/git-integration-for-jira-data-center/self-signed-https-integration-gij-self-managed/): Self-signed HTTPS integration
+- [Server-side Hook](https://help.gitkraken.com/git-integration-for-jira-data-center/server-side-hook-gij-self-managed/): Server-side Hook
+- [Service proxy has been destroyed exceptions in log](https://help.gitkraken.com/git-integration-for-jira-data-center/service-proxy-has-been-destroyed-exceptions-in-log-gij-self-managed/): Service proxy has been destroyed exceptions in log
+- [Setting Project Permissions](https://help.gitkraken.com/git-integration-for-jira-data-center/setting-project-permissions-gij-self-managed/): Setting Project Permissions
+- [Setting up repositories](https://help.gitkraken.com/git-integration-for-jira-data-center/setting-up-repositories-gij-self-managed/): Setting up repositories
+- [Setting up repository root not located in Jira Home directory (Admins)](https://help.gitkraken.com/git-integration-for-jira-data-center/setting-up-repository-root-not-located-in-jira-home-directory-(admins)-gij-self-managed/): Setting up repository root not located in Jira Home directory (Admins)
+- [Setting up web linking](https://help.gitkraken.com/git-integration-for-jira-data-center/setting-up-web-linking-gij-self-managed/): Setting up web linking
+- [Setting up webhooks](https://help.gitkraken.com/git-integration-for-jira-data-center/setting-up-webhooks-gij-self-managed/): Setting up webhooks
+- [Setup GitLab Server to respond to incoming network API calls](https://help.gitkraken.com/git-integration-for-jira-data-center/setup-gitlab-server-to-respond-to-incoming-network-api-calls-gij-self-managed/): Setup GitLab Server to respond to incoming network API calls
+- [Setup repository root not located in Jira Home directory](https://help.gitkraken.com/git-integration-for-jira-data-center/setup-repository-root-not-located-in-jira-home-directory-gij-self-managed/): Setup repository root not located in Jira Home directory
+- [Shared reindex queue between DC nodes](https://help.gitkraken.com/git-integration-for-jira-data-center/shared-reindex-queue-between-dc-nodes-gij-self-managed/): Shared reindex queue between DC nodes
+- [Show tracked or integration repositories](https://help.gitkraken.com/git-integration-for-jira-data-center/show-tracked-or-integration-repositories-gij-self-managed/): Show tracked or integration repositories
+- [Smart commits - Advanced examples](https://help.gitkraken.com/git-integration-for-jira-data-center/advanced-examples-gij-self-managed/): Smart commits - Advanced examples
+- [Smart commits - Documentation](https://help.gitkraken.com/git-integration-for-jira-data-center/smart-commits-gij-self-managed/): Smart commits - Documentation
+- [Smart commits - Viewing workflows](https://help.gitkraken.com/git-integration-for-jira-data-center/viewing-workflows-gij-self-managed/): Smart commits - Viewing workflows
+- [Smart commits - Workflow transitions](https://help.gitkraken.com/git-integration-for-jira-data-center/workflow-transitions-gij-self-managed/): Smart commits - Workflow transitions
+- [Smart commits -- Basic commands](https://help.gitkraken.com/git-integration-for-jira-data-center/basic-commands-gij-self-managed/): Smart commits -- Basic commands
+- [Smart commits General setting](https://help.gitkraken.com/git-integration-for-jira-data-center/smart-commits-general-setting-gij-self-managed/): Smart commits General setting
+- [Smart commits helper](https://help.gitkraken.com/git-integration-for-jira-data-center/smart-commits-helper-gij-self-managed/): Smart commits helper
+- [Smart commits overview](https://help.gitkraken.com/git-integration-for-jira-data-center/smart-commits-overview-gij-self-managed/): Smart commits overview
+- [Source Code Diff Viewing general setting](https://help.gitkraken.com/git-integration-for-jira-data-center/source-code-diff-viewing-general-setting-gij-self-managed/): Source Code Diff Viewing general setting
+- [SQLException Incorrect string value in merge requests](https://help.gitkraken.com/git-integration-for-jira-data-center/sqlexception-'incorrect-string-value'-in-merge-requests-gij-self-managed/): SQLException Incorrect string value in merge requests
+- [SSH FAQ](https://help.gitkraken.com/git-integration-for-jira-data-center/faq-ssh-gij-self-managed/): SSH FAQ
+- [SSH key file format is invalid](https://help.gitkraken.com/git-integration-for-jira-data-center/ssh-key-file-format-is-invalid-gij-self-managed/): SSH key file format is invalid
+- [SSH keys configuration](https://help.gitkraken.com/git-integration-for-jira-data-center/ssh-keys-configuration-gij-self-managed/): SSH keys configuration
+- [SSL verify](https://help.gitkraken.com/git-integration-for-jira-data-center/ssl-verify-gij-self-managed/): SSL verify
+- [Support FAQ](https://help.gitkraken.com/git-integration-for-jira-data-center/faq-support-gij-self-managed/): Support FAQ
+- [Tag filters](https://help.gitkraken.com/git-integration-for-jira-data-center/tag-filters-gij-self-managed/): Tag filters
+- [Tags API](https://help.gitkraken.com/git-integration-for-jira-data-center/tags-api-gij-self-managed/): Tags API
+- [Team Insights for Jira Data Center](https://help.gitkraken.com/git-integration-for-jira-data-center/team-insights-for-jira-datacenter-gij-self-managed/): Team Insights for Jira Data Center
+- [TFS - Not authorized exception when Jira works thru proxy](https://help.gitkraken.com/git-integration-for-jira-data-center/tfs-not-authorized-exception-when-jira-works-thru-proxy-gij-self-managed/): TFS - Not authorized exception when Jira works thru proxy
+- [Tips for Jira Admins (Self-Managed)](https://help.gitkraken.com/git-integration-for-jira-data-center/tips-for-jira-admins-gij-self-managed/): Tips for Jira Admins (Self-Managed)
+- [Tracked Folders](https://help.gitkraken.com/git-integration-for-jira-data-center/tracked-folders-gij-self-managed/): Tracked Folders
+- [Tracked Folders JMESPath filter examples](https://help.gitkraken.com/git-integration-for-jira-data-center/tracked-folders-jmespath-filter-examples-gij-self-managed/): Tracked Folders JMESPath filter examples
+- [Tracked folders overview](https://help.gitkraken.com/git-integration-for-jira-data-center/tracked-folders-overview-gij-self-managed/): Tracked folders overview
+- [Troubleshooting articles](https://help.gitkraken.com/git-integration-for-jira-data-center/troubleshooting-articles-gij-self-managed/): Troubleshooting articles
+- [Unexpected exception parsing XML document from URL error in log](https://help.gitkraken.com/git-integration-for-jira-data-center/unexpected-exception-parsing-xml-document-from-url-error-in-log-gij-self-managed/): Unexpected exception parsing XML document from URL error in log
+- [Uninstall and reinstall FAQ](https://help.gitkraken.com/git-integration-for-jira-data-center/faq-uninstall-and-reinstall-gij-self-managed/): Uninstall and reinstall FAQ
+- [Update Commit Issue Changes API](https://help.gitkraken.com/git-integration-for-jira-data-center/update-commit-issue-changes-gij-self-managed/): Update Commit Issue Changes API
+- [Update Existing Integration API](https://help.gitkraken.com/git-integration-for-jira-data-center/update-existing-integration-gij-self-managed/): Update Existing Integration API
+- [Update Existing Repository API](https://help.gitkraken.com/git-integration-for-jira-data-center/update-existing-repository-gij-self-managed/): Update Existing Repository API
+- [Update Nested Repository API](https://help.gitkraken.com/git-integration-for-jira-data-center/update-nested-repository-api-gij-self-managed/): Update Nested Repository API
+- [Upgrades and migrations within same server](https://help.gitkraken.com/git-integration-for-jira-data-center/upgrades-and-migrations-within-same-server-gij-self-managed/): Upgrades and migrations within same server
+- [User Guide - GIJ DC](https://help.gitkraken.com/git-integration-for-jira-data-center/end-user-guide-dc/): User Guide - GIJ DC
+- [User profile settings](https://help.gitkraken.com/git-integration-for-jira-data-center/user-profile-settings-gij-self-managed/): User profile settings
+- [Using smart commits (Integration basics)](https://help.gitkraken.com/git-integration-for-jira-data-center/using-smart-commits-gij-self-managed/): Using smart commits (Integration basics)
+- [Using the Add new integration wizard](https://help.gitkraken.com/git-integration-for-jira-data-center/using-the-add-new-integration-wizard-gij-self-managed/): Using the Add new integration wizard
+- [Using the Connect Repository wizard](https://help.gitkraken.com/git-integration-for-jira-data-center/using-the-connect-repository-wizard-gij-self-managed/): Using the Connect Repository wizard
+- [Using the Repository Browser (Integration basics)](https://help.gitkraken.com/git-integration-for-jira-data-center/using-the-repository-browser-gij-self-managed/): Using the Repository Browser (Integration basics)
+- [View integration or repository properties](https://help.gitkraken.com/git-integration-for-jira-data-center/view-integration-or-repository-properties-gij-self-managed/): View integration or repository properties
+- [Viewing commit code diffs](https://help.gitkraken.com/git-integration-for-jira-data-center/viewing-commit-code-diffs-gij-self-managed/): Viewing commit code diffs
+- [Viewing indexing logs](https://help.gitkraken.com/git-integration-for-jira-data-center/viewing-indexing-logs-gij-self-managed/): Viewing indexing logs
+- [Viewing list of commits in Repository Browser](https://help.gitkraken.com/git-integration-for-jira-data-center/viewing-list-of-commits-in-repository-browser-gij-self-managed/): Viewing list of commits in Repository Browser
+- [Watching email notifications](https://help.gitkraken.com/git-integration-for-jira-data-center/watching-email-notifications-gij-self-managed/): Watching email notifications
+- [Ways to Index Git Data to Jira Issues](https://help.gitkraken.com/git-integration-for-jira-data-center/ways-to-index-git-data-to-jira-issues-gij-self-managed/): Ways to Index Git Data to Jira Issues
+- [Web linking](https://help.gitkraken.com/git-integration-for-jira-data-center/web-linking-gij-self-managed/): Web linking
+- [Webhooks - Features](https://help.gitkraken.com/git-integration-for-jira-data-center/webhooks-gij-self-managed/): Webhooks - Features
+- [Webhooks GitHub Organization Support](https://help.gitkraken.com/git-integration-for-jira-data-center/webhooks-github-organization-support-gij-self-managed/): Webhooks GitHub Organization Support
+- [When a GIJ license expires, it shows up as a session error to the user](https://help.gitkraken.com/git-integration-for-jira-data-center/when-a-license-expires-a-session-error-is-shown-to-the-user-gij-self-managed/): When a GIJ license expires, it shows up as a session error to the user
+- [Why don't I see commits? (Data Center)](https://help.gitkraken.com/git-integration-for-jira-data-center/why-don't-i-see-commits-(data-center)-gij-self-managed/): Why don't I see commits? (Data Center)
+- [Why don't I see the Create Branch or Pull Request features?](https://help.gitkraken.com/git-integration-for-jira-data-center/why-don't-i-see-the-create-branch-or-pull-request-features-gij-self-managed/): Why don't I see the Create Branch or Pull Request features?
+- [Why I am getting the error, "git-upload-pack not permitted"?](https://help.gitkraken.com/git-integration-for-jira-data-center/why-i-am-getting-the-error-git-upload-pack-not-permitted-gij-self-managed/): Why I am getting the error, "git-upload-pack not permitted"?
+- [Windows Network | Server Share](https://help.gitkraken.com/git-integration-for-jira-data-center/windows-network-server-share-gij-self-managed/): Windows Network | Server Share
+- [Working with Custom API Path](https://help.gitkraken.com/git-integration-for-jira-data-center/working-with-custom-api-path-gij-self-managed/): Working with Custom API Path
+- [Working with JMESPath Filters](https://help.gitkraken.com/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed/): Working with JMESPath Filters
+- [Working with SSH keys](https://help.gitkraken.com/git-integration-for-jira-data-center/working-with-ssh-keys-gij-self-managed/): Working with SSH keys
+- [Working with Tracked folders](https://help.gitkraken.com/git-integration-for-jira-data-center/working-with-tracked-folders-gij-self-managed/): Working with Tracked folders
+- [Workspace FAQ](https://help.gitkraken.com/git-integration-for-jira-data-center/faq-workspace-gij-self-managed/): Workspace FAQ
+- [Your token has not been granted the required scopes](https://help.gitkraken.com/git-integration-for-jira-data-center/your-token-has-not-been-granted-the-required-scopes-gij-self-managed/): Your token has not been granted the required scopes
