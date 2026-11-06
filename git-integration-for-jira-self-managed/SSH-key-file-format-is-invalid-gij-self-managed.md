@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "troubleshooting-articles-gij-self-managed"
+    nav_label: "SSH key file format is invalid"
+    nav_order: 210
+    nav_parent: "troubleshooting-articles-gij-self-managed"
+    page_type: "content"
 ---
 
 <!-- TROUBLESHOOTING -->

@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "frequently-asked-questions-gij-self-managed"
+    nav_label: "Purchase and pricing FAQ"
+    nav_order: 140
+    nav_parent: "frequently-asked-questions-gij-self-managed"
+    page_type: "content"
 ---
 
 This page contains related questions about trial or purchase of Git Integration for Jira app and accepted payment methods.

@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "troubleshooting-articles-gij-self-managed"
+    nav_label: "Cannot auto-deploy some tracked repositories — Specified origin is incorrect or not supported"
+    nav_order: 60
+    nav_parent: "troubleshooting-articles-gij-self-managed"
+    page_type: "content"
 ---
 
 ### Problem

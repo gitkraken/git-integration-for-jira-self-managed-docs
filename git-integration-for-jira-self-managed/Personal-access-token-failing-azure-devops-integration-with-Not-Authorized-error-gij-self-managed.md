@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "troubleshooting-articles-gij-self-managed"
+    nav_label: "Personal access token failing Azure DevOps integration with Not Authorized error"
+    nav_order: 170
+    nav_parent: "troubleshooting-articles-gij-self-managed"
+    page_type: "content"
 ---
 
 ### Problem

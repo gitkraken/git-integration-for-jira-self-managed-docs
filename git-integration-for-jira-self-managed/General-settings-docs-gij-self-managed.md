@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "General settings – Documentation"
+    nav_order: 90
+    nav_parent: "documentation-gij-self-managed"
+    page_type: "content"
 ---
 
 The General settings page is only accessible to Jira Administrators.

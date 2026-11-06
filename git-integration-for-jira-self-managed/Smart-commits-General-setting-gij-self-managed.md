@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Smart commits General setting"
+    nav_order: 60
+    nav_parent: "smart-commits-gij-self-managed"
+    page_type: "content"
 ---
 
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>

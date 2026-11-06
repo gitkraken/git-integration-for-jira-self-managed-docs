@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "getting-started-guide-dc"
+    nav_label: "Optional Features and Add-on Extensions"
+    nav_order: 40
+    nav_parent: "getting-started-guide-dc"
+    page_type: "content"
 ---
 
 Congratulations! You have now successfully completed your base GIJ configuration.! The following features and free add-on extension applications are not necessary for the operation of GIJ, but do provide additional value on top of the base functionality, so we recommend that you explore them.

@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Adding a repository hosted on Windows Server or Windows Network share"
+    nav_order: 60
+    nav_parent: "setting-up-repositories-gij-self-managed"
+    page_type: "content"
 ---
 
 <!-- setting up repo -->

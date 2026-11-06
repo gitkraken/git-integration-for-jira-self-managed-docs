@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "New GitLab v10+ authentication"
+    nav_order: 20
+    nav_parent: "getting-started-for-git-administrators-gij-self-managed"
+    page_type: "content"
 ---
 
 GitLab v10+ stopped accepting username/password credentials for API access and will only recognize Personal Access Tokens (PAT) and OAuth authentications. Service users are strongly advised to switch from using username/password for GitLab.com and newer versions of GitLab Server (CE/EE) to using Personal Access Tokens.

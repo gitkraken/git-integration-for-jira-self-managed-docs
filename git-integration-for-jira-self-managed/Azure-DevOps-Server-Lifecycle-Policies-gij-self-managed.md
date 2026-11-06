@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "git-services-support-page"
+    nav_label: "Azure DevOps Server Lifecycle Policies"
+    nav_order: 40
+    nav_parent: "git-services-support-page"
+    page_type: "content"
 ---
 
 <!-- this page is under Support page and EOL policies -->

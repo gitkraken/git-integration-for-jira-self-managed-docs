@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "app-support-gij-self-managed"
+    nav_label: "App Support"
+    nav_order: 170
+    nav_parent: ""
+    page_type: "content"
 ---
 
 The Git Integration for Jira app (GIJ) currently supports the following Jira versions:

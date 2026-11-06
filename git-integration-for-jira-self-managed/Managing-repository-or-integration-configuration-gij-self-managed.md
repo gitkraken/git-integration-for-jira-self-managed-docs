@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Managing repository or integration configuration"
+    nav_order: 100
+    nav_parent: "setting-up-repositories-gij-self-managed"
+    page_type: "content"
 ---
 
 Manage connected repositories or integration via the ![](/wp-content/uploads/actions-icon.png) **Actions** commands on the git configuration page.

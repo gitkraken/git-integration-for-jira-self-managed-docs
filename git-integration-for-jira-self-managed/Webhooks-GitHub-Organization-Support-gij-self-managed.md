@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "hooks-and-webhooks-gij-self-managed"
+    nav_label: "Webhooks GitHub Organization Support"
+    nav_order: 30
+    nav_parent: "webhooks-gij-self-managed"
+    page_type: "content"
 ---
 The GitHub Organization webhooks is now supported.  Rather than creating a webhook for each repository manually, configure the webhook at the GitHub Organization level to automatically register webhook for each repository.
 

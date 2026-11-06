@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "troubleshooting-articles-gij-self-managed"
+    nav_label: "Gitolite integration – Why the Git integration app not see the master branch?"
+    nav_order: 110
+    nav_parent: "troubleshooting-articles-gij-self-managed"
+    page_type: "content"
 ---
 
 <!-- TROUBLESHOOTING -->

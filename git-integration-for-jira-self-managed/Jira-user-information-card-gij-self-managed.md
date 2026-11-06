@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Jira user information card"
+    nav_order: 170
+    nav_parent: "documentation-gij-self-managed"
+    page_type: "content"
 ---
 The Jira user card is available on the following screens:
 

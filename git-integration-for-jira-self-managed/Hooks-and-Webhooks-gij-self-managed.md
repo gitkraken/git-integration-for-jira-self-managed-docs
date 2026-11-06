@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "hooks-and-webhooks-gij-self-managed"
+    nav_label: "Hooks and Webhooks"
+    nav_order: 110
+    nav_parent: ""
+    page_type: "content"
 ---
 
 Welcome to the Git Integration for Jira app hooks and webhooks reference page index for Jira Data Center.

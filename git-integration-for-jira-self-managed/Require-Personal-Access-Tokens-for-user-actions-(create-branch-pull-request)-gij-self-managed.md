@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "how-to-articles-gij-self-managed"
+    nav_label: "Require Personal Access Tokens for user actions (create branch/pull request)"
+    nav_order: 90
+    nav_parent: "how-to-articles-gij-self-managed"
+    page_type: "content"
 ---
 
 <!-- how to -->

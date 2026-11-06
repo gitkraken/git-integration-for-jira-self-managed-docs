@@ -4,6 +4,12 @@ title: Dangerous use of multiple connections error on local database
 description:
 taxonomy:
     category: git-integration-for-jira-data-center
+custom_fields:
+    nav_category: "troubleshooting-articles-gij-self-managed"
+    nav_label: "Dangerous use of multiple connections error on local database"
+    nav_order: 80
+    nav_parent: "troubleshooting-articles-gij-self-managed"
+    page_type: "content"
 ---
 
 <!-- TROUBLESHOOTING -->

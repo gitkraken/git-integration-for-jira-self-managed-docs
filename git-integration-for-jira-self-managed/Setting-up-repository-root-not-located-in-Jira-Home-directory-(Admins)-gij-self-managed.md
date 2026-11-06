@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Setting up repository root not located in Jira Home directory (Admins)"
+    nav_order: 50
+    nav_parent: "getting-started-for-git-administrators-gij-self-managed"
+    page_type: "content"
 ---
 
 There are three possible ways to setup a repository root that is not located in the Jira home directory:

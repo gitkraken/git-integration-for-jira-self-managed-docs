@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Jira project page"
+    nav_order: 210
+    nav_parent: "documentation-gij-self-managed"
+    page_type: "content"
 ---
 
 The Project page allows you to manage project related options.

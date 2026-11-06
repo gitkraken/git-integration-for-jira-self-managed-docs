@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "rest-api-gij-self-managed"
+    nav_label: "Branches API"
+    nav_order: 60
+    nav_parent: "rest-api-gij-self-managed"
+    page_type: "content"
 ---
 
 The Branches REST API will obtain list of branches associated to a Jira issue.

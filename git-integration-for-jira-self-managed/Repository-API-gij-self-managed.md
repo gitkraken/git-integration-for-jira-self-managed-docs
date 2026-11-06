@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "rest-api-gij-self-managed"
+    nav_label: "Repository API"
+    nav_order: 30
+    nav_parent: "rest-api-gij-self-managed"
+    page_type: "content"
 ---
 
 **Updated: February 14, 2020**

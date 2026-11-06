@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Show tracked or integration repositories"
+    nav_order: 20
+    nav_parent: "managing-repository-or-integration-configuration-gij-self-managed"
+    page_type: "content"
 ---
 
 On the <b>Manage Git Repositories</b> page, click the <img src='/wp-content/uploads/actions-icon.png' /> icon under the <b>Actions</b> column then select:

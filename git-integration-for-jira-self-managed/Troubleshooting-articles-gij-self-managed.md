@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "troubleshooting-articles-gij-self-managed"
+    nav_label: "Troubleshooting articles"
+    nav_order: 150
+    nav_parent: ""
+    page_type: "content"
 ---
 
 <!-- TROUBLESHOOTING -->

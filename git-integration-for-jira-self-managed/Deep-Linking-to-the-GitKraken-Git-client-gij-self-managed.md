@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "features-gij-self-managed"
+    nav_label: "Deep Linking to the GitKraken Git client"
+    nav_order: 10
+    nav_parent: "deeplinking-feature-gij-self-managed"
+    page_type: "content"
 ---
 
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b>

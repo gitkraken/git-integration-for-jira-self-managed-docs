@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Git notes"
+    nav_order: 20
+    nav_parent: "linking-git-commits-to-jira-issues-gij-self-managed"
+    page_type: "content"
 ---
 
 The Git Integration for Jira app displays <a href='https://git-scm.com/docs/git-notes' target='_blank'>git notes</a> in the **Git Commits** tab:

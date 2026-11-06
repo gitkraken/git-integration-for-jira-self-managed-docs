@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "User profile settings"
+    nav_order: 20
+    nav_parent: "commit-email-notifications-gij-self-managed"
+    page_type: "content"
 ---
 
 By default, Jira email notification format is text-only.

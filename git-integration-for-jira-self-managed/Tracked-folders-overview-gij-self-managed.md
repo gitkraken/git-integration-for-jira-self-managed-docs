@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Tracked folders overview"
+    nav_order: 80
+    nav_parent: "setting-up-repositories-gij-self-managed"
+    page_type: "content"
 ---
 
 This feature scans a locally accessible path for cloned Git repositories and automatically imports those Git repository references into Jira. A repository group called <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>FOLDER</b> is added into the Git Integration app repository configuration list.

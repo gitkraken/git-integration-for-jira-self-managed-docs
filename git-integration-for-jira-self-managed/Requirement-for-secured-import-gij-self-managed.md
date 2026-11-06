@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Requirement for secured import"
+    nav_order: 20
+    nav_parent: "bulk-change-gij-self-managed"
+    page_type: "content"
 ---
 
 ### SSH integration

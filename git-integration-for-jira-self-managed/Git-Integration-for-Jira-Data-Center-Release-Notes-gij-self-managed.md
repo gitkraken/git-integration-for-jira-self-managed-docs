@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "git-integration-for-jira-data-center-release-notes-gij-self-managed"
+    nav_label: "Release Notes"
+    nav_order: 40
+    nav_parent: ""
+    page_type: "content"
 ---
 
 We publish new features, bug fixes, security updates/patches, and Jira compatibility regularly. Below are highlights of the changes.

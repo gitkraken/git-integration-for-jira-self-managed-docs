@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "integration-guides-gij-self-managed"
+    nav_label: "Azure DevOps Services | Visual Studio Team Services (VSTS)"
+    nav_order: 70
+    nav_parent: "integration-guides-gij-self-managed"
+    page_type: "content"
 ---
 
 <div class="bbb-callout bbb--info">

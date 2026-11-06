@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Import new repositories via Bulk change"
+    nav_order: 40
+    nav_parent: "bulk-change-gij-self-managed"
+    page_type: "content"
 ---
 
 Before you can add new repository configuration via bulk change, you need to download the template file:

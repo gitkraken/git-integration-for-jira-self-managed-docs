@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "rest-api-gij-self-managed"
+    nav_label: "Retrieve an Integration API"
+    nav_order: 60
+    nav_parent: "integration-api-gij-self-managed"
+    page_type: "content"
 ---
 
 Retrieves the parameter details of an integration from the git repository configuration.

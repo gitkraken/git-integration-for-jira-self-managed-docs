@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Increasing timeout threshold for large repositories while doing a Git pull"
+    nav_order: 100
+    nav_parent: "getting-started-for-git-administrators-gij-self-managed"
+    page_type: "content"
 ---
 
 For this workaround to work, the user must have an access to a Jira hosting instance:

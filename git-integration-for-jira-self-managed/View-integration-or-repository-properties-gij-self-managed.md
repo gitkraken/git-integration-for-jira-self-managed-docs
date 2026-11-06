@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "View integration or repository properties"
+    nav_order: 80
+    nav_parent: "managing-repository-or-integration-configuration-gij-self-managed"
+    page_type: "content"
 ---
 <img src='/wp-content/uploads/gij-gitserver-gitmgr-view-details-01.png' style='display:block;margin:25px auto;max-width:100%' />
 

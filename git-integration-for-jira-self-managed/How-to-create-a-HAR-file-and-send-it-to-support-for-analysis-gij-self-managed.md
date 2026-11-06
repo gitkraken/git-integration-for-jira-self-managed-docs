@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "how-to-articles-gij-self-managed"
+    nav_label: "How to create a HAR file and send it to support for analysis"
+    nav_order: 30
+    nav_parent: "how-to-articles-gij-self-managed"
+    page_type: "content"
 ---
 
 HAR (HTTP Archive) is basically a JSON file which is exported from a captured data used by several HTTP session tools. We use this file to analyze report data and debugging errors. This way, we may be able to reproduce your issue from our side. We ensure that all the data sent to us will only be used within our scope.

@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "features-gij-self-managed"
+    nav_label: "Class IssuesAssociationRequest"
+    nav_order: 40
+    nav_parent: "scriptrunner-javadoc-git-services-gijfacade-gij-self-managed"
+    page_type: "content"
 ---
 <!-- The package link is flagged as 404 by web crawlers. This is intended as is. -->
 

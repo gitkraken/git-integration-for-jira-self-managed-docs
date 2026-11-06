@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "frequently-asked-questions-gij-self-managed"
+    nav_label: "FAQ – General"
+    nav_order: 30
+    nav_parent: "frequently-asked-questions-gij-self-managed"
+    page_type: "content"
 ---
 
 This page contains frequently asked questions by users in general.

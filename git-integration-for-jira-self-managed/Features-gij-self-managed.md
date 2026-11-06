@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "features-gij-self-managed"
+    nav_label: "Features"
+    nav_order: 80
+    nav_parent: ""
+    page_type: "content"
 ---
 
 On this page you will find topics related to the supported features of the app.

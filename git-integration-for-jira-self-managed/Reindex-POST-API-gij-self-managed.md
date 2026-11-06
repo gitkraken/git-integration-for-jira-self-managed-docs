@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "rest-api-gij-self-managed"
+    nav_label: "Reindex POST API"
+    nav_order: 10
+    nav_parent: "reindex-api-gij-self-managed"
+    page_type: "content"
 ---
 
 Starts the reindex process in a separate thread and returns the result immediately.

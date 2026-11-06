@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Setting up web linking"
+    nav_order: 80
+    nav_parent: "getting-started-for-git-administrators-gij-self-managed"
+    page_type: "content"
 ---
 
 <!-- getting started -->

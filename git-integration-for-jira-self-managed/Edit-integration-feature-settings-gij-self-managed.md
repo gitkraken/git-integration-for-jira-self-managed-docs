@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Edit integration feature settings"
+    nav_order: 40
+    nav_parent: "managing-repository-or-integration-configuration-gij-self-managed"
+    page_type: "content"
 ---
 
 Clicking <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit integration feature settings** opens the configuration page for integration features settings such as repository browser, requiring user PAT, project permissions and more.

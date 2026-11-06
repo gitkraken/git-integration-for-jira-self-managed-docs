@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "how-to-articles-gij-self-managed"
+    nav_label: "Tracked Folders JMESPath filter examples"
+    nav_order: 50
+    nav_parent: "working-with-jmespath-filters-gij-self-managed"
+    page_type: "content"
 ---
 
 ![](/wp-content/uploads/tracked-folder-mobile-custom3.png)

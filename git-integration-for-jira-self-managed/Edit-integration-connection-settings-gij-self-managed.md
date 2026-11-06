@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Edit integration connection settings"
+    nav_order: 30
+    nav_parent: "managing-repository-or-integration-configuration-gij-self-managed"
+    page_type: "content"
 ---
 
 The Edit integration connection settings page allows admins and managers to configure git settings such as displayed name, folder scanning and repository filter options.

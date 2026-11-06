@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Commit email notifications"
+    nav_order: 80
+    nav_parent: "documentation-gij-self-managed"
+    page_type: "content"
 ---
 
 This setting allows an individual user to receive or to stop receiving any of the notification emails.

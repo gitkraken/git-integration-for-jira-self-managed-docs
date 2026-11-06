@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "administration-gij-self-managed"
+    nav_label: "Tips for Jira Admins (Self-Managed)"
+    nav_order: 20
+    nav_parent: "administration-gij-self-managed"
+    page_type: "content"
 ---
 
 Welcome, Jira administrators! In this page, you will be seeing some useful tips on how to get more productive using the Git Integration for Jira app.

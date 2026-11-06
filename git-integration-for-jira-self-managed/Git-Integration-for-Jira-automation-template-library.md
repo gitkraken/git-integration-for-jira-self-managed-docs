@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "features-gij-self-managed"
+    nav_label: "Template library"
+    nav_order: 20
+    nav_parent: "git-integration-plus-jira-automation-gij-self-managed"
+    page_type: "content"
 ---
 
 Let automation do the work while your developers focus on what’s important.  Automation Templates for Git Integration for Jira can be implemented so you never need to start from scratch. We’ve provided some templates we think are useful so you don't need to create your own automation rules from scratch.

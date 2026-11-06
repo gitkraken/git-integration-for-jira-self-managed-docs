@@ -5,6 +5,13 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "getting-started-guide-dc"
+    nav_label: "Admin Getting Started Guide"
+    nav_order: 20
+    nav_parent: ""
+    page_type: "content"
+    nav_also: ["getting-started-guide-dc|10|Admin Getting Started Guide"]
 ---
 
 ## Application Overview

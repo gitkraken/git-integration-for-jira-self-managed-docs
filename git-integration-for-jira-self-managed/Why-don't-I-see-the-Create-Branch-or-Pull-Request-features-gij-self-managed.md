@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "frequently-asked-questions-gij-self-managed"
+    nav_label: "Why don’t I see the Create Branch or Pull Request features?"
+    nav_order: 20
+    nav_parent: "frequently-asked-questions-gij-self-managed"
+    page_type: "content"
 ---
 
 ### Problem

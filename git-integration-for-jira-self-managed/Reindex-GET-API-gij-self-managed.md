@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "rest-api-gij-self-managed"
+    nav_label: "Reindex GET API"
+    nav_order: 20
+    nav_parent: "reindex-api-gij-self-managed"
+    page_type: "content"
 ---
 
 Use this method to track messages for a particular thread.

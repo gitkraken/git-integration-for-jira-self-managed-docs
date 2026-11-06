@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "integration-guides-gij-self-managed"
+    nav_label: "Gerrit"
+    nav_order: 110
+    nav_parent: "integration-guides-gij-self-managed"
+    page_type: "content"
 ---
 ![](/wp-content/uploads/gerrit-banner-logo.png)
 

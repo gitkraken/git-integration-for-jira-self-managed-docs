@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "how-to-articles-gij-self-managed"
+    nav_label: "Working with JMESPath Filters"
+    nav_order: 60
+    nav_parent: "how-to-articles-gij-self-managed"
+    page_type: "content"
 ---
 JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated.
 

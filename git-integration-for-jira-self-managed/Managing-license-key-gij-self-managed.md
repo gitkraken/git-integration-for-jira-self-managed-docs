@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Managing license key"
+    nav_order: 20
+    nav_parent: "documentation-gij-self-managed"
+    page_type: "content"
 ---
 
 In most cases, when a new license for an app is purchased, the new license key can be retrieved from Atlassian. Replace the trial license key with the purchased one in the **Manage apps** configuration page.

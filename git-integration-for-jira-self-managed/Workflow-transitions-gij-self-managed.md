@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Smart commits – Workflow transitions"
+    nav_order: 30
+    nav_parent: "smart-commits-gij-self-managed"
+    page_type: "content"
 ---
 
 The simple Jira workflow does not contain explicit transition names. These kind of workflow with no explicit transition names are becoming more popular as Atlassian is suggesting them to administrators upon project creation.

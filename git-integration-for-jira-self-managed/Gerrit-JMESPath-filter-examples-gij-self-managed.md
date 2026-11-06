@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "how-to-articles-gij-self-managed"
+    nav_label: "Gerrit JMESPath filter examples"
+    nav_order: 60
+    nav_parent: "working-with-jmespath-filters-gij-self-managed"
+    page_type: "content"
 ---
 
 ![](/wp-content/uploads/gerrit-banner-logo.png)

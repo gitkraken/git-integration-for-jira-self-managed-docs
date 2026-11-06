@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "end-user-guide-dc"
+    nav_label: "User Guide"
+    nav_order: 30
+    nav_parent: ""
+    page_type: "content"
 ---
 ## Introduction to GIJ
 Thank you for using Git Integration for Jira! First, let’s go over how information will be displayed in jira through our application.

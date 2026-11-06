@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "rest-api-gij-self-managed"
+    nav_label: "Retrieve Repository List"
+    nav_order: 10
+    nav_parent: "repository-api-gij-self-managed"
+    page_type: "content"
 ---
 
 Retrieves list of repositories mapped to a given project.

@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "integration-guides-gij-self-managed"
+    nav_label: "Bonobo"
+    nav_order: 120
+    nav_parent: "integration-guides-gij-self-managed"
+    page_type: "content"
 ---
 <img src=''/wp-content/uploads/gij-bonobo-banner-logo.png' width=545 height=84 />
 

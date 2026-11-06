@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Adding and connecting a nested repository"
+    nav_order: 10
+    nav_parent: "nested-repository-gij-self-managed"
+    page_type: "content"
 ---
 
 ### Adding a nested repository with Git Submodule

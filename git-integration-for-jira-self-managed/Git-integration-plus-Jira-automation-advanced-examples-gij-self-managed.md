@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "features-gij-self-managed"
+    nav_label: "Advanced examples"
+    nav_order: 10
+    nav_parent: "git-integration-plus-jira-automation-gij-self-managed"
+    page_type: "content"
 ---
 
 [Git Integration + Jira Automation (Jira Server \| DC)](/git-integration-for-jira-data-center/git-integration-plus-jira-automation-gij-self-managed/) \> Advanced examples

@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "JQL searching"
+    nav_order: 230
+    nav_parent: "documentation-gij-self-managed"
+    page_type: "content"
 ---
 
 The Git Integration for Jira app has added JQL operators and fields to query Jira using JQL and git context via the Jira search. Our custom fields serve as additional criteria that allow you to filter Jira issues based on associated Git branches and commit references.

@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Adding a private SSH key"
+    nav_order: 20
+    nav_parent: "working-with-ssh-keys-gij-self-managed"
+    page_type: "content"
 ---
 
 ![Manage git integration for jira highlighting sidebar SSH keys menu item](/wp-content/uploads/gij-gitserver-add-ssh-keys.png)

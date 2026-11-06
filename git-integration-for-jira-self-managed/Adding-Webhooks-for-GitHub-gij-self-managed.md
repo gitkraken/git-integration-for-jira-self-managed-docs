@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "hooks-and-webhooks-gij-self-managed"
+    nav_label: "Adding Webhooks for GitHub"
+    nav_order: 20
+    nav_parent: "webhooks-gij-self-managed"
+    page_type: "content"
 ---
 
 <div class="bbb-callout bbb--info">

@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "how-to-articles-gij-self-managed"
+    nav_label: "Configure Source Code Diff Viewing"
+    nav_order: 70
+    nav_parent: "how-to-articles-gij-self-managed"
+    page_type: "content"
 ---
 
 <!-- how to articles -->

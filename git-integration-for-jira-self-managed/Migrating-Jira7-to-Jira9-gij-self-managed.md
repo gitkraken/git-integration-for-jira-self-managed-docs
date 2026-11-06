@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "administration-gij-self-managed"
+    nav_label: "Migrating from Jira 8 to Jira 9"
+    nav_order: 30
+    nav_parent: "administration-gij-self-managed"
+    page_type: "content"
 ---
 
 Upgrading from Jira 8 to Jira 9 provides new features, performance and stability. However, there are some small things that need to be considered for the transition.

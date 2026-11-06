@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "rest-api-gij-self-managed"
+    nav_label: "Update Existing Integration API"
+    nav_order: 40
+    nav_parent: "integration-api-gij-self-managed"
+    page_type: "content"
 ---
 
 Updates the existing parameters of the specified integration.

@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "how-to-articles-gij-self-managed"
+    nav_label: "Creating Personal Access Tokens"
+    nav_order: 120
+    nav_parent: "how-to-articles-gij-self-managed"
+    page_type: "content"
 ---
 
 This page contains steps for creating personal access tokens (PATs) for specific git hosts. Use the table of contents to navigate to the selected git host.

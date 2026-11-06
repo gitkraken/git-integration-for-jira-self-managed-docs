@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "how-to-articles-gij-self-managed"
+    nav_label: "Setting Project Permissions"
+    nav_order: 20
+    nav_parent: "how-to-articles-gij-self-managed"
+    page_type: "content"
 ---
 
 <!-- HOW TO ARTICLES -->

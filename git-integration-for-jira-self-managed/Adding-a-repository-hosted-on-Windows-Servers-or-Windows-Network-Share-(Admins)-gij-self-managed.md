@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Adding a repository hosted on Windows Servers or Windows Network Share (Admins)"
+    nav_order: 40
+    nav_parent: "getting-started-for-git-administrators-gij-self-managed"
+    page_type: "content"
 ---
 
 Add a new network share or Windows server hosted repository via the Connect to Git Repository wizard.

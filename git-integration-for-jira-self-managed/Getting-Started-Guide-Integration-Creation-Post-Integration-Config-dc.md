@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "getting-started-guide-dc"
+    nav_label: "Integration creation and Post integration Configuration"
+    nav_order: 30
+    nav_parent: "getting-started-guide-dc"
+    page_type: "content"
 ---
 ## Integration Creation
 ---

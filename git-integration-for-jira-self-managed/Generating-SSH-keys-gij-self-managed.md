@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Generating SSH keys"
+    nav_order: 10
+    nav_parent: "working-with-ssh-keys-gij-self-managed"
+    page_type: "content"
 ---
 
 Configure and generate SSH keys for the following git hosting systems by following the reference links on each sub-section:

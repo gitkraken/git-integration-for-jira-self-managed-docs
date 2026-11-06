@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Git user identity"
+    nav_order: 160
+    nav_parent: "documentation-gij-self-managed"
+    page_type: "content"
 ---
 
 A git user can identify himself on his local computer using the following commands:

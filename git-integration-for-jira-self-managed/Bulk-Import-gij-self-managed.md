@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "rest-api-gij-self-managed"
+    nav_label: "Bulk Import API"
+    nav_order: 20
+    nav_parent: "bulk-change-api-gij-self-managed"
+    page_type: "content"
 ---
 
 Starts the process of importing configuration and returns the result at once.

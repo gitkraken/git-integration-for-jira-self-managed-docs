@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Enable/disable Repository Browser via git repository configuration page"
+    nav_order: 30
+    nav_parent: "repository-browser-gij-self-managed"
+    page_type: "content"
 ---
 
 Access the Repository Browser via Jira dashboard menu Git ➜ **Repository browser** or alternatively, go to Jira Administration ➜ _**Apps**_ ➜ _Git Integration for Jira_ _(sidebar)_ ➜ **Repository browser**.

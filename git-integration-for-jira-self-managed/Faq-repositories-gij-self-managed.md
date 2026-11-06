@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "frequently-asked-questions-gij-self-managed"
+    nav_label: "Repositories FAQ"
+    nav_order: 70
+    nav_parent: "frequently-asked-questions-gij-self-managed"
+    page_type: "content"
 ---
 
 This page contains solutions to common issues encountered while connecting and configuring git repositories.

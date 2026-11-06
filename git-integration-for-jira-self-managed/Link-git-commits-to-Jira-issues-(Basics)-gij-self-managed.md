@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "integration-guides-gij-self-managed"
+    nav_label: "– Link git commits to Jira issues (Integration basics)"
+    nav_order: 30
+    nav_parent: "integration-basics-gij-self-managed"
+    page_type: "content"
 ---
 
 <div class='embed-container embed-container--16-10'>

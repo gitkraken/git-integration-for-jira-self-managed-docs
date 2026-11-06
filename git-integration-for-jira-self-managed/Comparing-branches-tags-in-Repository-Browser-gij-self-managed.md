@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Comparing branches/tags in Repository Browser"
+    nav_order: 20
+    nav_parent: "repository-browser-gij-self-managed"
+    page_type: "content"
 ---
 
 <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>ALSO IN JIRA CLOUD</b>

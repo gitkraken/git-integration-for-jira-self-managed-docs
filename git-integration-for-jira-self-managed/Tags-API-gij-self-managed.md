@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "rest-api-gij-self-managed"
+    nav_label: "Tags API"
+    nav_order: 70
+    nav_parent: "rest-api-gij-self-managed"
+    page_type: "content"
 ---
 
 The Tag REST API returns several latest tags for the issue.  Tags are sorted in chronological order from newest to oldest.

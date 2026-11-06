@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Viewing list of commits in Repository Browser"
+    nav_order: 10
+    nav_parent: "repository-browser-gij-self-managed"
+    page_type: "content"
 ---
 
 In the Repository Browser, select a repository then click the **Commits** tab.

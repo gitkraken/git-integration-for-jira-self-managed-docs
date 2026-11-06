@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "hooks-and-webhooks-gij-self-managed"
+    nav_label: "Commit-msg Hook"
+    nav_order: 10
+    nav_parent: "hooks-and-webhooks-gij-self-managed"
+    page_type: "content"
 ---
 
 Every developer must have this hook on his local machine in order to:

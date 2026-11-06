@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "hooks-and-webhooks-gij-self-managed"
+    nav_label: "Creating reindex triggers for a single repository"
+    nav_order: 10
+    nav_parent: "webhooks-gij-self-managed"
+    page_type: "content"
 ---
 
 To create a webhook that triggers the reindex of a single repository, the following requirements are required::

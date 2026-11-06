@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "features-gij-self-managed"
+    nav_label: "Manager permissions"
+    nav_order: 10
+    nav_parent: "features-gij-self-managed"
+    page_type: "content"
 ---
 
 <div class='embed-container embed-container--16-9'>

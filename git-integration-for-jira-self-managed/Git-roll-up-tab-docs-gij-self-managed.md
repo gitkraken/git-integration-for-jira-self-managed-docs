@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Git Roll Up tab – Jira issue page"
+    nav_order: 10
+    nav_parent: "jira-issue-page-gij-self-managed"
+    page_type: "content"
 ---
 
 <!-- jira issue page - git roll up tab documentation -->

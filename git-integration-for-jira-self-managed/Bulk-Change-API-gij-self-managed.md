@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "rest-api-gij-self-managed"
+    nav_label: "Bulk Change API"
+    nav_order: 10
+    nav_parent: "rest-api-gij-self-managed"
+    page_type: "content"
 ---
 
 The bulk change API extends the possibility of importing and exporting repository configuration by automating the process via scripts.

@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Getting started for Git administrators"
+    nav_order: 30
+    nav_parent: "documentation-gij-self-managed"
+    page_type: "content"
 ---
 
 <img src='/wp-content/uploads/gij-docs-introduction-bbb-overview_708.png' style='margin:25px auto;max-width:100%;display:block;' />
