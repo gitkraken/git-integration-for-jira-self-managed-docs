@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "frequently-asked-questions-gij-self-managed"
+    nav_label: "Frequently Asked Questions"
+    nav_order: 130
+    nav_parent: ""
+    page_type: "content"
 ---
 
 Find answers to questions asked by Git Integration for Jira app users, workarounds and solutions to help you get up and running.  Click a topic title to view its contents or search through the related topics.

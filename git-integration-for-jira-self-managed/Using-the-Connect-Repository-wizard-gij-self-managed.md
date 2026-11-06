@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Using the Connect Repository wizard"
+    nav_order: 30
+    nav_parent: "setting-up-repositories-gij-self-managed"
+    page_type: "content"
 ---
 
 This page is intended for users who are using SSH connections or those who wanted to only connect a single specific repository.

@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "sla-terms-and-conditions-gij-sekf-managed"
+    nav_label: "GIJ Terms and Conditions"
+    nav_order: 200
+    nav_parent: ""
+    page_type: "content"
 ---
 
 Gitkraken’s goal is to ensure you can use Git Integration for Jira (GIJ) effortlessly and with minimal friction.  In the unlikely event that you need to reach out to a human, refer to our current terms and conditions below. The section below covers Git Integration for Jira Cloud. 

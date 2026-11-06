@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Removing existing repositories via Bulk change"
+    nav_order: 60
+    nav_parent: "bulk-change-gij-self-managed"
+    page_type: "content"
 ---
 
 To delete multiple repositories from the Git Integration for Jira app git repository/integration configuration:

@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "rest-api-gij-self-managed"
+    nav_label: "Remove Integration – API"
+    nav_order: 50
+    nav_parent: "integration-api-gij-self-managed"
+    page_type: "content"
 ---
 
 Deletes the existing integration from the Git Integration for Jira app repository configuration.

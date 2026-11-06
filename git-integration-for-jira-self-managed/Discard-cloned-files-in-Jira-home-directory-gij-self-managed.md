@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "administration-gij-self-managed"
+    nav_label: "Discard cloned files in Jira home directory"
+    nav_order: 170
+    nav_parent: "general-settings-gij-self-managed"
+    page_type: "content"
 ---
 
 <b style='background-color:#FFEBE6; padding:1px 5px; color:#C02909; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>DEPRECATED</b>

@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "administration-gij-self-managed"
+    nav_label: "Git integration features"
+    nav_order: 70
+    nav_parent: "general-settings-gij-self-managed"
+    page_type: "content"
 ---
 
 <div class="bbb-callout bbb--info">

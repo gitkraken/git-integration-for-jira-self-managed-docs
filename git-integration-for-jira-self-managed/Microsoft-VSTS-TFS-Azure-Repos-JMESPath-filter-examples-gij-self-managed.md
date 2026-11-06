@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "how-to-articles-gij-self-managed"
+    nav_label: "Microsoft | VSTS | TFS | Azure Repos JMESPath filter examples"
+    nav_order: 40
+    nav_parent: "working-with-jmespath-filters-gij-self-managed"
+    page_type: "content"
 ---
 
 ![](/wp-content/uploads/azure2-logo.png)

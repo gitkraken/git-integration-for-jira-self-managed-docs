@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Using the Add new integration wizard"
+    nav_order: 20
+    nav_parent: "setting-up-repositories-gij-self-managed"
+    page_type: "content"
 ---
 
 The Add new integration panel (_formerly Auto-Connect integration panel_) contains special integration for specific git hosts, supports multiple connected repositories and automates git integration.

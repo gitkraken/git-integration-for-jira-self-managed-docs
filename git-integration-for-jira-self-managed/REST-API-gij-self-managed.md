@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "rest-api-gij-self-managed"
+    nav_label: "REST API"
+    nav_order: 120
+    nav_parent: ""
+    page_type: "content"
 ---
 
 Welcome to the Git Integration for Jira app REST API reference page index.

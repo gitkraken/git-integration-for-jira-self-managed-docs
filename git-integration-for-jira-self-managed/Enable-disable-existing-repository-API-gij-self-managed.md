@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "rest-api-gij-self-managed"
+    nav_label: "Enable/Disable Existing Repository API"
+    nav_order: 30
+    nav_parent: "repository-api-gij-self-managed"
+    page_type: "content"
 ---
 
 <div class="bbb-callout bbb--alert">

@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "features-gij-self-managed"
+    nav_label: "Class GIJException"
+    nav_order: 20
+    nav_parent: "gij-plus-scriptrunner-gij-self-managed"
+    page_type: "content"
 ---
 
 * Package [com.bigbrassband.jira.git.exceptions](#)

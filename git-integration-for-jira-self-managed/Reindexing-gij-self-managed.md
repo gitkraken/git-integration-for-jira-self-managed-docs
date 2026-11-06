@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Reindexing"
+    nav_order: 220
+    nav_parent: "documentation-gij-self-managed"
+    page_type: "content"
 ---
 
 <div class="bbb-callout bbb--alert">

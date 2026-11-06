@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "SSH keys configuration"
+    nav_order: 40
+    nav_parent: "working-with-ssh-keys-gij-self-managed"
+    page_type: "content"
 ---
 
 Manage and associate SSH keys to connected git repositories via the **SSH Keys** in Git Integration for Jira Server app repository configuration page.

@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "rest-api-gij-self-managed"
+    nav_label: "Update Commit Issue Changes API"
+    nav_order: 30
+    nav_parent: "commits-api-gij-self-managed"
+    page_type: "content"
 ---
 
 Updates the list of issues associated with the commit to the specified repository.

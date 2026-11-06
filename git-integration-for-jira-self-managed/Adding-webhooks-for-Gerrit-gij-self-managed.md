@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "hooks-and-webhooks-gij-self-managed"
+    nav_label: "Adding webhooks for Gerrit"
+    nav_order: 80
+    nav_parent: "webhooks-gij-self-managed"
+    page_type: "content"
 ---
 <img src='/wp-content/uploads/gij-gerrit-webhook-banner.png' width=510 height=117 style='display:block;margin:25px auto;max-width:!00%' />
 

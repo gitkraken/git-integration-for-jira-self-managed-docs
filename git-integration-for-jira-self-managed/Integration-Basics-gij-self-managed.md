@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "integration-guides-gij-self-managed"
+    nav_label: "Integration Basics"
+    nav_order: 10
+    nav_parent: "integration-guides-gij-self-managed"
+    page_type: "content"
 ---
 
 Learn basic integration for most git hosts by connecting git repositories to Jira Server via Git Integration for Jira app.

@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Installation – Documentation"
+    nav_order: 10
+    nav_parent: "documentation-gij-self-managed"
+    page_type: "content"
 ---
 
 Install our product via the Atlassian Marketplace, Jira Plugin Manager or with manual installation (using the Upload method).

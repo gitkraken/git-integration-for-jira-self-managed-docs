@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Removing SSH keys"
+    nav_order: 60
+    nav_parent: "working-with-ssh-keys-gij-self-managed"
+    page_type: "content"
 ---
 
 SSH keys cannot be modified or updated. To change the keys, remove and add them again.

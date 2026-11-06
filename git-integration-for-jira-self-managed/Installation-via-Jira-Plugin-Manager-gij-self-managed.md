@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Installation via Jira Plugin Manager"
+    nav_order: 20
+    nav_parent: "installation-gij-self-managed"
+    page_type: "content"
 ---
 
 1.  On your Jira dashboard, go to  Jira Administration ➜ **Manage apps**.

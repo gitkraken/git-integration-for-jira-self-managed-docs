@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "rest-api-gij-self-managed"
+    nav_label: "Integration API"
+    nav_order: 20
+    nav_parent: "rest-api-gij-self-managed"
+    page_type: "content"
 ---
 
 Add or manage one or more repositories/integrations using the Integration REST API.

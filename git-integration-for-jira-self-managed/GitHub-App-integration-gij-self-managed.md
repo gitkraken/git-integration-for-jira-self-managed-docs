@@ -5,6 +5,13 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "integration-guides-gij-self-managed"
+    nav_label: "GitHub App integration"
+    nav_order: 40
+    nav_parent: "integration-guides-gij-self-managed"
+    page_type: "content"
+    nav_also: ["features-gij-self-managed|70|GitHub App integration"]
 ---
 
 GitHub offers a variety of integration options, including: API, OAuth, and more recently GitHub Apps. There are a number of benefits to using GitHub app over OAuth:

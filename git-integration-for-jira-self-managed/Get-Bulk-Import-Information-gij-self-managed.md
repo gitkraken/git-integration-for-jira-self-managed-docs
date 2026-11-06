@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "rest-api-gij-self-managed"
+    nav_label: "Get Bulk Import Information"
+    nav_order: 30
+    nav_parent: "bulk-change-api-gij-self-managed"
+    page_type: "content"
 ---
 
 Obtains information about the importing thread. Use the following path format to access bulk import information.

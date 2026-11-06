@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "rest-api-gij-self-managed"
+    nav_label: "Update Nested Repository API"
+    nav_order: 50
+    nav_parent: "repository-api-gij-self-managed"
+    page_type: "content"
 ---
 
 Updates the existing nested repository using the REST API.

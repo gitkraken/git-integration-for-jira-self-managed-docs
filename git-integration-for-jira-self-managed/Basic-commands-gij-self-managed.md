@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Smart commits — Basic commands"
+    nav_order: 10
+    nav_parent: "smart-commits-gij-self-managed"
+    page_type: "content"
 ---
 
 There are smart commits commands that you can use in your commit messages. Read on to learn more details on each smart commit command and how they work.

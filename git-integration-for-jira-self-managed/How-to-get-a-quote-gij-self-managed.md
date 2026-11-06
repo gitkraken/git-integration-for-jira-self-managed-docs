@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "how-to-articles-gij-self-managed"
+    nav_label: "How to get a quote?"
+    nav_order: 10
+    nav_parent: "how-to-articles-gij-self-managed"
+    page_type: "content"
 ---
 
 You can generate a quote for Git Integration for Jira Data Center by doing the following steps below.

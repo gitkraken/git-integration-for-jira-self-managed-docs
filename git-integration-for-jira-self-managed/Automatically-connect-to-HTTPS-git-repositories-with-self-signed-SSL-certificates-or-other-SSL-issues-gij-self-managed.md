@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues"
+    nav_order: 10
+    nav_parent: "self-signed-https-integration-gij-self-managed"
+    page_type: "content"
 ---
 
 Perform auto-connect integration with HTTPS git repositories that have self-signed SSL certificates or other SSL issues. For this guide, we will use GitLab as an example:

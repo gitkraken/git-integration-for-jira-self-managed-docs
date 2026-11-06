@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Git Commits tab – Jira issue page"
+    nav_order: 20
+    nav_parent: "jira-issue-page-gij-self-managed"
+    page_type: "content"
 ---
 
 The Git Commits tab shows commit information such as commit authors, date of commit, commit messages, access to view code diffs, commit id and view full commit.

@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Glossary and terms"
+    nav_order: 270
+    nav_parent: "documentation-gij-self-managed"
+    page_type: "content"
 ---
 
 ### Git

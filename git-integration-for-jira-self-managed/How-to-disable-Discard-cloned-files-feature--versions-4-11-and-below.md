@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "how-to-articles-gij-self-managed"
+    nav_label: "How to disable “Discard cloned files” feature (Windows/Linux)"
+    nav_order: 130
+    nav_parent: "how-to-articles-gij-self-managed"
+    page_type: "content"
 ---
 
 The Remove Discard files feature is deprecated and the purpose of this article is to guide you on how to completely disable this setting while preserving all integration settings such as project mapping, users' PATS and other integration settings.

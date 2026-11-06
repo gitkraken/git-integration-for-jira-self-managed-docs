@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "rest-api-gij-self-managed"
+    nav_label: "Bulk Export API"
+    nav_order: 10
+    nav_parent: "bulk-change-api-gij-self-managed"
+    page_type: "content"
 ---
 
 The API returns a file with the plugin configuration.

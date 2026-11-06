@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Branches (Development panel)"
+    nav_order: 20
+    nav_parent: "jira-git-integration-development-panel-gij-self-managed"
+    page_type: "content"
 ---
 
 The **Branches** section lists the branches names, linking the selected branch to view via the Repository Browser.

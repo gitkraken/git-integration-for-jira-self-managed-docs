@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Installation and updating"
+    nav_order: 40
+    nav_parent: "installation-gij-self-managed"
+    page_type: "content"
 ---
 
 For upgrade installations, it can be easily done via Universal Plugin Manager (**Manage apps**).

@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "rest-api-gij-self-managed"
+    nav_label: "Reindex API"
+    nav_order: 40
+    nav_parent: "rest-api-gij-self-managed"
+    page_type: "content"
 ---
 
 Call the Reindex REST API to have more control on indexing.

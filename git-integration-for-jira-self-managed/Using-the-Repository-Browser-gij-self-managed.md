@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "integration-guides-gij-self-managed"
+    nav_label: "Using the Repository Browser (Integration basics)"
+    nav_order: 50
+    nav_parent: "integration-basics-gij-self-managed"
+    page_type: "content"
 ---
 
 The Repository Browser permits users to explore the repository similar to browsing a folder in Finder or Windows Explorer.

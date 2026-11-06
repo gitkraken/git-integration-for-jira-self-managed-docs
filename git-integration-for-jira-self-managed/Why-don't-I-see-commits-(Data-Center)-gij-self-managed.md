@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "frequently-asked-questions-gij-self-managed"
+    nav_label: "Why don’t I see commits? (Data Center)"
+    nav_order: 10
+    nav_parent: "frequently-asked-questions-gij-self-managed"
+    page_type: "content"
 ---
 
 <img src='/wp-content/uploads/gij-troubleshoot-how-do-i-see-commits-top.png' style='margin:25px auto;max-width:100%;display:block;' />

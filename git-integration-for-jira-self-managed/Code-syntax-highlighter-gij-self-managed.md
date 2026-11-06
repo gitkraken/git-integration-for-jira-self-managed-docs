@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Jira issue page – Code syntax highlighter"
+    nav_order: 30
+    nav_parent: "jira-issue-page-gij-self-managed"
+    page_type: "content"
 ---
 
 The code diff dialog view has been improved. The Git Integration for Jira app uses the correct syntax highlighting when viewing the code diff of the file based on its file extension:

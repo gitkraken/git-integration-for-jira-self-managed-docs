@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Localization support"
+    nav_order: 260
+    nav_parent: "documentation-gij-self-managed"
+    page_type: "content"
 ---
 
 Starting **v2.6.25+** of the Git Integration for Jira app, unicode characters are now supported and displayed properly.

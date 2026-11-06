@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "features-gij-self-managed"
+    nav_label: "Enforced git permissions for Jira users – Features"
+    nav_order: 100
+    nav_parent: "features-gij-self-managed"
+    page_type: "content"
 ---
 
 <!-- features -->

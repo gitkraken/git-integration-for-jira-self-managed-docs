@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Adding a public SSH Key"
+    nav_order: 30
+    nav_parent: "working-with-ssh-keys-gij-self-managed"
+    page_type: "content"
 ---
 
 Add a public SSH key to your remote git host to prepare its repositories for connection with the Git Integration for Jira app.

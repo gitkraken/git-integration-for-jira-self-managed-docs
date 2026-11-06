@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "integration-guides-gij-self-managed"
+    nav_label: "Creating branches and pull/merge requests (Integration basics)"
+    nav_order: 70
+    nav_parent: "integration-basics-gij-self-managed"
+    page_type: "content"
 ---
 
 The Git Integration for Jira app adds two features on the Jira issue developer panel – **Create Branch**, and **Create Pull/Merge Request**. For more information about the developer panel, see the [Jira Git Integration Developer Panel](/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed) documentation.

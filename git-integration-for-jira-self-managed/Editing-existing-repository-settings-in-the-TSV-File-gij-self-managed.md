@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Editing existing repository settings in the TSV File"
+    nav_order: 50
+    nav_parent: "bulk-change-gij-self-managed"
+    page_type: "content"
 ---
 Navigate to the .tsv file and edit it with your favorite spreadsheet program.
 

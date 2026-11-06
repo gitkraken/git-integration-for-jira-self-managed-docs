@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Installation via Atlassian Marketplace"
+    nav_order: 10
+    nav_parent: "installation-gij-self-managed"
+    page_type: "content"
 ---
 
 1.  Go to the [**Git Integration for Jira**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=datacenter) app Atlassian Marketplace page.

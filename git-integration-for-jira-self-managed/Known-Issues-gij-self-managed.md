@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "known-issues-gij-self-managed"
+    nav_label: "Known Issues"
+    nav_order: 140
+    nav_parent: ""
+    page_type: "content"
 ---
 
 The Git Integration for Jira app is packed with features that makes Jira administrators and developers happy. However, with different hardware configurations out there, these great features can also become burdened by issues.

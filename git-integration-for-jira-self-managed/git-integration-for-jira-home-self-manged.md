@@ -5,6 +5,12 @@ description: Your source for Git Integration for Jira Data Center and Server doc
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "git-integration-for-jira-home-self-manged"
+    nav_label: "Data Center and Server Home"
+    nav_order: 10
+    nav_parent: ""
+    page_type: "main-index"
 ---
 
 Everything you need to know about Git Integration for Jira on Data Center and Server.

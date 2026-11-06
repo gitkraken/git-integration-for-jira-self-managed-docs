@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "integration-guides-gij-self-managed"
+    nav_label: "Tracked Folders"
+    nav_order: 140
+    nav_parent: "integration-guides-gij-self-managed"
+    page_type: "content"
 ---
 
 <!-- integration guide -->

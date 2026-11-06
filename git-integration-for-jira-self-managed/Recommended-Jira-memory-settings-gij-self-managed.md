@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "administration-gij-self-managed"
+    nav_label: "Recommended Jira memory settings – Administration"
+    nav_order: 80
+    nav_parent: "administration-gij-self-managed"
+    page_type: "content"
 ---
 
 <!-- ADMINISTRATION -->

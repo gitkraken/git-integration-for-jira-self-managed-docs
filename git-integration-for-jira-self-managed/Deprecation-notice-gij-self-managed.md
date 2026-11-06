@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "deprecation-notice-gij-self-managed"
+    nav_label: "Deprecation notice"
+    nav_order: 190
+    nav_parent: ""
+    page_type: "content"
 ---
 
 | Feature | Date | Details of ending support, removal or obsolescence |

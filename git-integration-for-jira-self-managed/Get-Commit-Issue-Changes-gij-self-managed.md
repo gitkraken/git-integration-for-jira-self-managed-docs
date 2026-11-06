@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "rest-api-gij-self-managed"
+    nav_label: "Get Commit Issue Changes API"
+    nav_order: 20
+    nav_parent: "commits-api-gij-self-managed"
+    page_type: "content"
 ---
 
 <!-- commits REST API -->

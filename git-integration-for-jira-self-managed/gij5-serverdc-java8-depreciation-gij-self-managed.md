@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "administration-gij-self-managed"
+    nav_label: "Java 8 deprecation with Git Integration for Jira v5.0"
+    nav_order: 10
+    nav_parent: "administration-gij-self-managed"
+    page_type: "content"
 ---
 
 The document explains the importance of updating the Java platform to a newer version. It emphasizes the reasons behind our decision to make this move, which includes prioritizing security, enhancing performance, and ensuring compatibility improvements. Updating Java is crucial for maintaining a secure and efficient software environment.

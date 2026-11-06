@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "administration-gij-self-managed"
+    nav_label: "Per Node Repository Indexing – General setting"
+    nav_order: 120
+    nav_parent: "general-settings-gij-self-managed"
+    page_type: "content"
 ---
 
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>NEW FEATURE</b>

@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "team-insights-for-jira-datacenter-gij-self-managed"
+    nav_label: "Team Insights for Jira Data Center"
+    nav_order: 180
+    nav_parent: ""
+    page_type: "content"
 ---
 
 ![](/wp-content/uploads/tij-datacenter-issues-view-start.png)

@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "integration-guides-gij-self-managed"
+    nav_label: "Connecting to a single git repository (HTTPS/SSH) (Integration basics)"
+    nav_order: 20
+    nav_parent: "integration-basics-gij-self-managed"
+    page_type: "content"
 ---
 
 ![](wp-content/uploads/gij-gitlab-repository-home.png)

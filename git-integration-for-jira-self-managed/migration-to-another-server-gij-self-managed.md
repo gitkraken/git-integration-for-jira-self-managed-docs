@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "administration-gij-self-managed"
+    nav_label: "Migration to another server"
+    nav_order: 50
+    nav_parent: "administration-gij-self-managed"
+    page_type: "content"
 ---
 
 <!-- ADMINISTRATION -->

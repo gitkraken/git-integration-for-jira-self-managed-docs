@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "features-gij-self-managed"
+    nav_label: "Associate Pull/Merge Requests to Issues Based on Commits"
+    nav_order: 130
+    nav_parent: "features-gij-self-managed"
+    page_type: "content"
 ---
 
 <!-- This falls under Features sidenav -->

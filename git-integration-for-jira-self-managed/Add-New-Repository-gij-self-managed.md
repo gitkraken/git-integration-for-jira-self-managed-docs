@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "rest-api-gij-self-managed"
+    nav_label: "Add New Repository"
+    nav_order: 20
+    nav_parent: "repository-api-gij-self-managed"
+    page_type: "content"
 ---
 
 Creates new repository from the given settings.

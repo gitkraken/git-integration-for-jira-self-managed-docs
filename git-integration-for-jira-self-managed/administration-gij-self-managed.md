@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "administration-gij-self-managed"
+    nav_label: "Administration"
+    nav_order: 100
+    nav_parent: ""
+    page_type: "content"
 ---
 
 On this page are relevant articles targeted for administrators.

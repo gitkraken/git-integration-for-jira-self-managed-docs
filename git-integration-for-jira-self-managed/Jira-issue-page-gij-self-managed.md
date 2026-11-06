@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Jira issue page"
+    nav_order: 180
+    nav_parent: "documentation-gij-self-managed"
+    page_type: "content"
 ---
 
 If the Git Integration for Jira app is configured and licensed successfully, new tabs are added to each Jira issue.

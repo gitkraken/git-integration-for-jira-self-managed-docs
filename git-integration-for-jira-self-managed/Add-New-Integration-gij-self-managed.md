@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "rest-api-gij-self-managed"
+    nav_label: "Add New Integration – API"
+    nav_order: 10
+    nav_parent: "integration-api-gij-self-managed"
+    page_type: "content"
 ---
 
 Adds a new integration to the git configuration list via the API call.

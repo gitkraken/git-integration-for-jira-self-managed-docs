@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Self-signed HTTPS integration"
+    nav_order: 90
+    nav_parent: "setting-up-repositories-gij-self-managed"
+    page_type: "content"
 ---
 
 Self-signed certificates are common in HTTPS Git repositories that are hosted privately. Even for an administrator, it's not easy to set the HTTP `sslVerify` to connect to this repository.

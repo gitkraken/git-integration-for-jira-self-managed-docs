@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "administration-gij-self-managed"
+    nav_label: "Plugin Data Storage"
+    nav_order: 90
+    nav_parent: "administration-gij-self-managed"
+    page_type: "content"
 ---
 
 The list of database tables for Git Integration for Jira app can be accessed at ![](/wp-content/uploads/actions-icon.png) Jira Administration ➜ System ➜ (sidebar) Advanced ➜ **Plugin Data Storage**.

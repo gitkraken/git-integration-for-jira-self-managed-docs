@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "integration-guides-gij-self-managed"
+    nav_label: "Using smart commits (Integration basics)"
+    nav_order: 40
+    nav_parent: "integration-basics-gij-self-managed"
+    page_type: "content"
 ---
 
 Smart commits enable users to perform actions on Jira issues from a single commit. In a commit message, enter the issue key and some desired action such as resolving an issue, closing an issue, time tracking or all of them.

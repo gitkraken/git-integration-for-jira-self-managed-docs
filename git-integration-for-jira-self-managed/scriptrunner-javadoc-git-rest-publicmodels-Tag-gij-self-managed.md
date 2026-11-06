@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "features-gij-self-managed"
+    nav_label: "Class Tag"
+    nav_order: 70
+    nav_parent: "scriptrunner-javadoc-git-services-gijfacade-gij-self-managed"
+    page_type: "content"
 ---
 
 * Package [com.bigbrassband.jira.git.rest.publicmodels](#)

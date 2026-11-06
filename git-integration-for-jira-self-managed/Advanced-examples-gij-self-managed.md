@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Smart commits – Advanced examples"
+    nav_order: 20
+    nav_parent: "smart-commits-gij-self-managed"
+    page_type: "content"
 ---
 
 <!-- smart commits advanced examples -->

@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "team-insights-for-jira-datacenter-gij-self-managed"
+    nav_label: "Pull request timeline – TIJ DC"
+    nav_order: 20
+    nav_parent: "team-insights-for-jira-datacenter-gij-self-managed"
+    page_type: "content"
 ---
 
 <div class="bbb-callout bbb--alert">

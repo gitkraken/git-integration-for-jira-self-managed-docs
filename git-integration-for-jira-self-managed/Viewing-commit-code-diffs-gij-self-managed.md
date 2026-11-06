@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Viewing commit code diffs"
+    nav_order: 150
+    nav_parent: "documentation-gij-self-managed"
+    page_type: "content"
 ---
 
 Access the commit code diff dialog via the following locations:

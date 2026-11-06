@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Integration webhooks"
+    nav_order: 240
+    nav_parent: "documentation-gij-self-managed"
+    page_type: "content"
 ---
 
 Trigger immediate reindex of your repositories from remote systems via webhooks. For more information about this topic, see [About GitLab Webhooks](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/web_hooks/web_hooks.md).

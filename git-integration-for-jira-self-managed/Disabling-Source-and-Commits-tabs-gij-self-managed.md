@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "documentation-gij-self-managed"
+    nav_label: "Disabling Source and Commits tabs"
+    nav_order: 110
+    nav_parent: "documentation-gij-self-managed"
+    page_type: "content"
 ---
 
 The **Source** tab is part of the FishEye Plugin and is used for integration with SVN.  The **Commits** tab is part of the Jira DVCS Connector Plugin and is used for integration with gits _(Git, Mercurial, BitBucket etc.)_.

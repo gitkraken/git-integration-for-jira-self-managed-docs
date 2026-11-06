@@ -5,6 +5,12 @@ description:
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "rest-api-gij-self-managed"
+    nav_label: "Delete Existing Repository API"
+    nav_order: 60
+    nav_parent: "repository-api-gij-self-managed"
+    page_type: "content"
 ---
 
 <!-- REST API -->
