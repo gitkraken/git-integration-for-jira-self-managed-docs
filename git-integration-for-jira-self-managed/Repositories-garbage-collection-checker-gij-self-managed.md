@@ -1,7 +1,20 @@
 ---
 
 title: Repositories garbage collection checker
-description:
+description: Set the loose object and packed file limits that trigger garbage collection on cloned repositories in Git Integration for Jira.
+product: Git Integration for Jira Data Center
+feature: General Settings
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [garbage collection, loose objects, packed files, advanced settings]
 taxonomy:
     category: git-integration-for-jira-data-center
 

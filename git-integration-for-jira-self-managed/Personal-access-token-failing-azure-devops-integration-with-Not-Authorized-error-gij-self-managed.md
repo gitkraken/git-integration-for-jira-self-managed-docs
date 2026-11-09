@@ -1,7 +1,20 @@
 ---
 
 title: Personal access token failing Azure DevOps integration with Not Authorized error
-description:
+description: Fix Not authorized errors with Azure DevOps by creating a personal access token for all accessible organizations with the required scopes.
+product: Git Integration for Jira Data Center
+feature: Personal Access Tokens
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [azure-devops]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [azure devops, personal access token, not authorized, organizations, scopes]
 taxonomy:
     category: git-integration-for-jira-data-center
 

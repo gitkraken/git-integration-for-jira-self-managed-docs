@@ -1,7 +1,20 @@
 ---
 
 title: Per Node Repository Indexing - General setting
-description:
+description: Choose which Jira Data Center nodes run Git Integration for Jira repository reindexing so other nodes can focus on user or API traffic.
+product: Git Integration for Jira Data Center
+feature: Data Center Clustering
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: "4.2"
+status: GA
+last_verified: 2024-07
+llms_include: true
+tags: [per node indexing, data center nodes, repository reindexing, cluster, node configuration]
 taxonomy:
     category: git-integration-for-jira-data-center
 

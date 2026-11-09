@@ -1,7 +1,20 @@
 ---
 
 title: Server-side Hook
-description:
+description: Install a pre-receive server-side hook that rejects pushes whose commit messages do not reference a valid Jira issue key.
+product: Git Integration for Jira Data Center
+feature: Server-side Hooks
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-12
+llms_include: true
+tags: [server-side hook, pre-receive, python, jira issue keys, commit messages]
 taxonomy:
     category: git-integration-for-jira-data-center
 

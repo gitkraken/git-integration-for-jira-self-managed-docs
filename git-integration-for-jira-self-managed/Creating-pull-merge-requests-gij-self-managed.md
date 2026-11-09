@@ -1,7 +1,20 @@
 ---
 
 title: Features - Creating pull/merge requests
-description:
+description: Create a pull or merge request directly from a Jira issue and associate PRs created on the Git host with Jira issues by issue key.
+product: Git Integration for Jira Data Center
+feature: Branches and Pull Requests
+content_type: how-to
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [github, gitlab, aws-codecommit, azure-devops, azure-devops-server]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2025-03
+llms_include: true
+tags: [pull requests, merge requests, create pull request, development panel, issue association, draft pull requests]
 taxonomy:
     category: git-integration-for-jira-data-center
 

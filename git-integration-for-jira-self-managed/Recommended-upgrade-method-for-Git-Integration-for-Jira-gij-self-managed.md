@@ -1,7 +1,20 @@
 ---
 
 title: Recommended upgrade method for Git Integration for Jira
-description:
+description: "Upgrade Git Integration for Jira with minimal risk by backing up Jira, exporting repository configuration and SSH keys, or doing a clean reinstall."
+product: Git Integration for Jira Data Center
+feature: Upgrades and Migration
+content_type: install
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira System Administrator]
+version_required: all
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [upgrade, backup, bulk export, ssh keys, reinstall]
 taxonomy:
     category: git-integration-for-jira-data-center
 

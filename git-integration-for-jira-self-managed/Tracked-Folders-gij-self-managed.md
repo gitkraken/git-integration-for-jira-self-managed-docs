@@ -1,7 +1,20 @@
 ---
 
 title: Tracked Folders
-description:
+description: "Import Git repositories from a local path on the Jira server with tracked folders, including folder depth, JMESPath filters and NFS setup."
+product: Git Integration for Jira Data Center
+feature: Tracked Folders
+content_type: integration
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [tracked folders, local repositories, folder depth, gitlab hashed storage, jmespath, nfs]
 taxonomy:
     category: git-integration-for-jira-data-center
 

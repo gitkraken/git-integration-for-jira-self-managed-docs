@@ -1,7 +1,20 @@
 ---
 
 title: Azure DevOps Server | Team Foundation Services (TFS)
-description:
+description: "Connect Azure DevOps Server or TFS repositories to Jira Data Center using personal access tokens, then link commits and create branches and pull requests."
+product: Git Integration for Jira Data Center
+feature: Integrations
+content_type: integration
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [azure-devops-server]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2025-03
+llms_include: true
+tags: [azure devops server, tfs, personal access tokens, full feature integration, webhooks, pull requests, visual studio]
 taxonomy:
     category: git-integration-for-jira-data-center
 

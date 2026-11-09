@@ -1,7 +1,20 @@
 ---
 
 title: How to get a quote?
-description:
+description: "Generate a Data Center quote for Git Integration for Jira on the Atlassian Marketplace, attached to an existing license or set manually."
+product: Git Integration for Jira Data Center
+feature: Licensing
+content_type: how-to
+audience: buyer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [quote, pricing, atlassian marketplace, license, user tiers]
 taxonomy:
     category: git-integration-for-jira-data-center
 

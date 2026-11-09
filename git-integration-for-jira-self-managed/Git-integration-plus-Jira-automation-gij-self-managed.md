@@ -1,7 +1,20 @@
 ---
 
 title: Git Integration + Jira Automation
-description: 
+description: "Set up Jira Automation rules that trigger on Git branch, commit and pull request events, at project or global level."
+product: Git Integration for Jira Data Center
+feature: Jira Automation
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: "4.3"
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [jira automation, automation rules, triggers, project rules, global rules, automation for jira]
 taxonomy:
     category: git-integration-for-jira-data-center
 

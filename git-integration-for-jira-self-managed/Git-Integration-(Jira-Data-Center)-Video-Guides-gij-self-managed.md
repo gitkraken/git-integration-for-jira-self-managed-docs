@@ -1,7 +1,20 @@
 ---
 
 title: Git Integration (Jira Data Center) - Video Guides
-description:
+description: "Watch video guides on installing Git Integration for Jira Data Center, connecting Git hosts, setting permissions, webhooks and web linking."
+product: Git Integration for Jira Data Center
+feature: Video Guides
+content_type: overview
+audience: all
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: false
+tags: [video guides, installation, integrations, webhooks, web linking, permissions]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Jira project page
-description:
+description: "View the Git Commits tab on a Jira project page to browse commit history across the project or for a selected version, and open code diffs."
+product: Git Integration for Jira Data Center
+feature: Git Commits Tab
+content_type: how-to
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [jira project page, git commits tab, versions, code diff, repository browser]
 taxonomy:
     category: git-integration-for-jira-data-center
 

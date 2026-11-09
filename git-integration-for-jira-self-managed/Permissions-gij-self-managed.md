@@ -1,7 +1,20 @@
 ---
 
 title: Permissions
-description:
+description: "Learn which Jira permissions, such as View Development Tools, users need to see commit information and code diffs on Jira issues."
+product: Git Integration for Jira Data Center
+feature: Permissions
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [permissions, view development tools, permission scheme, developers group, code diffs]
 taxonomy:
     category: git-integration-for-jira-data-center
 

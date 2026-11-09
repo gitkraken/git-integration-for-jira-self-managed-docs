@@ -1,7 +1,20 @@
 ---
 
 title: Working with Custom API Path
-description:
+description: "Use a Custom API Path to limit which GitHub or GitLab repositories an integration retrieves, with example REST paths."
+product: Git Integration for Jira Data Center
+feature: Integrations
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [github, github-enterprise, gitlab, gitlab-self-managed]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-03
+llms_include: true
+tags: [custom api path, rest api, github, gitlab, repository filters]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Error while reindexing - Java heap space / Object too large, rejecting the pack
-description:
+description: "Resolve reindex errors for Git objects over 2GB by cleaning repository history, moving large files to Git LFS, or filtering the repository out."
+product: Git Integration for Jira Data Center
+feature: Indexing (Reindex)
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [java heap space, object too large, 2gb limit, jgit, git lfs, jmespath filters]
 taxonomy:
     category: git-integration-for-jira-data-center
 

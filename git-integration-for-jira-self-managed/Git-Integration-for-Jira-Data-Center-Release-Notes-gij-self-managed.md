@@ -1,7 +1,20 @@
 ---
 
 title: Git Integration for Jira Data Center/Server - Release Notes
-description:
+description: "Review new features, improvements and Jira compatibility changes in Git Integration for Jira Data Center releases from 2020 to 2024."
+product: Git Integration for Jira Data Center
+feature: Release Notes
+content_type: release-notes
+audience: all
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2025-01
+llms_include: true
+tags: [release notes, new features, improvements, jira 10 compatibility, indexing, smart commits]
 taxonomy:
     category: git-integration-for-jira-data-center
 

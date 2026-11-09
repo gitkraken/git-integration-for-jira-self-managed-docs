@@ -1,7 +1,20 @@
 ---
 
 title: Support FAQ
-description:
+description: Answers to support questions on Unicode and CJK language support and which Jira versions Git Integration for Jira supports.
+product: Git Integration for Jira Data Center
+feature: Support
+content_type: faq
+audience: all
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2025-06
+llms_include: true
+tags: [unicode, cjk languages, jira compatibility, version history]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Gerrit JMESPath filter examples
-description:
+description: Use example JMESPath expressions to include or exclude Gerrit repositories by name when adding a Gerrit integration.
+product: Git Integration for Jira Data Center
+feature: JMESPath Filters
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [gerrit]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-09
+llms_include: true
+tags: [jmespath, gerrit, repository filters, contains, starts with]
 taxonomy:
     category: git-integration-for-jira-data-center
 

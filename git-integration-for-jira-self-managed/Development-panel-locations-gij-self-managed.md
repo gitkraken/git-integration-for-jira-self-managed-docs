@@ -1,7 +1,20 @@
 ---
 
 title: Development panel locations
-description:
+description: "Find where the Git development panel appears in Jira: on the right pane of Issue and Search pages and in the issue detail view on Agile boards."
+product: Git Integration for Jira Data Center
+feature: Development Panel
+content_type: reference
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [development panel, issue page, search page, agile board]
 taxonomy:
     category: git-integration-for-jira-data-center
 

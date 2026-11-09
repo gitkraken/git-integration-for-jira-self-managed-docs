@@ -1,7 +1,20 @@
 ---
 
 title: How to create a HAR file and send it to support for analysis
-description:
+description: Capture a HAR file in Google Chrome when an error appears and send it to GitKraken support for analysis.
+product: Git Integration for Jira Data Center
+feature: Support
+content_type: how-to
+audience: all
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-03
+llms_include: true
+tags: [har file, chrome devtools, network tab, support, debugging]
 taxonomy:
     category: git-integration-for-jira-data-center
 

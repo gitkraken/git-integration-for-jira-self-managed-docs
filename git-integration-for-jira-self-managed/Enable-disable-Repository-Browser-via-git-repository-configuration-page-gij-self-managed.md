@@ -1,7 +1,20 @@
 ---
 
 title: Enable/disable Repository Browser via git repository configuration page
-description:
+description: Turn the Repository Browser on or off for a repository and choose which tags it shows from the repository settings page.
+product: Git Integration for Jira Data Center
+feature: Repository Browser
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [repository browser, repository settings, tags, regex pattern, enable, disable]
 taxonomy:
     category: git-integration-for-jira-data-center
 

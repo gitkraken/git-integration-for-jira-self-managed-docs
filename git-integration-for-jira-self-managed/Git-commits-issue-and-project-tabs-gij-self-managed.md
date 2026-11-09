@@ -1,7 +1,20 @@
 ---
 
 title: Git commits issue and project tabs
-description:
+description: "Choose which projects show the Git Commits issue and project tabs, set the commit sort order, and limit how many commits are displayed."
+product: Git Integration for Jira Data Center
+feature: General Settings
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [git commits tab, project tab, sort order, commits limit, performance]
 taxonomy:
     category: git-integration-for-jira-data-center
 

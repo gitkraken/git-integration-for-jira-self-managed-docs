@@ -1,7 +1,20 @@
 ---
 
 title: Tracked Folders JMESPath filter examples
-description:
+description: Use example JMESPath expressions to include or exclude tracked folder repositories by name or full path.
+product: Git Integration for Jira Data Center
+feature: JMESPath Filters
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [jmespath, tracked folders, fullpath, repository filters]
 taxonomy:
     category: git-integration-for-jira-data-center
 

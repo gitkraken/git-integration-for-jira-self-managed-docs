@@ -1,7 +1,20 @@
 ---
 
 title: GitLab CE/EE
-description:
+description: "Connect self-managed GitLab CE/EE repositories to Jira Data Center with a personal access token, set permissions, and create branches and merge requests."
+product: Git Integration for Jira Data Center
+feature: Integrations
+content_type: integration
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [gitlab-self-managed]
+role_required: [Jira Administrator]
+version_required: "2.9.4"
+status: GA
+last_verified: 2025-03
+llms_include: true
+tags: [gitlab ce/ee, personal access tokens, permissions, full feature integration, merge requests, api v4]
 taxonomy:
     category: git-integration-for-jira-data-center
 

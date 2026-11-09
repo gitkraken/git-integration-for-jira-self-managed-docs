@@ -1,7 +1,20 @@
 ---
 
 title: Associating project permissions
-description:
+description: Restrict which Jira projects can see development information from a repository or integration by setting project associations.
+product: Git Integration for Jira Data Center
+feature: Permissions
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [project permissions, restrict to projects, associate with all projects, repository settings, integration settings]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Associate Pull/Merge Requests to Issues Based on Commits
-description:
+description: Link pull/merge requests to Jira issues based on their commits and configure the related pull/merge request indexing settings in General settings.
+product: Git Integration for Jira Data Center
+feature: Branches and Pull Requests
+content_type: concept
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [github, gitlab, azure-devops, azure-devops-server]
+role_required: [Jira Administrator]
+version_required: "3.7.2"
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [pull requests, merge requests, indexing, general settings, rate limits, draft pull requests]
 taxonomy:
     category: git-integration-for-jira-data-center
 

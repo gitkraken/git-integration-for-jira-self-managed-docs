@@ -1,7 +1,20 @@
 ---
 
 title: Tag filters
-description:
+description: Control which Git tags appear in the Jira issue Git integration panel with regex tag filters at integration or repository level.
+product: Git Integration for Jira Data Center
+feature: Development Panel
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: "4.19"
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [tag filters, tags, regex, integration settings, development panel]
 taxonomy:
     category: git-integration-for-jira-data-center
 

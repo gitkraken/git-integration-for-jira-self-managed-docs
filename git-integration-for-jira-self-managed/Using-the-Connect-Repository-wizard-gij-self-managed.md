@@ -1,7 +1,20 @@
 ---
 
 title: Using the Connect Repository wizard
-description:
+description: "Connect a single git repository with the Connect wizard, including settings, HTTP(S) and SSH authentication and passphrase entry."
+product: Git Integration for Jira Data Center
+feature: Repository Setup
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-11
+llms_include: true
+tags: [connect wizard, single repository, http authentication, ssh authentication, passphrase, project permissions]
 taxonomy:
     category: git-integration-for-jira-data-center
 

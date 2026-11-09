@@ -1,7 +1,20 @@
 ---
 
 title: ScriptRunner - Javadocs - Class Tag
-description:
+description: "Tag, the ScriptRunner API model for Git tag information."
+product: Git Integration for Jira Data Center
+feature: ScriptRunner
+content_type: api-reference
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-07
+llms_include: true
+tags: [scriptrunner, javadoc, api, tag, git tags]
 taxonomy:
     category: git-integration-for-jira-data-center
 

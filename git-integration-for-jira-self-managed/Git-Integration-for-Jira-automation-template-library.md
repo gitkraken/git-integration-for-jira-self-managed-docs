@@ -1,7 +1,20 @@
 ---
 
 title: Git Integration + Jira Automation - Template library
-description: 
+description: "Find Jira Automation templates and use cases for Git events such as commits, branches and pull requests, plus supported triggers."
+product: Git Integration for Jira Data Center
+feature: Jira Automation
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-05
+llms_include: true
+tags: [jira automation, automation templates, smart values, triggers, pull requests, commits]
 taxonomy:
     category: git-integration-for-jira-data-center
 

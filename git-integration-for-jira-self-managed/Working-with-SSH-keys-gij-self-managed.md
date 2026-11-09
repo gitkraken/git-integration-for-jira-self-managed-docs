@@ -1,7 +1,20 @@
 ---
 
 title: Working with SSH keys
-description:
+description: "Generate RSA SSH key pairs on Windows, Linux or macOS and add the private key to Git Integration for Jira to connect repositories securely."
+product: Git Integration for Jira Data Center
+feature: SSH Keys
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [ssh keys, puttygen, ssh-keygen, private key, openssh, rsa]
 taxonomy:
     category: git-integration-for-jira-data-center
 

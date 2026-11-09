@@ -1,7 +1,20 @@
 ---
 
 title: User Guide - GIJ DC
-description:
+description: "Learn how Git Integration for Jira shows commits, branches and pull requests in Jira issues, how linking works, and how to create branches and PRs."
+product: Git Integration for Jira Data Center
+feature: Getting Started
+content_type: overview
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2024-10
+llms_include: true
+tags: [user guide, issue view, git commits tab, linking, create branch, pull requests, personal access tokens]
 taxonomy:
     category: git-integration-for-jira-data-center
 

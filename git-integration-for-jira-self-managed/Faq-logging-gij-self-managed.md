@@ -1,7 +1,20 @@
 ---
 
 title: Logging FAQ
-description:
+description: "Learn how to create a Jira support zip, enable debug logging for the app and for GitHub, and find the Jira log files to send to support."
+product: Git Integration for Jira Data Center
+feature: Troubleshooting
+content_type: faq
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic, github]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-10
+llms_include: true
+tags: [support zip, debug logging, jira logs, atlassian-jira.log, webhook logging]
 taxonomy:
     category: git-integration-for-jira-data-center
 

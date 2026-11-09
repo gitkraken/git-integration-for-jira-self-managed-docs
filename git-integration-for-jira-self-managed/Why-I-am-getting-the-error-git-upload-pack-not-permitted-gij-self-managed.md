@@ -1,7 +1,20 @@
 ---
 
 title: Why I am getting the error, "git-upload-pack not permitted"?
-description:
+description: "Fix git-upload-pack not permitted errors by checking credentials, access permissions and proxy settings, and by comparing JGit debug logs with git output."
+product: Git Integration for Jira Data Center
+feature: Repository Setup
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [git-upload-pack, credentials, access permissions, proxy, debug logging, basic authentication]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Uninstall and reinstall FAQ
-description:
+description: "Learn how to reinstall, fully uninstall and delete data for Git Integration for Jira, clean up old plugin jar files and remove old indexing services."
+product: Git Integration for Jira Data Center
+feature: Installation
+content_type: faq
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [uninstall, reinstall, database tables, plugin cleanup, upm]
 taxonomy:
     category: git-integration-for-jira-data-center
 

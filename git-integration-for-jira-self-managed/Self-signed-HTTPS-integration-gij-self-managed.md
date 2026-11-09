@@ -1,7 +1,20 @@
 ---
 
 title: Self-signed HTTPS integration
-description:
+description: Connect to privately hosted HTTPS git repositories that use self-signed certificates by disabling SSL verification per repository.
+product: Git Integration for Jira Data Center
+feature: Proxy and SSL
+content_type: overview
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic, github, gitlab]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [self-signed certificate, https, ssl verify, connect wizard, add new integration]
 taxonomy:
     category: git-integration-for-jira-data-center
 

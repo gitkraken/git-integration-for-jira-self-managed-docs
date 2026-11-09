@@ -1,7 +1,20 @@
 ---
 
 title: Webhooks - Features
-description:
+description: "Learn what webhooks do, enable them in Git Integration for Jira, copy the webhook URL and tune advanced settings to trigger instant reindexing."
+product: Git Integration for Jira Data Center
+feature: Webhooks
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-10
+llms_include: true
+tags: [webhooks, webhook url, secret key, min reindex interval, push events, reindexing]
 taxonomy:
     category: git-integration-for-jira-data-center
 

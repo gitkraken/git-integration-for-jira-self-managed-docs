@@ -1,7 +1,20 @@
 ---
 
 title: When a GIJ license expires, it shows up as a session error to the user
-description:
+description: Fix a persistent SessionTokenNotFoundException session error in Git Integration for Jira caused by an expired trial or license.
+product: Git Integration for Jira Data Center
+feature: Licensing
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: false
+tags: [session error, sessiontokennotfoundexception, license expired, trial]
 taxonomy:
     category: git-integration-for-jira-cloud
 

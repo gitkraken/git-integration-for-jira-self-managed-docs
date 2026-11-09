@@ -1,7 +1,20 @@
 ---
 
 title: How to disable "Discard cloned files" feature (Windows/Linux)
-description:
+description: "Fully disable the deprecated Discard cloned files setting on Windows or Linux while keeping integration settings, for app versions 4.11 and below."
+product: Git Integration for Jira Data Center
+feature: General Settings
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: legacy
+last_verified: 2024-09
+llms_include: true
+tags: [discard cloned files, general settings, cleanup script, powershell, shell script, reset indexes]
 taxonomy:
     category: git-integration-for-jira-data-center
 

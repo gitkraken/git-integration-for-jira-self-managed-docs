@@ -1,7 +1,20 @@
 ---
 
 title: Require Personal Access Tokens for user actions (create branch/pull request)
-description:
+description: "Require Jira users to provide their own personal access tokens for creating branches and pull requests, keeping user attribution."
+product: Git Integration for Jira Data Center
+feature: Personal Access Tokens
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [github, github-enterprise, gitlab, gitlab-self-managed, azure-devops, azure-devops-server, aws-codecommit]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [require user pat, user attribution, personal access tokens, create branch, pull requests]
 taxonomy:
     category: git-integration-for-jira-data-center
 

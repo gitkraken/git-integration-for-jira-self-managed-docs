@@ -1,7 +1,20 @@
 ---
 
 title: Integration Basics
-description:
+description: "Learn the basics of connecting Git repositories to Jira, linking commits, smart commits, and creating branches and pull requests."
+product: Git Integration for Jira Data Center
+feature: Integrations
+content_type: overview
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [integration basics, repository groups, smart commits, developer panel]
 taxonomy:
     category: git-integration-for-jira-data-center
 

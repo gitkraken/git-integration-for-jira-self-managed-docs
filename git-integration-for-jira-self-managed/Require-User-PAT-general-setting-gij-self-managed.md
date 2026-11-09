@@ -1,7 +1,20 @@
 ---
 
 title: Require User PAT general setting
-description:
+description: Require Jira users to add personal access tokens before they can create branches or pull and merge requests from Jira.
+product: Git Integration for Jira Data Center
+feature: General Settings
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: "3.8.1"
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [personal access tokens, require user pat, branch creation, pull requests, general settings]
 taxonomy:
     category: git-integration-for-jira-data-center
 

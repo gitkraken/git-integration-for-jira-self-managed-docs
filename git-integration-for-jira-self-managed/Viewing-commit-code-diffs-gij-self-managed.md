@@ -1,7 +1,20 @@
 ---
 
 title: Viewing commit code diffs
-description:
+description: "Open the commit code diff dialog from the Repository Browser, project Git Commits tab or issue Git tabs and expand hidden lines."
+product: Git Integration for Jira Data Center
+feature: Code Diff Viewing
+content_type: how-to
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [code diff, view full commit, repository browser, git roll up, git commits tab]
 taxonomy:
     category: git-integration-for-jira-data-center
 

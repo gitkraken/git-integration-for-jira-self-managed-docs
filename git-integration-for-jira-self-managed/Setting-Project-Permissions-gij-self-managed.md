@@ -1,7 +1,20 @@
 ---
 
 title: Setting Project Permissions
-description:
+description: Limit which Jira projects are associated with an integration or repository to control where Git content is shown.
+product: Git Integration for Jira Data Center
+feature: Permissions
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [project permissions, project association, integration settings, view development tools]
 taxonomy:
     category: git-integration-for-jira-data-center
 

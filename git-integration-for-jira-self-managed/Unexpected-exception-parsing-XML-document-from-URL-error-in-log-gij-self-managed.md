@@ -1,7 +1,20 @@
 ---
 
 title: Unexpected exception parsing XML document from URL error in log
-description:
+description: Fix the Unexpected exception parsing XML document from URL error that can stop the app from enabling by clearing the corrupted Jira plugins cache.
+product: Git Integration for Jira Data Center
+feature: Troubleshooting
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [plugin cache, xml parsing, osgi, app not enabling]
 taxonomy:
     category: git-integration-for-jira-data-center
 

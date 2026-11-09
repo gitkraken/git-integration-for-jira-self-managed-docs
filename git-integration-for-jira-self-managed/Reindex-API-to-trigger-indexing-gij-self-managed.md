@@ -1,7 +1,20 @@
 ---
 
 title: Reindex API to trigger indexing
-description:
+description: Call the Reindex REST API to start reindexing with a POST request or check reindex status for one or all repositories with GET.
+product: Git Integration for Jira Data Center
+feature: REST API
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-06
+llms_include: true
+tags: [reindex api, rest api, post, get, indexing status]
 taxonomy:
     category: git-integration-for-jira-data-center
 

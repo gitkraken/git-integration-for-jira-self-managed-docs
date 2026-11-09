@@ -1,7 +1,20 @@
 ---
 
 title: Bitbucket Server
-description:
+description: "Connect a Bitbucket Server repository to Jira Data Center over HTTPS or SSH, set up web links, and view linked commits in Jira issues."
+product: Git Integration for Jira Data Center
+feature: Integrations
+content_type: integration
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [bitbucket-data-center]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [bitbucket server, single repository, web links, git commits tab]
 taxonomy:
     category: git-integration-for-jira-data-center
 

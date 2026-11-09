@@ -1,7 +1,20 @@
 ---
 
 title: Source Code Diff Viewing general setting
-description:
+description: "Enable or disable source code diff viewing in Git Commits, Git Roll Up and Repository Browser, overriding repository settings."
+product: Git Integration for Jira Data Center
+feature: General Settings
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: "3.8.1"
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [code diff viewing, git commits tab, git roll up tab, repository browser, general settings]
 taxonomy:
     category: git-integration-for-jira-data-center
 

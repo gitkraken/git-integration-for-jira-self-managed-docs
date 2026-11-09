@@ -1,7 +1,20 @@
 ---
 
 title: Adding and associating SSH keys
-description:
+description: "Associate an SSH key with specific repositories, reuse one key across several repositories, and set keys up for custom git servers."
+product: Git Integration for Jira Data Center
+feature: SSH Keys
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [ssh keys, associations, multiple repositories, existing key, authorized_keys]
 taxonomy:
     category: git-integration-for-jira-data-center
 

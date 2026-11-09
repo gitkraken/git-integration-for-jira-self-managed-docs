@@ -1,7 +1,20 @@
 ---
 
 title: Enable Automation for Jira general setting
-description:
+description: Enable or disable the Automation for Jira general setting to show or hide Git Integration triggers for Jira Automation in your Jira instance.
+product: Git Integration for Jira Data Center
+feature: General Settings
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2022-11
+llms_include: false
+tags: [general settings, jira automation, workflow integrations, automation triggers]
 taxonomy:
     category: git-integration-for-jira-data-center
 

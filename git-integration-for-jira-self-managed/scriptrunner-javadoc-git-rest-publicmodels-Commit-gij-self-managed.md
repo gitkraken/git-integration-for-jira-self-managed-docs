@@ -1,7 +1,20 @@
 ---
 
 title: ScriptRunner - Javadocs - Class Commit
-description:
+description: "Commit, the ScriptRunner API model for Git commit information, with its fields and methods."
+product: Git Integration for Jira Data Center
+feature: ScriptRunner
+content_type: api-reference
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2022-08
+llms_include: true
+tags: [scriptrunner, javadoc, api, commit, commits]
 taxonomy:
     category: git-integration-for-jira-data-center
 

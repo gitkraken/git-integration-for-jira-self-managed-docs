@@ -1,7 +1,20 @@
 ---
 
 title: Features
-description:
+description: "Browse the list of Git Integration for Jira Data Center feature topics, from manager permissions and indexing to deep linking and automation."
+product: Git Integration for Jira Data Center
+feature: Documentation Overview
+content_type: overview
+audience: all
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2024-08
+llms_include: true
+tags: [features, feature index, indexing, deep linking, automation, general settings]
 taxonomy:
     category: git-integration-for-jira-data-center
 

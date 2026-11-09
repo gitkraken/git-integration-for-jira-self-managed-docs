@@ -1,7 +1,20 @@
 ---
 
 title:  Licensing information, migration and transition
-description:
+description: "Understand Git Integration for Jira license types, pricing tiers, trial extensions and license transfer for Server, Data Center and Cloud."
+product: Git Integration for Jira Data Center
+feature: Licensing
+content_type: faq
+audience: buyer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: false
+tags: [licensing, pricing, subscription, perpetual license, free trial, migration, academic license]
 taxonomy:
     category: git-integration-for-jira-data-center
 

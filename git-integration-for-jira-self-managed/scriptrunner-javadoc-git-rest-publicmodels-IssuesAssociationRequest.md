@@ -1,7 +1,20 @@
 ---
 
 title: ScriptRunner - Javadocs - Class IssuesAssociationRequest
-description:
+description: "IssuesAssociationRequest, the ScriptRunner API model for associating Jira issues with Git commits."
+product: Git Integration for Jira Data Center
+feature: ScriptRunner
+content_type: api-reference
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [scriptrunner, javadoc, api, issuesassociationrequest, issue association]
 taxonomy:
     category: git-integration-for-jira-data-center
 

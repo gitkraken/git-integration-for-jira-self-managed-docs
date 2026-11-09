@@ -1,7 +1,20 @@
 ---
 
 title: Audit log settings
-description:
+description: "Choose which Git Integration for Jira events are written to the Jira audit log and how to view them, with notes on database performance."
+product: Git Integration for Jira Data Center
+feature: General Settings
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: "3.8"
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [audit log, audit log events, general settings, jira audit log, performance]
 taxonomy:
     category: git-integration-for-jira-data-center
 

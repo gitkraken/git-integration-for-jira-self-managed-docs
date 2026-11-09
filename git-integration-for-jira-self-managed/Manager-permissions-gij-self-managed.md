@@ -1,7 +1,20 @@
 ---
 
 title: Manager permissions
-description:
+description: Grant non-admin Jira users manager permissions to configure the Git Integration for Jira app through a Jira global permission and group.
+product: Git Integration for Jira Data Center
+feature: Permissions
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [manager permissions, global permissions, groups, git managers, app configuration]
 taxonomy:
     category: git-integration-for-jira-data-center
 

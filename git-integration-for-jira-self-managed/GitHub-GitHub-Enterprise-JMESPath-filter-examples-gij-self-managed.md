@@ -1,7 +1,20 @@
 ---
 
 title: GitHub.com | GitHub Enterprise JMESPath filter examples
-description:
+description: Use example JMESPath expressions to include or exclude GitHub.com and GitHub Enterprise repositories by name when adding an integration.
+product: Git Integration for Jira Data Center
+feature: JMESPath Filters
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [github, github-enterprise]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [jmespath, github, github enterprise, repository filters]
 taxonomy:
     category: git-integration-for-jira-data-center
 

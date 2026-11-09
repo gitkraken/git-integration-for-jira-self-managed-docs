@@ -1,7 +1,20 @@
 ---
 
 title: Java 8 deprecation with Git Integration for Jira v5.0
-description:
+description: "Learn why Git Integration for Jira v5.0 drops Java 8 support, which Jira versions are affected, and how to move to a newer Java."
+product: Git Integration for Jira Data Center
+feature: Policies (EOL / SLA)
+content_type: policy
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: "5.0"
+status: deprecated
+last_verified: 2024-05
+llms_include: true
+tags: [java 8, deprecation, java 17, openjdk, jira upgrade]
 taxonomy:
     category: git-integration-for-jira-data-center
 

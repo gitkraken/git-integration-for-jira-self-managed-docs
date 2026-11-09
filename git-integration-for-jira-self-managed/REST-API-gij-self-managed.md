@@ -1,7 +1,20 @@
 ---
 
 title: REST API
-description:
+description: "Browse the index of Git Integration for Jira Data Center REST APIs for bulk change, repositories, reindex, commits, branches, tags and integrations."
+product: Git Integration for Jira Data Center
+feature: REST API
+content_type: overview
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2025-02
+llms_include: true
+tags: [rest api, api index, repository api, integration api, reindex api, cors]
 taxonomy:
     category: git-integration-for-jira-data-center
 

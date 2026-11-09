@@ -1,7 +1,20 @@
 ---
 
 title: Integration Guides
-description:
+description: "Find the integration guide for your Git host, from GitHub and GitLab to Azure DevOps, AWS CodeCommit, Gerrit, Bitbucket Server and Bonobo."
+product: Git Integration for Jira Data Center
+feature: Integrations
+content_type: overview
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [github, github-enterprise, gitlab, gitlab-self-managed, azure-devops, azure-devops-server, aws-codecommit, gerrit, bitbucket-data-center, bonobo, windows-network-share]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-03
+llms_include: true
+tags: [integration guides, git hosts, index]
 taxonomy:
     category: git-integration-for-jira-data-center
 

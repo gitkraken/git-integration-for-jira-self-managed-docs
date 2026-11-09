@@ -1,7 +1,20 @@
 ---
 
 title: Get Commits API
-description:
+description: "Get the commits associated with a Jira issue, optionally with changed files, using the Get Commits REST API."
+product: Git Integration for Jira Data Center
+feature: REST API
+content_type: reference
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2024-06
+llms_include: true
+tags: [rest api, commits api, get commits, showfiles, issue key]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Connecting to a single git repository (HTTPS/SSH) (Integration basics)
-description:
+description: "Connect one Git repository to Jira over HTTPS or SSH with the Connect Wizard, including authentication and smart commit settings."
+product: Git Integration for Jira Data Center
+feature: Repository Setup
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-03
+llms_include: true
+tags: [single repository, connect wizard, https, ssh, authentication]
 taxonomy:
     category: git-integration-for-jira-data-center
 

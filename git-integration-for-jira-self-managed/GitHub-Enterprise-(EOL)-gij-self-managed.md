@@ -1,7 +1,20 @@
 ---
 
 title: GitHub Enterprise (EOL)
-description:
+description: Learn how GitHub sets end-of-life dates for GitHub Enterprise Server releases and where to find them.
+product: Git Integration for Jira Data Center
+feature: Policies (EOL / SLA)
+content_type: policy
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [github-enterprise]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2022-11
+llms_include: true
+tags: [github enterprise server, end of life, release dates, support policy]
 taxonomy:
     category: git-integration-for-jira-data-center
 

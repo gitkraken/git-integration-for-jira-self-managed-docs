@@ -1,7 +1,20 @@
 ---
 
 title: Fixing reindex issues using Indexing Queue Viewer
-description:
+description: "Use the Indexing Queue Viewer to find stuck indexing tasks, track integration index progress, check node reindexing and find repositories in error state."
+product: Git Integration for Jira Data Center
+feature: Indexing Queue
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [indexing queue viewer, reindex, stuck tasks, debug logging, dedicated node, error state]
 taxonomy:
     category: git-integration-for-jira-data-center
 

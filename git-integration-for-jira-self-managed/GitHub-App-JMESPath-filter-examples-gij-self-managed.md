@@ -1,7 +1,20 @@
 ---
 
 title: GitHub App JMESPath filter examples
-description:
+description: "Filter which repositories a GitHub App integration connects using JMESPath expressions that start with repositories[]."
+product: Git Integration for Jira Data Center
+feature: JMESPath Filters
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [github, github-enterprise]
+role_required: [Jira Administrator]
+version_required: "4.8"
+status: GA
+last_verified: 2023-12
+llms_include: true
+tags: [jmespath, github app, repository filters, all repositories scope]
 taxonomy:
     category: git-integration-for-jira-data-center
 

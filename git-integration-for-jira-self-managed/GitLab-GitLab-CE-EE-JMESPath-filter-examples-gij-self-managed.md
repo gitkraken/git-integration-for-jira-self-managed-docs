@@ -1,7 +1,20 @@
 ---
 
 title: GitLab.com | GitLab CE/EE JMESPath filter examples
-description:
+description: "Use example JMESPath expressions to filter GitLab.com and GitLab CE/EE projects by name, topic tags or empty repositories."
+product: Git Integration for Jira Data Center
+feature: JMESPath Filters
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [gitlab, gitlab-self-managed]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-09
+llms_include: true
+tags: [jmespath, gitlab, repository filters, project tags, topics]
 taxonomy:
     category: git-integration-for-jira-data-center
 

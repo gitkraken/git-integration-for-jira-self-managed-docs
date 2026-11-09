@@ -1,7 +1,20 @@
 ---
 
 title: Add New Integration API
-description:
+description: "Add a new Git host integration to the repository configuration with a POST call to the Integration REST API, with every request parameter explained."
+product: Git Integration for Jira Data Center
+feature: REST API
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-06
+llms_include: true
+tags: [rest api, integration api, add integration, parameters, post request]
 taxonomy:
     category: git-integration-for-jira-data-center
 

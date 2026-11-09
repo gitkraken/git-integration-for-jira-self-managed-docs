@@ -1,7 +1,20 @@
 ---
 
 title: Adding a repository hosted on Windows Server or Windows Network share
-description:
+description: Connect a git repository hosted on a Windows server or network share through the Connect wizard Advanced setup.
+product: Git Integration for Jira Data Center
+feature: Integrations
+content_type: integration
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [windows-network-share]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [windows network share, windows server, advanced setup, connect repository]
 taxonomy:
     category: git-integration-for-jira-data-center
 

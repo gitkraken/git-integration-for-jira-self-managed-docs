@@ -1,7 +1,20 @@
 ---
 
 title: Smart commits helper
-description:
+description: Read the smart commit helper indicators next to commits to see whether a commit was processed as a smart commit or failed with an error.
+product: Git Integration for Jira Data Center
+feature: Smart Commits
+content_type: reference
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: "2.9.3"
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [smart commit helper, status indicator, smart commit error, git commits tab, repository browser]
 taxonomy:
     category: git-integration-for-jira-data-center
 

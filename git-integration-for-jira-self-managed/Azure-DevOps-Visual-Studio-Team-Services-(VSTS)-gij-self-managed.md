@@ -1,7 +1,20 @@
 ---
 
 title: Azure DevOps Services | Visual Studio Team Services (VSTS)
-description:
+description: "Connect Azure DevOps Services or VSTS repositories to Jira Data Center with a personal access token, then link commits and create branches and pull requests."
+product: Git Integration for Jira Data Center
+feature: Integrations
+content_type: integration
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [azure-devops]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2025-03
+llms_include: true
+tags: [azure devops, vsts, azure repos, personal access tokens, webhooks, pull requests, visual studio]
 taxonomy:
     category: git-integration-for-jira-data-center
 

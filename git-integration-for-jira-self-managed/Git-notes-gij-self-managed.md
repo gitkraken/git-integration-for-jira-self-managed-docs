@@ -1,7 +1,20 @@
 ---
 
 title: Git notes
-description:
+description: "Add Jira issue keys and smart commit actions to existing commits with git notes, from the command line or with TortoiseGit, so they get indexed."
+product: Git Integration for Jira Data Center
+feature: Linking Commits to Issues
+content_type: how-to
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [git notes, issue keys, smart commits, tortoisegit, indexing]
 taxonomy:
     category: git-integration-for-jira-data-center
 

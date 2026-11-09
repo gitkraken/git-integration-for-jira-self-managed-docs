@@ -2,6 +2,19 @@
 
 title: Data Center and Server Home
 description: Your source for Git Integration for Jira Data Center and Server documentation
+product: Git Integration for Jira Data Center
+feature: Home
+content_type: home
+audience: all
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [getting started, knowledge base, video guides, support, documentation]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Administration
-description:
+description: "Find administration articles for Git Integration for Jira Data Center, from general settings and scheduling jobs to upgrades and migrations."
+product: Git Integration for Jira Data Center
+feature: Documentation Overview
+content_type: overview
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-04
+llms_include: true
+tags: [administration, jira administrators, general settings, migrations, scheduling jobs]
 taxonomy:
     category: git-integration-for-jira-data-center
 

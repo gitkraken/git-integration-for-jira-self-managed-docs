@@ -1,7 +1,20 @@
 ---
 
 title: Setup repository root not located in Jira Home directory
-description:
+description: "Store a cloned repository outside the Jira home directory by using Advanced setup, moving the clone, or symlinking the git-plugin folder."
+product: Git Integration for Jira Data Center
+feature: Repository Setup
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [repository root, jira home, symlink, advanced setup, git-plugin folder]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Deep linking feature
-description:
+description: "Learn how deep linking lets you open repositories, commits, branches and tags from Jira in the GitKraken Git client or GitLens."
+product: Git Integration for Jira Data Center
+feature: Deep Linking
+content_type: overview
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-03
+llms_include: true
+tags: [deep linking, gitkraken client, gitlens, vs code]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Optional Features and Add-on Extensions
-description:
+description: "Explore optional Git Integration for Jira features and free add-ons, including Jira Automation triggers and the Team Insights for Jira extension."
+product: Git Integration for Jira Data Center
+feature: Getting Started
+content_type: overview
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2024-10
+llms_include: true
+tags: [optional features, jira automation, team insights for jira, add-ons, end user guide]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Smart commits - Workflow transitions
-description:
+description: "Learn how smart commits map to workflow transition and status names, which characters are valid, and how admins should name transitions."
+product: Git Integration for Jira Data Center
+feature: Smart Commits
+content_type: concept
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [workflow transitions, transition names, status names, smart commits, valid characters]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Purchase and pricing FAQ
-description:
+description: "Learn how to try or buy Git Integration for Jira, which payment methods are accepted and how to estimate pricing after the trial."
+product: Git Integration for Jira Data Center
+feature: Licensing
+content_type: faq
+audience: buyer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [pricing, purchase, trial, payment methods, atlassian marketplace, quote]
 taxonomy:
     category: git-integration-for-jira-data-center
 

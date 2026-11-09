@@ -1,7 +1,20 @@
 ---
 
 title: Git Roll Up tab - Jira issue page
-description:
+description: "Use the Git Roll Up tab on a Jira issue to view commit statistics, compare base and compare versions, see diffs and list related issues."
+product: Git Integration for Jira Data Center
+feature: Git Roll Up Tab
+content_type: reference
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [git roll up, compare, code diff, commit statistics, summary, issue navigator]
 taxonomy:
     category: git-integration-for-jira-data-center
 

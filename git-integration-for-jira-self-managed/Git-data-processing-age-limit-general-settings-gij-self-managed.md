@@ -1,7 +1,20 @@
 ---
 
 title: Git data processing age limit
-description:
+description: Set the maximum age in days for commits and pull or merge requests that Git Integration for Jira processes for smart commits and scripts.
+product: Git Integration for Jira Data Center
+feature: General Settings
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2022-11
+llms_include: true
+tags: [git data processing age limit, smart commits, workflow scripts, pull requests, advanced settings]
 taxonomy:
     category: git-integration-for-jira-data-center
 

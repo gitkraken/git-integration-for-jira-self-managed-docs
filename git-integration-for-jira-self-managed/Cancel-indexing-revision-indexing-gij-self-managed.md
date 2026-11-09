@@ -1,7 +1,20 @@
 ---
 
 title: Cancel indexing
-description:
+description: Cancel a running or queued reindex from the Indexing queue viewer and learn how canceling affects initial indexing and Data Center nodes.
+product: Git Integration for Jira Data Center
+feature: Indexing (Reindex)
+content_type: concept
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: "4.23"
+status: GA
+last_verified: 2025-01
+llms_include: true
+tags: [cancel indexing, reindex, indexing queue, canceled status, initial reindex, data center]
 taxonomy:
     category: git-integration-for-jira-data-center
 

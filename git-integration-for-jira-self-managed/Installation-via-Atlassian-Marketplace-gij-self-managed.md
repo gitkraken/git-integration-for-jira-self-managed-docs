@@ -1,7 +1,20 @@
 ---
 
 title: Installation via Atlassian Marketplace
-description:
+description: Install Git Integration for Jira Data Center from the Atlassian Marketplace by buying it or starting a free 30-day trial.
+product: Git Integration for Jira Data Center
+feature: Installation
+content_type: install
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira System Administrator]
+version_required: all
+status: GA
+last_verified: 2023-11
+llms_include: true
+tags: [installation, atlassian marketplace, free trial, license key]
 taxonomy:
     category: git-integration-for-jira-data-center
 

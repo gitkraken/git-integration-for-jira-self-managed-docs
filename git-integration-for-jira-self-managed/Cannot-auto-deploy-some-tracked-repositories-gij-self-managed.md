@@ -1,7 +1,20 @@
 ---
 
 title: Cannot auto-deploy some tracked repositories -- Specified origin is incorrect or not supported
-description:
+description: Fix tracked repositories that fail to auto-deploy with Specified origin is incorrect or not supported by giving the service user enough GitLab or GitHub access.
+product: Git Integration for Jira Data Center
+feature: Integrations
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [gitlab-self-managed, github-enterprise]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [auto-deploy, specified origin, repository permissions, service account, indexing]
 taxonomy:
     category: git-integration-for-jira-data-center
 

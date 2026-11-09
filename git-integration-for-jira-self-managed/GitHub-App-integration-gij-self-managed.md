@@ -1,7 +1,20 @@
 ---
 
 title: GitHub App integration
-description:
+description: "Connect a GitHub organization to Jira Data Center through a GitHub App, with permissions, limitations, alternative URL setup and troubleshooting."
+product: Git Integration for Jira Data Center
+feature: Integrations
+content_type: integration
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [github, github-enterprise]
+role_required: [Jira Administrator]
+version_required: "4.6"
+status: GA
+last_verified: 2024-11
+llms_include: true
+tags: [github app, organization installation, permissions, alternative url, webhooks, troubleshooting]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Installation - Documentation
-description:
+description: "Install Git Integration for Jira Data Center from the Atlassian Marketplace, the Jira plugin manager or by uploading the app manually."
+product: Git Integration for Jira Data Center
+feature: Installation
+content_type: install
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira System Administrator]
+version_required: all
+status: GA
+last_verified: 2023-11
+llms_include: true
+tags: [installation, atlassian marketplace, upm, upload app, repository browser]
 taxonomy:
     category: git-integration-for-jira-data-center
 

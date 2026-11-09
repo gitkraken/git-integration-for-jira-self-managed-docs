@@ -1,7 +1,20 @@
 ---
 
 title: Creating reindex triggers for a single repository
-description:
+description: Send a webhook POST with the repository origin URL and secret key to queue reindexing of a single repository instead of all of them.
+product: Git Integration for Jira Data Center
+feature: Webhooks
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [reindex trigger, webhooks, single repository, json payload, indexing queue]
 taxonomy:
     category: git-integration-for-jira-data-center
 

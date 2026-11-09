@@ -1,7 +1,20 @@
 ---
 
 title: General Settings
-description:
+description: "Find where to open the General Settings page and browse the index of feature, performance and advanced settings for the app."
+product: Git Integration for Jira Data Center
+feature: General Settings
+content_type: overview
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [general settings, advanced settings, settings index, configuration]
 taxonomy:
     category: git-integration-for-jira-data-center
 

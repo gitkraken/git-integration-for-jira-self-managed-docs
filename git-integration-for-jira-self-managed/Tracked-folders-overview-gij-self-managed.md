@@ -1,7 +1,20 @@
 ---
 
 title: Tracked folders overview
-description:
+description: Learn how tracked folders scan a local path for cloned git repositories and import them into Jira as a FOLDER group.
+product: Git Integration for Jira Data Center
+feature: Tracked Folders
+content_type: overview
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [tracked folders, local repositories, folder scan, repository import]
 taxonomy:
     category: git-integration-for-jira-data-center
 

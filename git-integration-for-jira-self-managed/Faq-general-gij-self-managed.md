@@ -1,7 +1,20 @@
 ---
 
 title: General FAQ
-description:
+description: "Learn what Git and Git Integration for Jira are, how Git and Jira work together, Jira version compatibility and how to find the Jira user name."
+product: Git Integration for Jira Data Center
+feature: FAQ
+content_type: faq
+audience: all
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [git basics, product features, jira compatibility, version history]
 taxonomy:
     category: git-integration-for-jira-data-center
 

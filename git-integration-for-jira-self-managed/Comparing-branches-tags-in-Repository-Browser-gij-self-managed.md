@@ -1,7 +1,20 @@
 ---
 
 title: Comparing branches/tags in Repository Browser
-description:
+description: "Compare two branches or tags in the Repository Browser to see the commits, code diffs, developer line counts and Jira issues between them."
+product: Git Integration for Jira Data Center
+feature: Repository Browser
+content_type: how-to
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [repository browser, compare, branches, tags, code diff, issue navigator]
 taxonomy:
     category: git-integration-for-jira-data-center
 

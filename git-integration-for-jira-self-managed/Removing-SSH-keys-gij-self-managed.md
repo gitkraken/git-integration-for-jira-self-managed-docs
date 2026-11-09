@@ -1,7 +1,20 @@
 ---
 
 title: Removing SSH keys
-description:
+description: Delete an SSH key from the app configuration and learn what happens to repositories that referenced it.
+product: Git Integration for Jira Data Center
+feature: SSH Keys
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [ssh keys, delete key, remove key, common keys]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Indexing queue viewer
-description:
+description: "Monitor, filter, sort and manage indexing tasks in the Indexing queue viewer, including canceling tasks and viewing logs per node."
+product: Git Integration for Jira Data Center
+feature: Indexing Queue
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2025-01
+llms_include: true
+tags: [indexing queue, reindex, filters, cancel indexing, view logs, data center nodes]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Licensing notice
-description:
+description: Read the third-party BSD-style copyright and license notice for Atlassian code included in the Git Integration for Jira app.
+product: Git Integration for Jira Data Center
+feature: Licensing
+content_type: policy
+audience: all
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [licensing notice, copyright, third-party license, legal]
 taxonomy:
     category: git-integration-for-jira-data-center
 

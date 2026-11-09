@@ -1,7 +1,20 @@
 ---
 
 title: Javadocs example - Get reindex status
-description:
+description: Groovy ScriptRunner example that starts a repository reindex and polls its status until finished using GIJFacade.getReindexStatus.
+product: Git Integration for Jira Data Center
+feature: ScriptRunner
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2022-08
+llms_include: false
+tags: [scriptrunner, groovy, gijfacade, reindex, reindex status]
 taxonomy:
     category: git-integration-for-jira-data-center
 

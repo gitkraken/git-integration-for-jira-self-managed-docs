@@ -1,7 +1,20 @@
 ---
 
 title: Git roll up issue tab - General settings
-description:
+description: "Choose whether the Git roll up tab appears on Jira issues for all projects, selected projects or none in General settings."
+product: Git Integration for Jira Data Center
+feature: Git Roll Up Tab
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: false
+tags: [general settings, git roll up tab, issue tab, project visibility]
 taxonomy:
     category: git-integration-for-jira-data-center
 

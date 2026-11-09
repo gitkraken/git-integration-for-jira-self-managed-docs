@@ -1,7 +1,20 @@
 ---
 
 title: Jira issue page - Code syntax highlighter
-description:
+description: See which file extensions get syntax highlighting in the code diff dialog and which browsers are supported for the feature.
+product: Git Integration for Jira Data Center
+feature: Code Diff Viewing
+content_type: reference
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [syntax highlighting, code diff, file extensions, languages, supported browsers]
 taxonomy:
     category: git-integration-for-jira-data-center
 

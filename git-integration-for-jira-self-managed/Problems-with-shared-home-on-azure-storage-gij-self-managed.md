@@ -1,7 +1,20 @@
 ---
 
 title: Problems with shared home on Azure Storage
-description:
+description: Fix repositories that fail to auto-deploy when the Jira shared home is on Azure Storage CIFS mounts by setting supportsatomicfilecreation in .gitconfig.
+product: Git Integration for Jira Data Center
+feature: Data Center Clustering
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [shared home, azure storage, cifs, jgit, gitconfig]
 taxonomy:
     category: git-integration-for-jira-data-center
 

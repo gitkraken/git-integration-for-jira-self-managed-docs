@@ -1,7 +1,20 @@
 ---
 
 title: SSH FAQ
-description:
+description: "Learn how to create SSH keys on Windows, macOS and Linux, add them to your Git host and Jira, and connect SSH Git repositories to Jira."
+product: Git Integration for Jira Data Center
+feature: SSH Keys
+content_type: faq
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [ssh keys, puttygen, ssh-keygen, passphrase, private key, connect repository]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Working with Tracked folders
-description:
+description: Use tracked folders to scan a local path on the Jira server and automatically import the Git repositories it contains.
+product: Git Integration for Jira Data Center
+feature: Tracked Folders
+content_type: overview
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [tracked folders, local path, auto-detect, disk space, repository import]
 taxonomy:
     category: git-integration-for-jira-data-center
 

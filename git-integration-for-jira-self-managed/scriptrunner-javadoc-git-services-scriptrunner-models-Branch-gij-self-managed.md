@@ -1,7 +1,20 @@
 ---
 
 title: ScriptRunner - Javadocs - Class Branch
-description:
+description: "Branch, the ScriptRunner API model for Git branch information."
+product: Git Integration for Jira Data Center
+feature: ScriptRunner
+content_type: api-reference
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-09
+llms_include: false
+tags: [scriptrunner, javadoc, api, branch, branches]
 taxonomy:
     category: git-integration-for-jira-data-center
 

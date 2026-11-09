@@ -1,7 +1,20 @@
 ---
 
 title: Git Integration + ScriptRunner
-description: 
+description: "Use ScriptRunner with the GIJFacade API to script Git actions in Jira, with example Groovy scripts for logging and workflow transitions."
+product: Git Integration for Jira Data Center
+feature: ScriptRunner
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [scriptrunner, gijfacade, groovy scripts, listeners, workflow transitions, java api]
 taxonomy:
     category: git-integration-for-jira-data-center
 

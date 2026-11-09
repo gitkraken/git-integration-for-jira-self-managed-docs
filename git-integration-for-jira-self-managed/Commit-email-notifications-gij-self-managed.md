@@ -1,7 +1,20 @@
 ---
 
 title: Commit email notifications
-description:
+description: "See the permissions needed to receive commit email notifications and where to configure them in General settings, repository settings and your user profile."
+product: Git Integration for Jira Data Center
+feature: Commit Email Notifications
+content_type: overview
+audience: all
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [commit email notifications, permissions, general settings, user profile, repository settings]
 taxonomy:
     category: git-integration-for-jira-data-center
 

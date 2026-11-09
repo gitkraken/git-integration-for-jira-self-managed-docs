@@ -1,7 +1,20 @@
 ---
 
 title: View integration or repository properties
-description:
+description: "View the basic properties of a connected repository or integration, such as status, last indexed time, host URL, root and origin."
+product: Git Integration for Jira Data Center
+feature: Repository Setup
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [repository properties, status, last indexed, host url, repository root, repository origin]
 taxonomy:
     category: git-integration-for-jira-data-center
 

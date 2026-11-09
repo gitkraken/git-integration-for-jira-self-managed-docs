@@ -1,7 +1,20 @@
 ---
 
 title: Adding webhooks for Gerrit
-description:
+description: Install the Gerrit webhooks plugin and add or manually trigger webhooks so Git Integration for Jira reindexes Gerrit repositories.
+product: Git Integration for Jira Data Center
+feature: Webhooks
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [gerrit]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [webhooks, gerrit webhooks plugin, manual webhook trigger, curl, reindexing]
 taxonomy:
     category: git-integration-for-jira-data-center
 

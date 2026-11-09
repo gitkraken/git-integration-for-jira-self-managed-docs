@@ -1,7 +1,20 @@
 ---
 
 title: Increasing timeout threshold for large repositories while doing a Git pull
-description:
+description: "Avoid timeouts on large repositories by cloning them manually on the Jira server, connecting by local path and raising the Git operations timeout."
+product: Git Integration for Jira Data Center
+feature: Performance and Memory
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-09
+llms_include: true
+tags: [timeout, large repositories, git clone, local path, git operations timeout]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Git integration features
-description:
+description: "Enable or disable GitKraken and GitLens deep links, Last Updated changes, the development panel, Git tags, JQL search and the activity stream."
+product: Git Integration for Jira Data Center
+feature: General Settings
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [deep linking, gitkraken, gitlens, jql searching, activity stream, git tags, development panel]
 taxonomy:
     category: git-integration-for-jira-data-center
 

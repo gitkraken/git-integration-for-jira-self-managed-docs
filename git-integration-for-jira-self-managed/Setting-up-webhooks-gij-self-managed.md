@@ -1,7 +1,20 @@
 ---
 
 title: Setting up webhooks
-description:
+description: Enable webhooks in Git Integration for Jira and find or regenerate the webhook URL and secret key for your Git host.
+product: Git Integration for Jira Data Center
+feature: Webhooks
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [webhooks, secret key, webhook url, reindex triggers]
 taxonomy:
     category: git-integration-for-jira-data-center
 

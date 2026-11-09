@@ -1,7 +1,20 @@
 ---
 
 title: Git URL ports
-description:
+description: "Check the default ports for ssh, git, http and https Git URLs and test the connection so Jira can reach your repositories through a firewall."
+product: Git Integration for Jira Data Center
+feature: Repository Setup
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [git url ports, firewall, ssh, https, connection test]
 taxonomy:
     category: git-integration-for-jira-data-center
 

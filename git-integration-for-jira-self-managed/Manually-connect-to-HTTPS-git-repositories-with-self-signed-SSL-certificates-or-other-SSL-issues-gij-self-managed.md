@@ -1,7 +1,20 @@
 ---
 
 title: Manually connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues
-description:
+description: "Work around self-signed SSL certificate errors by cloning the repository manually, disabling http.sslVerify and connecting it via Advanced setup."
+product: Git Integration for Jira Data Center
+feature: Proxy and SSL
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [self-signed certificate, sslverify, manual clone, advanced setup, java]
 taxonomy:
     category: git-integration-for-jira-data-center
 

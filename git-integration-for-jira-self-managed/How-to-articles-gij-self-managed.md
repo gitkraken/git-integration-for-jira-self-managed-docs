@@ -1,7 +1,20 @@
 ---
 
 title: How-to articles
-description:
+description: "Browse how-to guides for Git Integration for Jira Data Center, from quotes and project permissions to SSH keys, PATs and indexing."
+product: Git Integration for Jira Data Center
+feature: Documentation Overview
+content_type: overview
+audience: all
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [how-to articles, guides, index]
 taxonomy:
     category: git-integration-for-jira-data-center
 

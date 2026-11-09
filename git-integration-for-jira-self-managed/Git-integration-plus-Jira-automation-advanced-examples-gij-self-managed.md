@@ -1,7 +1,20 @@
 ---
 
 title: Git Integration + Jira Automation - Advanced examples
-description: 
+description: "See screenshot examples of advanced Jira Automation rules that use Git Integration branch, commit and pull request triggers."
+product: Git Integration for Jira Data Center
+feature: Jira Automation
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-09
+llms_include: true
+tags: [jira automation, advanced examples, automation rules, smart values, conditions]
 taxonomy:
     category: git-integration-for-jira-data-center
 

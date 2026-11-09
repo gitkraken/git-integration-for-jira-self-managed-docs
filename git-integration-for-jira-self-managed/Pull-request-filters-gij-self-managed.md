@@ -1,7 +1,20 @@
 ---
 
 title: Pull request filters
-description:
+description: Hide pull requests and branches on Jira issues with regex filters set at the integration or integration repository level.
+product: Git Integration for Jira Data Center
+feature: Branches and Pull Requests
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: "4.19"
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [pull request filters, regex, prhidefilter, integration settings, branches]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Adding Webhooks for Azure DevOps Server | TFS
-description:
+description: Create Azure DevOps Server or TFS service hooks for code pushed and pull request events so Jira reindexes your repositories right away.
+product: Git Integration for Jira Data Center
+feature: Webhooks
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [azure-devops-server]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-06
+llms_include: true
+tags: [webhooks, service hooks, pull request webhooks, code pushed, http header, reindexing]
 taxonomy:
     category: git-integration-for-jira-data-center
 

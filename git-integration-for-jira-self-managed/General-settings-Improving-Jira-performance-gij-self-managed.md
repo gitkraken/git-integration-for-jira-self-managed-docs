@@ -1,7 +1,20 @@
 ---
 
 title: General settings - Improving Jira performance
-description:
+description: "Improve Jira performance with General settings for Git tags, diff size limits, JQL search, smart commits, commit emails and the Git activity stream."
+product: Git Integration for Jira Data Center
+feature: Performance and Memory
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [performance, git tags, diff limit, jql, smart commits, activity stream]
 taxonomy:
     category: git-integration-for-jira-data-center
 

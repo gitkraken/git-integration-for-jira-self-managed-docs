@@ -1,7 +1,20 @@
 ---
 
 title: Removing a nested repository
-description:
+description: "Remove a standalone nested repository integration in GIJ 5.x and earlier, and choose whether to keep its cloned files on the Jira server."
+product: Git Integration for Jira Data Center
+feature: Nested Repositories
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2025-04
+llms_include: true
+tags: [nested repositories, remove repository, disconnect integration, cloned files, version 5]
 taxonomy:
     category: git-integration-for-jira-data-center
 

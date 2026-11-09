@@ -1,7 +1,20 @@
 ---
 
 title: Update Commit Issue Changes API
-description:
+description: Add or remove Jira issue associations for a commit with the Update Commit Issue Changes REST API and its changeStrs extension.
+product: Git Integration for Jira Data Center
+feature: REST API
+content_type: reference
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2024-06
+llms_include: true
+tags: [rest api, commits api, commit issue association, changestrs, post request]
 taxonomy:
     category: git-integration-for-jira-data-center
 

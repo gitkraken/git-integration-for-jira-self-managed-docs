@@ -1,7 +1,20 @@
 ---
 
 title: Gerrit
-description:
+description: "Connect Gerrit repositories to Jira Data Center with full feature or single repository integration, set web links, and enable debug logging."
+product: Git Integration for Jira Data Center
+feature: Integrations
+content_type: integration
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [gerrit]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [gerrit, full feature integration, refspec, single repository, web links, debug logging]
 taxonomy:
     category: git-integration-for-jira-data-center
 

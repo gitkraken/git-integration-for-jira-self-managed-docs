@@ -1,7 +1,20 @@
 ---
 
 title: Workspace FAQ
-description:
+description: "Learn how to use the Git Commits tab to see whether work started on an issue, who worked on it, what changed and why commits miss the activity stream."
+product: Git Integration for Jira Data Center
+feature: Git Commits Tab
+content_type: faq
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [git commits tab, issue activity, authors, versions, activity stream]
 taxonomy:
     category: git-integration-for-jira-data-center
 

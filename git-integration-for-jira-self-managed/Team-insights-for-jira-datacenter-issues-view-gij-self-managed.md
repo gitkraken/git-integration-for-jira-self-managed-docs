@@ -1,7 +1,20 @@
 ---
 
 title: Issues View - TIJ DC 
-description:
+description: "Use the Team Insights for Jira Issues View to review issue activity, sprint timelines and filter issues by activity, contributors and project."
+product: Git Integration for Jira Data Center
+feature: Team Insights
+content_type: how-to
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2025-01
+llms_include: true
+tags: [issues view, sprint timeline, activity filter, issue filter, contributors]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Update Nested Repository API
-description:
+description: Update the editable settings of a nested repository within an integration with a PUT call to the Repository REST API.
+product: Git Integration for Jira Data Center
+feature: REST API
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2025-04
+llms_include: true
+tags: [rest api, repository api, nested repositories, update repository, read-only fields]
 taxonomy:
     category: git-integration-for-jira-data-center
 

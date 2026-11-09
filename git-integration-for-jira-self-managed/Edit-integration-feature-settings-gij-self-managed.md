@@ -1,7 +1,20 @@
 ---
 
 title: Edit integration feature settings
-description:
+description: "Change an integration's feature settings: Repository Browser, tags, Require User PAT, project permissions, diffs, smart commits and notification emails."
+product: Git Integration for Jira Data Center
+feature: Repository Setup
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-11
+llms_include: true
+tags: [integration feature settings, repository browser, require user pat, project permissions, smart commits, commit notification emails]
 taxonomy:
     category: git-integration-for-jira-data-center
 

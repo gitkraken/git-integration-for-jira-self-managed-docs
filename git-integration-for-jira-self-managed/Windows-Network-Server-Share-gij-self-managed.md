@@ -1,7 +1,20 @@
 ---
 
 title: Windows Network | Server Share
-description:
+description: Connect a Git repository hosted on a Windows server or network share to Jira Data Center and set its fetch options.
+product: Git Integration for Jira Data Center
+feature: Integrations
+content_type: integration
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [windows-network-share]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [windows network share, network path, enable fetches, access permissions]
 taxonomy:
     category: git-integration-for-jira-data-center
 

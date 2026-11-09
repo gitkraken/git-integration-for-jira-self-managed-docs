@@ -1,7 +1,20 @@
 ---
 
 title: Editing existing repository settings in the TSV File
-description:
+description: "Edit the Bulk change TSV file to update repository settings, with a field-by-field reference for id, origin, project mapping, web links and more."
+product: Git Integration for Jira Data Center
+feature: Bulk Change
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [bulk change, tsv file, repository settings, field reference, project mapping, web linking]
 taxonomy:
     category: git-integration-for-jira-data-center
 

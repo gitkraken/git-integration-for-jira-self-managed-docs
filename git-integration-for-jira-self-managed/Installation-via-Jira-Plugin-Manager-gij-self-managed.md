@@ -1,7 +1,20 @@
 ---
 
 title: Installation via Jira Plugin Manager
-description:
+description: Install Git Integration for Jira Data Center from the Jira Manage apps page by searching the Marketplace and starting a trial or buying the app.
+product: Git Integration for Jira Data Center
+feature: Installation
+content_type: install
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [installation, manage apps, find new apps, marketplace, free trial, license key]
 taxonomy:
     category: git-integration-for-jira-data-center
 

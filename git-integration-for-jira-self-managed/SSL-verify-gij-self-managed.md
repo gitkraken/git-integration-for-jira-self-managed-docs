@@ -1,7 +1,20 @@
 ---
 
 title: SSL verify
-description:
+description: "Find where to set the SSL Verify option for new and existing repositories and integrations, and what disabling it does."
+product: Git Integration for Jira Data Center
+feature: Proxy and SSL
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [ssl verify, ssl certificates, repository settings, integration settings, advanced setup]
 taxonomy:
     category: git-integration-for-jira-data-center
 

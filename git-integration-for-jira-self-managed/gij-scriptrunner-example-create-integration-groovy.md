@@ -1,7 +1,20 @@
 ---
 
 title: Javadocs example - Connect to an integration
-description:
+description: Groovy ScriptRunner example that creates a GitLab integration with a JMESPath API filter using GIJFacade.createIntegration.
+product: Git Integration for Jira Data Center
+feature: ScriptRunner
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [gitlab]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2022-08
+llms_include: false
+tags: [scriptrunner, groovy, gijfacade, create integration, jmespath]
 taxonomy:
     category: git-integration-for-jira-data-center
 

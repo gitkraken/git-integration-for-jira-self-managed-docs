@@ -1,7 +1,20 @@
 ---
 
 title: Reindex GET API
-description:
+description: "Track the messages and status of a reindex thread, for one repository or all, with the Reindex GET REST API."
+product: Git Integration for Jira Data Center
+feature: REST API
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2024-06
+llms_include: true
+tags: [rest api, reindex api, reindex status, thread id, indexing]
 taxonomy:
     category: git-integration-for-jira-data-center
 

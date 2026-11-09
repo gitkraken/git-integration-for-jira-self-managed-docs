@@ -1,7 +1,20 @@
 ---
 
 title: Working with JMESPath Filters
-description:
+description: "Learn what JMESPath filters are, where to set them on an integration, and find filter examples for each supported Git host."
+product: Git Integration for Jira Data Center
+feature: JMESPath Filters
+content_type: overview
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [jmespath, repository filters, integration settings, examples]
 taxonomy:
     category: git-integration-for-jira-data-center
 

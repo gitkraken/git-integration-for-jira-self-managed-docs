@@ -1,7 +1,20 @@
 ---
 
 title: Repositories missing from Azure DevOps integration
-description:
+description: "Find out why Azure DevOps repositories are missing from an integration and fix user permissions, access level, or TFVC repository format."
+product: Git Integration for Jira Data Center
+feature: Integrations
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [azure-devops]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [azure devops, missing repositories, access level, permissions, tfvc]
 taxonomy:
     category: git-integration-for-jira-data-center
 

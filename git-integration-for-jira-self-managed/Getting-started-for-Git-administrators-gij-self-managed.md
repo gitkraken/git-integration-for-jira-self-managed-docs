@@ -1,7 +1,20 @@
 ---
 
 title: Getting started for Git administrators
-description:
+description: "Learn what a Git administrator must provide so Jira can clone and pull repositories over HTTP(S), SSH, Git protocol, local paths or network shares."
+product: Git Integration for Jira Data Center
+feature: Getting Started
+content_type: overview
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [git administrators, repository access, ssh, https, network share, rest api]
 taxonomy:
     category: git-integration-for-jira-data-center
 

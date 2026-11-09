@@ -1,7 +1,20 @@
 ---
 
 title: Enforced git permissions for Jira users - Features
-description:
+description: See what Jira users experience when Git service permissions are enforced and how to enter a personal access token to view Git data.
+product: Git Integration for Jira Data Center
+feature: Permissions
+content_type: concept
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: "4.1.4"
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [enforced permissions, secure mode, personal access tokens, user profile, view development tools]
 taxonomy:
     category: git-integration-for-jira-data-center
 

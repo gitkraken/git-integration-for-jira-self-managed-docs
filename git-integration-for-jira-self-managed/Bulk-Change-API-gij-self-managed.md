@@ -1,7 +1,20 @@
 ---
 
 title: Bulk Change API
-description:
+description: Automate import and export of repository configuration with the Bulk Change REST API using Python scripts and Jira admin credentials.
+product: Git Integration for Jira Data Center
+feature: REST API
+content_type: overview
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-12
+llms_include: true
+tags: [rest api, bulk change, bulk export, bulk import, python scripts]
 taxonomy:
     category: git-integration-for-jira-data-center
 

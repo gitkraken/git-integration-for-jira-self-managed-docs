@@ -1,7 +1,20 @@
 ---
 
 title: Manual installation
-description:
+description: Manually install or update Git Integration for Jira Data Center by uploading a downloaded app JAR file from the Jira Manage apps page.
+product: Git Integration for Jira Data Center
+feature: Installation
+content_type: install
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira System Administrator]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [manual installation, upload app, jar file, uninstall, manage apps, license key]
 taxonomy:
     category: git-integration-for-jira-data-center
 

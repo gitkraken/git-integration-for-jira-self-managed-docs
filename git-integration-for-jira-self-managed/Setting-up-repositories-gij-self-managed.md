@@ -1,7 +1,20 @@
 ---
 
 title: Setting up repositories
-description:
+description: Find where to open the repository configuration page to connect and manage Git repositories and integrations in Git Integration for Jira Data Center.
+product: Git Integration for Jira Data Center
+feature: Repository Setup
+content_type: overview
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [setting up repositories, auto-connect, connect wizard, manage repositories, integrations]
 taxonomy:
     category: git-integration-for-jira-data-center
 

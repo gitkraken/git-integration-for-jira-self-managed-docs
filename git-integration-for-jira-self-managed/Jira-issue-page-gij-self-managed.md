@@ -1,7 +1,20 @@
 ---
 
 title: Jira issue page
-description:
+description: "See the Git tabs and panel features added to each Jira issue page, including Git Roll Up, Git Commits, branches, pull requests and tags."
+product: Git Integration for Jira Data Center
+feature: Development Panel
+content_type: overview
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [jira issue page, git roll up, git commits tab, development panel, branches, tags]
 taxonomy:
     category: git-integration-for-jira-data-center
 

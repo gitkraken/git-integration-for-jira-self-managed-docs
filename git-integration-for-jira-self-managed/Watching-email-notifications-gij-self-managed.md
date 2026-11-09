@@ -1,7 +1,20 @@
 ---
 
 title: Watching email notifications
-description:
+description: "Receive commit email notifications by watching issues or repositories, and get notified of your own commits with the My Changes preference."
+product: Git Integration for Jira Data Center
+feature: Commit Email Notifications
+content_type: how-to
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [watching, email notifications, repository browser, my changes, commit notifications]
 taxonomy:
     category: git-integration-for-jira-data-center
 

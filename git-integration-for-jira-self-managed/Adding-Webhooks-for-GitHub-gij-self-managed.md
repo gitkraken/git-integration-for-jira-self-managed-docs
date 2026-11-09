@@ -1,7 +1,20 @@
 ---
 
 title: Adding Webhooks for GitHub
-description:
+description: Add a GitHub repository webhook for push and pull request events so Git Integration for Jira indexes new commits and pull requests right away.
+product: Git Integration for Jira Data Center
+feature: Webhooks
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [github]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-03
+llms_include: true
+tags: [webhooks, github webhooks, payload url, pull request events, push events, auto-registered webhooks]
 taxonomy:
     category: git-integration-for-jira-data-center
 
