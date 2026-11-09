@@ -13,11 +13,17 @@ role_required: [Jira Administrator]
 version_required: all
 status: GA
 last_verified: 2024-09
-llms_include: false
+llms_include: true
 tags: [scriptrunner, javadoc, api, pullrequest, pull requests, merge requests]
 taxonomy:
     category: git-integration-for-jira-data-center
 
+custom_fields:
+    nav_category: "features-gij-self-managed"
+    nav_label: "Class PullRequest"
+    nav_order: 140
+    nav_parent: "scriptrunner-javadoc-git-services-gijfacade-gij-self-managed"
+    page_type: "content"
 ---
 <!-- The methods - public - Repository link is flagged as 404 by web crawlers. This is intended as is. -->
 
