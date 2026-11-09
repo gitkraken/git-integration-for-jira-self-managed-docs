@@ -1,7 +1,20 @@
 ---
 
 title: Duplicate entry 0 for key PRIMARY exceptions in log
-description:
+description: Fix Duplicate entry 0 for key PRIMARY exceptions by removing NO_AUTO_VALUE_ON_ZERO from the MySQL sql_mode and reinstalling the app.
+product: Git Integration for Jira Data Center
+feature: Troubleshooting
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [mysql, sql_mode, duplicate entry, active objects, reinstall]
 taxonomy:
     category: git-integration-for-jira-data-center
 

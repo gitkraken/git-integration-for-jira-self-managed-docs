@@ -1,7 +1,20 @@
 ---
 
 title: Automatically connect to HTTPS git repositories with self-signed SSL certificates or other SSL issues
-description:
+description: Connect a self-hosted git server with a self-signed or expired SSL certificate through the Add new integration panel by ignoring certificate errors.
+product: Git Integration for Jira Data Center
+feature: Proxy and SSL
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [gitlab-self-managed]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [self-signed certificate, ssl errors, https, add new integration, ignore certificate errors]
 taxonomy:
     category: git-integration-for-jira-data-center
 

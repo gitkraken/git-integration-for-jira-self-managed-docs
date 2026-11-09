@@ -1,7 +1,20 @@
 ---
 
 title: Adding Webhooks for Bitbucket
-description:
+description: Add a Bitbucket repository webhook for push and pull request events so Git Integration for Jira reindexes the repository immediately.
+product: Git Integration for Jira Data Center
+feature: Webhooks
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [bitbucket]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [webhooks, bitbucket webhooks, repository push, pull request triggers, reindexing]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Scheduling Jobs
-description:
+description: "Understand the repository reindexing and garbage collection jobs, recommended schedules, and how jobs run in Jira Data Center."
+product: Git Integration for Jira Data Center
+feature: Indexing (Reindex)
+content_type: concept
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [scheduling jobs, repository reindexing, garbage collection, cron expression, data center]
 taxonomy:
     category: git-integration-for-jira-data-center
 

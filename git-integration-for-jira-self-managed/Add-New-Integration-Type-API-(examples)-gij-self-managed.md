@@ -1,7 +1,20 @@
 ---
 
 title: Add New Integration Type API (examples)
-description:
+description: See example JSON request bodies for adding an integration of each supported Git host type through the Integration REST API.
+product: Git Integration for Jira Data Center
+feature: REST API
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [github, github-enterprise, gitlab, gitlab-self-managed, aws-codecommit, azure-devops, azure-devops-server, gerrit]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-06
+llms_include: true
+tags: [rest api, integration api, json examples, integration types, personal access tokens, tracked folders]
 taxonomy:
     category: git-integration-for-jira-data-center
 

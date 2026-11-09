@@ -1,7 +1,20 @@
 ---
 
 title: General settings - Documentation
-description:
+description: "Open the General settings page, available only to Jira administrators, to enable or disable Git Integration for Jira features and tune performance."
+product: Git Integration for Jira Data Center
+feature: General Settings
+content_type: overview
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [general settings, configuration, jira administration, performance]
 taxonomy:
     category: git-integration-for-jira-data-center
 

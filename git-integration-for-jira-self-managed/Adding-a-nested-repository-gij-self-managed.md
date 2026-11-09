@@ -1,7 +1,20 @@
 ---
 
 title: Adding and connecting a nested repository
-description:
+description: "Add a nested repository with git submodule and connect it, or an integration that contains nested repositories, in GIJ 5.x and earlier."
+product: Git Integration for Jira Data Center
+feature: Nested Repositories
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2025-04
+llms_include: true
+tags: [nested repositories, git submodule, plain git repository, add integration, personal access token]
 taxonomy:
     category: git-integration-for-jira-data-center
 

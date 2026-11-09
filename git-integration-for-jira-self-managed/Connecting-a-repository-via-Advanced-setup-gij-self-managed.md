@@ -1,7 +1,20 @@
 ---
 
 title: Connecting a repository via Advanced setup
-description:
+description: "Connect a pre-configured git repository through Advanced setup and set its root, origin, main branch, authentication, SSL, permissions and web linking."
+product: Git Integration for Jira Data Center
+feature: Repository Setup
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [advanced setup, repository root, repository origin, main branch, ssl verify, trustfolderstat, fetch refspec, web linking]
 taxonomy:
     category: git-integration-for-jira-data-center
 

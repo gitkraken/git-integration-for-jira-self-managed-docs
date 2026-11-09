@@ -1,7 +1,20 @@
 ---
 
 title: GitLab CE/EE EOL Support Policy
-description:
+description: "Understand GitLab's release support and security backport policy for self-managed GitLab CE and EE."
+product: Git Integration for Jira Data Center
+feature: Policies (EOL / SLA)
+content_type: policy
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [gitlab-self-managed]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2022-11
+llms_include: true
+tags: [gitlab ce/ee, support policy, security backports, patch releases]
 taxonomy:
     category: git-integration-for-jira-data-center
 

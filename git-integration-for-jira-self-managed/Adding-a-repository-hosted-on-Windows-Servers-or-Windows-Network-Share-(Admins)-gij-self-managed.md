@@ -1,7 +1,20 @@
 ---
 
 title: Adding a repository hosted on Windows Servers or Windows Network Share (Admins)
-description:
+description: "Connect a Git repository hosted on a Windows server or network share, set Enable Fetches correctly and verify the path by cloning it."
+product: Git Integration for Jira Data Center
+feature: Integrations
+content_type: integration
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [windows-network-share]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [windows network share, windows server, enable fetches, network path, git clone]
 taxonomy:
     category: git-integration-for-jira-data-center
 

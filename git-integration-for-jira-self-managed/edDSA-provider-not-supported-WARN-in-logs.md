@@ -1,7 +1,20 @@
 ---
 
 title: edDSA provider not supported WARN in logs
-description:
+description: Fix the EdDSA provider WARN in Jira logs that stops edDSA SSH keys working after reinstalling Git Integration for Jira by adding BouncyCastle.
+product: Git Integration for Jira Data Center
+feature: SSH Keys
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: false
+tags: [eddsa, ssh keys, bouncycastle, java security provider, logs]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Exporting repository configuration via Bulk change
-description:
+description: Export your Git Integration for Jira repository configuration to a TSV file with Bulk change to create a backup.
+product: Git Integration for Jira Data Center
+feature: Bulk Change
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-11
+llms_include: true
+tags: [bulk change, export configuration, tsv, backup]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Adding a private SSH key
-description:
+description: "Add a private SSH key, with an optional passphrase, on the SSH keys page of the Git Integration for Jira configuration."
+product: Git Integration for Jira Data Center
+feature: SSH Keys
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [ssh keys, private key, passphrase, openssh]
 taxonomy:
     category: git-integration-for-jira-data-center
 

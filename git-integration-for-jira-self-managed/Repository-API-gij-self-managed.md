@@ -1,7 +1,20 @@
 ---
 
 title: Repository API
-description:
+description: "Find the Repository REST API endpoints for listing, adding, updating and deleting repositories in the app configuration."
+product: Git Integration for Jira Data Center
+feature: REST API
+content_type: overview
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2022-11
+llms_include: true
+tags: [rest api, repository api, repositories]
 taxonomy:
     category: git-integration-for-jira-data-center
 

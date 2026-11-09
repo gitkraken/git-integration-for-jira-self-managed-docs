@@ -1,7 +1,20 @@
 ---
 
 title: Using the Repository Browser (Integration basics)
-description:
+description: "Open the Repository Browser from the Git menu to explore connected repository contents, and enable or disable it per repository."
+product: Git Integration for Jira Data Center
+feature: Repository Browser
+content_type: how-to
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [repository browser, git menu, browse files, repository settings]
 taxonomy:
     category: git-integration-for-jira-data-center
 

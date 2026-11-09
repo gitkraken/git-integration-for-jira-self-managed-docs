@@ -1,7 +1,20 @@
 ---
 
 title: Proxy settings on adding integrations (except AWS CodeCommit)
-description:
+description: Configure Jira HTTP and HTTPS proxy parameters for Git host integrations and check whether connections go through a proxy.
+product: Git Integration for Jira Data Center
+feature: Proxy and SSL
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira System Administrator]
+version_required: all
+status: GA
+last_verified: 2023-10
+llms_include: true
+tags: [proxy, jvm parameters, 407 proxy authentication, hosts file]
 taxonomy:
     category: git-integration-for-jira-data-center
 

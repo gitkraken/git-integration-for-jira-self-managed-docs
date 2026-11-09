@@ -1,7 +1,20 @@
 ---
 
 title: Creating branches
-description:
+description: "Create a Git branch directly from a Jira issue using the Git development panel, with the issue key added to the branch name."
+product: Git Integration for Jira Data Center
+feature: Branches and Pull Requests
+content_type: how-to
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [github, gitlab, aws-codecommit, azure-devops, azure-devops-server]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2025-03
+llms_include: true
+tags: [create branch, branches, development panel, branch naming, personal access tokens]
 taxonomy:
     category: git-integration-for-jira-data-center
 

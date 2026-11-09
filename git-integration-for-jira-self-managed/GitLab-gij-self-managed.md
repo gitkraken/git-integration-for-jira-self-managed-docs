@@ -1,7 +1,20 @@
 ---
 
 title: GitLab.com
-description:
+description: "Connect GitLab.com repositories to Jira Data Center with a personal or group access token, set permissions, and create branches and merge requests."
+product: Git Integration for Jira Data Center
+feature: Integrations
+content_type: integration
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [gitlab]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [gitlab.com, personal access tokens, group access tokens, permissions, full feature integration, merge requests]
 taxonomy:
     category: git-integration-for-jira-data-center
 

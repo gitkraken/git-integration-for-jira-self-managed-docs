@@ -1,7 +1,20 @@
 ---
 
 title: Bulk change
-description:
+description: "Learn how Bulk change lets you import or export Git repository configuration in Jira, and where to find the Bulk change API for automation."
+product: Git Integration for Jira Data Center
+feature: Bulk Change
+content_type: overview
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2022-10
+llms_include: true
+tags: [bulk change, import, export, repository configuration, bulk change api]
 taxonomy:
     category: git-integration-for-jira-data-center
 

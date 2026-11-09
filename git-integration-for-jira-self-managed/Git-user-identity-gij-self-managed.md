@@ -1,7 +1,20 @@
 ---
 
 title: Git user identity
-description:
+description: Configure your Git user name and email so commits display with the matching Jira user profile link and avatar in Git Integration for Jira.
+product: Git Integration for Jira Data Center
+feature: Git User Identity
+content_type: how-to
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [git user identity, git config, commit author, email matching, jira user]
 taxonomy:
     category: git-integration-for-jira-data-center
 

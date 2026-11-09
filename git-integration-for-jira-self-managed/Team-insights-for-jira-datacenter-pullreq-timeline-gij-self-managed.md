@@ -1,7 +1,20 @@
 ---
 
 title: Pull request timeline - TIJ DC
-description:
+description: Set the GitHub and GitLab token permissions needed to show pull request timeline data from Git Integration for Jira in Team Insights for Jira.
+product: Git Integration for Jira Data Center
+feature: Team Insights
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [github, gitlab, gitlab-self-managed]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2025-01
+llms_include: true
+tags: [pull request timeline, token scopes, permissions, github app, reindex errors]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Microsoft | VSTS | TFS | Azure Repos JMESPath filter examples
-description:
+description: "Use example JMESPath expressions to filter Azure Repos, VSTS and TFS repositories by name, project state or visibility."
+product: Git Integration for Jira Data Center
+feature: JMESPath Filters
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [azure-devops, azure-devops-server]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-10
+llms_include: true
+tags: [jmespath, azure repos, vsts, tfs, repository filters]
 taxonomy:
     category: git-integration-for-jira-data-center
 

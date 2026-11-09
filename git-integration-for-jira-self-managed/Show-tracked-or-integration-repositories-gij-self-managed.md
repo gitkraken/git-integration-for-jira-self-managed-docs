@@ -1,7 +1,20 @@
 ---
 
 title: Show tracked or integration repositories
-description:
+description: "Open the list of repositories inside a tracked folder or integration, filter it, and enable or disable individual repositories."
+product: Git Integration for Jira Data Center
+feature: Repository Setup
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [tracked repositories, integration repositories, enable repository, disable repository, filter]
 taxonomy:
     category: git-integration-for-jira-data-center
 

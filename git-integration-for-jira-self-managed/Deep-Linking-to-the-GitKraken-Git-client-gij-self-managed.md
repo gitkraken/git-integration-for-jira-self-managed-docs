@@ -1,7 +1,20 @@
 ---
 
 title: Deep Linking to the GitKraken Git client
-description:
+description: "Open repositories, commits, branches and tags from Jira into the GitKraken Git client, and turn GitKraken deep links on or off."
+product: Git Integration for Jira Data Center
+feature: Deep Linking
+content_type: how-to
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [deep linking, gitkraken client, user settings, general settings, repository browser]
 taxonomy:
     category: git-integration-for-jira-data-center
 

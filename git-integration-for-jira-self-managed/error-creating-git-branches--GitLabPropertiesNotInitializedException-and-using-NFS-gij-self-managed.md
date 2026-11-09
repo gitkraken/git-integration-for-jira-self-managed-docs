@@ -1,7 +1,20 @@
 ---
 
 title: Error creating git branches and also using NFS
-description:
+description: Fix GitLabPropertiesNotInitializedException and similar errors when creating branches by checking repo.auto.json and NFS file locking support.
+product: Git Integration for Jira Data Center
+feature: Branches and Pull Requests
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [create branch, nfs, file locking, repo.auto.json, debug logging]
 taxonomy:
     category: git-integration-for-jira-data-center
 

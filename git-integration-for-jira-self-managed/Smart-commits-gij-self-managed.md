@@ -1,7 +1,20 @@
 ---
 
 title: Smart commits - Documentation
-description:
+description: "Use smart commits to log time, comment on and transition Jira issues from a commit message, and check the setup requirements to make them work."
+product: Git Integration for Jira Data Center
+feature: Smart Commits
+content_type: how-to
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [smart commits, commit messages, email matching, syntax, workflow]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Web linking
-description:
+description: "Configure web linking so commits in the Git Commits tab link to your Git host pages, with supported hosts and custom URL formats."
+product: Git Integration for Jira Data Center
+feature: Web Linking
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [web linking, changeset format, git hosts, custom web links, bonobo]
 taxonomy:
     category: git-integration-for-jira-data-center
 

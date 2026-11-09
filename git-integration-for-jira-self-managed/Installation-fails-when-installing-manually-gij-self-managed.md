@@ -1,7 +1,20 @@
 ---
 
 title: Installation fails when installing manually
-description:
+description: Fix a manual app installation that hangs or fails in the Universal Plugin Manager when a proxy or firewall limits request size.
+product: Git Integration for Jira Data Center
+feature: Installation
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [manual installation, upm, file upload, proxy, request size]
 taxonomy:
     category: git-integration-for-jira-data-center
 

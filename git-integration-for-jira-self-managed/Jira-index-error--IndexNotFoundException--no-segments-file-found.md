@@ -1,7 +1,20 @@
 ---
 
 title: Jira index error IndexNotFoundException - no segments\* file found
-description:
+description: Fix repositories that stop indexing with an IndexNotFoundException no segments file found error by running a full Jira system reindex.
+product: Git Integration for Jira Data Center
+feature: Indexing (Reindex)
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [indexnotfoundexception, lucene, jira reindex, disk failure]
 taxonomy:
     category: git-integration-for-jira-data-center
 

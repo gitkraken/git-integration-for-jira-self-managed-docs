@@ -1,7 +1,20 @@
 ---
 
 title: Generating SSH keys
-description:
+description: "Find guides for generating and configuring SSH keys on Beanstalk, Bitbucket, Gerrit, GitBlit, GitHub, GitLab, Gitolite and Azure DevOps."
+product: Git Integration for Jira Data Center
+feature: SSH Keys
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [beanstalk, bitbucket, gerrit, gitblit, github, gitlab, gitlab-self-managed, gitolite, azure-devops, azure-devops-server]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [ssh keys, generate ssh key, rsa, git hosts, external guides]
 taxonomy:
     category: git-integration-for-jira-data-center
 

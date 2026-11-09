@@ -1,7 +1,20 @@
 ---
 
 title: New GitLab v10+ authentication
-description:
+description: Use GitLab personal access tokens instead of passwords to connect GitLab.com or GitLab Server v10 and newer to Git Integration for Jira.
+product: Git Integration for Jira Data Center
+feature: Personal Access Tokens
+content_type: concept
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [gitlab, gitlab-self-managed]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [gitlab, personal access token, authentication, api access, legacy connection]
 taxonomy:
     category: git-integration-for-jira-data-center
 

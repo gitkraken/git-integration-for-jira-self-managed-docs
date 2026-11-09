@@ -1,7 +1,20 @@
 ---
 
 title: Import new repositories via Bulk change
-description:
+description: Download the Bulk change template file to prepare a TSV for importing new repository configurations into Git Integration for Jira.
+product: Git Integration for Jira Data Center
+feature: Bulk Change
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [bulk change, import configuration, tsv template, new repositories]
 taxonomy:
     category: git-integration-for-jira-data-center
 

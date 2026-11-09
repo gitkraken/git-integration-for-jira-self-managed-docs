@@ -1,7 +1,20 @@
 ---
 
 title: Edit repository settings
-description:
+description: "Change settings of a HOSTED, EXTERNAL or FOLDER repository connection, from repository root and main branch to smart commits and web linking."
+product: Git Integration for Jira Data Center
+feature: Repository Setup
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-11
+llms_include: true
+tags: [repository settings, tracked folder, main branch, ssl verify, trustfolderstat, commit message validation, web linking]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Commit-msg Hook
-description:
+description: "Install the commit-msg client-side hook, a Python script that rejects local commits whose messages lack a valid Jira issue key."
+product: Git Integration for Jira Data Center
+feature: Client-side Hooks
+content_type: how-to
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-12
+llms_include: true
+tags: [commit-msg hook, client-side hook, python, commit messages, jira issue keys]
 taxonomy:
     category: git-integration-for-jira-data-center
 

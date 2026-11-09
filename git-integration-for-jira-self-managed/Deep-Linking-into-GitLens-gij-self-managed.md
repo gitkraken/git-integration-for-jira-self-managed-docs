@@ -1,7 +1,20 @@
 ---
 
 title: Deep Linking to GitLens
-description:
+description: "Open repositories, commits, branches and tags from Jira into GitLens in VS Code, and turn GitLens deep links on or off for yourself or all users."
+product: Git Integration for Jira Data Center
+feature: Deep Linking
+content_type: how-to
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [deep linking, gitlens, vs code, user settings, general settings, repository browser]
 taxonomy:
     category: git-integration-for-jira-data-center
 

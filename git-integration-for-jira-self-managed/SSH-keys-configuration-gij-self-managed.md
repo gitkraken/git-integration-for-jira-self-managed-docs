@@ -1,7 +1,20 @@
 ---
 
 title: SSH keys configuration
-description:
+description: "Manage the private SSH keys used by Git Integration for Jira and read the SSH Keys list columns, associations and operations."
+product: Git Integration for Jira Data Center
+feature: SSH Keys
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [ssh keys, private key, associations, passphrase, filesystem keys]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: JQL searching
-description:
+description: "Use the gitCommitsReferenced and gitBranch JQL fields to filter Jira issues by linked Git commits and branches, and learn the 65,000 issue limit."
+product: Git Integration for Jira Data Center
+feature: JQL Search
+content_type: reference
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2025-05
+llms_include: true
+tags: [jql, gitcommitsreferenced, gitbranch, search, export results, performance]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: App Support
-description:
+description: "Check which Jira Data Center versions and JDK releases each Git Integration for Jira version supports, plus Jira Server end-of-life and migration guidance."
+product: Git Integration for Jira Data Center
+feature: Support
+content_type: policy
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2025-03
+llms_include: true
+tags: [jira compatibility, supported versions, jdk, end of life, migration, reindex logs, ie11]
 taxonomy:
     category: git-integration-for-jira-data-center
 

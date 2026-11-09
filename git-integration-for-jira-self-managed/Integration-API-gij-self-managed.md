@@ -1,7 +1,20 @@
 ---
 
 title: Integration API
-description:
+description: "Find the Integration REST API endpoints for adding, updating, removing and retrieving Git host integrations."
+product: Git Integration for Jira Data Center
+feature: REST API
+content_type: overview
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2022-11
+llms_include: true
+tags: [rest api, integration api, integrations]
 taxonomy:
     category: git-integration-for-jira-data-center
 

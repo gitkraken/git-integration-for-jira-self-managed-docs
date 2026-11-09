@@ -1,7 +1,20 @@
 ---
 
 title: Plugin Data Storage
-description:
+description: "Look up the database tables Git Integration for Jira creates and what each one stores, including deprecated pull request tables."
+product: Git Integration for Jira Data Center
+feature: Plugin Data Storage
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-02
+llms_include: true
+tags: [plugin data storage, database tables, active objects, reindex queue, pull request tables]
 taxonomy:
     category: git-integration-for-jira-data-center
 

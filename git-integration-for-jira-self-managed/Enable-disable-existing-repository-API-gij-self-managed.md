@@ -1,7 +1,20 @@
 ---
 
 title: Enable/Disable Existing Repository API
-description:
+description: Enable or disable a connected repository by its ID with a PUT call to the Repository REST API.
+product: Git Integration for Jira Data Center
+feature: REST API
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2025-01
+llms_include: true
+tags: [rest api, repository api, enable repository, disable repository, put request]
 taxonomy:
     category: git-integration-for-jira-data-center
 

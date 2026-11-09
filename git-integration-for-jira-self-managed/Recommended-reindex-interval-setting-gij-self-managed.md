@@ -1,7 +1,20 @@
 ---
 
 title: Recommended reindex interval setting
-description:
+description: Set the automatic reindex interval in General settings and compare it with the last run duration in the indexing queue to improve Jira performance.
+product: Git Integration for Jira Data Center
+feature: Indexing (Reindex)
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [reindex interval, scheduled jobs, indexing queue, last run duration, performance]
 taxonomy:
     category: git-integration-for-jira-data-center
 

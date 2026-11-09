@@ -1,7 +1,20 @@
 ---
 
 title:  Link git commits to Jira issues (Integration basics)
-description:
+description: "Link Git commits to a Jira issue by including the issue key in the commit message, then view them in the Git Commits tab."
+product: Git Integration for Jira Data Center
+feature: Linking Commits to Issues
+content_type: how-to
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [commit messages, issue keys, git commits tab, activity stream, commit-msg hook]
 taxonomy:
     category: git-integration-for-jira-data-center
 

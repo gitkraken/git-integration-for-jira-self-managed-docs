@@ -1,7 +1,20 @@
 ---
 
 title: Scripting (Jira git workflow hooks)
-description:
+description: "Use JavaScript workflow hooks to act on Jira from commits and pull requests, and how the Git Data Processing Age Limit setting affects them."
+product: Git Integration for Jira Data Center
+feature: Workflow Hooks
+content_type: concept
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: "2.20"
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [workflow hooks, javascript, scripting, git data processing age limit, on-commit.js, pull requests]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Application Operations and Planning
-description:
+description: "Plan your Git Integration for Jira setup: integration types, storage needs, indexing behavior and how to structure integrations to avoid rate limits."
+product: Git Integration for Jira Data Center
+feature: Getting Started
+content_type: concept
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-08
+llms_include: true
+tags: [integration types, storage, indexing, webhooks, rate limiting, integration planning]
 taxonomy:
     category: git-integration-for-jira-data-center
 

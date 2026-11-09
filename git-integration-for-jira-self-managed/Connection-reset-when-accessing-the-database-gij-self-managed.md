@@ -1,7 +1,20 @@
 ---
 
 title: Connection Reset when Accessing the Database
-description:
+description: Resolve sporadic Git Integration for Jira failures and stopped reindexing caused by Connection reset errors after a database reboot or network failure.
+product: Git Integration for Jira Data Center
+feature: Troubleshooting
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [database, connection reset, connection pool, atlassian-jira.log, reindex]
 taxonomy:
     category: git-integration-for-jira-data-center
 

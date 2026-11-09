@@ -1,7 +1,20 @@
 ---
 
 title: Branches (Development panel)
-description:
+description: "See branches linked to a Jira issue in the development panel, create or delete branches, set up a user PAT and read ahead and behind commit counts."
+product: Git Integration for Jira Data Center
+feature: Branches and Pull Requests
+content_type: how-to
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic, github, gitlab]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [branches, create branch, delete branch, development panel, personal access token, commits ahead and behind]
 taxonomy:
     category: git-integration-for-jira-data-center
 

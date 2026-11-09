@@ -1,7 +1,20 @@
 ---
 
 title: Team Insights for Jira Data Center
-description:
+description: "Install Team Insights for Jira Data Center and learn how it tracks team, sprint and Git activity across projects alongside Git Integration for Jira."
+product: Git Integration for Jira Data Center
+feature: Team Insights
+content_type: overview
+audience: all
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2025-01
+llms_include: true
+tags: [team insights, installation, compatibility, feature matrix, sprint tracking, permissions]
 taxonomy:
     category: git-integration-for-jira-data-center
 

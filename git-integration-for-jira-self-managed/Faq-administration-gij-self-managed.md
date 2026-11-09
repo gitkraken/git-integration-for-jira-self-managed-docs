@@ -1,7 +1,20 @@
 ---
 
 title: Administration FAQ
-description:
+description: "Answers to common administrator questions on repository browsing permissions, REST APIs, repository paths, self-signed SSL certificates and GitLab server setup."
+product: Git Integration for Jira Data Center
+feature: FAQ
+content_type: faq
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic, gitlab-self-managed]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [project permissions, rest api, ssl certificates, nfs, gitlab server, repository root]
 taxonomy:
     category: git-integration-for-jira-data-center
 

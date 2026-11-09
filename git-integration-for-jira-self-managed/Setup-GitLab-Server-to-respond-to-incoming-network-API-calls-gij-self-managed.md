@@ -1,7 +1,20 @@
 ---
 
 title: Setup GitLab Server to respond to incoming network API calls
-description:
+description: "Set the external_url in GitLab Server so it returns correct clone links, then connect GitLab repositories to Git Integration for Jira."
+product: Git Integration for Jira Data Center
+feature: Integrations
+content_type: integration
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [gitlab-self-managed]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [gitlab server, external url, gitlab.rb, reconfigure, clone links]
 taxonomy:
     category: git-integration-for-jira-data-center
 

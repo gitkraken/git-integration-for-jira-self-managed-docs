@@ -1,7 +1,20 @@
 ---
 
 title: Requirement for secured import
-description:
+description: Prepare SSH keys or credentials before a Bulk change import so SSH and HTTPS repositories can connect without storing passwords in the TSV file.
+product: Git Integration for Jira Data Center
+feature: Bulk Change
+content_type: concept
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [bulk change, secured import, ssh keys, https, credentials]
 taxonomy:
     category: git-integration-for-jira-data-center
 

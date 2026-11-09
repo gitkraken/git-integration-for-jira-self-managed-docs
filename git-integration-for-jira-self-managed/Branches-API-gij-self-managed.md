@@ -1,7 +1,20 @@
 ---
 
 title: Branches API
-description:
+description: "Get the list of Git branches associated with a Jira issue through the Branches REST API, with request formats and example responses."
+product: Git Integration for Jira Data Center
+feature: REST API
+content_type: reference
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2025-03
+llms_include: true
+tags: [rest api, branches api, branches, issue key, permissions]
 taxonomy:
     category: git-integration-for-jira-data-center
 

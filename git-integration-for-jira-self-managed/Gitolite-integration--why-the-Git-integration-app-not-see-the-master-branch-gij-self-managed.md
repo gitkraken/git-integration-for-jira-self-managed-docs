@@ -1,7 +1,20 @@
 ---
 
 title: Gitolite integration - Why the Git integration app not see the master branch?
-description:
+description: Fix Gitolite repositories on the Jira server that show No commits or missing branch errors by correcting file permissions and the UMASK setting.
+product: Git Integration for Jira Data Center
+feature: Tracked Folders
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [gitolite]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [gitolite, umask, file permissions, tracked folders, missing branch]
 taxonomy:
     category: git-integration-for-jira-data-center
 

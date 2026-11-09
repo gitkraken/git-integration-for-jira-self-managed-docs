@@ -1,7 +1,20 @@
 ---
 
 title: Discard cloned files in Jira home directory
-description:
+description: Learn about the deprecated setting that deleted cloned repository files from the Jira home directory after indexing to save disk space.
+product: Git Integration for Jira Data Center
+feature: General Settings
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: deprecated
+last_verified: 2022-11
+llms_include: true
+tags: [discard cloned files, jira home directory, disk space, file mask, deprecated]
 taxonomy:
     category: git-integration-for-jira-data-center
 

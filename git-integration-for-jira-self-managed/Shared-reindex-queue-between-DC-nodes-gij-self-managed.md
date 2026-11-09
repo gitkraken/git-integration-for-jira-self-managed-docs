@@ -1,7 +1,20 @@
 ---
 
 title: Shared reindex queue between DC nodes
-description:
+description: Learn how the shared reindex queue skips duplicate requests and throttles webhooks to improve indexing across Jira Data Center nodes.
+product: Git Integration for Jira Data Center
+feature: Data Center Clustering
+content_type: concept
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: "4.0"
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [data center, reindex queue, cluster nodes, webhooks, skipping, cluster locks]
 taxonomy:
     category: git-integration-for-jira-data-center
 

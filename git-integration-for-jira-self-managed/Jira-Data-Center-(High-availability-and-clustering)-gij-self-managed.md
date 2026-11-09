@@ -1,7 +1,20 @@
 ---
 
 title: Jira Data Center (High availability and clustering)
-description:
+description: "Learn how Git Integration for Jira works on clustered Jira Data Center: shared repositories, per-node indexes, node changes and the trustFolderStat setting."
+product: Git Integration for Jira Data Center
+feature: Data Center Clustering
+content_type: concept
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-10
+llms_include: true
+tags: [data center, clustering, high availability, indexing, trustfolderstat, database permissions]
 taxonomy:
     category: git-integration-for-jira-data-center
 

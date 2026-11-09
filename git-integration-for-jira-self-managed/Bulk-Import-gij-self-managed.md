@@ -1,7 +1,20 @@
 ---
 
 title: Bulk Import API
-description:
+description: "Import repository configuration from a TSV file with the Bulk Import REST API, confirm deletions, and check the field parameters."
+product: Git Integration for Jira Data Center
+feature: REST API
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-06
+llms_include: true
+tags: [rest api, bulk import, bulk change, tsv file, repository configuration, delete repositories]
 taxonomy:
     category: git-integration-for-jira-data-center
 

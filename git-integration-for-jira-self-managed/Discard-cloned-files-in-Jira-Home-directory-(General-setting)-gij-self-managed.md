@@ -1,7 +1,20 @@
 ---
 
 title: Discard cloned files in Jira Home directory (General setting)
-description:
+description: "Save disk space by discarding files from cloned repositories in the Jira Home directory after indexing, using the General settings file mask options."
+product: Git Integration for Jira Data Center
+feature: General Settings
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [discard cloned files, disk space, file mask, general settings, jira home]
 taxonomy:
     category: git-integration-for-jira-data-center
 

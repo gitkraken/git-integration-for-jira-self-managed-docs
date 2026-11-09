@@ -1,7 +1,20 @@
 ---
 
 title: Multiple Indexing Threads - General setting
-description:
+description: Configure multiple repository indexing threads per Data Center node and rate limit throttling for Git services to speed up indexing.
+product: Git Integration for Jira Data Center
+feature: Indexing (Reindex)
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: "4.27"
+status: GA
+last_verified: 2024-08
+llms_include: true
+tags: [indexing threads, rate limit throttling, data center, performance, github rate limits, gitlab rate limits]
 taxonomy:
     category: git-integration-for-jira-data-center
 

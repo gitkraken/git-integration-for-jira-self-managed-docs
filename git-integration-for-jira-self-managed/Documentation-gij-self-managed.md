@@ -1,7 +1,20 @@
 ---
 
 title: Documentation
-description:
+description: "Start here to find documentation topics for installing, configuring and using Git Integration for Jira Data Center, from permissions to JQL and webhooks."
+product: Git Integration for Jira Data Center
+feature: Documentation Overview
+content_type: overview
+audience: all
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2025-04
+llms_include: true
+tags: [documentation index, getting started, git commits tab, git roll up tab, permissions]
 taxonomy:
     category: git-integration-for-jira-data-center
 

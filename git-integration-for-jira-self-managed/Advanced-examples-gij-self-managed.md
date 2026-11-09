@@ -1,7 +1,20 @@
 ---
 
 title: Smart commits - Advanced examples
-description:
+description: "See smart commit examples that combine actions and issues, including time logging, comments, resolving and multi-line commit messages."
+product: Git Integration for Jira Data Center
+feature: Smart Commits
+content_type: reference
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [smart commits, examples, time tracking, comments, resolve, multi-line commits]
 taxonomy:
     category: git-integration-for-jira-data-center
 

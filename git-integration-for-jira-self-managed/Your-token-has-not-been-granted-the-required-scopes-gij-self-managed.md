@@ -1,7 +1,20 @@
 ---
 
 title: Your token has not been granted the required scopes
-description:
+description: Fix GitHub pull request indexing errors about insufficient token scopes by updating the personal access token with the extended scopes now required.
+product: Git Integration for Jira Data Center
+feature: Personal Access Tokens
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [github]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [github, personal access token, scopes, pull requests, general settings]
 taxonomy:
     category: git-integration-for-jira-data-center
 

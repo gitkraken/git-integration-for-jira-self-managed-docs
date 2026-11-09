@@ -1,7 +1,20 @@
 ---
 
 title: Repositories FAQ
-description:
+description: "Answers to common questions on connecting and configuring Git repositories, including repository root and origin, ports, GitBlit over HTTPS and multiple keys."
+product: Git Integration for Jira Data Center
+feature: Repository Setup
+content_type: faq
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [repository root, repository origin, ports, firewall, https, active directory]
 taxonomy:
     category: git-integration-for-jira-data-center
 

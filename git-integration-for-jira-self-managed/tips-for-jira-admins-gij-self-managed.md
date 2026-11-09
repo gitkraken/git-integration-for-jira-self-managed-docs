@@ -1,7 +1,20 @@
 ---
 
 title: Tips for Jira Admins (Self-Managed)
-description:
+description: "Get Jira admin tips for indexing strategies, timeouts, bulk change, webhooks, REST APIs and tracked folders in Git Integration for Jira."
+product: Git Integration for Jira Data Center
+feature: Performance and Memory
+content_type: concept
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [indexing strategies, timeout, bulk change, webhooks, rest api, tracked folders]
 taxonomy:
     category: git-integration-for-jira-data-center
 

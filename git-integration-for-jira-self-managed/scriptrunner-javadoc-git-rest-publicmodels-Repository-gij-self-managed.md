@@ -1,7 +1,20 @@
 ---
 
 title: ScriptRunner - Javadocs - Class Repository
-description:
+description: "Repository, the ScriptRunner API model for a connected repository and its settings, with every getter and setter."
+product: Git Integration for Jira Data Center
+feature: ScriptRunner
+content_type: api-reference
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-07
+llms_include: true
+tags: [scriptrunner, javadoc, api, repository, repository settings]
 taxonomy:
     category: git-integration-for-jira-data-center
 

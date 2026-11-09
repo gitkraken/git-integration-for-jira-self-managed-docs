@@ -1,7 +1,20 @@
 ---
 
 title: Branch and pull request settings (formerly Git Integration Options)
-description:
+description: "Configure branch creation, branch name templates, and pull or merge request creation and indexing options, including Team Insights sharing."
+product: Git Integration for Jira Data Center
+feature: General Settings
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-08
+llms_include: true
+tags: [branch name template, branch creation, pull requests, merge requests, pr indexing, team insights]
 taxonomy:
     category: git-integration-for-jira-data-center
 

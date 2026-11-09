@@ -1,7 +1,20 @@
 ---
 
 title: Javadocs example - gijFacade.getRepositories(String issueKey)
-description:
+description: Groovy ScriptRunner example that lists repositories for a Jira project key using GIJFacade.getRepositories with a key argument.
+product: Git Integration for Jira Data Center
+feature: ScriptRunner
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2022-08
+llms_include: false
+tags: [scriptrunner, groovy, gijfacade, repositories, project key]
 taxonomy:
     category: git-integration-for-jira-data-center
 

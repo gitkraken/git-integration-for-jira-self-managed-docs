@@ -1,7 +1,20 @@
 ---
 
 title: Update Existing Repository API
-description:
+description: "Update the settings of an existing repository with a PUT call to the Repository REST API, with every parameter explained."
+product: Git Integration for Jira Data Center
+feature: REST API
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2025-01
+llms_include: true
+tags: [rest api, repository api, update repository, parameters, put request]
 taxonomy:
     category: git-integration-for-jira-data-center
 

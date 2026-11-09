@@ -1,7 +1,20 @@
 ---
 
 title: Avoid OutOfMemory exceptions by configuring or memory allocation with Jira to accommodate large repositories
-description:
+description: "Fix OutOfMemory errors when cloning, reindexing or running Git GC on large repositories by increasing the memory allocated to Jira."
+product: Git Integration for Jira Data Center
+feature: Performance and Memory
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [outofmemory, java heap space, jvm memory, large repositories, garbage collection, reindex]
 taxonomy:
     category: git-integration-for-jira-data-center
 

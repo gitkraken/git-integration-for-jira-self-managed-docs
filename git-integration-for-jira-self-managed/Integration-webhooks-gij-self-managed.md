@@ -1,7 +1,20 @@
 ---
 
 title: Integration webhooks
-description:
+description: Enable webhooks and use the webhook URL and secret key so remote Git hosts can trigger an immediate reindex of your repositories in Jira.
+product: Git Integration for Jira Data Center
+feature: Webhooks
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [webhooks, reindex, webhook url, secret key, ignore unmatching webhooks]
 taxonomy:
     category: git-integration-for-jira-data-center
 

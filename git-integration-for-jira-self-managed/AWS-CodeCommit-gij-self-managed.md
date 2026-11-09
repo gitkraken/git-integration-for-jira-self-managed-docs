@@ -1,7 +1,20 @@
 ---
 
 title: AWS CodeCommit
-description:
+description: "Connect AWS CodeCommit repositories to Jira Data Center with IAM permissions, SNS triggers, and branch and pull request creation from Jira issues."
+product: Git Integration for Jira Data Center
+feature: Integrations
+content_type: integration
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [aws-codecommit]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [aws codecommit, iam policies, sns triggers, webhooks, full feature integration, ssh, require user pat]
 taxonomy:
     category: git-integration-for-jira-data-center
 

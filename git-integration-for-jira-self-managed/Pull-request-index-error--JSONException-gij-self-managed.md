@@ -1,7 +1,20 @@
 ---
 
 title: Pull request index error -- org.json.JSONException
-description:
+description: Fix pull requests that stop indexing because of a broken pull request index and org.json.JSONException by removing and rebuilding the index folder.
+product: Git Integration for Jira Data Center
+feature: Branches and Pull Requests
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: legacy
+last_verified: 2024-09
+llms_include: true
+tags: [pull requests, jsonexception, pull request index, reindex]
 taxonomy:
     category: git-integration-for-jira-data-center
 

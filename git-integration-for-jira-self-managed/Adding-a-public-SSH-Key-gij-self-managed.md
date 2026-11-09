@@ -1,7 +1,20 @@
 ---
 
 title: Adding a public SSH Key
-description:
+description: Add a public SSH key to your remote git host so its repositories can be connected to Git Integration for Jira over SSH.
+product: Git Integration for Jira Data Center
+feature: SSH Keys
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [ssh keys, public key, git host, ssh configuration]
 taxonomy:
     category: git-integration-for-jira-data-center
 

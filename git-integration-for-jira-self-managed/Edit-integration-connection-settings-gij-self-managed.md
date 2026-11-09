@@ -1,7 +1,20 @@
 ---
 
 title: Edit integration connection settings
-description:
+description: "Change an integration's connection settings such as display name, personal access token, SSL verify, TrustFolderStat, custom API path and JMESPath filters."
+product: Git Integration for Jira Data Center
+feature: Repository Setup
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator, Git manager]
+version_required: all
+status: GA
+last_verified: 2024-11
+llms_include: true
+tags: [integration settings, personal access token, ssl verify, trustfolderstat, custom api path, jmespath filters]
 taxonomy:
     category: git-integration-for-jira-data-center
 

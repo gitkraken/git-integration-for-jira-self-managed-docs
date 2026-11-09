@@ -1,7 +1,20 @@
 ---
 
 title: Hooks and Webhooks
-description:
+description: "Browse the client-side, server-side and Jira workflow hooks and the webhooks you can use with Git Integration for Jira Data Center."
+product: Git Integration for Jira Data Center
+feature: Webhooks
+content_type: overview
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [hooks, webhooks, commit-msg hook, server-side hook, workflow hook]
 taxonomy:
     category: git-integration-for-jira-data-center
 

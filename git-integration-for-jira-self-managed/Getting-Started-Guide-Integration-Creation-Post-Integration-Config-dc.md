@@ -1,7 +1,20 @@
 ---
 
 title: Integration creation and Post integration Configuration
-description:
+description: "Create your Git integrations in stages, then configure display names, required user PATs, Git service permissions and the reindex interval."
+product: Git Integration for Jira Data Center
+feature: Getting Started
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-10
+llms_include: true
+tags: [integration creation, post-integration configuration, require user pat, enforce git service permissions, reindex interval]
 taxonomy:
     category: git-integration-for-jira-data-center
 

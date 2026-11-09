@@ -1,7 +1,20 @@
 ---
 
 title: Deprecation notice
-description:
+description: "See which Git Integration for Jira Data Center features, settings, APIs and integrations are deprecated or removed, and when support ends."
+product: Git Integration for Jira Data Center
+feature: Policies (EOL / SLA)
+content_type: policy
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [deprecation, end of support, gitlab legacy, java 8, reindex api, webhooks]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Git operations timeout
-description:
+description: Set how many seconds Git Integration for Jira waits for git clone and git fetch connections before timing out.
+product: Git Integration for Jira Data Center
+feature: General Settings
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [git operations timeout, git clone, git fetch, advanced settings]
 taxonomy:
     category: git-integration-for-jira-data-center
 

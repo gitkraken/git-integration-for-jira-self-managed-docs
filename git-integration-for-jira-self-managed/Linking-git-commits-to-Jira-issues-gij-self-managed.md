@@ -1,7 +1,20 @@
 ---
 
 title: Linking git commits to Jira issues
-description:
+description: "Link Git commits to Jira issues by including the issue key in the commit message, including sub-tasks, renamed project keys and message length limits."
+product: Git Integration for Jira Data Center
+feature: Linking Commits to Issues
+content_type: how-to
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [issue key, commit message, linking commits, sub-tasks, project key rename, activity stream]
 taxonomy:
     category: git-integration-for-jira-data-center
 

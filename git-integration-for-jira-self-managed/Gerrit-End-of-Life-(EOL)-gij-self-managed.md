@@ -1,7 +1,20 @@
 ---
 
 title: Gerrit End of Life (EOL)
-description:
+description: Learn how the Gerrit community supports releases and announces end of life for older Gerrit versions.
+product: Git Integration for Jira Data Center
+feature: Policies (EOL / SLA)
+content_type: policy
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [gerrit]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2022-11
+llms_include: true
+tags: [gerrit, end of life, release support, security fixes]
 taxonomy:
     category: git-integration-for-jira-data-center
 

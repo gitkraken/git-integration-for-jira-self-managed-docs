@@ -1,7 +1,20 @@
 ---
 
 title: Manually link git commits to Jira issues
-description:
+description: "Manually add, edit or remove the Jira issues associated with a git commit using the Change commit issues dialog."
+product: Git Integration for Jira Data Center
+feature: Linking Commits to Issues
+content_type: how-to
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator, Project Administrator]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [change commit issues, commit association, issue keys, view full commit, reindex]
 taxonomy:
     category: git-integration-for-jira-data-center
 

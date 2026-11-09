@@ -1,7 +1,20 @@
 ---
 
 title: Frequently Asked Questions
-description:
+description: "Browse the Git Integration for Jira Data Center FAQ topics, from general and developer questions to SSH, logging, reindexing, support and pricing."
+product: Git Integration for Jira Data Center
+feature: FAQ
+content_type: overview
+audience: all
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [faq, topics, administration, developer, support]
 taxonomy:
     category: git-integration-for-jira-data-center
 

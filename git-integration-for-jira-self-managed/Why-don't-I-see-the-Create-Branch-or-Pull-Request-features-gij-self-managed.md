@@ -1,7 +1,20 @@
 ---
 
 title: Why don't I see the Create Branch or Pull Request features?
-description:
+description: Find out why Create branch and Create pull or merge request actions are missing in Jira issues and enable them with an Auto-Connect integration.
+product: Git Integration for Jira Data Center
+feature: Branches and Pull Requests
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [create branch, create pull request, auto-connect, integrations]
 taxonomy:
     category: git-integration-for-jira-data-center
 

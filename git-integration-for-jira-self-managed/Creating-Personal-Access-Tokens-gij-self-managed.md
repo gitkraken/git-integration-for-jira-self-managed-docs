@@ -1,7 +1,20 @@
 ---
 
 title: Creating Personal Access Tokens
-description:
+description: "Create personal access tokens for GitHub, GitLab, Azure DevOps, TFS and AWS CodeCommit, and update a token on an existing integration or repository."
+product: Git Integration for Jira Data Center
+feature: Personal Access Tokens
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [github, github-enterprise, gitlab, gitlab-self-managed, azure-devops, azure-devops-server, aws-codecommit]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2025-01
+llms_include: true
+tags: [personal access tokens, token scopes, two-factor authentication, access keys, update pat]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: SSH key file format is invalid
-description:
+description: Fix the SSH key file format is invalid error by generating an RSA private key in OpenSSL PEM format and adding it to Git Integration for Jira.
+product: Git Integration for Jira Data Center
+feature: SSH Keys
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [ssh keys, private key, rsa, pem, puttygen, ssh-keygen]
 taxonomy:
     category: git-integration-for-jira-data-center
 

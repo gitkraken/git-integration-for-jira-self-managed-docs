@@ -1,7 +1,20 @@
 ---
 
 title: Issue Git integration panel - Features
-description:
+description: Learn what the Git integration panel on a Jira issue shows and how a Jira administrator enables or disables it.
+product: Git Integration for Jira Data Center
+feature: Development Panel
+content_type: concept
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [git integration panel, development panel, commits, branches, pull requests, tags]
 taxonomy:
     category: git-integration-for-jira-data-center
 

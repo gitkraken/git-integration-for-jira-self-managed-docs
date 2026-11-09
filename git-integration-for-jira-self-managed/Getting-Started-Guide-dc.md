@@ -1,7 +1,20 @@
 ---
 
 title: Admin Getting Started Guide
-description:
+description: Start here as a Jira admin to learn what Git Integration for Jira Data Center shows in Jira issues and which security policies to consider before setup.
+product: Git Integration for Jira Data Center
+feature: Getting Started
+content_type: overview
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2024-10
+llms_include: true
+tags: [admin guide, issue view, linking commits, project permissions, security restrictions]
 taxonomy:
     category: git-integration-for-jira-data-center
 

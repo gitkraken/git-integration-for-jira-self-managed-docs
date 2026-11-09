@@ -1,7 +1,20 @@
 ---
 
 title: Installation and setup FAQ
-description:
+description: "Answers to common questions about installing Git Integration for Jira Data Center, what you need to get started and using developer licenses."
+product: Git Integration for Jira Data Center
+feature: Installation
+content_type: faq
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [installation, atlassian marketplace, developer license, setup]
 taxonomy:
     category: git-integration-for-jira-data-center
 

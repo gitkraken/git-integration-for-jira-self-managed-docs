@@ -1,7 +1,20 @@
 ---
 
 title: Setting up web linking
-description:
+description: "Configure web linking so commits in the Git Commits tab link to your Git host, with a video for GitHub and GitLab setups."
+product: Git Integration for Jira Data Center
+feature: Web Linking
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [web linking, git commits tab, auto-connect, video]
 taxonomy:
     category: git-integration-for-jira-data-center
 

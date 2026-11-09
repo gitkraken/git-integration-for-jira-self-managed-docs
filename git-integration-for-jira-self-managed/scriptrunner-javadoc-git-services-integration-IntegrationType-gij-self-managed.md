@@ -1,7 +1,20 @@
 ---
 
 title: ScriptRunner - Javadocs - Class IntegrationType
-description:
+description: "IntegrationType, the ScriptRunner API enumeration of the integration types Git Integration for Jira supports."
+product: Git Integration for Jira Data Center
+feature: ScriptRunner
+content_type: api-reference
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2022-08
+llms_include: true
+tags: [scriptrunner, javadoc, api, integrationtype, integrations, enum]
 taxonomy:
     category: git-integration-for-jira-data-center
 

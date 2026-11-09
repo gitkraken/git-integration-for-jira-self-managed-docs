@@ -1,7 +1,20 @@
 ---
 
 title: Remove Integration API
-description:
+description: "Delete an integration from the app configuration, and optionally its files, with a DELETE call to the Integration REST API."
+product: Git Integration for Jira Data Center
+feature: REST API
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-06
+llms_include: true
+tags: [rest api, integration api, remove integration, delete request]
 taxonomy:
     category: git-integration-for-jira-data-center
 

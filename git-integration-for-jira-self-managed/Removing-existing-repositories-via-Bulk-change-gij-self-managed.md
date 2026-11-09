@@ -1,7 +1,20 @@
 ---
 
 title: Removing existing repositories via Bulk change
-description:
+description: Remove multiple repositories at once by marking them for deletion in the Bulk change TSV file and importing it.
+product: Git Integration for Jira Data Center
+feature: Bulk Change
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [bulk change, remove repositories, delete, tsv, import configuration]
 taxonomy:
     category: git-integration-for-jira-data-center
 

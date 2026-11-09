@@ -1,7 +1,20 @@
 ---
 
 title: Fix performance issues for nested cloned repositories with enabled Git Service Permissions mode
-description:
+description: Fix slow performance and high CPU on GIJ 4.19 and earlier when Git Service Permissions mode is on and nested repositories fail to clone during reindex.
+product: Git Integration for Jira Data Center
+feature: Performance and Memory
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: legacy
+last_verified: 2024-12
+llms_include: true
+tags: [performance, nested repositories, git service permissions, jmespath filters, upgrade]
 taxonomy:
     category: git-integration-for-jira-data-center
 

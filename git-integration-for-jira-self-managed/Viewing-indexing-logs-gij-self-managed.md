@@ -1,7 +1,20 @@
 ---
 
 title: Viewing indexing logs
-description:
+description: Open the indexing log for a repository or integration from the Actions menu and send it to support for analysis.
+product: Git Integration for Jira Data Center
+feature: Indexing (Reindex)
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [indexing log, view log, actions menu, support]
 taxonomy:
     category: git-integration-for-jira-data-center
 

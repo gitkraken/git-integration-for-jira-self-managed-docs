@@ -1,7 +1,20 @@
 ---
 
 title: Commits API
-description:
+description: Find the Commits REST API endpoints for getting commits linked to an issue and reading or updating commit issue associations.
+product: Git Integration for Jira Data Center
+feature: REST API
+content_type: overview
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-10
+llms_include: true
+tags: [rest api, commits api, get commits, commit issue changes]
 taxonomy:
     category: git-integration-for-jira-data-center
 

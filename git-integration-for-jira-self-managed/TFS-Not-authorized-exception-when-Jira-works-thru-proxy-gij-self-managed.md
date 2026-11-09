@@ -1,7 +1,20 @@
 ---
 
 title: TFS - Not authorized exception when Jira works thru proxy
-description:
+description: Fix TFS Not authorized errors when Jira runs behind a proxy by configuring JVM proxy settings and adding the Git server to nonProxyHosts.
+product: Git Integration for Jira Data Center
+feature: Proxy and SSL
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [azure-devops-server]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [proxy, tfs, not authorized, nonproxyhosts, jvm parameters]
 taxonomy:
     category: git-integration-for-jira-data-center
 

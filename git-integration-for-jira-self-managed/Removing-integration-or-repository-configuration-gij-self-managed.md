@@ -1,7 +1,20 @@
 ---
 
 title: Removing integration or repository configuration
-description:
+description: "Delete an integration, repository or tracked folder from the Git Integration for Jira configuration list and optionally its cloned files."
+product: Git Integration for Jira Data Center
+feature: Repository Setup
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [remove integration, remove repository, tracked folder, cloned files, manage repositories]
 taxonomy:
     category: git-integration-for-jira-data-center
 

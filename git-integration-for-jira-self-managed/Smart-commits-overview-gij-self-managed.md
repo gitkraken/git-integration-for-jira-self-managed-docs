@@ -1,7 +1,20 @@
 ---
 
 title: Smart commits overview
-description:
+description: "Get an overview of smart commits, their basic syntax and the configuration requirements for acting on Jira issues from commit messages."
+product: Git Integration for Jira Data Center
+feature: Smart Commits
+content_type: concept
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [smart commits, commit messages, syntax, email matching, workflow transitions]
 taxonomy:
     category: git-integration-for-jira-data-center
 

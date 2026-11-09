@@ -1,7 +1,20 @@
 ---
 
 title: Email settings
-description:
+description: Turn commit notification emails on or off and filter recipients with a regular expression in Git Integration for Jira general settings.
+product: Git Integration for Jira Data Center
+feature: General Settings
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [email settings, commit notification emails, regex filter, smart commits, performance]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Git Commits tab - Jira issue page
-description:
+description: "Read commit details on the Git Commits tab of a Jira issue, including authors, branches, code diffs, web links and Open in GitKraken or GitLens."
+product: Git Integration for Jira Data Center
+feature: Git Commits Tab
+content_type: reference
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [git commits tab, issue page, commit details, code diff, web links, files changed]
 taxonomy:
     category: git-integration-for-jira-data-center
 

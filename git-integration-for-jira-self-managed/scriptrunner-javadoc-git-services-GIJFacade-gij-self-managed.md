@@ -1,7 +1,20 @@
 ---
 
 title: ScriptRunner - Javadoc - Interface GIJFacade
-description:
+description: "GIJFacade, the main interface for Git Integration for Jira ScriptRunner scripts, with every method for repositories, integrations, branches and reindexing."
+product: Git Integration for Jira Data Center
+feature: ScriptRunner
+content_type: api-reference
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [scriptrunner, javadoc, api, gijfacade, facade, groovy]
 taxonomy:
     category: git-integration-for-jira-data-center
 

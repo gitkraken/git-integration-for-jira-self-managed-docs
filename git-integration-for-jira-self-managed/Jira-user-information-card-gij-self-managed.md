@@ -1,7 +1,20 @@
 ---
 
 title: Jira user information card
-description:
+description: See where the Jira user information card appears for commit authors in Git Integration for Jira and what details and actions it offers.
+product: Git Integration for Jira Data Center
+feature: Git User Identity
+content_type: concept
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [user information card, commit author, git commits tab, repository browser, user profile]
 taxonomy:
     category: git-integration-for-jira-data-center
 

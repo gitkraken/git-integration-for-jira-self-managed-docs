@@ -1,7 +1,20 @@
 ---
 
 title: Pull or merge requests (Development panel)
-description:
+description: "Create pull or merge requests from the Jira development panel, link them to issues through the title, and cancel pull request reindexing."
+product: Git Integration for Jira Data Center
+feature: Branches and Pull Requests
+content_type: how-to
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [github, gitlab, azure-devops, azure-devops-server]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2024-10
+llms_include: true
+tags: [pull requests, merge requests, create pull request, development panel, personal access token, indexing queue]
 taxonomy:
     category: git-integration-for-jira-data-center
 

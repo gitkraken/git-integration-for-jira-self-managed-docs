@@ -1,7 +1,20 @@
 ---
 
 title: Dangerous use of multiple connections error on local database
-description:
+description: Resolve the Dangerous use of multiple connections warning by tuning the Jira database connection pool size for larger instances.
+product: Git Integration for Jira Data Center
+feature: Performance and Memory
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [database connections, connection pool, active objects, performance tuning]
 taxonomy:
     category: git-integration-for-jira-data-center
 custom_fields:

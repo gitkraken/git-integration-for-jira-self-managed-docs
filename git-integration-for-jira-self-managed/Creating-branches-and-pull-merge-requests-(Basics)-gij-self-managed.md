@@ -1,7 +1,20 @@
 ---
 
 title: Creating branches and pull/merge requests (Integration basics)
-description:
+description: "Create branches and pull or merge requests from the Jira issue developer panel, and learn how the default branch is picked up."
+product: Git Integration for Jira Data Center
+feature: Branches and Pull Requests
+content_type: how-to
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [create branch, pull requests, merge requests, developer panel, default branch]
 taxonomy:
     category: git-integration-for-jira-data-center
 

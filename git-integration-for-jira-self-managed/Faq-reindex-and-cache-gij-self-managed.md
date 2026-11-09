@@ -1,7 +1,20 @@
 ---
 
 title: Reindex and cache FAQ
-description:
+description: "Answers to questions about what reindexing does, controlling and triggering reindex, rebuilding plugin indexes and clearing the app cache manually."
+product: Git Integration for Jira Data Center
+feature: Indexing (Reindex)
+content_type: faq
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-06
+llms_include: true
+tags: [reindex, cache, indexes, webhooks, scheduled jobs, git notes]
 taxonomy:
     category: git-integration-for-jira-data-center
 

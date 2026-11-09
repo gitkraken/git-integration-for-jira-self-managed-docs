@@ -1,7 +1,20 @@
 ---
 
 title: Scheduled jobs general setting
-description:
+description: Configure the repository reindex interval and garbage collection job interval using scanning intervals or cron expressions.
+product: Git Integration for Jira Data Center
+feature: General Settings
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [scheduled jobs, reindex interval, cron expression, garbage collection, scheduler details]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Migration to another server
-description:
+description: "Migrate Jira with Git Integration for Jira to a different server, with steps to take before and after following the Atlassian guide."
+product: Git Integration for Jira Data Center
+feature: Upgrades and Migration
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-04
+llms_include: true
+tags: [migration, new server, upgrade, test environment, manage git repositories]
 taxonomy:
     category: git-integration-for-jira-data-center
 

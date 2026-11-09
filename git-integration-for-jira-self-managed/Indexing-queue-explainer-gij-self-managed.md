@@ -1,7 +1,20 @@
 ---
 
 title: Indexing queue explainer - Administration
-description:
+description: "Understand how the database-backed reindexing queue works in Data Center, including priorities, task skipping, webhook sleeping and logging."
+product: Git Integration for Jira Data Center
+feature: Indexing Queue
+content_type: concept
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: "4.0"
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [indexing queue, reindexing, priorities, task skipping, webhook sleeping, database tables, logging]
 taxonomy:
     category: git-integration-for-jira-data-center
 

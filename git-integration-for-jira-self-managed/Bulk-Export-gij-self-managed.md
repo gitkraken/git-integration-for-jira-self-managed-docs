@@ -1,7 +1,20 @@
 ---
 
 title: Bulk Export API
-description:
+description: Export the app repository configuration to a TSV file with the Bulk Export REST API and edit the file using the column reference.
+product: Git Integration for Jira Data Center
+feature: REST API
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-06
+llms_include: true
+tags: [rest api, bulk export, bulk change, tsv file, repository configuration]
 taxonomy:
     category: git-integration-for-jira-data-center
 

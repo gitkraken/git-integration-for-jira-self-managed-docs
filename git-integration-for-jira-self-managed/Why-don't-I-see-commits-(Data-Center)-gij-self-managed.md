@@ -1,7 +1,20 @@
 ---
 
 title: Why don't I see commits? (Data Center)
-description:
+description: "Follow a step-by-step checklist to find out why commits are not showing in Jira, from app license and repository status to issue keys and permissions."
+product: Git Integration for Jira Data Center
+feature: Linking Commits to Issues
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [missing commits, reindex, project association, issue keys, development tools permission, webhooks]
 taxonomy:
     category: git-integration-for-jira-data-center
 

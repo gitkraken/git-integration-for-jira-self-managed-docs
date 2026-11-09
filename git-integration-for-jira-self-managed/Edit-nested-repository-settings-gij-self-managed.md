@@ -1,7 +1,20 @@
 ---
 
 title: Edit nested repository settings
-description:
+description: "Edit a nested repository's settings in GIJ 5.x and earlier, including repository root, origin, main branch, SSL and feature options."
+product: Git Integration for Jira Data Center
+feature: Nested Repositories
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2025-04
+llms_include: true
+tags: [nested repositories, repository settings, version 5, main branch, ssl verify, credentials]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: User profile settings
-description:
+description: Switch your Jira email notification format from text to HTML in user profile preferences so commit notification emails display in HTML.
+product: Git Integration for Jira Data Center
+feature: Commit Email Notifications
+content_type: how-to
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [user profile, email type, html email, notifications, preferences]
 taxonomy:
     category: git-integration-for-jira-data-center
 

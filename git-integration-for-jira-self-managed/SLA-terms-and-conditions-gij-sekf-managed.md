@@ -1,7 +1,20 @@
 ---
 
 title: GIJ Terms and Conditions
-description:
+description: "Review GitKraken support hours, response-time SLAs, support scope and exclusions for Git Integration for Jira Data Center and Cloud."
+product: Git Integration for Jira Data Center
+feature: Policies (EOL / SLA)
+content_type: policy
+audience: all
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2025-05
+llms_include: true
+tags: [sla, support hours, response time, support scope, end of life, terms and conditions]
 taxonomy:
     category: git-integration-for-jira-data-center
 

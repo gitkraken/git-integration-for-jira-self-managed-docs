@@ -1,7 +1,20 @@
 ---
 
 title: Git tags
-description:
+description: "Learn how lightweight and annotated Git tags appear in the Jira issue Git panel, how tags associate with issues, and how to enable and reindex tags safely."
+product: Git Integration for Jira Data Center
+feature: Git Tags
+content_type: concept
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [git tags, lightweight tags, annotated tags, tag associations, reindexing tags, general settings]
 taxonomy:
     category: git-integration-for-jira-data-center
 

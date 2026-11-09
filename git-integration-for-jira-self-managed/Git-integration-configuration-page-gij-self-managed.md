@@ -1,7 +1,20 @@
 ---
 
 title: Git integration configuration page
-description:
+description: "Learn what you can do on the Manage git repositories page: add integrations, connect repositories, bulk change, reindex and open webhooks."
+product: Git Integration for Jira Data Center
+feature: Repository Setup
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-11
+llms_include: true
+tags: [manage repositories, add new integration, connect repository, bulk change, reindex, webhooks]
 taxonomy:
     category: git-integration-for-jira-data-center
 

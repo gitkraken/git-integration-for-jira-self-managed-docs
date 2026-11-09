@@ -1,7 +1,20 @@
 ---
 
 title: Enforce Git service permissions
-description:
+description: "Require Jira users to supply a Git service personal access token so they only see Git data their GitHub, GitLab or Azure account can access."
+product: Git Integration for Jira Data Center
+feature: Permissions
+content_type: concept
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [github, github-enterprise, gitlab, gitlab-self-managed, azure-devops, azure-devops-server]
+role_required: [Jira Administrator]
+version_required: "4.1.4"
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [enforce git service permissions, personal access tokens, view development tools, permission cache, git data visibility]
 taxonomy:
     category: git-integration-for-jira-data-center
 

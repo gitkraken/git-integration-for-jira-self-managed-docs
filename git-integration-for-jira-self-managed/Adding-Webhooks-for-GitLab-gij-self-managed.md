@@ -1,7 +1,20 @@
 ---
 
 title: Adding Webhooks for GitLab
-description:
+description: "Add a GitLab project webhook for push and merge request events, or use GitLab system hooks on self-managed GitLab, to trigger reindexing."
+product: Git Integration for Jira Data Center
+feature: Webhooks
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [gitlab, gitlab-self-managed]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2022-10
+llms_include: true
+tags: [webhooks, gitlab webhooks, merge request events, push events, system hooks]
 taxonomy:
     category: git-integration-for-jira-data-center
 

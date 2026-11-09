@@ -1,7 +1,20 @@
 ---
 
 title: Jira Workflow Hook
-description:
+description: "Use JavaScript workflow hooks as an alternative to smart commits to act on Jira issues, documented in the external GitHub repository."
+product: Git Integration for Jira Data Center
+feature: Workflow Hooks
+content_type: overview
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2022-11
+llms_include: true
+tags: [workflow hooks, javascript, smart commits, scripting]
 taxonomy:
     category: git-integration-for-jira-data-center
 

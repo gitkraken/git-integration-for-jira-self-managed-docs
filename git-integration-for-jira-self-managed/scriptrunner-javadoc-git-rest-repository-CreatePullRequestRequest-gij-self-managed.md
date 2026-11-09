@@ -1,7 +1,20 @@
 ---
 
 title: ScriptRunner - Javadocs - Class CreatePullRequestRequest
-description:
+description: "CreatePullRequestRequest, the ScriptRunner API model for creating a pull or merge request."
+product: Git Integration for Jira Data Center
+feature: ScriptRunner
+content_type: api-reference
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2022-08
+llms_include: true
+tags: [scriptrunner, javadoc, api, createpullrequestrequest, pull requests, merge requests]
 taxonomy:
     category: git-integration-for-jira-data-center
 

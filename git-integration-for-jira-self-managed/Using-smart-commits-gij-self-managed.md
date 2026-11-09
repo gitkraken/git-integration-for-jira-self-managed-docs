@@ -1,7 +1,20 @@
 ---
 
 title: Using smart commits (Integration basics)
-description:
+description: "Use smart commits to log time, add comments and transition Jira issues from a commit message, and enable them per repository."
+product: Git Integration for Jira Data Center
+feature: Smart Commits
+content_type: how-to
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [smart commits, commit messages, time tracking, issue transitions]
 taxonomy:
     category: git-integration-for-jira-data-center
 

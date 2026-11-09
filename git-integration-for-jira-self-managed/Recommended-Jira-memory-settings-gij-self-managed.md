@@ -1,7 +1,20 @@
 ---
 
 title: Recommended Jira memory settings - Administration
-description:
+description: "Estimate how much memory to allocate to Jira for large repositories, based on JGit index sizes, to avoid OutOfMemory errors."
+product: Git Integration for Jira Data Center
+feature: Performance and Memory
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [memory settings, jgit, repository indexes, outofmemory, garbage collection]
 taxonomy:
     category: git-integration-for-jira-data-center
 

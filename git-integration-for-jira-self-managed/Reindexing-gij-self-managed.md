@@ -1,7 +1,20 @@
 ---
 
 title: Reindexing
-description:
+description: "Manually reindex all or individual repositories, reset indexes, and understand last indexed revisions, updatedDate changes and indexing errors."
+product: Git Integration for Jira Data Center
+feature: Indexing (Reindex)
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [reindex, reset index, last indexed revision, updateddate, indexing errors, scheduler]
 taxonomy:
     category: git-integration-for-jira-data-center
 

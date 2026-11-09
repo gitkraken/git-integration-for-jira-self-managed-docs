@@ -1,7 +1,20 @@
 ---
 
 title: Configure Source Code Diff Viewing
-description:
+description: Enable or disable source code diff viewing for an integration or an individual repository to control where users can see code in Jira.
+product: Git Integration for Jira Data Center
+feature: Code Diff Viewing
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [source code diff viewing, repository settings, integration settings, view full commit, repository browser]
 taxonomy:
     category: git-integration-for-jira-data-center
 

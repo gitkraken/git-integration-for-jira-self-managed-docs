@@ -1,7 +1,20 @@
 ---
 
 title: Get Commit Issue Changes API
-description:
+description: List the Jira issues associated with a specific commit in a repository using the Get Commit Issue Changes REST API.
+product: Git Integration for Jira Data Center
+feature: REST API
+content_type: reference
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2024-06
+llms_include: true
+tags: [rest api, commits api, commit issue association, issue keys, get request]
 taxonomy:
     category: git-integration-for-jira-data-center
 

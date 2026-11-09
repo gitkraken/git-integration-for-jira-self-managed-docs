@@ -1,7 +1,20 @@
 ---
 
 title: Creating and configuring SSH keys
-description:
+description: "Generate an RSA PEM SSH key pair on Windows, macOS or Linux, add the public key to your Git host and the private key to the app."
+product: Git Integration for Jira Data Center
+feature: SSH Keys
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [ssh keys, rsa, pem format, puttygen, ssh-keygen, private key]
 taxonomy:
     category: git-integration-for-jira-data-center
 

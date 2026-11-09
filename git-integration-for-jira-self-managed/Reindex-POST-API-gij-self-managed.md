@@ -1,7 +1,20 @@
 ---
 
 title: Reindex POST API
-description:
+description: "Start a reindex of one or all repositories, with optional priority, using the Reindex POST REST API."
+product: Git Integration for Jira Data Center
+feature: REST API
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: "4.17"
+status: GA
+last_verified: 2024-06
+llms_include: true
+tags: [rest api, reindex api, reindex, priority, webhooks]
 taxonomy:
     category: git-integration-for-jira-data-center
 

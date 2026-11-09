@@ -1,7 +1,20 @@
 ---
 
 title: SQLException Incorrect string value in merge requests
-description:
+description: Fix missing pull and merge requests after upgrading by switching the MySQL Jira database to utf8mb4 so titles with emojis can be stored.
+product: Git Integration for Jira Data Center
+feature: Branches and Pull Requests
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [mysql, utf8mb4, incorrect string value, merge requests, emoji]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Managing integration via Actions
-description:
+description: "Use the Actions menu to reindex, edit settings, reset the index, remove or view logs for repositories, tracked folders, integrations and GitHub Apps."
+product: Git Integration for Jira Data Center
+feature: Repository Setup
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-10
+llms_include: true
+tags: [actions menu, reindex, reset index, remove integration, view log, tracked folder, github app]
 taxonomy:
     category: git-integration-for-jira-data-center
 

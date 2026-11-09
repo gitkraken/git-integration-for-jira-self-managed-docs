@@ -1,7 +1,20 @@
 ---
 
 title: Migrating from Jira 8 to Jira 9
-description:
+description: Prepare Git Integration for Jira for a Jira 8 to Jira 9 upgrade by resetting repository indexes and adjusting the commit tab sort order.
+product: Git Integration for Jira Data Center
+feature: Upgrades and Migration
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [jira 9 migration, reset index, commit tab sort order, data center upgrade]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Add New Repository
-description:
+description: "Connect a new repository from the given settings with a POST call to the Repository REST API, including all request parameters and an example."
+product: Git Integration for Jira Data Center
+feature: REST API
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-06
+llms_include: true
+tags: [rest api, repository api, add repository, parameters, post request]
 taxonomy:
     category: git-integration-for-jira-data-center
 

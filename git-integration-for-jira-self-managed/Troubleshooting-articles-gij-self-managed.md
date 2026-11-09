@@ -1,7 +1,20 @@
 ---
 
 title: Troubleshooting articles
-description:
+description: "Browse troubleshooting articles for Git Integration for Jira Data Center, grouped by repository and integration, memory, storage, indexing and other issues."
+product: Git Integration for Jira Data Center
+feature: Troubleshooting
+content_type: overview
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [troubleshooting, integrations, memory, storage, indexing]
 taxonomy:
     category: git-integration-for-jira-data-center
 

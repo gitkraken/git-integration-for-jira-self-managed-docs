@@ -1,7 +1,20 @@
 ---
 
 title: Upgrades and migrations within same server
-description:
+description: "Upgrade or migrate Jira on the same server, including Jira home path changes and Server to Data Center moves, without losing repository settings."
+product: Git Integration for Jira Data Center
+feature: Upgrades and Migration
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-08
+llms_include: true
+tags: [upgrade, migration, jira home path, bulk change export, server to data center]
 taxonomy:
     category: git-integration-for-jira-data-center
 

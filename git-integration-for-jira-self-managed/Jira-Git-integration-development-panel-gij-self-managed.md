@@ -1,7 +1,20 @@
 ---
 
 title: Jira Git integration development panel
-description:
+description: "Use the Git integration development panel on Jira issues to see commits, branches and pull requests, refresh Git data and compare code between branches."
+product: Git Integration for Jira Data Center
+feature: Development Panel
+content_type: how-to
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2024-10
+llms_include: true
+tags: [development panel, compare code, branches, refresh, view development tools, permissions]
 taxonomy:
     category: git-integration-for-jira-data-center
 

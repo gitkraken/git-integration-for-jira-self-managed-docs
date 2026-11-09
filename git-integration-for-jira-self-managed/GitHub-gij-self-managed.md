@@ -1,7 +1,20 @@
 ---
 
 title: GitHub.com
-description:
+description: "Connect GitHub.com repositories to Jira Data Center with a personal access token, set organization permissions, and create branches and pull requests."
+product: Git Integration for Jira Data Center
+feature: Integrations
+content_type: integration
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [github]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2025-03
+llms_include: true
+tags: [github, personal access tokens, organization permissions, full feature integration, require user pat, pull requests]
 taxonomy:
     category: git-integration-for-jira-data-center
 

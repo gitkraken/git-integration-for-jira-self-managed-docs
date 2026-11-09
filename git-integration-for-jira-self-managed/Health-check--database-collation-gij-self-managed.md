@@ -1,7 +1,20 @@
 ---
 
 title: Health Check - Database Collation
-description:
+description: "Fix Git Integration for Jira errors caused by an unsupported database collation flagged by the Jira health check, for MySQL, SQL Server, PostgreSQL and Oracle."
+product: Git Integration for Jira Data Center
+feature: Troubleshooting
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [database collation, health check, mysql, postgresql, sql server, oracle]
 taxonomy:
     category: git-integration-for-jira-data-center
 

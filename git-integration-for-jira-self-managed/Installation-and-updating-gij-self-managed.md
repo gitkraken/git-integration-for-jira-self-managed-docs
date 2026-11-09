@@ -1,7 +1,20 @@
 ---
 
 title: Installation and updating
-description:
+description: "Update Git Integration for Jira through the Universal Plugin Manager, automatically with the Upgrade button or manually by uploading the app."
+product: Git Integration for Jira Data Center
+feature: Upgrades and Migration
+content_type: install
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira System Administrator]
+version_required: all
+status: GA
+last_verified: 2023-08
+llms_include: true
+tags: [update, upgrade, upm, manage apps, upload app]
 taxonomy:
     category: git-integration-for-jira-data-center
 

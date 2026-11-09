@@ -1,7 +1,20 @@
 ---
 
 title: Webhooks GitHub Organization Support
-description:
+description: Configure one webhook at the GitHub organization level so push and pull request events from every repository trigger reindexing.
+product: Git Integration for Jira Data Center
+feature: Webhooks
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [github]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-07
+llms_include: true
+tags: [github organization webhooks, payload url, secret, pull requests, pushes]
 taxonomy:
     category: git-integration-for-jira-data-center
 

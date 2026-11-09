@@ -1,7 +1,20 @@
 ---
 
 title: Malformed input or input contains unmappable characters
-description:
+description: Fix indexing failures caused by Malformed input or unmappable characters by checking UTF-8 encoding and collation across Jira components.
+product: Git Integration for Jira Data Center
+feature: Troubleshooting
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [malformed input, character encoding, utf-8, collation, indexing]
 taxonomy:
     category: git-integration-for-jira-data-center
 

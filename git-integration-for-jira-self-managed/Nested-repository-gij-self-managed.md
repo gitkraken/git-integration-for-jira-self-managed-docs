@@ -1,7 +1,20 @@
 ---
 
 title: Nested repository
-description:
+description: "Learn what nested repositories and submodules are, the host permissions they need, their practical uses and their challenges."
+product: Git Integration for Jira Data Center
+feature: Nested Repositories
+content_type: concept
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [github, gitlab, bitbucket, azure-devops, aws-codecommit]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2025-04
+llms_include: true
+tags: [nested repositories, submodules, permissions, modular projects, dependencies]
 taxonomy:
     category: git-integration-for-jira-data-center
 

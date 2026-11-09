@@ -1,7 +1,20 @@
 ---
 
 title: Reconfigure Git repositories and SSH keys
-description:
+description: "Reconfigure repositories and SSH keys by removing old keys, restarting Jira and reconnecting with the private key through the Connect wizard."
+product: Git Integration for Jira Data Center
+feature: SSH Keys
+content_type: how-to
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [ssh keys, reconfigure, private key, restart jira, connect wizard]
 taxonomy:
     category: git-integration-for-jira-data-center
 

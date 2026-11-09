@@ -1,7 +1,20 @@
 ---
 
 title: Smart commits -- Basic commands
-description:
+description: "Learn the smart commit commands for comments, time logging, transitions, assignment, fix and affects versions and labels, with syntax and examples."
+product: Git Integration for Jira Data Center
+feature: Smart Commits
+content_type: reference
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [smart commits, comment, time, transitions, assign, fixversion, label]
 taxonomy:
     category: git-integration-for-jira-data-center
 

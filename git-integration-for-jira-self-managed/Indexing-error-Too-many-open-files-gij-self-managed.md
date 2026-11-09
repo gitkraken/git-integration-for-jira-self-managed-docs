@@ -1,7 +1,20 @@
 ---
 
 title: Indexing error - Too many open files
-description:
+description: Fix repositories that stop indexing with Too many open files errors by increasing the number of file handles available to Jira.
+product: Git Integration for Jira Data Center
+feature: Indexing (Reindex)
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [too many open files, file handles, indexing, jgit]
 taxonomy:
     category: git-integration-for-jira-data-center
 

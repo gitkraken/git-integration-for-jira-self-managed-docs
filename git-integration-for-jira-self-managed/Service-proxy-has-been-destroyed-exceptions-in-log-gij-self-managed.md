@@ -1,7 +1,20 @@
 ---
 
 title: Service proxy has been destroyed exceptions in log
-description:
+description: "Fix Service proxy has been destroyed errors by updating UPM, then re-enabling or reinstalling the app and cleaning up old plugin folders."
+product: Git Integration for Jira Data Center
+feature: Troubleshooting
+content_type: troubleshooting
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-12
+llms_include: true
+tags: [service proxy destroyed, upm, reinstall, plugin folders, osgi]
 taxonomy:
     category: git-integration-for-jira-data-center
 

@@ -1,7 +1,20 @@
 ---
 
 title: Known Issues
-description:
+description: "Review known issues and workarounds in Git Integration for Jira Data Center, such as the 2GB object limit, JQL limits, indexing cancellation and host limits."
+product: Git Integration for Jira Data Center
+feature: Known Issues
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2024-09
+llms_include: true
+tags: [known issues, workarounds, 2gb limit, jql limit, indexing, pull requests]
 taxonomy:
     category: git-integration-for-jira-data-center
 

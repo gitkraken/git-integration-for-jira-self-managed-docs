@@ -1,7 +1,20 @@
 ---
 
 title: Cache sizes settings
-description:
+description: "Tune the revision, branch, and tag cache sizes Git Integration for Jira keeps in memory and estimate a good value for your instance."
+product: Git Integration for Jira Data Center
+feature: General Settings
+content_type: reference
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [n/a]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [cache sizes, revision cache, branch cache, tags cache, memory, advanced settings]
 taxonomy:
     category: git-integration-for-jira-data-center
 

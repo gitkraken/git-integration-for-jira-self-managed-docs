@@ -1,7 +1,20 @@
 ---
 
 title: Using the Add new integration wizard
-description:
+description: Learn what the Add new integration panel does for connecting git hosts with multiple repositories and where to find it.
+product: Git Integration for Jira Data Center
+feature: Integrations
+content_type: overview
+audience: admin
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [Jira Administrator]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [add new integration, auto-connect, multiple repositories, integration guides]
 taxonomy:
     category: git-integration-for-jira-data-center
 

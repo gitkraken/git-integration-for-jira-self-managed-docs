@@ -1,7 +1,20 @@
 ---
 
 title: Smart commits - Viewing workflows
-description:
+description: "Find the transition names to use in smart commits by viewing an issue's workflow, and learn how names are shortened and kept unique."
+product: Git Integration for Jira Data Center
+feature: Smart Commits
+content_type: how-to
+audience: developer
+plan_required: [all]
+deployment: Jira Data Center
+git_hosts: [generic]
+role_required: [all]
+version_required: all
+status: GA
+last_verified: 2023-06
+llms_include: true
+tags: [workflows, transitions, transition names, view workflow, smart commits]
 taxonomy:
     category: git-integration-for-jira-data-center
 
