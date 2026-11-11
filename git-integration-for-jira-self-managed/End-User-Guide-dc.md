@@ -72,8 +72,6 @@ GIJ uses the Jira issue key to determine whether or not a repository activity(co
 ## Creating Branches
 You can [create branches](https://help.gitkraken.com/git-integration-for-jira-cloud/create-branch-gij-cloud/) directly from a Jira issue using GIJ. To do this, first open the ‘Git Integration’ panel from the right hand side of the Jira issue, then click the ‘Create branch’ option.
 
-![Create Branch 1](/wp-content/uploads/Enduserguide-Cloud-Create-Branch-1dc.png)
-
 Select the desired Repository to create the branch in, the source branch, and the branch name. Make sure that the Jira Issue key is included in the branch name.
 
 ![Create Branch 2](/wp-content/uploads/Enduserguide-Cloud-Create-Branch-2-dc.png)
