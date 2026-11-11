@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "brand-windows"
     card_color: "green"
     card_description: "Connect a Git repository hosted on a Windows server or network share to Jira Data Center and set its fetch options"
+    git_hosts: ["windows-network-share"]
 ---
 
 <!-- integration guide -->

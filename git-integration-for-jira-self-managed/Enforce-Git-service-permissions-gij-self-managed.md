@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "lock"
     card_color: "amber"
     card_description: "Require Jira users to supply a Git service personal access token so they only see Git data their GitHub, GitLab or Azure account can access"
+    git_hosts: ["github", "github-enterprise", "gitlab", "gitlab-self-managed", "azure-devops", "azure-devops-server"]
 ---
 
 <!-- General settings -->

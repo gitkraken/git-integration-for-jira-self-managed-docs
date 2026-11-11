@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "brand-gitlab"
     card_color: "green"
     card_description: "Add a GitLab project webhook for push and merge request events, or use GitLab system hooks on self-managed GitLab, to trigger reindexing"
+    git_hosts: ["gitlab", "gitlab-self-managed"]
 ---
 
 <div class="bbb-callout bbb--info">

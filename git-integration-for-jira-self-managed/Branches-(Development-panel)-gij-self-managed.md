@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "git-pull-request"
     card_color: "blue"
     card_description: "See branches linked to a Jira issue in the development panel, create or delete branches, set up a user PAT and read ahead and behind commit counts"
+    git_hosts: ["generic", "github", "gitlab"]
 ---
 
 The **Branches** section lists the branches names, linking the selected branch to view via the Repository Browser.

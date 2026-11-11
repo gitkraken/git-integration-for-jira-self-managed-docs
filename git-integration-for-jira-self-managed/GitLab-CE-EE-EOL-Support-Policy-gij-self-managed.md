@@ -24,6 +24,7 @@ custom_fields:
     nav_order: 20
     nav_parent: "git-services-support-page"
     page_type: "content"
+    git_hosts: ["gitlab-self-managed"]
 ---
 
 GitLab’s current policy is to support one stable release at any given time, but for medium-level security issues, GitLab may backport security fixes to the previous two monthly releases. For critical security issues, there is precedent to backport security fixes to even more monthly releases of GitLab. This decision is made on a case-by-case basis.

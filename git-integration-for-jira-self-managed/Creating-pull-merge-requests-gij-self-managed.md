@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "git-pull-request"
     card_color: "purple"
     card_description: "Create a pull or merge request directly from a Jira issue and associate PRs created on the Git host with Jira issues by issue key"
+    git_hosts: ["github", "gitlab", "aws-codecommit", "azure-devops", "azure-devops-server"]
 ---
 
 > **Warning:** <b>Jira administrator notes</b><br>

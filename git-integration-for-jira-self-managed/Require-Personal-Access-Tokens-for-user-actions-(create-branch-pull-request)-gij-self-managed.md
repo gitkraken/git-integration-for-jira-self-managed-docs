@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "lock-access"
     card_color: "amber"
     card_description: "Require Jira users to provide their own personal access tokens for creating branches and pull requests, keeping user attribution"
+    git_hosts: ["github", "github-enterprise", "gitlab", "gitlab-self-managed", "azure-devops", "azure-devops-server", "aws-codecommit"]
 ---
 
 <!-- how to -->

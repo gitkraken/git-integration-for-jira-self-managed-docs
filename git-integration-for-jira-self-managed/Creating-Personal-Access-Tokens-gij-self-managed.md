@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "lock-access"
     card_color: "amber"
     card_description: "Create personal access tokens for GitHub, GitLab, Azure DevOps, TFS and AWS CodeCommit, and update a token on an existing integration or repository"
+    git_hosts: ["github", "github-enterprise", "gitlab", "gitlab-self-managed", "azure-devops", "azure-devops-server", "aws-codecommit"]
 ---
 
 This page contains steps for creating personal access tokens (PATs) for specific git hosts. Use the table of contents to navigate to the selected git host.

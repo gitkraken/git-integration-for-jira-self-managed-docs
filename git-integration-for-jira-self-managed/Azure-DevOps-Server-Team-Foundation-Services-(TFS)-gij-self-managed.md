@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "brand-azure"
     card_color: "green"
     card_description: "Connect Azure DevOps Server or TFS repositories to Jira Data Center using personal access tokens, then link commits and create branches and pull requests"
+    git_hosts: ["azure-devops-server"]
 ---
 
 > **Tip:** Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs-gij-cloud'>See the corresponding article</a>.

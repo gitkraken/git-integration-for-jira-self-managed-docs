@@ -27,6 +27,7 @@ custom_fields:
     home_group: "links"
     home_order: 20
     card_description: "All about setting up and using Git Integration for Jira with your preffered git provider"
+    git_hosts: ["github", "github-enterprise", "gitlab", "gitlab-self-managed", "azure-devops", "azure-devops-server", "aws-codecommit", "gerrit", "bitbucket-data-center", "bonobo", "windows-network-share"]
 ---
 
 Welcome to the Git Integration for Jira app reference page index for topics about integration of git repositories to Jira Data Center.

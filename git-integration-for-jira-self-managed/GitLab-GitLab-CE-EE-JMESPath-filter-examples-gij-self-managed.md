@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "brand-gitlab"
     card_color: "amber"
     card_description: "Use example JMESPath expressions to filter GitLab.com and GitLab CE/EE projects by name, topic tags or empty repositories"
+    git_hosts: ["gitlab", "gitlab-self-managed"]
 ---
 
 ![](/wp-content/uploads/gitlab-mobile-custom1.png)

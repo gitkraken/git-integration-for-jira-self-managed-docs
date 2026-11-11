@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "lock-access"
     card_color: "blue"
     card_description: "Use GitLab personal access tokens instead of passwords to connect GitLab.com or GitLab Server v10 and newer to Git Integration for Jira"
+    git_hosts: ["gitlab", "gitlab-self-managed"]
 ---
 
 GitLab v10+ stopped accepting username/password credentials for API access and will only recognize Personal Access Tokens (PAT) and OAuth authentications. Service users are strongly advised to switch from using username/password for GitLab.com and newer versions of GitLab Server (CE/EE) to using Personal Access Tokens.

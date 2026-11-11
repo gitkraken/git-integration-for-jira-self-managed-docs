@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "brand-github"
     card_color: "green"
     card_description: "Connect GitHub Enterprise Server repositories to Jira Data Center with a personal access token, set permissions, and create branches and pull requests"
+    git_hosts: ["github-enterprise"]
 ---
 
 > **Tip:** These instructions apply to self-hosted GitHub Enterprise Server.

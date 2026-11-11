@@ -28,6 +28,7 @@ custom_fields:
     card_icon: "brand-github"
     card_color: "green"
     card_description: "Connect a GitHub organization to Jira Data Center through a GitHub App, with permissions, limitations, alternative URL setup and troubleshooting"
+    git_hosts: ["github", "github-enterprise"]
 ---
 
 GitHub offers a variety of integration options, including: API, OAuth, and more recently GitHub Apps. There are a number of benefits to using GitHub app over OAuth:

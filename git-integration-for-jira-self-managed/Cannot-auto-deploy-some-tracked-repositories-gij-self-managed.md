@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "plug-connected"
     card_color: "red"
     card_description: "Fix tracked repositories that fail to auto-deploy with Specified origin is incorrect or not supported by giving the service user enough GitLab or GitHub access"
+    git_hosts: ["gitlab-self-managed", "github-enterprise"]
 ---
 
 ### Problem

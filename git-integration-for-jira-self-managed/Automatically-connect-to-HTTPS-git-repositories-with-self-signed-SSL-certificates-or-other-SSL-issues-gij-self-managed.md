@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "shield-lock"
     card_color: "blue"
     card_description: "Connect a self-hosted git server with a self-signed or expired SSL certificate through the Add new integration panel by ignoring certificate errors"
+    git_hosts: ["gitlab-self-managed"]
 ---
 
 Perform auto-connect integration with HTTPS git repositories that have self-signed SSL certificates or other SSL issues. For this guide, we will use GitLab as an example:

@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "filter"
     card_color: "amber"
     card_description: "Use example JMESPath expressions to include or exclude Gerrit repositories by name when adding a Gerrit integration"
+    git_hosts: ["gerrit"]
 ---
 
 ![](/wp-content/uploads/gerrit-banner-logo.png)

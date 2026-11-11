@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "shield-lock"
     card_color: "red"
     card_description: "Fix TFS Not authorized errors when Jira runs behind a proxy by configuring JVM proxy settings and adding the Git server to nonProxyHosts"
+    git_hosts: ["azure-devops-server"]
 ---
 
 ### Problem

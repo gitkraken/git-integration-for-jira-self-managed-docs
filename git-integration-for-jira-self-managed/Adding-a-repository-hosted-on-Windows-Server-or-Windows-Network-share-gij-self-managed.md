@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "brand-windows"
     card_color: "blue"
     card_description: "Connect a git repository hosted on a Windows server or network share through the Connect wizard Advanced setup"
+    git_hosts: ["windows-network-share"]
 ---
 
 <!-- setting up repo -->

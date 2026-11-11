@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "brand-github"
     card_color: "green"
     card_description: "Add a GitHub repository webhook for push and pull request events so Git Integration for Jira indexes new commits and pull requests right away"
+    git_hosts: ["github"]
 ---
 
 > **Info:** Pull request webhooks are now supported. See <a href='#pull-request-webhooks'>details</a> on this page.

@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "brand-gitlab"
     card_color: "green"
     card_description: "Connect GitLab.com repositories to Jira Data Center with a personal or group access token, set permissions, and create branches and merge requests"
+    git_hosts: ["gitlab"]
 ---
 
 > **Info:** Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/gitlab-com-gij-cloud'>See the corresponding article</a>.

@@ -24,6 +24,7 @@ custom_fields:
     nav_order: 10
     nav_parent: "git-services-support-page"
     page_type: "content"
+    git_hosts: ["github-enterprise"]
 ---
 
 The End-of-life (EOL) for a major release of GitHub Enterprise server is generally one year following its release date.

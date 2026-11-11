@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "key"
     card_color: "blue"
     card_description: "Find guides for generating and configuring SSH keys on Beanstalk, Bitbucket, Gerrit, GitBlit, GitHub, GitLab, Gitolite and Azure DevOps"
+    git_hosts: ["beanstalk", "bitbucket", "gerrit", "gitblit", "github", "gitlab", "gitlab-self-managed", "gitolite", "azure-devops", "azure-devops-server"]
 ---
 
 Configure and generate SSH keys for the following git hosting systems by following the reference links on each sub-section:

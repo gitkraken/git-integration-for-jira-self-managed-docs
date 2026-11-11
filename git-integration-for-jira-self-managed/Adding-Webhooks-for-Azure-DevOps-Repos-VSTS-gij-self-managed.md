@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "brand-azure"
     card_color: "green"
     card_description: "Create Azure DevOps or VSTS service hooks for code pushed and pull request events so Jira reindexes your repositories right away"
+    git_hosts: ["azure-devops"]
 ---
 
 > **Info:** Pull request webhooks are now supported. See <a href='#pull-request-webhooks'>details</a> on this page.

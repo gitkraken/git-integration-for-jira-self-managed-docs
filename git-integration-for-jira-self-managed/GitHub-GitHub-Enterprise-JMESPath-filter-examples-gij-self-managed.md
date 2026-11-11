@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "brand-github"
     card_color: "amber"
     card_description: "Use example JMESPath expressions to include or exclude GitHub.com and GitHub Enterprise repositories by name when adding an integration"
+    git_hosts: ["github", "github-enterprise"]
 ---
 
 ![](/wp-content/uploads/gij-github-mobile-logo-dark.png)
