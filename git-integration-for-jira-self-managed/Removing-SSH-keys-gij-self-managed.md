@@ -34,16 +34,7 @@ To delete the SSH key from the app configuration, click Actions ➜ **Delete**.
 
 &nbsp;
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If the key is deleted, all repository references will also be removed. Repositories that don't have the key associated to them will use the common keys by default.
-    </div>
-    </div>
-</div>
+> **Note:** If the key is deleted, all repository references will also be removed. Repositories that don't have the key associated to them will use the common keys by default.
 
 &nbsp;
 * * *

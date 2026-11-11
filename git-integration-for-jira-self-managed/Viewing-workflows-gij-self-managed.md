@@ -26,16 +26,7 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Accessing the View workflow feature on the Issue page requires a user or user group to have the <b>View Read-Only Workflow</b> project permissions.
-    </div>
-    </div>
-</div>
+> **Warning:** Accessing the View workflow feature on the Issue page requires a user or user group to have the <b>View Read-Only Workflow</b> project permissions.
 
 
 ![](/wp-content/uploads/gij-gitserver-issue-page-view-workflow-sel.png)
@@ -99,16 +90,7 @@ Both of these transitions are smart commit-friendly and the possible transitions
 
 The "..." indicates the truncation with the least character length to have the transition names be recognized as unique by Smart Commits. Any length shorter than this will fail the transition as explained in [**Example 2**](#example-2) above.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If a smart commit fails, an email notification is sent to either the Jira user, or to the Git user if a Jira user can't be identified.
-    </div>
-    </div>
-</div>
+> **Info:** If a smart commit fails, an email notification is sent to either the Jira user, or to the Git user if a Jira user can't be identified.
 
 &nbsp;
 * * *

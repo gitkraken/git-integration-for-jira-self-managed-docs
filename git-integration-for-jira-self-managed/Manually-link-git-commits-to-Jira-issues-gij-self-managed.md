@@ -36,16 +36,7 @@ custom_fields:
 
 &nbsp;
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The process steps in this section applies to Jira Server/Data Center/Cloud with installed Git Integration for Jira app.
-    </div>
-    </div>
-</div>
+> **Warning:** The process steps in this section applies to Jira Server/Data Center/Cloud with installed Git Integration for Jira app.
 
 To manually link a git commit to a Jira issue, access the **Change commit issues** feature from the following locations:
 
@@ -88,16 +79,7 @@ Using the above example:
 
 Click **Save** to save the changes.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Saving the changes triggers a repository reindexing to show new associations.
-    </div>
-    </div>
-</div>
+> **Info:** Saving the changes triggers a repository reindexing to show new associations.
 
 &nbsp;
 * * *

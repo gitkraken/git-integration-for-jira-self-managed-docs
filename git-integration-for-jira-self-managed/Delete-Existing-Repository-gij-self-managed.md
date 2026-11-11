@@ -30,16 +30,7 @@ custom_fields:
 
 Deletes the existing repository from the Git Integration for Jira app repository configuration.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Only Jira admins can perform the Delete Repository API call.
-    </div>
-    </div>
-</div>
+> **Warning:** Only Jira admins can perform the Delete Repository API call.
 
 &nbsp;
 

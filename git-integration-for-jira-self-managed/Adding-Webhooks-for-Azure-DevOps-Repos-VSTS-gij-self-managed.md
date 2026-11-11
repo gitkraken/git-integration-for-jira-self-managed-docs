@@ -26,23 +26,14 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Pull request webhooks are now supported. See <a href='#pull-request-webhooks'>details</a> on this page.
-        <div class='nextpara'>Supported webhook events:</div>
-        <ul style='margin-bottom:0px;'>
-            <li>Code pushed</li>
-            <li>Pull request created</li>
-            <li>Pull request updated</li>
-            <li>Pull request merge attempted</li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Info:** Pull request webhooks are now supported. See <a href='#pull-request-webhooks'>details</a> on this page.
+> <div class='nextpara'>Supported webhook events:</div>
+> <ul style='margin-bottom:0px;'>
+> <li>Code pushed</li>
+> <li>Pull request created</li>
+> <li>Pull request updated</li>
+> <li>Pull request merge attempted</li>
+> </ul>
 
 <div class='embed-container embed-container--16-10'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/61wl72vp91?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -54,16 +45,7 @@ custom_fields:
 
 &nbsp;
 
-<div class="bbb-callout bbb--error">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see <a href='/git-integration-for-jira-data-center/integration-webhooks-gij-self-managed'><b>Webhooks - Getting Started</b></a>.
-    </div>
-    </div>
-</div>
+> **Danger:** Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see <a href='/git-integration-for-jira-data-center/integration-webhooks-gij-self-managed'><b>Webhooks - Getting Started</b></a>.
 
 Configure webhook by logging in to your Azure DevOps/VSTS account:
 

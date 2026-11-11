@@ -50,16 +50,7 @@ Click **More ▾** to open more options such as:
 
 *   go to the administration section for this user.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The <a href='/git-integration-for-jira-data-center/git-user-identity-gij-self-managed'>Git user identity</a> should be configured for the specific user. Otherwise, the user card information will not be displayed for that user.
-    </div>
-    </div>
-</div>
+> **Note:** The <a href='/git-integration-for-jira-data-center/git-user-identity-gij-self-managed'>Git user identity</a> should be configured for the specific user. Otherwise, the user card information will not be displayed for that user.
 
 &nbsp;
 * * *

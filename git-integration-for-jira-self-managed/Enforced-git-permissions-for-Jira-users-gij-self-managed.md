@@ -28,43 +28,16 @@ custom_fields:
 
 <!-- features -->
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Available in Git Integration for Jira Data Center/Server <b>v4.1.4+</b>.
-    </div>
-    </div>
-</div>
+> **Tip:** Available in Git Integration for Jira Data Center/Server <b>v4.1.4+</b>.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This page is intended for Jira users with limited access. If you are a Jira administrator, please <a href='/git-integration-for-jira-data-center/enforce-git-service-permissions-gij-self-managed'>go to this page</a> instead.
-    </div>
-    </div>
-</div>
+> **Info:** This page is intended for Jira users with limited access. If you are a Jira administrator, please <a href='/git-integration-for-jira-data-center/enforce-git-service-permissions-gij-self-managed'>go to this page</a> instead.
 
 Source code is sensitive data and development teams take a great deal of effort to get the permissions right. When the **Enforce Git service permissions** setting is enabled by your administrator, the Git service permissions will be honored when presenting any Git data to Jira users.
 
 This state is called secure mode – where a Jira user is limited from viewing git data, unless they have been authenticated to the Git server to view this specific data.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Requirements</b><br>
-        When "Enforce Git service permissions" is enabled, Jira users with the <i><b>View development tools</b></i> Jira permission will be prompted to provide a <b>Personal Access Token</b> in the Jira user profile page.
-    </div>
-    </div>
-</div>
+> **Warning:** <b>Requirements</b><br>
+> When "Enforce Git service permissions" is enabled, Jira users with the <i><b>View development tools</b></i> Jira permission will be prompted to provide a <b>Personal Access Token</b> in the Jira user profile page.
 
 &nbsp;
 

@@ -74,16 +74,8 @@ Usually the best way to do this is to create an integration per org/group, as lo
 Rate limiting can become an issue for large instances when there are a large number of repositories included, or some of the repositories have long and complex Git histories with a lot of Branches and or Pull/Merge requests. If this is a concern for your instance, then the best way to address it will vary based on a few factors, but the general suggestion is to generate multiple service accounts on your Git service, and spread out the authentication for your various integrations across the different accounts. Since the API calls will then be spread out across more accounts, and over a longer period of time, this should help avoid hitting your Git services rate limits.
 
 **Features**
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        
-There are certain features in GIJ Data Center that we recommend you disable if you are not going to actively use them, as they can help improve performance and stability. Discuss if your team is interested in using JQL Searching, Git Tags, Smart commits, and commit notification emails. Please see <a href='/git-integration-for-jira-data-center/general-settings-improving-jira-performance-gij-self-managed/'>Improving Jira Performance</a> for further information on improving jira performance.    </div>
-    </div>
-</div>
+
+> **Info:** There are certain features in GIJ Data Center that we recommend you disable if you are not going to actively use them, as they can help improve performance and stability. Discuss if your team is interested in using JQL Searching, Git Tags, Smart commits, and commit notification emails. Please see <a href='/git-integration-for-jira-data-center/general-settings-improving-jira-performance-gij-self-managed/'>Improving Jira Performance</a> for further information on improving jira performance.
 
 ___
 

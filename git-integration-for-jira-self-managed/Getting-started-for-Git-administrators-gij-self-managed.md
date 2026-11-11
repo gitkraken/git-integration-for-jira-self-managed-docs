@@ -117,16 +117,7 @@ For information on troubleshooting known errors and issues, see [Git Integratio
 
 &nbsp;
 
-<div class="bbb-callout bbb--tip">
-  <div class="irow">
-    <div class="ilogobox">
-      <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-      Need to know more features? Read next: <a href='/git-integration-for-jira-data-center/tips-for-jira-admins-gij-self-managed'>Helpful Tips for Jira Administrators</a>.
-    </div>
-  </div>
-</div>
+> **Tip:** Need to know more features? Read next: <a href='/git-integration-for-jira-data-center/tips-for-jira-admins-gij-self-managed'>Helpful Tips for Jira Administrators</a>.
 
 &nbsp;
 <hr>

@@ -28,25 +28,17 @@ custom_fields:
 
 Use this method to track messages for a particular thread.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <ol style='margin-bottom:-20px;'>
-            <li>Jira <b>administrators</b></li>
-            <li>Jira user who has <b>all</b> of the following:
-                <ol type='a'>
-                    <li><b>View/browse permissions</b> to the project;</li>
-                    <li><b>View Development Tools permissions</b> to the same project; and</li>
-                    <li>The repository is <b>associated</b> to the project.</li>
-                </ol>
-            </li>
-        </ol>
-    </div>
-    </div>
-</div>
+> **Warning:**
+> <ol style='margin-bottom:-20px;'>
+> <li>Jira <b>administrators</b></li>
+> <li>Jira user who has <b>all</b> of the following:
+> <ol type='a'>
+> <li><b>View/browse permissions</b> to the project;</li>
+> <li><b>View Development Tools permissions</b> to the same project; and</li>
+> <li>The repository is <b>associated</b> to the project.</li>
+> </ol>
+> </li>
+> </ol>
 
 &nbsp;
 

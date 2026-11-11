@@ -26,16 +26,7 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Using <B>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/bitbucket-cloud-gij-cloud'>See the corresponding article</a>.
-    </div>
-    </div>
-</div>
+> **Info:** Using <B>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/bitbucket-cloud-gij-cloud'>See the corresponding article</a>.
 
 &nbsp;
 

@@ -27,16 +27,7 @@ custom_fields:
 ---
 Navigate to the .tsv file and edit it with your favorite spreadsheet program.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <a href='http://drive.google.com/'><b>Google Drive</b></a> is also a recommended place to edit the .tsv file.
-    </div>
-    </div>
-</div>
+> **Info:** <a href='http://drive.google.com/'><b>Google Drive</b></a> is also a recommended place to edit the .tsv file.
 
 &nbsp;
 
@@ -50,17 +41,8 @@ Assign an ID number to a repository.
 
 This field is required if you wish to update or edit existing repositories by setting this value to their equivalent IDs. Otherwise, if this field is left blank, the repository will be created as new.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Important!</b><br>
-        When importing to a new server, the <b><i>id</i></b> field must be blank.
-    </div>
-    </div>
-</div>
+> **Warning:** <b>Important!</b><br>
+> When importing to a new server, the <b><i>id</i></b> field must be blank.
 
 ### realRoot
 
@@ -78,16 +60,7 @@ This field corresponds to the _**Cloned root location**_ input field in the Adva
 
 If this field is set to `true`, the repository is automatically managed by Git Integration for Jira app (stored in `$JiraHOME`). If set to `false`, the repository is manually configured by the Jira administrator.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If this field is specified, <code>realRoot</code> must also be defined.
-    </div>
-    </div>
-</div>
+> **Note:** If this field is specified, <code>realRoot</code> must also be defined.
 
 ### origin
 
@@ -103,16 +76,7 @@ Before adding repositories (new or existing) via Bulk change, make sure that you
 
 For HTTPS git repositories, obtain the URL from your git host. If you use HTTP/HTTPS URLs in the origin field, the Git Integration for Jira app will not be able to import said repositories due to missing credentials. Entering repository login credentials in the TSV file is not advisable due to a possible security risk. Therefore, when editing the _**origin**_ field of the TSV file, enter value using the `git@<repository-url>:[your-git-repo].git` format. This format will use the SSH key(s) from the Git Integration for Jira app configuration instead.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The repository origin may not be hosted on the same server as Jira.
-    </div>
-    </div>
-</div>
+> **Note:** The repository origin may not be hosted on the same server as Jira.
 
 ### displayName
 
@@ -142,17 +106,8 @@ _String._ Optional.
 
 Set specific branch as the main branch for this repository. A commit will not be shown in other branches if it is a part of the main branch. By default, `master` will be used if a main branch is not specified.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Default Main Branch</b><br>
-        Most git integrations allow changing of the default branch of the repository/project other than <code>master</code> at the server level. On each reindex, this change is reflected in the Repository Settings. In the case of Gerrit, the default main branch is always <code>master</code>.
-    </div>
-    </div>
-</div>
+> **Info:** <b>Default Main Branch</b><br>
+> Most git integrations allow changing of the default branch of the repository/project other than <code>master</code> at the server level. On each reindex, this change is reflected in the Repository Settings. In the case of Gerrit, the default main branch is always <code>master</code>.
 
 ### username, password
 
@@ -172,16 +127,7 @@ _Boolean._ Optional.
 
 Enables or disables the **Repository Browser** feature for this repository. The default setting for this field is `enabled`.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Users must have the <b>View Development Tools</b> <i>project permission</i> in order to use this feature. Consult your Jira System Administrator on permissions.
-    </div>
-    </div>
-</div>
+> **Warning:** Users must have the <b>View Development Tools</b> <i>project permission</i> in order to use this feature. Consult your Jira System Administrator on permissions.
 
 For more information, see [Repository Browser](/git-integration-for-jira-data-center/repository-browser-gij-self-managed).
 
@@ -245,14 +191,7 @@ This is the URL to display content of added, modified or deleted files. Use the 
     </li>
 </ul>
 
-<div class="bbb-callout bbb--info" style='margin-bottom:0px;'>
-    <div class="irow">
-        <div class="ilogobox"><span class="logoimg"></span></div>
-        <div class="imsgbox">
-            The <code>${branch}</code> code has been changed to cope up with the character requirements on some hosting services.
-        </div>
-    </div>
-</div>
+> **Info:** The <code>${branch}</code> code has been changed to cope up with the character requirements on some hosting services.
 
 ### disabled
 
@@ -294,17 +233,8 @@ _Integer._ **Internal field**.
 
 This field will display the ID of the "parent" repository. It can be changed in order to convert the repository to a sub-repository.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Use with caution</b><br>
-        If the modified sub-repository is not located in the tracked folder, it will be removed by the sequential auto-reindex.
-    </div>
-    </div>
-</div>
+> **Warning:** <b>Use with caution</b><br>
+> If the modified sub-repository is not located in the tracked folder, it will be removed by the sequential auto-reindex.
 
 ### delete
 
@@ -368,16 +298,7 @@ _Boolean_. Optional.
 
 Default is `TRUE`. The **SSL Verify** option is set to enabled by default. If set to `FALSE`, the Git Integration for Jira app will ignore verification of SSL certificates when connecting to a git server.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This setting can also be accessed via menu Git ➜ Manage repositories ➜ <img src='/wp-content/uploads/actions-icon.png' /> <i>Actions</i> ➜ <b>Edit repository/integration settings</b>.
-    </div>
-    </div>
-</div>
+> **Tip:** This setting can also be accessed via menu Git ➜ Manage repositories ➜ <img src='/wp-content/uploads/actions-icon.png' /> <i>Actions</i> ➜ <b>Edit repository/integration settings</b>.
 
 ### trustFolderStat
 
@@ -385,27 +306,9 @@ When this field is set to `false`, the `.git/objects/pack` folder will be alw
 
 The default value for Jira Server is `true`.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The default value for Jira Data Center is <b>false</b>.
-    </div>
-    </div>
-</div>
+> **Info:** The default value for Jira Data Center is <b>false</b>.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If your repository is stored on a network share, it is highly recommended to set this field to <b>false</b>.
-    </div>
-    </div>
-</div>
+> **Tip:** If your repository is stored on a network share, it is highly recommended to set this field to <b>false</b>.
 
 ### weblinkType
 
@@ -441,20 +344,11 @@ _Boolean_. Optional.
 
 This is a reference to `refs/notes/*` used for fetching. The default value for this field is `false`.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Git notes are not shown...
-        <ul>
-            <li>when `refs/notes` are disabled on connecting a repository;</li>
-            <li>when a new note comes when `refs/notes` is disabled.</li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Info:** Git notes are not shown...
+> <ul>
+> <li>when `refs/notes` are disabled on connecting a repository;</li>
+> <li>when a new note comes when `refs/notes` is disabled.</li>
+> </ul>
 
 ### refSpecChanges
 
@@ -479,22 +373,14 @@ Displays all pull requests for the specific issue, if left blank. Otherwise, set
 &nbsp;
 * * *
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Take note that the .tsv file is verified by the Git for Jira app with the following rules:
-        <ul style='margin-bottom:0px !important;'>
-            <li>The header row is required.</li>
-            <li>The order of fields specified in the header row – is the order of the fields in the following rows.</li>
-            <li>If a field is omitted from the header row, the Git Integration app will use the default value for a new repository. The Git Integration app will keep the current value of a repository if it already exists in the configured repositories.</li>
-            <li>If a repository is not listed in the .tsv file, no changes will be made if the same repository exists in the add-on configuration.</li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Note:** Take note that the .tsv file is verified by the Git for Jira app with the following rules:
+> <ul style='margin-bottom:0px !important;'>
+> <li>The header row is required.</li>
+> <li>The order of fields specified in the header row – is the order of the fields in the following rows.</li>
+> <li>If a field is omitted from the header row, the Git Integration app will use the default value for a new repository. The Git Integration app will keep the current value of a repository if it already exists in the configured repositories.</li>
+> <li>If a repository is not listed in the .tsv file, no changes will be made if the same repository exists in the add-on configuration.</li>
+> </ul>
+
 <br>
 
 Save the file to a tab-delimited format:

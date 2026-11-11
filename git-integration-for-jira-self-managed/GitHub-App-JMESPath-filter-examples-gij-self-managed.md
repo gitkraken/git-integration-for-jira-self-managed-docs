@@ -30,27 +30,9 @@ custom_fields:
 
 &nbsp;
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.8+</b> We have implemented JMESPath filters supporting GitHub Application integrations.
-    </div>
-    </div>
-</div>
+> **Tip:** <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.8+</b> We have implemented JMESPath filters supporting GitHub Application integrations.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Do note that the declared string format is case-sensitive.
-    </div>
-    </div>
-</div>
+> **Info:** Do note that the declared string format is case-sensitive.
 
 &nbsp;
 
@@ -70,16 +52,7 @@ GitHub applications have two type of scopes:
 
 So if the user selects the **All repositories** scope, it would be more convenient to select repositories using JMESPath. This is in order for the new repositories appearing in the organization to be filtered by JMESPath automatically.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        JMESPath expressions can have the same format as GitHub integrations connected using a PAT.
-    </div>
-    </div>
-</div>
+> **Note:** JMESPath expressions can have the same format as GitHub integrations connected using a PAT.
 
 &nbsp;
 
@@ -115,16 +88,7 @@ Lists repositories with the names that do not contain the specified word.
 
 &nbsp;
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The <code>!condition</code> must be wrapped in a parenthesis so it won’t invert the whole expression.
-    </div>
-    </div>
-</div>
+> **Note:** The <code>!condition</code> must be wrapped in a parenthesis so it won’t invert the whole expression.
 
 &nbsp;
 

@@ -87,27 +87,9 @@ Click the view <img src='/wp-content/uploads/eye-icon.png' style='margin:0 3px'
 
 &nbsp;
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The displayed repositories can be sorted by clicking the corresponding list header. The Git Integration for Jira app will remember the sorting choice per user.
-    </div>
-    </div>
-</div>
+> **Info:** The displayed repositories can be sorted by clicking the corresponding list header. The Git Integration for Jira app will remember the sorting choice per user.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The Repository Browser will not display the repository if it is disabled in the Git Repositories configuration. The commits and code diffs in the <b>Issue</b> ➜ <b>Git Commits</b>, <b>Git Roll Up</b> and <b>Project</b> tabs will also be unavailable due to this.
-    </div>
-    </div>
-</div>
+> **Note:** The Repository Browser will not display the repository if it is disabled in the Git Repositories configuration. The commits and code diffs in the <b>Issue</b> ➜ <b>Git Commits</b>, <b>Git Roll Up</b> and <b>Project</b> tabs will also be unavailable due to this.
 
 &nbsp;
 * * *

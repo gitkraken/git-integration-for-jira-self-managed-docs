@@ -28,16 +28,7 @@ custom_fields:
 
 Updates the existing nested repository using the REST API.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Only Jira admins can perform the Update Nested Repository API call.
-    </div>
-    </div>
-</div>
+> **Warning:** Only Jira admins can perform the Update Nested Repository API call.
 
 ### url
 `{JiraBaseURL}/rest/gitplugin/1.0/repository`
@@ -49,16 +40,7 @@ PUT
 
 The Request body is a _JSON_ structure similar to the [Update Existing Repository API](/git-integration-for-jira-data-center/update-existing-repository-gij-self-managed) plus the _**id**_ parameter:
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        In the table below, fields marked with a <b>Read-only</b> flag cannot be changed. Any defined value is ignored.
-    </div>
-    </div>
-</div>
+> **Note:** In the table below, fields marked with a <b>Read-only</b> flag cannot be changed. Any defined value is ignored.
 
 | Field | Description |
 | :--- | :--- |

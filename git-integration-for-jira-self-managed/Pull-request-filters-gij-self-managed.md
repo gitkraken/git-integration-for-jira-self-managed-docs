@@ -40,20 +40,11 @@ The PR filter is available on the following locations:
 
     ![Pull request filter location 2](/wp-content/uploads/gij-gitserver-pr-hide-filter-location-02.png)
 
-<div class="bbb-callout bbb--error">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The PR filter is not available on the following locations:
-        <ul style='margin-bottom:0px'>
-            <li>Update Repository page for plain repository – <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ Edit repository settings.</li>
-            <li>Update Repository page for repositories belonging to a tracked folder – <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ Edit repository settings.</li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Danger:** The PR filter is not available on the following locations:
+> <ul style='margin-bottom:0px'>
+> <li>Update Repository page for plain repository – <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ Edit repository settings.</li>
+> <li>Update Repository page for repositories belonging to a tracked folder – <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ Edit repository settings.</li>
+> </ul>
 
 &nbsp;
 

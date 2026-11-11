@@ -26,16 +26,7 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        To manually update the <b>Git Integration for Jira app</b>, the user must have the <b>Jira System Administrators</b> <I>global permission</i>. If the user does not have this permission, the upload app and other system administration functions will not be available.
-    </div>
-    </div>
-</div>
+> **Warning:** To manually update the <b>Git Integration for Jira app</b>, the user must have the <b>Jira System Administrators</b> <I>global permission</i>. If the user does not have this permission, the upload app and other system administration functions will not be available.
 
 Download the [**Git app installer package from Atlassian Marketplace**](https://marketplace.atlassian.com/plugins/com.xiplink.jira.git.jira_git_plugin/versions):
 

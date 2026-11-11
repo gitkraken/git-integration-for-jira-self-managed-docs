@@ -42,16 +42,7 @@ The Team Insights for Jira DC extension version 1.3.4 officially supports Jira D
 
 Team Insights for Jira DC is scheduled to be released for Jira 10 instances soon.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If you have <a href='https://marketplace.atlassian.com/apps/4984/git-integration-for-jira-azure-devops-github-gitlab?tab=overview&hosting=datacenter'>Git Integration for Jira Data Center app</a> installed, it can enhance your planning workflow and provide more information by integrating Git data into your views.
-    </div>
-    </div>
-</div>
+> **Tip:** If you have <a href='https://marketplace.atlassian.com/apps/4984/git-integration-for-jira-azure-devops-github-gitlab?tab=overview&hosting=datacenter'>Git Integration for Jira Data Center app</a> installed, it can enhance your planning workflow and provide more information by integrating Git data into your views.
 
 &nbsp;
 
@@ -122,31 +113,13 @@ Once you have successfully installed the application, you will be able to access
 
 Team Insights for Jira DC provides you with the ability to view Git activity across all of your projects and issues. These features offer useful insights into your team's collaboration and development processes. And best of all, it's completely free!
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        By analyzing the Git activity, you can identify trends, track progress, and make data-driven decisions to improve productivity and efficiency.
-    </div>
-    </div>
-</div>
+> **Info:** By analyzing the Git activity, you can identify trends, track progress, and make data-driven decisions to improve productivity and efficiency.
 
 #### Customize Your View Across Projects, Epics, and Issues
 
 Team Insights for Jira DC aims to improve your workflows and provide you with the data you need to put you on the right direction. View the timeline by Epics, Issues and Sub-tasks and filter by project, sprint, team members, issue status, and more. Manage tasks by sorting them based on criteria. For example, you can sort tasks by the number of days since the last status update or by the number of commits made.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        By utilizing these sorting options, you can monitor and prioritize your team’s workflow and stay organized.
-    </div>
-    </div>
-</div>
+> **Info:** By utilizing these sorting options, you can monitor and prioritize your team’s workflow and stay organized.
 
 #### Manage Jira Workflows Efficiently
 
@@ -167,16 +140,7 @@ Team Insights for Jira provides a comprehensive view of your team's Jira and Git
 
 TIJ displays Jira activity for all Jira users. Git data such as branches, commits, pull requests, and tags are automatically included in the views if you have the [Git Integration for Jira DC app](https://www.gitkraken.com/git-integration-for-jira) installed.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This combination is ideal for team workflows and git integration without requiring any additional setup or configuration.
-    </div>
-    </div>
-</div>
+> **Info:** This combination is ideal for team workflows and git integration without requiring any additional setup or configuration.
 
 &nbsp;
 

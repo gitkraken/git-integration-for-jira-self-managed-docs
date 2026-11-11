@@ -28,16 +28,7 @@ custom_fields:
 
 Creates new repository from the given settings.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Only Jira admins can perform the Add New Repository API call.
-    </div>
-    </div>
-</div>
+> **Warning:** Only Jira admins can perform the Add New Repository API call.
 
 &nbsp;
 

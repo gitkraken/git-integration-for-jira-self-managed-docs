@@ -26,16 +26,7 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The General Settings page is only accessible to Jira Administrators.
-    </div>
-    </div>
-</div>
+> **Warning:** The General Settings page is only accessible to Jira Administrators.
 
 The Git Integration for Jira app introduces the General Settings page which contains configuration options for performance and features.
 
@@ -57,16 +48,7 @@ The **General settings** configuration page can be accessed thru the following
 
 <br>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If you're using Jira Cloud, <a href='/git-integration-for-jira-cloud/general-settings-gij-cloud'><b>view this page instead</b></a>.
-    </div>
-    </div>
-</div>
+> **Info:** If you're using Jira Cloud, <a href='/git-integration-for-jira-cloud/general-settings-gij-cloud'><b>view this page instead</b></a>.
 
 &nbsp;
 
@@ -104,16 +86,7 @@ The **General settings** configuration page can be accessed thru the following
 
 After making changes to the configuration settings, click **Save** to apply the changes.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Every git installation has global config file and .git/config file in every git repository. All settings at the global level can be overridden at the repository level. Therefore, different email addresses can be set for every git repository.
-    </div>
-    </div>
-</div>
+> **Tip:** Every git installation has global config file and .git/config file in every git repository. All settings at the global level can be overridden at the repository level. Therefore, different email addresses can be set for every git repository.
 
 
 For more details on git configuration, see [**Customizing Git: Git Configuration**](https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration).

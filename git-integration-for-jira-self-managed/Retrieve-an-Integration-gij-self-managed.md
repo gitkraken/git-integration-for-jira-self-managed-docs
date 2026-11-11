@@ -28,16 +28,7 @@ custom_fields:
 
 Retrieves the parameter details of an integration from the git repository configuration.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Only Jira admins can perform the Retrieve an Integration API call.
-    </div>
-    </div>
-</div>
+> **Warning:** Only Jira admins can perform the Retrieve an Integration API call.
 
 &nbsp;
 

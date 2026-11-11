@@ -210,16 +210,7 @@ Filters the view by clicking on the **Node** dropdown and selecting a category:
 
 To the right of the view filter options, users can use the search bar to query for specific tasks and the indexing list view will be updated accordingly. Note that filtering by name is case-sensitive.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Search text criteria can be combined by repository ID, task ID, parent task ID and name – in one field.
-    </div>
-    </div>
-</div>
+> **Tip:** Search text criteria can be combined by repository ID, task ID, parent task ID and name – in one field.
 
 &nbsp;
 
@@ -257,21 +248,12 @@ The default sort order applies the following rule:
 
 3.  FINISHED – **last**
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Summary of the sorting order</b><br>
-        <ol style='margin-bottom:0px !important'>
-            <li>The first few rows are tasks being currently processed and sorted by <b>Start time</b> in <u>ascending</u> order.</li>
-            <li>Then, the queued tasks which are sorted in the order – they will be processed from the queue.</li>
-            <li>And the last rows – are completed tasks sorted by <b>Finish time</b> in <u>descending</u> order.</li>
-        </ol>
-    </div>
-    </div>
-</div>
+> **Info:** <b>Summary of the sorting order</b><br>
+> <ol style='margin-bottom:0px !important'>
+> <li>The first few rows are tasks being currently processed and sorted by <b>Start time</b> in <u>ascending</u> order.</li>
+> <li>Then, the queued tasks which are sorted in the order – they will be processed from the queue.</li>
+> <li>And the last rows – are completed tasks sorted by <b>Finish time</b> in <u>descending</u> order.</li>
+> </ol>
 
 &nbsp;
 
@@ -287,29 +269,11 @@ For any selected queue task that is still processing or in progress, click on **
 
 ![](/wp-content/uploads/gij-gitserverdc-indexing-queue-cancel-reindex-action.png)
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        At present, canceling tasks related to delete operations in the queue is not supported.
-    </div>
-    </div>
-</div>
+> **Info:** At present, canceling tasks related to delete operations in the queue is not supported.
 
 For a more detailed information about this feature, see [Cancel indexing](/git-integration-for-jira-data-center/Cancel-indexing-revision-indexing-gij-self-managed).
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The Git Integration for Jira app <b>Cancel indexing</b> feature does not work with Jira self-managed instances earlier than version 8.12.
-    </div>
-    </div>
-</div>
+> **Warning:** The Git Integration for Jira app <b>Cancel indexing</b> feature does not work with Jira self-managed instances earlier than version 8.12.
 
 &nbsp;
 
@@ -323,16 +287,7 @@ The 'indexing status' is displayed in the indexing log dialog that appears durin
 
 For encountered errors when indexing, open the logs via Actions ➜ View log. Copy the message log and submit this to us thru [gijsupport@gitkraken.com](mailto:gijsupport@gitkraken.com) or via [Support portal](/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) for analysis. For the above example error, there are several factors that caused this error – the Git service is down, no internet connection, the webhook has changed or the personal access token has expired.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The Git Integration for Jira app <b>View log</b> feature does not work with Jira self-managed instances earlier than version 8.12.
-    </div>
-    </div>
-</div>
+> **Warning:** The Git Integration for Jira app <b>View log</b> feature does not work with Jira self-managed instances earlier than version 8.12.
 
 &nbsp;
 
@@ -354,17 +309,8 @@ The indexing queue does not remove the task from the queue when any of the follo
 
 For removed integrations/repositories, the pending queued tasks related to removal are deleted from the indexing queue list. Note that the Cancel action is not supported on delete operations.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px 5px 0; font-size: small;'>DATA CENTER</b><br>
-        The indexing queue can spread the indexing work across several nodes. Thus, the most volume of the indexing tasks will be performed on a multi-node Jira. We recommend using a 4-node configuration.
-    </div>
-    </div>
-</div>
+> **Info:** <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px 5px 0; font-size: small;'>DATA CENTER</b><br>
+> The indexing queue can spread the indexing work across several nodes. Thus, the most volume of the indexing tasks will be performed on a multi-node Jira. We recommend using a 4-node configuration.
 
 &nbsp;
 

@@ -40,17 +40,9 @@ Session error message that persist can mean that the trial or license to GIJ had
 
 Once you have renewed you Git Integration for Jira app license, this error message
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Contact Us</b><br>
-        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
-    </div>
-    </div>
-</div>
+> **Info:** <b>Contact Us</b><br>
+> If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-cloud/gij-cloud-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
+
 <br>
 
 &nbsp;

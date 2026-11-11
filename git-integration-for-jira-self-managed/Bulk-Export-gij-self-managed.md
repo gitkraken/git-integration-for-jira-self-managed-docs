@@ -38,18 +38,10 @@ Only Jira admins can perform the Bulk Export API call.
 ### method
 GET
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b><i>Download sample file</i></b><br>
-        Right click the link and save it somewhere accessible:<br>
-        <a href='/wp-content/uploads/configuration_get.zip'><b>configuration_get.py</b></a>
-    </div>
-    </div>
-</div>
+> **Tip:** <b><i>Download sample file</i></b><br>
+> Right click the link and save it somewhere accessible:<br>
+> <a href='/wp-content/uploads/configuration_get.zip'><b>configuration_get.py</b></a>
+
 <br>
 
 ### Example:

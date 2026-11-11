@@ -28,43 +28,16 @@ custom_fields:
 
 <!-- GENERAL SETTINGS -->
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        These settings are part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed/'><b>General Settings</b></a> configuration page.
-    </div>
-    </div>
-</div>
+> **Info:** These settings are part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed/'><b>General Settings</b></a> configuration page.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>VERSION 4.0.1+</b><br>
-        This setting group is now moved to the <b>Advanced settings</b> in General settings.
-    </div>
-    </div>
-</div>
+> **Tip:** <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>VERSION 4.0.1+</b><br>
+> This setting group is now moved to the <b>Advanced settings</b> in General settings.
 
 <img src='/wp-content/uploads/gij-gitserver-gencfg-adv-repo-gcc.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 These group of settings control Git repositories garbage collection. Garbage collection process will prune all loose objects, pack loose references and repack all reachable objects into new pack files and remove the old ones.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The higher the change rate of the repository, the more often it would benefit from garbage collection.
-    </div>
-    </div>
-</div>
+> **Tip:** The higher the change rate of the repository, the more often it would benefit from garbage collection.
 
 This is a block of parameters that determine when the garbage collection task is triggered for the clones of your repositories. The garbage collection task is invoked whenever the number of loose objects or packed files exceeds the set limit.
 

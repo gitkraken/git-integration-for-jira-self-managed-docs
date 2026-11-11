@@ -28,16 +28,8 @@ custom_fields:
 
 Starts the process of importing configuration and returns the result at once.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Only Jira admins can perform the Bulk Import API call.
-    </div>
-    </div>
-</div>
+> **Warning:** Only Jira admins can perform the Bulk Import API call.
+
 <br>
 
 ## Bulk Import Configuration
@@ -71,16 +63,8 @@ curl -vv -X POST -H "X-Atlassian-Token: no-check" -b "atlassian.xsrf.token=<toke
 JSON<br>
 Returns the ID of the importing thread.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The Git Integration for Jira app will ignore fields with blank entries.
-    </div>
-    </div>
-</div>
+> **Warning:** The Git Integration for Jira app will ignore fields with blank entries.
+
 <br>
 
 _**Download sample file**_<br>

@@ -56,38 +56,11 @@ Go to the Manage repositories configuration page and navigate to the nested repo
 
 For single connected nested repository integration, click on <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit repository** to modify/update nested repository settings.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For Azure DevOps Server and GitHub Enterprise, by default, only PAT is available for editing. Regardless of whether the integration was previously installed with user/password or not.
-    </div>
-    </div>
-</div>
+> **Info:** For Azure DevOps Server and GitHub Enterprise, by default, only PAT is available for editing. Regardless of whether the integration was previously installed with user/password or not.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        When adding a nested repository to an integration - no SSH key is inherited from the integration because it does not carry the SSH key.
-    </div>
-    </div>
-</div>
+> **Note:** When adding a nested repository to an integration - no SSH key is inherited from the integration because it does not carry the SSH key.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The login credentials are not inherited with nested repositories to interact with external APIs and .git is based on the integration's credentials.
-    </div>
-    </div>
-</div>
+> **Info:** The login credentials are not inherited with nested repositories to interact with external APIs and .git is based on the integration's credentials.
 
 &nbsp;
 

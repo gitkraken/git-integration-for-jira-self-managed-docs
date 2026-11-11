@@ -28,16 +28,7 @@ custom_fields:
 
 Retrieves list of repositories mapped to a given project.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Any Jira user can perform the Retrieve Repository List API call.
-    </div>
-    </div>
-</div>
+> **Info:** Any Jira user can perform the Retrieve Repository List API call.
 
 &nbsp;
 

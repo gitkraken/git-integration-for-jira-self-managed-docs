@@ -73,16 +73,7 @@ There are alternative solutions to make Java trust this certificate. Refer to t
 
 &nbsp;
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For related topics on connecting repositories from other git hosts, see <a href='/git-integration-for-jira-data-center/integration-guides-gij-self-managed'>Integration Guides</a>.
-    </div>
-    </div>
-</div>
+> **Info:** For related topics on connecting repositories from other git hosts, see <a href='/git-integration-for-jira-data-center/integration-guides-gij-self-managed'>Integration Guides</a>.
 
 &nbsp;
 * * *

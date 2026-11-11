@@ -34,16 +34,6 @@ custom_fields:
 Quickly learn how to connect Gerrit git repositories via Git Integration for Jira Data Center.
 For the Jira Cloud version of this document click [Here](/git-integration-for-jira-cloud/gerrit-gij-self-managed)
 
-**What's on this page:**
-- [Integrate Gerrit with Jira Data Center](#integrate-gerrit-with-jira-data-center)
-  - [Using Full feature Integration](#using-full-feature-integration)
-  - [Single Repository (Manually Connect via SSH, HTTP, HTTPS)](#single-repository-manually-connect-via-ssh-http-https)
-  - [Setting Up Gerrit Web Links](#setting-up-gerrit-web-links)
-  - [Viewing Git Commits in Jira Data Center](#viewing-git-commits-in-jira-data-center)
-  - [Default Branch](#default-branch)
-  - [How to enable GetRepositories log response from Gerrit to the Jira log?](#how-to-enable-GetRepositories-log-response-from-Gerrit-to-the-Jira-log)
-  - [More Integration Guides](#more-integration-guides)
-
 <br>
 <hr>
 &nbsp;
@@ -80,17 +70,7 @@ For the Jira Cloud version of this document click [Here](/git-integration-for-ji
 
         *   For more detailed information on formatting, see <a href='https://git-scm.com/docs/git-fetch' taget='_blank'><b>Git Fetch</b></a>.
 
-            <div class="bbb-callout bbb--note">
-            <div class="irow">
-                <div class="ilogobox">
-                <span class="logoimg"></span>
-                </div>
-                <div class="imsgbox">
-                    <b>Note:</b><br>
-                    <i>The new values will be applied to the subsequent fetches only instead of applying it to the objects that have been already fetched</i>.
-                </div>
-            </div>
-            </div>
+            > **Note:** <i>The new values will be applied to the subsequent fetches only instead of applying it to the objects that have been already fetched</i>.
 
 3.  Click **Connect**. The Auto-connect wizard automatically reads git repositories for import into the git configuration.
 
@@ -126,16 +106,7 @@ Login to your Gerrit account. Obtain the repository URL from the Gerrit reposito
 
 5.  Click **Finish** to complete this process.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The refspec options are not available for single repository connections of Gerrit integration.
-    </div>
-    </div>
-</div>
+> **Info:** The refspec options are not available for single repository connections of Gerrit integration.
 
 The repository is now connected to Jira Data Center.
 
@@ -183,16 +154,7 @@ Most git integrations allow changing of the default branch of the repository/pro
 
 For the case with Gerrit, the default main branch is always “master”.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Main branch for repositories within an integration can only be changed on the git server.
-    </div>
-    </div>
-</div>
+> **Warning:** Main branch for repositories within an integration can only be changed on the git server.
 
 ### How to enable GetRepositories log response from Gerrit to the Jira log?
 

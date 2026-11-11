@@ -28,16 +28,7 @@ custom_fields:
 
 Updates the existing repository from the given settings.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Only Jira admins can perform the Update Repository API call.
-    </div>
-    </div>
-</div>
+> **Warning:** Only Jira admins can perform the Update Repository API call.
 
 ### url
 `{JiraBaseURL}/rest/gitplugin/1.0/repository`

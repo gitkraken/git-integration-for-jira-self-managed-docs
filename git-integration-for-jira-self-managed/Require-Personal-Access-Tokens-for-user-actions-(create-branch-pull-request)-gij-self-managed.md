@@ -28,15 +28,6 @@ custom_fields:
 
 <!-- how to -->
 
-**What's on this page:**
-- [Background](#background)
-- [Objective](#objective)
-- [Supported integrations](#supported-integrations)
-- [Instructions](#instructions)
-- [What will Jira users see?](#what-will-jira-users-see)
-- [Optional PAT setup for Create branches and Create pull request dialogs](#optional-pat-setup-for-create-branches-and-create-pull-request-dialogs)
-- [More How-to articles](#more-how-to-articles)
-
 &nbsp;
 * * *
 &nbsp;
@@ -116,27 +107,9 @@ To enable/disable the _**Require User PAT**_ setting for all repositories with
 
 5.  Users can reconfigure the PAT in the Repository browser if it was changed from the git server or expired.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Personal Access Tokens are saved per integration by individual Jira users app. While the examples shown above are for the Create branch action, it is also applicable to the Create pull request action. The same token is used for Create branch and Create pull request functions.
-    </div>
-    </div>
-</div>
+> **Info:** Personal Access Tokens are saved per integration by individual Jira users app. While the examples shown above are for the Create branch action, it is also applicable to the Create pull request action. The same token is used for Create branch and Create pull request functions.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Jira users must have the <b>View Development Tools</b> permission in the context of a Jira project to view content from the Git Integration for Jira app.
-    </div>
-    </div>
-</div>
+> **Warning:** Jira users must have the <b>View Development Tools</b> permission in the context of a Jira project to view content from the Git Integration for Jira app.
 
 &nbsp;
 

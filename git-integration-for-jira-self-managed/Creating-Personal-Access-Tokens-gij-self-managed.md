@@ -28,15 +28,6 @@ custom_fields:
 
 This page contains steps for creating personal access tokens (PATs) for specific git hosts. Use the table of contents to navigate to the selected git host.
 
-**What's on this page:**
-- [GitHub and GitHub Enterprise](#github-and-github-enterprise)
-- [GitLab, GitLab CE and GitLab EE](#gitlab-gitlab-ce-and-gitlab-ee)
-- [Azure DevOps and Visual Studio Team Services (VSTS)](#azure-devops-and-visual-studio-team-services-vsts)
-- [Team Foundation Server (TFS) 2017 and newer](#team-foundation-server-tfs-2017-and-newer)
-- [Azure DevOps Server](#azure-devops-server)
-- [AWS CodeCommit](#aws-codecommit)
-  - [How do I update the personal access token (PAT) for an integration or repository connection?](#how-do-i-update-the-personal-access-token-pat-for-an-integration-or-repository-connection)
-
 &nbsp;
 <hr>
 &nbsp;
@@ -105,16 +96,8 @@ While instructions from GitLab works just fine, here are some specific instructi
 
 5.  Copy the token – (Write it down or be sure to save it. This is the ONLY time you'll see the token)
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        In your GitLab repository account setting, the <b><i>api</i></b> scopes of the PAT have the ability to create branches and merge requests to specified GitLab repositories via developer panel of a Jira issue.
-    </div>
-    </div>
-</div>
+> **Info:** In your GitLab repository account setting, the <b><i>api</i></b> scopes of the PAT have the ability to create branches and merge requests to specified GitLab repositories via developer panel of a Jira issue.
+
 <br>
 
 &nbsp;
@@ -150,20 +133,11 @@ If you have not yet generated a personal access token (PAT):
 
 When you're done, make sure to copy and save the token. This token can be used as your password.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        As for <b><i>Scopes</i></b>:
-        <ul style='margin-bottom:-5px;'>
-            <li><code>Code (read)</code> – This scope allows only to view commits and smart commits, and browse repositories (if enabled) of connected VSTS/Azure repositories inside Jira. This is the recommended scope for regular users.</li>
-            <li><code>Code (read and write)</code> – This scope has the `Code (read)` functions plus the ability to create branches and pull requests to specified VSTS/Azure repositories via developer panel of a Jira issue. This is the recommended scope for developers and contributors.</li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Info:** As for <b><i>Scopes</i></b>:
+> <ul style='margin-bottom:-5px;'>
+> <li><code>Code (read)</code> – This scope allows only to view commits and smart commits, and browse repositories (if enabled) of connected VSTS/Azure repositories inside Jira. This is the recommended scope for regular users.</li>
+> <li><code>Code (read and write)</code> – This scope has the `Code (read)` functions plus the ability to create branches and pull requests to specified VSTS/Azure repositories via developer panel of a Jira issue. This is the recommended scope for developers and contributors.</li>
+> </ul>
 
 &nbsp;
 
@@ -202,16 +176,7 @@ When you're done, make sure to copy and save the token. This token can be used 
 
 TFS 2017 and newer can use personal access token for on-premises Azure DevOps Server installations. This will allow control on how a service user accesses specific resources from your git repositories. PATs can give you access to Azure Repos without using your username or password directly.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Azure DevOps Server was formerly named Visual Studio Team Foundation Server (TFS).
-    </div>
-    </div>
-</div>
+> **Info:** Azure DevOps Server was formerly named Visual Studio Team Foundation Server (TFS).
 
 Follow the steps below, if you have not yet generated a personal access token (PAT) for your user account:
 
@@ -255,27 +220,9 @@ To create a new Access Key ID and Secret Access Key, go to IAM ➜ Users ➜ Sec
 
 ![](/wp-content/uploads//gij-IAM-user-create-access-key-diagram.png)
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        AWS IAM only allows two Access Keys per IAM user.
-    </div>
-    </div>
-</div>
+> **Info:** AWS IAM only allows two Access Keys per IAM user.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        We recommend that AWS administrators should not use the same IAM user's Access Key for the Git Integration for Jira app tasks.
-    </div>
-    </div>
-</div>
+> **Tip:** We recommend that AWS administrators should not use the same IAM user's Access Key for the Git Integration for Jira app tasks.
 
 &nbsp;
 

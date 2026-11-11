@@ -117,16 +117,7 @@ The secret key is provided at the time of the Git Integration for Jira app insta
 
 **\<JIRA_BASE_URL\>**/git/webhook/reindex/**\<SECRET_KEY\>**
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        All the repositories will be reindexed if the URL specified above is activated through `GET`, `POST`, or `PUT` and the webhooks are enabled. There is no support for other HTTP methods such as `DELETE` or `HEAD`.
-    </div>
-    </div>
-</div>
+> **Info:** All the repositories will be reindexed if the URL specified above is activated through `GET`, `POST`, or `PUT` and the webhooks are enabled. There is no support for other HTTP methods such as `DELETE` or `HEAD`.
 
 For detailed information, usage and examples, see [Hook and API Reference - Webhooks](/git-integration-for-jira-data-center/webhooks-gij-self-managed).
 
@@ -210,16 +201,7 @@ On the git repositories configuration page, click the Connect to Git Repository 
 
 This feature scans a locally accessible path for cloned Git repositories and automatically imports those Git repository references into Jira. A repository group called FOLDER is added in the Git for Jira app repository settings.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The add tracked folder feature requires that Jira and the git servers must be on the same filesystem. Make sure that the user that Jira is running with has access permissions to the path with the git repositories.
-    </div>
-    </div>
-</div>
+> **Info:** The add tracked folder feature requires that Jira and the git servers must be on the same filesystem. Make sure that the user that Jira is running with has access permissions to the path with the git repositories.
 
 The Add tracked folder wizard automatically adds the detected repositories to Jira. You can add multiple tracked folders in case your repositories are spread among multiple locations.
 
@@ -233,14 +215,5 @@ If a new repository is manually added into the local path, the Git Integration f
 
 If a repository folder is manually deleted from the local path, the Git Integration for Jira app will remove the repository setting from the tracked folder in Jira on the next reindex.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        A similar feature is also present in supported Add new (Auto-connect) integration of git host in Jira Server/Cloud. However, you can only enable/disable a repository in the Show Tracked Repositories dialog in Jira Server.
-    </div>
-    </div>
-</div>
+> **Info:** A similar feature is also present in supported Add new (Auto-connect) integration of git host in Jira Server/Cloud. However, you can only enable/disable a repository in the Show Tracked Repositories dialog in Jira Server.
 

@@ -31,16 +31,7 @@ custom_fields:
 The following instructions are for in-place upgrades + migrations of Jira on the same server (typically when upgrading version of Jira). See [Migration to another server](/git-integration-for-jira-data-center/migration-to-another-server-gij-self-managed) instructions for migrations to another server.
 
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        We strongly recommend performing your migration in a test environment first. Do not migrate your production Jira server application until you are satisfied that your test environment upgrade is successful.
-    </div>
-    </div>
-</div>
+> **Info:** We strongly recommend performing your migration in a test environment first. Do not migrate your production Jira server application until you are satisfied that your test environment upgrade is successful.
 
 &nbsp;
 
@@ -70,23 +61,14 @@ Verify that configured integrations and repositories in the **Manage Git reposit
 
 ## Migration within the same server when Jira HOME path is changed (Classic)
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Pros:</b><br>
-        Easy for migration.<br><br>
-        <b>Cons:</b><br>
-        <ul style='margin-bottom:0px;'>
-            <li>You will have to set up all your repository settings again (including mapping to projects and repository watchers.</li>
-            <li>Users are required to re-setup their PATs after upgrade/migration.</li>
-            <li>Afterwards, do a full reindexing for all your repositories.</li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Tip:** <b>Pros:</b><br>
+> Easy for migration.<br><br>
+> <b>Cons:</b><br>
+> <ul style='margin-bottom:0px;'>
+> <li>You will have to set up all your repository settings again (including mapping to projects and repository watchers.</li>
+> <li>Users are required to re-setup their PATs after upgrade/migration.</li>
+> <li>Afterwards, do a full reindexing for all your repositories.</li>
+> </ul>
 
 ### Before you migrate
 
@@ -96,16 +78,7 @@ Verify that configured integrations and repositories in the **Manage Git reposit
 
 3.  Use the Git Integration [Bulk Change export](/git-integration-for-jira-data-center/exporting-repository-configuration-via-bulk-change-gij-self-managed/) to backup the integration settings and extract/save credentials for repositories.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Please note that bulk export data contains lines for all repositories -- including those that were automatically created within integrations. You need only the data for 'top-level' repositories and integration to reconnect to all your repositories.
-    </div>
-    </div>
-</div>
+> **Note:** Please note that bulk export data contains lines for all repositories -- including those that were automatically created within integrations. You need only the data for 'top-level' repositories and integration to reconnect to all your repositories.
 
 ### Upgrade/migrate
 
@@ -125,25 +98,16 @@ No extra steps are required.
 
 ## Migration within the same server when Jira HOME path is changed (Recommended)
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Pros:</b><br>
-        <ul>
-            <li>Repository settings and user’s PATs are preserved.</li>
-            <li>Reconnection of all integrations is not required.</li>
-            <li>No extra steps after bulk import post-migration</li>
-        </ul>
-        <b>Cons:</b><br>
-        <ul style='margin-bottom:0px;'>
-            <li>You will have to change internal configuration files for the GitServer plugin. This should be done with extreme care.</li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Tip:** <b>Pros:</b><br>
+> <ul>
+> <li>Repository settings and user’s PATs are preserved.</li>
+> <li>Reconnection of all integrations is not required.</li>
+> <li>No extra steps after bulk import post-migration</li>
+> </ul>
+> <b>Cons:</b><br>
+> <ul style='margin-bottom:0px;'>
+> <li>You will have to change internal configuration files for the GitServer plugin. This should be done with extreme care.</li>
+> </ul>
 
 ### Before you migrate
 

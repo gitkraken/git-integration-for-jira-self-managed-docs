@@ -59,16 +59,7 @@ There are two terms:
 
 ### Permissions
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        You must be an organization owner or have admin permissions in a repository to install/uninstall a GitHub App on an organization. If a GitHub App is installed in a repository and requires organization permissions, the organization owner must approve the application.
-    </div>
-    </div>
-</div>
+> **Warning:** You must be an organization owner or have admin permissions in a repository to install/uninstall a GitHub App on an organization. If a GitHub App is installed in a repository and requires organization permissions, the organization owner must approve the application.
 
 Check GitHub Apps permission for your organization:
 
@@ -251,16 +242,7 @@ This issue refers on after adding or updating pull requests for a GitHub App Ent
 
 This behavior affects GitHub Enterprise Edition (EE) versions ranging from (v2.22) to (v3.12). The GitHub.com version does not exhibit this issue. To address this, just assign read and write permissions for pull requests. For PAT scopes, include `Pull requests:read` as minimum requirement and add Pull requests:write to be able to create PRs from Jira Git integration panel.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        To those who have upgraded to GHE v3.13+, this issue is not present anymore; so skip the steps below.
-    </div>
-    </div>
-</div>
+> **Warning:** To those who have upgraded to GHE v3.13+, this issue is not present anymore; so skip the steps below.
 
 For those who are experiencing problems with already existing applications and are still using older versions of GHE, follow these steps:
 

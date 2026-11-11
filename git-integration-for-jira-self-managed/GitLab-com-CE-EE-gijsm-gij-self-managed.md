@@ -26,16 +26,7 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/gitlab-ce-ee-gij-cloud'>See the corresponding article</a>.
-    </div>
-    </div>
-</div>
+> **Info:** Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/gitlab-ce-ee-gij-cloud'>See the corresponding article</a>.
 
 &nbsp;
 
@@ -51,66 +42,22 @@ GitLab v10+ stopped accepting username/password credentials for API access and w
 
 For GitLab Server service users, they won't see the issue until they upgrade their GitLab Servers to version 10 and higher.
 
-<div class="bbb-callout bbb--error">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Support for Gitlab API v3 is deprecated. We recommend to use <b>GitLab API v4</b> when adding new integrations for increased security.
-    </div>
-    </div>
-</div>
+> **Danger:** Support for Gitlab API v3 is deprecated. We recommend to use <b>GitLab API v4</b> when adding new integrations for increased security.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>GitLab deprecation notes</b><br>
-        Starting v4.19+, we will be dropping support for GitLab legacy integrations.<br>
-        Starting v4.25+, GitLab legacy integrations will be deprecated in the Manage integrations screen. To prevent any integration issues:<br>
-        <ul style='margin-bottom:0px;'>
-            <li>Please upgrade your GitLab server;</li>
-            <li>Remove legacy integrations; and</li>
-            <li>Connect a new GitLab integration to your GitLab CE/EE.</li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Warning:** <b>GitLab deprecation notes</b><br>
+> Starting v4.19+, we will be dropping support for GitLab legacy integrations.<br>
+> Starting v4.25+, GitLab legacy integrations will be deprecated in the Manage integrations screen. To prevent any integration issues:<br>
+> <ul style='margin-bottom:0px;'>
+> <li>Please upgrade your GitLab server;</li>
+> <li>Remove legacy integrations; and</li>
+> <li>Connect a new GitLab integration to your GitLab CE/EE.</li>
+> </ul>
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        We recommend a dedicated user for this integration which has access permissions to the GitLab git repositories.
-    </div>
-    </div>
-</div>
+> **Tip:** We recommend a dedicated user for this integration which has access permissions to the GitLab git repositories.
 
 &nbsp;
 
 Quickly learn how to connect GitLab CE/EE git repositories via Git Integration for Jira Server app.
-
-**What's on this page:**
-
-- [Integrate GitLab CE/EE with Jira Data Center/Server](#integrate-gitlab-ceee-with-jira-data-centerserver)
-  - [Permissions](#permissions)
-  - [Creating a personal access token](#creating-a-personal-access-token)
-  - [Integration supported platform](#integration-supported-platform)
-  - [Using Full feature integration](#using-full-feature-integration)
-  - [Single repository (Manual integration)](#single-repository-manual-integration)
-  - [Post-install tips](#post-install-tips)
-  - [Setting up GitLab web links](#setting-up-gitlab-web-links)
-  - [Viewing git commits in Jira Server](#viewing-git-commits-in-jira-server)
-  - [Working with branches and merge requests](#working-with-branches-and-merge-requests)
-    - [Default branch](#default-branch)
-    - [Creating branches](#creating-branches)
-    - [Merge request](#merge-request)
-  - [More Integration Guides](#more-integration-guides)
 
 &nbsp;
 * * *
@@ -269,43 +216,16 @@ Manage repositories of a connected GitLab server via the Manage Git integration 
 
 Repositories added or removed from GitLab server will be likewise added or removed from Jira Server.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For newer GitLab authentication - in order to access a Git repository over HTTP, use the username as the username and the PAT for the password.
-    </div>
-    </div>
-</div>
+> **Tip:** For newer GitLab authentication - in order to access a Git repository over HTTP, use the username as the username and the PAT for the password.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Admin/Power Users</b><br>
-        To pass the private access token (for example: <code>XpigzF1JxMnAZ7mn9qgN</code>) to an API call with GitLab, use: <code>curl --header "Private-Token: XpigzF1JxMnAZ7mn9qgN" https://gitlab.com/api/v4/projects?membership=true</code>
-    </div>
-    </div>
-</div>
+> **Tip:** <b>Admin/Power Users</b><br>
+> To pass the private access token (for example: <code>XpigzF1JxMnAZ7mn9qgN</code>) to an API call with GitLab, use: <code>curl --header "Private-Token: XpigzF1JxMnAZ7mn9qgN" https://gitlab.com/api/v4/projects?membership=true</code>
 
 &nbsp;
 
 ### Single repository (Manual integration)
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.
-    </div>
-    </div>
-</div>
+> **Info:** This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.
 
 This process requires an existing GitLab CE/EE git repository. Look for the GitLab repository URL on the repository project page.
 
@@ -370,16 +290,7 @@ For this feature to work with GitLab CE/EE, the user must have the **Write** p
 
 Most git integrations allow changing of the default branch of the repository/project other than "master". This change is reflected in the Repository Settings of the Git Integration for Jira app on the next reindex. Full feature integrations support this feature where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Main branch for repositories within an integration can only be changed on the git server.
-    </div>
-    </div>
-</div>
+> **Warning:** Main branch for repositories within an integration can only be changed on the git server.
 
 &nbsp;
 

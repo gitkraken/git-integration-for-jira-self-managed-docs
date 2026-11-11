@@ -48,27 +48,9 @@ There are three options to choose from:
 
 Select any option with the _discard_ label to enable editing of the file mask field.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For full list of features, version history and supported Jira version of the Git for Jira app, see <a href='https://marketplace.atlassian.com/plugins/com.xiplink.jira.git.jira_git_plugin/versions' target='_blank'><b>Git Integration for Jira app Version History</b></a>.
-    </div>
-    </div>
-</div>
+> **Info:** For full list of features, version history and supported Jira version of the Git for Jira app, see <a href='https://marketplace.atlassian.com/plugins/com.xiplink.jira.git.jira_git_plugin/versions' target='_blank'><b>Git Integration for Jira app Version History</b></a>.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Whenever the setting is changed, we recommend to perform a manual re-clone of the repositories to ensure an error-free operation.
-    </div>
-    </div>
-</div>
+> **Warning:** Whenever the setting is changed, we recommend to perform a manual re-clone of the repositories to ensure an error-free operation.
 
 &nbsp;
 * * *

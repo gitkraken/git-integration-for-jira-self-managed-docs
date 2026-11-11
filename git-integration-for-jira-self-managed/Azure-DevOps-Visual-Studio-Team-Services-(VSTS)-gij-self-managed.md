@@ -26,16 +26,7 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/azure-devops-visual-studio-team-services-vsts-gij-cloud'>See the corresponding article</a>.
-    </div>
-    </div>
-</div>
+> **Info:** Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/azure-devops-visual-studio-team-services-vsts-gij-cloud'>See the corresponding article</a>.
 
 &nbsp;
 
@@ -50,24 +41,6 @@ custom_fields:
 Quickly learn how to connect Azure DevOps Repos/VSTS git repositories via Git Integration for Jira Data Center/Server.
 
 The Git Integration for Jira app supports Azure Repos.
-
-**What's on this page:**
-- [Integrate Azure DevOps/Visual Studio Team Services (VSTS) with Jira Data Center/Server](#integrate-azure-devopsvisual-studio-team-services-vsts-with-jira-data-centerserver)
-  - [Permissions](#permissions)
-  - [Creating personal access tokens for Azure DevOps/VSTS account](#creating-personal-access-tokens-for-azure-devopsvsts-account)
-  - [Integration supported platform](#integration-supported-platform)
-  - [Using Full feature integration](#using-full-feature-integration)
-  - [Single repository integration (Manual integration)](#single-repository-integration-manual-integration)
-  - [Webhooks and web linking](#webhooks-and-web-linking)
-  - [Linking Azure DevOps/VSTS git commits to Jira Data Center/Server](#linking-azure-devopsvsts-git-commits-to-jira-data-centerserver)
-  - [Viewing git commits in Jira Server](#viewing-git-commits-in-jira-server)
-  - [Working with branches and pull requests](#working-with-branches-and-pull-requests)
-    - [Default branch](#default-branch)
-    - [Creating branches](#creating-branches)
-    - [Pushing commits to the branch](#pushing-commits-to-the-branch)
-    - [Creating pull requests](#creating-pull-requests)
-    - [Merging _branch_ to _master_](#merging-branch-to-master)
-  - [More Integration Guides](#more-integration-guides)
 
 &nbsp;
 * * *
@@ -170,16 +143,7 @@ We recommend using the Add new integration panel to connect multiple repositorie
 
 7.  Click **Finish** to complete this setup.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For now, only <b>git</b> projects are supported from Azure DevOps/VSTS.
-    </div>
-    </div>
-</div>
+> **Info:** For now, only <b>git</b> projects are supported from Azure DevOps/VSTS.
 
 Azure DevOps/VSTS git repositories are now connected to Jira Server.
 
@@ -187,16 +151,7 @@ Azure DevOps/VSTS git repositories are now connected to Jira Server.
 
 ### Single repository integration (Manual integration)
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.
-    </div>
-    </div>
-</div>
+> **Tip:** This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.
 
 This process requires an existing VSTS/Azure git repository. Look for the the VSTS/Azure repository URL on the repository project page.
 
@@ -217,17 +172,8 @@ Choose between SSH or HTTPS. Use this information to connect the VSTS/Azure git
 
 The repository is now connected to Jira Server.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Webhooks fail with DefaultCollection in URL path</b><br>
-        To fix webhooks for old VSTS/Azure repository connections with <code>DefaultCollection</code> in the URL path, update the <b><i>Repository origin</i></b> field in the Manage git repositories page ➜ &nbsp;<img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ <b>Edit repository settings</b> with the repository URL currently being returned by Azure.
-    </div>
-    </div>
-</div>
+> **Tip:** <b>Webhooks fail with DefaultCollection in URL path</b><br>
+> To fix webhooks for old VSTS/Azure repository connections with <code>DefaultCollection</code> in the URL path, update the <b><i>Repository origin</i></b> field in the Manage git repositories page ➜ &nbsp;<img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ <b>Edit repository settings</b> with the repository URL currently being returned by Azure.
 
 &nbsp;
 
@@ -235,17 +181,8 @@ The repository is now connected to Jira Server.
 
 The Git Integration for Jira app automatically configures web linking for Azure DevOps/VSTS git repositories.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Webhooks are supported on Azure DevOps / Visual Studio Team Services.</b><br>
-        First - configure webhooks in the Git Integration app in Jira via the Git menu ➜ <b>Manage repositories</b> then click <b>Webhooks</b> (sidebar). Enable the feature and save the settings. Then <a href='https://docs.microsoft.com/en-us/azure/devops/service-hooks/services/webhooks?view=vsts'>follow these instructions</a> to setup the webhook triggers. Azure DevOps/VSTS webhooks will trigger an immediate index of all repositories within the integration.
-    </div>
-    </div>
-</div>
+> **Info:** <b>Webhooks are supported on Azure DevOps / Visual Studio Team Services.</b><br>
+> First - configure webhooks in the Git Integration app in Jira via the Git menu ➜ <b>Manage repositories</b> then click <b>Webhooks</b> (sidebar). Enable the feature and save the settings. Then <a href='https://docs.microsoft.com/en-us/azure/devops/service-hooks/services/webhooks?view=vsts'>follow these instructions</a> to setup the webhook triggers. Azure DevOps/VSTS webhooks will trigger an immediate index of all repositories within the integration.
 
 For detailed step-by-step guide showcasing the webhooks setup, [see this article](/git-integration-for-jira-data-center/Adding-Webhooks-for-Azure-DevOps-Repos-VSTS-gij-self-managed).
 
@@ -308,16 +245,7 @@ This process requires a Azure DevOps/VSTS git repository and a PAT with at least
 
 Most git integrations allow changing of the default branch of the repository/project other than "master".  This change is reflected in the  Repository Settings of the Git Integration for Jira app on the next reindex.  Repositories added via Add new integration support this feature where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Main branch for repositories within an integration can only be changed on the git server.
-    </div>
-    </div>
-</div>
+> **Warning:** Main branch for repositories within an integration can only be changed on the git server.
 
 &nbsp;
 

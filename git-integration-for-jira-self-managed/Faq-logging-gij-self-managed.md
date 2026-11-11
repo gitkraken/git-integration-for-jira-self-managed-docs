@@ -40,17 +40,8 @@ Use the FAQ below to find answers to common questions.  Feel free to contact ou
 
 #### How to create the support zip file?
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Note</b><br>
-        Jira Cloud does not have the Support Zip feature.
-    </div>
-    </div>
-</div>
+> **Warning:** <b>Note</b><br>
+> Jira Cloud does not have the Support Zip feature.
 
 Jira can produce a Support Zip file for diagnosing issues. This will give our support team a better view of the issue.
 
@@ -104,16 +95,7 @@ To report errors:
 
 2.  Also, please add your Jira version, Git plugin version and OS used to run Jira.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The Git Integration for Jira app — like most Atlassian Marketplace apps — writes to the standard Jira log. The setting you've enabled here causes it to write more log data.
-    </div>
-    </div>
-</div>
+> **Info:** The Git Integration for Jira app — like most Atlassian Marketplace apps — writes to the standard Jira log. The setting you've enabled here causes it to write more log data.
 
 &nbsp;
 

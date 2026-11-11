@@ -48,16 +48,7 @@ This is a filter based on the text in the repository name. It lists repositories
 
 Lists repositories with the names that do not contain the word `'test'`.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The <code>!condition</code> must be wrapped in a parenthesis so it won’t invert the whole expression.
-    </div>
-    </div>
-</div>
+> **Note:** The <code>!condition</code> must be wrapped in a parenthesis so it won’t invert the whole expression.
 
 &nbsp;
 
@@ -91,16 +82,7 @@ Lists repositories with the names that start with `'git'` or end with `'test'`.
 
 &nbsp;
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Do note that the declared string format is case-sensitive.
-    </div>
-    </div>
-</div>
+> **Info:** Do note that the declared string format is case-sensitive.
 
 &nbsp;
 <hr>

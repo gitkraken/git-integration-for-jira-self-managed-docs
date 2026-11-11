@@ -32,35 +32,17 @@ The **Repository Browser** allows users to view git repositories of configured
 
 ### Getting started
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Permissions</b><br>
-        Users must have the <b>View Development Tools</b> <i>project permission</i> in order to gain access to the Repository Browser. For more information on assigning Jira permissions, see <a href='https://confluence.atlassian.com/display/Jira/Managing+Global+Permissions' target='_blank'><b>Managing Permissions in Jira</b></a>.
-    </div>
-    </div>
-</div>
+> **Warning:** <b>Permissions</b><br>
+> Users must have the <b>View Development Tools</b> <i>project permission</i> in order to gain access to the Repository Browser. For more information on assigning Jira permissions, see <a href='https://confluence.atlassian.com/display/Jira/Managing+Global+Permissions' target='_blank'><b>Managing Permissions in Jira</b></a>.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Git menu</b><br>
-        After installing the Git Integration for Jira app, the <b>Git</b> dropdown menu is added to the dashboard.
-        <p>
-            The <b>Git</b> header is hidden for all users if there are no repositories with Repository Browser enabled for that user. The Git Integration for Jira app will always show the <b>Git</b> header to Jira administrators.
-        </p>
-        <div class='nextpara' style='margin-bottom:-10px !important'>
-            The <b>Git</b> header is visible to other users who have repositories with Repository Browser enabled and have no history of using the Repository Browser (<i>for example -- no previously viewed or repositories set as favorite</i>).
-        </div>
-    </div>
-    </div>
-</div>
+> **Info:** <b>Git menu</b><br>
+> After installing the Git Integration for Jira app, the <b>Git</b> dropdown menu is added to the dashboard.
+> <p>
+> The <b>Git</b> header is hidden for all users if there are no repositories with Repository Browser enabled for that user. The Git Integration for Jira app will always show the <b>Git</b> header to Jira administrators.
+> </p>
+> <div class='nextpara' style='margin-bottom:-10px !important'>
+> The <b>Git</b> header is visible to other users who have repositories with Repository Browser enabled and have no history of using the Repository Browser (<i>for example -- no previously viewed or repositories set as favorite</i>).
+> </div>
 
 <img src='/wp-content/uploads/gij-gitserver-gitmenu-repo-browser.png' width=163 height=111 style='display:block;margin:25px auto;max-width:100%' />
 
@@ -104,52 +86,16 @@ Click a git repository under Git repository column to browse its contents and sw
 
 *   Clicking on the **Repositories** button at the top right of the page returns the view to the Repository Browser.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Commit revisions</b><br>
-        The revisions of the commits are displayed on the Repository Browser in addition to branches and tags. See <a href='/git-integration-for-jira-data-center/viewing-list-of-commits-in-repository-browser-gij-self-managed'>Repository Browser - Git Commits tab</a> for detailed information.
-    </div>
-    </div>
-</div>
+> **Note:** <b>Commit revisions</b><br>
+> The revisions of the commits are displayed on the Repository Browser in addition to branches and tags. See <a href='/git-integration-for-jira-data-center/viewing-list-of-commits-in-repository-browser-gij-self-managed'>Repository Browser - Git Commits tab</a> for detailed information.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If the selected path is a <b><i>root</i></b> of the repository and no files are present, a message will be displayed instead of an empty file list.
-    </div>
-    </div>
-</div>
+> **Warning:** If the selected path is a <b><i>root</i></b> of the repository and no files are present, a message will be displayed instead of an empty file list.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Administration</b><br>
-        Administrators can turn off the Repository Browser via &nbsp;<img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ <b>Edit repository settings</b> in the Git Integration for Jira app configuration.
-    </div>
-    </div>
-</div>
+> **Tip:** <b>Administration</b><br>
+> Administrators can turn off the Repository Browser via &nbsp;<img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ <b>Edit repository settings</b> in the Git Integration for Jira app configuration.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Sort header</b><br>
-        The displayed repositories can be sorted by clicking the corresponding list header. The Git Integration for Jira app will remember the sorting choice per user.
-    </div>
-    </div>
-</div>
+> **Info:** <b>Sort header</b><br>
+> The displayed repositories can be sorted by clicking the corresponding list header. The Git Integration for Jira app will remember the sorting choice per user.
 
 &nbsp;
 * * *

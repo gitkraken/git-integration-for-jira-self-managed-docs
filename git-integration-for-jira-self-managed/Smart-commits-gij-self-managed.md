@@ -40,18 +40,9 @@ The smart commit processing is **active by default** and can be enabled/disabl
     In Jira Cloud, this setting is always enabled.</i>
 </div>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Smart commits support for project keys that has an underscore "_" character.<br>
-        Smart commits support for all alphabet characters.<br>
-        Smart commits support for case insensitive smart commits.
-    </div>
-    </div>
-</div>
+> **Info:** Smart commits support for project keys that has an underscore "_" character.<br>
+> Smart commits support for all alphabet characters.<br>
+> Smart commits support for case insensitive smart commits.
 
 Smart commits configuration checklist:
 

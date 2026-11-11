@@ -28,17 +28,8 @@ custom_fields:
 
 The configuration of the scheduler jobs are no longer accessible in the Jira administration page. For this case, the Git Integration for Jira app offers Jira administrators this capability via the [General settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed) page.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>VERSION 3.7+</b><br>
-        The <b><i>Repository reindexing</i></b> and <b><i>Garbage collection and revision validation checkers</i></b> settings are now moved into the <a href='/git-integration-for-jira-data-center/scheduled-jobs-gij-self-managed'><b>Scheduled Jobs</b></a> settings group.
-    </div>
-    </div>
-</div>
+> **Note:** <b>VERSION 3.7+</b><br>
+> The <b><i>Repository reindexing</i></b> and <b><i>Garbage collection and revision validation checkers</i></b> settings are now moved into the <a href='/git-integration-for-jira-data-center/scheduled-jobs-gij-self-managed'><b>Scheduled Jobs</b></a> settings group.
 
 &nbsp;
 
@@ -46,32 +37,14 @@ The configuration of the scheduler jobs are no longer accessible in the Jira adm
 
 Set the automatic reindex interval frequency value in minutes as required. The default value is **5 minutes**.  Min = **1**, Max = **76,861,433,640,456**.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>VERSION 4.0+</b><br>
-        Starting from v4.0+ of the Git Integration for Jira app, the Reindex All task became much simplier. Reindex tasks are added for each repository and finishes all tasks without waiting for the completion of the new index tasks.
-    </div>
-    </div>
-</div>
+> **Info:** <b>VERSION 4.0+</b><br>
+> Starting from v4.0+ of the Git Integration for Jira app, the Reindex All task became much simplier. Reindex tasks are added for each repository and finishes all tasks without waiting for the completion of the new index tasks.
 
 &nbsp;
 
 Since indexing queue does not allow duplicate tasks, Reindex All task will not be processed twice.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Improving Jira performance depends on the duration value of the scheduled jobs. That's why, it's important to set the Reindex interval to greater than the Last run duraton value.
-    </div>
-    </div>
-</div>
+> **Info:** Improving Jira performance depends on the duration value of the scheduled jobs. That's why, it's important to set the Reindex interval to greater than the Last run duraton value.
 
 &nbsp;
 
@@ -91,16 +64,7 @@ To see the `Last run duration` value, do the following steps:
 
 If the `Last run duration` value shows `3 minutes` _or greater_, we recommend to increase the reindex interval.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The reindex interval must be greater or equal to the <code>Last run duration</code> value of <i>RevisionIndexJob</i> to improve Jira performance. For example, if the <code>Last run duration</code> value is <b>19 minutes</b>, set the Reindex interval value to <b>20 minutes or more</b> in the General settings page.
-    </div>
-    </div>
-</div>
+> **Tip:** The reindex interval must be greater or equal to the <code>Last run duration</code> value of <i>RevisionIndexJob</i> to improve Jira performance. For example, if the <code>Last run duration</code> value is <b>19 minutes</b>, set the Reindex interval value to <b>20 minutes or more</b> in the General settings page.
 
 &nbsp;
 * * *

@@ -30,15 +30,6 @@ custom_fields:
 
 With Git Integration for Jira app v4.0, the shared reindex queue improvement offers vast performance improvements between DC nodes.
 
-**What’s on this page:**
-- [Main features](#main-features)
-  - [The Skipping feature](#the-skipping-feature)
-  - [Webhook sleeping](#webhook-sleeping)
-- [Before implementation](#before-implementation)
-- [Advantages](#advantages)
-- [Known issues](#known-issues)
-- [See more Git Integration for Jira app features](#see-more-git-integration-for-jira-app-features)
-
 &nbsp;
 <hr>
 &nbsp;

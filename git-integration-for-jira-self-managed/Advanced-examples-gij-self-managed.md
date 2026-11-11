@@ -58,16 +58,7 @@ Resolves specified issues.
 
 Resolves specified issues; logs specified `#time` of **2 days and 4 hours** and adds `#comment` "Fixed code" against the issues.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Support is already implemented for multi-line commit messages with smart commits.
-    </div>
-    </div>
-</div>
+> **Info:** Support is already implemented for multi-line commit messages with smart commits.
 
 * * *
 

@@ -26,55 +26,30 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Jira administrator notes</b><br>
-        <ul>
-            <li>
-                Jira users can be required to provide their own Personal Access Token when creating a branch or pull request. See <a href='/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed'>Require Personal Access Tokens for user actions (create branch/pull request)</a> for instructions on how to configure this feature.
-            </li>
-            <li>
-                The <b>View developer tools</b> <i>permission</i> is required to view the Git integration development panel (see more in <a href='/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed'>Jira Issue Git integration development panel</a>). Jira users must also have the <b>Browse Project</b> <i>permissions</i> to a project associated with a repository to view.
-            </li>
-            <li>
-                Creating pull/merge request feature can be disabled for all Jira users (regardless of permissions) in <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'>General settings</a>.
-            </li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Warning:** <b>Jira administrator notes</b><br>
+> <ul>
+> <li>
+> Jira users can be required to provide their own Personal Access Token when creating a branch or pull request. See <a href='/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed'>Require Personal Access Tokens for user actions (create branch/pull request)</a> for instructions on how to configure this feature.
+> </li>
+> <li>
+> The <b>View developer tools</b> <i>permission</i> is required to view the Git integration development panel (see more in <a href='/git-integration-for-jira-data-center/jira-git-integration-development-panel-gij-self-managed'>Jira Issue Git integration development panel</a>). Jira users must also have the <b>Browse Project</b> <i>permissions</i> to a project associated with a repository to view.
+> </li>
+> <li>
+> Creating pull/merge request feature can be disabled for all Jira users (regardless of permissions) in <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'>General settings</a>.
+> </li>
+> </ul>
+
 <br>
 
 <hr>
 
 <br>
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>GitLab note</b><br>
-        GitLab uses the term Merge Request rather than Pull Request (used by the other major git services). In the following article, Pull Request and Merge Request can be used interchangeably.
-    </div>
-    </div>
-</div>
 
-<div class="bbb-callout bbb--error">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Feature note</b><br>
-        This feature is not available for single or plain git repository connections.
-    </div>
-    </div>
-</div>
+> **Note:** <b>GitLab note</b><br>
+> GitLab uses the term Merge Request rather than Pull Request (used by the other major git services). In the following article, Pull Request and Merge Request can be used interchangeably.
+
+> **Danger:** <b>Feature note</b><br>
+> This feature is not available for single or plain git repository connections.
 
 &nbsp;
 

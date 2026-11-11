@@ -46,16 +46,7 @@ The **SSL Verify** option is set to `Enabled` by default. If set to `Disabl
 
 <div align='center' style='margin-top:10px'><i>In the above example, the Integration Connection Settings screen from Git Integration <br>for Jira Server/Data Center is shown.</i></div>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The <b>SSL Verify</b> setting is available in Jira Server, Data Center and Jira Cloud. This option is not available for non-fetched repositories.
-    </div>
-    </div>
-</div>
+> **Info:** The <b>SSL Verify</b> setting is available in Jira Server, Data Center and Jira Cloud. This option is not available for non-fetched repositories.
 
 &nbsp;
 * * *

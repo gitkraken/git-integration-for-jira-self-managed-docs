@@ -63,19 +63,10 @@ Use this key in the form of:
 https://your.jira.com/rest/gitplugin/webhook/1.0/reindex/sdf34tGdfgGDG345g3y0045TYG23te37
 ```
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        All the repositories will be reindexed if the URL specified above is activated through <code>GET</code>, <code>POST</code>, or <code>PUT</code> and the webhooks are enabled.
-        <div class='nextpara' style='margin-bottom:-10px;'>
-            There is no support for other HTTP methods such as <code>DELETE</code> or <code>HEAD</code>.
-        </div>
-    </div>
-    </div>
-</div>
+> **Info:** All the repositories will be reindexed if the URL specified above is activated through <code>GET</code>, <code>POST</code>, or <code>PUT</code> and the webhooks are enabled.
+> <div class='nextpara' style='margin-bottom:-10px;'>
+> There is no support for other HTTP methods such as <code>DELETE</code> or <code>HEAD</code>.
+> </div>
 
 For more information about triggers and event types, see [Creating reindex triggers for a single repository](/git-integration-for-jira-data-center/creating-reindex-triggers-for-a-single-repository-gij-self-managed).
 

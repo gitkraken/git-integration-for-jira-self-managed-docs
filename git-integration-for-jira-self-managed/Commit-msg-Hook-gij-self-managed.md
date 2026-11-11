@@ -50,16 +50,8 @@ In Linux and OSX, this file must have executable permissions in the file system;
 
 See the commit-msg hook script below or right click and download the sample **[commit-msg file ↓](/wp-content/uploads/commit-msg.zip)**. Extract this file and make the necessary changes. Afterwards, place the edited file to the required folder (usually in .git/hooks directory).
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The <b>commit-msg</b> hook is a python script file that must be located in the developer's local repository.
-    </div>
-    </div>
-</div>
+> **Info:** The <b>commit-msg</b> hook is a python script file that must be located in the developer's local repository.
+
 <br>
 
 <br>

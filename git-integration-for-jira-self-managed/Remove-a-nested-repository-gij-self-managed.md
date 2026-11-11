@@ -26,17 +26,7 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Note</b><br>
-        You can only remove a nested git repository settings if it’s a standalone integration.
-    </div>
-    </div>
-</div>
+> **Note:** You can only remove a nested git repository settings if it’s a standalone integration.
 
 ## Pre-GIJ version 5.x.x
 

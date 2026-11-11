@@ -36,16 +36,7 @@ The set of functions depends on what type of integration or repository connectio
 
 Immediately starts the synchronization with the selected repository.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If the repository is disabled, this option is not available.
-    </div>
-    </div>
-</div>
+> **Tip:** If the repository is disabled, this option is not available.
 
 #### Edit repository settings
 
@@ -57,16 +48,7 @@ For more details, see [Edit repository settings](/git-integration-for-jira-data
 
 Clears the last indexed revision and rebuild Lucene index on next synchronization.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Please do note that this process will rebuild index from scratch. Take this into consideration when indexing very large repositories or integration.
-    </div>
-    </div>
-</div>
+> **Warning:** Please do note that this process will rebuild index from scratch. Take this into consideration when indexing very large repositories or integration.
 
 On following screen, the user is prompted to also reset all main revision information or not. The default setting is enabled. For a proper rebuild of the index information, leave it as is. Click **Reset index** to proceed.
 
@@ -102,16 +84,7 @@ For more details, see [Edit repository settings](/git-integration-for-jira-data
 
 Clears the last indexed revision and rebuild Lucene index on next synchronization.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Please do note that this process will rebuild index from scratch. Take this into consideration when indexing very large repositories or integration.
-    </div>
-    </div>
-</div>
+> **Warning:** Please do note that this process will rebuild index from scratch. Take this into consideration when indexing very large repositories or integration.
 
 On following screen, the user is prompted to also reset all main revision information or not. The default setting is enabled. For a proper rebuild of the index information, leave it as is. Click **Reset index** to proceed.
 
@@ -134,16 +107,7 @@ Opens a dialog showing the indexing log of the connected tracked repository.
 
 Immediately starts the synchronization with the selected repository.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If the integration is disabled, this option is not available.
-    </div>
-    </div>
-</div>
+> **Tip:** If the integration is disabled, this option is not available.
 
 #### Show integration repositories
 
@@ -163,16 +127,7 @@ Opens the [Integration feature settings](/git-integration-for-jira-data-center/
 
 Clears the last indexed revision and rebuild Lucene index on next synchronization.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Please do note that this process will rebuild index from scratch. Take this into consideration when indexing very large repositories or integration.
-    </div>
-    </div>
-</div>
+> **Warning:** Please do note that this process will rebuild index from scratch. Take this into consideration when indexing very large repositories or integration.
 
 On following screen, the user is prompted to also reset all main revision information or not. The default setting is enabled. For a proper rebuild of the index information, leave it as is. Click **Reset index** to proceed.
 
@@ -203,16 +158,7 @@ The tracked folder and auto-connect integrations can be configured using the fol
 
 Immediately starts the synchronization with the selected GHA integration.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If the GHA integration is disabled, this option is not available.
-    </div>
-    </div>
-</div>
+> **Tip:** If the GHA integration is disabled, this option is not available.
 
 #### Show integration repositories
 
@@ -232,16 +178,7 @@ Opens the [Integration feature settings](/git-integration-for-jira-data-center/
 
 Clears the last indexed revision and rebuild Lucene index on next synchronization.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Please do note that this process will rebuild index from scratch. Take this into consideration when indexing very large repositories or integration.
-    </div>
-    </div>
-</div>
+> **Warning:** Please do note that this process will rebuild index from scratch. Take this into consideration when indexing very large repositories or integration.
 
 On following screen, the user is prompted to also reset all main revision information or not. The default setting is enabled. For a proper rebuild of the index information, leave it as is. Click **Reset index** to proceed.
 

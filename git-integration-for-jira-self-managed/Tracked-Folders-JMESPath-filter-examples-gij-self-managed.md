@@ -58,16 +58,7 @@ Lists repositories with the names that contain any of the specified word.
 
 &nbsp;
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The <code>!condition</code> must be wrapped in a parenthesis so it won’t invert the whole expression.
-    </div>
-    </div>
-</div>
+> **Note:** The <code>!condition</code> must be wrapped in a parenthesis so it won’t invert the whole expression.
 
 &nbsp;
 
@@ -81,16 +72,7 @@ Excludes repositories from the sub-folder.
 
 &nbsp;
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Do note that the declared string format is case-sensitive.
-    </div>
-    </div>
-</div>
+> **Info:** Do note that the declared string format is case-sensitive.
 
 &nbsp;
 * * *

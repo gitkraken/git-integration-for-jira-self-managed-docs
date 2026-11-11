@@ -53,16 +53,7 @@ Formerly known as Auto-Connect integration panel.
 
 In here, you will find special integration options for specific git hosts. This feature supports multiple connected repositories and automates git integration.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        We highly recommend this feature for multiple repository configuration.
-    </div>
-    </div>
-</div>
+> **Tip:** We highly recommend this feature for multiple repository configuration.
 
 For brief information on connecting new git integrations, see [Connecting to a git host account via Add new integration panel](/git-integration-for-jira-data-center/connecting-to-a-git-host-account-via-add-new-integration-panel-gij-self-managed).
 
@@ -70,17 +61,8 @@ For more details on supported git hosts, see the **Full featured integration** s
 
 For easy access, the **Add tracked folder** connection feature is added to the far right side of the Add new integration panel.
 
-<div class="bbb-callout bbb--error">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>GitLab</b><br>
-        We are dropping support for Gitlab API v3. Please use <b>GitLab API v4</b> when adding new integrations for increased security. If you still wish to use GitLab API v3, please feel free to do so at your discretion.
-    </div>
-    </div>
-</div>
+> **Danger:** <b>GitLab</b><br>
+> We are dropping support for Gitlab API v3. Please use <b>GitLab API v4</b> when adding new integrations for increased security. If you still wish to use GitLab API v3, please feel free to do so at your discretion.
 
 &nbsp;
 
@@ -126,16 +108,8 @@ For detailed information about this feature, see [Bulk change](/git-integration
 
 <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>NEW FEATURE &mdash; VERSION 4.7+</b><br> **Reset all indexes** &nbsp;&ndash;&nbsp; With this function, Jira administrators can start the reset index process for all repositories in the integration/repository list. Disabled integrations/repositories are ignored.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Indexing operations may require several hours or more for large and/or numerous repositories.
-    </div>
-    </div>
-</div>
+> **Warning:** Indexing operations may require several hours or more for large and/or numerous repositories.
+
 <br>
 
 For more information on this topic, see [Reindexing](/git-integration-for-jira-data-center/reindexing-gij-self-managed).
@@ -154,80 +128,26 @@ For more information about this topic, see [GIJ Webhooks documentation](/git-int
 
 ### Related helpful tips
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>SSH</b><br>
-        When setting up repositories with the Git Integration app, you need to have the necessary access permissions on the private key on the Git server to proceed.
-    </div>
-    </div>
-</div>
+> **Warning:** <b>SSH</b><br>
+> When setting up repositories with the Git Integration app, you need to have the necessary access permissions on the private key on the Git server to proceed.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Windows Server</b><br>
-        For cases when git repositories are hosted at Windows servers (Windows Server network drive) — while it is using the Windows server networking, the network credentials accessing the git repository must be the same as the user running Jira.
-    </div>
-    </div>
-</div>
+> **Note:** <b>Windows Server</b><br>
+> For cases when git repositories are hosted at Windows servers (Windows Server network drive) — while it is using the Windows server networking, the network credentials accessing the git repository must be the same as the user running Jira.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Windows Network Share</b><br>
-        When using Windows network sharing for the repository origin, it is recommended to allocate repositories’ paths shorter than 256 characters.
-        <p>Example: <code>\\WS129\custom-repo\project-z\</code></p>
-        <p style='margin-bottom: -10px !important'>Otherwise, the provided URL will not be recognized as valid.</p>
-    </div>
-    </div>
-</div>
+> **Warning:** <b>Windows Network Share</b><br>
+> When using Windows network sharing for the repository origin, it is recommended to allocate repositories’ paths shorter than 256 characters.
+> <p>Example: <code>\\WS129\custom-repo\project-z\</code></p>
+> <p style='margin-bottom: -10px !important'>Otherwise, the provided URL will not be recognized as valid.</p>
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>For Jira hosted on Windows</b><br>
-        When using Active Directory accounts for repository access, changing the password of the AD account running Jira can cause repository authentication issues.
-        <p style='margin-bottom: -10px !important'>The solution for this is to restart Jira to regain access to repositories.</p>
-    </div>
-    </div>
-</div>
+> **Warning:** <b>For Jira hosted on Windows</b><br>
+> When using Active Directory accounts for repository access, changing the password of the AD account running Jira can cause repository authentication issues.
+> <p style='margin-bottom: -10px !important'>The solution for this is to restart Jira to regain access to repositories.</p>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Repository REST API</b><br>
-        As of <b>v2.8.3+</b> of the Git Integration for Jira app, the REST API for managing repositories are implemented. The documentation for this feature is available at <a href='/git-integration-for-jira-data-center/repository-api-gij-self-managed'>Repository REST API</a>.
-    </div>
-    </div>
-</div>
+> **Info:** <b>Repository REST API</b><br>
+> As of <b>v2.8.3+</b> of the Git Integration for Jira app, the REST API for managing repositories are implemented. The documentation for this feature is available at <a href='/git-integration-for-jira-data-center/repository-api-gij-self-managed'>Repository REST API</a>.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Integration REST API<b><br>
-        As of <b>v3.5.0.2+</b> of the Git Integration for Jira app, the REST API for managing integrations are implemented. The documentation for this feature is available at <a href='/git-integration-for-jira-data-center/integration-api-gij-self-managed'>Integration REST API</a>.
-    </div>
-    </div>
-</div>
+> **Info:** <b>Integration REST API<b><br>
+> As of <b>v3.5.0.2+</b> of the Git Integration for Jira app, the REST API for managing integrations are implemented. The documentation for this feature is available at <a href='/git-integration-for-jira-data-center/integration-api-gij-self-managed'>Integration REST API</a>.
 
 &nbsp;
 * * *

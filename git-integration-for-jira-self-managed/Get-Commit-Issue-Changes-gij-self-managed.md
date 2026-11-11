@@ -30,26 +30,17 @@ custom_fields:
 
 Returns the list of issues associated with the commit from the specified repository.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        There are two types of users who can perform the Get Commit Issue Changes API call:
-        <ol style='margin-bottom:-20px'>
-            <li>Jira <b>administrators</b></li>
-            <li>Jira user who has <b>all</b> of the following:
-                <ul>
-                <li><b>View/browse permissions</b> to the project;</li>
-                <li><b>View Development Tools permissions</b> to the same project; and</li>
-                <li>The repository is <b>associated</b> to the project.</li>
-                </ul>
-            </li>
-        </ol>
-    </div>
-    </div>
-</div>
+> **Info:** There are two types of users who can perform the Get Commit Issue Changes API call:
+> <ol style='margin-bottom:-20px'>
+> <li>Jira <b>administrators</b></li>
+> <li>Jira user who has <b>all</b> of the following:
+> <ul>
+> <li><b>View/browse permissions</b> to the project;</li>
+> <li><b>View Development Tools permissions</b> to the same project; and</li>
+> <li>The repository is <b>associated</b> to the project.</li>
+> </ul>
+> </li>
+> </ol>
 
 &nbsp;
 

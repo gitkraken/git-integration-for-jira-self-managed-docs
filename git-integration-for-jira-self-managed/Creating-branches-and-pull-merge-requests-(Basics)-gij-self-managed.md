@@ -34,16 +34,7 @@ The Git Integration for Jira app adds two features on the Jira issue developer p
 
 Most git integrations allow changing of the default branch of the repository/project other than `master`. This change is reflected in the  Repository Settings of the Git Integration for Jira app on the next reindex. Auto-connected integrations support this feature where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level. For the case with Gerrit, the default main branch is always `master`.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Main branch for repositories within an integration can only be changed on the git server.
-    </div>
-    </div>
-</div>
+> **Warning:** Main branch for repositories within an integration can only be changed on the git server.
 
 &nbsp;
 

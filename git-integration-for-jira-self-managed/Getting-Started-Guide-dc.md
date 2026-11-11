@@ -58,17 +58,8 @@ GIJ will display Commits, Branches, and Pull/Merge requests associated with a sp
 
 ## Security Restrictions and Policies
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Before configuring the application, we encourage new clients to discuss their team's needs and security concerns and restrictions. Consider whether your team needs to restrict code visibility between Jira projects. You can use <a href='/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed'>Project association permissions</a> to limit visibility between Jira projects.
-        <p style='margin-bottom:0px'>Please see <a href='/git-integration-for-jira-cloud/known-performance-limitations-gij-cloud'>Known performance limitations on Cloud</a> and <a href='/git-integration-for-jira-data-center/permissions-gij-self-managed'>Permissions</a> for details on how to limit visibility of GIJ panels/Data between Jira users.</p>
-    </div>
-    </div>
-</div>
+> **Warning:** Before configuring the application, we encourage new clients to discuss their team's needs and security concerns and restrictions. Consider whether your team needs to restrict code visibility between Jira projects. You can use <a href='/git-integration-for-jira-data-center/associating-project-permissions-gij-self-managed'>Project association permissions</a> to limit visibility between Jira projects.
+> <p style='margin-bottom:0px'>Please see <a href='/git-integration-for-jira-cloud/known-performance-limitations-gij-cloud'>Known performance limitations on Cloud</a> and <a href='/git-integration-for-jira-data-center/permissions-gij-self-managed'>Permissions</a> for details on how to limit visibility of GIJ panels/Data between Jira users.</p>
 
 &nbsp;
 ___

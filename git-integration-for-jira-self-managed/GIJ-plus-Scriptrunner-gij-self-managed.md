@@ -36,24 +36,15 @@ These scripts can be scheduled as a job or to be run on an issue transition with
 
 Which APIs or functions can be used while creating these scripts? See [ScriptRunner API quick reference](https://scriptrunner.adaptavist.com/latest/jira/behaviours-api-quickref.html) at Adaptavist.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The Git Integration for Jira app provides additional Java API (<a href='/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-GIJFacade-gij-self-managed'>GIJFacade interface</a>) allowing you to operate with git information. The API is close to <a href='/git-integration-for-jira-data-center/REST-API-gij-self-managed'>Git Integration for Jira REST API</a> and provides similar functionality (and more):<br>
-        <ul>
-            <li><b>Repositories</b> - get list of repositories connected, create/delete/update a repository</li>
-            <li><b>Integrations</b> - get list of integrations connected, create/delete/update an integration</li>
-            <li><b>Reindex</b> - start a reindex of repository/integration, check whether the reindex is finished</li>
-            <li><b>Commits</b> - get commits associated with an issue, change a commit issue association</li>
-            <li><b>Branches</b> - get branches associated with an issue, create/delete branch</li>
-            <li><b>Tags</b> - get tags associated with an issue</li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Tip:** The Git Integration for Jira app provides additional Java API (<a href='/git-integration-for-jira-data-center/scriptrunner-javadoc-git-services-GIJFacade-gij-self-managed'>GIJFacade interface</a>) allowing you to operate with git information. The API is close to <a href='/git-integration-for-jira-data-center/REST-API-gij-self-managed'>Git Integration for Jira REST API</a> and provides similar functionality (and more):<br>
+> <ul>
+> <li><b>Repositories</b> - get list of repositories connected, create/delete/update a repository</li>
+> <li><b>Integrations</b> - get list of integrations connected, create/delete/update an integration</li>
+> <li><b>Reindex</b> - start a reindex of repository/integration, check whether the reindex is finished</li>
+> <li><b>Commits</b> - get commits associated with an issue, change a commit issue association</li>
+> <li><b>Branches</b> - get branches associated with an issue, create/delete branch</li>
+> <li><b>Tags</b> - get tags associated with an issue</li>
+> </ul>
 
 <br>
 
@@ -167,16 +158,8 @@ Steps:
   
     In our case the last operation is `gijFacade.getCommitsForIssue("TST-4");` so the tab displays a list of commits associated with issue "TST-4.
   
-<div class="bbb-callout bbb--info">
-  <div class="irow">
-    <div class="ilogobox">
-      <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-      Please be aware that a brief information of the objects are logged by default. For instance, each commit object in the list contains much more information about a commit which can be acquired programmatically. See <a href='/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Commit-gij-self-managed/'>Commit</a> class javadocs to find a full list of information provided.
-    </div>
-  </div>
-</div>
+
+> **Info:** Please be aware that a brief information of the objects are logged by default. For instance, each commit object in the list contains much more information about a commit which can be acquired programmatically. See <a href='/git-integration-for-jira-data-center/scriptrunner-javadoc-git-rest-publicmodels-Commit-gij-self-managed/'>Commit</a> class javadocs to find a full list of information provided.
 
 &nbsp;
   

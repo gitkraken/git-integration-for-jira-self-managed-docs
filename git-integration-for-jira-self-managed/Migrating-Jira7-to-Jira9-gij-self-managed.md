@@ -34,17 +34,8 @@ After upgrading from Jira 8 to Jira 9, administrators must re-create all indexes
 
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small'>DATA CENTER</b> Upgrading to Jira 9 in a clustered Data Center configuration will involve some downtime on the primary node, This allows Jira 9 to generate and reindex versions for all issues, comments, and worklogs in the system while also performing a full foreground reindex. For minimal downtime upgrade procedure, See Atlassian upgrade tips – [Learn how to perform a minimal downtime upgrade to Jira 9.0](https://confluence.atlassian.com/jirakb/jira-8-to-jira-9-minimal-downtime-upgrade-1115137250.html).
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>From Atlassian:</b><br>
-        Legacy index snapshots are not compatible with Jira 9.0 and using them to restore the index may cause search consistency and performance issues. As such, we recommend that you delete the legacy snapshot directories and their content manually when the upgrade is completed.
-    </div>
-    </div>
-</div>
+> **Warning:** <b>From Atlassian:</b><br>
+> Legacy index snapshots are not compatible with Jira 9.0 and using them to restore the index may cause search consistency and performance issues. As such, we recommend that you delete the legacy snapshot directories and their content manually when the upgrade is completed.
 
 &nbsp;
 

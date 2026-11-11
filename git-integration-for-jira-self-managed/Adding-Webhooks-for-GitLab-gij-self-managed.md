@@ -42,16 +42,8 @@ custom_fields:
     </div>
 </div>
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Git Integration for Jira Data Center app now supports <b>GitLab System Hooks</b> (menu Admin Area ➜ System Hooks ➜ <i>Merge Request events</i>). However, it is only available for self-hosted GitLab instances. We highly recommend that Jira administrators should use this feature as it greatly reduces the amount of configuration time to setup webhooks.
-    </div>
-    </div>
-</div>
+> **Note:** Git Integration for Jira Data Center app now supports <b>GitLab System Hooks</b> (menu Admin Area ➜ System Hooks ➜ <i>Merge Request events</i>). However, it is only available for self-hosted GitLab instances. We highly recommend that Jira administrators should use this feature as it greatly reduces the amount of configuration time to setup webhooks.
+
 <br>
 <br>
 
@@ -64,16 +56,8 @@ custom_fields:
 </div>
 <br>
 
-<div class="bbb-callout bbb--error">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Before you can add a webhook to your favorite git repository, you need to enable it in the git repositories configuration page of your Jira Data Center/Server instance.
-    </div>
-    </div>
-</div>
+> **Danger:** Before you can add a webhook to your favorite git repository, you need to enable it in the git repositories configuration page of your Jira Data Center/Server instance.
+
 <br>
 
 Configure webhook by logging in to your GitLab account:

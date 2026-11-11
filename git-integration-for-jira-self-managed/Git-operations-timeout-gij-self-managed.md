@@ -26,27 +26,9 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed/'><b>General Settings</b></a> configuration page.
-    </div>
-    </div>
-</div>
+> **Info:** This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed/'><b>General Settings</b></a> configuration page.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>VERSION 4.0.1+</b><br> This setting is now moved to the <b>Advanced settings</b> in General settings.
-    </div>
-    </div>
-</div>
+> **Tip:** <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>VERSION 4.0.1+</b><br> This setting is now moved to the <b>Advanced settings</b> in General settings.
 
 <img src='/wp-content/uploads/gij-gitserver-gencfg-git-operations-timeout.png' style='display:block;margin:25px auto;max-width:100%' />
 

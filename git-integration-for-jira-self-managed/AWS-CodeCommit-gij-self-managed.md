@@ -26,16 +26,7 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/aws-codecommit-gij-cloud'>See the corresponding article</a>.
-    </div>
-    </div>
-</div>
+> **Info:** Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/aws-codecommit-gij-cloud'>See the corresponding article</a>.
 
 &nbsp;
 
@@ -47,39 +38,11 @@ custom_fields:
 
 AWS CodeCommit is a git host service by Amazon Web Services to store and manage source code, related files and private Git repositories in the cloud.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        You can use the AWS CLI or the AWS CodeCommit console to track and manage your repositories.
-    </div>
-    </div>
-</div>
+> **Tip:** You can use the AWS CLI or the AWS CodeCommit console to track and manage your repositories.
 
 &nbsp;
 
 Quickly learn how to connect AWS CodeCommit git repositories via Git Integration for Jira Data Center/Server.
-
-**What's on this page:**
-- [Integrate AWS CodeCommit with Jira Data Center/Server](#integrateaws-codecommit-with-jira-data-centerserver)
-  - [Required permissions](#required-permissions)
-    - [Basic features](#basic-features)
-    - [All features](#all-features)
-  - [Webhooks and triggers](#webhooks-and-triggers)
-  - [Using Full feature integration](#using-full-feature-integration)
-  - [Single repository (Manually connect via HTTP or HTTPS)](#single-repository-manually-connect-via-http-or-https)
-  - [Single repository integration (Manually connect via SSH)](#single-repository-integration-manually-connect-via-ssh)
-  - [Setting up AWS CodeCommit web links](#setting-up-aws-codecommit-web-links)
-  - [Viewing git commits in Jira Data Center/Server](#viewing-git-commits-in-jira-data-centerserver)
-  - [Working with branches and pull requests](#working-with-branches-and-pull-requests)
-    - [Default branch](#default-branch)
-    - [Creating branches](#creating-branches)
-    - [Creating branches with Require user PAT enabled](#creating-branches-with-require-user-pat-enabled)
-    - [Creating pull requests](#creating-pull-requests)
-    - [Creating pull request with Require user PAT setting enabled](#creating-pull-request-with-require-user-pat-setting-enabled)
-  - [Updating Require User PAT data](#updating-require-user-pat-data)
 
 &nbsp;
 * * *
@@ -87,17 +50,8 @@ Quickly learn how to connect AWS CodeCommit git repositories via Git Integration
 
 ### Required permissions
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>IMPORTANT!</b><br>
-        Before performing an AWS CodeCommit integration, make sure to configure the recommended permissions.
-    </div>
-    </div>
-</div>
+> **Warning:** <b>IMPORTANT!</b><br>
+> Before performing an AWS CodeCommit integration, make sure to configure the recommended permissions.
 
 The permissions detailed in the connect/Auto-connect wizard are necessary for specific features to work.
 
@@ -137,39 +91,12 @@ See [this article](/git-integration-for-jira-data-center/creating-personal-acce
 
 CodeCommit doesn't have webhooks but it has SNS triggers requiring a [**subscription confirmation »**](https://docs.aws.amazon.com/sns/latest/dg/SendMessageToHttp.html).
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For webhooks to work automatically, the IAM user used to setup the connection must have the <a href='#All-features'><i>configure webhooks automatically</i></a> permissions (<i>see Required permissions above – under IAM policy for</i> <u>all features</u>). If permissions has not been set, the repositories are connected but no webhooks are created.
-    </div>
-    </div>
-</div>
+> **Note:** For webhooks to work automatically, the IAM user used to setup the connection must have the <a href='#All-features'><i>configure webhooks automatically</i></a> permissions (<i>see Required permissions above – under IAM policy for</i> <u>all features</u>). If permissions has not been set, the repositories are connected but no webhooks are created.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        While the new UI is not fully functional in AWS CodeCommits, users are required to create triggers via the old UI or with the API.
-    </div>
-    </div>
-</div>
+> **Tip:** While the new UI is not fully functional in AWS CodeCommits, users are required to create triggers via the old UI or with the API.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Shorthand</b><br>
-        With an existing AWS CC repository, enable triggers then create an SNS topic and subscribe to that topic.
-    </div>
-    </div>
-</div>
+> **Info:** <b>Shorthand</b><br>
+> With an existing AWS CC repository, enable triggers then create an SNS topic and subscribe to that topic.
 
 For more information on Amazon SNS, see <a href='https://docs.aws.amazon.com/sns/latest/dg/sns-getting-started.html' target='_blank'><b>Amazon SNS: Getting Started »</b></a>.
 
@@ -289,16 +216,7 @@ If the connected git host has newly added repositories, the Git Integration for 
 
 ### Single repository (Manually connect via HTTP or HTTPS)
 
- <div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The <a href='/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed'>Require user personal access token</a> feature is not available for single repository connections with AWS CodeCommit.
-    </div>
-    </div>
-</div>
+> **Info:** The <a href='/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed'>Require user personal access token</a> feature is not available for single repository connections with AWS CodeCommit.
 
 Connect a single AWS CodeCommit repository manually to Jira via HTTP/HTTPS connection.
 
@@ -336,16 +254,7 @@ The repository is now connected to Jira Data Center/Server.
 </div>
 <br>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The <a href='/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed'>Require user personal access token</a> feature is not available with single repository connections for AWS CodeCommit.
-    </div>
-    </div>
-</div>
+> **Info:** The <a href='/git-integration-for-jira-data-center/require-personal-access-tokens-for-user-actions-create-branch-pull-request-gij-self-managed'>Require user personal access token</a> feature is not available with single repository connections for AWS CodeCommit.
 
 Connect a single AWS CodeCommit repository manually to Jira via SSH connection.
 
@@ -390,16 +299,7 @@ The Git Integration for Jira app automatically configures web linking for AWS Co
 
 ### Working with branches and pull requests
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This section requires the necessary permissions for <a href='#all-features'>all features</a>.
-    </div>
-    </div>
-</div>
+> **Warning:** This section requires the necessary permissions for <a href='#all-features'>all features</a>.
 
 The Git Integration for Jira app supports creation of branches and pull requests from Jira via the developer panel.
 
@@ -409,16 +309,7 @@ The Git Integration for Jira app supports creation of branches and pull requests
 
 Most git integrations allow changing of the default branch of the repository/project other than "master". This change is reflected in the  Repository Settings of the Git Integration for Jira app on the next reindex. Auto-connected integrations support this feature where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Main branch for repositories within an integration can only be changed on the git server.
-    </div>
-    </div>
-</div>
+> **Warning:** Main branch for repositories within an integration can only be changed on the git server.
 
 &nbsp;
 
@@ -508,16 +399,7 @@ The Setup your AWS Credentials dialog appears.
 
 Enter the required credentials then click **Update** to complete this setup. You can now proceed to create branches and pull requests for the selected repository.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If an invalid secret access key was configured for the selected repository, the branch and pull request creation process will fail.
-    </div>
-    </div>
-</div>
+> **Warning:** If an invalid secret access key was configured for the selected repository, the branch and pull request creation process will fail.
 
 &nbsp;
 

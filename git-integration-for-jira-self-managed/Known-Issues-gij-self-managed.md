@@ -128,16 +128,7 @@ _Reference:_ GIT-3977
 
 Pull requests changed before migration to v3.7 do not trigger [workflow hooks](https://github.com/BigBrassBand/jira-git-workflow-hooks).
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        We strongly suggest that you perform a "<b>Reindex All</b>" in the git manager page after the app upgrade to v3.7+.
-    </div>
-    </div>
-</div>
+> **Tip:** We strongly suggest that you perform a "<b>Reindex All</b>" in the git manager page after the app upgrade to v3.7+.
 
 _Reference:_ GIT-3989
 
@@ -183,17 +174,8 @@ The Custom API Path, `/users/<username>/starred`, could fail in returning the re
 
 Example error message:
 
-<div class="bbb-callout bbb--error">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Error!</b><br>
-        Caused by: org.eclipse.jgit.errors.TransportException: ...: git-upload-pack not permitted on ...
-    </div>
-    </div>
-</div>
+> **Danger:** <b>Error!</b><br>
+> Caused by: org.eclipse.jgit.errors.TransportException: ...: git-upload-pack not permitted on ...
 
 ### The Pull Request or Merge Request template is not used if it is created via GIJ
 

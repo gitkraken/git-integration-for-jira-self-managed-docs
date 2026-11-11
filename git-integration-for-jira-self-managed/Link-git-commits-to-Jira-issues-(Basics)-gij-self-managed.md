@@ -42,16 +42,7 @@ In the above example, the issue key **GIT-4322** text is inserted into a git c
 
 The git commit will get associated with the Jira issue if the commit message includes the exact issue ID. The Git Integration for Jira add-on will automatically index new commits and associate the referenced issue. For better readability, place the issue key text at the start of the commit message.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Only the commits that are <b>linked to Jira issues</b> will show on the Jira Activity Stream (not all commits in repositories).
-    </div>
-    </div>
-</div>
+> **Note:** Only the commits that are <b>linked to Jira issues</b> will show on the Jira Activity Stream (not all commits in repositories).
 
 &nbsp;
 

@@ -73,16 +73,7 @@ The repository is added and indexing should work.
 
 This setting affects how long will Git Integration for Jira app waits for connections performed during git clone and git fetch. We recommend to increase the time value if you have large repositories, and in some cases, when connecting to them mostly results in timeout.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If you have several large repositories and have a problem with exceeded timeout, we recommend that you use our <a href='/git-integration-for-jira-data-center/working-with-tracked-folders'>Tracked folders</a> feature to scan local folders at once and import repositories automatically.
-    </div>
-    </div>
-</div>
+> **Tip:** If you have several large repositories and have a problem with exceeded timeout, we recommend that you use our <a href='/git-integration-for-jira-data-center/working-with-tracked-folders'>Tracked folders</a> feature to scan local folders at once and import repositories automatically.
 
 &nbsp;
 * * *

@@ -36,24 +36,6 @@ custom_fields:
 
 Quickly learn how to connect Tracked Folders via Git Integration for Jira Data Center app.
 
-**What's on this page:**
-- [Integrate Tracked Folders with Jira Data Center](#integrate-tracked-folders-with-jira-data-center)
-  - [Limitations](#limitations)
-  - [Introduction](#introduction)
-  - [Connecting to a tracked folder](#connecting-to-a-tracked-folder)
-  - [Folder depth setting](#folder-depth-setting)
-  - [JMESPath filter setting](#jmespath-filter-setting)
-  - [Editing a tracked folder](#editing-a-tracked-folder)
-  - [Removing a tracked folder](#removing-a-tracked-folder)
-  - [Resetting index](#resetting-index)
-  - [Viewing tracked repositories](#viewing-tracked-repositories)
-  - [Reindexing a tracked folder](#reindexing-a-tracked-folder)
-  - [Viewing git commits in Jira Data Center](#viewing-git-commits-in-jira-data-center)
-  - [Jira administrators](#jira-administrators)
-    - [Solution 1](#solution-1)
-    - [Solution 2](#solution-2)
-  - [More Integration Guides](#more-integration-guides)
-
 &nbsp;
 * * *
 &nbsp;
@@ -70,16 +52,7 @@ Quickly learn how to connect Tracked Folders via Git Integration for Jira Data C
 *   Pull/merge requests are not indexed with this method.
 *   The create branch/pull request feature does not work.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The <b>Add tracked folder</b> feature requires that Jira and the git servers be on the same filesystem. Make sure that the user that Jira is running with has access permissions to the path with the git repositories.
-    </div>
-    </div>
-</div>
+> **Tip:** The <b>Add tracked folder</b> feature requires that Jira and the git servers be on the same filesystem. Make sure that the user that Jira is running with has access permissions to the path with the git repositories.
 
 &nbsp;
 

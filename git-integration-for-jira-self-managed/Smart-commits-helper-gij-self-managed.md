@@ -58,16 +58,7 @@ A smart commit helper indicator is displayed to the right of the user/commit aut
 
 *   for processed commits with ticket ID but without smart commit keyword when **Smart commits** setting is disabled for that repository.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        When <b>Smart commits</b> setting is <code>Disabled</code> for that repository, the Git Integration for Jira app will not show the COMMIT indicators.
-    </div>
-    </div>
-</div>
+> **Info:** When <b>Smart commits</b> setting is <code>Disabled</code> for that repository, the Git Integration for Jira app will not show the COMMIT indicators.
 
 &nbsp;
 
@@ -102,16 +93,7 @@ Refer to the commit message case examples below:
 | Commit3 | No status indicator. | No status indicator because it was marked as ignored. |
 | Commit4 | No status indicator. | No status indicator because it was marked as ignored. |
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The commit status shown on the Issue page depends on the <b>Smart commits</b> setting that was set at the time the commits were processed.
-    </div>
-    </div>
-</div>
+> **Note:** The commit status shown on the Issue page depends on the <b>Smart commits</b> setting that was set at the time the commits were processed.
 
 &nbsp;
 * * *

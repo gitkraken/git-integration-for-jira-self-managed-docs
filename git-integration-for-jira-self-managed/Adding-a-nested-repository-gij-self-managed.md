@@ -40,16 +40,7 @@ While, GitHub does not allow nested repositories (Git doesn't allow this for bar
 
 3.  Commit (`.gitmodules` and `\<sub_repo\>`), push and you're done.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The <code>git submodule add</code> command works on most Git services that supports it. Check with your Git service documentation on how to add a submodule.
-    </div>
-    </div>
-</div>
+> **Tip:** The <code>git submodule add</code> command works on most Git services that supports it. Check with your Git service documentation on how to add a submodule.
 
 &nbsp;
 

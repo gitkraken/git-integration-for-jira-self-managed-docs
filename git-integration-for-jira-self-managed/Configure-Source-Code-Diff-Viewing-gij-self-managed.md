@@ -30,35 +30,17 @@ custom_fields:
 
 By default - integrations (GitLab, GitHub, etc) and individual repositories have _Source Code Diff Viewing_ enabled. Jira administrators can disable all user's access to source code viewing by integration or individual repository.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Related features</b><br>
-        Enabling or disabling the <i>Source Code Diff Viewing</i> setting for an integration or repository will limit repository source code displaying in:
-        <ul style='margin-bottom:-10px'>
-            <li><b>Git Commits</b> issue tab: <b>View full commit</b> button is removed.</li>
-            <li><b>Git Roll Up</b> issue tab: <b>Diff</b> page: shows information message.</li>
-            <li><b>Repository Browser: Browse</b> page: shows information message.</li>
-            <li><b>Repository Browser: Compare</b> page: <b>View full commit</b> button is removed.</li>
-            <li><b>Git Commits</b> project tab: <b>View full commit</b> button is removed.</li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Info:** <b>Related features</b><br>
+> Enabling or disabling the <i>Source Code Diff Viewing</i> setting for an integration or repository will limit repository source code displaying in:
+> <ul style='margin-bottom:-10px'>
+> <li><b>Git Commits</b> issue tab: <b>View full commit</b> button is removed.</li>
+> <li><b>Git Roll Up</b> issue tab: <b>Diff</b> page: shows information message.</li>
+> <li><b>Repository Browser: Browse</b> page: shows information message.</li>
+> <li><b>Repository Browser: Compare</b> page: <b>View full commit</b> button is removed.</li>
+> <li><b>Git Commits</b> project tab: <b>View full commit</b> button is removed.</li>
+> </ul>
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Jira users must have the <b>View Development Tools</b> permission in the context of a Jira project to view content from the Git Integration for Jira app.
-    </div>
-    </div>
-</div>
+> **Warning:** Jira users must have the <b>View Development Tools</b> permission in the context of a Jira project to view content from the Git Integration for Jira app.
 
 &nbsp;
 

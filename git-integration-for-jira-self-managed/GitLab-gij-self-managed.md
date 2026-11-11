@@ -26,16 +26,7 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/gitlab-com-gij-cloud'>See the corresponding article</a>.
-    </div>
-    </div>
-</div>
+> **Info:** Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/gitlab-com-gij-cloud'>See the corresponding article</a>.
 
 &nbsp;
 
@@ -47,49 +38,16 @@ custom_fields:
 
 GitLab introduced personal access tokens (PAT) since version 8.8 and now (v10+) prefers this type of authentication for accessing the git repositories. Service users are strongly advised to switch from using username/password to using Personal Access Tokens (PAT) for GitLab.com.
 
-<div class="bbb-callout bbb--error">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>GitLab API</b><br>
-        Support for Gitlab API v3 is deprecated. We recommend to use <b>GitLab API v4</b> when adding new integrations for increased security.
-    </div>
-    </div>
-</div>
+> **Danger:** <b>GitLab API</b><br>
+> Support for Gitlab API v3 is deprecated. We recommend to use <b>GitLab API v4</b> when adding new integrations for increased security.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>GitLab legacy support</b><br>
-        Starting v4.19+, we will be dropping support for GitLab legacy integrations.<br>        
-    </div>
-    </div>
-</div>
+> **Warning:** <b>GitLab legacy support</b><br>
+> Starting v4.19+, we will be dropping support for GitLab legacy integrations.<br>
 
 &nbsp;
 
 Quickly learn how to connect GitLab.com git repositories via Git Integration for Jira app.
 
-**What's on this page:**
-- [Integrate GitLab.com with Jira Data Center/Server](#integrate-gitlabcom-with-jira-data-centerserver)
-  - [Permissions](#permissions)
-  - [Creating a personal access token](#creating-a-personal-access-token)
-    - [Group access tokens](#group-access-tokens)
-  - [Using Full feature integration](#using-full-feature-integration)
-  - [Single repository (Manual integration)](#single-repository-manual-integration)
-  - [Setting up GitLab web links](#setting-up-gitlab-web-links)
-  - [Viewing git commits in Jira Server](#viewing-git-commits-in-jira-server)
-  - [Working with branches and merge requests](#working-with-branches-and-merge-requests)
-    - [Default branch](#default-branch)
-    - [Creating branches](#creating-branches)
-    - [Merge request](#merge-request)
-  - [More Integration Guides](#more-integration-guides)
-  
 &nbsp;
 * * *
 &nbsp;
@@ -148,16 +106,7 @@ For more information, see [**GitLab Permissions »**](https://docs.gitlab.com/e
 
 ### Creating a personal access token
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If two-factor authentication is enabled for your GitLab account, you will need to create a PAT to access your git repositories. Enable two-factor authentication in your GitLab.com account for increased security.
-    </div>
-    </div>
-</div>
+> **Warning:** If two-factor authentication is enabled for your GitLab account, you will need to create a PAT to access your git repositories. Enable two-factor authentication in your GitLab.com account for increased security.
 
 While instructions from GitLab works just fine, [follow this article](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed#gitlab--gitlab-ceee) for some specific instructions to get you started.
 
@@ -254,16 +203,7 @@ There will be a slight delay in adding 2FA-enabled repositories compared to othe
 
 ### Single repository (Manual integration)
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.
-    </div>
-    </div>
-</div>
+> **Info:** This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.
 
 This process requires an existing GitLab git repository. Look for the GitLab repository URL on the repository project page.
 
@@ -323,16 +263,7 @@ For GitLab Group, the user must have the **Write** permissions and the `api`�
 
 Most git integrations allow changing of the default branch of the repository/project other than "master". This change is reflected in the Repository Settings of the Git Integration for Jira app on the next reindex. Full feature integrations support this function where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Main branch for repositories within an integration can only be changed on the git server.
-    </div>
-    </div>
-</div>
+> **Warning:** Main branch for repositories within an integration can only be changed on the git server.
 
 &nbsp;
 

@@ -26,43 +26,11 @@ custom_fields:
     page_type: "content"
 ---
 
-**What's on this page:**
-- [Introduction](#introduction)
-- [Getting started](#getting-started)
-- [Advanced setup](#advanced-setup)
-  - [Display Name](#display-name)
-  - [Cloned Repository Root](#cloned-repository-root)
-  - [Repository Settings](#repository-settings)
-    - [Enable Fetches](#enable-fetches)
-    - [Repository Origin](#repository-origin)
-    - [Main Branch](#main-branch)
-  - [Use HTTP(S) authentication](#use-https-authentication)
-  - [SSL Verify and TrustFolderStat](#ssl-verify-and-trustfolderstat)
-  - [Repository Settings: Advanced](#repository-settings-advanced)
-  - [Repository Browser](#repository-browser)
-  - [Tags](#tags)
-  - [Project Permissions](#project-permissions)
-  - [Commit view options](#commit-view-options)
-    - [Source Code Diff Viewing](#source-code-diff-viewing)
-    - [Smart Commits](#smart-commits)
-    - [Commit Notification Emails](#commit-notification-emails)
-  - [Web Linking](#web-linking)
-  - [Completing setup](#completing-setup)
-
 &nbsp;
 * * *
 &nbsp;
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The Git Integration for Jira app supports repositories that do not have a branch named "master".
-    </div>
-    </div>
-</div>
+> **Warning:** The Git Integration for Jira app supports repositories that do not have a branch named "master".
 
 &nbsp;
 
@@ -130,16 +98,7 @@ Fetches are enabled when the repository is hosted locally. In this mode, no fetc
 
 <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>REQUIRED</b> This is the URL to the hosted git service used on the project. For example, you might host your repository on GitHub, Beanstalk or your own server.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The repository origin may not be hosted on the same server as Jira.
-    </div>
-    </div>
-</div>
+> **Info:** The repository origin may not be hosted on the same server as Jira.
 
 The detection works for most repositories. If a repository root points to a valid git repository, the repository origin is detected automatically. When a repository has no origin, the user has to specify it manually.
 
@@ -151,17 +110,8 @@ Specified branch will intend to organize the git commit tab. A commit will not 
 
 When editing or updating repository settings, this field will allow a user to select from a list of available branches to assign as master for the selected repository configuration.
 
-<div class="bbb-callout bbb--basic">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <br><b>Default Main Branch</b><br>
-        Most git integrations allow changing of the default branch of the repository/project other than <code>master</code> at the server level. On each reindex, the Git Integration for Jira app will check/update the main branch value. This change is reflected in the Repository Settings. In the case of Gerrit, the default main branch is always <code>master</code>.
-    </div>
-    </div>
-</div>
+> **Note:** <br><b>Default Main Branch</b><br>
+> Most git integrations allow changing of the default branch of the repository/project other than <code>master</code> at the server level. On each reindex, the Git Integration for Jira app will check/update the main branch value. This change is reflected in the Repository Settings. In the case of Gerrit, the default main branch is always <code>master</code>.
 
 &nbsp;
 
@@ -180,16 +130,8 @@ Most git hosts provide HTTP access to git repositories. If this connection requi
 **SSL Verify**<br>
 This option is set to `Enabled` by default. If set to `Disabled`, the Git Integration for Jira app will ignore verification of SSL certificates when connecting to a git server.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The <b>SSL Verify</b> setting is available in both Jira Server, Data Center and Jira Cloud. This option is not available for non-fetched repositories.
-    </div>
-    </div>
-</div>
+> **Info:** The <b>SSL Verify</b> setting is available in both Jira Server, Data Center and Jira Cloud. This option is not available for non-fetched repositories.
+
 <br>
 
 **TrustFolderStat**<br>
@@ -197,28 +139,10 @@ When this setting is set to `False`, the `.git/objects/pack` folder will be a
 
 The default setting for Jira Server is `True`. For Jira Data Center, it would be `False`.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For repositories stored on a network share, it is highly recommended to set this setting to <code>False</code>.
-    </div>
-    </div>
-</div>
+> **Info:** For repositories stored on a network share, it is highly recommended to set this setting to <code>False</code>.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Jira Data Center</b><br>
-        When adding new repositories, we recommend to leave this setting to <code>False</code> (default for Data Center). You can change this setting later on via <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ <b>Edit repository settings</b> in the Manage repositories page.
-    </div>
-    </div>
-</div>
+> **Tip:** <b>Jira Data Center</b><br>
+> When adding new repositories, we recommend to leave this setting to <code>False</code> (default for Data Center). You can change this setting later on via <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ <b>Edit repository settings</b> in the Manage repositories page.
 
 &nbsp;
 
@@ -306,16 +230,7 @@ Set the desired value in minutes, as to when commit notifications will be sent.�
 
 The web linking feature adds links to your git hosting provider directly into the Git Commits tab.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For full feature integration connections (formerly Auto-Connect integration), web linking is automatically configured for most git hosts,
-    </div>
-    </div>
-</div>
+> **Info:** For full feature integration connections (formerly Auto-Connect integration), web linking is automatically configured for most git hosts,
 
 For more information about this option, see section, [Web linking](/git-integration-for-jira-data-center/web-linking-gij-self-managed).
 

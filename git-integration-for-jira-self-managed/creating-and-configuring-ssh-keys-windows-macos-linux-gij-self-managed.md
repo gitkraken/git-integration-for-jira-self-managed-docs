@@ -28,17 +28,6 @@ custom_fields:
 
 <!-- how tos -->
 
-**What's on this page:**
-- [Introduction](#introduction)
-- [Acquire SSH Git Repository URL](#acquire-ssh-git-repository-url)
-- [Generate SSH key pair (public and private key)](#generate-ssh-key-pair-public-and-private-key)
-- [Linux/MacOS](#linuxmacos)
-- [Windows](#windows)
-- [Add the public key to your git host](#add-the-public-key-to-your-git-host)
-- [Add the private key via Git Integration in Jira app](#add-the-private-key-via-git-integration-in-jira-app)
-- [Video Guide](#video-guide)
-- [More How-to articles](#more-how-to-articles)
-
 &nbsp;
 * * *
 &nbsp;
@@ -57,16 +46,7 @@ As a summary, you need to perform the following tasks in order to successfully i
 
 *   Add the private key by connecting your SSH git repositories via Git Integration for Jira app.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Native support for the edDSA SSH key format was introduced in Git Integration for Jira app version 4.0.3. However, edDSA won't work when reinstalling the app. A Jira restart would fix the issue. For the other workaround, see <a href='/git-integration-for-jira-data-center/edDSA-provider-not-supported-WARN-in-logs'>Can't add edDSA ssh key</a>.
-    </div>
-    </div>
-</div>
+> **Info:** Native support for the edDSA SSH key format was introduced in Git Integration for Jira app version 4.0.3. However, edDSA won't work when reinstalling the app. A Jira restart would fix the issue. For the other workaround, see <a href='/git-integration-for-jira-data-center/edDSA-provider-not-supported-WARN-in-logs'>Can't add edDSA ssh key</a>.
 
 &nbsp;
 
@@ -100,43 +80,17 @@ On Linux and MacOS, perform this command in Terminal to generate an SSH key in R
 ssh-keygen -t rsa -b 4096 -m pem -C "your_email@example.com"
 ```
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        MacOS often incorrectly creates an OpenSSH format certificate. For more details, see information on this <a href='https://serverfault.com/questions/939909/ssh-keygen-does-not-create-rsa-private-key' target='_blank'><b>common problem</b></a>.
-    </div>
-    </div>
-</div>
+> **Warning:** MacOS often incorrectly creates an OpenSSH format certificate. For more details, see information on this <a href='https://serverfault.com/questions/939909/ssh-keygen-does-not-create-rsa-private-key' target='_blank'><b>common problem</b></a>.
+
 <br>
 
 <img src='/wp-content/uploads/gij-example-linux-terminal-ssh-generate-pair.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 <br>
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For lost SSH passphrase in Linux, you will need to generate a new SSH key pair. There's no way to recover it.
-    </div>
-    </div>
-</div>
+> **Note:** For lost SSH passphrase in Linux, you will need to generate a new SSH key pair. There's no way to recover it.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For MacOS, if you configured your SSH passphrase with the password manager (Keychain), you may be able to recover it via Keychain Access.
-    </div>
-    </div>
-</div>
+> **Tip:** For MacOS, if you configured your SSH passphrase with the password manager (Keychain), you may be able to recover it via Keychain Access.
 
 &nbsp;
 
@@ -162,16 +116,7 @@ For Windows, we recommend to use <a href='https://www.putty.org/' target='_blank
 
 8.  Copy the generated key. This is the public key that will used on the SSH configuration page of your git host.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If you lose your SSH key passphrase, recovering it is impossible. You will need to generate a new SSH key pair and a new passphrase instead.
-    </div>
-    </div>
-</div>
+> **Tip:** If you lose your SSH key passphrase, recovering it is impossible. You will need to generate a new SSH key pair and a new passphrase instead.
 
 &nbsp;
 
