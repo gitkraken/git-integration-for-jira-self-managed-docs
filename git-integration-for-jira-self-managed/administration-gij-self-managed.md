@@ -23,10 +23,12 @@ custom_fields:
     nav_label: "Administration"
     nav_order: 100
     nav_parent: ""
-    page_type: "content"
+    page_type: "index"
 ---
 
 On this page are relevant articles targeted for administrators.
+
+---
 
 ## Related articles
 

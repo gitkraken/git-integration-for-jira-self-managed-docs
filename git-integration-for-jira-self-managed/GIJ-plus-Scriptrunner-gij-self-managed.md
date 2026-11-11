@@ -23,7 +23,10 @@ custom_fields:
     nav_label: "Git Integration + ScriptRunner"
     nav_order: 80
     nav_parent: "features-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "code"
+    card_color: "purple"
+    card_description: "Use ScriptRunner with the GIJFacade API to script Git actions in Jira, with example Groovy scripts for logging and workflow transitions"
 ---
 
 [ScriptRunner for Jira Data Center/Server](https://marketplace.atlassian.com/apps/6820/scriptrunner-for-jira?hosting=datacenter&tab=overview) is an app available on the Atlassian Marketplace that allows you to extend Jira functionality through the use of built-in and custom groovy scripts. It provides administrators with an in-line editor where you can write groovy scripts.

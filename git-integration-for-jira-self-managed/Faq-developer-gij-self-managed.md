@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 40
     nav_parent: "frequently-asked-questions-gij-self-managed"
     page_type: "content"
+    card_icon: "help-circle"
+    card_color: "purple"
+    card_description: "Answers to common developer questions on linking commits to Jira issues, auditing changes, moved issues, developer licenses and associating work after creation"
 ---
 
 This page contains solutions targeted for developers.

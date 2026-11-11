@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 50
     nav_parent: "integration-api-gij-self-managed"
     page_type: "content"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Delete an integration from the app configuration, and optionally its files, with a DELETE call to the Integration REST API"
 ---
 
 Deletes the existing integration from the Git Integration for Jira app repository configuration.

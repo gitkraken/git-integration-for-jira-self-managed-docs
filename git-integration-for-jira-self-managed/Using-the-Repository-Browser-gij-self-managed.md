@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 50
     nav_parent: "integration-basics-gij-self-managed"
     page_type: "content"
+    card_icon: "folder-open"
+    card_color: "green"
+    card_description: "Open the Repository Browser from the Git menu to explore connected repository contents, and enable or disable it per repository"
 ---
 
 The Repository Browser permits users to explore the repository similar to browsing a folder in Finder or Windows Explorer.

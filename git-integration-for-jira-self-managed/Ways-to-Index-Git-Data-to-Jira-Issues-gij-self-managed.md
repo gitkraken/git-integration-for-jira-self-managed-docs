@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 100
     nav_parent: "how-to-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "link"
+    card_color: "amber"
+    card_description: "Compare the ways commits, branches, pull requests and tags get associated with Jira issues, from commit messages to manual linking"
 ---
 
 There are several ways to associate git data to Jira issues:

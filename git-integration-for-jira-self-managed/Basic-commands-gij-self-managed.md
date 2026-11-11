@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "smart-commits-gij-self-managed"
     page_type: "content"
+    card_icon: "git-commit"
+    card_color: "blue"
+    card_description: "Learn the smart commit commands for comments, time logging, transitions, assignment, fix and affects versions and labels, with syntax and examples"
 ---
 
 There are smart commits commands that you can use in your commit messages. Read on to learn more details on each smart commit command and how they work.

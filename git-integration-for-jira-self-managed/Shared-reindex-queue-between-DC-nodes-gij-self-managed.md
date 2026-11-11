@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 110
     nav_parent: "features-gij-self-managed"
     page_type: "content"
+    card_icon: "server-2"
+    card_color: "purple"
+    card_description: "Learn how the shared reindex queue skips duplicate requests and throttles webhooks to improve indexing across Jira Data Center nodes"
 ---
 
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>GIT INTEGRATION: DATA CENTER</b>

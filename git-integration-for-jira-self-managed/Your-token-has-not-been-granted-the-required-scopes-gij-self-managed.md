@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 260
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "lock-access"
+    card_color: "red"
+    card_description: "Fix GitHub pull request indexing errors about insufficient token scopes by updating the personal access token with the extended scopes now required"
 ---
 
 <!-- TROUBLESHOOTING -->

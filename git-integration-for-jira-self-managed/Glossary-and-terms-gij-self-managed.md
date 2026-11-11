@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 270
     nav_parent: "documentation-gij-self-managed"
     page_type: "content"
+    card_icon: "vocabulary"
+    card_color: "blue"
+    card_description: "Look up definitions of Git and Jira terms used in the docs, such as branch, issue key, local repository clone, Lucene indexes and GitRevisionIndexerJob"
 ---
 
 ### Git

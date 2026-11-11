@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "linking-git-commits-to-jira-issues-gij-self-managed"
     page_type: "content"
+    card_icon: "link"
+    card_color: "blue"
+    card_description: "Add Jira issue keys and smart commit actions to existing commits with git notes, from the command line or with TortoiseGit, so they get indexed"
 ---
 
 The Git Integration for Jira app displays <a href='https://git-scm.com/docs/git-notes' target='_blank'>git notes</a> in the **Git Commits** tab:

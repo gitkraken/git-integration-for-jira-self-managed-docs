@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 260
     nav_parent: "documentation-gij-self-managed"
     page_type: "content"
+    card_icon: "language"
+    card_color: "blue"
+    card_description: "Switch Git Integration for Jira to German, Polish, French, Russian, Japanese, Chinese or Spanish through your Jira user profile language preference"
 ---
 
 Starting **v2.6.25+** of the Git Integration for Jira app, unicode characters are now supported and displayed properly.

@@ -23,7 +23,10 @@ custom_fields:
     nav_label: "Setting up repositories"
     nav_order: 60
     nav_parent: "documentation-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "database"
+    card_color: "blue"
+    card_description: "Find where to open the repository configuration page to connect and manage Git repositories and integrations in Git Integration for Jira Data Center"
 ---
 
 Setup repositories and manage them in the Git Integration app configuration in Jira.
@@ -37,6 +40,8 @@ Setup repositories and manage them in the Git Integration app configuration in J
 </div>
 
 &nbsp;
+
+---
 
 ### Introduction
 

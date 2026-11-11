@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "installation-gij-self-managed"
     page_type: "content"
+    card_icon: "download"
+    card_color: "blue"
+    card_description: "Manually install or update Git Integration for Jira Data Center by uploading a downloaded app JAR file from the Jira Manage apps page"
 ---
 
 > **Warning:** To manually update the <b>Git Integration for Jira app</b>, the user must have the <b>Jira System Administrators</b> <I>global permission</i>. If the user does not have this permission, the upload app and other system administration functions will not be available.

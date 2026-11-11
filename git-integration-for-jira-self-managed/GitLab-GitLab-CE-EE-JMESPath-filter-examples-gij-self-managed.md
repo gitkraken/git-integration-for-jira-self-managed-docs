@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "working-with-jmespath-filters-gij-self-managed"
     page_type: "content"
+    card_icon: "brand-gitlab"
+    card_color: "amber"
+    card_description: "Use example JMESPath expressions to filter GitLab.com and GitLab CE/EE projects by name, topic tags or empty repositories"
 ---
 
 ![](/wp-content/uploads/gitlab-mobile-custom1.png)

@@ -23,7 +23,7 @@ custom_fields:
     nav_label: "Hooks and Webhooks"
     nav_order: 110
     nav_parent: ""
-    page_type: "content"
+    page_type: "index"
 ---
 
 Welcome to the Git Integration for Jira app hooks and webhooks reference page index for Jira Data Center.

@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 50
     nav_parent: "features-gij-self-managed"
     page_type: "content"
+    card_icon: "list-check"
+    card_color: "purple"
+    card_description: "Monitor, filter, sort and manage indexing tasks in the Indexing queue viewer, including canceling tasks and viewing logs per node"
 ---
 
 <!-- FEATURES -->

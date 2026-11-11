@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "team-insights-for-jira-datacenter-gij-self-managed"
     page_type: "content"
+    card_icon: "chart-bar"
+    card_color: "blue"
+    card_description: "Set the GitHub and GitLab token permissions needed to show pull request timeline data from Git Integration for Jira in Team Insights for Jira"
 ---
 
 > **Warning:** This feature requires Git Integration for Jira DC app installed to be able to see pull request data in Team Insights for Jira.

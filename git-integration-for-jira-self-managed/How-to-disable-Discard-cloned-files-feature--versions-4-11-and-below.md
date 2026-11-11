@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 130
     nav_parent: "how-to-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "settings"
+    card_color: "amber"
+    card_description: "Fully disable the deprecated Discard cloned files setting on Windows or Linux while keeping integration settings, for app versions 4.11 and below"
 ---
 
 The Remove Discard files feature is deprecated and the purpose of this article is to guide you on how to completely disable this setting while preserving all integration settings such as project mapping, users' PATS and other integration settings.

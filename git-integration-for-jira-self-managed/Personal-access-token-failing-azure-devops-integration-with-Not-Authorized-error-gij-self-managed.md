@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 170
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "lock-access"
+    card_color: "red"
+    card_description: "Fix Not authorized errors with Azure DevOps by creating a personal access token for all accessible organizations with the required scopes"
 ---
 
 ### Problem

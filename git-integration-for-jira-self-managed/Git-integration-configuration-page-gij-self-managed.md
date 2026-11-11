@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "setting-up-repositories-gij-self-managed"
     page_type: "content"
+    card_icon: "database"
+    card_color: "blue"
+    card_description: "Learn what you can do on the Manage git repositories page: add integrations, connect repositories, bulk change, reindex and open webhooks"
 ---
 
 ![](/wp-content/uploads/gij-gitserver-manage-git-repo-screen.png)

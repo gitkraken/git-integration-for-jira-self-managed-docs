@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 60
     nav_parent: "general-settings-gij-self-managed"
     page_type: "content"
+    card_icon: "settings"
+    card_color: "amber"
+    card_description: "Choose which projects show the Git Commits issue and project tabs, set the commit sort order, and limit how many commits are displayed"
 ---
 
 <!-- GENERAL SETTINGS -->

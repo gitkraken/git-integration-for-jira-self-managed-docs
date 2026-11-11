@@ -23,7 +23,10 @@ custom_fields:
     nav_label: "Nested repository"
     nav_order: 40
     nav_parent: "setting-up-repositories-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "folders"
+    card_color: "blue"
+    card_description: "Learn what nested repositories and submodules are, the host permissions they need, their practical uses and their challenges"
 ---
 
 A nested repository is a Git repository that exists inside the working directory of another Git repository. In other words, it’s a repository within a repository. Each nested repository functions independently, with its own commit history, branches, and remote configurations.

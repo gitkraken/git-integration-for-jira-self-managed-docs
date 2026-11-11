@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 100
     nav_parent: "managing-repository-or-integration-configuration-gij-self-managed"
     page_type: "content"
+    card_icon: "database"
+    card_color: "blue"
+    card_description: "Delete an integration, repository or tracked folder from the Git Integration for Jira configuration list and optionally its cloned files"
 ---
 
 Delete a repository or integration if it isn't needed or is broken in the Git Integration for Jira app configuration list.

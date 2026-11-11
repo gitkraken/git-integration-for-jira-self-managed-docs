@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 70
     nav_parent: "setting-up-repositories-gij-self-managed"
     page_type: "content"
+    card_icon: "database"
+    card_color: "blue"
+    card_description: "Store a cloned repository outside the Jira home directory by using Advanced setup, moving the clone, or symlinking the git-plugin folder"
 ---
 
 There are three possible ways to setup a repository root that is not located in the Jira home directory:

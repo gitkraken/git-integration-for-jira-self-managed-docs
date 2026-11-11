@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 50
     nav_parent: "frequently-asked-questions-gij-self-managed"
     page_type: "content"
+    card_icon: "download"
+    card_color: "purple"
+    card_description: "Answers to common questions about installing Git Integration for Jira Data Center, what you need to get started and using developer licenses"
 ---
 This page contains solutions related to Git Integration for JIRA app installation.
 

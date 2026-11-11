@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 220
     nav_parent: "documentation-gij-self-managed"
     page_type: "content"
+    card_icon: "refresh"
+    card_color: "blue"
+    card_description: "Manually reindex all or individual repositories, reset indexes, and understand last indexed revisions, updatedDate changes and indexing errors"
 ---
 
 > **Warning:** <b>Permissions</b><br>

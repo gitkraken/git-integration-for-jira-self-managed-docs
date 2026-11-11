@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 130
     nav_parent: "getting-started-for-git-administrators-gij-self-managed"
     page_type: "content"
+    card_icon: "settings"
+    card_color: "blue"
+    card_description: "Save disk space by discarding files from cloned repositories in the Jira Home directory after indexing, using the General settings file mask options"
 ---
 
 <!-- getting started -->

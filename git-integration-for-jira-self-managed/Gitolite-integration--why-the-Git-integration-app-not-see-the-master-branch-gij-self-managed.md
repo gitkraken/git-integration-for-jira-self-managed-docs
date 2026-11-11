@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 110
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "folder-search"
+    card_color: "red"
+    card_description: "Fix Gitolite repositories on the Jira server that show No commits or missing branch errors by correcting file permissions and the UMASK setting"
 ---
 
 <!-- TROUBLESHOOTING -->

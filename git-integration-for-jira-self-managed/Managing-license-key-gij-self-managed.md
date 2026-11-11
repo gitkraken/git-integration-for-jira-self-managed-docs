@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "documentation-gij-self-managed"
     page_type: "content"
+    card_icon: "license"
+    card_color: "blue"
+    card_description: "Find your purchased or trial license key in My Atlassian and enter or update it for Git Integration for Jira in Jira Manage apps"
 ---
 
 In most cases, when a new license for an app is purchased, the new license key can be retrieved from Atlassian. Replace the trial license key with the purchased one in the **Manage apps** configuration page.

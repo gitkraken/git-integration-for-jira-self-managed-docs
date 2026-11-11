@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "frequently-asked-questions-gij-self-managed"
     page_type: "content"
+    card_icon: "git-pull-request"
+    card_color: "purple"
+    card_description: "Find out why Create branch and Create pull or merge request actions are missing in Jira issues and enable them with an Auto-Connect integration"
 ---
 
 ### Problem

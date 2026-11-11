@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "bulk-change-gij-self-managed"
     page_type: "content"
+    card_icon: "table-import"
+    card_color: "blue"
+    card_description: "Prepare SSH keys or credentials before a Bulk change import so SSH and HTTPS repositories can connect without storing passwords in the TSV file"
 ---
 
 ### SSH integration

@@ -23,10 +23,15 @@ custom_fields:
     nav_label: "Commits API"
     nav_order: 50
     nav_parent: "rest-api-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Find the Commits REST API endpoints for getting commits linked to an issue and reading or updating commit issue associations"
 ---
 
 Obtain commit information associated with an issue by calling the commits API.
+
+---
 
 ### Commits REST API
 

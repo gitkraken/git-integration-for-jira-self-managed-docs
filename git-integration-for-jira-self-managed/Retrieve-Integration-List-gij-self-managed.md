@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 70
     nav_parent: "integration-api-gij-self-managed"
     page_type: "content"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Get the list of connected integrations and their parameters with the Retrieve Integration List REST API"
 ---
 
 Retrieves the list of integrations and their respective parameter details from the git repository configuration.

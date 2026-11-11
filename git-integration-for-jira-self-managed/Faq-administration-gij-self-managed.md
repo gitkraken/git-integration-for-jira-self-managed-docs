@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 60
     nav_parent: "frequently-asked-questions-gij-self-managed"
     page_type: "content"
+    card_icon: "help-circle"
+    card_color: "purple"
+    card_description: "Answers to common administrator questions on repository browsing permissions, REST APIs, repository paths, self-signed SSL certificates and GitLab server setup"
 ---
 This page contains solutions targeted for administrators.
 

@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 40
     nav_parent: "working-with-jmespath-filters-gij-self-managed"
     page_type: "content"
+    card_icon: "brand-azure"
+    card_color: "amber"
+    card_description: "Use example JMESPath expressions to filter Azure Repos, VSTS and TFS repositories by name, project state or visibility"
 ---
 
 ![](/wp-content/uploads/azure2-logo.png)

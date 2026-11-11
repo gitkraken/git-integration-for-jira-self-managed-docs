@@ -23,6 +23,9 @@ custom_fields:
     nav_order: 80
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "gauge"
+    card_color: "red"
+    card_description: "Resolve the Dangerous use of multiple connections warning by tuning the Jira database connection pool size for larger instances"
 ---
 
 <!-- TROUBLESHOOTING -->

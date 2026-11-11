@@ -23,10 +23,12 @@ custom_fields:
     nav_label: "How-to articles"
     nav_order: 90
     nav_parent: ""
-    page_type: "content"
+    page_type: "index"
 ---
 
 Read through our collection of how-to guides which will show you the recommended process of working with the Git Integration for Jira app repository connection features.
+
+---
 
 ## See our in-depth how-to articles
 

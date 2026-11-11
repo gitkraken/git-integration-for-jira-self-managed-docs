@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 170
     nav_parent: "general-settings-gij-self-managed"
     page_type: "content"
+    card_icon: "settings"
+    card_color: "amber"
+    card_description: "Learn about the deprecated setting that deleted cloned repository files from the Jira home directory after indexing to save disk space"
 ---
 
 <b style='background-color:#FFEBE6; padding:1px 5px; color:#C02909; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>DEPRECATED</b>

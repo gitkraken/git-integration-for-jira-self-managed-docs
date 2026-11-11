@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 110
     nav_parent: "managing-repository-or-integration-configuration-gij-self-managed"
     page_type: "content"
+    card_icon: "folders"
+    card_color: "blue"
+    card_description: "Remove a standalone nested repository integration in GIJ 5.x and earlier, and choose whether to keep its cloned files on the Jira server"
 ---
 
 > **Note:** You can only remove a nested git repository settings if it’s a standalone integration.

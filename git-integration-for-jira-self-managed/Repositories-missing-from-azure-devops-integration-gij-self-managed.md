@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 200
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "brand-azure"
+    card_color: "red"
+    card_description: "Find out why Azure DevOps repositories are missing from an integration and fix user permissions, access level, or TFVC repository format"
 ---
 
 <!-- TROUBLESHOOTING -->

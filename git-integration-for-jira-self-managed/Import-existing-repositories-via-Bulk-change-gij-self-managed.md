@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "bulk-change-gij-self-managed"
     page_type: "content"
+    card_icon: "table-import"
+    card_color: "blue"
+    card_description: "Import a TSV file with Bulk change to update the settings of repositories already configured in Git Integration for Jira"
 ---
 For administrators who have several repositories, the Git Integration for Jira app allows you to import multiple repository configuration using a **.tsv** file. This will make managing large Git repository lists more efficient.
 

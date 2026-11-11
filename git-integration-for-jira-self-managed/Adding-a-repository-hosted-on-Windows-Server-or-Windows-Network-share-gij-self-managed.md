@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 60
     nav_parent: "setting-up-repositories-gij-self-managed"
     page_type: "content"
+    card_icon: "brand-windows"
+    card_color: "blue"
+    card_description: "Connect a git repository hosted on a Windows server or network share through the Connect wizard Advanced setup"
 ---
 
 <!-- setting up repo -->

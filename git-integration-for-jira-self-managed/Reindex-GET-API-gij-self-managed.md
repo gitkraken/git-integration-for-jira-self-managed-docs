@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "reindex-api-gij-self-managed"
     page_type: "content"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Track the messages and status of a reindex thread, for one repository or all, with the Reindex GET REST API"
 ---
 
 Use this method to track messages for a particular thread.

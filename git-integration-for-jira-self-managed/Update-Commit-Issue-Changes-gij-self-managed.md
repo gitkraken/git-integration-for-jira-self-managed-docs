@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "commits-api-gij-self-managed"
     page_type: "content"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Add or remove Jira issue associations for a commit with the Update Commit Issue Changes REST API and its changeStrs extension"
 ---
 
 Updates the list of issues associated with the commit to the specified repository.

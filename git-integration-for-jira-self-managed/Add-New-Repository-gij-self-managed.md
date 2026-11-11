@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "repository-api-gij-self-managed"
     page_type: "content"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Connect a new repository from the given settings with a POST call to the Repository REST API, including all request parameters and an example"
 ---
 
 Creates new repository from the given settings.

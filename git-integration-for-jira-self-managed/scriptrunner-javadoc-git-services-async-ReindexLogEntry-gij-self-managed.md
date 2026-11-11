@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 90
     nav_parent: "scriptrunner-javadoc-git-services-gijfacade-gij-self-managed"
     page_type: "content"
+    card_icon: "code"
+    card_color: "purple"
+    card_description: "ReindexLogEntry, the ScriptRunner API model for a reindex log message"
 ---
 
 * Package [com.bigbrassband.jira.git.services.async](#)

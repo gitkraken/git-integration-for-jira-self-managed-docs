@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 60
     nav_parent: "webhooks-gij-self-managed"
     page_type: "content"
+    card_icon: "brand-azure"
+    card_color: "green"
+    card_description: "Create Azure DevOps Server or TFS service hooks for code pushed and pull request events so Jira reindexes your repositories right away"
 ---
 
 > **Info:** Pull request webhooks are now supported. See <a href='#pull-request-webhooks'>details</a> on this page.

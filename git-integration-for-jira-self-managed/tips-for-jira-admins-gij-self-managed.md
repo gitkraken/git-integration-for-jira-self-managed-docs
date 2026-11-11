@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "administration-gij-self-managed"
     page_type: "content"
+    card_icon: "gauge"
+    card_color: "amber"
+    card_description: "Get Jira admin tips for indexing strategies, timeouts, bulk change, webhooks, REST APIs and tracked folders in Git Integration for Jira"
 ---
 
 Welcome, Jira administrators! In this page, you will be seeing some useful tips on how to get more productive using the Git Integration for Jira app.

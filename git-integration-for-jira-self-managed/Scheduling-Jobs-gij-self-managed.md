@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 70
     nav_parent: "administration-gij-self-managed"
     page_type: "content"
+    card_icon: "refresh"
+    card_color: "amber"
+    card_description: "Understand the repository reindexing and garbage collection jobs, recommended schedules, and how jobs run in Jira Data Center"
 ---
 
 <!-- ADMINISTRATION -->

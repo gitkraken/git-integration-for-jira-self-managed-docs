@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "git-integration-plus-jira-automation-gij-self-managed"
     page_type: "content"
+    card_icon: "robot"
+    card_color: "purple"
+    card_description: "Find Jira Automation templates and use cases for Git events such as commits, branches and pull requests, plus supported triggers"
 ---
 
 Let automation do the work while your developers focus on what’s important.  Automation Templates for Git Integration for Jira can be implemented so you never need to start from scratch. We’ve provided some templates we think are useful so you don't need to create your own automation rules from scratch.

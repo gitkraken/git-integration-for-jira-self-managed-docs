@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "working-with-jmespath-filters-gij-self-managed"
     page_type: "content"
+    card_icon: "brand-github"
+    card_color: "amber"
+    card_description: "Filter which repositories a GitHub App integration connects using JMESPath expressions that start with repositories[]"
 ---
 
 ![](/wp-content/uploads/gij-github-mobile-logo-dark.png)

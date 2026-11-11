@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "getting-started-guide-dc"
     page_type: "content"
+    card_icon: "rocket"
+    card_color: "purple"
+    card_description: "Plan your Git Integration for Jira setup: integration types, storage needs, indexing behavior and how to structure integrations to avoid rate limits"
 ---
 ## Integration Types
 ---

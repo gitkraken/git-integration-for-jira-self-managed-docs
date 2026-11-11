@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 150
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "refresh"
+    card_color: "red"
+    card_description: "Fix repositories that stop indexing with an IndexNotFoundException no segments file found error by running a full Jira system reindex"
 ---
 
 <!-- TROUBLESHOOTING -->

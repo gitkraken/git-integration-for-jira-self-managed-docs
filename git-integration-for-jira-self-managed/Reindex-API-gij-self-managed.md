@@ -23,10 +23,15 @@ custom_fields:
     nav_label: "Reindex API"
     nav_order: 40
     nav_parent: "rest-api-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Find the Reindex REST API endpoints for starting a reindex and tracking reindex progress"
 ---
 
 Call the Reindex REST API to have more control on indexing.
+
+---
 
 ### Reindex REST APIs
 

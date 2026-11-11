@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "nested-repository-gij-self-managed"
     page_type: "content"
+    card_icon: "folders"
+    card_color: "blue"
+    card_description: "Add a nested repository with git submodule and connect it, or an integration that contains nested repositories, in GIJ 5.x and earlier"
 ---
 
 ### Adding a nested repository with Git Submodule

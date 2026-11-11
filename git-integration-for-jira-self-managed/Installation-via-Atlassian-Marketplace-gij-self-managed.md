@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "installation-gij-self-managed"
     page_type: "content"
+    card_icon: "download"
+    card_color: "blue"
+    card_description: "Install Git Integration for Jira Data Center from the Atlassian Marketplace by buying it or starting a free 30-day trial"
 ---
 
 1.  Go to the [**Git Integration for Jira**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?tab=overview&hosting=datacenter) app Atlassian Marketplace page.

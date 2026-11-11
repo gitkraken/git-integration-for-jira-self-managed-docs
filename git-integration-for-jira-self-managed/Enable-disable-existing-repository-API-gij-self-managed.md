@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "repository-api-gij-self-managed"
     page_type: "content"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Enable or disable a connected repository by its ID with a PUT call to the Repository REST API"
 ---
 
 > **Warning:** Only Jira admins can perform the Enable/Disable Existing Repository API call.

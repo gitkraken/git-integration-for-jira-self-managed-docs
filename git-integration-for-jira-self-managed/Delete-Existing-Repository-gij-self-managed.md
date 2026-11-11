@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 60
     nav_parent: "repository-api-gij-self-managed"
     page_type: "content"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Remove a repository from the app configuration, and optionally delete its files, with a DELETE call to the Repository REST API"
 ---
 
 <!-- REST API -->

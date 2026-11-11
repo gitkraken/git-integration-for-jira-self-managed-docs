@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 90
     nav_parent: "integration-guides-gij-self-managed"
     page_type: "content"
+    card_icon: "brand-aws"
+    card_color: "green"
+    card_description: "Connect AWS CodeCommit repositories to Jira Data Center with IAM permissions, SNS triggers, and branch and pull request creation from Jira issues"
 ---
 
 > **Info:** Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/aws-codecommit-gij-cloud'>See the corresponding article</a>.

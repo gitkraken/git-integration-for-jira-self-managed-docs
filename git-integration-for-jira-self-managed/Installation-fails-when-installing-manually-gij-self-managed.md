@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 140
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "download"
+    card_color: "red"
+    card_description: "Fix a manual app installation that hangs or fails in the Universal Plugin Manager when a proxy or firewall limits request size"
 ---
 
 <!-- TROUBLESHOOTING -->

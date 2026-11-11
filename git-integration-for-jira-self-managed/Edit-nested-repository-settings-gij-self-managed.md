@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 60
     nav_parent: "managing-repository-or-integration-configuration-gij-self-managed"
     page_type: "content"
+    card_icon: "folders"
+    card_color: "blue"
+    card_description: "Edit a nested repository's settings in GIJ 5.x and earlier, including repository root, origin, main branch, SSL and feature options"
 ---
 
 ## Pre-GIJ version 5.x.x

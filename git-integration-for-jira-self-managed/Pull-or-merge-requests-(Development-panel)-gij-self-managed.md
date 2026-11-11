@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "jira-git-integration-development-panel-gij-self-managed"
     page_type: "content"
+    card_icon: "git-pull-request"
+    card_color: "blue"
+    card_description: "Create pull or merge requests from the Jira development panel, link them to issues through the title, and cancel pull request reindexing"
 ---
 
 The **Pull Requests** (GitHub or other connected git hosts) or **Merge Requests** (if GitLab is connected) section lists the merge/pull requests and their status. All merge/pull requests from all types of sources are shown here (for now, GitLab/GitHub/Azure/TFS/VSTS).

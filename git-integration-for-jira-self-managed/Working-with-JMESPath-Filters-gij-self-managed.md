@@ -23,7 +23,10 @@ custom_fields:
     nav_label: "Working with JMESPath Filters"
     nav_order: 60
     nav_parent: "how-to-articles-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "filter"
+    card_color: "amber"
+    card_description: "Learn what JMESPath filters are, where to set them on an integration, and find filter examples for each supported Git host"
 ---
 JMESPath is a query language for JSON used to filter API results and to limit which repositories are integrated.
 

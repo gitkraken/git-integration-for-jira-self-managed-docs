@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 120
     nav_parent: "getting-started-for-git-administrators-gij-self-managed"
     page_type: "content"
+    card_icon: "arrow-big-up-lines"
+    card_color: "blue"
+    card_description: "Upgrade Git Integration for Jira with minimal risk by backing up Jira, exporting repository configuration and SSH keys, or doing a clean reinstall"
 ---
 
 <!-- getting started -->

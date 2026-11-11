@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 40
     nav_parent: "webhooks-gij-self-managed"
     page_type: "content"
+    card_icon: "brand-gitlab"
+    card_color: "green"
+    card_description: "Add a GitLab project webhook for push and merge request events, or use GitLab system hooks on self-managed GitLab, to trigger reindexing"
 ---
 
 <div class="bbb-callout bbb--info">

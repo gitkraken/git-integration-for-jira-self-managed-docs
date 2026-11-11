@@ -23,10 +23,15 @@ custom_fields:
     nav_label: "Installation – Documentation"
     nav_order: 10
     nav_parent: "documentation-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "download"
+    card_color: "blue"
+    card_description: "Install Git Integration for Jira Data Center from the Atlassian Marketplace, the Jira plugin manager or by uploading the app manually"
 ---
 
 Install our product via the Atlassian Marketplace, Jira Plugin Manager or with manual installation (using the Upload method).
+
+---
 
 ### Getting started
 

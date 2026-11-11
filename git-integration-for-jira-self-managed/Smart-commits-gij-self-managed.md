@@ -23,7 +23,10 @@ custom_fields:
     nav_label: "Smart commits – Documentation"
     nav_order: 130
     nav_parent: "documentation-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "git-commit"
+    card_color: "blue"
+    card_description: "Use smart commits to log time, comment on and transition Jira issues from a commit message, and check the setup requirements to make them work"
 ---
 
 Smart commits allows your team to perform actions on Jira issues from a single commit. Users can enter the issue key and the desired action such as time tracking or closing an issue.

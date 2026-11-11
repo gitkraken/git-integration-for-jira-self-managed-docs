@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "smart-commits-gij-self-managed"
     page_type: "content"
+    card_icon: "git-commit"
+    card_color: "blue"
+    card_description: "See smart commit examples that combine actions and issues, including time logging, comments, resolving and multi-line commit messages"
 ---
 
 <!-- smart commits advanced examples -->

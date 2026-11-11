@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 50
     nav_parent: "setting-up-repositories-gij-self-managed"
     page_type: "content"
+    card_icon: "database"
+    card_color: "blue"
+    card_description: "Connect a pre-configured git repository through Advanced setup and set its root, origin, main branch, authentication, SSL, permissions and web linking"
 ---
 
 &nbsp;

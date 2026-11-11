@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "commit-email-notifications-gij-self-managed"
     page_type: "content"
+    card_icon: "mail"
+    card_color: "blue"
+    card_description: "Switch your Jira email notification format from text to HTML in user profile preferences so commit notification emails display in HTML"
 ---
 
 By default, Jira email notification format is text-only.

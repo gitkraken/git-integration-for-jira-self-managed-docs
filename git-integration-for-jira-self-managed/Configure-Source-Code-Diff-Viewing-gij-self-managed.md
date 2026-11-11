@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 70
     nav_parent: "how-to-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "file-diff"
+    card_color: "amber"
+    card_description: "Enable or disable source code diff viewing for an integration or an individual repository to control where users can see code in Jira"
 ---
 
 <!-- how to articles -->

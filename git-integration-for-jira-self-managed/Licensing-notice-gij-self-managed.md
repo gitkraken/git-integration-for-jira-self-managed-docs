@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 280
     nav_parent: "documentation-gij-self-managed"
     page_type: "content"
+    card_icon: "license"
+    card_color: "blue"
+    card_description: "Read the third-party BSD-style copyright and license notice for Atlassian code included in the Git Integration for Jira app"
 ---
 
 The **Git Integration for Jira** app contains some code that covers this license:

@@ -23,7 +23,10 @@ custom_fields:
     nav_label: "Jira Git integration development panel"
     nav_order: 190
     nav_parent: "documentation-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "layout-sidebar-right"
+    card_color: "blue"
+    card_description: "Use the Git integration development panel on Jira issues to see commits, branches and pull requests, refresh Git data and compare code between branches"
 ---
 
 > **Info:** This page applies to Git Integration for Jira Server and Jira Data Center.

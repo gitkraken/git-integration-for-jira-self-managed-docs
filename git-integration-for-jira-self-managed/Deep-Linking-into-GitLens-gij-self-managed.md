@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "deeplinking-feature-gij-self-managed"
     page_type: "content"
+    card_icon: "external-link"
+    card_color: "purple"
+    card_description: "Open repositories, commits, branches and tags from Jira into GitLens in VS Code, and turn GitLens deep links on or off for yourself or all users"
 ---
 
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b>

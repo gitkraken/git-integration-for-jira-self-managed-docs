@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 80
     nav_parent: "integration-guides-gij-self-managed"
     page_type: "content"
+    card_icon: "brand-azure"
+    card_color: "green"
+    card_description: "Connect Azure DevOps Server or TFS repositories to Jira Data Center using personal access tokens, then link commits and create branches and pull requests"
 ---
 
 > **Tip:** Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs-gij-cloud'>See the corresponding article</a>.

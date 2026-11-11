@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 70
     nav_parent: "managing-repository-or-integration-configuration-gij-self-managed"
     page_type: "content"
+    card_icon: "shield-lock"
+    card_color: "blue"
+    card_description: "Find where to set the SSL Verify option for new and existing repositories and integrations, and what disabling it does"
 ---
 
 This feature can be accessed at the following locations on the Manage Git repositories page:

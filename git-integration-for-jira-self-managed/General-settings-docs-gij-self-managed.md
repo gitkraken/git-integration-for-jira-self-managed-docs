@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 90
     nav_parent: "documentation-gij-self-managed"
     page_type: "content"
+    card_icon: "settings"
+    card_color: "blue"
+    card_description: "Open the General settings page, available only to Jira administrators, to enable or disable Git Integration for Jira features and tune performance"
 ---
 
 The General settings page is only accessible to Jira Administrators.

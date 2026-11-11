@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 80
     nav_parent: "administration-gij-self-managed"
     page_type: "content"
+    card_icon: "gauge"
+    card_color: "amber"
+    card_description: "Estimate how much memory to allocate to Jira for large repositories, based on JGit index sizes, to avoid OutOfMemory errors"
 ---
 
 <!-- ADMINISTRATION -->

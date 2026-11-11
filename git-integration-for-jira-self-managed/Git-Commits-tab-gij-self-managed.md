@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "jira-issue-page-gij-self-managed"
     page_type: "content"
+    card_icon: "git-commit"
+    card_color: "blue"
+    card_description: "Read commit details on the Git Commits tab of a Jira issue, including authors, branches, code diffs, web links and Open in GitKraken or GitLens"
 ---
 
 The Git Commits tab shows commit information such as commit authors, date of commit, commit messages, access to view code diffs, commit id and view full commit.

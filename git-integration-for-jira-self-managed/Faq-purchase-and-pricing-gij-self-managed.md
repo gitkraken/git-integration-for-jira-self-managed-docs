@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 140
     nav_parent: "frequently-asked-questions-gij-self-managed"
     page_type: "content"
+    card_icon: "license"
+    card_color: "purple"
+    card_description: "Learn how to try or buy Git Integration for Jira, which payment methods are accepted and how to estimate pricing after the trial"
 ---
 
 This page contains related questions about trial or purchase of Git Integration for Jira app and accepted payment methods.

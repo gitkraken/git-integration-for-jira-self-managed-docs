@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 50
     nav_parent: "repository-api-gij-self-managed"
     page_type: "content"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Update the editable settings of a nested repository within an integration with a PUT call to the Repository REST API"
 ---
 
 Updates the existing nested repository using the REST API.

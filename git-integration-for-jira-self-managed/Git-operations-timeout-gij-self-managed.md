@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 180
     nav_parent: "general-settings-gij-self-managed"
     page_type: "content"
+    card_icon: "settings"
+    card_color: "amber"
+    card_description: "Set how many seconds Git Integration for Jira waits for git clone and git fetch connections before timing out"
 ---
 
 > **Info:** This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed/'><b>General Settings</b></a> configuration page.

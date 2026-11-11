@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "bulk-change-gij-self-managed"
     page_type: "content"
+    card_icon: "table-import"
+    card_color: "blue"
+    card_description: "Export your Git Integration for Jira repository configuration to a TSV file with Bulk change to create a backup"
 ---
 ![](/wp-content/uploads/gij-gitserver-gitcfg-bulk-change-menu-export.png)
 

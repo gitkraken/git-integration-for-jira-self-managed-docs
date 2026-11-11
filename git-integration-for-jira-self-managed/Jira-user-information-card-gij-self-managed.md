@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 170
     nav_parent: "documentation-gij-self-managed"
     page_type: "content"
+    card_icon: "user"
+    card_color: "blue"
+    card_description: "See where the Jira user information card appears for commit authors in Git Integration for Jira and what details and actions it offers"
 ---
 The Jira user card is available on the following screens:
 

@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 110
     nav_parent: "how-to-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "shield-lock"
+    card_color: "amber"
+    card_description: "Configure Jira HTTP and HTTPS proxy parameters for Git host integrations and check whether connections go through a proxy"
 ---
 
 <!-- how to -->

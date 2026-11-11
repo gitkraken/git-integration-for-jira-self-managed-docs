@@ -23,7 +23,7 @@ custom_fields:
     nav_label: "Frequently Asked Questions"
     nav_order: 130
     nav_parent: ""
-    page_type: "content"
+    page_type: "index"
 ---
 
 Find answers to questions asked by Git Integration for Jira app users, workarounds and solutions to help you get up and running.  Click a topic title to view its contents or search through the related topics.

@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 60
     nav_parent: "bulk-change-gij-self-managed"
     page_type: "content"
+    card_icon: "table-import"
+    card_color: "blue"
+    card_description: "Remove multiple repositories at once by marking them for deletion in the Bulk change TSV file and importing it"
 ---
 
 To delete multiple repositories from the Git Integration for Jira app git repository/integration configuration:

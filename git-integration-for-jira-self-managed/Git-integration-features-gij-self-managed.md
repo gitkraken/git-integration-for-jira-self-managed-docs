@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 70
     nav_parent: "general-settings-gij-self-managed"
     page_type: "content"
+    card_icon: "settings"
+    card_color: "amber"
+    card_description: "Enable or disable GitKraken and GitLens deep links, Last Updated changes, the development panel, Git tags, JQL search and the activity stream"
 ---
 
 > **Info:** This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'><b>General Settings</b></a> configuration page.

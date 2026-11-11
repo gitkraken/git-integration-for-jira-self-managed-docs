@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "deeplinking-feature-gij-self-managed"
     page_type: "content"
+    card_icon: "external-link"
+    card_color: "purple"
+    card_description: "Open repositories, commits, branches and tags from Jira into the GitKraken Git client, and turn GitKraken deep links on or off"
 ---
 
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b>

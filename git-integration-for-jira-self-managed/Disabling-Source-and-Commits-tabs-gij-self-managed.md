@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 110
     nav_parent: "documentation-gij-self-managed"
     page_type: "content"
+    card_icon: "git-commit"
+    card_color: "blue"
+    card_description: "Hide the FishEye Source tab and the Jira DVCS Connector Commits tab from Jira issue pages by disabling their plugins in Manage apps"
 ---
 
 The **Source** tab is part of the FishEye Plugin and is used for integration with SVN.  The **Commits** tab is part of the Jira DVCS Connector Plugin and is used for integration with gits _(Git, Mercurial, BitBucket etc.)_.

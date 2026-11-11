@@ -23,12 +23,17 @@ custom_fields:
     nav_label: "Commit email notifications"
     nav_order: 80
     nav_parent: "documentation-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "mail"
+    card_color: "blue"
+    card_description: "See the permissions needed to receive commit email notifications and where to configure them in General settings, repository settings and your user profile"
 ---
 
 This setting allows an individual user to receive or to stop receiving any of the notification emails.
 
 &nbsp;
+
+---
 
 ## Permissions
 

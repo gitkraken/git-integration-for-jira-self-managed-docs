@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 80
     nav_parent: "getting-started-for-git-administrators-gij-self-managed"
     page_type: "content"
+    card_icon: "world-www"
+    card_color: "blue"
+    card_description: "Configure web linking so commits in the Git Commits tab link to your Git host, with a video for GitHub and GitLab setups"
 ---
 
 <!-- getting started -->

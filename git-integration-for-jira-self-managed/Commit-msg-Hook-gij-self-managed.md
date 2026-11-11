@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "hooks-and-webhooks-gij-self-managed"
     page_type: "content"
+    card_icon: "terminal-2"
+    card_color: "green"
+    card_description: "Install the commit-msg client-side hook, a Python script that rejects local commits whose messages lack a valid Jira issue key"
 ---
 
 Every developer must have this hook on his local machine in order to:

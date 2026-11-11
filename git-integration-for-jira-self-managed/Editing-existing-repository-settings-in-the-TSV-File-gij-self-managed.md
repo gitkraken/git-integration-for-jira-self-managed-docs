@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 50
     nav_parent: "bulk-change-gij-self-managed"
     page_type: "content"
+    card_icon: "table-import"
+    card_color: "blue"
+    card_description: "Edit the Bulk change TSV file to update repository settings, with a field-by-field reference for id, origin, project mapping, web links and more"
 ---
 Navigate to the .tsv file and edit it with your favorite spreadsheet program.
 

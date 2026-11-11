@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 70
     nav_parent: "rest-api-gij-self-managed"
     page_type: "content"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Get the latest Git tags associated with a Jira issue, per repository, with the Tags REST API"
 ---
 
 The Tag REST API returns several latest tags for the issue.  Tags are sorted in chronological order from newest to oldest.

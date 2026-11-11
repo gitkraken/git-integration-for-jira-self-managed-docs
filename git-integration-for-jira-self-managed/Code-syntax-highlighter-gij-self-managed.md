@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "jira-issue-page-gij-self-managed"
     page_type: "content"
+    card_icon: "file-diff"
+    card_color: "blue"
+    card_description: "See which file extensions get syntax highlighting in the code diff dialog and which browsers are supported for the feature"
 ---
 
 The code diff dialog view has been improved. The Git Integration for Jira app uses the correct syntax highlighting when viewing the code diff of the file based on its file extension:

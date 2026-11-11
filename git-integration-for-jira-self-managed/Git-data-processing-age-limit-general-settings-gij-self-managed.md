@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 190
     nav_parent: "general-settings-gij-self-managed"
     page_type: "content"
+    card_icon: "settings"
+    card_color: "amber"
+    card_description: "Set the maximum age in days for commits and pull or merge requests that Git Integration for Jira processes for smart commits and scripts"
 ---
 
 > **Info:** This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'>General Settings</a> configuration page.

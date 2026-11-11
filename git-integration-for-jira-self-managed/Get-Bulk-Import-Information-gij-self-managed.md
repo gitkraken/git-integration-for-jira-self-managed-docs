@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "bulk-change-api-gij-self-managed"
     page_type: "content"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Check the progress and status messages of a bulk import thread with the Get Bulk Import Information REST API"
 ---
 
 Obtains information about the importing thread. Use the following path format to access bulk import information.

@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 110
     nav_parent: "setting-up-repositories-gij-self-managed"
     page_type: "content"
+    card_icon: "lock"
+    card_color: "blue"
+    card_description: "Restrict which Jira projects can see development information from a repository or integration by setting project associations"
 ---
 
 Integrations and/or repositories can be associated with one or more Jira projects to restrict which users can view development information. All newly-connected repositories or integrations are associated with all Jira projects by default.

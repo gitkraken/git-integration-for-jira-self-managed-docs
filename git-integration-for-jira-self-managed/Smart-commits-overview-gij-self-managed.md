@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 120
     nav_parent: "features-gij-self-managed"
     page_type: "content"
+    card_icon: "git-commit"
+    card_color: "purple"
+    card_description: "Get an overview of smart commits, their basic syntax and the configuration requirements for acting on Jira issues from commit messages"
 ---
 
 ### Introduction

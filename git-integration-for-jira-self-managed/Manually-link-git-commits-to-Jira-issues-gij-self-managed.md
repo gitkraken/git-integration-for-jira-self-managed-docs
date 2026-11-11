@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "linking-git-commits-to-jira-issues-gij-self-managed"
     page_type: "content"
+    card_icon: "link"
+    card_color: "blue"
+    card_description: "Manually add, edit or remove the Jira issues associated with a git commit using the Change commit issues dialog"
 ---
 
 <div class='embed-container embed-container--16-10'>

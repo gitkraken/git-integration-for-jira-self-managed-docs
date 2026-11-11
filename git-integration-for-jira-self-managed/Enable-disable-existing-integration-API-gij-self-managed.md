@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "integration-api-gij-self-managed"
     page_type: "content"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Enable or disable a connected integration by its ID with a PUT call to the Integration REST API"
 ---
 
 > **Warning:** Only Jira admins can perform the Enable/Disable Existing Integration API call.

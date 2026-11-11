@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 40
     nav_parent: "smart-commits-gij-self-managed"
     page_type: "content"
+    card_icon: "git-commit"
+    card_color: "blue"
+    card_description: "Find the transition names to use in smart commits by viewing an issue's workflow, and learn how names are shortened and kept unique"
 ---
 
 > **Warning:** Accessing the View workflow feature on the Issue page requires a user or user group to have the <b>View Read-Only Workflow</b> project permissions.

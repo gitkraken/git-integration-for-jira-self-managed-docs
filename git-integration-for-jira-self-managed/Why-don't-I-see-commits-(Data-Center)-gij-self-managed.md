@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "frequently-asked-questions-gij-self-managed"
     page_type: "content"
+    card_icon: "link"
+    card_color: "purple"
+    card_description: "Follow a step-by-step checklist to find out why commits are not showing in Jira, from app license and repository status to issue keys and permissions"
 ---
 
 <img src='/wp-content/uploads/gij-troubleshoot-how-do-i-see-commits-top.png' style='margin:25px auto;max-width:100%;display:block;' />

@@ -23,7 +23,10 @@ custom_fields:
     nav_label: "Jira issue page"
     nav_order: 180
     nav_parent: "documentation-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "layout-sidebar-right"
+    card_color: "blue"
+    card_description: "See the Git tabs and panel features added to each Jira issue page, including Git Roll Up, Git Commits, branches, pull requests and tags"
 ---
 
 If the Git Integration for Jira app is configured and licensed successfully, new tabs are added to each Jira issue.
@@ -38,6 +41,8 @@ Also, users should be able to see available features in the Jira issue page.
 ![](/wp-content/uploads/gij-gitserver-jira-issue-page-sample-419.png)
 
 <br>
+
+---
 
 | Label | Description |
 | :--- | :--- |

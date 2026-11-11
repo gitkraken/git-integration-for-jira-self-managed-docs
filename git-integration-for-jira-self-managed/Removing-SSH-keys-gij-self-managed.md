@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 60
     nav_parent: "working-with-ssh-keys-gij-self-managed"
     page_type: "content"
+    card_icon: "key"
+    card_color: "blue"
+    card_description: "Delete an SSH key from the app configuration and learn what happens to repositories that referenced it"
 ---
 
 SSH keys cannot be modified or updated. To change the keys, remove and add them again.

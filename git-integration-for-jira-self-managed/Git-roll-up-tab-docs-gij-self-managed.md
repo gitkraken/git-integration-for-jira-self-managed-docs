@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "jira-issue-page-gij-self-managed"
     page_type: "content"
+    card_icon: "list-details"
+    card_color: "blue"
+    card_description: "Use the Git Roll Up tab on a Jira issue to view commit statistics, compare base and compare versions, see diffs and list related issues"
 ---
 
 <!-- jira issue page - git roll up tab documentation -->

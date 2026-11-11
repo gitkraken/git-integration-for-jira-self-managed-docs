@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "scriptrunner-javadoc-git-services-gijfacade-gij-self-managed"
     page_type: "content"
+    card_icon: "code"
+    card_color: "purple"
+    card_description: "IntegrationRequest, the object holding integration properties and settings for creating or updating integrations through the ScriptRunner API"
 ---
 
 * Package [com.bigbrassband.jira.git.rest.integration](#)

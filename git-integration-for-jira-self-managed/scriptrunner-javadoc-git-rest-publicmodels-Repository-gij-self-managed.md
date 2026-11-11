@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 50
     nav_parent: "scriptrunner-javadoc-git-services-gijfacade-gij-self-managed"
     page_type: "content"
+    card_icon: "code"
+    card_color: "purple"
+    card_description: "Repository, the ScriptRunner API model for a connected repository and its settings, with every getter and setter"
 ---
 
 * Package [com.bigbrassband.jira.git.rest.publicmodels](#)

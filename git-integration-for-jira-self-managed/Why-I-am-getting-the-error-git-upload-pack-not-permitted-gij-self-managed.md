@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 40
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "database"
+    card_color: "red"
+    card_description: "Fix git-upload-pack not permitted errors by checking credentials, access permissions and proxy settings, and by comparing JGit debug logs with git output"
 ---
 
 You are getting this error because of wrong login credentials or a permission issue.

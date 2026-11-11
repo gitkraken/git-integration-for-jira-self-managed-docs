@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 70
     nav_parent: "getting-started-for-git-administrators-gij-self-managed"
     page_type: "content"
+    card_icon: "refresh"
+    card_color: "blue"
+    card_description: "Set the automatic reindex interval in General settings and compare it with the last run duration in the indexing queue to improve Jira performance"
 ---
 
 The configuration of the scheduler jobs are no longer accessible in the Jira administration page. For this case, the Git Integration for Jira app offers Jira administrators this capability via the [General settings](/git-integration-for-jira-data-center/general-settings-gij-self-managed) page.

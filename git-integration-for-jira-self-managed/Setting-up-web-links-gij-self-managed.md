@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 60
     nav_parent: "integration-basics-gij-self-managed"
     page_type: "content"
+    card_icon: "world-www"
+    card_color: "green"
+    card_description: "Learn when web links are configured automatically and when to set them up for single repository connections"
 ---
 
 The Git Integration for Jira app automatically configures web linking for GitHub git repositories.

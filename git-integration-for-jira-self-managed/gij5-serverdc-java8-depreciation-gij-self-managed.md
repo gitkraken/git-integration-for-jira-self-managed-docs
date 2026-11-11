@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "administration-gij-self-managed"
     page_type: "content"
+    card_icon: "file-certificate"
+    card_color: "amber"
+    card_description: "Learn why Git Integration for Jira v5.0 drops Java 8 support, which Jira versions are affected, and how to move to a newer Java"
 ---
 
 The document explains the importance of updating the Java platform to a newer version. It emphasizes the reasons behind our decision to make this move, which includes prioritizing security, enhancing performance, and ensuring compatibility improvements. Updating Java is crucial for maintaining a secure and efficient software environment.

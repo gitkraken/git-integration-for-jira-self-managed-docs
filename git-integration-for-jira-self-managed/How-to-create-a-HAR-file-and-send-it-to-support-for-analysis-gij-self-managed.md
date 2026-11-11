@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "how-to-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "lifebuoy"
+    card_color: "amber"
+    card_description: "Capture a HAR file in Google Chrome when an error appears and send it to GitKraken support for analysis"
 ---
 
 HAR (HTTP Archive) is basically a JSON file which is exported from a captured data used by several HTTP session tools. We use this file to analyze report data and debugging errors. This way, we may be able to reproduce your issue from our side. We ensure that all the data sent to us will only be used within our scope.

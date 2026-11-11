@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "commit-email-notifications-gij-self-managed"
     page_type: "content"
+    card_icon: "mail"
+    card_color: "blue"
+    card_description: "Receive commit email notifications by watching issues or repositories, and get notified of your own commits with the My Changes preference"
 ---
 
 The user will get notifications when watching an issue or repository. The user will receive repository commit notifications if that repository is being watched by the user. If the user watches an issue, any commit related to the issue will be sent to that user as notifications.

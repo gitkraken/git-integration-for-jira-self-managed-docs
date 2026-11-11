@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "setting-up-repositories-gij-self-managed"
     page_type: "content"
+    card_icon: "database"
+    card_color: "blue"
+    card_description: "Connect a single git repository with the Connect wizard, including settings, HTTP(S) and SSH authentication and passphrase entry"
 ---
 
 This page is intended for users who are using SSH connections or those who wanted to only connect a single specific repository.

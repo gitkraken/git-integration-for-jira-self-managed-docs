@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 60
     nav_parent: "working-with-jmespath-filters-gij-self-managed"
     page_type: "content"
+    card_icon: "filter"
+    card_color: "amber"
+    card_description: "Use example JMESPath expressions to include or exclude Gerrit repositories by name when adding a Gerrit integration"
 ---
 
 ![](/wp-content/uploads/gerrit-banner-logo.png)

@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 40
     nav_parent: "getting-started-for-git-administrators-gij-self-managed"
     page_type: "content"
+    card_icon: "brand-windows"
+    card_color: "blue"
+    card_description: "Connect a Git repository hosted on a Windows server or network share, set Enable Fetches correctly and verify the path by cloning it"
 ---
 
 Add a new network share or Windows server hosted repository via the Connect to Git Repository wizard.

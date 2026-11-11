@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 240
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "shield-lock"
+    card_color: "red"
+    card_description: "Fix TFS Not authorized errors when Jira runs behind a proxy by configuring JVM proxy settings and adding the Git server to nonProxyHosts"
 ---
 
 ### Problem

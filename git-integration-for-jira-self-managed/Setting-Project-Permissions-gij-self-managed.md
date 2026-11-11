@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "how-to-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "lock"
+    card_color: "amber"
+    card_description: "Limit which Jira projects are associated with an integration or repository to control where Git content is shown"
 ---
 
 <!-- HOW TO ARTICLES -->

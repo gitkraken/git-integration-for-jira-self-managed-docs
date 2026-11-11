@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 90
     nav_parent: "frequently-asked-questions-gij-self-managed"
     page_type: "content"
+    card_icon: "key"
+    card_color: "purple"
+    card_description: "Learn how to create SSH keys on Windows, macOS and Linux, add them to your Git host and Jira, and connect SSH Git repositories to Jira"
 ---
 
 This page contains related questions on Git Integration for Jira app SSH connections in Jira.

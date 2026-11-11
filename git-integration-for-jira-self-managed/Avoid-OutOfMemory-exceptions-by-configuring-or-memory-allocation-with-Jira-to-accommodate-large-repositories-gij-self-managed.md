@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 50
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "gauge"
+    card_color: "red"
+    card_description: "Fix OutOfMemory errors when cloning, reindexing or running Git GC on large repositories by increasing the memory allocated to Jira"
 ---
 
 ### Story

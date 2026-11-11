@@ -23,8 +23,11 @@ custom_fields:
     nav_label: "Admin Getting Started Guide"
     nav_order: 20
     nav_parent: ""
-    page_type: "content"
+    page_type: "index"
     nav_also: ["getting-started-guide-dc|10|Admin Getting Started Guide"]
+    card_icon: "rocket"
+    card_color: "purple"
+    card_description: "Start here as a Jira admin to learn what Git Integration for Jira Data Center shows in Jira issues and which security policies to consider before setup"
 ---
 
 ## Application Overview

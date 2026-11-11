@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 40
     nav_parent: "managing-repository-or-integration-configuration-gij-self-managed"
     page_type: "content"
+    card_icon: "database"
+    card_color: "blue"
+    card_description: "Change an integration's feature settings: Repository Browser, tags, Require User PAT, project permissions, diffs, smart commits and notification emails"
 ---
 
 Clicking <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ **Edit integration feature settings** opens the configuration page for integration features settings such as repository browser, requiring user PAT, project permissions and more.

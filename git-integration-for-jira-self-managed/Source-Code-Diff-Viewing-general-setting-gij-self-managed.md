@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "general-settings-gij-self-managed"
     page_type: "content"
+    card_icon: "settings"
+    card_color: "amber"
+    card_description: "Enable or disable source code diff viewing in Git Commits, Git Roll Up and Repository Browser, overriding repository settings"
 ---
 
 > **Info:** For detailed information on this feature, see <a href='/git-integration-for-jira-data-center/viewing-commit-code-diffs-gij-self-managed'>Documentation: Viewing commit code diffs</a>.

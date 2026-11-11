@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "integration-basics-gij-self-managed"
     page_type: "content"
+    card_icon: "link"
+    card_color: "green"
+    card_description: "Link Git commits to a Jira issue by including the issue key in the commit message, then view them in the Git Commits tab"
 ---
 
 <div class='embed-container embed-container--16-10'>

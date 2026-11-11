@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 70
     nav_parent: "frequently-asked-questions-gij-self-managed"
     page_type: "content"
+    card_icon: "database"
+    card_color: "purple"
+    card_description: "Answers to common questions on connecting and configuring Git repositories, including repository root and origin, ports, GitBlit over HTTPS and multiple keys"
 ---
 
 This page contains solutions to common issues encountered while connecting and configuring git repositories.

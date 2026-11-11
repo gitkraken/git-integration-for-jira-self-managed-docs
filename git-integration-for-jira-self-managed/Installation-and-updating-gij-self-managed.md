@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 40
     nav_parent: "installation-gij-self-managed"
     page_type: "content"
+    card_icon: "arrow-big-up-lines"
+    card_color: "blue"
+    card_description: "Update Git Integration for Jira through the Universal Plugin Manager, automatically with the Upgrade button or manually by uploading the app"
 ---
 
 For upgrade installations, it can be easily done via Universal Plugin Manager (**Manage apps**).

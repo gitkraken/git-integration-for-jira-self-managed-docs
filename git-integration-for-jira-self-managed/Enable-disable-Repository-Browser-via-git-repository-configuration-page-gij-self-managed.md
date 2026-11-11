@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "repository-browser-gij-self-managed"
     page_type: "content"
+    card_icon: "folder-open"
+    card_color: "blue"
+    card_description: "Turn the Repository Browser on or off for a repository and choose which tags it shows from the repository settings page"
 ---
 
 Access the Repository Browser via Jira dashboard menu Git ➜ **Repository browser** or alternatively, go to Jira Administration ➜ _**Apps**_ ➜ _Git Integration for Jira_ _(sidebar)_ ➜ **Repository browser**.

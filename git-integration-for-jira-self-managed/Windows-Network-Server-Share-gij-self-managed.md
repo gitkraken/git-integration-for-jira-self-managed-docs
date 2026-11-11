@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 130
     nav_parent: "integration-guides-gij-self-managed"
     page_type: "content"
+    card_icon: "brand-windows"
+    card_color: "green"
+    card_description: "Connect a Git repository hosted on a Windows server or network share to Jira Data Center and set its fetch options"
 ---
 
 <!-- integration guide -->

@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 90
     nav_parent: "administration-gij-self-managed"
     page_type: "content"
+    card_icon: "database-cog"
+    card_color: "amber"
+    card_description: "Look up the database tables Git Integration for Jira creates and what each one stores, including deprecated pull request tables"
 ---
 
 The list of database tables for Git Integration for Jira app can be accessed at ![](/wp-content/uploads/actions-icon.png) Jira Administration ➜ System ➜ (sidebar) Advanced ➜ **Plugin Data Storage**.

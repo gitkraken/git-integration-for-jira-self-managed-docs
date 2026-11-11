@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 40
     nav_parent: "working-with-ssh-keys-gij-self-managed"
     page_type: "content"
+    card_icon: "key"
+    card_color: "blue"
+    card_description: "Manage the private SSH keys used by Git Integration for Jira and read the SSH Keys list columns, associations and operations"
 ---
 
 Manage and associate SSH keys to connected git repositories via the **SSH Keys** in Git Integration for Jira Server app repository configuration page.

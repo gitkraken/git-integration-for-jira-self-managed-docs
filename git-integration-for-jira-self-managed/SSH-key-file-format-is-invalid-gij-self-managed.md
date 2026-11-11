@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 210
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "key"
+    card_color: "red"
+    card_description: "Fix the SSH key file format is invalid error by generating an RSA private key in OpenSSL PEM format and adding it to Git Integration for Jira"
 ---
 
 <!-- TROUBLESHOOTING -->

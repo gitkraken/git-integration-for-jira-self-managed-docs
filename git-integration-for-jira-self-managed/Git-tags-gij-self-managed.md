@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 200
     nav_parent: "documentation-gij-self-managed"
     page_type: "content"
+    card_icon: "tag"
+    card_color: "blue"
+    card_description: "Learn how lightweight and annotated Git tags appear in the Jira issue Git panel, how tags associate with issues, and how to enable and reindex tags safely"
 ---
 
 The Git Integration for Jira app supports both lightweight and annotated tags. The tags are loaded separately from the rest of the Git Source Code.

@@ -23,7 +23,10 @@ custom_fields:
     nav_label: "Linking git commits to Jira issues"
     nav_order: 120
     nav_parent: "documentation-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "link"
+    card_color: "blue"
+    card_description: "Link Git commits to Jira issues by including the issue key in the commit message, including sub-tasks, renamed project keys and message length limits"
 ---
 
 To create a link between your Git commit and a Jira issue, developers must include the issue key into the commit comment.

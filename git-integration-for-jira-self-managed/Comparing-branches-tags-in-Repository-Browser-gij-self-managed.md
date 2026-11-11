@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "repository-browser-gij-self-managed"
     page_type: "content"
+    card_icon: "folder-open"
+    card_color: "blue"
+    card_description: "Compare two branches or tags in the Repository Browser to see the commits, code diffs, developer line counts and Jira issues between them"
 ---
 
 <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>ALSO IN JIRA CLOUD</b>

@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 100
     nav_parent: "integration-guides-gij-self-managed"
     page_type: "content"
+    card_icon: "brand-bitbucket"
+    card_color: "green"
+    card_description: "Connect a Bitbucket Server repository to Jira Data Center over HTTPS or SSH, set up web links, and view linked commits in Jira issues"
 ---
 
 > **Info:** Using <B>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/bitbucket-cloud-gij-cloud'>See the corresponding article</a>.

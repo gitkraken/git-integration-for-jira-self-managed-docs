@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "integration-guides-gij-self-managed"
     page_type: "content"
+    card_icon: "brand-github"
+    card_color: "green"
+    card_description: "Connect GitHub Enterprise Server repositories to Jira Data Center with a personal access token, set permissions, and create branches and pull requests"
 ---
 
 > **Tip:** These instructions apply to self-hosted GitHub Enterprise Server.

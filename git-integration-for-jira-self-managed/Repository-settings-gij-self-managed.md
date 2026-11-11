@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 140
     nav_parent: "general-settings-gij-self-managed"
     page_type: "content"
+    card_icon: "settings"
+    card_color: "amber"
+    card_description: "Set the maximum number of open pack files Git Integration for Jira uses, within your operating system limit, to tune performance"
 ---
 
 > **Info:** This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'><b>General Settings</b></a> configuration page.

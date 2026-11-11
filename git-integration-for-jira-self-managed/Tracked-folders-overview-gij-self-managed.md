@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 80
     nav_parent: "setting-up-repositories-gij-self-managed"
     page_type: "content"
+    card_icon: "folder-search"
+    card_color: "blue"
+    card_description: "Learn how tracked folders scan a local path for cloned git repositories and import them into Jira as a FOLDER group"
 ---
 
 This feature scans a locally accessible path for cloned Git repositories and automatically imports those Git repository references into Jira. A repository group called <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>FOLDER</b> is added into the Git Integration app repository configuration list.

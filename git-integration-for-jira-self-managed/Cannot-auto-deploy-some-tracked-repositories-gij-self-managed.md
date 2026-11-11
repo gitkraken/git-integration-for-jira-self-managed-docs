@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 60
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "plug-connected"
+    card_color: "red"
+    card_description: "Fix tracked repositories that fail to auto-deploy with Specified origin is incorrect or not supported by giving the service user enough GitLab or GitHub access"
 ---
 
 ### Problem

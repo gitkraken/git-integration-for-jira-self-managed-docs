@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "commits-api-gij-self-managed"
     page_type: "content"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Get the commits associated with a Jira issue, optionally with changed files, using the Get Commits REST API"
 ---
 
 <!-- Commits REST API -->

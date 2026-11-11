@@ -23,7 +23,10 @@ custom_fields:
     nav_label: "Bulk change"
     nav_order: 70
     nav_parent: "documentation-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "table-import"
+    card_color: "blue"
+    card_description: "Learn how Bulk change lets you import or export Git repository configuration in Jira, and where to find the Bulk change API for automation"
 ---
 ![](/wp-content/uploads/gij-gitserver-gitcfg-bulk-change.png)
 
@@ -41,6 +44,8 @@ The **Bulk change** feature provides an easier way to import or export reposit
     <i>Right click <a href='https://gitkraken.wistia.com/medias/v2c5qrgps8'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 <br>
+
+---
 
 ### Bulk change automation
 

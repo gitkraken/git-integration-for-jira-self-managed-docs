@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "hooks-and-webhooks-gij-self-managed"
     page_type: "content"
+    card_icon: "server"
+    card_color: "green"
+    card_description: "Install a pre-receive server-side hook that rejects pushes whose commit messages do not reference a valid Jira issue key"
 ---
 
 In addition to the commit-msg hook, you can use server-side hooks to apply policies for your project.  The server runs these scripts before and after the push.  The server-side hook, like commit-msg hook, requires Python to be installed.
