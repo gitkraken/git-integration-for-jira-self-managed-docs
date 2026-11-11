@@ -29,7 +29,7 @@ custom_fields:
     card_description: "Connect one Git repository to Jira over HTTPS or SSH with the Connect Wizard, including authentication and smart commit settings"
 ---
 
-![](wp-content/uploads/gij-gitlab-repository-home.png)
+![](/wp-content/uploads/gij-gitserver-gitlab-clone-home-repo-url.png)
 
 This process requires an existing git host repository. Obtain the **HTTPS** or **SSH** git clone URL from the repository home of your git host service.
 

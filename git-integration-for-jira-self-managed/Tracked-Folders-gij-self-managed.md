@@ -165,8 +165,6 @@ The example below ONLY works for tracked folder integration; where it supports t
 
 On the **Manage Git repositories** settings page, click ![](/wp-content/uploads/actions-icon.png) Actions  ➜ **Edit tracked folder** to modify tracked folder git repository settings.
 
-![](/wp-content/uploads/gij=jira-serverdc-tracked-folder-git-edit.png)
-
 &nbsp;
 
 ### Removing a tracked folder
