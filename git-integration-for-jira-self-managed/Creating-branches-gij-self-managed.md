@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "git-pull-request"
     card_color: "purple"
     card_description: "Create a Git branch directly from a Jira issue using the Git development panel, with the issue key added to the branch name"
+    git_hosts: ["github", "gitlab", "aws-codecommit", "azure-devops", "azure-devops-server"]
 ---
 
 > **Warning:** <b>Jira administrator notes</b>

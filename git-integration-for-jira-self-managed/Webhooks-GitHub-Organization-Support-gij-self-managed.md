@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "brand-github"
     card_color: "green"
     card_description: "Configure one webhook at the GitHub organization level so push and pull request events from every repository trigger reindexing"
+    git_hosts: ["github"]
 ---
 The GitHub Organization webhooks is now supported.  Rather than creating a webhook for each repository manually, configure the webhook at the GitHub Organization level to automatically register webhook for each repository.
 

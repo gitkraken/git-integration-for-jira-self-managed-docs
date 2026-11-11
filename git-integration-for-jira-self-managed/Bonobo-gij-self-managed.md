@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "plug-connected"
     card_color: "green"
     card_description: "Connect a Bonobo Git Server repository to Jira Data Center, configure Bonobo web links, and view linked commits in Jira issues"
+    git_hosts: ["bonobo"]
 ---
 <img src=''/wp-content/uploads/gij-bonobo-banner-logo.png' width=545 height=84 />
 

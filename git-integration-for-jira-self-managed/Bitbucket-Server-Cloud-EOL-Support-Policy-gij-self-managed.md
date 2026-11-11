@@ -24,6 +24,7 @@ custom_fields:
     nav_order: 30
     nav_parent: "git-services-support-page"
     page_type: "content"
+    git_hosts: ["bitbucket-data-center", "bitbucket"]
 ---
 
 ## Bitbucket Server

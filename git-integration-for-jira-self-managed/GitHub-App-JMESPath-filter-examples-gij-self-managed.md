@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "brand-github"
     card_color: "amber"
     card_description: "Filter which repositories a GitHub App integration connects using JMESPath expressions that start with repositories[]"
+    git_hosts: ["github", "github-enterprise"]
 ---
 
 ![](/wp-content/uploads/gij-github-mobile-logo-dark.png)

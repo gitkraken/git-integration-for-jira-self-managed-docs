@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "help-circle"
     card_color: "purple"
     card_description: "Answers to common administrator questions on repository browsing permissions, REST APIs, repository paths, self-signed SSL certificates and GitLab server setup"
+    git_hosts: ["generic", "gitlab-self-managed"]
 ---
 This page contains solutions targeted for administrators.
 

@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "plug-connected"
     card_color: "amber"
     card_description: "Use a Custom API Path to limit which GitHub or GitLab repositories an integration retrieves, with example REST paths"
+    git_hosts: ["github", "github-enterprise", "gitlab", "gitlab-self-managed"]
 ---
 
 The Custom API Path is a relative path that starts with "/".  The maximum allowed length is 2000 characters. The integration will use the relative REST API path to retrieve the list of tracked repositories.

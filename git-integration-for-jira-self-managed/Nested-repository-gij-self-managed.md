@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "folders"
     card_color: "blue"
     card_description: "Learn what nested repositories and submodules are, the host permissions they need, their practical uses and their challenges"
+    git_hosts: ["github", "gitlab", "bitbucket", "azure-devops", "aws-codecommit"]
 ---
 
 A nested repository is a Git repository that exists inside the working directory of another Git repository. In other words, it’s a repository within a repository. Each nested repository functions independently, with its own commit history, branches, and remote configurations.

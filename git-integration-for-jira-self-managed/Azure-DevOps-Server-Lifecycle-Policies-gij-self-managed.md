@@ -24,6 +24,7 @@ custom_fields:
     nav_order: 40
     nav_parent: "git-services-support-page"
     page_type: "content"
+    git_hosts: ["azure-devops-server"]
 ---
 
 <!-- this page is under Support page and EOL policies -->

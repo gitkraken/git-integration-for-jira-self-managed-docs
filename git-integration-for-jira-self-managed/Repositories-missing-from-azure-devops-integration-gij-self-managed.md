@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "brand-azure"
     card_color: "red"
     card_description: "Find out why Azure DevOps repositories are missing from an integration and fix user permissions, access level, or TFVC repository format"
+    git_hosts: ["azure-devops"]
 ---
 
 <!-- TROUBLESHOOTING -->

@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "help-circle"
     card_color: "purple"
     card_description: "Learn how to create a Jira support zip, enable debug logging for the app and for GitHub, and find the Jira log files to send to support"
+    git_hosts: ["generic", "github"]
 ---
 This page contains related questions about troubleshooting using Jira logs.
 

@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "folder-search"
     card_color: "red"
     card_description: "Fix Gitolite repositories on the Jira server that show No commits or missing branch errors by correcting file permissions and the UMASK setting"
+    git_hosts: ["gitolite"]
 ---
 
 <!-- TROUBLESHOOTING -->

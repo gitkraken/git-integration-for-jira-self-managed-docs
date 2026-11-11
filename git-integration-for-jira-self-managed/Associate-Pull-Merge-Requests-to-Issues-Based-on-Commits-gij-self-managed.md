@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "git-pull-request"
     card_color: "purple"
     card_description: "Link pull/merge requests to Jira issues based on their commits and configure the related pull/merge request indexing settings in General settings"
+    git_hosts: ["github", "gitlab", "azure-devops", "azure-devops-server"]
 ---
 
 <!-- This falls under Features sidenav -->

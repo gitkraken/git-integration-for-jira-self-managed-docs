@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "plug-connected"
     card_color: "green"
     card_description: "Connect Gerrit repositories to Jira Data Center with full feature or single repository integration, set web links, and enable debug logging"
+    git_hosts: ["gerrit"]
 ---
 ![](/wp-content/uploads/gerrit-banner-logo.png)
 

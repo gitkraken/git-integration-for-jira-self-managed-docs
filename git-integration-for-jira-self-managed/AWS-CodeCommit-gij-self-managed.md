@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "brand-aws"
     card_color: "green"
     card_description: "Connect AWS CodeCommit repositories to Jira Data Center with IAM permissions, SNS triggers, and branch and pull request creation from Jira issues"
+    git_hosts: ["aws-codecommit"]
 ---
 
 > **Info:** Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/aws-codecommit-gij-cloud'>See the corresponding article</a>.

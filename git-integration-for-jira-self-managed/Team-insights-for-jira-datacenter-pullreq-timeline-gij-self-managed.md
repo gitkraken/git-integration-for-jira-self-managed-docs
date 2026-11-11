@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "chart-bar"
     card_color: "blue"
     card_description: "Set the GitHub and GitLab token permissions needed to show pull request timeline data from Git Integration for Jira in Team Insights for Jira"
+    git_hosts: ["github", "gitlab", "gitlab-self-managed"]
 ---
 
 > **Warning:** This feature requires Git Integration for Jira DC app installed to be able to see pull request data in Team Insights for Jira.

@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "webhook"
     card_color: "green"
     card_description: "Install the Gerrit webhooks plugin and add or manually trigger webhooks so Git Integration for Jira reindexes Gerrit repositories"
+    git_hosts: ["gerrit"]
 ---
 <img src='/wp-content/uploads/gij-gerrit-webhook-banner.png' width=510 height=117 style='display:block;margin:25px auto;max-width:!00%' />
 

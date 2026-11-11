@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "brand-gitlab"
     card_color: "blue"
     card_description: "Set the external_url in GitLab Server so it returns correct clone links, then connect GitLab repositories to Git Integration for Jira"
+    git_hosts: ["gitlab-self-managed"]
 ---
 
 In order for GitLab to display correct repository clone links to your users, it needs to know the URL under which it is reached by your users (e.g. `http://gitlab.example.com`)

@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "brand-azure"
     card_color: "green"
     card_description: "Connect Azure DevOps Services or VSTS repositories to Jira Data Center with a personal access token, then link commits and create branches and pull requests"
+    git_hosts: ["azure-devops"]
 ---
 
 > **Info:** Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/azure-devops-visual-studio-team-services-vsts-gij-cloud'>See the corresponding article</a>.

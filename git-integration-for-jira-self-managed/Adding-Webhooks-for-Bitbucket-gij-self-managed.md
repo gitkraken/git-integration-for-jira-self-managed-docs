@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "brand-bitbucket"
     card_color: "green"
     card_description: "Add a Bitbucket repository webhook for push and pull request events so Git Integration for Jira reindexes the repository immediately"
+    git_hosts: ["bitbucket"]
 ---
 
 > **Info:** Pull request webhooks are now supported. See <a href='#pull-request-webhooks'>details</a> on this page.

@@ -27,6 +27,7 @@ custom_fields:
     card_icon: "api"
     card_color: "blue"
     card_description: "See example JSON request bodies for adding an integration of each supported Git host type through the Integration REST API"
+    git_hosts: ["github", "github-enterprise", "gitlab", "gitlab-self-managed", "aws-codecommit", "azure-devops", "azure-devops-server", "gerrit"]
 ---
 
 > **Warning:** Only Jira admins can perform the Add New Integration Type API call.
