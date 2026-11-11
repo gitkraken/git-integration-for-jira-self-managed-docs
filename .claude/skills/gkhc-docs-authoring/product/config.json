@@ -1,0 +1,169 @@
+{
+  "_comment": "Product config of the gkhc-docs-authoring skill for this help center. Local to the docs repo (product/ is never overwritten by skillsync). Seeded by GK-WP-HC-Design skills/seed_products.py; check_pages.py and preview/ read it.",
+  "key": "gijdc",
+  "name": "Git Integration for Jira Data Center",
+  "category": "git-integration-for-jira-data-center",
+  "content_dir": "git-integration-for-jira-self-managed",
+  "images_dir": "_images",
+  "home_slug": "git-integration-for-jira-home-self-manged",
+  "nav_file": "gijdc",
+  "max_depth": 5,
+  "toc_levels": [
+    3,
+    4
+  ],
+  "code_default_label": "Code",
+  "nav": {
+    "sections": null,
+    "section_fallback": false,
+    "parent_must_be_index": false,
+    "every_page_in_nav": false,
+    "card_fields_required": false,
+    "slug_prefix": ""
+  },
+  "features": {
+    "metric_pipeline": false,
+    "playbooks": false,
+    "settings_specs": false
+  },
+  "checks": {
+    "missing_link_target": "warn",
+    "missing_image": "error",
+    "figures_only": false,
+    "ignore_link_targets": []
+  },
+  "metadata": {
+    "check": "error",
+    "conditional": [
+      "git_hosts",
+      "deployment",
+      "role_required",
+      "version_required"
+    ],
+    "optional": [
+      "og_image"
+    ],
+    "constants": {
+      "product": "Git Integration for Jira Data Center",
+      "deployment": "Jira Data Center"
+    },
+    "defaults": {},
+    "plan_required": [
+      "all",
+      "Standard",
+      "Advanced"
+    ],
+    "plan_required_vocabulary": "error",
+    "aliases": {},
+    "extra_fields": []
+  },
+  "other_category_pages": {},
+  "known_wp_images": {
+    "/wp-content/uploads//gij-IAM-user-create-access-key-diagram.png": [
+      "creating-personal-access-tokens-gij-self-managed"
+    ],
+    "/wp-content/uploads//gij-azure-devops-2019-acct-settings.png": [
+      "creating-personal-access-tokens-gij-self-managed"
+    ],
+    "/wp-content/uploads/Enduserguide-Cloud-Create-Branch-2-dc.png": [
+      "end-user-guide-dc"
+    ],
+    "/wp-content/uploads/Enduserguide-Cloud-Creating-PR-1-dc.png": [
+      "end-user-guide-dc"
+    ],
+    "/wp-content/uploads/Enduserguide-Cloud-Creating-PR-2-dc.png": [
+      "end-user-guide-dc"
+    ],
+    "/wp-content/uploads/Jira-Issue-key-linking-dc.png": [
+      "end-user-guide-dc"
+    ],
+    "/wp-content/uploads/Jira-Profile-1-dc.png": [
+      "end-user-guide-dc"
+    ],
+    "/wp-content/uploads/Jira-Profile-2-dc.png": [
+      "end-user-guide-dc"
+    ],
+    "/wp-content/uploads/Jira-dc-Issue-Breakdown.png": [
+      "end-user-guide-dc",
+      "getting-started-guide-dc"
+    ],
+    "/wp-content/uploads/Linking-Commit-example.png": [
+      "end-user-guide-dc"
+    ],
+    "/wp-content/uploads/Pull-Request-Linking-Example.png": [
+      "end-user-guide-dc"
+    ],
+    "/wp-content/uploads/gij-aws-cc-logo-banner.png": [
+      "aws-codecommit-gij-self-managed"
+    ],
+    "/wp-content/uploads/gij-azure-devops-banner.png": [
+      "azure-devops-server-team-foundation-services-tfs-gij-self-managed"
+    ],
+    "/wp-content/uploads/gij-bitbucket-mobile.png": [
+      "integration-guides-gij-self-managed"
+    ],
+    "/wp-content/uploads/gij-cloud-jira-git-integration-panel-refresh.png": [
+      "jira-git-integration-development-panel-gij-self-managed"
+    ],
+    "/wp-content/uploads/gij-github-ent-64.png": [
+      "integration-guides-gij-self-managed"
+    ],
+    "/wp-content/uploads/gij-github-ent-server-banner-logo.png": [
+      "github-enterprise-server-gij-self-managed"
+    ],
+    "/wp-content/uploads/gij-gitlab-mobile.png": [
+      "integration-guides-gij-self-managed",
+      "working-with-custom-api-path-gij-self-managed"
+    ],
+    "/wp-content/uploads/gij-gitlab-user-permissions-or-repository-permissions.png": [
+      "gitlab-com-ce-ee-gijsm-gij-self-managed",
+      "gitlab-gij-self-managed"
+    ],
+    "/wp-content/uploads/gij-jira-server-general-settings-branch-pull-req-cfgs-c.png": [
+      "associate-pull-merge-requests-to-issues-based-on-commits-gij-self-managed"
+    ],
+    "/wp-content/uploads/gij-matrix-open-check-green.png": [
+      "team-insights-for-jira-datacenter-gij-self-managed",
+      "using-the-connect-repository-wizard-gij-self-managed"
+    ],
+    "/wp-content/uploads/gij-matrix-open-not-red.png": [
+      "team-insights-for-jira-datacenter-gij-self-managed"
+    ],
+    "/wp-content/uploads/gij-question-mark-icon-32.png": [
+      "team-insights-for-jira-datacenter-issues-view-gij-self-managed"
+    ],
+    "/wp-content/uploads/gij-serverdc-global-settings-scripting-maxage.png?version=1&width=529&height=306": [
+      "scripting-jira-git-workflow-hooks-gij-self-managed"
+    ],
+    "/wp-content/uploads/gij-tfs-logo.png": [
+      "azure-devops-server-team-foundation-services-tfs-gij-self-managed"
+    ],
+    "/wp-content/uploads/gij-troubleshoot-how-do-i-see-commits-top.png": [
+      "why-dont-i-see-commits-data-center-gij-self-managed"
+    ],
+    "/wp-content/uploads/gij-vsts-azure-devops-logo2.png": [
+      "integration-guides-gij-self-managed"
+    ],
+    "/wp-content/uploads/github-mobile-dark.png": [
+      "integration-guides-gij-self-managed",
+      "working-with-custom-api-path-gij-self-managed"
+    ],
+    "/wp-content/uploads/tij-gitcloud-pull-req-timeline-reindex-github-org-setting.png": [
+      "team-insights-for-jira-datacenter-pullreq-timeline-gij-self-managed"
+    ]
+  },
+  "known_html_callouts": {
+    "adding-webhooks-for-gitlab-gij-self-managed": [
+      "> Merge request webhooks are now supported. See details on t"
+    ],
+    "fixing-reindex-issues-using-indexing-queue-viewer-gij-self-managed": [
+      "> Setting the Logging to DEBUG level for the above package n"
+    ],
+    "git-integration-for-jira-automation-template-library": [
+      "> All of the templates from Atlassian’s template library **W"
+    ],
+    "working-with-ssh-keys-gij-self-managed": [
+      "> Note that Git Integration for Jira app SSH key: VERSION 4."
+    ]
+  }
+}
