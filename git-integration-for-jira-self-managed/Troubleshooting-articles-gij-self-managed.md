@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 150
     nav_parent: ""
     page_type: "index"
+    home_group: "links"
+    home_order: 50
+    card_description: "In-depth articles to help you diagnose and solve problems"
 ---
 
 <!-- TROUBLESHOOTING -->

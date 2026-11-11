@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 70
     nav_parent: ""
     page_type: "index"
+    home_group: "links"
+    home_order: 20
+    card_description: "All about setting up and using Git Integration for Jira with your preffered git provider"
 ---
 
 Welcome to the Git Integration for Jira app reference page index for topics about integration of git repositories to Jira Data Center.

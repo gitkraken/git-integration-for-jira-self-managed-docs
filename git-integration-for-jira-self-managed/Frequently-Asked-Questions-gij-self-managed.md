@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 130
     nav_parent: ""
     page_type: "index"
+    home_group: "links"
+    home_order: 30
+    card_description: "Find answers to frequently asked questions"
 ---
 
 Find answers to questions asked by Git Integration for Jira app users, workarounds and solutions to help you get up and running.  Click a topic title to view its contents or search through the related topics.
