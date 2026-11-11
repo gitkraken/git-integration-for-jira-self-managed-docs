@@ -28,14 +28,6 @@ custom_fields:
 
 This page is intended for users who are using SSH connections or those who wanted to only connect a single specific repository.
 
-**What’s on this page:**
-- [Getting started](#getting-started)
-- [Settings](#settings)
-- [HTTP(S) authentication](#https-authentication)
-- [SSH authentication](#ssh-authentication)
-- [Passphrase Input](#passphrase-input)
-- [More related topics on setting up repositories](#more-related-topics-on-setting-up-repositories)
-
 &nbsp;
 * * *
 &nbsp;
@@ -60,42 +52,15 @@ To start integrating a plain git repository, follow the steps below:
 
 3.  Click **Next**. The Connect wizard will automatically detect the provided repository location type.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Detection of Remote Origin Setting</b><br>
-        The detection works for most repositories. If a repository root points to a valid git repository, the repository origin is detected automatically. When a repository has no origin, the user has to specify it manually.
-    </div>
-    </div>
-</div>
+> **Info:** <b>Detection of Remote Origin Setting</b><br>
+> The detection works for most repositories. If a repository root points to a valid git repository, the repository origin is detected automatically. When a repository has no origin, the user has to specify it manually.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Do note that the Connect wizard <b>clones the remote repository by default</b>. It does not clone local repositories. For local repositories, the `root` is set to local path and fetches are disabled.
-        <p style='margin-bottom:0px !important;'>
-            The default identities are not used and the repository is created without the additional key upload.
-        </p>
-    </div>
-    </div>
-</div>
+> **Note:** Do note that the Connect wizard <b>clones the remote repository by default</b>. It does not clone local repositories. For local repositories, the `root` is set to local path and fetches are disabled.
+> <p style='margin-bottom:0px !important;'>
+> The default identities are not used and the repository is created without the additional key upload.
+> </p>
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If the Git repository file system is somehow available to the Jira server, you can save the clone step and save the disk space on a Jira server by pointing the Jira server straight at it.
-    </div>
-    </div>
-</div>
+> **Tip:** If the Git repository file system is somehow available to the Jira server, you can save the clone step and save the disk space on a Jira server by pointing the Jira server straight at it.
 
 &nbsp;
 
@@ -161,16 +126,7 @@ The level of permissions can be one of the following:
     </tbody>
 </table>
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For Project Permissions, the <b>View Development Tools</b> <i>project permission</i> must be granted to Users ➜ Group ➜ <b><i>Project Roles</i></b>.
-    </div>
-    </div>
-</div>
+> **Warning:** For Project Permissions, the <b>View Development Tools</b> <i>project permission</i> must be granted to Users ➜ Group ➜ <b><i>Project Roles</i></b>.
 
 Click **Next**.
 
@@ -189,16 +145,7 @@ If the entered git clone URL requires HTTP credentials, the following screen app
 
 Provide _**Username**_ and _**Password**_ in the respective fields then click **Next** to continue.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The HTTP authorization errors indicate that the credentials provided are not valid.
-    </div>
-    </div>
-</div>
+> **Info:** The HTTP authorization errors indicate that the credentials provided are not valid.
 
 The HTTP authorization errors indicate that the credentials provided are not valid.
 
@@ -216,30 +163,12 @@ For SSH git repository connections, the following screen is displayed for authen
 
 Upload the private key file by clicking **Choose File** and navigate to the private key file. Otherwise, paste the private key text into the provided box.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For establishing safety connection with SSH, upload a public Key to the SSH server and set the private Key to the SSH client.
-        <p style='margin-bottom:0 !important'>
-            Take note that the SSH server is the Git server and the SSH client is the Jira server.
-        </p>
-    </div>
-    </div>
-</div>
+> **Note:** For establishing safety connection with SSH, upload a public Key to the SSH server and set the private Key to the SSH client.
+> <p style='margin-bottom:0 !important'>
+> Take note that the SSH server is the Git server and the SSH client is the Jira server.
+> </p>
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        When adding a new repository that requires an SSH key, you can now pick an existing associated key in the <b><i>Existing key</i></b> list (see Figure 4).
-    </div>
-    </div>
-</div>
+> **Tip:** When adding a new repository that requires an SSH key, you can now pick an existing associated key in the <b><i>Existing key</i></b> list (see Figure 4).
 
 Click **Next** to proceed.
 
@@ -259,27 +188,9 @@ If the generated SSH key pair has a passphrase, you will see the following scree
 
 Enter the _**Passphrase**_ for your private key. Click **Next** to continue.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The passphrase screen only appears if the user has added an SSH key that requires a passphrase.
-    </div>
-    </div>
-</div>
+> **Note:** The passphrase screen only appears if the user has added an SSH key that requires a passphrase.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The Git Integration for Jira app will initially try to use the keys provided by the user before using the keys from the home directory.
-    </div>
-    </div>
-</div>
+> **Info:** The Git Integration for Jira app will initially try to use the keys provided by the user before using the keys from the home directory.
 
 After the above requirements are fulfilled, the wizard will:
 

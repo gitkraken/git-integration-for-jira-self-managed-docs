@@ -34,16 +34,7 @@ Before you can add new repository configuration via bulk change, you need to dow
 
 2.  Click one of the links under **How to use Bulk change?** to download the template file.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Bigbrassband recommends that you download the example with the full configuration.
-    </div>
-    </div>
-</div>
+> **Tip:** Bigbrassband recommends that you download the example with the full configuration.
 
 &nbsp;
 * * *

@@ -28,16 +28,7 @@ custom_fields:
 
 Adds a new integration to the git configuration list via the API call.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Only Jira admins can perform the Add New Integration API call.
-    </div>
-    </div>
-</div>
+> **Warning:** Only Jira admins can perform the Add New Integration API call.
 
 &nbsp;
 

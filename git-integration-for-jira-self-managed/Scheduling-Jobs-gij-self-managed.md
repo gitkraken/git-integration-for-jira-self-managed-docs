@@ -34,32 +34,14 @@ Scheduling jobs in the [**Git Integration for Jira**](https://marketplace.atlass
 
 <img src='/wp-content/uploads/gij-gitserver-gencfg-scheduler-jobs.png' style='margin:25px auto;max-width:100%;display:block;' alt='Scheduled jobs showing repository indexing and garbage collection' />
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Scheduling rule types</b><br>
-        The Git Integration for Jira app for Jira Server and Jira Data Center uses the Atlassian Jira Scheduling API for scheduling jobs. These jobs can be scheduled in two ways:
-        <ul style='margin-bottom:0px'>
-            <li><b>Scanning interval:</b> Schedule jobs on a regular interval in minutes. If the job is still running, the job will be skipped (and not added to a job queue).</li>
-            <li><b>Cron expression:</b> Schedule jobs via cron expression to schedule the jobs to run at specific times on specific days. (<i>Available starting in Git Integration version 3.7+</i>)</li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Info:** <b>Scheduling rule types</b><br>
+> The Git Integration for Jira app for Jira Server and Jira Data Center uses the Atlassian Jira Scheduling API for scheduling jobs. These jobs can be scheduled in two ways:
+> <ul style='margin-bottom:0px'>
+> <li><b>Scanning interval:</b> Schedule jobs on a regular interval in minutes. If the job is still running, the job will be skipped (and not added to a job queue).</li>
+> <li><b>Cron expression:</b> Schedule jobs via cron expression to schedule the jobs to run at specific times on specific days. (<i>Available starting in Git Integration version 3.7+</i>)</li>
+> </ul>
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        We recommend that scheduled jobs be given sufficient time to run completely on a regular basis. Please see section, <a href='#How-to-find-out-how-long-the-job-takes-to-run'>How to find out how long jobs are running</a>.
-    </div>
-    </div>
-</div>
+> **Warning:** We recommend that scheduled jobs be given sufficient time to run completely on a regular basis. Please see section, <a href='#How-to-find-out-how-long-the-job-takes-to-run'>How to find out how long jobs are running</a>.
 
 ### Scheduled Jobs
 
@@ -91,18 +73,9 @@ When the repository reindexing job runs, the Git Integration for Jira app perfor
 Job name in Jira Administration ➜ Scheduler Details:<br>
 `com.bigbrassband.jira.git.jiraservices.jobs.RevisionIndexJob`
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Recommendations</b><br>
-        We recommend that repository reindexing be scheduled no more often than necessary. Ideally, a repository reindexing is scheduled less often (1-2 times a day) and <a href="/git-integration-for-jira-data-center/webhooks-gij-self-managed">Webhooks</a> are configured to trigger indexing of individual repositories. Reindexing can also be triggered using the <a href="/git-integration-for-jira-data-center/reindex-api-gij-self-managed">Reindexing API</a>.
-        <div style='margin-top:8px;margin-bottom:-10px;'>For the most control over when reindexing jobs occur, disable webhooks and schedule the reindexing job using a cron expression for the desired time(s) of day.</div>
-    </div>
-    </div>
-</div>
+> **Tip:** <b>Recommendations</b><br>
+> We recommend that repository reindexing be scheduled no more often than necessary. Ideally, a repository reindexing is scheduled less often (1-2 times a day) and <a href="/git-integration-for-jira-data-center/webhooks-gij-self-managed">Webhooks</a> are configured to trigger indexing of individual repositories. Reindexing can also be triggered using the <a href="/git-integration-for-jira-data-center/reindex-api-gij-self-managed">Reindexing API</a>.
+> <div style='margin-top:8px;margin-bottom:-10px;'>For the most control over when reindexing jobs occur, disable webhooks and schedule the reindexing job using a cron expression for the desired time(s) of day.</div>
 
 &nbsp;
 
@@ -116,17 +89,8 @@ The garbage collection job performs the 'git gc' calls on the cloned repositorie
 Job name in Jira Administration ➜ Scheduler Details:<br>
 `com.bigbrassband.jira.git.jiraservices.jobs.GarbageCollectionJob`
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Recommendations</b><br>
-        We recommend the Garbage collection and Revision validation checker's job be run approximately once a day. Some of you may decide to run it less often and during a specific quiet period for your Jira server. Ideally, the job would be scheduled when other significant jobs are not scheduled.
-    </div>
-    </div>
-</div>
+> **Tip:** <b>Recommendations</b><br>
+> We recommend the Garbage collection and Revision validation checker's job be run approximately once a day. Some of you may decide to run it less often and during a specific quiet period for your Jira server. Ideally, the job would be scheduled when other significant jobs are not scheduled.
 
 &nbsp;
 

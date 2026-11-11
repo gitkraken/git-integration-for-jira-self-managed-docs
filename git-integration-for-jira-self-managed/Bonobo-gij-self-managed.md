@@ -33,13 +33,6 @@ custom_fields:
 
 Quickly learn how to connect Bonobo git repositories via Git Integration for Jira app.
 
-**What's on this page:**
-- [Integrate Bonobo with Jira Data Center/Server](#integrate-bonobo-with-jiradata-centerserver)
-  - [Single repository integration](#single-repository-integration)
-  - [Setting up weblinks](#setting-up-weblinks)
-  - [Viewing Git Commits in Jira Data Center](#viewing-git-commits-in-jiradata-center)
-  - [More Integration Guides](#more-integration-guides)
-
 &nbsp;
 
 ### Single repository integration

@@ -187,16 +187,7 @@ When a new indexing cycle is started for a repository -- all existing entries ol
     10 -- Remove repository.
     2 -- Git GC.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The reindex priority can be assigned using the <a href='/git-integration-for-jira-data-center/Reindex-POST-API/'>Reindex POST API</a>. Set the <b><i>priority</i></b> parameter to place the task being added at the particular position in the indexing queue.
-    </div>
-    </div>
-</div>
+> **Note:** The reindex priority can be assigned using the <a href='/git-integration-for-jira-data-center/Reindex-POST-API/'>Reindex POST API</a>. Set the <b><i>priority</i></b> parameter to place the task being added at the particular position in the indexing queue.
 
 When a sub-repository (a repository inside an integration) is pushed into the queue - it gets the priority of the base (i.e. – integration) request +1.
 

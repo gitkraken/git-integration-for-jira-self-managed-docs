@@ -20,16 +20,7 @@ taxonomy:
 
 ---
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'><b>General Settings</b></a> configuration page.
-    </div>
-    </div>
-</div>
+> **Info:** This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'><b>General Settings</b></a> configuration page.
 
 This setting affects how the information is displayed in the **Git roll up** tab on the Jira issue.
 

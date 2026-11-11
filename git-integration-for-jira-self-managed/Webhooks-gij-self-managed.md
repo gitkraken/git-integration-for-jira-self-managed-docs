@@ -28,14 +28,6 @@ custom_fields:
 
 <!-- hooks and webhooks -->
 
-**What's on this page:**
-- [What are webhooks and why use them?](#what-are-webhooks-and-why-use-them)
-- [Do I need to set up webhooks?](#do-i-need-to-set-up-webhooks)
-- [Getting started](#getting-started)
-- [Advanced settings](#advanced-settings)
-- [GitHub/GitLab push events](#github-or-gitlab-push-events)
-- [More articles about webhooks setup](#more-articles-about-webhooks-setup)
-
 &nbsp;
 * * *
 &nbsp;
@@ -76,16 +68,7 @@ Configure webhooks to trigger immediate reindex of your repositories from remote
 
     ![](/wp-content/uploads/gij-gitserver-webhooks-settings-page-c.png)
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Copy the webhook URL to the system clipboard by clicking the copy icon adjacent to the right. Use this URL when required by the repository web hooks setting of your git host.
-    </div>
-    </div>
-</div>
+> **Tip:** Copy the webhook URL to the system clipboard by clicking the copy icon adjacent to the right. Use this URL when required by the repository web hooks setting of your git host.
 
 The **Secret Key** is a secure random-generated alphanumeric string at the time of the Git Integration for Jira app installation. The user can change this to a different value by generating another secret token according to your Git host.
 
@@ -102,17 +85,8 @@ Example:<br>
 https://jira.yourorg.com/rest/gitplugin/webhook/1.0/reindex/sdf34tGdfgGDG345g3y0045TYG23te37
 ```
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        All the repositories will be reindexed if the URL specified above is activated through <code>GET</code>, <code>POST</code>, or <code>PUT</code> and the webhooks are enabled.
-        <p style='margin-bottom:0 !important'>There is no support for other HTTP methods such as <code>DELETE</code> or <code>HEAD</code>.</p>
-    </div>
-    </div>
-</div>
+> **Info:** All the repositories will be reindexed if the URL specified above is activated through <code>GET</code>, <code>POST</code>, or <code>PUT</code> and the webhooks are enabled.
+> <p style='margin-bottom:0 !important'>There is no support for other HTTP methods such as <code>DELETE</code> or <code>HEAD</code>.</p>
 
 &nbsp;
 

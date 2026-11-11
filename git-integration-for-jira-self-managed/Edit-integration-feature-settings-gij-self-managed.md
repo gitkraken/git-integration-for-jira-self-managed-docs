@@ -68,27 +68,9 @@ Set whether to show all tags or show on tags with matching regex pattern. For mo
 
 Enable this option to require users to provide PAT which will be used for branch and merge/pull request creation/deletion (via the developer panel on the Jira issue page). This is a security feature of Git Integration for Jira app for git hosts that support two-factor authentication.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This option requires the <a href='/git-integration-for-jira-data-center/repository-browser-gij-self-managed'>Repository Browser</a> feature enabled.
-    </div>
-    </div>
-</div>
+> **Warning:** This option requires the <a href='/git-integration-for-jira-data-center/repository-browser-gij-self-managed'>Repository Browser</a> feature enabled.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This setting is only available for auto-connected git hosts in Jira Server and Jira Data Center.
-    </div>
-    </div>
-</div>
+> **Info:** This setting is only available for auto-connected git hosts in Jira Server and Jira Data Center.
 
 &nbsp;
 

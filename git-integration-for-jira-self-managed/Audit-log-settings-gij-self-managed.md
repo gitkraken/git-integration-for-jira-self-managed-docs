@@ -26,27 +26,9 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 3.8+</b>&nbsp; <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b>
-    </div>
-    </div>
-</div>
+> **Tip:** <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 3.8+</b>&nbsp; <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b>
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'><b>General Settings</b></a> configuration page.
-    </div>
-    </div>
-</div>
+> **Info:** This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'><b>General Settings</b></a> configuration page.
 
 These settings affect which audit logs are displayed on the Jira system administration audit log page.
 
@@ -54,37 +36,19 @@ These settings affect which audit logs are displayed on the Jira system administ
 
 With auditing feature, key activities are tracked on the Jira instance. This provides administrators insight on how the way the instance is being used.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The new audit log will help administrators:
-        <ul>
-            <li>manage their log more effectively;</li>
-            <li>decide which of the coverage areas to audit; and</li>
-            <li>select how detailed they want their log to be.</li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Info:** The new audit log will help administrators:
+> <ul>
+> <li>manage their log more effectively;</li>
+> <li>decide which of the coverage areas to audit; and</li>
+> <li>select how detailed they want their log to be.</li>
+> </ul>
 
 The audit log functionality is also extended to Jira Data Center instances as it will have more coverage areas, various event volume levels and an option to integrate the audit log file with external tools.
 
 For more information on the audit log and it’s new functions, see [**this article**](https://confluence.atlassian.com/jiracore/audit-log-improvements-989762528.html).
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Performance</b><br>
-        Using this feature affects database performance. Administrators can select only needed log events to audit to improve performance.
-    </div>
-    </div>
-</div>
+> **Warning:** <b>Performance</b><br>
+> Using this feature affects database performance. Administrators can select only needed log events to audit to improve performance.
 
 &nbsp;
 

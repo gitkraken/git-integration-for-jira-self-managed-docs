@@ -46,19 +46,10 @@ On every Git commit, make sure the message includes the exact issue ID at the be
 
 To create a link between your Git commit and a Jira issue, developers must include the issue key into the commit comment.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Example git commit message:<br>
-        <div class='nextpara'>
-            "<code>PROJ-913 - Plugin version change from 2.6.7 to 2.6.8</code>"; where <b><i>PROJ-913</i></b> is the issue key that links the commit message to the Jira issue.
-        </div>
-    </div>
-    </div>
-</div>
+> **Info:** Example git commit message:<br>
+> <div class='nextpara'>
+> "<code>PROJ-913 - Plugin version change from 2.6.7 to 2.6.8</code>"; where <b><i>PROJ-913</i></b> is the issue key that links the commit message to the Jira issue.
+> </div>
 
 If you want to enforce the commit with a hook, please install this [**Git commit hook script »**](/git-integration-for-jira-data-center/commit-msg-hook-gij-self-managed).
 
@@ -86,16 +77,7 @@ The steps below provides an outline that you can follow to verify that the issue
 
 5.  In the **Git Repositories** configuration page, perform **Reset** and **Reindex** (under Actions) on the selected repository to make sure that the commits are in the correct location.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The Git Integration for Jira app also supports multiple issue keys in a commit message.
-    </div>
-    </div>
-</div>
+> **Tip:** The Git Integration for Jira app also supports multiple issue keys in a commit message.
 
 #### What are developer licenses?
 

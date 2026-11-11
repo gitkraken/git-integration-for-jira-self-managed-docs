@@ -28,26 +28,17 @@ custom_fields:
 
 The Branches REST API will obtain list of branches associated to a Jira issue.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        There are two types of users who can perform the Branches API call:
-        <ol style='margin-bottom:-10px'>
-            <li>Jira <b>administrators</b></li>
-            <li>Jira user who has <b>all</b> of the following:
-            <ol type='a'>
-                <li><b>View/browse permissions</b> to the project;</li>
-                <li><b>View Development Tools permissions</b> to the same project; and</li>
-                <li>The repository is <b>associated</b> to the project.</li>
-            </ol>
-            </li>
-        </ol>
-    </div>
-    </div>
-</div>
+> **Warning:** There are two types of users who can perform the Branches API call:
+> <ol style='margin-bottom:-10px'>
+> <li>Jira <b>administrators</b></li>
+> <li>Jira user who has <b>all</b> of the following:
+> <ol type='a'>
+> <li><b>View/browse permissions</b> to the project;</li>
+> <li><b>View Development Tools permissions</b> to the same project; and</li>
+> <li>The repository is <b>associated</b> to the project.</li>
+> </ol>
+> </li>
+> </ol>
 
 &nbsp;
 
@@ -83,16 +74,7 @@ Result:
 
 &nbsp;
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If there are no commits associated with the specified task (ISSUE_KEY), no branches are going to be displayed for this request.
-    </div>
-    </div>
-</div>
+> **Warning:** If there are no commits associated with the specified task (ISSUE_KEY), no branches are going to be displayed for this request.
 
 &nbsp;
 

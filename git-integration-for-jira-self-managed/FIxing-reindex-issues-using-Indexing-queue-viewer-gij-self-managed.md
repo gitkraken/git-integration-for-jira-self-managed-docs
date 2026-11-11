@@ -30,15 +30,6 @@ custom_fields:
 
 Use the Indexing Queue Viewer to check and look for reindex related issues.
 
-**What's on this page:**
-
-- [How to see when some indexing tasks has stuck?](#how-to-see-when-some-indexing-tasks-has-stuck)
-- [How to make sure only the dedicated node is reindexing?](#how-to-make-sure-only-the-dedicated-node-is-reindexing)
-- [How to see the progress of an integration index?](#how-to-see-the-progress-of-an-integration-index)
-- [Why my repository hasn’t been removed yet?](#why-my-repository-hasnt-been-removed-yet)
-- [How to find a nested repository in ERROR state?](#how-to-find-a-nested-repository-in-error-state)
-- [More articles about troubleshooting, workarounds and solutions](#more-articles-about-troubleshooting-workarounds-and-solutions)
-
 &nbsp;
 
 ### How to see when some indexing tasks has stuck?
@@ -154,17 +145,8 @@ If you’re suspecting a indexing issue from a certain repository in an integrat
 
 2.  View the logs of the error via **&ctdot;** Actions ➜ **View log**. You may send the logs with errors or issues to us at [GIJ Support](https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/) for analysis.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Contact us</b><br>
-        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
-    </div>
-    </div>
-</div>
+> **Info:** <b>Contact us</b><br>
+> If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
 
 &nbsp;
 

@@ -28,17 +28,9 @@ custom_fields:
 
 SSH keys are required in order to provide secure connection with the remote git host. The Git Integration for Jira app uses one set of keys for accessing all configured repositories.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>VERSION 4.0+</b><br>
-        OpenSSH is now fully supported.
-    </div>
-    </div>
-</div>
+> **Info:** <b>VERSION 4.0+</b><br>
+> OpenSSH is now fully supported.
+
 <br>
 
 Follow this guide if you are one of the users who are limited to or wanted to use SSH to securely connect to your git repositories.
@@ -51,28 +43,10 @@ There are two options available for specifying SSH keys:
 
 *   **SSH keys are stored in the app configuration.** The keys are added using the Git Integration app configuration. _This option supports passphrases._
 
-<div class="bbb-callout bbb--note">
-  <div class="irow">
-    <div class="ilogobox">
-      <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-      Features such as branch and pull/merge request creation is only available to repositories/git hosts that were connected via the Auto-connect integration.
-    </div>
-  </div>
-</div>
+> **Note:** Features such as branch and pull/merge request creation is only available to repositories/git hosts that were connected via the Auto-connect integration.
 
-<div class="bbb-callout bbb--tip">
-  <div class="irow">
-    <div class="ilogobox">
-      <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-      <b>Jira Data Center</b><br>
-      In case of Jira DC with multiple nodes, the SSH keys stored on server filesystem must be the same on all nodes.
-    </div>
-  </div>
-</div>
+> **Tip:** <b>Jira Data Center</b><br>
+> In case of Jira DC with multiple nodes, the SSH keys stored on server filesystem must be the same on all nodes.
 
 &nbsp;
 
@@ -90,16 +64,7 @@ In this case, the SSH server is the Git server and the SSH client is the Jira se
 
 *   Jira server — private key (_Git Integration for Jira sidebar ➜ SSH Keys_)
 
-<div class="bbb-callout bbb--alert">
-  <div class="irow">
-    <div class="ilogobox">
-      <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-      The developer's local system should not have the same private key.
-    </div>
-  </div>
-</div>
+> **Warning:** The developer's local system should not have the same private key.
 
 <div class="bbb-callout bbb--note">
   <div class="irow">
@@ -145,27 +110,9 @@ For Windows, we recommend to use <a href='https://www.putty.org/'><b>PuTTY</b><
 
 9. For the private key, see the note below.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        PuTTY creates a private key in its own ".ppk" format. To convert it to ".pem", the user should do the <b>Conversions</b> ➜ <b>Export OpenSSH key</b> menu option in PuTTYgen. Add/upload this file to Git Integration for Jira app ➜ <b>SSH keys</b> or when prompted on connecting SSH git repositories in Jira via Connect Git Repository wizard.
-    </div>
-    </div>
-</div>
+> **Note:** PuTTY creates a private key in its own ".ppk" format. To convert it to ".pem", the user should do the <b>Conversions</b> ➜ <b>Export OpenSSH key</b> menu option in PuTTYgen. Add/upload this file to Git Integration for Jira app ➜ <b>SSH keys</b> or when prompted on connecting SSH git repositories in Jira via Connect Git Repository wizard.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        You can also use the git bash command line to generate SSH key pair. For detailed information, see <a href='https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key'><b>Generate SSH via Git bash</b></a>.
-    </div>
-    </div>
-</div>
+> **Tip:** You can also use the git bash command line to generate SSH key pair. For detailed information, see <a href='https://git-scm.com/book/en/v2/Git-on-the-Server-Generating-Your-SSH-Public-Key'><b>Generate SSH via Git bash</b></a>.
 
 Read on the section [Generating SSH keys](/git-integration-for-jira-dta-center/generating-ssh-keys-gij-self-managed) and follow specific information for the git host and platform that you use.
 

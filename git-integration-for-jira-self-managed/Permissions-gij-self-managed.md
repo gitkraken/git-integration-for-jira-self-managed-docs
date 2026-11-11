@@ -26,30 +26,12 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Depreciation notes</b>
-        <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.0+</b> -- We are dropping support for Jira 7.x.x.<br>
-        <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 3.5.1+</b> -- Dropped support for Internet Explorer 11 browser.<br>
-        <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 2.13.0+</b> -- We are dropping support for Java 7, Jira 6.3 and 6.4.
-    </div>
-    </div>
-</div>
+> **Warning:** <b>Depreciation notes</b>
+> <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.0+</b> -- We are dropping support for Jira 7.x.x.<br>
+> <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 3.5.1+</b> -- Dropped support for Internet Explorer 11 browser.<br>
+> <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 2.13.0+</b> -- We are dropping support for Java 7, Jira 6.3 and 6.4.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Universal Plugin Manager 2.2</b> or later is required to properly install this app.
-    </div>
-    </div>
-</div>
+> **Info:** <b>Universal Plugin Manager 2.2</b> or later is required to properly install this app.
 
 &nbsp;
 
@@ -63,18 +45,9 @@ custom_fields:
     <i>Right click <a href='https://gitkraken.wistia.com/medias/ynjggc2wzg'><b>here</b></a> to open this video in a new browser tab for more viewing options.</i>
 </div>
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Users must have ‘<b><i>View Development Tools</i></b>’ permission in order to view commit information on the issue page.
-        <div class="nextpara">
-            Administrators must grant themselves the ‘<b><i>View Development Tools</i></b>’ permission in order to view commit information on the issue pages.</div>
-        </div>
-    </div>
-</div>
+> **Warning:** Users must have ‘<b><i>View Development Tools</i></b>’ permission in order to view commit information on the issue page.
+> <div class="nextpara">
+> Administrators must grant themselves the ‘<b><i>View Development Tools</i></b>’ permission in order to view commit information on the issue pages.</div>
 
 The user needs to be in the developers group to view code diffs when default permission scheme is used.
 

@@ -26,16 +26,7 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This feature requires Git Integration for Jira DC app installed to be able to see pull request data in Team Insights for Jira.
-    </div>
-    </div>
-</div>
+> **Warning:** This feature requires Git Integration for Jira DC app installed to be able to see pull request data in Team Insights for Jira.
 
 This feature supports pull/merge request (PR/MR) event history and it projects PR/MR reindex data to Team Insights for Jira (TIJ). The Git Integration for Jira app should be installed to be able to see more details in TIJ tasks and backlog view.
 

@@ -26,33 +26,15 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For detailed information on this feature, see <a href='/git-integration-for-jira-data-center/viewing-commit-code-diffs-gij-self-managed'>Documentation: Viewing commit code diffs</a>.
-    </div>
-    </div>
-</div>
+> **Info:** For detailed information on this feature, see <a href='/git-integration-for-jira-data-center/viewing-commit-code-diffs-gij-self-managed'>Documentation: Viewing commit code diffs</a>.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>VERSION 3.8.1</b><br>
-        Git Integration for Jira adds three new settings in the General settings configuration page:
-        <ul>
-            <li>Repository Browser</li>
-            <li>Source Code Diff Viewing (this page)</li>
-            <li>Require user personal access tokens for branch and PR/MR creation</li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Info:** <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>VERSION 3.8.1</b><br>
+> Git Integration for Jira adds three new settings in the General settings configuration page:
+> <ul>
+> <li>Repository Browser</li>
+> <li>Source Code Diff Viewing (this page)</li>
+> <li>Require user personal access tokens for branch and PR/MR creation</li>
+> </ul>
 
 <img src='/wp-content/uploads/gij-gitserver-gencfg-code-diff.png' style='display:block;margin:25px auto;max-width:100%' />
 

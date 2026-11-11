@@ -30,16 +30,7 @@ custom_fields:
 
 Call the Get Commits REST API to obtain commit information associated with an issue.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        To perform the Get Commits API call, the Jira user must have the permission to **read** the requested issue.
-    </div>
-    </div>
-</div>
+> **Warning:** To perform the Get Commits API call, the Jira user must have the permission to **read** the requested issue.
 
 &nbsp;
 

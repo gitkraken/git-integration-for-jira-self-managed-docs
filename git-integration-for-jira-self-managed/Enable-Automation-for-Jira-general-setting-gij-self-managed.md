@@ -20,27 +20,10 @@ taxonomy:
 
 ---
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'><b>General Settings</b></a> configuration page.
-    </div>
-    </div>
-</div>
+> **Info:** This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'><b>General Settings</b></a> configuration page.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-        <div class="ilogobox">
-            <span class="logoimg"></span>
-        </div>
-        <div class="imsgbox">
-            <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>AVAILABLE</b>
-        </div>
-    </div>
-</div>
+> **Tip:** <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b> <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>AVAILABLE</b>
+
 <br>
 
 Enable/disable Automation for Jira setting to show or hide this feature in your Jira instance.

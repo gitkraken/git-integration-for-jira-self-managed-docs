@@ -29,16 +29,7 @@ custom_fields:
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>NEW FEATURE</b>
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>DATA CENTER ONLY</b>
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Available in version Git Integration for Jira Data Center <b>v4.2+</b>.
-    </div>
-    </div>
-</div>
+> **Tip:** Available in version Git Integration for Jira Data Center <b>v4.2+</b>.
 
 Large Jira Data Center deployments can be designed to have specific Jira Data Center nodes focusing exclusively on responding to user activity while other nodes focus on other activities (example: responding to API requests). As of version 4.2+, Git Integration for Jira Data Center allows the Jira administrator to designate some or all DC nodes to perform Git indexing.
 
@@ -58,16 +49,7 @@ If you're using a Jira Server instance this setting is disabled and unavailable 
 
 ### Setting specific nodes for repository reindexing
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This setting is ideal for large Jira Data Center instances.
-    </div>
-    </div>
-</div>
+> **Info:** This setting is ideal for large Jira Data Center instances.
 
 Uncheck the **Allow all nodes…** setting to access the drop down list and assign one or more dedicated nodes for repository reindexing tasks.
 

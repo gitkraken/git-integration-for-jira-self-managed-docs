@@ -28,16 +28,7 @@ custom_fields:
 
 Updates the existing parameters of the specified integration.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Only Jira admins can perform the Update Integration API call.
-    </div>
-    </div>
-</div>
+> **Warning:** Only Jira admins can perform the Update Integration API call.
 
 ### URL format
 `{JiraBaseURL}/rest/gitplugin/1.0/integration/\{integrationId\}`

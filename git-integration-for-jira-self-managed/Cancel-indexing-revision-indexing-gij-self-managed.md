@@ -32,17 +32,8 @@ custom_fields:
 
 Reindexing may take a very long time to complete due to some reasons such as handling very large repositories, indexing issues, or very low system resources. This feature is introduced to allow Jira administrators to interrupt an indexing process once it has been queued or has already started.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Note:</b>
-        The index data remains as is at the moment of cancellation of the reindex task.
-    </div>
-    </div>
-</div>
+> **Info:** <b>Note:</b>
+> The index data remains as is at the moment of cancellation of the reindex task.
 
 The Cancel action interrupts:
 
@@ -96,16 +87,7 @@ A new CANCELED status is available to the indexing queue task state. Additionall
 
 ![](/wp-content/uploads/gij-gitserverdc-indexing-queue-cancel-status.png)
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        On the Indexing queue viewer page, tasks with CANCELED status are displayed when Filter: INDEXING or Filter: CANCELED is selected. You can resume this indexing task at a later time from the Manage repositories page ➜ Actions ➜ Reindex repository/integration.
-    </div>
-    </div>
-</div>
+> **Tip:** On the Indexing queue viewer page, tasks with CANCELED status are displayed when Filter: INDEXING or Filter: CANCELED is selected. You can resume this indexing task at a later time from the Manage repositories page ➜ Actions ➜ Reindex repository/integration.
 
 The CANCELED status is also implemented in the Manage repositories configuration list.
 

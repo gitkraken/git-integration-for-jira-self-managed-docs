@@ -28,16 +28,7 @@ custom_fields:
 
 The Tag REST API returns several latest tags for the issue.  Tags are sorted in chronological order from newest to oldest.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        To perform the Tag API call, the Jira user must have the permission to <b>read</b> the requested issue.
-    </div>
-    </div>
-</div>
+> **Warning:** To perform the Tag API call, the Jira user must have the permission to <b>read</b> the requested issue.
 
 &nbsp;
 

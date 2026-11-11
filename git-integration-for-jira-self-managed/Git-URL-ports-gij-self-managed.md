@@ -46,16 +46,7 @@ Test git connection and repository URL by doing the following:
 
 3.  Clone the repository (or run `git clone <your_repository_url>`)
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The Git Integration for Jira app will run successfully if the above connection test ran without errors.
-    </div>
-    </div>
-</div>
+> **Tip:** The Git Integration for Jira app will run successfully if the above connection test ran without errors.
 
 &nbsp;
 * * *

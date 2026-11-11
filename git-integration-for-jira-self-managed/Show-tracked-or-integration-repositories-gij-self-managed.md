@@ -43,27 +43,9 @@ Browse the tracked repositories/folder by clicking the page controls (if more th
 
 In the filter field at the top right, enter a character or a name to display repositories that contains the search text.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Enable/disable the state of the connected repositories under the <b>Enabled</b> column of the repository list.
-    </div>
-    </div>
-</div>
+> **Tip:** Enable/disable the state of the connected repositories under the <b>Enabled</b> column of the repository list.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The Repository Browser will not display the repository if it is disabled in the Git Repositories configuration. The commits and code diffs in the Issue ➜ <b>Git Commits</b>, <b>Git Roll Up</b> and <b>Project</b> tabs will also be unavailable due to this.
-    </div>
-    </div>
-</div>
+> **Note:** The Repository Browser will not display the repository if it is disabled in the Git Repositories configuration. The commits and code diffs in the Issue ➜ <b>Git Commits</b>, <b>Git Roll Up</b> and <b>Project</b> tabs will also be unavailable due to this.
 
 &nbsp;
 * * *

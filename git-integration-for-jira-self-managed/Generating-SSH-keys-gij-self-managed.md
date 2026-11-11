@@ -44,16 +44,7 @@ Configure and generate SSH keys for the following git hosting systems by followi
 
 ### Gerrit
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The Git Integration for Jira app supports Gerrit web linking.
-    </div>
-    </div>
-</div>
+> **Info:** The Git Integration for Jira app supports Gerrit web linking.
 
 *   For information about Gerrit software, see [Gerrit Software Wiki](http://en.wikipedia.org/wiki/Gerrit_(software)) and [Gerrit at Code Review](https://code.google.com/p/gerrit/).
 
@@ -75,16 +66,7 @@ Configure and generate SSH keys for the following git hosting systems by followi
 
 ### GitHub
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <a href='https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys' target='_blank'>Check for existing SSH keys</a> before you proceed to generate new keys.
-    </div>
-    </div>
-</div>
+> **Tip:** <a href='https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys' target='_blank'>Check for existing SSH keys</a> before you proceed to generate new keys.
 
 See GitHub supported platforms for generating SSH keys by following [this article](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent).
 
@@ -122,31 +104,13 @@ Other SSH key formats may be supported by Git Integration for Jira app, but pref
 
 ### VSTS \| TFS \| Azure DevOps/Azure Repos
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The SSH support starts with TFS 2013 and later versions.
-    </div>
-    </div>
-</div>
+> **Info:** The SSH support starts with TFS 2013 and later versions.
 
 *   For information about TFS/Azure DevOps Server, see [MS Team Foundation Server](https://azure.microsoft.com/en-us/services/devops/server/).
 
 *   For general reference and terms, see [Git Experience Futures](https://devblogs.microsoft.com/devops/git-experience-futures/).
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Users can use HTTPS or SSH to securely connect to git repositories. HTTPS connections will require the user's login credentials, while SSH connections will require SSH keys.
-    </div>
-    </div>
-</div>
+> **Note:** Users can use HTTPS or SSH to securely connect to git repositories. HTTPS connections will require the user's login credentials, while SSH connections will require SSH keys.
 
 &nbsp;
 * * *

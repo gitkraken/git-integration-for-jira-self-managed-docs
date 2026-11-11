@@ -28,15 +28,6 @@ custom_fields:
 
 You are getting this error because of wrong login credentials or a permission issue.
 
-**What’s on this page:**
-- [Having Invalid Credentials](#having-invalid-credentials)
-- [Not Having Enough Access Permissions](#not-having-enough-access-permissions)
-- [Using Proxies](#using-proxies)
-- [Examining Logs and Errors](#examining-logs-and-errors)
-  - [How to find supported authentication schemes?](#how-to-find-supported-authentication-schemes)
-  - [How to find login credentials used in Basic authentication?](#how-to-find-login-credentials-used-in-basic-authentication)
-- [More articles about troubleshooting, workarounds and solutions](#more-articles-about-troubleshooting-workarounds-and-solutions)
-
 &nbsp;
 * * *
 &nbsp;
@@ -191,17 +182,8 @@ From the above log:
 
 3.  Verify that `jira` is the expected username and `jirapassword` is the expected password.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Contact us</b><br>
-        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
-    </div>
-    </div>
-</div>
+> **Info:** <b>Contact us</b><br>
+> If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
 
 &nbsp;
 

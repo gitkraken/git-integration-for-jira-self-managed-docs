@@ -36,27 +36,9 @@ The displayed information depends on which supported git hosts are connected to 
 
 *   Both GitLab and GitHub integrations  –  separate sections for merge requests and pull requests
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For necessary permissions that GitLab users must have for creating pull/merge requests, see <a href='https://docs.gitlab.com/ee/user/permissions.html' target='_blank'><b>GitLab Documentation: Permissions</b></a>.
-    </div>
-    </div>
-</div>
+> **Info:** For necessary permissions that GitLab users must have for creating pull/merge requests, see <a href='https://docs.gitlab.com/ee/user/permissions.html' target='_blank'><b>GitLab Documentation: Permissions</b></a>.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This function does not work for connected single git repositories. Use the auto-connect integration instead.
-    </div>
-    </div>
-</div>
+> **Tip:** This function does not work for connected single git repositories. Use the auto-connect integration instead.
 
 &nbsp;
 
@@ -88,19 +70,10 @@ If the [Require User PAT option](/git-integration-for-jira-data-center/require
 
 &nbsp;
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If an invalid PAT was configured for the selected repository, the pull/merge request creation process will fail.
-        <div style='margin-top:5px;margin-bottom:-10px'>
-            This feature is available on connected GitLab1 and GitHub2 git hosts for Jira Server; GitLab, GitHub, Microsoft TFS/VSTS and AWS CodeCommit git hosts for Jira Cloud.
-        </div>
-    </div>
-    </div>
-</div>
+> **Info:** If an invalid PAT was configured for the selected repository, the pull/merge request creation process will fail.
+> <div style='margin-top:5px;margin-bottom:-10px'>
+> This feature is available on connected GitLab1 and GitHub2 git hosts for Jira Server; GitLab, GitHub, Microsoft TFS/VSTS and AWS CodeCommit git hosts for Jira Cloud.
+> </div>
 
 &nbsp;
 
@@ -114,16 +87,7 @@ The merge request is displayed on the developer panel and will also be associate
 
 This will also allow a service user to associate a Merge/Pull Request with multiple Jira issues regardless of commit associations.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        We recommend service users to enable pull/merge requests webhook trigger events. This way, any changes to pull/merge requests gets reindexed quickly.
-    </div>
-    </div>
-</div>
+> **Tip:** We recommend service users to enable pull/merge requests webhook trigger events. This way, any changes to pull/merge requests gets reindexed quickly.
 
 The Pull/merge request list provides status information about the pull/merge request if it is opened or merged. Hover the mouse pointer on the pull/merge request label to see information of the repository and branch where it belongs.
 

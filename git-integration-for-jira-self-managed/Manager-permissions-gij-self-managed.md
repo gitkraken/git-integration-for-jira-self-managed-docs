@@ -114,16 +114,7 @@ The Git Integration for Jira sidebar menu now includes a new item called **88**.
 
 ![](/wp-content/uploads/gij-datacenter-manager-permissions-manager-list.png)
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Recent active managers gets populated for every user that is added to the GIJ Manager group.
-    </div>
-    </div>
-</div>
+> **Tip:** Recent active managers gets populated for every user that is added to the GIJ Manager group.
 
 &nbsp;
 
@@ -133,17 +124,8 @@ Every user you add to the GIJ Managers group will have complete access to the Gi
 
 GIJ Managers are allowed to create integrations and set project mapping settings with it. This also works with any git integration wizard in the Manage integrations page.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If the manager is not the author of the added integration, then the project association settings are inaccessible via UI or API.<br>
-        <img src='/wp-content/uploads/gij-datacenter-manager-permissions-project-mapping-edit.png' style='margin:10px auto 0px auto;display:block;max-width:100%;'>
-    </div>
-    </div>
-</div>
+> **Info:** If the manager is not the author of the added integration, then the project association settings are inaccessible via UI or API.<br>
+> <img src='/wp-content/uploads/gij-datacenter-manager-permissions-project-mapping-edit.png' style='margin:10px auto 0px auto;display:block;max-width:100%;'>
 
 **GIJ Managers** does not have the ability to change permissions or access the Manager permissions page. The managers also does not have the ability to change project visibility settings. This level of access is exclusively reserved for Jira admins.
 

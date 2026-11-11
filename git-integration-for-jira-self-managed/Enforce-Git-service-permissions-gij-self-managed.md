@@ -28,28 +28,10 @@ custom_fields:
 
 <!-- General settings -->
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b><br>
-        Available in Git Integration for Jira Server/Data Center <b>v4.1.4+</b>.
-    </div>
-    </div>
-</div>
+> **Tip:** <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b><br>
+> Available in Git Integration for Jira Server/Data Center <b>v4.1.4+</b>.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This page is intended for Jira administrators. For Jira users with limited access, please <a href='/git-integration-for-jira-data-center/enforced-git-permissions-for-jira-users-gij-self-managed'>go to this page</a> instead.
-    </div>
-    </div>
-</div>
+> **Info:** This page is intended for Jira administrators. For Jira users with limited access, please <a href='/git-integration-for-jira-data-center/enforced-git-permissions-for-jira-users-gij-self-managed'>go to this page</a> instead.
 
 <div class='embed-container embed-container--16-9'>
     <iframe width='709' height='443' src='https://fast.wistia.com/embed/iframe/npe76i5nxm?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -74,27 +56,9 @@ Source code is sensitive data and a great deal of effort is taken by development
 
 This setting provides Jira administrators the option of switching to a secure mode. In this mode, a Jira user is prevented from viewing git data, unless they have been authenticated to the Git server to view this specific data.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        A Jira user must have the <i><b>View development tools</b></i> Jira permission to be able to add a personal access token to an integration or repository.
-    </div>
-    </div>
-</div>
+> **Warning:** A Jira user must have the <i><b>View development tools</b></i> Jira permission to be able to add a personal access token to an integration or repository.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This feature allows users to enter their PATs without accessing the Repository Browser page.
-    </div>
-    </div>
-</div>
+> **Info:** This feature allows users to enter their PATs without accessing the Repository Browser page.
 
 &nbsp;
 
@@ -160,15 +124,7 @@ If the **Enforce Git service permissions** setting is enabled, a Jira user will 
 
 **Max permission cache age** – This setting grants administrators the ability to set how long Git server permissions are cached in Git Integration for Jira app. The default value for this setting is **24** hours.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The <a href='/git-integration-for-jira-data-center/require-user-pat-general-setting-gij-self-managed'>Require User PAT general setting</a> must be enabled to use the <b>Enforce Git Service permissions</b> feature.
-    </div>
-    </div>
-</div>
+> **Warning:** The <a href='/git-integration-for-jira-data-center/require-user-pat-general-setting-gij-self-managed'>Require User PAT general setting</a> must be enabled to use the <b>Enforce Git Service permissions</b> feature.
+
 <br>
 

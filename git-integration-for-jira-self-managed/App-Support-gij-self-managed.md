@@ -37,19 +37,10 @@ The Git Integration for Jira app (GIJ) currently supports the following Jira ver
 
 \* _Jira server extended license support until Feb 15, 2025._
 
-<div class="bbb-callout bbb--error">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>UPDATE</b><br>
-        Starting Git Integration for Jira v4.0+ app, support for Jira 7 is entirely dropped.<br>
-        Starting Git Integration for Jira v4.12+ app, we are dropping support for Java 8.0-8.11.
-        The last Jira Server release is v9.12+.
-    </div>
-    </div>
-</div>
+> **Danger:** <b>UPDATE</b><br>
+> Starting Git Integration for Jira v4.0+ app, support for Jira 7 is entirely dropped.<br>
+> Starting Git Integration for Jira v4.12+ app, we are dropping support for Java 8.0-8.11.
+> The last Jira Server release is v9.12+.
 
 We are committed to provide you with an efficient and reliable support. Scroll down to see helpful tips to get started.
 
@@ -64,17 +55,8 @@ Any of the GIJ 5.x.x versions are ONLY compatible with JDK 17.
 
 ### Jira Server platform end of life support
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Starting from version 9.13, Jira Software now exclusively supports Data Center licenses. If you attempt to upgrade to release 9.13 or any subsequent version with your Server license, Jira will be unable to start and you will be required to revert back to the previous version.<br>
-        <div style="margin-top:5px;margin-bottom:-10px;">If you prefer to continue using a Server license, you have the option of upgrading to Jira Software version 9.12 or an earlier release.</div>
-    </div>
-    </div>
-</div>
+> **Warning:** Starting from version 9.13, Jira Software now exclusively supports Data Center licenses. If you attempt to upgrade to release 9.13 or any subsequent version with your Server license, Jira will be unable to start and you will be required to revert back to the previous version.<br>
+> <div style="margin-top:5px;margin-bottom:-10px;">If you prefer to continue using a Server license, you have the option of upgrading to Jira Software version 9.12 or an earlier release.</div>
 
 Atlassian's end of life support for the Jira Server platform has ended. Please plan ahead on migrating your Jira Server to Cloud or Data Center starting now.
 
@@ -137,17 +119,8 @@ If there is an error encountered when connecting to a repository, a similar inde
 
 ### Atlassian Support End of Life
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Important changes to Atlassian Server and Data Center products</b><br>
-        Atlassian is making changes to the Server and Data Center products, especially ending sale and support for the Server products -- <a href='https://www.atlassian.com/migration/journey-to-cloud'>Learn what this means for you</a>.
-    </div>
-    </div>
-</div>
+> **Info:** <b>Important changes to Atlassian Server and Data Center products</b><br>
+> Atlassian is making changes to the Server and Data Center products, especially ending sale and support for the Server products -- <a href='https://www.atlassian.com/migration/journey-to-cloud'>Learn what this means for you</a>.
 
 Starting **v2.13.0+**, we are dropping support for Java 7, Jira 6.3 and 6.4.
 
@@ -220,16 +193,7 @@ In view of this, BigBrassBand LLC will also follow this decision effectively:
 
 &nbsp;
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Contact Us</b><br>
-        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
-    </div>
-    </div>
-</div>
+> **Info:** <b>Contact Us</b><br>
+> If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
 
 

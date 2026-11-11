@@ -26,29 +26,11 @@ custom_fields:
     page_type: "content"
 ---
 
-**What's on this page:**
-- [Improving Git tags performance](#improving-git-tags-performance)
-- [Improving diff load performance](#improving-diff-load-performance)
-- [Enable/disable JQL search feature](#enable-or-disable-jql-search-feature)
-- [Smart commits setting](#smart-commits-setting)
-- [Commit Notification Emails](#commit-notification-emails)
-- [Git Activity Stream](#git-activity-stream)
-- [More related articles on Git for Jira administrators](#more-related-articles-on-git-for-jira-administrators)
-
 &nbsp;
 * * *
 &nbsp;
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Access these settings via Jira dashboard menu <b>Git</b> ➜ Manage repositories ➜ (sidebar) <b>General settings</b>.
-    </div>
-    </div>
-</div>
+> **Info:** Access these settings via Jira dashboard menu <b>Git</b> ➜ Manage repositories ➜ (sidebar) <b>General settings</b>.
 
 &nbsp;
 
@@ -84,28 +66,10 @@ Jira administrators can control over the size of diffs allowed to be displayed i
 
 &nbsp;
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>NOTE!</b><br>
-        Setting this value higher than the default value will impact the performance when loading the code diff of the selected file in the Git Commits tab. The code diff dialog will truncate the view for each 1500 lines code. To see the rest of the code, manually expand the view.
-    </div>
-    </div>
-</div>
+> **Warning:** <b>NOTE!</b><br>
+> Setting this value higher than the default value will impact the performance when loading the code diff of the selected file in the Git Commits tab. The code diff dialog will truncate the view for each 1500 lines code. To see the rest of the code, manually expand the view.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This setting prevents the display of huge diffs. Thus, improving Jira performance.
-    </div>
-    </div>
-</div>
+> **Info:** This setting prevents the display of huge diffs. Thus, improving Jira performance.
 
 &nbsp;
 
@@ -119,16 +83,7 @@ Enable/disable the JQL searching setting.
 
 This general setting allows administrators to enable/disable the JQL functions within the Git Integration for Jira app.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Turn off this setting to improve Jira performance.
-    </div>
-    </div>
-</div>
+> **Tip:** Turn off this setting to improve Jira performance.
 
 &nbsp;
 
@@ -144,16 +99,7 @@ To improve performance, turn off smart commits on initial indexing then turn it 
 
 Enable/disable the setting to allow sending of email notifications when a commit is made. This setting defaults to OFF for upgrades and ON for new installation of the Git Integration for Jira app.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Turn off this setting to improve Jira performance.
-    </div>
-    </div>
-</div>
+> **Tip:** Turn off this setting to improve Jira performance.
 
 &nbsp;
 
@@ -163,16 +109,7 @@ Enable/disable the setting to allow sending of email notifications when a commit
 
 Enable/disable the setting whether to show git commits in the Jira activity stream (Issue page or dashboard widget) or not. For in-place upgrade of the Git Integration for Jira app, this setting is turned off by default. For new installation, the default setting is enabled.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Disabling this setting will improve Jira performance.
-    </div>
-    </div>
-</div>
+> **Tip:** Disabling this setting will improve Jira performance.
 
 &nbsp;
 * * *

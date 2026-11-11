@@ -63,16 +63,7 @@ The git commit compare function (_Repository Browser - Compare_) is added into t
 
 *   For example, the JQL will look like `issuekey in (GIT-1851, GIT-1159, GITCL-284, GITCL-254)`.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The Git Roll Up issue tab will find the best matching branch name using the Jira issue key to find it. For example, if you have a branch name of <code>v2.1-ABC-123</code>, that branch will be automatically selected when you open the Git Roll Up issue tab.
-    </div>
-    </div>
-</div>
+> **Info:** The Git Roll Up issue tab will find the best matching branch name using the Jira issue key to find it. For example, if you have a branch name of <code>v2.1-ABC-123</code>, that branch will be automatically selected when you open the Git Roll Up issue tab.
 
 Sort the code statistics by clicking the respective **Sort** button then selecting the required sorting option.
 
@@ -84,16 +75,7 @@ Select roll up options by clicking the respective **Rollup** button.
 
 <img src='/wp-content/uploads/gij-git-rollup-02.png' style='margin:25px auto;max-width:100%;display:block;' />
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        To view the code diff of the file, click the corresponding  filename on the <b>Files</b> summary table. A dialog will appear displaying the file diff between the first and last revisions of the commit.
-    </div>
-    </div>
-</div>
+> **Tip:** To view the code diff of the file, click the corresponding  filename on the <b>Files</b> summary table. A dialog will appear displaying the file diff between the first and last revisions of the commit.
 
 &nbsp;
 * * *

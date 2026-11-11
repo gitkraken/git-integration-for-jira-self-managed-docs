@@ -70,16 +70,7 @@ Caused by: org.json.JSONException: A JSONObject text must begin with '{' at 1 [c
 
 ### Solutions
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This issue should be resolved in <b>v3.5.0.2+</b>. If similar issue is found in later versions, please contact us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
-    </div>
-    </div>
-</div>
+> **Info:** This issue should be resolved in <b>v3.5.0.2+</b>. If similar issue is found in later versions, please contact us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
 
 1.  Verify that the Git Integration for Jira app does not have a reindex process in progress.
 
@@ -97,17 +88,8 @@ Caused by: org.json.JSONException: A JSONObject text must begin with '{' at 1 [c
 
 `jira/home/caches/indexes/plugins/jira-git-pull-requests/` will be recreated.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Contact Us</b><br>
-        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
-    </div>
-    </div>
-</div>
+> **Info:** <b>Contact Us</b><br>
+> If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
 
 &nbsp;
 

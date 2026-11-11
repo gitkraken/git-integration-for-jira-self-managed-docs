@@ -84,17 +84,8 @@ In MySQL configuration (my.ini (Windows) or my.cnf (Unix)), parameter of sql_mod
 
 For more information - see Atlassian help article about [Duplicate entry 0 for key PRIMARY exceptions in log](https://confluence.atlassian.com/jirakb/duplicate-entry-0-for-key-primary-exceptions-in-log-646251198.html).
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Contact Us</b><br>
-        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
-    </div>
-    </div>
-</div>
+> **Info:** <b>Contact Us</b><br>
+> If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
 
 &nbsp;
 

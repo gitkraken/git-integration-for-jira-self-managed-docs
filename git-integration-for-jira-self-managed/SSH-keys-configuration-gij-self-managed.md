@@ -43,27 +43,9 @@ Refer to the following table for list column information:
 | _**Last Used By**_ | Lists the repositories that are using this SSH key. |
 | _**Operations**_ | Click the icon to perform **Delete** or **Associations** functions. |
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        You cannot delete filesystem-based keys by using the Git Integration app configuration.
-    </div>
-    </div>
-</div>
+> **Note:** You cannot delete filesystem-based keys by using the Git Integration app configuration.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The SSH keys are also automatically added to this list when adding new repositories that require SSH keys.
-    </div>
-    </div>
-</div>
+> **Info:** The SSH keys are also automatically added to this list when adding new repositories that require SSH keys.
 
 &nbsp;
 * * *

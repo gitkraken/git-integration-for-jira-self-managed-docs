@@ -31,11 +31,6 @@ For help with writing expressions, please contact [**support**](mailto:gijsuppo
 
 Read about JMESPath expressions on their <a href='http://jmespath.org/' target='_blank'><b>website</b></a>.
 
-**What's on this page:**
-- [Accessible Locations](#accessible-locations)
-- [More on JMESPath filters for supported git services](#more-on-jmespath-filters-for-supported-git-services)
-- [More How-to articles](#more-how-to-articles)
-
 &nbsp;
 <hr>
 &nbsp;

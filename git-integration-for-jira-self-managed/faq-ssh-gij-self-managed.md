@@ -159,17 +159,8 @@ Passphrases are now supported since v2.x.x of the Git Integration for Jira app.
 
 Yes.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>VERSION 4.0+</b><br>
-        OpenSSH is now fully supported.
-    </div>
-    </div>
-</div>
+> **Tip:** <b>VERSION 4.0+</b><br>
+> OpenSSH is now fully supported.
 
 #### How do you configure the SSH key used when adding a new project?
 

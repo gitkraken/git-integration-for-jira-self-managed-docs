@@ -26,38 +26,11 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        These instructions apply to self-hosted GitHub Enterprise Server.
-    </div>
-    </div>
-</div>
+> **Tip:** These instructions apply to self-hosted GitHub Enterprise Server.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For instructions to instances hosted on GitHub.com (Free, Team, Enterprise (including <a href='https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users'></b>EMU</b></a> plans), please go to <a href='/git-integration-for-jira-data-center/github-gij-self-managed'>this page</a>.
-    </div>
-    </div>
-</div>
+> **Info:** For instructions to instances hosted on GitHub.com (Free, Team, Enterprise (including <a href='https://docs.github.com/en/enterprise-cloud@latest/admin/identity-and-access-management/managing-iam-with-enterprise-managed-users/about-enterprise-managed-users'></b>EMU</b></a> plans), please go to <a href='/git-integration-for-jira-data-center/github-gij-self-managed'>this page</a>.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/github-com-gij-cloud'>See the corresponding article</a>.
-    </div>
-    </div>
-</div>
+> **Info:** Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/github-com-gij-cloud'>See the corresponding article</a>.
 
 &nbsp;
 
@@ -68,25 +41,6 @@ custom_fields:
 ## Integrate GitHub Enterprise Server with Jira Data Center/Server
 
 Quickly learn how to connect GitHub Enterprise Server git repositories via Git Integration for Jira Server.
-
-**What's on this page:**
-- [Integrate GitHub Enterprise Server with Jira Data Center/Server](#integrate-github-enterprise-server-with-jira-data-centerserver)
-  - [Creating a personal access token](#creating-a-personal-access-token)
-  - [Setting up GitHub Enterprise Server permissions](#setting-up-github-enterprise-server-permissions)
-    - [Default repository permission\*\*](#default-repository-permission)
-    - [Teams and collaborators](#teams-and-collaborators)
-  - [Integration platform support](#integration-platform-support)
-  - [Using Full feature integration](#using-full-feature-integration)
-  - [Single repository (Manual integration)](#single-repository-manual-integration)
-  - [Setting up GitHub web links](#setting-up-github-web-links)
-  - [Viewing git commits in Jira Server](#viewing-git-commits-in-jira-server)
-  - [Require User PAT settings for user access](#require-user-pat-settings-for-user-access)
-  - [Working with branches and pull requests](#working-with-branches-and-pull-requests)
-    - [Default branch](#default-branch)
-    - [Creating branches](#creating-branches)
-    - [Creating pull requests](#creating-pull-requests)
-  - [How to enable GetRepositories log response from GitHub to the Jira log?](#how-to-enable-getrepositories-log-response-from-github-to-the-jira-log)
-  - [More Integration Guides](#more-integration-guides)
 
 &nbsp;
 * * *
@@ -104,16 +58,7 @@ Quickly learn how to connect GitHub Enterprise Server git repositories via Git I
 
 ### Creating a personal access token
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If two-factor authentication is enabled for your GitHub Enterprise Server account, you will need to create a PAT to access your git repositories. Enable two-factor authentication in your GitHub Enterprise Server account for increased security.
-    </div>
-    </div>
-</div>
+> **Warning:** If two-factor authentication is enabled for your GitHub Enterprise Server account, you will need to create a PAT to access your git repositories. Enable two-factor authentication in your GitHub Enterprise Server account for increased security.
 
 While instructions from GitHub works just fine, [follow this article](/git-integration-for-jira-data-center/creating-personal-access-tokens-gij-self-managed) for some specific instructions to get you started.
 
@@ -202,38 +147,11 @@ To give a member additional access, they must be added to a team or make them co
 
 ![](/wp-content/uploads/gij-manage-team-repo-permission.png)
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        While users have configured PAT for repository access, users in a GitHub Enterprise Server must at least have <b>Read</b> permissions. This allows them to view commits and smart commits, and browse repositories (if enabled) of connected GitHub Enterprise Server repositories inside Jira.
-    </div>
-    </div>
-</div>
+> **Note:** While users have configured PAT for repository access, users in a GitHub Enterprise Server must at least have <b>Read</b> permissions. This allows them to view commits and smart commits, and browse repositories (if enabled) of connected GitHub Enterprise Server repositories inside Jira.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For repository managers, collaborators and commit authors, set these users to have <b>Write</b> permissions. This will allow them to view commits and smart commits, browse repositories and also enables them to create branches and pull requests to specified GitHub git repositories via developer panel of a Jira issue.
-    </div>
-    </div>
-</div>
+> **Info:** For repository managers, collaborators and commit authors, set these users to have <b>Write</b> permissions. This will allow them to view commits and smart commits, browse repositories and also enables them to create branches and pull requests to specified GitHub git repositories via developer panel of a Jira issue.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The user PAT for "Require User PAT" setting should have <b>Write</b> permission. Otherwise, the user will not be able to use it for branch or pull request creation/deletion.
-    </div>
-    </div>
-</div>
+> **Warning:** The user PAT for "Require User PAT" setting should have <b>Write</b> permission. Otherwise, the user will not be able to use it for branch or pull request creation/deletion.
 
 For more information on organization teams, see [**GitHub: Organizing Members into Teams »**](https://docs.github.com/en/organizations/organizing-members-into-teams).
 
@@ -335,16 +253,7 @@ GitHub Enterprise Server repositories are now connected to Jira Server.
 
 ### Single repository (Manual integration)
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.
-    </div>
-    </div>
-</div>
+> **Info:** This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.
 
 This process requires an existing GitHub Enterprise Server git repository. Look for the git clone URL on the repository project page.
 
@@ -404,16 +313,7 @@ Click this text label to open the Setup PAT dialog and paste your personal acces
 
 <img src='/wp-content/uploads/gij-gitserver-setup-pat-dlg.png' style='margin:25px auto;display:block;max-width:100%'/>
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Updating this dialog with a blank entry will remove the configured PAT for the current integration.
-    </div>
-    </div>
-</div>
+> **Tip:** Updating this dialog with a blank entry will remove the configured PAT for the current integration.
 
 The Setup PAT dialog is also accessible via Repository Browser (dashboard menu Git ➜ **Repository browser**) ➜ Click the <img src='/wp-content/uploads/gij-edit-icon-dark.png' style='margin: 0 3px;' /> icon under _**Pers. Access**_ column.
 
@@ -431,16 +331,7 @@ For GitHub Organization, the user must have the **Write** permissions and the�
 
 Most git integrations allow changing of the default branch of the repository/project other than "master". This change is reflected in the **Repository Settings** of the Git Integration for Jira app on the next reindex. Auto-connected integrations support this feature where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Main branch for repositories within an integration can only be changed on the git server.
-    </div>
-    </div>
-</div>
+> **Warning:** Main branch for repositories within an integration can only be changed on the git server.
 
 &nbsp;
 
@@ -462,16 +353,7 @@ On your Jira Server, open a Jira issue. On the Jira developer panel under **Git
 
 3.  Enter a **Branch name** or leave it as is (recommended).
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The Git Integration for Jira Server app gets the default branch from almost all integrations. However, the exception is with Gerrit which always has 'master' as its default branch.
-    </div>
-    </div>
-</div>
+> **Info:** The Git Integration for Jira Server app gets the default branch from almost all integrations. However, the exception is with Gerrit which always has 'master' as its default branch.
 
 The newly-created branch is now listed in the developer panel under **Branches**. Perform a commit to the newly-created branch to be ready for merge.
 
@@ -497,16 +379,7 @@ The pull request feature works the same as merge request. On your Jira Server, o
 
 4.  Enter a descriptive **Title** or leave it as is _(recommended)_.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Preview</b> allows you to see the comparison view of the current changes in the selected <b>Source branch</b> vs <b>Target branch</b> (<i>usually master</i>).
-    </div>
-    </div>
-</div>
+> **Tip:** <b>Preview</b> allows you to see the comparison view of the current changes in the selected <b>Source branch</b> vs <b>Target branch</b> (<i>usually master</i>).
 
 The pull request is listed on the developer panel of the Jira issue page.
 

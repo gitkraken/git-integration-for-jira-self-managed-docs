@@ -30,16 +30,7 @@ The **Source** tab is part of the FishEye Plugin and is used for integration w
 
 Atlassian enables these tabs by default.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If either <b>FishEye</b> or <b>Jira DVCS Connector</b> plugin is not installed, the <b>Source</b> or <b>Commits</b> tab will not be visible on the <b>Issues</b> page.
-    </div>
-    </div>
-</div>
+> **Info:** If either <b>FishEye</b> or <b>Jira DVCS Connector</b> plugin is not installed, the <b>Source</b> or <b>Commits</b> tab will not be visible on the <b>Issues</b> page.
 
 &nbsp;
 

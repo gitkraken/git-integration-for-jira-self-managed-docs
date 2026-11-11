@@ -45,16 +45,7 @@ The basic syntax for a smart commit message is:
 
 **\<ISSUE\_KEY\>** _\<ignored text\>_ **\#\<command\>** _\<optional command\_params\>_
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For more information on the Smart Commits feature, see <a href='/git-integration-for-jira-data-center/smart-commits-gij-self-managed/'>Documentation: Smart commits</a>.
-    </div>
-    </div>
-</div>
+> **Info:** For more information on the Smart Commits feature, see <a href='/git-integration-for-jira-data-center/smart-commits-gij-self-managed/'>Documentation: Smart commits</a>.
 
 * * *
 
@@ -106,16 +97,7 @@ The commit status shown on the Issue page depends on the Smart Commits setting t
 * * *
 &nbsp;
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Need to know more?  Read further at  <a href='/git-integration-for-jira-data-center/smart-commits-gij-self-managed'>Documentation: Smart commits</a>.
-    </div>
-    </div>
-</div>
+> **Tip:** Need to know more?  Read further at  <a href='/git-integration-for-jira-data-center/smart-commits-gij-self-managed'>Documentation: Smart commits</a>.
 
 &nbsp;
 

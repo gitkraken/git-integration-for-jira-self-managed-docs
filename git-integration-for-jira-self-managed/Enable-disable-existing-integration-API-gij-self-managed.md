@@ -26,16 +26,7 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Only Jira admins can perform the Enable/Disable Existing Integration API call.
-    </div>
-    </div>
-</div>
+> **Warning:** Only Jira admins can perform the Enable/Disable Existing Integration API call.
 
 ### URL format
 `\{JIRA\_BASE\_URL\}/rest/gitplugin/1.0/repository/\{integrationId\}/disable?disable=true|false`

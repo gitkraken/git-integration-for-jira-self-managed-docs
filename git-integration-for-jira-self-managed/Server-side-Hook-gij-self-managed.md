@@ -40,45 +40,20 @@ The **pre-receive** server-side hook requires git administrators to:
 
 2.  Configure **JIRA\_XMLRPC**, **JIRA\_USER**, **JIRA\_PASSWORD** and **PROJECT\_KEYS** in the pre-receive file.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The <b>PROJECT_KEYS</b> setting defines an array of project keys which is compared to a ticket key from the commit message. When Jira is not available, the hook simply checks the commit message if it contains the string pattern satisfying its declared conditions.<br>
-        <div style='margin-bottom:-10px;'>
-            <b>Pattern example:</b><br>
-            <code>(PROJECT_KEY1|PROJECT_KEY2|...)-\d+</code>
-        </div>
-    </div>
-    </div>
-</div>
+> **Info:** The <b>PROJECT_KEYS</b> setting defines an array of project keys which is compared to a ticket key from the commit message. When Jira is not available, the hook simply checks the commit message if it contains the string pattern satisfying its declared conditions.<br>
+> <div style='margin-bottom:-10px;'>
+> <b>Pattern example:</b><br>
+> <code>(PROJECT_KEY1|PROJECT_KEY2|...)-\d+</code>
+> </div>
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The <b>PROJECT_KEYS</b> variable is only used when Jira is not available, otherwise, this setting in the <b>pre-receive</b> file is ignored. The hook will not perform any checks if the PROJECT\_KEY array is empty and Jira is not available.
-    </div>
-    </div>
-</div>
+> **Warning:** The <b>PROJECT_KEYS</b> variable is only used when Jira is not available, otherwise, this setting in the <b>pre-receive</b> file is ignored. The hook will not perform any checks if the PROJECT\_KEY array is empty and Jira is not available.
+
 <br>
 
 See the server-side hook script below or right click and download the sample **[pre-receive file ↓](/wp-content/uploads/pre-receive.zip)**. Extract this file and make the necessary changes. Afterwards, place the edited file to the required folder (usually in .git/hooks directory).
 
-<div class="bbb-callout bbb--error">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The server-side hook script enforces users to include correct Jira tags.
-    </div>
-    </div>
-</div>
+> **Danger:** The server-side hook script enforces users to include correct Jira tags.
+
 <br>
 
 **Sample contents of the pre-receive file:**

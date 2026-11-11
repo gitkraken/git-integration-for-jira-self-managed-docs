@@ -34,16 +34,7 @@ Starting with **v3.7.2+** of the Git Integration for Jira Server and Data Center
 
 Pull/merge requests appear automatically in the Git Integration panel based on the commits associated with the pull/merge request. This allows users who did not mention a Jira issue key in the PR/MR title or description, they will still be linked.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This feature supports integrations such as GitHub, GitLab and Microsoft TFS/VSTS/Azure. However, AWS CodeCommit is not supported because there is no ability to get commits of a pull request via API.
-    </div>
-    </div>
-</div>
+> **Warning:** This feature supports integrations such as GitHub, GitLab and Microsoft TFS/VSTS/Azure. However, AWS CodeCommit is not supported because there is no ability to get commits of a pull request via API.
 
 &nbsp;
 
@@ -65,16 +56,7 @@ This setting will show or hide the function for creating pull/merge requests fro
 
 This setting will index PR/MRs that are associated to Jira issues _**based on pull/merge request title**_ which includes the Jira issue key. This setting is ON by default.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Turn off this setting for improved Jira performance. Note that the API calls increase the number of calls to the git server – by one additional API call per each merge/pull request.
-    </div>
-    </div>
-</div>
+> **Tip:** Turn off this setting for improved Jira performance. Note that the API calls increase the number of calls to the git server – by one additional API call per each merge/pull request.
 
 There are corresponding API calls to get merge/pull request commits, at least in the below integrations:
 
@@ -92,27 +74,9 @@ This setting will index PR/MRs that are associated to Jira issues _**based on co
 
 Turning this setting `ON` does not call commits on acquiring for existing pull/merge requests in their unchanged state. As a result, the Git Integration app won’t be filling the commit association information for already connected integrations.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Commits will be indexed for new/changed PR/MRs only. This will significantly reduce the number of calls to the git server. The current implementation automatically detects changes even for Microsoft pull requests which doesn’t have the <b><i>lastUpdateTime</i></b> field.
-    </div>
-    </div>
-</div>
+> **Tip:** Commits will be indexed for new/changed PR/MRs only. This will significantly reduce the number of calls to the git server. The current implementation automatically detects changes even for Microsoft pull requests which doesn’t have the <b><i>lastUpdateTime</i></b> field.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        When switched to <code>ON</code>, the <b><i>Enable indexing pull/merge requests via API</i></b> setting completely activates the feature of indexing of PRs/MRs. This also allows users to use the toggle control for the <b><i>Enable indexing pull/merge requests by commits</i></b> setting, which provides an additional way of indexing when switched to ON.
-    </div>
-    </div>
-</div>
+> **Info:** When switched to <code>ON</code>, the <b><i>Enable indexing pull/merge requests via API</i></b> setting completely activates the feature of indexing of PRs/MRs. This also allows users to use the toggle control for the <b><i>Enable indexing pull/merge requests by commits</i></b> setting, which provides an additional way of indexing when switched to ON.
 
 &nbsp;
 
@@ -142,16 +106,7 @@ Yes. The pull/merge request drafts can be associated to a Jira issue by having a
 
 ### Recommendations
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        We highly recommend setting the <b>Reindex Interval</b> setting (in General Settings) to no longer than every 24hrs when possible.
-    </div>
-    </div>
-</div>
+> **Tip:** We highly recommend setting the <b>Reindex Interval</b> setting (in General Settings) to no longer than every 24hrs when possible.
 
 &nbsp;
 

@@ -30,27 +30,9 @@ custom_fields:
 
 <br>
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This documentation guide covers <b>v4.28.x</b> and <b>v5.1.x</b>features. For more information on released features, see <a href='/git-integration-for-jira-data-center/git-integration-for-jira-data-center-release-notes-gij-self-managed'>Release notes</a>.
-    </div>
-    </div>
-</div>
+> **Tip:** This documentation guide covers <b>v4.28.x</b> and <b>v5.1.x</b>features. For more information on released features, see <a href='/git-integration-for-jira-data-center/git-integration-for-jira-data-center-release-notes-gij-self-managed'>Release notes</a>.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Starting Git Integration for Jira <b>v4.0</b>, support for Jira 7.x.x is dropped.
-    </div>
-    </div>
-</div>
+> **Info:** Starting Git Integration for Jira <b>v4.0</b>, support for Jira 7.x.x is dropped.
 
 &nbsp;
 * * *

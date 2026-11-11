@@ -26,16 +26,7 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed/'><b>General Settings</b></a> configuration page.
-    </div>
-    </div>
-</div>
+> **Info:** This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed/'><b>General Settings</b></a> configuration page.
 
 The settings in this group controls email notifications and recipient filters.
 
@@ -53,27 +44,9 @@ No notifications are sent when this setting is off, if the provided regex box is
 
 For more information, see [**Commit Email Notifications**](/git-integration-for-jira-data-center/commit-email-notifications-gij-self-managed).
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        To avoid the possibility to set invalid regular expressions in the provided regex box, the <b>To address</b> must match the regex pattern.
-    </div>
-    </div>
-</div>
+> **Warning:** To avoid the possibility to set invalid regular expressions in the provided regex box, the <b>To address</b> must match the regex pattern.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Disabling this setting will improve Jira performance.
-    </div>
-    </div>
-</div>
+> **Tip:** Disabling this setting will improve Jira performance.
 
 &nbsp;
 

@@ -36,16 +36,7 @@ Smart commit actions are also supported in git notes.
 
 Each commit can only have one git note per namespace. There can be multiple note namespaces per commit. These note namespaces are automatically indexed.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Git notes are sorted by name.
-    </div>
-    </div>
-</div>
+> **Info:** Git notes are sorted by name.
 
 **Guidelines for adding new git notes:**
 
@@ -53,16 +44,7 @@ Each commit can only have one git note per namespace. There can be multiple not
 
 *   git notes can be added to old commits which is already indexed – but does not have an issue key.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For old commits that are already indexed and have issue key(s) in commit message - see <a href='/git-integration-for-jira-data-center/faq-reindex-and-cache-gij-self-managed/#how-do-i-clear-the-git-integration-for-jira-app-cache-manually'>How do I clear the Git Integration Plugin for Jira cache manually?</a> FAQ article.
-    </div>
-    </div>
-</div>
+> **Info:** For old commits that are already indexed and have issue key(s) in commit message - see <a href='/git-integration-for-jira-data-center/faq-reindex-and-cache-gij-self-managed/#how-do-i-clear-the-git-integration-for-jira-app-cache-manually'>How do I clear the Git Integration Plugin for Jira cache manually?</a> FAQ article.
 
 ```powershell
 git notes add -m 'TST-3 is also fixed' 107af254
@@ -70,16 +52,7 @@ git show -s 107af254
 git push origin refs/notes/*
 ```
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        GitHub and GitLab don't display Git notes. However, notes can be fetched from and pushed to both services.
-    </div>
-    </div>
-</div>
+> **Tip:** GitHub and GitLab don't display Git notes. However, notes can be fetched from and pushed to both services.
 
 ### Bonus: Adding git notes with TortoiseGit
 

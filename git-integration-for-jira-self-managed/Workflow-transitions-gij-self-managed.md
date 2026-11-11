@@ -38,53 +38,17 @@ The name of the status is the transition. So, using the basic example above, th
 
 *   `#in-review`
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Transition names</b><br>
-        The workflow transition names must be unique.
-    </div>
-    </div>
-</div>
+> **Warning:** <b>Transition names</b><br>
+> The workflow transition names must be unique.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Absence of transition names</b><br>
-        When there are no transition names — just use the status names. If there is a space, replace it with "–" (hyphens). For example, <code>CODE REVIEW</code> becomes <code>#code-review</code>.
-    </div>
-    </div>
-</div>
+> **Tip:** <b>Absence of transition names</b><br>
+> When there are no transition names — just use the status names. If there is a space, replace it with "–" (hyphens). For example, <code>CODE REVIEW</code> becomes <code>#code-review</code>.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Commit authors</b><br>
-        Only letters and "-" (dash) are valid for workflow transition names for smart commits. Any other characters are treated as invalid. Smart commits will ONLY use the valid characters before the occurrence of an invalid character for processing.
-    </div>
-    </div>
-</div>
+> **Note:** <b>Commit authors</b><br>
+> Only letters and "-" (dash) are valid for workflow transition names for smart commits. Any other characters are treated as invalid. Smart commits will ONLY use the valid characters before the occurrence of an invalid character for processing.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Jira Administrators</b><br>
-        When adding transitions in the Workflow editor, make transition names simple and easy to remember. Only use letters and only one space between words.
-    </div>
-    </div>
-</div>
+> **Warning:** <b>Jira Administrators</b><br>
+> When adding transitions in the Workflow editor, make transition names simple and easy to remember. Only use letters and only one space between words.
 
 &nbsp;
 

@@ -92,16 +92,7 @@ We test this on huge Git repositories in large Jira instances. Over 5000 organiz
 
 Some versions of the Git Integration for Jira app are compatible with specific versions of Jira. For example, VERSION 3.8.1 is compatible with Jira Server versions 7.13.0 to 8.19.1.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        As of <b>v4.0+</b>, support for Jira 7+ is dropped.
-    </div>
-    </div>
-</div>
+> **Info:** As of <b>v4.0+</b>, support for Jira 7+ is dropped.
 
 For a more comprehensive view, see [**Git Integration for Jira app: Version History »**](https://marketplace.atlassian.com/apps/4984/git-integration-for-jira?hosting=datacenter&tab=versions).
 

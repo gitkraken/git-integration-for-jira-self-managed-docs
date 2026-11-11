@@ -28,16 +28,7 @@ custom_fields:
 
 <!-- getting started -->
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For full list of features, version history and supported Jira version of the Git for Jira app, see <a href='https://marketplace.atlassian.com/plugins/com.xiplink.jira.git.jira_git_plugin/versions' target='_blank'><b>Git Integration for Jira app Version History</b></a>.
-    </div>
-    </div>
-</div>
+> **Info:** For full list of features, version history and supported Jira version of the Git for Jira app, see <a href='https://marketplace.atlassian.com/plugins/com.xiplink.jira.git.jira_git_plugin/versions' target='_blank'><b>Git Integration for Jira app Version History</b></a>.
 
 If you have installed the Git Integration for Jira app with versions prior to v2.10.2, perform the following steps to upgrade with minimal risk:
 
@@ -81,16 +72,7 @@ Make sure to do a backup of the Git repositories connection configuration.
 
         ![](/wp-content/uploads/gij-add-ssh-key-loc-test-c.png)
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If you have several large repositories and have a problem with exceeded timeout, we recommend that you use our <a href='/git-integration-for-jira-data-center/tracked-folders-gij-self-managed'>Tracked folders integration</a> feature to scan local folders at once and import repositories automatically.
-    </div>
-    </div>
-</div>
+> **Info:** If you have several large repositories and have a problem with exceeded timeout, we recommend that you use our <a href='/git-integration-for-jira-data-center/tracked-folders-gij-self-managed'>Tracked folders integration</a> feature to scan local folders at once and import repositories automatically.
 
 &nbsp;
 

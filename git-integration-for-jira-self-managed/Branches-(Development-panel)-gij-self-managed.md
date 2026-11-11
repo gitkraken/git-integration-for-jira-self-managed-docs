@@ -37,16 +37,7 @@ The branch is displayed on the developer panel and is also associated to the men
 
 The branch panel will show a summary of all the unmerged branches (regardless of the number of commits and the number of repositories) -- that either contain the name of the issue or have unmerged commits that reference the issue. This also gives users a view into the behind/ ahead status and provide links to the Repository Browser for those branch names.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For example, <code>TST-1-new-branch</code> branch will be visible on the developer panel of the <b>TST-1</b> issue page even if the <code>TST-1-new-branch</code> branch has just been forked from master and does not have any new commit.
-    </div>
-    </div>
-</div>
+> **Info:** For example, <code>TST-1-new-branch</code> branch will be visible on the developer panel of the <b>TST-1</b> issue page even if the <code>TST-1-new-branch</code> branch has just been forked from master and does not have any new commit.
 
 &nbsp;
 
@@ -112,16 +103,7 @@ Click **Create branch** on the Create Branch dialog. The newly-created branch 
 
 Hover the mouse pointer on the branch label to reveal the **Delete** icon. Click this icon to remove the created branch from the Branch list. This action will also delete it from the repository in which it was created.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This feature is available on connected GitLab and GitHub git hosts for Jira Server; GitLab, GitHub, Microsoft TFS/VSTS and AWS CodeCommit git hosts for Jira Cloud.
-    </div>
-    </div>
-</div>
+> **Info:** This feature is available on connected GitLab and GitHub git hosts for Jira Server; GitLab, GitHub, Microsoft TFS/VSTS and AWS CodeCommit git hosts for Jira Cloud.
 
 &nbsp;
 
@@ -136,50 +118,14 @@ The numbers **ahead** and **behind** represent the number of commits that ar
 
 Clicking on the branch text links will open that issue in the Repository Browser. If Repository Browser is disabled for this repository, the text links will be inactive.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The <b>Branches</b> section is only visible if commits from this branch are not merged to the <b><i>main branch</i></b>. It's also not displayed if the repository is not associated with a project.
-    </div>
-    </div>
-</div>
+> **Note:** The <b>Branches</b> section is only visible if commits from this branch are not merged to the <b><i>main branch</i></b>. It's also not displayed if the repository is not associated with a project.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If the user does not have the <b>View Development Tools</b> <i>project permission</i> for the project, the developer panel will be unavailable for that user.
-    </div>
-    </div>
-</div>
+> **Warning:** If the user does not have the <b>View Development Tools</b> <i>project permission</i> for the project, the developer panel will be unavailable for that user.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For detailed information about creating branches, see article <a href='/git-integration-for-jira-data-center/Creating-branches-gij-self-managed'>Creating branches</a>.
-    </div>
-    </div>
-</div>
+> **Info:** For detailed information about creating branches, see article <a href='/git-integration-for-jira-data-center/Creating-branches-gij-self-managed'>Creating branches</a>.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.17+</b><br>
-        The "main" branch is now displayed under the Branches list -- if this setting is enabled in the General settings.
-    </div>
-    </div>
-</div>
+> **Info:** <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.17+</b><br>
+> The "main" branch is now displayed under the Branches list -- if this setting is enabled in the General settings.
 
 &nbsp;
 * * *

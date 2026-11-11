@@ -81,16 +81,7 @@ On occasion - the Atlassian Universal Plugin Manager (UPM) will not stop threads
 
 ### Solution
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        No configuration or source code data is lost when uninstalling, disabling or cleaning up plugin folders. However - if you wish to export your settings prior to these change - use the <a href='/git-integration-for-jira-data-center/bulk-export-gij-self-managed'>Bulk Change export</a>.
-    </div>
-    </div>
-</div>
+> **Info:** No configuration or source code data is lost when uninstalling, disabling or cleaning up plugin folders. However - if you wish to export your settings prior to these change - use the <a href='/git-integration-for-jira-data-center/bulk-export-gij-self-managed'>Bulk Change export</a>.
 
 **Update the** [**Atlassian Universal Plugin Manager**](https://marketplace.atlassian.com/apps/23915/atlassian-universal-plugin-manager) **("UPM") to the latest version prior to using the following solutions:**
 
@@ -140,17 +131,8 @@ On occasion - the Atlassian Universal Plugin Manager (UPM) will not stop threads
 
 6.  If symptoms persist, contact BigBrassBand Support.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Contact Us</b><br>
-        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
-    </div>
-    </div>
-</div>
+> **Info:** <b>Contact Us</b><br>
+> If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
 
 &nbsp;
 

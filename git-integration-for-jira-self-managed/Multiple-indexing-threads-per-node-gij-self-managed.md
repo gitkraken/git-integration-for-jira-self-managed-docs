@@ -28,16 +28,7 @@ custom_fields:
 
 <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>NEW FEATURE</b> <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>ADMINS</b> <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>DATA CENTER ONLY</b>
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Available in version Git Integration for Jira Data Center <b>v4.27+</b>.
-    </div>
-    </div>
-</div>
+> **Tip:** Available in version Git Integration for Jira Data Center <b>v4.27+</b>.
 
 Many git administrators express concerns regarding the performance issues associated with indexing repositories. Our current single-thread indexer has been found inadequate for effectively addressing this situation.
 
@@ -49,28 +40,10 @@ This feature allows the configuration of multiple indexing threads per node in t
 
 Enter the required number of indexing threads per node. The default value is 1; maximum value is 100. This is the number of indexing threads available for updating repositories from remote git servers. Please note that this feature is experimental. Make sure to adjust this setting accordingly while taking into account the consequences if the hardware requirements do not align with the number of indexing threads.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Multi-threaded indexing may cause a slight delay for API responses.
-    </div>
-    </div>
-</div>
+> **Note:** Multi-threaded indexing may cause a slight delay for API responses.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Important</b><br>
-        Additional indexing threads will require additional CPU and memory resources.
-    </div>
-    </div>
-</div>
+> **Warning:** <b>Important</b><br>
+> Additional indexing threads will require additional CPU and memory resources.
 
 &nbsp;
 

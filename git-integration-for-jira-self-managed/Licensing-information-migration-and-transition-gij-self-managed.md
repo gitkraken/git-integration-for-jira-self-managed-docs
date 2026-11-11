@@ -20,28 +20,6 @@ taxonomy:
 
 ---
 
-**What’s on this page:**
-
-- [License Types](#license-types)
-- [Product Licenses](#product-licenses)
-    - [Git Integration for Jira Server](#git-integration-for-jira-server)
-        - [How do I determine my server pricing?](#how-do-i-determine-my-server-pricing)
-        - [Do you offer academic, community, or open-source licenses for server apps?](#do-you-offer-academic-community-or-open-source-licenses-for-server-apps)
-        - [Can I extend my free trial?](#can-i-extend-my-free-trial)
-        - [How can I buy apps for my legacy Jira Server or Confluence Server license?](#how-can-i-buy-apps-for-my-legacy-jira-server-or-confluence-server-license)
-    - [Git Integration for Jira Data Center](#git-integration-for-jira-data-center)
-        - [How do I determine my Data Center pricing?](#how-do-i-determine-my-data-center-pricing)
-        - [Do you offer academic, community, or open-source licenses for Data Center apps?](#do-you-offer-academic-community-or-open-source-licenses-for-data-center-apps)
-        - [Can I extend my free trial?](#can-i-extend-my-free-trial-1)
-    - [Git Integration for Jira Cloud](#git-integration-for-jira-cloud)
-        - [How do I determine my cloud pricing?](#how-do-i-determine-my-cloud-pricing)
-        - [Do you offer academic, community, or open-source licenses for cloud apps?](#do-you-offer-academic-community-or-open-source-licenses-for-cloud-apps)
-        - [Can I extend my free trial?](#can-i-extend-my-free-trial-2)
-- [Related questions](#related-questions)
-    - [Will the app stop working once it expires?](#will-the-app-stop-working-once-it-expires)
-    - [Are we able to transfer a license from Jira Server to a Jira Cloud instance upon our migration?](#are-we-able-to-transfer-a-license-from-jira-server-to-a-jira-cloud-instance-upon-our-migration)
-    - [If transition is not possible, would it be possible for us to receive a pro rata refund when our migration to Jira Cloud is complete?](#if-transition-is-not-possible-would-it-be-possible-for-us-to-receive-a-pro-rata-refund-when-our-migration-to-jira-cloud-is-complete)
-
 &nbsp;
 * * *
 &nbsp;
@@ -68,16 +46,7 @@ You can [renew maintenance](https://www.atlassian.com/purchase/renew) for 12/24 
 
 If app pricing changes after your initial purchase, there's a 60-day grandfathering period during which you can renew based on the old pricing.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Atlassian is enforcing changes to Server and Data Center products, including the end of sale for new server licenses on February 2, 2021 and the end of support for server on February 2, 2024. Git Integration for Jira Server will be supported through these dates. Jira Cloud and Jira Data Center platforms are available today for the Git Integration for Jira app.
-    </div>
-    </div>
-</div>
+> **Warning:** Atlassian is enforcing changes to Server and Data Center products, including the end of sale for new server licenses on February 2, 2021 and the end of support for server on February 2, 2024. Git Integration for Jira Server will be supported through these dates. Jira Cloud and Jira Data Center platforms are available today for the Git Integration for Jira app.
 
 #### How do I determine my server pricing?
 
@@ -87,16 +56,7 @@ Apps are billed based on the number of users in your Atlassian product:
 
 *   For versions of Jira prior to 7.0, the app tier should match the licensed user tier for Jira. Even if fewer users want to use the app than your Jira license, the two licenses should match exactly.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        While this app has features specific to Jira Service Management, the app is technically available across the whole Jira instance. Therefore, the above guidelines for the license tier still apply.
-    </div>
-    </div>
-</div>
+> **Note:** While this app has features specific to Jira Service Management, the app is technically available across the whole Jira instance. Therefore, the above guidelines for the license tier still apply.
 
 #### Do you offer academic, community, or open-source licenses for server apps?
 
@@ -135,16 +95,7 @@ Apps are billed based on the number of users in your Atlassian product:
 
 *   For versions of Jira prior to 7.0, the app tier should match the licensed user tier for Jira. Even if fewer users want to use the app than your Jira license, the two licenses should match exactly.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        While this app has features specific to Jira Service Management, the app is technically available across the whole Jira instance. Therefore, the above guidelines for the license tier still apply.
-    </div>
-    </div>
-</div>
+> **Note:** While this app has features specific to Jira Service Management, the app is technically available across the whole Jira instance. Therefore, the above guidelines for the license tier still apply.
 
 #### Do you offer academic, community, or open-source licenses for Data Center apps?
 
@@ -170,16 +121,7 @@ If app pricing changes after your initial purchase, there's a 60-day grandfather
 
 Apps are billed based on the number of users in your Atlassian product. Jira Cloud apps are priced based on the maximum users of the Jira products on your instance. For example, if you have Jira Software (50 users) and Jira Service Management (10 agents) on the same instance, you pay the 50-user price for apps.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        While this app has features specific to Jira Service Management, the app is technically available across the whole Jira instance. Therefore, the above guidelines for licensing across maximum users still apply.
-    </div>
-    </div>
-</div>
+> **Note:** While this app has features specific to Jira Service Management, the app is technically available across the whole Jira instance. Therefore, the above guidelines for licensing across maximum users still apply.
 
 The pricing structure for cloud apps is as follows:
 

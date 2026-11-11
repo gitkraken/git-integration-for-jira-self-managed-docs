@@ -26,27 +26,10 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'>General Settings</a> configuration page.
-    </div>
-    </div>
-</div>
+> **Info:** This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'>General Settings</a> configuration page.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This setting resides in the <b>Advanced settings</b> in General settings.
-    </div>
-    </div>
-</div>
+> **Tip:** This setting resides in the <b>Advanced settings</b> in General settings.
+
 <br>
 
 **NOTE:** This setting replaces the Smart commit max age setting.

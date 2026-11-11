@@ -26,16 +26,7 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'><b>General Settings</b></a> configuration page.
-    </div>
-    </div>
-</div>
+> **Info:** This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'><b>General Settings</b></a> configuration page.
 
 This setting affects git branches creation default names and toggles for git pull/merge request options for the Jira issue.
 
@@ -85,20 +76,11 @@ ${issuetype:type0,subsitute0[,type1,substitute1,...,typeN,substituteN][,defaults
 
 `${summary}` – Issue Summary. The Summary is used and will be in lowercase; spaces are substituted by "-".
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>The Git Integration for Jira app default is:</b><br>
-        <code>${issuekey}-${summary}</code>
-        <p style='margin-bottom:-10px'>
-            This generates the string format like "<b>PRJ-123-add-more-logging</b>" as a default value for the Create Branch and Pull/Merge Request dialogs. Where <code>PRJ-123</code> is the issue key followed by a hyphen then the summary text of the active issue page (<i>in hyphenated lowercase form</i>).
-        </p>
-    </div>
-    </div>
-</div>
+> **Tip:** <b>The Git Integration for Jira app default is:</b><br>
+> <code>${issuekey}-${summary}</code>
+> <p style='margin-bottom:-10px'>
+> This generates the string format like "<b>PRJ-123-add-more-logging</b>" as a default value for the Create Branch and Pull/Merge Request dialogs. Where <code>PRJ-123</code> is the issue key followed by a hyphen then the summary text of the active issue page (<i>in hyphenated lowercase form</i>).
+> </p>
 
 `${projectkey}` – Project Key. The Project key is used and will be in uppercase.
 
@@ -140,23 +122,14 @@ This setting controls user accessibility to other Git PR/MR settings such as:
 *   Share PR/MR author information with TIJ
 *   Enable indexing PR/MR by commits
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Note that to be able to view the new GitHub share PR events, we recommend that users must update their personal access token to have the following scopes:<br>
-        <ul style='margin-bottom:-10px'>
-            <li><code>read:discussion</code></li>
-            <li><code>read:org</code></li>
-            <li><code>read:user</code></li>
-            <li><code>repo</code> (all)</li>
-            <li><code>user:email</code></li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Tip:** Note that to be able to view the new GitHub share PR events, we recommend that users must update their personal access token to have the following scopes:<br>
+> <ul style='margin-bottom:-10px'>
+> <li><code>read:discussion</code></li>
+> <li><code>read:org</code></li>
+> <li><code>read:user</code></li>
+> <li><code>repo</code> (all)</li>
+> <li><code>user:email</code></li>
+> </ul>
 
 <img src='/wp-content/uploads/gij-datacenter-enable-indexing-pmreq-via-api-group-gencfg.png' style='display:block;margin:25px auto;max-width:100%' />
 

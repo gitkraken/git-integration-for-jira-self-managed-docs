@@ -48,18 +48,9 @@ Open an issue then go to the _**Git Commits**_ tab to view commit information:
 | **10** | **Web links** | These are clickable web links that will open the selected file code diff directly to git host portal in a new browser window/tab. |
 | **11** | **Files changed** | List of files affected by the commit. Click the file or git host link to view code diff of this commit.<br><br><img src='/wp-content/uploads/gij-traffic-light-example.png' alt='Git commit traffic light example' width=117 height=16 style='display:block;margin:25px auto;max-width:100%' /><br><br>The traffic light indicator shows the added/modified/deleted lines from the file code diffs. |
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        View the whole commit code diff information by clicking the <b>View full commit</b> button to the right of the commit message.
-        <p style='margin-bottom: -10px'>View code diff information of the particular file by clicking the filename for each file adjacent to the rollup counter markers.
-        </p>
-    </div>
-    </div>
-</div>
+> **Tip:** View the whole commit code diff information by clicking the <b>View full commit</b> button to the right of the commit message.
+> <p style='margin-bottom: -10px'>View code diff information of the particular file by clicking the filename for each file adjacent to the rollup counter markers.
+> </p>
 
 &nbsp;
 * * *

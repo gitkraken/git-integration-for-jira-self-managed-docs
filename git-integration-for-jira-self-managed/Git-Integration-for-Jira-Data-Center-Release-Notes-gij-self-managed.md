@@ -254,16 +254,7 @@ For detailed information, see [**this article**](/git-integration-for-jira-data-
 
 This is an optimization feature where the new reindex request is skipped whenever there's a similar occurrence in the queue. This process does not involve repositories that are currently being indexed.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>DATA CENTER</b> This implementation requires cluster lock usage to enforce synchronization between threads (webhook, manual, and scheduled reindex) and between nodes.
-    </div>
-    </div>
-</div>
+> **Warning:** <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>DATA CENTER</b> This implementation requires cluster lock usage to enforce synchronization between threads (webhook, manual, and scheduled reindex) and between nodes.
 
 * * *
 

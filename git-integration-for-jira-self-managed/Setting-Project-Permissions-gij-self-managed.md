@@ -32,39 +32,21 @@ custom_fields:
 
 By default - integrations (GitLab, GitHub, etc) and individual repositories are associated with all Jira projects. Jira administrators can limit which Jira projects are associated to integrations or individual repositories.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Related Features</b><br>
-        Associating a Jira project with an integration or repository will limit repository content displaying in:<br><br>
-        <ul style='margin-bottom:-10px'>
-            <li><b>Git Commits</b> issue tab</li>
-            <li><b>Git Roll Up</b> issue tab</li>
-            <li><b>Git integration</b> issue side panel</li>
-            <li><b>View all repositories</b> page</li>
-            <li><b>Repository Browser: Browse</b> page</li>
-            <li><b>Repository Browser: Commits</b> page</li>
-            <li><b>Repository Browser: Compare</b> page</li>
-            <li><b>Create branch issue</b> dialog</li>
-            <li><b>Create pull/merge request</b> dialog</li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Info:** <b>Related Features</b><br>
+> Associating a Jira project with an integration or repository will limit repository content displaying in:<br><br>
+> <ul style='margin-bottom:-10px'>
+> <li><b>Git Commits</b> issue tab</li>
+> <li><b>Git Roll Up</b> issue tab</li>
+> <li><b>Git integration</b> issue side panel</li>
+> <li><b>View all repositories</b> page</li>
+> <li><b>Repository Browser: Browse</b> page</li>
+> <li><b>Repository Browser: Commits</b> page</li>
+> <li><b>Repository Browser: Compare</b> page</li>
+> <li><b>Create branch issue</b> dialog</li>
+> <li><b>Create pull/merge request</b> dialog</li>
+> </ul>
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Jira users must have the <b>View Development Tools</b> permission in the context of a Jira project to view content from the Git Integration for Jira app.
-    </div>
-    </div>
-</div>
+> **Warning:** Jira users must have the <b>View Development Tools</b> permission in the context of a Jira project to view content from the Git Integration for Jira app.
 
 &nbsp;
 

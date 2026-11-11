@@ -60,15 +60,6 @@ Which points to:
 
 Go to the section titled, **"Can customers use developer licenses for my add-on?"**, which has instructions on how to get a developer license for apps/add-ons.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>In summary:</b><br>
-        A developer license can be generated (free of charge) once the plugin has been purchased and can only be installed on a development licensed version of JIRA.
-    </div>
-    </div>
-</div>
+> **Info:** <b>In summary:</b><br>
+> A developer license can be generated (free of charge) once the plugin has been purchased and can only be installed on a development licensed version of JIRA.
 

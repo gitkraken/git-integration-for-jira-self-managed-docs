@@ -52,16 +52,7 @@ Limit the usage of the SSH key by associating them to selected repositories. St
 
 6.  Click **Save** to save the settings.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If an SSH key is strictly associated with some repository, that SSH key is an associated key.
-    </div>
-    </div>
-</div>
+> **Info:** If an SSH key is strictly associated with some repository, that SSH key is an associated key.
 
 &nbsp;
 

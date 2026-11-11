@@ -26,22 +26,13 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Pull request webhooks are now supported. See <a href='#pull-request-webhooks'>details</a> on this page.
-        <p>Supported webhook events:</p>
-        <ul style='margin-bottom:0px;'>
-            <li><i>Repository</i> - Push</li>
-            <li><i>Pull request</i> - Created</li>
-            <li><i>Pull request</i> - Updated</li>
-        </ul>
-    </div>
-    </div>
-</div>
+> **Info:** Pull request webhooks are now supported. See <a href='#pull-request-webhooks'>details</a> on this page.
+> <p>Supported webhook events:</p>
+> <ul style='margin-bottom:0px;'>
+> <li><i>Repository</i> - Push</li>
+> <li><i>Pull request</i> - Created</li>
+> <li><i>Pull request</i> - Updated</li>
+> </ul>
 
 <div class='embed-container' style='padding-bottom:56.25%'>
     <iframe width='709' height='399' src='https://fast.wistia.com/embed/iframe/s26h3avwuo?videoFoam=true' frameborder='0' allowfullscreen ></iframe>
@@ -54,16 +45,7 @@ custom_fields:
 
 &nbsp;
 
-<div class="bbb-callout bbb--error">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see <a href='/git-integration-for-jira-data-center/integration-webhooks-gij-self-managed'><b>Integration Webhooks</b></a>.
-    </div>
-    </div>
-</div>
+> **Danger:** Before you can proceed with the steps outlined on this guide, webhooks must be enabled in the Git Integration for Jira app repository configuration for your Jira instance. For more details, see <a href='/git-integration-for-jira-data-center/integration-webhooks-gij-self-managed'><b>Integration Webhooks</b></a>.
 
 1.  Configure webhook by logging in to your Bitbucket:
 

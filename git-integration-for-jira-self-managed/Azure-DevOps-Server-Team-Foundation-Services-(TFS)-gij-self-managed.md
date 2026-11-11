@@ -26,16 +26,7 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs-gij-cloud'>See the corresponding article</a>.
-    </div>
-    </div>
-</div>
+> **Tip:** Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/azure-devops-server-team-foundation-services-tfs-gij-cloud'>See the corresponding article</a>.
 
 &nbsp;
 
@@ -202,16 +193,7 @@ The Azure DevOps Server/TFS repositories are now connected to Jira Data Center/S
 
 ### Single repository integration (Manual integration)
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.
-    </div>
-    </div>
-</div>
+> **Info:** This section is for users who are using SSH connections or those who wanted to only connect a single specific repository.
 
 This process requires an existing Azure DevOps Server/TFS git repository. Look for the repository URL on the repository project page.
 
@@ -238,17 +220,8 @@ The repository is now connected to Jira Data Center/Server.
 
 The Git Integration for Jira app automatically configures web linking for Azure DevOps/VSTS git repositories.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Webhooks are supported on Azure DevOps Server / Team Foundation Services.</b><br>
-        First - configure webhooks in the Git Integration app in Jira via the Git menu ➜ <b>Manage repositories</b> then click <b>Webhooks</b> (sidebar). Enable the feature and save the settings. Then <a href='https://docs.microsoft.com/en-us/azure/devops/service-hooks/services/webhooks?view=vsts' target='_blank'>follow these instructions</a> to setup the webhook triggers. Azure DevOps Server/TFS webhooks will trigger an immediate index of all repositories within the integration.
-    </div>
-    </div>
-</div>
+> **Info:** <b>Webhooks are supported on Azure DevOps Server / Team Foundation Services.</b><br>
+> First - configure webhooks in the Git Integration app in Jira via the Git menu ➜ <b>Manage repositories</b> then click <b>Webhooks</b> (sidebar). Enable the feature and save the settings. Then <a href='https://docs.microsoft.com/en-us/azure/devops/service-hooks/services/webhooks?view=vsts' target='_blank'>follow these instructions</a> to setup the webhook triggers. Azure DevOps Server/TFS webhooks will trigger an immediate index of all repositories within the integration.
 
 For detailed step-by-step guide showcasing the webhooks setup, [see this article](/git-integration-for-jira-data-center/webhooks-gij-self-managed).
 
@@ -326,16 +299,7 @@ This process requires a Azure DevOps/VSTS git repository and a PAT with at least
 
 Most git integrations allow changing of the default branch of the repository/project other than "master". This change is reflected in the  Repository Settings of the Git Integration for Jira app on the next reindex.  Repositories added via Add new integration support this feature where Git Integration for Jira app gets the default branch from almost all integrations and apply this setting at repository level.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Main branch for repositories within an integration can only be changed on the git server.
-    </div>
-    </div>
-</div>
+> **Warning:** Main branch for repositories within an integration can only be changed on the git server.
 
 &nbsp;
 

@@ -28,16 +28,7 @@ custom_fields:
 
 The Remove Discard files feature is deprecated and the purpose of this article is to guide you on how to completely disable this setting while preserving all integration settings such as project mapping, users' PATS and other integration settings.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This guide applies to Jira instance with GIJ v4.11 and below.
-    </div>
-    </div>
-</div>
+> **Info:** This guide applies to Jira instance with GIJ v4.11 and below.
 
 &nbsp;
 
@@ -242,16 +233,7 @@ if ( $IsFullRunSet ) {
 })
 ```
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Save this script to <b>clearDataInRepositories.ps1</b>.
-    </div>
-    </div>
-</div>
+> **Tip:** Save this script to <b>clearDataInRepositories.ps1</b>.
 
 &nbsp;
 
@@ -319,16 +301,7 @@ echo ""
 ls --directory */ | grep --invert-match --word-regexp --extended-regexp 'scripts/|weblinking/' | dryOrNot "${1}"
 ```
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Save this script to <b>clearDataInRepositories.sh</b>.
-    </div>
-    </div>
-</div>
+> **Tip:** Save this script to <b>clearDataInRepositories.sh</b>.
 
 &nbsp;
 
@@ -342,29 +315,10 @@ On Windows (in PowerShell console):
 On Linux (Terminal):
 `./clearDataInRepositories.sh`
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Important!</b><br>
-        For mounted shared folders on the same server as Jira, you will need to unmount them first before proceeding to <b>step 10</b>.
-    </div>
-    </div>
-</div>
+> **Warning:** <b>Important!</b><br>
+> For mounted shared folders on the same server as Jira, you will need to unmount them first before proceeding to <b>step 10</b>.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Note</b><br>
-        If your Jira self-managed instance and Git repositories are on the same server – the git repositories are not affected since the script execution in step 10 will only process the folder where the cloned repositories reside (<code>jira/home/data/git-plugin</code>). It is dangerous if any of the folders is not a clone created by the GIJ plugin (i.e. <i>if it’s the origin Git repository and it does not have other full clones</i>).
-    </div>
-    </div>
-</div>
+> **Note:** If your Jira self-managed instance and Git repositories are on the same server – the git repositories are not affected since the script execution in step 10 will only process the folder where the cloned repositories reside (<code>jira/home/data/git-plugin</code>). It is dangerous if any of the folders is not a clone created by the GIJ plugin (i.e. <i>if it’s the origin Git repository and it does not have other full clones</i>).
 
 &nbsp;
 
@@ -402,16 +356,7 @@ On the Manage repositories page, click the **Enable all** to reconnect all integ
 
 ![Shows the Manage repositories page highlighting the Enable all button](/wp-content/uploads/gij-gitserverdc-gitmgr-enable-all-sel.png)
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If you only plan to enable specific repositories, use the checkboxes at the Enabled column of the repositories list.
-    </div>
-    </div>
-</div>
+> **Warning:** If you only plan to enable specific repositories, use the checkboxes at the Enabled column of the repositories list.
 
 &nbsp;
 

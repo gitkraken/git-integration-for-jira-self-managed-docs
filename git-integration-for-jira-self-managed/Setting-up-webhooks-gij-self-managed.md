@@ -61,16 +61,7 @@ The secret key also has the same restrictions on the valid set of characters as 
 
 For detailed information on setting up webhooks for supported git hosts, see [Git Integration for Jira: Integration webhooks](/git-integration-for-jira-data-center/integration-webhooks-gij-self-managed).
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The Git Integration for Jira app supports GitHub and GitLab push events to define individual repository to index. For more information, see <a href='/git-integration-for-jira-data-center/creating-reindex-triggers-for-a-single-repository-gij-self-managed'>Creating reindex triggers manually</a>.
-    </div>
-    </div>
-</div>
+> **Info:** The Git Integration for Jira app supports GitHub and GitLab push events to define individual repository to index. For more information, see <a href='/git-integration-for-jira-data-center/creating-reindex-triggers-for-a-single-repository-gij-self-managed'>Creating reindex triggers manually</a>.
 
 &nbsp;
 * * *

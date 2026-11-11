@@ -28,16 +28,7 @@ custom_fields:
 
 ![Manage git integration for jira highlighting sidebar SSH keys menu item](/wp-content/uploads/gij-gitserver-add-ssh-keys.png)
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.0+</b> OpenSSH is now fully supported.
-    </div>
-    </div>
-</div>
+> **Info:** <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.0+</b> OpenSSH is now fully supported.
 
 1.  From your Jira dashboard menu, go to Git ➜ **Manage repositories**. On the sidebar under _Git Integration for Jira_, select **SSH keys**.
 

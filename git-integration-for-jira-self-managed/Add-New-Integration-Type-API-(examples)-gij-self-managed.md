@@ -26,16 +26,8 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Only Jira admins can perform the Add New Integration Type API call.
-    </div>
-    </div>
-</div>
+> **Warning:** Only Jira admins can perform the Add New Integration Type API call.
+
 <br>
 
 Below are integration API examples for each integration types:
@@ -52,16 +44,8 @@ Request body is a JSON structure.
 
 For complete reference of the parameters, see [Add New Integration API](/git-integration-for-jira-data-center/add-new-integration-gij-self-managed/).
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        When adding new repositories, we recommend to leave the <code>trustFolderStat</code> setting to <b>false</b> <i>(default)</i>. You can change this setting later on via <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ <b>Edit repository settings</b> in the Manage repositories page.
-    </div>
-    </div>
-</div>
+> **Tip:** When adding new repositories, we recommend to leave the <code>trustFolderStat</code> setting to <b>false</b> <i>(default)</i>. You can change this setting later on via <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ <b>Edit repository settings</b> in the Manage repositories page.
+
 <br>
 
 
@@ -208,17 +192,8 @@ For complete reference of the parameters, see [Add New Integration API](/git-int
 
 ### GERRIT
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Note</b><br>
-        The origin field parameter is required.
-    </div>
-    </div>
-</div>
+> **Warning:** <b>Note</b><br>
+> The origin field parameter is required.
 
 ```json
 {

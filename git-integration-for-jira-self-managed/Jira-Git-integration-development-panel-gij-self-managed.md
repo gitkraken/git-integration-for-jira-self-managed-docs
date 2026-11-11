@@ -26,16 +26,7 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This page applies to Git Integration for Jira Server and Jira Data Center.
-    </div>
-    </div>
-</div>
+> **Info:** This page applies to Git Integration for Jira Server and Jira Data Center.
 
 &nbsp;
 
@@ -79,16 +70,7 @@ Compare code diff of different branches by performing the following options:
 
 The view redirects to the Repository Browser ➜ **Compare** tab showing changes between the compared branches.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The most commonly used name for the main branch is <code>master</code>. For this documentation, the <b><i>master</i></b> branch is also the main branch.
-    </div>
-    </div>
-</div>
+> **Info:** The most commonly used name for the main branch is <code>master</code>. For this documentation, the <b><i>master</i></b> branch is also the main branch.
 
 &nbsp;
 * * *

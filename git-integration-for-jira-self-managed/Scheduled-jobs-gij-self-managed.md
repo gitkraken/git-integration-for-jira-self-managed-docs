@@ -28,16 +28,7 @@ custom_fields:
 
 <!-- GENERAL SETTINGS -->
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'><b>General Settings</b></a> configuration page.
-    </div>
-    </div>
-</div>
+> **Info:** This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'><b>General Settings</b></a> configuration page.
 
 This setting allows administrators to configure duration of jobs and the GC checkers.
 
@@ -49,38 +40,20 @@ Scheduling jobs gives administrators control over when jobs run. These jobs can
 
 *   **Cron expression** – where jobs are scheduled via cron expression to run at specific timetables.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        We recommend that scheduled jobs be given sufficient time to run completely on a regular basis.<br><br>
-        Look at the Git Integration app job names in Jira Administration ➜ System ➜ <b>Scheduler details</b>:
-        <ul>
-            <li><code>com.bigbrassband.jira.git.jiraservices.jobs.GarbageCollectionJob</code></li>
-            <li><code>com.bigbrassband.jira.git.jiraservices.jobs.RevisionIndexJob</code></li>
-        </ul>
-        <p style='margin-bottom:-10px;'>Expand them to observe schedule, duration, last run, duration, and next run.</p>
-    </div>
-    </div>
-</div>
+> **Tip:** We recommend that scheduled jobs be given sufficient time to run completely on a regular basis.<br><br>
+> Look at the Git Integration app job names in Jira Administration ➜ System ➜ <b>Scheduler details</b>:
+> <ul>
+> <li><code>com.bigbrassband.jira.git.jiraservices.jobs.GarbageCollectionJob</code></li>
+> <li><code>com.bigbrassband.jira.git.jiraservices.jobs.RevisionIndexJob</code></li>
+> </ul>
+> <p style='margin-bottom:-10px;'>Expand them to observe schedule, duration, last run, duration, and next run.</p>
 
 &nbsp;
 
 ### Scheduled Jobs
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>VERSION 3.7+</b><br>
-        <b>Repository reindexing</b> and <b>Garbage collection and revision validation checkers</b> settings are now moved into the <i>Scheduled Jobs</i> settings group.
-    </div>
-    </div>
-</div>
+> **Note:** <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>VERSION 3.7+</b><br>
+> <b>Repository reindexing</b> and <b>Garbage collection and revision validation checkers</b> settings are now moved into the <i>Scheduled Jobs</i> settings group.
 
 &nbsp;
 

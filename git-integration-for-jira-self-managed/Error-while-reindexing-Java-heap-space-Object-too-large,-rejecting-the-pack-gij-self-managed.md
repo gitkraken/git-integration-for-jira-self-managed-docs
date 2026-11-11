@@ -68,16 +68,7 @@ Caused by: org.eclipse.jgit.api.errors.TransportException: Object too large (2,2
 
 ### Solutions
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Making any change to a git repository's history can result in loss of data. Proceed with care.
-    </div>
-    </div>
-</div>
+> **Warning:** Making any change to a git repository's history can result in loss of data. Proceed with care.
 
 *   Remove objects larger than 2GB from the git repository history. See following articles for suggestions:
 
@@ -93,17 +84,8 @@ Caused by: org.eclipse.jgit.api.errors.TransportException: Object too large (2,2
 
 *   Filter out the repository from the special integrations (GitHub, GitLab, AWS CodeCommit, Microsoft TFS/Azure DevOps/VSTS, etc) using [Custom API Path](/git-integration-for-jira-data-center/working-with-custom-api-path-gij-self-managed) or [JMESPath Filters](/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed).
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Contact us</b><br>
-        If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
-    </div>
-    </div>
-</div>
+> **Info:** <b>Contact us</b><br>
+> If you still have a question - reach out to our <a href='https://help.gitkraken.com/git-integration-for-jira-data-center/gij-self-hosted-contact-support/'>Support Desk</a> or email us at <a href='mailto:gijsupport@gitkraken.com'>gijsupport@gitkraken.com</a>.
 
 &nbsp;
 

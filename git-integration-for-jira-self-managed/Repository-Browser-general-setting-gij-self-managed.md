@@ -26,44 +26,17 @@ custom_fields:
     page_type: "content"
 ---
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'><b>General Settings</b></a> configuration page.
-    </div>
-    </div>
-</div>
+> **Info:** This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'><b>General Settings</b></a> configuration page.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For detailed information on this feature, see <a href='/git-integration-for-jira-data-center/repository-browser-gij-self-managed'>Documentation: Repository Browser</a>.
-    </div>
-    </div>
-</div>
+> **Info:** For detailed information on this feature, see <a href='/git-integration-for-jira-data-center/repository-browser-gij-self-managed'>Documentation: Repository Browser</a>.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 3.8.1</b><br>
-        Git Integration for Jira adds three new settings in the General settings configuration page:
-        <ul>
-            <li>Repository Browser (this page)</li>
-            <li>Source Code Diff Viewing</li>
-            <li>Require user personal access tokens for branch and PR/MR creation</li>
-        </ul>  
-    </div>
-    </div>
-</div>
+> **Tip:** <b style='background-color:#DEEAFE; padding:1px 5px; color:#0C42A3; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 3.8.1</b><br>
+> Git Integration for Jira adds three new settings in the General settings configuration page:
+> <ul>
+> <li>Repository Browser (this page)</li>
+> <li>Source Code Diff Viewing</li>
+> <li>Require user personal access tokens for branch and PR/MR creation</li>
+> </ul>
 
 <img src='/wp-content/uploads/gij-gitserver-gencfg-repo-browser.png' alt='Repository browser setting in General settings (enabled checked)' style='margin:25px auto;max-width:100%;display:block;' />
 

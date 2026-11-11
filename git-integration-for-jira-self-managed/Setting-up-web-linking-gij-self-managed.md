@@ -30,27 +30,9 @@ custom_fields:
 
 The web linking feature adds links to your git hosting provider directly into the _**Git Commits**_ tab.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        For manually connected integration, configure web linking options while adding/editing repository settings so that commits can include links to the git host pages.
-    </div>
-    </div>
-</div>
+> **Info:** For manually connected integration, configure web linking options while adding/editing repository settings so that commits can include links to the git host pages.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Web linking is automatically configured for repositories added via Auto-connect integration.
-    </div>
-    </div>
-</div>
+> **Tip:** Web linking is automatically configured for repositories added via Auto-connect integration.
 
 &nbsp;
 

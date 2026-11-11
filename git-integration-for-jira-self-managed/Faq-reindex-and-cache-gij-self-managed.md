@@ -96,16 +96,7 @@ If you think that the Git indexes are corrupt and needed to be completely rebuil
 
 On the next startup, the app will create the above folders again.
 
-<div class="bbb-callout bbb--alert">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        If you have large Git repositories, please do this after prime time.
-    </div>
-    </div>
-</div>
+> **Warning:** If you have large Git repositories, please do this after prime time.
 
 &nbsp;
 
@@ -133,17 +124,8 @@ If you think that the Git caches are corrupt and needed to be removed, please do
 
 8.  Click **Reindex All**.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>The above solution also applies to:</b><br>
-        Commit information that are not shown for commits having issue key(s) in its message that were already indexed.
-    </div>
-    </div>
-</div>
+> **Info:** <b>The above solution also applies to:</b><br>
+> Commit information that are not shown for commits having issue key(s) in its message that were already indexed.
 
 &nbsp;
 
@@ -163,16 +145,7 @@ Yes  –  use the following url:
 
 ... where `\<JIRA\_BASE\_URL\>` is your domain host and `\<SECRET|_KEY\>` is your webhook secret key. The secret key can be found in your GIJ Webhooks page.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The reindex process won't start if reindex is already running.
-    </div>
-    </div>
-</div>
+> **Info:** The reindex process won't start if reindex is already running.
 
 #### The git notes are still not visible in Jira. What should I do?
 

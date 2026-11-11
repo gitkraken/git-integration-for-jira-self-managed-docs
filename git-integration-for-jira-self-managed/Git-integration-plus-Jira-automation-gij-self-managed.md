@@ -87,16 +87,7 @@ For Jira Data Center 9.0 and later, there is no need to download Automation for 
 
 4.  Click **Download** to download the app to your local system.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The Automation for Jira plugin is also available to install via the Manage apps page on your Jira instance. Click <b>Update</b> to try it out.
-    </div>
-    </div>
-</div>
+> **Tip:** The Automation for Jira plugin is also available to install via the Manage apps page on your Jira instance. Click <b>Update</b> to try it out.
 
 #### Installing the app
 
@@ -200,16 +191,7 @@ The steps for creating automation rules for global level is exactly the same as 
 
 ### Known issue
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The limitation of Git Integration for Jira (GIJ) app not working with Automation for Jira (A4J) Lite is not a GIJ limitation but an Atlassian limitation.
-    </div>
-    </div>
-</div>
+> **Info:** The limitation of Git Integration for Jira (GIJ) app not working with Automation for Jira (A4J) Lite is not a GIJ limitation but an Atlassian limitation.
 
 &nbsp;
 

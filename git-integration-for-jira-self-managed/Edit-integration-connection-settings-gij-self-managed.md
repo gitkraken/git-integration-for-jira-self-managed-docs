@@ -30,16 +30,7 @@ The Edit integration connection settings page allows admins and managers to conf
 
 ![](/wp-content/uploads/gij-gitcfg-actions-edit-integration-conn-cfg.png)
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Click the <b>Switch to...</b> label link to switch to the Integration Feature Settings page and vice versa.
-    </div>
-    </div>
-</div>
+> **Tip:** Click the <b>Switch to...</b> label link to switch to the Integration Feature Settings page and vice versa.
 
 &nbsp;
 

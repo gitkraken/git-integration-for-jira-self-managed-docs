@@ -28,16 +28,7 @@ custom_fields:
 
 The web linking feature adds links to your git hosting provider directly into the _**Git Commits**_ tab. Configure web linking options while adding/editing repository settings so that commits can include links to the git host pages.
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-        <div class="ilogobox">
-            <span class="logoimg"></span>
-        </div>
-        <div class="imsgbox">
-            Web links are automatically configured for integrations connected via the Add new integration wizard (Auto-connect setup).
-        </div>
-    </div>
-</div>
+> **Tip:** Web links are automatically configured for integrations connected via the Add new integration wizard (Auto-connect setup).
 
 &nbsp;
 * * *
@@ -113,42 +104,15 @@ You can create several custom configuration to support other git hosting provide
 | _**File Added Format,**_  <br>_**File Modified Format,**_  <br>_**File Deleted Format**_ | This is the URL to display content of added, modified or deleted files.<br>Use the following variables:<ul><li>`${num}` –  number of change (0, 1, …)</li><li>`${rev}`  –  git revision</li><li>`${path}` –  path of the file being changed</li><li>`${sha256path}`  –  sha256 applied to the path and hex encoded. <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>NEW!</b> in v4.17+ and is used in <b>GitHub.com</b> weblinking.</li><li>`${md5}`  –  md5 applied to the path and hex encoded. <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>NEW!</b> in v4.17+ and is used in <b>GitHub EE</b> weblinking.</li><li>`${sha1path}`  –  sha1 applied to the path and hex encoded. <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>NEW!</b> in v4.17+ and is used in <b>GitLab</b> weblinking.</li><li>`${parent}` –  parent git revision</li><li>`${blob}`  –  ID of blob object</li><li>`${parent_blob}` – ID of parent blob object</li><li>`$convert(${branch},"subStr","newSubStr")` – this inline function returns branch name with `subStr` replaced by a `newSubStr`.</li></ul><div class="bbb-callout bbb--info" style='margin-bottom:0px;'><div class="irow"><div class="ilogobox"><span class="logoimg"></span></div><div class="imsgbox">The <code>${branch}</code> code has been changed to cope up with the character requirements on some hosting services.</div></div></div> |
 | _**View Format**_ | _String._ Optional. <br><br>This URL is unused and not being configured for the newly added integration types. |
 
-<div class="bbb-callout bbb--tip">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        The Git Integration for Jira app supports an unlimited number of repositories.
-    </div>
-    </div>
-</div>
+> **Tip:** The Git Integration for Jira app supports an unlimited number of repositories.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        Some git hosts require web linking to be configured via the Git Integration app <b><i>Advanced Setup</i></b> or <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ <b>Edit integration/repository settings</b> screen.
-    </div>
-    </div>
-</div>
+> **Info:** Some git hosts require web linking to be configured via the Git Integration app <b><i>Advanced Setup</i></b> or <img src='/wp-content/uploads/actions-icon.png' /> Actions ➜ <b>Edit integration/repository settings</b> screen.
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-        <div class="ilogobox">
-            <span class="logoimg"></span>
-        </div>
-        <div class="imsgbox">
-            The Bonobo git server requires a branch name to construct URL. Use <code>$convert(${branch},"/","~2")</code> for web linking since bonobo requires substitution of <code>"/"</code> with <code>"~2"</code> in the branch name.
-            <p style='margin-bottom:-10px !important'>
-                <b>For example:</b><br>
-                <code>http://&lt;host&gt;/Bonobo.Git.Server/Repository/&lt;project&gt;/$convert(${branch},"/","~2")/Commit/${rev}</code>
-            </p>
-        </div>
-    </div>
-</div>
+> **Note:** The Bonobo git server requires a branch name to construct URL. Use <code>$convert(${branch},"/","~2")</code> for web linking since bonobo requires substitution of <code>"/"</code> with <code>"~2"</code> in the branch name.
+> <p style='margin-bottom:-10px !important'>
+> <b>For example:</b><br>
+> <code>http://&lt;host&gt;/Bonobo.Git.Server/Repository/&lt;project&gt;/$convert(${branch},"/","~2")/Commit/${rev}</code>
+> </p>
 
 Any Git host that is accessible via SSH, HTTP, HTTPS, git protocol, local and network share is supported.
 

@@ -36,14 +36,6 @@ custom_fields:
 
 Quickly learn how to connect Windows Network or Server Share via Git Integration for Jira app.
 
-**What's on this page:**
-- [Integrate Windows Network/Server Share with Jira Data Center](#integrate-windows-networkserver-share-with-jiradata-center)
-  - [Adding a Repository Hosted on Window Servers or Network Share](#adding-a-repository-hosted-on-window-servers-or-network-share)
-  - [Editing Integration/Repository Settings](#editing-integrationrepository-settings)
-  - [Verifying Integration Settings](#verifying-integration-settings)
-  - [Viewing Git Commits in Jira Data Center](#viewing-git-commits-in-jiradata-center)
-  - [More Integration Guides](#more-integration-guides)
-
 &nbsp;
 * * *
 &nbsp;

@@ -30,22 +30,6 @@ The Custom API Path is a relative path that starts with "/".  The maximum allo
 
 The Custom API Path is called in the integration setup, settings changes, on a regular scheduled reindex and for a manual reindex.
 
-**What's on this page:**
-- [Accessible locations](#accessible-locations)
-- [GitHub.com and GitHub Enterprise examples](#githubcom-and-github-enterprise-examples)
-  - [1. Lists all repositories (default)](#GH1)
-  - [2. Display all repositories from \<username\>](#GH2)
-  - [3. Displays starred repositories](#GH3)
-  - [4. List all repositories for the specified organization](#GH4)
-- [GitLab.com and GitLab CE|EE examples](#gitlabcom-and-gitlab-ceee-examples)
-  - [1. Lists all projects (default)](#GL1)
-  - [2. Display all projects from \<user\_id\>](#GL2)
-  - [3. Displays starred projects](#GL3)
-  - [4. Limit to owned projects](#GL4)
-  - [5. List projects from within a group](#GL5)
-  - [6. List projects from the specified subgroup](#GL6)
-- [More how-to articles](#more-how-to-articles)
-
 &nbsp;
 * * *
 &nbsp;
@@ -157,30 +141,12 @@ In the above examples, the `?include_subgroups=true` API extension will return
 
 For more information on GitLab custom API paths, see <a href='https://docs.gitlab.com/ee/api/' target='_blank'><b>GitLab API</b></a>.
 
-<div class="bbb-callout bbb--info">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>GitLab version API support:</b><br>
-        Gitlab v9.5 and above -- only API v4<br>
-        Gitlab v9.0 to v9.4.x -- API v3 and API v4 (<i>support for API v3 is deprecated</i>)
-    </div>
-    </div>
-</div>
+> **Info:** <b>GitLab version API support:</b><br>
+> Gitlab v9.5 and above -- only API v4<br>
+> Gitlab v9.0 to v9.4.x -- API v3 and API v4 (<i>support for API v3 is deprecated</i>)
 
-<div class="bbb-callout bbb--note">
-    <div class="irow">
-    <div class="ilogobox">
-        <span class="logoimg"></span>
-    </div>
-    <div class="imsgbox">
-        <b>Remember</b><br>
-        The GitLab.com API can see all the public projects. For GitLab.com, we recommend using JMESPath over the Custom API path when possible. For more information, see <a href='/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed'>Working with JMESPath filters</a>.
-    </div>
-    </div>
-</div>
+> **Note:** <b>Remember</b><br>
+> The GitLab.com API can see all the public projects. For GitLab.com, we recommend using JMESPath over the Custom API path when possible. For more information, see <a href='/git-integration-for-jira-data-center/working-with-jmespath-filters-gij-self-managed'>Working with JMESPath filters</a>.
 
 While Custom API Path and JMESPath filter are mutually exclusive, you can use one, the other, both or neither.
 
