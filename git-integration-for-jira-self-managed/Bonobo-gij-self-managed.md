@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 120
     nav_parent: "integration-guides-gij-self-managed"
     page_type: "content"
+    card_icon: "plug-connected"
+    card_color: "green"
+    card_description: "Connect a Bonobo Git Server repository to Jira Data Center, configure Bonobo web links, and view linked commits in Jira issues"
 ---
 <img src=''/wp-content/uploads/gij-bonobo-banner-logo.png' width=545 height=84 />
 

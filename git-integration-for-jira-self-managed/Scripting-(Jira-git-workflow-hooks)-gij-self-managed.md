@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 70
     nav_parent: "smart-commits-gij-self-managed"
     page_type: "content"
+    card_icon: "git-merge"
+    card_color: "blue"
+    card_description: "Use JavaScript workflow hooks to act on Jira from commits and pull requests, and how the Git Data Processing Age Limit setting affects them"
 ---
 
 > **Info:** <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADVANCED</b> <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>DEVELOPERS</b><br>

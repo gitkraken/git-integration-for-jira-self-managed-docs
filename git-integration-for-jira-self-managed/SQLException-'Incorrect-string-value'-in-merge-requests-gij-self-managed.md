@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 230
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "git-pull-request"
+    card_color: "red"
+    card_description: "Fix missing pull and merge requests after upgrading by switching the MySQL Jira database to utf8mb4 so titles with emojis can be stored"
 ---
 
 <!-- TROUBLESHOOTING -->

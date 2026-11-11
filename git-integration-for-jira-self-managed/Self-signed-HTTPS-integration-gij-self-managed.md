@@ -23,7 +23,10 @@ custom_fields:
     nav_label: "Self-signed HTTPS integration"
     nav_order: 90
     nav_parent: "setting-up-repositories-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "shield-lock"
+    card_color: "blue"
+    card_description: "Connect to privately hosted HTTPS git repositories that use self-signed certificates by disabling SSL verification per repository"
 ---
 
 Self-signed certificates are common in HTTPS Git repositories that are hosted privately. Even for an administrator, it's not easy to set the HTTP `sslVerify` to connect to this repository.

@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 40
     nav_parent: "general-settings-gij-self-managed"
     page_type: "content"
+    card_icon: "settings"
+    card_color: "amber"
+    card_description: "Require Jira users to add personal access tokens before they can create branches or pull and merge requests from Jira"
 ---
 
 > **Info:** This setting is part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'><b>General Settings</b></a> configuration page.

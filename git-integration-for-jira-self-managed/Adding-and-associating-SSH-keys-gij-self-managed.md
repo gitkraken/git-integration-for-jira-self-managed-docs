@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 50
     nav_parent: "working-with-ssh-keys-gij-self-managed"
     page_type: "content"
+    card_icon: "key"
+    card_color: "blue"
+    card_description: "Associate an SSH key with specific repositories, reuse one key across several repositories, and set keys up for custom git servers"
 ---
 
 <div class='embed-container embed-container--16-10'>

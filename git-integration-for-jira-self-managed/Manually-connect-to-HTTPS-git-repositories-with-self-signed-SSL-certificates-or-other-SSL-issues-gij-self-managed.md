@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "self-signed-https-integration-gij-self-managed"
     page_type: "content"
+    card_icon: "shield-lock"
+    card_color: "blue"
+    card_description: "Work around self-signed SSL certificate errors by cloning the repository manually, disabling http.sslVerify and connecting it via Advanced setup"
 ---
 
 When connecting to a private HTTPS git repository, a problem may be caused by a custom (self-signed) certificate. Make sure to install the latest JRE and then change the `JAVA_HOME` of Jira server.

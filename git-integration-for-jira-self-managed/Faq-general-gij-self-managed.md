@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "frequently-asked-questions-gij-self-managed"
     page_type: "content"
+    card_icon: "help-circle"
+    card_color: "purple"
+    card_description: "Learn what Git and Git Integration for Jira are, how Git and Jira work together, Jira version compatibility and how to find the Jira user name"
 ---
 
 This page contains frequently asked questions by users in general.

@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "working-with-ssh-keys-gij-self-managed"
     page_type: "content"
+    card_icon: "key"
+    card_color: "blue"
+    card_description: "Find guides for generating and configuring SSH keys on Beanstalk, Bitbucket, Gerrit, GitBlit, GitHub, GitLab, Gitolite and Azure DevOps"
 ---
 
 Configure and generate SSH keys for the following git hosting systems by following the reference links on each sub-section:

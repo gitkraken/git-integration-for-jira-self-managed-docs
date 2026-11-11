@@ -23,7 +23,7 @@ custom_fields:
     nav_label: "Team Insights for Jira Data Center"
     nav_order: 180
     nav_parent: ""
-    page_type: "content"
+    page_type: "index"
 ---
 
 ![](/wp-content/uploads/tij-datacenter-issues-view-start.png)
@@ -33,6 +33,8 @@ The Team Insights for Jira DC extension equips team managers with the tools to e
 Team Insights for Jira (TIJ) provides team managers with a comprehensive overview of their team's activities and progress. This allows managers to pinpoint any items that may be at risk based on the team's operation.
 
 &nbsp;
+
+---
 
 ### Compatibility
 

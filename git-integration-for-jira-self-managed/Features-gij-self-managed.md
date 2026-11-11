@@ -23,10 +23,12 @@ custom_fields:
     nav_label: "Features"
     nav_order: 80
     nav_parent: ""
-    page_type: "content"
+    page_type: "index"
 ---
 
 On this page you will find topics related to the supported features of the app.
+
+---
 
 *   [Manager permissions](/git-integration-for-jira-data-center/manager-permissions-gij-self-managed/)
 

@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 190
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "git-pull-request"
+    card_color: "red"
+    card_description: "Fix pull requests that stop indexing because of a broken pull request index and org.json.JSONException by removing and rebuilding the index folder"
 ---
 
 <!-- TROUBLESHOOTING -->

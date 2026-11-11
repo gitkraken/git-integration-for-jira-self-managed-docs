@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "getting-started-for-git-administrators-gij-self-managed"
     page_type: "content"
+    card_icon: "brand-gitlab"
+    card_color: "blue"
+    card_description: "Set the external_url in GitLab Server so it returns correct clone links, then connect GitLab repositories to Git Integration for Jira"
 ---
 
 In order for GitLab to display correct repository clone links to your users, it needs to know the URL under which it is reached by your users (e.g. `http://gitlab.example.com`)

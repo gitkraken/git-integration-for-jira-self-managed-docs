@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 70
     nav_parent: "working-with-ssh-keys-gij-self-managed"
     page_type: "content"
+    card_icon: "key"
+    card_color: "blue"
+    card_description: "Reconfigure repositories and SSH keys by removing old keys, restarting Jira and reconnecting with the private key through the Connect wizard"
 ---
 
 Perform the following steps to reconfigure repositories and SSH key:

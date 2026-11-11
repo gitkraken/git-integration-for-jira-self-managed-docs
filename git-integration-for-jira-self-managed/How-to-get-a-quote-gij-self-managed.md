@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "how-to-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "license"
+    card_color: "amber"
+    card_description: "Generate a Data Center quote for Git Integration for Jira on the Atlassian Marketplace, attached to an existing license or set manually"
 ---
 
 You can generate a quote for Git Integration for Jira Data Center by doing the following steps below.

@@ -23,7 +23,10 @@ custom_fields:
     nav_label: "General Settings"
     nav_order: 60
     nav_parent: "administration-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "settings"
+    card_color: "amber"
+    card_description: "Find where to open the General Settings page and browse the index of feature, performance and advanced settings for the app"
 ---
 
 > **Warning:** The General Settings page is only accessible to Jira Administrators.
@@ -31,6 +34,8 @@ custom_fields:
 The Git Integration for Jira app introduces the General Settings page which contains configuration options for performance and features.
 
 &nbsp;
+
+---
 
 ## Getting started
 

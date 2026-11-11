@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 160
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "alert-triangle"
+    card_color: "red"
+    card_description: "Fix indexing failures caused by Malformed input or unmappable characters by checking UTF-8 encoding and collation across Jira components"
 ---
 
 <!-- TROUBLESHOOTING -->

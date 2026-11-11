@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 250
     nav_parent: "documentation-gij-self-managed"
     page_type: "content"
+    card_icon: "server-2"
+    card_color: "blue"
+    card_description: "Learn how Git Integration for Jira works on clustered Jira Data Center: shared repositories, per-node indexes, node changes and the trustFolderStat setting"
 ---
 
 The Git Integration for Jira app supports the Data Center version of Jira. We recommend Jira 8 or higher for Data Center editions of Jira.

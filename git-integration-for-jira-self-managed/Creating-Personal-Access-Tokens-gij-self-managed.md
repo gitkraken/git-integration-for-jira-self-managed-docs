@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 120
     nav_parent: "how-to-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "lock-access"
+    card_color: "amber"
+    card_description: "Create personal access tokens for GitHub, GitLab, Azure DevOps, TFS and AWS CodeCommit, and update a token on an existing integration or repository"
 ---
 
 This page contains steps for creating personal access tokens (PATs) for specific git hosts. Use the table of contents to navigate to the selected git host.

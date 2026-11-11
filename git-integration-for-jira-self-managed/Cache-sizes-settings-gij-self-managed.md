@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 200
     nav_parent: "general-settings-gij-self-managed"
     page_type: "content"
+    card_icon: "settings"
+    card_color: "amber"
+    card_description: "Tune the revision, branch, and tag cache sizes Git Integration for Jira keeps in memory and estimate a good value for your instance"
 ---
 
 > **Info:** These settings are part of the <a href='/git-integration-for-jira-data-center/general-settings-gij-self-managed'><b>General Settings</b></a> configuration page.

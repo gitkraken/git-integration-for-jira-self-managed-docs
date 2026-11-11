@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "getting-started-for-git-administrators-gij-self-managed"
     page_type: "content"
+    card_icon: "gauge"
+    card_color: "blue"
+    card_description: "Improve Jira performance with General settings for Git tags, diff size limits, JQL search, smart commits, commit emails and the Git activity stream"
 ---
 
 &nbsp;

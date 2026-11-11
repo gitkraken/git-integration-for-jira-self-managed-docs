@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 50
     nav_parent: "working-with-jmespath-filters-gij-self-managed"
     page_type: "content"
+    card_icon: "filter"
+    card_color: "amber"
+    card_description: "Use example JMESPath expressions to include or exclude tracked folder repositories by name or full path"
 ---
 
 ![](/wp-content/uploads/tracked-folder-mobile-custom3.png)

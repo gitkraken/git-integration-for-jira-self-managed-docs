@@ -23,10 +23,15 @@ custom_fields:
     nav_label: "Integration Basics"
     nav_order: 10
     nav_parent: "integration-guides-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "plug-connected"
+    card_color: "green"
+    card_description: "Learn the basics of connecting Git repositories to Jira, linking commits, smart commits, and creating branches and pull requests"
 ---
 
 Learn basic integration for most git hosts by connecting git repositories to Jira Server via Git Integration for Jira app.
+
+---
 
 *   Connect single or multiple git repositories to Jira;
 

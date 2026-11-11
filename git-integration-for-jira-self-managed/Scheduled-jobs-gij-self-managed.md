@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 110
     nav_parent: "general-settings-gij-self-managed"
     page_type: "content"
+    card_icon: "settings"
+    card_color: "amber"
+    card_description: "Configure the repository reindex interval and garbage collection job interval using scanning intervals or cron expressions"
 ---
 
 <!-- GENERAL SETTINGS -->

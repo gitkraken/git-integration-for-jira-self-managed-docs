@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 110
     nav_parent: "getting-started-for-git-administrators-gij-self-managed"
     page_type: "content"
+    card_icon: "folder-search"
+    card_color: "blue"
+    card_description: "Use tracked folders to scan a local path on the Jira server and automatically import the Git repositories it contains"
 ---
 
 <!-- getting started -->

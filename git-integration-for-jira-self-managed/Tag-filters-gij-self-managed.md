@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 40
     nav_parent: "features-gij-self-managed"
     page_type: "content"
+    card_icon: "layout-sidebar-right"
+    card_color: "purple"
+    card_description: "Control which Git tags appear in the Jira issue Git integration panel with regex tag filters at integration or repository level"
 ---
 
 <!-- FEATURES -->

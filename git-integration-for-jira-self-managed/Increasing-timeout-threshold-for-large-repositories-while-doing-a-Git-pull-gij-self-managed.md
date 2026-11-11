@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 100
     nav_parent: "getting-started-for-git-administrators-gij-self-managed"
     page_type: "content"
+    card_icon: "gauge"
+    card_color: "blue"
+    card_description: "Avoid timeouts on large repositories by cloning them manually on the Jira server, connecting by local path and raising the Git operations timeout"
 ---
 
 For this workaround to work, the user must have an access to a Jira hosting instance:

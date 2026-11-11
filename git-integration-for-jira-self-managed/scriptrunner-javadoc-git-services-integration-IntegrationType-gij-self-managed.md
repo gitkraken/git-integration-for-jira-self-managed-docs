@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 120
     nav_parent: "scriptrunner-javadoc-git-services-gijfacade-gij-self-managed"
     page_type: "content"
+    card_icon: "code"
+    card_color: "purple"
+    card_description: "IntegrationType, the ScriptRunner API enumeration of the integration types Git Integration for Jira supports"
 ---
 
 * Package [com.bigbrassband.jira.git.services.integration](#)

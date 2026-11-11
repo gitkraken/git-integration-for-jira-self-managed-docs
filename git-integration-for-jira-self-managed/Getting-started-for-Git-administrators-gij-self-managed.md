@@ -23,12 +23,17 @@ custom_fields:
     nav_label: "Getting started for Git administrators"
     nav_order: 30
     nav_parent: "documentation-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "rocket"
+    card_color: "blue"
+    card_description: "Learn what a Git administrator must provide so Jira can clone and pull repositories over HTTP(S), SSH, Git protocol, local paths or network shares"
 ---
 
 <img src='/wp-content/uploads/gij-docs-introduction-bbb-overview_708.png' style='margin:25px auto;max-width:100%;display:block;' />
 
 &nbsp;
+
+---
 
 ### Welcome Git Admin!
 

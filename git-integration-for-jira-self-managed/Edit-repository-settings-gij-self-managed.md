@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 50
     nav_parent: "managing-repository-or-integration-configuration-gij-self-managed"
     page_type: "content"
+    card_icon: "database"
+    card_color: "blue"
+    card_description: "Change settings of a HOSTED, EXTERNAL or FOLDER repository connection, from repository root and main branch to smart commits and web linking"
 ---
 
 ![](/wp-content/uploads/gij-gitcfg-actions-edit-repository-settings.png)

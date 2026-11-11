@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "bulk-change-api-gij-self-managed"
     page_type: "content"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Import repository configuration from a TSV file with the Bulk Import REST API, confirm deletions, and check the field parameters"
 ---
 
 Starts the process of importing configuration and returns the result at once.

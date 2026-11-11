@@ -23,12 +23,17 @@ custom_fields:
     nav_label: "Integration API"
     nav_order: 20
     nav_parent: "rest-api-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Find the Integration REST API endpoints for adding, updating, removing and retrieving Git host integrations"
 ---
 
 Add or manage one or more repositories/integrations using the Integration REST API.
 
 Only Jira admins can perform the Integration API call.
+
+---
 
 ### Integration REST APIs
 

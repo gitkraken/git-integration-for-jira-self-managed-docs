@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 180
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "server-2"
+    card_color: "red"
+    card_description: "Fix repositories that fail to auto-deploy when the Jira shared home is on Azure Storage CIFS mounts by setting supportsatomicfilecreation in .gitconfig"
 ---
 
 <!-- TROUBLESHOOTING -->

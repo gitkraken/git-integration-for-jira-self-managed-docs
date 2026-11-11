@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 160
     nav_parent: "features-gij-self-managed"
     page_type: "content"
+    card_icon: "layout-sidebar-right"
+    card_color: "purple"
+    card_description: "Learn what the Git integration panel on a Jira issue shows and how a Jira administrator enables or disables it"
 ---
 
 > **Note:** By default, <a href='https://marketplace.atlassian.com/4984'>Git Integration for Jira</a> has the Git integration panel enabled. (<a href='#how-can-a-jira-administrator-enable-or-disable-the-issue-git-integration-development-panel'>How to disable?</a>)

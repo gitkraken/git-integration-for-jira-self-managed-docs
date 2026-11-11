@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "team-insights-for-jira-datacenter-gij-self-managed"
     page_type: "content"
+    card_icon: "chart-bar"
+    card_color: "blue"
+    card_description: "Use the Team Insights for Jira Issues View to review issue activity, sprint timelines and filter issues by activity, contributors and project"
 ---
 
 ![](/wp-content/uploads/tij-datacenter-issues-view-start.png)

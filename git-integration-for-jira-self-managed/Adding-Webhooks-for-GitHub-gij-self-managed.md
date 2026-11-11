@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "webhooks-gij-self-managed"
     page_type: "content"
+    card_icon: "brand-github"
+    card_color: "green"
+    card_description: "Add a GitHub repository webhook for push and pull request events so Git Integration for Jira indexes new commits and pull requests right away"
 ---
 
 > **Info:** Pull request webhooks are now supported. See <a href='#pull-request-webhooks'>details</a> on this page.

@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "repository-browser-gij-self-managed"
     page_type: "content"
+    card_icon: "folder-open"
+    card_color: "blue"
+    card_description: "Browse a repository's commits by branch in the Repository Browser, open commit diffs, change commit issues and page through the list"
 ---
 
 In the Repository Browser, select a repository then click the **Commits** tab.

@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "jira-git-integration-development-panel-gij-self-managed"
     page_type: "content"
+    card_icon: "git-pull-request"
+    card_color: "blue"
+    card_description: "See branches linked to a Jira issue in the development panel, create or delete branches, set up a user PAT and read ahead and behind commit counts"
 ---
 
 The **Branches** section lists the branches names, linking the selected branch to view via the Repository Browser.

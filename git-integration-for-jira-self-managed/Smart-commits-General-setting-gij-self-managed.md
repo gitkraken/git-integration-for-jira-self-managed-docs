@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 60
     nav_parent: "smart-commits-gij-self-managed"
     page_type: "content"
+    card_icon: "git-commit"
+    card_color: "blue"
+    card_description: "Set the Max commit age in General settings to limit which commits have their smart commit commands processed"
 ---
 
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>ADMINS</b>

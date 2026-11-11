@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "managing-repository-or-integration-configuration-gij-self-managed"
     page_type: "content"
+    card_icon: "database"
+    card_color: "blue"
+    card_description: "Use the Actions menu to reindex, edit settings, reset the index, remove or view logs for repositories, tracked folders, integrations and GitHub Apps"
 ---
 
 After integrating your repository or git host, a set of actions can be performed by clicking the ![](/wp-content/uploads/actions-icon.png) icon under the **Actions** column on the repository/integration configuration list.

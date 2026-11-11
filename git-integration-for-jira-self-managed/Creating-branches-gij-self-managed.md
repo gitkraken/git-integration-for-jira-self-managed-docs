@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 140
     nav_parent: "features-gij-self-managed"
     page_type: "content"
+    card_icon: "git-pull-request"
+    card_color: "purple"
+    card_description: "Create a Git branch directly from a Jira issue using the Git development panel, with the issue key added to the branch name"
 ---
 
 > **Warning:** <b>Jira administrator notes</b>

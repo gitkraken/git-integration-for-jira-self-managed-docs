@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 40
     nav_parent: "getting-started-guide-dc"
     page_type: "content"
+    card_icon: "rocket"
+    card_color: "purple"
+    card_description: "Explore optional Git Integration for Jira features and free add-ons, including Jira Automation triggers and the Team Insights for Jira extension"
 ---
 
 Congratulations! You have now successfully completed your base GIJ configuration.! The following features and free add-on extension applications are not necessary for the operation of GIJ, but do provide additional value on top of the base functionality, so we recommend that you explore them.

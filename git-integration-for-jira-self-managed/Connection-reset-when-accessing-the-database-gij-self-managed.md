@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 70
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "alert-triangle"
+    card_color: "red"
+    card_description: "Resolve sporadic Git Integration for Jira failures and stopped reindexing caused by Connection reset errors after a database reboot or network failure"
 ---
 
 <!-- TROUBLESHOOTING -->

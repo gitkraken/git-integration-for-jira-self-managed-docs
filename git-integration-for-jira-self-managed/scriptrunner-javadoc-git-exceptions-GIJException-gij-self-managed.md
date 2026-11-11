@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "gij-plus-scriptrunner-gij-self-managed"
     page_type: "content"
+    card_icon: "code"
+    card_color: "purple"
+    card_description: "GIJException, the public exception thrown by the Git Integration for Jira ScriptRunner API, with its constructors and inherited methods"
 ---
 
 * Package [com.bigbrassband.jira.git.exceptions](#)

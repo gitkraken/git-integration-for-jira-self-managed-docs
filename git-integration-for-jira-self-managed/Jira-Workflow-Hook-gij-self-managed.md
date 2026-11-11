@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "hooks-and-webhooks-gij-self-managed"
     page_type: "content"
+    card_icon: "git-merge"
+    card_color: "green"
+    card_description: "Use JavaScript workflow hooks as an alternative to smart commits to act on Jira issues, documented in the external GitHub repository"
 ---
 
 Use JavaScript as another workflow to operate Jira aside from Smart Commits.

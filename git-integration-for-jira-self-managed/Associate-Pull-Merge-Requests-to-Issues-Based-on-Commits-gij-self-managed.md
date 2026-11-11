@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 130
     nav_parent: "features-gij-self-managed"
     page_type: "content"
+    card_icon: "git-pull-request"
+    card_color: "purple"
+    card_description: "Link pull/merge requests to Jira issues based on their commits and configure the related pull/merge request indexing settings in General settings"
 ---
 
 <!-- This falls under Features sidenav -->

@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "managing-repository-or-integration-configuration-gij-self-managed"
     page_type: "content"
+    card_icon: "database"
+    card_color: "blue"
+    card_description: "Change an integration's connection settings such as display name, personal access token, SSL verify, TrustFolderStat, custom API path and JMESPath filters"
 ---
 
 The Edit integration connection settings page allows admins and managers to configure git settings such as displayed name, folder scanning and repository filter options.

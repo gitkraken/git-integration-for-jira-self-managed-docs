@@ -23,10 +23,15 @@ custom_fields:
     nav_label: "Bulk Change API"
     nav_order: 10
     nav_parent: "rest-api-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Automate import and export of repository configuration with the Bulk Change REST API using Python scripts and Jira admin credentials"
 ---
 
 The bulk change API extends the possibility of importing and exporting repository configuration by automating the process via scripts.
+
+---
 
 To use the API, users must:
 

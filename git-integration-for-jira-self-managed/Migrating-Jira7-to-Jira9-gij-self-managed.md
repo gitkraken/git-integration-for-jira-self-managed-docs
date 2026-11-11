@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "administration-gij-self-managed"
     page_type: "content"
+    card_icon: "arrow-big-up-lines"
+    card_color: "amber"
+    card_description: "Prepare Git Integration for Jira for a Jira 8 to Jira 9 upgrade by resetting repository indexes and adjusting the commit tab sort order"
 ---
 
 Upgrading from Jira 8 to Jira 9 provides new features, performance and stability. However, there are some small things that need to be considered for the transition.

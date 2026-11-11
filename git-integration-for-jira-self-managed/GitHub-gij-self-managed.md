@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "integration-guides-gij-self-managed"
     page_type: "content"
+    card_icon: "brand-github"
+    card_color: "green"
+    card_description: "Connect GitHub.com repositories to Jira Data Center with a personal access token, set organization permissions, and create branches and pull requests"
 ---
 
 > **Tip:** These instructions apply to instances on Free, Team, Cloud Enterprise (including <a href="https://docs.github.com/en/enterprise-cloud@latest/admin/managing-iam/understanding-iam-for-enterprises/about-enterprise-managed-users" target="_blank"><b>EMU</b></a>) plans hosted on GitHub.com.

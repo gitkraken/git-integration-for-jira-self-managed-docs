@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "installation-gij-self-managed"
     page_type: "content"
+    card_icon: "download"
+    card_color: "blue"
+    card_description: "Install Git Integration for Jira Data Center from the Jira Manage apps page by searching the Marketplace and starting a trial or buying the app"
 ---
 
 1.  On your Jira dashboard, go to  Jira Administration ➜ **Manage apps**.

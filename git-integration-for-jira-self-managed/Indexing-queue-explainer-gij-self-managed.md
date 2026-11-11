@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 100
     nav_parent: "administration-gij-self-managed"
     page_type: "content"
+    card_icon: "list-check"
+    card_color: "amber"
+    card_description: "Understand how the database-backed reindexing queue works in Data Center, including priorities, task skipping, webhook sleeping and logging"
 ---
 
 <!-- ADMINISTRATION -->

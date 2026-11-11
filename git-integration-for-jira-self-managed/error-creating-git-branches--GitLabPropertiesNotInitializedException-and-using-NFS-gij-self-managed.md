@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "git-pull-request"
+    card_color: "red"
+    card_description: "Fix GitLabPropertiesNotInitializedException and similar errors when creating branches by checking repo.auto.json and NFS file locking support"
 ---
 
 <!-- I'm removing the long word from the title because it just clips through the right pane of the HC page -->

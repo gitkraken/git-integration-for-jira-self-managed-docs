@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 50
     nav_parent: "documentation-gij-self-managed"
     page_type: "content"
+    card_icon: "database"
+    card_color: "blue"
+    card_description: "Check the default ports for ssh, git, http and https Git URLs and test the connection so Jira can reach your repositories through a firewall"
 ---
 If your Jira and Git servers are running through a firewall, configure the firewall to allow access using the URL schemes for git repositories. For authentication issues, make sure to check first the correct port for its connection.
 

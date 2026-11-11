@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "git-integration-plus-jira-automation-gij-self-managed"
     page_type: "content"
+    card_icon: "robot"
+    card_color: "purple"
+    card_description: "See screenshot examples of advanced Jira Automation rules that use Git Integration branch, commit and pull request triggers"
 ---
 
 [Git Integration + Jira Automation (Jira Server \| DC)](/git-integration-for-jira-data-center/git-integration-plus-jira-automation-gij-self-managed/) \> Advanced examples

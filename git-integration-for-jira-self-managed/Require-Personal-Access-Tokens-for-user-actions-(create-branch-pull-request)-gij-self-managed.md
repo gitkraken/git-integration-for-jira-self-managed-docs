@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 90
     nav_parent: "how-to-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "lock-access"
+    card_color: "amber"
+    card_description: "Require Jira users to provide their own personal access tokens for creating branches and pull requests, keeping user attribution"
 ---
 
 <!-- how to -->

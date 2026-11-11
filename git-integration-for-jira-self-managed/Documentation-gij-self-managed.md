@@ -23,7 +23,7 @@ custom_fields:
     nav_label: "Documentation"
     nav_order: 60
     nav_parent: ""
-    page_type: "content"
+    page_type: "index"
 ---
 
 <img src='/wp-content/uploads/gij-docs-introduction-bbb-overview_708.png' height=auto width=100% />

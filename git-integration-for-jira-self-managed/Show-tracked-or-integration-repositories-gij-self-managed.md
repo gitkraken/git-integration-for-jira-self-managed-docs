@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "managing-repository-or-integration-configuration-gij-self-managed"
     page_type: "content"
+    card_icon: "database"
+    card_color: "blue"
+    card_description: "Open the list of repositories inside a tracked folder or integration, filter it, and enable or disable individual repositories"
 ---
 
 On the <b>Manage Git Repositories</b> page, click the <img src='/wp-content/uploads/actions-icon.png' /> icon under the <b>Actions</b> column then select:

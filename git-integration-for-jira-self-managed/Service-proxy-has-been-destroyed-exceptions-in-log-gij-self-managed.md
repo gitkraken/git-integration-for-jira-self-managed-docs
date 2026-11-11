@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 220
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "alert-triangle"
+    card_color: "red"
+    card_description: "Fix Service proxy has been destroyed errors by updating UPM, then re-enabling or reinstalling the app and cleaning up old plugin folders"
 ---
 
 <!-- TROUBLESHOOTING -->

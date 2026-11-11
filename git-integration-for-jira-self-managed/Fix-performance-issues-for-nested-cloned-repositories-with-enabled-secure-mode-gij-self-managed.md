@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "gauge"
+    card_color: "red"
+    card_description: "Fix slow performance and high CPU on GIJ 4.19 and earlier when Git Service Permissions mode is on and nested repositories fail to clone during reindex"
 ---
 
 <!-- TROUBLESHOOTING -->

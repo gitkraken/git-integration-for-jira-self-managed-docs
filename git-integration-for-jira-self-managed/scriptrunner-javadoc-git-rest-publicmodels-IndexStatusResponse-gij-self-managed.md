@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "scriptrunner-javadoc-git-services-gijfacade-gij-self-managed"
     page_type: "content"
+    card_icon: "code"
+    card_color: "purple"
+    card_description: "IndexStatusResponse, the ScriptRunner API model that reports the status of a reindex"
 ---
 
 * Package [com.bigbrassband.jira.git.rest.publicmodels](#)

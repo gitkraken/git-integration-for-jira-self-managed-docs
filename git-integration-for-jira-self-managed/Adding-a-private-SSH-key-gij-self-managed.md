@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "working-with-ssh-keys-gij-self-managed"
     page_type: "content"
+    card_icon: "key"
+    card_color: "blue"
+    card_description: "Add a private SSH key, with an optional passphrase, on the SSH keys page of the Git Integration for Jira configuration"
 ---
 
 ![Manage git integration for jira highlighting sidebar SSH keys menu item](/wp-content/uploads/gij-gitserver-add-ssh-keys.png)

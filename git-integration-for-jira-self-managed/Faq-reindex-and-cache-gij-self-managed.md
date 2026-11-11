@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 110
     nav_parent: "frequently-asked-questions-gij-self-managed"
     page_type: "content"
+    card_icon: "refresh"
+    card_color: "purple"
+    card_description: "Answers to questions about what reindexing does, controlling and triggering reindex, rebuilding plugin indexes and clearing the app cache manually"
 ---
 
 This page contains related questions about git notes, reindex tracking and control.

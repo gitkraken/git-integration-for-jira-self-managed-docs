@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 80
     nav_parent: "webhooks-gij-self-managed"
     page_type: "content"
+    card_icon: "webhook"
+    card_color: "green"
+    card_description: "Install the Gerrit webhooks plugin and add or manually trigger webhooks so Git Integration for Jira reindexes Gerrit repositories"
 ---
 <img src='/wp-content/uploads/gij-gerrit-webhook-banner.png' width=510 height=117 style='display:block;margin:25px auto;max-width:!00%' />
 

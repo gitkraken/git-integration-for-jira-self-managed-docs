@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "list-check"
+    card_color: "red"
+    card_description: "Use the Indexing Queue Viewer to find stuck indexing tasks, track integration index progress, check node reindexing and find repositories in error state"
 ---
 
 <!-- TROUBLESHOOTING -->

@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 70
     nav_parent: "scriptrunner-javadoc-git-services-gijfacade-gij-self-managed"
     page_type: "content"
+    card_icon: "code"
+    card_color: "purple"
+    card_description: "Tag, the ScriptRunner API model for Git tag information"
 ---
 
 * Package [com.bigbrassband.jira.git.rest.publicmodels](#)

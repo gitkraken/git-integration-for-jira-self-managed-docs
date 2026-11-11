@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "webhooks-gij-self-managed"
     page_type: "content"
+    card_icon: "webhook"
+    card_color: "green"
+    card_description: "Send a webhook POST with the repository origin URL and secret key to queue reindexing of a single repository instead of all of them"
 ---
 
 To create a webhook that triggers the reindex of a single repository, the following requirements are required::

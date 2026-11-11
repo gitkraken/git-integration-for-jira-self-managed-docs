@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 60
     nav_parent: "getting-started-for-git-administrators-gij-self-managed"
     page_type: "content"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Call the Reindex REST API to start reindexing with a POST request or check reindex status for one or all repositories with GET"
 ---
 
 <!-- getting started for git admins -->

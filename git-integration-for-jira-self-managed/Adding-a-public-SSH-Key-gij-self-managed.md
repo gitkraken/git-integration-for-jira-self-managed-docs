@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "working-with-ssh-keys-gij-self-managed"
     page_type: "content"
+    card_icon: "key"
+    card_color: "blue"
+    card_description: "Add a public SSH key to your remote git host so its repositories can be connected to Git Integration for Jira over SSH"
 ---
 
 Add a public SSH key to your remote git host to prepare its repositories for connection with the Git Integration for Jira app.

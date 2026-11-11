@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 120
     nav_parent: "frequently-asked-questions-gij-self-managed"
     page_type: "content"
+    card_icon: "download"
+    card_color: "purple"
+    card_description: "Learn how to reinstall, fully uninstall and delete data for Git Integration for Jira, clean up old plugin jar files and remove old indexing services"
 ---
 
 This page contains related questions about installation management of Git Integration for Jira add-on.

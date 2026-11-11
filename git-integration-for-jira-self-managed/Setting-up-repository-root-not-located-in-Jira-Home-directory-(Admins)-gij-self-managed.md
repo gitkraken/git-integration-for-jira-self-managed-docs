@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 50
     nav_parent: "getting-started-for-git-administrators-gij-self-managed"
     page_type: "content"
+    card_icon: "database"
+    card_color: "blue"
+    card_description: "Set up a repository root outside the Jira Home directory by cloning externally, moving a cloned repository, or symlinking the git-plugin directory"
 ---
 
 There are three possible ways to setup a repository root that is not located in the Jira home directory:

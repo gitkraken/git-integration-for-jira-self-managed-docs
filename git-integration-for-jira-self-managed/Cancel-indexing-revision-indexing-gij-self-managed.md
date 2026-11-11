@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "features-gij-self-managed"
     page_type: "content"
+    card_icon: "refresh"
+    card_color: "purple"
+    card_description: "Cancel a running or queued reindex from the Indexing queue viewer and learn how canceling affects initial indexing and Data Center nodes"
 ---
 
 <b style='background-color:#E2FCEF; padding:1px 5px; color:#006745; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.23+</b> <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b>

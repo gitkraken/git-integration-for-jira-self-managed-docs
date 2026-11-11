@@ -23,7 +23,7 @@ custom_fields:
     nav_label: "Troubleshooting articles"
     nav_order: 150
     nav_parent: ""
-    page_type: "content"
+    page_type: "index"
 ---
 
 <!-- TROUBLESHOOTING -->
@@ -31,6 +31,8 @@ custom_fields:
 This page contains a list of troubleshooting articles, workarounds and solutions to common issues while using Git Integration for Jira Server/Data Center app.
 
 &nbsp;
+
+---
 
 ### REPOSITORY / INTEGRATION
 

@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 90
     nav_parent: "getting-started-for-git-administrators-gij-self-managed"
     page_type: "content"
+    card_icon: "webhook"
+    card_color: "blue"
+    card_description: "Enable webhooks in Git Integration for Jira and find or regenerate the webhook URL and secret key for your Git host"
 ---
 
 Before you can use webhooks, it needs to be enabled in the Git Integration for Jira webhook settings.

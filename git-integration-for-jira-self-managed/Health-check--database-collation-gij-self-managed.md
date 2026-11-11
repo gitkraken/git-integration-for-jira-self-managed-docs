@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 120
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "alert-triangle"
+    card_color: "red"
+    card_description: "Fix Git Integration for Jira errors caused by an unsupported database collation flagged by the Jira health check, for MySQL, SQL Server, PostgreSQL and Oracle"
 ---
 
 ### Problem

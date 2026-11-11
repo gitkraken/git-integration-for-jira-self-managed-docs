@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 130
     nav_parent: "scriptrunner-javadoc-git-services-gijfacade-gij-self-managed"
     page_type: "content"
+    card_icon: "code"
+    card_color: "purple"
+    card_description: "Branch, the ScriptRunner API model for Git branch information"
 ---
 <!-- The Branch link is flagged as 404 by web crawlers. This is intended as is. -->
 

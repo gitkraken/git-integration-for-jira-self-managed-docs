@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 100
     nav_parent: "features-gij-self-managed"
     page_type: "content"
+    card_icon: "lock"
+    card_color: "purple"
+    card_description: "See what Jira users experience when Git service permissions are enforced and how to enter a personal access token to view Git data"
 ---
 
 <!-- features -->

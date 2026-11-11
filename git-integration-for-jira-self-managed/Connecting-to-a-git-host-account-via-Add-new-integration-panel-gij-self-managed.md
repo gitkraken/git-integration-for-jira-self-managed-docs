@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "integration-basics-gij-self-managed"
     page_type: "content"
+    card_icon: "plug-connected"
+    card_color: "green"
+    card_description: "Connect multiple repositories from a Git host account to Jira using the Add new integration panel, then set Require User PAT and project permissions"
 ---
 
 This process requires a git host account (e.g. GitHub/GitLab/VSTS etc.) Use the Add new integration panel in Jira Cloud/Server to connect git repositories from git hosts to Jira. This is the recommended way of integrating your multiple git repositories to Jira.

@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 80
     nav_parent: "frequently-asked-questions-gij-self-managed"
     page_type: "content"
+    card_icon: "git-commit"
+    card_color: "purple"
+    card_description: "Learn how to use the Git Commits tab to see whether work started on an issue, who worked on it, what changed and why commits miss the activity stream"
 ---
 
 This page contains related questions on Git Integration for Jira add-on user experience in Jira.

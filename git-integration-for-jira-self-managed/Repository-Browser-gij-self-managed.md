@@ -23,7 +23,10 @@ custom_fields:
     nav_label: "Repository Browser"
     nav_order: 140
     nav_parent: "documentation-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "folder-open"
+    card_color: "blue"
+    card_description: "Browse Git repositories, branches, files and latest commits from Jira with the Repository Browser, available to users with View Development Tools permission"
 ---
 
 The **Repository Browser** allows users to view git repositories of configured projects via the **Git** menu on the Jira dashboard or on the **Applications** sidebar.

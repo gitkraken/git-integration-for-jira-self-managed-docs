@@ -23,12 +23,17 @@ custom_fields:
     nav_label: "Repository API"
     nav_order: 30
     nav_parent: "rest-api-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Find the Repository REST API endpoints for listing, adding, updating and deleting repositories in the app configuration"
 ---
 
 **Updated: February 14, 2020**
 
 The Repository REST API allows query of the project repository list; as well as adding, updating and deleting repositories from the Git add-on repository configuration.
+
+---
 
 ### Repository REST APIs
 

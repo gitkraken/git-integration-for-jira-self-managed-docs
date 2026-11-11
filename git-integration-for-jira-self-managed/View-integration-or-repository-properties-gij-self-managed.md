@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 80
     nav_parent: "managing-repository-or-integration-configuration-gij-self-managed"
     page_type: "content"
+    card_icon: "database"
+    card_color: "blue"
+    card_description: "View the basic properties of a connected repository or integration, such as status, last indexed time, host URL, root and origin"
 ---
 <img src='/wp-content/uploads/gij-gitserver-gitmgr-view-details-01.png' style='display:block;margin:25px auto;max-width:100%' />
 

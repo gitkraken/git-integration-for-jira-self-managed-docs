@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 40
     nav_parent: "repository-api-gij-self-managed"
     page_type: "content"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Update the settings of an existing repository with a PUT call to the Repository REST API, with every parameter explained"
 ---
 
 Updates the existing repository from the given settings.

@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 240
     nav_parent: "documentation-gij-self-managed"
     page_type: "content"
+    card_icon: "webhook"
+    card_color: "blue"
+    card_description: "Enable webhooks and use the webhook URL and secret key so remote Git hosts can trigger an immediate reindex of your repositories in Jira"
 ---
 
 Trigger immediate reindex of your repositories from remote systems via webhooks. For more information about this topic, see [About GitLab Webhooks](https://gitlab.com/gitlab-org/gitlab-ce/blob/master/doc/web_hooks/web_hooks.md).

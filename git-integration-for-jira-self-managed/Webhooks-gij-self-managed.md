@@ -23,7 +23,10 @@ custom_fields:
     nav_label: "Webhooks – Features"
     nav_order: 40
     nav_parent: "hooks-and-webhooks-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "webhook"
+    card_color: "green"
+    card_description: "Learn what webhooks do, enable them in Git Integration for Jira, copy the webhook URL and tune advanced settings to trigger instant reindexing"
 ---
 
 <!-- hooks and webhooks -->

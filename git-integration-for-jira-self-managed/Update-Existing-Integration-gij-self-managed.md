@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 40
     nav_parent: "integration-api-gij-self-managed"
     page_type: "content"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Update the settings of an existing integration, including project mapping, with a PUT call to the Integration REST API"
 ---
 
 Updates the existing parameters of the specified integration.

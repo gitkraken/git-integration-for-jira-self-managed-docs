@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "bulk-change-api-gij-self-managed"
     page_type: "content"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Export the app repository configuration to a TSV file with the Bulk Export REST API and edit the file using the column reference"
 ---
 
 The API returns a file with the plugin configuration.

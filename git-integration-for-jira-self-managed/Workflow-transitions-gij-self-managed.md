@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "smart-commits-gij-self-managed"
     page_type: "content"
+    card_icon: "git-commit"
+    card_color: "blue"
+    card_description: "Learn how smart commits map to workflow transition and status names, which characters are valid, and how admins should name transitions"
 ---
 
 The simple Jira workflow does not contain explicit transition names. These kind of workflow with no explicit transition names are becoming more popular as Atlassian is suggesting them to administrators upon project creation.

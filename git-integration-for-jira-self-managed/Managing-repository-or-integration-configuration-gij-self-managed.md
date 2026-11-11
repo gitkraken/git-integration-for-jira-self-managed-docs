@@ -23,7 +23,10 @@ custom_fields:
     nav_label: "Managing repository or integration configuration"
     nav_order: 100
     nav_parent: "setting-up-repositories-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "database"
+    card_color: "blue"
+    card_description: "Understand the columns of the repository and integration list, including status values, and where to manage connections via Actions"
 ---
 
 Manage connected repositories or integration via the ![](/wp-content/uploads/actions-icon.png) **Actions** commands on the git configuration page.

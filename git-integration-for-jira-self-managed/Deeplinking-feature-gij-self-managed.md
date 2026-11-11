@@ -23,7 +23,10 @@ custom_fields:
     nav_label: "Deep linking feature"
     nav_order: 60
     nav_parent: "features-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "external-link"
+    card_color: "purple"
+    card_description: "Learn how deep linking lets you open repositories, commits, branches and tags from Jira in the GitKraken Git client or GitLens"
 ---
 
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b>
@@ -38,6 +41,8 @@ We've added the ability to deep link from repositories, commits, branches, and t
 GitKraken supports deep linking into Git Integration for Jira as well. To learn more about this feature, see [GitKraken Integrations: Git Integration for Jira](https://support.gitkraken.com/integrations/git-integration-for-jira/).
 
 GitLens 13.3 introduced deep linking support and Git Integration for Jira allows users to open commit, tags and repository links into GitLens. To learn more about this feature, see [GitLens Deep Linking support](https://help.gitkraken.com/gitlens/gitlens-release-notes-current/#deep-linking-support).
+
+---
 
 ## See topics about deep linking integration
 

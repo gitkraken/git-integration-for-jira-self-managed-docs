@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 60
     nav_parent: "rest-api-gij-self-managed"
     page_type: "content"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Get the list of Git branches associated with a Jira issue through the Branches REST API, with request formats and example responses"
 ---
 
 The Branches REST API will obtain list of branches associated to a Jira issue.

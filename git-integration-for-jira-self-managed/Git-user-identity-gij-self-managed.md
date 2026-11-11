@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 160
     nav_parent: "documentation-gij-self-managed"
     page_type: "content"
+    card_icon: "user"
+    card_color: "blue"
+    card_description: "Configure your Git user name and email so commits display with the matching Jira user profile link and avatar in Git Integration for Jira"
 ---
 
 A git user can identify himself on his local computer using the following commands:

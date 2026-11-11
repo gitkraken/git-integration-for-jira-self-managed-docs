@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 100
     nav_parent: "documentation-gij-self-managed"
     page_type: "content"
+    card_icon: "world-www"
+    card_color: "blue"
+    card_description: "Configure web linking so commits in the Git Commits tab link to your Git host pages, with supported hosts and custom URL formats"
 ---
 
 The web linking feature adds links to your git hosting provider directly into the _**Git Commits**_ tab. Configure web linking options while adding/editing repository settings so that commits can include links to the git host pages.

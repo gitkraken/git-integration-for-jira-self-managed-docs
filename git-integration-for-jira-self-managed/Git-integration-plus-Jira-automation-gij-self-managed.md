@@ -23,7 +23,10 @@ custom_fields:
     nav_label: "Git Integration + Jira Automation"
     nav_order: 90
     nav_parent: "features-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "robot"
+    card_color: "purple"
+    card_description: "Set up Jira Automation rules that trigger on Git branch, commit and pull request events, at project or global level"
 ---
 
 <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 4.3+</b><br>

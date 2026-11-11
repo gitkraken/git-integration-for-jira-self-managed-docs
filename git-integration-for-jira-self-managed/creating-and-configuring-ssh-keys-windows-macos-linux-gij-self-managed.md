@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 80
     nav_parent: "how-to-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "key"
+    card_color: "amber"
+    card_description: "Generate an RSA PEM SSH key pair on Windows, macOS or Linux, add the public key to your Git host and the private key to the app"
 ---
 
 <!-- how tos -->

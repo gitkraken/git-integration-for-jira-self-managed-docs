@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 80
     nav_parent: "general-settings-gij-self-managed"
     page_type: "content"
+    card_icon: "settings"
+    card_color: "amber"
+    card_description: "Choose which Git Integration for Jira events are written to the Jira audit log and how to view them, with notes on database performance"
 ---
 
 > **Tip:** <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px; font-size: small;'>VERSION 3.8+</b>&nbsp; <b style='background-color:#FFF1B6; padding:1px 5px; color:#172A4C; border-radius:3px; margin: 0 5px; font-size: small;'>NEW FEATURE</b>

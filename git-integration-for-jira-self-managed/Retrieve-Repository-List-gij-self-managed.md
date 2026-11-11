@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "repository-api-gij-self-managed"
     page_type: "content"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Get the list of repositories mapped to a Jira project, or all repositories, with the Retrieve Repository List REST API"
 ---
 
 Retrieves list of repositories mapped to a given project.

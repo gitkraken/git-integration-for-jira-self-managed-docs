@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 70
     nav_parent: "integration-guides-gij-self-managed"
     page_type: "content"
+    card_icon: "brand-azure"
+    card_color: "green"
+    card_description: "Connect Azure DevOps Services or VSTS repositories to Jira Data Center with a personal access token, then link commits and create branches and pull requests"
 ---
 
 > **Info:** Using <b>Jira Cloud</b>? <a href='/git-integration-for-jira-cloud/azure-devops-visual-studio-team-services-vsts-gij-cloud'>See the corresponding article</a>.

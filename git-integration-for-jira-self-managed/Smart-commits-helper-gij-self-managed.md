@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 50
     nav_parent: "smart-commits-gij-self-managed"
     page_type: "content"
+    card_icon: "git-commit"
+    card_color: "blue"
+    card_description: "Read the smart commit helper indicators next to commits to see whether a commit was processed as a smart commit or failed with an error"
 ---
 
 The smart commit helper is available at the following locations in Jira:

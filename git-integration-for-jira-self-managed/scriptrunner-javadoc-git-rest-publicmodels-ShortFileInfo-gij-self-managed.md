@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 60
     nav_parent: "scriptrunner-javadoc-git-services-gijfacade-gij-self-managed"
     page_type: "content"
+    card_icon: "code"
+    card_color: "purple"
+    card_description: "Commit.ShortFileInfo, the ScriptRunner API model for the file changes in a commit"
 ---
 
 * Package [com.bigbrassband.jira.git.rest.publicmodels](#)

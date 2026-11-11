@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 230
     nav_parent: "documentation-gij-self-managed"
     page_type: "content"
+    card_icon: "search"
+    card_color: "blue"
+    card_description: "Use the gitCommitsReferenced and gitBranch JQL fields to filter Jira issues by linked Git commits and branches, and learn the 65,000 issue limit"
 ---
 
 The Git Integration for Jira app has added JQL operators and fields to query Jira using JQL and git context via the Jira search. Our custom fields serve as additional criteria that allow you to filter Jira issues based on associated Git branches and commit references.

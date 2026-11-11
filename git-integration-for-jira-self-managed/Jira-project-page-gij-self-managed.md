@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 210
     nav_parent: "documentation-gij-self-managed"
     page_type: "content"
+    card_icon: "git-commit"
+    card_color: "blue"
+    card_description: "View the Git Commits tab on a Jira project page to browse commit history across the project or for a selected version, and open code diffs"
 ---
 
 The Project page allows you to manage project related options.

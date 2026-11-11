@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "jira-git-integration-development-panel-gij-self-managed"
     page_type: "content"
+    card_icon: "layout-sidebar-right"
+    card_color: "blue"
+    card_description: "Find where the Git development panel appears in Jira: on the right pane of Issue and Search pages and in the issue detail view on Agile boards"
 ---
 
 ### Issue and Search pages

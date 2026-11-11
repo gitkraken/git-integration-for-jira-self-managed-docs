@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 90
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "alert-triangle"
+    card_color: "red"
+    card_description: "Fix Duplicate entry 0 for key PRIMARY exceptions by removing NO_AUTO_VALUE_ON_ZERO from the MySQL sql_mode and reinstalling the app"
 ---
 
 <!-- TROUBLESHOOTING -->

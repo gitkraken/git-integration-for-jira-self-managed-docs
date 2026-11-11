@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 100
     nav_parent: "frequently-asked-questions-gij-self-managed"
     page_type: "content"
+    card_icon: "help-circle"
+    card_color: "purple"
+    card_description: "Learn how to create a Jira support zip, enable debug logging for the app and for GitHub, and find the Jira log files to send to support"
 ---
 This page contains related questions about troubleshooting using Jira logs.
 

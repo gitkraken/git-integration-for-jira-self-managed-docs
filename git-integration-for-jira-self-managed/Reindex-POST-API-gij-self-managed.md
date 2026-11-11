@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "reindex-api-gij-self-managed"
     page_type: "content"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Start a reindex of one or all repositories, with optional priority, using the Reindex POST REST API"
 ---
 
 Starts the reindex process in a separate thread and returns the result immediately.

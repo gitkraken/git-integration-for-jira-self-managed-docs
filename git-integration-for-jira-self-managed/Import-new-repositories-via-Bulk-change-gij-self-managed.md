@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 40
     nav_parent: "bulk-change-gij-self-managed"
     page_type: "content"
+    card_icon: "table-import"
+    card_color: "blue"
+    card_description: "Download the Bulk change template file to prepare a TSV for importing new repository configurations into Git Integration for Jira"
 ---
 
 Before you can add new repository configuration via bulk change, you need to download the template file:

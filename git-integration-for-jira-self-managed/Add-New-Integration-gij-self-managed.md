@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "integration-api-gij-self-managed"
     page_type: "content"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Add a new Git host integration to the repository configuration with a POST call to the Integration REST API, with every request parameter explained"
 ---
 
 Adds a new integration to the git configuration list via the API call.

@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "features-gij-self-managed"
     page_type: "content"
+    card_icon: "lock"
+    card_color: "purple"
+    card_description: "Grant non-admin Jira users manager permissions to configure the Git Integration for Jira app through a Jira global permission and group"
 ---
 
 <div class='embed-container embed-container--16-9'>

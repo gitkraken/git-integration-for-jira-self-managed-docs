@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 40
     nav_parent: "administration-gij-self-managed"
     page_type: "content"
+    card_icon: "arrow-big-up-lines"
+    card_color: "amber"
+    card_description: "Upgrade or migrate Jira on the same server, including Jira home path changes and Server to Data Center moves, without losing repository settings"
 ---
 
 <!-- ADMINISTRATION -->

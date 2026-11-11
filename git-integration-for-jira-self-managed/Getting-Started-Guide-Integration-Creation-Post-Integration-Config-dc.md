@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 30
     nav_parent: "getting-started-guide-dc"
     page_type: "content"
+    card_icon: "rocket"
+    card_color: "purple"
+    card_description: "Create your Git integrations in stages, then configure display names, required user PATs, Git service permissions and the reindex interval"
 ---
 ## Integration Creation
 ---

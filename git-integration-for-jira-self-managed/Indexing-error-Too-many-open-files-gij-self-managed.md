@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 130
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "refresh"
+    card_color: "red"
+    card_description: "Fix repositories that stop indexing with Too many open files errors by increasing the number of file handles available to Jira"
 ---
 
 <!-- TROUBLESHOOTING -->

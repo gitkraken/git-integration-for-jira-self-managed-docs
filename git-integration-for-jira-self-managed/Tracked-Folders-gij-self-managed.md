@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 140
     nav_parent: "integration-guides-gij-self-managed"
     page_type: "content"
+    card_icon: "folder-search"
+    card_color: "green"
+    card_description: "Import Git repositories from a local path on the Jira server with tracked folders, including folder depth, JMESPath filters and NFS setup"
 ---
 
 <!-- integration guide -->

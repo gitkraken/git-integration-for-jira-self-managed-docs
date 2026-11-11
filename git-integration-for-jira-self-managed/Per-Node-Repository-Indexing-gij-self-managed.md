@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 120
     nav_parent: "general-settings-gij-self-managed"
     page_type: "content"
+    card_icon: "server-2"
+    card_color: "amber"
+    card_description: "Choose which Jira Data Center nodes run Git Integration for Jira repository reindexing so other nodes can focus on user or API traffic"
 ---
 
 <b style='background-color:#EAE5FE; padding:1px 5px; color:#412C92; border-radius:3px; margin: 0 5px 0 0; font-size: small;'>NEW FEATURE</b>

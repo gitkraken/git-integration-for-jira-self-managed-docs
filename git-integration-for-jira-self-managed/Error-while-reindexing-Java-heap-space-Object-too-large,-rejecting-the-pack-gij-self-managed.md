@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 100
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "refresh"
+    card_color: "red"
+    card_description: "Resolve reindex errors for Git objects over 2GB by cleaning repository history, moving large files to Git LFS, or filtering the repository out"
 ---
 
 <!-- TROUBLESHOOTING -->

@@ -23,7 +23,10 @@ custom_fields:
     nav_label: "Working with SSH keys"
     nav_order: 40
     nav_parent: "documentation-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "key"
+    card_color: "blue"
+    card_description: "Generate RSA SSH key pairs on Windows, Linux or macOS and add the private key to Git Integration for Jira to connect repositories securely"
 ---
 
 SSH keys are required in order to provide secure connection with the remote git host. The Git Integration for Jira app uses one set of keys for accessing all configured repositories.

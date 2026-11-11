@@ -23,7 +23,7 @@ custom_fields:
     nav_label: "REST API"
     nav_order: 120
     nav_parent: ""
-    page_type: "content"
+    page_type: "index"
 ---
 
 Welcome to the Git Integration for Jira app REST API reference page index.

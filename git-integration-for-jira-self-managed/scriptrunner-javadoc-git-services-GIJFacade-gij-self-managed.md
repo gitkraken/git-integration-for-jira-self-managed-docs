@@ -23,7 +23,10 @@ custom_fields:
     nav_label: "Interface GIJFacade"
     nav_order: 10
     nav_parent: "gij-plus-scriptrunner-gij-self-managed"
-    page_type: "content"
+    page_type: "index"
+    card_icon: "code"
+    card_color: "purple"
+    card_description: "GIJFacade, the main interface for Git Integration for Jira ScriptRunner scripts, with every method for repositories, integrations, branches and reindexing"
 ---
 
 * Package [com.bigbrassband.jira.git.services](#)

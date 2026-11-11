@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 150
     nav_parent: "general-settings-gij-self-managed"
     page_type: "content"
+    card_icon: "settings"
+    card_color: "amber"
+    card_description: "Set the loose object and packed file limits that trigger garbage collection on cloned repositories in Git Integration for Jira"
 ---
 
 <!-- GENERAL SETTINGS -->

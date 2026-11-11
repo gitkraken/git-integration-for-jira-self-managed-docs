@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 60
     nav_parent: "integration-api-gij-self-managed"
     page_type: "content"
+    card_icon: "api"
+    card_color: "blue"
+    card_description: "Get the parameter details of a single integration by its ID with the Retrieve an Integration REST API"
 ---
 
 Retrieves the parameter details of an integration from the git repository configuration.

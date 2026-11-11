@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 250
     nav_parent: "troubleshooting-articles-gij-self-managed"
     page_type: "content"
+    card_icon: "alert-triangle"
+    card_color: "red"
+    card_description: "Fix the Unexpected exception parsing XML document from URL error that can stop the app from enabling by clearing the corrupted Jira plugins cache"
 ---
 
 <!-- TROUBLESHOOTING -->

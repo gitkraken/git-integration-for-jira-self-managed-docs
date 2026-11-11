@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 150
     nav_parent: "documentation-gij-self-managed"
     page_type: "content"
+    card_icon: "file-diff"
+    card_color: "blue"
+    card_description: "Open the commit code diff dialog from the Repository Browser, project Git Commits tab or issue Git tabs and expand hidden lines"
 ---
 
 Access the commit code diff dialog via the following locations:

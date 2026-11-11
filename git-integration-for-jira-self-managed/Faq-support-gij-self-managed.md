@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 130
     nav_parent: "frequently-asked-questions-gij-self-managed"
     page_type: "content"
+    card_icon: "lifebuoy"
+    card_color: "purple"
+    card_description: "Answers to support questions on Unicode and CJK language support and which Jira versions Git Integration for Jira supports"
 ---
 
 This page contains helpful topics related to Git Integration for Jira app support.

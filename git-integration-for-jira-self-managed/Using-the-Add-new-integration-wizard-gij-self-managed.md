@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "setting-up-repositories-gij-self-managed"
     page_type: "content"
+    card_icon: "plug-connected"
+    card_color: "blue"
+    card_description: "Learn what the Add new integration panel does for connecting git hosts with multiple repositories and where to find it"
 ---
 
 The Add new integration panel (_formerly Auto-Connect integration panel_) contains special integration for specific git hosts, supports multiple connected repositories and automates git integration.

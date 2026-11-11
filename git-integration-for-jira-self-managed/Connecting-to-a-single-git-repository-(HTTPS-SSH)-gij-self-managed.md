@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 20
     nav_parent: "integration-basics-gij-self-managed"
     page_type: "content"
+    card_icon: "database"
+    card_color: "green"
+    card_description: "Connect one Git repository to Jira over HTTPS or SSH with the Connect Wizard, including authentication and smart commit settings"
 ---
 
 ![](wp-content/uploads/gij-gitlab-repository-home.png)

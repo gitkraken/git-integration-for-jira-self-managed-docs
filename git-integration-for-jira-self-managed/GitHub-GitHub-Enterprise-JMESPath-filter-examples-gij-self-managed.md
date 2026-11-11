@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 10
     nav_parent: "working-with-jmespath-filters-gij-self-managed"
     page_type: "content"
+    card_icon: "brand-github"
+    card_color: "amber"
+    card_description: "Use example JMESPath expressions to include or exclude GitHub.com and GitHub Enterprise repositories by name when adding an integration"
 ---
 
 ![](/wp-content/uploads/gij-github-mobile-logo-dark.png)

@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 50
     nav_parent: "administration-gij-self-managed"
     page_type: "content"
+    card_icon: "arrow-big-up-lines"
+    card_color: "amber"
+    card_description: "Migrate Jira with Git Integration for Jira to a different server, with steps to take before and after following the Atlassian guide"
 ---
 
 <!-- ADMINISTRATION -->
