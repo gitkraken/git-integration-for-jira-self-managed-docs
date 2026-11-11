@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 140
     nav_parent: ""
     page_type: "content"
+    home_group: "links"
+    home_order: 60
+    card_description: "Problems that are known to occur with some configurations and their accompanying workarounds"
 ---
 
 The Git Integration for Jira app is packed with features that makes Jira administrators and developers happy. However, with different hardware configurations out there, these great features can also become burdened by issues.

@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 110
     nav_parent: ""
     page_type: "index"
+    home_group: "links"
+    home_order: 70
+    card_description: "All about hooks!"
 ---
 
 Welcome to the Git Integration for Jira app hooks and webhooks reference page index for Jira Data Center.

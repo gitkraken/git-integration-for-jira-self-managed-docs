@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 90
     nav_parent: ""
     page_type: "index"
+    home_group: "links"
+    home_order: 40
+    card_description: "Learn how to do common setups and workflows"
 ---
 
 Read through our collection of how-to guides which will show you the recommended process of working with the Git Integration for Jira app repository connection features.

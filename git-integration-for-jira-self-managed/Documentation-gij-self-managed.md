@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 60
     nav_parent: ""
     page_type: "index"
+    home_group: "links"
+    home_order: 80
+    card_description: "Learn more about Git Integration for Jira Server/Data Center app and how to easily install it and learn how to use its features"
 ---
 
 <img src='/wp-content/uploads/gij-docs-introduction-bbb-overview_708.png' height=auto width=100% />

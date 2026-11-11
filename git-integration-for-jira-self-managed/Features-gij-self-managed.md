@@ -24,6 +24,9 @@ custom_fields:
     nav_order: 80
     nav_parent: ""
     page_type: "index"
+    home_group: "links"
+    home_order: 10
+    card_description: "Learn more about all of the offered features"
 ---
 
 On this page you will find topics related to the supported features of the app.
