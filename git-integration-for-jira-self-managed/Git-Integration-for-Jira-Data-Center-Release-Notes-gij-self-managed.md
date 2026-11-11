@@ -212,7 +212,7 @@ Additionally, the PR/MR will still be linked to the Jira issue even if users did
 
 The following settings are implemented in the **Manage git repositories** page ➜ **General settings** under **Git pull/merge requests**.
 
-![](/wp-content/uploads/gij-gitserverdc-general-settings-branch-pull-req-421.png)
+![](/wp-content/uploads/gij-gitserverdcr-general-settings-branch-pull-req-421.png)
 
 For more information, follow [**this article**](/git-integration-for-jira-data-center/associate-pull-merge-requests-to-issues-based-on-commits-gij-self-managed).
 

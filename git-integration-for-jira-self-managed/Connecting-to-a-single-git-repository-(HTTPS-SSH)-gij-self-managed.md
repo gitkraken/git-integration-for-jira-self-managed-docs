@@ -26,7 +26,7 @@ custom_fields:
     page_type: "content"
 ---
 
-![](wp-content/uploads/gij-gitlab-repository-home.png)
+![](/wp-content/uploads/gij-gitserver-gitlab-clone-home-repo-url.png)
 
 This process requires an existing git host repository. Obtain the **HTTPS** or **SSH** git clone URL from the repository home of your git host service.
 

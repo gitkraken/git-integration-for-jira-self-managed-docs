@@ -67,7 +67,7 @@ custom_fields:
 
 1.  Configure webhook by logging in to your Bitbucket:
 
-    ![](/wp-content/uploads/webhooks-bitbucket-add-shooks-c.png)
+    ![](/wp-content/uploads/gij-webhooks-bitbucket-add-shooks-c.png)
 
 2.  Open a project by clicking on it.
 
