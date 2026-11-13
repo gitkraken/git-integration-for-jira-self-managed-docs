@@ -30,8 +30,6 @@ custom_fields:
     card_description: "Start here as a Jira admin to learn what Git Integration for Jira Data Center shows in Jira issues and which security policies to consider before setup"
 ---
 
-## Application Overview
-
 Thank you for choosing Git Integration for Jira for Data Center (GIJ)! This guide provides Jira Admins with crucial information for deciding the most effective configuration of Git Integration for Jira.
 
 Consider GIJ a "set it and forget it" app and Jira Admins who read each page of this guide can expect to *save days of configuration rework*. With that, let's get crackin!
